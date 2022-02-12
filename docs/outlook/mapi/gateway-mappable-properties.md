@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 3a51ee7e-d030-4f04-915b-ff8bd351207d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7fd8608dbe8d0e848778121204ca04b4529e83e2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 37d39a8f485f90c4e28382d23e60149a303072da
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630830"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789206"
 ---
 # <a name="gateway-mappable-properties"></a>Propriétés mappables de la passerelle
 
@@ -37,10 +37,10 @@ Il s’agit de l’ensemble des propriétés d’adressan associées aux destina
   
 |**Jeu de propriétés**|**Description**|
 |:-----|:-----|
-|PS_ROUTING_DISPLAY_NAME  <br/> |Contient des propriétés de chaîne utilisées comme noms d’affichage.  <br/> |
-|PS_ROUTING_EMAIL_ADDRESSES  <br/> |Contient des propriétés de chaîne utilisées comme adresses de messagerie.  <br/> |
-|PS_ROUTING_ADDRTYPE  <br/> |Contient des propriétés de chaîne utilisées comme types d’adresse de messagerie.  <br/> |
-|PS_ROUTING_ENTRYID  <br/> |Contient des propriétés binaires utilisées comme identificateurs d’entrée à long terme.  <br/> |
-|PS_ROUTING_SEARCH_KEY  <br/> |Contient des propriétés binaires utilisées comme clés de recherche.  <br/> |
+|PS_ROUTING_DISPLAY_NAME  <br/> |Contient des propriétés de chaîne utilisées comme noms d’affichage. |
+|PS_ROUTING_EMAIL_ADDRESSES  <br/> |Contient des propriétés de chaîne utilisées comme adresses de messagerie. |
+|PS_ROUTING_ADDRTYPE  <br/> |Contient des propriétés de chaîne utilisées comme types d’adresse de messagerie. |
+|PS_ROUTING_ENTRYID  <br/> |Contient des propriétés binaires utilisées comme identificateurs d’entrée à long terme. |
+|PS_ROUTING_SEARCH_KEY  <br/> |Contient des propriétés binaires utilisées comme clés de recherche. |
    
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e3f501a4-a8ee-43d7-bd83-c94e7980c398
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 056ecfceca567b80ea3ed96d6ed95d0c851921a0
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: e3e963255d72ccdde1de4dccab378f7561a013ca
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462578"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788527"
 ---
 # <a name="imapipropgetidsfromnames"></a>IMAPIProp::GetIDsFromNames
 
@@ -118,7 +118,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::FindAllNamedPropsUsed  <br/> |MFCMAPI utilise la méthode **IMAPIProp::GetIDsFromNames** pour obtenir des balises de propriété pour toutes les propriétés nommées qui ont été mappées.  <br/> |
+|SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::FindAllNamedPropsUsed  <br/> |MFCMAPI utilise la méthode **IMAPIProp::GetIDsFromNames** pour obtenir des balises de propriété pour toutes les propriétés nommées qui ont été mappées. |
    
 ## <a name="see-also"></a>Voir aussi
 

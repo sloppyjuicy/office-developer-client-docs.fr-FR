@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: ce193ce1-c7fd-6609-ad37-a3a28b30a1bd
 description: Arrondit un nombre à l’integer suivant.
-ms.openlocfilehash: 3402429d7037f020b10ac7f28a5fb5bcdeb566e6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 54a89fb74b8824ad143012eed181d089706733e2
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623452"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788905"
 ---
 # <a name="intup-function"></a>Fonction INTUP
 
@@ -28,7 +28,7 @@ INTUP(** *number* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatoire  <br/> |**Number** <br/> |Nombre à arrondir à la valeur supérieure  <br/> |
+| _number_ <br/> |Requis  <br/> |**Number** <br/> |Nombre à arrondir à la valeur supérieure |
    
 ## <a name="example-1"></a>Exemple 1
 

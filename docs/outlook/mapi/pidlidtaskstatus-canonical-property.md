@@ -1,5 +1,5 @@
 ---
-title: Propri t canonique PidLidTaskStatus
+title: Propriété canonique PidLidTaskStatus
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - COM
 ms.assetid: 809776b7-ff00-4a52-84b9-8b5fb5f5c3e3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 81735da55afa5c6e7ed76ecf785dbe1b74b73d5c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4ae2972ea62b9e9d93cf8d7ffa09d7ed5396eccd
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595426"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787673"
 ---
-# <a name="pidlidtaskstatus-canonical-property"></a>Propri t canonique PidLidTaskStatus
+# <a name="pidlidtaskstatus-canonical-property"></a>Propriété canonique PidLidTaskStatus
 
   
   
@@ -41,11 +41,11 @@ La valeur de cette propriété doit être définie sur l’une des valeurs suiva
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |L’utilisateur n’a pas commencé à travailler sur la tâche. Si cette valeur est définie, **dispidPercentComplete** ([PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)) doit être 0,0.  <br/> |
-|0x00000001  <br/> |Le travail de l’utilisateur sur cette tâche est en cours. Si cette valeur est définie, **dispidPercentComplete** doit être supérieure à 0.0 et inférieure à 1.0.  <br/> |
-|0x00000002  <br/> |Le travail de l’utilisateur sur cette tâche est terminé. Si cette valeur est définie, **dispidPercentComplete** doit être 1.0, **dispidTaskDateCompleted** ([PidLidTaskDateCompleted](pidlidtaskdatecompleted-canonical-property.md)) doit être la date actuelle et **dispidTaskComplete** ([PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)) doit être TRUE.  <br/> |
-|0x00000003  <br/> |L’utilisateur attend une autre personne.  <br/> |
-|0x00000004  <br/> |L’utilisateur a différé le travail sur la tâche.  <br/> |
+|0x00000000  <br/> |L’utilisateur n’a pas commencé à travailler sur la tâche. Si cette valeur est définie, **dispidPercentComplete** ([PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)) doit être 0,0. |
+|0x00000001  <br/> |Le travail de l’utilisateur sur cette tâche est en cours. Si cette valeur est définie, **dispidPercentComplete** doit être supérieure à 0.0 et inférieure à 1.0. |
+|0x00000002  <br/> |Le travail de l’utilisateur sur cette tâche est terminé. Si cette valeur est définie, **dispidPercentComplete** doit être 1.0, **dispidTaskDateCompleted** ([PidLidTaskDateCompleted](pidlidtaskdatecompleted-canonical-property.md)) doit être la date actuelle et **dispidTaskComplete** ([PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)) doit être TRUE. |
+|0x00000003  <br/> |L’utilisateur attend une autre personne. |
+|0x00000004  <br/> |L’utilisateur a différé le travail sur la tâche. |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -89,11 +89,11 @@ Mapidefs.h
 
 
 
-[Propri t canonique PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)
+[Propriété canonique PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)
   
 [Propriété canonique PidLidTaskDateCompleted](pidlidtaskdatecompleted-canonical-property.md)
   
-[Propri t canonique PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)
+[Propriété canonique PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)
 
 
 [Propriétés MAPI](mapi-properties.md)

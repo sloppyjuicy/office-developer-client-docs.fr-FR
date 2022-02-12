@@ -9,16 +9,16 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 5a90cb16-7eef-8876-8e25-408787b16f58
 description: Renvoie un nombre integer entre 0 et 59 qui représente le composant minutes de date/heure ou d’expression .
-ms.openlocfilehash: b57eae5388969461056e6d2fe00b5e1035e8a24b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8972aa72e7fc1e4a0e8cd9130f71301ee4a48ba3
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59594516"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62786107"
 ---
 # <a name="minute-function-visioshapesheet"></a>MINUTE Function (VisioShapeSheet)
 
-Renvoie un nombre integer entre 0 et 59 qui représente le composant minutes de  *date/heure*  ou  *d’expression*  . 
+Renvoie un nombre integer entre 0 et 59 qui représente le composant minutes de *date/* heure ou d’expression . 
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,9 +28,9 @@ MINUTE( » *datetime*  « |  *expression*  [,  *lcid*  ])
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _datetime_ <br/> |Obligatoire  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  <br/> |
-| _expression_ <br/> |Obligatoire  <br/> |**String** <br/> | Toute expression qui génère une date et une heure.  <br/> |
-| _lcid_ <br/> |Facultatif  <br/> |**Number** <br/> |Identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système.  <br/> |
+| _datetime_ <br/> |Requis  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure. |
+| _expression_ <br/> |Requis  <br/> |**String** <br/> | Toute expression qui génère une date et une heure. |
+| _lcid_ <br/> |Facultatif  <br/> |**Number** <br/> |Identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -40,7 +40,7 @@ Entier
 
 Le composant date dans  _l’heure et_  _l’expression_ est ignoré. 
   
-Aucun arrondissement n’est effectué. Si  _la date/heure_ est manquante ou ne peut pas être convertie en un résultat valide, la fonction renvoie une erreur. 
+Aucun arrondissement n’est effectué. Si  _la date/_ heure est manquante ou ne peut pas être convertie en un résultat valide, la fonction renvoie une erreur. 
   
 La valeur renvoyée est formatée selon le format horaire défini dans les paramètres régionaux actuels de votre système d’exploitation.
   

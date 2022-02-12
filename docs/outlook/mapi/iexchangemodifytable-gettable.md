@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 97df32c4-07c6-41f1-84e7-c6e87d396e34
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 25a58769e464ec70bf859f09c7947b9861f16133
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3de6587b20fdb2e4930eeb73283071faaeca4072
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561522"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789178"
 ---
 # <a name="iexchangemodifytablegettable"></a>IExchangeModifyTable::GetTable
 
@@ -63,7 +63,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnRefreshView  <br/> |MFCMAPI utilise la **méthode IExchangeModifyTable::GetTable** pour obtenir une table de règles.  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::OnRefreshView  <br/> |MFCMAPI utilise la **méthode IExchangeModifyTable::GetTable** pour obtenir une table de règles. |
    
 ## <a name="see-also"></a>Voir aussi
 

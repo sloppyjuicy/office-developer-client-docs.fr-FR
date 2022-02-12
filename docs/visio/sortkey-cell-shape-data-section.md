@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 67fa5389-f0b9-a9db-8d19-9b16e256dfa3
 description: Produit une chaîne qui détermine l’ordre dans lequel les éléments de la fenêtre Données de forme sont présentés.
-ms.openlocfilehash: dc777cf087ba64ba96374e9363eb202be03a9060
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8a9c30c9873a56de2f55bd9dacb8cf17915ee0bc
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627379"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788716"
 ---
 # <a name="sortkey-cell-shape-data-section"></a>SortKey, cellule (section Shape Data)
 
@@ -45,7 +45,7 @@ Pour obtenir une référence à la cellule SortKey par index dans un programme, 
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionProp** <br/> |
-| Index de la ligne :  <br/> |**visRowProp**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visCustPropsSortKey** <br/> |
    
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bb7ccb45-ce08-4d22-9259-db15cd267e34
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dff7b95c0fe95b4f06eae8bf787ee5e8170bff71
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2c39ff11d5d0de578b0b3940ba56d3b555aa250c
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629696"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789080"
 ---
 # <a name="pidtagtodoitemflags-canonical-property"></a>Propriété canonique PidTagToDoItemFlags
 
@@ -41,9 +41,9 @@ Cette propriété est un champ de bits dans lequel chaque bit doit être défini
 ||||
 |:-----|:-----|:-----|
 |Valeur numérique  <br/> |Nom  <br/> |Description  <br/> |
-|Non présent  <br/> |N/A  <br/> |Non survolé  <br/> |
-|1  <br/> |todoTimeFlagged  <br/> |L’objet est marqué au moment de l’heure  <br/> |
-|8   <br/> |todoRecipientFlagged  <br/> |Ne doit être définie que sur un objet de brouillon de message, ce qui signifie que l’objet est marqué pour les destinataires.  <br/> |
+|Non présent  <br/> |N/A  <br/> |Non retardé  <br/> |
+|1  <br/> |todoTimeFlagged  <br/> |L’objet est marqué à l’heure  <br/> |
+|8   <br/> |todoRecipientFlagged  <br/> |Ne doit être définie que sur un objet de brouillon de message, ce qui signifie que l’objet est marqué pour les destinataires. |
    
 Tous les bits qui ne sont pas spécifiés dans le tableau sont réservés. Elles doivent être ignorées, mais doivent être conservées si elles sont définies.
   

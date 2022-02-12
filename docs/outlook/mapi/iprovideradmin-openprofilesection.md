@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b73cf770-8817-4a23-bd14-7b76fedef214
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 21cfb68a187743dc8db14c198eff03ca9bba5618
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ae99ccca36aee64ae9bfd40c444dbb8d2c81e3e0
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620547"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783956"
 ---
 # <a name="iprovideradminopenprofilesection"></a>IProviderAdmin::OpenProfileSection
 
@@ -40,11 +40,11 @@ HRESULT OpenProfileSection(
 
  _lpUID_
   
-> [in] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l’identificateur unique de la section de profil à ouvrir. Les clients ne doivent pas transmettre null pour _le paramètre lpUID._ Les fournisseurs de services peuvent transmettre la valeur NULL pour récupérer **le MAPIUID** lorsqu’ils appellent à partir de leurs fonctions de point d’entrée de service de message. 
+> [in] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l’identificateur unique de la section de profil à ouvrir. Les clients ne doivent pas transmettre null pour  _le paramètre lpUID_ . Les fournisseurs de services peuvent transmettre la valeur NULL pour récupérer **le MAPIUID** lorsqu’ils appellent à partir de leurs fonctions de point d’entrée de service de message. 
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à la section de profil. La transmission DE NULL entraîne le retour de l’interface standard de la section de profil **(IProfSect).** 
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à la section de profil. La transmission DE NULL entraîne le retour de l’interface standard (**IProfSect**) de la section de profil. 
     
  _ulFlags_
   
@@ -70,7 +70,7 @@ MAPI_FORCE_ACCESS
 
 S_OK 
   
-> La section profil a été ouverte avec succès.
+> La section de profil a été ouverte avec succès.
     
 MAPI_E_NO_ACCESS 
   
@@ -84,13 +84,13 @@ MAPI_E_NOT_FOUND
 
 La **méthode IProviderAdmin::OpenProfileSection** ouvre une section de profil, permettant à l’appelant de lire des informations dans le profil actif et éventuellement d’écrire des informations dans celui-ci. 
   
-Les clients ne peuvent pas ouvrir les sections de profil appartenant à des fournisseurs à l’aide de la méthode **OpenProfileSection.** 
+Les clients ne peuvent pas ouvrir les sections de profil appartenant à des fournisseurs à l’aide de la méthode **OpenProfileSection** . 
   
 Plusieurs clients ou fournisseurs de services peuvent ouvrir simultanément une section de profil avec une autorisation en lecture seule. Toutefois, lorsqu’une section de profil est ouverte avec une autorisation de lecture/écriture, aucun autre appel ne peut être effectué pour ouvrir la section, quel que soit le type d’accès. Si une section de profil est ouverte avec une autorisation en lecture seule, un appel ultérieur pour demander une autorisation de lecture/écriture échouera avec MAPI_E_NO_ACCESS. De même, si une section est ouverte avec une autorisation de lecture/écriture, un appel ultérieur pour demander une autorisation en lecture seule échouera également. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si vous demandez **qu’OpenProfileSection** ouvre une section de profil inexistante en passant des MAPI_MODIFY dans  _ulFlags_ et un **MAPIUID** inconnu dans  _lpUID,_ la section de profil est créée. 
+Si vous demandez à **OpenProfileSection** d’ouvrir une section de profil inexistante en passant des MAPI_MODIFY dans  _ulFlags_ et un **MAPIUID** inconnu dans  _lpUID_, la section de profil est créée. 
   
 Si vous demandez **qu’OpenProfileSection** ouvre une section inexistante avec une autorisation en lecture seule, elle renvoie MAPI_E_NOT_FOUND. 
   
@@ -100,7 +100,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI utilise la méthode **IProviderAdmin::OpenProfileSection** pour ouvrir une section de profil à partir du profil actuel.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI utilise la méthode **IProviderAdmin::OpenProfileSection** pour ouvrir une section de profil à partir du profil actuel. |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 47533e6e-0a48-af61-a0c2-b2cec140ae4b
 description: Identifie une ou plusieurs colonnes de clé primaire dans le recordset de données.
-ms.openlocfilehash: 3d537c0f8cf808da5ce8490fd584420b0a6e72b4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4d2984e105fa2f56536d69f4618cb88a25ac5f64
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627680"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784621"
 ---
 # <a name="primarykey-element-datarecordset_type-complextype-visio-xml"></a>Élément PrimaryKey (DataRecordSet_Type complexType) (Visio XML)
 
@@ -36,24 +36,24 @@ Identifie une ou plusieurs colonnes de clé primaire dans le recordset de donné
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Stocke, met en forme, actualise et expose dans Microsoft Visio les données qui ont fait l’objet d’une requête dans une base de données.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Stocke, met en forme, actualise et expose dans Microsoft Visio les données qui ont fait l’objet d’une requête dans une base de données. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |Spécifie la valeur de ce composant de la clé primaire pour une ligne individuelle d’un recordset. Il DOIT y avoir au moins une occurrence de cet élément enfant.  <br/> |
+|[RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |Spécifie la valeur de ce composant de la clé primaire pour une ligne individuelle d’un recordset. Il DOIT y avoir au moins une occurrence de cet élément enfant. |
    
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnNameID  <br/> |xsd:string  <br/> |facultatif  <br/> |Spécifie le nom d’un champ qui est un composant de la clé primaire. Il DOIT s’agit de la valeur de l’attribut **ColumnNameID** d’un DataColumn_Type descendant du DataRecordSet_Type dont la clé primaire est spécifiée.  <br/> |Valeurs du type xsd:string.  <br/> |
+|ColumnNameID  <br/> |xsd:string  <br/> |facultatif  <br/> |Spécifie le nom d’un champ qui est un composant de la clé primaire. Il DOIT s’agit de la valeur de l’attribut **ColumnNameID** d’un DataColumn_Type descendant du DataRecordSet_Type dont la clé primaire est spécifiée. |Valeurs du type xsd:string. |
    
 

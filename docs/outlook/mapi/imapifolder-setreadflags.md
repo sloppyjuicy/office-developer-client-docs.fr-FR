@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 95a40c8a-0a8b-46c7-a07a-cbc6a7de8a3c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 69eaaf4e2f4997af48013760e843c56a044c435e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ec663247b0fffdbef5109ebdf8d77fc0469cd359
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610607"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784138"
 ---
 # <a name="imapifoldersetreadflags"></a>IMAPIFolder::SetReadFlags
 
@@ -42,23 +42,23 @@ _lpMsgList_
     
 _ulUIParam_
   
-> [in] Handle vers la fenêtre parent de l’indicateur de progression. Le _paramètre ulUIParam_ est ignoré, sauf si l’MESSAGE_DIALOG est définie dans _le paramètre ulFlags._ 
+> [in] Handle vers la fenêtre parent de l’indicateur de progression. Le  _paramètre ulUIParam_ est ignoré, sauf si l’MESSAGE_DIALOG est définie dans _le paramètre ulFlags_ . 
     
 _lpProgress_
   
-> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress,_ le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’MESSAGE_DIALOG est définie dans  _ulFlags_.
+> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress_, le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’MESSAGE_DIALOG est définie dans  _ulFlags_.
     
 _ulFlags_
   
 > [in] Masque de bits d’indicateurs qui contrôle la définition de l’indicateur de lecture d’un message et le traitement des rapports de lecture. Les indicateurs suivants peuvent être définies :
     
-  - CLEAR_READ_FLAG : l’indicateur MSGFLAG_READ doit être  effacé dans PR_MESSAGE_FLAGS et un rapport de lecture ne doit pas être envoyé. 
+  - CLEAR_READ_FLAG : l’indicateur MSGFLAG_READ doit être effacé dans PR_MESSAGE_FLAGS et un rapport  de lecture ne doit pas être envoyé. 
         
-  - CLEAR_NRN_PENDING : l’indicateur MSGFLAG_NRN_PENDING doit être effacé  dans PR_MESSAGE_FLAGS et un rapport non lu ne doit pas être envoyé. 
+  - CLEAR_NRN_PENDING : l’indicateur MSGFLAG_NRN_PENDING doit être effacé dans PR_MESSAGE_FLAGS et un rapport non  lu ne doit pas être envoyé. 
         
-  - CLEAR_RN_PENDING : l’indicateur MSGFLAG_RN_PENDING doit être  effacé dans PR_MESSAGE_FLAGS et un rapport de lecture ne doit pas être envoyé. 
+  - CLEAR_RN_PENDING : l’indicateur MSGFLAG_RN_PENDING doit être effacé dans PR_MESSAGE_FLAGS et un rapport de  lecture ne doit pas être envoyé. 
         
-  - GENERATE_RECEIPT_ONLY : un rapport de lecture doit être envoyé s’il est en attente, mais l’état de l’indicateur MSGFLAG_READ ne doit pas changer.
+  - GENERATE_RECEIPT_ONLY : un rapport de lecture doit être envoyé s’il est en attente, mais l’état de l’indicateur MSGFLAG_READ ne doit pas être changé.
         
   - MAPI_DEFERRED_ERRORS : permet à **SetReadFlags** de renvoyer correctement, éventuellement avant la fin de l’opération. 
         
@@ -78,7 +78,7 @@ MAPI_E_NO_SUPPRESS
     
 MAPI_E_INVALID_PARAMETER 
   
-> L’une des combinaisons d’indicateurs incompatibles suivantes est définie dans le  _paramètre ulFlags_ : 
+> L’une des combinaisons d’indicateurs incompatibles suivantes est définie dans le _paramètre ulFlags_ : 
     
    - SUPPRESS_RECEIPT | CLEAR_READ_FLAG 
     
@@ -88,7 +88,7 @@ MAPI_E_INVALID_PARAMETER
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> L’appel a réussi, mais tous les messages n’ont pas été correctement traitées. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
+> L’appel a réussi, mais tous les messages n’ont pas été correctement traitées. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED’avertissement** . Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
@@ -108,11 +108,11 @@ L’indicateur de lecture ne peut pas être modifié pour les raisons suivantes 
     
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Vous pouvez décider de ne pas prendre en charge l’envoi de rapports de lecture et la demande de suppression des rapports de lecture. Pour éviter la suppression d’un rapport de lecture, renvoyez MAPI_E_NO_SUPPRESS lorsque **SetReadFlags** est appelé avec SUPPRESS_RECEIPT définie dans le _paramètre ulFlags._ 
+Vous pouvez décider de ne pas prendre en charge l’envoi de rapports de lecture et la demande de suppression des rapports de lecture. Pour éviter la suppression d’un rapport de lecture, renvoyez MAPI_E_NO_SUPPRESS lorsque **SetReadFlags** est appelé avec SUPPRESS_RECEIPT définie dans le _paramètre ulFlags_ . 
   
 Lorsque le  _paramètre lpMsgList_ pointe vers plusieurs messages, effectuez l’opération aussi complètement que possible pour chaque message. N’arrêtez pas l’opération prématurément, sauf si une défaillance dépasse votre contrôle, par exemple un manque de mémoire, un manque d’espace disque ou une altération de la magasin de messages. 
   
-Si aucun des indicateurs n’est paramétré dans  _le paramètre ulFlags,_ les règles suivantes s’appliquent : 
+Si aucun des indicateurs n’est paramétré dans _le paramètre ulFlags_ , les règles suivantes s’appliquent : 
   
 - Si MSGFLAG_READ est déjà définie, ne faites rien.
     
@@ -124,7 +124,7 @@ Lorsque l’SUPPRESS_RECEIPT est définie, les règles suivantes s’appliquent 
     
 - Si MSGFLAG_READ n’est pas définie, définissez-la et annulez les rapports de lecture en attente.
     
-Lorsque l’CLEAR_READ_FLAG est définie, effacer l’indicateur MSGFLAG_READ dans la  propriété PR_MESSAGE_FLAGS de chaque message et n’envoyez aucun rapport de lecture. 
+Lorsque l’CLEAR_READ_FLAG est définie, effacer l’indicateur MSGFLAG_READ dans la propriété PR_MESSAGE_FLAGS de chaque message et n’envoyez aucun rapport de lecture. 
   
 Lorsque l’GENERATE_RECEIPT_ONLY est définie, envoyez les rapports de lecture en attente. Ne pas définir ou effacer les MSGFLAG_READ.
   
@@ -136,9 +136,9 @@ Attendez-vous à ce que ces valeurs de retour se placent dans les conditions sui
   
 |**Condition**|**Valeur renvoy�e**|
 |:-----|:-----|
-|**SetReadFlags a** correctement traitée chaque message.  <br/> |S_OK  <br/> |
-|**SetReadFlags n’a** pas pu traiter correctement chaque message.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
-|**SetReadFlags n’a** pas pu se terminer.  <br/> |Toute valeur d’erreur à l’exception MAPI_E_NOT_FOUND  <br/> |
+|**SetReadFlags a** correctement traitée chaque message. |S_OK  <br/> |
+|**SetReadFlags n’a** pas pu traiter correctement chaque message. |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
+|**SetReadFlags n’a** pas pu se terminer. |Toute valeur d’erreur à l’exception MAPI_E_NOT_FOUND  <br/> |
    
 Lorsque **SetReadFlags ne** parvient pas à se terminer, ne supposez pas qu’aucun travail n’a été effectué. **SetReadFlags** a peut-être pu définir ou effacer l’MSGFLAG_READ pour un ou plusieurs des messages avant de rencontrer l’erreur. 
   
@@ -148,7 +148,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |MFCMAPI utilise la méthode **IMAPIFolder::SetReadFlags** pour définir manuellement l’état de lecture sur les messages spécifiés.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |MFCMAPI utilise **la méthode IMAPIFolder::SetReadFlags** pour définir manuellement l’état de lecture sur les messages spécifiés. |
    
 ## <a name="see-also"></a>Voir aussi
 

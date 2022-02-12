@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6d328b1c-8d92-eb1a-7317-7dd85c674ff9
 description: Indique l’intitulé que les utilisateurs voient s’afficher dans la fenêtre  Données de forme. Un intitulé se compose de caractères alphanumériques dont le caractère de soulignement (_).
-ms.openlocfilehash: 352e113e685a4952f31334947f81d16b0358f375
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ffef4a6fe2bbb983ddbc7701c3aa904d8207e866
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618720"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788898"
 ---
 # <a name="label-cell-shape-data-section"></a>Label, cellule (section Shape Data)
 
@@ -37,7 +37,7 @@ Pour obtenir une référence à la cellule Label à l'aide d'un index à partir 
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionProp** <br/> |
-|Index de la ligne :  <br/> |**visRowProp**  +   *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
 |Index de la cellule :  <br/> |**visCustPropsLabel** <br/> |
    
 

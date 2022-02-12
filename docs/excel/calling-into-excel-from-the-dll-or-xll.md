@@ -1,19 +1,19 @@
 ---
 title: Appel dans Excel à partir du fichier DLL ou XLL
 manager: lindalu
-ms.date: 01/22/2022
+ms.date: 02/09/2022
 ms.audience: Developer
 ms.topic: overview
 keywords:
 - boîtes de dialogue [excel 2007], invocation des commandes excel, DLL [Excel 2007], appel dans Excel, passage d'arguments aux fonctions de l'API C [Excel 2007], commandes [Excel 2007], invocation avec des boîtes de dialogue, des commandes [Excel 2007], accessible depuis DLL/XLL, fonction Excel4 [Excel 2007],fonction Excel12 [Excel  2007], fonction XLCallVer [Excel 2007], argument operRes [Excel 2007], fonctions [Excel 2007], accessible de DLL/XLL,Excel12v fonction [Excel 2007],seules fonctions DLL [Excel 2007],C API [Excel 2007], passer les arguments, compter les arguments [Excel 2007], commandes [Excel  2007], passer les arguments, compter les arguments [Excel 2007], versions internationales [Excel 2007], appeler des fonctions et des commandes, XLLs [Excel 2007], appel dans Excel, fonction 4v d'Excel [Excel 2007], argument xlfn [Excel 2007], fonctions [Excel  2007], appel dans les versions internationales
 ms.assetid: 616e3def-e4ec-4f3c-bc65-3b92710da1e6
 ms.localizationpriority: high
-ms.openlocfilehash: 4f0fa6e3fb788eb86340a8dff92301b5ad0bf4d7
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: 02531dfdc970f208fab71869b72500fccb9f7051
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198869"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789325"
 ---
 # <a name="calling-into-excel-from-the-dll-or-xll"></a>Appel dans Excel à partir du fichier DLL ou XLL
 
@@ -27,7 +27,7 @@ Excel permet � vos DLL d�acc�der aux commandes et fonctions au moyen des f
   
 Les fonctions **Excel4** et **Excel4v** ont �t� introduites dans Excel�4. Elles travaillent avec la structure de donn�es **XLOPER**. Excel 2007 a introduit deux nouvelles fonctions de rappel, **Excel12** et **Excel12v**, travaillant avec la structure de donn�es **XLOPER12**. Les fonctions **Excel4** et **Excel4v** sont export�es par la biblioth�que Xlcall32.lib, qui doit �tre incluse dans votre projet DLL ou XLL. **Excel12** et **Excel12v** sont inclus dans le fichier source C++ du SDK, Xlcall.cpp, devant �tre ins�r� dans votre projet si vous souhaitez acc�der aux fonctionnalit�s Excel � l�aide de structures **XLOPER12**.
   
-Le code suivant repr�sente les prototypes pour ces quatre fonctions. Les trois premiers arguments sont identiques, sauf que le deuxi�me argument est un pointeur vers une **XLOPER** dans la premi�re paire et un pointeur vers une **XLOPER12** dans la seconde paire. La convention d�appel est **_cdecl** dans **Excel4** et **Excel12** pour autoriser les listes d�arguments de variable. Les points de suspension repr�sentent les valeurs **XLOPER** pour **Excel4** et les valeurs **XLOPER12** pour **Excel12**. Le nombre de pointeurs est �gal � la valeur du param�tre  _count_.
+Le code suivant représente les prototypes pour ces quatre fonctions. Les trois premiers arguments sont identiques, sauf que le deuxième argument est un pointeur vers une **XLOPER** dans la première paire et un pointeur vers une **XLOPER12** dans la seconde paire. La convention d’appel est **_cdecl** dans **Excel4** et **Excel12** pour autoriser les listes d’arguments de variable. Les points de suspension représentent les valeurs **XLOPER** pour **Excel4** et les valeurs **XLOPER12** pour **Excel12**. Le nombre de pointeurs est égal à la valeur du paramètre _count_.
   
 **Toutes les versions d�Excel**
   
@@ -59,25 +59,25 @@ Ces quatre fonctions renvoient un nombre entier qui indique � l�appelant si 
   
 |**Valeur renvoy�e**|**D�finie dans Xlcall.h comme**|**Description**|
 |:-----|:-----|:-----|
-|0  <br/> |**xlretSuccess** <br/> |La fonction ou la commande a �t� ex�cut�e comme il se doit. Cela ne signifie pas que l�ex�cution �tait sans erreur. Par exemple, **Excel4** peut renvoyer **xlretSuccess** lors de l�appel de la fonction **FIND**, m�me si elle est �valu�e � **#VALUE!**, car le texte recherch� est introuvable. Vous devez examiner le type et la valeur de **XLOPER/XLOPER12** renvoy�e lorsque cela est possible.  <br/> |
-|1  <br/> |**xlretAbort** <br/> |Une macro de commande a �t� arr�t�e par l�utilisateur en cliquant sur le bouton **ANNULER** ou en appuyant sur la touche �CHAP.  <br/> |
-|2  <br/> |**xlretInvXlfn** <br/> |La fonction ou le code de commande fourni n�est pas valide. Cette erreur peut se produire lorsque la fonction d�appel n�est pas autoris�e � appeler la fonction ou la commande. Par exemple, une fonction de feuille de calcul ne peut pas appeler une fonction d�information feuille macro ou une fonction de commande.  <br/> |
-|4  <br/> |**xlretInvCount** <br/> |Le nombre d’arguments fourni n’est pas correct dans l’appel.  <br/> |
-|8   <br/> |**xlretInvXloper** <br/> |Une ou plusieurs valeurs d�argument **XLOPER** ou **XLOPER12** ne sont pas correctement mises en forme ou remplies.  <br/> |
-|16  <br/> |**xlretStackOvfl** <br/> |Excel a détecté un risque que l’opération dépasse sa pile d’appels et, par conséquent, ne puisse pas appeler la fonction.  <br/> |
-|32  <br/> |**xlretFailed** <br/> |La commande ou la fonction a �chou� pour une raison qui n�est pas d�crite par une des autres valeurs de retour. Une op�ration qui n�cessite trop de m�moire, par exemple, �choue avec l�erreur suivante. Cela peut se produire pendant la tentative de conversion d�une référence tr�s volumineuse � un tableau **xltypeMulti** � l�aide de la fonction [xlCoerce](xlcoerce.md).  <br/> |
-|64  <br/> |**xlretUncalced** <br/> |L�op�ration a tent� de r�cup�rer la valeur d�une cellule non calcul�e. Pour pr�server l�int�grit� de recalcul dans Excel, les fonctions de feuille de calcul ne sont pas autoris�es � effectuer cette action. Toutefois, les fonctions et commandes XLL enregistr�es en tant que fonctions macro sont autoris�es � acc�der aux valeurs des cellules non calcul�es.  <br/> |
-|128  <br/> |**xlretNotThreadSafe** <br/> |(Introduit dans Excel 2007) Une fonction de feuille de calcul XLL enregistr�e en tant que fonction thread-safe essayait d�appeler une fonction d�API C non thread-safe. Par exemple, une fonction thread-safe ne peut pas appeler la fonction XLM **xlfGetCell**.  <br/> |
-|256  <br/> |**xlRetInvAsynchronousContext** <br/> |(Introduit dans Excel 2010) Le pointeur de fonction asynchrone n�est pas valide.  <br/> |
-|512  <br/> |**xlretNotClusterSafe** <br/> |(Introduit dans Excel 2010) L�appel n�est pas pris en charge sur les clusters.  <br/> |
-   
+|0  |**xlretSuccess** |La fonction ou la commande a �t� ex�cut�e comme il se doit. Cela ne signifie pas que l�ex�cution �tait sans erreur. Par exemple, **Excel4** peut renvoyer **xlretSuccess** lors de l�appel de la fonction **FIND**, m�me si elle est �valu�e � **#VALUE!**, car le texte recherch� est introuvable. Vous devez examiner le type et la valeur de **XLOPER/XLOPER12** renvoy�e lorsque cela est possible.    |
+|1  |**xlretAbort** |Une macro de commande a �t� arr�t�e par l�utilisateur en cliquant sur le bouton **ANNULER** ou en appuyant sur la touche �CHAP.  |
+|2  |**xlretInvXlfn** |La fonction ou le code de commande fourni n�est pas valide. Cette erreur peut se produire lorsque la fonction d�appel n�est pas autoris�e � appeler la fonction ou la commande. Par exemple, une fonction de feuille de calcul ne peut pas appeler une fonction d�information feuille macro ou une fonction de commande.  |
+|4  |**xlretInvCount** |Le nombre d’arguments fourni n’est pas correct dans l’appel.  |
+|8   |**xlretInvXloper** |Une ou plusieurs valeurs d�argument **XLOPER** ou **XLOPER12** ne sont pas correctement mises en forme ou remplies.  |
+|16  |**xlretStackOvfl** |Excel a détecté un risque que l’opération dépasse sa pile d’appels et, par conséquent, ne puisse pas appeler la fonction.  |
+|32  |**xlretFailed** |La commande ou la fonction a �chou� pour une raison qui n�est pas d�crite par une des autres valeurs de retour. Une op�ration qui n�cessite trop de m�moire, par exemple, �choue avec l�erreur suivante. Cela peut se produire pendant la tentative de conversion d�une référence tr�s volumineuse � un tableau **xltypeMulti** � l�aide de la fonction [xlCoerce](xlcoerce.md).    |
+|64  |**xlretUncalced** |L�op�ration a tent� de r�cup�rer la valeur d�une cellule non calcul�e. Pour pr�server l�int�grit� de recalcul dans Excel, les fonctions de feuille de calcul ne sont pas autoris�es � effectuer cette action. Toutefois, les fonctions et commandes XLL enregistr�es en tant que fonctions macro sont autoris�es � acc�der aux valeurs des cellules non calcul�es.  |
+|128  |**xlretNotThreadSafe** |(Introduit dans Excel 2007) Une fonction de feuille de calcul XLL enregistr�e en tant que fonction thread-safe essayait d�appeler une fonction d�API C non thread-safe. Par exemple, une fonction thread-safe ne peut pas appeler la fonction XLM **xlfGetCell**.    |
+|256  |**xlRetInvAsynchronousContext** |(Introduit dans Excel 2010) Le pointeur de fonction asynchrone n�est pas valide.  |
+|512  |**xlretNotClusterSafe** |(Introduit dans Excel 2010) L�appel n�est pas pris en charge sur les clusters.  |
+
 Si la fonction renvoie une des valeurs d��chec de la table (autrement dit, elle ne renvoie pas **xlretSuccess**), la valeur de retour **XLOPER** ou **XLOPER12** est �galement d�finie sur **#VALUE!**. Dans certains cas, il peut s�agir d�un test de r�ussite suffisant, mais vous remarquerez qu�un appel peut renvoyer � la fois **xlretSuccess** et **#VALUE!**.
   
 Si un appel de l�API C entra�ne **xlretUncalced** ou **xlretAbort**, votre code DLL ou XLL doit rendre la main � Excel avant d�effectuer les autres appels d�API C (autres que les appels vers la fonction [xlfree](xlfree.md) pour lib�rer des ressources m�moire Excel allou�es dans les valeurs **XLOPER** et **XLOPER12**).
   
 ### <a name="command-or-function-enumeration-argument-xlfn"></a>Argument d’énumération de commande ou de fonction : xlfn
 
-L�argument  _xlfn_ est le premier argument des fonctions de rappel et est un entier sign� 32�bits. Sa valeur doit �tre une des �num�rations de fonction ou de commande d�finies dans le fichier d�en-t�te SDK Xlcall.h, comme indiqu� dans l�exemple suivant. 
+L’argument _xlfn_ est le premier argument des fonctions de rappel et est un entier signé 32 bits. Sa valeur doit être une des énumérations de fonction ou de commande définies dans le fichier d’en-tête SDK Xlcall.h, comme indiqué dans l’exemple suivant. 
   
 ```cs
 // Excel function numbers. 
@@ -163,20 +163,20 @@ Excel prend en charge un petit nombre de fonctions accessibles uniquement depuis
   
 ||||
 |:-----|:-----|:-----|
-|[xlFree](xlfree.md) <br/> |0 | xlSpecial  <br/> |Libère les ressources de mémoire allouées par Excel.  <br/> |
-|[xlStack](xlstack.md) <br/> |1 | xlSpecial  <br/> |Renvoie l’espace libre dans la pile Excel.  <br/> |
-|[xlCoerce](xlcoerce.md) <br/> |2 | xlSpecial  <br/> |Convertit les types **XLOPER** et **XLOPER12**  <br/> |
-|[xlSet](xlset.md) <br/> |3 | xlSpecial  <br/> |Fournit une méthode rapide de définition des valeurs de cellule.  <br/> |
-|[xlSheetId](xlsheetid.md) <br/> |4 | xlSpecial  <br/> |Obtient un nom de feuille de calcul à l’aide de son ID interne.  <br/> |
-|[xlSheetNm](xlsheetnm.md) <br/> |5 | xlSpecial  <br/> |Obtient un ID interne de feuille de calcul à l’aide de son nom.  <br/> |
-|[xlAbort](xlabort.md) <br/> |6  | xlSpecial  <br/> |V�rifie si l�utilisateur a cliqu� sur le bouton **ANNULER** ou a appuy� sur la touche �CHAP.  <br/> |
-|[xlGetInst](xlgetinst.md) <br/> |7  | xlSpecial  <br/> |Obtient le pointeur d’instance Excel.  <br/> |
-|[xlGetHwnd](xlgethwnd.md) <br/> |8  | xlSpecial  <br/> |Obtient le pointeur de fenêtre principale Excel.  <br/> |
-|[xlGetName](xlgetname.md) <br/> |9  | xlSpecial  <br/> |Obtient le chemin d’accès et le nom de la DLL.  <br/> |
-|[xlEnableXLMsgs](xlenablexlmsgs.md) <br/> |10 | xlSpecial  <br/> |Cette fonction est déconseillée et ne doit plus être appelée.  <br/> |
-|[xlDisableXLMsgs](xldisablexlmsgs.md) <br/> |11 | xlSpecial  <br/> |Cette fonction est déconseillée et ne doit plus être appelée.  <br/> |
-|[xlDefineBinaryName](xldefinebinaryname.md) <br/> |12  | xlSpecial  <br/> |Définit un nom de stockage binaire permanent.  <br/> |
-|[xlGetBinaryName](xlgetbinaryname.md) <br/> |13 | xlSpecial  <br/> |Obtient les données d’un nom de stockage permanent binaire.  <br/> |
+|[xlFree](xlfree.md) |0 | xlSpecial  |Libère les ressources de mémoire allouées par Excel.  |
+|[xlStack](xlstack.md) |1 | xlSpecial  |Renvoie l’espace libre dans la pile Excel.  |
+|[xlCoerce](xlcoerce.md) |2 | xlSpecial  |Convertit les types **XLOPER** et **XLOPER12**  |
+|[xlSet](xlset.md) |3 | xlSpecial  |Fournit une méthode rapide de définition des valeurs de cellule.  |
+|[xlSheetId](xlsheetid.md) |4 | xlSpecial  |Obtient un nom de feuille de calcul à l’aide de son ID interne.  |
+|[xlSheetNm](xlsheetnm.md) |5 | xlSpecial  |Obtient un ID interne de feuille de calcul à l’aide de son nom.  |
+|[xlAbort](xlabort.md) |6  | xlSpecial  |V�rifie si l�utilisateur a cliqu� sur le bouton **ANNULER** ou a appuy� sur la touche �CHAP.  |
+|[xlGetInst](xlgetinst.md) |7  | xlSpecial  |Obtient le pointeur d’instance Excel.  |
+|[xlGetHwnd](xlgethwnd.md) |8  | xlSpecial  |Obtient le pointeur de fenêtre principale Excel.  |
+|[xlGetName](xlgetname.md) |9  | xlSpecial  |Obtient le chemin d’accès et le nom de la DLL.  |
+|[xlEnableXLMsgs](xlenablexlmsgs.md) |10 | xlSpecial  |Cette fonction est déconseillée et ne doit plus être appelée.  |
+|[xlDisableXLMsgs](xldisablexlmsgs.md) |11 | xlSpecial  |Cette fonction est déconseillée et ne doit plus être appelée.  |
+|[xlDefineBinaryName](xldefinebinaryname.md) |12  | xlSpecial  |Définit un nom de stockage binaire permanent.  |
+|[xlGetBinaryName](xlgetbinaryname.md) |13 | xlSpecial  |Obtient les données d’un nom de stockage permanent binaire.  |
 
 ## <a name="return-value-xloperxloper12-operres"></a>Renvoyer la valeur XLOPER/XLOPER12 : operRes
 
@@ -186,15 +186,15 @@ Si la fonction ou la commande ne peut pas �tre appel�e (par exemple, si les 
   
 ## <a name="number-of-subsequent-arguments-count"></a>Nombre d’arguments suivants
 
-L�argument  _count_ est le troisi�me argument des rappels et est un entier sign� 32�bits. Il doit �tre configur� pour le nombre d�arguments suivants, en partant de 1. Si une fonction ou une commande ne prend aucun argument, elle doit �tre d�finie sur z�ro. Dans Microsoft Office Excel 2003, le nombre maximal d�arguments qu�une fonction accepte est �gal � 30 bien que la plupart des fonctions g�rent g�n�ralement moins d�arguments. � partir de Excel 2007, le nombre maximal d�arguments pouvant �tre pris en charge par une fonction est pass� � 255.
+L’argument _count_ est le troisième argument des rappels et est un entier signé 32 bits. Il doit être configuré pour le nombre d’arguments suivants, en partant de 1. Si une fonction ou une commande ne prend aucun argument, elle doit être définie sur zéro. Dans Microsoft Office Excel 2003, le nombre maximal d’arguments qu’une fonction accepte est égal à 30 bien que la plupart des fonctions gèrent généralement moins d’arguments. À partir d’Excel 2007, le nombre maximal d’arguments pouvant être pris en charge par une fonction est passé à 255.
   
-Avec **Excel4** et **Excel12**,  _count_ correspond au nombre de pointeurs vers les valeurs **XLOPER** ou **XLOPER12** transmises. Vous devez veiller � ne pas transmettre moins d�arguments que la valeur que  _count_ a d�finie. En effet, Excel risque d�effectuer des lectures anticip�es dans la pile et de tenter de lire des valeurs **XLOPER** ou **XLOPER12** non valides, ce qui pourrait bloquer l�application.
+Avec **Excel4** et **Excel12**, _count_ correspond au nombre de pointeurs vers les valeurs **XLOPER** ou **XLOPER12** transmises. Vous devez veiller à ne pas transmettre moins d’arguments que la valeur que _count_ a définie. En effet, Excel risque d’effectuer des lectures anticipées dans la pile et de tenter de lire des valeurs **XLOPER** ou **XLOPER12** non valides, ce qui pourrait bloquer l’application.
   
-Avec **Excel4v** et **Excel12v**,  _count_ est la taille de la matrice des pointeurs vers les valeurs **XLOPER** ou **XLOPER12** transmises en tant qu�argument final. L� encore, vous devez veiller � ne pas passer un tableau inf�rieur �  _count_ �l�ments, car cela entra�nerait la saturation des limites de la matrice.
+Avec **Excel4v** et **Excel12v**, _count_ est la taille de la matrice des pointeurs vers les valeurs **XLOPER** ou **XLOPER12** transmises en tant qu’argument final. Là encore, vous devez veiller à ne pas passer un tableau inférieur à _count_ éléments, car cela entraînerait la saturation des limites de la matrice.
   
 ## <a name="passing-arguments-to-c-api-functions"></a>Passage d’arguments aux fonctions d’API C
 
-**Excel4** et **Excel12** g�rent des listes d�arguments de longueur variable,  _count_, qui sont interpr�t�es comme des pointeurs vers les valeurs **XLOPER** et **XLOPER12**, respectivement. **Excel4v** et **Excel12v** g�rent un seul argument, apr�s  _count_, qui est un pointeur vers un tableau de pointeurs vers des valeurs **XLOPER** dans le cas de **Excel4v**, et vers des valeurs **XLOPER12** dans le cas de **Excel12v**.
+**Excel4** et **Excel12** gèrent des listes d’arguments de longueur variable, _count_, qui sont interprétées comme des pointeurs vers les valeurs **XLOPER** et **XLOPER12**, respectivement. **Excel4v** et **Excel12v** gèrent un seul argument, après _count_, qui est un pointeur vers un tableau de pointeurs vers des valeurs **XLOPER** dans le cas de **Excel4v**, et vers des valeurs **XLOPER12** dans le cas de **Excel12v**.
   
 Les formulaires de matrice **Excel4v** et **Excel12v** vous permettent de coder un appel � l�API C proprement lorsque le nombre d�arguments est variable. L�exemple suivant montre une fonction qui g�re un tableau de taille variable de nombres et qui utilise les fonctions de feuille de calcul Excel, via l�API C, pour calculer la somme, la moyenne, le minimum et le maximum.
   

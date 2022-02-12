@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee69f0c4-b552-4cfd-8a39-a822d414549e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5b0bb4ef47372a3489bfd8050164f1b07fb09178
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5f1cc0330c8360616af8c47af30652e6b7d570b1
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555691"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783837"
 ---
 # <a name="pidlidofflinestatus-canonical-property"></a>Propriété canonique PidLidOfflineStatus
 
@@ -41,9 +41,9 @@ Le tableau suivant indique les valeurs possibles de cette propriété.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0  <br/> |Le document n’est pas extrait.  <br/> |
-|1  <br/> |Le document est extrait pour l’utilisateur actuel.  <br/> |
-|2  <br/> |Le document n’est pas extrait, mais l’utilisateur actuel dispose d’une copie du fichier enregistré pour modification sur l’ordinateur actuel.  <br/> |
+|0  <br/> |Le document n’est pas extrait. |
+|1  <br/> |Le document est extrait pour l’utilisateur actuel. |
+|2  <br/> |Le document n’est pas extrait, mais l’utilisateur actuel dispose d’une copie du fichier enregistrée pour modification sur l’ordinateur actuel. |
    
 Cette propriété est calculée localement et n’est pas envoyée à un serveur à tout moment, sauf si un utilisateur fait glisser l’élément vers un autre compte. Dans ce cas, il est traité comme une propriété personnalisée définie par l’utilisateur.
   

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 3a504594-204c-472c-8be7-dca154c94ea2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c8878175c5eff6ffebe32d1cda6baef7ab91c49a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5f2250be58bdaa622d2de132f0b919d9ad2f2143
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579130"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783851"
 ---
 # <a name="pidtagdelegateflags-canonical-property"></a>Propriété canonique PidTagDelegateFlags
 
@@ -32,7 +32,7 @@ Spécifie si un délégué peut afficher les objets de message privés du délé
 |Propriétés associées :  <br/> |PR_DELEGATE_FLAGS  <br/> |
 |Identificateur :  <br/> |0x686B  <br/> |
 |Type de données :  <br/> |PT_MV_LONG  <br/> |
-|Domaine :  <br/> |Message définissable par la classe de message  <br/> |
+|Domaine :  <br/> |Message défini comme transmettable par la classe  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -40,8 +40,8 @@ Chaque entrée de cette propriété doit être définie sur l’une des valeurs 
   
 |**Indicateur**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|HidePrivate  <br/> |0  <br/> |Le délégué ne doit pas être autorisé à afficher les objets de message privés.  <br/> |
-|ShowPrivate  <br/> |1  <br/> |Le délégué doit être autorisé à afficher les objets de message privés.  <br/> |
+|HidePrivate  <br/> |0  <br/> |Le délégué ne doit pas être autorisé à afficher les objets de message privés. |
+|ShowPrivate  <br/> |1  <br/> |Le délégué doit être autorisé à afficher les objets de message privés. |
    
 Cette propriété doit être définie dans l’objet d’informations du délégué. La valeur de « ShowPrivate » indique que le délégant souhaite rendre les objets de message privés visibles. Cette préférence s’applique à tous les dossiers pour lesquels le délégué a un rôle de réviseur, d’auteur ou d’éditeur.
   

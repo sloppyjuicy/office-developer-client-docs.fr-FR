@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 7c9737cc-4da6-46da-9dfa-57dfe91641bf
 description: Renvoie une expression de texte avec des données de caractères minuscules converties en minuscules.
-ms.openlocfilehash: 3b2308f8e373aafd6252a1f070a736a6303ebe0f
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 46d621d6ec2a18d134d2cc7a617212eee586e4f8
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179528"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788646"
 ---
 # <a name="upper-function-access-custom-web-app"></a>Upper Function (Access custom web app)
 
@@ -29,6 +29,6 @@ La **fonction Upper** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Expression de texte.  <br/> |
+| *TextExpression*  <br/> |Expression de texte. |
    
 

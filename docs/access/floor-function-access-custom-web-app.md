@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 12f9be33-25c2-4912-ab44-15d8c582f655
 description: Renvoie le plus grand nombre d’nombres inférieur ou égal à l’expression numérique spécifiée.
-ms.openlocfilehash: d33a66bb203f3d82de2f7c1fd9d272c3a5ed1c20
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 37207471215d45cea402d87a9e344e7bf6085019
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180634"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789374"
 ---
 # <a name="floor-function-access-custom-web-app"></a>Floor Function (Access custom web app)
 
@@ -29,6 +29,6 @@ La **fonction Floor** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Expression numérique.  <br/> |
+| *NumericExpression*  <br/> |Expression numérique. |
    
 

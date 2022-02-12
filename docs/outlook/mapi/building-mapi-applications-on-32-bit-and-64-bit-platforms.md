@@ -8,12 +8,12 @@ api_type:
 ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
 description: Dernière modification le 9 mars 2015
 ms.localizationpriority: high
-ms.openlocfilehash: 6c6ba946c0428b13394f304a21683d9a7f56dc24
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1478de37d8a5b713bcc74e47b0cf0f0fb661c152
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556909"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784327"
 ---
 # <a name="building-mapi-applications-on-32-bit-and-64-bit-platforms"></a>Création d’applications MAPI sur les plateformes 32 bits et 64 bits
 
@@ -40,10 +40,10 @@ Les applications MAPI incluent des applications autonomes telles que Microsoft 
   
 |Nombre de bits de l’application MAPI|Nombre de bits d’Outlook sur un ordinateur ciblé|Nombre de bits de Windows sur un ordinateur ciblé|Action nécessaire pour qu’une application puisse s’exécuter sur un ordinateur ciblé|
 |:-----|:-----|:-----|:-----|
-|32 bits  <br/> |32 bits  <br/> |32 bits ou 64 bits  <br/> |Aucune action n’est nécessaire.  <br/> |
-|32 bits  <br/> |64 bits  <br/> |64 bits  <br/> |Reconstruire l’application comme une application 64 bits. Sinon, tous les appels de méthode et de fonction MAPI (à l’exception de **MAPISendMail**) échoueront.  <br/> |
-|64 bits  <br/> |64 bits  <br/> |64 bits  <br/> |Aucune action n’est nécessaire.  <br/> |
-|64 bits  <br/> |32 bits  <br/> |32 bits ou 64 bits  <br/> |Reconstruire l’application comme une application 32 bits. Sinon, tous les appels de méthode et de fonction MAPI (à l’exception de **MAPISendMail**) échoueront.  <br/> |
+|32 bits  <br/> |32 bits  <br/> |32 bits ou 64 bits  <br/> |Aucune action n’est nécessaire. |
+|32 bits  <br/> |64 bits  <br/> |64 bits  <br/> |Reconstruire l’application comme une application 64 bits. Sinon, tous les appels de méthode et de fonction MAPI (à l’exception de **MAPISendMail**) échoueront. |
+|64 bits  <br/> |64 bits  <br/> |64 bits  <br/> |Aucune action n’est nécessaire. |
+|64 bits  <br/> |32 bits  <br/> |32 bits ou 64 bits  <br/> |Reconstruire l’application comme une application 32 bits. Sinon, tous les appels de méthode et de fonction MAPI (à l’exception de **MAPISendMail**) échoueront. |
    
 Les sections suivantes expliquent chaque scénario de façon plus détaillée. Pour des scénarios nécessitant la reconstruction de l’application MAPI, reportez-vous à la rubrique [Lien vers les fonctions MAPI](how-to-link-to-mapi-functions.md) pour plus d’informations concernant la liaison aux fonctions MAPI et leur appel. 
   

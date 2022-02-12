@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 77db2dff-4534-440f-a05c-635711cbc2c3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ff4dffbf34cadd313d6dd5ff42ad88c142b28f75
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 000103b45054e5cccb84291c6b9504233af8736d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462254"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789150"
 ---
 # <a name="imapisessiongetmsgstorestable"></a>IMAPISession::GetMsgStoresTable
 
@@ -76,7 +76,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenMessageStoreTable  <br/> |MFCMAPI utilise la méthode **IMAPISession::GetMsgStoresTable** pour obtenir la table de la boutique de messages afin qu’elle puisse être rendue dans la boîte de dialogue principale de MFCMAPI.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenMessageStoreTable  <br/> |MFCMAPI utilise la méthode **IMAPISession::GetMsgStoresTable** pour obtenir la table de la boutique de messages afin qu’elle puisse être rendue dans la boîte de dialogue principale de MFCMAPI. |
    
 ## <a name="see-also"></a>Voir aussi
 

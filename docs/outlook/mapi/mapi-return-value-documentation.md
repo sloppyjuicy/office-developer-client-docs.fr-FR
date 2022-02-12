@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: c32ee53c-b063-4a00-a6bf-75ce5e07f56a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8c746b85716af43ac5a65be62d087822a88d5482
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 20af484604aca0bda28eda99e5fca3ce195b4eeb
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610194"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789115"
 ---
 # <a name="mapi-return-value-documentation"></a>Documentation sur les valeurs de retour MAPI
 
@@ -21,20 +21,20 @@ ms.locfileid: "59610194"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les entrées de référence dans ce document de référence ne retournent que les valeurs de retour qui nécessitent une certaine gestion par les applications clientes. Les valeurs de retour qui indiquent des conditions d’erreur courantes et qui peuvent être déduites en vérifiant l’échec ne sont pas incluses dans la documentation. Par exemple, de nombreuses méthodes d’interface peuvent renvoyer MAPI_E_INVALID_PARAMETER si un appelant spécifie une valeur erronée pour un paramètre d’entrée. Cette valeur n’est généralement pas répertoriée dans l’ensemble des valeurs de retour attendues, car il n’est pas nécessaire de rechercher des MAPI_E_INVALID_PARAMETER spécifiquement et de la traiter différemment d’une autre erreur. En revanche, certains fournisseurs de services ne peuvent pas prendre en charge la notification d’événement et retournent des MAPI_E_NO_SUPPORT à la méthode **Advise** réalisée par les clients via **IMAPISession**. Étant donné que les clients doivent vérifier explicitement cette valeur et fournir du code pour gérer la condition qu’elle représente si elle se produit, MAPI_E_NO_SUPPORT est inclus dans la liste des valeurs de retour pour [IMAPISession::Advise](imapisession-advise.md).
+Les entrées de référence dans ce document de référence ne retournent que les valeurs de retour qui nécessitent une certaine gestion par les applications clientes. Les valeurs de retour qui indiquent des conditions d’erreur courantes et qui peuvent être déduites en vérifiant l’échec ne sont pas incluses dans la documentation. Par exemple, de nombreuses méthodes d’interface peuvent renvoyer MAPI_E_INVALID_PARAMETER si un appelant spécifie la valeur erronée d’un paramètre d’entrée. Cette valeur n’est généralement pas répertoriée dans l’ensemble des valeurs de retour attendues, car il n’est pas nécessaire de rechercher spécifiquement MAPI_E_INVALID_PARAMETER et il n’est pas nécessaire de la traiter différemment d’une autre erreur. En revanche, certains fournisseurs de services ne peuvent pas prendre en charge les notifications d’événements et retournent des MAPI_E_NO_SUPPORT à la méthode **Advise** réalisée par les clients via **IMAPISession**. Étant donné que les clients doivent vérifier explicitement cette valeur et fournir du code pour gérer la condition qu’elle représente si elle se produit, MAPI_E_NO_SUPPORT est inclus dans la liste des valeurs de retour pour [IMAPISession::Advise](imapisession-advise.md).
   
 Le tableau suivant décrit les valeurs d’erreur qui sont généralement renvoyées à partir de méthodes et de fonctions et nécessitent une gestion explicite de la part d’un client ou d’un fournisseur de services. Ces valeurs sont dans quatre catégories : les valeurs qui indiquent des données d’entrée non valides, les valeurs qui indiquent des problèmes de ressources, les valeurs qui indiquent l’incompatibilité de jeu de caractères et les valeurs qui indiquent l’échec d’une origine inconnue.
   
 |**Valeur renvoyée**|**Description**|
 |:-----|:-----|
-|MAPI_E_INVALID_PARAMETER  <br/> |Un ou plusieurs des paramètres passés dans la méthode ou les fonctions n’étaient pas valides.  <br/> |
-|MAPI_E_UNKNOWN_FLAGS  <br/> |Une ou plusieurs valeurs pour un paramètre d’indicateurs n’étaient pas valides.  <br/> |
-|MAPI_E_DISK_ERROR  <br/> |Un problème est à l’écriture ou à la lecture sur le disque.  <br/> |
-|MAPI_E_NOT_ENOUGH_DISK  <br/> |L’espace disque disponible était insuffisant pour terminer l’opération.  <br/> |
-|MAPI_E_NOT_ENOUGH_MEMORY  <br/> |La mémoire disponible n’était pas suffisante pour terminer l’opération.  <br/> |
-|MAPI_E_NOT_ENOUGH_RESOURCES  <br/> |Il n’y avait pas assez de ressources système disponibles pour terminer l’opération.  <br/> |
-|MAPI_E_BAD_CHARWIDTH  <br/> |Il existe une incompatibilité dans les jeux de caractères pris en charge par l’appelant et l’implémentation.  <br/> |
-|MAPI_E_CALL_FAILED  <br/> |Une erreur d’origine inattendue ou inconnue s’est produite.  <br/> |
+|MAPI_E_INVALID_PARAMETER  <br/> |Un ou plusieurs des paramètres passés dans la méthode ou les fonctions n’étaient pas valides. |
+|MAPI_E_UNKNOWN_FLAGS  <br/> |Une ou plusieurs valeurs pour un paramètre d’indicateurs n’étaient pas valides. |
+|MAPI_E_DISK_ERROR  <br/> |Un problème est à l’écriture ou à la lecture sur le disque. |
+|MAPI_E_NOT_ENOUGH_DISK  <br/> |L’espace disque disponible était insuffisant pour terminer l’opération. |
+|MAPI_E_NOT_ENOUGH_MEMORY  <br/> |La mémoire disponible n’était pas suffisante pour terminer l’opération. |
+|MAPI_E_NOT_ENOUGH_RESOURCES  <br/> |Il n’y avait pas assez de ressources système disponibles pour terminer l’opération. |
+|MAPI_E_BAD_CHARWIDTH  <br/> |Il existe une incompatibilité dans les jeux de caractères pris en charge par l’appelant et l’implémentation. |
+|MAPI_E_CALL_FAILED  <br/> |Une erreur d’origine inattendue ou inconnue s’est produite. |
    
 Les constantes qui représentent les valeurs de retour MAPI sont répertoriées dans MAPICODE. Fichier d’en-tête H. Certaines de ces constantes sont m mondes aux erreurs Win32 ; Le mappage de ces constantes aux valeurs numériques se trouve dans le fichier d’en-tête Win32, WINERROR.H.
   

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 31004aec-7bd2-6e12-83eb-1a32da121c54
 description: Recherche un compte par valeur de propriété.
-ms.openlocfilehash: 2ec221394364ce2c747e7f9aed4ff5d8373c9b96
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 18fa6aa08b3c819440d47825174b7082b3a413f2
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564504"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784348"
 ---
 # <a name="iolkaccountmanagerfindaccount"></a>IOlkAccountManager::FindAccount
 
@@ -42,16 +42,16 @@ _pVar_
     
 _ppAccount_
   
-> [out] Compte trouvé. Cet objet prend en charge une interface [IOlkAccount.](iolkaccount.md) 
+> [out] Compte trouvé. Cet objet prend en charge une interface [IOlkAccount](iolkaccount.md) . 
     
 ## <a name="return-values"></a>Valeurs de retour
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |L'appel a réussi.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |Le compte spécifié est in trouver.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.  <br/> |
-|E_OLK_PARAM_NOT_SUPPORTED  <br/> |Un ou plusieurs paramètres ne sont pas valides.  <br/> |
+|S_OK  <br/> |L'appel a réussi. |
+|E_ACCT_NOT_FOUND  <br/> |Le compte spécifié est in trouver. |
+|E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation. |
+|E_OLK_PARAM_NOT_SUPPORTED  <br/> |Un ou plusieurs paramètres ne sont pas valides. |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0170dc9d-dc72-48e2-a522-374f199b18ea
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ebba3bbf377047d5fcc349d16827b7b00b54842b
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: b5755a587b2a2e0c708b2e7a828c8d5bad53b424
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461460"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784131"
 ---
 # <a name="imapiforminfocalcverbset"></a>IMAPIFormInfo::CalcVerbSet
 
@@ -68,7 +68,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI utilise la méthode **IMAPIFormInfo::CalcVerbSet** lors de l’écriture de la sortie de débogage pour les objets d’informations de formulaire.  <br/> |
+|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI utilise la méthode **IMAPIFormInfo::CalcVerbSet** lors de l’écriture de la sortie de débogage pour les objets d’informations de formulaire. |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: f6010ac5-6c08-4c1b-a811-ff81b30ed5f0
 description: Vous pouvez utiliser l’action ExécuterMacroDonnées pour exécuter une macro de données autonome.
-ms.openlocfilehash: 7bc2e851f7b6c8ee79ee74a915616db090c67c39
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 7355f022aa037f55da7e71e84f0ec995fd0e4dd5
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180459"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788667"
 ---
 # <a name="rundatamacro-macro-action-access-custom-web-app"></a>RunDataMacro Macro Action (Application web personnalisée Access)
 
@@ -27,7 +27,7 @@ L’action **ExécuterMacroDonnées** utilise l’argument suivant.
   
 |**Argument de l'action**|**Description**|
 |:-----|:-----|
-| _Nom macro_ <br/> |Nom de la macro de données à exécuter.  <br/> |
+| _Nom macro_ <br/> |Nom de la macro de données à exécuter. |
    
 ## <a name="remarks"></a>Remarques
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: c8b30768-cf83-450d-9fe2-567a5e0c2f57
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5f875db0d814722c8a9901b54c071dfd1ffdabfa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1760a24e1e4a8b742934ec0ffd3a0d7a570baa67
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604221"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787687"
 ---
 # <a name="pidtagrpcoverhttpflags-canonical-property"></a>Propriété canonique PidTagRpcOverHttpFlags
 
@@ -36,13 +36,13 @@ La **PR_ROH_FLAGS** est stockée dans la section Profil global d’un profil MAP
   
 |**Name**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Connecter au Exchange Server l’aide de RPC sur HTTP.  <br/> |
-|**ROHFLAGS_SSL_ONLY** <br/> |0x2  <br/> |Connecter au Exchange Server à l’aide du SSL (Secure Socket Layer) uniquement.  <br/> |
-|**ROHFLAGS_MUTUAL_AUTH** <br/> |0x4  <br/> |Authentifier mutuellement la session lors de la connexion à l’aide de SSL.  <br/> |
-|**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0x8  <br/> |Sur les réseaux rapides, connectez-vous en utilisant d’abord HTTP. Ensuite, connectez-vous à l’aide de TCP/IP.  <br/> |
-|**ROHFLAGS_HTTP_FIRST_ON_SLOW** <br/> |0x20  <br/> |Sur les réseaux lents, connectez-vous d’abord à l’aide du protocole HTTP. Ensuite, connectez-vous à l’aide de TCP/IP.  <br/> |
+|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Connecter au Exchange Server l’aide de RPC sur HTTP. |
+|**ROHFLAGS_SSL_ONLY** <br/> |0x2  <br/> |Connecter au Exchange Server à l’aide du SSL (Secure Socket Layer) uniquement. |
+|**ROHFLAGS_MUTUAL_AUTH** <br/> |0x4  <br/> |Authentifier mutuellement la session lors de la connexion à l’aide de SSL. |
+|**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0x8  <br/> |Sur les réseaux rapides, connectez-vous d’abord à l’aide du protocole HTTP. Ensuite, connectez-vous à l’aide de TCP/IP. |
+|**ROHFLAGS_HTTP_FIRST_ON_SLOW** <br/> |0x20  <br/> |Sur les réseaux lents, connectez-vous d’abord à l’aide du protocole HTTP. Ensuite, connectez-vous à l’aide de TCP/IP. |
    
-Par exemple, pour définir la propriété **PR_ROH_FLAGS** pour activer RPC sur HTTP, pour exiger SSL et pour spécifier que le protocole HTTP doit être utilisé en premier sur les connexions lentes, définissez la valeur de la propriété **PR_ROH_FLAGS** égale à  `ROHFLAGS_USE_ROH | ROHFLAGS_SSL_ONLY | ROHFLAGS_HTTP_FIRST_ON_SLOW` 0x23. 
+Par exemple, pour définir la propriété **PR_ROH_FLAGS** pour activer RPC sur HTTP, pour exiger SSL et pour spécifier que le protocole HTTP doit être utilisé en premier sur les connexions lentes, définissez la valeur de la propriété **PR_ROH_FLAGS**  `ROHFLAGS_USE_ROH | ROHFLAGS_SSL_ONLY | ROHFLAGS_HTTP_FIRST_ON_SLOW` égale à 0x23. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

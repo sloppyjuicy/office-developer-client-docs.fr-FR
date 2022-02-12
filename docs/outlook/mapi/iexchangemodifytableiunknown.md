@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 45a73c7b-5855-4b70-866b-facb41cb3c32
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 41348fef6c20d37fb6f300d61f61af02ddd0818c
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 1299fde8ccd553f6f748fa167085aa277cc200ab
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461728"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784187"
 ---
 # <a name="iexchangemodifytable--iunknown"></a>IExchangeModifyTable : IUnknown
 
@@ -29,7 +29,7 @@ Prend en charge l’Microsoft Exchange Server des objets table, en particulier l
   
 |||
 |:-----|:-----|
-|Exposé par :  <br/> |Aucun  <br/> |
+|Exposé par :  <br/> |Aucune  <br/> |
 |Implémenté par :  <br/> |Objets table serveur  <br/> |
 |Appelé par :  <br/> |MAPI et applications clientes  <br/> |
 |Identificateur d’interface :  <br/> |IID_IExchangeModifyTable  <br/> |
@@ -40,9 +40,9 @@ Prend en charge l’Microsoft Exchange Server des objets table, en particulier l
 
 |||
 |:-----|:-----|
-|[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |Renvoie des informations sur la dernière erreur qui s’est produite dans un objet table.  <br/> |
-|[GetTable](iexchangemodifytable-gettable.md) <br/> |Renvoie un pointeur vers une interface pour un objet table MAPI.  <br/> |
-|[ModifyTable](iexchangemodifytable-modifytable.md) <br/> |Met à jour un objet table MAPI.  <br/> |
+|[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |Renvoie des informations sur la dernière erreur qui s’est produite dans un objet table. |
+|[GetTable](iexchangemodifytable-gettable.md) <br/> |Renvoie un pointeur vers une interface pour un objet table MAPI. |
+|[ModifyTable](iexchangemodifytable-modifytable.md) <br/> |Met à jour un objet table MAPI. |
    
 |**Propriétés utilisées pour modifier une table de règles**|**Access**|
 |:-----|:-----|

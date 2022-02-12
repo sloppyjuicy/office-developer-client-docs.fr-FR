@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 047f42cf-4202-50bd-40b4-a71052e2dfb3
 description: Spécifie la marge du pied de document.
-ms.openlocfilehash: a0a6e1b8d94d29d901e260325e00d295a4f9ad3f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 20cdea3fc9cfbb3405776314992ee56ee4ed0bf4
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598667"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787274"
 ---
 # <a name="footermargin-element-headerfooter_type-complextype-visio-xml"></a>Élément FooterMargin (HeaderFooter_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Spécifie la marge du pied de document.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de groupe d’un document.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de groupe d’un document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,6 +52,6 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Unit  <br/> |xsd:string  <br/> |facultatif  <br/> |Représente une unité de mesure. La valeur par défaut est IN.  <br/> |Valeurs du type xsd:string.  <br/> |
+|Unit  <br/> |xsd:string  <br/> |facultatif  <br/> |Représente une unité de mesure. La valeur par défaut est IN. |Valeurs du type xsd:string. |
    
 

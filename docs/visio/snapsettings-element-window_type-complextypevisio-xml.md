@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 7b87a244-b331-7e93-d304-239f8ca77061
 description: Spécifie les objets sur qui les formes s’ancrent lorsque l’a snap est actif dans la fenêtre.
-ms.openlocfilehash: c3a160f289c1e08865ce3c7aa066fed4720724c5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 34860eb1341290920722a7e63d075b54410644d1
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570006"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788723"
 ---
 # <a name="snapsettings-element-window_type-complextype-visio-xml"></a>Élément SnapSettings (Window_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Spécifie les objets sur qui les formes s’ancrent lorsque l’a snap est actif
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio.  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -58,17 +58,17 @@ La valeur peut être une somme des valeurs du tableau suivant.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0  <br/> |Aligne sur rien.  <br/> |
-|1  <br/> |Aligner sur les sous-sections de règle.  <br/> |
-|2  <br/> |Aligner sur la grille.  <br/> |
-|4   <br/> |Aligne sur les repères.  <br/> |
-|8   <br/> |Aligne sur les poignées de sélection.  <br/> |
-|16   <br/> |Aligne sur les sommets.  <br/> |
-|32  <br/> |Aligne sur les points de connexion.  <br/> |
-|256  <br/> |Aligner sur les bords visibles des formes.  <br/> |
-|512  <br/> |Aligner sur le cadre d’alignement.  <br/> |
-|1024  <br/> |Aligne sur les options d'extension de forme.  <br/> |
-|32768  <br/> |Aligner désactivé.  <br/> |
-|65536  <br/> |Aligner sur les intersections.  <br/> |
+|0  <br/> |Aligne sur rien. |
+|1  <br/> |Aligner sur les sous-sections de règle. |
+|2  <br/> |Aligner sur la grille. |
+|4  <br/> |Aligne sur les repères. |
+|8   <br/> |Aligne sur les poignées de sélection. |
+|16  <br/> |Aligne sur les sommets. |
+|32  <br/> |Aligne sur les points de connexion. |
+|256  <br/> |Aligner sur les bords visibles des formes. |
+|512  <br/> |Aligner sur le cadre d’alignement. |
+|1024  <br/> |Aligne sur les options d'extension de forme. |
+|32768  <br/> |Aligner désactivé. |
+|65536  <br/> |Aligner sur les intersections. |
    
 

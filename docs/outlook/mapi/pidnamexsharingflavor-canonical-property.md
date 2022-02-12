@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7757fde1-564b-4f3a-9b9e-f80a143690ea
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e96fc2f39e8045847aa039b06f1f0ffaeb4a4917
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 01995bf25695145ca02bd8b893385b0305f238cf
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579214"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789073"
 ---
 # <a name="pidnamexsharingflavor-canonical-property"></a>Propriété canonique PidNameXSharingFlavor
 
@@ -29,7 +29,7 @@ Représente la valeur de la **propriété dispidSharingFlavor** ([PidLidSharingF
   
 |||
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms convivial :  <br/> |Aucune  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nom de la propriété :  <br/> |X-Sharing-Flavor  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
@@ -41,12 +41,12 @@ La **propriété dispidSharingFlavor** doit être l’une des valeurs suivantes.
   
 |**Valeur**|**Type de message de partage**|
 |:-----|:-----|
-|0x00020310  <br/> |Invitation de partage pour un dossier spécial.  <br/> |
-|0x00000310  <br/> |Invitation de partage pour un dossier qui n’est pas un dossier spécial.  <br/> |
-|0x00020500  <br/> |Demande de partage.  <br/> |
-|0x00020710  <br/> |Invitation de partage pour un dossier spécial et demande de partage pour le dossier spécial équivalent du destinataire.  <br/> |
-|0x00025100  <br/> |Réponse de partage qui refuse une demande.  <br/> |
-|0x00023310  <br/> |Réponse de partage qui accepte une demande (également un type d’invitation de partage).  <br/> |
+|0x00020310  <br/> |Invitation de partage pour un dossier spécial. |
+|0x00000310  <br/> |Invitation de partage pour un dossier qui n’est pas un dossier spécial. |
+|0x00020500  <br/> |Demande de partage. |
+|0x00020710  <br/> |Invitation de partage pour un dossier spécial et demande de partage pour le dossier spécial équivalent du destinataire. |
+|0x00025100  <br/> |Réponse de partage qui refuse une demande. |
+|0x00023310  <br/> |Réponse de partage qui accepte une demande (également un type d’invitation de partage). |
    
 ## <a name="related-resources"></a>Ressources connexes
 

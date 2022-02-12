@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: a57bdcd9-566b-5054-7458-7d84cbb78d23
 description: Contient les cellules qui définissent les coordonnées x et y et le comportement de chaque poignée de contrôle définie pour une forme. Une forme contient une ligne Controls pour chaque poignée de contrôle.
-ms.openlocfilehash: d839eb8818263ae630895cc4e3bee0c8a2ec99cb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 856a7204113f76cd5944df1c45414d0161248168
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59582945"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788919"
 ---
 # <a name="controls-row-controls-section"></a>Controls Row (Controls Section)
 
@@ -24,14 +24,14 @@ Les lignes Controls sont nommées Controls. *et*  contiennent les cellules suiva
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[x](x-cell-controls-section.md) <br/> |Représente la  *coordonnée x*  qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales.  <br/> |
-|[y](y-cell-controls-section.md) <br/> |Représente la coordonnée  *y*  qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales.  <br/> |
-|[X Dynamics](x-dynamics-cell-controls-section.md) <br/> |Représente la coordonnée  *x*  du point d’ancrage d’une poignée de contrôle dans les coordonnées locales.  <br/> |
-|[Y Dynamics](y-dynamics-cell-controls-section.md) <br/> |Représente la coordonnée  *y*  du point d’ancrage d’une poignée de contrôle dans les coordonnées locales.  <br/> |
-|[X Behavior](x-behavior-cell-controls-section.md) <br/> |Contrôle le type de comportement de  *la coordonnée x*  de la poignée de contrôle une fois le handle déplacé.  <br/> |
-|[Y Behavior](y-behavior-cell-controls-section.md) <br/> |Contrôle le type de comportement de la coordonnée  *y*  de la poignée de contrôle une fois la poignée déplacée.  <br/> |
-|[Can Glue](can-glue-cell-controls-section.md) <br/> |Détermine si une poignée de contrôle peut être collée à d'autres formes.  <br/> |
-|[Conseil](tip-cell-controls-section.md) <br/> |Représente une chaîne de texte descriptive qui apparaît sous la forme d'une info-bulle lorsqu'un utilisateur maintient quelques instants le pointeur sur la poignée de contrôle d'une forme.  <br/> |
+|[x](x-cell-controls-section.md) <br/> |Représente la coordonnée  *x*  qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales. |
+|[y](y-cell-controls-section.md) <br/> |Représente la coordonnée  *y*  qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales. |
+|[X Dynamics](x-dynamics-cell-controls-section.md) <br/> |Représente la coordonnée  *x*  du point d’ancrage d’une poignée de contrôle dans les coordonnées locales. |
+|[Y Dynamics](y-dynamics-cell-controls-section.md) <br/> |Représente la coordonnée  *y*  du point d’ancrage d’une poignée de contrôle dans les coordonnées locales. |
+|[X Behavior](x-behavior-cell-controls-section.md) <br/> |Contrôle le type de comportement de la  *coordonnée x*  de la poignée de contrôle une fois la poignée déplacée. |
+|[Y Behavior](y-behavior-cell-controls-section.md) <br/> |Contrôle le type de comportement de la coordonnée  *y*  de la poignée de contrôle une fois le handle déplacé. |
+|[Can Glue](can-glue-cell-controls-section.md) <br/> |Détermine si une poignée de contrôle peut être collée à d'autres formes. |
+|[Conseil](tip-cell-controls-section.md) <br/> |Représente une chaîne de texte descriptive qui apparaît sous la forme d'une info-bulle lorsqu'un utilisateur maintient quelques instants le pointeur sur la poignée de contrôle d'une forme. |
    
 ## <a name="remarks"></a>Remarques
 

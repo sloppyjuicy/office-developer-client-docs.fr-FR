@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: c514ce79-0920-4f1b-5332-0bdef146e802
-ms.openlocfilehash: 9aa09cf63e4806b6ece9ca8d8257a0e0e8cd9a60
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3dd934b258b6b42b4067aa30275bdcebe1070ca9
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59549307"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788702"
 ---
 # <a name="window_type-complextype-visio-xml"></a>Window_Type complexType (Visio XML)
 
@@ -21,7 +21,7 @@ ms.locfileid: "59549307"
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base d’extension** <br/> |Aucun  <br/> |
+|**Base d’extension** <br/> |Aucune  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -170,7 +170,7 @@ ms.locfileid: "59549307"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -194,23 +194,23 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Conteneur  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|ContainerType  <br/> |xsd:token  <br/> |facultatif  <br/> ||Valeurs du type xsd:token.  <br/> |
-|Document  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|Master  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|Page  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|ParentWindow  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|ReadOnly  <br/> |xsd:boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd:boolean.  <br/> |
-|Sheet  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|ViewCenterX  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double.  <br/> |
-|ViewCenterY  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double.  <br/> |
-|ViewScale  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double.  <br/> |
-|WindowHeight  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|WindowLeft  <br/> |xsd:short  <br/> |facultatif  <br/> ||Valeurs du type xsd:short.  <br/> |
-|WindowState  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|WindowTop  <br/> |xsd:short  <br/> |facultatif  <br/> ||Valeurs du type xsd:short.  <br/> |
-|WindowType  <br/> |xsd:token  <br/> |obligatoire  <br/> ||Valeurs du type xsd:token.  <br/> |
-|WindowWidth  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
+|Conteneur  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt. |
+|ContainerType  <br/> |xsd:token  <br/> |facultatif  <br/> ||Valeurs du type xsd:token. |
+|Document  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string. |
+|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt. |
+|Master  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt. |
+|Page  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt. |
+|ParentWindow  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt. |
+|ReadOnly  <br/> |xsd:boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd:boolean. |
+|Sheet  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt. |
+|ViewCenterX  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double. |
+|ViewCenterY  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double. |
+|ViewScale  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double. |
+|WindowHeight  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt. |
+|WindowLeft  <br/> |xsd:short  <br/> |facultatif  <br/> ||Valeurs du type xsd:short. |
+|WindowState  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt. |
+|WindowTop  <br/> |xsd:short  <br/> |facultatif  <br/> ||Valeurs du type xsd:short. |
+|WindowType  <br/> |xsd:token  <br/> |obligatoire  <br/> ||Valeurs du type xsd:token. |
+|WindowWidth  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt. |
    
 

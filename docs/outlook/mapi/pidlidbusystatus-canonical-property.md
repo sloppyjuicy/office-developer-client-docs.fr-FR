@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 50c91fe6-2a61-4348-a16d-fd5c501b0715
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b0e0b20023d3ce18d6ffbc5363d15cd6e2a619d3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9255661f27fd2edca6e9a824928b6328f3041ac9
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563993"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787666"
 ---
 # <a name="pidlidbusystatus-canonical-property"></a>Propri t canonique PidLidBusyStatus
 
@@ -41,10 +41,10 @@ Cette propriété spécifie la disponibilité d’un utilisateur pour l’évén
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |L'utilisateur est disponible.  <br/> |
-|0x00000001  <br/> |Un événement provisoire est prévu pour l’utilisateur.  <br/> |
-|0x00000002  <br/> |L'utilisateur est occupé.  <br/> |
-|0x00000003  <br/> |L'utilisateur est absent du bureau.  <br/> |
+|0x00000000  <br/> |L'utilisateur est disponible. |
+|0x00000001  <br/> |Un événement provisoire est prévu pour l’utilisateur. |
+|0x00000002  <br/> |L'utilisateur est occupé. |
+|0x00000003  <br/> |L'utilisateur est absent du bureau. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

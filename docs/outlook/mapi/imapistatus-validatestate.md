@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 036b9b15-86e1-4a37-8e4b-e37b2963d8fb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 88615e91b89e667504b32ac8a255c6b8acd24752
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 58990ba26bd67c993c813a4e344d6f33b6451e9b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596161"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789143"
 ---
 # <a name="imapistatusvalidatestate"></a>IMAPIStatus::ValidateState
 
@@ -44,7 +44,7 @@ _ulFlags_
     
 ABORT_XP_HEADER_OPERATION
   
-> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans la boîte de dialogue correspondante. L’objet d’état dispose de deux options : 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le **bouton Annuler dans** la boîte de dialogue correspondante. L’objet d’état dispose de deux options : 
     
    - Continuez à travailler sur l’opération.
     
@@ -64,7 +64,7 @@ FORCE_XP_DISCONNECT
     
 PROCESS_XP_HEADER_CACHE 
   
-> Les entrées de la table de cache d’en-tête doivent être traitées, tous les messages marqués avec l’indicateur MSGSTATUS_REMOTE_DOWNLOAD doivent être téléchargés et tous les messages marqués avec l’indicateur MSGSTATUS_REMOTE_DELETE doivent être supprimés. Les messages dont la MSGSTATUS_REMOTE_DOWNLOAD et MSGSTATUS_REMOTE_DELETE sont définies doivent être déplacés.
+> Les entrées de la table de cache d’en-tête doivent être traitées, tous les messages marqués avec l’indicateur MSGSTATUS_REMOTE_DOWNLOAD doivent être téléchargés et tous les messages marqués avec l’indicateur MSGSTATUS_REMOTE_DELETE doivent être supprimés. Les messages qui ont des MSGSTATUS_REMOTE_DOWNLOAD et MSGSTATUS_REMOTE_DELETE doivent être déplacés.
     
 REFRESH_XP_HEADER_CACHE 
   
@@ -72,7 +72,7 @@ REFRESH_XP_HEADER_CACHE
     
 SUPPRESS_UI 
   
-> Empêche l’objet status d’afficher une interface utilisateur dans le cadre de l’opération.
+> Empêche l’objet d’état d’afficher une interface utilisateur dans le cadre de l’opération.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -90,7 +90,7 @@ MAPI_E_NO_SUPPORT
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération de validation, généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. Cette valeur est renvoyée uniquement par les fournisseurs de transport distants. 
+> L’utilisateur a annulé l’opération de validation, généralement en cliquant sur le **bouton Annuler dans** une boîte de dialogue. Cette valeur est renvoyée uniquement par les fournisseurs de transport distants. 
     
 ## <a name="remarks"></a>Remarques
 
@@ -98,14 +98,14 @@ La **méthode IMAPIStatus::ValidateState** vérifie l’état d’une ressource 
   
 |**Objet Status**|Implémentation ValidateState****|
 |:-----|:-----|
-|Sous-système MAPI  <br/> |Valide l’état de toutes les ressources que les fournisseurs de services actifs et le sous-système lui-même possèdent.  <br/> |
-|Pooler MAPI  <br/> |Effectue une session de tous les fournisseurs de transport, qu’ils soient déjà connectés ou non.  <br/> |
-|Carnet d’adresses MAPI  <br/> |Vérifie les entrées dans sa section de profil.  <br/> |
-|Fournisseur de services  <br/> |L’implémentation dépend du type de fournisseur et des indicateurs définies dans le _paramètre ulFlags._  <br/> |
+|Sous-système MAPI  <br/> |Valide l’état de toutes les ressources que les fournisseurs de services actifs et le sous-système lui-même possèdent. |
+|Pooler MAPI  <br/> |Effectue une session de tous les fournisseurs de transport, qu’ils soient déjà connectés ou non. |
+|Carnet d’adresses MAPI  <br/> |Vérifie les entrées dans sa section de profil. |
+|Fournisseur de services  <br/> |L’implémentation dépend du type de fournisseur et des indicateurs définies dans _le paramètre ulFlags_ . |
    
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Les applications clientes distantes appellent **la méthode ValidateState** pour démarrer le traitement à distance pour diverses actions. Cette méthode permet principalement de définir des bits d’état pour communiquer avec lepooler MAPI, au lieu de faire n’importe quel travail. En règle générale, le fournisseur de transport définit des indicateurs dans sa ligne d’état qui indiquent aupooler MAPI quelles actions doivent être lancées pour terminer la demande du client. 
+Les applications clientes distantes **appellent la méthode ValidateState** pour démarrer le traitement à distance pour diverses actions. Cette méthode permet principalement de définir des bits d’état pour communiquer avec lepooler MAPI, au lieu de faire n’importe quel travail. En règle générale, le fournisseur de transport définit des indicateurs dans sa ligne d’état qui indiquent aupooler MAPI quelles actions doivent être lancées pour terminer la demande du client. 
 
 Dans ce modèle d’interaction client-transport-spooler, les actions demandées par le client sont asynchrones, dans ce cas **ValidateState** renvoie avant que les actions demandées soient terminées. Toutefois, les actions qui n’impliquent pas nécessairement le système de messagerie sous-jacent ou qui impliquent une interface spécifique au transport peuvent être synchrones. L’application cliente passe un masque de bits des indicateurs suivants pour spécifier les actions que le fournisseur de transport distant doit prendre. 
   
@@ -115,23 +115,23 @@ ABORT_XP_HEADER_OPERATION
     
    - Clear the STATUS_INBOUND_ENABLED and STATUS_INBOUND_ACTIVE bits in the **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) property to tell the MAPI spooler to stop the incoming flush process for this transport provider.
     
-   - Définissez le bit STATUS_OFFLINE dans la **propriété PR_STATUS_CODE** de la propriété. 
+   - Définissez le STATUS_OFFLINE bit dans la **PR_STATUS_CODE** propriété. 
     
    - Définissez **la PR_REMOTE_VALIDATE_OK** ([PidTagRemoteValidateOk](pidtagremotevalidateok-canonical-property.md)) sur TRUE.
     
-   - Définissez **la PR_STATUS_STRING** ([PidTagStatusString](pidtagstatusstring-canonical-property.md)) sur une chaîne qui indique l’état du fournisseur de transport à l’utilisateur.
+   - Définissez **PR_STATUS_STRING** propriété ([PidTagStatusString](pidtagstatusstring-canonical-property.md)) sur une chaîne qui indique l’état du fournisseur de transport à l’utilisateur.
     
    - Elles retournent S_OK. Toutefois, si l’opération en cours ne peut pas être annulée, **ValidateState** doit MAPI_E_BUSY. 
     
 FORCE_XP_CONNECT 
   
-> Un fournisseur de transport distant ne doit jamais établir de connexion à une ressource partagée (par exemple, un modem ou un port COM) en dehors du contexte de l’interaction de transport depooler MAPI impliquée dans la méthode [IXPLogon::FlushQueues.](ixplogon-flushqueues.md) Si **ValidateState** est appelé avec cet indicateur, votre fournisseur de transport doit : 
+> Un fournisseur de transport distant ne doit jamais établir de connexion à une ressource partagée (par exemple, un modem ou un port COM) en dehors du contexte de l’interaction de transport depooler MAPI impliquée dans la méthode [IXPLogon::FlushQueues](ixplogon-flushqueues.md) . Si **ValidateState** est appelé avec cet indicateur, votre fournisseur de transport doit : 
     
    - Définissez un indicateur d’état interne pour indiquer que la connexion distante doit être établie lorsque la méthode **IXPLogon::FlushQueues** est appelée. 
     
-   - Définissez les valeurs correctes dans la table d’état pour que lepooler MAPI lance le processus de purge de la file d’attente.
+   - Définissez les valeurs correctes dans la table d’état pour que lepooler MAPI lance le processus de  purge de la file d’attente.
     
-   - Lorsque le purgement des files d’attente est terminé, relâchez la ressource partagée.
+   - Lorsque le  purgement des files d’attente est terminé, relâchez la ressource partagée.
     
    - Clear the STATUS_OFFLINE bit in the **PR_STATUS_CODE** property. 
     
@@ -153,7 +153,7 @@ PROCESS_XP_HEADER_CACHE
     
    - Si une autre opération est en cours (par exemple, le téléchargement des en-têtes) lorsque **ValidateState** est appelé, **ValidateState** doit MAPI_E_BUSY. 
     
-   - Exécutez le code pour traiter l’indicateur REFRESH_XP_HEADER_CACHE, afin de satisfaire les exigences du client microsoft Exchange client.
+   - Exécutez le code pour traiter l’indicateur REFRESH_XP_HEADER_CACHE, afin de satisfaire les exigences du client Microsoft Exchange client.
     
 REFRESH_XP_HEADER_CACHE 
   
@@ -161,11 +161,11 @@ REFRESH_XP_HEADER_CACHE
     
    - Définissez **la PR_STATUS_STRING** sur une chaîne qui indique l’état du fournisseur de transport à l’utilisateur. 
     
-   - Définissez les STATUS_INBOUND_ENABLED et STATUS_INBOUND_ACTIVE bits dans la **propriété PR_STATUS_CODE..** 
+   - Définissez les STATUS_INBOUND_ENABLED et STATUS_INBOUND_ACTIVE bits dans la **PR_STATUS_CODE** propriété. 
     
    - Clear the STATUS_OFFLINE bit in the **PR_STATUS_CODE** property. 
     
-   - Définissez le bit STATUS_ONLINE dans la **propriété PR_STATUS_CODE.** 
+   - Définissez le STATUS_ONLINE bit dans la **PR_STATUS_CODE** propriété. 
     
    - Définissez **la PR_REMOTE_VALIDATE_OK** de transport dans la ligne d’état du fournisseur de transport sur FALSE. 
     
@@ -175,7 +175,7 @@ SHOW_XP_SESSION_UI
     
 Si des indicateurs autres que ceux-ci sont passés, **ValidateState** doit MAPI_E_UNKNOWN_FLAGS. 
   
-L’appel du client au fournisseur de transport est souvent à la méthode **IMAPIStatus::ValidateState.** Pendant le traitement de **ValidateState,** le fournisseur de transport ne doit effectuer aucune action qui alloue des ressources système allouées, telles qu’un modem ou un port COM. Cela est dû au fait que lepooler MAPI devra parfois vider les files d’attente sur plusieurs fournisseurs de transport. Toutefois, le client peut appeler la méthode **ValidateState** de n’importe quel fournisseur de transport à tout moment. Si votre fournisseur de transport tente d’allouer une ressource importante pendant le traitement de **ValidateState,** une erreur peut se produite en raison d’un conflit avec un autre fournisseur de transport que lepooler MAPI a demandé de vider ses files d’attente. Si vous autorisez toutes les allocations de ressources sous la direction dupooler MAPI, vous pouvez éviter de tels conflits. Votre fournisseur de transport doit prendre en **charge la propriété PR_REMOTE_VALIDATE_OK** afin que les applications clientes détectent quand votre fournisseur de transport est occupé ou en attente que lepooler MAPI lance une action. 
+L’appel du client au fournisseur de transport est souvent à la méthode **IMAPIStatus::ValidateState** . Pendant le traitement de **ValidateState**, le fournisseur de transport ne doit effectuer aucune action qui alloue des ressources système allouées, telles qu’un modem ou un port COM. Cela est dû au fait que lepooler MAPI devra parfois vider les files d’attente sur plusieurs fournisseurs de transport. Toutefois, le client peut appeler la méthode **ValidateState** de n’importe quel fournisseur de transport à tout moment. Si votre fournisseur de transport tente d’allouer une ressource importante pendant le traitement de **ValidateState**, une erreur peut se produite en raison d’un conflit avec un autre fournisseur de transport que lepooler MAPI a demandé de vider ses files d’attente. Si vous autorisez toutes les allocations de ressources sous la direction dupooler MAPI, vous pouvez éviter de tels conflits. Votre fournisseur de transport doit prendre en **charge la propriété PR_REMOTE_VALIDATE_OK** afin que les applications clientes détectent quand votre fournisseur de transport est occupé ou en attente que lepooler MAPI lance une action. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6434655b-8fb3-4a20-9649-8934042bfc7b
 description: Renvoie le nombre de caractères de l’expression de chaîne spécifiée, à l’exception des vides de fin.
-ms.openlocfilehash: 438960e0580e5aab776e76ae2dc944c50fa3e9d1
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 4aa31e3995240ac4158cf483a0b51e8ac14a6b45
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180389"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789360"
 ---
 # <a name="len-function-access-custom-web-app"></a>Len Function (Access custom web app)
 
@@ -29,6 +29,6 @@ La **fonction Len** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Expression de chaîne.  <br/> |
+| *TextExpression*  <br/> |Expression de chaîne. |
    
 

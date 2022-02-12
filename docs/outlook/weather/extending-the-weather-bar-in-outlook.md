@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3b355b98-dd7d-4f16-8257-367e5dd61b34
 description: Découvrez comment ajouter un service web météorologique tiers à la barre météorologique dans Outlook 2013, afin de fournir des données de conditions météorologiques pour un lieu choisi par l'utilisateur.
-ms.openlocfilehash: bc790ecec877a2104eb1d00a77bdfc8333753bda
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: e243b8f4b786a2a3132582cfbeda9c0dc81e516f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180088"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787533"
 ---
 # <a name="extending-the-weather-bar-in-outlook"></a>Extension de la barre météorologique dans Outlook
 
@@ -84,7 +84,7 @@ Le tableau suivant décrit la clé **WeatherServiceUrl**.
 |**Nom de valeur** <br/> |**WeatherServiceUrl** <br/> |
 |**Type de valeur** <br/> |REG_SZ  <br/> |
 |**Valeur par défaut** <br/> |EMPTY_STRING  <br/> |
-|**Description** <br/> |URL d'un service de données météorologiques.  <br/> |
+|**Description** <br/> |URL d'un service de données météorologiques. |
    
 ## <a name="dependent-conditions"></a>Conditions dépendantes
 <a name="ol15_weatherbar_dependentconditions"> </a>
@@ -103,7 +103,7 @@ Notez qu'un administrateur peut également utiliser la stratégie de groupe pour
 |**Nom de valeur** <br/> |**DisableWeather** <br/> |
 |**Type de valeur** <br/> |REG_DWORD  <br/> |
 |**Valeur par défaut** <br/> |0  <br/> |
-|**Description** <br/> |Une valeur de 0 active la barre météorologique. Toute autre valeur la désactive.  <br/> |
+|**Description** <br/> |Une valeur de 0 active la barre météorologique. Toute autre valeur la désactive. |
    
 Si la fonctionnalité de barre météorologique a été désactivée par la stratégie de groupe, l'onglet **Calendrier** ne comprend pas la case à cocher **Afficher la météo sur le calendrier**. Consultez l'administrateur pour réactiver la fonctionnalité. 
   
@@ -121,7 +121,7 @@ Un administrateur peut également utiliser la stratégie de groupe pour désacti
 |**Nom de valeur** <br/> |**UseOnlineContent** <br/> |
 |**Type de valeur** <br/> |REG_DWORD  <br/> |
 |**Valeur par défaut** <br/> |2  <br/> |
-|**Description** <br/> |Une valeur de 2 active la barre météorologique. Toute autre valeur la désactive.  <br/> |
+|**Description** <br/> |Une valeur de 2 active la barre météorologique. Toute autre valeur la désactive. |
    
 Si la fonctionnalité de barre météorologique a été désactivée par la stratégie de groupe, l'onglet **Calendrier** ne comprend pas la case à cocher **Afficher la météo sur le calendrier**. Consultez l'administrateur pour réactiver la fonctionnalité. 
   

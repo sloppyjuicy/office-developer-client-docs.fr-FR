@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 1ca67a09-9df2-37f5-b269-e761d76bb011
 description: Renvoie le nom d’une feuille en tant que chaîne.
-ms.openlocfilehash: 7b3bf74d87c534dc99c4ca74d014ded676d0190f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3d37fce198da658fce93191ff21485217f3f6ae2
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627897"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788842"
 ---
 # <a name="name-function"></a>Fonction NAME
 
@@ -28,7 +28,7 @@ NAME (** *langID_opt* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _langID_opt_ <br/> |Facultatif  <br/> |**Number** <br/> |Permet de spécifier une langue pour la chaîne à laquelle la fonction renvoie. Utilisez 0 (valeur par défaut) pour spécifier la langue locale et 750 pour la langue universelle.  <br/> |
+| _langID_opt_ <br/> |Facultatif  <br/> |**Number** <br/> |Permet de spécifier une langue pour la chaîne à laquelle la fonction renvoie. Utilisez 0 (valeur par défaut) pour spécifier la langue locale et 750 pour la langue universelle. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: f23dd6f4-915b-4fe8-ab3f-6d625c7d6061
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 29a06ebfec45acecbc938611c50c4939e3a52286
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 32b7f70f2d3e976d38e638fda7ee0feb2af4e8b1
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578892"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787645"
 ---
 # <a name="ppropfindprop"></a>PpropFindProp
 
@@ -49,11 +49,11 @@ LPSPropValue PpropFindProp(
     
  _cprop_
   
-> [in] Nombre de propriétés dans le jeu de propriétés indiqué par le _paramètre rgprop._ 
+> [in] Nombre de propriétés dans le jeu de propriétés indiqué par le  _paramètre rgprop_ . 
     
  _ulPropTag_
   
-> [in] Balise de propriété de la propriété à rechercher dans le jeu de propriétés indiqué par le _paramètre rgprop._ 
+> [in] Balise de propriété de la propriété à rechercher dans le jeu de propriétés indiqué par le  _paramètre rgprop_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,7 +61,7 @@ LPSPropValue PpropFindProp(
   
 ## <a name="remarks"></a>Remarques
 
-Si la balise de propriété donnée indique une propriété de type PT_UNSPECIFIED, la fonction **PpropFindProp** trouve une correspondance uniquement pour l’identificateur de propriété dans la balise. Sinon, il trouve une correspondance pour la balise de propriété entière, y compris le type de propriété, et renvoie la propriété identifiée. 
+Si la balise de propriété donnée indique une propriété de type PT_UNSPECIFIED, la fonction **PpropFindProp** trouve une correspondance uniquement pour l’identificateur de propriété dans la balise. Sinon, il trouve une correspondance pour l’ensemble de la balise de propriété, y compris le type de propriété, et renvoie la propriété identifiée. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -69,7 +69,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::BuildDataItem  <br/> |MFCMAPI utilise la **méthode PpropFindProp** pour rechercher les propriétés d’un jeu de propriétés ajouté à la liste.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::BuildDataItem  <br/> |MFCMAPI utilise la **méthode PpropFindProp** pour rechercher les propriétés d’un jeu de propriétés ajouté à la liste. |
    
 ## <a name="see-also"></a>Voir aussi
 

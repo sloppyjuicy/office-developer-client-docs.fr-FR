@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 98091e5b-1abd-4814-9c7a-583b420ee11d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5f912a49f401755bde941f9c0341bf7eda4b3a8f
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 834160ce52500cbc7093c037ef4e14ff29751a41
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461840"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789108"
 ---
 # <a name="mapilogonex"></a>MAPILogonEx
 
@@ -169,7 +169,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::MAPILogonEx  <br/> |MFCMAPI utilise la méthode MAPILogonEx pour se connecter à MAPI.  <br/> |
+|MAPIObjects.cpp  <br/> |CMapiObjects::MAPILogonEx  <br/> |MFCMAPI utilise la méthode MAPILogonEx pour se connecter à MAPI. |
    
 ## <a name="see-also"></a>Voir aussi
 

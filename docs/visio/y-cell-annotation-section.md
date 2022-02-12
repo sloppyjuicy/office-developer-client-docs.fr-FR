@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 527a4615-2013-a4b4-81cd-7f5d71c1803c
 description: Coordonnée y de la marque de commentaire en coordonnées de page.
-ms.openlocfilehash: 3d14a28f80e935a37d302de46d0b9b1cd4419eb6
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 4270221d8cb694ff9458e8f7fd86720a8f941057
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180522"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788695"
 ---
 # <a name="y-cell-annotation-section"></a>Y, cellule (section Annotation)
 
@@ -29,14 +29,14 @@ Pour obtenir une référence à la cellule Y à l'aide d'un nom à partir d'une 
   
 |||
 |:-----|:-----|
-| Nom de cellule :  <br/> | Annotation.Y [  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+| Nom de cellule :  <br/> | Annotation.Y [  *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Y à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionAnnotation** <br/> |
-| Index de la ligne :  <br/> |**visRowAnnotation**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowAnnotation** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visAnnotationY** <br/> |
    
 

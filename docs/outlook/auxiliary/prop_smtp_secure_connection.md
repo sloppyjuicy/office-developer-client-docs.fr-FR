@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: e316a424-d789-4ce5-bcc6-263049f3659e
 description: Spécifie le type de connexion chiffrée à utiliser pour un compte SMTP.
-ms.openlocfilehash: eb267e71f63bd02dc0268e06f62b288f56e4db11
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9bc16777d844340697e1d49d72462c138800da2c
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592731"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789220"
 ---
 # <a name="prop_smtp_secure_connection"></a>PROP_SMTP_SECURE_CONNECTION
 
@@ -33,10 +33,10 @@ La valeur peut être l’une des constantes suivantes. Voir [constantes (API de 
   
 |**Constants**|**Description**|
 |:-----|:-----|
-|**ENCRYPT_CONN_NO_SECURITY** <br/> |N’utilisez aucun chiffrement.  <br/> |
-|**ENCRYPT_CONN_SSL** <br/> |Utiliser le chiffrement SSL (Secure Socket Layer).  <br/> |
-|**ENCRYPT_CONN_TLS** <br/> |Utiliser le protocole de chiffrement et d’authentification TLS (Transport Layer Security).  <br/> |
-|**ENCRYPT_CONN_AUTO** <br/> |Détectez et utilisez automatiquement la méthode de chiffrement prise en charge par le serveur de messagerie.  <br/> |
+|**ENCRYPT_CONN_NO_SECURITY** <br/> |N’utilisez aucun chiffrement. |
+|**ENCRYPT_CONN_SSL** <br/> |Utiliser le chiffrement SSL (Secure Socket Layer). |
+|**ENCRYPT_CONN_TLS** <br/> |Utiliser le protocole de chiffrement et d’authentification TLS (Transport Layer Security). |
+|**ENCRYPT_CONN_AUTO** <br/> |Détectez et utilisez automatiquement la méthode de chiffrement prise en charge par le serveur de messagerie. |
    
 ## <a name="see-also"></a>Voir aussi
 

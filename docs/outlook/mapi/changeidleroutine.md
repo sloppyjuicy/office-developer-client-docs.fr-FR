@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 0a24fe3b-a1ef-4748-b3b3-3bf747473c9d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 821a9d88193f1bfb9cb9d3fe0a6504235d492bea
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: c8fe67cd55a41c4d7785e96ec512e8593dcc4add
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461875"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784299"
 ---
 # <a name="changeidleroutine"></a>ChangeIdleRoutine
 
@@ -105,12 +105,12 @@ Les fonctions suivantes traitent du moteur inactif MAPI et des routines inactive
   
 |**Fonction de routine inactive**|**Utilisation**|
 |:-----|:-----|
-|**ChangeIdleRoutine** <br/> |Modifie les caractéristiques d’une routine d’inactivité inscrite.  <br/> |
-|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Supprime une routine d’inactivité enregistrée du système MAPI.  <br/> |
-|[EnableIdleRoutine](enableidleroutine.md) <br/> |Désactive ou réactive une routine d’inactivité enregistrée sans la supprimer du système MAPI.  <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Ajoute une routine inactive au système MAPI, avec ou sans l’activer.  <br/> |
-|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Arrête le moteur d’inactivité MAPI pour l’application à l’appel.  <br/> |
-|[MAPIInitIdle](mapiinitidle.md) <br/> |Initialise le moteur d’inactivité MAPI pour l’application à l’appel.  <br/> |
+|**ChangeIdleRoutine** <br/> |Modifie les caractéristiques d’une routine d’inactivité inscrite. |
+|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Supprime une routine d’inactivité enregistrée du système MAPI. |
+|[EnableIdleRoutine](enableidleroutine.md) <br/> |Désactive ou réactive une routine d’inactivité enregistrée sans la supprimer du système MAPI. |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Ajoute une routine inactive au système MAPI, avec ou sans l’activer. |
+|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Arrête le moteur d’inactivité MAPI pour l’application à l’appel. |
+|[MAPIInitIdle](mapiinitidle.md) <br/> |Initialise le moteur d’inactivité MAPI pour l’application à l’appel. |
    
 **ChangeIdleRoutine**, **DeregisterIdleRoutine** et **EnableIdleRoutine** prennent comme paramètre d’entrée la balise de fonction renvoyée par **FtgRegisterIdleRoutine**. 
   

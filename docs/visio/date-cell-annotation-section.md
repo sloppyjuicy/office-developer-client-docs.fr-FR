@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f1f11803-614b-a40d-0a2d-131093e7609e
 description: Contient la date et l'heure du dernier commentaire modifié.
-ms.openlocfilehash: e899fe5b74f45a41a38f48710d5da297a50d5915
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ec2463b8f2274e5713c0c1b1e13754e399e05c61
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612882"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787386"
 ---
 # <a name="date-cell-annotation-section"></a>Date, cellule (section Annotation)
 
@@ -31,14 +31,14 @@ Pour obtenir une référence à la cellule Date par un nom à partir d'une autre
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Annotation.Date[  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Annotation.Date[  *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Date à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionAnnotation** <br/> |
-| Index de la ligne :  <br/> |**visRowAnnotation**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowAnnotation** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visAnnotationDate** <br/> |
    
 

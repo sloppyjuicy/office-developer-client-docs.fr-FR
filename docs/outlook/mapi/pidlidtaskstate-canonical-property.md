@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 06d1f8a3-53e1-4c9a-9703-75de7a11a772
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 083a4105f851c77f16b75575158bd317acabf8d6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cc10e8552133947f3e48912cf10fd9888ba01a45
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591709"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787680"
 ---
 # <a name="pidlidtaskstate-canonical-property"></a>Propriété canonique PidLidTaskState
 
@@ -41,11 +41,11 @@ La valeur de cette propriété doit être l’une des suivantes.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |Cette tâche a été créée pour correspondre à une tâche qui a été incorporée dans un rejet de tâche mais qui n’a pas pu être trouvée localement.  <br/> |
-|0x00000001  <br/> |La tâche n’est pas affectée.  <br/> |
-|0x00000002  <br/> |La tâche est la copie d’une tâche affectée à la personne affectée.  <br/> |
-|0x00000003  <br/> |La tâche est la copie d’une tâche affectée par l’assigneur de la tâche.  <br/> |
-|0x00000004  <br/> |La tâche est la copie d’une tâche rejetée par l’assigneur de la tâche.  <br/> |
+|0x00000000  <br/> |Cette tâche a été créée pour correspondre à une tâche qui a été incorporée dans un rejet de tâche mais qui n’a pas pu être trouvée localement. |
+|0x00000001  <br/> |La tâche n’est pas affectée. |
+|0x00000002  <br/> |La tâche est la copie de la tâche affectée à la personne affectée. |
+|0x00000003  <br/> |La tâche est la copie d’une tâche affectée par l’assigneur de la tâche. |
+|0x00000004  <br/> |La tâche est la copie d’une tâche rejetée par l’assigneur de la tâche. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

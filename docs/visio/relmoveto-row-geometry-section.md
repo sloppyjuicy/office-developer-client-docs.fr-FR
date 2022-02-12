@@ -6,34 +6,34 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 04a0ba9f-48dd-488f-9c87-3890a12adf89
-description: Contient les coordonnées x et y du premier sommet d’une forme ou des coordonnées x et y du premier sommet après un rupture de chemin d’accès, par rapport à la hauteur et à la largeur de la forme.
-ms.openlocfilehash: 1878a8663ef72fbb5f248a160c0abd0d20458baa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient les coordonnées x et y du premier sommet d’une forme ou les coordonnées x et y du premier sommet après un rupture de chemin d’accès, par rapport à la hauteur et à la largeur de la forme.
+ms.openlocfilehash: db1de3a36e8fcf32403922e81b6da225c77e4651
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598387"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788772"
 ---
 # <a name="relmoveto-row-geometry-section"></a>RelMoveTo Row (Geometry Section)
 
-Contient les coordonnées  *x*  et  *y*  du premier sommet d’une forme ou des coordonnées  *x*  et  *y*  du premier sommet après un rupture de chemin d’accès, par rapport à la hauteur et à la largeur de la forme. 
+Contient les coordonnées  *x*  et  *y*  du premier sommet d’une forme ou les coordonnées  *x*  et  *y*  du premier sommet après un rupture de chemin d’accès, par rapport à la hauteur et à la largeur de la forme. 
   
 > [!NOTE]
-> Une **ligne RelMoveTo** ne peut être persistante que dans les formats de fichier .vsdx, .vsdm, .vstx, .vstm, .vssx et .vssm. Lorsqu’un fichier est enregistré dans les formats Visio 2003-2010, la ligne **RelMoveTo** est convertie en ligne [MoveTo.](moveto-row-geometry-section.md) 
+> Une **ligne RelMoveTo** ne peut être persistante que dans les formats de fichier .vsdx, .vsdm, .vstx, .vstm, .vssx et .vssm. Lorsqu’un fichier est enregistré dans les formats Visio 2003-2010, la ligne **RelMoveTo est convertie** en ligne [MoveTo](moveto-row-geometry-section.md). 
   
 Une **ligne RelMoveTo** contient les cellules suivantes. 
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |Si la **ligne RelMoveTo** est la première ligne de la section, la cellule X représente la coordonnée  *x*  du premier sommet d’une forme par rapport à la largeur de la forme. Si la **ligne RelMoveTo** apparaît entre deux lignes, la cellule X représente la coordonnée  *x*  du premier sommet après la coupure du chemin d’accès.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |Si la **ligne RelMoveTo** est la première ligne de la section, la cellule Y représente la coordonnée  *y*  du premier sommet d’une forme. Si la **ligne RelMoveTo** apparaît entre deux lignes, la cellule Y représente la coordonnée  *y*  du premier sommet après le rupture du chemin d’accès.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Si la **ligne RelMoveTo** est la première ligne de la section, la cellule X représente la coordonnée  *x*  du premier sommet d’une forme par rapport à la largeur de la forme. Si la **ligne RelMoveTo** apparaît entre deux lignes, la cellule X représente la coordonnée  *x*  du premier sommet après la coupure du chemin d’accès. |
+|[Y](y-cell-geometry-section.md) <br/> |Si la **ligne RelMoveTo** est la première ligne de la section, la cellule Y représente la coordonnée  *y*  du premier sommet d’une forme. Si la **ligne RelMoveTo** apparaît entre deux lignes, la cellule Y représente la coordonnée  *y*  du premier sommet après la coupure du chemin d’accès. |
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs de **la ligne RelMoveTo** sont équivalentes aux valeurs d’une [ligne MoveTo](moveto-row-geometry-section.md) multipliées par la largeur et la hauteur de la forme. Par exemple : une ligne **RelMoveTo** où la valeur de la cellule **X** est « 0 » et la valeur de la cellule **Y** est « 0,5 » peut être remplacée par la ligne **MoveTo** où la valeur de la cellule **X** est la formule « Width 0 » et la cellule ***Y*** la formule « Height 0.5 ». 
+Les valeurs de **la ligne RelMoveTo** sont équivalentes aux valeurs d’une [ligne MoveTo](moveto-row-geometry-section.md) multipliées par la largeur et la hauteur de la forme. Par exemple : une ligne **RelMoveTo** où la valeur de la cellule **X** est « 0 » et la valeur de la cellule **Y** est « 0,5 » peut être remplacée par la ligne **MoveTo** où la valeur de la cellule **X** est la formule « Width0 » et la cellule ***Y*** la formule « Height0.5 ». 
   
 La **ligne RelMoveTo** contient les coordonnées  *x*  et  *y*  du premier sommet de la forme si la ligne MoveTo est la première ligne de la section. Il s’agit généralement du premier sommet placé lorsque la forme a été dessinée et il ne correspond pas nécessairement au point de début d’une forme 1D. 
   
-Une section **Geometry** doit commencer par une ligne **MoveTo** ou **RelMoveTo,** mais vous pouvez également utiliser les lignes **RelMoveTo** et **MoveTo** pour représenter un intervalle dans le tracé du chemin d’accès d’une forme par rapport à la largeur et à la hauteur de la forme. Cependant, lorsque le chemin est utilisé pour définir la limite d'une zone remplie, cet espace est interprété comme un  segment de trait droit. Pour insérer un tel intervalle, insérez une ligne entre deux lignes et modifiez le type de ligne **en RelMoveTo**. Si la **ligne RelMoveTo** se trouve entre deux lignes, elle contient les coordonnées  *x*  et  *y*  du premier sommet de la ligne après la rupture du chemin d’accès de la forme. 
+Une section **Geometry** doit commencer par une ligne **MoveTo** ou **RelMoveTo** , mais vous pouvez également utiliser les lignes **RelMoveTo** et **MoveTo** pour représenter un espace dans le tracé du chemin d’une forme par rapport à la largeur et à la hauteur de la forme. Cependant, lorsque le chemin est utilisé pour définir la limite d'une zone remplie, cet espace est interprété comme un  segment de trait droit. Pour insérer un tel intervalle, insérez une ligne entre deux lignes et modifiez le type de ligne **en RelMoveTo**. Si la **ligne RelMoveTo** se trouve entre deux lignes, elle contient les coordonnées  *x*  et  *y*  du premier sommet de la ligne après la rupture du chemin d’accès de la forme. 
   
 

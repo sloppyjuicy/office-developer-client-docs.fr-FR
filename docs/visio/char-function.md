@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 0803d5d3-d804-5ffe-604d-661b35d1fc01
 description: Renvoie le caractère ANSI d’un nombre.
-ms.openlocfilehash: 9e29a518f81a59fcf63313ef06391a4984944d81
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 75af7d3ca92a174c9dd8629bb755f4a6e88cfeee
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603752"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787442"
 ---
 # <a name="char-function"></a>Fonction CHAR
 
@@ -28,7 +28,7 @@ CHAR(** *number* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatoire  <br/> |**Number** <br/> |Nombre dont vous souhaitez obtenir le caractère ANSI.  <br/> |
+| _number_ <br/> |Requis  <br/> |**Number** <br/> |Nombre dont vous souhaitez obtenir le caractère ANSI. |
    
 ## <a name="remarks"></a>Remarques
 

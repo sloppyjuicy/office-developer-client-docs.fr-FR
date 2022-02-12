@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 9224c694-b26f-42c7-9404-ee2dd832cfbb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d7efb19a49b06ad48493e0b4ffbe2f6e41bb140b
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 3deeda6441ae380b686b5038a59a2934c2255e9a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462416"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783844"
 ---
 # <a name="one-off-addresses"></a>Adresses ponctuelles
 
@@ -29,12 +29,12 @@ Il existe six composants pour ce format et certaines règles relatives au quotin
   
 |**Composant**|**Utilisation**|**Description**|
 |:-----|:-----|:-----|
-|Nom d’affichage  <br/> |Facultatif  <br/> |S’il n’est pas présent, **IAddrBook::ResolveName** utilise la partie visible de l’adresse e-mail comme nom d’affichage. Peut inclure des espaces vides. Pour plus d’informations, [voir IAddrBook::ResolveName](iaddrbook-resolvename.md).  <br/> |
-|[  <br/> |Requis  <br/> |Définit le début des informations de type et d’adresse.  <br/> |
-|]  <br/> |Requis  <br/> |Définit la fin des informations de type et d’adresse. Si autre chose que l’espacement suit ce caractère, l’entrée n’est pas traitée comme un destinataire personnalisé.  <br/> |
-|Type d’adresse  <br/> |Requis  <br/> |Type d’adresse ; s’map après un format d’adresse spécifique. Pour plus d’informations, voir [Types d’adresse MAPI](mapi-address-types.md).  <br/> |
-|:  <br/> |Requis  <br/> |Sépare le type d’adresse de l’adresse de messagerie.  <br/> |
-|Adresse électronique  <br/> |Requis  <br/> |Adresse du destinataire. Peut inclure des espaces vides.  <br/> |
+|Nom d’affichage  <br/> |Facultatif  <br/> |S’il n’est pas présent, **IAddrBook::ResolveName** utilise la partie visible de l’adresse e-mail comme nom d’affichage. Peut inclure des espaces vides. Pour plus d’informations, [voir IAddrBook::ResolveName](iaddrbook-resolvename.md). |
+|[  <br/> |Requis  <br/> |Définit le début des informations de type et d’adresse. |
+|]  <br/> |Requis  <br/> |Définit la fin des informations de type et d’adresse. Si autre chose que l’espacement suit ce caractère, l’entrée n’est pas traitée comme un destinataire personnalisé. |
+|Type d’adresse  <br/> |Requis  <br/> |Type d’adresse ; s’map après un format d’adresse spécifique. Pour plus d’informations, voir [Types d’adresse MAPI](mapi-address-types.md). |
+|:  <br/> |Requis  <br/> |Sépare le type d’adresse de l’adresse de messagerie. |
+|Adresse électronique  <br/> |Requis  <br/> |Adresse du destinataire. Peut inclure des espaces vides. |
    
 MAPI utilise des jeux particuliers de caractères de quoting pour permettre aux adresses de contenir des caractères spéciaux tels que des virgules (,), des crochets gauches ([) et des deux-points (:) et certains caractères nontypes tels que le retour chariot ou le retour à la ligne ou tout autre équivalent hexadécimal. Le caractère de quoting est la barre oblique inverse (\). Par conséquent, si les clients ou les fournisseurs doivent insérer une barre oblique inverse dans une adresse, ils doivent la faire précéder du caractère de quoting (« \\ »).
   

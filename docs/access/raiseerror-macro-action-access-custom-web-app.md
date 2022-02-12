@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 5e29bf64-300a-4094-82ff-664e79782d86
 description: L’action ÉleverErreur affiche une fenêtre popup qui contient un message d’erreur spécifié.
-ms.openlocfilehash: e96dc0cc0103d32d1992743d67bfc5a4dd1b4213
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: cc22371dd86b32072fd3beef9e01b8a1bee8f084
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180725"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784558"
 ---
 # <a name="raiseerror-macro-action-access-custom-web-app"></a>RaiseError Macro Action (Application web personnalisée Access)
 
@@ -30,7 +30,7 @@ ms.locfileid: "62180725"
   
 |**Argument**|**Description**|
 |:-----|:-----|
-| _Description de l’erreur_ <br/> |Expression de type Chaîne qui décrit l’erreur.  <br/> |
+| _Description de l’erreur_ <br/> |Expression de type Chaîne qui décrit l’erreur. |
    
 ## <a name="remarks"></a>Remarques
 

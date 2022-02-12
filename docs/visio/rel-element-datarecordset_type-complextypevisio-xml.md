@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 9148c73f-970d-61f8-b5da-e3bc748a6541
 description: Spécifie une relation à un élément avec le recordset associé et les informations de liaison de données.
-ms.openlocfilehash: 9e6d94206f3776a83d1a4782ffc38e87a54dc703
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0830389933b77dfd6c53c4d86fe1b7fb42977276
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623144"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784607"
 ---
 # <a name="rel-element-datarecordset_type-complextype-visio-xml"></a>Élément Rel (DataRecordSet_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Spécifie une relation à un élément avec le recordset associé et les informa
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Spécifie une instance d’un recordset et des informations de liaison de données stockées dans le dessin.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Spécifie une instance d’un recordset et des informations de liaison de données stockées dans le dessin. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,12 +52,12 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|r:id  <br/> |xsd:string  <br/> Voir les remarques.  <br/> |obligatoire  <br/> |Spécifie une relation à un élément.  <br/> |« rId# »  <br/> Voir les remarques.  <br/> |
+|r:id  <br/> |xsd:string  <br/> Voir les remarques. |obligatoire  <br/> |Spécifie une relation à un élément. |« rId# »  <br/> Voir les remarques. |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de **l’attribut r:id** doit être **ST_RelationshipID** type. Le ST_RelationshipID type est une chaîne qui doit être au format « rId# **»** où le caractère final doit être un nombre. Le nombre doit être unique parmi tous les éléments frères de **l’élément Rel.** 
+La valeur de **l’attribut r:id** doit **être ST_RelationshipID type** . Le **ST_RelationshipID** type est une chaîne qui doit être au format « rId# » où le caractère final doit être un nombre. Le nombre doit être unique parmi tous les éléments frères de **l’élément Rel** . 
   
-Pour plus d’informations sur le type ST_RelationshipID, voir la spécification [ISO/IEC 29500 Partie 1.](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750)
+Pour plus d’informations sur le type ST_RelationshipID, voir la spécification [ISO/IEC 29500 Partie 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
   
 

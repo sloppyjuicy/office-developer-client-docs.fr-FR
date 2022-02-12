@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 1f09482a-0b1b-1bef-bc23-7f7793c4c65f
 description: Renvoie un point transformé en coordonnées locales dans le système de coordonnées de destination.
-ms.openlocfilehash: a53798312d81c10baa6bb25ed473424bc41624f7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 69923fe5aac909043449ed01d0046bbe06242bd8
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603570"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62786796"
 ---
 # <a name="loctoloc-function"></a>Fonction LOCTOLOC
 
@@ -28,9 +28,9 @@ LOCTOLOC(** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _srcPoint_ <br/> |Obligatoire  <br/> |**String** <br/> | Point en coordonnées locales du système de coordonnées source  <br/> |
-| _srcRef_ <br/> |Obligatoire  <br/> |**String** <br/> | Référence à une cellule de l’objet source  <br/> |
-| _dstRef_ <br/> |Obligatoire  <br/> |**String** <br/> | Référence à une cellule de l’objet cible  <br/> |
+| _srcPoint_ <br/> |Requis  <br/> |**String** <br/> | Point en coordonnées locales du système de coordonnées source |
+| _srcRef_ <br/> |Requis  <br/> |**String** <br/> | Référence à une cellule de l’objet source |
+| _dstRef_ <br/> |Requis  <br/> |**String** <br/> | Référence à une cellule de l’objet cible |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

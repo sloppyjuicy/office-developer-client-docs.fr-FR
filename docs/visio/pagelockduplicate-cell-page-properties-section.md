@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: fbaa7d64-06ef-46d6-81d5-9d7af1c14b65
 description: Détermine si la page peut être dupliquée, en tant que booléen.
-ms.openlocfilehash: 41ac55f68993f164ae7e31aad0aab4720d58643e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e3f0be543631e267fd0c4796be99b76dce7dfd84
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59562936"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784656"
 ---
 # <a name="pagelockduplicate-cell-page-properties-section"></a>PageLockDuplicate Cell (Page Properties Section)
 
@@ -20,12 +20,12 @@ Détermine si la page peut être dupliquée, en tant que booléen.
   
 |||
 |:-----|:-----|
-|TRUE  <br/> |**Les doublons** dans le menu de raccourci de page et la **méthode d’automatisation Page.Duplicate** sont tous deux désactivés pour la page.  <br/> |
-|FALSE  <br/> |La page peut être dupliquée.  <br/> |
+|TRUE  <br/> |**Le** doublon dans le menu de raccourci de page et la **méthode d’automatisation Page.Duplicate** sont tous deux désactivés pour la page. |
+|FALSE  <br/> |La page peut être dupliquée. |
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule **PageLockDuplicate** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
+Pour obtenir une référence à la cellule **PageLockDuplicate** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
   
 |||
 |:-----|:-----|

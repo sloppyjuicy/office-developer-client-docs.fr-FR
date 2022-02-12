@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1f72ab6c-14da-47b7-97ab-f729914214ba
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1d87de37e83a43380f81a96735d8e33e7010763b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4076a8995c1d0d3a7834e40a9249f7972cd9829e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610712"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788569"
 ---
 # <a name="icontabadmin--iunknown"></a>IContabAdmin : IUnknown
 
@@ -29,7 +29,7 @@ Supprime les dossiers de contacts du carnet Microsoft Outlook 2010 et Microsoft 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |c vhmin.h  <br/> |
+|Fichier d’en-tête :  <br/> |caminemin.h  <br/> |
 |Exposé par :  <br/> ||
 |Implémenté par :  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
 |Appelé par :  <br/> |CRM  <br/> |
@@ -40,6 +40,6 @@ Supprime les dossiers de contacts du carnet Microsoft Outlook 2010 et Microsoft 
 
 |||
 |:-----|:-----|
-|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Supprime le carnet d’adresses de contact spécifié par l’ID d’entrée donné de la hiérarchie du carnet d’adresses.  <br/> |
+|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Supprime le carnet d’adresses de contact spécifié par l’ID d’entrée donné de la hiérarchie du carnet d’adresses. |
    
 

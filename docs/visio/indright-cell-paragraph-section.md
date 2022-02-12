@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f0891064-95d9-ae1b-28f3-3aef1406b636
 description: "Représente la distance entre chaque ligne du paragraphe et la marge droite du bloc de texte. Cette valeur est indépendante de l'échelle de dessin : elle ne change pas si le dessin est mis à l'échelle."
-ms.openlocfilehash: 7689d808f8c1cc886a20488251ae75418c1d8af8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 23945e83cde93ce20c77b0e35e0e2fd76b9aec29
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570455"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787176"
 ---
 # <a name="indright-cell-paragraph-section"></a>IndRight, cellule (section Paragraph)
 
@@ -26,14 +26,14 @@ Pour obtenir une référence à la cellule IndRight par un nom à partir d'une a
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Para.IndRight[  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Para.IndRight[  *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule IndRight à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionParagraph** <br/> |
-| Index de la ligne :  <br/> |**visRowParagraph**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowParagraph** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visIndentRight** <br/> |
    
 

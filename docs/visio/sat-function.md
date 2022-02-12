@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 407817fb-9e4a-d2ca-6125-2440d2a417c6
 description: Renvoie la valeur du composant de saturation d’une couleur.
-ms.openlocfilehash: 619a221e1b22442605364ee8cdf1b29f3fc002c8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 34d42406a0bd8c3fbbc656ebc02dfc2ba97b591c
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627547"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788751"
 ---
 # <a name="sat-function"></a>Fonction SAT
 
@@ -28,7 +28,7 @@ SAT(** *expression* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatoire  <br/> |**Varie** <br/> |Index d’une couleur dans la table des couleurs d’un document, expression correspondant à une couleur personnalisée (telle que RVB ou TSL) ou référence à une cellule contenant un index ou un résultat de couleurs.  <br/> |
+| _expression_ <br/> |Requis  <br/> |**Varie** <br/> |Index d’une couleur dans la table des couleurs d’un document, expression correspondant à une couleur personnalisée (telle que RVB ou TSL) ou référence à une cellule contenant un index ou un résultat de couleurs. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

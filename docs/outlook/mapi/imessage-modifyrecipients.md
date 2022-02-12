@@ -11,12 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2625f29d-325f-417d-bcec-49d580f9cd7e
-ms.openlocfilehash: f8cca47a25157379e6005ca5b0f2dd7cbe934015
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 774c916a8910d5006dd7e37e8ea06fc4ac428be4
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551281"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788338"
 ---
 # <a name="imessagemodifyrecipients"></a>IMessage::ModifyRecipients
 
@@ -49,7 +49,7 @@ MODRECIP_MODIFY
     
 MODRECIP_REMOVE 
   
-> Les destinataires existants doivent être supprimés de la liste des destinataires en utilisant comme index la propriété **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)) incluse dans le tableau des valeurs de propriété de chaque entrée de destinataire dans le paramètre _lpMods._ 
+> Les destinataires existants doivent être supprimés de la liste des destinataires en utilisant comme index la propriété **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)) incluse dans le tableau des valeurs de propriété de chaque entrée de destinataire dans le paramètre _lpMods_ . 
     
  _lpMods_
   
@@ -67,7 +67,7 @@ La m�thode **IMessage::ModifyRecipients** modifie la liste des destinataires d
   
 La structure **ADRLIST** contient une structure [ADRENTRY](adrentry.md) pour chaque destinataire et chaque structure **ADRENTRY** contient un tableau de valeurs de propri�t�s d�crivant les propri�t�s du destinataire. 
   
-Destinataires de la structure **ADRLIST** peuvent �tre r�solus ou non r�solues. La diff�rence r�side dans le nombre et le type des propri�t�s qui sont inclus. Un destinataire non résolu contient uniquement les propriétés **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) et **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) tandis qu’un destinataire résolu contient ces deux propriétés plus **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) et **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Si **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) est disponible, il peut également être inclus.
+Destinataires de la structure **ADRLIST** peuvent �tre r�solus ou non r�solues. La diff�rence r�side dans le nombre et le type des propri�t�s qui sont inclus. Un destinataire non résolu contient uniquement les propriétés **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) et **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)), tandis qu’un destinataire résolu contient ces deux propriétés plus **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) et **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Si **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) est disponible, il peut également être inclus.
   
 Au moment o� qu'un message est envoy�, il doit inclure uniquement les destinataires r�solus dans sa liste des destinataires. Destinataires non r�solus provoquent des rapports de non-remise � �tre cr�� et envoy� � l'exp�diteur d'origine du message. Pour plus d'informations sur le processus de r�solution de nom � partir du point de vue du client, consultez la rubrique [r�solution d'un nom](resolving-a-recipient-name.md). Pour plus d'informations � partir du point de vue du fournisseur de carnet d'adresses, voir [Impl�mentation de la r�solution de noms](implementing-name-resolution.md).
   
@@ -79,7 +79,7 @@ Vous pouvez cr�er une liste de destinataires en appelant [IAddrBook::Address](
   
 Lorsque vous sp�cifiez les propri�t�s d'un destinataire dans la structure [ADRLIST](adrlist.md) , inclure toutes les propri�t�s du destinataire, non seulement celles nouvelles ou modifi�es. Lorsqu'un destinataire est modifi�, toutes les propri�t�s non incluses dans la structure **ADRLIST** sont supprim�es. Pour r�cup�rer l'ensemble actuel des propri�t�s pour tous les destinataires d'un message, appelez [GetRecipientTable](imessage-getrecipienttable.md) et r�cup�rer toutes les lignes. Un **SRowSet** �tant identique en structure � une **ADRLIST**, vous pouvez les utiliser indiff�remment.
   
- **ModifyRecipients** remplace toutes les entr�es dans la liste des destinataires en cours avec les informations d�sign�es par  _lpMods_ lorsque aucun des indicateurs sont d�finies dans le param�tre  _ulFlags_. 
+ **ModifyRecipients** remplace toutes les entrées de la liste des destinataires actuelles par les informations pointées par  _lpMods_ lorsqu’aucun des indicateurs n’est définie dans le paramètre _ulFlags_ . 
 
 Lorsque vous d�finissez l'indicateur MODRECIP_MODIFY, **ModifyRecipients** remplace chaque destinataire toute ligne par la ligne associ�e dans la structure [ADRLIST](adrlist.md) transmise dans  _lpMods_. Veillez � sp�cifier toutes les propri�t�s ayant un destinataire doit qu'elles ont chang� pour emp�cher leur involontairement supprim�.
   
@@ -109,7 +109,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI utilise la m�thode **IMessage::ModifyRecipients** pour ajouter un destinataire � un message.  <br/> |
+|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI utilise la m�thode **IMessage::ModifyRecipients** pour ajouter un destinataire � un message. |
    
 ## <a name="see-also"></a>Voir aussi
 

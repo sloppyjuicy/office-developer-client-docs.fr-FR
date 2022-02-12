@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6788bc96-cc86-5f21-781f-67274e7f605a
 description: Arrondit un nombre à 0 (zéro), à l’integer suivant ou à l’instance suivante de plusieurs.
-ms.openlocfilehash: 280697a8c8f38d122cd4cd1a1e7802e55b100107
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 778fa7ab50ec4d1ae9cb886f88b3c9bfcda1b4a7
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598688"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787281"
 ---
 # <a name="floor-function"></a>Fonction FLOOR
 
@@ -28,8 +28,8 @@ FLOOR(** *number* **, ** *multiple* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatoire  <br/> |**Number** <br/> |Nombre à arrondir.  <br/> |
-| _multiple_ <br/> |Obligatoire  <br/> |**Number** <br/> |Multiple vers lequel arrondir.  <br/> |
+| _number_ <br/> |Requis  <br/> |**Number** <br/> |Nombre à arrondir. |
+| _multiple_ <br/> |Requis  <br/> |**Number** <br/> |Multiple vers lequel arrondir. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

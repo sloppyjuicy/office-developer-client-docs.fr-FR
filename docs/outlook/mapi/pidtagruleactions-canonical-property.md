@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3ec4259a-8fe9-46c3-82b8-42c6907b8515
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c9b750a1cf6a1e393ecff05d1acaf5b2819c24f6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2d9cd8dcde2db136935bf7291b9c8f99d15e733f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563342"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787659"
 ---
 # <a name="pidtagruleactions-canonical-property"></a>Propriété canonique PidTagRuleActions
 
@@ -44,7 +44,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ImportProcs.cpp  <br/> |PropCopyMore, HrCopyActions  <br/> |Ces fonctions montrent comment PT_ACTIONS une propriété à des fins de copie dans une autre propriété.  <br/> |
+|ImportProcs.cpp  <br/> |PropCopyMore, HrCopyActions  <br/> |Ces fonctions montrent comment PT_ACTIONS une propriété à des fins de copie dans une autre propriété. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

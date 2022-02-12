@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cc3ffb8d-9cc4-47d3-9aa9-02c3a5b7775c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7b5261a6edfa61cd88fdfba6d5b1891c3c534b4b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b4d6444a433b6be0ac4425bb655419c61846a5ca
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551302"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789164"
 ---
 # <a name="imapiforminfocalcformpropset"></a>IMAPIFormInfo::CalcFormPropSet
 
@@ -64,7 +64,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI utilise la méthode **IMAPIFormInfo::CalcFormPropSet** lors de l’écriture de la sortie de débogage pour les objets d’informations de formulaire.  <br/> |
+|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI utilise la méthode **IMAPIFormInfo::CalcFormPropSet** lors de l’écriture de la sortie de débogage pour les objets d’informations de formulaire. |
    
 ## <a name="see-also"></a>Voir aussi
 

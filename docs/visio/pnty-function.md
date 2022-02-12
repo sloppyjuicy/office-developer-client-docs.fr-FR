@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 8436cbe6-e0f6-ddbb-9489-21027e31bd51
 description: Renvoie la coordonnée y d’un point.
-ms.openlocfilehash: 6f31a718d529a2065301993bad54f5d5d12f13e5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3a65f53b2a9abeca5f3dbba37f9ec406bd11a75a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570350"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784614"
 ---
 # <a name="pnty-function"></a>Fonction PNTY
 
@@ -28,7 +28,7 @@ PNTX(** *point* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _point_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée  _y_ du point.  <br/> |
+| _point_ <br/> |Requis  <br/> |**Number** <br/> |Coordonnée  _y_ du point. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: ab9fcebc-1550-3b9e-e3b4-e8b92424390b
 description: Détermine si les formes d'une page en premier plan s'alignent sur d'autres objets de la page et sur des formes de la page d'arrière-plan.
-ms.openlocfilehash: c559bb97357e75508b8c1da742d970262f0ef6f9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 04314675058206749d12ce93d675130afe7529bb
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628079"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787169"
 ---
 # <a name="inhibitsnap-cell-page-properties-section"></a>InhibitSnap, cellule (section Page Properties)
 
@@ -22,8 +22,8 @@ Détermine si les formes d'une page en premier plan s'alignent sur d'autres obje
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Interdit tout alignement sur la page à l'exception de l'alignement sur la règle et sur la grille.  <br/> |
-| FALSE  <br/> | Active l'alignement.  <br/> |
+| TRUE  <br/> | Interdit tout alignement sur la page à l'exception de l'alignement sur la règle et sur la grille. |
+| FALSE  <br/> | Active l'alignement. |
    
 ## <a name="remarks"></a>Remarques
 

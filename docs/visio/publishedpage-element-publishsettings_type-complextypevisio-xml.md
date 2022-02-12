@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: c1eca66b-5840-790a-459f-e06680d11c05
 description: Spécifie si une page de dessin est consultable dans le navigateur à l’aide de Visio Services dans Microsoft SharePoint Server 2013.
-ms.openlocfilehash: df1beb45c6709cac8aa96525b7e068b337d8c791
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 71af8156b438a2f85f88a8bd5f41b8d39d2c0126
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565932"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788800"
 ---
 # <a name="publishedpage-element-publishsettings_type-complextype-visio-xml"></a>Élément PublishedPage (PublishSettings_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Spécifie si une page de dessin est consultable dans le navigateur à l’aide d
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Spécifie les paramètres utilisés lorsque le diagramme est ouvert à l’aide de Visio Services.  <br/> |
+|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Spécifie les paramètres utilisés lorsque le diagramme est ouvert à l’aide de Visio Services. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,6 +52,6 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Identificateur d’une page de dessin.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Identificateur d’une page de dessin. |Valeurs du type xsd:unsignedInt. |
    
 

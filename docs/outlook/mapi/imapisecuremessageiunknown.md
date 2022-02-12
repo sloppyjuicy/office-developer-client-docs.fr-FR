@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e6e63104-23db-41a7-a961-d25e2017822e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b5074d40ff6648091c7130470afa7811d6563234
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 41c8d242942b141d8554fdaebb1a9a0e8d49cb44
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575867"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784096"
 ---
 # <a name="imapisecuremessage--iunknown"></a>IMAPISecureMessage : IUnknown
 
@@ -40,14 +40,14 @@ Définit les méthodes utilisées pour gérer les messages sécurisés.
 
 |||
 |:-----|:-----|
-|Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
-|Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
-|Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
-|Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
-|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Extrait [l’IMessage sous-jacent : IMAPIProp](imessageimapiprop.md) que cet [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) encapsule.  <br/> |
-|Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
-|Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
-|Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
+|Membre d’espace réservé. |Non pris en charge ou documenté. |
+|Membre d’espace réservé. |Non pris en charge ou documenté. |
+|Membre d’espace réservé. |Non pris en charge ou documenté. |
+|Membre d’espace réservé. |Non pris en charge ou documenté. |
+|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Extrait [l’IMessage sous-jacent : IMAPIProp](imessageimapiprop.md) que ce [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) encapsule. |
+|Membre d’espace réservé. |Non pris en charge ou documenté. |
+|Membre d’espace réservé. |Non pris en charge ou documenté. |
+|Membre d’espace réservé. |Non pris en charge ou documenté. |
    
 ## <a name="see-also"></a>Voir aussi
 

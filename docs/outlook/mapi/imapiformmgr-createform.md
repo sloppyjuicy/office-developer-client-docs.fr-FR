@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7d4d50f8-3904-4e93-a535-ac7decceb1a3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3d5337609d3dec0f15f5a9f569409873f4a5b87d
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 1b1c98ddeaed876f29a3cc5bb32f5065d00d3dfe
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461369"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784110"
 ---
 # <a name="imapiformmgrcreateform"></a>IMAPIFormMgr::CreateForm
 
@@ -87,7 +87,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI utilise la **méthode IMAPIFormMgr::CreateForm** pour créer un formulaire avant de l’afficher.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI utilise la **méthode IMAPIFormMgr::CreateForm** pour créer un formulaire avant de l’afficher. |
    
 ## <a name="see-also"></a>Voir aussi
 

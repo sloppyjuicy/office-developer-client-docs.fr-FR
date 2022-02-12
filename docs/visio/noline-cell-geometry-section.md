@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f9624af2-c087-3dde-9140-339c438b3652
 description: Détermine si un trait est tracé autour du contour du chemin.
-ms.openlocfilehash: 6631d30da00f63f89314d362f981d888256d36f9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a4a2605bc6f71c7dd794c166559c1d8eddff38d6
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573872"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62786114"
 ---
 # <a name="noline-cell-geometry-section"></a>NoLine, cellule (section Geometry)
 
@@ -22,8 +22,8 @@ Détermine si un trait est tracé autour du contour du chemin.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Aucun trait n'est tracé autour du contour du chemin correspondant à la limite d'une région qu'il est possible de remplir.  <br/> |
-| FALSE  <br/> | Un trait est tracé autour du contour du chemin.  <br/> |
+| TRUE  <br/> | Aucun trait n'est tracé autour du contour du chemin correspondant à la limite d'une région qu'il est possible de remplir. |
+| FALSE  <br/> | Un trait est tracé autour du contour du chemin. |
    
 ## <a name="remarks"></a>Remarques
 
@@ -33,13 +33,13 @@ Pour obtenir une référence à la cellule NoLine par un nom à partir d'une aut
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Geometry  *i*  . NoLine où  *i*  = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Geometry  *i*  . NoLine où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule NoLine à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionFirstComponent**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la section :  <br/> |**visSectionFirstComponent** +   *i* où *i* = 0, 1, 2... |
 | Index de la ligne :  <br/> |**visRowComponent** <br/> |
 | Index de la cellule :  <br/> |**visCompNoLine** <br/> |
    

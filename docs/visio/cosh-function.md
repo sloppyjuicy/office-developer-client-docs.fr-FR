@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 70b3788d-d8cf-79bb-d929-86aceba49345
 description: Renvoie le cosinus hyperbolique d’un angle.
-ms.openlocfilehash: 9fe98504e9b1d2e817a02a0dc4a4f4f55f922f37
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d9e1a679fc3f8e39d74d1760d9bc921aeae00912
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577961"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787407"
 ---
 # <a name="cosh-function"></a>Fonction COSH
 
@@ -28,11 +28,11 @@ COSH( *angle*)
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Angle pour lequel le cosinus hyperbolique doit être obtenu.  <br/> |
+| _angle_ <br/> |Requis  <br/> |**Numérique** <br/> |Angle pour lequel le cosinus hyperbolique doit être obtenu. |
    
 ## <a name="remarks"></a>Remarques
 
-La fonction COSH utilise des radians, sauf si vous spécifiez une unité de mesure différente dans *l’angle.* 
+La fonction COSH utilise des radians, sauf si vous spécifiez une unité de mesure différente dans  *l’angle*  . 
   
 ## <a name="example"></a>Exemple
 

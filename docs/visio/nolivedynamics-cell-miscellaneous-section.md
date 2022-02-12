@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d1c4b9d9-6d64-8ed1-9fc6-2dbf829a75b5
 description: Détermine si une forme est redimensionnée ou pivote de façon dynamique lorsque vous la manipulez.
-ms.openlocfilehash: 65a92dfce483d764acbf1bd164b334dc4c8465c0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c74440fc37b4d47557992ac8c7df06a935d2916b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59594502"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62786100"
 ---
 # <a name="nolivedynamics-cell-miscellaneous-section"></a>NoLiveDynamics, cellule (section Miscellaneous)
 
@@ -22,8 +22,8 @@ Détermine si une forme est redimensionnée ou pivote de façon dynamique lorsqu
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | La forme n'est pas mise à jour dynamiquement lorsque vous la manipulez.  <br/> |
-| FALSE  <br/> | La forme est mise à jour dynamiquement lorsque vous la manipulez.  <br/> |
+| TRUE  <br/> | La forme n'est pas mise à jour dynamiquement lorsque vous la manipulez. |
+| FALSE  <br/> | La forme est mise à jour dynamiquement lorsque vous la manipulez. |
    
 ## <a name="remarks"></a>Remarques
 

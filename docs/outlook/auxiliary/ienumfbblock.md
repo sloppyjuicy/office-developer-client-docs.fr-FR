@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: fad9c0fd-b523-db98-ee0d-78aad5914ff2
-ms.openlocfilehash: 99c61a576061daec4ab6916bda1a62efe93dffd5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 966184a5156da4b3481f050d378d27498ccb3205
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564595"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788618"
 ---
 # <a name="ienumfbblock"></a>IEnumFBBlock
 
@@ -29,11 +29,11 @@ Prend en charge l’accès et l’éumation des blocs de données de libre/occup
 
 |||
 |:-----|:-----|
-|[Next](ienumfbblock-next.md) <br/> |Obtient le nombre spécifié suivant de blocs de données de libre/occupé dans une éumération.  <br/> |
-|[Skip](ienumfbblock-skip.md) <br/> |Ignore un nombre spécifié de blocs de données de libre/occupé.  <br/> |
-|[Reset](ienumfbblock-reset.md) <br/> |Réinitialise l’éumérateur en redéfinissant le curseur au début.  <br/> |
-|[Clone](ienumfbblock-clone.md) <br/> |Crée une copie de l’éumérateur, en utilisant la même restriction de temps, mais en fixant le curseur au début de l’éumérateur.  <br/> |
-|[Restrict](ienumfbblock-restrict.md) <br/> |Limite l’éumération à une période spécifiée.  <br/> |
+|[Next](ienumfbblock-next.md) <br/> |Obtient le nombre spécifié suivant de blocs de données de libre/occupé dans une éumération. |
+|[Skip](ienumfbblock-skip.md) <br/> |Ignore un nombre spécifié de blocs de données de libre/occupé. |
+|[Reset](ienumfbblock-reset.md) <br/> |Réinitialise l’éumérateur en  redéfinissant le curseur au début. |
+|[Clone](ienumfbblock-clone.md) <br/> |Crée une copie de l’éumérateur, en utilisant la même restriction de temps, mais en lui fixant le début de l’éumérateur. |
+|[Restrict](ienumfbblock-restrict.md) <br/> |Limite l’éumération à une période spécifiée. |
    
 ## <a name="remarks"></a>Remarques
 

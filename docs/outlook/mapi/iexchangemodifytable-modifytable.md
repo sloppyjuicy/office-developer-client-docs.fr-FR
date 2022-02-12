@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b9a745cc-260d-4a1c-896e-6a038ab3cfb9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 460ec105fea740a81fdb8102b12d19f7bb875b8c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 52bc33f0316703d2bbcc2a9b25b82e56ef5b4d46
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613904"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788555"
 ---
 # <a name="iexchangemodifytablemodifytable"></a>IExchangeModifyTable::ModifyTable
 
@@ -43,7 +43,7 @@ HRESULT ModifyTable(
     
 0 (zéro)
   
-> Utilisez la valeur du **membre ulRowFlags** de la structure [ROWENTRY.](rowentry.md) 
+> Utilisez la valeur du **membre ulRowFlags** de la structure [ROWENTRY](rowentry.md) . 
     
 ACLTABLE_FREEBUSY
   
@@ -71,7 +71,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnModifySelectedItem  <br/> |MFCMAPI utilise la méthode **IExchangeModifyTable::ModifyTable** pour écrire une règle modifiée dans la table des règles.  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::OnModifySelectedItem  <br/> |MFCMAPI utilise la méthode **IExchangeModifyTable::ModifyTable** pour écrire une règle modifiée dans la table des règles. |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 487fab39-5c2c-4e1a-9f90-4da64f5e198b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c39051ed0a3b112293d3e851883d233c15a2b277
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4d7fe66f58e84e689b082c90898c60b98453f6af
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625524"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784054"
 ---
 # <a name="imapisessionadminservices"></a>IMAPISession::AdminServices
 
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La **méthode IMAPISession::AdminServices** crée un objet d’administration de service de message, un objet qui prend en charge l’interface **IMsgServiceAdmin** et renvoie un pointeur. À l’aide de ce pointeur, vous pouvez appeler des méthodes **IMsgServiceAdmin** pour modifier les services de message dans le profil de session. N’ignorez pas que ces modifications ne prennent effet qu’après la prochaine session . la session en cours n’est pas affectée. 
+La **méthode IMAPISession::AdminServices** crée un objet d’administration de service de message, un objet qui prend en charge l’interface **IMsgServiceAdmin** et renvoie un pointeur. À l’aide de ce pointeur, vous pouvez appeler des méthodes **IMsgServiceAdmin** pour modifier les services de message dans le profil de session. N’ignorez pas que ces modifications ne prennent effet qu’après la session suivante . la session en cours n’est pas affectée. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -60,7 +60,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions.cpp  <br/> |GetServerName  <br/> |MFCMAPI utilise la méthode **IMAPISession::AdminServices** pour accéder au profil afin de lire le nom du serveur.  <br/> |
+|MAPIStoreFunctions.cpp  <br/> |GetServerName  <br/> |MFCMAPI utilise la méthode **IMAPISession::AdminServices** pour accéder au profil afin de lire le nom du serveur. |
    
 ## <a name="see-also"></a>Voir aussi
 

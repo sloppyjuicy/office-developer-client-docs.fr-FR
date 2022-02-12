@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 9b46358c-bcab-f097-8746-fabfd4722b3c
 description: Obtient le nombre spécifié suivant de blocs de données de libre/occupé dans une éumération.
-ms.openlocfilehash: 8470bd69f62326362284bef95ce2a720a8c18ec2
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 918b7f9b00dc514a0f72d6d0f87d742e19e9c40f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180676"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784481"
 ---
 # <a name="ienumfbblocknext"></a>IEnumFBBlock::Next
 
@@ -38,7 +38,7 @@ _celt_
 
 _pblk_
   
-> [in] Pointeur vers un tableau de blocs de libre/occupé. Une taille delt est allouée *au tableau.* Les blocs de libre/occupé demandés sont renvoyés dans ce tableau.
+> [in] Pointeur vers un tableau de blocs de libre/occupé. Une taille delt est allouée au *tableau*. Les blocs de libre/occupé demandés sont renvoyés dans ce tableau.
 
 _pcfetch_
   
@@ -48,8 +48,8 @@ _pcfetch_
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |Le nombre demandé de blocs a été renvoyé.  <br/> |
-|S_FALSE  <br/> |Le nombre demandé de blocs n’a pas été renvoyé.  <br/> |
+|S_OK  <br/> |Le nombre demandé de blocs a été renvoyé. |
+|S_FALSE  <br/> |Le nombre demandé de blocs n’a pas été renvoyé. |
 
 ## <a name="see-also"></a>Voir aussi
 

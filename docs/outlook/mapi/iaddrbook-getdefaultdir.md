@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7a9fdf3f-fd76-40fb-8217-967c6efba5f6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c2604bcc57332b85b631f3ffc1ef46c909e11261
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1b6fab981d2ae40b60ab6414083ad42fb8a400c0
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616837"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784250"
 ---
 # <a name="iaddrbookgetdefaultdir"></a>IAddrBook::GetDefaultDir
 
@@ -38,7 +38,7 @@ HRESULT GetDefaultDir(
 
  _lpcbEntryID_
   
-> [out] Pointeur vers le nombre d’byte dans l’identificateur d’entrée pointé par _le paramètre lppEntryID._ 
+> [out] Pointeur vers le nombre d’byte dans l’identificateur d’entrée pointé par  _le paramètre lppEntryID_ . 
     
  _lppEntryID_
   
@@ -52,9 +52,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les applications clientes et les fournisseurs de services appellent la méthode **GetDefaultDir** pour récupérer l’identificateur d’entrée du conteneur de carnet d’adresses par défaut. Le conteneur par défaut est ce que l’utilisateur voit s’afficher dans le carnet d’adresses lors de la première ouverture du carnet d’adresses. Si un conteneur par défaut n’a pas été définie par un appel à la méthode [IAddrBook::SetDefaultDir,](iaddrbook-setdefaultdir.md) MAPI affecte comme conteneur par défaut le premier conteneur avec des noms qui ne sont pas le carnet d’adresses personnel. Si un tel conteneur est in found, le PAB devient le conteneur par défaut. 
+Les applications clientes et les fournisseurs de services appellent la méthode **GetDefaultDir** pour récupérer l’identificateur d’entrée du conteneur de carnet d’adresses par défaut. Le conteneur par défaut est ce que l’utilisateur voit s’afficher dans le carnet d’adresses lors de la première ouverture du carnet d’adresses. Si un conteneur par défaut n’a pas été définie par un appel à la méthode [IAddrBook::SetDefaultDir](iaddrbook-setdefaultdir.md) , MAPI affecte comme conteneur par défaut le premier conteneur avec des noms qui ne sont pas le carnet d’adresses personnel( PAB). Si un tel conteneur est in trouver, le PAB devient le conteneur par défaut. 
   
-Pour définir le répertoire par défaut, un client ou un fournisseur appelle la **méthode SetDefaultDir.** Les clients et fournisseurs n’ont pas besoin d’appeler la [méthode IMAPIProp::SaveChanges](imapiprop-savechanges.md) ; étant donné que les modifications apportées au carnet d’adresses ne sont pas prises en compte, les modifications sont immédiatement rendues permanentes. 
+Pour définir le répertoire par défaut, un client ou un fournisseur appelle la **méthode SetDefaultDir** . Les clients et fournisseurs n’ont pas besoin d’appeler la [méthode IMAPIProp::SaveChanges](imapiprop-savechanges.md) ; étant donné que les modifications apportées au carnet d’adresses ne sont pas prises en compte, les modifications sont immédiatement rendues permanentes. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -62,7 +62,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenDefaultDir  <br/> |MFCMAPI utilise la **méthode GetDefaultDir** pour obtenir l’ID du conteneur de carnet d’adresses par défaut.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenDefaultDir  <br/> |MFCMAPI utilise la **méthode GetDefaultDir** pour obtenir l’ID du conteneur de carnet d’adresses par défaut. |
    
 ## <a name="see-also"></a>Voir aussi
 

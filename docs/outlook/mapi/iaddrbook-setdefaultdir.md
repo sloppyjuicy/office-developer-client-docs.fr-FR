@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d5d60150-15e4-41ff-bfb0-0c67e2abcacc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6a74b10167506251160d508418a8894b8b7e3c6d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d0cadc83402a0733551955642927bd24225785bd
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576141"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784236"
 ---
 # <a name="iaddrbooksetdefaultdir"></a>IAddrBook::SetDefaultDir
 
@@ -38,7 +38,7 @@ HRESULT SetDefaultDir(
 
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -52,10 +52,10 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les clients et les fournisseurs de services appellent **la méthode SetDefaultDir** pour établir un nouveau conteneur de carnet d’adresses par défaut. Le conteneur par défaut est celui que l’utilisateur voit s’afficher dans le carnet d’adresses lors de sa première ouverture. **SetDefaultDir enregistre** le conteneur par défaut en tant qu’entrée dans le profil. Le conteneur reste le conteneur par défaut jusqu’à ce qu’un autre appel à **SetDefaultDir** soit effectué dans la même session ou dans une autre session, ou que le conteneur soit supprimé. 
+Les clients et les fournisseurs de services appellent la **méthode SetDefaultDir** pour établir un nouveau conteneur de carnet d’adresses par défaut. Le conteneur par défaut est celui que l’utilisateur voit s’afficher dans le carnet d’adresses lors de sa première ouverture. **SetDefaultDir enregistre** le conteneur par défaut en tant qu’entrée dans le profil. Le conteneur reste le conteneur par défaut jusqu’à ce qu’un autre appel à **SetDefaultDir** soit effectué dans la même session ou dans une autre session, ou que le conteneur soit supprimé. 
   
 > [!NOTE]
-> La [PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) correspond au paramètre **Choisir** automatiquement dans la boîte de dialogue Options du carnet d’adresses. Lorsque cette propriété existe dans la section profil [IID_CAPONE_PROF](https://msdn.microsoft.com/library/281aabc3-9656-299c-4c78-7733dc71050a%28Office.15%29.aspx) et qu’elle est définie sur **true,** la boîte de dialogue carnet d’adresses n’est plus définie par défaut sur le conteneur spécifié par **SetDefaultDir,** mais choisit un carnet d’adresses que Microsoft Outlook considère approprié pour le contexte dans lequel la boîte de dialogue a été affichée. Notez que cela peut entraîner une expérience médiocre pour les fournisseurs de carnets d’adresses tiers. 
+> La [PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) correspond au paramètre **Choisir** automatiquement dans la boîte de dialogue Options du carnet d’adresses. Lorsque cette propriété existe dans la section profil [IID_CAPONE_PROF](https://msdn.microsoft.com/library/281aabc3-9656-299c-4c78-7733dc71050a%28Office.15%29.aspx) et est définie sur **true**, la boîte de dialogue carnet d’adresses n’est plus définie par défaut sur le conteneur spécifié par **SetDefaultDir**, mais choisit un carnet d’adresses que Microsoft Outlook considère approprié pour le contexte dans lequel la boîte de dialogue a été affichée. Notez que cela peut entraîner une expérience médiocre pour les fournisseurs de carnets d’adresses tiers. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -63,7 +63,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|Abcontdlg.cpp  <br/> |CAbContDlg::OnSetDefaultDir  <br/> |MFCMAPI utilise la **méthode SetDefaultDir** pour définir le conteneur de carnet d’adresses spécifié comme conteneur par défaut.  <br/> |
+|Abcontdlg.cpp  <br/> |CAbContDlg::OnSetDefaultDir  <br/> |MFCMAPI utilise la **méthode SetDefaultDir** pour définir le conteneur de carnet d’adresses spécifié comme conteneur par défaut. |
    
 ## <a name="see-also"></a>Voir aussi
 

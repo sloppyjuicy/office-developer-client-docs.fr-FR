@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: edbc9e6c-008c-4c13-9a0c-cb47ac0f3686
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 22b0b3678b5c0cd5690bfb76ed7680b259cf9039
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5921355ddec2c92cfa1121b4e582b4472b5fc2bd
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561795"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784264"
 ---
 # <a name="folder-fields-stream-structures"></a>Structures de flux de champs de dossier
 
@@ -23,7 +23,7 @@ Une structure de flux FolderUserFields se compose d’une structure FolderUserFi
   
 Les éléments de données de ce flux sont stockés immédiatement les uns après les autres dans l’ordre spécifié suivant :
   
-- **FolderUserFieldsAnsi**: structure de flux FolderUserFieldsA.
+- **FolderUserFieldsAnsi** : structure de flux FolderUserFieldsA.
     
 - **FolderUserFieldsUnicode** (facultatif) : structure de flux FolderUserFieldsW.
     
@@ -38,11 +38,11 @@ Une structure de flux FolderUserFieldsA est un tableau de structures de flux Fol
   
 Les éléments de données de ce flux sont stockés dans l’ordre des petits bouts, immédiatement après les autres dans l’ordre spécifié suivant :
   
-- **FieldDefinitionCount**: DWORD (4 octets), nombre de définitions de champ dans ce flux. Il s’agit du nombre d’éléments dans le **tableau FieldDefinitions.**
+- **FieldDefinitionCount** : DWORD (4 octets), nombre de définitions de champ dans ce flux. Il s’agit du nombre d’éléments dans le **tableau FieldDefinitions** .
     
-- **FieldDefinitions**: tableau de structures de flux FolderFieldDefinitionA. Le nombre de ce tableau est égal à **l’élément de données FieldDefinitionCount.**
+- **FieldDefinitions** : tableau de structures de flux FolderFieldDefinitionA. Le nombre de ce tableau est égal à **l’élément de données FieldDefinitionCount** .
     
-Sauf si ce FolderUserFieldsA est annulé par la partie FolderUserFieldsW de la structure FolderUserFields, le tableau **FieldDefinitions** doit être « terminé par null » en ayant son dernier champ Common.FieldType de l’élément FolderFieldDefinitionA égal à ftNull.
+À moins que ce FolderUserFieldsA ne soit annulé par la partie FolderUserFieldsW de la structure FolderUserFields, le tableau **FieldDefinitions** doit être « terminé par null » en ayant son dernier champ Common.FieldType d’élément FolderFieldDefinitionA égal à ftNull.
   
 ## <a name="folderuserfieldsw-stream-structure"></a>Structure de flux FolderUserFieldsW
 
@@ -50,11 +50,11 @@ Une structure de flux FolderUserFieldsW est un tableau de structures de flux Fol
   
 Les éléments de données de ce flux sont stockés dans l’ordre des petits bouts, immédiatement après les autres dans l’ordre spécifié suivant :
   
-- **FieldDefinitionCount**: DWORD (4 octets), nombre de définitions de champ dans ce flux. Il s’agit du nombre d’éléments dans le **tableau FieldDefinitions.**
+- **FieldDefinitionCount** : DWORD (4 octets), nombre de définitions de champ dans ce flux. Il s’agit du nombre d’éléments dans le **tableau FieldDefinitions** .
     
-- **FieldDefinitions**: tableau de structures de flux FolderFieldDefinitionW. Le nombre de ce tableau est égal à **l’élément de données FieldDefinitionCount.**
+- **FieldDefinitions** : tableau de structures de flux FolderFieldDefinitionW. Le nombre de ce tableau est égal à **l’élément de données FieldDefinitionCount** .
     
-Le **tableau FieldDefinitions doit** être « terminé par null » en ayant son dernier champ Common.FieldType de l’élément FolderFieldDefinitionW égal à ftNull.
+Le **tableau FieldDefinitions** doit être « terminé par null » en ayant son dernier champ Common.FieldType d’élément FolderFieldDefinitionW égal à ftNull.
   
 ## <a name="folderfielddefinitiona-stream-structure"></a>FolderFieldDefinitionA Stream Structure
 
@@ -62,16 +62,16 @@ Une structure de flux FolderFieldDefinitionA contient une définition d’un cha
   
 Les éléments de données de ce flux sont stockés dans l’ordre des petits bouts, immédiatement après les autres dans l’ordre spécifié suivant :
   
-- **FieldType**: FldType (4 octets), le type de ce champ.
+- **FieldType** : FldType (4 octets), le type de ce champ.
     
-- **FieldNameLength**: WORD (2 octets), nombre d’éléments dans le tableau **FieldName.**
+- **FieldNameLength** : WORD (2 octets), nombre d’éléments dans le tableau **FieldName** .
     
-- **FieldName**: tableau de char. Il s’agit de la représentation ANSI CP_ACP page de code du nom du champ. Le nombre de ce tableau est égal à **FieldNameLength**. Le nom du champ doit satisfaire les restrictions sur le paramètre Name, comme spécifié dans la [méthode UserProperties.Add.](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) 
+- **FieldName :** tableau de char. Il s’agit de la représentation ANSI CP_ACP page de code du nom du champ. Le nombre de ce tableau est égal à **FieldNameLength**. Le nom du champ doit satisfaire les restrictions sur le paramètre Name, comme spécifié dans la [méthode UserProperties.Add](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
     
    > [!NOTE]
    > Pour des raisons de compatibilité héritée, Outlook peut être en mesure de gérer certaines valeurs **FieldName** ne satisfaisant pas ces restrictions, mais ces cas ne sont pas couverts par cette rubrique. 
   
-- **Courant**: structure de flux FolderFieldDefinitionCommon.
+- **Courant** : structure de flux FolderFieldDefinitionCommon.
     
 ## <a name="folderfielddefinitionw-stream-structure"></a>Structure de flux FolderFieldDefinitionW
 
@@ -79,16 +79,16 @@ Une structure de flux FolderFieldDefinitionW contient une définition d’un cha
   
 Les éléments de données de ce flux sont stockés dans l’ordre des petits bouts, immédiatement après les autres dans l’ordre spécifié suivant :
   
-- **FieldType**: FldType (4 octets), le type de ce champ.
+- **FieldType** : FldType (4 octets), le type de ce champ.
     
-- **FieldNameLength**: WORD (2 octets), nombre d’éléments dans le tableau **FieldName.**
+- **FieldNameLength** : WORD (2 octets), nombre d’éléments dans le tableau **FieldName** .
     
-- **FieldName**: tableau de WCHAR. Il s’agit de la représentation Unicode (UTF-16) du nom du champ. Le nombre de ce tableau est égal à **FieldNameLength**. Le nom du champ doit satisfaire les restrictions sur le paramètre Name, comme spécifié dans la [méthode UserProperties.Add.](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) 
+- **FieldName :** tableau de WCHAR. Il s’agit de la représentation Unicode (UTF-16) du nom du champ. Le nombre de ce tableau est égal à **FieldNameLength**. Le nom du champ doit satisfaire les restrictions sur le paramètre Name, comme spécifié dans la [méthode UserProperties.Add](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
     
    > [!NOTE]
    > Pour des raisons de compatibilité héritée, Outlook peut être en mesure de gérer certaines valeurs **FieldName** ne satisfaisant pas ces restrictions, mais ces cas ne sont pas couverts par cette rubrique. 
   
-- **Courant**: structure de flux FolderFieldDefinitionCommon.
+- **Courant** : structure de flux FolderFieldDefinitionCommon.
     
 ## <a name="fldtype-enumeration"></a>FldType, éumération
 
@@ -96,18 +96,18 @@ Les éléments de données de ce flux sont stockés dans l’ordre des petits bo
   
 |Nom|Valeur|Signification|
 |:-----|:-----|:-----|
-|ftNull  <br/> |0x0  <br/> |Ce type de champ est utilisé pour terminer par null un tableau de définitions de champs.  <br/> |
+|ftNull  <br/> |0x0  <br/> |Ce type de champ est utilisé pour terminer par null un tableau de définitions de champs. |
 |ftString  <br/> |0x1  <br/> |Texte  <br/> |
 |ftInteger  <br/> |0x3  <br/> |Entier  <br/> |
 |ftTime  <br/> |0x5  <br/> |Date/Heure  <br/> |
 |ftBoolean  <br/> |0x6  <br/> |Oui/Non  <br/> |
 |ftDuration  <br/> |0x7  <br/> |Durée  <br/> |
-|ftMultiString  <br/> |0xB  <br/> |Mots clés  <br/> |
+|ftMultiString  <br/> |0xB  <br/> |Keywords  <br/> |
 |ftFloat  <br/> |0xC  <br/> |Nombre ou pourcentage  <br/> |
 |ftCurrency  <br/> |0xE  <br/> |Devise  <br/> |
 |ftCalc  <br/> |0x12  <br/> |Formule  <br/> |
-|ftSwitch  <br/> |0x13  <br/> |Combinaison de type affichant uniquement le premier champ non vide , en ignorant les suivants.  <br/> |
-|ftConcat  <br/> |0x17  <br/> |Combinaison de champs de jointage de type et de fragments de texte les uns aux autres.  <br/> |
+|ftSwitch  <br/> |0x13  <br/> |Combinaison de type affichant uniquement le premier champ non vide , en ignorant les champs suivants. |
+|ftConcat  <br/> |0x17  <br/> |Combinaison de champs de jointage de type et de fragments de texte les uns aux autres. |
    
 ## <a name="folderfielddefinitioncommon-stream-structure"></a>Structure de flux FolderFieldDefinitionCommon
 
@@ -115,58 +115,58 @@ Une structure de flux FolderFieldDefinitionCommon contient les données d’une 
   
 Les éléments de données de ce flux sont stockés dans l’ordre des petits bouts, immédiatement après les autres dans l’ordre spécifié suivant :
   
-- **PropSetGuid**: GUID (16 octets), le GUID de jeu de propriétés du nom de propriété MAPI correspondant au champ de dossier. La valeur de ce champ doit être égale à PS_PUBLIC_STRINGS, sauf si le type de champ est **ftNone,** auquel cas la valeur de ce champ doit être égale à GUID_NULL. 
+- **PropSetGuid** : GUID (16 octets), le GUID de jeu de propriétés du nom de propriété MAPI correspondant au champ de dossier. La valeur de ce champ doit être égale à PS_PUBLIC_STRINGS, sauf si le type de champ est **ftNone** , auquel cas la valeur de ce champ doit être égale à GUID_NULL. 
     
    > [!NOTE]
    > Pour des raisons de compatibilité héritée, Outlook peut être en mesure de gérer certaines valeurs **PropSetGuid** ne satisfaisant pas cette restriction, mais ces cas ne sont pas couverts par cette rubrique. 
   
-- **fcapm**: DWORD (4 octets), une combinaison de zéro ou plus indicateur les valeurs dont les valeurs et les significations sont répertoriées dans le tableau suivant. Les indicateurs avec la même valeur ont des significations qui dépendent du type du champ, autrement dit, la valeur FldType.
+- **fcapm** : DWORD (4 octets), une combinaison de zéro ou plus indicateur les valeurs dont les valeurs et les significations sont répertoriées dans le tableau suivant. Les indicateurs avec la même valeur ont des significations qui dépendent du type du champ, autrement dit, la valeur FldType.
     
     |Nom de l’indicateur|Valeur|Signification|
     |:-----|:-----|:-----|
-    |FCAPM_CAN_EDIT  <br/> |0x00000001  <br/> |Le champ est modifiable.  <br/> |
-    |FCAPM_CAN_SORT  <br/> |0x00000002  <br/> |Le champ est triable.  <br/> |
-    |FCAPM_CAN_GROUP  <br/> |0x00000004  <br/> |Le champ est groupable.  <br/> |
-    |FCAPM_MULTILINE_TEXT  <br/> |0x00000100  <br/> |Le champ peut contenir plusieurs lignes de texte.  <br/> |
-    |FCAPM_PERCENT  <br/> |0x01000000  <br/> |Ce champ de type ftFloat est un champ de pourcentage.  <br/> |
-    |FCAPM_DATEONLY  <br/> |0x01000000  <br/> |Ce champ de type ftTime est un champ d’heure de date uniquement.  <br/> |
-    |FCAPM_UNITLESS  <br/> |0x01000000  <br/> |Pour ce champ de type ftInteger, aucune unité n’est autorisée au format d’affichage ; par exemple, des formats tels que « Ordinateur - 640 K... » ne sont pas autorisés.  <br/> |
-    |FCAPM_CAN_EDIT_IN_ITEM  <br/> |0x80000000  <br/> |Le champ peut être modifié dans l’élément : il s’agit spécifiquement des formulaires personnalisés.  <br/> |
+    |FCAPM_CAN_EDIT  <br/> |0x00000001  <br/> |Le champ est modifiable. |
+    |FCAPM_CAN_SORT  <br/> |0x00000002  <br/> |Le champ est triable. |
+    |FCAPM_CAN_GROUP  <br/> |0x00000004  <br/> |Le champ est groupable. |
+    |FCAPM_MULTILINE_TEXT  <br/> |0x00000100  <br/> |Le champ peut contenir plusieurs lignes de texte. |
+    |FCAPM_PERCENT  <br/> |0x01000000  <br/> |Ce champ de type ftFloat est un champ de pourcentage. |
+    |FCAPM_DATEONLY  <br/> |0x01000000  <br/> |Ce champ de type ftTime est un champ d’heure de date uniquement. |
+    |FCAPM_UNITLESS  <br/> |0x01000000  <br/> |Pour ce champ de type ftInteger, aucune unité n’est autorisée au format d’affichage ; par exemple, des formats tels que « Ordinateur - 640 K... » ne sont pas autorisés. |
+    |FCAPM_CAN_EDIT_IN_ITEM  <br/> |0x80000000  <br/> |Le champ peut être modifié dans l’élément : il s’agit spécifiquement des formulaires personnalisés. |
    
-- **dwString**: DWORD (4 octets). Consultez la première remarque suivante.
+- **dwString** : DWORD (4 octets). Consultez la première remarque suivante.
     
-- **dwBitmap**: DWORD (4 octets). Consultez la première remarque suivante.
+- **dwBitmap** : DWORD (4 octets). Consultez la première remarque suivante.
     
 - **dwDisplay**: DWORD (4 octets). Consultez la première remarque suivante.
     
-- **iFmt**: INT (4 octets). Pour les types de champs qui ont la zone de liste modifiable « Format : » dans les boîtes de dialogue « Nouveau champ », « Modifier le champ » et « Propriétés du champ », l’index de base 0 du format sélectionné dans cette zone de liste déroulante. Pour les types de champs sans cette zone de liste déroulante, ce doit être 0. La valeur du champ ainsi que le type de champ déterminent de manière unique les valeurs des champs **dwString,** **dwBitmap** et **dwDisplay,** voir la première remarque suivante.
+- **iFmt** : INT (4 octets). Pour les types de champs qui ont la zone de liste modifiable « Format : » dans les boîtes de dialogue « Nouveau champ », « Modifier le champ » et « Propriétés du champ », l’index de base 0 du format sélectionné dans cette zone de liste déroulante. Pour les types de champs sans cette zone de liste déroulante, ce doit être 0. La valeur du champ ainsi que le type de champ déterminent de manière unique les valeurs des champs **dwString**, **dwBitmap** et **dwDisplay** , voir la première remarque suivante.
     
-- **wszFormulaLength**: WORD (2 octets), nombre d’éléments dans le tableau **wszFormulaLength.**
+- **wszFormulaLength** : WORD (2 octets), nombre d’éléments dans le tableau **wszFormulaLength** .
     
-- **wszFormulaLength**: tableau de WCHAR. Il s’agit de la représentation Unicode (UTF-16) de la chaîne de formule du champ dans son format standard. Consultez la deuxième remarque suivante pour obtenir la description des formats standard et d’interface utilisateur de la formule d’un champ. Le nombre de ce tableau est égal à **wszFormulaLength**. La chaîne de formule doit être une chaîne vide, sauf si le type de champ est **ftCalc**, **ftSwitch** ou **ftConcat**.
+- **wszFormulaLength** : tableau de WCHAR. Il s’agit de la représentation Unicode (UTF-16) de la chaîne de formule du champ dans son format standard. Consultez la deuxième remarque suivante pour obtenir la description des formats standard et d’interface utilisateur de la formule d’un champ. Le nombre de ce tableau est égal à **wszFormulaLength**. La chaîne de formule doit être une chaîne vide, sauf si le type de champ est **ftCalc**, **ftSwitch** ou **ftConcat**.
     
 > [!NOTE]
-> Bien que les valeurs **de dwString,** **dwBitmap** et **dwDisplay** soient déterminées de manière unique en fonction de la valeur **FldType** et de la valeur **iFmt,** qui sont redondantes, leurs valeurs correctes sont toujours nécessaires pour un traitement correct de la définition de champ par Outlook. Il n’existe aucune description simple de l’algorithme qui effectue cette détermination. 
+> Bien que les valeurs **de dwString**, **dwBitmap** et **dwDisplay** soient déterminées de manière unique en fonction de la valeur **FldType** et de la valeur **iFmt**, qui sont redondantes, leurs valeurs correctes sont toujours nécessaires pour un traitement correct de la définition de champ par Outlook. Il n’existe aucune description simple de l’algorithme qui effectue cette détermination. 
 > 
-> Par conséquent, pour savoir quelles valeurs **dwString,** **dwBitmap** et **dwDisplay** correspondent à une valeur **FldType** et à une valeur **iFmt** données, effectuez un test en créant un champ défini par l’utilisateur de ce type et en sélectionnant ce format dans la zone de liste déroulante **Format,** en supposant son applicabilité, examinez le flux **FolderUserFields** qui en résulte créé par Outlook pour ce champ défini par l’utilisateur. 
+> Par conséquent, pour savoir quelles valeurs **dwString**, **dwBitmap** et **dwDisplay** correspondent à une valeur **FldType** et à une valeur **iFmt** données, effectuez un test en créant un champ défini par l’utilisateur de ce type et en sélectionnant ce format dans la zone de liste déroulante **Format**, en supposant son applicabilité, examinez le flux **FolderUserFields** qui en résulte créé par Outlook pour ce champ défini par l’utilisateur. 
   
-La formule du champ dans son format d’interface utilisateur est modifiée dans la  zone de texte Formule des boîtes de dialogue Nouveau **champ,** Modifier le champ et Propriétés du champ pour le champ défini par l’utilisateur.  L’algorithme permettant de convertir une formule du format d’interface utilisateur au format standard dépend du type de champ décrit ci-après : 
-- Pour les champs de types **ftCalc** et **ftSwitch**, le format standard des champs intégrés, dont les propriétés MAPI correspondantes ne sont pas des propriétés nommées du type MNID STRING, est obtenu en remplaçant les fragments de nom de champ, c’est-à-dire par des \_ `[<field_name>]` `[_<field_dispid_decimal>]` fragments. 
+La formule du champ dans son format d’interface utilisateur est modifiée dans la  zone de texte Formule des boîtes de dialogue Nouveau **champ, Modifier** le champ et Propriétés du champ défini par l’utilisateur. L’algorithme permettant de convertir une formule du format d’interface utilisateur au format standard dépend du type de champ décrit ci-après : 
+- Pour les champs de types **ftCalc** et **ftSwitch**, le format standard des champs intégrés, dont les propriétés MAPI correspondantes ne sont pas des propriétés nommées du type MNIDSTRING\_, est obtenu en remplaçant les fragments de nom de champ, `[<field_name>]` c’est-à-dire par des fragments `[_<field_dispid_decimal>]`. 
 
-  Par exemple, si le format d’interface utilisateur d’une formule pour un champ de type **Formula**, c’est-à-dire **ftCalc**, avec la langue de l’interface utilisateur Office étant anglais (États-Unis), est , où est le nom d’un champ défini par l’utilisateur, le format standard d’une telle formule serait `[Business Phone] & [My custom field]` `My custom field` `[_14856] & [My custom field]` .
+  Par exemple, si le format d’interface utilisateur d’une formule pour un champ du type **Formula**, c’est-à-dire **ftCalc**, avec la langue de l’interface utilisateur Office `[Business Phone] & [My custom field]``My custom field` étant anglais (États-Unis), où est le nom d’un champ défini par l’utilisateur, le format `[_14856] & [My custom field]`standard d’une telle formule serait .
 
-- Pour les champs de type **ftConcat,** le format standard est obtenu en suivant les procédures ci-après :
+- Pour les champs du type **ftConcat**, le format standard est obtenu en suivant les procédures ci-après :
 
   1. Tronqué les espaces de début et de fin. 
   2. Parse the formula into a sequence of fragments of the following two kinds: 
-     - Nom de champ entre crochets, c’est-à-dire, `[<field_name>]` . 
+     - Nom de champ entre crochets, c’est-à-dire, `[<field_name>]`. 
      - Sous-stration ne contenant pas de crochets.   
       Assurez-vous qu’aucun des deux fragments du deuxième type n’est adjacent dans la séquence. Si la formule ne peut pas être examinée de cette façon, elle est considérée comme non valide. 
-  3. Effectuez le même remplacement pour les fragments du premier type que pour les champs **ftCalc** et **ftSwitch.** 
+  3. Effectuez le même remplacement pour les fragments du premier type que pour les champs **ftCalc** et **ftSwitch** . 
   4. Pour chaque fragment du deuxième type, échappez à tous les guillemets doubles (« " ») s’il y en a, avec deux guillemets doubles consécutifs, et insérez-le entre guillemets doubles. 
-  5. Insérez une chaîne de caractères `&` () entre chaque paire de fragments adjacents.
+  5. Insérez une chaîne (`&`) entre chaque paire de fragments adjacents.
  
-  Par exemple, à l’aide de la langue de l’interface utilisateur Office anglais (États-Unis), si le format d’interface utilisateur d’une formule pour un champ de type **ftConcat** est , où est le nom d’un champ défini par l’utilisateur, le format standard pour une telle formule serait `text1 [Business Phone] "text2" [My custom field]` `My custom field` `""text1" & [_14856] & """text2""" & [My custom field]"` . 
+  Par exemple, à l’aide de la langue de l’interface utilisateur Office anglais (États-Unis), si le format d’interface utilisateur d’une formule pour un champ de type **ftConcat** `text1 [Business Phone] "text2" [My custom field]`est , `My custom field` où est le nom d’un champ défini par l’utilisateur, le format `""text1" & [_14856] & """text2""" & [My custom field]"`standard pour une telle formule serait . 
   
 ## <a name="see-also"></a>Voir aussi
 

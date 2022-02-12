@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 668f993c-b4d1-4762-9801-c578b17fdafd
 description: Détermine si l’orthographe est corrigée automatiquement et si les fautes d’orthographe sont affichées pour la forme sélectionnée. Prend une valeur boolé américaine.
-ms.openlocfilehash: 6e4ffc00e9d45c808655363619a5331030cb84a2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 363f1629260218acef685ff8bf99a55f714b1817
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573830"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62785560"
 ---
 # <a name="noproofing-cell-miscellaneous-section"></a>NoProofing Cell (Miscellaneous Section)
 
@@ -20,12 +20,12 @@ Détermine si l’orthographe est corrigée automatiquement et si les fautes d�
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |L’orthographe n’est pas corrigée automatiquement et les fautes d’orthographe ne s’affichent pas pour la forme sélectionnée.  <br/> |
-|FALSE  <br/> |L’orthographe est automatiquement corrigée et les fautes d’orthographe s’affichent pour la forme sélectionnée.  <br/> |
+|TRUE  <br/> |L’orthographe n’est pas corrigée automatiquement et les fautes d’orthographe ne sont pas affichées pour la forme sélectionnée. |
+|FALSE  <br/> |L’orthographe est automatiquement corrigée et les fautes d’orthographe sont affichées pour la forme sélectionnée. |
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule NoProofing par un nom à partir d’une autre formule ou d’un programme, à l’aide de la propriété **CellsU,** utilisez : 
+Pour obtenir une référence à la cellule NoProofing par un nom à partir d’une autre formule ou d’un programme, à l’aide de la propriété **CellsU** , utilisez : 
   
 |||
 |:-----|:-----|

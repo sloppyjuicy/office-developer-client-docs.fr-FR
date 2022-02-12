@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: b6e0b89f-4975-416d-9f7a-e15fa54d7ee1
 description: Renvoie la valeur maximale dans l’expression d’une requête ou d’une table.
-ms.openlocfilehash: ca9fd04e6f6d7c619487e9868525ee4d8d6530a4
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: c34f24bb586d81d00c4896c23661a92d19175cd9
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180473"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789353"
 ---
 # <a name="max-function-access-custom-web-app"></a>Max Function (Access custom web app)
 
@@ -29,6 +29,6 @@ La **fonction Max** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *Expression*  <br/> |Expression chaîne identifiant le champ qui contient les données à évaluer ou expression qui effectue un calcul à l’aide des données de ce champ. Les opérandes dans *Expression* peuvent inclure le nom d’un champ de table, d’une constante ou d’une fonction (qui peut être intrinsèque ou définie par l’utilisateur, mais pas une des autres fonctions d’agrégation SQL).  <br/> |
+| *Expression*  <br/> |Expression chaîne identifiant le champ qui contient les données à évaluer ou expression qui effectue un calcul à l’aide des données de ce champ. Les opérandes dans *Expression* peuvent inclure le nom d’un champ de table, d’une constante ou d’une fonction (qui peut être intrinsèque ou définie par l’utilisateur, mais pas une des autres fonctions d’agrégation SQL). |
    
 

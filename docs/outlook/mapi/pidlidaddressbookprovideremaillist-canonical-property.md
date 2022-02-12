@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9c0527ea-e922-4514-b913-d3520350c452
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b8a89ed265b3208d0476c99bd3fb3dc2c80e394e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fc11c47170792e5fef2e87786ff564901f505022
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584018"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789087"
 ---
 # <a name="pidlidaddressbookprovideremaillist-canonical-property"></a>Propriété canonique PidLidAddressBookProviderEmailList
 
@@ -41,12 +41,12 @@ Chaque PT_LONG de cette propriété doit être unique dans la propriété et doi
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |Email1 est défini pour le contact.  <br/> |
-|0x00000001  <br/> |Email2 est défini pour le contact.  <br/> |
-|0x00000002  <br/> |Email3 est défini pour le contact.  <br/> |
-|0x00000003  <br/> |La télécopie professionnelle est définie pour le contact.  <br/> |
-|0x00000004  <br/> |La télécopie à domicile est définie pour le contact.  <br/> |
-|0x00000005  <br/> |La télécopie principale est définie pour le contact.  <br/> |
+|0x00000000  <br/> |Email1 est défini pour le contact. |
+|0x00000001  <br/> |Email2 est défini pour le contact. |
+|0x00000002  <br/> |Email3 est défini pour le contact. |
+|0x00000003  <br/> |La télécopie professionnelle est définie pour le contact. |
+|0x00000004  <br/> |La télécopie à domicile est définie pour le contact. |
+|0x00000005  <br/> |La télécopie principale est définie pour le contact. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

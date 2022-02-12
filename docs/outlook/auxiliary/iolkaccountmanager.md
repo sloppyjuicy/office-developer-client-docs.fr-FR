@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 544c87e5-887d-82ec-bf1a-0d95027fe0ec
-ms.openlocfilehash: 06c0eca60679adc4bbe0f717a1bb870cd32be96a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4ee76a767cc3290bbc51e0f7cce900d248b44336
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557175"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784320"
 ---
 # <a name="iolkaccountmanager"></a>IOlkAccountManager
 
@@ -31,28 +31,28 @@ Gère l’accès aux comptes et définit les notifications concernant les modifi
 
 |||
 |:-----|:-----|
-|[Init](iolkaccountmanager-init.md) <br/> |Initialise le gestionnaire de comptes à utiliser.  <br/> |
-|[DisplayAccountList](iolkaccountmanager-displayaccountlist.md) <br/> |Affiche la boîte de **dialogue Paramètres** compte ou Ajouter **un** nouveau compte.  <br/> |
+|[Init](iolkaccountmanager-init.md) <br/> |Initialise le gestionnaire de comptes à utiliser. |
+|[DisplayAccountList](iolkaccountmanager-displayaccountlist.md) <br/> |Affiche la boîte **de dialogue Paramètres** compte ou Ajouter **un** nouveau compte. |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
-|[FindAccount](iolkaccountmanager-findaccount.md) <br/> |Recherche un compte par valeur de propriété.  <br/> |
+|[FindAccount](iolkaccountmanager-findaccount.md) <br/> |Recherche un compte par valeur de propriété. |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
-|[DeleteAccount](iolkaccountmanager-deleteaccount.md) <br/> |Supprime le compte spécifié.  <br/> |
+|[DeleteAccount](iolkaccountmanager-deleteaccount.md) <br/> |Supprime le compte spécifié. |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
-|[SaveChanges](iolkaccountmanager-savechanges.md) <br/> |Enregistre les modifications apportées au compte spécifié.  <br/> |
-|[GetOrder](iolkaccountmanager-getorder.md) <br/> |Obtient le classement de la catégorie de comptes spécifiée.  <br/> |
-|[SetOrder](iolkaccountmanager-setorder.md) <br/> |Modifie l’ordre de la catégorie de comptes spécifiée.  <br/> |
-|[EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |Obtient un éumérateur pour les comptes de la catégorie et du type spécifiques.  <br/> |
+|[SaveChanges](iolkaccountmanager-savechanges.md) <br/> |Enregistre les modifications apportées au compte spécifié. |
+|[GetOrder](iolkaccountmanager-getorder.md) <br/> |Obtient le classement de la catégorie de comptes spécifiée. |
+|[SetOrder](iolkaccountmanager-setorder.md) <br/> |Modifie l’ordre de la catégorie de comptes spécifiée. |
+|[EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |Obtient un éumérateur pour les comptes de la catégorie et du type spécifiques. |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
-|[FreeMemory](iolkaccountmanager-freememory.md) <br/> |Libère la mémoire allouée par **l’interface IOlkAccountManager.**  <br/> |
-|[Conseiller](iolkaccountmanager-advise.md) <br/> |Enregistre un client auprès du gestionnaire de comptes pour les notifications concernant tous les comptes.  <br/> |
-|[Unadvise](iolkaccountmanager-unadvise.md) <br/> |Désinsère un client auprès du gestionnaire de comptes pour les notifications de tous les comptes.  <br/> |
+|[FreeMemory](iolkaccountmanager-freememory.md) <br/> |Libère la mémoire allouée par **l’interface IOlkAccountManager** . |
+|[Conseiller](iolkaccountmanager-advise.md) <br/> |Enregistre un client auprès du gestionnaire de comptes pour les notifications concernant tous les comptes. |
+|[Unadvise](iolkaccountmanager-unadvise.md) <br/> |Désinsère un client auprès du gestionnaire de comptes pour les notifications pour tous les comptes. |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a3336b61-01b6-47a7-9498-0a03878e91cb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 87dc35830d237ce98f56f6633251f8d1cd1d0e88
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a7338ee87876c14497e9d9f1519e27ef13fec4fd
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570879"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787701"
 ---
 # <a name="pidtagroamingdatatypes-canonical-property"></a>Propriété canonique PidTagRoamingDatatypes
 
@@ -40,8 +40,8 @@ Cette propriété doit être définie sur une ou plusieurs des valeurs suivantes
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0x00000002  <br/> |Indique que le message FAI (Folder Associated Information) doit contenir un flux de dictionnaire, sérialisé dans un schéma XML fixe et stocké dans la propriété **PR_ROAMING_DICTIONARY** ([PidTagRoamingDictionary](pidtagroamingdictionary-canonical-property.md)). Si le message FAI ne contient pas de flux de dictionnaire, l’application doit traiter le dictionnaire comme n’ayant aucune entrée.  <br/> |
-|0x00000004  <br/> |Indique que le message FAI doit contenir un flux XML stocké dans la propriété **PR_ROAMING_XMLSTREAM** ([PidTagRoamingXmlStream](pidtagroamingxmlstream-canonical-property.md)) qui utilise un schéma XML arbitraire.  <br/> |
+|0x00000002  <br/> |Indique que le message FAI (Folder Associated Information) doit contenir un flux de dictionnaire, sérialisé dans un schéma XML fixe et stocké dans la propriété **PR_ROAMING_DICTIONARY** ([PidTagRoamingDictionary](pidtagroamingdictionary-canonical-property.md)). Si le message FAI ne contient pas de flux de dictionnaire, l’application doit traiter le dictionnaire comme n’ayant aucune entrée. |
+|0x00000004  <br/> |Indique que le message FAI doit contenir un flux XML stocké dans la propriété **PR_ROAMING_XMLSTREAM** ([PidTagRoamingXmlStream](pidtagroamingxmlstream-canonical-property.md)) qui utilise un schéma XML arbitraire. |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -53,7 +53,7 @@ Cette propriété doit être définie sur une ou plusieurs des valeurs suivantes
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Spécifie l’emplacement et les propriétés des données de configuration client et serveur, telles que les listes de catégories partagées et les heures de travail.
+> Spécifie l’emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

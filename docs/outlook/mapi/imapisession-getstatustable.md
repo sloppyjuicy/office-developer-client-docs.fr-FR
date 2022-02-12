@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 53428f8d-4838-46d1-a0ab-cafb194f4cc3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1c2519e260b86f39e7f215a35976571b10096748
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: d1e9b2fdf7423c56ae908be3df703212ab6e025f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462247"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788513"
 ---
 # <a name="imapisessiongetstatustable"></a>IMAPISession::GetStatusTable
 
@@ -68,7 +68,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnStatusTable  <br/> |MFCMAPI utilise la méthode **IMAPISession::GetStatusTable** pour obtenir la table d’état à restituer.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnStatusTable  <br/> |MFCMAPI utilise la méthode **IMAPISession::GetStatusTable** pour obtenir la table d’état à restituer. |
    
 ## <a name="see-also"></a>Voir aussi
 

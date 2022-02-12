@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 730af2da-4c4a-42a7-9d52-56d914107d64
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 83bae85596603dc5ef2700cd008b2b44e2fde08a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f97f119913770ba0262848c2f374cae6985d75e5
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587880"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783949"
 ---
 # <a name="iprofadmindeleteprofile"></a>IProfAdmin::DeleteProfile
 
@@ -58,7 +58,7 @@ MAPI_E_NOT_FOUND
 
 La **méthode IProfAdmin::D eleteProfile** supprime un profil. Si le profil à supprimer est en cours d’utilisation lorsque **DeleteProfile** est appelé, **DeleteProfile** renvoie S_OK mais ne supprime pas immédiatement le profil. Au lieu de cela, **DeleteProfile** marque le profil à supprimer et le supprime une fois qu’il n’est plus utilisé, une fois toutes ses sessions actives terminées. 
   
-La fonction de point d’entrée pour chaque service de message dans le profil est appelée avec la valeur MSG_SERVICE_DELETE définie dans le _paramètre ulContext._ Tout d’abord, la fonction supprime le service, puis supprime la section de profil du service. La fonction de point d’entrée du service de message n’est pas rappelée après la suppression du service. 
+La fonction de point d’entrée pour chaque service de message dans le profil est appelée avec la valeur MSG_SERVICE_DELETE définie dans _le paramètre ulContext_ . Tout d’abord, la fonction supprime le service, puis supprime la section de profil du service. La fonction de point d’entrée du service de message n’est pas rappelée après la suppression du service. 
   
 Aucun mot de passe n’est requis pour supprimer un profil.
   
@@ -68,7 +68,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> |HrRemoveProfile  <br/> |MFCMAPI utilise **la méthode IProfAdmin::D eleteProfile** pour supprimer le profil sélectionné.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |HrRemoveProfile  <br/> |MFCMAPI utilise **la méthode IProfAdmin::D eleteProfile** pour supprimer le profil sélectionné. |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,16 +7,16 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 90a51150-5c2c-4d5b-8717-5dacc8532744
 description: Cette rubrique décrit comment un client de messagerie peut accéder à la propriété PidTagAttachDataBinary pour obtenir l’historique de téléchargement des messages pour un compte POP3.
-ms.openlocfilehash: 95ff3c3970efbaf31f27f245fe433b8a779ba088
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0c290fe58910391c514a94b91aa9831269fff925
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580320"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788597"
 ---
 # <a name="locating-the-message-download-history-for-a-pop3-account"></a>Identification de l’historique de téléchargement de message pour un compte POP3
 
-Cette rubrique décrit comment un client de messagerie peut accéder à la propriété [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) pour obtenir l’historique de téléchargement des messages pour un compte POP3. 
+Cette rubrique décrit comment un client de messagerie peut accéder à la [propriété PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) pour obtenir l’historique de téléchargement des messages pour un compte POP3. 
 
 <a name="OL15Con_AuxRef_LocatingMsgsUIDLHistory_WhyGetUIDLHistory"> </a>
 
@@ -26,25 +26,25 @@ Le fournisseur POP (Post Office Protocol) pour Outlook permet aux utilisateurs d
   
 Pour obtenir l’historique de téléchargement des messages pour une boîte de réception :
   
-- Suivez les étapes de cette rubrique pour rechercher la propriété **PidTagAttachDataBinary,** qui contient l’historique d’un objet BLOB (Binary Large Object) qui suit un format spécifique. 
+- Suivez les étapes de cette rubrique pour rechercher la propriété **PidTagAttachDataBinary** , qui contient l’historique dans un objet BLOB (Binary Large Object) qui suit un format spécifique. 
     
-- Poursuivez avec l’historique de téléchargement des messages pour un compte [POP3,](parsing-the-message-download-history-for-a-pop3-account.md)qui décrit comment l’identifier afin d’identifier les messages qui ont été téléchargés ou supprimés pour cette boîte de réception.
+- Poursuivez avec l’historique de téléchargement des messages pour un compte [POP3](parsing-the-message-download-history-for-a-pop3-account.md), qui décrit comment l’identifier afin d’identifier les messages qui ont été téléchargés ou supprimés pour cette boîte de réception.
     
 ## <a name="core-concepts-to-know-for-locating-the-message-download-history"></a>Concepts fondamentaux à connaître pour la localisation de l’historique de téléchargement des messages
 
-L’historique de téléchargement des messages d’une boîte de réception est stocké dans une propriété MAPI binaire, **PidTagAttachDataBinary,** sur une pièce jointe d’un message masqué dans la boîte de réception. Le tableau 1 présente les ressources pour les concepts qui vous aident à comprendre comment localiser l’historique de téléchargement des messages.
+L’historique de téléchargement des messages d’une boîte de réception est stocké dans une propriété MAPI binaire, **PidTagAttachDataBinary**, sur une pièce jointe d’un message masqué dans la boîte de réception. Le tableau 1 présente les ressources pour les concepts qui vous aident à comprendre comment localiser l’historique de téléchargement des messages.
   
 **Tableau 1. Concepts de base**
 
 |**Titre d’article**|**Description**|
 |:-----|:-----|
-|[Dossiers masqués MAPI](https://msdn.microsoft.com/library/8b3b9c80-f7f4-4f37-bd6b-323469d020f1%28Office.15%29.aspx) <br/> |MAPI permet aux clients de messagerie de stocker des informations dans des dossiers masqués et des messages masqués. Les dossiers masqués se trouve dans la partie associée des dossiers MAPI et contiennent généralement des informations qui ne sont pas visibles et qui ne doivent pas être manipulées par les utilisateurs. Les clients décident du format et du contenu à stocker dans les messages masqués dans les dossiers masqués.  <br/> |
-|[MAPI Messages](https://msdn.microsoft.com/library/417c113f-bd98-4515-85d1-09db7fc3a227%28Office.15%29.aspx) <br/> |MAPI stocke les messages dans des dossiers, soit dans la sous-arbre IPM standard visible par les utilisateurs d’un client, soit en dehors de la sous-arbre et invisible pour les utilisateurs. Les messages peuvent avoir des données supplémentaires stockées dans une pièce jointe, sous la forme d’un fichier, d’un autre message ou d’un objet OLE. Dans le cas de l’historique de téléchargement des messages, l’historique est stocké dans une propriété d’un message joint à un autre message masqué.  <br/> |
-|[Vue d’ensemble des propriétés de message](https://msdn.microsoft.com/library/447f54de-9f0d-4f73-89b6-bed9cfea9c15%28Office.15%29.aspx) <br/> |Lorsqu’un client stocke des informations dans un message, il stocke en fait les informations dans une propriété du message. MAPI prend en charge de nombreuses propriétés (certaines existent toujours et peuvent être définies par les clients, d’autres sont facultatives) et les clients ne peuvent pas s’attendre à ce qu’elles soient disponibles ou définies sur des valeurs valides. L’historique de téléchargement des messages est stocké dans la **propriété PidTagAttachDataBinary** d’une pièce jointe à un message masqué.  <br/> |
-|[Profils MAPI](https://msdn.microsoft.com/library/493c87a4-317d-47ec-850b-342cac59594b%28Office.15%29.aspx) <br/> |Au moment de l’ouverture de session, le client de messagerie sélectionne un profil qui décrit les fournisseurs et services à utiliser. Un profil est divisé en sections qui contiennent des propriétés. En particulier, les propriétés [PidTagSearchKey](https://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) (**PR_SEARCH_KEY**) et [PidTagProfileName](https://msdn.microsoft.com/library/13ca726d-ae7a-4da9-9c8e-3db3c479f839%28Office.15%29.aspx) (**PR_PROFILE_NAME**) existent toujours. La clé de recherche d’un profil est unique parmi tous les profils et est stockée dans la section de profil identifiée par **MUID_PROFILE_INSTANCE** (définie dans MAPIGUID). H). Utilisez [IMAPISession::OpenProfileSection](https://msdn.microsoft.com/library/e2757028-27e7-4fc0-9674-e8e30737ef1d%28Office.15%29.aspx) pour ouvrir la section et utilisez [IMAPIProp::GetProps](https://msdn.microsoft.com/library/1c7a9cd2-d765-4218-9aee-52df1a2aae6c%28Office.15%29.aspx) pour obtenir les valeurs de propriété.  <br/> |
-|[Tables des matières](https://msdn.microsoft.com/library/7b8efb4e-b5be-41b8-81bb-9aa1da421433%28Office.15%29.aspx) <br/> |Les fournisseurs de magasins de messages implémentent des tables de contenu pour leurs dossiers. Pour les messages masqués dans la partie associée d’un dossier, les fournisseurs de magasins de messages prendre en charge les tables de contenu associées et les clients peuvent utiliser la méthode [IMAPIContainer::GetContentsTable](https://msdn.microsoft.com/library/88c7a666-875d-473a-b126-dbbb7009f7d9%28Office.15%29.aspx) pour renvoyer un pointeur vers la table des matières associée.  <br/> |
-|[À propos des restrictions](https://msdn.microsoft.com/library/e119fa20-08b8-4c8d-93fc-56037220890d%28Office.15%29.aspx) <br/> [Types de restrictions](https://msdn.microsoft.com/library/0d3bd58b-7100-4117-91ac-27139715c85b%28Office.15%29.aspx) <br/> [Création d’une restriction](https://msdn.microsoft.com/library/12abbd8c-f825-493e-af42-344371d9658e%28Office.15%29.aspx) <br/> [Exemple de code de restriction](https://msdn.microsoft.com/library/9b82097c-dbd6-4ba0-a6cb-292301f9402b%28Office.15%29.aspx) <br/> |Dans MAPI, les clients peuvent utiliser des restrictions pour filtrer les tables des matières, afin de rechercher des lignes qui représentent des messages dont une propriété spécifique est définie sur une valeur spécifique. Les restrictions sont définies à l’aide de la structure de données [SRestriction,](https://msdn.microsoft.com/library/c12b4409-da6f-480b-87af-1e5baea2e8bd%28Office.15%29.aspx) qui peut contenir une union de structures de restriction plus spécialisées. La [méthode IMAPITable::FindRow](https://msdn.microsoft.com/library/6511368c-9777-497e-9eea-cf390c04b92e%28Office.15%29.aspx) applique une restriction et récupère la première ligne d’un tableau qui correspond aux critères de restriction.  <br/> |
-|[À propos de l’inscription des magasins pour l’indexation](https://msdn.microsoft.com/library/dd2aa06a-96e8-1291-18b5-fc3c40b74e4d%28Office.15%29.aspx) <br/> |Utilisez la [propriété PidTagStoreProvider](https://msdn.microsoft.com/library/6f6cc66f-a08e-4f8e-b33a-d3674319248e%28Office.15%29.aspx) (**PR_MDB_PROVIDER**) pour vérifier le type de fournisseur de magasin. Par exemple, pour vérifier si un magasin est un magasin Exchange, la propriété **PidTagStoreProvider** doit renvoyer une valeur représentée par la constante **pbExchangeProviderPrimaryUserGuid**, qui est définie dans le fichier d’en-tête public edkmdb.h.  <br/> |
+|[Dossiers masqués MAPI](https://msdn.microsoft.com/library/8b3b9c80-f7f4-4f37-bd6b-323469d020f1%28Office.15%29.aspx) <br/> |MAPI permet aux clients de messagerie de stocker des informations dans des dossiers masqués et des messages masqués. Les dossiers masqués se trouve dans la partie associée des dossiers MAPI et contiennent généralement des informations qui ne sont pas visibles et qui ne doivent pas être manipulées par les utilisateurs. Les clients décident du format et du contenu à stocker dans les messages masqués dans les dossiers masqués. |
+|[MAPI Messages](https://msdn.microsoft.com/library/417c113f-bd98-4515-85d1-09db7fc3a227%28Office.15%29.aspx) <br/> |MAPI stocke les messages dans des dossiers, soit dans la sous-arbre IPM standard visible par les utilisateurs d’un client, soit en dehors de la sous-arbre et invisible pour les utilisateurs. Les messages peuvent avoir des données supplémentaires stockées dans une pièce jointe, qui peuvent prendre la forme d’un fichier, d’un autre message ou d’un objet OLE. Dans le cas de l’historique de téléchargement des messages, l’historique est stocké dans une propriété d’un message joint à un autre message masqué. |
+|[Vue d’ensemble des propriétés de message](https://msdn.microsoft.com/library/447f54de-9f0d-4f73-89b6-bed9cfea9c15%28Office.15%29.aspx) <br/> |Lorsqu’un client stocke des informations dans un message, il stocke en fait les informations dans une propriété du message. MAPI prend en charge de nombreuses propriétés (certaines existent toujours et peuvent être définies par les clients, d’autres sont facultatives) et les clients ne peuvent pas s’attendre à ce qu’elles soient disponibles ou définies sur des valeurs valides. L’historique de téléchargement des messages est stocké dans la **propriété PidTagAttachDataBinary** d’une pièce jointe à un message masqué. |
+|[Profils MAPI](https://msdn.microsoft.com/library/493c87a4-317d-47ec-850b-342cac59594b%28Office.15%29.aspx) <br/> |Au moment de l’ouverture de session, le client de messagerie sélectionne un profil qui décrit les fournisseurs et services à utiliser. Un profil est divisé en sections qui contiennent des propriétés. En particulier, les propriétés [PidTagSearchKey](https://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) (**PR_SEARCH_KEY**) et [PidTagProfileName](https://msdn.microsoft.com/library/13ca726d-ae7a-4da9-9c8e-3db3c479f839%28Office.15%29.aspx) (**PR_PROFILE_NAME**) existent toujours. La clé de recherche d’un profil est unique parmi tous les profils et est stockée dans la section de profil identifiée par **MUID_PROFILE_INSTANCE** (qui est définie dans MAPIGUID. H). Utilisez [IMAPISession::OpenProfileSection](https://msdn.microsoft.com/library/e2757028-27e7-4fc0-9674-e8e30737ef1d%28Office.15%29.aspx) pour ouvrir la section et utilisez [IMAPIProp::GetProps](https://msdn.microsoft.com/library/1c7a9cd2-d765-4218-9aee-52df1a2aae6c%28Office.15%29.aspx) pour obtenir les valeurs de propriété. |
+|[Tables des matières](https://msdn.microsoft.com/library/7b8efb4e-b5be-41b8-81bb-9aa1da421433%28Office.15%29.aspx) <br/> |Les fournisseurs de magasins de messages implémentent des tables de contenu pour leurs dossiers. Pour les messages masqués dans la partie associée d’un dossier, les fournisseurs de magasins de messages prendre en charge les tables de contenu associées et les clients peuvent utiliser la méthode [IMAPIContainer::GetContentsTable](https://msdn.microsoft.com/library/88c7a666-875d-473a-b126-dbbb7009f7d9%28Office.15%29.aspx) pour renvoyer un pointeur vers la table des matières associée. |
+|[À propos des restrictions](https://msdn.microsoft.com/library/e119fa20-08b8-4c8d-93fc-56037220890d%28Office.15%29.aspx) <br/> [Types de restrictions](https://msdn.microsoft.com/library/0d3bd58b-7100-4117-91ac-27139715c85b%28Office.15%29.aspx) <br/> [Création d’une restriction](https://msdn.microsoft.com/library/12abbd8c-f825-493e-af42-344371d9658e%28Office.15%29.aspx) <br/> [Exemple de code de restriction](https://msdn.microsoft.com/library/9b82097c-dbd6-4ba0-a6cb-292301f9402b%28Office.15%29.aspx) <br/> |Dans MAPI, les clients peuvent utiliser des restrictions pour filtrer les tables de contenu, afin de rechercher des lignes qui représentent des messages dont une propriété spécifique est définie sur une valeur spécifique. Les restrictions sont définies à l’aide de la structure de données [SRestriction](https://msdn.microsoft.com/library/c12b4409-da6f-480b-87af-1e5baea2e8bd%28Office.15%29.aspx) , qui peut contenir une union de structures de restriction plus spécialisées. La [méthode IMAPITable::FindRow](https://msdn.microsoft.com/library/6511368c-9777-497e-9eea-cf390c04b92e%28Office.15%29.aspx) applique une restriction et récupère la première ligne d’un tableau qui correspond aux critères de restriction. |
+|[À propos de l’inscription des magasins pour l’indexation](https://msdn.microsoft.com/library/dd2aa06a-96e8-1291-18b5-fc3c40b74e4d%28Office.15%29.aspx) <br/> |Utilisez la [propriété PidTagStoreProvider](https://msdn.microsoft.com/library/6f6cc66f-a08e-4f8e-b33a-d3674319248e%28Office.15%29.aspx) (**PR_MDB_PROVIDER**) pour vérifier le type de fournisseur de magasin. Par exemple, pour vérifier si un magasin est un magasin Exchange, la propriété **PidTagStoreProvider** doit renvoyer une valeur représentée par la constante **pbExchangeProviderPrimaryUserGuid**, qui est définie dans le fichier d’en-tête public edkmdb.h. |
    
 ## <a name="locating-the-appropriate-hidden-message-and-attachment"></a>Localisation du message masqué et de la pièce jointe appropriés
 
@@ -88,7 +88,7 @@ Maintenant que nous savons que l’historique de téléchargement des messages p
 
 4. Dans le tableau, recherchez le message masqué à l’aide **d’IMAPITable::FindRow**.
     
-5. Si l’étape 4 ne parvient pas à trouver un message masqué, modifiez la restriction pour utiliser **PidTagSearchKey** (**PR_SEARCH_KEY**) au lieu de **PidTagConversationKey**, comme illustré ci-dessous :
+5. Si l’étape 4 ne trouve pas de message masqué, modifiez la restriction pour utiliser **PidTagSearchKey** (**PR_SEARCH_KEY**) au lieu de **PidTagConversationKey**, comme illustré ci-dessous :
     
    ```cpp
     rgRes[1].res.resProperty.ulPropTag = rgProps[0].ulPropTag = PR_SEARCH_KEY;
@@ -96,13 +96,13 @@ Maintenant que nous savons que l’historique de téléchargement des messages p
 
 6. Recherchez le message masqué à **l’aide d’IMAPITable::FindRow**. 
     
-7. Si l’étape 6 échoue, modifiez la restriction pour utiliser [PidTagSubject](https://msdn.microsoft.com/library/aa7ba4d9-c5e0-4ce7-a34e-65f675223bc9%28Office.15%29.aspx) (**PR_SUBJECT**) en étant égal à la valeur suivante (illustré ci-dessous à l’aide de la substitution de style pour des raisons de  `printf` concision). 
+7. Si l’étape 6 échoue, modifiez la restriction pour utiliser [PidTagSubject](https://msdn.microsoft.com/library/aa7ba4d9-c5e0-4ce7-a34e-65f675223bc9%28Office.15%29.aspx) (**PR_SUBJECT**) en étant égal à la valeur suivante (  `printf` illustré ci-dessous à l’aide de la substitution de style pour des raisons de concision). 
     
    ```cpp
     "Outlook Message Manager (%s) (KEY: %s)", PR_PROFILE_NAME, HexFromBin(PR_SEARCH_KEY)
    ```
 
-8. Recherchez le message masqué à l’aide **d’IMAPITable::FindRow**.
+8. Recherchez le message masqué à **l’aide d’IMAPITable::FindRow**.
     
 9. Si vous exécutez Outlook 2010 ou une version ultérieure, utilisez les valeurs suivantes pour **PidTagProfileName** (**PR_PROFILE_NAME**) et **PidTagSearchKey** (**PR_SEARCH_KEY**), respectivement.
     
@@ -124,17 +124,17 @@ Maintenant que nous savons que l’historique de téléchargement des messages p
 > [!NOTE]
 > Cette procédure utilise de nouveau la  `printf` substitution de style pour des raisons de concision. 
 
-1. Recherchez une pièce jointe dont [pidTagAttachLongFilename](https://msdn.microsoft.com/library/83b69e8f-0b5a-4992-b5b8-160d3bdfa22a%28Office.15%29.aspx) (**PR_ATTACH_LONG_FILENAME**) correspond à la chaîne suivante, où se trouve l’adresse SMTP de l’utilisateur, comme spécifié dans le profil de  `szEmailAddress` l’utilisateur. . 
+1. Recherchez une pièce jointe dont [pidTagAttachLongFilename](https://msdn.microsoft.com/library/83b69e8f-0b5a-4992-b5b8-160d3bdfa22a%28Office.15%29.aspx) (**PR_ATTACH_LONG_FILENAME**) correspond à la chaîne suivante,  `szEmailAddress` où se trouve l’adresse SMTP de l’utilisateur, comme spécifié dans le profil de l’utilisateur. . 
     
    ```cpp
     "BlobPOP%s", szEmailAddress
    ```
 
-2. Recherchez une pièce jointe dont [pidTagAttachFilename](https://msdn.microsoft.com/library/cbf34dd6-7733-47f6-9c41-9d82656ca9dc%28Office.15%29.aspx) (**PR_ATTACH_FILENAME**) correspond à « BlobPOP%s  `szEmailAddress` », .
+2. Recherchez une pièce jointe dont [pidTagAttachFilename](https://msdn.microsoft.com/library/cbf34dd6-7733-47f6-9c41-9d82656ca9dc%28Office.15%29.aspx) (**PR_ATTACH_FILENAME**) correspond à « BlobPOP%s ». `szEmailAddress`
     
-3. Recherchez une pièce jointe [dont pidTagDisplayName](https://msdn.microsoft.com/library/bd094e00-5c60-4bb3-9a45-b943fab52876%28Office.15%29.aspx) (**PR_DISPLAY_NAME**) correspond à « BlobPOP%s  `szEmailAddress` », .
+3. Recherchez une pièce jointe [dont pidTagDisplayName](https://msdn.microsoft.com/library/bd094e00-5c60-4bb3-9a45-b943fab52876%28Office.15%29.aspx) (**PR_DISPLAY_NAME**) correspond à « BlobPOP%s ». `szEmailAddress`
     
-4. Recherchez une pièce jointe dont **pidTagAttachFilename** (**PR_ATTACH_FILENAME**) correspond à « Blob%.8x », où provient  `dwAcctUID`  `dwAcctUID` [PROP_ACCT_MINI_UID](prop_acct_mini_uid.md). Vous pouvez utiliser la [méthode IOlkAccount::GetProp](iolkaccount-getprop.md) pour accéder à **PROP_ACCT_MINI_UID** propriété. 
+4. Recherchez une pièce jointe dont **pidTagAttachFilename** (**PR_ATTACH_FILENAME**) correspond à « Blob%.8x  `dwAcctUID`», où  `dwAcctUID` provient [PROP_ACCT_MINI_UID](prop_acct_mini_uid.md). Vous pouvez utiliser la [méthode IOlkAccount::GetProp](iolkaccount-getprop.md) pour accéder à **PROP_ACCT_MINI_UID** propriété. 
 
 <a name="OL15Con_AuxRef_LocatingMsgsUIDLHistory_AccessProp"> </a>
 
@@ -146,7 +146,7 @@ Après avoir localis la pièce jointe de message appropriée du message masqué,
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Vous avez appris à partir de cette rubrique comment localiser l’historique de téléchargement des messages pour la boîte de réception d’un client de messagerie POP3. Consultez [l’historique](parsing-the-message-download-history-for-a-pop3-account.md) de téléchargement des messages pour un compte POP3 pour découvrir comment l’identifier afin d’identifier les messages qui ont été téléchargés ou supprimés pour la boîte de réception. 
+Vous avez appris à partir de cette rubrique comment localiser l’historique de téléchargement des messages pour la boîte de réception d’un client de messagerie POP3. [Consultez l’historique](parsing-the-message-download-history-for-a-pop3-account.md) de téléchargement des messages pour un compte POP3 pour découvrir comment l’identifier afin d’identifier les messages qui ont été téléchargés ou supprimés pour la boîte de réception. 
 
 <a name="OL15Con_AuxRef_LocatingMsgsUIDLHistory_AdditionalRsc"> </a>
 

@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 2a15e5df-b8e3-9c37-b1ee-2881d010e30b
 description: Cette rubrique contient des définitions de constantes, des identificateurs de classe et des identificateurs d’interface pour l’API de gestion des comptes.
-ms.openlocfilehash: 2ff026a5fe8274b5279677f2c4da936ed12bd02f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fae8f92c092a422ae62ca55ca2b16c99a38317f5
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596658"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789304"
 ---
 # <a name="constants-account-management-api"></a>Constantes (API de gestion des comptes)
 
@@ -31,14 +31,14 @@ Cette rubrique contient des définitions de constantes, des identificateurs de c
 |E_ACCT_NOT_FOUND  <br/> |0x800C8101  <br/> |
 |E_ACCT_UI_BUSY  <br/> |0x800C8102  <br/> |
 |E_ACCT_WRONG_SORT_ORDER  <br/> |0x800C8105  <br/> |
-|E_INVALIDARG  <br/> | *Tel que défini dans le Windows d’en-tête du Kit de développement logiciel (SDK) winerror.h.*  <br/> |
-|E_NOTIMPL  <br/> | *Comme défini dans le fichier d Windows en-tête du SDK winerror.h.*  <br/> |
+|E_INVALIDARG  <br/> | *Comme défini dans le Windows d’en-tête du Kit de développement logiciel (SDK) winerror.h.*  <br/> |
+|E_NOTIMPL  <br/> | *Comme défini dans le fichier d Windows d’en-tête du SDK winerror.h.*  <br/> |
 |E_OLK_ALREADY_INITIALIZED  <br/> |0x800C8002  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |0x800C8005  <br/> |
 |E_OLK_PARAM_NOT_SUPPORTED  <br/> |0x800C8003  <br/> |
 |E_OLK_PROP_READ_ONLY  <br/> |0x800C800D  <br/> |
 |E_OLK_REGISTRY  <br/> |0x800C8001  <br/> |
-|Les constantes suivantes commençant par ENCRYPT_ sont utilisées par la [propriété PROP_SMTP_SECURE_CONNECTION](prop_smtp_secure_connection.md) pour spécifier le type de connexion chiffrée.  <br/> ||
+|Les constantes suivantes commençant par ENCRYPT_ sont utilisées par la propriété [PROP_SMTP_SECURE_CONNECTION](prop_smtp_secure_connection.md) pour spécifier le type de connexion chiffrée. ||
 |ENCRYPT_CONN_AUTO  <br/> |3  <br/> |
 |ENCRYPT_CONN_NO_SECURITY  <br/> |0  <br/> |
 |ENCRYPT_CONN_SSL  <br/> |1  <br/> |
@@ -47,21 +47,21 @@ Cette rubrique contient des définitions de constantes, des identificateurs de c
 |NOTIFY_ACCT_CHANGED  <br/> |1  <br/> |
 |NOTIFY_ACCT_CREATED  <br/> |2  <br/> |
 |NOTIFY_ACCT_DELETED  <br/> |3  <br/> |
-|NOTIFY_ACCT_ORDER_CHANGED  <br/> |4   <br/> |
+|NOTIFY_ACCT_ORDER_CHANGED  <br/> |4  <br/> |
 |NOTIFY_ACCT_PREDELETED  <br/> |5  <br/> |
 |OLK_ACCOUNT_NO_FLAGS  <br/> |0  <br/> |
-|S_OK  <br/> | *Comme défini dans le fichier d Windows en-tête du SDK winerror.h.*  <br/> |
-|S_FALSE  <br/> | *Comme défini dans le fichier d Windows en-tête du SDK winerror.h.*  <br/> |
+|S_OK  <br/> | *Comme défini dans le fichier d Windows d’en-tête du SDK winerror.h.*  <br/> |
+|S_FALSE  <br/> | *Comme défini dans le fichier d Windows d’en-tête du SDK winerror.h.*  <br/> |
 |SECURE_FLAG  <br/> |0x8000  <br/> |
-|Les constantes suivantes commençant par SMTP_ sont utilisées par la [propriété PROP_SMTP_AUTH_METHOD](prop_smtp_auth_method.md) et spécifient la méthode d’authentification.  <br/> ||
+|Les constantes suivantes commençant par SMTP_ sont utilisées par la propriété [PROP_SMTP_AUTH_METHOD](prop_smtp_auth_method.md) et spécifient la méthode d’authentification. ||
 |SMTP_AUTH_SAME_AS_POP  <br/> |0  <br/> |
 |SMTP_AUTH_RECEIVE_BEFORE_SEND  <br/> |2  <br/> |
 |SMTP_AUTH_USER_PASS  <br/> |1  <br/> |
-|Les 5 constantes et macros suivantes sont utilisées par la propriété [PROP_POP_LEAVE_ON_SERVER](prop_pop_leave_on_server.md) et spécifient des options pour que les comptes POP laissent une copie d’un message sur le serveur.  <br/> ||
+|Les 5 constantes et macros suivantes sont utilisées par la propriété [PROP_POP_LEAVE_ON_SERVER](prop_pop_leave_on_server.md) et spécifient des options pour que les comptes POP laissent une copie d’un message sur le serveur. ||
 |LEAVE_ON_SERVER  <br/> |0x1  <br/> |
 |REMOVE_AFTER  <br/> |0x2  <br/> |
 |REMOVE_ON_NUKE  <br/> |0x4  <br/> |
-|GET_REMOVE_AFTER_DAYS(ul)  <br/> |((ul) \> \> 16)  <br/> |
+|GET_REMOVE_AFTER_DAYS(ul)  <br/> |((ul)\>\> 16)  <br/> |
 |SET_REMOVE_AFTER_DAYS(days)  <br/> |((days)\<\<16)  <br/> |
    
 ## <a name="class-identifiers"></a>Identificateurs de classe

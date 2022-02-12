@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 7db7a8ed-50a9-8495-b978-42a2fddb466a
 description: Prend un point défini dans les coordonnées locales d’une forme et renvoie le point équivalent exprimé dans les coordonnées locales de la forme associée à la formule.
-ms.openlocfilehash: 82a399a3e50aa94a9d158260bd9292a026af4017
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cd1daa7c4db47af61c56c4195414381c7a53884d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565974"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62786811"
 ---
 # <a name="loc-function-visioshapesheet"></a>LOC Function (VisioShapeSheet)
 
@@ -28,7 +28,7 @@ LOC(** *point* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _point_ <br/> |Obligatoire  <br/> |**String** <br/> | Point défini dans les coordonnées locales d’une forme.  <br/> |
+| _point_ <br/> |Requis  <br/> |**String** <br/> | Point défini dans les coordonnées locales d’une forme. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

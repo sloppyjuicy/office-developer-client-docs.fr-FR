@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: caafab24-6413-4731-813d-cba3ae9ea97e
 description: Tout administrateur de collection de sites peut publier des formulaires avec du code directement à partir de l’Assistant Publication InfoPath Designer vers une bibliothèque de formulaires sur SharePoint. Le code est exécuté dans un environnement « bac à sable » (sandbox) afin d'éviter que du code malveillant puisse nuire au serveur. On désigne cela par publication d'une solution en bac à sable (sandbox) ou publication sur l'infrastructure sandbox SharePoint.
-ms.openlocfilehash: ddc224826650ecda8f54bc7d882b78bc90377b81
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 50451defafdc4289eb30ebe567456aa9f566e4d5
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557434"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784472"
 ---
 # <a name="publishing-forms-with-code"></a>Publication de formulaires avec code
 
@@ -25,10 +25,10 @@ Le tableau suivant récapitule les différences de la publication pour ces deux 
   
 ||**Solutions bac à sable**|**Solutions approuvées par l’administrateur**|
 |:-----|:-----|:-----|
-|**Autorisations requises** <br/> |Publiables par tout administrateur de collection de sites.  <br/> |Déployables par un administrateur de batterie.  <br/> |
-|**Publishing** <br/> |Peut être publié directement à partir d’InfoPath.  <br/> |Déployables en utilisant l’Administration centrale ou l’outil de ligne de commande stsadm.  <br/> |
-|**Protection** <br/> |Le code est exécuté dans un environnement « bac à sable » (sandbox) afin de protéger le serveur contre du code malveillant.  <br/> |Le code peut s’exécuter avec autorisation totale et accéder à toutes les ressources sur le serveur.  <br/> |
-|**Utilisation recommandée** <br/> |Formulaires nécessitant une petite quantité de code seulement.  <br/> |Formulaires contenant de nombreuses lignes de code.  <br/> |
+|**Autorisations requises** <br/> |Publiables par tout administrateur de collection de sites. |Déployables par un administrateur de batterie. |
+|**Publishing** <br/> |Peut être publié directement à partir d’InfoPath. |Déployables en utilisant l’Administration centrale ou l’outil de ligne de commande stsadm. |
+|**Protection** <br/> |Le code est exécuté dans un environnement « bac à sable » (sandbox) afin de protéger le serveur contre du code malveillant. |Le code peut s’exécuter avec autorisation totale et accéder à toutes les ressources sur le serveur. |
+|**Utilisation recommandée** <br/> |Formulaires nécessitant une petite quantité de code seulement. |Formulaires contenant de nombreuses lignes de code. |
    
 ### <a name="publishing-form-templates-as-sandboxed-solutions"></a>Publication de modèles de formulaire en tant que solutions en bac à sable (sandbox)
 

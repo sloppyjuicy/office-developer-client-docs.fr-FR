@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 755d096a-2a61-44d2-a765-5d464a857756
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f587b5785cda8d61c437976b3cf3a6a00e768813
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: d7ce7917fc378927fe567b1c499860332fe6c926
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461439"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783872"
 ---
 # <a name="mapi-idle-engine"></a>Moteur MAPI inactif
 
@@ -57,8 +57,8 @@ Toutes les tâches inactives s’exécutent sur le thread qui a **appelé MAPIIn
   
 |**Modèle de thread**|**Implication**|
 |:-----|:-----|
-|Thread unique  <br/> |Pas de problème. Les fonctions inactives s’exécutent sur le thread principal de votre client et sont sérialisées via la boucle de message.  <br/> |
-|Thread libre  <br/> |Les fonctions inactives doivent être thread-safe, mais votre client dispose déjà de l’infrastructure nécessaire. Votre client n’a peut-être pas besoin du moteur d’inactivité MAPI.  <br/> |
-|Threads de threads de location  <br/> |La fonction inactive doit s’exécuter sur le thread qui l’a inscrite si elle souhaite utiliser MAPI, OLE ou toute autre interface COM. La manière la plus simple consiste à inscrire une fonction inactive avec MAPI qui publie un message sur le thread de droite et répartit la fonction inactive « réelle » directement à partir de la boucle de messages de ce thread.  <br/> |
+|Thread unique  <br/> |Pas de problème. Les fonctions inactives s’exécutent sur le thread principal de votre client et sont sérialisées via la boucle de message. |
+|Thread libre  <br/> |Les fonctions inactives doivent être thread-safe, mais votre client dispose déjà de l’infrastructure nécessaire. Votre client n’a peut-être pas besoin du moteur d’inactivité MAPI. |
+|Threads de threads de location  <br/> |La fonction inactive doit s’exécuter sur le thread qui l’a inscrite si elle souhaite utiliser MAPI, OLE ou toute autre interface COM. La manière la plus simple consiste à inscrire une fonction inactive avec MAPI qui publie un message sur le thread de droite et répartit la fonction inactive « réelle » directement à partir de la boucle de messages de ce thread. |
    
 

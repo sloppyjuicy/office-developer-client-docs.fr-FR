@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 9e055269-f3bf-4b64-8384-3cbc372c0b34
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 44c96d321578cd1dba4ea7ee51eb45ff1e5e817e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7f7a35716c37228c3c113c99739fd3b4c8f798e0
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59605012"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784285"
 ---
 # <a name="dir_entryid"></a>DIR_ENTRYID
 
@@ -44,7 +44,7 @@ typedef struct _dir_entryid
 
  **abFlags**
   
-> Masque de bits d’indicateurs qui fournit des informations décrivant l’objet. Pour plus d’informations, voir la description du champ **abFlags** d’une structure [ENTRYID.](entryid.md) 
+> Masque de bits d’indicateurs qui fournit des informations décrivant l’objet. Pour plus d’informations, voir la description du champ **abFlags** d’une structure [ENTRYID](entryid.md) . 
     
  **muid**
   
@@ -60,9 +60,9 @@ typedef struct _dir_entryid
     
 |**Name**|**Description**|
 |:-----|:-----|
-|CONTAB_ROOT  <br/> |Dossier racine d’un carnet d’adresses MAPI.  <br/> |
-|CONTAB_SUBROOT  <br/> |Sous-dossier inclus dans le dossier racine de l’objet de carnet d’adresses MAPI.  <br/> |
-|CONTAB_CONTAINER  <br/> |Un objet conteneur de carnet d'adresses.  <br/> |
+|CONTAB_ROOT  <br/> |Dossier racine d’un carnet d’adresses MAPI. |
+|CONTAB_SUBROOT  <br/> |Sous-dossier inclus dans le dossier racine de l’objet de carnet d’adresses MAPI. |
+|CONTAB_CONTAINER  <br/> |Un objet conteneur de carnet d'adresses. |
    
  **muidID**
   
@@ -70,7 +70,7 @@ typedef struct _dir_entryid
     
 ## <a name="remarks"></a>Remarques
 
-Les structures **DIR_ENTRYID** et [CONTAB_ENTRYID](contab_entryid.md) sont identiques, à l’exception du **membre ulType.** Le contenu du membre **ulType** détermine la structure appropriée pour les champs restants. 
+Les structures **DIR_ENTRYID** et [CONTAB_ENTRYID](contab_entryid.md) sont identiques, à l’exception du **membre ulType** . Le contenu du membre **ulType** détermine la structure appropriée pour les champs restants. 
   
 ## <a name="see-also"></a>Voir aussi
 

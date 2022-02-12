@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c02186ce-6a20-fbe7-588d-d64c3ea4dec4
 description: Détermine la position du texte de la forme par rapport à la ligne de base.
-ms.openlocfilehash: bde906d82b7583e86f5e6d2f6bc4a4c14d792a28
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1c27c302b6f8a2b51ded275ca3e2719311d98f83
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623186"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788814"
 ---
 # <a name="pos-cell-character-section"></a>Pos, cellule (section Character)
 
@@ -32,14 +32,14 @@ Pour obtenir une référence à la cellule Pos par un nom à partir d'une autre 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Char.Pos[  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Char.Pos[  *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Pos à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionCharacter** <br/> |
-| Index de la ligne :  <br/> |**visRowCharacter**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visCharacterPos** <br/> |
    
 

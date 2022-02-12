@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
 description: 'Un développeur d’applications peut personnaliser un site Project Online (hébergé SharePoint) à l’aide d’applications autonomes et/ou de Project de développement. Un grand nombre d’applications sont possibles, qu’il s’agit de répondre aux besoins de ceux impliqués dans un projet ou de fonctions de prise en charge PMO, telles que l’une des suivantes :'
-ms.openlocfilehash: 40d38d1cb80c98b945fe474ce2d8be51cf5ea6df
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 29a49fdf6e95b630d76339b84ee1e5aabbc22111
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180557"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787526"
 ---
 # <a name="from-0-to-60-with-project-online"></a>De 0 à 60 avec Project Online
 
@@ -55,7 +55,7 @@ Project Online la prise en charge de l’API pour prendre en charge les scénari
 |:-----|:-----|:-----|:-----|
 |Project hébergé  <br/> |JSOM (Java Script Object Model)  <br/> REST  <br/> |Navigateur  <br/> |Entrée de carte de temps  <br/> Approbation de carte de temps  <br/> État du projet  <br/> Rapport des problèmes  <br/> |
 |Project fournisseur hébergé  <br/> |Bibliothèque cliente CSOM  <br/> |Site web/application Azure  <br/> Environnement non Windows (LAMP, etc.)  <br/> |Validateur de feuille de temps externe  <br/> Project importer  <br/> |
-|Externe/Autonome  <br/> |REST  <br/> CSOM  <br/> |REST - n’importe quelle plateforme  <br/> CSOM : toute plateforme prise en charge par .NET  <br/> |Entrée de carte de temps  <br/> Migration de projets vers un nouveau site  <br/> État de gestion des changements.  <br/> |
+|Externe/Autonome  <br/> |REST  <br/> CSOM  <br/> |REST - n’importe quelle plateforme  <br/> CSOM : toute plateforme prise en charge par .NET  <br/> |Entrée de carte de temps  <br/> Migration de projets vers un nouveau site  <br/> État de gestion des changements. |
    
 ## <a name="what-does-it-take-to-start-developing-applications-for-project-online"></a>Que faut-il pour commencer à développer des applications pour Project Online ?
 
@@ -73,7 +73,7 @@ Un add-in hébergé est un module qui réside sur le serveur et qui est téléch
     
 - Langage JavaScript
     
-Visitez https://github.com/OfficeDev/Project-JSOM-Copy-Work-Packages un exemple d’application. 
+Visitez un https://github.com/OfficeDev/Project-JSOM-Copy-Work-Packages exemple d’application. 
   
 Vous pouvez télécharger et exécuter l’exemple en quelques étapes simples :
   
@@ -83,7 +83,7 @@ Vous pouvez télécharger et exécuter l’exemple en quelques étapes simples :
     
    Project Online examine à la fois l’étendue de l’application du module complémentaire et les autorisations de l’utilisateur pour régir l’accès aux informations sur l Project Online hôte. Si l’accès est explicitement refusé dans l’un des paramètres ou les deux, Project Online refuse l’accès aux informations. Sinon, l’accès est accordé.
     
-3. Activez [le chargement de version secondaire](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) sur votre site.  
+3. [Activez le chargement de version secondaire](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) sur votre site.  
     
 4. Créez le projet.
     
@@ -105,7 +105,7 @@ Un exemple de l’environnement Windows de développement pour ce type d’appli
     
 - Langage de programmation, tel que C # 
     
-Consultez https://github.com/OfficeDev/Project-Add-in-REST-BasicDataOperations les exemples de scripts de travail. 
+Consultez les https://github.com/OfficeDev/Project-Add-in-REST-BasicDataOperations exemples de scripts de travail. 
   
 Vous pouvez exécuter l’exemple en quelques étapes :
   
@@ -115,7 +115,7 @@ Vous pouvez exécuter l’exemple en quelques étapes :
     
    Project Online examine à la fois l’étendue de l’application du module complémentaire et les autorisations de l’utilisateur pour régir l’accès aux informations sur l Project Online hôte. Si l’accès est explicitement refusé dans l’un des paramètres ou les deux, Project Online refuse l’accès aux informations. Sinon, l’accès est accordé.
     
-3. Activez [le chargement de version secondaire](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) sur votre site. 
+3. [Activez le chargement de version secondaire](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) sur votre site. 
     
 4. Créez le projet.
     
@@ -137,7 +137,7 @@ Un exemple de l’environnement Windows de développement pour ce type d’appli
     
 - Langage de programmation, tel que C # 
     
-Visitez https://github.com/OfficeDev/Project-CSOM-Read-Enterprise-CustomFields un exemple d’application. 
+Visitez un https://github.com/OfficeDev/Project-CSOM-Read-Enterprise-CustomFields exemple d’application. 
   
 Vous pouvez exécuter l’exemple en quelques étapes :
   

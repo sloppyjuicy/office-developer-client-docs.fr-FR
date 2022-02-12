@@ -9,16 +9,16 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 22005976-37c0-d2be-8e34-8aee8458e4be
 description: Renvoie un nombre integer, de 0 à 59, qui représente le composant de secondes de date/heure ou d’expression.
-ms.openlocfilehash: f9f8a3f823ed4b0989abd6f338aaf44a0f56a059
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 98fb0bb2bc6cb8507389248708a0f3ac3ec18c38
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553924"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788744"
 ---
 # <a name="second-function-visioshapesheet"></a>SECOND Function (VisioShapeSheet)
 
-Renvoie un nombre integer, de 0 à 59, qui représente le composant de secondes de  _date/heure_ ou  _d’expression_.
+Renvoie un nombre integer, de 0 à 59, qui représente le composant de secondes de _date/_ heure ou d’expression.
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,9 +28,9 @@ SECOND( » ** *datetime* ** « | ** *expression* ** [, ** *lcid* ** ])
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _datetime_ <br/> |Obligatoire  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  <br/> |
-| _expression_ <br/> |Obligatoire  <br/> |**String** <br/> | Toute expression qui génère une date et une heure.  <br/> |
-| _lcid_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Identificateur de paramètres régionaux à utiliser pour l’évaluation d’une  _date/heure_ non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système.  <br/> |
+| _datetime_ <br/> |Requis  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure. |
+| _expression_ <br/> |Requis  <br/> |**String** <br/> | Toute expression qui génère une date et une heure. |
+| _lcid_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Identificateur de paramètres régionaux à utiliser pour l’évaluation d’une  _date/heure non locale_. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -40,7 +40,7 @@ Entier
 
 Le composant date dans  _l’heure de date_  _ou l’expression_ est ignoré. 
   
-Aucun arrondissement n’est effectué. Si  _la date/heure_ est manquante ou ne peut pas être convertie en un résultat valide, cette fonction renvoie une erreur. 
+Aucun arrondissement n’est effectué. Si  _la date/_ heure est manquante ou ne peut pas être convertie en un résultat valide, cette fonction renvoie une erreur. 
   
 La fonction SECOND accepte également une valeur de nombre unique pour  _l’expression_ où la partie décimale du résultat représente la fraction d’un jour depuis minuit. 
   

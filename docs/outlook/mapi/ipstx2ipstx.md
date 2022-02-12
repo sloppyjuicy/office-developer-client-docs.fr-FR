@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f8858fcf-315e-dc62-60ad-f9782676e51d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d65f79be3ba684f671ca9dc1885d412366f56f5c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3e9897abd7a3bb8d385383028d70118447ec9558
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613791"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783928"
 ---
 # <a name="ipstx2--ipstx"></a>IPSTX2 : IPSTX
 
@@ -25,7 +25,7 @@ ms.locfileid: "59613791"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette interface fournit des fonctionnalités d’aide lors de la réplication via l’interface **[IOSTX.](iostxiunknown.md)** 
+Cette interface fournit des fonctionnalités d’aide lors de la réplication via l’interface **[IOSTX](iostxiunknown.md)** . 
   
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ Cette interface fournit des fonctionnalités d’aide lors de la réplication vi
 |:-----|:-----|
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Définit l’état suspendu sur lepooler.  <br/> |
+|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Définit l’état suspendu sur lepooler. |
    
 ## <a name="see-also"></a>Voir aussi
 

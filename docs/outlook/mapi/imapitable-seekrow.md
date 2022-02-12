@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 93ac63ae-f254-45e1-a9b1-347d69d2ed9f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0b54979a9cd61985de58f1d11ddf741f435e8a60
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7a1decf53b97dda3dd8655a69b7b01676373decb
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630585"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783991"
 ---
 # <a name="imapitableseekrow"></a>IMAPITable::SeekRow
 
@@ -39,7 +39,7 @@ LONG FAR * lplRowsSought
 
  _bkOrigin_
   
-> [in] Signet identifiant la position de départ de l’opération de recherche. Un signet peut être créé à l’aide de la méthode [IMAPITable::CreateBookmark,](imapitable-createbookmark.md) ou l’une des valeurs prédéfinës suivantes peut être passée. 
+> [in] Signet identifiant la position de départ pour l’opération de recherche. Un signet peut être créé à l’aide de la méthode [IMAPITable::CreateBookmark](imapitable-createbookmark.md) , ou l’une des valeurs prédéfinës suivantes peut être passée. 
     
 BOOKMARK_BEGINNING 
   
@@ -55,7 +55,7 @@ BOOKMARK_END
     
  _lRowCount_
   
-> [in] Nombre signé du nombre de lignes à déplacer, à partir du signet identifié par le _paramètre bkOrigin._ 
+> [in] Nombre signé du nombre de lignes à déplacer, à partir du signet identifié par le  _paramètre bkOrigin_ . 
     
  _lplRowsSought_
   
@@ -73,11 +73,11 @@ MAPI_E_BUSY
     
 MAPI_E_INVALID_BOOKMARK 
   
-> Le signet spécifié dans le paramètre  _bkOrigin_ n’est pas valide car il a été supprimé ou parce qu’il se trouve au-delà de la dernière ligne demandée. 
+> Le signet spécifié dans le paramètre _bkOrigin_ n’est pas valide car il a été supprimé ou parce qu’il se trouve au-delà de la dernière ligne demandée. 
     
 MAPI_W_POSITION_CHANGED 
   
-> L’appel a réussi, mais le signet spécifié dans le paramètre  _bkOrigin_ n’est plus définie sur la même ligne que lors de sa dernière utilisation. Si le signet n’a pas été utilisé, il n’est plus à la même position qu’au moment de sa création. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
+> L’appel a réussi, mais le signet spécifié dans le paramètre _bkOrigin_ n’est plus définie sur la même ligne que lors de sa dernière utilisation. Si le signet n’a pas été utilisé, il n’est plus à la même position qu’au moment de sa création. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED’avertissement** . Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
@@ -91,17 +91,17 @@ Si la ligne pointée par  _bkOrigin_ n’existe plus dans le tableau et que vous
   
 Un signet pointant vers une ligne qui est réduire en dehors de l’affichage Tableau peut toujours être utilisé. Si l’appelant tente de déplacer le curseur vers un signet de ce type, déplacez le curseur vers la ligne visible suivante et renvoyez-MAPI_W_POSITION_CHANGED. 
   
-Vous pouvez déplacer des signets pour les positions qui sont en dehors de l’affichage, soit au moment de l’utilisation, soit au moment où la ligne est réduire. Si un signet est déplacé au moment où la ligne est réduire, conservez un peu dans le signet qui indique si le signet a été déplacé depuis sa dernière utilisation ou, s’il n’a jamais été utilisé, depuis sa création.
+Vous pouvez déplacer des signets pour les positions qui sont en dehors de l’affichage, au moment de l’utilisation ou au moment où la ligne est réduire. Si un signet est déplacé au moment où la ligne est réduire, conservez un peu dans le signet qui indique si le signet a été déplacé depuis sa dernière utilisation ou, s’il n’a jamais été utilisé, depuis sa création.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour indiquer un déplacement vers l’arrière **pour SeekRow**, passez une valeur négative dans  _lRowCount_. Pour rechercher au début du tableau, passez zéro dans  _lRowCount_ et la valeur BOOKMARK_BEGINNING dans  _bkOrigin_. 
+Pour indiquer un déplacement vers l’arrière **pour SeekRow**, passez une valeur négative dans  _lRowCount_. Pour rechercher au début du tableau, passez zéro dans  _lRowCount_ et la valeur BOOKMARK_BEGINNING  _dans bkOrigin_. 
   
-S’il y a beaucoup de lignes dans le tableau, **l’opération SeekRow** peut être lente. Les performances peuvent également être affectées si vous avez besoin de retourner un nombre de lignes dans le contenu du _paramètre lplRowsSought._ 
+S’il y a beaucoup de lignes dans le tableau, **l’opération SeekRow** peut être lente. Les performances peuvent également être affectées si vous avez besoin de retourner un nombre de lignes dans le contenu du  _paramètre lplRowsSought_ . 
   
- **SeekRow** renvoie le nombre de lignes réellement recherchés dans, positif ou négatif, dans la variable pointée par  _lRowCount_. En opération ordinaire, elle doit renvoyer la même valeur pour  _lplRowsSought_ que pour  _lRowCount_, sauf si la recherche a atteint le début ou la fin du tableau. 
+ **SeekRow** renvoie le nombre de lignes réellement recherchés, positifs ou négatifs, dans la variable pointée par  _lRowCount_. En opération ordinaire, elle doit renvoyer la même valeur pour  _lplRowsSought_ que pour  _lRowCount_, sauf si la recherche a atteint le début ou la fin de la table. 
   
-Ne définissez  _pas lRowCount_ sur un nombre supérieur à 50. Pour rechercher un plus grand nombre de lignes, utilisez la méthode [IMAPITable::SeekRowApprox.](imapitable-seekrowapprox.md) 
+Ne définissez  _pas lRowCount_ sur un nombre supérieur à 50. Pour rechercher un plus grand nombre de lignes, utilisez la méthode [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) . 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -109,7 +109,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProcessor.cpp  <br/> |CMAPIProcessor::P rocessMailboxTable  <br/> |MFCMAPI utilise la **méthode IMAPITable::SeekRow** pour localiser le début de la table avant le traitement.  <br/> |
+|MAPIProcessor.cpp  <br/> |CMAPIProcessor::P rocessMailboxTable  <br/> |MFCMAPI utilise la **méthode IMAPITable::SeekRow** pour localiser le début de la table avant le traitement. |
    
 ## <a name="see-also"></a>Voir aussi
 

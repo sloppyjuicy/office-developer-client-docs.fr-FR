@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: e6d72529-aa03-e94b-130c-79ed04336299
 description: Détermine le mode d'affichage de la forme de groupe et de ses membres.
-ms.openlocfilehash: 22989d22d0e8792e609027662750c4e9f9da73fa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 968e4fb1b78d869dbb6a119c3a11f28e3e98863d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590337"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787358"
 ---
 # <a name="displaymode-cell-group-properties-section"></a>DisplayMode, cellule (section Group Properties)
 
@@ -22,13 +22,13 @@ Détermine le mode d'affichage de la forme de groupe et de ses membres.
   
 |**Valeur**|**Mode d’affichage**|**Constante d'automation**|
 |:-----|:-----|:-----|
-|0  <br/> |Masque la forme de groupe et le texte  <br/> |**visGrpDispModeNone** <br/> |
-|1  <br/> |Affiche la forme de groupe derrière ses membres  <br/> |**visGrpDispModeBack** <br/> |
-|2  <br/> |Affiche la forme de groupe devant ses membres  <br/> |**visGrpDispModeFront** <br/> |
+|0  <br/> |Masque la forme de groupe et le texte |**visGrpDispModeNone** <br/> |
+|1  <br/> |Affiche la forme de groupe derrière ses membres |**visGrpDispModeBack** <br/> |
+|2  <br/> |Affiche la forme de groupe devant ses membres |**visGrpDispModeFront** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir cette valeur en  sélectionnant  le groupe, [](run-in-developer-mode-display-the-developer-tab.md) en cliquant sur Comportement dans le groupe Création de forme sous l’onglet Développeur, puis en sélectionnant un mode d’affichage dans la liste de données **de** groupe. 
+Vous pouvez également définir cette valeur en sélectionnant le groupe, en cliquant sur Comportement  dans le groupe Création de [](run-in-developer-mode-display-the-developer-tab.md) forme sous l’onglet Développeur, puis en sélectionnant un mode d’affichage dans la liste de **données de groupe**. 
   
 Pour obtenir une référence à la cellule DisplayMode par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

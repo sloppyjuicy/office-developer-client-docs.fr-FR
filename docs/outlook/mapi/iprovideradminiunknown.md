@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bdb4cdca-8dfd-4f90-9467-ec31cea3f518
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 96f1c66980adebfb85b1e513df3a6ff236cf5776
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4632b1db7b69b50eda6103e7dc1172db326199f6
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620554"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789122"
 ---
 # <a name="iprovideradmin--iunknown"></a>IProviderAdmin : IUnknown
 
@@ -40,11 +40,11 @@ Fonctionne avec des fournisseurs de services dans un service de messagerie.
 
 |||
 |:-----|:-----|
-|[GetLastError](iprovideradmin-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite sur l’objet d’administration du fournisseur.  <br/> |
-|[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Permet d’accéder à la table des fournisseurs du service de messagerie, une liste des fournisseurs de services dans le service de messagerie.  <br/> |
-|[CreateProvider](iprovideradmin-createprovider.md) <br/> |Ajoute un fournisseur de services au service de messagerie.  <br/> |
-|[DeleteProvider](iprovideradmin-deleteprovider.md) <br/> |Supprime un fournisseur de services du service de messagerie.  <br/> |
-|[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |Ouvre une section de profil à partir du profil actuel et renvoie un [pointeur IProfSect](iprofsectimapiprop.md) pour un accès supplémentaire.  <br/> |
+|[GetLastError](iprovideradmin-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite sur l’objet d’administration du fournisseur. |
+|[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Permet d’accéder à la table des fournisseurs du service de messagerie, liste des fournisseurs de services dans le service de messagerie. |
+|[CreateProvider](iprovideradmin-createprovider.md) <br/> |Ajoute un fournisseur de services au service de messagerie. |
+|[DeleteProvider](iprovideradmin-deleteprovider.md) <br/> |Supprime un fournisseur de services du service de messagerie. |
+|[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |Ouvre une section de profil à partir du profil actuel et renvoie un [pointeur IProfSect](iprofsectimapiprop.md) pour un accès supplémentaire. |
    
 ## <a name="remarks"></a>Remarques
 

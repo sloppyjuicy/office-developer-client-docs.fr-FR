@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 87235fd2-6527-41a1-98ba-b951632a1c81
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: daa063ff580d75b33d6c0fc2a448dc5dfb95a4fe
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 74f342377f984854df20fe4fca5eddd257b3abdd
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561403"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788219"
 ---
 # <a name="iprofadminadminservices"></a>IProfAdmin::AdminServices
 
@@ -79,7 +79,7 @@ MAPI_E_LOGON_FAILED
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le **bouton Annuler dans** une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
@@ -89,7 +89,7 @@ La **méthode IProfAdmin::AdminServices** permet d’accéder à un objet d’ad
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Bien que vous pouvez récupérer un pointeur [IMsgServiceAdmin](imsgserviceadminiunknown.md) en appelant cette méthode ou [IMAPISession::AdminServices,](imapisession-adminservices.md)appelez **IProfAdmin::AdminServices** si vous avez strictement un client de configuration et que vous n’offrez aucune fonctionnalité de messagerie. **IProfAdmin::AdminServices** ne crée pas d’objet de session et ne charge aucun fournisseur de services, ce qui améliore les performances. 
+Bien que vous pouvez récupérer un pointeur [IMsgServiceAdmin](imsgserviceadminiunknown.md) en appelant cette méthode ou [IMAPISession::AdminServices](imapisession-adminservices.md), appelez **IProfAdmin::AdminServices** si vous avez strictement un client de configuration et que vous n’offrez aucune fonctionnalité de messagerie. **IProfAdmin::AdminServices** ne crée pas d’objet de session et ne charge aucun fournisseur de services, ce qui améliore les performances. 
   
 Vous ne pouvez pas **utiliser IProfAdmin::AdminServices** pour créer un profil. Par conséquent, vous devez spécifier un profil valide existant dans  _lpszProfileName_. Si le profil spécifié n’existe pas, **IProfAdmin::AdminServices** renvoie MAPI_E_LOGON_FAILED. 
   
@@ -105,7 +105,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> | HrAddServiceToProfile  <br/> |MFCMAPI utilise la méthode **IProfAdmin::AdminServices** pour ouvrir un objet d’administration de service de message pour le profil sélectionné afin d’ajouter des services.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> | HrAddServiceToProfile  <br/> |MFCMAPI utilise la méthode **IProfAdmin::AdminServices** pour ouvrir un objet d’administration de service de message pour le profil sélectionné afin d’ajouter des services. |
    
 ## <a name="see-also"></a>Voir aussi
 

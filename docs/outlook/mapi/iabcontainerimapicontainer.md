@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1f5ce6e0-b79a-4da2-b014-8c00cd72912e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f146c91e2d7b3c2a4c85e222e4505d7687b747cb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 90a359c5be8ec36565a09f8227d04e058be346ac
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584499"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789185"
 ---
 # <a name="iabcontainer--imapicontainer"></a>IABContainer : IMAPIContainer
 
@@ -39,10 +39,10 @@ Permet d’accéder aux conteneurs de carnet d’adresses. MAPI et les applicati
 
 |||
 |:-----|:-----|
-|[CreateEntry](iabcontainer-createentry.md) <br/> |Crée une entrée, qui peut être un utilisateur de messagerie, une liste de distribution ou un autre conteneur.  <br/> |
-|[CopyEntries](iabcontainer-copyentries.md) <br/> |Copie une ou plusieurs entrées, généralement des utilisateurs de messagerie ou des listes de distribution.  <br/> |
-|[DeleteEntries](iabcontainer-deleteentries.md) <br/> |Supprime une ou plusieurs entrées, généralement des utilisateurs de messagerie, des listes de distribution ou d’autres conteneurs.  <br/> |
-|[ResolveNames](iabcontainer-resolvenames.md) <br/> |Effectue la résolution de noms pour une ou plusieurs entrées de destinataire.  <br/> |
+|[CreateEntry](iabcontainer-createentry.md) <br/> |Crée une entrée, qui peut être un utilisateur de messagerie, une liste de distribution ou un autre conteneur. |
+|[CopyEntries](iabcontainer-copyentries.md) <br/> |Copie une ou plusieurs entrées, généralement des utilisateurs de messagerie ou des listes de distribution. |
+|[DeleteEntries](iabcontainer-deleteentries.md) <br/> |Supprime une ou plusieurs entrées, généralement des utilisateurs de messagerie, des listes de distribution ou d’autres conteneurs. |
+|[ResolveNames](iabcontainer-resolvenames.md) <br/> |Effectue la résolution de noms pour une ou plusieurs entrées de destinataire. |
    
 |**Propriétés requises**|**Access**|
 |:-----|:-----|
@@ -62,11 +62,11 @@ Permet d’accéder aux conteneurs de carnet d’adresses. MAPI et les applicati
    
 ## <a name="remarks"></a>Remarques
 
-L’interface **IABContainer** hérite indirectement de l’interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) via les interfaces [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md) et [IMAPIProp : IUnknown.](imapipropiunknown.md) Les fournisseurs de carnets d’adresses implémentent **l’interface IABContainer.** 
+L’interface **IABContainer** hérite indirectement de l’interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) via les interfaces [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md) et [IMAPIProp : IUnknown](imapipropiunknown.md) . Les fournisseurs de carnets d’adresses **implémentent l’interface IABContainer** . 
   
-Un conteneur de carnet d’adresses peut avoir un nombre quelconque d’objets utilisateur de messagerie, de listes de distribution et d’autres conteneurs de carnets d’adresses. Comme pour tout conteneur, les clients ou les fournisseurs de services peuvent utiliser un conteneur de carnet d’adresses pour ouvrir l’une de ses entrées ou récupérer une table hiérarchique ou une table des matières. Les conteneurs de carnet d’adresses fournissent également une résolution de nom et, selon le fournisseur, la possibilité d’ajouter, de supprimer ou de modifier des entrées.
+N’importe quel nombre d’objets utilisateur de messagerie, de listes de distribution et d’autres conteneurs de carnet d’adresses peuvent exister dans un conteneur de carnet d’adresses. Comme pour tout conteneur, les clients ou les fournisseurs de services peuvent utiliser un conteneur de carnet d’adresses pour ouvrir l’une de ses entrées ou récupérer une table hiérarchique ou une table des matières. Les conteneurs de carnet d’adresses fournissent également une résolution de nom et, selon le fournisseur, la possibilité d’ajouter, de supprimer ou de modifier des entrées.
   
-MAPI définit un conteneur de carnet d’adresses spécial appelé carnet d’adresses personnel (PAB) qui contient les entrées copiées à partir d’autres conteneurs. Un PAB est toujours modifiable. Les utilisateurs rempliront généralement leur PAB avec des entrées qui désignent les destinataires avec lesquels ils communiquent le plus fréquemment. Un carnet d’adresses en carnet d’adresses peut également contenir des adresses et des nouveaux destinataires qui ne font pas encore partie d’un conteneur de carnet d’adresses.
+MAPI définit un conteneur de carnet d’adresses spécial appelé carnet d’adresses personnel (PAB) qui contient les entrées copiées à partir d’autres conteneurs. Un PAB est toujours modifiable. Les utilisateurs rempliront généralement leur PAB avec des entrées qui désignent les destinataires avec lesquels ils communiquent le plus fréquemment. Un carnet d’adresses en carnet d’adresses peut également contenir des adresses et de nouveaux destinataires qui ne font pas encore partie d’un conteneur de carnet d’adresses.
   
 ## <a name="see-also"></a>Voir aussi
 

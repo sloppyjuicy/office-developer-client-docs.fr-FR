@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 0b6cc5b2-342d-45dd-ba5e-aa29f1face48
 description: Renvoie une valeur de texte après la tronquée de tous les blancs de fin.
-ms.openlocfilehash: ebe0ec745d3bbb87f7c0d3f73ba7a3c10ac0bcb8
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 82bc87fe70a7c6182e357a067be08475840e1038
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180788"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788674"
 ---
 # <a name="rtrim-function-access-custom-web-app"></a>RTrim Function (Access custom web app)
 
@@ -29,6 +29,6 @@ La **fonction RTrim** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Expression de chaîne.  <br/> |
+| *TextExpression*  <br/> |Expression de chaîne. |
    
 

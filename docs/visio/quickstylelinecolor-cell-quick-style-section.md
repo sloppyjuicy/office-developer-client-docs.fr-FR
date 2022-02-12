@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: dcfb792f-e02a-4059-acec-a178d221097c
 description: Détermine la couleur de thème que la ligne d’une forme utilise, sous la forme d’un nombre integer de 0 à 7.
-ms.openlocfilehash: 2ebcb23a308ef1c28a87860e9d75bb832e87bba1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9290d50f610470901caf445fcea7aa5ef15fe8b5
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623158"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788786"
 ---
 # <a name="quickstylelinecolor-cell-quick-style-section"></a>QuickStyleLineColor Cell (Quick Style Section)
 
@@ -21,18 +21,18 @@ Détermine la couleur de thème que la ligne d’une forme utilise, sous la form
 |||
 |:-----|:-----|
 |Valeur  <br/> |Description  <br/> |
-|0  <br/> |La couleur de trait de forme hérite de la couleur de thème Foncé.  <br/> |
-|1  <br/> |La couleur de trait de forme hérite de la couleur de thème Clair.  <br/> |
+|0  <br/> |La couleur de trait de forme hérite de la couleur de thème Foncé. |
+|1  <br/> |La couleur du trait de forme hérite de la couleur de thème Clair. |
 |2  <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 1  <br/> |
 |3  <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 2  <br/> |
-|4   <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 3  <br/> |
+|4  <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 3  <br/> |
 |5  <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 4  <br/> |
 |6   <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 5  <br/> |
 |7   <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 6  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule **QuickStyleLineColor** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
+Pour obtenir une référence à la cellule **QuickStyleLineColor** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
   
 |||
 |:-----|:-----|

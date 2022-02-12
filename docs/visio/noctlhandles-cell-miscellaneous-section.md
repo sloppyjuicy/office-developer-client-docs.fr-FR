@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 4345b3e5-f522-e300-307c-4f8992a3ddce
 description: Active ou désactive l'affichage des poignées de contrôle de la forme sélectionnée.
-ms.openlocfilehash: f4817fffd602bf55bbc9c1a8fc29cdeee7213340
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1e9fe7f62a5b3d7104a15a4673fca3963fc7e3d8
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577835"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788835"
 ---
 # <a name="noctlhandles-cell-miscellaneous-section"></a>NoCtlHandles, cellule (section Miscellaneous)
 
@@ -22,8 +22,8 @@ Active ou désactive l'affichage des poignées de contrôle de la forme sélecti
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Les poignées de contrôle ne sont pas affichées lorsqu'une forme est sélectionnée.  <br/> |
-| FALSE  <br/> | Les poignées de contrôle sont affichées lorsqu'une forme est sélectionnée.  <br/> |
+| TRUE  <br/> | Les poignées de contrôle ne sont pas affichées lorsqu'une forme est sélectionnée. |
+| FALSE  <br/> | Les poignées de contrôle sont affichées lorsqu'une forme est sélectionnée. |
    
 ## <a name="remarks"></a>Remarques
 

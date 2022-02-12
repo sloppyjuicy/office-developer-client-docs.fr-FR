@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: dbb8342b-e4e0-f89d-3e14-b4c7049095ef
 description: Obtient un énumérateur pour les comptes de la catégorie spécifique ou un type.
-ms.openlocfilehash: eb7f0c35ba3360c21d4b75cc911d12a2e91f5baf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 091361ce2532bdffd3c78279861c0be4aa15d2ea
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625657"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788611"
 ---
 # <a name="iolkaccountmanagerenumerateaccounts"></a>IOlkAccountManager::EnumerateAccounts
 
@@ -70,14 +70,14 @@ _ppEnum_
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |L'appel a réussi.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.  <br/> |
+|S_OK  <br/> |L'appel a réussi. |
+|E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation. |
    
 ## <a name="remarks"></a>Remarques
 
 Spécification de valeur NULL pour la catégorie renvoie un énumérateur de tous les comptes du type spécifié. De même, la spécification NULL pour le type renvoie un énumérateur de tous les comptes de la catégorie spécifiée.
   
- **IOlkAccountManager::EnumerateAccounts** ne prend pas en charge la catégorie de carnet d'adresses pour un compte Exchange. Si le compte est un compte Exchange (*pclsidType* est **CLSID_OlkMAPIAccount** ), et que vous essayez d’éumer les comptes qui implémentent le carnet d’adresses (*prgclsidCategory* est **CLSID_OlkAddressBook** ), l’appel de **IOlkAccountManager::EnumerateAccounts** ne retournera pas le compte Exchange dans l’éumérateur de comptes *ppEnum* . 
+ **IOlkAccountManager::EnumerateAccounts** ne prend pas en charge la catégorie de carnet d'adresses pour un compte Exchange. Si le compte est un compte Exchange (*pclsidType* est **CLSID_OlkMAPIAccount ), et** que vous essayez d’éumer les comptes qui implémentent le carnet d’adresses (*prgclsidCategory* est **CLSID_OlkAddressBook** ), l’appel de **IOlkAccountManager::EnumerateAccounts** ne retournera pas le compte Exchange dans l’éumérateur de comptes *ppEnum* . 
   
 ## <a name="see-also"></a>Voir aussi
 

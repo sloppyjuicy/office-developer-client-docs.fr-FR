@@ -8,26 +8,26 @@ f1_keywords:
 - vis_sdr.chm3020
 ms.localizationpriority: medium
 ms.assetid: 55942a42-5e88-2f6b-69f8-405ce406fcaf
-description: Contient les coordonnées x et y de deux points sur une ligne infinie.
-ms.openlocfilehash: 53d99efd06ec466625be5dd0565234a2c6f09607
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient les coordonnées x - et y - de deux points sur une ligne infinie.
+ms.openlocfilehash: 9ab091e72b48c43ce998f05e2cd3677c8a5d81bd
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628114"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62787155"
 ---
 # <a name="infiniteline-row-geometry-section"></a>InfiniteLine Row (Geometry Section)
 
-Contient les  *coordonnées x*  et  *y*  de deux points sur une ligne infinie. 
+Contient les  *coordonnées x*  - et  *y*  - de deux points sur une ligne infinie. 
   
 Une ligne InfiniteLine contient les cellules suivantes.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |Coordonnée  *x*  d’un point sur la ligne infinie ; associé à  *la coordonnée y*  représentée par la cellule Y.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |Coordonnée  *y*  d’un point sur la ligne infinie ; associé à  *la coordonnée x*  représentée par la cellule X.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |Coordonnée  *x*  d’un point sur la ligne infinie ; associé à  *la coordonnée y*  représentée par la cellule B.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |Coordonnée  *y*  d’un point sur une ligne infinie ; associé à  *la coordonnée x*  représentée par la cellule A.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Coordonnée  *x*  d’un point sur la ligne infinie ; associé à  *la coordonnée y*  représentée par la cellule Y. |
+|[Y](y-cell-geometry-section.md) <br/> |Coordonnée  *y*  d’un point sur la ligne infinie ; associé à  *la coordonnée x*  représentée par la cellule X. |
+|[A](a-cell-geometry-section.md) <br/> |Coordonnée  *x*  d’un point sur la ligne infinie ; associé à  *la coordonnée y*  représentée par la cellule B. |
+|[B](b-cell-geometry-section.md) <br/> |Coordonnée  *y*  d’un point sur une ligne infinie ; associé à  *la coordonnée x*  représentée par la cellule A. |
    
 ## <a name="remarks"></a>Remarques
 

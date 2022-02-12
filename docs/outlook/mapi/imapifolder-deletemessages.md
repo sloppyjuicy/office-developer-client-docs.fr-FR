@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5a16e62b-9d33-41cd-af2b-9abd403b6f2e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: db3b090ed26a43b71ea47f0bf92ee8d5e95468d9
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: cf7d9ce5d08c64823515b9d64591a8702032edd2
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462268"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784159"
 ---
 # <a name="imapifolderdeletemessages"></a>IMAPIFolder::DeleteMessages
 
@@ -86,9 +86,9 @@ Attendez-vous à ce que ces valeurs de retour se placent dans les conditions sui
   
 |**Condition**|**Valeur renvoy�e**|
 |:-----|:-----|
-|**DeleteMessages a** correctement supprimé chaque message.  <br/> |S_OK  <br/> |
-|**DeleteMessages n’a** pas pu supprimer correctement tous les messages et sous-fichiers.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
-|**DeleteMessages** n’a pas pu se terminer.  <br/> |Toute valeur d’erreur à l’exception MAPI_E_NOT_FOUND  <br/> |
+|**DeleteMessages a** correctement supprimé chaque message. |S_OK  <br/> |
+|**DeleteMessages n’a** pas pu supprimer correctement tous les messages et sous-fichiers. |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
+|**DeleteMessages** n’a pas pu se terminer. |Toute valeur d’erreur à l’exception MAPI_E_NOT_FOUND  <br/> |
    
 Lorsque **DeleteMessages n’est** pas en mesure de se terminer, ne supposez pas qu’aucun travail n’a été effectué. **DeleteMessages a** peut-être pu supprimer un ou plusieurs des messages avant de rencontrer l’erreur. 
   
@@ -100,7 +100,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnDeleteSelectedItem  <br/> |MFCMAPI utilise **la méthode IMAPIFolder::D eleteMessages** pour supprimer les messages spécifiés.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnDeleteSelectedItem  <br/> |MFCMAPI utilise **la méthode IMAPIFolder::D eleteMessages** pour supprimer les messages spécifiés. |
    
 ## <a name="see-also"></a>Voir aussi
 

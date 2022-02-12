@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 0ba7f6da-681b-b749-fe72-afbca23d7e16
 description: Indique si un chemin peut être rempli.
-ms.openlocfilehash: 1e52e19e15f5a81d95e4509014e34614bed394a2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 38afe7303441912cddfbade48973b7662d377ab8
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627883"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62786086"
 ---
 # <a name="nofill-cell-geometry-section"></a>NoFill, cellule (section Geometry)
 
@@ -22,8 +22,8 @@ Indique si un chemin peut être rempli.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Le chemin n'est pas rempli, même si d'autres chemins de la forme sont remplis.  <br/> |
-| FALSE  <br/> | Le remplissage de la forme s'applique au chemin, même s'il n'est pas fermé.  <br/> |
+| TRUE  <br/> | Le chemin n'est pas rempli, même si d'autres chemins de la forme sont remplis. |
+| FALSE  <br/> | Le remplissage de la forme s'applique au chemin, même s'il n'est pas fermé. |
    
 ## <a name="remarks"></a>Remarques
 
@@ -33,13 +33,13 @@ Pour obtenir une référence à la cellule NoFill par un nom à partir d'une aut
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Geometry  *i*  . NoFill où  *i*  = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Geometry  *i*  . NoFill où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule NoFill à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionFirstComponent**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la section :  <br/> |**visSectionFirstComponent** +   *i* où *i* = 0, 1, 2... |
 | Index de la ligne :  <br/> |**visRowComponent** <br/> |
 | Index de la cellule :  <br/> |**visCompNoFill** <br/> |
    

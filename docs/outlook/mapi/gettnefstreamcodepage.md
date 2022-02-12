@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 0f22ccf2-1004-4731-9d68-f66c01b4588b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e1da4bca0307e69c36b9d8db2ee43be2c664aafc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 22d308a3b2e8d6aeb21390492330b2f850d073a5
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614100"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62789199"
 ---
 # <a name="gettnefstreamcodepage"></a>GetTnefStreamCodepage
 
@@ -27,7 +27,7 @@ Détermine la page de code d'Transport-Neutral flux TNEF (Encapsulation Format).
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |tnef.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Applications clientes et fournisseurs de services.  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services. |
    
 ```cpp
 HRESULT GetTnefStreamCodepage(

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6f47ea08-fb5e-7d48-e84a-2a6570564924
 description: Renvoie la longueur du chemin défini dans la section Geometry spécifiée.
-ms.openlocfilehash: a804f4a6a4cd901fd31cf52f3e2f6d010939d68c
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 02c269dae2dfa89567da5274e31d64df0395a508
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462212"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788821"
 ---
 # <a name="pathlength-function"></a>Fonction PATHLENGTH
 
@@ -31,8 +31,8 @@ PATHLENGTH(** *section* ** ** *[,segment]* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |Requis  <br/> |**String** <br/> |Section Geometry qui représente le chemin, spécifiée par une référence à sa cellule Path (par exemple Geometry1.Path).  <br/> |
-| _segment_ <br/> |Facultatif  <br/> |**Integer** <br/> |Segment de base 1 du chemin à mesurer.  <br/> |
+| _section_ <br/> |Requis  <br/> |**String** <br/> |Section Geometry qui représente le chemin, spécifiée par une référence à sa cellule Path (par exemple Geometry1.Path). |
+| _segment_ <br/> |Facultatif  <br/> |**Integer** <br/> |Segment de base 1 du chemin à mesurer. |
 
 ### <a name="return-value"></a>Valeur renvoyée
 

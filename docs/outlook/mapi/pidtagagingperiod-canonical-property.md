@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 762020d1-4bc8-d60d-0f66-3929aae24bfb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f9628cbde8bf136f4be4536e26ee9c2624cdea05
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0804753faa496780dfbdfd7ba7432c01e05b5270
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595328"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783858"
 ---
 # <a name="pidtagagingperiod-canonical-property"></a>Propriété canonique PidTagAgingPeriod
 
@@ -38,7 +38,7 @@ Représente le nombre d’unités de temps utilisées pour déterminer la durée
    
 ## <a name="remarks"></a>Remarques
 
-La durée pendant qu’un élément reste dans un dossier avant d’être archivé est déterminée par deux propriétés, **PR_AGING_PERIOD** et **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**. **PR_AGING_GRANULARITY** représente l’unité de temps dans laquelle **PR_AGING_PERIOD** est exprimée, lors de la détermination de cette durée. 
+La durée pendante pendant qui reste un élément dans un dossier avant d’être archivé est déterminée par deux propriétés, **PR_AGING_PERIOD** et **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**. **PR_AGING_GRANULARITY** représente l’unité de temps dans laquelle **PR_AGING_PERIOD** est exprimée, lors de la détermination de cette durée. 
   
 Les valeurs possibles **pour PR_AGING_GRANULARITY** peuvent être l’une des valeurs suivantes. 
   
@@ -46,11 +46,11 @@ Les valeurs possibles **pour PR_AGING_GRANULARITY** peuvent être l’une des va
 
 |**Name**|**Description**|
 |:-----|:-----|
-|**AG_MONTHS** <br/> |**PR_AGING_PERIOD** est défini en nombre de mois.  <br/> |
-|**AG_WEEKS** <br/> |**PR_AGING_PERIOD** est défini en nombre de semaines.  <br/> |
-|**AG_DAYS** <br/> |**PR_AGING_PERIOD** est défini en nombre de jours.  <br/> |
+|**AG_MONTHS** <br/> |**PR_AGING_PERIOD** est défini en nombre de mois. |
+|**AG_WEEKS** <br/> |**PR_AGING_PERIOD** est défini en nombre de semaines. |
+|**AG_DAYS** <br/> |**PR_AGING_PERIOD** est défini en nombre de jours. |
    
-Par exemple, si un dossier archive un élément uniquement après avoir été dans le  dossier pendant deux semaines, **PR_AGING_GRANULARITY** est AG_WEEKS et **PR_AGING_PERIOD** est 2. 
+Par exemple, si un dossier archive un élément uniquement après avoir été dans le dossier pendant deux semaines, PR_AGING_GRANULARITY est AG_WEEKS et  **PR_AGING_PERIOD** est 2. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

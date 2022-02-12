@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: e7190523-87cf-4e04-aef4-d229776cd16b
 description: Combine deux conditions. Renvoie TRUE lorsque l’une des deux conditions est vraie.
-ms.openlocfilehash: ba79568cdd164c961c706b197dba70fb74950949
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 0ee6f2570b618112df73f3750c085b1db562c285
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180795"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784516"
 ---
 # <a name="or-access-custom-web-app"></a>OR (Application web personnalisée Access)
 
@@ -29,13 +29,13 @@ Combine deux conditions. Renvoie TRUE lorsque l’une des deux conditions est vr
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *BooleanExpression*  <br/> |Toute expression valide qui renvoie TRUE ou FALSE.  <br/> |
+| *BooleanExpression*  <br/> |Toute expression valide qui renvoie TRUE ou FALSE. |
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque plusieurs opérateurs logiques sont utilisés dans une instruction, les opérateurs **Or** sont évalués après les opérateurs **And.** Toutefois, vous pouvez modifier l’ordre d’évaluation à l’aide de parenthèses. 
+Lorsque plusieurs opérateurs logiques sont utilisés dans une instruction, les opérateurs **Or** sont évalués après les opérateurs **And** . Toutefois, vous pouvez modifier l’ordre d’évaluation à l’aide de parenthèses. 
   
-Le tableau suivant indique le résultat de **l’opérateur Or.** 
+Le tableau suivant indique le résultat de **l’opérateur Or** . 
   
 ||**TRUE**|**FALSE**|
 |:-----|:-----|:-----|

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3e430308-190c-c9bb-fffc-c26ffecb73a5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0b61a4017ee8763e07647b1f4c3eca6fef7d4fe2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 71e22de11e7b97bedaa42567bc95ec30c1f6ae91
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630690"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62784124"
 ---
 # <a name="imapiofflinemgr--imapioffline"></a>IMAPIOfflineMgr : IMAPIOffline
 
@@ -38,8 +38,8 @@ Prend en charge l’inscription pour les rappels de notification concernant les 
 
 |||
 |:-----|:-----|
-|[Conseiller](imapiofflinemgr-advise.md) <br/> |S’inscrit aux rappels de notification concernant les modifications de connexion.  <br/> |
-|[Unadvise](imapiofflinemgr-unadvise.md) <br/> |Supprime une inscription donnée pour les rappels de notification.  <br/> |
+|[Conseiller](imapiofflinemgr-advise.md) <br/> |S’inscrit aux rappels de notification concernant les modifications de connexion. |
+|[Unadvise](imapiofflinemgr-unadvise.md) <br/> |Supprime une inscription donnée pour les rappels de notification. |
 | *Membre d’espace réservé*  <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
@@ -52,7 +52,7 @@ Prend en charge l’inscription pour les rappels de notification concernant les 
 
 Lors de l’ouverture d’un objet hors connexion pour un profil de compte d’utilisateur à l’aide de **[HrOpenOfflineObj](hropenofflineobj.md)**, un client obtient un objet hors connexion qui prend en charge **IMAPIOfflineMgr**. 
   
-Étant donné que cette interface hérite de **[IUnknown,](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)** le client peut interroger cette interface (à l’aide de **[IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)** ) pour obtenir un objet qui prend en charge **[IMAPIOffline](imapiofflineiunknown.md)**. Le client peut ensuite découvrir les fonctionnalités de rappel de l’objet hors connexion (en appelant **[IMAPIOffline::GetCapabilities),](imapioffline-getcapabilities.md)** puis choisir de configurer des rappels (à l’aide **d’IMAPIOfflineMgr::Advise** ). 
+Étant donné que cette interface hérite **[d’IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)**, le client peut interroger cette interface (à l’aide de **[IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)** ) pour obtenir un objet qui prend en charge **[IMAPIOffline](imapiofflineiunknown.md)**. Le client peut ensuite découvrir les fonctionnalités de rappel de l’objet hors connexion (en appelant **[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)** ), puis choisir de configurer des rappels (à l’aide **d’IMAPIOfflineMgr::Advise** ). 
   
 La plupart des membres de cette interface sont des espaces réservés à l’utilisation interne des Outlook et peuvent faire l’objet de changements. Les appelants de cette interface doivent utiliser les membres non-espace réservé uniquement comme documenté.
   

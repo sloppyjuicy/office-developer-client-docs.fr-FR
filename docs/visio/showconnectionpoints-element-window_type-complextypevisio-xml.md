@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 1f71dece-9b55-c36b-4424-f130c8d8916c
 description: Spécifie si les points de connexion sont affichés dans une fenêtre.
-ms.openlocfilehash: 922dd821a0b5aba796b32b1099573ebf00556a9a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c2891c1dbace6e09d3c1a1d0014861b368fa38b3
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627414"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788730"
 ---
 # <a name="showconnectionpoints-element-window_type-complextype-visio-xml"></a>Élément ShowConnectionPoints (Window_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Spécifie si les points de connexion sont affichés dans une fenêtre.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio.  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio. |
    
 ### <a name="child-elements"></a>Éléments enfants
 

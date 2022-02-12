@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 966cde5c-f04e-7149-3660-720ffa4f7079
 description: Verrouille les sommets d’une forme afin d’empêcher leur modification.
-ms.openlocfilehash: ca90a85a327f9f51380957bcdd3fd5c3ff4a6d36
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 589551d0736a350565a36b87f65d550f7a478f38
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612469"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62786790"
 ---
 # <a name="lockvtxedit-cell-protection-section"></a>LockVtxEdit, cellule (section Protection)
 
@@ -22,8 +22,8 @@ Verrouille les sommets d’une forme afin d’empêcher leur modification.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Les sommets ne peuvent pas être modifiés.  <br/> |
-|FALSE  <br/> |Les sommets peuvent être modifiés.  <br/> |
+|TRUE  <br/> |Les sommets ne peuvent pas être modifiés. |
+|FALSE  <br/> |Les sommets peuvent être modifiés. |
    
 ## <a name="remarks"></a>Remarques
 

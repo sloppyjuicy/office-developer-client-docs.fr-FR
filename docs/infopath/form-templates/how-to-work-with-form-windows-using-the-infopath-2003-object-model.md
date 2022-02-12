@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: fbcf3a04-ee0f-40a6-8edd-583ae203e2e1
 description: Lorsque vous programmez un formulaire InfoPath, vous pouvez écrire du code pour accéder aux fenêtres d'un formulaire, puis personnaliser certains des éléments qu'elles contiennent. Le modèle objet compatible InfoPath 2003 prend en charge l'accès aux fenêtres d'un formulaire grâce à l'utilisation de l'interface WindowObject en association avec l'interface WindowsCollection .
-ms.openlocfilehash: b49007234d99edcf683e69fc94351e2bf4a5ffa2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9098db2e4a97fa753d94f359b43d778751acc7a1
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557462"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788625"
 ---
 # <a name="work-with-form-windows-using-the-infopath-2003-object-model"></a>Utiliser des formulaires Windows l’aide du modèle objet InfoPath 2003
 
@@ -33,8 +33,8 @@ L'interface **WindowsCollection** fournit les propriétés suivantes, que les d�
   
 |**Name**|**Description**|
 |:-----|:-----|
-|Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Count.aspx)  <br/> |Renvoie le nombre d'objets **Window** que contient la collection.  <br/> |
-|Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Renvoie une référence à l'objet **Window** spécifié.  <br/> **REMARQUE**: Visual C# aux collections à l’aide d’un indexeur au lieu d’appeler la **propriété Item.** Par exemple : `thisApplication.Windows[0].Caption`.           |
+|Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Count.aspx)  <br/> |Renvoie le nombre d'objets **Window** que contient la collection. |
+|Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Renvoie une référence à l'objet **Window** spécifié. **REMARQUE** : Visual C# aux collections à l’aide d’un indexeur au lieu d’appeler la **propriété Item** . Par exemple : `thisApplication.Windows[0].Caption`.           |
    
 ## <a name="overview-of-the-window-object"></a>Vue d'ensemble de l'objet Window
 
@@ -42,20 +42,20 @@ L'interface **WindowObject** fournit aux développeurs les méthodes et proprié
   
 |**Name**|**Description**|**Prise en charge des types de fenêtres**|
 |:-----|:-----|:-----|
-|[Méthode Activate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Activate.aspx)  <br/> |Active la fenêtre.  <br/> |Les types **xdDesignWindow** et **xdEditorWindow**  <br/> |
-|[Propriété](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Active.aspx) active  <br/> |Renvoie une valeur **Boolean** qui indique si la fenêtre est la fenêtre active.  <br/> |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
-|[Caption,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Caption.aspx) propriété  <br/> |Propriété en lecture/écriture qui renvoie ou définit le texte de légende de la fenêtre représentée par l'objet **Window**.  <br/> |Uniquement le type **xdEditorWindow**  <br/> |
-|Méthode [Close](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Close.aspx)  <br/> |Ferme une fenêtre.  <br/> |Uniquement le type **xdEditorWindow**  <br/> |
-|[CommandBars,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.CommandBars.aspx) propriété  <br/> |Renvoie une référence à l'objet Microsoft Office **CommandBars**.  <br/> |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
-|[Height,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Height.aspx) propriété  <br/> |Propriété en lecture/écriture de type entier long qui spécifie la hauteur en points de la fenêtre représentée par l'objet **Window**.  <br/> |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
-|[Left,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Left.aspx) propriété  <br/> |Propriété en lecture/écriture de type entier long qui indique la position horizontale (en points) de la fenêtre représentée par l'objet **Window**.  <br/> |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
-|[MailEnvelope,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.MailEnvelope.aspx) propriété  <br/> |Renvoie une référence à [l’objet MailEnvelopeObject.](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.MailEnvelopeObject.aspx)  <br/> |Uniquement le type **xdEditorWindow**  <br/> |
-|[TaskPanes,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.TaskPanes.aspx) propriété  <br/> |Renvoie une référence à la collection [TaskPanesCollection.](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.TaskPanesCollection.aspx)  <br/> |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
-|[Top,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Top.aspx) propriété  <br/> |Propriété en lecture/écriture de type entier long qui indique la position verticale (en points) de la fenêtre représentée par l'objet **Window**.  <br/> |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
-|[WindowType,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.WindowType.aspx) propriété  <br/> |Renvoie un nombre indiquant le type de la fenêtre, en fonction de l’éumération [XdWindowType.](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdWindowType.aspx)  <br/> |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
-|[Width,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Width.aspx) propriété  <br/> |Propriété en lecture/écriture de type entier long qui indique la largeur (en points) de la fenêtre représentée par l'objet **Window**.  <br/> |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
-|[WindowState,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.WindowState.aspx) propriété  <br/> |Propriété en lecture/écriture de type [XdWindowState](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdWindowState.aspx) qui renvoie ou définit l’état de la fenêtre représentée par **l’objet Window.**  <br/> |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
-|[XDocument,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.XDocument.aspx) propriété  <br/> |Renvoie une référence à [l’objet _XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument.aspx) associé à la fenêtre.  <br/> |Uniquement le type **xdEditorWindow**  <br/> |
+|[Méthode Activate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Activate.aspx)  <br/> |Active la fenêtre. |Les types **xdDesignWindow** et **xdEditorWindow**  <br/> |
+|[Propriété](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Active.aspx) active  <br/> |Renvoie une valeur **Boolean** qui indique si la fenêtre est la fenêtre active. |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
+|[Caption,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Caption.aspx) propriété  <br/> |Propriété en lecture/écriture qui renvoie ou définit le texte de légende de la fenêtre représentée par l'objet **Window**. |Uniquement le type **xdEditorWindow**  <br/> |
+|Méthode [Close](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Close.aspx)  <br/> |Ferme une fenêtre. |Uniquement le type **xdEditorWindow**  <br/> |
+|[CommandBars,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.CommandBars.aspx) propriété  <br/> |Renvoie une référence à l'objet Microsoft Office **CommandBars**. |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
+|[Height,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Height.aspx) propriété  <br/> |Propriété en lecture/écriture de type entier long qui spécifie la hauteur en points de la fenêtre représentée par l'objet **Window**. |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
+|[Left,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Left.aspx) propriété  <br/> |Propriété en lecture/écriture de type entier long qui indique la position horizontale (en points) de la fenêtre représentée par l'objet **Window**. |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
+|[MailEnvelope](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.MailEnvelope.aspx) , propriété  <br/> |Renvoie une référence à [l’objet MailEnvelopeObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.MailEnvelopeObject.aspx) . |Uniquement le type **xdEditorWindow**  <br/> |
+|[TaskPanes,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.TaskPanes.aspx) propriété  <br/> |Renvoie une référence à la collection [TaskPanesCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.TaskPanesCollection.aspx) . |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
+|[Top,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Top.aspx) propriété  <br/> |Propriété en lecture/écriture de type entier long qui indique la position verticale (en points) de la fenêtre représentée par l'objet **Window**. |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
+|[WindowType,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.WindowType.aspx) propriété  <br/> |Renvoie un nombre indiquant le type de la fenêtre, en fonction de l’éumération [XdWindowType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdWindowType.aspx) . |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
+|[Width,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Width.aspx) propriété  <br/> |Propriété en lecture/écriture de type entier long qui indique la largeur (en points) de la fenêtre représentée par l'objet **Window**. |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
+|[WindowState,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.WindowState.aspx) propriété  <br/> |Propriété en lecture/écriture de type [XdWindowState](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdWindowState.aspx) qui renvoie ou définit l’état de la fenêtre représentée par **l’objet Window** . |Types **xdDesignWindow** et **xdEditorWindow**  <br/> |
+|[XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.XDocument.aspx) , propriété  <br/> |Renvoie une référence à [l’objet _XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument.aspx) associé à la fenêtre. |Uniquement le type **xdEditorWindow**  <br/> |
    
 ## <a name="using-the-windowscollection-and-window-interfaces"></a>Utilisation des interfaces WindowsCollection et Window
 

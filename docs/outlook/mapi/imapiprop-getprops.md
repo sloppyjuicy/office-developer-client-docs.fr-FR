@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1c7a9cd2-d765-4218-9aee-52df1a2aae6c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b2dbd263ebd8f377adbc54097cce77d020b2fa39
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 9994f871aa2309c4bf8efd3684be60a87adac620
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461784"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788520"
 ---
 # <a name="imapipropgetprops"></a>IMAPIProp::GetProps
 
@@ -170,7 +170,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI utilise la méthode **IMAPIProp::GetProps** pour obtenir toutes les propriétés d’un objet en passant null ou le tableau renvoyé par la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) dans le paramètre _lpPropTagArray_ .  <br/> |
+|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI utilise la méthode **IMAPIProp::GetProps** pour obtenir toutes les propriétés d’un objet en passant null ou le tableau renvoyé par la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) dans le paramètre _lpPropTagArray_ . |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 73752f57-6fbc-0201-bf95-0e75c56c04e6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a2394b684751d2ff57d55e7c1fb2ac327545cb95
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e70c4434dd6d866e43f024ed80a6ec760d909203
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620463"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788212"
 ---
 # <a name="ipstx--iunknown"></a>IPSTX : IUnknown
 
@@ -25,7 +25,7 @@ ms.locfileid: "59620463"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette interface fournit des fonctionnalités d’aide lors de la réplication via l’interface **[IOSTX.](iostxiunknown.md)** 
+Cette interface fournit des fonctionnalités d’aide lors de la réplication via l’interface **[IOSTX](iostxiunknown.md)** . 
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Cette interface fournit des fonctionnalités d’aide lors de la réplication vi
 
 |||
 |:-----|:-----|
-|**[GetLastError](ipstx-getlasterror.md)** <br/> |Obtient des informations étendues sur la dernière erreur.  <br/> |
-|**[GetSyncObject](ipstx-getsyncobject.md)** <br/> |Obtient l’interface **[IOSTX](iostxiunknown.md)** associée.  <br/> |
+|**[GetLastError](ipstx-getlasterror.md)** <br/> |Obtient des informations étendues sur la dernière erreur. |
+|**[GetSyncObject](ipstx-getsyncobject.md)** <br/> |Obtient l’interface **[IOSTX](iostxiunknown.md)** associée. |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Définit un magasin local pour émuler le gestionnaire Outlook protocole pour mettre en file d’ensemble les messages sortants sur un serveur.  <br/> |
+|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Définit un magasin local pour émuler le gestionnaire Outlook protocole pour mettre en file d’ensemble les messages sortants sur un serveur. |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |

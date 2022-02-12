@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: eddca896-9497-4425-9904-87ef3cbae298
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bbb1af4676586c1dc5df353c6410436cb3d995df
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e450b8ae02ac783b03d92e85bcf4a95af3792170
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613757"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62788149"
 ---
 # <a name="itnef--iunknown"></a>ITnef : IUnknown
 
@@ -40,13 +40,13 @@ Fournit des méthodes pour encapsuler les propriétés MAPI qui ne sont pas pris
 
 |||
 |:-----|:-----|
-|[AddProps](itnef-addprops.md) <br/> |Permet au fournisseur de services d’appel ou à la passerelle d’ajouter des propriétés à l’encapsulation d’un message ou d’une pièce jointe.  <br/> |
-|[ExtractProps](itnef-extractprops.md) <br/> |Extrait les propriétés d’une encapsulation TNEF.  <br/> |
-|[Finish](itnef-finish.md) <br/> |Termine le traitement de toutes les opérations TNEF en file d’attente.  <br/> |
-|[OpenTaggedBody](itnef-opentaggedbody.md) <br/> |Ouvre une interface de flux sur le texte d’un message encapsulé.  <br/> |
-|[SetProps](itnef-setprops.md) <br/> |Définit la valeur d’une ou de plusieurs propriétés pour un message ou une pièce jointe encapsulé sans modifier le message ou la pièce jointe d’origine.  <br/> |
-|[EncodeRecips](itnef-encoderecips.md) <br/> |Code une vue de la table des destinataires d’un message dans le flux de données TNEF du message.  <br/> |
-|[FinishComponent](itnef-finishcomponent.md) <br/> |Traite les composants individuels d’un message un par un dans un flux TNEF.  <br/> |
+|[AddProps](itnef-addprops.md) <br/> |Permet au fournisseur de services d’appel ou à la passerelle d’ajouter des propriétés à l’encapsulation d’un message ou d’une pièce jointe. |
+|[ExtractProps](itnef-extractprops.md) <br/> |Extrait les propriétés d’une encapsulation TNEF. |
+|[Finish](itnef-finish.md) <br/> |Termine le traitement de toutes les opérations TNEF en file d’attente. |
+|[OpenTaggedBody](itnef-opentaggedbody.md) <br/> |Ouvre une interface de flux sur le texte d’un message encapsulé. |
+|[SetProps](itnef-setprops.md) <br/> |Définit la valeur d’une ou de plusieurs propriétés d’un message ou d’une pièce jointe encapsulé sans modifier le message ou la pièce jointe d’origine. |
+|[EncodeRecips](itnef-encoderecips.md) <br/> |Code une vue de la table des destinataires d’un message dans le flux de données TNEF du message. |
+|[FinishComponent](itnef-finishcomponent.md) <br/> |Traite les composants individuels d’un message un par un dans un flux TNEF. |
    
 ## <a name="see-also"></a>Voir aussi
 
