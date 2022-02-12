@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d13e362b-9b69-30c5-003a-9c5df2aa29f6
 description: Position de coordonnée x dans les coordonnées locales de la forme autour de laquelle le bouton de balise d’action est placé.
-ms.openlocfilehash: b0f0db22e5e5315532945c144086c975a5f6dfe3
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: cc47fb6cfc19c1d595cfdeb48db4f0b22d772318
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180809"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781749"
 ---
 # <a name="x-cell-action-tags-section"></a>X, cellule (section Action Tags)
 
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule X à l'aide d'un index à partir d'un
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowSmartTag** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visSmartTagX** <br/> |
    
 

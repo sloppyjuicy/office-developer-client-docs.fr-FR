@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: a7d5b0a1-3657-8211-f0e0-eaed588fa0bc
 description: Détermine l'espace inséré avant chaque paragraphe dans le bloc de texte de la forme, en plus de l'espace issu de la cellule SpLine et, s'il s'agit du premier paragraphe d'un bloc, de l'espace défini dans la cellule TopMargin.
-ms.openlocfilehash: 983384cda5c71684eb842beb5e67a8c26a9e13f0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3c3bba8a981ac9bdaff8b93c6f3d47cdf5f141f9
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59549496"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779172"
 ---
 # <a name="spbefore-cell-paragraph-section"></a>SpBefore, cellule (section Paragraph)
 
@@ -28,14 +28,14 @@ Pour obtenir une référence à la cellule SpBefore par un nom dans une autre fo
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Para.SpBefore[  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Para.SpBefore[  *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule SpBefore par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionParagraph** <br/> |
-| Index de la ligne :  <br/> |**visRowParagraph**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowParagraph** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visSpaceBefore** <br/> |
    
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 90d601d9-5eeb-40b6-885d-ccd8a95ae322
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d8c36f1af61318e7291cfd51166755c8f33c7130
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a4c4a8f6748aa0ef042f3b0fde8a70be440e5193
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620309"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781239"
 ---
 # <a name="pidlidsideeffects-canonical-property"></a>Propri t canonique PidLidSideEffects
 
@@ -41,17 +41,17 @@ Doit être définie sur un bit ou zéro ou plusieurs des indicateurs suivants.
   
 |**Name**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|seOpenToDelete  <br/> |0x0001  <br/> |Un traitement supplémentaire est requis sur l’objet message lors de la suppression.  <br/> |
-|seNoFrame  <br/> |0x0008  <br/> |Aucune interface utilisateur n’est associée à l’objet message.  <br/> |
-|seCoerceToInbox  <br/> |0x0010  <br/> |Un traitement supplémentaire est requis sur l’objet message lors du déplacement ou de la copie vers un objet de dossier avec une **propriété PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) de « IPF. Remarque.  <br/> |
-|seOpenTocopy  <br/> |0x0020  <br/> |Un traitement supplémentaire est requis sur l’objet message lors de la copie dans un autre dossier.  <br/> |
-|seOpenToMove  <br/> |0x0040  <br/> |Un traitement supplémentaire est requis sur l’objet message lors du déplacement vers un autre dossier.  <br/> |
-|seOpenForCtxMenu  <br/> |0x0100  <br/> |Un traitement supplémentaire est requis sur l’objet message lors de l’affichage de verbes à l’utilisateur final.  <br/> |
-|seCannotUndoDelete  <br/> |0x0400  <br/> |Impossible d’annuler l’opération de suppression, ne doit pas être définie sauf si « seOpenToDelete » est définie.  <br/> |
-|seCannotUndoCopy  <br/> |0x0800  <br/> |Impossible d’annuler l’opération de copie, ne doit pas être définie sauf si « seOpenTocopy » est définie.  <br/> |
-|seCannotUndoMove  <br/> |0x1000  <br/> |Impossible d’annuler l’opération de déplacement, ne doit pas être définie sauf si « seOpenToMove » est définie.  <br/> |
-|seHasScript  <br/> |0x2000  <br/> |L’objet message contient un script d’utilisateur final.  <br/> |
-|seOpenToPermDelete  <br/> |0x4000  <br/> |Un traitement supplémentaire est nécessaire pour supprimer définitivement l’objet message.  <br/> |
+|seOpenToDelete  <br/> |0x0001  <br/> |Un traitement supplémentaire est requis sur l’objet message lors de la suppression. |
+|seNoFrame  <br/> |0x0008  <br/> |Aucune interface utilisateur n’est associée à l’objet message. |
+|seCoerceToInbox  <br/> |0x0010  <br/> |Un traitement supplémentaire est requis sur l’objet message lors du déplacement ou de la copie vers un objet de dossier avec **une propriété PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) de « IPF. Note ». |
+|seOpenTocopy  <br/> |0x0020  <br/> |Un traitement supplémentaire est requis sur l’objet message lors de la copie dans un autre dossier. |
+|seOpenToMove  <br/> |0x0040  <br/> |Un traitement supplémentaire est requis sur l’objet message lors du déplacement vers un autre dossier. |
+|seOpenForCtxMenu  <br/> |0x0100  <br/> |Un traitement supplémentaire est requis sur l’objet message lors de l’affichage de verbes à l’utilisateur final. |
+|seCannotUndoDelete  <br/> |0x0400  <br/> |Impossible d’annuler l’opération de suppression, ne doit pas être définie sauf si « seOpenToDelete » est définie. |
+|seCannotUndoCopy  <br/> |0x0800  <br/> |Impossible d’annuler l’opération de copie, ne doit pas être définie sauf si « seOpenTocopy » est définie. |
+|seCannotUndoMove  <br/> |0x1000  <br/> |Impossible d’annuler l’opération de déplacement, ne doit pas être définie sauf si « seOpenToMove » est définie. |
+|seHasScript  <br/> |0x2000  <br/> |L’objet message contient un script d’utilisateur final. |
+|seOpenToPermDelete  <br/> |0x4000  <br/> |Un traitement supplémentaire est nécessaire pour supprimer définitivement l’objet message. |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -63,7 +63,7 @@ Doit être définie sur un bit ou zéro ou plusieurs des indicateurs suivants.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

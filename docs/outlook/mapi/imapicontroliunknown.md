@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5a647e15-ba22-4a7c-b235-75cd76b77c1a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3311b35a9d16f3553704d96ad58c34dd02671c23
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 23194dccac31f4de676ab0f651aae594a52db6ec
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580019"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779916"
 ---
 # <a name="imapicontrol--iunknown"></a>IMAPIControl : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "59580019"
   
 Active et désactive un contrôle de bouton et effectue des tâches lorsqu’un utilisateur d’une application cliente clique sur le contrôle activé. Les fournisseurs de services implémentent des objets de contrôle pour créer des boutons personnalisés dans les boîtes de dialogue, tels que les feuilles de propriétés de configuration, qui sont définis à l’aide de tableaux d’affichage. 
   
-Pour plus d’informations sur l’emploi de tableaux d’affichage et d’objets de contrôle, voir [Tableaux d’affichage.](display-tables.md)
+Pour plus d’informations sur l’emploi des tableaux d’affichage et des objets de contrôle, voir [Tableaux d’affichage](display-tables.md).
   
 |||
 |:-----|:-----|
@@ -42,9 +42,9 @@ Pour plus d’informations sur l’emploi de tableaux d’affichage et d’objet
 
 |||
 |:-----|:-----|
-|[GetLastError](imapicontrol-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur de contrôle de bouton précédente.  <br/> |
-|[Activate](imapicontrol-activate.md) <br/> |Effectue une tâche telle que l’affichage d’une boîte de dialogue ou le démarrage d’une opération par programme lorsqu’un utilisateur de l’application cliente clique sur le contrôle de bouton.  <br/> |
-|[GetState](imapicontrol-getstate.md) <br/> |Extrait une valeur qui indique si le contrôle de bouton est activé ou désactivé.  <br/> |
+|[GetLastError](imapicontrol-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur de contrôle de bouton précédente. |
+|[Activate](imapicontrol-activate.md) <br/> |Effectue une tâche telle que l’affichage d’une boîte de dialogue ou le démarrage d’une opération par programme lorsqu’un utilisateur de l’application cliente clique sur le contrôle de bouton. |
+|[GetState](imapicontrol-getstate.md) <br/> |Extrait une valeur qui indique si le contrôle de bouton est activé ou désactivé. |
    
 ## <a name="see-also"></a>Voir aussi
 

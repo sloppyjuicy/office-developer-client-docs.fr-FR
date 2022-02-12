@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: a374fe7d-7302-5365-81ab-64f5474d9d5c
 description: Arrondit un nombre à la précision représentée par numberofdigits .
-ms.openlocfilehash: e004542ba0cd8b804893698045d3f9d67737b520
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6364599725a3bf7c3ebbb96044ac9c23b945d446
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554074"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780546"
 ---
 # <a name="round-function-visioshapesheet"></a>ROUND Function (VisioShapeSheet)
 
@@ -28,12 +28,12 @@ ROUND(** *number* **, ** *numberofdigits* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatoire  <br/> |**Number** <br/> |Nombre à arrondir  <br/> |
-| _numberofdigits_ <br/> |Obligatoire  <br/> |**Number** <br/> |Nombre de décimales de précision  <br/> |
+| _number_ <br/> |Requis  <br/> |**Number** <br/> |Nombre à arrondir |
+| _numberofdigits_ <br/> |Requis  <br/> |**Number** <br/> |Nombre de décimales de précision |
    
 ## <a name="remarks"></a>Remarques
 
-Si  _numberofdigits_ est supérieur à  _0,_ le nombre est arrondi par  _nombreofdigits_ à droite de la décimale. Si  _numberofdigits est_ 0,  _le nombre_ est arrondi à un nombre complet. Si _numberofdigits_ est inférieur à  0, le nombre est arrondi par _nombreofdigits_ à gauche de la décimale. 
+Si  _numberofdigits_ est supérieur à  _0, le_ nombre est arrondi par  _nombreofdigits_ à droite de la décimale. Si  _numberofdigits est_ 0,  _le nombre_ est arrondi à un nombre complet. Si  _numberofdigits_ est inférieur à  _0, le_ nombre est arrondi par  _nombreofdigits_ à gauche de la décimale. 
   
 ## <a name="example-1"></a>Exemple 1
 

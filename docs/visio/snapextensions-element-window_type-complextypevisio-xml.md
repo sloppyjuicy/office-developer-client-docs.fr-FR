@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 7a12ae10-6aa4-c845-5ede-1c14c6dac80f
-description: Spécifie si un paramètre d’extension d’snap spécifique est activé ou désactivé pour la fenêtre active. La valeur peut être la somme des valeurs du tableau suivant.
-ms.openlocfilehash: b1cf16a59480c9a800309f4a8c1411dfba52f4dd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie si un paramètre d’extension d’snap spécifique est activé ou désactivé pour la fenêtre active. La valeur peut être une somme des valeurs du tableau suivant.
+ms.openlocfilehash: 84e8888f8214db9a9b86c46a5387546a6323259b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598023"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779186"
 ---
 # <a name="snapextensions-element-window_type-complextype-visio-xml"></a>Élément SnapExtensions (Window_Type complexType) (Visio XML)
 
-Spécifie si un paramètre d’extension d’snap spécifique est activé ou désactivé pour la fenêtre active. La valeur peut être la somme des valeurs du tableau suivant.
+Spécifie si un paramètre d’extension d’snap spécifique est activé ou désactivé pour la fenêtre active. La valeur peut être une somme des valeurs du tableau suivant.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -36,7 +36,7 @@ Spécifie si un paramètre d’extension d’snap spécifique est activé ou dé
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,19 +58,19 @@ La valeur de **l’élément SnapExtensions** peut être la somme des valeurs du
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0  <br/> |Aligne sur rien.  <br/> |
-|1  <br/> |Aligner sur l’extension du cadre d’alignement.  <br/> |
-|2  <br/> |Aligner sur l’extension de l’axe central.  <br/> |
-|4   <br/> |Aligner pour courber l’extension tangente.  <br/> |
-|8   <br/> |Aligner sur l’extension de point de terminaison.  <br/> |
-|16   <br/> |Aligner sur l’extension de point intermédiaire.  <br/> |
-|32  <br/> |Aligner sur une extension linéaire.  <br/> |
-|64  <br/> |Aligner sur l’extension de courbe.  <br/> |
-|128  <br/> |Aligner sur l’extension perpendiculaire du point de terminaison.  <br/> |
-|256  <br/> |Aligner sur l’extension perpendiculaire du milieu.  <br/> |
-|512  <br/> |Aligner sur l’extension horizontale du point de terminaison.  <br/> |
-|1024  <br/> |Aligner sur l’extension verticale du point de terminaison.  <br/> |
-|2048  <br/> |Aligner sur l’extension centrale de l’ellipse.  <br/> |
-|4096  <br/> |Aligner sur l’extension des angles isométriques.  <br/> |
+|0  <br/> |Aligne sur rien. |
+|1  <br/> |Aligner sur l’extension du cadre d’alignement. |
+|2  <br/> |Aligner sur l’extension de l’axe central. |
+|4  <br/> |Aligner pour courber l’extension tangente. |
+|8   <br/> |Aligner sur l’extension de point de terminaison. |
+|16  <br/> |Aligner sur l’extension de point intermédiaire. |
+|32  <br/> |Aligner sur une extension linéaire. |
+|64  <br/> |Aligner sur l’extension de courbe. |
+|128  <br/> |Aligner sur l’extension perpendiculaire du point de terminaison. |
+|256  <br/> |Aligner sur l’extension perpendiculaire du milieu. |
+|512  <br/> |Aligner sur l’extension horizontale du point de terminaison. |
+|1024  <br/> |Aligner sur l’extension verticale du point de terminaison. |
+|2048  <br/> |Aligner sur l’extension centrale de l’ellipse. |
+|4096  <br/> |Aligner sur l’extension des angles isométriques. |
    
 

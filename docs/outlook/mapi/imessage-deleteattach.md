@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0a5cb49f-c4f3-4893-8616-80d6332efcfc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e67fc32bb2a99b655459f416cf89192b7101cf45
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 29f0966a169e059a524775ab20d84991c53d741c
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461131"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782737"
 ---
 # <a name="imessagedeleteattach"></a>IMessage::DeleteAttach
 
@@ -82,7 +82,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|AttachmentsDlg.cpp  <br/> |CAttachmentsDlg::OnDeleteSelectedItem  <br/> |MFCMAPI utilise **la méthode IMessage::D eleteAttach** pour supprimer la pièce jointe sélectionnée.  <br/> |
+|AttachmentsDlg.cpp  <br/> |CAttachmentsDlg::OnDeleteSelectedItem  <br/> |MFCMAPI utilise **la méthode IMessage::D eleteAttach** pour supprimer la pièce jointe sélectionnée. |
    
 ## <a name="see-also"></a>Voir aussi
 

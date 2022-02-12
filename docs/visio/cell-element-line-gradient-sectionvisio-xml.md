@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 8001249c-ea67-c5c0-3168-485400c43d8c
-description: Contient la couleur, la transparence ou la position d’un arrêt de dégradé pour un dégradé de trait.
-ms.openlocfilehash: 4f4d2b40cdcbbb345281a34c6b438b8c69447cf7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la couleur, la transparence ou la position d’un dégradé pour un dégradé de trait.
+ms.openlocfilehash: 79f9fc1e32f85f461c9c748118b30aecd3889723
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628681"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783564"
 ---
 # <a name="cell-element-line-gradient-section-visio-xml"></a>Élément de cellule (section Line Gradient) (Visio XML)
 
-Contient la couleur, la transparence ou la position d’un arrêt de dégradé pour un dégradé de trait.
+Contient la couleur, la transparence ou la position d’un dégradé pour un dégradé de trait.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -36,38 +36,38 @@ Contient la couleur, la transparence ou la position d’un arrêt de dégradé p
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Élément Row (line gradient section)](row-element-line-gradient-sectionvisio-xml.md) <br/> |[LineGradientRow_Type](linegradientrow_type-complextypevisio-xml.md) <br/> |Contient la couleur, la transparence et la position d’un arrêt de dégradé pour un dégradé de trait.  <br/> |
+|[Élément Row (line gradient section)](row-element-line-gradient-sectionvisio-xml.md) <br/> |[LineGradientRow_Type](linegradientrow_type-complextypevisio-xml.md) <br/> |Contient la couleur, la transparence et la position d’un dégradé pour un dégradé de trait. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin. |
    
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |xsd:string  <br/> |facultatif  <br/> |Indique que la formule est évaluée à une erreur. La valeur de **E** est la valeur actuelle (chaîne de message d’erreur) ; la valeur de **l’attribut V** est la dernière valeur valide.  <br/> |Chaîne de message d’erreur.  <br/> |
-|F  <br/> |xsd:string  <br/> |facultatif  <br/> | Représente la formule de l’élément. Cet attribut peut contenir l’une des chaînes suivantes :  <br/>  '(une formule)' si la formule existe localement  <br/>  `No Formula` si la formule est supprimée ou bloquée localement  <br/>  `Inh` si la formule est héritée.  <br/> |Formule.  <br/> |
-|N  <br/> |xsd:string  <br/> |obligatoire  <br/> |Représente le nom de la cellule ShapeSheet.  <br/> |Nom de la cellule ShapeSheet.  <br/> Voir la section Remarques ci-dessous.  <br/> |
-|U  <br/> |xsd:string  <br/> |facultatif  <br/> |Représente une unité de mesure La valeur par défaut est DL.  <br/> |Unités de la cellule.  <br/> |
-|V  <br/> |xsd:string  <br/> |facultatif  <br/> |Représente la valeur de la cellule.  <br/> |Valeur de la cellule ShapeSheet.  <br/> |
+|E  <br/> |xsd:string  <br/> |facultatif  <br/> |Indique que la formule est évaluée à une erreur. La valeur de **E** est la valeur actuelle (chaîne de message d’erreur) ; la valeur de **l’attribut V** est la dernière valeur valide. |Chaîne de message d’erreur. |
+|F  <br/> |xsd:string  <br/> |facultatif  <br/> | Représente la formule de l’élément. Cet attribut peut contenir l’une des chaînes suivantes :  <br/>  '(une formule)' si la formule existe localement  <br/>  `No Formula` si la formule est supprimée ou bloquée localement  <br/>  `Inh` si la formule est héritée. |Formule. |
+|N  <br/> |xsd:string  <br/> |obligatoire  <br/> |Représente le nom de la cellule ShapeSheet. |Nom de la cellule ShapeSheet. Voir la section Remarques ci-dessous. |
+|U  <br/> |xsd:string  <br/> |facultatif  <br/> |Représente une unité de mesure La valeur par défaut est DL. |Unités de la cellule. |
+|V  <br/> |xsd:string  <br/> |facultatif  <br/> |Représente la valeur de la cellule. |Valeur de la cellule ShapeSheet. |
    
 ## <a name="remarks"></a>Remarques
 
-**L’attribut N** de cet **élément Cell** doit faire partie d’un ensemble limité de valeurs qui correspondent aux cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet **élément Cell.** 
+**L’attribut N** de cet **élément Cell** doit être l’un des ensembles limités de valeurs qui correspondent aux cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet **élément Cell** . 
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|GradientStopColor  <br/> |Valeur de couleur du dégradé.  <br/> |[Gradient Stop Row (Line Gradient Section)](gradient-stop-row-line-gradient-section.md) <br/> |
-|GradientStopColorTrans  <br/> |Quantité de transparence de la couleur du point de dégradé, sous la mesure d’un pourcentage.  <br/> |[Gradient Stop Row (Line Gradient Section)](gradient-stop-row-line-gradient-section.md) <br/> |
-|GradientStopPosition  <br/> |Position du point de dégradé le long de la direction du dégradé de trait, sous la mesure d’un pourcentage entre le point d’origine du dégradé et le bord externe du dégradé.  <br/> |[Gradient Stop Row (Line Gradient Section)](gradient-stop-row-line-gradient-section.md) <br/> |
+|GradientStopColor  <br/> |Valeur de couleur du dégradé. |[Gradient Stop Row (Line Gradient Section)](gradient-stop-row-line-gradient-section.md) <br/> |
+|GradientStopColorTrans  <br/> |Quantité de transparence de la couleur du point de dégradé, sous la mesure d’un pourcentage. |[Gradient Stop Row (Line Gradient Section)](gradient-stop-row-line-gradient-section.md) <br/> |
+|GradientStopPosition  <br/> |Position du point de dégradé le long de la direction du dégradé de trait, sous la mesure d’un pourcentage entre le point d’origine du dégradé et le bord externe du dégradé. |[Gradient Stop Row (Line Gradient Section)](gradient-stop-row-line-gradient-section.md) <br/> |
    
 

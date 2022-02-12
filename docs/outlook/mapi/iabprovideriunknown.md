@@ -1,5 +1,5 @@
 ---
-title: IABProvider IUnknown
+title: IABProvider  IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3f98d982-156d-43d7-8b0b-94d8c24debef
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: eccc4c3f7081e069e6c6c09a5498ef35442c55ad
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1a3e893410dc536efa77483e3ad958b7cc52ce21
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616872"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780028"
 ---
 # <a name="iabprovider--iunknown"></a>IABProvider : IUnknown
 
@@ -40,8 +40,8 @@ Fournit une méthode pour se connecter à un objet fournisseur de carnet d’adr
 
 |||
 |:-----|:-----|
-|[Logon](iabprovider-logon.md) <br/> |Établit une connexion à une session active.  <br/> |
-|[Arrêt](iabprovider-shutdown.md) <br/> |Annule une connexion à une session active.  <br/> |
+|[Logon](iabprovider-logon.md) <br/> |Établit une connexion à une session active. |
+|[Arrêt](iabprovider-shutdown.md) <br/> |Annule une connexion à une session active. |
    
 ## <a name="see-also"></a>Voir aussi
 

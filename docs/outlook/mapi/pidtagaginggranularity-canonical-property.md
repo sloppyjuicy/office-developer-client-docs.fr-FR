@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: b79ec87d-d97c-4e6c-899b-78ebf1b485a7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 95c80df020308d115f4cd790b2c75105232ab4ff
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c233aa48643368194ba3dcdd9adf780cdb89b950
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563937"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779727"
 ---
 # <a name="pidtagaginggranularity-canonical-property"></a>Propriété canonique PidTagAgingGranularity
 
@@ -40,11 +40,11 @@ Les valeurs possibles **pour PR_AGING_GRANULARITY** peuvent être l’une des va
   
 |**Name**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|**AG_MONTHS** <br/> |0  <br/> |**PR_AGING_PERIOD** est défini en nombre de mois.  <br/> |
-|**AG_WEEKS** <br/> |1  <br/> |**PR_AGING_PERIOD** est défini en nombre de semaines.  <br/> |
-|**AG_DAYS** <br/> |2  <br/> |**PR_AGING_PERIOD** est défini en nombre de jours.  <br/> |
+|**AG_MONTHS** <br/> |0  <br/> |**PR_AGING_PERIOD** est défini en nombre de mois. |
+|**AG_WEEKS** <br/> |1  <br/> |**PR_AGING_PERIOD** est défini en nombre de semaines. |
+|**AG_DAYS** <br/> |2  <br/> |**PR_AGING_PERIOD** est défini en nombre de jours. |
    
-La durée pendant qu’un élément reste dans un dossier avant d’être archivé est déterminée par deux propriétés, [PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md) et **PR_AGING_GRANULARITY**. **PR_AGING_PERIOD** représente le nombre d’unités de temps pendant que l’élément reste dans le dossier avant d’être archivé. 
+La durée pendante pendant qui reste un élément dans un dossier avant d’être archivé est déterminée par deux propriétés, [PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md) et **PR_AGING_GRANULARITY**. **PR_AGING_PERIOD** représente le nombre d’unités de temps pendant que l’élément reste dans le dossier avant d’être archivé. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 13683c47-2bc8-1345-ed0e-4175a06ea452
-ms.openlocfilehash: 8d0020f26a3b8360e4af0194310f9a137717d415
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3a1ee6b40ab17e0ba6762c86b0599e1b41eb3efe
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563069"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780903"
 ---
 # <a name="dataconnection_type-complextype-visio-xml"></a>DataConnection_Type complexType (Visio XML)
 
@@ -21,7 +21,7 @@ ms.locfileid: "59563069"
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base d’extension** <br/> |Aucun  <br/> |
+|**Base d’extension** <br/> |Aucune  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -56,7 +56,7 @@ ms.locfileid: "59563069"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -66,12 +66,12 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|AlwaysUseConnectionFile  <br/> |xsd:boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd:boolean.  <br/> |
-|Commande  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string.  <br/> |
-|ConnectionString  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string.  <br/> |
-|FileName  <br/> |xsd:string  <br/> |obligatoire  <br/> ||Valeurs du type xsd:string.  <br/> |
-|FriendlyName  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|Délai d’expiration  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
+|AlwaysUseConnectionFile  <br/> |xsd:boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd:boolean. |
+|Commande  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string. |
+|ConnectionString  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string. |
+|FileName  <br/> |xsd:string  <br/> |obligatoire  <br/> ||Valeurs du type xsd:string. |
+|FriendlyName  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string. |
+|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt. |
+|Timeout  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt. |
    
 

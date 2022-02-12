@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 360854bb-e9be-a784-e80b-3f18418ded1b
-ms.openlocfilehash: 1d9b659cee551140aedd4caf21d929f6df2bfc72
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 440739cc2a00b3bb96850c8d107c0d3c0ea8da87
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59605385"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780224"
 ---
 # <a name="iolkaccountnotify"></a>IOlkAccountNotify
 
@@ -29,7 +29,7 @@ Fournit un rappel au client pour les modifications apportées à un compte.
 
 |||
 |:-----|:-----|
-|[Notification](iolkaccountnotify-notify.md) <br/> |Avertit le client des modifications apportées au compte spécifié.  <br/> |
+|[Notification](iolkaccountnotify-notify.md) <br/> |Avertit le client des modifications apportées au compte spécifié. |
    
 ## <a name="remarks"></a>Remarques
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d0c54092-86a3-47e0-8133-72e119e74b65
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5ac46c2e7da57f7d1c5aabdbcbcec815c1408edf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 44f03decbc2f673ffd36b95316075c803d8f11d4
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610677"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781470"
 ---
 # <a name="imapicontainergethierarchytable"></a>IMAPIContainer::GetHierarchyTable
 
@@ -46,7 +46,7 @@ CONVENIENT_DEPTH
     
 MAPI_DEFERRED_ERRORS 
   
-> **GetHierarchyTable** peut renvoyer correctement, éventuellement avant que la table soit disponible pour l’appelant. Si la table n’est pas disponible, effectuer un appel de table ultérieur peut occasioner une erreur. 
+> **GetHierarchyTable** peut renvoyer correctement, éventuellement avant que la table soit disponible pour l’appelant. Si la table n’est pas disponible, un appel de table ultérieur peut occasioner une erreur. 
     
 MAPI_UNICODE 
   
@@ -54,7 +54,7 @@ MAPI_UNICODE
     
 SHOW_SOFT_DELETES
   
-> Affiche les éléments actuellement marqués comme supprimés (supprimés (supprimés( en d’autres cas), ils sont dans la phase de rétention des éléments supprimés.
+> Affiche les éléments qui sont actuellement marqués comme supprimés (supprimés (supprimés( en d’autres cas), ils sont dans la phase de rétention des éléments supprimés.
     
  _lppTable_
   
@@ -78,11 +78,11 @@ MAPI_E_NO_SUPPORT
 
 La **méthode IMAPIContainer::GetHierarchyTable** renvoie un pointeur vers la table hiérarchique d’un conteneur. Une table de hiérarchie contient des informations récapitulatifs sur les conteneurs enfants dans le conteneur. Les tables de hiérarchie de dossiers contient des informations sur les sous-dossiers . Les tables de hiérarchie de carnet d’adresses contenint des informations sur les conteneurs de carnet d’adresses et les listes de distribution enfants. 
   
-Certains conteneurs peuvent ne pas avoir de conteneurs enfants. Ces conteneurs retournent MAPI_E_NO_SUPPORT à partir de leurs implémentations **de GetHierarchyTable**.
+Il est possible que certains conteneurs n’ont pas de conteneurs enfants. Ces conteneurs retournent MAPI_E_NO_SUPPORT à partir de leurs implémentations **de GetHierarchyTable**.
   
-Lorsque l CONVENIENT_DEPTH est définie, chaque ligne de la table hiérarchique inclut également la propriété **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) en tant que colonne. **PR_DEPTH** indique le niveau de chaque conteneur par rapport au conteneur qui implémente la table. Les conteneurs enfants immédiats du conteneur d’implémentation sont à la profondeur zéro, les conteneurs enfants dans les conteneurs de profondeur zéro sont à la profondeur 1, etc. Les valeurs des **PR_DEPTH** augmentent de manière séquentielle à mesure que la hiérarchie des niveaux s’accroît. 
+Lorsque l CONVENIENT_DEPTH est définie, chaque ligne de la table hiérarchique inclut également la propriété **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) en tant que colonne. **PR_DEPTH** indique le niveau de chaque conteneur par rapport au conteneur qui implémente la table. Les conteneurs enfants immédiats du conteneur d’implémentation sont à la profondeur zéro, les conteneurs enfants dans les conteneurs de profondeur zéro sont à la profondeur 1, et ainsi de suite. Les valeurs des **PR_DEPTH** augmentent de manière séquentielle à mesure que la hiérarchie des niveaux s’accroît. 
   
-Pour obtenir la liste complète des colonnes obligatoires et facultatives dans les tableaux hiérarchiques, voir [Tables de hiérarchie.](hierarchy-tables.md)
+Pour obtenir la liste complète des colonnes obligatoires et facultatives dans les tableaux hiérarchiques, voir [Tables de hiérarchie](hierarchy-tables.md).
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
@@ -90,11 +90,11 @@ Si vous prendre en charge une table hiérarchique pour votre conteneur, vous dev
   
 - Prendre en charge un appel à la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) du conteneur pour ouvrir la propriété **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)).
     
-- Renvoyer **PR_CONTAINER_HIERARCHY** d’un appel aux méthodes [IMAPIProp::GetPropList](imapiprop-getproplist.md) ou [IMAPIProp::GetProps](imapiprop-getprops.md) du conteneur. 
+- **Renvoyer PR_CONTAINER_HIERARCHY** d’un appel aux méthodes [IMAPIProp::GetPropList](imapiprop-getproplist.md) ou [IMAPIProp::GetProps](imapiprop-getprops.md) du conteneur. 
     
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Les colonnes de table de contenu binaire et de chaîne peuvent être tronquées. En règle générale, les fournisseurs retournent 255 caractères. Comme vous ne pouvez pas savoir au préalable si un tableau inclut des colonnes tronquées, supposons qu’une colonne est tronquée si la longueur de la colonne est de 255 ou 510 octets. Vous pouvez toujours récupérer la valeur complète d’une colonne tronquée, si nécessaire, directement à partir de l’objet en utilisant son identificateur d’entrée pour l’ouvrir, puis en appelant la méthode [IMAPIProp::GetProps.](imapiprop-getprops.md) 
+Les colonnes de table de contenu binaire et de chaîne peuvent être tronquées. En règle générale, les fournisseurs retournent 255 caractères. Comme vous ne pouvez pas savoir au préalable si un tableau inclut des colonnes tronquées, supposons qu’une colonne est tronquée si la longueur de la colonne est de 255 ou 510 octets. Vous pouvez toujours récupérer la valeur complète d’une colonne tronquée, si nécessaire, directement à partir de l’objet en utilisant son identificateur d’entrée pour l’ouvrir, puis en appelant la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) . 
   
 Selon l’implémentation du fournisseur, les restrictions et les opérations de tri peuvent s’appliquer à la chaîne entière ou à la version tronquée de cette chaîne. En outre, il n’est pas garanti que les fournisseurs de magasins respectent le jeu d’ordre de tri [SSortOrderSet](ssortorderset.md) spécifié pour les tables hiérarchiques. 
   
@@ -104,7 +104,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|HierarchyTableTreeCtrl.cpp  <br/> |CHierarchyTableTreeCtrl::GetHierarchyTable  <br/> |La classe CHierarchyTableTreeCtrl utilise **GetHierarchyTable** pour obtenir des tables hiérarchiques à afficher dans un contrôle d’arborescence.  <br/> |
+|HierarchyTableTreeCtrl.cpp  <br/> |CHierarchyTableTreeCtrl::GetHierarchyTable  <br/> |La classe CHierarchyTableTreeCtrl utilise **GetHierarchyTable** pour obtenir des tables hiérarchiques à afficher dans un contrôle d’arborescence. |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 2b757c8d-7732-0f9b-c836-ef755dd1c673
 description: Indique si la cellule référencé contient une formule locale.
-ms.openlocfilehash: 2fdd6e547f1f86491fc84d316237d472e767536b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b9098dbe9b30e6ce6390c8b20347419449f73708
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603654"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780651"
 ---
 # <a name="localformulaexists-function"></a>Fonction LOCALFORMULAEXISTS
 
@@ -28,7 +28,7 @@ LOCALFORMULAEXISTS (** *cellref* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellref_ <br/> |Obligatoire  <br/> |**String** <br/> | Cellule dans laquelle vous voulez vérifier la présence d’une formule.  <br/> |
+| _cellref_ <br/> |Requis  <br/> |**String** <br/> | Cellule dans laquelle vous voulez vérifier la présence d’une formule. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

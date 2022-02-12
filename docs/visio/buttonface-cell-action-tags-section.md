@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 26f370e1-5193-f47d-7b60-3597975be650
 description: Contient l’ID de l’image de la face de bouton qui s’affiche sur le bouton de balise d’action.
-ms.openlocfilehash: b445a35fe6582b07fd988eacec24725d36466aca
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e0afd31917ddf6bfc18d035cb1b4c56afe7e7cee
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578129"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783634"
 ---
 # <a name="buttonface-cell-action-tags-section"></a>ButtonFace, cellule (section Action Tags)
 
@@ -40,7 +40,7 @@ Pour obtenir une référence à la cellule ButtonFace par index dans un programm
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowSmartTag** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visSmartTagButtonFace** <br/> |
    
 

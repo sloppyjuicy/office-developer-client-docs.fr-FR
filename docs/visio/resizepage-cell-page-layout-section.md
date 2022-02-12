@@ -9,21 +9,21 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d63fe874-1027-3436-dbc1-73e722bce22e
 description: Détermine si la page doit être agrandie pour inclure le dessin après la disposition automatique des formes à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition de page, puis cliquez sur Autres options de disposition).
-ms.openlocfilehash: 77fd339dd21c7f8111a7359ed8d293ddeee1111d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8c818be9a6d58a8964def885cb27ec38d39b787c
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623074"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783094"
 ---
 # <a name="resizepage-cell-page-layout-section"></a>ResizePage, cellule (section Page Layout)
 
-Détermine si la page doit être agrandie pour entourer le  dessin après la disposition  des formes  à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur **Re-disposition** de la page, puis cliquez sur Autres **options** de disposition).
+Détermine s’il faut agrandir la page pour entourer le dessin après la disposition des formes à l’aide de la boîte de dialogue Configurer  la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle **disposition de page**, puis cliquez sur Autres **options** de disposition). 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | La page est agrandie.  <br/> |
-| FALSE  <br/> | La page n'est pas agrandie.  <br/> |
+| TRUE  <br/> | La page est agrandie. |
+| FALSE  <br/> | La page n'est pas agrandie. |
    
 ## <a name="remarks"></a>Remarques
 

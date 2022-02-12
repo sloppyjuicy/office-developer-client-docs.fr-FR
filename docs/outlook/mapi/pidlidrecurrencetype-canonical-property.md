@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 81ad2e8a-661f-4fc7-bee4-848db3285e31
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ef2c7303dddda497401120ffd96b4a9e843991c0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 300d32a73ef0a7bee3dec6bdbdb40704ad024d3d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630298"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782632"
 ---
 # <a name="pidlidrecurrencetype-canonical-property"></a>Propriété canonique PidLidRecurrenceType
 
@@ -41,11 +41,11 @@ Cette propriété spécifie le type de récurrence de la série périodique à l
   
 |**État**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|rectypeNone  <br/> |0  <br/> |Rendez-vous d’instance unique.  <br/> |
-|rectypeDaily  <br/> |1  <br/> |Une récurrence quotidienne.  <br/> |
-|rectypeWeekly  <br/> |2  <br/> |Une récurrence hebdomadaire.  <br/> |
-|rectypeMonthly  <br/> |3  <br/> |Une récurrence mensuelle.  <br/> |
-|rectypeYearly  <br/> |4   <br/> |Une récurrence annuel.  <br/> |
+|rectypeNone  <br/> |0  <br/> |Rendez-vous d’instance unique. |
+|rectypeDaily  <br/> |1  <br/> |Une récurrence quotidienne. |
+|rectypeWeekly  <br/> |2  <br/> |Une récurrence hebdomadaire. |
+|rectypeMonthly  <br/> |3  <br/> |Une récurrence mensuelle. |
+|rectypeYearly  <br/> |4  <br/> |Une récurrence annuel. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

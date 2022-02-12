@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c9314c39-1d2e-a18f-c01b-8817286099dc
 description: Renvoie une valeur représentant un index dans la palette de couleurs du document. Il spécifie une couleur par ses composants de teinte, de saturation et de luminosité.
-ms.openlocfilehash: 1cf21354c5c514327b5cf3a8bd0fd76e5bd099f2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 08d08e46dda8da7912e8fd8bab6accbc89f9882a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570476"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780707"
 ---
 # <a name="hsl-function"></a>Fonction HSL
 
@@ -28,9 +28,9 @@ HSL(** *hue* **, ** *saturation* **, ** *luminosity* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _teinte_ <br/> |Obligatoire  <br/> |**Number** <br/> |Teinte de la couleur, exprimée par une valeur de 0 à 239 inclus, ou par une expression ayant cette valeur pour résultat.  <br/> |
-| _saturation_ <br/> |Obligatoire  <br/> |**Number** <br/> |Saturation de la couleur, exprimée par une valeur de 0 à 240 inclus, ou par une expression ayant cette valeur pour résultat.  <br/> |
-| _luminosity_ <br/> |Obligatoire  <br/> |**Number** <br/> | Luminosité de la couleur, exprimée par une valeur de 0 à 240 inclus, ou par une expression ayant cette valeur pour résultat.  <br/> |
+| _teinte_ <br/> |Requis  <br/> |**Number** <br/> |Teinte de la couleur, exprimée par une valeur de 0 à 239 inclus, ou par une expression ayant cette valeur pour résultat. |
+| _saturation_ <br/> |Requis  <br/> |**Number** <br/> |Saturation de la couleur, exprimée par une valeur de 0 à 240 inclus, ou par une expression ayant cette valeur pour résultat. |
+| _luminosity_ <br/> |Requis  <br/> |**Number** <br/> | Luminosité de la couleur, exprimée par une valeur de 0 à 240 inclus, ou par une expression ayant cette valeur pour résultat. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

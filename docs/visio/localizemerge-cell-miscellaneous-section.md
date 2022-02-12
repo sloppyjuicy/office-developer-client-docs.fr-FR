@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 734d4415-05dd-4c4d-763e-e035fa56dcec
 description: Détermine si les formes sont localisées lors de leur copie d'un document à l'autre.
-ms.openlocfilehash: 9f2e3e689814891f1a8cd4c69d7656fe6d1b22c9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 880891055c927d1b410189c235f97291dd51e839
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615878"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783172"
 ---
 # <a name="localizemerge-cell-miscellaneous-section"></a>LocalizeMerge, cellule (section Miscellaneous)
 
@@ -22,8 +22,8 @@ Détermine si les formes sont localisées lors de leur copie d'un document à l'
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Localise une forme dans la langue du document de destination.  <br/> |
-| FALSE  <br/> | Ne localisez pas une forme en fonction de la langue du document de destination (valeur par défaut).  <br/> |
+| TRUE  <br/> | Localise une forme dans la langue du document de destination. |
+| FALSE  <br/> | Ne localisez pas une forme en fonction de la langue du document de destination (valeur par défaut). |
    
 ## <a name="remarks"></a>Remarques
 

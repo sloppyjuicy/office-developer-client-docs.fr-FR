@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: de2aca1d-a591-cf39-990c-a24666764a6f
 description: Renvoie le sinus hyperbolique d’un angle.
-ms.openlocfilehash: 051872f066ee42c7325d768017fb0cf5267ba27c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d65ea74fdee84faf5ca1b50f5cd9432025c80ca6
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622815"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781869"
 ---
 # <a name="sinh-function"></a>Fonction SINH
 
@@ -28,7 +28,7 @@ SINH(** *angle* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Angle pour lequel obtenir le sinus hyperbolique.  <br/> |
+| _angle_ <br/> |Requis  <br/> |**Numérique** <br/> |Angle de laquelle obtenir le sinus hyperbolique. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -36,7 +36,7 @@ Nombre
   
 ## <a name="remarks"></a>Remarques
 
-La fonction SINH utilise des radians, sauf si vous spécifiez une unité de mesure différente dans _l’angle._
+La fonction SINH utilise des radians, sauf si vous spécifiez une unité de mesure différente dans  _l’angle_.
   
 ## <a name="example"></a>Exemple
 

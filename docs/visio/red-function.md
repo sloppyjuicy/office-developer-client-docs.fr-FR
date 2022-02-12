@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: a95fd86d-ebc1-66b6-e7d9-9c8ea84d23ab
 description: Renvoie le composant rouge d’une couleur.
-ms.openlocfilehash: 37d54cb5cb35bb285b92ab31eea8482709410911
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fd977ad8267c9821b3db4488e717f869cce9f52d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623137"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779531"
 ---
 # <a name="red-function"></a>Fonction RED
 
@@ -28,7 +28,7 @@ RED(** *expression* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatoire  <br/> |**Varie** <br/> |Index d’une couleur dans la table des couleurs d’un document, expression correspondant à une couleur personnalisée (telle que RVB ou TSL) ou référence à une cellule contenant un index ou un résultat de couleurs.  <br/> |
+| _expression_ <br/> |Requis  <br/> |**Varie** <br/> |Index d’une couleur dans la table des couleurs d’un document, expression correspondant à une couleur personnalisée (telle que RVB ou TSL) ou référence à une cellule contenant un index ou un résultat de couleurs. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f6b9f65c-6752-16cb-7eb1-44e1ce56e80b
 description: Renvoie une valeur représentant un index dans la palette de couleurs du document. Il spécifie une couleur par ses composants rouge, vert et bleu, où chacun d’eux est un nombre compris entre 0 et 255 inclus, ou une expression qui évalue un tel nombre.
-ms.openlocfilehash: 9705d0e4c881a2d98e176a9982bbc7a95140755c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a098f5c4a3f65127ca0f0755e6c966ab37e5adaa
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573522"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783087"
 ---
 # <a name="rgb-function-visioshapesheet"></a>RGB Function (VisioShapeSheet)
 
@@ -28,9 +28,9 @@ RVB(** *rouge* **, ** *vert* **, ** *bleu* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _rouge_ <br/> |Obligatoire  <br/> |**Number** <br/> |Composante rouge  <br/> |
-| _green_ <br/> |Obligatoire  <br/> |**Number** <br/> |Composante vert  <br/> |
-| _blue_ <br/> |Obligatoire  <br/> |**Nmber** <br/> |Composante bleu  <br/> |
+| _rouge_ <br/> |Requis  <br/> |**Number** <br/> |Composante rouge |
+| _green_ <br/> |Requis  <br/> |**Number** <br/> |Composante vert |
+| _blue_ <br/> |Requis  <br/> |**Nmber** <br/> |Composante bleu |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

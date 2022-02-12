@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 1ae7f629-fb9f-1a11-1194-b381d6c9de5b
 description: Indique si un séparateur est inséré dans le menu au-dessus de cette action.
-ms.openlocfilehash: 7f6ce3836cf71adcdb7135c390abc84834d57fad
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 34e329bb33a97bea5f8469ba600023607eb7306d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616025"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783613"
 ---
 # <a name="begingroup-cell-actions-section"></a>BeginGroup, cellule (section Actions)
 
@@ -22,8 +22,8 @@ Indique si un séparateur est inséré dans le menu au-dessus de cette action.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Un séparateur est inséré dans le menu au-dessus de cette action.  <br/> |
-|FALSE  <br/> |Aucun séparateur n'est inséré dans le menu au-dessus de cette action (la valeur par défaut).  <br/> |
+|TRUE  <br/> |Un séparateur est inséré dans le menu au-dessus de cette action. |
+|FALSE  <br/> |Aucun séparateur n'est inséré dans le menu au-dessus de cette action (la valeur par défaut). |
    
 ## <a name="remarks"></a>Remarques
 
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule BeginGroup à l'aide d'un index à pa
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction**  +   *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowAction** +   *i* où *i* = 0, 1, 2... |
 |Index de la cellule :  <br/> |**visActionBeginGroup** <br/> |
    
 

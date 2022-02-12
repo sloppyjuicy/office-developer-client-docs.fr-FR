@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 38519bac-ce3e-9ded-d024-93dd7f34b107
-ms.openlocfilehash: cfd44036e259f53e5f73dde35e56d9e047f26c6b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 54a4ede461a8a18079d31993ccf95856a2160feb
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578038"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780945"
 ---
 # <a name="cell_type-complextype-visio-xml"></a>Cell_Type complexType (Visio XML)
 
@@ -21,7 +21,7 @@ ms.locfileid: "59578038"
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base d’extension** <br/> |Aucun  <br/> |
+|**Base d’extension** <br/> |Aucune  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -58,7 +58,7 @@ ms.locfileid: "59578038"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -70,10 +70,10 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string.  <br/> |
-|F  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string.  <br/> |
-|N  <br/> |xsd:string  <br/> |obligatoire  <br/> ||Valeurs du type xsd:string.  <br/> |
-|U  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string.  <br/> |
-|V  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string.  <br/> |
+|E  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string. |
+|F  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string. |
+|N  <br/> |xsd:string  <br/> |obligatoire  <br/> ||Valeurs du type xsd:string. |
+|U  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string. |
+|V  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string. |
    
 

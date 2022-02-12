@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: 34a66cf0-b4e0-4fd5-b937-cd157888961d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1b8d0fb625270422eb1910154afcada906b8dccd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5ea5be8b45e34461b92efac15e08b8f8038461e3
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610285"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779825"
 ---
 # <a name="mapi-interfaces"></a>Interfaces MAPI
 
@@ -27,13 +27,13 @@ La documentation de chaque interface se compose d’une section d’introduction
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Fichier d’en-tête dans lequel l’interface est définie et qui doit être inclus lorsque vous compilez votre code source.  <br/> |
-|Exposé par :  <br/> |Objet qui expose l’interface.  <br/> |
-|Implémenté par :  <br/> |Liste des composants qui fournissent une implémentation de l’interface.  <br/> |
-|Appelé par :  <br/> |Liste des composants qui appellent généralement les méthodes de l’interface.  <br/> |
-|Identificateur d’interface :  <br/> |GUID de l’identificateur d’interface.  <br/> |
-|Type de pointeur :  <br/> |Type de pointeur pour l’objet qui expose l’interface.  <br/> |
-|Modèle de transaction :  <br/> |Pour les interfaces dérivées [d’IMAPIProp](imapipropiunknown.md). Si ce n’est pas le cas, les modifications prennent effet immédiatement ; si elles sont transposées, les modifications ne prennent effet [qu’une fois IMAPIProp::SaveChanges](imapiprop-savechanges.md) appelé.  <br/> |
+|Fichier d’en-tête :  <br/> |Fichier d’en-tête dans lequel l’interface est définie et qui doit être inclus lorsque vous compilez votre code source. |
+|Exposé par :  <br/> |Objet qui expose l’interface. |
+|Implémenté par :  <br/> |Liste des composants qui fournissent une implémentation de l’interface. |
+|Appelé par :  <br/> |Liste des composants qui appellent généralement les méthodes de l’interface. |
+|Identificateur d’interface :  <br/> |GUID de l’identificateur d’interface. |
+|Type de pointeur :  <br/> |Type de pointeur pour l’objet qui expose l’interface. |
+|Modèle de transaction :  <br/> |Pour les interfaces dérivées [d’IMAPIProp](imapipropiunknown.md). Si ce n’est pas le cas, les modifications prennent effet immédiatement ; si elles sont transposées, les modifications ne prennent effet [qu’une fois IMAPIProp::SaveChanges](imapiprop-savechanges.md) appelé. |
    
 Le premier tableau suivant est un autre tableau qui répertorie toutes les méthodes de cette interface dans l’ordre vtable. Un tableau vtable est un tableau de pointeurs de fonction créé par le compilateur contenant un pointeur de fonction pour chaque méthode d’un objet MAPI. Les méthodes sont répertoriées dans le même ordre qu’elles sont déclarées. Les méthodes héritées d’autres interfaces ne sont pas affichées dans la table Order Vtable, mais peuvent être utilisées de la même manière que dans l’interface qui les définit.
   
@@ -41,10 +41,10 @@ Après chaque rubrique d’interface, les méthodes de l’interface sont ensuit
   
 |**Titre**|**Content**|
 |:-----|:-----|
-|Paramètres  <br/> |Description de chaque paramètre de la méthode.  <br/> |
-|Valeur de retour  <br/> |Description des valeurs uniques que la méthode peut renvoyer. Voici les valeurs que les appelants doivent vérifier dans leur code.  <br/> |
-|Remarques  <br/> |Description du pourquoi et de la façon dont la méthode est utilisée.  <br/> |
-|Voir aussi  <br/> |Renvois à d’autres rubriques de cette référence.  <br/> |
+|Paramètres  <br/> |Description de chaque paramètre de la méthode. |
+|Valeur de retour  <br/> |Description des valeurs uniques que la méthode peut renvoyer. Voici les valeurs que les appelants doivent vérifier dans leur code. |
+|Remarques  <br/> |Description du pourquoi et de la façon dont la méthode est utilisée. |
+|Voir aussi  <br/> |Renvois à d’autres rubriques de cette référence. |
    
 ## <a name="see-also"></a>Voir aussi
 

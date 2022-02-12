@@ -1,6 +1,6 @@
 ---
 title: IABLogonOpenEntry
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
@@ -11,17 +11,14 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1cfb82f7-5215-4faa-af25-5b1da7e31209
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 61a66d406ba22722e12cbcb8f1ab9d1ae0cc8362
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 58667f104ab40ad310429ee4a8c85378cb52ff19
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564231"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781512"
 ---
 # <a name="iablogonopenentry"></a>IABLogon::OpenEntry
-
-  
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
@@ -42,7 +39,7 @@ HRESULT OpenEntry(
 
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -92,25 +89,20 @@ MAPI_E_NOT_FOUND
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L’identificateur d’entrée dans  _le paramètre lpEntryID_ n’est pas d’un format reconnu par le fournisseur de carnet d’adresses. 
+> L’identificateur d’entrée dans _le paramètre lpEntryID_ n’est pas d’un format reconnu par le fournisseur de carnet d’adresses. 
     
-## <a name="remarks"></a>Remarques
-
 MAPI appelle la **méthode OpenEntry** pour ouvrir un conteneur, un utilisateur de messagerie ou une liste de distribution. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Avant que MAPI appelle **votre méthode OpenEntry,** il détermine que l’identificateur d’entrée dans le paramètre  _lpEntryID_ vous appartient et non à un autre fournisseur. POUR ce faire, MAPI fait correspondre la structure [MAPIUID](mapiuid.md) dans l’identificateur d’entrée avec le **MAPIUID** que vous avez enregistré en appelant la méthode [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) au démarrage. 
+Avant que MAPI appelle **votre méthode OpenEntry** , il détermine que l’identificateur d’entrée dans le paramètre _lpEntryID_ vous appartient et non à un autre fournisseur. POUR ce faire, MAPI fait correspondre la structure [MAPIUID](mapiuid.md) dans l’identificateur d’entrée avec le **MAPIUID** que vous avez enregistré en appelant la méthode [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) au démarrage. 
   
-Ouvrez l’objet en lecture seule, sauf si l’MAPI_MODIFY ou MAPI_BEST_ACCESS est définie dans le _paramètre ulFlags._ Si vous n’autorisez pas la modification de l’objet demandé, n’ouvrez pas l’objet et ne renvoyez aucune MAPI_E_NO_ACCESS. 
+Ouvrez l’objet en lecture seule, sauf si l’MAPI_MODIFY ou MAPI_BEST_ACCESS est définie dans le _paramètre ulFlags_ . Si vous n’autorisez pas la modification de l’objet demandé, n’ouvrez pas l’objet et ne renvoyez aucune MAPI_E_NO_ACCESS. 
   
-Si MAPI transmet la valeur NULL pour  _lpEntryID,_ ouvrez le conteneur racine dans votre hiérarchie de conteneur.
+Si MAPI transmet la valeur NULL pour  _lpEntryID_, ouvrez le conteneur racine dans votre hiérarchie de conteneur.
   
-L’objet que vous êtes invité à ouvrir peut être un objet copié à partir d’un autre fournisseur. Dans ce cas, il prendra en charge la **propriété PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)). Si l’objet prend en charge cette propriété, appelez la méthode [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) pour établir une liaison avec le code de cette entrée dans le fournisseur étranger, en passant **PR_TEMPLATEID** dans le paramètre _lpTemplateID_ et 0 dans le paramètre _ulTemplateFlags._ **IMAPISupport::OpenTemplateID** transmet ces informations au fournisseur étranger dans un appel à la méthode [IABLogon::OpenTemplateID](iablogon-opentemplateid.md) du fournisseur étranger. Si **IMAPISupport::OpenTemplateID** lève une erreur, généralement parce que le fournisseur étranger n’est pas disponible ou n’est pas inclus dans le profil, essayez de continuer en traitant l’entrée indépendant comme étant en lecture seule. Pour plus d’informations sur l’ouverture d’entrées de carnet d’adresses étrangères, voir Agir en tant que fournisseur de [carnet d’adresses hôte.](acting-as-a-host-address-book-provider.md)
+L’objet que vous êtes invité à ouvrir peut être un objet copié à partir d’un autre fournisseur. Dans ce cas, il prendra en charge la **propriété PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)). Si l’objet prend en charge cette propriété, appelez la méthode [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) pour établir une liaison avec le code de cette entrée dans le fournisseur étranger, en passant **PR_TEMPLATEID** dans le paramètre _lpTemplateID_ et 0 dans le paramètre _ulTemplateFlags_ . **IMAPISupport::OpenTemplateID** transmet ces informations au fournisseur étranger dans un appel à la méthode [IABLogon::OpenTemplateID](iablogon-opentemplateid.md) du fournisseur étranger. Si **IMAPISupport::OpenTemplateID** lève une erreur, généralement parce que le fournisseur étranger n’est pas disponible ou n’est pas inclus dans le profil, essayez de continuer en traitant l’entrée indépendant comme étant en lecture seule. Pour plus d’informations sur l’ouverture d’entrées de carnet d’adresses étrangères, voir [Acting as a Host Address Book Provider](acting-as-a-host-address-book-provider.md).
   
 ## <a name="see-also"></a>Voir aussi
 
-
-
 [IABLogon : IUnknown](iablogoniunknown.md)
-

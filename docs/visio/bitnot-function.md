@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 7b6486bb-3618-3747-4b00-93bd55767c1c
 description: Renvoie un nombre binaire 16 bits dans lequel chaque bit est définie sur 1 uniquement si le bit correspondant dans le nombre binaire est 0. Dans le cas contraire, le bit est définie sur 0.
-ms.openlocfilehash: 66a394ea9627d72e927c0b0cf4a001b4a1994dda
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c6b810282c722a93a8b0068b0fad6a8c6498ee15
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554872"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783606"
 ---
 # <a name="bitnot-function"></a>Fonction BITNOT
 
@@ -28,7 +28,7 @@ BITNOT(** *binary number* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _nombre binaire_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Nombre binaire de 16 bits.  <br/> |
+| _nombre binaire_ <br/> |Requis  <br/> |**Numérique** <br/> |Nombre binaire de 16 bits. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

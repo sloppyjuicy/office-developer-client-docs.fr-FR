@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 122c1d30-3cb9-7e7d-b4cc-e93ab8e4da4f
 description: Exécute un module ou une macro dans un projet Microsoft Visual Basic pour Applications (VBA).
-ms.openlocfilehash: 9f861cc5b118f7146f9d778226720e45fa5aba73
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c8b6791134b037937dc7e2552a3765dbf781df55
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573417"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780469"
 ---
 # <a name="runaddon-function"></a>Fonction RUNADDON
 
@@ -28,11 +28,11 @@ RUNADDON( » *string*  « )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _string_ <br/> |Obligatoire  <br/> |**String** <br/> | Nom d’un module complémentaire de la collection **Addons** ou d’une macro dans un projet VBA.  <br/> |
+| _string_ <br/> |Requis  <br/> |**String** <br/> | Nom d’un module complémentaire de la collection **Addons** ou d’une macro dans un projet VBA. |
    
 ## <a name="remarks"></a>Remarques
 
-Si le projet du document qui contient l’appel de fonction RUNADDON (ou un autre projet s’il est référencé) n’a pas de macro (une procédure sans argument) de chaîne _nommée,_ Microsoft Visio exécute la chaîne nommée du module add-on.  Si aucune chaîne  nommée n’est trouvée, Visio ne fait rien et ne signale aucune erreur. (Vous pouvez utiliser la propriété **TraceFlags** pour contrôler les procédures et modules complémentaires que Visio tente d’exécuter.) 
+Si le projet du document qui contient l’appel de fonction RUNADDON (ou un autre projet s’il est référencé) n’a pas de macro (procédure sans argument) de chaîne _nommée, Microsoft_ Visio exécute la chaîne nommée du module add-on _._ Si aucune chaîne nommée n’est trouvée, Visio ne fait rien et ne signale aucune erreur. (Vous pouvez utiliser la propriété **TraceFlags** pour contrôler les procédures et modules complémentaires que Visio tente d’exécuter.) 
   
 Lorsque vous appelez une procédure dans un module standard, il est recommandé de préfixer la chaîne avec le nom du module qui contient la procédure (par exemple,  *moduleName.procName*), car plusieurs modules peuvent avoir une procédure du même nom. 
   

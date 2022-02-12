@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: e238f6bc-e9f6-4ea4-a2e4-ff5da2a04bd5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5a0d6dd27d36c6631e5a66e522fb1f0fe6223e11
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 26394b7cbce304e622ceac810b614eda27c90667
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567864"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780196"
 ---
 # <a name="allocating-and-freeing-memory-in-mapi"></a>Allocation et libération de mémoire dans MAPI
 
@@ -29,10 +29,10 @@ Les règles d’allocation et de libération de mémoire pour ces types de param
   
 |**Type (Type)**|**Allocation de mémoire**|**Libération de mémoire**|
 |:-----|:-----|:-----|
-|Input  <br/> |L’appelant est responsable et peut utiliser n’importe quel mécanisme.  <br/> |L’appelant est responsable et peut utiliser n’importe quel mécanisme.  <br/> |
-|Sortie  <br/> |La fonction appelée est responsable et doit utiliser **MAPIAllocateBuffer**. Pour plus d’informations, [voir MAPIAllocateBuffer](mapiallocatebuffer.md).  <br/> |L’appelant est responsable et doit utiliser **MAPIFreeBuffer**. Pour plus d’informations, [voir MAPIFreeBuffer](mapifreebuffer.md).  <br/> |
-|Input-output  <br/> |L’appelant est responsable de l’allocation initiale et la fonction appelée peut réaffecter si nécessaire à l’aide de **MAPIAllocateBuffer**.  <br/> |La fonction appelée est responsable de la libération initiale si la réaffectation est nécessaire. L’appelant doit libérer la valeur de retour finale.  <br/> |
+|Input  <br/> |L’appelant est responsable et peut utiliser n’importe quel mécanisme. |L’appelant est responsable et peut utiliser n’importe quel mécanisme. |
+|Sortie  <br/> |La fonction appelée est responsable et doit utiliser **MAPIAllocateBuffer**. Pour plus d’informations, [voir MAPIAllocateBuffer](mapiallocatebuffer.md). |L’appelant est responsable et doit utiliser **MAPIFreeBuffer**. Pour plus d’informations, [voir MAPIFreeBuffer](mapifreebuffer.md). |
+|Input-output  <br/> |L’appelant est responsable de l’allocation initiale et la fonction appelée peut réaffecter si nécessaire à l’aide de **MAPIAllocateBuffer**. |La fonction appelée est responsable de la libération initiale si la réaffectation est nécessaire. L’appelant doit libérer la valeur de retour finale. |
    
-Dans les conditions d’échec, les implémenteurs de méthodes d’interface doivent être attentifs aux paramètres de sortie et de sortie d’entrée, car l’appelant n’a généralement aucun moyen de les nettoyer. Si une erreur est renvoyée, chaque paramètre de sortie ou de sortie d’entrée doit être laissé à la valeur initialisée par l’appelant ou être paramétrez sur une valeur qui peut être nettoyée sans aucune action de la part de l’appelant. Par exemple, un paramètre de pointeur de sortie doit être laissé tel qu’il était en entrée ou peut  `void ** ppv` être définie sur NULL (  `*ppv = NULL` ).
+Dans les conditions d’échec, les implémenteurs de méthodes d’interface doivent prêter attention aux paramètres de sortie et de sortie d’entrée, car l’appelant n’a généralement aucun moyen de les nettoyer. Si une erreur est renvoyée, chaque paramètre de sortie ou de sortie d’entrée doit être laissé à la valeur initialisée par l’appelant ou avoir une valeur qui peut être nettoyée sans aucune action de la part de l’appelant. Par exemple, un paramètre de pointeur de sortie doit  `void ** ppv` être laissé tel qu’il était en entrée ou peut être définie sur NULL (  `*ppv = NULL`).
   
 

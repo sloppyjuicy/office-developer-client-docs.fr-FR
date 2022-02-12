@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: af5eb7fd-89c6-49bf-4e45-431b63d6cd6a
 description: Définit une règle qui compare une colonne de l’élément DataRecordset parent à un élément de données de forme de la dernière action de liaison automatique réussie effectuée dans l’interface utilisateur.
-ms.openlocfilehash: b8b2ea090946968de8fbc5a9e265a8e41a084e85
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 20823c242df3bf2354b39014cb1ce9340f8fd3cd
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598828"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783648"
 ---
 # <a name="autolinkcomparison-element-datarecordset_type-complextype-visio-xml"></a>Élément AutoLinkComparison (DataRecordSet_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Définit une règle qui compare une colonne de l’élément **DataRecordset** p
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Spécifie un recordset et la liaison de données entre ce recordset et les formes dans les pages de dessin.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Spécifie un recordset et la liaison de données entre ce recordset et les formes dans les pages de dessin. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,8 +52,8 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnName  <br/> |xsd:string  <br/> |obligatoire  <br/> |Correspond à un nom de colonne dans le recordset ADO.  <br/> |Valeurs du type xsd:string.  <br/> |
-|ContextType  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Spécifie les propriétés du groupe ou de la forme à utiliser pour la comparaison. Les valeurs possibles sont indiquées dans le tableau suivant.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|ContextTypeLabel  <br/> |xsd:string  <br/> |facultatif  <br/> |Si la valeur ContextType est 2 ou 3, cet attribut est requis pour définir une comparaison. Pour ContextType = 2, ContextTypeLabel doit être l’étiquette de l’élément de données de forme, et si **ContextType** = 3, ContextTypeLabel doit être le nom de ligne local.  <br/> |Valeurs du type xsd:string.  <br/> |
+|ColumnName  <br/> |xsd:string  <br/> |obligatoire  <br/> |Correspond à un nom de colonne dans le recordset ADO. |Valeurs du type xsd:string. |
+|ContextType  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Spécifie les propriétés du groupe ou de la forme à utiliser pour la comparaison. Les valeurs possibles sont indiquées dans le tableau suivant. |Valeurs du type xsd:unsignedInt. |
+|ContextTypeLabel  <br/> |xsd:string  <br/> |facultatif  <br/> |Si la valeur ContextType est 2 ou 3, cet attribut est requis pour définir une comparaison. Pour ContextType = 2, ContextTypeLabel doit être l’étiquette de l’élément de données de forme, et si **ContextType** = 3, ContextTypeLabel doit être le nom de ligne local. |Valeurs du type xsd:string. |
    
 

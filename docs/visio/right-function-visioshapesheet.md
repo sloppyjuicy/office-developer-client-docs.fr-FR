@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 910f0297-d588-2048-f308-03f3c2389bba
 description: Renvoie le ou les derniers caractères d’une chaîne de texte, en fonction du nombre de caractères que vous spécifiez.
-ms.openlocfilehash: 4b4a2cb68f6e15989fade7088e887f852ac4eee8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a565b3cd0db8809570e4835d41174fb1d9ca2eb7
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573515"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780560"
 ---
 # <a name="right-function-visioshapesheet"></a>RIGHT Function (VisioShapeSheet)
 
@@ -28,8 +28,8 @@ RIGHT(** *text* ** [, ** *num_chars_opt* ** ])
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Obligatoire  <br/> |**String** <br/> | Chaîne de texte contenant les caractères à extraire.  <br/> |
-| _num_chars_opt_ <br/> |Facultatif  <br/> |**Number** <br/> |Nombre de caractères à extraire. La valeur par défaut est 1.  <br/> |
+| _text_ <br/> |Requis  <br/> |**String** <br/> | Chaîne de texte contenant les caractères à extraire. |
+| _num_chars_opt_ <br/> |Facultatif  <br/> |**Number** <br/> |Nombre de caractères à extraire. La valeur par défaut est 1. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

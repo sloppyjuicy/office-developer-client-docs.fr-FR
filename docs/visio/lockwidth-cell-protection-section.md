@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: fef022ea-38ab-2b66-60c8-b94a6b0bdfbf
 description: Verrouille la largeur d'une forme afin qu'elle demeure intacte lorsque la forme est dimensionnée.
-ms.openlocfilehash: 5e3b05fb7cda925c5d1c4e2942c665d55190cc7d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 49ec5db79acd75a39e60489e5ce64aa37fcb2af9
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59582560"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782128"
 ---
 # <a name="lockwidth-cell-protection-section"></a>LockWidth, cellule (section Protection)
 
@@ -22,8 +22,8 @@ Verrouille la largeur d'une forme afin qu'elle demeure intacte lorsque la forme 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | La largeur est verrouillée.  <br/> |
-| FALSE  <br/> | La largeur n'est pas verrouillée.  <br/> |
+| TRUE  <br/> | La largeur est verrouillée. |
+| FALSE  <br/> | La largeur n'est pas verrouillée. |
    
 ## <a name="remarks"></a>Remarques
 

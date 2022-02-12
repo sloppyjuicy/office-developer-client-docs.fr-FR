@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 437c8a75-1121-4919-8bd4-d57c0d6f4b9a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7691cdaf21ae98b963aa63e0af7ab2c151a4f3da
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6382b389d5330399ecac9c25f914ad1eb18be949
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576022"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781421"
 ---
 # <a name="imapiformcontainer--iunknown"></a>IMAPIFormContainer : IUnknown
 
@@ -40,13 +40,13 @@ Gère les formulaires dans les bibliothèques de formulaires. Cette interface pe
 
 |||
 |:-----|:-----|
-|[InstallForm](imapiformcontainer-installform.md) <br/> |Installe un formulaire dans un conteneur de formulaires.  <br/> |
-|[RemoveForm](imapiformcontainer-removeform.md) <br/> |Supprime un formulaire particulier d’un conteneur de formulaires.  <br/> |
-|[ResolveMessageClass](imapiformcontainer-resolvemessageclass.md) <br/> |Résout une classe de message dans son formulaire dans un conteneur de formulaires et renvoie un objet d’informations de formulaire pour ce formulaire.  <br/> |
-|[ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md) <br/> |Résout un groupe de classes de message dans leurs formulaires dans un conteneur de formulaires et renvoie un tableau d’objets d’informations de formulaire pour ces formulaires.  <br/> |
-|[CalcFormPropSet](imapiformcontainer-calcformpropset.md) <br/> |Renvoie un tableau des propriétés utilisées par tous les formulaires installés dans un conteneur de formulaires.  <br/> |
-|[GetDisplay](imapiformcontainer-getdisplay.md) <br/> |Renvoie le nom complet d’un conteneur de formulaire.  <br/> |
-|[GetLastError](imapiformcontainer-getlasterror.md) <br/> |Renvoie une [structure MAPIERROR contenant](mapierror.md) des informations sur l’erreur précédente qui s’est produite sur l’objet conteneur de formulaire.  <br/> |
+|[InstallForm](imapiformcontainer-installform.md) <br/> |Installe un formulaire dans un conteneur de formulaires. |
+|[RemoveForm](imapiformcontainer-removeform.md) <br/> |Supprime un formulaire particulier d’un conteneur de formulaires. |
+|[ResolveMessageClass](imapiformcontainer-resolvemessageclass.md) <br/> |Résout une classe de message dans son formulaire dans un conteneur de formulaires et renvoie un objet d’informations de formulaire pour ce formulaire. |
+|[ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md) <br/> |Résout un groupe de classes de message dans leurs formulaires dans un conteneur de formulaires et renvoie un tableau d’objets d’informations de formulaire pour ces formulaires. |
+|[CalcFormPropSet](imapiformcontainer-calcformpropset.md) <br/> |Renvoie un tableau des propriétés utilisées par tous les formulaires installés dans un conteneur de formulaires. |
+|[GetDisplay](imapiformcontainer-getdisplay.md) <br/> |Renvoie le nom complet d’un conteneur de formulaires. |
+|[GetLastError](imapiformcontainer-getlasterror.md) <br/> |Renvoie une [structure MAPIERROR contenant](mapierror.md) des informations sur l’erreur précédente qui s’est produite sur l’objet conteneur de formulaire. |
    
 ## <a name="see-also"></a>Voir aussi
 

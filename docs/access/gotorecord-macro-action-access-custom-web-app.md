@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: d72331d9-a8f3-4fcb-ba26-c93210b74935
 description: Vous pouvez utiliser l’action AfficherEnregistrement pour faire de l’enregistrement spécifié l’enregistrement en cours dans un affichage.
-ms.openlocfilehash: 7112289befb490d395456889ec66824d4df46ddb
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: d1f38588388179d8b12d0341ba5cb02b135c9e7a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179976"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780399"
 ---
 # <a name="gotorecord-macro-action-access-custom-web-app"></a>GoToRecord Macro Action (Application web personnalisée Access)
 
@@ -27,6 +27,6 @@ L’action **AtteindreEnregistrement** possède les arguments suivants.
   
 |**Argument de l'action**|**Description**|
 |:-----|:-----|
-|**Record** <br/> |Enregistrement que vous souhaitez rendre actif. Sélectionnez **Précédent,** **Suivant,** **Premier** ou **Dernier**. La valeur par défaut est **Suivant**.  <br/> |
+|**Record** <br/> |Enregistrement que vous souhaitez rendre actif. **Sélectionnez Précédent**, **Suivant**, **Premier** ou **Dernier**. La valeur par défaut est **Suivant**. |
    
 

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 9b8673e1-b913-52db-2d1d-b3e8f4b8f952
 description: Spécifie une structure de feuille de document.
-ms.openlocfilehash: 064404fa38d05a774f46394a9768f677d370efbc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b3442a0a5616c1753e9431e0268b394fef186ecb
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590288"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783347"
 ---
 # <a name="documentsheet-element-visiodocument_type-complextype-visio-xml"></a>Élément DocumentSheet (VisioDocument_Type complexType) (Visio XML)
 
@@ -36,28 +36,28 @@ Spécifie une structure de feuille de document.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Élément racine d’un document Microsoft Visio document.  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Élément racine d’un document Microsoft Visio document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Spécifie une cellule dans une feuille de document.  <br/> |
+|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Spécifie une cellule dans une feuille de document. |
    
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|IsCustomName  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Indique si le nom a été personnalisé par l’utilisateur.  <br/> |Valeurs du type xsd:Boolean.  <br/> |
-|IsCustomNameU  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Indique si le nom universel a été personnalisé par l’utilisateur.  <br/> |Valeurs du type xsd:Boolean.  <br/> |
-|Nom  <br/> |xsd:string  <br/> |facultatif  <br/> |Spécifie le nom dépendant de la langue de la feuille de document.  <br/> |Valeurs du type xsd:string.  <br/> |
-|NameU  <br/> |xsd:string  <br/> |facultatif  <br/> |Spécifie le nom indépendant de la langue de la feuille de document.  <br/> |Valeurs du type xsd:string.  <br/> |
-|UniqueID  <br/> |xsd:string  <br/> |facultatif  <br/> |Chaîne facultative. GUID (identificateur global unique) identifiant la forme.  <br/> |Valeurs du type xsd:string.  <br/> |
+|IsCustomName  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Indique si le nom a été personnalisé par l’utilisateur. |Valeurs du type xsd:Boolean. |
+|IsCustomNameU  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Indique si le nom universel a été personnalisé par l’utilisateur. |Valeurs du type xsd:Boolean. |
+|Nom  <br/> |xsd:string  <br/> |facultatif  <br/> |Spécifie le nom dépendant de la langue de la feuille de document. |Valeurs du type xsd:string. |
+|NameU  <br/> |xsd:string  <br/> |facultatif  <br/> |Spécifie le nom indépendant de la langue de la feuille de document. |Valeurs du type xsd:string. |
+|UniqueID  <br/> |xsd:string  <br/> |facultatif  <br/> |Chaîne facultative. GUID (identificateur global unique) identifiant la forme. |Valeurs du type xsd:string. |
    
 

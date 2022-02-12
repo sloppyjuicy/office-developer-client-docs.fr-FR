@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 59ba365d-cff5-4126-bc22-4d5a37578aab
 description: Vous pouvez utiliser l’action ExécuterMacro pour exécuter une macro d’interface utilisateur.
-ms.openlocfilehash: fcc79a2d359fe50f6d8d0689e4d7e83ce5b77588
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: c16cd15b8f488895695b846b1138e087307481e9
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179542"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782863"
 ---
 # <a name="runmacro-macro-action-access-custom-web-app"></a>RunMacro Macro Action (Application web personnalisée Access)
 
@@ -27,10 +27,10 @@ L’action **ExécuterMacro** accepte les arguments suivants.
   
 |**Argument de l'action**|**Description**|
 |:-----|:-----|
-|**Nom macro** <br/> |Nom de la macro d’interface utilisateur à exécuter.  <br/> |
+|**Nom macro** <br/> |Nom de la macro d’interface utilisateur à exécuter. |
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque vous exécutez une macro d’interface utilisateur contenant l’action **ExécuterMacro** et qu’elle atteint l’action **ExécuterMacro,** Access exécute la macro d’interface utilisateur appelée. Lorsque la macro d’interface utilisateur appelée est terminée, Access revient à la macro d’interface utilisateur d’origine et exécute l’action suivante. 
+Lorsque vous exécutez une macro d’interface utilisateur contenant l’action **ExécuterMacro** et qu’elle atteint l’action **ExécuterMacro** , Access exécute la macro d’interface utilisateur appelée. Lorsque la macro d’interface utilisateur appelée est terminée, Access revient à la macro d’interface utilisateur d’origine et exécute l’action suivante. 
   
 

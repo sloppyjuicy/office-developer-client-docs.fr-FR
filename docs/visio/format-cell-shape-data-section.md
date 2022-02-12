@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c36fc895-5577-59f6-0ff5-5892ca81a58f
 description: Définit la mise en forme d'un élément de données de forme qui est une chaîne, une liste fixe, un nombre, une liste variable, une date, une heure ou une monnaie.
-ms.openlocfilehash: e57e23525219ea1db515f303830464e7da363876
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: caca73dd0731a0a358083fbafbd350e1b9ed3787
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574208"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783249"
 ---
 # <a name="format-cell-shape-data-section"></a>Format, cellule (section Shape Data)
 
@@ -24,13 +24,13 @@ Définit la mise en forme d'un élément de données de forme qui est une chaîn
 
 |**Type de données d'article de forme**|**Valeur**|**Contenu de la cellule Format**|
 |:-----|:-----|:-----|
-| Chaîne  <br/> | 0  <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Liste fixe  <br/> | 1  <br/> | Éléments de la liste, séparés par des signes deux-points.  <br/> |
-| Nombre  <br/> | 2  <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Liste variable  <br/> | 4   <br/> | Éléments de la liste, séparés par des signes deux-points.  <br/> |
-| Date ou heure  <br/> | 5  <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Durée  <br/> | 6   <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Devise  <br/> | 7   <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| String  <br/> | 0  <br/> | Modèle de format approprié pour le type de données. |
+| Liste fixe  <br/> | 1  <br/> | Éléments de la liste, séparés par des signes deux-points. |
+| Nombre  <br/> | 2  <br/> | Modèle de format approprié pour le type de données. |
+| Liste variable  <br/> | 4  <br/> | Éléments de la liste, séparés par des signes deux-points. |
+| Date ou heure  <br/> | 5  <br/> | Modèle de format approprié pour le type de données. |
+| Durée  <br/> | 6   <br/> | Modèle de format approprié pour le type de données. |
+| Devise  <br/> | 7   <br/> | Modèle de format approprié pour le type de données. |
    
 Un exemple de modèle de format approprié pour le type de données est « 0,000 u », qui fait apparaître le nombre 250 cm sous la forme 250,000 cm. Pour plus d'informations sur les modèles de format, reportez-vous à [À propos des modèles de format](about-format-pictures.md).
   
@@ -51,7 +51,7 @@ Pour obtenir une référence à la cellule Format à l'aide d'un index à partir
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionProp** <br/> |
-| Index de la ligne :  <br/> |**visRowProp**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visCustPropsFormat** <br/> |
    
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 45bfaaaa-52cc-f8b4-68e7-8b99e5788ce1
 description: Contient le numéro de la police utilisée pour mettre en forme le texte comportant des caractères asiatiques. Les numéros de police varient en fonction des polices installées sur votre système.
-ms.openlocfilehash: f7a831707e79d0afd2fdc08c21d5f074148902b5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: db755140de26f9182bc0aa2cfb6c5e8c5f244a7c
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603899"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782443"
 ---
 # <a name="asianfont-cell-character-section"></a>AsianFont, cellule (section Character)
 
@@ -30,14 +30,14 @@ Pour obtenir une référence à la cellule AsianFont par un nom à partir d’un
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Char.AsianFont[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Char.AsianFont[ *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule AsianFont à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionCharacter** <br/> |
-|Index de la ligne :  <br/> |**visRowCharacter**  +   *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
 |Index de la cellule :  <br/> |**visCharacterAsianFont** <br/> |
    
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d375c971-fee2-baa3-dc4f-a26018e70e8a
 description: Renvoie le résultat de l’expression évaluée dans srcUnit sous la forme d’une chaîne mise en forme selon le format exprimé dans dstUnit.
-ms.openlocfilehash: 4572c609ddb6a2a60cf34517531495705752ec7a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9c448dddc9fed738c6db63c78983e23bd2c6d610
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554767"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783242"
 ---
 # <a name="formatex-function"></a>Fonction FORMATEX
 
@@ -28,12 +28,12 @@ FORMATEX(** *expression* **, » ** *format* ** « ,[ ** *srcUnit* ** ],[ ** *d
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatoire  <br/> |**String** <br/> |Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur.  <br/> |
-| _format_ <br/> |Obligatoire  <br/> |**String** <br/> |Image de format utilisée pour mettre en forme la chaîne. Pour plus d’informations sur les images de format, voir [À propos des images de format.](about-format-pictures.md)  <br/> |
-| _srcUnit_ <br/> |Facultatif  <br/> |**Chaîne** <br/> | Unités utilisées pour calculer expression (po, cm, etc.).  <br/> |
-| _dstUnit_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Unités à utiliser pour le résultat d’expression (po, cm, etc.).  <br/> |
-| _langID_ <br/> |Facultatif  <br/> |**Number** <br/> |Langue utilisée lors de la mise en forme des dates/heures de Microsoft Office System.  <br/> |
-| _calID_ <br/> |Facultatif  <br/> |**Number** <br/> |Calendrier utilisé lors de la mise en forme des dates/heures de Microsoft Office System.  <br/> |
+| _expression_ <br/> |Requis  <br/> |**String** <br/> |Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur. |
+| _format_ <br/> |Requis  <br/> |**String** <br/> |Image de format utilisée pour mettre en forme la chaîne. Pour plus d’informations sur les images de format, voir [À propos des images de format](about-format-pictures.md). |
+| _srcUnit_ <br/> |Facultatif  <br/> |**Chaîne** <br/> | Unités utilisées pour calculer expression (po, cm, etc.). |
+| _dstUnit_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Unités à utiliser pour le résultat d’expression (po, cm, etc.). |
+| _langID_ <br/> |Facultatif  <br/> |**Number** <br/> |Langue utilisée lors de la mise en forme des dates/heures de Microsoft Office System. |
+| _calID_ <br/> |Facultatif  <br/> |**Number** <br/> |Calendrier utilisé lors de la mise en forme des dates/heures de Microsoft Office System. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

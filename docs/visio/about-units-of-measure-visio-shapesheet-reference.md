@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 48f765a8-7485-03c0-3484-d4ec07822600
 description: Lorsque vous insérez des champs dans du texte ou construisez des formules, vous devez souvent indiquer l’unité de mesure des valeurs que vous tapez.
-ms.openlocfilehash: e4b6b4e568627c12d26a68aafca22f7dff236bf1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e0d347ab6d044e2191b179ff8104e2795061e821
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598870"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782478"
 ---
 # <a name="about-units-of-measure-visio-shapesheet-reference"></a>About Units of Measure (Visio ShapeSheet Reference)
 
@@ -70,7 +70,7 @@ Par exemple, si vous entrez 45,635°, Visio affiche la valeur équivalente de la
    
 ## <a name="fractional-units-of-measure"></a>Unités de mesure en fraction
 
-Vous pouvez spécifier des unités de mesure fractionnaires dans la cellule **DrawingScale** afin d’affecter le nombre de sous-sections de règle Visio dans la fenêtre de dessin. Par défaut, les unités des règles sont divisés en dixièmes. Si vous utilisez des unités de mesure fractionnaires dans la cellule **DrawingScale,** Visio divise la distance en l’une des suivantes : 
+Vous pouvez spécifier des unités de mesure fractionnaires dans la cellule **DrawingScale** afin d’affecter le nombre de sous-sections de Visio qui s’affichent dans la fenêtre de dessin. Par défaut, les unités des règles sont divisés en dixièmes. Si vous utilisez des unités de mesure fractionnaires dans la cellule **DrawingScale**, Visio divise la distance en l’une des suivantes : 
   
 - Huitièmes  *pour visInchFrac*  et  *visMileFrac* 
     
@@ -90,7 +90,7 @@ Dans les formules, vous pouvez exprimer des unités de mesure pour les nombres m
   
 |**Pour définir des unités multidimensionnelles**|**Utilisez cette abréviation**|**Constante d’automation**|
 |:-----|:-----|:-----|
-| Parc  <br/> | LASER  <br/> |**visAcre (36)** <br/> |
+| Propriétés  <br/> | LASER  <br/> |**visAcre (36)** <br/> |
 | Centimeters  <br/> | CM. CARRE, CM CARRE, CM.^2, CM^2  <br/> |**visCentimeters (69)** <br/> |
 | Pieds  <br/> | PI. CARRE, PI CARRE, PIEDS^2, PI^2  <br/> |**visFeet (66)** <br/> |
 | Domaine  <br/> | HECTARES, HECTARE, HA., HA  <br/> |**visHectare (37)** <br/> |
@@ -152,13 +152,13 @@ number  [unit , flag ]
 
 |||
 |:-----|:-----|
-| _number_ <br/> |Valeur d’origine, telle que 3,7, 1,7E-4 ou 5 1/2.  <br/> |
-| _unit_ <br/> |Unités dans lesquelles le  _nombre_ est exprimé à l’origine.  <br/> |
-| _flag_ <br/> |Système de mesure à utiliser lorsque l’unité de valeur implicite est affichée. Reportez-vous au tableau ci-dessous.  <br/> |
+| _number_ <br/> |Valeur d’origine, telle que 3,7, 1,7E-4 ou 5 1/2. |
+| _unit_ <br/> |Unités dans lesquelles le  _nombre_ est exprimé à l’origine. |
+| _flag_ <br/> |Système de mesure à utiliser lorsque l’unité de valeur implicite est affichée. Reportez-vous au tableau ci-dessous. |
    
 _L’indicateur de_ paramètre est l’une des lettres suivantes (majuscules ou minuscules) indiquant le système de mesure à utiliser lorsque l’unité de valeur implicite est affichée. 
   
-|**_Indicateur_**|**Système de mesure**|**Exemple**|
+|**_Flag_**|**Système de mesure**|**Exemple**|
 |:-----|:-----|:-----|
 | a, A  <br/> | Angle  <br/> | =5[deg,A]  <br/> |
 | d, D  <br/> | Drawing  <br/> | =5[in,D]  <br/> |
@@ -176,10 +176,10 @@ Le tableau ci-dessous présente les unités de mesure par défaut avec les param
   
 |**Unité de mesure par défaut**|**Équivalent dans l’interface utilisateur**|
 |:-----|:-----|
-|**visDrawingUnits** <br/> |Unités de la cellule DrawingScale de la page ou de la forme de base contenant la cellule.  <br/> |
-|**visPageUnits** <br/> |Unités sélectionnées dans la zone **Unités de mesure** de l’onglet **Propriétés de la page** de la boîte de dialogue **Mise en page** (sous l’onglet **Création**, cliquez sur la flèche **Mise en page**).  <br/> |
-|**visTypeUnits** <br/> |Unités sélectionnées dans la zone  de  texte sous Affichage sous l’onglet Avancé  de la boîte de dialogue **Options Visio** (cliquez sur l’onglet Fichier, puis sur **Options).**   <br/> |
-|**visAngleUnits** <br/> |Unités sélectionnées dans la zone **Angle** de la section **Affichage** de l’onglet **Avancé** de la boîte de dialogue **Options Visio**.  <br/> |
-|**visDurationUnits** <br/> |Unités sélectionnées dans la zone **Durée** de la section **Affichage** sous l’onglet **Avancé** de la boîte de dialogue **Options Visio**.  <br/> |
+|**visDrawingUnits** <br/> |Unités de la cellule DrawingScale de la page ou de la forme de base contenant la cellule. |
+|**visPageUnits** <br/> |Unités sélectionnées dans la zone **Unités de mesure** de l’onglet **Propriétés de la page** de la boîte de dialogue **Mise en page** (sous l’onglet **Création**, cliquez sur la flèche **Mise en page**). |
+|**visTypeUnits** <br/> |Unités sélectionnées dans la zone de  texte sous Affichage  sous l’onglet Avancé de la boîte de dialogue **Options Visio** (cliquez sur l’onglet Fichier, puis sur **Options**).  |
+|**visAngleUnits** <br/> |Unités sélectionnées dans la zone **Angle** de la section **Affichage** de l’onglet **Avancé** de la boîte de dialogue **Options Visio**. |
+|**visDurationUnits** <br/> |Unités sélectionnées dans la zone **Durée** de la section **Affichage** sous l’onglet **Avancé** de la boîte de dialogue **Options Visio**. |
    
 

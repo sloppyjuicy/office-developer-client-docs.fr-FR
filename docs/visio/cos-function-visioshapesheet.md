@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e6c82e7-a025-9df5-a95d-b00b0f39724f
 description: Renvoie le cosine d’un angle.
-ms.openlocfilehash: dfa2aaaafd376980a83c52cb68f80524d5ba3d55
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 14988aa215ec10380ce8c3311ee9b738cfc26243
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628562"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783550"
 ---
 # <a name="cos-function-visioshapesheet"></a>COS Function (VisioShapeSheet)
 
@@ -28,11 +28,11 @@ COS( *angle*)
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Angle pour lequel le cosinus doit être obtenu.  <br/> |
+| _angle_ <br/> |Requis  <br/> |**Numérique** <br/> |Angle pour lequel le cosinus doit être obtenu. |
    
 ## <a name="remarks"></a>Remarques
 
-La fonction COS utilise des radians, sauf si vous spécifiez une unité de mesure différente dans *l’angle.* 
+La fonction COS utilise des radians, sauf si vous spécifiez une unité de mesure différente dans  *l’angle*  . 
   
 ## <a name="example"></a>Exemple
 

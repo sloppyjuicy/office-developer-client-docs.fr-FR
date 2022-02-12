@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 20b587ee-87bf-4648-99ec-ddedd703d9fd
 description: Renvoie la valeur de type integer de l’identificateur unique d’une police, spécifié par son nom.
-ms.openlocfilehash: 9211d56299cbf3085de4060921b19b6a0ed414e6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: afd09ef812b95998a15080c4bb0693ec8d6d10ba
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574229"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782254"
 ---
 # <a name="font-function"></a>Fonction FONT
 
@@ -34,7 +34,7 @@ Version ajoutée : Visio 2013
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _font_name_string_ <br/> |Obligatoire  <br/> |**chaîne** <br/> |Nom de la police.  <br/> |
+| _font_name_string_ <br/> |Requis  <br/> |**chaîne** <br/> |Nom de la police. |
    
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -42,7 +42,7 @@ Entier
   
 ## <a name="remarks"></a>Remarques
 
-Si la chaîne fournie pour  *font_name_string*  ne correspond pas à une police connue, cette fonction renvoie une #VALUE! erreur. 
+Si la chaîne fournie  *pour font_name_string ne*  correspond pas à une police connue, cette fonction renvoie une #VALUE! erreur. 
   
 ## <a name="example"></a>Exemple
 

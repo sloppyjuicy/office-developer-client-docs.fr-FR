@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 17df868b-d329-cefa-bd16-84960cbf5921
-ms.openlocfilehash: 9e9fe093f224883aa8d8d97f53ca1411dc5423b6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dd739a52f429cb1a824896b26e7ab91a98c50e52
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552058"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780238"
 ---
 # <a name="ifreebusysupport"></a>IFreeBusySupport
 
@@ -31,7 +31,7 @@ Prend en charge la spécification des interfaces qui accèdent aux données de l
 |:-----|:-----|
 |[Placeholder1](ifreebusysupport-placeholder1.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
 |[Placeholder2](ifreebusysupport-placeholder2.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
-|[LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md) <br/> |Renvoie, pour chaque utilisateur spécifié, une interface pour l’éumation des blocs de données de libre/occupé dans un délai.  <br/> |
+|[LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md) <br/> |Renvoie, pour chaque utilisateur spécifié, une interface pour l’éumation des blocs de données de libre/occupé dans un délai. |
 |[Placeholder23](ifreebusysupport-placeholder23.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
 |[Placeholder3](ifreebusysupport-placeholder3.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
 |[Placeholder4](ifreebusysupport-placeholder4.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |

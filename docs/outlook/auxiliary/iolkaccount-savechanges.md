@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 8f1ab61e-7d1c-50d5-ae21-8cb4b08d729c
 description: Valider les modifications apportées à l’objet de compte en écrivant dans le magasin du Registre.
-ms.openlocfilehash: 2ea5cfaa51ae4fada6d771b8aac774bf309a0335
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 745e37fec9c8ca9d80f7797e3bdc1ec39660d8fc
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561935"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780217"
 ---
 # <a name="iolkaccountsavechanges"></a>IOlkAccount::SaveChanges
 
@@ -38,9 +38,9 @@ _dwFlags_
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |La méthode a réussi.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |Impossible de trouver le compte spécifié.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.  <br/> |
+|S_OK  <br/> |La méthode a réussi. |
+|E_ACCT_NOT_FOUND  <br/> |Impossible de trouver le compte spécifié. |
+|E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation. |
    
 ## <a name="remarks"></a>Remarques
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: dac82a4f-4508-541a-e118-7d79df987232
 description: Détermine le motif de remplissage de la forme. Pour définir un motif de remplissage personnalisé, utilisez la fonction UTILISATION dans cette cellule.
-ms.openlocfilehash: 3a8a07add43f980f124ff532e2b04939f2324284
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 15928280543c92e5b50551f1ac83145997392e1a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570678"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780826"
 ---
 # <a name="fillpattern-cell-fill-format-section"></a>FillPattern, cellule (section Fill Format)
 
@@ -22,9 +22,9 @@ Détermine le motif de remplissage de la forme. Pour définir un motif de rempli
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0  <br/> |Aucun (remplissage transparent).  <br/> |
-|1  <br/> |Couleur d'arrière-plan unie.  <br/> |
-|2 - 40  <br/> |Motifs de remplissage correspondant aux entrées indexées de la boîte de dialogue **Remplir**.  <br/> |
+|0  <br/> |Aucun (remplissage transparent). |
+|1  <br/> |Couleur d'arrière-plan unie. |
+|2 - 40  <br/> |Motifs de remplissage correspondant aux entrées indexées de la boîte de dialogue **Remplir**. |
    
 ## <a name="remarks"></a>Remarques
 

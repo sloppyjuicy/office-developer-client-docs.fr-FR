@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: e9a640f4-0af0-317c-b77b-f32c651e87b4
 description: Verrouille la mise en forme d'une forme afin d'empêcher sa modification.
-ms.openlocfilehash: cbc0af1032a25a4939cbf16bb0586cf18a119cf6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 186a765488660b2fd3175706736a6a1dcb904e0c
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603626"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782121"
 ---
 # <a name="lockformat-cell-protection-section"></a>LockFormat, cellule (section Protection)
 
@@ -22,8 +22,8 @@ Verrouille la mise en forme d'une forme afin d'empêcher sa modification.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | La mise en forme ne peut pas être modifiée.  <br/> |
-| FALSE  <br/> | La mise en forme peut être modifiée.  <br/> |
+| TRUE  <br/> | La mise en forme ne peut pas être modifiée. |
+| FALSE  <br/> | La mise en forme peut être modifiée. |
    
 ## <a name="remarks"></a>Remarques
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: cf15b879-a47e-a5a5-bfdd-1d7ea423742f
 description: Identifie l’icône qui s’affiche en regard d’une option de menu contextuel ou de balise d’action.
-ms.openlocfilehash: 96610ad6e1add550ab6ed940b7dc2ccbfb8373da
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0a76dc9fe1d9c6e87d4e3254afb7e2f4056c5101
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59608612"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781064"
 ---
 # <a name="buttonface-cell-actions-section"></a>ButtonFace, cellule (section Actions)
 
@@ -40,7 +40,7 @@ Pour obtenir une référence à la cellule ButtonFace par index dans un programm
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction**  +   *i* où **i** = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowAction** +   *i* où **i** = 0, 1, 2... |
 |Index de la cellule :  <br/> |**visActionButtonFace** <br/> |
    
 

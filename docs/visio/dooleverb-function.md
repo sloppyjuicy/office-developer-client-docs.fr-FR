@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d276c122-6326-75a7-220c-6a78e94e0db0
 description: Exécute un verbe pour l’objet OLE.
-ms.openlocfilehash: 93f69735dbf1d2ae31f0d8c33306c422ecafbfb7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a08c1cd45101ff9a5a5ac793623e615602762aad
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590281"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782317"
 ---
 # <a name="dooleverb-function"></a>Fonction DOOLEVERB
 
@@ -28,7 +28,7 @@ DOOLEVERB( » ** *verb* ** « )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _« verb »_ <br/> |Obligatoire  <br/> |**String** <br/> |Verbe à exécuter  <br/> |
+| _« verb »_ <br/> |Requis  <br/> |**String** <br/> |Verbe à exécuter |
    
 ## <a name="remarks"></a>Remarques
 

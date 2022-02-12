@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 09f2430a-184d-eaa2-2cb9-51bb24345c51
 description: Spécifie une référence à une page du dessin.
-ms.openlocfilehash: 4b38c508b2c6d417ffbddbf1cfed9945050ce670
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fe41ab8abddb7c1e51bb3ff43039905dfd2d5f8a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565904"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779481"
 ---
 # <a name="refby-element-trigger_type-complextype-visio-xml"></a>Élément RefBy (Trigger_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Spécifie une référence à une page du dessin.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |Fournit des instructions à Microsoft Visio pour recalculer une relation entre les composants de document dans Visio fichier.  <br/> |
+|[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |Fournit des instructions à Microsoft Visio pour recalculer une relation entre les composants de document dans Visio fichier. |
 
    
 ### <a name="child-elements"></a>Éléments enfants
@@ -53,7 +53,7 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Spécifie l’attribut ID d’une page dans le dessin.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|T  <br/> |xsd:string  <br/> |obligatoire  <br/> |Spécifie le type de référence.  <br/> |Valeurs du type xsd:string.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Spécifie l’attribut ID d’une page dans le dessin. |Valeurs du type xsd:unsignedInt. |
+|T  <br/> |xsd:string  <br/> |obligatoire  <br/> |Spécifie le type de référence. |Valeurs du type xsd:string. |
    
 

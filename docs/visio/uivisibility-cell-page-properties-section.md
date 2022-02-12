@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: df7f79df-770a-4868-e7e2-05c3828e23eb
 description: Détermine si le nom de la page est exposé dans l'interface utilisateur (IU).
-ms.openlocfilehash: 564cb13d5b8e1cf1394787bba1d5bdab82a9c85a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 38b667739df13656872d6ffce235c29e6e796342
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603227"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779013"
 ---
 # <a name="uivisibility-cell-page-properties-section"></a>UIVisibility, cellule (section Page Properties)
 
@@ -22,17 +22,17 @@ Détermine si le nom de la page est exposé dans l'interface utilisateur (IU).
   
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
-|0  <br/> |Affiche le nom de la page dans l'IU (par défaut).  <br/> |**visUIVNormal** <br/> |
-|1  <br/> |N'affiche pas le nom de la page dans l'IU.  <br/> |**visUIVHidden** <br/> |
+|0  <br/> |Affiche le nom de la page dans l'IU (par défaut). |**visUIVNormal** <br/> |
+|1  <br/> |N'affiche pas le nom de la page dans l'IU. |**visUIVHidden** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Définir la cellule UIVisibility sur **visUIVHidden** empêche la page d’apparaître n’importe où dans l’interface utilisateur où la chaîne contenant le nom de la page apparaît. Par exemple, la page ne serait pas présentée comme option dans l’**Explorateur de dessin** ou dans les onglets de page. La page reste toutefois accessible si vous utilisez automation ou des chemins d’accès d’interface utilisateur qui n’incluent pas le nom de la page, par exemple, la commande **Imprimer.** 
+Définir la cellule UIVisibility sur **visUIVHidden** empêche la page d’apparaître n’importe où dans l’interface utilisateur où la chaîne contenant le nom de la page apparaît. Par exemple, la page ne serait pas présentée comme option dans l’**Explorateur de dessin** ou dans les onglets de page. La page reste toutefois accessible si vous utilisez Automation ou des chemins d’accès d’interface utilisateur qui n’incluent pas le nom de la page, par exemple, la **commande Imprimer** . 
   
  Cette cellule est destinée à être utilisée uniquement avec des pages de document  elle n'est pas destinée à être utilisée avec des pages de superposition de marque de révision, dont la cellule UIVisibility est définie par défaut sur **visUIVHidden** et ne doit pas être modifiée. 
   
 > [!NOTE]
-> Pour masquer une page de  la commande Imprimer du document, faites-en une page d’arrière-plan (la propriété **Type** est **visTypeBackground)** qui n’est utilisée comme arrière-plan par aucune page (les formes des pages d’arrière-plan sont imprimées lorsqu’une page l’utilise en arrière-plan). La commande Imprimer **du** document fonctionne uniquement avec les pages indexées et les pages d’arrière-plan ne sont pas indexées. 
+> Pour masquer une page de la commande Imprimer du  document, faites-en une page d’arrière-plan (la propriété **Type** est **visTypeBackground**) qui n’est utilisée comme arrière-plan par aucune page (les formes des pages d’arrière-plan sont imprimées lorsqu’une page l’utilise en arrière-plan). La commande **Imprimer du document** fonctionne uniquement avec les pages indexées et les pages d’arrière-plan ne sont pas indexées. 
   
 Pour obtenir une référence à la cellule UIVisibility par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

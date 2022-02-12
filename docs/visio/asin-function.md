@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 7d917be4-65b1-002f-48cc-6d81916a1157
 description: Renvoie l’arcsine d’un nombre, par exemple, l’angle dont le sinus est le nombre .
-ms.openlocfilehash: d3cc3bb4afcb537f0234d4a5e51fc3fee00d809d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4759525e21dfab0a48f086dca5c8823544da3a58
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628863"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783683"
 ---
 # <a name="asin-function"></a>Fonction ASIN
 
@@ -22,13 +22,13 @@ Renvoie l’arcsine d’un nombre, par exemple, l’angle dont le sinus est  *le
   
 ## <a name="syntax"></a>Syntaxe
 
-ASIN(***nombre*** ) 
+ASIN(***number*** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Sinus de l’angle.  <br/> |
+| _number_ <br/> |Requis  <br/> |**Numérique** <br/> |Sinus de l’angle. |
    
 ## <a name="remarks"></a>Remarques
 

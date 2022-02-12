@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 373983f7-fc0c-95f6-7665-7ed47de82e5e
 description: Indique une ligne du recordset de données liée à une forme en conflit après l’actualisation du recordset de données.
-ms.openlocfilehash: cc0bf49862465030fec0d0e1d1dfa7bff80a98b1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: af013b1947fd6dafbc908fca21e27a2c0e10f411
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573585"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783115"
 ---
 # <a name="refreshconflict-element-datarecordset_type-complextype-visio-xml"></a>Élément RefreshConflict (DataRecordSet_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Indique une ligne du recordset de données liée à une forme en conflit après 
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Stocke, met en forme, actualise et expose dans Microsoft Visio les données qui ont fait l’objet d’une requête dans une base de données.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Stocke, met en forme, actualise et expose dans Microsoft Visio les données qui ont fait l’objet d’une requête dans une base de données. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,8 +52,8 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID de page de la forme impliquée dans le conflit.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|RowID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |L’ID de ligne d’origine de la ligne est maintenant en conflit après l’actualisation des données.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|ShapeID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID de forme de la forme impliquée dans le conflit.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|PageID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID de page de la forme impliquée dans le conflit. |Valeurs du type xsd:unsignedInt. |
+|RowID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |L’ID de ligne d’origine de la ligne est maintenant en conflit après l’actualisation des données. |Valeurs du type xsd:unsignedInt. |
+|ShapeID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID de forme de la forme impliquée dans le conflit. |Valeurs du type xsd:unsignedInt. |
    
 

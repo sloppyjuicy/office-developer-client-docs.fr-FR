@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1c53170f-03a6-4a05-913e-de8eeadea692
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4be35e9e337a4013023c1ab48138f104ea1b2842
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dae69558f461a611293a2090037dfee94be19b25
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579460"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779804"
 ---
 # <a name="mapiopenlocalformcontainer"></a>MAPIOpenLocalFormContainer
 
@@ -59,7 +59,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI utilise la **méthode MAPIOpenLocalFormContainer** pour ouvrir le conteneur de formulaire local à restituer dans une nouvelle fenêtre.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI utilise la **méthode MAPIOpenLocalFormContainer** pour ouvrir le conteneur de formulaire local à restituer dans une nouvelle fenêtre. |
    
 ## <a name="see-also"></a>Voir aussi
 

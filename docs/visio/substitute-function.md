@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 4a27663a-9d37-2ac4-5856-edeb0880f16e
 description: Remplace une partie d’une chaîne de texte par une autre chaîne de texte.
-ms.openlocfilehash: 88aeaff349e24d1b6a7e04470061e756acf6598e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f0f2164186ef100988550212d0d465e7239faa36
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559422"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779151"
 ---
 # <a name="substitute-function"></a>Fonction SUBSTITUTE
 
@@ -28,11 +28,11 @@ Remplace une partie d’une chaîne de texte par une autre chaîne de texte.
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Obligatoire  <br/> |**String** <br/> | Texte ou référence à une cellule contenant le texte dont vous souhaitez substituer des caractères.  <br/> |
-| _old_text_ <br/> |Obligatoire  <br/> |**String** <br/> | Texte à remplacer.  <br/> |
-| _new_text_ <br/> |Obligatoire  <br/> |**String** <br/> | Texte que vous souhaitez utiliser pour remplacer  _old_text_.  <br/> |
-| _start_num_opt_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Spécifie les occurrences des old_text à remplacer.  <br/> |
-| _ignore_case_opt_ <br/> |Facultatif  <br/> |**Boolean** <br/> |Valeur FALSE si la casse est respectée ; sinon, valeur TRUE. La valeur par défaut est FALSE.  <br/> |
+| _text_ <br/> |Requis  <br/> |**String** <br/> | Texte ou référence à une cellule contenant le texte dont vous souhaitez substituer des caractères. |
+| _old_text_ <br/> |Requis  <br/> |**String** <br/> | Texte à remplacer. |
+| _new_text_ <br/> |Requis  <br/> |**String** <br/> | Texte que vous souhaitez utiliser pour remplacer  _old_text_. |
+| _start_num_opt_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Spécifie les occurrences des old_text à remplacer. |
+| _ignore_case_opt_ <br/> |Facultatif  <br/> |**Boolean** <br/> |Valeur FALSE si la casse est respectée ; sinon, valeur TRUE. La valeur par défaut est FALSE. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -40,7 +40,7 @@ Chaîne
   
 ## <a name="remarks"></a>Remarques
 
- Si vous spécifiez  _start_num_opt_, seule cette occurrence de  _old_text_ est remplacée. Dans le cas contraire, chaque occurrence  _de old_text_  _dans_ le texte est modifiée en  _new_text._
+ Si vous spécifiez  _start_num_opt_, seule cette  _occurrence de old_text_ est remplacée. Dans le cas contraire, chaque occurrence  _de old_text_  _texte_ est modifiée en  _new_text._
   
 Utilisez la fonction SUBSTITUTE lorsque vous souhaitez remplacer un texte spécifique dans une chaîne de texte. Si vous souhaitez remplacer le texte qui se trouve à un emplacement spécifique dans une chaîne de texte, utilisez la fonction REPLACE.
   

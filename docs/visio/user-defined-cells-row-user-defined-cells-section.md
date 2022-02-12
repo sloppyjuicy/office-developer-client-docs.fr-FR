@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6c48b9b3-5c62-7d5a-1c8f-fe96606f4dea
 description: Contient la valeur et le message descriptif de toutes les cellules définies par l'utilisateur de votre solution. Une forme contient une ligne User-defined Cells pour chaque paire de cellules Value/Prompt.
-ms.openlocfilehash: fe6c51c2586d84996bdce94134df872fd42b91fa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 74eeea2619b91bb40b38483d9b8c260d2bbc806e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553647"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782989"
 ---
 # <a name="user-defined-cells-row-user-defined-cells-section"></a>User-defined Cells Row (User-defined Cells Section)
 
@@ -24,8 +24,8 @@ Les lignes User-defined Cells sont nommées User. *et*  contiennent les cellules
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[Valeur](value-cell-user-defined-cells-section.md) <br/> |Indique une valeur pour la cellule définie par l'utilisateur correspondante.  <br/> |
-|[Prompt](prompt-cell-user-defined-cells-section.md) <br/> |Indique un message descriptif ou commentaire pour la cellule définie par l'utilisateur.  <br/> |
+|[Valeur](value-cell-user-defined-cells-section.md) <br/> |Indique une valeur pour la cellule définie par l'utilisateur correspondante. |
+|[Prompt](prompt-cell-user-defined-cells-section.md) <br/> |Indique un message descriptif ou commentaire pour la cellule définie par l'utilisateur. |
    
 ## <a name="remarks"></a>Remarques
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c1cfe71b-01f3-429a-8b4c-73191a2ffea0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d7c9ff3ccf95c6052ee8a5c67960d64d436b4962
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: cf463e4b7f227b7a75a9078f42384b69a7f968cd
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462588"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779839"
 ---
 # <a name="imapiformmgrselectform"></a>IMAPIFormMgr::SelectForm
 
@@ -91,7 +91,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnSelectForm  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::SelectForm** pour sélectionner un formulaire et envoyer des informations sur le formulaire à un ou plusieurs journaux.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnSelectForm  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::SelectForm** pour sélectionner un formulaire et envoyer des informations sur le formulaire à un ou plusieurs journaux. |
    
 ## <a name="see-also"></a>Voir aussi
 

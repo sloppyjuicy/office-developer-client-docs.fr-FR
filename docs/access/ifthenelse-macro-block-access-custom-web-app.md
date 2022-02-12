@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 18d28dc1-c41f-47c6-b5c7-258d5f877d01
 description: Vous pouvez utiliser le bloc de macro If pour exécuter de façon conditionnelle un groupe d’actions, selon la valeur d’une expression.
-ms.openlocfilehash: 125ed0f743a2b6819a5131d501ffa51ad906320b
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: f5f21b73b2157410b23ba08854c59c6ce2c123d5
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179969"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782968"
 ---
 # <a name="ifthenelse-macro-block-access-custom-web-app"></a>Si... Ensuite... Else Macro Block (Access custom web app)
 
@@ -39,7 +39,7 @@ Pour les deux **if** et **Else if**, les arguments suivants sont requis.
   
 |**Argument de l'action**|**Description**|
 |:-----|:-----|
-|**Expression** <br/> |Condition que vous souhaitez tester. Il doit s’agir d’une expression qui donne une valeur True ou False.  <br/> |
+|**Expression** <br/> |Condition que vous souhaitez tester. Il doit s’agir d’une expression qui donne une valeur True ou False. |
 
 ## <a name="remarks"></a>Remarques
 
@@ -63,5 +63,5 @@ Else
 End If
 ```
 
-Vous pouvez imbriquer des blocs **If**. Il peut être préférable d'imbriquer un bloc **If** dans un bloc **If** si vous souhaitez évaluer une deuxième expression lorsque la première expression a la valeur True. Dans l’exemple de code suivant, le bloc **If** interne s’exécute uniquement lorsque la valeur de [Status] est à la fois supérieure à *0* et supérieure à 100.
+Vous pouvez imbriquer des blocs **If**. Il peut être préférable d'imbriquer un bloc **If** dans un bloc **If** si vous souhaitez évaluer une deuxième expression lorsque la première expression a la valeur True. Dans l’exemple de code suivant, le bloc **If** interne s’exécute uniquement lorsque la valeur de [Status] est à la fois supérieure *à 0 et* supérieure à 100.
   

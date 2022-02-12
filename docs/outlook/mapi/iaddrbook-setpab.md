@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 75daf9d4-6975-435f-91e5-1b41e0047ab7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 60af07525de4ce66a470ad9db80fc3d5392f086d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ea2b398184295f26b007c353aa68ecf4b120a2ac
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576134"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781463"
 ---
 # <a name="iaddrbooksetpab"></a>IAddrBook::SetPAB
 
@@ -38,7 +38,7 @@ HRESULT SetPAB(
 
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les clients et les fournisseurs de services appellent la **méthode SetPAB** pour désigner un conteneur particulier en tant que PAB. Le PAB est un conteneur constitué d’entrées copiées à partir d’autres conteneurs, ainsi que de nouvelles entrées. 
+Les clients et les fournisseurs de services appellent la **méthode SetPAB** pour désigner un conteneur particulier en tant que PAB. Le PAB est un conteneur qui se compose d’entrées copiées à partir d’autres conteneurs, ainsi que de nouvelles entrées. 
   
 Un appel à **SetPAB** établit un conteneur en tant que PAB jusqu’à ce que ce conteneur soit rendu indisponible ou qu’un nouveau conteneur devienne le PAB via un appel ultérieur à **SetPAB**. 
   
@@ -64,7 +64,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|AbContDlg.cpp  <br/> |CAbContDlg::OnSetPAB  <br/> |MFCMAPI utilise la **méthode SetPAB** pour faire du conteneur spécifié le PAB.  <br/> |
+|AbContDlg.cpp  <br/> |CAbContDlg::OnSetPAB  <br/> |MFCMAPI utilise la **méthode SetPAB** pour faire du conteneur spécifié le PAB. |
    
 ## <a name="see-also"></a>Voir aussi
 

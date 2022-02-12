@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 80db9c0c-13c6-47de-967f-ade6e5899f14
 description: Détermine si un dégradé de remplissage est activé pour cette forme.
-ms.openlocfilehash: 628ea789b01f760d54c79b4d60ca8529648da2b3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 952e7237948d527a954e3cd7baaa577a28e57c22
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590204"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783284"
 ---
 # <a name="fillgradientenabled-cell-gradient-properties-section"></a>FillGradientEnabled Cell (Gradient Properties Section)
 
@@ -20,12 +20,12 @@ Détermine si un dégradé de remplissage est activé pour cette forme.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Le remplissage dégradé est affiché sur la forme.  <br/> |
-|FALSE  <br/> |Les remplissages dégradés ne sont pas affichés sur la forme.  <br/> |
+|TRUE  <br/> |Le remplissage dégradé est affiché sur la forme. |
+|FALSE  <br/> |Les remplissages dégradés ne sont pas affichés sur la forme. |
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule **FillGradientEnabled** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
+Pour obtenir une référence à la cellule **FillGradientEnabled** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
   
 |||
 |:-----|:-----|

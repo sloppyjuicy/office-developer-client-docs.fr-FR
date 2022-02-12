@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 82a9e379-39e4-4257-8cba-a6758f431cdc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c2ff33145b5a1358f12cbccebc79a60a96953d32
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 98a92bfebdba16d559aa9b28cc90ee6070279a2f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584087"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779776"
 ---
 # <a name="mapiadminprofiles"></a>MAPIAdminProfiles
 
@@ -62,7 +62,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::GetProfAdmin  <br/> |MFCMAPI utilise la **méthode MAPIAdminProfiles** pour obtenir l’objet d’administration de profil.  <br/> |
+|MAPIObjects.cpp  <br/> |CMapiObjects::GetProfAdmin  <br/> |MFCMAPI utilise la **méthode MAPIAdminProfiles** pour obtenir l’objet d’administration de profil. |
    
 ## <a name="see-also"></a>Voir aussi
 

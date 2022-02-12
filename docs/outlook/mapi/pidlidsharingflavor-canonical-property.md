@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c91ab5c7-82ac-4895-bf54-2863ca5e2410
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: df5cb7fe6a45b87d7a382c6d6a928711c0f90f62
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 451baa22a31a5795c3eee4d3ab12cedfa6e8ff8e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600525"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779796"
 ---
 # <a name="pidlidsharingflavor-canonical-property"></a>Propriété canonique PidLidSharingFlavor
 
@@ -41,12 +41,12 @@ La valeur de cette propriété doit être l’une des suivantes :
   
 |**Valeur**|**Type d’objet Message de partage**|
 |:-----|:-----|
-|0x00020310  <br/> |Invitation de partage pour un dossier spécial.  <br/> |
-|0x00000310  <br/> |Invitation de partage pour un dossier qui n’est pas un dossier spécial.  <br/> |
-|0x00020500  <br/> |Demande de partage.  <br/> |
-|0x00020710  <br/> |Invitation de partage pour un dossier spécial et demande de partage pour le dossier spécial équivalent du destinataire.  <br/> |
-|0x00025100  <br/> |Réponse de partage refusant une demande.  <br/> |
-|0x00023310  <br/> |Réponse de partage acceptant une demande (également un type d’invitation de partage).  <br/> |
+|0x00020310  <br/> |Invitation de partage pour un dossier spécial. |
+|0x00000310  <br/> |Invitation de partage pour un dossier qui n’est pas un dossier spécial. |
+|0x00020500  <br/> |Demande de partage. |
+|0x00020710  <br/> |Invitation de partage pour un dossier spécial et demande de partage pour le dossier spécial équivalent du destinataire. |
+|0x00025100  <br/> |Réponse de partage refusant une demande. |
+|0x00023310  <br/> |Réponse de partage acceptant une demande (également un type d’invitation de partage). |
    
 ## <a name="related-resources"></a>Ressources connexes
 

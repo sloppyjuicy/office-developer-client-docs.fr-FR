@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: f2aa2376-b293-4d05-9104-218cc1fe1758
 description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b55985cb10b708c8c3da20492f96a5a6bc2c690a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ee8bee8667514ea21f384996277085cd21bbf3af
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584107"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781302"
 ---
 # <a name="mapi-special-folders"></a>Dossiers sp�ciaux MAPI
 
@@ -29,14 +29,14 @@ Il existe huit dossiers sp�ciaux, certains qui font partie de la sous-arboresc
 
 |**Dossier**|**Description**|
 |:-----|:-----|
-|Dossier bo�te d'envoi  <br/> |Contient les messages sortants IPM.  <br/> |
-|Dossier �l�ments supprim�s  <br/> |Contient des messages IPM sont marqu�es pour suppression.  <br/> |
-|dossier �l�ments envoy�s  <br/> |Contient des messages IPM qui ont �t� envoy�s.  <br/> |
-|Dossier racine IPM  <br/> |Contient des dossiers pour la gestion des messages IPM.  <br/> |
-|Dossier de r�ception  <br/> |Contient les messages entrants pour une classe de message particulier.  <br/> |
-|Dossier racine de r�sultats de recherche  <br/> |Contient des dossiers pour la gestion des r�sultats de recherche.  <br/> |
-|Dossier racine de commun-vues  <br/> |Contient des dossiers pour la gestion des affichages pour la banque de messages.  <br/> |
-|Dossier racine de personnel-vues  <br/> |Contient des dossiers pour la gestion des vues pour un utilisateur particulier.  <br/> |
+|Dossier bo�te d'envoi  <br/> |Contient les messages sortants IPM. |
+|Dossier �l�ments supprim�s  <br/> |Contient des messages IPM sont marqu�es pour suppression. |
+|dossier �l�ments envoy�s  <br/> |Contient des messages IPM qui ont �t� envoy�s. |
+|Dossier racine IPM  <br/> |Contient des dossiers pour la gestion des messages IPM. |
+|Dossier de r�ception  <br/> |Contient les messages entrants pour une classe de message particulier. |
+|Dossier racine de r�sultats de recherche  <br/> |Contient des dossiers pour la gestion des r�sultats de recherche. |
+|Dossier racine de commun-vues  <br/> |Contient des dossiers pour la gestion des affichages pour la banque de messages. |
+|Dossier racine de personnel-vues  <br/> |Contient des dossiers pour la gestion des vues pour un utilisateur particulier. |
    
 The first four folders relate to the IPM subtree, a tree of folders that MAPI creates when a message store is initialized. Default message stores for interactive messaging clients always include the IPM folder subtree and the other special folders in their folder hierarchy. Non-default message stores are required only to support the search-results root folder, the IPM subtree root folder, the Deleted Items folder, and the receive folder. To ensure that the IPM subtree folders exist and are valid, clients can call the [HrValidateIPMSubtree](hrvalidateipmsubtree.md) function. **HrValidateIPMSubtree** checks the folders and recreates them if there is a problem. 
   
@@ -57,7 +57,7 @@ Dossiers sp�ciaux Outlook sont identifi�s par leur identificateurs qui sont 
 |Calendrier  <br/> |**PR_IPM_APPOINTMENT_ENTRYID** ([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md))  <br/> |
 |Contacts  <br/> |**PR_IPM_CONTACT_ENTRYID** ([PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |
 |Journal  <br/> |**PR_IPM_JOURNAL_ENTRYID** ([PidTagIpmJournalEntryId](pidtagipmjournalentryid-canonical-property.md))  <br/> |
-|Remarques  <br/> |**PR_IPM_NOTE_ENTRYID** ([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
+|Notes  <br/> |**PR_IPM_NOTE_ENTRYID** ([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
 |Tâches  <br/> |**PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
 |Brouillons  <br/> |**PR_IPM_DRAFTS_ENTRYID** ([PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
    

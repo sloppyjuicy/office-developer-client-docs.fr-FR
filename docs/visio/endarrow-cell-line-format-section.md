@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f9c11ba-a316-bc34-60d4-0a41b2af486f
 description: Indique si un trait comporte une pointe de flèche ou un autre format d'extrémité de ligne à son dernier sommet.
-ms.openlocfilehash: 186c16762103aab59b3162f5706b0ca31ecfe9b4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0ee73d641ced11aed1422616d6ce286d424d8142
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559898"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782282"
 ---
 # <a name="endarrow-cell-line-format-section"></a>EndArrow, cellule (section Line Format)
 
@@ -22,8 +22,8 @@ Indique si un trait comporte une pointe de flèche ou un autre format d'extrémi
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0  <br/> |Pas de pointe  <br/> |
-|1 - 45  <br/> |Styles de pointes de flèches assortis correspondant aux entrées indexées de la boîte de dialogue **Trait**.  <br/> |
+|0  <br/> |Pas de pointe |
+|1 - 45  <br/> |Styles de pointes de flèches assortis correspondant aux entrées indexées de la boîte de dialogue **Trait**. |
    
 ## <a name="remarks"></a>Remarques
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 596c62b7-8d42-1854-d709-592db09a6a84
 description: Verrouille la forme afin d'empêcher sa suppression.
-ms.openlocfilehash: dc746ae96dc5f8d359b1f7500b59fdbe7d7d86f8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: af119ab6eb0b7aa96a22757dc41474d2a7c5222d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554466"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782163"
 ---
 # <a name="lockdelete-cell-protection-section"></a>LockDelete, cellule (section Protection)
 
@@ -23,7 +23,7 @@ Verrouille la forme afin d'empêcher sa suppression.
 |**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | La forme ne peut pas être supprimée.  <br/> |
-| FALSE  <br/> | La forme peut être supprimée.  <br/> |
+| FALSE  <br/> | La forme peut être supprimée. |
    
 ## <a name="remarks"></a>Remarques
 

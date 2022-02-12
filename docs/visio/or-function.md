@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251476
 ms.localizationpriority: medium
 ms.assetid: 6c2154fa-4190-0699-61f7-f2bdf87173ec
-description: Renvoie TRUE (1) si l’une des expressions logiques passées en tant que paramètres est TRUE.
-ms.openlocfilehash: 3d625417b52f970cb529b300e8506835ba1b8990
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Renvoie TRUE (1) si l’une des expressions logiques transmises en tant que paramètres est TRUE.
+ms.openlocfilehash: 793d7c676fe7b810e889c68198617681b164a964
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627806"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780609"
 ---
 # <a name="or-function"></a>Fonction OR
 
-Renvoie TRUE (1) si l’une des expressions logiques passées en tant que paramètres est TRUE.
+Renvoie TRUE (1) si l’une des expressions logiques transmises en tant que paramètres est TRUE.
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,9 +28,9 @@ OR(** *logicalexpression1* **, ** *logicalexpression2* **,..., ** *logicalexpres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _logicalexpression1_ <br/> |Obligatoire  <br/> |**String** <br/> |Première expression dont vous souhaitez évaluer la véracité.  <br/> |
-| _logicalexpression2_ <br/> |Obligatoire  <br/> |**String** <br/> |Deuxième expression dont vous souhaitez évaluer la véracité.  <br/> |
-| _logicalexpressionN_ <br/> |Obligatoire  <br/> |**String** <br/> |Nième expression dont vous souhaitez évaluer la véracité.  <br/> |
+| _logicalexpression1_ <br/> |Requis  <br/> |**String** <br/> |Première expression dont vous souhaitez évaluer la véracité. |
+| _logicalexpression2_ <br/> |Requis  <br/> |**String** <br/> |Deuxième expression dont vous souhaitez évaluer la véracité. |
+| _logicalexpressionN_ <br/> |Requis  <br/> |**String** <br/> |Nième expression dont vous souhaitez évaluer la véracité. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

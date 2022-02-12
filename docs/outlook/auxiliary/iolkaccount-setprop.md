@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 883b1c5d-47dd-a006-b5f1-130691bdd019
 description: Définit la valeur de la propriété de compte spécifiée.
-ms.openlocfilehash: 8fd8eb0acc51d457911799e751451e7600202d5d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4a65f54fda2d0bc030b5fe4312e7ceded0eb8fd3
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617145"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780203"
 ---
 # <a name="iolkaccountsetprop"></a>IOlkAccount::SetProp
 
@@ -43,8 +43,8 @@ _pVar_
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |L’appel de méthode a réussi.  <br/> |
-|E_INVALIDARG  <br/> |Une balise de propriété non valide a été spécifiée.  <br/> |
+|S_OK  <br/> |L’appel de méthode a réussi. |
+|E_INVALIDARG  <br/> |Une balise de propriété non valide a été spécifiée. |
    
 ## <a name="remarks"></a>Remarques
 

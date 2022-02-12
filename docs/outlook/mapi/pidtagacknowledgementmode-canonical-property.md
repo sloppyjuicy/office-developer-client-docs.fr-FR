@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 23329ca3-89f9-4e5a-9c8a-6262f2a2d26f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dd4f69efaa9e08b3cdf922e444440317ab295091
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7121d28d03f4228cab9c4288fc2369f7e19f05c9
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563951"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782625"
 ---
 # <a name="pidtagacknowledgementmode-canonical-property"></a>Propriété canonique PidTagAcknowledgementMode
 
@@ -40,8 +40,8 @@ Cette propriété peut avoir exactement l’une des valeurs suivantes :
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0  <br/> |Accusé de réception manuel.  <br/> |
-|1  <br/> |Accusé de réception automatique.  <br/> |
+|0  <br/> |Accusé de réception manuel. |
+|1  <br/> |Accusé de réception automatique. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

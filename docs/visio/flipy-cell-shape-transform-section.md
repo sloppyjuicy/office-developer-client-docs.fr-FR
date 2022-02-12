@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 062022ff-e243-2540-becd-d9b969ce83ce
 description: Indique si la forme a été retournée verticalement.
-ms.openlocfilehash: a8e90ca8b9653fe9c30673868805ded7ca37612b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ed1c3b25fce07a93e73d19c5e886bd4d797bbdc7
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570673"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780805"
 ---
 # <a name="flipy-cell-shape-transform-section"></a>FlipY, cellule (section Shape Transform)
 
@@ -22,8 +22,8 @@ Indique si la forme a été retournée verticalement.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | La forme a été retournée verticalement.  <br/> |
-| FALSE  <br/> | La forme n'a pas été retournée verticalement.  <br/> |
+| TRUE  <br/> | La forme a été retournée verticalement. |
+| FALSE  <br/> | La forme n'a pas été retournée verticalement. |
    
 ## <a name="remarks"></a>Remarques
 

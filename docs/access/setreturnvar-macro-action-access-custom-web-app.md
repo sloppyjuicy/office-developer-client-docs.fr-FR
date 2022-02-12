@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 57965c84-7a52-4d7c-9c7f-be3d4570576d
 description: L’action SetReturnVar crée une variable de retour et la définit sur une valeur spécifique.
-ms.openlocfilehash: 30aa71bab001a6ec36262c42242f463566b74e05
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 0bbc6afd43e056a063601ae1f5192cacb8a15dc2
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180718"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781666"
 ---
 # <a name="setreturnvar-macro-action-access-custom-web-app"></a>SetReturnVar Macro action (Access custom web app)
 
@@ -30,14 +30,14 @@ ms.locfileid: "62180718"
   
 |**Nom de l’argument**|**Obligatoire**|**Description**|
 |:-----|:-----|:-----|
-| _Name_ <br/> |Oui  <br/> |Chaîne qui spécifie le nom de la variable.  <br/> |
-| _Expression_ <br/> |Oui  <br/> |Expression qui sera utilisée pour définir la valeur de cette variable temporaire. Ne faites pas précéder l’expression du signe égal (=). Vous pouvez cliquer sur le bouton **Générer** pour utiliser le **Générateur d’expression** pour définir cet argument.<br/> |
+| _Name_ <br/> |Oui  <br/> |Chaîne qui spécifie le nom de la variable. |
+| _Expression_ <br/> |Oui  <br/> |Expression qui sera utilisée pour définir la valeur de cette variable temporaire. Ne faites pas précéder l’expression du signe égal (=). Vous pouvez cliquer sur le bouton **Générer** pour utiliser le **Générateur d’expression** pour définir cet argument. |
    
 ## <a name="remarks"></a>Remarques
 
-**L’action SetReturnVar** est utilisée pour créer une variable **ReturnVar**, qui peut être utilisée par les macros qui appellent une macro de données à l’aide de l’action **ExécuterMacroDonnées.** 
+**L’action SetReturnVar** est utilisée pour créer une variable **ReturnVar**, qui peut être utilisée par les macros qui appellent une macro de données à l’aide de l’action **ExécuterMacroDonnées**. 
   
-Une fois **qu’unevar** de retour est créée par l’action **SetReturnVar,** la macro appelant peut l’utiliser dans une expression. Par exemple, si vous avez créé une variable **ReturnVar** nommée **UpdateSuccess,** vous pouvez utiliser la variable à l’aide de la syntaxe suivante :
+Une fois **qu’unevar** de retour est créée par l’action **SetReturnVar** , la macro appelant peut l’utiliser dans une expression. Par exemple, si vous avez créé une variable **ReturnVar** nommée **UpdateSuccess**, vous pouvez utiliser la variable à l’aide de la syntaxe suivante :
   
 `=[ReturnVars]![UpdateSuccess]`
 

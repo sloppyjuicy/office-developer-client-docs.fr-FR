@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 074181a2-3a75-824c-049d-549aabff0f9f
 description: Microsoft InfoPath est un outil hybride qui combine le meilleur d’une expérience d’édition de documents traditionnelle, telle qu’un traitement de texte ou une application de messagerie, avec les fonctionnalités rigoureuses de capture de données d’un package de formulaires. Cet article décrit les problèmes qu'InfoPath est censé résoudre, et détaille les principes de conception et les standards XML que cette solution utilise.
-ms.openlocfilehash: 6417b480308e8444d8e8c3603b0ac7ac39c7b343
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f2d83157199296642cf908dd2cd68c6c16c723a5
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621289"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782828"
 ---
 # <a name="about-infopath-support-for-xml-technologies"></a>À propos de la prise en charge InfoPath pour les technologies XML
 
@@ -41,7 +41,7 @@ Des outils d’édition aussi flexibles que structurés s’avèrent donc néces
 
 Sur le plan de la conception technique, l’une des principales difficultés fut de trouver comment créer une interface simple d’utilisation permettant d’ajouter et de supprimer des éléments et attributs XML sans les afficher, tout en conservant une arborescence DOM conforme au schéma XML personnalisé défini. Une telle interface utilisateur devait donc permettre d’éditer facilement l’arborescence DOM, notamment en insérant des sous-arborescences facultatives, en remplaçant les sous-arborescences disponibles et en étendant les sous-arborescences existantes.
   
-Pour fournir une interface simple d'utilisation, une sous-arborescence DOM s'affiche sous la forme d'un groupe de champs (ou section). Un groupe de champs est un groupe de contrôles d'interface utilisateur (zones de texte, listes déroulantes, etc.) qui joue le rôle d'interface simple permettant à l'utilisateur de visualiser et d'éditer des données XML hiérarchiques. À l'instar des sous-arborescences DOM, qui peuvent contenir d'autres sous-arborescences et être facultatives ou extensibles, un groupe de champs peut contenir d'autres groupes de champs et être facultatif ou extensible. Une sous-arborescence est ajoutée à l’arborescence DOM lorsque l’utilisateur place le pointeur de la souris sur un groupe de champs, clique sur le menu déroulant qui apparaît sur le groupe de champs, puis sélectionne **Insérer. \<field group name\>**
+Pour fournir une interface simple d'utilisation, une sous-arborescence DOM s'affiche sous la forme d'un groupe de champs (ou section). Un groupe de champs est un groupe de contrôles d'interface utilisateur (zones de texte, listes déroulantes, etc.) qui joue le rôle d'interface simple permettant à l'utilisateur de visualiser et d'éditer des données XML hiérarchiques. À l'instar des sous-arborescences DOM, qui peuvent contenir d'autres sous-arborescences et être facultatives ou extensibles, un groupe de champs peut contenir d'autres groupes de champs et être facultatif ou extensible. Une sous-arborescence est ajoutée à l’arborescence DOM lorsque l’utilisateur place le pointeur de la souris sur un groupe de champs, clique sur le menu déroulant qui apparaît sur le groupe de champs, puis sélectionne **Insérer \<field group name\>**.
   
 InfoPath permet d'éditer les données XML de façon structurée en utilisant le schéma XML spécifié pour encadrer et guider l'édition. Le schéma détermine notamment si les commandes **Insérer** et **Supprimer** doivent ou non s'afficher dans le menu déroulant d'un groupe de champs. Ce schéma est également utilisé pour la validation. Pour permettre l'édition d'un document XML pour lequel il n'existe pas de schéma, InfoPath peut générer un schéma à partir du document XML. 
   
@@ -161,8 +161,8 @@ InfoPath s'intègre parfaitement à la souplesse du modèle des services Web, da
 
 |||
 |:-----|:-----|
-|**Groupe de champs :** <br/> |Section, section extensible, section facultative ou tableau extensible. Les sections et les tableaux extensibles sont des contrôles de formulaire contenant d’autres contrôles et qui s’étendent en fonction des besoins. Les utilisateurs peuvent insérer plusieurs sections ou lignes lorsqu’ils remplissent le formulaire.  <br/> |
-|**Arborescence DOM :** <br/> |Structure de la source de données du formulaire. En particulier, la collection de champs et de groupes qui définissent et stockent les données d’un formulaire InfoPath.  <br/> |
+|**Groupe de champs :** <br/> |Section, section extensible, section facultative ou tableau extensible. Les sections et les tableaux extensibles sont des contrôles de formulaire contenant d’autres contrôles et qui s’étendent en fonction des besoins. Les utilisateurs peuvent insérer plusieurs sections ou lignes lorsqu’ils remplissent le formulaire. |
+|**Arborescence DOM :** <br/> |Structure de la source de données du formulaire. En particulier, la collection de champs et de groupes qui définissent et stockent les données d’un formulaire InfoPath. |
    
 ## <a name="conclusion"></a>Conclusion
 

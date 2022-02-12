@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: cf063c05-5789-e037-700b-1e70df00e254
 description: Détermine la casse du texte de la forme. Toutes les lettres capitales (majuscules) (1) et Capitales initiales uniquement (2) ne modifient pas l'apparence d'un texte qui a été entré tout en lettres capitales. Le texte doit avoir été entré en lettres minuscules pour que les effets de cette option soient visibles.
-ms.openlocfilehash: b5692f9dd4ec9941001162da36eb4d693c38a8b4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 839b1f92f62493e20f53d1549019028408aaf952
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623508"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782415"
 ---
 # <a name="case-cell-character-section"></a>Case, cellule (section Character)
 
@@ -32,14 +32,14 @@ Pour obtenir une référence à la cellule Case par un nom à partir d'une autre
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Char.Case[  *i*  ] où  *i*  = <1>, 2, 3, ...  <br/> |
+| Nom de la cellule :  <br/> | Char.Case[  *i*  ] où  *i*  = <1>, 2, 3, ... |
    
 Pour obtenir une référence à la cellule Case à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionCharacter** <br/> |
-| Index de la ligne :  <br/> |**visRowCharacter**  +   *i* où *i* = 0, 1, 2, ...  <br/> |
+| Index de la ligne :  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2, ... |
 | Index de la cellule :  <br/> |**visCharacterCase** <br/> |
    
 

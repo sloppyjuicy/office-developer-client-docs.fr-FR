@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 930c906d-d6f0-49ad-8ed7-336e7833d672
 description: Renvoie la valeur minimale dans l’expression d’une requête ou d’une table.
-ms.openlocfilehash: f8a2fa1f27dc46c74cb6046091d3410e6d30c947
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: e97545733a3dff1e621d37475a1db19a8cfd3ae0
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180746"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782905"
 ---
 # <a name="min-function-access-custom-web-app"></a>Min Function (Access custom web app)
 
@@ -29,4 +29,4 @@ La **fonction Min** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *Expression*  <br/> |Expression chaîne identifiant le champ qui contient les données à évaluer ou expression qui effectue un calcul à l’aide des données de ce champ. Les opérandes dans *Expression* peuvent inclure le nom d’un champ de table, d’une constante ou d’une fonction (qui peut être intrinsèque ou définie par l’utilisateur, mais pas une des autres fonctions d’agrégation SQL).  <br/> |
+| *Expression*  <br/> |Expression chaîne identifiant le champ qui contient les données à évaluer ou expression qui effectue un calcul à l’aide des données de ce champ. Les opérandes dans *Expression* peuvent inclure le nom d’un champ de table, d’une constante ou d’une fonction (qui peut être intrinsèque ou définie par l’utilisateur, mais pas une des autres fonctions d’agrégation SQL). |

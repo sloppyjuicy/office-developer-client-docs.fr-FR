@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9fbe537f-b5fe-48a2-803c-653c50c82efd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 24316203e81ae48f8ef320d7a9f16d08d4120c6e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f69b62d57883e84d97cf1e29b45c679a97eee582
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570932"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779741"
 ---
 # <a name="pidtagrecipientflags-canonical-property"></a>Propriété canonique PidTagRecipientFlags
 
@@ -40,14 +40,14 @@ Cette propriété n’est pas obligatoire. Voici les indicateurs individuels qui
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|S (recipSendable, 0x00000001)  <br/> |Le destinataire est un **participant à l’envoi.** Cet indicateur est utilisé uniquement dans la propriété **dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)).  <br/> |
-|O (recipOrganizer, 0x0000002)  <br/> |La **recipientRow** sur laquelle cet indicateur est définie représente l’organisateur de la réunion.  <br/> |
-|ER (recipExceptionalResponse, 0x00000010)  <br/> |Indique que le participant a donné une réponse pour l’exception sur laquelle réside **ce RecipientRow.** Cet indicateur est utilisé uniquement dans **un RecipientRow** d’un objet message incorporé d’exception de l’objet de réunion de l’organisateur.  <br/> |
-|ED (recipExceptionalDeleted, 0x00000020)  <br/> |Indique que bien que **recipientRow** existe, il doit être traité comme si le destinataire correspondant ne le fait pas. Cet indicateur est utilisé uniquement dans **un RecipientRow** d’un objet message incorporé d’exception de l’objet de réunion de l’organisateur.  <br/> |
-|X (réservé, 0x00000040)  <br/> |Ne doit pas être définie.  <br/> |
-|X (réservé, 0x00000080)  <br/> |Ne doit pas être définie.  <br/> |
-|G (recipOriginal, 0x00000100)  <br/> |Indique que le destinataire est un participant d’origine. Cet indicateur est utilisé uniquement dans la **propriété dispidApptUnsendableRecips.**  <br/> |
-|X (réservé, 0x00000200)  <br/> |Réservé.  <br/> |
+|S (recipSendable, 0x00000001)  <br/> |Le destinataire est un **participant à l’envoi** . Cet indicateur est utilisé uniquement dans la propriété **dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)). |
+|O (recipOrganizer, 0x0000002)  <br/> |Le **RecipientRow** sur lequel cet indicateur est définie représente l’organisateur de la réunion. |
+|ER (recipExceptionalResponse, 0x00000010)  <br/> |Indique que le participant a donné une réponse pour l’exception sur laquelle réside **ce RecipientRow** . Cet indicateur est utilisé uniquement dans **un RecipientRow** d’un objet message incorporé d’exception de l’objet de réunion de l’organisateur. |
+|ED (recipExceptionalDeleted, 0x00000020)  <br/> |Indique que bien que **recipientRow** existe, il doit être traité comme si le destinataire correspondant ne le fait pas. Cet indicateur est utilisé uniquement dans **un RecipientRow** d’un objet message incorporé d’exception de l’objet de réunion de l’organisateur. |
+|X (réservé, 0x00000040)  <br/> |Ne doit pas être définie. |
+|X (réservé, 0x00000080)  <br/> |Ne doit pas être définie. |
+|G (recipOriginal, 0x00000100)  <br/> |Indique que le destinataire est un participant d’origine. Cet indicateur est utilisé uniquement dans la **propriété dispidApptUnsendableRecips** . |
+|X (réservé, 0x00000200)  <br/> |Réservé. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

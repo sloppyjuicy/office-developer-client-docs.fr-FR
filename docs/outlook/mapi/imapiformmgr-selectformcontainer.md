@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c33daad6-52c4-4968-ac56-415178c9bf12
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 91831f40d7adfed25b04a355b665c9582e885392
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 71704226c0d317e368a742c2eb7362719712c768
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567564"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781393"
 ---
 # <a name="imapiformmgrselectformcontainer"></a>IMAPIFormMgr::SelectFormContainer
 
@@ -25,7 +25,7 @@ ms.locfileid: "59567564"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Présente une boîte de dialogue qui permet à l’utilisateur de sélectionner un conteneur de formulaire et renvoie une interface pour l’objet conteneur sélectionné par l’utilisateur.
+Présente une boîte de dialogue qui permet à l’utilisateur de sélectionner un conteneur de formulaires et renvoie une interface pour l’objet conteneur sélectionné par l’utilisateur.
   
 ```cpp
 HRESULT SelectFormContainer(
@@ -55,7 +55,7 @@ MAPIFORM_SELECT_FOLDER_REGISTRY_ONLY
     
 MAPIFORM_SELECT_NON_FOLDER_REGISTRY_ONLY 
   
-> La sélection peut être réalisée uniquement à partir de conteneurs qui ne sont pas associés à des dossiers.
+> La sélection ne peut être réalisée qu’à partir de conteneurs qui ne sont pas associés à des dossiers.
     
  _lppfcnt_
   
@@ -69,7 +69,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaire appellent généralement la méthode **IMAPIFormMgr::SelectFormContainer** pour sélectionner un conteneur de formulaire dans lequel un formulaire est installé. **SelectFormContainer ne peut** pas être utilisé pour sélectionner le conteneur de formulaire local, dont la valeur est HFRMREG_LOCAL. 
+Les visionneuses de formulaires appellent généralement la méthode **IMAPIFormMgr::SelectFormContainer** pour sélectionner un conteneur de formulaires dans lequel un formulaire est installé. **SelectFormContainer ne peut** pas être utilisé pour sélectionner le conteneur de formulaire local, dont la valeur est HFRMREG_LOCAL. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -77,7 +77,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnSelectFormContainer  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::SelectFormContainer** pour sélectionner un conteneur de formulaire avant d’en rendre le contenu.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnSelectFormContainer  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::SelectFormContainer** pour sélectionner un conteneur de formulaire avant d’en rendre le contenu. |
    
 ## <a name="see-also"></a>Voir aussi
 

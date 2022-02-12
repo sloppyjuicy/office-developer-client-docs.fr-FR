@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 75e53ad0-3ca3-11a1-9107-63ec15601c13
 description: Spécifie les propriétés des solutions stockées dans le document.
-ms.openlocfilehash: 9ea6cfd2c4e5de9ee0e763bf4c4649660abdad68
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f077fe41597dc2801a2869a951bdb63307d64e00
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553801"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781876"
 ---
 # <a name="solutions-element-visio-xml"></a>Élément Solutions (Visio XML)
 
@@ -35,7 +35,7 @@ Spécifie les propriétés des solutions stockées dans le document.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -45,7 +45,7 @@ Aucune.
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Spécifie une instance de solution XML stockée dans le dessin.  <br/> |
+|[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Spécifie une instance de solution XML stockée dans le dessin. |
    
 ### <a name="attributes"></a>Attributs
 

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: bbdb2dea-4f75-b73e-a98a-0031f34dff2c
 description: Renvoie une référence de feuille au conteneur spécifié contenant la forme.
-ms.openlocfilehash: 59d820760d09d56bdbc47ef2a56252d6214c6278
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 99793b7fc24de0dd682e34d3073b0ccd9a53fcfa
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559989"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782331"
 ---
 # <a name="containersheetref-function"></a>Fonction CONTAINERSHEETREF
 
@@ -31,8 +31,8 @@ CONTAINERSHEETREF(** *index* ** ** *[, category]* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _index_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Index de base 1 du conteneur. Voir la section Remarques pour plus d’informations.  <br/> |
-| _category_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Catégorie du conteneur. Voir la section Remarques pour plus d’informations.  <br/> |
+| _index_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Index de base 1 du conteneur. Voir la section Remarques pour plus d’informations. |
+| _category_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Catégorie du conteneur. Voir la section Remarques pour plus d’informations. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 43128ea2-c0d9-c45f-31e6-768a80ae59b2
 description: Vous pouvez utiliser des opérateurs dans des formules pour effectuer des opérations arithmétiques (addition, soustraction, multiplication, etc.) ou des comparaisons logiques (supérieur à, inférieur à, égal à, etc.). Vous pouvez également définir l’ordre d’évaluation dans une formule en plaçant les expressions entre parenthèses. Utilisez l’opérateur & pour combiner (concaténer) des chaînes de caractères.
-ms.openlocfilehash: 81829e04445652ce45b3b1ff92339b2090c2fcb9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7b9e110760c3b23aa57f2e9e222ab158ccbbae38
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619175"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782471"
 ---
 # <a name="about-operators"></a>À propos des opérateurs
 
@@ -26,9 +26,9 @@ Le tableau ci-dessous montre des exemples d’expressions avec leurs résultats.
   
 |**Expression**|**Résultat**|**Description**|
 |:-----|:-----|:-----|
-| 2 \* 5 &amp; »  <br/> | "10 cents"  <br/> | L’opérateur (concatenation de chaîne) requiert des arguments de chaîne, de sorte que le résultat numérique de 2 5 est automatiquement converti en chaîne &amp; \* « 10 ».  <br/> |
-| 5 \* « 2 »  <br/> | 10  <br/> | L’opérateur (multiplication) requiert des arguments numériques, de sorte que la chaîne « 2 » est automatiquement convertie en nombre \* équivalent 2.  <br/> |
-| 5 \* « sous »  <br/> | 0  <br/> | L’opérateur (multiplication) requiert des arguments numériques, donc, étant donné que la chaîne « er » ne peut pas être convertie en nombre, zéro est utilisé comme équivalent \* numérique.  <br/> |
+| 2 \* 5 &amp; »  <br/> | "10 cents"  <br/> | L’opérateur &amp; (concatenation de chaîne) requiert des arguments de chaîne, de sorte que le résultat numérique de 2 \* 5 est automatiquement converti en chaîne « 10 ». |
+| 5 \* « 2 »  <br/> | 10  <br/> | L’opérateur \* (multiplication) requiert des arguments numériques, de sorte que la chaîne « 2 » est automatiquement convertie en nombre équivalent 2. |
+| 5 \* « sous »  <br/> | 0  <br/> | L’opérateur \* (multiplication) requiert des arguments numériques, donc, étant donné que la chaîne « er » ne peut pas être convertie en nombre, zéro est utilisé comme équivalent numérique. |
    
 ## <a name="arithmetic-operators"></a>Opérateurs arithmétiques
 
@@ -53,12 +53,12 @@ Les opérateurs de comparaison sont utilisés pour construire des expressions lo
 |:-----|:-----|:-----|:-----|:-----|
 | \>  <br/> | _GT_  <br/> | Supérieur à  <br/> | 5 \> 2  <br/> | TRUE  <br/> |
 | \<  <br/> | _LT_  <br/> | Inférieur à  <br/> | 5 \< 2  <br/> | FALSE  <br/> |
-| \>=  <br/> | _GE_  <br/> | Supérieur ou égal à  <br/> | 5 \> = 2  <br/> | TRUE  <br/> |
+| \>=  <br/> | _GE_  <br/> | Supérieur ou égal à  <br/> | 5 \>= 2  <br/> | TRUE  <br/> |
 | \<=  <br/> | _LE_  <br/> | Inférieur ou égal à  <br/> | 5 \<= 2  <br/> | FALSE  <br/> |
 | =  <br/> | _EQ_  <br/> | Égal à  <br/> | 5 = 2  <br/> | FALSE  <br/> |
 | \<\>  <br/> | _NE_  <br/> | Différent de  <br/> | 5 \<\> 2  <br/> | TRUE  <br/> |
    
-Les opérateurs de comparaison symboliques ( et ainsi de suite) sont \> le meilleur choix pour la plupart des \< comparaisons. Les opérateurs alternatifs _(GT,_ _LT,_ etc.) effectuent une comparaison exacte avec les 15 chiffres complets de précision que Visio utilise pour stocker des valeurs en interne.
+Les opérateurs de comparaison symboliques (\>et \<ainsi de suite) sont le meilleur choix pour la plupart des comparaisons. Les opérateurs alternatifs (_GT_, _LT_, etc.) effectuent une comparaison exacte avec les 15 chiffres complets de précision que Visio utilise pour stocker des valeurs en interne.
   
 Lorsque vous comparez des valeurs arrondies ou calculées à l’aide de ces opérateurs de remplacement, la valeur FALSE peut être renvoyée, alors que dans la pratique, l’expression devrait renvoyer TRUE.
   

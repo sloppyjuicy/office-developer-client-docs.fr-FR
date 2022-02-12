@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: f0f0a65f-5248-4d7c-a4a4-a0cc863b15ec
 description: Annule une entrée boolé américaine.
-ms.openlocfilehash: 61b2840724c85cfe079fb1b6980b55caecd034b3
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: dab7620256cec8f2e0d72a48cc58fb920c0f29d5
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179675"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782898"
 ---
 # <a name="not-access-custom-web-app"></a>NOT (Application web personnalisée Access)
 
@@ -29,15 +29,15 @@ Annule une entrée boolé américaine.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *BooleanExpression*  <br/> |Expression boolé américaine valide.  <br/> |
+| *BooleanExpression*  <br/> |Expression boolé américaine valide. |
    
 ## <a name="remarks"></a>Remarques
 
-Le tableau suivant présente les résultats de la comparaison des valeurs TRUE et FALSE à l’aide de **l’opérateur Not.** 
+Le tableau suivant présente les résultats de la comparaison des valeurs TRUE et FALSE à l’aide de **l’opérateur Not** . 
   
 ||**Not**|
 |:-----|:-----|
-|**TRUE** <br/> |Faux  <br/> |
-|**FALSE** <br/> |Vrai  <br/> |
+|**TRUE** <br/> |False  <br/> |
+|**FALSE** <br/> |True  <br/> |
    
 

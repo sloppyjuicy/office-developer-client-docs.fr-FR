@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 781369e1-fade-ec10-7c51-0f921b5c3b76
 description: Spécifie un argument que la cellule d’appel peut transmettre à une fonction personnalisée, ainsi que la valeur par défaut renvoyée par la fonction personnalisée si la cellule d’appel ne passe pas de valeur pour l’argument. Renvoie la valeur spécifiée par la cellule d’appel et le paramètre argName correspondant.
-ms.openlocfilehash: df1e3106eb624064be48bed76201dae6fe40e3cf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b839b3d06ecd780f7edcdabd953600924b52ca25
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628856"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781134"
 ---
 # <a name="arg-function"></a>Fonction ARG
 
@@ -26,8 +26,8 @@ ARG(***argName** _,[ _ *_defaultValue_** ])
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _argName_ <br/> |Obligatoire  <br/> |**String** <br/> |Le nom d’un argument que peut transmettre la cellule d’appel à la fonction.  <br/> |
-| _valeur par défaut_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Valeur renvoyée par ARG si la cellule d’appel n’a pas passé de valeur pour le _paramètre argName._  <br/> |
+| _argName_ <br/> |Requis  <br/> |**String** <br/> |Le nom d’un argument que peut transmettre la cellule d’appel à la fonction. |
+| _valeur par défaut_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Valeur renvoyée par ARG si la cellule d’appel n’a pas passé de valeur pour le  _paramètre argName_ . |
    
 ## <a name="remarks"></a>Remarques
 

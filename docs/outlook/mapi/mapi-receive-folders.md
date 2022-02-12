@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 2e1287a3-0f15-4d9a-b7ee-738fce9cd51f
 description: 'Derniï¿½re modificationï¿½: lundi 9 mars 2015'
-ms.openlocfilehash: 738d1f28e72e477fcedab46191b600db187877cc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 87a6f35812c895d2520dade1c628b13b709ff1cd
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556153"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781323"
 ---
 # <a name="mapi-receive-folders"></a>MAPI reï¿½oivent des dossiers
 
@@ -66,9 +66,9 @@ Dans l'appel **SetReceiveFolder**, clients transmettre gï¿½nï¿½ralement une chaï
   
 |**paramï¿½tre de  _SetReceiveFolder_**|**Comportement rï¿½sultant**|
 |:-----|:-----|
-|Identificateur d'entrï¿½e la valeur NULL  <br/> |La banque de messages supprime l'association entre le texte spï¿½cifiï¿½ de classe et de ses existants de dossier de rï¿½ception de message. Recevoir un nouveau dossier n'est pas ï¿½tablie. <br/> Les appels ultï¿½rieurs ï¿½ **GetReceiveFolder** ï¿½ cette classe de message renverra le dossier de rï¿½ception pour un prï¿½fixe de la classe de message ; de nouvelles banques de message, **GetReceiveFolder** retournera la boï¿½te de rï¿½ception dans la sous-arborescence IPM.  <br/> |
-|Classe de message la valeur NULL  <br/> |La banque de messages modifie l'association de la classe de message vide dans le dossier indiquï¿½. Les messages entrants dont la classe n'est pas reconnue dans le cas contraire seront dirigï¿½s vers ce dossier.  <br/> |
-|Identificateur d'entrï¿½e et de la classe de message la valeur NULL  <br/> |La banque de messages supprime l'association de la classe/dossier pour la classe de message vide. Vous ne devez pas dï¿½finir les deux paramï¿½tres ï¿½ la valeur NULL, car elle rï¿½duit gï¿½nï¿½ralement dans les messages entrants placï¿½es dans le dossier racine de la banque de messages, un dossier qui est invisible dans le client.  <br/> |
+|Identificateur d'entrï¿½e la valeur NULL  <br/> |La banque de messages supprime l'association entre le texte spï¿½cifiï¿½ de classe et de ses existants de dossier de rï¿½ception de message. Recevoir un nouveau dossier n'est pas ï¿½tablie. Les appels ultï¿½rieurs ï¿½ **GetReceiveFolder** ï¿½ cette classe de message renverra le dossier de rï¿½ception pour un prï¿½fixe de la classe de message ; de nouvelles banques de message, **GetReceiveFolder** retournera la boï¿½te de rï¿½ception dans la sous-arborescence IPM. |
+|Classe de message la valeur NULL  <br/> |La banque de messages modifie l'association de la classe de message vide dans le dossier indiquï¿½. Les messages entrants dont la classe n'est pas reconnue dans le cas contraire seront dirigï¿½s vers ce dossier. |
+|Identificateur d'entrï¿½e et de la classe de message la valeur NULL  <br/> |La banque de messages supprime l'association de la classe/dossier pour la classe de message vide. Vous ne devez pas dï¿½finir les deux paramï¿½tres ï¿½ la valeur NULL, car elle rï¿½duit gï¿½nï¿½ralement dans les messages entrants placï¿½es dans le dossier racine de la banque de messages, un dossier qui est invisible dans le client. |
    
 Bien que les classes d'un message ne doivent jamais ï¿½tre vide, une classe de message vide peut se produire. Il incombe de la banque de messages pour affecter la classe de message ï¿½ **IPM** pour les nouveaux messages sortants qui ont une classe vide ; Il incombe du fournisseur de transport pour affecter **IPM.Note** comme classe pour les messages entrants ayant n'importe quelle classe vide. 
   

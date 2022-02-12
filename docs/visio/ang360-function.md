@@ -9,16 +9,16 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 23e6899d-0a94-a7d8-8de2-091e0531f163
 description: Normalise la plage d’un angle.
-ms.openlocfilehash: b94af0ea3d20c839f9bb314e042b2c19da0f0820
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c41220ae20d124fd8d72c471dc421ce3993d0bac
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603941"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781154"
 ---
 # <a name="ang360-function"></a>Fonction ANG360
 
-Normalise la plage d’un angle à 0 = résultat \< \< 2PI radians (0 \< = résultat \< 360 degrés).
+Normalise la plage d’un angle à 0 \<= \< résultat radians 2PI (0 \<= \< résultat 360 degrés).
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,11 +28,11 @@ ANG360(***angle*** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Angle à normaliser.  <br/> |
+| _angle_ <br/> |Requis  <br/> |**Numérique** <br/> |Angle à normaliser. |
    
 ## <a name="remarks"></a>Remarques
 
-Si  *l’angle*  n’est pas spécifié à l’aide d’unités angulaires, il est interprété comme des radians. Si  *l’angle*  ne peut pas être converti en valeur, un #VALUE! est renvoyée. 
+Si  *l’angle*  n’est pas spécifié à l’aide d’unités angulaires, il est interprété comme des radians. Si  *l’angle*  ne peut pas être converti en valeur, un #VALUE ! est renvoyée. 
   
 ## <a name="example-1"></a>Exemple 1
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 28ba9997-72dd-465f-94a7-35a317a361ef
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c88b565cd74e308d4cb87ba49499dcc6fc252a28
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3118f863399f266dbc86c8978ce74f8fecb394cc
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583694"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781232"
 ---
 # <a name="pidlidtaskmultiplerecipients-canonical-property"></a>Propriété canonique PidLidTaskMultipleRecipients
 
@@ -41,9 +41,9 @@ Si elle est définie, cette propriété doit être définie sur une opération *
   
 |**Name**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|Sent  <br/> |0x00000001  <br/> |La tâche a plusieurs destinataires principaux.  <br/> |
-|Received  <br/> |0x00000002  <br/> |Bien que l’indication Envoyée ne soit pas présente, le client a détecté que la tâche a plusieurs destinataires principaux.  <br/> |
-|Reserved  <br/> |0x00000004  <br/> |Cette valeur est réservée.  <br/> |
+|Sent  <br/> |0x00000001  <br/> |La tâche a plusieurs destinataires principaux. |
+|Received  <br/> |0x00000002  <br/> |Bien que l’indication Envoyée ne soit pas présente, le client a détecté que la tâche a plusieurs destinataires principaux. |
+|Reserved  <br/> |0x00000004  <br/> |Cette valeur est réservée. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

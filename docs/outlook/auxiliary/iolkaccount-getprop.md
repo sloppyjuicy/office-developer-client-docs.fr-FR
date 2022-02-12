@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 5725eb52-3a78-897d-f9e3-c5a494fb78c0
 description: Obtient la valeur de la propriété de compte spécifiée.
-ms.openlocfilehash: 2ab86eeaf18374a28159c6f0743e55d1664a1b31
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 94cefd3f947ba562c4839f7d8291a1a7251db354
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561949"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780245"
 ---
 # <a name="iolkaccountgetprop"></a>IOlkAccount::GetProp
 
@@ -43,9 +43,9 @@ _pVar_
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |L'appel a réussi.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |La propriété n’est pas trouvée pour le compte donné.  <br/> |
-|E_INVALIDARG  <br/> |Une balise de propriété non valide a été spécifiée.  <br/> |
+|S_OK  <br/> |L'appel a réussi. |
+|E_ACCT_NOT_FOUND  <br/> |La propriété n’est pas trouvée pour le compte donné. |
+|E_INVALIDARG  <br/> |Une balise de propriété non valide a été spécifiée. |
    
 ## <a name="remarks"></a>Remarques
 

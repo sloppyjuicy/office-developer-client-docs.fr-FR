@@ -8,12 +8,12 @@ keywords:
 ms.assetid: c0e6dd3b-fae1-453d-a9b4-7f456b5172db
 description: Découvrez les nouveaux scénarios de document structuré que permettent de déployer les contrôles de contenu Microsoft Word 2013.
 ms.localizationpriority: high
-ms.openlocfilehash: fdf9db012ce9d32017aa2ab069d7b42e1e30dd04
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0b2e845a6bf9cce2a6dd894167d415e6d5694931
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622570"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781694"
 ---
 # <a name="content-controls-in-word"></a>Contrôles de contenu dans Word
 
@@ -236,8 +236,8 @@ Les éléments suivants ont été ajoutés au schéma WordprocessingML au format
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|\<w:appearance\>  <br/> |\<w:appearance\> est un élément enfant de \<w:sdtPr\>.  <br/> Voici les valeurs valides pour l’attribut val :  <br/> \<w:appearance val= boundingBox|étiquettes|hidden.  <br/> La valeur par défaut est boundingBox.  <br/> |
-|\<w:color\>  <br/> |\<w:color\> est un élément enfant de \<w:sdtPr\>.  <br/> Le modèle de contenu correspond au type complexe CT_Color existant. La valeur par défaut est la couleur utilisée dans Word 2010.<br/> |
+|\<w:appearance\>  <br/> |\<w:appearance\> est un élément enfant de \<w:sdtPr\>. Voici les valeurs valides pour l’attribut val :  <br/> \<w:appearance val= boundingBox|étiquettes|hidden. La valeur par défaut est boundingBox. |
+|\<w:color\>  <br/> |\<w:color\> est un élément enfant de \<w:sdtPr\>. Le modèle de contenu correspond au type complexe CT_Color existant. La valeur par défaut est la couleur utilisée dans Word 2010. |
    
 ## <a name="new-word-2013-content-control-object-model-members"></a>Nouveaux membres du modèle objet contrôle de contenu Word 2013
 <a name="WordCC_NewOM"> </a>
@@ -255,8 +255,8 @@ Plusieurs ajouts de modèle objet sont inclus dans Word 2013 pour améliorer la
 
 |**Membre**|**Description**|
 |:-----|:-----|
-|. **Appearance** en tant que **WdContentControlAppearance** <br/> |Obtient ou définit la visualisation du contrôle de contenu.  <br/> |
-|. **Color** en tant que **WdColor** <br/> |Obtient ou définit la couleur du contrôle de contenu.  <br/> |
+|. **Appearance** en tant que **WdContentControlAppearance** <br/> |Obtient ou définit la visualisation du contrôle de contenu. |
+|. **Color** en tant que **WdColor** <br/> |Obtient ou définit la couleur du contrôle de contenu. |
    
 Le tableau suivant répertorie les constantes dans la nouvelle énumération **WdContentControlAppearance**. 
   
@@ -264,9 +264,9 @@ Le tableau suivant répertorie les constantes dans la nouvelle énumération **W
 
 |**Constante**|**Description**|
 |:-----|:-----|
-|**wdContentControlBoundingBox** <br/> |Représente un contrôle de contenu affiché sous la forme d’une zone ombrée rectangulaire/englobante (avec un titre facultatif).  <br/> |
-|**wdContentControlTags** <br/> |Représente un contrôle de contenu affiché comme des marques de début et de fin.  <br/> |
-|**wdContentControlHidden** <br/> |Représente un contrôle de contenu qui n’est pas affiché.  <br/> |
+|**wdContentControlBoundingBox** <br/> |Représente un contrôle de contenu affiché sous la forme d’une zone ombrée rectangulaire/englobante (avec un titre facultatif). |
+|**wdContentControlTags** <br/> |Représente un contrôle de contenu affiché comme des marques de début et de fin. |
+|**wdContentControlHidden** <br/> |Représente un contrôle de contenu qui n’est pas affiché. |
    
 ### <a name="code-sample"></a>Exemple de code
 <a name="WordCC_VisEnhancements"> </a>
@@ -358,10 +358,10 @@ Le tableau 5 répertorie les membres les plus importants de l’objet **Repeati
 
 |**Membre**|**Description**|
 |:-----|:-----|
-|**Range** en tant que **Range** <br/> |Renvoie la plage de l’élément répétitif spécifié, à l’exclusion des balises de début et de fin.  <br/> |
-|**Delete** <br/> |Supprime l’élément répétitif spécifié.  <br/> |
-|**InsertItemAfter** en tant que **RepeatingSectionItem** <br/> |Ajoute un élément répétitif après l’élément spécifié et renvoie le nouvel élément.  <br/> |
-|**InsertItemBefore** en tant que **RepeatingSectionItem** <br/> |Ajoute un élément répétitif avant l’élément spécifié et renvoie le nouvel élément.  <br/> |
+|**Range** en tant que **Range** <br/> |Renvoie la plage de l’élément répétitif spécifié, à l’exclusion des balises de début et de fin. |
+|**Delete** <br/> |Supprime l’élément répétitif spécifié. |
+|**InsertItemAfter** en tant que **RepeatingSectionItem** <br/> |Ajoute un élément répétitif après l’élément spécifié et renvoie le nouvel élément. |
+|**InsertItemBefore** en tant que **RepeatingSectionItem** <br/> |Ajoute un élément répétitif avant l’élément spécifié et renvoie le nouvel élément. |
    
 Le tableau 6 répertorie les membres les plus importants de l’objet **RepeatingSectionItemColl**. 
   
@@ -369,7 +369,7 @@ Le tableau 6 répertorie les membres les plus importants de l’objet **Repeati
 
 |**Membre**|**Description**|
 |:-----|:-----|
-|**Item** en tant que **RepeatingSectionItem** <br/> |Renvoie un élément répétitif individuel.  <br/> |
+|**Item** en tant que **RepeatingSectionItem** <br/> |Renvoie un élément répétitif individuel. |
    
 Le tableau 7 illustre le nouveau membre de l’énumération **WdContentControlType** pour les contrôles de contenu répétitif. 
   
@@ -377,7 +377,7 @@ Le tableau 7 illustre le nouveau membre de l’énumération **WdContentControl
 
 |**Constante**|**Description**|
 |:-----|:-----|
-|**wdContentControlRepeatingSection** <br/> |Représente un contrôle de contenu qui contient un seul élément dans une section répétitive.  <br/> |
+|**wdContentControlRepeatingSection** <br/> |Représente un contrôle de contenu qui contient un seul élément dans une section répétitive. |
    
 ### <a name="code-sample"></a>Exemple de code
 <a name="WordCC_RepeatingSection"> </a>
@@ -432,10 +432,10 @@ Les éléments répétitifs individuels dans le contrôle de contenu répétitif
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|\<w15:repeatingSection\>  <br/> |Spécifie un contrôle de contenu répétitif. Cet élément est incompatible avec tous les autres types de contrôles et n’a ni attributs enfants, ni éléments.  <br/> |
-|\<w15:repeatingSectionItem\>  <br/> |Spécifie un contrôle de contenu d’élément répétitif. Cet élément est incompatible avec tous les autres types de contrôles et n’a ni attributs enfants, ni éléments enfants.  <br/> |
-|\<w15:doNotAllowInsertDeleteSection\>  <br/> |Spécifie que l’utilisateur ne peut ni ajouter ni supprimer des sections à l’aide des options de l’interface dans Word 2013.  <br/> |
-|\<w15:sectionTitle\>  <br/> |Spécifie le nom des éléments répétés (et est utilisé dans le menu contextuel lorsque le contrôle est sélectionné).  <br/> |
+|\<w15:repeatingSection\>  <br/> |Spécifie un contrôle de contenu répétitif. Cet élément est incompatible avec tous les autres types de contrôles et n’a ni attributs enfants, ni éléments. |
+|\<w15:repeatingSectionItem\>  <br/> |Spécifie un contrôle de contenu d’élément répétitif. Cet élément est incompatible avec tous les autres types de contrôles et n’a ni attributs enfants, ni éléments enfants. |
+|\<w15:doNotAllowInsertDeleteSection\>  <br/> |Spécifie que l’utilisateur ne peut ni ajouter ni supprimer des sections à l’aide des options de l’interface dans Word 2013. |
+|\<w15:sectionTitle\>  <br/> |Spécifie le nom des éléments répétés (et est utilisé dans le menu contextuel lorsque le contrôle est sélectionné). |
    
 
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2e5ec914-7171-41ce-a6fe-78dd80ac32ff
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5b8549c2abbad33baf38312f0d803f1f6f3a8244
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cf364a8df21ba2849a086c75a5ef90fc40149cf2
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579893"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782723"
 ---
 # <a name="imapiviewcontextgetviewstatus"></a>IMAPIViewContext::GetViewStatus
 
@@ -79,9 +79,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les objets Form appellent la méthode **IMAPIViewContext::GetViewStatus** pour déterminer s’il existe d’autres messages à activer dans une vue de formulaire dans l’une ou l’autre direction ou dans les deux sens, dans la direction dans laquelle une commande **Next** active les messages, dans la direction dans laquelle une commande Précédente active les messages ou dans les deux sens.  La valeur pointée par le paramètre  _lpulStatus_ permet de déterminer si les indicateurs VCSTATUS_NEXT et VCSTATUS_PREV sont valides pour [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md). Si l’indicateur VCSTATUS_DELETE est définie, mais pas l’indicateur VCSTATUS_READONLY, le message peut être supprimé à l’aide de la méthode [IMAPIMessageSite::D eleteMessage.](imapimessagesite-deletemessage.md) 
+Les objets Form appellent la méthode **IMAPIViewContext::GetViewStatus** pour déterminer s’il existe d’autres messages à activer dans une vue de formulaire dans l’une ou l’autre direction ou dans les deux sens, dans la direction dans laquelle une commande **Next** active  les messages, dans la direction dans laquelle une commande Précédente active les messages ou dans les deux sens. La valeur pointée par le paramètre  _lpulStatus_ permet de déterminer si les indicateurs VCSTATUS_NEXT et VCSTATUS_PREV sont valides pour [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md). Si l’indicateur VCSTATUS_DELETE est définie, mais pas l’indicateur VCSTATUS_READONLY, le message peut être supprimé à l’aide de la méthode [IMAPIMessageSite::D eleteMessage](imapimessagesite-deletemessage.md) . 
   
-En règle générale, les formulaires désactivent les commandes de menu et les boutons s’ils ne sont pas valides pour le contexte de la visionneuse. Une visionneuse peut alerter un formulaire d’un changement d’état en appelant sa méthode [IMAPIFormAdviseSink::OnChange.](imapiformadvisesink-onchange.md) 
+En règle générale, les formulaires désactivent les commandes de menu et les boutons s’ils ne sont pas valides pour le contexte de la visionneuse. Une visionneuse peut alerter un formulaire d’un changement d’état en appelant sa méthode [IMAPIFormAdviseSink::OnChange](imapiformadvisesink-onchange.md) . 
   
 L VCSTATUS_MODAL est définie si le formulaire doit être modal pour la fenêtre dont le handle est transmis dans l’appel [IMAPIForm::D oVerb](imapiform-doverb.md) précédent. Si VCSTATUS_MODAL est définie, le formulaire peut utiliser le thread sur lequel l’appel **DoVerb a** été effectué jusqu’à la fermeture du formulaire. Si VCSTATUS_MODAL n’est pas définie, le formulaire ne doit pas être modal dans cette fenêtre et ne doit pas utiliser le thread. 
   
@@ -91,7 +91,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetViewStatus  <br/> |MFCMAPI implémente **la méthode IMAPIViewContext::GetViewStatus** dans cette fonction.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetViewStatus  <br/> |MFCMAPI implémente **la méthode IMAPIViewContext::GetViewStatus** dans cette fonction. |
    
 ## <a name="see-also"></a>Voir aussi
 

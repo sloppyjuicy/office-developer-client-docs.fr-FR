@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 8e1c8c8f-4ed0-0f53-f93f-3a264edc02bd
 description: Active ou désactive l'affichage des poignées de sélection de la forme sélectionnée.
-ms.openlocfilehash: fc0aa2f4104c09264b92805b81ddc8cbad03cc97
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1dc580adcd1fb61c324447bec9e13ecf1d7a3531
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627876"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782050"
 ---
 # <a name="noobjhandles-cell-miscellaneous-section"></a>NoObjHandles, cellule (section Miscellaneous)
 
@@ -22,8 +22,8 @@ Active ou désactive l'affichage des poignées de sélection de la forme sélect
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Les poignées de sélection ne sont pas affichées lorsqu'une forme est sélectionnée.  <br/> |
-| FALSE  <br/> | Les poignées de sélection sont affichées lorsqu'une forme est sélectionnée.  <br/> |
+| TRUE  <br/> | Les poignées de sélection ne sont pas affichées lorsqu'une forme est sélectionnée. |
+| FALSE  <br/> | Les poignées de sélection sont affichées lorsqu'une forme est sélectionnée. |
    
 ## <a name="remarks"></a>Remarques
 

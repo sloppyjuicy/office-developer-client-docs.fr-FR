@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 3cac0cd0-87ff-8c82-2d33-20070a505f4e
 description: Contient les éléments DataConnection du document.
-ms.openlocfilehash: 854da46d8536cce8776f2a4b9eb8a28e50ea4588
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 14442da696e79f014305c5d791f1ff1b0b6f0802
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563076"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783487"
 ---
 # <a name="dataconnections-element-visio-xml"></a>Élément DataConnections (Visio XML)
 
@@ -36,7 +36,7 @@ Contient les **éléments DataConnection** du document.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -46,12 +46,12 @@ Aucune.
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[DataConnection](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |Extrait la communication entre un ou plusieurs éléments **DataRecordset** et une source de données non XML.  <br/> |
+|[DataConnection](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |Extrait la communication entre un ou plusieurs éléments **DataRecordset** et une source de données non XML. |
    
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|NextID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID disponible suivant pour les nouvelles connexions.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|NextID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |L’ID disponible suivant pour les nouvelles connexions. |Valeurs du type xsd:unsignedInt. |
    
 

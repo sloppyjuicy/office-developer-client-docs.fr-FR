@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 27a4147f-bd69-0a17-be2f-264f41e84ec1
-ms.openlocfilehash: 03f2f871a8b191d1294ae1625767fd9bad89c293
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e7543a72725b6a9c0372192a44d80d2013b64bce
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59549447"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781756"
 ---
 # <a name="tp_type-complextype-visio-xml"></a>tp_Type complexType (Visio XML)
 
@@ -21,7 +21,7 @@ ms.locfileid: "59549447"
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base d’extension** <br/> |Aucun  <br/> |
+|**Base d’extension** <br/> |Aucune  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -37,7 +37,7 @@ ms.locfileid: "59549447"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,6 +47,6 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt. |
    
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 1c9aab2e-6c2f-0684-4e66-c35ac71883d6
 description: Détermine la couleur utilisée pour le texte de la forme.
-ms.openlocfilehash: bff5857a8351004304e75b6000e2937372f9e905
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fa51ab92cf36a6802448144e30160ba5b7ddab71
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59608486"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783501"
 ---
 # <a name="color-cell-character-section"></a>Color, cellule (section Character)
 
@@ -24,7 +24,7 @@ Détermine la couleur utilisée pour le texte de la forme.
 
 Pour définir la couleur, tapez un nombre compris entre 0 et 23.
   
-Pour entrer une couleur personnalisée, utilisez la fonction RVB ou TSL. La valeur d’une couleur personnalisée est sa couleur RVB, et RVB( *r, g, b*), plutôt qu’un nombre, s’affiche dans la fenêtre Feuille ShapeSheet. Dans les opérations numériques, les couleurs personnalisées ont des valeurs supérieures ou égales à 24. 
+Pour entrer une couleur personnalisée, utilisez la fonction RVB ou TSL. La valeur d’une couleur personnalisée est sa couleur RVB, et RVB( *r, g, b*), au lieu d’un nombre, s’affiche dans la fenêtre Feuille ShapeSheet. Dans les opérations numériques, les couleurs personnalisées ont des valeurs supérieures ou égales à 24. 
   
 Vous pouvez définir une transparence pour la couleur du texte dans la cellule Transparency.
   
@@ -32,14 +32,14 @@ Pour obtenir une référence à la cellule Color par un nom à partir d'une autr
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Char.Color[ *i*  ] où  *i*  = <1>, 2, 3, ...  <br/> |
+|Nom de la cellule :  <br/> |Char.Color[ *i*  ] où  *i*  = <1>, 2, 3, ... |
    
 Pour obtenir une référence à la cellule Color à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionCharacter** <br/> |
-|Index de la ligne :  <br/> |**visRowCharacter**  +   *i* où *i* = 0, 1, 2, ...  <br/> |
+|Index de la ligne :  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2, ... |
 |Index de la cellule :  <br/> |**visCharacterColor** <br/> |
    
 

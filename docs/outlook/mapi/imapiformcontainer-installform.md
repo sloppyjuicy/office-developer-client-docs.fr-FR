@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b39ca52c-4dbe-41c0-9e1b-3998a9dc9742
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f8f5db6ebb264788de6a9c8a570056c3d8ace8e8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1d7b33b9b682c20bef685844e23f150c55c10f7d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621002"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779874"
 ---
 # <a name="imapiformcontainerinstallform"></a>IMAPIFormContainer::InstallForm
 
@@ -39,7 +39,7 @@ HRESULT InstallForm(
 
  _ulUIParam_
   
-> [in] Poignée vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres affichées par cette méthode. Le _paramètre ulUIParam_ est ignoré, sauf si l’application cliente définit l’MAPI_DIALOG dans le _paramètre ulFlags._ Le  _paramètre ulUIParam_ peut être NULL si MAPI_DIALOG n’est pas également transmis. 
+> [in] Poignée vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres affichées par cette méthode. Le  _paramètre ulUIParam_ est ignoré, sauf si l’application cliente définit l’MAPI_DIALOG dans le _paramètre ulFlags_ . Le  _paramètre ulUIParam_ peut être NULL si MAPI_DIALOG n’est pas également transmis. 
     
  _ulFlags_
   
@@ -69,11 +69,11 @@ S_OK
     
 MAPI_E_EXTENDED_ERROR 
   
-> Une erreur d’implémentation s’est produite. Pour obtenir la structure [MAPIERROR](mapierror.md) associée à l’erreur, appelez la méthode [IMAPIFormContainer::GetLastError.](imapiformcontainer-getlasterror.md) 
+> Une erreur d’implémentation s’est produite. Pour obtenir la structure [MAPIERROR](mapierror.md) associée à l’erreur, appelez la méthode [IMAPIFormContainer::GetLastError](imapiformcontainer-getlasterror.md) . 
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’installation du formulaire, généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
+> L’utilisateur a annulé l’installation du formulaire, généralement en cliquant sur le **bouton Annuler dans** une boîte de dialogue. 
     
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
@@ -87,11 +87,11 @@ Les fournisseurs de bibliothèques de formulaires doivent remplir une structure 
     
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Les applications clientes appellent **la méthode IMAPIFormContainer::InstallForm** pour installer un formulaire dans un conteneur de formulaire spécifique. Le  _paramètre szCfgPathName_ doit contenir le chemin d’accès d’un fichier de configuration de formulaire (autrement dit, un fichier avec l’extension .cfg qui décrit le formulaire et son implémentation). Les indicateurs du paramètre  _ulFlags_ spécifient les paramètres suivants : 
+Les applications clientes appellent **la méthode IMAPIFormContainer::InstallForm** pour installer un formulaire dans un conteneur de formulaire spécifique. Le  _paramètre szCfgPathName_ doit contenir le chemin d’accès d’un fichier de configuration de formulaire (autrement dit, un fichier avec l’extension .cfg qui décrit le formulaire et son implémentation). Les indicateurs du paramètre _ulFlags_ spécifient les paramètres suivants : 
   
 - Si l MAPI_DIALOG est définie, une interface utilisateur s’affiche, ce qui permet à l’utilisateur qui installe le formulaire de spécifier les détails de l’installation.
     
-- Si l MAPIFORM_INSTALL_OVERWRITEONCONFLICT est définie, tout formulaire précédent de la même classe de message est remplacé par le formulaire en cours d’installation. Dans le cas contraire, l’installation du formulaire est fusionnée avec la description du formulaire actuel, le cas contraire.
+- Si l MAPIFORM_INSTALL_OVERWRITEONCONFLICT est définie, tout formulaire précédent pour la même classe de message est remplacé par le formulaire en cours d’installation. Dans le cas contraire, l’installation du formulaire est fusionnée avec la description du formulaire actuel, le cas contraire.
     
 - Si MAPI_DIALOG est définie, MAPIFORM_INSTALL_OVERWRITEONCONFLICT est ignoré.
     
@@ -99,7 +99,7 @@ Les applications clientes appellent **la méthode IMAPIFormContainer::InstallFor
     
 - Si l MAPI_UNICODE est définie, le chemin d’accès du fichier de configuration du formulaire est une chaîne Unicode. 
     
-Les clients doivent appeler [IMAPIFormContainer::GetLastError](imapiformcontainer-getlasterror.md) si **InstallForm** renvoie MAPI_E_EXTENDED_ERROR, et ils doivent vérifier la structure [MAPIERROR](mapierror.md) renvoyée pour déterminer la condition qui a renvoyé l’erreur. 
+Les clients doivent appeler [IMAPIFormContainer::GetLastError](imapiformcontainer-getlasterror.md) si **InstallForm** renvoie MAPI_E_EXTENDED_ERROR et ils doivent vérifier la structure [MAPIERROR](mapierror.md) renvoyée pour déterminer la condition qui a renvoyé l’erreur. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -107,7 +107,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnInstallForm  <br/> |MFCMAPI utilise la **méthode IMAPIFormContainer::InstallForm** pour installer un formulaire dans un conteneur de formulaires.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnInstallForm  <br/> |MFCMAPI utilise la **méthode IMAPIFormContainer::InstallForm** pour installer un formulaire dans un conteneur de formulaires. |
    
 ## <a name="see-also"></a>Voir aussi
 

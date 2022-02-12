@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9ce13f11-5787-4ea5-a84f-b1e3824529ee
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 43273b0f725b962a51a38009aab0bd5592c5644b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3aa7054a5e40ca38e5f9e34ee28f2c1dc17fcc33
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630802"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779860"
 ---
 # <a name="imapiformcontainerresolvemessageclass"></a>IMAPIFormContainer::ResolveMessageClass
 
@@ -61,17 +61,17 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> La classe de message transmise dans le  _paramètre szMessageClass_ ne correspond à la classe de message pour aucun formulaire dans le conteneur de formulaire. 
+> La classe de message transmise dans le _paramètre szMessageClass_ ne correspond à la classe de message pour aucun formulaire dans le conteneur de formulaire. 
     
 ## <a name="remarks"></a>Remarques
 
-Les applications clientes appellent la méthode **IMAPIFormContainer::ResolveMessageClass** pour résoudre une classe de message en formulaire dans un conteneur de formulaire. L’objet informations du formulaire renvoyé dans le  _paramètre ppforminfo_ fournit un accès supplémentaire aux propriétés du formulaire avec la classe de message donnée. 
+Les applications clientes appellent **la méthode IMAPIFormContainer::ResolveMessageClass** pour résoudre une classe de message en formulaire dans un conteneur de formulaire. L’objet informations du formulaire renvoyé dans le _paramètre ppforminfo_ fournit un accès supplémentaire aux propriétés du formulaire avec la classe de message donnée. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour résoudre une classe de message en formulaire, passez le nom de la classe de message à résoudre (par exemple,  `IPM.HelpDesk.Software` ). Pour forcer la résolution à être exacte (c’est-à-dire pour empêcher la résolution à une classe de base de la classe de message), l’indicateur MAPIFORM_EXACTMATCH peut être transmis dans le paramètre _ulFlags._ 
+Pour résoudre une classe de message en formulaire, passez le nom de la classe de message à résoudre (par exemple,  `IPM.HelpDesk.Software`). Pour forcer la résolution à être exacte (c’est-à-dire pour empêcher la résolution à une classe de base de la classe de message), l’indicateur MAPIFORM_EXACTMATCH peut être passé dans le paramètre _ulFlags_ . 
   
-L’identificateur de classe de la classe de message résolue est renvoyé dans le cadre de l’objet d’informations du formulaire. Ne supposez pas que l’identificateur de classe existe dans la bibliothèque OLE tant que vous n’avez pas appelé la méthode [IMAPIFormMgr::P repareForm](imapiformmgr-prepareform.md) ou [IMAPIFormMgr::CreateForm.](imapiformmgr-createform.md) 
+L’identificateur de classe pour la classe de message résolue est renvoyé dans le cadre de l’objet d’informations du formulaire. Ne supposez pas que l’identificateur de classe existe dans la bibliothèque OLE tant que vous n’avez pas appelé la méthode [IMAPIFormMgr::P repareForm](imapiformmgr-prepareform.md) ou [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) . 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -79,7 +79,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnResolveMessageClass  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer::ResolveMessageClass** pour localiser un formulaire associé à une classe de message.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnResolveMessageClass  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer::ResolveMessageClass** pour localiser un formulaire associé à une classe de message. |
    
 ## <a name="see-also"></a>Voir aussi
 

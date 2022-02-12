@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5ca500c3-c737-45a5-b0fc-473b75c1d68d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aa2aeed57cd9ad02e723ae5cf130d213d17072a1
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: ef12b401f7c0a79c6c981d3e7ee7e92be0f03be7
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462437"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781400"
 ---
 # <a name="imapiformmgrloadform"></a>IMAPIFormMgr::LoadForm
 
@@ -127,7 +127,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI utilise la **méthode IMAPIFormMgr::LoadForm** pour charger un formulaire avant de l’afficher.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI utilise la **méthode IMAPIFormMgr::LoadForm** pour charger un formulaire avant de l’afficher. |
    
 ## <a name="see-also"></a>Voir aussi
 

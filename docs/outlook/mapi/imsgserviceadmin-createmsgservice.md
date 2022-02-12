@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0135f049-0311-45e5-9685-78597d599a4e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cb96a571169532ddc37375cf89246b0f17c9eac8
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 79e4a323deaf0e039f3a00926383b8f7a3940229
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461124"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782681"
 ---
 # <a name="imsgserviceadmincreatemsgservice"></a>IMsgServiceAdmin::CreateMsgService
 
@@ -114,7 +114,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI utilise la **méthode IMsgServiceAdmin::CreateMsgService** pour ajouter un service à un profil.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI utilise la **méthode IMsgServiceAdmin::CreateMsgService** pour ajouter un service à un profil. |
    
 ## <a name="see-also"></a>Voir aussi
 

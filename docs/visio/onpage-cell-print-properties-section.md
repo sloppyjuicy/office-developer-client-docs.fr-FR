@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 4015506a-e24a-0276-c854-7791a7019067
 description: Indique si le dessin est imprimé sur un nombre spécifique de page d'impression.
-ms.openlocfilehash: 265d5d02b17feddd8d7ff1865ec9ae2fbf7f355e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5871cc0c451b8bdb5838daff12636d83fb1cb087
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590190"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780615"
 ---
 # <a name="onpage-cell-print-properties-section"></a>OnPage, cellule (section Print Properties)
 
@@ -22,14 +22,14 @@ Indique si le dessin est imprimé sur un nombre spécifique de page d'impression
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Ajuster la page de dessin à un nombre défini de pages d’imprimante.  <br/> |
-|FALSE  <br/> |N'ajuste pas la page de dessin sur un nombre défini de pages d'impression (valeur par défaut).  <br/> |
+|TRUE  <br/> |Ajuster la page de dessin à un nombre défini de pages d’imprimante. |
+|FALSE  <br/> |N'ajuste pas la page de dessin sur un nombre défini de pages d'impression (valeur par défaut). |
    
 ## <a name="remarks"></a>Remarques
 
 Si la cellule OnPage est définie sur TRUE, Microsoft Visio utilise les cellules PagesX et PagesY pour déterminer le nombre de pages d’impression sur lesquelles ajuster le dessin. Les valeurs des cellules ScaleX et ScaleY sont ignorées. Ce paramètre peut être considéré comme un paramètre de « mise à l’échelle automatique ».
   
-Cette valeur correspond à l’option   Ajuster à sous l’onglet Configuration  de l’impression dans la boîte de dialogue Mise en **page** (sous l’onglet Création, cliquez sur la flèche Mise en **page).** 
+Cette  valeur correspond à l’option **Ajuster** à sous l’onglet Configuration de l’impression dans la boîte de dialogue Mise en **page** (sous l’onglet Création, cliquez sur la flèche Mise en **page**). 
   
 Pour obtenir une référence à la cellule OnPage par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

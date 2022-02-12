@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a1e1440e6bc6e7cbf9015affa2cfc2f69f41a3f2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a8b165f947487fdec494de8045f7124486a80e8a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596322"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779881"
 ---
 # <a name="imapifolderemptyfolder"></a>IMAPIFolder::EmptyFolder
 
@@ -39,11 +39,11 @@ HRESULT EmptyFolder(
 
  _ulUIParam_
   
-> [in] Handle vers la fenêtre parent de l’indicateur de progression. Le _paramètre ulUIParam_ est ignoré, sauf si l’FOLDER_DIALOG est définie dans _le paramètre ulFlags._ 
+> [in] Handle vers la fenêtre parent de l’indicateur de progression. Le  _paramètre ulUIParam_ est ignoré, sauf si l’FOLDER_DIALOG est définie dans _le paramètre ulFlags_ . 
     
  _lpProgress_
   
-> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress,_ le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le _paramètre lpProgress est_ ignoré, sauf si l’FOLDER_DIALOG est définie dans le paramètre _ulFlags._ 
+> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress_, le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’FOLDER_DIALOG est définie dans _le paramètre ulFlags_ . 
     
  _ulFlags_
   
@@ -51,7 +51,7 @@ HRESULT EmptyFolder(
     
 DEL_ASSOCIATED 
   
-> Supprime tous les sous-fichiers, y compris les sous-fichiers qui contiennent des messages avec le contenu associé. L DEL_ASSOCIATED’indicateur de niveau supérieur a une signification uniquement pour le dossier de niveau supérieur sur qui l’appel agit.
+> Supprime tous les sous-fichiers, y compris les sous-fichiers qui contiennent des messages avec le contenu associé. L DEL_ASSOCIATED’indicateur n’a de signification que pour le dossier de niveau supérieur sur qui l’appel agit.
     
 DELETE_HARD_DELETE
   
@@ -69,13 +69,13 @@ S_OK
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> L’appel a réussi, mais le dossier n’a pas été complètement vidé. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
+> L’appel a réussi, mais le dossier n’a pas été complètement vidé. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED’avertissement** . Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
 La **méthode IMAPIFolder::EmptyFolder** supprime tout le contenu d’un dossier sans supprimer le dossier lui-même. 
   
-Pendant un **appel EmptyFolder,** les messages envoyés ne sont pas supprimés. 
+Pendant un **appel EmptyFolder** , les messages envoyés ne sont pas supprimés. 
   
 Le contenu associé à un dossier inclut des messages qui sont utilisés pour décrire les affichages, les règles, les formulaires personnalisés et le stockage de solutions personnalisées, et peut également inclure des définitions de formulaire. 
   
@@ -89,9 +89,9 @@ Attendez-vous à ce que ces valeurs de retour se placent dans les conditions sui
   
 |**Condition**|**Valeur renvoy�e**|
 |:-----|:-----|
-|**EmptyFolder a** correctement vidé le dossier.  <br/> |S_OK  <br/> |
-|**EmptyFolder n’a** pas pu vider complètement le dossier.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
-|**EmptyFolder n’a** pas pu se terminer.  <br/> |Toute valeur d’erreur  <br/> |
+|**EmptyFolder a** correctement vidé le dossier. |S_OK  <br/> |
+|**EmptyFolder n’a** pas pu vider complètement le dossier. |MAPI_W_PARTIAL_COMPLETION  <br/> |
+|**EmptyFolder n’a** pas pu se terminer. |Toute valeur d’erreur  <br/> |
    
 Lorsque **EmptyFolder ne** parvient pas à se terminer, ne supposez pas qu’aucun travail n’a été effectué. **EmptyFolder a** peut-être pu supprimer une partie du contenu du dossier avant de rencontrer l’erreur. 
   
@@ -101,7 +101,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnEmptyFolder  <br/> |MFCMAPI utilise la **méthode IMAPIFolder::EmptyFolder** pour supprimer le contenu du dossier spécifié.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnEmptyFolder  <br/> |MFCMAPI utilise la **méthode IMAPIFolder::EmptyFolder** pour supprimer le contenu du dossier spécifié. |
    
 ## <a name="see-also"></a>Voir aussi
 

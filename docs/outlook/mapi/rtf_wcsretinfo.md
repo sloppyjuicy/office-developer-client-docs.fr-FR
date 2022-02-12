@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 62561d8d-33cb-e482-7fa0-132afe2b464a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a4380625bc0922ac02146886de98b9811b138765
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: dc97d12fe9ca440328c6c83a2706e493d20dcc4b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462679"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782583"
 ---
 # <a name="rtf_wcsretinfo"></a>RTF_WCSRETINFO
 
@@ -42,9 +42,9 @@ _ulStreamFlags_
     
 |||
 |:-----|:-----|
-|MAPI_NATIVE_BODY_TYPE_RTF  <br/> |Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’MAPI_NATIVE_BODY** et si le corps est RTF.  <br/> |
-|MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’MAPI_NATIVE_BODY** et que le corps est au format texte simple.  <br/> |
-|MAPI_NATIVE_BODY_TYPE_HTML  <br/> |Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’indicateur MAPI_NATIVE_BODY** et que le corps est au format HTML (Hypertext Markup Language).  <br/> |
+|MAPI_NATIVE_BODY_TYPE_RTF  <br/> |Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’MAPI_NATIVE_BODY** et si le corps est RTF. |
+|MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’MAPI_NATIVE_BODY** et que le corps est au format texte simple. |
+|MAPI_NATIVE_BODY_TYPE_HTML  <br/> |Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’indicateur MAPI_NATIVE_BODY** et que le corps est au format HTML (Hypertext Markup Language). |
    
 ## <a name="see-also"></a>Voir aussi
 

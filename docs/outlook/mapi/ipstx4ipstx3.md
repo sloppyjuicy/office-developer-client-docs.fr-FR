@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fc9116b6-a525-daff-9068-c5653d278ab2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 592d2cef3dce66ab1d71872fe7b3242f3826e1f8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 32ebf4df7f03fd4a19d60970b29f3ab40927ebae
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625237"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782639"
 ---
 # <a name="ipstx4--ipstx3"></a>IPSTX4 : IPSTX3
 
@@ -36,7 +36,7 @@ Cette interface fournit des fonctionnalités d’aide lors de la réplication vi
 
 |||
 |:-----|:-----|
-| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  .  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  . |
    
 ## <a name="see-also"></a>Voir aussi
 

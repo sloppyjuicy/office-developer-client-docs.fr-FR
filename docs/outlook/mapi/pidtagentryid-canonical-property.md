@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: ca02e873-c2d2-4d58-8df8-c05fbcdc8fba
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 42e105ee5addca6445c3ee0ef667c873192d66e6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b4131b6ca41b96f64a81904af4daaa0c0c63948a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616508"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781253"
 ---
 # <a name="pidtagentryid-canonical-property"></a>Propriété canonique PidTagEntryId
 
@@ -42,22 +42,22 @@ Cette propriété est l’une des propriétés d’adresse de base de tous les u
   
 Cette propriété peut contenir un identificateur à long terme ou à court terme. Les identificateurs à court terme sont plus faciles et plus rapides à construire, mais sont limités en termes d’étendue et de durée, généralement à la session et à la station de travail actuelles. Ils sont couramment utilisés pour les objets de nature temporaire, tels que les lignes de tableau ou les entrées de boîte de dialogue, puis abandonnés. Les identificateurs à long terme sont utilisés pour les objets de nature plus large et de longue durée. 
   
-Cette propriété est toujours disponible via la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) après le premier appel à la méthode [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Certains fournisseurs de services peuvent le rendre disponible immédiatement après l’ins instantiation. Le fournisseur doit toujours renvoyer un identificateur d’entrée à long terme à partir **de GetProps**. Par conséquent, pour convertir un identificateur à court terme en identificateur à long terme, ouvrez simplement l’objet et obtenez sa propriété via **GetProps**. 
+Cette propriété est toujours disponible via la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) après le premier appel à la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . Certains fournisseurs de services peuvent le rendre disponible immédiatement après l’ins instantiation. Le fournisseur doit toujours renvoyer un identificateur d’entrée à long terme **à partir de GetProps**. Par conséquent, pour convertir un identificateur à court terme en identificateur à long terme, ouvrez simplement l’objet et obtenez sa propriété via **GetProps**. 
   
 Le tableau suivant récapitule les différences importantes entre cette propriété, **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) et **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)). 
   
 |**Caractéristique**|**PR_ENTRYID**|**PR_RECORD_KEY**|**PR_SEARCH_KEY**|
 |:-----|:-----|:-----|:-----|
-|Obligatoire sur les objets de pièce jointe  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |
+|Obligatoire pour les objets pièce jointe  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |
 |Obligatoire pour les objets de dossier  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Obligatoire sur les objets de la boutique de messages  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Obligatoire sur les objets d’état  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |
 |Créé par le client  <br/> |Non  <br/> |Non  <br/> |Oui  <br/> |
-|Disponible avant l’appel **de SaveChanges** <br/> |Dépend de l’implémentation du fournisseur  <br/> |Dépend de l’implémentation du fournisseur  <br/> |Pour les messages, Oui. Pour d’autres, dépend de l’implémentation du fournisseur.  <br/> |
+|Disponible avant l’appel **de SaveChanges** <br/> |Dépend de l’implémentation du fournisseur  <br/> |Dépend de l’implémentation du fournisseur  <br/> |Pour les messages, Oui. Pour d’autres, dépend de l’implémentation du fournisseur. |
 |Modifié dans une opération de copie  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Modification possible par client après une copie  <br/> |Non  <br/> |Non  <br/> |Oui  <br/> |
-|Unique dans  <br/> |Monde entier  <br/> |Instance du fournisseur  <br/> |Monde entier  <br/> |
-|Comparaison binaire (comme avec memcmp)  <br/> |No use [IMAPISupport:: CompareEntryIDs](imapisupport-compareentryids.md) <br/> |Oui  <br/> |Oui  <br/> |
+|Unique dans  <br/> |Monde entier  <br/> |Instance de fournisseur  <br/> |Monde entier  <br/> |
+|Binary comparable (comme avec memcmp)  <br/> |No use [IMAPISupport:: CompareEntryIDs](imapisupport-compareentryids.md) <br/> |Oui  <br/> |Oui  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -69,7 +69,7 @@ Le tableau suivant récapitule les différences importantes entre cette proprié
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

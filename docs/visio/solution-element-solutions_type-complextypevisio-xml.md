@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 46bf34be-761e-9d44-ab06-83d4c8932cab
 description: Spécifie une instance de solution XML stockée dans le dessin.
-ms.openlocfilehash: 9f5835cb083e98d825d5b486a27b66f238a61d49
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c288ce7bb655e82380b29aa62ae394a3b153af90
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59569936"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779158"
 ---
 # <a name="solution-element-solutions_type-complextype-visio-xml"></a>Élément Solution (Solutions_Type complexType) (Visio XML)
 
@@ -35,24 +35,24 @@ Spécifie une instance de solution XML stockée dans le dessin.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Solutions](solutions-elementvisio-xml.md) <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |Stocke les propriétés des solutions stockées dans le document.  <br/> |
+|[Solutions](solutions-elementvisio-xml.md) <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |Stocke les propriétés des solutions stockées dans le document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Rel](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |Spécifie la relation à un élément avec le XML de solution associé à cette solution.  <br/> |
+|[Rel](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |Spécifie la relation à un élément avec le XML de solution associé à cette solution. |
    
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Nom  <br/> |xsd:string  <br/> |obligatoire  <br/> |Nom de la solution.  <br/> |Valeurs du type xsd:string.  <br/> |
+|Nom  <br/> |xsd:string  <br/> |obligatoire  <br/> |Nom de la solution. |Valeurs du type xsd:string. |
    
 

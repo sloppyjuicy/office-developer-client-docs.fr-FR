@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b2405457-843c-0d46-5f4f-9c413826c3f1
 description: Détermine si la ligne est un menu flottant enfant de la dernière ligne se trouvant au-dessus d’elle si cette dernière n’est pas un menu flottant enfant.
-ms.openlocfilehash: e5409d16df7b91c855a95e7b9deb2121ec4e63b3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f11f29756a2a51ce32ef4a96ab1be91f753c66ed
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612798"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782289"
 ---
 # <a name="flyoutchild-cell-actions-section"></a>FlyoutChild, cellule (section Actions)
 
@@ -33,7 +33,7 @@ Pour obtenir une référence à la cellule FlyoutChild à l’aide d’un index 
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction**  +   *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowAction** +   *i* où *i* = 0, 1, 2... |
 |Index de la cellule :  <br/> |**visActionFlyoutChild** <br/> |
    
 

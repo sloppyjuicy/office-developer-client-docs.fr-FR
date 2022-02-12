@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2d02ebf6-bb8b-42bb-9bd0-870dbae9aeb4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 98f72229b93c6ae9c5566fc9e277a227469b7e64
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ea299bf9a95eab534e9f1a464ebc1878ade67b86
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575763"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779811"
 ---
 # <a name="imessagesetreadflag"></a>IMessage::SetReadFlag
 
@@ -37,13 +37,13 @@ _ulFlags_
   
 > [in] Masque de bits d’indicateurs qui contrôle le paramètre de l’indicateur de lecture d’un message, c’est-à-dire l’indicateur MSGFLAG_READ du message dans sa propriété **PR_MESSAGE_FLAGS** et le traitement des rapports de lecture. Les indicateurs suivants peuvent être définies : 
     
-  - CLEAR_READ_FLAG : l’MSGFLAG_READ de lecture doit être effacé dans **PR_MESSAGE_FLAGS** et aucun rapport de lecture ne doit être envoyé. 
+  - CLEAR_READ_FLAG : l’indicateur MSGFLAG_READ doit être effacé dans PR_MESSAGE_FLAGS et aucun rapport  de lecture ne doit être envoyé. 
       
-  - CLEAR_NRN_PENDING : l’indicateur MSGFLAG_NRN_PENDING doit être  effacé dans PR_MESSAGE_FLAGS et un rapport de non-lecture ne doit pas être envoyé. 
+  - CLEAR_NRN_PENDING : l’indicateur MSGFLAG_NRN_PENDING doit être effacé dans PR_MESSAGE_FLAGS et un rapport de  non-lecture ne doit pas être envoyé. 
       
-  - CLEAR_RN_PENDING : l’indicateur MSGFLAG_RN_PENDING doit être effacé  dans PR_MESSAGE_FLAGS et aucun rapport de lecture ne doit être envoyé. 
+  - CLEAR_RN_PENDING : l’indicateur MSGFLAG_RN_PENDING doit être effacé dans PR_MESSAGE_FLAGS et aucun rapport  de lecture ne doit être envoyé. 
       
-  - GENERATE_RECEIPT_ONLY : un rapport de lecture doit être envoyé s’il est en attente, mais l’état de l’indicateur MSGFLAG_READ ne doit pas changer.
+  - GENERATE_RECEIPT_ONLY : un rapport de lecture doit être envoyé s’il est en attente, mais l’état de l’indicateur MSGFLAG_READ ne doit pas être changé.
       
   - MAPI_DEFERRED_ERRORS : permet à **SetReadFlag** de renvoyer correctement, éventuellement avant la fin de l’opération. 
       
@@ -61,7 +61,7 @@ MAPI_E_NO_SUPPRESS
     
 MAPI_E_INVALID_PARAMETER 
   
-> L’une des combinaisons d’indicateurs suivantes est définie dans le  _paramètre ulFlags_ : 
+> L’une des combinaisons d’indicateurs suivantes est définie dans le _paramètre ulFlags_ : 
     
    - SUPPRESS_RECEIPT | CLEAR_READ_FLAG 
     
@@ -87,13 +87,13 @@ L’indicateur de lecture ne peut pas être modifié pour :
     
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si aucun des indicateurs n’est paramétré dans  _le paramètre ulFlags,_ les règles suivantes s’appliquent : 
+Si aucun des indicateurs n’est paramétré dans _le paramètre ulFlags_ , les règles suivantes s’appliquent : 
   
 - Si MSGFLAG_READ est déjà définie, ne faites rien.
     
 - Si MSGFLAG_READ n’est pas définie, définissez-la et envoyez les rapports de lecture en attente si la propriété **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) est définie.
     
-Si les indicateurs SUPPRESS_RECEIPT et GENERATE_RECEIPT_ONLY sont tous les deux définies, le bit PR_READ_RECEIPT_REQUESTED, s’il est définie, doit être effacé et un rapport de lecture ne doit pas être envoyé.
+Si les indicateurs SUPPRESS_RECEIPT et GENERATE_RECEIPT_ONLY sont tous deux définies, le bit PR_READ_RECEIPT_REQUESTED, s’il est définie, doit être effacé et un rapport de lecture ne doit pas être envoyé.
   
 Lorsque l’SUPPRESS_RECEIPT est définie :
   
@@ -101,7 +101,7 @@ Lorsque l’SUPPRESS_RECEIPT est définie :
     
 - Si MSGFLAG_READ n’est pas définie, définissez-la et annulez les rapports de lecture en attente.
     
-Lorsque l’CLEAR_READ_FLAG est définie, effacer l’indicateur MSGFLAG_READ dans la  propriété PR_MESSAGE_FLAGS de chaque message et n’envoyez aucun rapport de lecture. 
+Lorsque l’CLEAR_READ_FLAG est définie, effacer l’indicateur MSGFLAG_READ dans la propriété PR_MESSAGE_FLAGS de chaque message et n’envoyez aucun rapport de lecture. 
   
 Lorsque l’GENERATE_RECEIPT_ONLY est définie, envoyez les rapports de lecture en attente. Ne pas définir ou effacer les MSGFLAG_READ.
   
@@ -115,7 +115,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |MFCMAPI utilise **la méthode IMessage::SetReadFlag** pour définir des indicateurs de lecture sur les messages sélectionnés.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |MFCMAPI utilise **la méthode IMessage::SetReadFlag** pour définir des indicateurs de lecture sur les messages sélectionnés. |
    
 ## <a name="see-also"></a>Voir aussi
 

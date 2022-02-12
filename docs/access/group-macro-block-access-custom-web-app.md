@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 312bcad2-b364-4b4c-a8f9-40e11330bde0
 description: L’instruction Group vous permet de spécifier un bloc d’actions dans une macro que vous pouvez développer ou réduire.
-ms.openlocfilehash: f232ffa0a0562c5ef84527d9cfde34c8b0701819
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 784ea3383537ecd587d5575474ce85303054cabf
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180508"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780392"
 ---
 # <a name="group-macro-block-access-custom-web-app"></a>Group Macro Block (Access custom web app)
 
@@ -27,7 +27,7 @@ L’instruction **Group** utilise les arguments suivants.
   
 |**Argument**|**Obligatoire**|**Description**|
 |:-----|:-----|:-----|
-|**Description** <br/> |Non  <br/> |Chaîne qui s’affiche comme titre d’un groupe lorsqu’il est réduit.  <br/> |
+|**Description** <br/> |Non  <br/> |Chaîne qui s’affiche comme titre d’un groupe lorsqu’il est réduit. |
    
 ## <a name="remarks"></a>Remarques
 

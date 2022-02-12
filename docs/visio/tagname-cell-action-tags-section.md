@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 28d1cd60-4fb6-9feb-1a13-0962798ac1ad
 description: Nom de la balise d’action utilisé comme référence pour associer la balise d’action à ses actions.
-ms.openlocfilehash: 09bd43f69e1adb757ab71e34b232f79affa10e2d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ce0e1f62487aa6c16abb1a3779827b1a69f93f0d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622752"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781736"
 ---
 # <a name="tagname-cell-action-tags-section"></a>TagName, cellule (section Action Tags)
 
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule TagName par index dans un programme, 
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowSmartTag** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visSmartTagName** <br/> |
    
 

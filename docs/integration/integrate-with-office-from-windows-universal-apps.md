@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 60b4fa23-0075-4f6a-8bd0-9e53e99432d5
 description: Vous pouvez intégrer vos applications tierces de plateforme d'application universelle Windows à Excel Mobile, PowerPoint Mobile et Word Mobile. Les applications universelles s'intègrent aux applications Office via les contrats de sélecteur de fichiers Windows, les propriétés Expando et les contrats de mise à jour des fichiers mis en cache.
-ms.openlocfilehash: 3c61e5697fad8e79ca8c8a76843880fd79a842c3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 68e7b316ed7e9ce1de47f2db6eae9f0796604767
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596721"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780301"
 ---
 # <a name="integrate-with-office-from-windows-universal-apps"></a>Intégration à Office à partir d’applications universelles Windows
 
@@ -37,9 +37,9 @@ Définissez ces propriétés dans l'ensemble de propriétés **System.ExpandoPro
   
 |**Propriété**|**Description**|**Type**|**Exemple**|
 |:-----|:-----|:-----|:-----|
-|**AppDisplayName** <br/> |Nom du fournisseur à afficher pour l'utilisateur. Il s'affiche à plusieurs endroits dans Office, comme la liste des documents récents.  <br/> |String  <br/> |Contoso  <br/> |
-|**MicrosoftOfficeOwnershipType** <br/> |En ce qui concerne la gestion des licences, indiquez si le document/l'emplacement est personnel ou professionnel. Les valeurs autorisées sont 1 (personnel) et 2 (professionnel). Par exemple, si le fichier de votre utilisateur est stocké dans Contoso Business, utilisez la valeur « 2 » pour les documents professionnels.  <br/> |Unit32  <br/> | 1 ou 2  <br/> Par exemple, si le fichier de votre utilisateur est stocké dans Contoso Business, vous devez lui attribuer la valeur 2 pour les documents professionnels.  <br/> |
-|**MicrosoftOfficeTermsOfUse** <br/> |Texte juridique pour déclarer que les informations que vous fournissez sont exactes conformément à nos conditions d'utilisation. Ce texte n'est pas visible par l'utilisateur. Il s'agit d'un accord entre vous, le fournisseur de l'application et Microsoft.  <br/> Consultez la rubrique suivante pour obtenir un exemple.  <br/> | String  <br/> | J'accepte les conditions indiquées sur la page [https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) <br/> |
+|**AppDisplayName** <br/> |Nom du fournisseur à afficher pour l'utilisateur. Il s'affiche à plusieurs endroits dans Office, comme la liste des documents récents. |String  <br/> |Contoso  <br/> |
+|**MicrosoftOfficeOwnershipType** <br/> |En ce qui concerne la gestion des licences, indiquez si le document/l'emplacement est personnel ou professionnel. Les valeurs autorisées sont 1 (personnel) et 2 (professionnel). Par exemple, si le fichier de votre utilisateur est stocké dans Contoso Business, utilisez la valeur « 2 » pour les documents professionnels. |Unit32  <br/> | 1 ou 2  <br/> Par exemple, si le fichier de votre utilisateur est stocké dans Contoso Business, vous devez lui attribuer la valeur 2 pour les documents professionnels. |
+|**MicrosoftOfficeTermsOfUse** <br/> |Texte juridique pour déclarer que les informations que vous fournissez sont exactes conformément à nos conditions d'utilisation. Ce texte n'est pas visible par l'utilisateur. Il s'agit d'un accord entre vous, le fournisseur de l'application et Microsoft. Consultez la rubrique suivante pour obtenir un exemple. | String  <br/> | J'accepte les conditions indiquées sur la page [https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) <br/> |
    
 L’exemple de code suivant montre comment définir ces propriétés.
   
@@ -73,9 +73,9 @@ Le tableau suivant répertorie les paramètres à définir pour gérer les inter
   
 |**Paramètre**|**Description**|
 |:-----|:-----|
-|[ReadActivationMode](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.readactivationmode.aspx) <br/> |Définissez **BeforeAccess** pour autoriser votre application à mettre à jour le fichier avant de l'envoyer à Office.  <br/> |
+|[ReadActivationMode](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.readactivationmode.aspx) <br/> |Définissez **BeforeAccess** pour autoriser votre application à mettre à jour le fichier avant de l'envoyer à Office. |
 |[WriteActivationMode](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.writeactivationmode.aspx) <br/> |Définissez **ReadOnly** pour faire en sorte que le fichier soit en lecture seule. Définissez **AfterWrite** pour vous assurer que votre application sera déclenchée par l'élément CacheFileUpdater lorsqu'Office aura terminé d'utiliser le fichier.  <br/><br/>**REMARQUE :** si vous ne définissez pas **AfterWrite**, votre application ne sera pas notifiée des modifications, ce qui signifie que les modifications de l’utilisateur seront locales uniquement.           |
-|[CachedFileOptions.RequireUpdateOnAccess](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.cachedfileoptions.aspx) <br/> |Définissez cette propriété pour vous assurer que votre application peut mettre à jour le fichier lorsqu’un utilisateur accède à la liste récente.  <br/> |
+|[CachedFileOptions.RequireUpdateOnAccess](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.cachedfileoptions.aspx) <br/> |Définissez cette propriété pour vous assurer que votre application peut mettre à jour le fichier lorsqu’un utilisateur accède à la liste récente. |
    
 ## <a name="invoking-office-from-your-app"></a>Appel d'Office à partir de votre application
 

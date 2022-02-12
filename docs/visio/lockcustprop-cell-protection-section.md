@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d1c23f1d-485d-a897-594d-15d6e8d0fb3c
 description: Détermine si l’utilisateur peut ajouter, supprimer ou modifier des données de forme dans l’interface utilisateur à l’aide de la boîte de dialogue Définir les données de forme ou du menu contextuel de la fenêtre Données de forme.
-ms.openlocfilehash: bf8730523b007f8d7e0f4b936d94c8779d160a63
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b5630f8400ceab7ccf038cbae27e3126f315dadf
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603633"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780658"
 ---
 # <a name="lockcustprop-cell-protection-section"></a>LockCustProp, cellule (section Protection)
 
@@ -22,8 +22,8 @@ Détermine si l’utilisateur peut ajouter, supprimer ou modifier des données d
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |La commande **Définir les données de forme** dans le menu contextuel de la fenêtre **Données de forme** est désactivée.  <br/> |
-|FALSE  <br/> |La commande **Définir les données de forme** dans le menu contextuel de la fenêtre **Données de forme** est activée (valeur par défaut).  <br/> |
+|TRUE  <br/> |La commande **Définir les données de forme** dans le menu contextuel de la fenêtre **Données de forme** est désactivée. |
+|FALSE  <br/> |La commande **Définir les données de forme** dans le menu contextuel de la fenêtre **Données de forme** est activée (valeur par défaut). |
    
 ## <a name="remarks"></a>Remarques
 

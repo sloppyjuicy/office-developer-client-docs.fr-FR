@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 87ea5e8f-c3e0-009f-4bf8-8c34fbdb83a6
 description: Obtient le texte d’une forme.
-ms.openlocfilehash: bfd33bb6fe0aca144372474e484e31f095715e0d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8602e47fbd8a3b4ee676911223c0f9109c22e1be
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622892"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783010"
 ---
 # <a name="shapetext-function"></a>Fonction SHAPETEXT
 
@@ -28,8 +28,8 @@ SHAPETEXT (** *shapename! TheText* ** ** *[,flag]* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _shapename! TheText_ <br/> |Obligatoire  <br/> ||Référence à la cellule nommée TheText dans la forme cible.  _Shapename!_ est le nom de la forme à partir de laquelle vous souhaitez récupérer le texte.  <br/> |
-| _flag_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Bit qui spécifie le format du texte. L’indicateur par défaut (0) présente le texte exactement tel qu’il apparaît dans la forme.  <br/> |
+| _shapename! TheText_ <br/> |Requis  <br/> ||Référence à la cellule nommée TheText dans la forme cible.  _Shapename!_ est le nom de la forme à partir de laquelle vous souhaitez récupérer le texte. |
+| _flag_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Bit qui spécifie le format du texte. L’indicateur par défaut (0) présente le texte exactement tel qu’il apparaît dans la forme. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -41,14 +41,14 @@ Vous pouvez utiliser toute combinaison des indicateurs suivants avec la fonction
   
 |**Indicateur**|**Description**|
 |:-----|:-----|
-|0  <br/> |Présente le texte tel qu’il est affiché dans la forme.  <br/> |
-|1  <br/> |Comprend des tirets.  <br/> |
-|2  <br/> |Ne comprend pas de texte développé dans les champs.  <br/> |
-|4   <br/> |Convertit les tabulations en un espace simple.  <br/> |
-|8   <br/> |Convertit les tabulations en un jeu d’espaces.  <br/> |
-|16   <br/> |Convertit les retours chariot et les sauts de ligne en espaces.  <br/> |
-|32  <br/> |Convertit les guillemets typographiques en guillemets droits.  <br/> |
-|64  <br/> |Convertit plusieurs espaces adjacents en un seul espace.  <br/> |
+|0  <br/> |Présente le texte tel qu’il est affiché dans la forme. |
+|1  <br/> |Comprend des tirets. |
+|2  <br/> |Ne comprend pas de texte développé dans les champs. |
+|4  <br/> |Convertit les tabulations en un espace simple. |
+|8   <br/> |Convertit les tabulations en un jeu d’espaces. |
+|16  <br/> |Convertit les retours chariot et les sauts de ligne en espaces. |
+|32  <br/> |Convertit les guillemets typographiques en guillemets droits. |
+|64  <br/> |Convertit plusieurs espaces adjacents en un seul espace. |
    
 ## <a name="example-1"></a>Exemple 1
 

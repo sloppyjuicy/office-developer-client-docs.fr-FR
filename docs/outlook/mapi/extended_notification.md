@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f01fce7b-a038-4002-8bad-0e6a51ae9d05
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 814bd8866863794740aafd553047c6443f192b04
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 91ca448f75e6c860e8d2ef3f1cdf881e35bc47dd
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614219"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781554"
 ---
 # <a name="extended_notification"></a>EXTENDED_NOTIFICATION
 
@@ -57,9 +57,9 @@ typedef struct _EXTENDED_NOTIFICATION
     
 ## <a name="remarks"></a>Remarques
 
-La **EXTENDED_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION.](notification.md) Lorsque le membre **d’informations** d’une structure **notification** contient une structure **EXTENDED_NOTIFICATION,** le membre **ulEventType** de la structure **NOTIFICATION** est définie sur  _fnevExtended_.
+La **EXTENDED_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION](notification.md) . Lorsque le **membre d’informations** d’une structure **NOTIFICATION** contient une structure **EXTENDED_NOTIFICATION** , le membre **ulEventType** de la structure **NOTIFICATION** est définie sur  _fnevExtended_.
   
-L’événement étendu est défini par un fournisseur de services pour représenter un type de modification qui ne peut être couvert par aucun des autres événements prédéfin définis. Seuls les clients qui savent avant qu’ils s’inscrivent qu’un fournisseur de services prend en charge un événement étendu peuvent s’inscrire à cet événement. Il n’est pas possible pour les clients de déterminer sans connaissances avancées si un fournisseur de services prend en charge un événement étendu. Si un fournisseur de services prend en charge un événement étendu, il indique comment gérer un tel événement lorsqu’il est reçu.
+L’événement étendu est défini par un fournisseur de services pour représenter un type de modification qui ne peut être couvert par aucun autre événement prédéféré. Seuls les clients qui savent avant qu’ils s’inscrivent qu’un fournisseur de services prend en charge un événement étendu peuvent s’inscrire à cet événement. Il n’est pas possible pour les clients de déterminer sans connaissances avancées si un fournisseur de services prend en charge un événement étendu. Si un fournisseur de services prend en charge un événement étendu, il indique comment gérer un tel événement lorsqu’il est reçu.
   
 Une notification étendue est envoyée par la session lorsqu’un client se déconnecte. Inscrivez-vous à cette notification en appelant [IMAPISession::Advise](imapisession-advise.md) avec le paramètre  _lpEntryID_ sur NULL et le paramètre  _cbEntryID_ sur zéro. 
   
@@ -67,9 +67,9 @@ Pour plus d’informations sur la notification, voir les rubriques décrites dan
   
 |**Rubrique**|**Description**|
 |:-----|:-----|
-|[Notification d’événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des événements de notification et de notification.  <br/> |
-|[Gestion des notifications](handling-notifications.md) <br/> |Discussion sur la façon dont les clients doivent gérer les notifications.  <br/> |
-|[Prise en charge des notifications d’événement](supporting-event-notification.md) <br/> |Discussion sur la façon dont les fournisseurs de services peuvent utiliser les méthodes [IMAPISupport](imapisupportiunknown.md) pour générer des notifications.  <br/> |
+|[Notification d’événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des événements de notification et de notification. |
+|[Gestion des notifications](handling-notifications.md) <br/> |Discussion sur la façon dont les clients doivent gérer les notifications. |
+|[Prise en charge des notifications d’événement](supporting-event-notification.md) <br/> |Discussion sur la façon dont les fournisseurs de services peuvent utiliser les méthodes [IMAPISupport](imapisupportiunknown.md) pour générer des notifications. |
    
 ## <a name="see-also"></a>Voir aussi
 

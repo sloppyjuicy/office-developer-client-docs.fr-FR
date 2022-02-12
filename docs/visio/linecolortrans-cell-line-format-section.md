@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b68054b5-7efd-1156-9dc1-5ec94e18d227
 description: Détermine le niveau de transparence de la couleur de trait d'une forme.
-ms.openlocfilehash: fe36c5f372015ca70b2e40f71fa0b7cf39027a04
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ad7f947e98e45d91b318f2499e751920de058402
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59582588"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780714"
 ---
 # <a name="linecolortrans-cell-line-format-section"></a>LineColorTrans, cellule (section Line Format)
 
@@ -22,7 +22,7 @@ Détermine le niveau de transparence de la couleur de trait d'une forme.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0 - 100  <br/> |Représente le pourcentage de transparence. La valeur par défaut est 0 % (entièrement opaque).  <br/> |
+|0 - 100  <br/> |Représente le pourcentage de transparence. La valeur par défaut est 0 % (entièrement opaque). |
    
 ## <a name="remarks"></a>Remarques
 

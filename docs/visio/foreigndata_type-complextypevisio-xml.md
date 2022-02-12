@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 21b394a6-6f95-fc17-482c-4cb648a0d9bb
-ms.openlocfilehash: 95fbb82360d70fcc442965f34d39bd5347fc10c8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 381124edfa2b2b48c349fb75cab80f18c808de76
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628303"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782212"
 ---
 # <a name="foreigndata_type-complextype-visio-xml"></a>ForeignData_Type complexType (Visio XML)
 
@@ -21,7 +21,7 @@ ms.locfileid: "59628303"
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base d’extension** <br/> |Aucun  <br/> |
+|**Base d’extension** <br/> |Aucune  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -73,11 +73,11 @@ ms.locfileid: "59628303"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[Rel](rel-element-foreigndata_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> ||
    
@@ -85,15 +85,15 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|CompressionLevel  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double.  <br/> |
-|CompressionType  <br/> |xsd:token  <br/> |facultatif  <br/> ||Valeurs du type xsd:token.  <br/> |
-|ExtentX  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double.  <br/> |
-|Extenty  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double.  <br/> |
-|ForeignType  <br/> |xsd:token  <br/> |obligatoire  <br/> ||Valeurs du type xsd:token.  <br/> |
-|MappingMode  <br/> |xsd:unsignedShort  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedShort.  <br/> |
-|ObjectHeight  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double.  <br/> |
-|ObjectType  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|ObjectWidth  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double.  <br/> |
-|ShowAsIcon  <br/> |xsd:boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd:boolean.  <br/> |
+|CompressionLevel  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double. |
+|CompressionType  <br/> |xsd:token  <br/> |facultatif  <br/> ||Valeurs du type xsd:token. |
+|ExtentX  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double. |
+|Extenty  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double. |
+|ForeignType  <br/> |xsd:token  <br/> |obligatoire  <br/> ||Valeurs du type xsd:token. |
+|MappingMode  <br/> |xsd:unsignedShort  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedShort. |
+|ObjectHeight  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double. |
+|ObjectType  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt. |
+|ObjectWidth  <br/> |xsd:double  <br/> |facultatif  <br/> ||Valeurs du type xsd:double. |
+|ShowAsIcon  <br/> |xsd:boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd:boolean. |
    
 

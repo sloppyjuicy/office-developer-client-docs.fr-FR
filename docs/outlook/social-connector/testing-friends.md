@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 109c34b6-911b-4dfc-9799-aadf47172e84
 description: Cette rubrique décrit des tests et des scénarios pour vérifier que le fournisseur Outlook Social Connector (OSC) renvoie correctement les données d’amis et de non-amis, le cas échéant, en fonction du mode de synchronisation pris en charge par le fournisseur.
-ms.openlocfilehash: 9696907275a0c513e81eef889bf6bcbc0a72cf54
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 8202c670a7365648590cb715f30ecb7b36ce0ff6
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62459122"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781162"
 ---
 # <a name="testing-friends"></a>Test des amis
 
@@ -35,10 +35,10 @@ Testez les éléments suivants pour vérifier que les données des amis sont cor
   
 |**Élément à tester**|**Comportement attendu**|
 |:-----|:-----|
-|Dossier Contacts  <br/> |Le dossier de contacts propre au réseau social existe dans le magasin de contacts par défaut de l’Outlook utilisateur.  <br/> |
-|Données des amis renvoyées par **ISocialPerson::GetFriendsAndColleagues** <br/> |Chaque ami correspond à un contact dans le dossier contacts propre au réseau.  <br/> |
-|Données des amis  <br/> |Les champs de contact de chaque ami ont les données correctes.  <br/> |
-|Images de profil des amis renvoyées par **ISocialPerson::GetPicture** <br/> |L’élément de contact de chaque ami contient l’image de profil.  <br/> |
+|Dossier Contacts  <br/> |Le dossier de contacts propre au réseau social existe dans le magasin de contacts par défaut de l’Outlook utilisateur. |
+|Données des amis renvoyées par **ISocialPerson::GetFriendsAndColleagues** <br/> |Chaque ami correspond à un contact dans le dossier contacts propre au réseau. |
+|Données des amis  <br/> |Les champs de contact de chaque ami ont les données correctes. |
+|Images de profil des amis renvoyées par **ISocialPerson::GetPicture** <br/> |L’élément de contact de chaque ami contient l’image de profil. |
 
 <a name="olosc_TestingFriends_OnDemandSync"> </a>
 
@@ -62,8 +62,8 @@ Pour vérifier que votre fournisseur fournit correctement des informations sur l
   
 |**Scénario**|**Comportement attendu**|
 |:-----|:-----|
-|La personne sélectionnée dans le volet Personnes est un ami de l’utilisateur connecté sur le réseau social.  <br/> |Le volet Personnes affiche les activités de cette personne sur le réseau social.  <br/> |
-|La personne sélectionnée dans le volet Personnes est un non-ami de l’utilisateur connecté sur le réseau social, mais a autorisé ses activités à être vues par des non-amis.  <br/> |Le volet Personnes affiche les activités de cette personne sur le réseau social.  <br/> |
+|La personne sélectionnée dans le volet Personnes est un ami de l’utilisateur connecté sur le réseau social. |Le volet Personnes affiche les activités de cette personne sur le réseau social. |
+|La personne sélectionnée dans le volet Personnes est un non-ami de l’utilisateur connecté sur le réseau social, mais a autorisé ses activités à être vues par des non-amis. |Le volet Personnes affiche les activités de cette personne sur le réseau social. |
 
 <a name="olosc_TestingFriends_OnDemandSync"> </a>
 

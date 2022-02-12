@@ -1,5 +1,5 @@
 ---
-title: IMAPIGetSession IUnknown
+title: IMAPIGetSession  IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d1b662e2-1516-46b2-ba94-4092d79b5a39
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7be1c8e5162cdc384a157174350f313713b6e33a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7ec8b9a56d27508c1e81ddd0d056d2963b9c08af
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630795"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779818"
 ---
 # <a name="imapigetsession--iunknown"></a>IMAPIGetSession : IUnknown
 
@@ -25,7 +25,7 @@ ms.locfileid: "59630795"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d’accéder à la session MAPI actuelle associée à l’objet de support. Les fournisseurs MAPI peuvent interroger leur objet de support MAPI pour cette interface. Pour plus d’informations sur les objets de prise en charge, voir [Vue d’ensemble de l’objet support.](support-object-overview.md)
+Permet d’accéder à la session MAPI actuelle associée à l’objet de support. Les fournisseurs MAPI peuvent interroger leur objet de support MAPI pour cette interface. Pour plus d’informations sur les objets de prise en charge, voir [Vue d’ensemble de l’objet Support](support-object-overview.md).
   
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ Permet d’accéder à la session MAPI actuelle associée à l’objet de suppor
 
 |||
 |:-----|:-----|
-|[GetMAPISession](imapigetsession-getmapisession.md) <br/> |Appelé pour obtenir un pointeur vers la session MAPI en cours.  <br/> |
+|[GetMAPISession](imapigetsession-getmapisession.md) <br/> |Appelé pour obtenir un pointeur vers la session MAPI en cours. |
    
 ## <a name="see-also"></a>Voir aussi
 

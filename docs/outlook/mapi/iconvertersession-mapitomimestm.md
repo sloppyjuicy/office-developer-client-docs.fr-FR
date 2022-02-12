@@ -11,12 +11,12 @@ api_type:
 - COM
 ms.assetid: 8660c701-f7f4-8d92-7984-5dae7f677783
 description: 'Last modified: September 20, 2017'
-ms.openlocfilehash: 563f83d6ebb76659afa99e446378b8d68a8e80b9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1b0ef4f6a314119235e57fbf41b3577e4cf334de
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613946"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779986"
 ---
 # <a name="iconvertersessionmapitomimestm"></a>IConverterSession::MAPIToMIMEStm
  
@@ -61,7 +61,7 @@ CCSF_GLOBAL_MESSAGE
     
 CCSF_INCLUDE_BCC
   
-> Les destinataires BcC du message MAPI doivent être inclus dans le flux MIME.
+> Les destinataires Bc du message MAPI doivent être inclus dans le flux MIME.
     
 CCSF_NO_MSGID
   
@@ -103,8 +103,8 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI. |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML. |
    
 ## <a name="see-also"></a>Voir aussi
 

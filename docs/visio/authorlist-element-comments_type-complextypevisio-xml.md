@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 4b6950c4-7c03-6462-eeab-3176db9a8f7e
 description: Spécifie les auteurs de commentaires dans un dessin.
-ms.openlocfilehash: e8775c17ff7b3f97b612fb01a9c212e3778c7f30
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9d03701bf917ca07f201e939c6189d3e5e89bbd3
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578213"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62781085"
 ---
 # <a name="authorlist-element-comments_type-complextype-visio-xml"></a>Élément AuthorList (Comments_Type complexType) (Visio XML)
 
@@ -36,19 +36,19 @@ Spécifie les auteurs de commentaires dans un dessin.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Comments](comments-element-comments_type-complextypevisio-xml.md) <br/> |[Comments_Type](comments_type-complextypevisio-xml.md) <br/> |Spécifie les commentaires d’un dessin.  <br/> |
+|[Comments](comments-element-comments_type-complextypevisio-xml.md) <br/> |[Comments_Type](comments_type-complextypevisio-xml.md) <br/> |Spécifie les commentaires d’un dessin. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[AuthorEntry](authorentry-element-authorlist_type-complextypevisio-xml.md) <br/> |[AuthorEntry_Type](authorentry_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés qui identifient l’auteur d’un commentaire dans un dessin.  <br/> |
+|[AuthorEntry](authorentry-element-authorlist_type-complextypevisio-xml.md) <br/> |[AuthorEntry_Type](authorentry_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés qui identifient l’auteur d’un commentaire dans un dessin. |
    
 ### <a name="attributes"></a>Attributs
 

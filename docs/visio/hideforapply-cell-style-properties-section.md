@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 62d87db9-b8ca-60b6-bf27-5168c718ec96
 description: Détermine l’endroit où un style est affiché dans l’interface utilisateur Visio Microsoft.
-ms.openlocfilehash: 18750f8191d468483b63f7e076ada1b4cd2072f7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 989ac98aad8cabd0ddc43a9adb04d817c9fc7c97
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570490"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782198"
 ---
 # <a name="hideforapply-cell-style-properties-section"></a>HideForApply, cellule (section Style Properties)
 
@@ -22,8 +22,8 @@ Détermine l’endroit où un style est affiché dans l’interface utilisateur 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Le style n’apparaît que dans l’**Explorateur de dessins**.  <br/> |
-| FALSE  <br/> | Le style apparaît dans l’**Explorateur de dessins**.  <br/> |
+| TRUE  <br/> | Le style n’apparaît que dans l’**Explorateur de dessins**. |
+| FALSE  <br/> | Le style apparaît dans l’**Explorateur de dessins**. |
    
 ## <a name="remarks"></a>Remarques
 

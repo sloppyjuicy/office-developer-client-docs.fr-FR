@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
 description: 'Last modified: September 06, 2019'
-ms.openlocfilehash: a24c3cfacaf86369fd5229e9a8beb3dec13d589f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d50816ef5ec551d467bd3c0a41f02d178dce561f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616844"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779972"
 ---
 # <a name="iconvertersessionmimetomapi"></a>IConverterSession::MIMEToMAPI
 
@@ -44,7 +44,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
     
  _pmsg_
   
-> [in] Pointeur vers le message à charger. L’appelant doit fournir un message à remplir par l’API, de sorte que l’objet doit y aller . Voir mapidefs.h pour la définition de type **de LPMESSAGE**.
+> [in] Pointeur vers le message à charger. L’appelant doit fournir un message à remplir par l’API, de sorte que l’objet doit y aller. Voir mapidefs.h pour la définition de type **de LPMESSAGE**.
     
  _pszSrcSrv_
   
@@ -64,7 +64,7 @@ CCSF_SMTP
     
 CCSF_INCLUDE_BCC
   
-> Les destinataires BcC du flux MIME doivent être inclus dans le message MAPI.
+> Les destinataires  BcC du flux MIME doivent être inclus dans le message MAPI.
     
 CCSF_USE_RTF
   
@@ -77,11 +77,11 @@ CCSF_GLOBAL_MESSAGE
 
 E_INVALIDARG
   
-> Indique que  _pstm est_ **null,**  _pmsg_ est **null** ou  _ulFlags_ n’est pas valide. 
+> Indique que  _pstm est_ **null**,  _pmsg est_ **null** ou  _ulFlags_ n’est pas valide. 
     
 ## <a name="remarks"></a>Remarques
 
-Si vous avez spécifié **CCSF_USE_RTF** dans le cadre de  _ulFlags_ et que la boutique de messages de destination prend en charge html et RTF, le message MAPI sera converti au format HTML ou RTF. Si le message est converti au format RTF, le format converti sera compressé RTF, tout html sera incorporé dans la chaîne RTF compressée et la chaîne sera contenue dans la propriété canonique [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md).
+Si vous avez spécifié **CCSF_USE_RTF** dans le cadre de  _ulFlags_ et que la boutique de messages de destination prend en charge html et RTF, le message MAPI est converti au format HTML ou RTF. Si le message est converti au format RTF, le format converti sera compressé RTF, tout html sera incorporé dans la chaîne RTF compressée et la chaîne sera contenue dans la propriété canonique [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -89,8 +89,8 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI. |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML. |
    
 ## <a name="see-also"></a>Voir aussi
 

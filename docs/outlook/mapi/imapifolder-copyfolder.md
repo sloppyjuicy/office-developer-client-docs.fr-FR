@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2c1c25c6-1aec-4d9e-a2a3-bf1b4a2908b8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5c4ddba0719056966021b73caf0d0bdbdb3364ab
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: f600f43e42d789d1cf3e1b41958d69811f3f7be1
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462275"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779888"
 ---
 # <a name="imapifoldercopyfolder"></a>IMAPIFolder::CopyFolder
 
@@ -136,9 +136,9 @@ Attendez-vous à ce que ces valeurs de retour se placent dans les conditions sui
   
 |**Condition**|**Valeur renvoy�e**|
 |:-----|:-----|
-|**CopyFolder a** correctement copié ou déplacé chaque message et sous-folder.  <br/> |S_OK  <br/> |
-|**CopyFolder n’a** pas pu copier ou déplacer correctement chaque message et sous-folder.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
-|**CopyFolder n’a** pas pu se terminer.  <br/> |Toute valeur d’erreur à l’exception MAPI_E_NOT_FOUND  <br/> |
+|**CopyFolder a** correctement copié ou déplacé chaque message et sous-folder. |S_OK  <br/> |
+|**CopyFolder n’a** pas pu copier ou déplacer correctement chaque message et sous-folder. |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
+|**CopyFolder n’a** pas pu se terminer. |Toute valeur d’erreur à l’exception MAPI_E_NOT_FOUND  <br/> |
    
 Lorsque **CopyFolder ne** parvient pas à se terminer, ne supposez pas qu’aucun travail n’a été effectué. **CopyFolder a** peut-être pu copier ou déplacer un ou plusieurs des messages et sous-foldeurs avant de rencontrer l’erreur. 
   
@@ -158,7 +158,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnPasteFolder  <br/> |MFCMAPI utilise la **méthode IMAPIFolder::CopyFolder** pour copier des dossiers d’un emplacement à un autre. MFCMAPI se souvenir du dossier source pendant l’opération de copie et effectue en fait la copie pendant l’opération de coller.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnPasteFolder  <br/> |MFCMAPI utilise la **méthode IMAPIFolder::CopyFolder** pour copier des dossiers d’un emplacement à un autre. MFCMAPI se souvenir du dossier source pendant l’opération de copie et effectue en fait la copie pendant l’opération de coller. |
    
 ## <a name="see-also"></a>Voir aussi
 

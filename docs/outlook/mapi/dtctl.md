@@ -1,7 +1,7 @@
 ---
 title: DTCTL
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 02/09/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6d1589e9-b171-427a-9a3e-b4154ee8ceb6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d0321019c383994fa51f9d205504a0636e2c973b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Décrit un contrôle qui sera utilisé dans une boîte de dialogue conçue à partir d’un tableau d’affichage.
+ms.openlocfilehash: 48cef66fc6c75d2cd6a208e9f6a0f2a5ccf23bba
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567703"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62780068"
 ---
 # <a name="dtctl"></a>DTCTL
 
@@ -27,7 +27,7 @@ Décrit un contrôle qui sera utilisé dans une boîte de dialogue conçue à pa
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h |
    
 ```cpp
 typedef struct
@@ -62,7 +62,7 @@ typedef struct
 
 **ulCtlType**
   
-> Type de contrôle qui est inclus dans le membre **ctl** et correspond à la propriété PR_CONTROL_TYPE **(** [PidTagControlType](pidtagcontroltype-canonical-property.md)) du contrôle. Les valeurs possibles sont les suivantes :
+> Type de contrôle inclus dans le membre **ctl** et qui correspond à la propriété **PR_CONTROL_TYPE (**[PidTagControlType](pidtagcontroltype-canonical-property.md)) du contrôle. Les valeurs possibles sont les suivantes :
     
 DTCT_LABEL 
   
@@ -110,11 +110,11 @@ DTCT_MVLISTBOX
     
 DTCT_MVDDLBX 
   
-> Contrôle de listes de listes listes à valeurs multiples.
+> Contrôle de listes listes de listes listes à valeurs multiples.
     
 **ulCtlFlags**
   
-> Masque de bits d’indicateurs qui décrit les fonctionnalités du contrôle et correspond à la propriété **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)). Ces indicateurs peuvent être définies pour les cases à cocher, les zones de liste déroulante, les zones de liste et les contrôles de modification uniquement. Les valeurs possibles sont les suivantes :
+> Masque de bits d’indicateurs qui décrit les fonctionnalités du contrôle et correspond à la propriété **PR_CONTROL_FLAGS (**[PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) du contrôle. Ces indicateurs peuvent être définies uniquement pour les cases à cocher, les zones de liste déroulante, les zones de liste et les contrôles d’édition. Les valeurs possibles sont les suivantes :
     
 DT_ACCEPT_DBCS 
   
@@ -142,11 +142,11 @@ DT_SET_IMMEDIATE
     
 **lpbNotif**
   
-> Pointeur vers une structure constituée d’une structure [GUID,](guid.md) pour représenter le fournisseur de services et un identificateur pour le contrôle. Les membres **lpbNotif** et **cbNotif** correspondent à la propriété **PR_CONTROL_ID (** [PidTagControlId](pidtagcontrolid-canonical-property.md)) du contrôle et sont utilisés pour avertir l’interface utilisateur lorsque le contrôle doit être mis à jour.
+> Pointeur vers une structure constituée d’une structure [GUID](guid.md) , pour représenter le fournisseur de services et un identificateur pour le contrôle. Les membres **lpbNotif** et **cbNotif** correspondent à la propriété **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) du contrôle et sont utilisés pour avertir l’interface utilisateur lorsque le contrôle doit être mis à jour.
     
 **cbNotif**
   
-> Nombre d’octets dans la structure pointée par **le membre lpbNotif.** 
+> Nombre d’octets dans la structure pointée par **le membre lpbNotif** . 
     
 **lpszFilter**
   
@@ -154,11 +154,11 @@ DT_SET_IMMEDIATE
     
 |**Caractère**|**Description**|
 |:-----|:-----|
-| `*` <br/> | Tout caractère est autorisé (par exemple, `"*"` ).  <br/> |
-| `[ ]` <br/> |Définit un ensemble de caractères (par exemple, `"[0123456789]"` .)  <br/> |
-| `-` <br/> |Indique une plage de caractères (par exemple, `"[a-z]"` ).  <br/> |
-| `~` <br/> |Indique que ces caractères ne sont pas autorisés (par exemple, `"[~0-9]")` . <br/>|   
-| `\` <br/> |Utilisé pour guillemets l’un des symboles précédents (par exemple, les caractères `"[\-\\\[\]]"` -, \, [et ] sont autorisés).  <br/> |
+| `*`  | Tout caractère est autorisé (par exemple, `"*"`). |
+| `[ ]`|Définit un ensemble de caractères (par exemple, `"[0123456789]"`.) |
+| `-`  |Indique une plage de caractères (par exemple, `"[a-z]"`). |
+| `~`  |Indique que ces caractères ne sont pas autorisés (par exemple, `"[~0-9]")`. |   
+| `\`  |Utilisé pour guillemets l’un des symboles précédents (par exemple, `"[\-\\\[\]]"` les caractères -, \, [et ] sont autorisés). |
    
 **ulItemID**
   
@@ -166,21 +166,21 @@ DT_SET_IMMEDIATE
     
 **ctl**
   
-> Structure qui contient les données du contrôle et correspond à la propriété PR_CONTROL_STRUCTURE **(** [PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)). Chaque type de contrôle a une structure différente.
+> Structure qui contient les données du contrôle et correspond à la propriété **PR_CONTROL_STRUCTURE (**[PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)) du contrôle. Chaque type de contrôle a une structure différente.
     
 ## <a name="remarks"></a>Remarques
 
 La structure **DTCTL** décrit un contrôle de n’importe quel type. La plupart de ses membres sont utilisés pour définir des propriétés sur le contrôle. 
   
-Le **membre ctl** est une union de structures liées à un type particulier de contrôle. Si la structure **DTCTL** décrit un contrôle d’édition, par exemple, le membre **ctl** pointe vers une structure [DTBLEDIT.](dtbledit.md) Cette structure correspond à la propriété PR_CONTROL_STRUCTURE **du** contrôle. L’union possède comme premier membre une variable de type LPVOID pour permettre l’initialisation du temps de compilation de la structure **DTCTL.** 
+Le **membre ctl** est une union de structures liées à un type particulier de contrôle. Si la structure **DTCTL** décrit un contrôle d’édition, par exemple, le membre **ctl** pointe vers une structure [DTBLEDIT](dtbledit.md) . Cette structure correspond à la propriété **PR_CONTROL_STRUCTURE contrôle.** L’union possède comme premier membre une variable de type LPVOID pour permettre l’initialisation du temps de compilation de la structure **DTCTL** . 
   
-Bien que la [fonction BuildDisplayTable](builddisplaytable.md) utilise la structure **DTCTL** pour créer la table d’affichage à partir des ressources de contrôle, la structure **DTCTL** n’apparaît jamais dans le tableau d’affichage lui-même. Cette structure fournit simplement des informations **à BuildDisplayTable**.
+Bien que la [fonction BuildDisplayTable](builddisplaytable.md) utilise la structure **DTCTL** pour créer le tableau d’affichage à partir des ressources de contrôle, la structure **DTCTL** n’apparaît jamais dans le tableau d’affichage lui-même. Cette structure fournit simplement des informations **à BuildDisplayTable**.
   
-Dans le **membre ulCtlFlags,** quatre indicateurs DT_ACCEPT_DBCS, DT_EDITABLE, DT_MULTILINE_and DT_PASSWORD_EDIT les contrôles d’édition uniquement. Deux autres DT_REQUIRED et DT_SET_IMMEDIATE un contrôle modifiable. 
+Dans le **membre ulCtlFlags** , quatre indicateurs DT_ACCEPT_DBCS, DT_EDITABLE, DT_MULTILINE_and DT_PASSWORD_EDIT les contrôles d’édition uniquement. Deux autres DT_REQUIRED et DT_SET_IMMEDIATE un contrôle modifiable. 
   
 Les contrôles disponibles pour une boîte de dialogue sont étiquette, zone de texte, zone de texte sensible à l’encre, liste, liste déroulante, zone de liste déroulante, case à cocher, zone de groupe, bouton, case d’radio et page à onglets.
   
-Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -198,4 +198,3 @@ Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableau
 - [DTBLPAGE](dtblpage.md)
 - [DTBLRADIOBUTTON](dtblradiobutton.md)
 - [Structures MAPI](mapi-structures.md)
-

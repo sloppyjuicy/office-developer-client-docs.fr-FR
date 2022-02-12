@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6853df0f-d22e-89ca-7d34-342b9c0bea23
 description: Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule A pour chaque ligne.
-ms.openlocfilehash: 68df3606207dae4762ff537b5c7e7db27b24dd84
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 03cb5813c6faa3ab5deeb06271ed8a34cf3a3e49
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180319"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782485"
 ---
 # <a name="a-cell-geometry-section"></a>A, cellule (section Geometry)
 
@@ -22,14 +22,14 @@ Représente des informations différentes selon la ligne où elle se trouve. Le 
   
 |Ligne|Description|
 |:-----|:-----|
-|[ArcTo](arcto-row-geometry-section.md) <br/> | Distance entre le milieu de l’arc et le milieu de sa corde.  <br/> |
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordonnée *x*  du point de contrôle de l’arc, un point sur l’arc. Le point de contrôle est mieux situé à mi-chemin entre les vertex de début et de fin de l’arc. Dans le cas contraire, l’arc peut atteindre une taille extrême afin de passer par le point de contrôle, avec des résultats imprévisibles.  <br/> |
-|[PolylineTo](polylineto-row-geometry-section.md) <br/> | Formule de la polyligne  <br/> |
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Avant-dernier nœud de la courbe B-spline rationnelle non uniforme (NURBS).  <br/> |
-|[SplineStart](splinestart-row-geometry-section.md) <br/> | Deuxième nœud de la spline  <br/> |
-|[SplineKnot](splineknot-row-geometry-section.md) <br/> | Un des nœuds de la spline (autre que le dernier ou les deux premiers)  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordonnée *x* d’un point sur la ligne infinie ; associé à *la coordonnée y* représentée par la cellule [B.](b-cell-geometry-section.md)  <br/> |
-|[Ellipse](ellipse-row-geometry-section.md) <br/> | Coordonnée *x* d’un point sur l’ellipse ; associé à *la coordonnée y* représentée par la cellule [B.](b-cell-geometry-section.md)  <br/> |
+|[ArcTo](arcto-row-geometry-section.md) <br/> | Distance entre le milieu de l’arc et le milieu de sa corde. |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordonnée *x*  du point de contrôle de l’arc, un point sur l’arc. Le point de contrôle est mieux situé à mi-chemin entre les vertex de début et de fin de l’arc. Dans le cas contraire, l’arc peut atteindre une taille extrême afin de passer par le point de contrôle, avec des résultats imprévisibles. |
+|[PolylineTo](polylineto-row-geometry-section.md) <br/> | Formule de la polyligne |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Avant-dernier nœud de la courbe B-spline rationnelle non uniforme (NURBS). |
+|[SplineStart](splinestart-row-geometry-section.md) <br/> | Deuxième nœud de la spline |
+|[SplineKnot](splineknot-row-geometry-section.md) <br/> | Un des nœuds de la spline (autre que le dernier ou les deux premiers) |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordonnée  *x*  d’un point sur la ligne infinie ; associé à  *la coordonnée y*  représentée par la [cellule B](b-cell-geometry-section.md) . |
+|[Ellipse](ellipse-row-geometry-section.md) <br/> | Coordonnée  *x*  d’un point sur l’ellipse ; associé à  *la coordonnée y*  représentée par la [cellule B](b-cell-geometry-section.md) . |
    
 ## <a name="remarks"></a>Remarques
 
@@ -37,15 +37,15 @@ Pour obtenir une référence à la cellule A par un nom à partir d’une autre 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Geometry  *i*  . A  *j*            where  *i*  and  *j*  = <1>, 2, 3...  <br/> |
-|| Geometry  *i*  . A1 (lignes InfiniteLine et Ellipse) où  *i*  = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Geometry  *i*  . A  *j*            where  *i*  and  *j*  = <1>, 2, 3... |
+|| Geometry  *i*  . A1 (lignes InfiniteLine et Ellipse) où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule A à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionFirstComponent**  +   *i* où *i* = 0, 1, 2...  <br/> |
-| Index de la ligne :  <br/> |**visRowVertex**  +   *j* où *j* = 0, 1, 2...  <br/> |
+| Index de la section :  <br/> |**visSectionFirstComponent** +   *i* où *i* = 0, 1, 2... |
+| Index de la ligne :  <br/> |**visRowVertex** +   *j* où *j* = 0, 1, 2... |
 ||**visRowVertex** (lignes InfiniteLine et Ellipse)  <br/> |
 | Index de la cellule :  <br/> |**visBow** (ligne ArcTo)  <br/> |
 ||**visControlX** (ligne EllipticalArcTo)  <br/> |

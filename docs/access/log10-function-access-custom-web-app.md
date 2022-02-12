@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 89c2d4f0-0de9-41d4-bc34-a21f5636e8c4
 description: Calcule le logarithme d'un nombre en base 10.
-ms.openlocfilehash: c3eae1c6ac8492b5bd8de2ff29dbe32a1a4797f8
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: b34c996c45e9869d8ada36efad0fbcfe453f82e0
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180620"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782933"
 ---
 # <a name="log10-function-access-custom-web-app"></a>Log10 Function (Access custom web app)
 
@@ -29,7 +29,7 @@ La **fonction Log10** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Nombre positif pour lequel vous souhaitez obtenir le logarithme de base 10.  <br/> |
+| *NumericExpression*  <br/> |Nombre positif pour lequel vous souhaitez obtenir le logarithme de base 10. |
    
 ## <a name="remarks"></a>Remarques
 

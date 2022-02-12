@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 72fb3ee5-f18e-4f9c-adc6-698ac037b79d
 description: Pour accéder aux données XML dans les sources de données du modèle de formulaire et les manipuler, un grand nombre de membres du modèle objet avec code managé fourni par l'espace de noms Microsoft.Office.InfoPath créent ou se voient attribuer une instance de la classe XPathNavigator de l'espace de noms System.Xml.XPath. Après avoir accédé à un objet XPathNavigator retourné par un membre du modèle objet InfoPath, vous pouvez utiliser les propriétés et les méthodes de la classe XPathNavigator pour travailler avec les données.
-ms.openlocfilehash: 498b2a1a8595bca56304809e4f71ce9478d96703
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0d87382aeb7000bc4a776fe6cd4aae8dbc1d568b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580537"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782800"
 ---
 # <a name="work-with-the-xpathnavigator-and-xpathnodeiterator-classes"></a>Travailler avec les classes XPathNavigator et XPathNodeIterator
 
@@ -153,7 +153,7 @@ myDate.SetValue(strCurDate)
 
 Pour spécifier des champs ou des groupes récurrents dont le nombre n'est pas déterminé, utilisez la méthode **Select** de la classe **XPathNavigator**. Cette méthode retourne un objet XPathNodeIterator que vous pouvez utiliser pour parcourir la collection de nœuds. 
   
-Dans l'exemple suivant, votre modèle de formulaire contient une **Liste à puces** ou un autre contrôle récurrent qui est lié à un élément récurrent appelé  `field1`. Le XPath de ce champ est transmis à la méthode **Select** et la valeur **XPathNodeIterator** retournée est affectée à la variable  `nodes`. Vous pouvez utiliser la méthode MoveNext pour parcourir la collection de nœuds et la propriété Current pour retourner un objet **XPathNavigator** placé sur le nœud actif. Enfin, utilisez la **propriété Value** pour récupérer et afficher la valeur de chaque champ ext. exe. 
+Dans l'exemple suivant, votre modèle de formulaire contient une **Liste à puces** ou un autre contrôle récurrent qui est lié à un élément récurrent appelé  `field1`. Le XPath de ce champ est transmis à la méthode **Select** et la valeur **XPathNodeIterator** retournée est affectée à la variable  `nodes`. Vous pouvez utiliser la méthode MoveNext pour parcourir la collection de nœuds et la propriété Current pour retourner un objet **XPathNavigator** placé sur le nœud actif. Enfin, utilisez la **propriété Value** pour extraire et afficher la valeur de chaque champ ext. exex. 
   
 ```cs
 string message = String.Empty;
@@ -248,7 +248,7 @@ Le tableau suivant recense les membres de l'espace de noms **Microsoft.Office.In
 |[FormError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.aspx) <br/> |[Propriété de](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Site.aspx) site  <br/> |
 |[FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) <br/> |[Ajouter](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) des méthodes  <br/> |
 |[FormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.aspx) <br/> |[Propriété manifest](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Manifest.aspx)  <br/> |
-|[MergeEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.aspx) <br/> |[Xml,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Xml.aspx) propriété  <br/> |
+|[MergeEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.aspx) <br/> |[Xml](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Xml.aspx) , propriété  <br/> |
 |[SharepointListQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharepointListQueryConnection.aspx) <br/> |[Execute,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharepointListQueryConnection.Execute.aspx) méthode  <br/> |
 |[Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |[SignatureBlockXmlNode,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.SignatureBlockXmlNode.aspx) propriété  <br/> |
 |[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) <br/> |[SignatureContainer,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.SignatureContainer.aspx) propriété  <br/> |
@@ -259,7 +259,7 @@ Le tableau suivant recense les membres de l'espace de noms **Microsoft.Office.In
 ||[Méthode GenerateDataSetDiffGram](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.GenerateDataSetDiffGram.aspx)  <br/> |
 |[XmlEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEventArgs.aspx) <br/> |[OldParent,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEventArgs.OldParent.aspx) propriété  <br/> |
 ||[Propriété de](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEventArgs.Site.aspx) site  <br/> |
-|[XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) <br/> |[Propriété MainDataSource,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx) qui renvoie un objet **DataSource** qui fournit à son tour la méthode **CreateNavigator** pour la création d’un objet **XPathNavigator** positionné à la racine du document XML sous-jacent du formulaire (source de données principale).  <br/> |
+|[XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) <br/> |[Propriété MainDataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx) , qui renvoie un objet **DataSource** qui fournit à son tour la méthode **CreateNavigator** pour la création d’un objet **XPathNavigator** positionné à la racine du document XML sous-jacent du formulaire (source de données principale). |
 ||[MergeForm,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MergeForm.aspx) méthode  <br/> |
 |[XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) <br/> |[Méthode NewFromFormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx)  <br/> |
 |[XmlValidatingEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlValidatingEventArgs.aspx) <br/> |[Méthodes ReportError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlValidatingEventArgs.ReportError.aspx)  <br/> |

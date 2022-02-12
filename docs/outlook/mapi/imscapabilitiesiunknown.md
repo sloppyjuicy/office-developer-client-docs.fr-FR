@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 18623a44-719e-f46f-0f04-d6089a19c85d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ed85983ab305e10babdf05e1d55ecc047665c2a8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 98b223f2bfd1fb4e0f963f7869ee65645388d30b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564112"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782730"
 ---
 # <a name="imscapabilities--iunknown"></a>IMSCapabilities : IUnknown
 
@@ -36,11 +36,11 @@ Fournit des informations sur ce qu’un magasin peut prendre en charge.
 
 |||
 |:-----|:-----|
-|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Renvoie les fonctionnalités d’un magasin en fonction de la sélection spécifiée.  <br/> |
+|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Renvoie les fonctionnalités d’un magasin en fonction de la sélection spécifiée. |
    
 ## <a name="remarks"></a>Remarques
 
- **IMSCapabilities fournit des** informations sur ce qu’un magasin peut prendre en charge si elle prend en charge cette interface. 
+ **IMSCapabilities fournit** des informations sur ce qu’un magasin peut prendre en charge si elle prend en charge cette interface. 
   
 ## <a name="see-also"></a>Voir aussi
 

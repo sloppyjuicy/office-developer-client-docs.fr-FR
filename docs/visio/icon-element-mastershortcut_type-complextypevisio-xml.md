@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 07d8ba86-8e35-d151-e6c1-150c37cc2acd
 description: Spécifie une icône binaire codée MIME (Multipurpose Internet Mail Extensions) (au format .ico) pour un élément MasterShortcut dans un document.
-ms.openlocfilehash: 0adbcd494dcbaf3fc78ae422224ef8c1632bf6e5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1b04d999df0047249845857bc18e8ff9ace7c0c8
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623466"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62783228"
 ---
 # <a name="icon-element-mastershortcut_type-complextype-visio-xml"></a>Élément Icon (MasterShortcut_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Spécifie une icône binaire codée MIME (Multipurpose Internet Mail Extensions)
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Spécifie un format de forme de maître inutilisé.  <br/> |
+|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Spécifie un format de forme de maître inutilisé. |
    
 ### <a name="child-elements"></a>Éléments enfants
 

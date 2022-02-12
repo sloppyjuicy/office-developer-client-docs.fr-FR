@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 398c141c-8a40-7605-254a-2ee7cc0a7af5
 description: Contient un Connecter pour chaque connexion entre deux formes dans un dessin.
-ms.openlocfilehash: 9d9e009d1deeec997b20cf4084f1f8d1b15fa1fd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 311cae36f1645e5e889f2334f29628985e15fb47
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613008"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62782338"
 ---
 # <a name="connects-element-pagecontents_type-complextype-visio-xml"></a>Élément Connects (PageContents_Type complexType) (Visio XML)
 
@@ -36,20 +36,20 @@ Contient un **Connecter** pour chaque connexion entre deux formes dans un dessin
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[MasterContents](mastercontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Spécifie les informations sur les formes d’une forme de base ou d’une page de dessin d’un dessin.  <br/> |
-|[PageContents](pagecontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Spécifie les informations sur les formes d’une forme de base ou d’une page de dessin d’un dessin.  <br/> |
+|[MasterContents](mastercontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Spécifie les informations sur les formes d’une forme de base ou d’une page de dessin d’un dessin. |
+|[PageContents](pagecontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Spécifie les informations sur les formes d’une forme de base ou d’une page de dessin d’un dessin. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Connect](connect-element-connects_type-complextypevisio-xml.md) <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |Représente une connexion entre deux formes dans un dessin, telles qu’un trait et un cadre dans un organigramme.  <br/> |
+|[Connect](connect-element-connects_type-complextypevisio-xml.md) <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |Représente une connexion entre deux formes dans un dessin, telles qu’un trait et un cadre dans un organigramme. |
    
 ### <a name="attributes"></a>Attributs
 
