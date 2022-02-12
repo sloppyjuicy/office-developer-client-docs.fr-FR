@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a79a139a-6813-49f6-b622-bb66d62c4462
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ea83f7384c2296efed3c651746deda6d342e2488
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 13c43774a7ed5428451e860e263f7feaf0522e19
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604327"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777270"
 ---
 # <a name="pidtaggender-canonical-property"></a>Propriété canonique PidTagGender
 
@@ -42,9 +42,9 @@ Les valeurs possibles pour cette propriété sont définies dans l’éumératio
   
 |**Gender, éumeration**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|genderUnspecified  <br/> |0x0000  <br/> |Le sexe du contact n’est pas spécifié.  <br/> |
-|genderFemale  <br/> |0x0001  <br/> |Le contact est une femme.  <br/> |
-|genderMale  <br/> |0x0002  <br/> |Le contact est un homme.  <br/> |
+|genderUnspecified  <br/> |0x0000  <br/> |Le sexe du contact n’est pas spécifié. |
+|genderFemale  <br/> |0x0001  <br/> |Le contact est une femme. |
+|genderMale  <br/> |0x0002  <br/> |Le contact est un homme. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

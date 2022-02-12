@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 070b4468-c907-b201-1633-1d3e10ecc2b2
 description: Indique si l’action est visible dans le menu contextuel ou de balise d’action.
-ms.openlocfilehash: ffc213fd19b3a39e644ddea57bbe99dc367bbeab
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5ee2e87b18afa187ad64d3d443d4c70837b8a62f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598527"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775723"
 ---
 # <a name="invisible-cell-actions-section"></a>Invisible, cellule (section Actions)
 
@@ -25,8 +25,8 @@ Indique si l’action est visible dans le menu contextuel ou de balise d’actio
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |L'action n'est pas visible dans le menu.  <br/> |
-|FALSE  <br/> |L'action est visible dans le menu (valeur par défaut).  <br/> |
+|TRUE  <br/> |L'action n'est pas visible dans le menu. |
+|FALSE  <br/> |L'action est visible dans le menu (valeur par défaut). |
    
 ## <a name="remarks"></a>Remarques
 
@@ -41,7 +41,7 @@ Pour obtenir une référence à la cellule Invisible à l'aide d'un index à par
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction**  +   *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowAction** +   *i* où *i* = 0, 1, 2... |
 |Index de la cellule :  <br/> |**visActionInvisible** <br/> |
    
 

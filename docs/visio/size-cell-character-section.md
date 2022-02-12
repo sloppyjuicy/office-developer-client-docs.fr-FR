@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: a61b50fe-eacb-b3d4-0e4e-ab3e7c972ee9
 description: Détermine la taille de la police figurant dans le bloc de texte d'une forme.
-ms.openlocfilehash: bd20175567010aafd2e2a88ebdf5722032f5624e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ba828567b189b5ad7ec79b269986be8cbe455e5e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559544"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772479"
 ---
 # <a name="size-cell-character-section"></a>Size, cellule (section Character)
 
@@ -28,14 +28,14 @@ Pour obtenir une référence à la cellule Size par un nom dans une autre formul
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Char.Size[  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Char.Size[  *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Size par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionCharacter** <br/> |
-| Index de la ligne :  <br/> |**visRowCharacter**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visCharacterSize** <br/> |
    
 

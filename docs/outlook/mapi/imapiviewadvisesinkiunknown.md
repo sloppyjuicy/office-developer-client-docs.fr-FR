@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1231391d-803a-4b41-b252-4d986f99361a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b7486139818ede9bd7e4b66472317ab50b05ba4d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f67b5330c78bfd2c4bbb6beef53d78b347b2fcc3
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567374"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776346"
 ---
 # <a name="imapiviewadvisesink--iunknown"></a>IMAPIViewAdviseSink : IUnknown
 
@@ -40,11 +40,11 @@ Reçoit des notifications à partir de formulaires.
 
 |||
 |:-----|:-----|
-|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Avertit la visionneuse de formulaires qu’un formulaire est en cours de fermeture.  <br/> |
-|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Avertit la visionneuse de formulaire qu’un nouveau message ou un message existant a été chargé dans un formulaire.  <br/> |
-|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Avertit la visionneuse de formulaires de l’état d’impression d’un formulaire.  <br/> |
-|[OnSubmitted](imapiviewadvisesink-onsubmitted.md) <br/> |Avertit la visionneuse de formulaire que le message actuel a été envoyé aupooler MAPI.  <br/> |
-|[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Avertit la visionneuse de formulaire que le message en cours dans un formulaire a été enregistré.  <br/> |
+|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Avertit la visionneuse de formulaire qu’un formulaire est en cours de fermeture. |
+|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Avertit la visionneuse de formulaire qu’un nouveau message ou un message existant a été chargé dans un formulaire. |
+|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Avertit la visionneuse de formulaires de l’état d’impression d’un formulaire. |
+|[OnSubmitted](imapiviewadvisesink-onsubmitted.md) <br/> |Avertit la visionneuse de formulaire que le message actuel a été envoyé aupooler MAPI. |
+|[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Avertit la visionneuse de formulaire que le message en cours dans un formulaire a été enregistré. |
    
 ## <a name="see-also"></a>Voir aussi
 

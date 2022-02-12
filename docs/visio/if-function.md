@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 66771ad3-0fb3-68ff-81da-d1162d37c05a
 description: Renvoie valueiftrue si logicalexpression a la valeur TRUE. Sinon, elle renvoie valueiffalse.
-ms.openlocfilehash: 8364db9622d4e0432544d83c1265e2af0c4b33f6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ada10a0ec50a890515dc3a56f645006c7bb7a55e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612644"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775715"
 ---
 # <a name="if-function"></a>Fonction IF
 
@@ -28,9 +28,9 @@ IF(** *logicalexpression* **, ** *valueiftrue* **, ** *valueiffalse* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _logicalexpression_ <br/> |Obligatoire  <br/> |**String** <br/> |Expression à évaluer.  <br/> |
-| _valueiftrue_ <br/> |Obligatoire  <br/> |**Varie** <br/> |Valeur à renvoyer si  _logicalexpression_ est true.  <br/> |
-| _valueiffalse_ <br/> |Obligatoire  <br/> |**Varie** <br/> | Valeur à renvoyer si  _logicalexpression_ est false.  <br/> |
+| _logicalexpression_ <br/> |Requis  <br/> |**String** <br/> |Expression à évaluer. |
+| _valueiftrue_ <br/> |Requis  <br/> |**Varie** <br/> |Valeur à renvoyer si  _logicalexpression_ est true. |
+| _valueiffalse_ <br/> |Requis  <br/> |**Varie** <br/> | Valeur à renvoyer si  _logicalexpression_ est false. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

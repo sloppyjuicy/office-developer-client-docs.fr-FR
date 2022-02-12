@@ -7,16 +7,16 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 61e30f57-abd6-9378-45ed-51236ab3d3ee
 description: Contient une collection d’éléments FaceName.
-ms.openlocfilehash: 43fbdf8f705a51ea68e7b81e1b50b3bf4f6caa01
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4d75a100e365b6749a7ab92db18608f7b3e13c98
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574250"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775877"
 ---
 # <a name="facenames-element-visiodocument_type-complextype-visio-xml"></a>Élément FaceNames (VisioDocument_Type complexType) (Visio XML)
 
-Contient une collection **d’éléments FaceName.** 
+Contient une collection **d’éléments FaceName** . 
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -36,19 +36,19 @@ Contient une collection **d’éléments FaceName.**
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Élément racine d’un document Microsoft Visio document.  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Élément racine d’un document Microsoft Visio document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[FaceName](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[FaceName_Type](facename_type-complextypevisio-xml.md) <br/> |Contient des informations sur une police.  <br/> |
+|[FaceName](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[FaceName_Type](facename_type-complextypevisio-xml.md) <br/> |Contient des informations sur une police. |
    
 ### <a name="attributes"></a>Attributs
 

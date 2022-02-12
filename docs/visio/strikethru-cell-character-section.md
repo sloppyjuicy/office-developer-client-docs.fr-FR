@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b03b4415-0b1a-eb03-2b5e-373b39a0f07a
 description: Détermine si le texte est barré.
-ms.openlocfilehash: 0f1f997fe79e365e7dd60dd48c4b889a78d96b97
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2fa8a0837b11f56401dc1b5cf99240f0f40f99be
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59549489"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776871"
 ---
 # <a name="strikethru-cell-character-section"></a>Strikethru, cellule (section Character)
 
@@ -22,8 +22,8 @@ Détermine si le texte est barré.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Le texte est barré.  <br/> |
-|FALSE  <br/> |Le texte n'est pas barré.  <br/> |
+|TRUE  <br/> |Le texte est barré. |
+|FALSE  <br/> |Le texte n'est pas barré. |
    
 ## <a name="remarks"></a>Remarques
 
@@ -33,14 +33,14 @@ Pour obtenir une référence à la cellule Strikethru par un nom dans une autre 
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Char.Strikethru[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Char.Strikethru[ *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Strikethru par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionCharacter** <br/> |
-|Index de la ligne :  <br/> |**visRowCharacter**  +   *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
 |Index de la cellule :  <br/> |**visCharacterStrikethru** <br/> |
    
 

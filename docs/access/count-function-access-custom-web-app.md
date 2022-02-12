@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: d931535b-428f-4300-93bf-cfe0ebcc2ac9
 description: Renvoie le nombre d’enregistrements dans une requête ou une table.
-ms.openlocfilehash: b0172332096cc41a8a1b24ca3d4b6afe26b4e058
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 3431c90b0c128ace57fd251196e1d64956183f9e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179766"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777851"
 ---
 # <a name="count-function-access-custom-web-app"></a>Count function (Access custom web app)
 
@@ -28,10 +28,10 @@ La **fonction Count** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *Expression*  <br/> |Expression chaîne identifiant le champ qui contient les données à compter ou expression qui effectue un calcul à l’aide des données du champ. Les opérandes dans *Expression* peuvent inclure le nom d’un champ de table ou d’une fonction (qui peut être intrinsèque ou définie par l’utilisateur, mais pas d’autres SQL fonctions d’agrégation). Vous pouvez compter tous les types de données, y compris du texte.  <br/> |
+| *Expression*  <br/> |Expression chaîne identifiant le champ qui contient les données à compter ou expression qui effectue un calcul à l’aide des données du champ. Les opérandes dans *Expression* peuvent inclure le nom d’un champ de table ou d’une fonction (qui peut être intrinsèque ou définie par l’utilisateur, mais pas d’SQL fonctions d’agrégation). Vous pouvez compter tous les types de données, y compris du texte. |
    
 ## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser Count pour compter le nombres d'enregistrements dans une requête sous-jacente. Par exemple, vous pouvez utiliser Count pour compter le nombre de commandes expédiées vers un pays ou une région particulier.
   
-**Count** ( \* ) renvoie le nombre d’éléments dans un groupe. Cela inclut les valeurs NULL et les doublons.
+**Count** (\*) renvoie le nombre d’éléments dans un groupe. Cela inclut les valeurs NULL et les doublons.

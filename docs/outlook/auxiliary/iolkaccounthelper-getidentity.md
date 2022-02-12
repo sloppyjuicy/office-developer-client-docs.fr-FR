@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: ea8b8f02-959f-cd71-9cfe-5ebdf4bae2bc
 description: Obtient le nom de profil d’un compte.
-ms.openlocfilehash: d24f108aa4227ce8fe38e46b48a8f56a0eb29cdd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4df48b6c48953d234ba002e718519172f45d3017
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625685"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776654"
 ---
 # <a name="iolkaccounthelpergetidentity"></a>IOlkAccountHelper::GetIdentity
 
@@ -43,13 +43,13 @@ _pcch_
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |L'appel a réussi.  <br/> |
-|E_OUTOFMEMORY  <br/> |Le nom de profil renvoyé est plus long que la taille  _de pwszIdentity_.  <br/> |
-|E_INVALIDARG  <br/> | _pcch_ est NULL.  <br/> |
+|S_OK  <br/> |L'appel a réussi. |
+|E_OUTOFMEMORY  <br/> |Le nom de profil renvoyé est plus long que la taille  _de pwszIdentity_. |
+|E_INVALIDARG  <br/> | _pcch_ est NULL. |
    
 ## <a name="remarks"></a>Remarques
 
-Si  _pwszIdentity_ est trop petit pour contenir le nom du profil, il ne sera pas définie lors du retour et  _pcch_ pointera vers la taille requise pour  _pwszIdentity_.
+Si  _pwszIdentity_ est trop petit pour contenir le nom du profil, il ne sera pas définie lors de l’retour et  _pcch_ pointera vers la taille requise pour  _pwszIdentity_.
   
 ## <a name="see-also"></a>Voir aussi
 

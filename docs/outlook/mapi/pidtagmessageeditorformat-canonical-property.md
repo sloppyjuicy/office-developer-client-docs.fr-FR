@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 197b21ed-9f2f-425f-a6ed-cae1208fa2ca
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dd107de00ebc7ab55b6d255c4bc993d9c3210086
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 468dcea196a1902c2c8ec08e022e322f24daef90
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560885"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777277"
 ---
 # <a name="pidtagmessageeditorformat-canonical-property"></a>Propriété canonique PidTagMessageEditorFormat
 
@@ -36,16 +36,16 @@ Spécifie le format d’un éditeur à utiliser pour afficher un message.
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs possibles **pour PR_MSG_EDITOR_FORMAT** peuvent être l’une des suivantes : 
+Les valeurs possibles pour **PR_MSG_EDITOR_FORMAT** peuvent être l’une des suivantes : 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|**EDITOR_FORMAT_DONTKNOW** <br/> |Le format de l’éditeur à utiliser est inconnu.  <br/> |
-|**EDITOR_FORMAT_PLAINTEXT** <br/> |L’éditeur doit afficher le message au format texte simple.  <br/> |
-|**EDITOR_FORMAT_HTML** <br/> |L’éditeur doit afficher le message au format HTML.  <br/> |
-|**EDITOR_FORMAT_RTF** <br/> |L’éditeur doit afficher le message au format Texte enrichi.  <br/> |
+|**EDITOR_FORMAT_DONTKNOW** <br/> |Le format de l’éditeur à utiliser est inconnu. |
+|**EDITOR_FORMAT_PLAINTEXT** <br/> |L’éditeur doit afficher le message au format texte simple. |
+|**EDITOR_FORMAT_HTML** <br/> |L’éditeur doit afficher le message au format HTML. |
+|**EDITOR_FORMAT_RTF** <br/> |L’éditeur doit afficher le message au format Texte enrichi. |
    
-Par défaut, les messages électroniques (avec la classe de message **IPM. Remarque** ou avec une classe de message personnalisée dérivée **d’IPM. Remarque**) les messages envoyés à partir d’un compte de messagerie POP3/SMTP sont envoyés au format TNEF (Transport Neutral Encapsulation Format). La **PR_MSG_EDITOR_FORMAT** peut être utilisée pour appliquer uniquement le texte simple, et non le TNEF, lors de l’envoi d’un message. Si **PR_MSG_EDITOR_FORMAT** est définie sur **EDITOR_FORMAT_PLAINTEXT,** le message est envoyé en texte simple sans TNEF. Si **PR_MSG_EDITOR_FORMAT** est définie sur **EDITOR_FORMAT_RTF**, le codage TNEF est implicitement activé et le message est envoyé à l’aide du format Internet par défaut spécifié dans le client Outlook.
+Par défaut, les messages électroniques (avec la classe **de message IPM. Remarque** ou avec une classe de message personnalisée dérivée **d’IPM. Remarque**) les messages envoyés à partir d’un compte de messagerie POP3/SMTP sont envoyés au format TNEF (Transport Neutral Encapsulation Format). La **PR_MSG_EDITOR_FORMAT** peut être utilisée pour appliquer uniquement le texte simple, et non le TNEF, lors de l’envoi d’un message. Si **PR_MSG_EDITOR_FORMAT** est **EDITOR_FORMAT_PLAINTEXT, le** message est envoyé en texte simple sans TNEF. Si **PR_MSG_EDITOR_FORMAT** est définie sur **EDITOR_FORMAT_RTF**, le codage TNEF est implicitement activé et le message est envoyé à l’aide du format Internet par défaut spécifié dans le client Outlook.
   
 Il existe deux autres façons d’appliquer l’utilisation du TNEF lors de l’envoi d’un message.
   

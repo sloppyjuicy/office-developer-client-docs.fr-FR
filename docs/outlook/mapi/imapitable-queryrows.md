@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f26384f1-467e-4343-92b3-0425da9d2123
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: de5bb1a37862c5177d5d5bc7306ba8b72a700133
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: e69b80e1374af96a7db4e8b0a3f73fb4b30b9fa4
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462114"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776367"
 ---
 # <a name="imapitablequeryrows"></a>IMAPITable::QueryRows
 
@@ -117,7 +117,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI utilise la **méthode IMAPITable::QueryRows** pour récupérer les lignes de la table à charger dans l’affichage.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI utilise la **méthode IMAPITable::QueryRows** pour récupérer les lignes de la table à charger dans l’affichage. |
    
 ## <a name="see-also"></a>Voir aussi
 

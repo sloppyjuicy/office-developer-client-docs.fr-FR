@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 5ab57bf2-0d9f-4a3a-4882-c77d7c781cbd
-ms.openlocfilehash: 1795d9756fba731069ed7d45b49f09b346f89797
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2ee62423f94a442af5cab740eadc72ff812d32e1
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627519"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772605"
 ---
 # <a name="sectiondef_type-complextype-visio-xml"></a>SectionDef_Type complexType (Visio XML)
 
@@ -58,11 +58,11 @@ ms.locfileid: "59627519"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |CellDef <br/> |[CellDef_Type](celldef_type-complextypevisio-xml.md) <br/> ||
 |RowDef <br/> |[RowDef_Type](rowdef_type-complextypevisio-xml.md) <br/> ||
@@ -71,8 +71,8 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|N  <br/> |xsd:string  <br/> |obligatoire  <br/> ||Valeurs du type xsd:string.  <br/> |
-|S  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedByte.  <br/> |
-|T  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string.  <br/> |
+|N  <br/> |xsd:string  <br/> |obligatoire  <br/> ||Valeurs du type xsd:string. |
+|S  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedByte. |
+|T  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string. |
    
 

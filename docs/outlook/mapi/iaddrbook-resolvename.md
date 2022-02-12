@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a7823c16-efda-45c2-b931-3e1fbc823b0b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c2a5ddd75ee0b817ef780518a7ee7c9a9896bc00
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 9fbae6162ddb238720687bf859930f2235d6cc41
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462016"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776661"
 ---
 # <a name="iaddrbookresolvename"></a>IAddrBook::ResolveName
 
@@ -122,8 +122,8 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIABFunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI utilise la **méthode ResolveName** pour résoudre une adresse one-off avant de l’ajouter à un message.  <br/> |
-|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI utilise la **méthode ResolveName** pour rechercher une entrée de carnet d’adresses par nom d’affichage.  <br/> |
+|MAPIABFunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI utilise la **méthode ResolveName** pour résoudre une adresse one-off avant de l’ajouter à un message. |
+|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI utilise la **méthode ResolveName** pour rechercher une entrée de carnet d’adresses par nom d’affichage. |
    
 ## <a name="see-also"></a>Voir aussi
 

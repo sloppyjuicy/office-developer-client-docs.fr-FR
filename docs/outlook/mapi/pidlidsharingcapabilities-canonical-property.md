@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 86b3eab2-2594-4204-aedf-8ce2ee3b81ce
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 73f45d26a9872b3d52f8633b543ee640fc20a537
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4084dd8930746ce5027c6a4069ca61eff8513b5f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600532"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777333"
 ---
 # <a name="pidlidsharingcapabilities-canonical-property"></a>Propriété canonique PidLidSharingCapabilities
 
@@ -37,12 +37,12 @@ Désigne comme propriété d’un message de partage.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit être définie sur l’une des valeurs suivantes :
+Cette propriété doit avoir l’une des valeurs suivantes :
   
 |**Valeur**|**Scénario**|
 |:-----|:-----|
-|0x00040290  <br/> |Cet objet Message de partage est lié à un dossier spécial.  <br/> |
-|0x000402B0  <br/> |Cet objet Message de partage n’est pas lié à un dossier spécial.  <br/> |
+|0x00040290  <br/> |Cet objet Message de partage est lié à un dossier spécial. |
+|0x000402B0  <br/> |Cet objet Message de partage n’est pas lié à un dossier spécial. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

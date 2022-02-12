@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a439783c47da5bddf842f03d140dd74a617cb944
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 086505dda35412957a14166ebbdf222a2e15ade2
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462616"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777381"
 ---
 # <a name="itnefaddprops"></a>ITnef::AddProps
 
@@ -98,7 +98,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI utilise la méthode **ITnef::AddProps** pour copier les propriétés d’un message vers un flux TNEF.  <br/> |
+|File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI utilise la méthode **ITnef::AddProps** pour copier les propriétés d’un message vers un flux TNEF. |
    
 ## <a name="see-also"></a>Voir aussi
 

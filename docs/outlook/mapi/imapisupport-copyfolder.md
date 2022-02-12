@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c2e0939f-0668-473f-856c-a27af094070b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a63261b9a830f9ad755dfd91e2dc32f6e5f3ad7e
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: fed03d06a71b3d7dd57d201b1440ac7a74dece07
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461777"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777424"
 ---
 # <a name="imapisupportcopyfolder"></a>IMAPISupport::CopyFolder
 
@@ -128,9 +128,9 @@ Attendez-vous à ce que les valeurs de retour suivantes se placent dans les cond
   
 |**Condition**|**Valeur renvoy�e**|
 |:-----|:-----|
-|**CopyFolder a** correctement copié ou déplacé le dossier et tous ses sous-dossiers, le cas échéant.  <br/> |S_OK  <br/> |
-|**CopyFolder n’a** pas pu copier ou déplacer tous les dossiers.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
-|**CopyFolder n’a** pas pu se terminer.  <br/> |Toute valeur d’erreur  <br/> |
+|**CopyFolder a** correctement copié ou déplacé le dossier et tous ses sous-dossiers, le cas échéant. |S_OK  <br/> |
+|**CopyFolder n’a** pas pu copier ou déplacer tous les dossiers. |MAPI_W_PARTIAL_COMPLETION  <br/> |
+|**CopyFolder n’a** pas pu se terminer. |Toute valeur d’erreur  <br/> |
    
 Si **CopyFolder renvoie** une valeur d’erreur, ne continuez pas sur l’hypothèse qu’aucun travail n’a été effectué. Un ou plusieurs dossiers ont pu être copiés ou déplacés avant **que CopyFolder** ne soit mis en échec. 
   

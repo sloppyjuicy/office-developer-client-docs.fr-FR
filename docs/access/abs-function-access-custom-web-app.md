@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: c880a662-dc4b-4b37-bbd4-3cb681dc1d1c
 description: Renvoie la valeur absolue (positive) de l’expression numérique spécifiée.
-ms.openlocfilehash: 6e9a78fdbb3499a50ffe6a27deae864d34967b7b
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 3b4413e679a52d29fdd1ff4dce209a7ff858e798
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179843"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777949"
 ---
 # <a name="abs-function-access-custom-web-app"></a>Abs Function (Access custom web app)
 
@@ -28,6 +28,6 @@ La **fonction Abs** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Expression numérique.  <br/> |
+| *NumericExpression*  <br/> |Expression numérique. |
    
 

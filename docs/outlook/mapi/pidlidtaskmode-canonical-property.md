@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 185db683-301a-4d91-a583-6959853fa1ad
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 39e6e0f58073a3acafd48864eed18664cfe1d68e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6c37e164768e5d78ede7e7f124c0d1df9e378db9
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630025"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777340"
 ---
 # <a name="pidlidtaskmode-canonical-property"></a>Propriété canonique PidLidTaskMode
 
@@ -41,12 +41,12 @@ La valeur doit être l’une des suivantes.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |La tâche n’est pas affectée.  <br/> |
-|0x00000001  <br/> |La tâche est incorporée dans une demande de tâche.  <br/> |
-|0x00000002  <br/> |La tâche a été acceptée par la personne à qui la tâche a été assignée.  <br/> |
-|0x00000003  <br/> |La tâche a été rejetée par la personne assignée à la tâche.  <br/> |
-|0x00000004  <br/> |La tâche est incorporée dans une mise à jour de tâche.  <br/> |
-|0x00000005  <br/> |La tâche a été affectée à l’assigneur de la tâche.  <br/> |
+|0x00000000  <br/> |La tâche n’est pas affectée. |
+|0x00000001  <br/> |La tâche est incorporée dans une demande de tâche. |
+|0x00000002  <br/> |La tâche a été acceptée par la personne à qui la tâche a été assignée. |
+|0x00000003  <br/> |La tâche a été rejetée par la personne à qui la tâche a été assignée. |
+|0x00000004  <br/> |La tâche est incorporée dans une mise à jour de tâche. |
+|0x00000005  <br/> |La tâche a été affectée à l’assigneur de la tâche. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

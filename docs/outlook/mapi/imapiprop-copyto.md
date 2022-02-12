@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e56042e9-5bb7-4a99-b6de-1546d4ca07f0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 83422650ce734faabe82772de31a34b37a5d5cef
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 3d9b885f8fb44722c7a541fa9f291b00a46d72b7
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462261"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777515"
 ---
 # <a name="imapipropcopyto"></a>IMAPIProp::CopyTo
 
@@ -199,8 +199,8 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|File.cpp  <br/> |LoadFromMSG  <br/> |MFCMAPI utilise la méthode **IMAPIProp::CopyTo** pour copier les propriétés d’un fichier .msg vers un objet [IMAPIMessageSite](imapimessagesiteiunknown.md) .  <br/> |
-|FolderDlg.cpp  <br/> |CFolderDlg::HandlePaste  <br/> |MFCMAPI utilise la méthode **IMAPIProp::CopyTo** pour copier les propriétés d’un message source vers un message cible au cours d’une opération de coller.  <br/> |
+|File.cpp  <br/> |LoadFromMSG  <br/> |MFCMAPI utilise la méthode **IMAPIProp::CopyTo** pour copier les propriétés d’un fichier .msg vers un objet [IMAPIMessageSite](imapimessagesiteiunknown.md) . |
+|FolderDlg.cpp  <br/> |CFolderDlg::HandlePaste  <br/> |MFCMAPI utilise la méthode **IMAPIProp::CopyTo** pour copier les propriétés d’un message source vers un message cible au cours d’une opération de coller. |
    
 ## <a name="see-also"></a>Voir aussi
 

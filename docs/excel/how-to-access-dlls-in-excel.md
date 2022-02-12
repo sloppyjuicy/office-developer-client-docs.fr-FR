@@ -8,12 +8,12 @@ keywords:
 - accès aux fichiers dlls [Excel 2007], DLLs [Excel 2007], accès dans Excel
 ms.assetid: e2bfd6ea-efa3-45c1-a5b8-2ccb8650c6ab
 ms.localizationpriority: high
-ms.openlocfilehash: 6a3839662434048d57bbac9a1e32de2229794920
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: 0df679188a19b1cc8a432c6bde8747ea6204983c
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62199562"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772379"
 ---
 # <a name="access-dlls-in-excel"></a>Accès aux fichiers DLL dans Excel
 
@@ -113,7 +113,7 @@ Excel transmet uniquement des variantes des types suivants � une fonction d�
 |String  <br/> |**VT_BSTR** <br/> |Cha�ne d�octets BSTR OLE  <br/> |
 |Range  <br/> |**VT_DISPATCH** <br/> |Références de plage et de cellule  <br/> |
 |Variant contenant un tableau  <br/> |**VT_ARRAY** | **VT_VARIANT** <br/> |Tableaux de type litt�ral  <br/> |
-|Ccy  <br/> |**VT_CY** <br/> |Nombre entier de 64�bits mis � l��chelle pour autoriser 4�d�cimales de pr�cision.  <br/> |
+|Ccy  <br/> |**VT_CY** <br/> |Nombre entier de 64�bits mis � l��chelle pour autoriser 4�d�cimales de pr�cision. |
 |Variant contenant une erreur  <br/> |**VT_ERROR** <br/> ||
 ||**VT_EMPTY** <br/> |Cellules vides ou arguments omis  <br/> |
    

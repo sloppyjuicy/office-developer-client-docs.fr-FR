@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: caceddf1-0f7c-47b5-97bf-17ffe3440a6c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 288c25e5dad204e0c5351c675c95d11c8ba497b0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 96ac7f174dc21e4fd099e0923112df9acb209e71
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620974"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776521"
 ---
 # <a name="imapiprogressgetmin"></a>IMAPIProgress::GetMin
 
@@ -63,7 +63,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress::GetMin  <br/> |MFCMAPI utilise la méthode **IMAPIProgress::GetMin** afin d’obtenir la valeur minimale pour l’indicateur de progression. Renvoie la valeur 1 sauf si des limites ont précédemment été définies au moyen de l’appel de la méthode **IMAPIProgress::SetLimits**.  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress::GetMin  <br/> |MFCMAPI utilise la méthode **IMAPIProgress::GetMin** afin d’obtenir la valeur minimale pour l’indicateur de progression. Renvoie la valeur 1 sauf si des limites ont précédemment été définies au moyen de l’appel de la méthode **IMAPIProgress::SetLimits**. |
    
 ## <a name="see-also"></a>Voir aussi
 

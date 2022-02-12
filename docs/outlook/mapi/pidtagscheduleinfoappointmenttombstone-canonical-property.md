@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6b82e2ee-992f-4cbe-bdcb-e7465e556640
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1e89049186dfe32e6e76cd52324ef9aad37d8a82
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9f1052f4a7baedd116af0583980cc4071cdf995a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550462"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776199"
 ---
 # <a name="pidtagscheduleinfoappointmenttombstone-canonical-property"></a>Propriété canonique PidTagScheduleInfoAppointmentTombstone
 
@@ -25,7 +25,7 @@ ms.locfileid: "59550462"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste de blocs de données qui représentent des réunions qui ont été refusées.
+Contient une liste de blocs de données qui représentent les réunions qui ont été refusées.
   
 |||
 |:-----|:-----|
@@ -40,21 +40,21 @@ Les blocs de données commencent par un en-tête de valeurs de 32 bits définies
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Identifier  <br/> |Ce champ doit être la valeur 0xBEDEAFCD.  <br/> |
-|HeaderSize  <br/> |Ce champ doit avoir la valeur 0x00000014.  <br/> |
-|Version  <br/> |Ce champ doit avoir la valeur 3.  <br/> |
-|RecordsCount  <br/> |Nombre d’enregistrements qui suivent.  <br/> |
-|RecordsSize  <br/> |Ce champ doit avoir la valeur 0x00000014.  <br/> |
+|Identifier  <br/> |Ce champ doit être la valeur 0xBEDEAFCD. |
+|HeaderSize  <br/> |Ce champ doit avoir la valeur 0x00000014. |
+|Version  <br/> |Ce champ doit avoir la valeur 3. |
+|RecordsCount  <br/> |Nombre d’enregistrements qui suivent. |
+|RecordsSize  <br/> |Ce champ doit avoir la valeur 0x00000014. |
    
 L’en-tête est suivi des **entrées RecordsCount** de valeurs 32 bits définies comme suit : 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|StartTime  <br/> |Heure de début de l’objet de réunion en minutes depuis le 1er janvier 1601 à minuit(UTC).  <br/> |
-|EndTime  <br/> |Heure de fin de l’objet de réunion en minutes depuis le 1er janvier 1601 à minuit(UTC).  <br/> |
-|GlobalObjectIdSize  <br/> |Taille, en octets, du champ GlobalObjectId.  <br/> |
-|GlobalObjectId  <br/> |Valeur de la **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la réunion que cet enregistrement représente.  <br/> |
-|UserName  <br/> |Les deux premiers octets sont la longueur de la chaîne PT_STRING8 suivante.  <br/> |
+|StartTime  <br/> |Heure de début de l’objet de réunion en minutes depuis le 1er janvier 1601 à minuit(UTC). |
+|EndTime  <br/> |Heure de fin de l’objet de réunion en minutes depuis le 1er janvier 1601 à minuit(UTC). |
+|GlobalObjectIdSize  <br/> |Taille, en octets, du champ GlobalObjectId. |
+|GlobalObjectId  <br/> |Valeur de la **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la réunion représentée par cet enregistrement. |
+|UserName  <br/> |Les deux premiers octets sont la longueur de la chaîne PT_STRING8 suivante. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -10,12 +10,12 @@ keywords:
 - fonction xlfcaller [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: de4b119c-ae2e-4207-9783-8d5692a4d052
-ms.openlocfilehash: de74ef8ffc702989c2ab371a2dae41259d3a73cf
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: 3fca6eb8cf499f8953601f891f520c0462fc4bab
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198757"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777795"
 ---
 # <a name="xlfcaller"></a>xlfCaller
 
@@ -25,17 +25,17 @@ Retourne des informations sur la cellule, la plage de cellules, la commande d’
   
 |**Code appelé à partir de**|**Renvoie**|
 |:-----|:-----|
-|DLL  <br/> |ID d’inscription.  <br/> |
-|Une seule cellule  <br/> |Référence à une seule cellule.  <br/> |
-|Formule de tableau à cellules multiples  <br/> |Référence à plusieurs cellules.  <br/> |
-|Expression de mise en forme conditionnelle  <br/> |Référence à la cellule à laquelle la condition de mise en forme est appliquée.  <br/> |
-|Un menu  <br/> | Tableau à une seule ligne à quatre éléments :  <br/>  ID de la barre.  <br/>  Position du menu.  <br/>  Position du sous-menu.  <br/>  Position de la commande.  <br/> |
-|Barre d’outils  <br/> | Tableau à une seule ligne à deux éléments :  <br/>  Numéro de barre d’outils pour les barres d’outils intégrées ou nom de barre d’outils pour les barres d’outils personnalisées.  <br/>  Position sur la barre d’outils.  <br/> |
-|Objet graphique  <br/> |Identificateur d’objet (nom de l’objet).  <br/> |
-|Commande associée à un xlcOnEnter, ON. ENTRÉE, capture d’événement  <br/> |Référence à la ou aux cellules entrées.  <br/> |
-|Commande associée à un xlcOnDoubleclick, ON. DOUBLECLICK, capture d’événement.  <br/> |Cellule sur qui l’utilisateur a double-cliqué (pas nécessairement la cellule active).  <br/> |
-|Auto_Open, AutoClose, Auto_Activate ou Auto_Deactivate macro  <br/> |Nom de la feuille d’appel.  <br/> |
-|Autres méthodes non répertoriées  <br/> |#REF! Erreur  <br/> |
+|DLL  <br/> |ID d’inscription. |
+|Une seule cellule  <br/> |Référence à une seule cellule. |
+|Formule de tableau à cellules multiples  <br/> |Référence à plusieurs cellules. |
+|Expression de mise en forme conditionnelle  <br/> |Référence à la cellule à laquelle la condition de mise en forme est appliquée. |
+|Un menu  <br/> | Tableau à une seule ligne à quatre éléments :  <br/>  ID de la barre.  Position du menu.  Position du sous-menu.  Position de la commande. |
+|Barre d’outils  <br/> | Tableau à une seule ligne à deux éléments :  <br/>  Numéro de barre d’outils pour les barres d’outils intégrées ou nom de barre d’outils pour les barres d’outils personnalisées.  Position sur la barre d’outils. |
+|Objet graphique  <br/> |Identificateur d’objet (nom de l’objet). |
+|Commande associée à un xlcOnEnter, ON. ENTRÉE, capture d’événement  <br/> |Référence à la ou aux cellules entrées. |
+|Commande associée à un xlcOnDoubleclick, ON. DOUBLECLICK, capture d’événement. |Cellule sur qui l’utilisateur a double-cliqué (pas nécessairement la cellule active). |
+|Auto_Open, AutoClose, Auto_Activate ou Auto_Deactivate macro  <br/> |Nom de la feuille d’appel. |
+|Autres méthodes non répertoriées  <br/> |#REF! Erreur |
    
 ```cs
 Excel12(xlfCaller, (LPXLOPER12) pxRes,0);
@@ -43,9 +43,9 @@ Excel12(xlfCaller, (LPXLOPER12) pxRes,0);
 
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-La valeur de retour est l’un des types de données **XLOPER** /  **XLOPER12** suivants : **xltypeRef**, **xltypeSRef**, **xltypeNum**, **xltypeStr**, **xltypeErr** ou **xltypeMulti**. Étant donné que trois de ces types pointent vers la mémoire allouée, la valeur de retour de **xlfCaller** doit toujours être libérée dans un appel à la fonction [xlFree](xlfree.md) lorsqu’elle n’est plus nécessaire. 
+La valeur de retour est l’un des types de données **XLOPERXLOPER12** /  suivants : **xltypeRef**, **xltypeSRef**, **xltypeNum**, **xltypeStr**, **xltypeErr** ou **xltypeMulti**. Étant donné que trois de ces types pointent vers la mémoire allouée, la valeur de retour de **xlfCaller** doit toujours être libérée dans un appel à la fonction [xlFree](xlfree.md) lorsqu’elle n’est plus nécessaire. 
   
-Pour plus d’informations **sur LES XLOPERS** /  **XLOPER12,** voir Gestion de la [mémoire dans Excel](memory-management-in-excel.md).
+Pour plus d’informations **sur xlOPERsXLOPER12s**/ , voir [Gestion de la mémoire dans Excel](memory-management-in-excel.md).
   
 ## <a name="remarks"></a>Remarques
 

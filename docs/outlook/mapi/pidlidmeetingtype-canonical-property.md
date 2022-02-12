@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 290b290c-7836-4a7e-bf1a-8d0225a07e56
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 24b6d94dbd068698914d8bbd96a7b23f7cb2ae65
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a0373a1283b1386c0f5baff942334d18d98a78e7
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555733"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776234"
 ---
 # <a name="pidlidmeetingtype-canonical-property"></a>Propriété canonique PidLidMeetingType
 
@@ -41,12 +41,12 @@ La valeur de cette propriété doit être définie sur l’une des valeurs suiva
   
 |**Propriété**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|mtgEmpty  <br/> |0x00000000  <br/> |Non spécifié.  <br/> |
-|mtgRequest  <br/> |0x00000001  <br/> |Demande de réunion initiale.  <br/> |
-|mtgFull  <br/> |0x00010000  <br/> |Mise à jour complète.  <br/> |
-|mtgInfo  <br/> |0x00020000  <br/> |Mise à jour d’informations.  <br/> |
-|mtgOutOfDate  <br/> |0x00080000  <br/> |Une demande de réunion ou une mise à jour de réunion plus nouvelle a été reçue après celle-ci.  <br/> |
-|mtgDelegatorCopy  <br/> |0x00100000  <br/> |Cette fonction est définie sur la copie du délégant lorsqu’un délégué gère des objets liés à la réunion.  <br/> |
+|mtgEmpty  <br/> |0x00000000  <br/> |Non spécifié. |
+|mtgRequest  <br/> |0x00000001  <br/> |Demande de réunion initiale. |
+|mtgFull  <br/> |0x00010000  <br/> |Mise à jour complète. |
+|mtgInfo  <br/> |0x00020000  <br/> |Mise à jour d’informations. |
+|mtgOutOfDate  <br/> |0x00080000  <br/> |Une demande de réunion ou une mise à jour de réunion plus nouvelle a été reçue après celle-ci. |
+|mtgDelegatorCopy  <br/> |0x00100000  <br/> |Cette fonction est définie sur la copie du délégant lorsqu’un délégué gère des objets liés à la réunion. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

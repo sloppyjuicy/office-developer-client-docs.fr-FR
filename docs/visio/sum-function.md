@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: fc97cef7-59c3-5be1-34fe-a40b4b33d1d6
 description: Renvoie la somme d’une liste de nombres.
-ms.openlocfilehash: c5ac28949a97283195fc4b205eee3472c3027274
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 316845d2862b4775e511da83ebb16efa6ee6c80f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603381"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772493"
 ---
 # <a name="sum-function"></a>Fonction SUM
 
@@ -28,9 +28,9 @@ SUM(** *number1* **, ** *number2* **,..., ** *[numberN]* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number1_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Premier nombre  <br/> |
-| _number2_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Deuxième nombre  <br/> |
-| _numberN_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Nième nombre  <br/> |
+| _number1_ <br/> |Requis  <br/> |**Numérique** <br/> |Premier nombre |
+| _number2_ <br/> |Requis  <br/> |**Numérique** <br/> |Deuxième nombre |
+| _numberN_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Nième nombre |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

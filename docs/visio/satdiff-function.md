@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 64e39e51-566a-b6ad-9096-7b7749642d34
 description: Renvoie la différence de saturation entre color1 et color2.
-ms.openlocfilehash: 4304d9537500476af95bcefc47143d0ab97f355a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d1440622047edadd1f11d74733bca33fbdc65585
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622955"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772619"
 ---
 # <a name="satdiff-function"></a>Fonction SATDIFF
 
@@ -26,8 +26,8 @@ SATDIFF(** *color1* **, ** *color2* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _color1_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Index de couleurs Microsoft Visio ou valeur RVB de la première couleur.  <br/> |
-| _color2_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Index de couleurs Microsoft Visio ou valeur RVB de la deuxième couleur.  <br/> |
+| _color1_ <br/> |Requis  <br/> |**Numérique** <br/> |Index de couleurs Microsoft Visio ou valeur RVB de la première couleur. |
+| _color2_ <br/> |Requis  <br/> |**Numérique** <br/> |Index de couleurs Microsoft Visio ou valeur RVB de la deuxième couleur. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

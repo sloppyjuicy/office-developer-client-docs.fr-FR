@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f5dcc6d9-474a-9ecb-21f5-56415d934890
 description: Détermine le calendrier utilisé pour les données de forme lorsque le type de données est Date.
-ms.openlocfilehash: 81717fd63b49c85a53d66b0e758bfe61c369d7c1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 21abee2b1b11057e8140e4d64e5e35a019aef1e9
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628751"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777284"
 ---
 # <a name="calendar-cell-shape-data-section"></a>Calendar, cellule (section Custom Properties)
 
@@ -35,7 +35,7 @@ Pour obtenir une référence à la cellule Calendar à l'aide d'un index à part
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionProp** <br/> |
-| Index de la ligne :  <br/> |**visRowProp**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visCustPropsCalendar** <br/> |
    
 

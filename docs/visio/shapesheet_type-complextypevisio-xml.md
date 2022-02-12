@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: fb394861-34d7-b7dd-1298-0c68a008528d
-ms.openlocfilehash: c0086a6c2f67e6f9da62d08c195f9abfca350e5c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ba998ae9b8dd693805b65c24ff757832d525e9b2
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627463"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776976"
 ---
 # <a name="shapesheet_type-complextype-visio-xml"></a>ShapeSheet_Type complexType (Visio XML)
 
@@ -110,11 +110,11 @@ ms.locfileid: "59627463"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[Data1](data1-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> ||
 |[Data2](data2-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> ||
@@ -127,16 +127,16 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Del  <br/> |xsd:boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd:boolean.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|IsCustomName  <br/> |xsd:boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd:boolean.  <br/> |
-|IsCustomNameU  <br/> |xsd:boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd:boolean.  <br/> |
-|Master  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|MasterShape  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|Nom  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string.  <br/> |
-|NameU  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string.  <br/> |
-|OriginalID  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|Type  <br/> |xsd:token  <br/> |facultatif  <br/> ||Valeurs du type xsd:token.  <br/> |
-|UniqueID  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string.  <br/> |
+|Del  <br/> |xsd:boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd:boolean. |
+|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt. |
+|IsCustomName  <br/> |xsd:boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd:boolean. |
+|IsCustomNameU  <br/> |xsd:boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd:boolean. |
+|Master  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt. |
+|MasterShape  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt. |
+|Nom  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string. |
+|NameU  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string. |
+|OriginalID  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt. |
+|Type  <br/> |xsd:token  <br/> |facultatif  <br/> ||Valeurs du type xsd:token. |
+|UniqueID  <br/> |xsd:string  <br/> |facultatif  <br/> ||Valeurs du type xsd:string. |
    
 

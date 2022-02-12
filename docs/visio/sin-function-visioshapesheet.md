@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 5a6ddb97-39b8-4e24-9b89-7a1e3bb261d5
 description: Renvoie le sinus d’un angle.
-ms.openlocfilehash: eb9459d8b851444e62e242bda61537553bbf2c19
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5ae386855b812f0a8877517fb8ef94db803f3537
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603486"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779242"
 ---
 # <a name="sin-function-visioshapesheet"></a>SIN Function (VisioShapeSheet)
 
@@ -28,7 +28,7 @@ SIN(** *angle* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Angle pour lequel le sinus doit être obtenu.  <br/> |
+| _angle_ <br/> |Requis  <br/> |**Numérique** <br/> |Angle pour lequel le sinus doit être obtenu. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -36,7 +36,7 @@ Nombre
   
 ## <a name="remarks"></a>Remarques
 
-La fonction SIN utilise des radians, sauf si vous spécifiez une unité de mesure différente dans _l’angle._
+La fonction SIN utilise des radians, sauf si vous spécifiez une unité de mesure différente dans  _l’angle_.
   
 ## <a name="example"></a>Exemple
 

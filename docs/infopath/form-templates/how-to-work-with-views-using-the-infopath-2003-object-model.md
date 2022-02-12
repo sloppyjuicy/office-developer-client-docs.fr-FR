@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: feb1bfcb-1cb1-4d5c-bc84-df86a33a5934
 description: Lorsque vous utilisez un modèle de formulaire InfoPath, vous pouvez écrire du code pour accéder aux vues du formulaire, puis exécuter différentes actions sur les données qu'elles contiennent. Le modèle objet compatible InfoPath 2003 prend en charge l'accès aux vues d'une forme à travers l'utilisation des membres de l'interface ViewObject .
-ms.openlocfilehash: 4273ebadcf2b90cc865814f3896e3c1c9710f0de
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 84f6336e53d733fe7a8c5a1052fb105fdfff7d1f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557448"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777760"
 ---
 # <a name="work-with-views-using-the-infopath-2003-object-model"></a>Utiliser des vues à l’aide du modèle objet InfoPath 2003
 
@@ -28,18 +28,18 @@ L'interface [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Int
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[Méthode DisableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.DisableAutoUpdate.aspx)  <br/> |Désactive la synchronisation du DOM (Document Object Model) XML et de la vue.  <br/> |
-|[Méthode EnableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.EnableAutoUpdate.aspx)  <br/> |Active la synchronisation du DOM XML et de la vue.  <br/> |
-|[ExecuteAction,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.ExecuteAction.aspx) méthode  <br/> |Exécute une action d'édition InfoPath.  <br/> |
-|[Export,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Export.aspx) méthode  <br/> |Exporte la vue en tant que fichier au format spécifié.  <br/> |
-|[Méthode ForceUpdate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.ForceUpdate.aspx)  <br/> |Synchronise le DOM XML et la vue.  <br/> |
-|[Méthode GetContextNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.GetContextNodes.aspx)  <br/> |Renvoie une référence à l’interface [XMLNodesCollection,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XMLNodesCollection.aspx) en fonction du nœud XML spécifié et du contexte d’affichage ou de la sélection actuelle dans l’affichage.  <br/> |
-|[Méthode GetSelectedNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.GetSelectedNodes.aspx)  <br/> |Renvoie une référence à l'interface **XMLNodesCollection**, sur la base de la sélection en cours dans la vue.  <br/> |
-|[SelectNodes,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectNodes.aspx) méthode  <br/> |Sélectionne une plage de nœuds XML dans la vue.  <br/> |
-|[SelectText,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectText.aspx) méthode  <br/> |Sélectionne le texte contenu dans le nœud XML spécifié de la vue.  <br/> |
+|[Méthode DisableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.DisableAutoUpdate.aspx)  <br/> |Désactive la synchronisation du DOM (Document Object Model) XML et de la vue. |
+|[Méthode EnableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.EnableAutoUpdate.aspx)  <br/> |Active la synchronisation du DOM XML et de la vue. |
+|[ExecuteAction,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.ExecuteAction.aspx) méthode  <br/> |Exécute une action d'édition InfoPath. |
+|[Export,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Export.aspx) méthode  <br/> |Exporte la vue en tant que fichier au format spécifié. |
+|[Méthode ForceUpdate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.ForceUpdate.aspx)  <br/> |Synchronise le DOM XML et la vue. |
+|[Méthode GetContextNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.GetContextNodes.aspx)  <br/> |Renvoie une référence à l’interface [XMLNodesCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XMLNodesCollection.aspx) , en fonction du nœud XML spécifié et du contexte d’affichage ou de la sélection actuelle dans l’affichage. |
+|[Méthode GetSelectedNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.GetSelectedNodes.aspx)  <br/> |Renvoie une référence à l'interface **XMLNodesCollection**, sur la base de la sélection en cours dans la vue. |
+|[SelectNodes,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectNodes.aspx) méthode  <br/> |Sélectionne une plage de nœuds XML dans la vue. |
+|[SelectText,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectText.aspx) méthode  <br/> |Sélectionne le texte contenu dans le nœud XML spécifié de la vue. |
 |[SwitchView,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SwitchView.aspx) méthode  <br/> |Bascule le formulaire InfoPath vers la vue spécifiée.  <br/> |
-|Propriété [Name](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Name.aspx)  <br/> |Renvoie une valeur chaîne indiquant le nom de la vue active.  <br/> |
-|[Window,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Window.aspx) propriété  <br/> |Renvoie une référence à [l’interface WindowObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WindowObject.aspx) qui accède à **la fenêtre** associée à la vue.  <br/> |
+|Propriété [Name](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Name.aspx)  <br/> |Renvoie une valeur chaîne indiquant le nom de la vue active. |
+|[Window,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Window.aspx) propriété  <br/> |Renvoie une référence à [l’interface WindowObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WindowObject.aspx) qui accède à **la fenêtre** associée à l’affichage. |
    
 > [!NOTE]
 > [!REMARQUE] Le modèle objet compatible InfoPath 2003 fournit également l'interface [ViewInfosCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewInfosCollection.aspx) qui peut être utilisée pour obtenir des informations sur toutes les vues mises en œuvre dans un formulaire. 

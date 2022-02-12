@@ -9,16 +9,16 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 2a21d6f9-bad6-92ab-6d36-477bcb9d7f17
 description: Renvoie un nombre integer, de 0 à 23, qui représente l’heure du jour du date/heure ou de l’expression.
-ms.openlocfilehash: 152dc3bc995ebfdcfe3f419f51d761f9ff054f7e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8522a707d8e7c9fd2419e08b1c4a66270b921752
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628198"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775758"
 ---
 # <a name="hour-function-visioshapesheet"></a>HOUR Function (VisioShapeSheet)
 
-Renvoie un nombre integer, de 0 à 23, qui représente l’heure du jour du  _date/heure_ ou de  _l’expression_.
+Renvoie un nombre integer, de 0 à 23, qui représente l’heure du jour du  _date/_ heure ou de  _l’expression_.
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,9 +28,9 @@ HOUR( » ** *datetime* ** « | ** *expression* ** [, ** *lcid* ** ])
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _datetime_ <br/> |Obligatoire  <br/> |**String** <br/> | Chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  <br/> |
-| _expression_ <br/> |Obligatoire  <br/> |**Varie** <br/> |Expression qui génère une date et une heure.  <br/> |
-| _lcid_ <br/> |Facultatif  <br/> |**Number** <br/> | Identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système.  <br/> |
+| _datetime_ <br/> |Requis  <br/> |**String** <br/> | Chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure. |
+| _expression_ <br/> |Requis  <br/> |**Varie** <br/> |Expression qui génère une date et une heure. |
+| _lcid_ <br/> |Facultatif  <br/> |**Number** <br/> | Identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système. |
    
 ## <a name="remarks"></a>Remarques
 

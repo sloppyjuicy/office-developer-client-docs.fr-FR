@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: a51a60c9-479b-7d7b-860f-bb46fc8b4d63
 description: Encapsule les propriétés liées à la validation du document.
-ms.openlocfilehash: c6608a723a689e958e4a4858753055480fb6d2f1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 73aee09198dfaee5a814c91d45e84267f90deb8e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627190"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772528"
 ---
 # <a name="validationproperties-element-validation_type-complextype-visio-xml"></a>Élément ValidationProperties (Validation_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Encapsule les propriétés liées à la validation du document.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Valider](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Stocke les informations relatives à la validation du diagramme pour le document.  <br/> |
+|[Valider](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Stocke les informations relatives à la validation du diagramme pour le document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,7 +52,7 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|LastValidated  <br/> |xsd:dateTime  <br/> |obligatoire  <br/> |Date et heure de la dernière validation du document.  <br/> |Valeurs du type xsd:dateTime.  <br/> |
-|ShowIgnored  <br/> |xsd:boolean  <br/> |obligatoire  <br/> |Spécifie s’il faut afficher les problèmes de validation ignorés dans la fenêtre Problèmes.  <br/> |Valeurs du type xsd:boolean.  <br/> |
+|LastValidated  <br/> |xsd:dateTime  <br/> |obligatoire  <br/> |Date et heure de la dernière validation du document. |Valeurs du type xsd:dateTime. |
+|ShowIgnored  <br/> |xsd:boolean  <br/> |obligatoire  <br/> |Spécifie s’il faut afficher les problèmes de validation ignorés dans la fenêtre Problèmes. |Valeurs du type xsd:boolean. |
    
 

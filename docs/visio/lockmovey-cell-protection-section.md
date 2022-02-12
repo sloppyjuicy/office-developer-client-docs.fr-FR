@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 4ed8cab4-112a-e96a-f4e3-02490a6f87fa
 description: Verrouille la position verticale de la forme afin d'empêcher son déplacement vertical.
-ms.openlocfilehash: e3e8b2e95d966e94f9a211dc082ace722674f2d6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dc79ef003eacc88cd34add33add9f17e84430d83
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627974"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778334"
 ---
 # <a name="lockmovey-cell-protection-section"></a>LockMoveY, cellule (section Protection)
 
@@ -22,8 +22,8 @@ Verrouille la position verticale de la forme afin d'empêcher son déplacement v
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | La position verticale est verrouillée.  <br/> |
-| FALSE  <br/> | La position verticale n'est pas verrouillée.  <br/> |
+| TRUE  <br/> | La position verticale est verrouillée. |
+| FALSE  <br/> | La position verticale n'est pas verrouillée. |
    
 ## <a name="remarks"></a>Remarques
 

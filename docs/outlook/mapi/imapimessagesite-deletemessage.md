@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 09955996-b904-4c0d-8ba5-954a8875c055
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e8ec1cf4ea435d8fc0bd48546417a05c8c98690e
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 39cc5fc05a2253d03177f330e0da261867cd908b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462191"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776577"
 ---
 # <a name="imapimessagesitedeletemessage"></a>IMAPIMessageSite::DeleteMessage
 
@@ -86,7 +86,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::D eleteMessage  <br/> |Non implémenté.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::D eleteMessage  <br/> |Non implémenté. |
    
 ## <a name="see-also"></a>Voir aussi
 

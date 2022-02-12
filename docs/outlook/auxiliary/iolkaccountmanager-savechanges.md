@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 32a5d4b7-ead7-24e7-58f2-750232263a0d
 description: Enregistre les modifications apportées au compte spécifié.
-ms.openlocfilehash: 48df3b07e9b98a277d0dfe7a210f88a8e3dbbc2f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 26c5d29a38aafd17c4e76aa025327f89ca53a970
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551995"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776633"
 ---
 # <a name="iolkaccountmanagersavechanges"></a>IOlkAccountManager::SaveChanges
 
@@ -44,8 +44,8 @@ _dwFlags_
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |L’appel a réussi  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |Le compte spécifié est in trouver.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |Le compte spécifié est in trouver. |
+|E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation. |
    
 ## <a name="remarks"></a>Remarques
 

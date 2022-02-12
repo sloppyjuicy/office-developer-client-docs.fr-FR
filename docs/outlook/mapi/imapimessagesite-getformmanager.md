@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d48bd537-c562-4deb-8a4c-011208991054
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 16d98d92d825870b566f194ff2815c85c581434d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 51add304d462e6aa8717f129ad354f78a92cc55f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596217"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776507"
 ---
 # <a name="imapimessagesitegetformmanager"></a>IMAPIMessageSite::GetFormManager
 
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form Interfaces](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [INTERFACES DE FORMULAIRE MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -55,7 +55,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFormManager  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite::GetFormManager** pour appeler [MAPIOpenFormMgr](mapiopenformmgr.md) et renvoyer les résultats de cet appel.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFormManager  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite::GetFormManager** pour appeler [MAPIOpenFormMgr](mapiopenformmgr.md) et renvoyer les résultats de cet appel. |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4799084a-b5d1-48c3-a889-b2f0e9d68c30
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a62c3edce79349e748620d82e7b18d482dfdb187
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9a905fd11d987d173ebb79bf35b2c4c3f8b1206b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625279"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777431"
 ---
 # <a name="imapiviewcontextsetadvisesink"></a>IMAPIViewContext::SetAdviseSink
 
@@ -53,7 +53,7 @@ Les objets form appellent la méthode **IMAPIViewContext::SetAdviseSink** pour s
 
 Lorsque **SetAdviseSink** inclut un pointeur de réception de notification de formulaire, conservez une référence à ce dernier jusqu’à ce qu’un autre appel **SetAdviseSink** soit effectué pour annuler la notification. Envoyez une notification lorsqu’une modification se produit dans votre visionneuse et lorsque vous chargez un nouveau message. 
   
-Pour plus d’informations, voir [Envoyer et recevoir des notifications de formulaire.](sending-and-receiving-form-notifications.md)
+Pour plus d’informations, voir [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -61,7 +61,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SetAdviseSink  <br/> |MFCMAPI implémente la **méthode IMAPIViewContext::SetAdviseSink** dans cette fonction.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SetAdviseSink  <br/> |MFCMAPI implémente la **méthode IMAPIViewContext::SetAdviseSink** dans cette fonction. |
    
 ## <a name="see-also"></a>Voir aussi
 

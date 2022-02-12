@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 70c9fc1d-6e7b-479f-effd-0d4bc8ae0f72
 description: Cette méthode remplace une partie de chaîne de texte, selon le nombre de caractères que vous spécifiez, par une chaîne de texte différente.
-ms.openlocfilehash: 1288d18d148abc0e5bafe7fe855d140cc4e62d91
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 64dcd886ce9c357d0f9bd7aa735231ceba3f76ca
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554102"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772703"
 ---
 # <a name="replace-function-visioshapesheet"></a>REPLACE Function (VisioShapeSheet)
 
@@ -28,10 +28,10 @@ REPLACE (** *old_text* **, ** *start_num* **, ** *num_chars* **, ** *new_text* *
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _old_text_ <br/> |Obligatoire  <br/> |**String** <br/> |Texte dans lequel vous souhaitez remplacer certains caractères.  <br/> |
-| _start_num_ <br/> |Obligatoire  <br/> |**Number** <br/> |Position du caractère dans la  _old_text_ que vous souhaitez remplacer par  _new_text_. Le premier caractère de la chaîne est à la position 1.  <br/> |
-| _num_chars_ <br/> |Obligatoire  <br/> |**Number** <br/> |Nombre de caractères  _dans old_text_ que vous souhaitez remplacer  <br/> |
-| _new_text_ <br/> |Obligatoire  <br/> |**String** <br/> |Texte qui remplace les caractères dans  _old_text_.  <br/> |
+| _old_text_ <br/> |Requis  <br/> |**String** <br/> |Texte dans lequel vous souhaitez remplacer certains caractères. |
+| _start_num_ <br/> |Requis  <br/> |**Number** <br/> |Position du caractère dans le  _old_text_ que vous souhaitez remplacer par  _new_text_. Le premier caractère de la chaîne est à la position 1. |
+| _num_chars_ <br/> |Requis  <br/> |**Number** <br/> |Nombre de caractères  _dans old_text_ que vous souhaitez remplacer  <br/> |
+| _new_text_ <br/> |Requis  <br/> |**String** <br/> |Texte qui remplace les caractères dans  _old_text_. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

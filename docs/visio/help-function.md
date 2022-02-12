@@ -9,16 +9,16 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 5b358c38-6ed1-3fbe-c1d1-1a56ebbaa870
 description: Ouvre un fichier d’aide HTML avec le mot clé spécifique dans la zone de recherche.
-ms.openlocfilehash: a4243a9ddbcfda7ef327efd108e1f9954c0fb7b1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c8a676974d5cee1ff301fdc868a5aff8f6dbc209
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618881"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775793"
 ---
 # <a name="help-function"></a>Fonction HELP
 
-Ouvre un fichier d’aide HTML avec le mot clé spécifique  *dans*  la **zone de** recherche. 
+Ouvre un fichier d’aide HTML avec le mot clé  *spécifique dans la* **zone de** recherche. 
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,7 +28,7 @@ HELP( » ** *filename.chm!keyword* ** « )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _filename.chm!keyword_ <br/> |Obligatoire  <br/> |**String** <br/> | Nom du fichier d’aide et mot clé à rechercher.  <br/> |
+| _filename.chm!keyword_ <br/> |Requis  <br/> |**String** <br/> | Nom du fichier d’aide et mot clé à rechercher. |
    
 ## <a name="remarks"></a>Remarques
 

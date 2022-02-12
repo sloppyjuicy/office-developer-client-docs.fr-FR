@@ -5,12 +5,12 @@ ms.audience: ITPro
 ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: Découvrez en quoi la version 32 bits d’Office est compatible avec la version 64 bits d’Office.
 ms.localizationpriority: high
-ms.openlocfilehash: 454eca3abd26d535dce7ddccf56c6ab77f088793
-ms.sourcegitcommit: 759a4c5cff383963ef0d64888bcc0046738e9635
+ms.openlocfilehash: a18b9a266de508595a6ca2b2525c0768f463d80c
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61327758"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778677"
 ---
 # <a name="compatibility-between-the-32-bit-and-64-bit-versions-of-office"></a>Compatibilité entre les versions 32 bits et 64 bits d’Office
 
@@ -107,14 +107,14 @@ Le tableau suivant fournit des informations supplémentaires sur le nouveau qual
   
 |Type|Item|Description|
 |:-----|:-----|:-----|
-|Qualificateur  <br/> |**PtrSafe** <br/> |Indique que l’instruction **Declare** est compatible avec 64 bits. Cet attribut est obligatoire sur les systèmes 64 bits.<br/> |
-|Type de données  <br/> |**LongPtr** <br/> |Type de données variable qui est un type de données de 4 octets sur les versions 32 bits et un type de données de 8 octets sur les versions 64 bits de Microsoft Office. Il s’agit de la méthode recommandée pour déclarer un pointeur ou un handle pour le nouveau code, mais également pour le code hérité s’il doit s’exécuter dans la version 64 bits d’Office. Il est uniquement pris en charge dans le runtime VBA 7 sur 32 bits et 64 bits. Notez que vous pouvez lui attribuer des valeurs numériques, mais pas des types numériques.  <br/> |
-|Type de données  <br/> |**LongLong** <br/> |Il s’agit d’un type de données de 8 octets qui est disponible uniquement dans les versions 64 bits de Microsoft Office. Vous pouvez affecter des valeurs numériques, mais pas des types numériques (pour éviter la troncation).  <br/> |
-|Opérateur de conversion  <br/> |**CLngPtr** <br/> |Convertit une expression simple en un type de données **LongPtr**.  <br/> |
-|Opérateur de conversion  <br/> |**CLngLng** <br/> |Convertit une expression simple en un type de données **LongLong**.  <br/> |
-|Fonction  <br/> |**VarPtr** <br/> |Convertisseur de variante. Renvoie un **LongPtr** sur les versions 64 bits et un **Long** sur les versions 32 bits (4 octets).<br/> |
-|Fonction  <br/> |**ObjPtr** <br/> |Convertisseur d’objet. Renvoie un **LongPtr** sur les versions 64 bits et un **Long** sur les versions 32 bits (4 octets).<br/> |
-|Fonction  <br/> |**StrPtr** <br/> |Convertisseur de chaîne. Renvoie un **LongPtr** sur les versions 64 bits et un **Long** sur les versions 32 bits (4 octets).<br/> |
+|Qualificateur  <br/> |**PtrSafe** <br/> |Indique que l’instruction **Declare** est compatible avec 64 bits. Cet attribut est obligatoire sur les systèmes 64 bits. |
+|Type de données  <br/> |**LongPtr** <br/> |Type de données variable qui est un type de données de 4 octets sur les versions 32 bits et un type de données de 8 octets sur les versions 64 bits de Microsoft Office. Il s’agit de la méthode recommandée pour déclarer un pointeur ou un handle pour le nouveau code, mais également pour le code hérité s’il doit s’exécuter dans la version 64 bits d’Office. Il est uniquement pris en charge dans le runtime VBA 7 sur 32 bits et 64 bits. Notez que vous pouvez lui attribuer des valeurs numériques, mais pas des types numériques. |
+|Type de données  <br/> |**LongLong** <br/> |Il s’agit d’un type de données de 8 octets qui est disponible uniquement dans les versions 64 bits de Microsoft Office. Vous pouvez affecter des valeurs numériques, mais pas des types numériques (pour éviter la troncation). |
+|Opérateur de conversion  <br/> |**CLngPtr** <br/> |Convertit une expression simple en un type de données **LongPtr**. |
+|Opérateur de conversion  <br/> |**CLngLng** <br/> |Convertit une expression simple en un type de données **LongLong**. |
+|Fonction  <br/> |**VarPtr** <br/> |Convertisseur de variante. Renvoie un **LongPtr** sur les versions 64 bits et un **Long** sur les versions 32 bits (4 octets). |
+|Fonction  <br/> |**ObjPtr** <br/> |Convertisseur d’objet. Renvoie un **LongPtr** sur les versions 64 bits et un **Long** sur les versions 32 bits (4 octets). |
+|Fonction  <br/> |**StrPtr** <br/> |Convertisseur de chaîne. Renvoie un **LongPtr** sur les versions 64 bits et un **Long** sur les versions 32 bits (4 octets). |
    
 L’exemple suivant montre comment utiliser certains de ces éléments dans une instruction **Declare**. 
   
@@ -235,11 +235,11 @@ Les paramètres sont définis comme suit :
   
 |Parameter|Description|
 |:-----|:-----|
-|hKey [dans]  <br/> |Une *handle* vers une clé de Registre ouverte.  <br/> |
-|lpSubKey [dans, facultatif]  <br/> |Le nom de la sous-clé de Registre à ouvrir.  <br/> |
-|ulOptions  <br/> |Ce paramètre est réservé et doit être égal à zéro.  <br/> |
-|samDesired [dans]  <br/> |Masque qui spécifie les droits d’accès souhaités à la clé.  <br/> |
-|phkResult [out]  <br/> |Un *pointeur* vers une variable qui reçoit une handle vers la clé ouverte.  <br/> |
+|hKey [dans]  <br/> |Une *handle* vers une clé de Registre ouverte. |
+|lpSubKey [dans, facultatif]  <br/> |Le nom de la sous-clé de Registre à ouvrir. |
+|ulOptions  <br/> |Ce paramètre est réservé et doit être égal à zéro. |
+|samDesired [dans]  <br/> |Masque qui spécifie les droits d’accès souhaités à la clé. |
+|phkResult [out]  <br/> |Un *pointeur* vers une variable qui reçoit une handle vers la clé ouverte. |
    
 Dans [Win32API_PtrSafe.txt](/office/troubleshoot/office/win32api_ptrsafe-with-64-bit-support.md), l’instruction **Declare** se définit comme suit : 
   

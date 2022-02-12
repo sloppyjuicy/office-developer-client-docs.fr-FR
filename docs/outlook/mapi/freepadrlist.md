@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ca8fbac6-b6f1-46ab-90a1-fc16f0d5824c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b90b6705909219acfe7337baedce105de301feb2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: db2b937d39dac521caa60e2f1e9f9664384b8a23
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610943"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778893"
 ---
 # <a name="freepadrlist"></a>FreePadrlist
 
@@ -51,9 +51,9 @@ Aucun.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Dans le cadre de son implémentation de **FreePadrlist,** MAPI appelle la fonction [MAPIFreeBuffer](mapifreebuffer.md) pour libérer chaque entrée dans la structure **ADRLIST** avant de libérer la structure complète. Par conséquent, toutes ces entrées doivent avoir suivi les règles d’allocation pour la structure [ADRLIST,](adrlist.md) à l’aide d’un appel [MAPIAllocateBuffer](mapiallocatebuffer.md) individuel pour chaque tableau et structure de membres. 
+Dans le cadre de son implémentation de **FreePadrlist**, MAPI appelle la fonction [MAPIFreeBuffer](mapifreebuffer.md) pour libérer chaque entrée dans la structure **ADRLIST** avant de libérer la structure complète. Par conséquent, toutes ces entrées doivent avoir suivi les règles d’allocation pour la structure [ADRLIST](adrlist.md) , à l’aide d’un appel [MAPIAllocateBuffer](mapiallocatebuffer.md) individuel pour chaque matrice et structure de membre. 
   
-Pour plus d’informations sur l’allocation de mémoire pour les structures **ADRLIST** et **SRowSet,** voir [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md). 
+Pour plus d’informations sur l’allocation de mémoire pour les structures **ADRLIST** et **SRowSet** , voir [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md). 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -61,7 +61,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIABFunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI utilise la **méthode FreePadrlist** pour libérer une structure ADRLIST qui a été conçue pour ajouter une adresse à un message.  <br/> |
+|MAPIABFunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI utilise la **méthode FreePadrlist** pour libérer une structure ADRLIST qui a été conçue pour ajouter une adresse à un message. |
    
 ## <a name="see-also"></a>Voir aussi
 

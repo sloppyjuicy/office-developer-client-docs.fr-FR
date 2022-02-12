@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 80061e7d-dbcb-f7a1-b63a-052eee4ec7d7
 description: Spécifie une icône binaire codée MIME (Multipurpose Internet Mail Extensions) (au format .ico) pour un élément Master dans un document.
-ms.openlocfilehash: 56958029f494592536ddd2fe97f86737d1192d61
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c0f74b8b671615872c64e9f6f6ccd444144f3dc5
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554634"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778418"
 ---
 # <a name="icon-element-master_type-complextype-visio-xml"></a>Élément Icon (Master_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Spécifie une icône binaire codée MIME (Multipurpose Internet Mail Extensions)
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Spécifie une master dans un dessin.  <br/> |
+|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Spécifie une master dans un dessin. |
    
 ### <a name="child-elements"></a>Éléments enfants
 

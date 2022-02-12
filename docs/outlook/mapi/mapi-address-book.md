@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 6703ba3f-54a5-4059-b10a-1d42a9e81be1
 description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 562a3cadb6f36885e1870284e3c0d7f2aa7071aa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b66300cc347de0c32ea25a272602059a2c06c110
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595902"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778887"
 ---
 # <a name="mapi-address-book"></a>Carnet d'adresses MAPI
 
@@ -45,11 +45,11 @@ Les listes de distribution et les utilisateurs de messagerie ont un ensemble de 
   
 |**Propri�t� de l'adresse de base**|**Description**|
 |:-----|:-----|
-|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Type d'adresse du destinataire. Chaque type d'adresse respecte un format sp�cifique et est utilis� avec un syst�me de messagerie sp�cifique.  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Nom affichable pour le destinataire.  <br/> |
-|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Adresse du destinataire.  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Identificateur d'entr�e permettant d'acc�der au destinataire.  <br/> |
-|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Touche comparable binaire utilis� pour identifier le destinataire.  <br/> |
+|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Type d'adresse du destinataire. Chaque type d'adresse respecte un format sp�cifique et est utilis� avec un syst�me de messagerie sp�cifique. |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Nom affichable pour le destinataire. |
+|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Adresse du destinataire. |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Identificateur d'entr�e permettant d'acc�der au destinataire. |
+|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Touche comparable binaire utilis� pour identifier le destinataire. |
    
 MAPI d�finit le nombre de groupes de propri�t�s qui sont des variantes des propri�t�s de l'adresse de base. Ces autres groupes d�crivent des utilisateurs de messagerie et des listes de distribution dans des situations diff�rentes. Par exemple, un groupe de propri�t�s d�crit l'exp�diteur de d�l�gu� d'un message et un autre groupe le destinataire de d�l�gu�.
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d566ff39-92c1-4a14-85e5-1c406825f805
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9bc9fed3cb1a960eb0875dd4efefad3eb632116d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 059f24cc5c6d37a8e900b0448c22b0ad8969c451
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600840"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777389"
 ---
 # <a name="imapiviewcontext--iunknown"></a>IMAPIViewContext : IUnknown
 
@@ -40,12 +40,12 @@ Gère un formulaire dans la visionneuse de formulaires d’une application clien
 
 |||
 |:-----|:-----|
-|[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Gère l’inscription d’un formulaire pour recevoir des notifications sur les modifications apportées à la visionneuse.  <br/> |
-|[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Active le message suivant ou précédent dans la visionneuse de formulaires.  <br/> |
-|[GetPrintSetup](imapiviewcontext-getprintsetup.md) <br/> |Récupère les informations d’impression actuelles.  <br/> |
-|[GetSaveStream](imapiviewcontext-getsavestream.md) <br/> |Extrait un flux à utiliser pour enregistrer le message actuel.  <br/> |
-|[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Récupère l’état actuel de la visionneuse.  <br/> |
-|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite dans l’objet de contexte d’affichage.  <br/> |
+|[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Gère l’inscription d’un formulaire pour recevoir des notifications sur les modifications apportées à la visionneuse. |
+|[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Active le message suivant ou précédent dans la visionneuse de formulaires. |
+|[GetPrintSetup](imapiviewcontext-getprintsetup.md) <br/> |Récupère les informations d’impression actuelles. |
+|[GetSaveStream](imapiviewcontext-getsavestream.md) <br/> |Extrait un flux à utiliser pour enregistrer le message actuel. |
+|[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Récupère l’état actuel de la visionneuse. |
+|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite dans l’objet de contexte d’affichage. |
    
 ## <a name="see-also"></a>Voir aussi
 

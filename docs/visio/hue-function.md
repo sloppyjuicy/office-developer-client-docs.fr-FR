@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 0f5c6097-eef5-5f58-e2ef-2c348e42dc9a
 description: Renvoie la valeur du composant de teinte d’une couleur.
-ms.openlocfilehash: e259355f13f1b40739d63b8d76e32ef7c2d22c03
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4f6b329830b9d9e98ba0ae6930597f57a6dd76e9
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618797"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778411"
 ---
 # <a name="hue-function"></a>Fonction HUE
 
@@ -28,7 +28,7 @@ HUE(** *expression* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatoire  <br/> |**String** <br/> |Expression qui renvoie à une couleur.  <br/> |
+| _expression_ <br/> |Requis  <br/> |**String** <br/> |Expression qui renvoie à une couleur. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

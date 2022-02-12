@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6c5bb383-f8e2-4d79-bcf2-aa86c130e8b1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 775551307015ff8a36470ffcd628c7fa9df6923b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ccfe560636bb2d2a9886efd316b6572508acfc82
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614233"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777557"
 ---
 # <a name="error_notification"></a>ERROR_NOTIFICATION
 
@@ -70,7 +70,7 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Remarques
 
-La **ERROR_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION.](notification.md) Lorsque le membre **d’informations** d’une structure **notification** contient une structure **ERROR_NOTIFICATION,** le membre **ulEventType** de la structure **NOTIFICATION** est définie sur  _fnevCriticalError_.
+La **ERROR_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION](notification.md) . Lorsque le membre **d’informations** d’une structure **NOTIFICATION** contient une structure **ERROR_NOTIFICATION** , le membre **ulEventType** de la structure **NOTIFICATION** est définie sur  _fnevCriticalError_.
   
 La valeur du **membre cbEntryID** et du membre **lpEntryID** peut être NULL. 
   
@@ -78,9 +78,9 @@ Pour plus d’informations sur la notification, voir les rubriques décrites dan
   
 |**Rubrique**|**Description**|
 |:-----|:-----|
-|[Notification d’événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des événements de notification et de notification.  <br/> |
-|[Gestion des notifications](handling-notifications.md) <br/> |Discussion sur la façon dont les clients doivent gérer les notifications.  <br/> |
-|[Prise en charge des notifications d’événement](supporting-event-notification.md) <br/> |Discussion sur la façon dont les fournisseurs de services peuvent utiliser la méthode **IMAPISupport** pour générer des notifications.  <br/> |
+|[Notification d’événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des événements de notification et de notification. |
+|[Gestion des notifications](handling-notifications.md) <br/> |Discussion sur la façon dont les clients doivent gérer les notifications. |
+|[Prise en charge des notifications d’événement](supporting-event-notification.md) <br/> |Discussion sur la façon dont les fournisseurs de services peuvent utiliser la méthode **IMAPISupport** pour générer des notifications. |
    
 ## <a name="see-also"></a>Voir aussi
 

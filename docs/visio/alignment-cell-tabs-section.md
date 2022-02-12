@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 84234177-a2df-6acc-2761-230bc5d12627
 description: Détermine l'alignement des tabulations.
-ms.openlocfilehash: 5ec858ecff9222feccebdc84c520b7f3f9ec819f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 502074bb25a37756ce64123ddb74abc93119086a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578276"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776073"
 ---
 # <a name="alignment-cell-tabs-section"></a>Alignment, cellule (section Tabs)
 
@@ -26,7 +26,7 @@ Détermine l'alignement des tabulations.
 | 1  <br/> | Centre  <br/> |**visTabStopCenter** <br/> |
 | 2  <br/> | À droite  <br/> |**visTabStopRight** <br/> |
 | 3  <br/> | Décimal  <br/> |**visTabStopDecimal** <br/> |
-| 4   <br/> | Virgule  <br/> |**visTabStopComma** <br/> |
+| 4  <br/> | Virgule  <br/> |**visTabStopComma** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -41,7 +41,7 @@ Pour obtenir une référence à la cellule Alignment à l'aide d'un index à par
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionTab** <br/> |
-| Index de la ligne :  <br/> |**visRowTab +** *i*            où  *i*  = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowTab +** *i*            où  *i*  = 0, 1, 2... |
 | Index de la cellule :  <br/> | (*j*  *3) **+ visTabAlign** <br/> |
    
 

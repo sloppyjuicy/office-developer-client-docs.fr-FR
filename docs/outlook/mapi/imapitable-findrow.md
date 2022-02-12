@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6511368c-9777-497e-9eea-cf390c04b92e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0c6a9877981ea50716a86a50a43921c0f47d6c5b
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: a3df218faf2c34b4f2e056310e6b204fcd407b72
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461672"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776416"
 ---
 # <a name="imapitablefindrow"></a>IMAPITable::FindRow
 
@@ -115,7 +115,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI utilise la **méthode IMAPITable::FindRow** pour rechercher les lignes qui correspondent à une restriction.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI utilise la **méthode IMAPITable::FindRow** pour rechercher les lignes qui correspondent à une restriction. |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 2abe0572-53bb-20fc-333f-2b69b07e99be
-ms.openlocfilehash: eaa2b65d361c7daa66ef048d8e15fcac6f6d295d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ea986e1c40e109e9a54de9f72c64e168f24bd2e1
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570126"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776995"
 ---
 # <a name="rowmap_type-complextype-visio-xml"></a>RowMap_Type complexType (Visio XML)
 
@@ -45,7 +45,7 @@ ms.locfileid: "59570126"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -55,8 +55,8 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|RowID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|ShapeID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
+|PageID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt. |
+|RowID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt. |
+|ShapeID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt. |
    
 

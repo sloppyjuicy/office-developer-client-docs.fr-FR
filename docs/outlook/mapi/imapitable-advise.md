@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e8b5d21e-dc14-4b61-96b3-a51bcfa0d232
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7cdf7659a897d15872c9ca2adb9363f7595ab909
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 2c5a8637aa8ce2cc4e98e1a6cb65bda1cc91885b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462240"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776437"
 ---
 # <a name="imapitableadvise"></a>IMAPITable::Advise
 
@@ -81,7 +81,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContestTableListCtrl::NotificationOn  <br/> |MFCMAPI utilise la **méthode IMAPITable::Advise** pour s’inscrire aux notifications afin de permettre à l’affichage tableau de rester à jour.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContestTableListCtrl::NotificationOn  <br/> |MFCMAPI utilise la **méthode IMAPITable::Advise** pour s’inscrire aux notifications afin de permettre à l’affichage tableau de rester à jour. |
    
 ## <a name="see-also"></a>Voir aussi
 

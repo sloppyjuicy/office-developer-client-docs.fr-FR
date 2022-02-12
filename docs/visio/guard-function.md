@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6c85414c-9fb6-cdc5-f5b6-8eb13c9608af
 description: Protège l’expression contre la suppression et le changement par des actions effectuées dans la fenêtre de dessin, telles que le déplacement, le resserrage, le regroupement ou la suppression de formes.
-ms.openlocfilehash: 07398bc6360b231ce7a9b8bd6f64635db03d57ed
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b848fd261351bcec1ac79b6f871b51dc5f845767
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554683"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778522"
 ---
 # <a name="guard-function"></a>Fonction GUARD
 
@@ -28,7 +28,7 @@ GUARD(** *expression* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatoire  <br/> |**String** <br/> |Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur.  <br/> |
+| _expression_ <br/> |Requis  <br/> |**String** <br/> |Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur. |
    
 ## <a name="remarks"></a>Remarques
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 08958abb-9d66-5a83-dac3-4cbfd1f6d85e
 description: Représente la distance entre la première ligne du paragraphe et la puce.
-ms.openlocfilehash: 7568babf9d23c1055ce4a68955b43cb98c02f94b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c0bfbbd4617b89adb8b6343bd99c321c90fa3c40
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559401"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772514"
 ---
 # <a name="textposafterbullet-cell-paragraph-section"></a>TextPosAfterBullet, cellule (section Paragraph)
 
@@ -28,14 +28,14 @@ Pour obtenir une référence à la cellule TextPosAfterBullet à l'aide d'un nom
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Para.TextPosAfterBullet[  *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Para.TextPosAfterBullet[  *i*  ] where  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule TextPosAfterBullet à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionParagraph** <br/> |
-| Index de la ligne :  <br/> |**visRowParagraph**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowParagraph** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visTextPosAfterBullet** <br/> |
    
 

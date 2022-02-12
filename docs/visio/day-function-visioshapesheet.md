@@ -9,16 +9,16 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b0842ae-6893-2d7b-6cb2-8905198fae30
 description: Renvoie un integer, de 1 à 31, qui représente le jour dans l’expression ou l’heure de date. La fonction DAY utilise le calendrier grégorien.
-ms.openlocfilehash: d8e098f6e3f8646d7cda9fa4070844139b511adf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dc358b6b9672a78671c55bac48d0c75bd623e332
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586564"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772786"
 ---
 # <a name="day-function-visioshapesheet"></a>DAY Function (VisioShapeSheet)
 
-Renvoie un integer, de 1 à 31, représentant le jour dans _l’heure de date_ ou l’expression .  La fonction DAY utilise le calendrier grégorien.
+Renvoie un integer, de 1 à 31, qui représente le jour dans _l’expression ou l’heure de date_. La fonction DAY utilise le calendrier grégorien.
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,9 +28,9 @@ DAY( » ** *datetime* ** « | ** *expression* ** [, ** *lcid* ** ])
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _datetime_ <br/> |Obligatoire  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  <br/> |
-| _expression_ <br/> |Obligatoire  <br/> |**String** <br/> |Toute expression qui génère une date et une heure.  <br/> |
-| _lcid_ <br/> |Facultatif  <br/> |**Number** <br/> |Spécifie l’identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système.  <br/> |
+| _datetime_ <br/> |Requis  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure. |
+| _expression_ <br/> |Requis  <br/> |**String** <br/> |Toute expression qui génère une date et une heure. |
+| _lcid_ <br/> |Facultatif  <br/> |**Number** <br/> |Spécifie l’identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -40,9 +40,9 @@ Entier
 
 Tout composant d’heure  _dans l’heure ou_  _l’expression_ est ignoré. 
   
-Aucun arrondissement n’est effectué. Si  _la date/heure_ est manquante ou ne peut pas être convertie en un résultat valide, la fonction renvoie une erreur. 
+Aucun arrondissement n’est effectué. Si  _la date/_ heure est manquante ou ne peut pas être convertie en un résultat valide, la fonction renvoie une erreur. 
   
-La fonction DAY accepte également une valeur de nombre unique pour  _l’expression_ où la partie d’un nombre integer du résultat représente le nombre de jours depuis le 30 décembre 1899. 
+La fonction DAY accepte également une valeur de nombre unique pour  _l’expression_ où la partie nombre inte du résultat représente le nombre de jours depuis le 30 décembre 1899. 
   
 ## <a name="example-1"></a>Exemple 1
 

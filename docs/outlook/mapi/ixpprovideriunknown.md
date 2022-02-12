@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d5507785-c924-4981-ae80-19709ceb054d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1fd227293f15b1cef7cc689c705591e46c2160a0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6af3c171b2d2d03c91049afdfbff68f5ae490e47
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595923"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777375"
 ---
 # <a name="ixpprovider--iunknown"></a>IXPProvider : IUnknown
 
@@ -40,7 +40,7 @@ Initialise un objet fournisseur de transport et arrête l’objet lorsqu’il n�
 
 |||
 |:-----|:-----|
-|[Arrêt](ixpprovider-shutdown.md) <br/> |Ferme un fournisseur de transport de manière ordonnée.  <br/> |
-|[TransportLogon](ixpprovider-transportlogon.md) <br/> |Établit une session dans laquelle une application cliente se connecte à un fournisseur de transport.  <br/> |
+|[Arrêt](ixpprovider-shutdown.md) <br/> |Ferme un fournisseur de transport de manière ordonnée. |
+|[TransportLogon](ixpprovider-transportlogon.md) <br/> |Établit une session dans laquelle une application cliente se connecte à un fournisseur de transport. |
    
 

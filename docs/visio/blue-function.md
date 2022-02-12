@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: da9fb933-4e2c-3e2a-1879-6e70db0cd830
 description: Renvoie le composant bleu d’une couleur. La valeur de retour est un nombre complet compris entre 0 et 255 inclus. La fonction renvoie 0 si l’entrée n’est pas valide.
-ms.openlocfilehash: eac92b4b83f63d99f65ba7f70cc2dfdcf2634a76
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b510f739866b70670823418c8c6268e6d825e2ee
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616004"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776017"
 ---
 # <a name="blue-function"></a>Fonction BLUE
 
@@ -28,7 +28,7 @@ BLUE(** *expression* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatoire  <br/> |**String** <br/> |Index d’une couleur dans la table des couleurs d’un document, expression correspondant à une couleur personnalisée (telle que RVB ou TSL) ou référence à une cellule contenant un index ou un résultat de couleurs.  <br/> |
+| _expression_ <br/> |Requis  <br/> |**String** <br/> |Index d’une couleur dans la table des couleurs d’un document, expression correspondant à une couleur personnalisée (telle que RVB ou TSL) ou référence à une cellule contenant un index ou un résultat de couleurs. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

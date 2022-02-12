@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4cf1e08b-c869-4965-a1e4-512a0684700f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f3cf778a4854e29c83c5728671f526788d363fb3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c7bb9e3224539012816e8c1343282a79f9af72a3
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604605"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776248"
 ---
 # <a name="pidlidflagstring-canonical-property"></a>Propriété canonique PidLidFlagString
 
@@ -43,7 +43,7 @@ Les valeurs par défaut suggérées à l’utilisateur pour les objets contact s
   
 |**Valeur**|**Chaîne anglaise**|
 |:-----|:-----|
-|0x00000000 ou non présent  <br/> | Suivez les instructions relatives à l’affichage **de dispidFlagRequest**.  <br/> |
+|0x00000000 ou non présent  <br/> | Suivez les instructions relatives à l’affichage **de dispidFlagRequest**. |
 |0x0000006E  <br/> |« Suivi »  <br/> |
 |0x0000006F  <br/> |« Appeler »  <br/> |
 |0x00000070  <br/> |« Organiser une réunion »  <br/> |
@@ -54,7 +54,7 @@ Les valeurs par défaut suggérées à l’utilisateur pour tous les autres obje
   
 |**Valeur**|**Chaîne anglaise**|
 |:-----|:-----|
-|0x00000000 ou non présent  <br/> | Suivez les instructions relatives à l’affichage **de dispidFlagRequest**.  <br/> |
+|0x00000000 ou non présent  <br/> | Suivez les instructions relatives à l’affichage **de dispidFlagRequest**. |
 |0x00000001  <br/> |« Appeler »  <br/> |
 |0x00000002  <br/> |« Ne pas avancer »  <br/> |
 |0x00000003  <br/> |« Suivi »  <br/> |

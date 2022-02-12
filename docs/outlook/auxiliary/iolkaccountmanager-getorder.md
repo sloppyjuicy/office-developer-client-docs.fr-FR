@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: bd22026c-e4f7-2f25-0ef2-5d9539fd7eee
 description: Obtient le classement de la catégorie de comptes spécifiée.
-ms.openlocfilehash: 3a680e7a40197a3edf22e78d4e35ac981802a193
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7c64e638aa83ee4ef0d45337e70619e943146f9e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617110"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777620"
 ---
 # <a name="iolkaccountmanagergetorder"></a>IOlkAccountManager::GetOrder
 
@@ -55,12 +55,12 @@ _prgAccts_
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |L’appel a réussi  <br/> |
-|E_INVALIDARG  <br/> |Un ou plusieurs arguments ne sont pas valides.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.  <br/> |
+|E_INVALIDARG  <br/> |Un ou plusieurs arguments ne sont pas valides. |
+|E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation. |
    
 ## <a name="remarks"></a>Remarques
 
-Avant d’appeler cette méthode, l’appelant alloue uniquement un pointeur de tableau  *prgAccts,*  mais pas de mémoire pour le tableau auquel  *prgAccts*  pointe. Après le retour de cette méthode, l’appelant doit utiliser [IOlkAccountManager::FreeMemory](iolkaccountmanager-freememory.md) pour libérer la mémoire allouée pour  *prgAccts*  . 
+Avant d’appeler cette méthode, l’appelant alloue uniquement un pointeur de tableau  *prgAccts*  , mais pas de mémoire pour le tableau auquel  *prgAccts*  pointe. Après le retour de cette méthode, l’appelant doit utiliser [IOlkAccountManager::FreeMemory](iolkaccountmanager-freememory.md) pour libérer la mémoire allouée pour  *prgAccts*  . 
   
 ## <a name="see-also"></a>Voir aussi
 

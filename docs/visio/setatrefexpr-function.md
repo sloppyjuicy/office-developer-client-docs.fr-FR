@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c1bd7819-b53b-bff1-69c1-6d78e8fb278b
 description: Stocke une valeur définie par le biais d’une action dans l’interface utilisateur (IU) ou Automation.
-ms.openlocfilehash: 053e50359eb355e2882957ba1bbd3da963d7627f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2f4503e2caa52548d1e9f07535ee5e72a492514a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627505"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779382"
 ---
 # <a name="setatrefexpr-function"></a>Fonction SETATREFEXPR
 
@@ -28,7 +28,7 @@ SETATREFEXPR ([ ** *expr_opt* ** ])
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expr_opt_ <br/> |Facultatif  <br/> |**Varie** <br/> |Expression remplacée par la valeur ou l’expression affectée à la cellule référencée dans la fonction SETATREF. S’il n’est pas indiqué, sa valeur initiale est 0 (zéro).  <br/> |
+| _expr_opt_ <br/> |Facultatif  <br/> |**Varie** <br/> |Expression remplacée par la valeur ou l’expression affectée à la cellule référencée dans la fonction SETATREF. S’il n’est pas indiqué, sa valeur initiale est 0 (zéro). |
    
 ## <a name="remarks"></a>Remarques
 
@@ -50,9 +50,9 @@ User.GridX =2 mm
   
 User.GridY =2 mm
   
-PinX =INT(SETATREFEXPR()/User.GridX + .5) \* User.GridX
+PinX =INT(SETATREFEXPR()/User.GridX + .5)\*User.GridX
   
-PinY =INT(SETATREFEXPR()/User.GridY + .5) \* User.GridY
+PinY =INT(SETATREFEXPR()/User.Gridy + .5)\*User.Gridy
   
 ## <a name="example-3"></a>Exemple 3
 

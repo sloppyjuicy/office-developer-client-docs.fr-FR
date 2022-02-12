@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: eca75ec6-3677-54ef-74ec-4a440a089e5d
 description: Spécifie la largeur du contrôle d’onglet de page d’une fenêtre de dessin (en tant que fraction de la largeur totale de la fenêtre de dessin).
-ms.openlocfilehash: 7f4ea91fa43129f9a837918ad8493e9c3812c7ad
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e9e1bd63ab2741a60ce8b61dbe677d16e691de23
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603360"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772542"
 ---
 # <a name="tabsplitterpos-element-window_type-complextype-visio-xml"></a>Élément TabSplitterPos (Window_Type complexType) (Visio XML)
 
@@ -35,13 +35,13 @@ Spécifie la largeur du contrôle d’onglet de page d’une fenêtre de dessin 
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Fenêtre ouverte dans une instance Visio instance.  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Fenêtre ouverte dans une instance Visio instance. |
    
 ### <a name="child-elements"></a>Éléments enfants
 

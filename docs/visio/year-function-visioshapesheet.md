@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: acc136ef-9946-7c12-a467-9ded732a3549
 description: Renvoie un entier qui représente l’année grégorien dans l’heure ou l’expression date/heure, mise en forme selon le style de date courte définie par les paramètres région et langue actuels du système.
-ms.openlocfilehash: 156791dde6af8858b3eeaab643c38762811cac4a
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 021ccbb1fb0c6587e3d9b4b22558458de04bb878
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462550"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777970"
 ---
 # <a name="year-function-visioshapesheet"></a>YEAR Function (VisioShapeSheet)
 
@@ -22,15 +22,15 @@ Renvoie un entier qui représente l’année grégorien dans _l’heure ou l’e
   
 ## <a name="syntax"></a>Syntaxe
 
-YEAR( » ***datetime** _ « | _*_expression_*_ [, _ *_lcid_** ]) 
+YEAR( » ***datetime** _ « | _*_expression_*_ [, _ *_lcid_** ])
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _datetime_ <br/> |Requis  <br/> |**String** <br/> | Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  <br/> |
-| _expression_ <br/> |Requis  <br/> |**Varie** <br/> |Toute expression qui génère une date et une heure.  <br/> |
-| _lcid_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système.  <br/> |
+| _datetime_ |Requis  |**String** | Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  |
+| _expression_ |Requis  |**Varie** |Toute expression qui génère une date et une heure.  |
+| _lcid_ |Facultatif  |**Numérique** |Identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système.  |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -38,11 +38,11 @@ Entier
   
 ## <a name="remarks"></a>Remarques
 
-Le composant d’heure  _dans l’heure ou_  _l’expression_ est ignoré. 
+Le composant heure des arguments _datetime_ ou _expression_ n’est pas pris en compte.
   
-Aucun arrondissement n’est effectué. Si  _date/heure_ est manquante ou ne peut pas être interprétée comme une date ou une heure valide, YEAR renvoie une erreur. 
+Aucun arrondissement n’est effectué. Si _datetime_ est introuvable ou ne peut pas être interprété comme une date ou une heure valide, YEAR renvoie une erreur.
   
-La fonction YEAR accepte également une valeur de nombre unique pour  _l’expression_ où la partie nombre inte du résultat représente le nombre de jours depuis le 30 décembre 1899. 
+La fonction YEAR accepte également une valeur numérique simple pour l’argument _expression_ où la partie entière du résultat représente le nombre de jours écoulés depuis le 30 décembre 1899.
   
 ## <a name="example-1"></a>Exemple 1
 
@@ -60,6 +60,5 @@ Renvoie 2007.
 
 YEAR(35580.6337)
   
-Renvoie 1997.
-  
+Renvoie 1997. 
 

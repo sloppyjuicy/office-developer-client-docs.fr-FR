@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b131badf-1656-132e-0aae-eeedb917ba7a
 description: Affiche la page dont le nom est nom dans la fenêtre active.
-ms.openlocfilehash: dfbaff34211d5df467d5ff378df9e37ec0e2e3d3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 735871c5090c7d6fc2d3fd41eb4318d084932a77
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554760"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778551"
 ---
 # <a name="gotopage-function"></a>Fonction GOTOPAGE
 
@@ -28,7 +28,7 @@ GOTOPAGE( » ** *pagename* ** « )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _pagename_ <br/> |Obligatoire  <br/> |**String** <br/> |Nom de la page à atteindre  <br/> |
+| _pagename_ <br/> |Requis  <br/> |**String** <br/> |Nom de la page à atteindre |
    
 ## <a name="remarks"></a>Remarques
 

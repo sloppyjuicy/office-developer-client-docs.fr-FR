@@ -6,32 +6,32 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 4fa49d5f-12ea-4d14-9a03-28418f01746c
 description: Renvoie une valeur de date pour l’année, le mois et le jour spécifiés.
-ms.openlocfilehash: f755d686d4a04da8d4c434e937e16c03c11219a4
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: f8ab7b0eaed1fbf8b23af8ea9ea8c2450c4cd056
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179731"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777809"
 ---
 # <a name="datefromparts-function-access-custom-web-app"></a>Fonction DateFromParts (application web personnalisée Access)
 
 Renvoie une valeur de date pour l’année, le mois et le jour spécifiés.
   
 > [!NOTE]
-> La fonctionnalité de stockage cloud décrite dans cet article n’est plus prise en charge dans Office 2013 et Office 2016 et peut entraîner l’erreur suivante : Désolé, nous avons des problèmes de serveur, donc nous ne pouvons pas ajouter *\<service\> immédiatement. Veuillez essayer à nouveau plus tard.*
-> Pour le stockage cloud pour Office Online, Office pour iOS et Office pour Android, recherchez notre programme Office [cloud Stockage partenaire.](https://dev.office.com/programs/officecloudstorage)
+> La fonctionnalité de stockage dans le cloud décrite dans cet article n'est plus prise en charge dans Office 2013 et Office 2016 et peut entraîner l'erreur suivante : *Désolé, nous avons des problèmes de serveur, donc nous ne pouvons pas ajouter\<service\> en ce moment. Veuillez réessayer plus tard.*
+> Pour le stockage cloud pour Office Online, Office pour iOS et Office pour Android, recherchez notre programme [Office cloud Stockage partenaire.](https://dev.office.com/programs/officecloudstorage)
   
 ## <a name="syntax"></a>Syntaxe
 
-**DateFromParts** (*Year*, *Month*, *Day*)
+**DateFromParts** (*Année*, *Mois*, *Jour*)
   
 La **fonction DateFromParts** contient les arguments suivants.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *Année*  <br/> |Expression de nombres integer spécifiant une année.  <br/> |
-| *Month*  <br/> |Expression de nombres integer spécifiant un mois, de 1 à 12.  <br/> |
-| *Day*  <br/> |Expression de nombres integer spécifiant un jour.  <br/> |
+| *Année*  <br/> |Expression de nombres integer spécifiant une année. |
+| *Month*  <br/> |Expression de nombres integer spécifiant un mois, de 1 à 12. |
+| *Day*  <br/> |Expression de nombres integer spécifiant un jour. |
 
 ## <a name="remarks"></a>Remarques
 

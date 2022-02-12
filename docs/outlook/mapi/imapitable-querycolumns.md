@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d6341acc-c6ca-4605-93af-77230040339d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: edaacf40bac968b98352bf1b2dc19e01b76eb524
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 870367f47b0c75e5324f8ef5f9682037a28582be
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567395"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776388"
 ---
 # <a name="imapitablequerycolumns"></a>IMAPITable::QueryColumns
 
@@ -64,17 +64,17 @@ La **méthode IMAPITable::QueryColumns** peut être appelée pour récupérer :
   
 - Colonne par défaut définie pour un tableau.
     
-- Ensemble de colonnes actuel pour une table, tel qu’établi par un appel à la méthode [IMAPITable::SetColumns.](imapitable-setcolumns.md) 
+- Colonne actuelle définie pour une table, tel qu’établi par un appel à la méthode [IMAPITable::SetColumns](imapitable-setcolumns.md) . 
     
 - Ensemble de colonnes complet d’un tableau, colonnes disponibles, mais pas nécessairement partie de l’ensemble actuel.
     
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si vous ne définissez pas l’indicateur TBL_ALL_COLUMNS, **IMAPITable::QueryColumns** renvoie l’ensemble de colonnes par défaut ou actuel d’une table, selon que la table a été affectée par un appel à **IMAPITable::SetColumns**. **SetColumns** modifie l’ordre et la sélection des colonnes dans le jeu de colonnes d’un tableau. 
+Si vous ne définissez pas l’indicateur TBL_ALL_COLUMNS, **IMAPITable::QueryColumns** renvoie l’ensemble de colonnes par défaut ou actuel d’une table, selon que la table a été affectée par un appel à **IMAPITable::SetColumns**. **SetColumns modifie l’ordre** et la sélection des colonnes dans le jeu de colonnes d’un tableau. 
   
 Si vous définissez l’TBL_ALL_COLUMNS, **QueryColumns** renvoie toutes les colonnes pouvant être dans le jeu de colonnes de la table. 
   
-Libérez la mémoire du tableau de balises de propriétés pointé par le paramètre _lpPropTagArray_ en appelant la [fonction MAPIFreeBuffer.](mapifreebuffer.md) 
+Libérez la mémoire du tableau de balises de propriétés pointé par le paramètre  _lpPropTagArray_ en appelant la [fonction MAPIFreeBuffer](mapifreebuffer.md) . 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -82,7 +82,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oSetColumns  <br/> |MFCMAPI utilise la méthode **IMAPITable::QueryColumns** pour récupérer le jeu de colonnes actuel d’une table afin que l’utilisateur puisse la modifier.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oSetColumns  <br/> |MFCMAPI utilise la méthode **IMAPITable::QueryColumns** pour récupérer le jeu de colonnes actuel d’une table afin que l’utilisateur puisse la modifier. |
    
 ## <a name="see-also"></a>Voir aussi
 

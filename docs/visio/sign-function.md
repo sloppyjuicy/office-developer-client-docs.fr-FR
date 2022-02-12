@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: fdc032c2-d0bd-1592-de3f-33c478d066ee
 description: Renvoie une valeur qui représente le signe d’un nombre.
-ms.openlocfilehash: ea7ed2ec4cacb6d926d907934f8745b8ab7538ad
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a428db01c0afba9e30f081b2ff7cf4e67a90649b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622821"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779235"
 ---
 # <a name="sign-function"></a>Fonction SIGN
 
@@ -28,8 +28,8 @@ SIGN(** *number* **, ** *fuzz* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatoire  <br/> |**Numérique** <br/> | Nombre dont vous voulez déterminer le signe.  <br/> |
-| _fuzz_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Spécifie à partir de quelle valeur proche de zéro le nombre sera considéré comme égal à zéro.  <br/> |
+| _number_ <br/> |Requis  <br/> |**Numérique** <br/> | Nombre dont vous voulez déterminer le signe. |
+| _fuzz_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Spécifie à partir de quelle valeur proche de zéro le nombre sera considéré comme égal à zéro. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -37,9 +37,9 @@ Numérique
   
 ## <a name="remarks"></a>Remarques
 
-La fonction SIGN renvoie 1 si le  _nombre_ est positif, 0 si le nombre est zéro, ou -1 si _le nombre_ est négatif. 
+La fonction SIGN renvoie 1 si _le nombre_ est positif, 0 si le  nombre est zéro, ou -1 si _le nombre_ est négatif. 
   
-Spécifier une  _valeur fuzz_ permet d’éviter les erreurs d’arrondi à un point flottant lorsqu’un calcul est proche de zéro. Si vous ne spécifiez pas de valeur _fuzz,_ Visio utilise 1E-9 (0,000000001). Cette option vous permet de fournir une valeur différente lorsque vous mettez des dessins à l’échelle ou lorsque vous souhaitez faire une comparaison exacte. 
+Spécifier une  _valeur fuzz_ permet d’éviter les erreurs d’arrondi à un point flottant lorsqu’un calcul est proche de zéro. Si vous ne spécifiez pas de valeur _fuzz_, Visio utilise 1E-9 (0,000000001). Cette option vous permet de fournir une valeur différente lorsque vous mettez des dessins à l’échelle ou lorsque vous souhaitez faire une comparaison exacte. 
   
 ## <a name="example-1"></a>Exemple 1
 

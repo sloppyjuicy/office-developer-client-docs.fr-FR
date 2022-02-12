@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7012f524-bc66-48ea-85b5-163e05029d35
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bcd1e034e22ff4a075e089fda0dbebd4e7a7d4a3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: aa1527e65884e182e502900158482bc683a3a04d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591730"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777326"
 ---
 # <a name="pidlidtaskacceptancestate-canonical-property"></a>Propriété canonique PidLidTaskAcceptanceState
 
@@ -41,10 +41,10 @@ Le tableau suivant indique les valeurs possibles pour cette propriété.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |La tâche n’est pas affectée.  <br/> |
-|0x00000001  <br/> |L’état d’acceptation de la tâche est inconnu.  <br/> |
-|0x00000002  <br/> |La personne à qui la tâche a été assignée a accepté la tâche. Cette valeur est définie lorsque le client traite une acceptation de tâche.  <br/> |
-|0x00000003  <br/> |L’affectation de la tâche a rejeté la tâche. Cette valeur est définie lorsque le client traite un rejet de tâche.  <br/> |
+|0x00000000  <br/> |La tâche n’est pas affectée. |
+|0x00000001  <br/> |L’état d’acceptation de la tâche est inconnu. |
+|0x00000002  <br/> |La personne à qui la tâche a été assignée a accepté la tâche. Cette valeur est définie lorsque le client traite une acceptation de tâche. |
+|0x00000003  <br/> |L’affectation de la tâche a rejeté la tâche. Cette valeur est définie lorsque le client traite un rejet de tâche. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

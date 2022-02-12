@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 2cfe965f-e462-452f-a99d-804cb1a2f1c7
 description: Renvoie la valeur de l’expression spécifiée à la puissance spécifiée.
-ms.openlocfilehash: 7938c1ef21378b78d62fae86e489685bd85c852c
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: 480fda28e9c6d934f0d4d56dd0c1439a05b853d5
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62199548"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776849"
 ---
 # <a name="power-function-access-custom-web-app"></a>Power Function (Access custom web app)
 
@@ -29,5 +29,5 @@ La **fonction Power** contient les arguments suivants.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Expression numérique.  <br/> |
-| *Puissance*  <br/> |Puissance à laquelle élever *NumericExpression*.  <br/> |
+| *NumericExpression*  <br/> |Expression numérique. |
+| *Puissance*  <br/> |Puissance à laquelle élever *NumericExpression*. |

@@ -9,16 +9,16 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c154413f-c366-a66b-94e3-ed71ad23f325
 description: Exécute une chaîne et transmet les arguments de ligne de commande au programme en tant que chaîne.
-ms.openlocfilehash: 34de0d5024e761e9f8f0b4c39d3ed70e717a789e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bd0ba6277b6d630d6399ef1af4c28e1d30043bcf
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573403"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772661"
 ---
 # <a name="runaddonwargs-function"></a>Fonction RUNADDONWARGS
 
-Exécute  _une_ chaîne et transmet les  _arguments_ de ligne de commande au programme en tant que chaîne. 
+Exécute  _une_ chaîne et transmet les  _arguments de ligne de commande_ au programme en tant que chaîne. 
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,12 +28,12 @@ RUNADDONWARGS( » ** *string* ** « , » ** *arguments* ** « )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _string_ <br/> |Obligatoire  <br/> |**String** <br/> | Nom d’un module complémentaire  <br/> |
-| _arguments_ <br/> |Obligatoire  <br/> |**String** <br/> |Arguments à transmettre à votre programme  <br/> |
+| _string_ <br/> |Requis  <br/> |**String** <br/> | Nom d’un module complémentaire |
+| _arguments_ <br/> |Requis  <br/> |**String** <br/> |Arguments à transmettre à votre programme |
    
 ## <a name="remarks"></a>Remarques
 
-Dans la pratique,  _les arguments_ doivent être de 50 caractères ou moins. Utilisez la fonction RUNADDONWARGS pour lier un programme, tel qu’un module complémentaire, à une cellule, par exemple à la cellule Action ou Events. 
+Dans la pratique,  _les arguments_ doivent avoir 50 caractères ou moins. Utilisez la fonction RUNADDONWARGS pour lier un programme, tel qu’un module complémentaire, à une cellule, par exemple à la cellule Action ou Events. 
   
 La fonction RUNADDONWARGS ne peut exécuter que des modules complémentaires membres de la collection **Addons** de l’application. Pour faire partie de cette collection, un module complémentaire doit être un fichier EXE ou VSL qui est : 
   

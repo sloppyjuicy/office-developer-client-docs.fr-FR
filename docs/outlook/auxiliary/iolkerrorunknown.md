@@ -1,17 +1,17 @@
 ---
 title: IOlkErrorUnknown
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 02/09/2022
 ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 9cfbf12c-a71c-092b-d86a-c5585b0f1edb
-ms.openlocfilehash: 60e5a6f7400a3bb7ab2df1fc25cc2c469af29418
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ca9aa0cf52c283a7e91cd29f1e99415db0023ac8
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617082"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777592"
 ---
 # <a name="iolkerrorunknown"></a>IOlkErrorUnknown
 
@@ -21,21 +21,20 @@ Fournit des informations supplémentaires sur la dernière erreur.
 
 |||
 |:-----|:-----|
-|Hérite de :  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
-|Fourni par :  <br/> |Client  <br/> |
-|Identificateur d’interface :  <br/> |IID_IOlkErrorUnknown  <br/> |
+|Hérite de :   |[IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown.md) |
+|Fourni par :   |Client  |
+|Identificateur d’interface :   |IID_IOlkErrorUnknown  |
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[GetLastError](iolkerrorunknown-getlasterror.md) <br/> |Obtient une chaîne de message pour l’erreur spécifiée.  <br/> |
+|[GetLastError](iolkerrorunknown-getlasterror.md) <br/> |Obtient une chaîne de message pour l’erreur spécifiée. |
    
 ## <a name="remarks"></a>Remarques
 
-Cette interface fournit des informations supplémentaires sur une erreur dans [IOlkAccountManager,](iolkaccountmanager.md) [IOlkAccountNotify](iolkaccountnotify.md)et [IOlkAccount](iolkaccount.md). Il s’agit également de l’interface de base pour **IOlkAccountManager,** **IOlkAccountNotify** et **IOlkAccount**. 
+Cette interface fournit des informations supplémentaires sur une erreur [dans IOlkAccountManager](iolkaccountmanager.md), [IOlkAccountNotify](iolkaccountnotify.md) et [IOlkAccount](iolkaccount.md). Il s’agit également de l’interface de base pour **IOlkAccountManager**, **IOlkAccountNotify** et **IOlkAccount**. 
   
 ## <a name="see-also"></a>Voir aussi
 
 - [À propos de l'API de gestion de compte](about-the-account-management-api.md)
-

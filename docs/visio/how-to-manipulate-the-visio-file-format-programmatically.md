@@ -7,12 +7,12 @@ ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: Créez une solution dans Visual Studio 2012 pour lire le nouveau package de format de fichier dans Visio 2013, sélectionner des composants du package, modifier les données d’un composant et ajouter de nouveaux composants au package.
 ms.localizationpriority: high
-ms.openlocfilehash: 762522a972b7c51eb5daa98388cf26e736d12cde
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 99886b0fe942c2047386766444cfb7351d0e9237
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618825"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775772"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Manipuler le format de fichier Visio par programmation
 
@@ -34,9 +34,9 @@ Dans cet article, nous expliquons comment utiliser le format de fichier Visio 20
 
 |**Titre d’article**|**Description**|
 |:-----|:-----|
-|[Présentation du format de fichier Visio (.vsdx)](introduction-to-the-visio-file-formatvsdx.md) <br/> |Cette vue d’ensemble de haut niveau décrit quelques-unes des principales fonctionnalités du format de fichier Visio 2013. Elle traite des OPC (Open Packaging Conventions) qui ont été appliqués au format de fichier Visio 2013. Elle répertorie également quelques différences entre le format de fichier Visio 2013 et le format de fichier de dessin Visio XML précédent (.vdx).  <br/> |
-|[OPC : une nouvelle norme pour les packages de données](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data.md) <br/> |Cet article de MSDN Magazine décrit les spécifications des normes Open Packaging Conventions sous forme de concept.  <br/> |
-|[Éléments fondamentaux des OPC (Open Packaging Conventions)](https://docs.microsoft.com/previous-versions/office/office-12/ee361919(v=office.12)) <br/> [Présentation des formats de fichier Office (2007) Open XML](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa338205(v=office.12)) <br/> |Ces deux articles traitent de la manière dont les spécifications des normes Open Packaging Conventions ont été appliquées aux fichiers Microsoft Office. Ils contiennent des descriptions sur le fonctionnement des relations dans un package, et incluent également quelques exemples de code.  <br/> |
+|[Présentation du format de fichier Visio (.vsdx)](introduction-to-the-visio-file-formatvsdx.md) <br/> |Cette vue d’ensemble de haut niveau décrit quelques-unes des principales fonctionnalités du format de fichier Visio 2013. Elle traite des OPC (Open Packaging Conventions) qui ont été appliqués au format de fichier Visio 2013. Elle répertorie également quelques différences entre le format de fichier Visio 2013 et le format de fichier de dessin Visio XML précédent (.vdx). |
+|[OPC : une nouvelle norme pour les packages de données](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data.md) <br/> |Cet article de MSDN Magazine décrit les spécifications des normes Open Packaging Conventions sous forme de concept. |
+|[Éléments fondamentaux des OPC (Open Packaging Conventions)](https://docs.microsoft.com/previous-versions/office/office-12/ee361919(v=office.12)) <br/> [Présentation des formats de fichier Office (2007) Open XML](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa338205(v=office.12)) <br/> |Ces deux articles traitent de la manière dont les spécifications des normes Open Packaging Conventions ont été appliquées aux fichiers Microsoft Office. Ils contiennent des descriptions sur le fonctionnement des relations dans un package, et incluent également quelques exemples de code. |
    
 ## <a name="create-a-vsdx-file-and-a-new-visual-studio-solution"></a>Créer un fichier .vsdx et une nouvelle solution Visual Studio
 <a name="vis15_ManipulateFF_CreateFile"> </a>

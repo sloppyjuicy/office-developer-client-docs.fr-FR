@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 93c8fc1d-e70c-4726-af2f-c6501d82e49b
 description: Remplace toutes les occurrences d’une valeur de chaîne spécifiée par une autre valeur de chaîne.
-ms.openlocfilehash: 2b38615691eecc476066610c229708dfb2bf7b83
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 560b97d08e3dd72b8724ee3a86cde5317dac70c7
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180123"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776822"
 ---
 # <a name="replace-function-access-custom-web-app"></a>Replace Function (Access custom web app)
 
@@ -29,6 +29,6 @@ La **fonction Replace** contient les arguments suivants.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Expression de chaîne à rechercher.  <br/> |
-| *Pattern*  <br/> |Sous-stration à trouver. *Le modèle* ne peut pas être une chaîne vide («  »).  <br/> |
-| *Replacement*  <br/> |Chaîne de remplacement.  <br/> |
+| *TextExpression*  <br/> |Expression de chaîne à rechercher. |
+| *Pattern*  <br/> |Sous-stration à trouver. *Le modèle* ne peut pas être une chaîne vide («  »). |
+| *Replacement*  <br/> |Chaîne de remplacement. |

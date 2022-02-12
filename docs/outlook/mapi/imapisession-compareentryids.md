@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 319f10e9-db8d-4d16-aa1f-6cf5fef493eb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 649384e09c2f46c55f2ee00ec6d8840c6b97fceb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ea9e7a1579f56e27e7d8905861f92d0c92b40166
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567569"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777486"
 ---
 # <a name="imapisessioncompareentryids"></a>IMAPISession::CompareEntryIDs
 
@@ -42,7 +42,7 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID1._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID1_ . 
     
  _lpEntryID1_
   
@@ -50,7 +50,7 @@ HRESULT CompareEntryIDs(
     
  _cbEntryID2_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID2._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID2_ . 
     
  _lpEntryID2_
   
@@ -72,17 +72,17 @@ S_OK
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L’un des identificateurs d’entrée ou les deux spécifiés en tant que paramètres ne font pas référence à des objets, peut-être parce que ces objets sont actuellement non ouvert et indisponibles.
+> L’un ou les deux identificateurs d’entrée spécifiés en tant que paramètres ne font pas référence à des objets, car ces objets sont actuellement non ouvert et indisponibles.
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISession::CompareEntryIDs** compare deux identificateurs d’entrée qui appartiennent à un seul fournisseur de services pour déterminer s’ils font référence au même objet. MAPI extrait la partie [MAPIUID](mapiuid.md) des identificateurs d’entrée pour déterminer le fournisseur de services responsable des objets, puis appelle la méthode **CompareEntryIDs** de son objet d’inscription pour effectuer la comparaison. 
+La **méthode IMAPISession::CompareEntryIDs** compare deux identificateurs d’entrée appartenant à un seul fournisseur de services pour déterminer s’ils font référence au même objet. MAPI extrait la partie [MAPIUID](mapiuid.md) des identificateurs d’entrée pour déterminer le fournisseur de services responsable des objets, puis appelle la méthode **CompareEntryIDs** de son objet d’inscription pour effectuer la comparaison. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
 La **méthode CompareEntryIDs est** utile car un objet peut avoir plusieurs identificateurs d’entrée valides. Cette situation peut se produire, par exemple, après l’installation d’une nouvelle version d’un fournisseur de services. 
   
-Si **CompareEntryIDs** renvoie une erreur, ne pas prendre d’action en fonction du résultat de la comparaison. Au lieu de cela, prenez l’approche la plus prudent possible. **CompareEntryIDs peut** échouer si, par exemple, l’un des identificateurs d’entrée ou les deux contiennent un **MAPIUID non valide**. 
+Si **CompareEntryIDs** renvoie une erreur, ne pas prendre d’action en fonction du résultat de la comparaison. Au lieu de cela, prenez l’approche la plus prudent possible. **CompareEntryIDs** peut échouer si, par exemple, l’un des identificateurs d’entrée ou les deux contiennent un **MAPIUID non valide**. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -90,7 +90,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|BaseDialog.cpp  <br/> |CbaseDialog::OnCompareEntryIDs  <br/> |MFCMAPI utilise la méthode **IMAPISession::CompareEntryIDs** pour comparer deux ID d’entrée qu’un utilisateur entre.  <br/> |
+|BaseDialog.cpp  <br/> |CbaseDialog::OnCompareEntryIDs  <br/> |MFCMAPI utilise la méthode **IMAPISession::CompareEntryIDs** pour comparer deux ID d’entrée qu’un utilisateur entre. |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: d4f93fc5-80fb-3195-d25b-9a407de7848e
 description: Contient un nombre à point flottant qui spécifie un angle d’snap en degrés.
-ms.openlocfilehash: 62b60b82e93824ffbd5df20878f2aaa3d9ef74f9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b80754e141c23330412f285254a839d599a6c55e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570028"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779217"
 ---
 # <a name="snapangle-element-snapangles_type-complextype-visio-xml"></a>Élément SnapAngle (SnapAngles_Type complexType) (Visio XML)
 
@@ -36,14 +36,14 @@ Contient un nombre à point flottant qui spécifie un angle d’snap en degrés.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[SnapAngles](snapangles-element-window_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Contient une collection **d’éléments SnapAngle.**  <br/> |
-|[SnapAngles](snapangles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Contient une collection **d’éléments SnapAngle.**  <br/> |
+|[SnapAngles](snapangles-element-window_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Contient une collection **d’éléments SnapAngle** . |
+|[SnapAngles](snapangles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Contient une collection **d’éléments SnapAngle** . |
    
 ### <a name="child-elements"></a>Éléments enfants
 

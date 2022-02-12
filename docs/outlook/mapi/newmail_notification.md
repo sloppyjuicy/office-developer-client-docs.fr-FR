@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 49913050-900a-4b05-84c4-c596a93ce68b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 78fcf2e6ed088f391cf02c755b3f356464c8312e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2cc688316055457e815a9a17215e6418a5aea3f4
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561228"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776255"
 ---
 # <a name="newmail_notification"></a>NEWMAIL_NOTIFICATION
 
@@ -49,7 +49,7 @@ typedef struct _NEWMAIL_NOTIFICATION
 
  **cbEntryID**
   
-> Nombre d’octets dans l’identificateur d’entrée pointé par le membre **lpEntryID.** 
+> Nombre d’octets dans l’identificateur d’entrée pointé par **le membre lpEntryID** . 
     
  **lpEntryID**
   
@@ -57,7 +57,7 @@ typedef struct _NEWMAIL_NOTIFICATION
     
  **cbParentID**
   
-> Nombre d’octets dans l’identificateur d’entrée pointé par le membre **lpParentID.** 
+> Nombre d’octets dans l’identificateur d’entrée pointé par **le membre lpParentID** . 
     
  **lpParentID**
   
@@ -77,21 +77,21 @@ MAPI_UNICODE
     
  **ulMessageFlags**
   
-> Masque de bits d’indicateurs décrivent l’état actuel du message nouvellement arrivé. Le **membre ulMessageFlags est** une copie de la propriété PR_MESSAGE_FLAGS ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). 
+> Masque de bits d’indicateurs décrivent l’état actuel du message nouvellement arrivé. Le **membre ulMessageFlags est** une copie de la propriété **PR_MESSAGE_FLAGS (**[PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du message.
     
 ## <a name="remarks"></a>Remarques
 
-La **NEWMAIL_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION.](notification.md) Lorsque le **membre d’informations** d’une structure **notification** contient une structure **NEWMAIL_NOTIFICATION,** le membre **ulEventType** de la structure **NOTIFICATION** est définie sur  _fnevNewMail._
+La **NEWMAIL_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION](notification.md) . Lorsque le **membre d’informations** d’une structure **NOTIFICATION** contient **une structure NEWMAIL_NOTIFICATION** , le membre **ulEventType** de la structure **NOTIFICATION** est définie sur  _fnevNewMail._
   
-MAPI utilise la structure **NEWMAIL_NOTIFICATION** uniquement en tant que membre de la structure **de notification,** qui contient des informations sur un événement de notification pour le réception de notification. 
+MAPI utilise la structure **NEWMAIL_NOTIFICATION** uniquement en tant que membre de la structure **notification** , qui contient des informations sur un événement de notification pour le réception de notification. 
   
 Pour plus d’informations sur la notification, voir les rubriques décrites dans le tableau suivant.
   
 |**Rubrique**|**Description**|
 |:-----|:-----|
-|[Notification d’événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des événements de notification et de notification.  <br/> |
-|[Gestion des notifications](handling-notifications.md) <br/> |Discussion sur la façon dont les clients doivent gérer les notifications.  <br/> |
-|[Prise en charge des notifications d’événement](supporting-event-notification.md) <br/> |Discussion sur la façon dont les fournisseurs de services peuvent utiliser la méthode [IMAPISupport](imapisupportiunknown.md) pour générer des notifications.  <br/> |
+|[Notification d’événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des événements de notification et de notification. |
+|[Gestion des notifications](handling-notifications.md) <br/> |Discussion sur la façon dont les clients doivent gérer les notifications. |
+|[Prise en charge des notifications d’événement](supporting-event-notification.md) <br/> |Discussion sur la façon dont les fournisseurs de services peuvent utiliser la méthode [IMAPISupport](imapisupportiunknown.md) pour générer des notifications. |
    
 ## <a name="see-also"></a>Voir aussi
 

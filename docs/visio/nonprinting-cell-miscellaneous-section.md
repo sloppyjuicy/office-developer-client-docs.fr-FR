@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 59fe0887-2092-4fad-ea38-2aba354f3b92
 description: Active ou désactive l'impression de la forme sélectionnée.
-ms.openlocfilehash: f19e6f9e1c3ca140a16ac9ad8e5733ba70c3868c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9812a995ddc027de4c7c7d02a5d74fdbac610092
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573844"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777129"
 ---
 # <a name="nonprinting-cell-miscellaneous-section"></a>NonPrinting, cellule (section Miscellaneous)
 
@@ -22,8 +22,8 @@ Active ou désactive l'impression de la forme sélectionnée.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | L'impression est désactivée mais la forme est affichée dans la fenêtre de dessin.  <br/> |
-| FALSE  <br/> | L'impression est activée.  <br/> |
+| TRUE  <br/> | L'impression est désactivée mais la forme est affichée dans la fenêtre de dessin. |
+| FALSE  <br/> | L'impression est activée. |
    
 ## <a name="remarks"></a>Remarques
 

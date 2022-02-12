@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0069c223-32bb-4286-b763-39fd45dc263b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dba0ced4c0a0858ebfd89ba1aaea7232d77deb1e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: be838ab6d9fbaaef8ece79558bed20fb682dba00
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556594"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776514"
 ---
 # <a name="imapipropgetproplist"></a>IMAPIProp::GetPropList
 
@@ -68,7 +68,7 @@ Si l’objet ne prend pas en charge Unicode, **GetPropList** renvoie MAPI_E_BAD_
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Les fournisseurs de transport distant **implémentent GetPropList** exactement comme indiqué ici. Il n’existe aucune préoccupation particulière. Votre implémentation doit, bien entendu, renvoyer la même liste de propriétés que prise en charge par la méthode [IMAPIProp::GetProps.](imapiprop-getprops.md) 
+Les fournisseurs de transport distant **implémentent GetPropList** exactement comme indiqué ici. Il n’existe aucune préoccupation particulière. Votre implémentation doit, bien entendu, renvoyer la même liste de propriétés que prise en charge par la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) . 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
@@ -80,7 +80,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI utilise la **méthode IMAPIProp::GetPropList** pour obtenir une liste de propriétés à transmettre à **GetProps.**  <br/> |
+|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI utilise la méthode **IMAPIProp::GetPropList** pour obtenir une liste de propriétés à transmettre à **GetProps**. |
    
 ## <a name="see-also"></a>Voir aussi
 

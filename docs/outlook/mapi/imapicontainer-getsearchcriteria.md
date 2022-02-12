@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 41b6c162-9984-43a3-b38e-44f0afae67de
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 341ed6c416c3029b0e4498cd7c6009e246b23bae
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b61b633aae060ae40a9398cb779f296b45734524
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596364"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776563"
 ---
 # <a name="imapicontainergetsearchcriteria"></a>IMAPIContainer::GetSearchCriteria
 
@@ -48,15 +48,15 @@ MAPI_UNICODE
     
  _lppRestriction_
   
-> [out] Pointeur vers un pointeur vers une structure [SRestriction](srestriction.md) qui définit les critères de recherche. Si une application cliente transmet la valeur NULL dans le paramètre _lppRestriction,_ **GetSearchCriteria** ne retourne pas de structure **SRestriction.** 
+> [out] Pointeur vers un pointeur vers une structure [SRestriction](srestriction.md) qui définit les critères de recherche. Si une application cliente transmet la valeur NULL dans le paramètre _lppRestriction_ , **GetSearchCriteria** ne retourne pas de structure **SRestriction** . 
     
  _lppContainerList_
   
-> [out] Pointeur vers un pointeur vers un tableau d’identificateurs d’entrée qui représentent les conteneurs à inclure dans la recherche. Si un client transmet la valeur NULL dans le paramètre  _lppContainerList,_ **GetSearchCriteria** ne retourne pas de tableau d’identificateurs d’entrée. 
+> [out] Pointeur vers un pointeur vers un tableau d’identificateurs d’entrée qui représentent les conteneurs à inclure dans la recherche. Si un client transmet la valeur NULL dans le paramètre _lppContainerList_ , **GetSearchCriteria** ne retourne pas de tableau d’identificateurs d’entrée. 
     
  _lpulSearchState_
   
-> [out] Pointeur vers un masque de bits d’indicateurs utilisé pour indiquer l’état actuel de la recherche. Si un client transmet la valeur NULL dans le paramètre  _lpulSearchState,_ **GetSearchCriteria** ne renvoie aucun indicateur. Les indicateurs suivants peuvent être définies : 
+> [out] Pointeur vers un masque de bits d’indicateurs utilisé pour indiquer l’état actuel de la recherche. Si un client transmet la valeur NULL dans le paramètre _lpulSearchState_ , **GetSearchCriteria** ne renvoie aucun indicateur. Les indicateurs suivants peuvent être définies : 
     
 SEARCH_FOREGROUND 
   
@@ -68,7 +68,7 @@ SEARCH_REBUILD
     
 SEARCH_RECURSIVE 
   
-> La recherche recherche les entrées correspondantes dans les conteneurs spécifiés et tous leurs conteneurs enfants. Si cet indicateur n’est pas définie, seuls les conteneurs explicitement inclus dans le dernier appel à la méthode [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) sont recherchés. 
+> La recherche recherche des entrées correspondantes dans les conteneurs spécifiés et tous leurs conteneurs enfants. Si cet indicateur n’est pas définie, seuls les conteneurs inclus explicitement dans le dernier appel à la méthode [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) sont recherchés. 
     
 SEARCH_RUNNING 
   
@@ -98,7 +98,7 @@ Les conteneurs de carnet d’adresses peuvent avoir besoin de prendre en charge 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsque vous avez terminé avec les structures de données pointées par les  _paramètres lppRestriction_ et  _lppContainerList,_ appelez [MAPIFreeBuffer](mapifreebuffer.md) une fois pour chaque structure à libérer. 
+Lorsque vous avez terminé avec les structures de données pointées par les  _paramètres lppRestriction_ et  _lppContainerList_ , appelez [MAPIFreeBuffer](mapifreebuffer.md) une fois pour chaque structure à libérer. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -106,7 +106,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|HierarchyTableDlg.cpp  <br/> |CHierarchyTableDlg::OnEditSearchCriteria  <br/> |MFCMAPI utilise la méthode **IMAPIContainer::GetSearchCriteria** pour obtenir les critères de recherche à partir d’un dossier à afficher.  <br/> |
+|HierarchyTableDlg.cpp  <br/> |CHierarchyTableDlg::OnEditSearchCriteria  <br/> |MFCMAPI utilise la **méthode IMAPIContainer::GetSearchCriteria** pour obtenir des critères de recherche à partir d’un dossier à afficher. |
    
 ## <a name="see-also"></a>Voir aussi
 

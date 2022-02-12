@@ -8,26 +8,26 @@ f1_keywords:
 - Vis_DSS.chm60039
 ms.localizationpriority: medium
 ms.assetid: 0dfad40b-f97e-0c4a-2102-7344d1317b82
-description: Détermine si la balise d’action s’affiche lorsque l’utilisateur déplace le pointeur sur la balise, lorsque la forme est sélectionnée ou en tout temps.
-ms.openlocfilehash: 382922d55e05ccaef7c5c8232e888fcd15e0143f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Détermine si la balise d’action s’affiche lorsque l’utilisateur place le pointeur sur la balise, lorsque la forme est sélectionnée ou en tout temps.
+ms.openlocfilehash: 7bc26323ff26467b7539ac8342627514051d88e2
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59582805"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775919"
 ---
 # <a name="displaymode-cell-action-tags-section"></a>DisplayMode Cell (Action Tags Section)
 
-Détermine si la balise d’action s’affiche lorsque l’utilisateur déplace le pointeur sur la balise, lorsque la forme est sélectionnée ou en tout temps.
+Détermine si la balise d’action s’affiche lorsque l’utilisateur place le pointeur sur la balise, lorsque la forme est sélectionnée ou en tout temps.
   
 > [!NOTE]
 > Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ». 
   
 |**Valeur**|**Mode d’affichage**|**Constante d'automation**|
 |:-----|:-----|:-----|
-| 0  <br/> | S’affiche lorsque la souris est suspendue sur la balise (valeur par défaut).  <br/> |**visSmartTagDispModeMouseOver** <br/> |
-| 1  <br/> | Apparaît tant que la forme est sélectionnée.  <br/> |**visSmartTagDispModeShapeSelected** <br/> |
-| 2  <br/> | Apparaît tout le temps.  <br/> |**visSmartTagDispModeAlways** <br/> |
+| 0  <br/> | S’affiche lorsque la souris est suspendue sur la balise (valeur par défaut). |**visSmartTagDispModeMouseOver** <br/> |
+| 1  <br/> | Apparaît tant que la forme est sélectionnée. |**visSmartTagDispModeShapeSelected** <br/> |
+| 2  <br/> | Apparaît tout le temps. |**visSmartTagDispModeAlways** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -46,7 +46,7 @@ Pour obtenir une référence à la cellule DisplayMode à l'aide d'un index à p
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowSmartTag** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visSmartTagDisplayMode** <br/> |
    
 

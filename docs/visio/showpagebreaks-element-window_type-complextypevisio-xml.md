@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 1a8c29d9-31d9-dd77-09c5-6e9eaf870552
 description: Spécifie si les coupures de page sont affichées dans une fenêtre.
-ms.openlocfilehash: 474ee14d42c4abe1ea77cb384b5e6c67d6c4b894
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 36e4326dfcc387e2898076f5cb306519fdcc8654
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570056"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776948"
 ---
 # <a name="showpagebreaks-element-window_type-complextype-visio-xml"></a>Élément ShowPageBreaks (Window_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Spécifie si les coupures de page sont affichées dans une fenêtre.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio.  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio. |
    
 ### <a name="child-elements"></a>Éléments enfants
 

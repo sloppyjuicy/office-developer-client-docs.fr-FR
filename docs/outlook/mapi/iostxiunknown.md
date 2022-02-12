@@ -1,5 +1,5 @@
 ---
-title: IOSTX IUnknown
+title: IOSTX  IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9fd43e4a0e01e774231ddd250a5f20df175f6981
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9b91fd85f790b7afaca47d958a4433c3d0bff14f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556335"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778866"
 ---
 # <a name="iostx--iunknown"></a>IOSTX : IUnknown
 
@@ -36,18 +36,18 @@ Fournit des méthodes de synchronisation. Cette interface récupère les informa
 
 |||
 |:-----|:-----|
-|[GetLastError](iostx-getlasterror.md) <br/> |Obtient des informations étendues sur la dernière erreur.  <br/> |
-|[InitSync](iostx-initsync.md) <br/> |Informe le magasin local que la synchronisation est sur le point de démarrer.  <br/> |
-|[SyncBeg](iostx-syncbeg.md) <br/> |Prépare le magasin local pour la synchronisation dans un état particulier et récupère les informations nécessaires à répliquer.  <br/> |
-|[SyncEnd](iostx-syncend.md) <br/> |Met fin à la synchronisation dans l’état actuel et quitte cet état.  <br/> |
-|[SyncHdrBeg](iostx-synchdrbeg.md) <br/> |Démarre la synchronisation pour un en-tête de message.  <br/> |
-|[SyncHdrEnd](iostx-synchdrend.md) <br/> |Met fin à la synchronisation d’un en-tête de message.  <br/> |
-|[SetSyncResult](iostx-setsyncresult.md) <br/> |Définit le résultat de la synchronisation.  <br/> |
+|[GetLastError](iostx-getlasterror.md) <br/> |Obtient des informations étendues sur la dernière erreur. |
+|[InitSync](iostx-initsync.md) <br/> |Informe le magasin local que la synchronisation est sur le point de démarrer. |
+|[SyncBeg](iostx-syncbeg.md) <br/> |Prépare le magasin local pour la synchronisation dans un état particulier et récupère les informations nécessaires à répliquer. |
+|[SyncEnd](iostx-syncend.md) <br/> |Met fin à la synchronisation dans l’état actuel et quitte cet état. |
+|[SyncHdrBeg](iostx-synchdrbeg.md) <br/> |Démarre la synchronisation pour un en-tête de message. |
+|[SyncHdrEnd](iostx-synchdrend.md) <br/> |Met fin à la synchronisation d’un en-tête de message. |
+|[SetSyncResult](iostx-setsyncresult.md) <br/> |Définit le résultat de la synchronisation. |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Lorsqu’un client télécharge ou synchronise les dossiers et le contenu d’un dossier sur un magasin local, il déplace la boutique locale d’un état à un autre, comme décrit dans le diagramme de transition d’état dans À propos de la machine à états de [réplication.](about-the-replication-state-machine.md) Voici l’ordre des événements pour que le client déplace le magasin local d’un état à un autre :
+Lorsqu’un client télécharge ou synchronise les dossiers et le contenu d’un dossier sur un magasin local, il déplace la boutique locale d’un état à un autre, comme décrit dans le diagramme de transition d’état dans À propos de la machine à états de [réplication](about-the-replication-state-machine.md). Voici l’ordre des événements pour que le client déplace le magasin local d’un état à un autre :
   
 1. Le client appelle **IOSTX::InitSync** pour informer le magasin local que la réplication est sur le point de démarrer. 
     
@@ -57,7 +57,7 @@ Lorsqu’un client télécharge ou synchronise les dossiers et le contenu d’un
     
 4. Le client appelle **IOSTX::SyncEnd** pour mettre fin à la réplication, Outlook les informations nécessaires pour la réplication ultérieure. 
     
-En particulier, lors du téléchargement d’éléments de message, le client utilise **IOSTX::SyncHdrBeg** et **IOSTX::SyncHdrEnd** pour mettre à jour un élément de message complet avec l’en-tête du message dans la boutique locale : 
+En particulier, lors du téléchargement des éléments de message, le client utilise **IOSTX::SyncHdrBeg** et **IOSTX::SyncHdrEnd** pour mettre à jour un élément de message complet avec l’en-tête du message dans la boutique locale : 
   
 1. Sur **IOSTX::SyncHdrBeg**, le magasin local passe à l’état d’en-tête du message de téléchargement. Outlook fournit initialement au client l’en-tête de message actuel dans la boutique locale.
     

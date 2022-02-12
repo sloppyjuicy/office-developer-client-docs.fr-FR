@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: a30d5701-4b56-c44c-fb62-d9daaee3b86e
 description: Contient les cellules de formes ou de styles qui contrôlent la position de la tabulation et l'alignement.
-ms.openlocfilehash: 11b0adeb62471c71fe21c112d28d712ca3ab741c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3e70601d8f7dc7b9a3a2bfed8721b26cf5d3d76a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627596"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772654"
 ---
 # <a name="row-element-tabs-section-visio-xml"></a>Row, élément (Tabs Section) (Visio XML)
 
@@ -36,28 +36,28 @@ Contient les cellules de formes ou de styles qui contrôlent la position de la t
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contient les cellules de formes ou de styles qui contrôlent la position de la tabulation et l'alignement.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contient les cellules de formes ou de styles qui contrôlent la position de la tabulation et l'alignement. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-tabs-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Spécifie une propriété unique.  <br/> |
+|[Cell](cell-element-tabs-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Spécifie une propriété unique. |
    
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Del  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Spécifie si une ligne qui aurait été héritée d’une forme de maître a été supprimée.  <br/> |Valeurs du type xsd:boolean.  <br/> |
-|IX  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Spécifie l’identificateur à base un de la ligne. Il doit être non unique et supérieur aux autres identificateurs de la même section. L’attribut IX est utilisé uniquement pour les sections Character, Connection, Field, FillGradient, Geometry, Layer, LineGradient, Paragraph, Reviewer, Scratch et Tabs. Une ligne ne peut avoir qu’un des attributs IX ou N.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|LocalName  <br/> |xsd:string  <br/> |facultatif  <br/> |Spécifie le nom unique dépendant de la langue de la ligne.  <br/> |Valeurs du type xsd:string.  <br/> |
-|N  <br/> |xsd:string  <br/> |facultatif  <br/> |Spécifie le nom unique indépendant de la langue de la ligne. L’attribut N est utilisé uniquement pour les sections User, Property, Actions, Control, Connection, Hyperlink et ActionTag. Une ligne ne peut avoir qu’un des attributs IX ou N.  <br/> |Valeurs du type xsd:string.  <br/> |
-|T  <br/> |xsd:string  <br/> |facultatif  <br/> |Spécifie le type du chemin géométrique représenté par la ligne et utilisé dans la visualisation de géométrie. L’attribut T est utilisé uniquement pour la section Geometry.  <br/> |Valeurs du type xsd:string.  <br/> |
+|Del  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Spécifie si une ligne qui sinon serait héritée d’une forme de forme de maître a été supprimée. |Valeurs du type xsd:boolean. |
+|IX  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Spécifie l’identificateur à base un de la ligne. Il doit être unique et supérieur aux autres identificateurs de la même section. L’attribut IX est utilisé uniquement pour les sections Character, Connection, Field, FillGradient, Geometry, Layer, LineGradient, Paragraph, Reviewer, Scratch et Tabs. Une ligne ne peut avoir qu’un des attributs IX ou N. |Valeurs du type xsd:unsignedInt. |
+|LocalName  <br/> |xsd:string  <br/> |facultatif  <br/> |Spécifie le nom unique dépendant de la langue de la ligne. |Valeurs du type xsd:string. |
+|N  <br/> |xsd:string  <br/> |facultatif  <br/> |Spécifie le nom unique indépendant de la langue de la ligne. L’attribut N est utilisé uniquement pour les sections User, Property, Actions, Control, Connection, Hyperlink et ActionTag. Une ligne ne peut avoir qu’un des attributs IX ou N. |Valeurs du type xsd:string. |
+|T  <br/> |xsd:string  <br/> |facultatif  <br/> |Spécifie le type du chemin géométrique représenté par la ligne et utilisé dans la visualisation de géométrie. L’attribut T est utilisé uniquement pour la section Geometry. |Valeurs du type xsd:string. |
    
 

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: c88f087e-4ff4-0837-186d-b6e761468a4d
 description: Enregistre un client auprès du gestionnaire de comptes pour les notifications concernant tous les comptes.
-ms.openlocfilehash: e17bd2b2f07761b8e381913a1de6113dd8133cad
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8697c322e5885385b0be32ddd81cf5599a3b5180
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625664"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776640"
 ---
 # <a name="iolkaccountmanageradvise"></a>IOlkAccountManager::Advise
 
@@ -43,9 +43,9 @@ _pdwCookie_
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |L'appel a réussi.  <br/> |
-|E_INVALIDARG  <br/> |Un argument non valide a été fourni.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.  <br/> |
+|S_OK  <br/> |L'appel a réussi. |
+|E_INVALIDARG  <br/> |Un argument non valide a été fourni. |
+|E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation. |
    
 ## <a name="see-also"></a>Voir aussi
 

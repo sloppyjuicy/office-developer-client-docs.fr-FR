@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 2f8e855f-064c-d286-560f-9f89e7fce7b7
-ms.openlocfilehash: 87c9967dcf5245e6d5fed5f716b073f774ba78a4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3d2a5d6990143bcbec3cf9b1c02e800e2385dd17
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598142"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778208"
 ---
 # <a name="section_type-complextype-visio-xml"></a>Section_Type complexType (Visio XML)
 
@@ -64,7 +64,7 @@ ms.locfileid: "59598142"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -78,8 +78,8 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Del  <br/> |xsd:boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd:boolean.  <br/> |
-|IX  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|N  <br/> |xsd:string  <br/> |obligatoire  <br/> ||Valeurs du type xsd:string.  <br/> |
+|Del  <br/> |xsd:boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd:boolean. |
+|IX  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt. |
+|N  <br/> |xsd:string  <br/> |obligatoire  <br/> ||Valeurs du type xsd:string. |
    
 

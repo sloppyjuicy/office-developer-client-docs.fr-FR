@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 943636a6-e135-a626-7924-11e238156548
 description: Permet d’accéder à l’adresse spécifiée, qui peut être un fichier, un unc ou un chemin d’URL.
-ms.openlocfilehash: 9443f30143a3beb19e31519d0dbe0845ddfd5451
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a6a6e2f80483ec40644391f45e7a91a0c65fbff4
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554704"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775709"
 ---
 # <a name="hyperlink-function"></a>Fonction HYPERLINK
 
@@ -28,11 +28,11 @@ HYPERLINK( » ** *address* ** « [, » ** *subaddress* ** « , » ** *extra
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _adresse_ <br/> |Obligatoire  <br/> |**String** <br/> |Chemin d’accès complet ou relatif.  <br/> |
-| _sous-adresse_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Spécifie un emplacement dans address auquel se lier. Par exemple, si address est un fichier Microsoft Visio, subaddress peut être un nom de page. S’il s’agit d’un fichier Microsoft Excel, subaddress peut être une feuille de calcul ou une plage d’une feuille de calcul. Dans le cas d’une URL permettant d’accéder à une page HTML, subaddress peut être un point d’ancrage.  <br/> |
-| _extrainfo_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Transmet les informations utilisées pour la résolution de l’URL, comme les coordonnées d’une image interactive.  <br/> |
-| _window_ <br/> |Facultatif  <br/> |**Boolean** <br/> |Indique si le lien hypertexte s’ouvre dans une nouvelle fenêtre. La valeur par défaut est FALSE.  <br/> |
-| _frame_ <br/> |Facultatif  <br/> |**Chaîne** <br/> | Spécifie le nom d’un cadre à cibler lorsque Visio est ouvert comme document ActiveX dans un navigateur ActiveX, tel que Microsoft Internet Explorer 3.0 ou ultérieur. Par défaut, cette chaîne est vide.  <br/> |
+| _adresse_ <br/> |Requis  <br/> |**String** <br/> |Chemin d’accès complet ou relatif. |
+| _sous-adresse_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Spécifie un emplacement dans address auquel se lier. Par exemple, si address est un fichier Microsoft Visio, subaddress peut être un nom de page. S’il s’agit d’un fichier Microsoft Excel, subaddress peut être une feuille de calcul ou une plage d’une feuille de calcul. Dans le cas d’une URL permettant d’accéder à une page HTML, subaddress peut être un point d’ancrage. |
+| _extrainfo_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Transmet les informations utilisées pour la résolution de l’URL, comme les coordonnées d’une image interactive. |
+| _window_ <br/> |Facultatif  <br/> |**Boolean** <br/> |Indique si le lien hypertexte s’ouvre dans une nouvelle fenêtre. La valeur par défaut est FALSE. |
+| _frame_ <br/> |Facultatif  <br/> |**Chaîne** <br/> | Spécifie le nom d’un cadre à cibler lorsque Visio est ouvert comme document ActiveX dans un navigateur ActiveX, tel que Microsoft Internet Explorer 3.0 ou ultérieur. Par défaut, cette chaîne est vide. |
    
 ## <a name="remarks"></a>Remarques
 

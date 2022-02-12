@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c1b24e45-6f08-686b-b53d-e85fb9087a50
 description: Détermine si d'autres formes peuvent être alignées sur les formes attribuées au calque. Les formes associées au calque peuvent être alignées sur d'autres formes, mais les autres formes ne peuvent pas être alignées sur elles.
-ms.openlocfilehash: 8292e6e6f04363aae31161b9eaa431cb3255c30f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7bef592411efd89905b44a917bccd9b050ced531
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570035"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776927"
 ---
 # <a name="snap-cell-layers-section"></a>Snap, cellule (section Layers)
 
@@ -22,8 +22,8 @@ Détermine si d'autres formes peuvent être alignées sur les formes attribuées
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Les autres formes peuvent s'aligner sur les formes du calque.  <br/> |
-|FALSE  <br/> |Les autres formes ne peuvent pas s'aligner sur les formes du calque.  <br/> |
+|TRUE  <br/> |Les autres formes peuvent s'aligner sur les formes du calque. |
+|FALSE  <br/> |Les autres formes ne peuvent pas s'aligner sur les formes du calque. |
    
 ## <a name="remarks"></a>Remarques
 
@@ -33,14 +33,14 @@ Pour obtenir une référence à la cellule Snap par un nom dans une autre formul
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Layers.Snap[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Layers.Snap[ *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Snap par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionLayer** <br/> |
-|Index de la ligne :  <br/> |**visRowLayer**  +   *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowLayer** +   *i* où *i* = 0, 1, 2... |
 |Index de la cellule :  <br/> |**visLayerSnap** <br/> |
    
 

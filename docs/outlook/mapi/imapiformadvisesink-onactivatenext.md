@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: db621dfd-c6ad-42d2-8089-db40a63cab36
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 31a31bfc5dbe336b42260f0653d71dcd19281546
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 5509444131f452cb0b2753efcb66c3245dd20417
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462058"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776590"
 ---
 # <a name="imapiformadvisesinkonactivatenext"></a>IMAPIFormAdviseSink::OnActivateNext
 
@@ -90,7 +90,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI utilise la méthode **IMAPIFormAdviseSink::OnActivateNext** pour implémenter la méthode [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) .  <br/> |
+|MAPIFormFunctions.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI utilise la méthode **IMAPIFormAdviseSink::OnActivateNext** pour implémenter la méthode [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) . |
    
 ## <a name="see-also"></a>Voir aussi
 

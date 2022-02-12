@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 8b1b3904-6635-3fd1-31a9-ff32c19394af
 description: Détermine le degré de transparence de la couleur de premier plan dans le motif de remplissage de la forme.
-ms.openlocfilehash: 8db4d8a2cc178cdcac7f1e83a945b6dbc168bba2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 347d978aca0b48be8042ed9369931f01d9945555
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598702"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775863"
 ---
 # <a name="fillforegndtrans-cell-fill-format-section"></a>FillForegndTrans, cellule (section Fill Format)
 
@@ -22,7 +22,7 @@ Détermine le degré de transparence de la couleur de premier plan dans le motif
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0 - 100  <br/> |Représente le pourcentage de transparence. La valeur par défaut est 0 % (entièrement opaque).  <br/> |
+|0 - 100  <br/> |Représente le pourcentage de transparence. La valeur par défaut est 0 % (entièrement opaque). |
    
 ## <a name="remarks"></a>Remarques
 

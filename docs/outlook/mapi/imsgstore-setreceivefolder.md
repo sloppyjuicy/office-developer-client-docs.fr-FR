@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 469f0412-1343-47ce-b6e8-e0d5e56c29bb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3745b8c9b779f40e9356efeec35a78025193965c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d1211ee2e096e59b92d4e05c22a7abc29ccdc8f9
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630515"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777396"
 ---
 # <a name="imsgstoresetreceivefolder"></a>IMsgStore::SetReceiveFolder
 
@@ -52,7 +52,7 @@ MAPI_UNICODE
     
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -66,9 +66,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMsgStore::SetReceiveFolder** définit ou modifie le dossier de réception d’une classe de message particulière. Avec **SetReceiveFolder,** un client peut, à l’aide d’appels successifs, spécifier un dossier de réception différent pour chaque classe de message définie ou spécifier que les messages entrants pour plusieurs classes de messages sont tous placés dans le même dossier. Par exemple, un client peut avoir sa propre classe de messages arrive dans son propre dossier. Une application de télécopie peut désigner un dossier dans lequel le fournisseur de magasins place les télécopies entrantes et un autre dossier dans lequel il place les télécopies sortantes.
+La **méthode IMsgStore::SetReceiveFolder** définit ou modifie le dossier de réception d’une classe de message particulière. Avec **SetReceiveFolder**, un client peut, à l’aide d’appels successifs, spécifier un dossier de réception différent pour chaque classe de message définie ou spécifier que les messages entrants pour plusieurs classes de messages sont tous placés dans le même dossier. Par exemple, un client peut avoir sa propre classe de messages arrive dans son propre dossier. Une application de télécopie peut désigner un dossier dans lequel le fournisseur de magasins place les télécopies entrantes et un autre dossier dans lequel le fournisseur place les télécopies sortantes.
   
-Si une erreur se produit pendant l’appel de **SetReceiveFolder,** le paramètre du dossier de réception reste inchangé. 
+Si une erreur se produit pendant l’appel de **SetReceiveFolder**, le paramètre du dossier de réception reste inchangé. 
   
 Si **SetReceiveFolder** modifie le paramètre du dossier de réception avec  _lpEntryID_ définie sur NULL, indiquant que le dossier de réception par défaut doit être définie, **SetReceiveFolder** renvoie S_OK même s’il n’y avait aucun paramètre existant pour la classe de message indiquée. 
   
@@ -78,7 +78,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnSetReceiveFolder  <br/> |MFCMAPI utilise la méthode **IMsgStore::SetReceiveFolder** pour définir un dossier comme dossier de réception pour une classe de message particulière.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnSetReceiveFolder  <br/> |MFCMAPI utilise la méthode **IMsgStore::SetReceiveFolder** pour définir un dossier comme dossier de réception pour une classe de message particulière. |
    
 ## <a name="see-also"></a>Voir aussi
 

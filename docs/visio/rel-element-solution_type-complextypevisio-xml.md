@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 8438fe4b-f5f7-d4e4-58b7-7ebdc1da197a
 description: Spécifie une relation à un élément avec le XML de solution associé à cette solution.
-ms.openlocfilehash: 836a508442dda28c9628e6cbdc773c018ca5f579
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e9142bcafd3365e7cf9d105c744c389bb6be0200
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573550"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62779453"
 ---
 # <a name="rel-element-solution_type-complextype-visio-xml"></a>Élément Rel (Solution_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Spécifie une relation à un élément avec le XML de solution associé à cette
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Spécifie une instance de solution XML stockée dans le dessin.  <br/> |
+|[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Spécifie une instance de solution XML stockée dans le dessin. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,12 +52,12 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|r:id  <br/> |xsd:string  <br/> Voir les remarques.  <br/> |obligatoire  <br/> |Spécifie une relation à un élément.  <br/> |« rId# »  <br/> Voir les remarques.  <br/> |
+|r:id  <br/> |xsd:string  <br/> Voir les remarques. |obligatoire  <br/> |Spécifie une relation à un élément. |« rId# »  <br/> Voir les remarques. |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de **l’attribut r:id** doit être **ST_RelationshipID** type. Le ST_RelationshipID type est une chaîne qui doit être au format « rId# **»** où le caractère final doit être un nombre. Le nombre doit être unique parmi tous les éléments frères de **l’élément Rel.** 
+La valeur de **l’attribut r:id** doit **être ST_RelationshipID type** . Le **ST_RelationshipID** type est une chaîne qui doit être au format « rId# » où le caractère final doit être un nombre. Le nombre doit être unique parmi tous les éléments frères de **l’élément Rel** . 
   
-Pour plus d’informations sur le type ST_RelationshipID, voir la spécification [ISO/IEC 29500 Partie 1.](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750)
+Pour plus d’informations sur le type ST_RelationshipID, voir la spécification [ISO/IEC 29500 Partie 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
   
 

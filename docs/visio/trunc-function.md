@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 62f074ef-5bf8-df1e-d826-fc1027a36501
 description: Renvoie un nombre tronqué au nombre de chiffres spécifié.
-ms.openlocfilehash: d7a682fe413248af6da0eac6895f4e0a0a6de800
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ec823efa40f8baef0000c4b719c76198dd402b3a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603248"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777977"
 ---
 # <a name="trunc-function"></a>Fonction TRUNC
 
@@ -28,8 +28,8 @@ TRUNC(** *number* **, ** *numberofdigits* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Nombre à tronquer.  <br/> |
-| _numberofdigits_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Nombre de chiffres à _tronqué._  <br/> |
+| _number_ <br/> |Requis  <br/> |**Numérique** <br/> |Nombre à tronquer. |
+| _numberofdigits_ <br/> |Requis  <br/> |**Numérique** <br/> |Nombre de chiffres à _tronqué._ |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -37,7 +37,7 @@ Numérique.
   
 ## <a name="remarks"></a>Remarques
 
-Si  _numberofdigits_ est supérieur à  _0,_ le nombre est tronqué en  _nombreofdigits_ à droite de la décimale. Si  _le nombreofdigits_ est 0,  _le_ nombre est tronqué sur un nombre total. Si _numberofdigits_ est inférieur à  0, le nombre est tronqué en _nombreofdigits_ à gauche de la décimale. 
+Si  _numberofdigits_ est supérieur à  _0, le_ nombre est tronqué en  _nombreofdigits_ à droite de la décimale. Si  _le nombreofdigits_ est 0,  _le_ nombre est tronqué à un nombre total. Si  _numberofdigits_ est inférieur à  _0, le_ nombre est tronqué en  _nombreofdigits_ à gauche de la décimale. 
   
 ## <a name="example-1"></a>Exemple 1
 

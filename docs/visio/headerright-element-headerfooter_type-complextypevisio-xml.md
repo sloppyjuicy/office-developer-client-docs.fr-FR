@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 16c5933f-1fa1-a180-d821-099fd6bf6e13
 description: Contient la chaîne de texte qui apparaît dans la partie droite de l’en-tête d’un document.
-ms.openlocfilehash: 6f3843a54bf50c358a63c8fc9c3de73b5922c292
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 18e45e0e475a854f23c1883a8123361e682b22e0
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618874"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775814"
 ---
 # <a name="headerright-element-headerfooter_type-complextype-visio-xml"></a>Élément HeaderRight (HeaderFooter_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Contient la chaîne de texte qui apparaît dans la partie droite de l’en-tête
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de groupe d’un document.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de groupe d’un document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 

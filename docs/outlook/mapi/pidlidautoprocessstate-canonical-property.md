@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9e724af6-5b56-4eb3-a94c-1015ebce197c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 407a3ef2c40f190714ce3577a39242d0f7664d7e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 79b22c642007b7ea27792231b3b85109b47f79ba
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567038"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778768"
 ---
 # <a name="pidlidautoprocessstate-canonical-property"></a>Propriété canonique PidLidAutoProcessState
 
@@ -41,9 +41,9 @@ La propriété peut être absente, auquel cas la valeur par défaut de « 0x0000
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |Ne pas traiter automatiquement le message.  <br/> |
-|0x00000001  <br/> |Traiter le message automatiquement ou lorsque le message est ouvert.  <br/> |
-|0x00000002  <br/> |Traiter le message uniquement lorsque le message est ouvert.  <br/> |
+|0x00000000  <br/> |Ne pas traiter automatiquement le message. |
+|0x00000001  <br/> |Traiter le message automatiquement ou lorsque le message est ouvert. |
+|0x00000002  <br/> |Traiter le message uniquement lorsque le message est ouvert. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

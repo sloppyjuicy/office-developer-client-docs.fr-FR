@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 74cefaa2-3ac4-4a65-af0b-2ee4d9644a93
 description: Renvoie la partie droite d’une chaîne de caractères avec le nombre de caractères spécifié.
-ms.openlocfilehash: 00f3377e8da5843ceb33404514566feeb982785d
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 07a92a00b0370f4715a1ea8ae4fd593372030c7a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180599"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776815"
 ---
 # <a name="right-function-access-custom-web-app"></a>Right Function (Access custom web app)
 
@@ -29,5 +29,5 @@ La **fonction Right** contient les arguments suivants.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Expression de texte.  <br/> |
-| *Length*  <br/> |Est un nombre complet positif qui spécifie le nombre de caractères renvoyés par *TextExpression.*  <br/> |
+| *TextExpression*  <br/> |Expression de texte. |
+| *Length*  <br/> |Est un nombre complet positif qui spécifie le nombre de caractères renvoyés par *TextExpression* . |

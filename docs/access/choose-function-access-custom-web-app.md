@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 70c1ac24-a28f-4401-91d3-61129578bebd
 description: Renvoie l’élément à l’index spécifié à partir d’une liste de valeurs.
-ms.openlocfilehash: b438bf8436e1d00c8150ae89f5be1ffe64d7f9b3
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: f2a69844a9867044b20a7e971f74dd9cf34fdd26
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179423"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777886"
 ---
 # <a name="choose-function-access-custom-web-app"></a>Choose function (Access custom web app)
 
@@ -28,8 +28,8 @@ La **fonction Choose** contient les arguments suivants.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *IndexNumber*  <br/> |Expression d’un nombre integer qui représente un index de base 1 dans la liste des éléments qui le suivent.  <br/> |
-| *Valeur*  <br/> |Liste des valeurs de n’importe quel type de données.  <br/> |
+| *IndexNumber*  <br/> |Expression d’un nombre integer qui représente un index de base 1 dans la liste des éléments qui le suivent. |
+| *Valeur*  <br/> |Liste des valeurs de n’importe quel type de données. |
 
 ## <a name="remarks"></a>Remarques
 

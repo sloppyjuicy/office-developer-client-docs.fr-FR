@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: Cet article montre comment configurer une application cliente de message instantanée (MI) afin qu'elle intègre des fonctionnalités sociales dans Office 2013 et version ultérieure, notamment l'affichage de présence et l'envoi de messages instantanés à partir d'une carte de visite.
 ms.localizationpriority: high
-ms.openlocfilehash: 8898d3c685de01bf54313c3ad781f519b7f6bfe6
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 0b7578ac603f450c3bc262fe73296a195fc41f8e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180424"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776150"
 ---
 # <a name="integrating-im-applications-with-office"></a>Intégration des applications de messagerie instantanée à Office
 
@@ -186,10 +186,10 @@ Utilisez le tableau 1 pour identifier les clés, les entrées et les valeurs qu
 
 |**Clé**|**Entrée**|**Type**|**Valeur**|**Exemple**|
 |:-----|:-----|:-----|:-----|:-----|
-|HKEY_LOCAL_MACHINE\Software\IM Internet\\<Nom de l'application\>  <br/> |FriendlyName  <br/> |REG_SZ  <br/> |Nom de l’application cliente de messagerie instantanée tierce.  <br/> |Litware IM 2012  <br/> |
-||ProcessName  <br/> |REG_SZ  <br/> |Nom du processus de l’application cliente de messagerie instantanée tierce.  <br/> |litware.exe  <br/> |
-||GUID  <br/> |REG_SZ  <br/> |ID de classe (CLSID) pour la classe racine pouvant être co-créée dans l'application de messagerie instantanée (il s'agit de la classe qui implémente l'interface **IUCOfficeIntegration**).  <br/> |Un GUID  <br/> |
-|HKEY_CURRENT_USER\Software\IM Providers  <br/> |DefaultIMApp  <br/> |REG_SZ  <br/> |Nom de l’application cliente de messagerie instantanée. Il doit s’agir du même nom que celui de la clé de Registre de niveau supérieur (ruche) HKEY_LOCAL_MACHINE.  <br/> |Litware  <br/> |
+|HKEY_LOCAL_MACHINE\Software\IM Internet\\<Nom de l'application\>  <br/> |FriendlyName  <br/> |REG_SZ  <br/> |Nom de l’application cliente de messagerie instantanée tierce. |Litware IM 2012  <br/> |
+||ProcessName  <br/> |REG_SZ  <br/> |Nom du processus de l’application cliente de messagerie instantanée tierce. |litware.exe  <br/> |
+||GUID  <br/> |REG_SZ  <br/> |ID de classe (CLSID) pour la classe racine pouvant être co-créée dans l'application de messagerie instantanée (il s'agit de la classe qui implémente l'interface **IUCOfficeIntegration**). |Un GUID  <br/> |
+|HKEY_CURRENT_USER\Software\IM Providers  <br/> |DefaultIMApp  <br/> |REG_SZ  <br/> |Nom de l’application cliente de messagerie instantanée. Il doit s’agir du même nom que celui de la clé de Registre de niveau supérieur (ruche) HKEY_LOCAL_MACHINE. |Litware  <br/> |
 |HKEY_CURRENT_USER\Software\IM Providers\\<Nom de l'application\>  <br/> |UpAndRunning  <br/> |REG_DWORD  <br/> | Nombre entier compris entre 0 et 2.  <br/>  0 : n’est pas en cours d’exécution  <br/>  1 : en cours de démarrage  <br/>  2 : en cours d’exécution  <br/> <br/>**Remarque**: la clé de Registre du nom de l’application doit être identique à la valeur de l’entrée DefaultIMApp.           ||
    
 ## <a name="implementing-the-required-interfaces-for-integration-with-office"></a>Implémentation des interfaces requises pour l’intégration avec Office
@@ -221,10 +221,10 @@ Le tableau 2 indique les membres qui doivent implémentés dans la classe qui h�
 
 |**Interface**|**Membre**|**Description**|
 |:-----|:-----|:-----|
-|**IUCOfficeIntegration** <br/> |Méthode **GetAuthenticationInfo**  <br/> |Obtient la chaîne d’informations d’authentification.  <br/> |
-||Méthode **GetInterface**  <br/> |Obtient l’interface d’une version spécifique.  <br/> |
-||Méthode **GetSupportedFeatures**  <br/> |Obtient les fonctionnalités d’intégration Office prises en charge.  <br/> |
-|**_IUCOfficeIntegrationEvents** <br/> |Événement **OnShuttingDown**  <br/> |Événement déclenché lorsque l’application cliente de messagerie instantanée est arrêtée.  <br/> |
+|**IUCOfficeIntegration** <br/> |Méthode **GetAuthenticationInfo**  <br/> |Obtient la chaîne d’informations d’authentification. |
+||Méthode **GetInterface**  <br/> |Obtient l’interface d’une version spécifique. |
+||Méthode **GetSupportedFeatures**  <br/> |Obtient les fonctionnalités d’intégration Office prises en charge. |
+|**_IUCOfficeIntegrationEvents** <br/> |Événement **OnShuttingDown**  <br/> |Événement déclenché lorsque l’application cliente de messagerie instantanée est arrêtée. |
    
 Utilisez le code suivant pour définir une classe qui hérite des interfaces **IUCOfficeIntegration** et **_IUCOfficeIntegration** au sein d'une application cliente de messagerie instantanée. 
   
@@ -344,13 +344,13 @@ Le tableau 3 affiche les membres qui doivent être implémentés dans la classe
 
 |**Interface**|**Membre**|**Description**|
 |:-----|:-----|:-----|
-|**ILyncClient** <br/> |Propriété **ContactManager**  <br/> |Obtient le Gestionnaire de groupe de contacts.  <br/> |
-||Propriété **ConversationManager**  <br/> |Obtient le Gestionnaire de conversations.  <br/> |
-||Propriété **Self**  <br/> |Obtient l'objet **Self**.  <br/> |
-||Méthode **SignIn**  <br/> |Démarre le processus de connexion de l’application cliente de messagerie instantanée avec une disponibilité spécifique.  <br/> |
-||Propriété **State**  <br/> |Obtient l’état actuel de la plateforme.  <br/> |
-||Propriété **Uri**  <br/> |Obtient l’URI de l’application cliente de messagerie instantanée.  <br/> |
-|**_ILyncClientEvents** <br/> |Événement **OnStateChanged**  <br/> |Déclenché lorsque l'état de l'application cliente de messagerie instantanée est modifié. Vous devez gérer cet événement et obtenir la propriété **eventData.NewState**. L'événement est déclenché pour tous les processus liés à l'instance d'une application cliente de messagerie instantanée lorsqu'un sous-système de l'application entraîne la modification de l'état.  <br/> |
+|**ILyncClient** <br/> |Propriété **ContactManager**  <br/> |Obtient le Gestionnaire de groupe de contacts. |
+||Propriété **ConversationManager**  <br/> |Obtient le Gestionnaire de conversations. |
+||Propriété **Self**  <br/> |Obtient l'objet **Self**. |
+||Méthode **SignIn**  <br/> |Démarre le processus de connexion de l’application cliente de messagerie instantanée avec une disponibilité spécifique. |
+||Propriété **State**  <br/> |Obtient l’état actuel de la plateforme. |
+||Propriété **Uri**  <br/> |Obtient l’URI de l’application cliente de messagerie instantanée. |
+|**_ILyncClientEvents** <br/> |Événement **OnStateChanged**  <br/> |Déclenché lorsque l'état de l'application cliente de messagerie instantanée est modifié. Vous devez gérer cet événement et obtenir la propriété **eventData.NewState**. L'événement est déclenché pour tous les processus liés à l'instance d'une application cliente de messagerie instantanée lorsqu'un sous-système de l'application entraîne la modification de l'état.   |
    
 Pendant le processus d'initialisation, Office accède à la propriété **ILyncClient.State**. Cette propriété doit renvoyer une valeur à partir de l'énumération [UCCollaborationLib.ClientState](https://msdn.microsoft.com/library/UCCollaborationLib.ClientState). 
   
@@ -671,7 +671,7 @@ Le tableau 4 indique les membres qui doivent être implémentés dans la classe 
 
 |**Membre**|**Description**|
 |:-----|:-----|
-|Méthode **StartConversation**  <br/> |Démarre une conversation à l'aide de la modalité de conversation spécifiée. Une instance de **IConversationWindow** est renvoyée.  <br/> |
+|Méthode **StartConversation**  <br/> |Démarre une conversation à l'aide de la modalité de conversation spécifiée. Une instance de **IConversationWindow** est renvoyée.   |
    
 ## <a name="implementing-contact-presence-integration"></a>Implémentation de l’intégration de la présence du contact
 <a name="off15_IMIntegration_ImplementIMFeatures"> </a>
@@ -708,11 +708,11 @@ Le tableau 5 indique les membres qui doivent être implémentés dans la classe 
 
 |**Membre**|**Description**|
 |:-----|:-----|
-|Méthode **CanStart**  <br/> |Renvoie **true** si un type de modalité donné peut être démarré sur le contact.  <br/> |
-|Méthode **GetContactInformation**  <br/> |Obtient un élément de présence à partir d’un contact de publication.  <br/> |
-|Méthode **BatchGetContactInformation**  <br/> |Obtient plusieurs éléments de présence à partir d’un contact de publication.  <br/> |
-|Propriété **Settings**  <br/> |Obtient une collection de propriétés de contact.  <br/> |
-|Propriété **CustomGroups**  <br/> |Obtient une collection de groupes dont le contact est membre.  <br/> |
+|Méthode **CanStart**  <br/> |Renvoie **true** si un type de modalité donné peut être démarré sur le contact. |
+|Méthode **GetContactInformation**  <br/> |Obtient un élément de présence à partir d’un contact de publication. |
+|Méthode **BatchGetContactInformation**  <br/> |Obtient plusieurs éléments de présence à partir d’un contact de publication. |
+|Propriété **Settings**  <br/> |Obtient une collection de propriétés de contact. |
+|Propriété **CustomGroups**  <br/> |Obtient une collection de groupes dont le contact est membre. |
    
 Pendant le processus d'initialisation, l'application Office appelle la méthode **IContact.CanStart** pour déterminer les fonctionnalités de messagerie instantanée de l'utilisateur local. La méthode **CanStart** récupère un indicateur à partir de l'énumération [UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) en tant qu'argument pour le paramètre  _ _modalityTypes_. Si l'utilisateur peut participer à la modalité demandée (autrement dit, si l'utilisateur est capable d'utiliser la messagerie instantanée, la messagerie audio et vidéo ou le partage d'application), la méthode **CanStart** renvoie **true**.
   
@@ -833,7 +833,7 @@ Le tableau 6 présente les membres qui doivent être implémentés dans la class
 
 |**Membre**|**Description**|
 |:-----|:-----|
-|Propriété **Contact**  <br/> |Obtient l'objet **IContact** associé à l'utilisateur local.  <br/> |
+|Propriété **Contact**  <br/> |Obtient l'objet **IContact** associé à l'utilisateur local. |
    
 Les propriétés de présence, de modalités disponibles, d'appartenance au groupe et de type de contact de l'utilisateur local sont exposées via la propriété **ISelf.Contact** (qui renvoie un objet **IContact**). Pendant le processus d'initialisation, l'application Office accède à la propriété **ISelf.Contact** pour obtenir une référence aux informations de contact de l'utilisateur local. 
   
@@ -880,12 +880,12 @@ Le tableau 7 affiche les membres qui doivent être implémentés dans la classe 
 
 |**Interface**|**Membre**|**Description**|
 |:-----|:-----|:-----|
-|**IContactManager** <br/> |Méthode **GetContactByUri**  <br/> |Recherche ou crée une instance de contact à l’aide de l’URI du contact.  <br/> |
-||Méthode **CreateSubscription**  <br/> |Crée un objet **ISubscription** qui peut être utilisé pour le traitement par lots des abonnements ou des requêtes.  <br/> |
-||Méthode **Lookup**  <br/> |Recherche un groupe de contacts ou de distribution.  <br/> |
-|**_IContactManagerEvents** <br/> |Événement **OnGroupAdded**  <br/> |Déclenché lorsqu'un groupe est ajouté à une collection de groupes. La collection de groupes mise à jour peut être obtenue à partir de la propriété **IContactManager.Groups**.  <br/> |
-||Événement **OnGroupRemoved**  <br/> |Déclenché lorsqu'un groupe est supprimé d'une collection de groupes. La collection de groupes mise à jour peut être obtenue à partir de la propriété **IContactManager.Groups**.  <br/> |
-||Événement **OnSearchProviderStateChanged**  <br/> |Déclenché lorsque le statut d’un fournisseur de recherche change.  <br/> |
+|**IContactManager** <br/> |Méthode **GetContactByUri**  <br/> |Recherche ou crée une instance de contact à l’aide de l’URI du contact. |
+||Méthode **CreateSubscription**  <br/> |Crée un objet **ISubscription** qui peut être utilisé pour le traitement par lots des abonnements ou des requêtes. |
+||Méthode **Lookup**  <br/> |Recherche un groupe de contacts ou de distribution. |
+|**_IContactManagerEvents** <br/> |Événement **OnGroupAdded**  <br/> |Déclenché lorsqu'un groupe est ajouté à une collection de groupes. La collection de groupes mise à jour peut être obtenue à partir de la propriété **IContactManager.Groups**.   |
+||Événement **OnGroupRemoved**  <br/> |Déclenché lorsqu'un groupe est supprimé d'une collection de groupes. La collection de groupes mise à jour peut être obtenue à partir de la propriété **IContactManager.Groups**.   |
+||Événement **OnSearchProviderStateChanged**  <br/> |Déclenché lorsque le statut d’un fournisseur de recherche change. |
    
 Office appelle **IContactManager.GetContactByUri** pour obtenir les informations de présence d'un contact à l'aide de son adresse SIP. Lorsqu'un contact est configuré pour une adresse SIP dans Active Directory, Office détermine cette adresse pour un contact et appelle **GetContactByUri**, transmettant l'adresse SIP du contact vers le paramètre  _ _contactUri_. 
   
@@ -947,8 +947,8 @@ Le tableau 9 affiche les membres qui doivent être implémentés dans les classe
 |**Interface**|**Membre**|**Description**|
 |:-----|:-----|:-----|
 |**IGroupCollection** <br/> |Propriété **Count**  <br/> |Renvoie le nombre d'objets **IGroup** de la collection.  <br/> |
-||Propriété **Item**  <br/> |Renvoie l'objet **IGroup** à la position d'index de la collection.  <br/> |
-|**IGroup** <br/> |Propriété **Id**  <br/> |Renvoie l’ID du groupe.  <br/> |
+||Propriété **Item**  <br/> |Renvoie l'objet **IGroup** à la position d'index de la collection. |
+|**IGroup** <br/> |Propriété **Id**  <br/> |Renvoie l’ID du groupe. |
    
 Lorsque l'application Office obtient les informations relatives à l'utilisateur local, elle accède à l'appartenance aux groupes du contact (utilisateur local) en appelant la propriété **IContact.CustomGroups**, qui renvoie un objet **IGroupCollection**. Le **IGroupCollection** doit contenir un tableau (ou **List**) des objets **IGroup**. La classe qui dérive de **IGroupCollection** doit exposer une propriété **Count**, qui renvoie le nombre d'éléments de la collection, ainsi qu'une méthode d'indexation, **this(int)**, qui renvoie un objet **IGroup** à partir de la collection. 
   
@@ -968,8 +968,8 @@ Le tableau 10 indique les membres qui doivent être implémentés dans les class
 
 |**Membre**|**Description**|
 |:-----|:-----|
-|Méthode **AddContact**  <br/> |Ajoute un contact à l’objet d’abonnement.  <br/> |
-|Méthode **Subscribe**  <br/> |Permet à l’application cliente de messagerie instantanée de suivre la présence d’un contact.  <br/> |
+|Méthode **AddContact**  <br/> |Ajoute un contact à l’objet d’abonnement. |
+|Méthode **Subscribe**  <br/> |Permet à l’application cliente de messagerie instantanée de suivre la présence d’un contact. |
    
 L'interface **IContactSubscription** doit contenir une référence pointant vers tous les objets **IContact** qu'elle surveille, à l'aide d'un tableau ou d'une **List**. La méthode **IContactSubscription.AddContact** ajoute un objet **IContact** pour la structure de données sous-jacente de l'objet **IContactSubscription**, ce qui ajoute un nouveau contact dont les changements de présence doivent être suivis. 
   
@@ -1001,9 +1001,9 @@ Le tableau 11 indique les membres qui doivent être implémentés dans les class
 
 |**Membre**|**Description**|
 |:-----|:-----|
-|Propriété **DisplayName**  <br/> |Obtient la chaîne d’affichage.  <br/> |
+|Propriété **DisplayName**  <br/> |Obtient la chaîne d’affichage. |
 |Propriété **Type**  <br/> |Obtient le type de point de terminaison du contact.  <br/> |
-|Propriété **Uri**  <br/> |Obtient l’URI du contact.  <br/> |
+|Propriété **Uri**  <br/> |Obtient l’URI du contact. |
    
 ### <a name="ilocalestring-interface"></a>Interface ILocaleString
 <a name="off15_IMIntegration_ImplementRequired_ILocaleString"> </a>
@@ -1021,8 +1021,8 @@ Le tableau 12 affiche les membres qui doivent être implémentés dans les class
 
 |**Membre**|**Description**|
 |:-----|:-----|
-|Propriété **LocaleId**  <br/> |Obtient l’ID des paramètres régionaux.  <br/> |
-|Propriété **Value**  <br/> |Obtient la chaîne.  <br/> |
+|Propriété **LocaleId**  <br/> |Obtient l’ID des paramètres régionaux. |
+|Propriété **Value**  <br/> |Obtient la chaîne. |
    
 ## <a name="see-also"></a>Voir aussi
 

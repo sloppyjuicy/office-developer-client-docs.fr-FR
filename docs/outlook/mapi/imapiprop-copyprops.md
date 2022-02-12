@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f65da1c8-d49b-44e8-8c66-9c53d088d334
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2e6c3bdf063b51e462b686176f9de5989d572264
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 776011073a6140b6f3f9aa745982059f70d67957
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461187"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777522"
 ---
 # <a name="imapipropcopyprops"></a>IMAPIProp::CopyProps
 
@@ -171,8 +171,8 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |CopyNamedProps  <br/> |MFCMAPI utilise la **méthode IMAPIProp::CopyProps** pour copier les propriétés nommées d’un message vers un autre.  <br/> |
-|SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::OnPasteProperty  <br/> |MFCMAPI utilise la **méthode IMAPIProp::CopyProps** pour coller une propriété qui a été copiée à partir d’un autre objet.  <br/> |
+|MAPIFunctions.cpp  <br/> |CopyNamedProps  <br/> |MFCMAPI utilise la **méthode IMAPIProp::CopyProps** pour copier les propriétés nommées d’un message vers un autre. |
+|SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::OnPasteProperty  <br/> |MFCMAPI utilise la **méthode IMAPIProp::CopyProps** pour coller une propriété qui a été copiée à partir d’un autre objet. |
    
 ## <a name="see-also"></a>Voir aussi
 

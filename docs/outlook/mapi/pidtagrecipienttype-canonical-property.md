@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 67e31027-6bc2-4a40-9b00-d61baef4ab0f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7c3fa109ecb978ab60bad8aa35823bcab65ac986
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d9eb5fa35e019adfb2e91ea475ed69e3b7cd015e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599606"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776185"
 ---
 # <a name="pidtagrecipienttype-canonical-property"></a>Propriété canonique PidTagRecipientType
 
@@ -50,7 +50,7 @@ MAPI_CC
     
 MAPI_BCC 
   
-> Le destinataire est un destinataire en copie carbone non voyante (Bc). Les destinataires de copie principale et carbone ignorent l’existence de destinataires BcC. 
+> Le destinataire est un destinataire en copie carbone non voyante (Bc). Les destinataires de copie principale et carbone ignorent l’existence de destinataires  BcC. 
     
 MAPI_P1 
   
@@ -60,9 +60,9 @@ En outre, l’indicateur suivant peut être définie :
   
 MAPI_SUBMITTED 
   
-> Le destinataire a déjà reçu le message et n’a pas besoin de le recevoir à nouveau. Il s’agit d’un renvoyer d’une transmission antérieure. Cet indicateur est associé aux valeurs **MAPI_TO,** **MAPI_CC** et **MAPI_BCC** valeurs. 
+> Le destinataire a déjà reçu le message et n’a pas besoin de le recevoir à nouveau. Il s’agit d’un renvoyer d’une transmission antérieure. Cet indicateur est associé aux valeurs **MAPI_TO**, **MAPI_CC** et **MAPI_BCC** valeurs. 
     
-La MAPI_P1 et l’indicateur **MAPI_SUBMITTED** sont utilisés lorsqu’un message est retransmis en raison d’une non-remise à un ou plusieurs des destinataires prévus. Pour cette retransmission, le client définit **MAPI_SUBMITTED** sur chaque destinataire qui n’a pas besoin de nouveau du message, mais qui doit être affiché dans la liste des destinataires. Pour chaque destinataire qui **n’a** pas reçu le message précédemment, le client conserve le destinataire d’origine avec sa valeur PR_RECIPIENT_TYPE inchangée, mais envoie en outre une copie du destinataire avec MAPI_P1 à la place de la valeur d’origine. Cette copie, qui est ignorée avant la remise réelle, force le destinataire dans l’enveloppe P1 et garantit la retransmission physique à ce destinataire. La **propriété PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) est définie sur FALSE pour MAPI_P1 destinataires.
+La MAPI_P1 et **l’indicateur MAPI_SUBMITTED** sont utilisés lorsqu’un message est retransmis en raison d’une non-remise à un ou plusieurs des destinataires prévus. Pour cette retransmission, le client définit **MAPI_SUBMITTED** sur chaque destinataire qui n’a pas besoin de nouveau du message, mais qui doit être affiché dans la liste des destinataires. Pour chaque destinataire qui **n’a** pas reçu le message précédemment, le client conserve le destinataire d’origine avec sa valeur PR_RECIPIENT_TYPE inchangée, mais envoie en outre une copie du destinataire avec MAPI_P1 à la place de la valeur d’origine. Cette copie, qui est ignorée avant la remise réelle, force le destinataire dans l’enveloppe P1 et garantit la retransmission physique à ce destinataire. La **propriété PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) est définie sur FALSE pour MAPI_P1 destinataires.
   
 Lorsqu’un client affiche un formulaire de renvoyer, seuls les destinataires MAPI_P1 sont visibles. Sauf si l’utilisateur entre des destinataires supplémentaires, lorsque le message est remis, la liste des destinataires s’affiche exactement comme lors de la première envoi du message. 
   
@@ -70,9 +70,9 @@ Les **propriétés PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-
   
 |**Propriété**|**Description**|
 |:-----|:-----|
-|PR_DISPLAY_TO  <br/> |Définissez cette valeur sur TRUE si un ou plusieurs destinataires sont **MAPI_TO** destinataires.  <br/> |
-|PR_DISPLAY_CC  <br/> |Définissez cette valeur sur TRUE si un ou plusieurs destinataires sont **MAPI_CC** destinataires.  <br/> |
-| PR_DISPLAY_BCC  <br/> |Définissez cette valeur sur TRUE si un ou plusieurs destinataires sont **MAPI_BCC** destinataires.  <br/> |
+|PR_DISPLAY_TO  <br/> |Valeur TRUE si un ou plusieurs destinataires sont **MAPI_TO destinataires** . |
+|PR_DISPLAY_CC  <br/> |Valeur TRUE si un ou plusieurs destinataires sont **MAPI_CC destinataires** . |
+| PR_DISPLAY_BCC  <br/> |La valeur TRUE est définie si un ou plusieurs destinataires sont **MAPI_BCC** destinataires. |
    
 Dans X.400, l’enveloppe P1 ou de remise est les informations nécessaires pour remettre un message, y compris les propriétés d’adresse du destinataire et les indicateurs d’option contrôlant la remise et les réponses. L’enveloppe P2 ou d’affichage est les informations généralement affichées pour chaque destinataire autre que le texte du message lui-même. Il inclut généralement l’objet, l’importance, la priorité, la sensibilité et l’heure d’envoi, ainsi que les noms des destinataires principaux et copiés. 
   
@@ -86,7 +86,7 @@ Dans X.400, l’enveloppe P1 ou de remise est les informations nécessaires pour
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

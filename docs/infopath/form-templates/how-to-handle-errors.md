@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 132cb698-d9a5-4767-b3d1-5dd1343a1ff4
 description: Lors de la création d'applications personnalisées, les développeurs doivent mettre en place une gestion des erreurs impliquant l'écriture du code de programmation qui leur permette de déceler les erreurs générées par l'application ou de créer et de générer des erreurs personnalisées. Le modèle objet InfoPath fourni par l'espace de noms Microsoft.Office.InfoPath prend en charge la gestion des erreurs par le biais de l'utilisation de la classe FormError en association avec la classe FormErrorCollection .
-ms.openlocfilehash: 7697a2a40be1f2dda76a6a9f1f218192acad9453
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 747c291cc425b3d55f98b7d7fefafa130a0a1dcf
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557469"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777746"
 ---
 # <a name="handle-errors"></a>Gérer les erreurs
 
@@ -35,12 +35,12 @@ La classe [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Off
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[Méthode Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) (+3 surcharges)  <br/> |Crée un objet **FormError** et l'ajoute à la collection.  <br/> |
-|[Méthode Delete](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Delete.aspx) (+1 surcharge)  <br/> |Supprime de la collection l'erreur spécifiée définie par l'utilisateur.  <br/> |
-|[DeleteAll,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.DeleteAll.aspx) méthode  <br/> |Supprime tous les objets **FormError** contenus dans la collection.  <br/> |
-|[GetErrors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.GetErrors.aspx) (+1 surcharge)  <br/> |Renvoie tous les objets **FormError** du nom ou du type spécifié dans la collection.  <br/> |
-|Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Count.aspx)  <br/> |Extrait le nombre d'objets **FormError** contenus dans la collection.  <br/> |
-|Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Item.aspx)  <br/> |Extrait une référence à un objet **FormError** en fonction du numéro d'index spécifié.  <br/> |
+|[Méthode Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) (+3 surcharges)  <br/> |Crée un objet **FormError** et l'ajoute à la collection. |
+|[Méthode Delete](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Delete.aspx) (+1 surcharge)  <br/> |Supprime de la collection l'erreur spécifiée définie par l'utilisateur. |
+|[DeleteAll,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.DeleteAll.aspx) méthode  <br/> |Supprime tous les objets **FormError** contenus dans la collection. |
+|[GetErrors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.GetErrors.aspx) (+1 surcharge)  <br/> |Renvoie tous les objets **FormError** du nom ou du type spécifié dans la collection. |
+|Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Count.aspx)  <br/> |Extrait le nombre d'objets **FormError** contenus dans la collection. |
+|Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Item.aspx)  <br/> |Extrait une référence à un objet **FormError** en fonction du numéro d'index spécifié. |
    
 ## <a name="overview-of-the-formerror-class"></a>Présentation de la classe FormError
 
@@ -48,11 +48,11 @@ La classe [FormError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPa
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[DetailedMessage,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.DetailedMessage.aspx) propriété  <br/> |Récupère ou définit le message d'erreur détaillé de l'objet **FormError**.  <br/> |
-|[ErrorCode,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.ErrorCode.aspx) propriété  <br/> |Récupère ou définit le code d'erreur de l'objet **FormError**.  <br/> |
-|[Propriété de](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Site.aspx) site  <br/> |Récupère un objet **XPathNavigator** qui est placé au niveau du nœud associé à l'objet **FormError**.  <br/> |
-|[Propriété message](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Message.aspx)  <br/> |Récupère ou définit le message d'erreur court de l'objet **FormError**.  <br/> |
-|[FormErrorType,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.FormErrorType.aspx) propriété  <br/> |Récupère le type de l'objet **FormError**.  <br/> |
+|[DetailedMessage,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.DetailedMessage.aspx) propriété  <br/> |Récupère ou définit le message d'erreur détaillé de l'objet **FormError**. |
+|[ErrorCode,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.ErrorCode.aspx) propriété  <br/> |Récupère ou définit le code d'erreur de l'objet **FormError**. |
+|[Propriété de](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Site.aspx) site  <br/> |Récupère un objet **XPathNavigator** qui est placé au niveau du nœud associé à l'objet **FormError**. |
+|[Message](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Message.aspx) , propriété  <br/> |Récupère ou définit le message d'erreur court de l'objet **FormError**. |
+|[FormErrorType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.FormErrorType.aspx) , propriété  <br/> |Récupère le type de l'objet **FormError**. |
    
 ## <a name="using-the-formerrorcollection-and-formerror-classes"></a>Utilisation des classes FormErrorCollection et FormError
 

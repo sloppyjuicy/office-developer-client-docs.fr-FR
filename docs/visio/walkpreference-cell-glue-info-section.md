@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 08165195-7e4e-f3ab-fa76-fbcacb0a9c9c
 description: Détermine si un point de fin d'une forme 1D se déplace vers un point de connexion horizontal ou vertical sur la forme à laquelle il est collé avec de la colle dynamique, lorsque la forme est déplacée dans une position ambiguë. Par défaut, les deux points de fin d'une forme 1D se déplacent vers les points de connexion horizontaux.
-ms.openlocfilehash: bd3b582ca00c8c4f9ef9018f219b0fdd9dafe07d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d0d13108f0fb8723d8043f51c7be7ef6469b303a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627113"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778005"
 ---
 # <a name="walkpreference-cell-glue-info-section"></a>WalkPreference, cellule (section Glue Info)
 
@@ -22,8 +22,8 @@ Détermine si un point de fin d'une forme 1D se déplace vers un point de connex
   
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
-| 1  <br/> | Le point de début de la forme 1D se déplace vers un point de connexion vertical et le point de fin, vers un point de connexion horizontal (connexions haut / bas vers côté).  <br/> |**vis PremierfBegNS** <br/> |
-| 2  <br/> | Le point de début de la forme 1D se déplace vers un point de connexion horizontal et le point de fin, vers un point de connexion vertical (connexions côté vers haut ou côté vers bas).  <br/> |**vis PremièrePrefEndNS** <br/> |
+| 1  <br/> | Le point de début de la forme 1D se déplace vers un point de connexion vertical et le point de fin, vers un point de connexion horizontal (connexions haut / bas vers côté). |**vis PremierfBegNS** <br/> |
+| 2  <br/> | Le point de début de la forme 1D se déplace vers un point de connexion horizontal et le point de fin, vers un point de connexion vertical (connexions côté vers haut ou côté vers bas). |**vis PremièrePrefEndNS** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -41,6 +41,6 @@ Pour obtenir une référence à la cellule WalkPreference par index dans un prog
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowMisc** <br/> |
-| Index de la cellule :  <br/> |**visUziPref** <br/> |
+| Index de la cellule :  <br/> |**visChansPref** <br/> |
    
 

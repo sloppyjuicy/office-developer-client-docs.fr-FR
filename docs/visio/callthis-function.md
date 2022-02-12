@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 461abfc1-d2cc-2354-1c2f-395c9e351a78
 description: Appelle une procédure dans un projet Microsoft Visual Basic pour Applications (VBA).
-ms.openlocfilehash: 7dff3b6b49eb828b5c73f4aa98da2d5c460a84d4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c3ff5d816f1e5abce4ecca77f76df9a196277475
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560080"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775996"
 ---
 # <a name="callthis-function"></a>Fonction CALLTHIS
 
@@ -28,9 +28,9 @@ CALLTHIS( » ** *procedure* ** « ,[ » ** *project* ** « ],[ ** *arg1* **,
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _procedure_ <br/> |Obligatoire  <br/> |**String** <br/> | Nom de la procédure à appeler.  <br/> |
-| _projet_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Projet qui contient la procédure.  <br/> |
-| _arg_ <br/> |Facultatif  <br/> |**Number, String, Date ou Currency** <br/> |Transmis comme paramètres à la procédure.  <br/> |
+| _procedure_ <br/> |Requis  <br/> |**String** <br/> | Nom de la procédure à appeler. |
+| _projet_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Projet qui contient la procédure. |
+| _arg_ <br/> |Facultatif  <br/> |**Number, String, Date ou Currency** <br/> |Transmis comme paramètres à la procédure. |
    
 ## <a name="remarks"></a>Remarques
 
@@ -40,15 +40,15 @@ procedure(*vsoShape* As Visio. Shape [arg1 As type, arg2 As type...])
   
 où  *vsoShape*  est une référence à l’objet **Shape** qui contient la formule CALLTHIS en cours d’évaluation, et  _arg1_,  *arg2*  ... sont les arguments spécifiés dans cette formule. 
   
-Notez  *que vsoShape*  est très proche de l’argument « this » passé à une procédure membre C++ ; d’où le nom « CALLTHIS ». En effet, une cellule qui contient une formule incluant CALLTHIS peut être lue comme « Appeler cette procédure et lui transmettre une référence à ma forme ». 
+Notez  *que vsoShape*  est très proche de l’argument « this » transmis à une procédure membre C++ ; d’où le nom « CALLTHIS ». En effet, une cellule contenant une formule incluant CALLTHIS peut être lue comme « Appeler cette procédure et lui transmettre une référence à ma forme ». 
   
-Si _le projet_ est spécifié, Microsoft Visio tous les documents  ouverts pour celui contenant le projet et appelle la procédure _dans_ ce projet. Si _le_ projet est omis ou null  (« ») Visio suppose que la procédure se trouve dans le projet VBA du document qui contient la formule CALLTHIS en cours d’évaluation. 
+Si _le projet_ est spécifié, Microsoft Visio tous les documents ouverts pour celui contenant le projet et appelle la  _procédure dans ce_ projet. Si _le_ projet est _omis ou_ null (« ») Visio suppose que la procédure se trouve dans le projet VBA du document qui contient la formule CALLTHIS en cours d’évaluation. 
   
-Les nombres  _dans arg1,_  _arg2... sont_ transmis en unités externes. Par exemple, si vous transmettez la valeur de la cellule Height à partir d’une forme haute de 3 cm, la valeur 3 est transmise. Pour transmettre différentes unités avec un nombre, utilisez la fonction FORMATEX ou définissez explicitement les unités en ajoutant une paire nombre nul-unité (0 m + Height, par exemple). 
+Les nombres  _dans arg1_,  _arg2... sont_ transmis en unités externes. Par exemple, si vous transmettez la valeur de la cellule Height à partir d’une forme haute de 3 cm, la valeur 3 est transmise. Pour transmettre différentes unités avec un nombre, utilisez la fonction FORMATEX ou définissez explicitement les unités en ajoutant une paire nombre nul-unité (0 m + Height, par exemple). 
   
-La deuxième virgule dans la fonction CALLTHIS est facultative. Elle correspond au nombre de paramètres supplémentaires ajoutés à votre procédure. Si vous n’utilisez aucun paramètre supplémentaire, sauf , n’ajoutez pas la deuxième virgule ; utilisez  `(vsoShape as Visio.Shape)` CALLTHIS(« , »). Si vous ajoutez deux paramètres, par exemple, utilisez CALLTHIS("",,,). 
+La deuxième virgule dans la fonction CALLTHIS est facultative. Elle correspond au nombre de paramètres supplémentaires ajoutés à votre procédure. Si vous n’utilisez pas de paramètres supplémentaires,  `(vsoShape as Visio.Shape)` sauf , n’ajoutez pas la deuxième virgule ; utilisez CALLTHIS(«  »,). Si vous ajoutez deux paramètres, par exemple, utilisez CALLTHIS("",,,). 
   
-La fonction CALLTHIS est toujours évaluée à  0 et l’appel à la procédure se produit pendant les périodes d’inactivité une fois le processus de recalcul terminé.  _procedure_ peut renvoyer une valeur, mais Visio l’ignore.  _La_ procédure renvoie une valeur que Visio peut reconnaître en fixant la formule ou le résultat d’une autre cellule du document, mais pas la cellule qui a appelé la _procédure,_ sauf si vous souhaitez réécrire la formule CALLTHIS.
+La fonction CALLTHIS est toujours évaluée à 0 et l’appel à la  procédure se produit pendant les périodes d’inactivité une fois le processus de recalcul terminé.  _procedure_ peut renvoyer une valeur, mais Visio l’ignore.  _La_ procédure renvoie une valeur que Visio peut reconnaître en fixant la formule ou le résultat d’une autre cellule du document, mais pas la cellule qui a appelé la _procédure, sauf_ si vous souhaitez réécrire la formule CALLTHIS.
   
 La fonction CALLTHIS est différente de la fonction RUNADDON ; en effet, un projet de document ne doit pas nécessairement faire référence à un autre projet pour appeler une procédure de ce dernier. 
   
@@ -79,7 +79,7 @@ Appelle la procédure nommée q située dans un module et transmet la hauteur de
   
 ## <a name="example-3"></a>Exemple 3
 
-Utilisez la procédure suivante dans le module de classe *ThisDocument.* 
+Utilisez la procédure suivante dans le module  *de classe ThisDocument*  . 
   
 Utilisez l’une des syntaxes suivantes dans la cellule EventDblClick d’une forme avec les procédures qui précèdent.
   

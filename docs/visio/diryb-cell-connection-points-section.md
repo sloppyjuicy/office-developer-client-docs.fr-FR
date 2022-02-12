@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d951c57d-2c22-0289-35af-44e3c2877b2c
 description: Détermine le composant y pour le vecteur d’alignement requis d’un point de connexion correspondant. Cette cellule sert également à orienter la branche reliée d'un lien dynamique. Elle accepte une valeur à virgule flottante.
-ms.openlocfilehash: af2801f32533d5b82b9f3133dbc700444f04ff43
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3a842f29924e5dde5aa74091865c31f369eaf666
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574418"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775933"
 ---
 # <a name="diry--b-cell-connection-points-section"></a>DirY / B, cellule (section Connection Points)
 
@@ -26,14 +26,14 @@ Pour obtenir une référence à la cellule DirY / B par un nom à partir d'une a
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Connections.DirY[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+|Nom de la cellule :  <br/> |Connections.DirY[ *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule DirY / B à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionConnectionPts** <br/> |
-|Index de la ligne :  <br/> |**visRowConnectionPts**  +   *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowConnectionPts** +   *i* où *i* = 0, 1, 2... |
 |Index de la cellule :  <br/> |**visCnnctDirY** (lignes non étendues)           **visCnnctB** (lignes étendues)  <br/> |
    
 Pour plus d'informations sur les lignes non étendues et étendues, reportez-vous à la ligne Connection Points.

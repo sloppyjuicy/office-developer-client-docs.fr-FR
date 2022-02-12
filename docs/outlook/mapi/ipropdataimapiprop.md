@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 30b8ae9e-0c0c-4468-b286-29e083696fed
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a590f5188d33d7fac0600f341d2c0fdef755b8e0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 14bef23c5ece1116aa545c7b2470be90fc6ce208
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579739"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776269"
 ---
 # <a name="ipropdata--imapiprop"></a>IPropData : IMAPIProp
 
@@ -41,16 +41,16 @@ Permet de récupérer et de modifier l’accès aux propriétés d’un objet.
 
 |||
 |:-----|:-----|
-|[HrSetObjAccess](ipropdata-hrsetobjaccess.md) <br/> |D�finit le niveau d'acc�s de l'objet.  <br/> |
-|[HrSetPropAccess](ipropdata-hrsetpropaccess.md) <br/> |Définit le niveau d’accès et l’état d’une ou de plusieurs propriétés de l’objet.  <br/> |
-|[HrGetPropAccess](ipropdata-hrgetpropaccess.md) <br/> |R�cup�re le niveau d'acc�s et l'�tat d'un ou plusieurs des propri�t�s de l'objet.  <br/> |
-|[HrAddObjProps](ipropdata-hraddobjprops.md) <br/> |Ajoute une ou plusieurs propriétés de type PT_OBJECT à l’objet.  <br/> |
+|[HrSetObjAccess](ipropdata-hrsetobjaccess.md) <br/> |D�finit le niveau d'acc�s de l'objet. |
+|[HrSetPropAccess](ipropdata-hrsetpropaccess.md) <br/> |Définit le niveau d’accès et l’état d’une ou de plusieurs propriétés de l’objet. |
+|[HrGetPropAccess](ipropdata-hrgetpropaccess.md) <br/> |R�cup�re le niveau d'acc�s et l'�tat d'un ou plusieurs des propri�t�s de l'objet. |
+|[HrAddObjProps](ipropdata-hraddobjprops.md) <br/> |Ajoute une ou plusieurs propriétés de type PT_OBJECT à l’objet. |
    
 ## <a name="remarks"></a>Remarques
 
-**L’interface IPropData::IMAPIProp** est implémentée par MAPI et utilisée principalement par les fournisseurs de services qui accèdent à cette implémentation en appelant la fonction [CreateIProp.](createiprop.md) 
+**L’interface IPropData::IMAPIProp** est implémentée par MAPI et utilisée principalement par les fournisseurs de services qui accèdent à cette implémentation en appelant la fonction [CreateIProp](createiprop.md). 
   
-Pour plus d’informations sur les niveaux d’accès sur les objets et les propriétés, voir [Permissions for Objects and Properties](permissions-for-mapi-objects-and-properties.md).
+Pour plus d’informations sur les niveaux d’accès sur les objets et les [propriétés, voir Permissions for Objects and Properties](permissions-for-mapi-objects-and-properties.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 3b0d1209-4636-ea9c-acf7-895c3300492a
-ms.openlocfilehash: 5bfc719cd159c4ece5a74cfd19eee1709829993f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0aa02c0c17cc7d53e96b38107fd26a821b33e762
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603206"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772365"
 ---
 # <a name="validationproperties_type-complextype-visio-xml"></a>ValidationProperties_Type complexType (Visio XML)
 
@@ -41,7 +41,7 @@ ms.locfileid: "59603206"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -51,7 +51,7 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|LastValidated  <br/> |xsd:dateTime  <br/> |obligatoire  <br/> ||Valeurs du type xsd:dateTime.  <br/> |
-|ShowIgnored  <br/> |xsd:boolean  <br/> |obligatoire  <br/> ||Valeurs du type xsd:boolean.  <br/> |
+|LastValidated  <br/> |xsd:dateTime  <br/> |obligatoire  <br/> ||Valeurs du type xsd:dateTime. |
+|ShowIgnored  <br/> |xsd:boolean  <br/> |obligatoire  <br/> ||Valeurs du type xsd:boolean. |
    
 

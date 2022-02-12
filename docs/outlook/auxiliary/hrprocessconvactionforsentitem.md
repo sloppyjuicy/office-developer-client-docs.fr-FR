@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 08121e33-7820-4a31-b6da-06a4a54ec43f
 description: Effectue la catégorisation post-envoi sur un élément de courrier en fonction de son PidTagConversationId.
-ms.openlocfilehash: 45f1aa9dbab683fb6765d637b8495d77d899fbe2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 820bde9aab05fc705c6d63e366d456b101ef8a64
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614452"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62777627"
 ---
 # <a name="hrprocessconvactionforsentitem"></a>HrProcessConvActionForSentItem
 
@@ -60,13 +60,13 @@ _dwFlags_
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |L’appel a réussi.  <br/> |
-|E_INVALIDARG  <br/> | _dwFlags_ contient un indicateur inconnu.  <br/> |
+|S_OK  <br/> |L’appel a réussi. |
+|E_INVALIDARG  <br/> | _dwFlags_ contient un indicateur inconnu. |
    
 ## <a name="remarks"></a>Remarques
 
 Les catégories sont considérées comme des informations personnelles et ne doivent pas être transmises en dehors de la boîte aux lettres de l’utilisateur. Par conséquent, n’appelez **pas HrProcessConvActionForSentItem** sur un élément de courrier non envoyé. Envoyez plutôt l’élément, puis appelez **HrProcessConvActionForSentItem** sur la copie archivée. La copie archivée peut être stockée dans le dossier Éléments envoyés ou dans un emplacement équivalent. 
   
-Votre application doit être en cours de traitement avec Outlook.exe, par exemple à partir d’un compl?ment COM, pour appeler **HrProcessConvActionForSentItem**. Si vous essayez d’appeler **HrProcessConvActionForSentItem** hors processus, **HrProcessConvActionForSentItem** va lancer une exception de violation d’accès. 
+Votre application doit être en cours de Outlook.exe, par exemple à partir d’un compl?ment COM, pour appeler **HrProcessConvActionForSentItem**. Si vous essayez d’appeler **HrProcessConvActionForSentItem** hors processus, **HrProcessConvActionForSentItem** va lancer une exception de violation d’accès. 
   
 

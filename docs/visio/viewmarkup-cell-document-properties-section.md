@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6c956266-8266-3312-5a68-cc9d8bdb8cd9
 description: Détermine si les marques de révision apparaissent dans la fenêtre de dessin.
-ms.openlocfilehash: 29a4ec7b1d773e8f9d4fade27cf7d000d31a2c54
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 85607f120979528f211b7dd3d515f77204446453
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597729"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776857"
 ---
 # <a name="viewmarkup-cell-document-properties-section"></a>ViewMarkup, cellule (section Document Properties)
 
@@ -22,8 +22,8 @@ Détermine si les marques de révision apparaissent dans la fenêtre de dessin.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |La marque de révision est affichée dans le dessin.  <br/> |
-|FALSE  <br/> |La marque de révision n'est pas affichée (valeur par défaut).  <br/> |
+|TRUE  <br/> |La marque de révision est affichée dans le dessin. |
+|FALSE  <br/> |La marque de révision n'est pas affichée (valeur par défaut). |
    
 ## <a name="remarks"></a>Remarques
 

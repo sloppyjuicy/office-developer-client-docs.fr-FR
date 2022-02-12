@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d619b5e7-2867-44fc-9b42-123bb1bf7bde
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 26662eb83a757f798fa1117d639705d2cc3c557c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ca1972c0ac3635df8c9885e394688d19faffb4bc
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570906"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776205"
 ---
 # <a name="pidtagrecipienttrackstatus-canonical-property"></a>Propriété canonique PidTagRecipientTrackStatus
 
@@ -40,10 +40,10 @@ Si cette valeur n’est pas définie, elle doit être supposée être respNone. 
   
 |**État de la réponse**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|respNone  <br/> |0x00000000  <br/> |Aucune réponse n’est requise pour cet objet. C’est le cas pour les objets de rendez-vous et les objets de réponse de réunion.  <br/> |
-|respTentative  <br/> |0x00000002  <br/> |Cette valeur sur l’objet de réunion du participant indique que le participant a provisoirement accepté l’objet de demande de réunion.  <br/> |
-|respAccepted  <br/> |0x00000003  <br/> |Cette valeur sur l’objet de réunion du participant indique que le participant a accepté l’objet de demande de réunion.  <br/> |
-|respDeclined  <br/> |0x00000004  <br/> |Cette valeur sur l’objet de réunion du participant indique que le participant a refusé l’objet de demande de réunion.  <br/> |
+|respNone  <br/> |0x00000000  <br/> |Aucune réponse n’est requise pour cet objet. C’est le cas pour les objets de rendez-vous et les objets de réponse de réunion. |
+|respTentative  <br/> |0x00000002  <br/> |Cette valeur sur l’objet de réunion du participant indique que le participant a provisoirement accepté l’objet de demande de réunion. |
+|respAccepted  <br/> |0x00000003  <br/> |Cette valeur sur l’objet de réunion du participant indique que le participant a accepté l’objet de demande de réunion. |
+|respDeclined  <br/> |0x00000004  <br/> |Cette valeur sur l’objet de réunion du participant indique que le participant a refusé l’objet de demande de réunion. |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -59,7 +59,7 @@ Si cette valeur n’est pas définie, elle doit être supposée être respNone. 
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

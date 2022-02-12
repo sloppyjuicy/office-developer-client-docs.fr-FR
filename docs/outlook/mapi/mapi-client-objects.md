@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 11304a4c-d986-4ad9-a140-19a59825a8df
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cea1d2df5d446887bf4ea3d8768a34456a67df98
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 54d1c3fe856d9d12e39ef9637af38537e88f3b5e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579655"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778903"
 ---
 # <a name="mapi-client-objects"></a>Objets clients MAPI
   
@@ -21,17 +21,17 @@ ms.locfileid: "59579655"
   
 Les applications clientes de messagerie standard implémentent un seul objet : un sink de conseil. Les réceptions de conseil héritent de l’interface [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) et sont utilisées par MAPI et les fournisseurs de services pour la notification d’événement. Certains clients implémentent également des objets de progression pour prendre en charge l’affichage des boîtes de dialogue de progression. 
   
-Les clients plus complexes qui la prise en charge des formulaires personnalisés implémentent un autre objet de sink de conseil et quelques autres objets, tels que l’objet de site de message qui hérite de l’interface [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) et l’objet de contexte d’affichage qui hérite de l’interface [IMAPIViewContext : IUnknown.](imapiviewcontextiunknown.md) L’objet de sink advise supplémentaire hérite de l’interface [IMAPIViewAdviseSink : IUnknown.](imapiviewadvisesinkiunknown.md) 
+Les clients plus complexes qui la prise en charge des formulaires personnalisés implémentent un autre objet de sink de conseil et quelques autres objets, tels que l’objet de site de message qui hérite de l’interface [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) et l’objet de contexte d’affichage qui hérite de l’interface [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md) . L’objet de sink advise supplémentaire hérite de l’interface [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md) . 
   
-Le tableau suivant récapitule les objets MAPI implémentés par les clients de messagerie standard et par les clients qui supportent l’affichage de formulaires personnalisés.
+Le tableau suivant récapitule les objets MAPI implémentés par les clients de messagerie standard et les clients qui supportent l’affichage de formulaires personnalisés.
   
 |**Objet client**|**Description**|
 |:-----|:-----|
-|Conseiller le sink  <br/> |Fournit une fonction de rappel pour les événements qui se produisent dans le magasin de messages, le carnet d’adresses ou la session.  <br/> |
-|Site de message  <br/> |Gère la manipulation des objets de formulaire.  <br/> |
-|Progression  <br/> |Affiche une boîte de dialogue pour afficher la progression d’une opération.  <br/> |
-|Afficher le sink de conseil  <br/> |Fournit des fonctions de rappel pour les événements qui se produisent dans un formulaire.  <br/> |
-|Contexte d’affichage  <br/> |Prend en charge les commandes d’impression et d’enregistrement des formulaires et de navigation entre les formulaires.  <br/> |
+|Conseiller le sink  <br/> |Fournit une fonction de rappel pour les événements qui se produisent dans le magasin de messages, le carnet d’adresses ou la session. |
+|Site de message  <br/> |Gère la manipulation des objets de formulaire. |
+|Progression  <br/> |Affiche une boîte de dialogue pour afficher la progression d’une opération. |
+|Afficher le dos à l’avis  <br/> |Fournit des fonctions de rappel pour les événements qui se produisent dans un formulaire. |
+|Contexte d’affichage  <br/> |Prend en charge les commandes d’impression et d’enregistrement des formulaires et de navigation entre les formulaires. |
    
 L’illustration suivante montre la relation entre ces différents objets clients, les interfaces dont ils héritent et les composants MAPI qui les utilisent. 
   

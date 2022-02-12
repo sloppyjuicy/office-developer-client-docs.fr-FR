@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: fffbefd6-8b0b-0023-6b03-026d1c6e885e
 description: Détermine si une forme 1D utilise un collage statique (point à point) ou dynamique (forme à forme) lorsqu'elle est attachée à une autre forme.
-ms.openlocfilehash: 42fa54ffc9590db3eabc887a03b3bda6052a5335
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e9dd099e2cd04367001e0deb82550a3661d73e15
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598555"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778558"
 ---
 # <a name="gluetype-cell-glue-info-section"></a>GlueType, cellule (section Glue Info)
 
@@ -22,11 +22,11 @@ Détermine si une forme 1D utilise un collage statique (point à point) ou dynam
   
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
-| &amp;H0  <br/> | Par défaut. Utilise le collage dynamique uniquement pour les connecteurs dynamiques. Utilise le collage statique dans les autres cas.  <br/> |**visGlueTypeDefault** <br/> |
-| &amp;H1  <br/> | Autorise le collage dynamique.  <br/> | Obsolète dans Visio 2002  <br/> |
-| &amp;H2  <br/> | Autorise le collage dynamique.  <br/> |**visGlueTypeTaping** <br/> |
-| &amp;H4  <br/> | N'autorise pas le collage dynamique.  <br/> |**visGlueTypeNo Quinging** <br/> |
-| &amp;H8  <br/> | N'autorise pas le collage dynamique de cette forme 2D.  <br/> |**visGlueTypeNo QuingTo** <br/> |
+| &amp;H0  <br/> | Par défaut. Utilise le collage dynamique uniquement pour les connecteurs dynamiques. Utilise le collage statique dans les autres cas. |**visGlueTypeDefault** <br/> |
+| &amp;H1  <br/> | Autorise le collage dynamique. | Obsolète dans Visio 2002  <br/> |
+| &amp;H2  <br/> | Autorise le collage dynamique. |**visGlueTypeTaping** <br/> |
+| &amp;H4  <br/> | N'autorise pas le collage dynamique. |**visGlueTypeNo Quinging** <br/> |
+| &amp;H8  <br/> | N'autorise pas le collage dynamique de cette forme 2D. |**visGlueTypeNo QuingTo** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

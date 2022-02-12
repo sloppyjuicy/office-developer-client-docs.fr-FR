@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 93e38f6c-4b67-4f2d-bc94-631efec86852
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e808f573608a8ba822f0fa8942b2cbfab82b421b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b94addbd90f4c71f379c0fc646bba58208af8d2a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592416"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776528"
 ---
 # <a name="imapisessionlogoff"></a>IMAPISession::Logoff
 
@@ -51,7 +51,7 @@ MAPI_LOGOFF_SHARED
     
 MAPI_LOGOFF_UI 
   
-> **La ff** de logo peut afficher une boîte de dialogue pendant l’opération, ce qui peut être l’invite à confirmer l’opération. 
+> **La ff** de logo peut afficher une boîte de dialogue pendant l’opération, éventuellement en insurant à l’utilisateur une confirmation. 
     
  _ulReserved_
   
@@ -69,9 +69,9 @@ La **méthode IMAPISession::Logoff** met fin à une session MAPI. Lorsque **la m
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsque **la logoff est** de retour, relâchez l’objet de session en appelant sa méthode **IUnknown::Release.** 
+Lorsque **la méthode Logoff est** de retour, relâchez l’objet de session en appelant sa méthode **IUnknown::Release** . 
   
-Pour plus d’informations sur la fin d’une session, voir [Fin d’une session MAPI.](ending-a-mapi-session.md)
+Pour plus d’informations sur la fin d’une session, voir [Fin d’une session MAPI](ending-a-mapi-session.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -79,10 +79,10 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::Logoff  <br/> |MFCMAPI utilise la méthode **IMAPISession::Logoff** pour se déconnecter de la session avant de la libérer.  <br/> |
+|MAPIObjects.cpp  <br/> |CMapiObjects::Logoff  <br/> |MFCMAPI utilise la méthode **IMAPISession::Logoff** pour se déconnecter de la session avant de la libérer. |
    
 > [!NOTE]
-> En raison du comportement d’arrêt rapide introduit dans Microsoft Office Outlook 2007 Service Pack 2, Microsoft Outlook 2010 et Microsoft Outlook 2013, les clients ne doivent jamais transmettre le paramètre **MAPI_LOGOFF_SHARED** à [IMAPISession::Logoff](imapisession-logoff.md). Le **MAPI_LOGOFF_SHARED’arrêt** entraîne l’arrêt de tous les clients MAPI et un comportement inattendu se produit. 
+> En raison du comportement d’arrêt rapide introduit dans Microsoft Office Outlook 2007 Service Pack 2, Microsoft Outlook 2010 et Microsoft Outlook 2013, les clients ne doivent jamais transmettre le paramètre **MAPI_LOGOFF_SHARED** à [IMAPISession::Logoff](imapisession-logoff.md). Le **MAPI_LOGOFF_SHARED** entraîne l’arrêt de tous les clients MAPI et un comportement inattendu se produit. 
   
 ## <a name="see-also"></a>Voir aussi
 

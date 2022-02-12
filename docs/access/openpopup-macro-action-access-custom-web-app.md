@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 850de802-e417-4884-8d14-571de52aa391
 description: Ouvre l’affichage spécifié dans une fenêtre popup.
-ms.openlocfilehash: b4db9b0f647e93944dc1e6adc2dd80bf99509bd9
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: ee7e553f1ede359a421bb2b359ff67228b99e3ee
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180732"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772357"
 ---
 # <a name="openpopup-macro-action-access-custom-web-app"></a>OpenPopup Macro Action (Application web personnalisée Access)
 
@@ -29,9 +29,9 @@ Ouvre l’affichage spécifié dans une fenêtre popup.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *View*  <br/> |Nom de la vue à ouvrir.  <br/> |
-| *Where=*  <br/> |Une clause SQL valide (sans le mot WHERE) qui limite les enregistrements dans l’affichage.  <br/> |
-| *Trier par*  <br/> |Une expression de chaîne qui inclut le nom du champ ou des champs à partir desquels trier les enregistrements et les mots clés ASC ou DESC facultatifs. Par défaut, cet argument est vide.  <br/> |
+| *View*  <br/> |Nom de la vue à ouvrir. |
+| *Where=*  <br/> |Une clause SQL valide (sans le mot WHERE) qui limite les enregistrements dans l’affichage. |
+| *Trier par*  <br/> |Une expression de chaîne qui inclut le nom du champ ou des champs à partir desquels trier les enregistrements et les mots clés ASC ou DESC facultatifs. Par défaut, cet argument est vide. |
 
 ## <a name="remarks"></a>Remarques
 
@@ -41,5 +41,5 @@ Tout tri ou filtrage appliqué par l’utilisateur est effacé lorsque l’actio
   
 *L’argument OrderBy* est le nom du ou des champs sur lesquels vous souhaitez trier les enregistrements. Lorsque vous utilisez plusieurs noms de champs, séparez-les par une virgule (,).
   
-Lorsque vous définissez *l’argument OrderBy,* les enregistrements sont triés par défaut dans l’ordre croissant.
+Lorsque vous définissez *l’argument OrderBy* , les enregistrements sont triés par défaut dans l’ordre croissant.
   

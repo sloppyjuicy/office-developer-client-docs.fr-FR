@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ca4eb6c2-98e9-4dbc-9f5a-f0f257456ead
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bcbfe2a09d91f1f6c43ec6ddf1dfdec6592994dd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ca648b45cd4f3d55a3654fdcf9fc7d19ea3f8a7b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583989"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778761"
 ---
 # <a name="pidlidaddressbookproviderarraytype-canonical-property"></a>Propriété canonique PidLidAddressBookProviderArrayType
 
@@ -41,12 +41,12 @@ La valeur de la **propriété dispidABPArrayType** doit être une combinaison d�
   
 |**Bit**|**Description**|
 |:-----|:-----|
-|0x00000001  <br/> |Email1 est défini pour le contact.  <br/> |
-|0x00000002  <br/> |Email2 est défini pour le contact.  <br/> |
-|0x00000004  <br/> |Email3 est défini pour le contact.  <br/> |
-|0x00000008  <br/> |La télécopie professionnelle est définie pour le contact.  <br/> |
-|0x00000010  <br/> |La télécopie à domicile est définie pour le contact.  <br/> |
-|0x00000020  <br/> |La télécopie principale est définie pour le contact.  <br/> |
+|0x00000001  <br/> |Email1 est défini pour le contact. |
+|0x00000002  <br/> |Email2 est défini pour le contact. |
+|0x00000004  <br/> |Email3 est défini pour le contact. |
+|0x00000008  <br/> |La télécopie professionnelle est définie pour le contact. |
+|0x00000010  <br/> |La télécopie à domicile est définie pour le contact. |
+|0x00000020  <br/> |La télécopie principale est définie pour le contact. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

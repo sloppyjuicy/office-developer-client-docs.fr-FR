@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 180022af-4c1c-408c-a3fe-ed075cef79ab
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c7102f49f678ae32d8aa0788703004ba3bfabe74
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d1dbfc48c111204a6952e3fe055e78dbf2274131
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579914"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62776584"
 ---
 # <a name="imapiformadvisesink--iunknown"></a>IMAPIFormAdviseSink : IUnknown
 
@@ -40,14 +40,14 @@ Permet aux serveurs de formulaires de recevoir des notifications de visionneuses
 
 |||
 |:-----|:-----|
-|[OnChange](imapiformadvisesink-onchange.md) <br/> |Indique qu’une modification s’est produite dans l’état de la visionneuse de formulaires.  <br/> |
-|[OnActivateNext](imapiformadvisesink-onactivatenext.md) <br/> |Indique si le formulaire peut gérer la classe de message du message suivant à afficher.  <br/> |
+|[OnChange](imapiformadvisesink-onchange.md) <br/> |Indique qu’une modification s’est produite dans l’état de la visionneuse de formulaires. |
+|[OnActivateNext](imapiformadvisesink-onactivatenext.md) <br/> |Indique si le formulaire peut gérer la classe de message du message suivant à afficher. |
    
 ## <a name="remarks"></a>Remarques
 
-Les serveurs de formulaires utilisent un objet sink de conseil de formulaire pour implémenter **IMAPIFormAdviseSink** au lieu de l’inclure avec leur objet de formulaire. Par conséquent, les visionneuses de formulaire doivent s’attendre à un appel qui a échoué à la méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) d’un formulaire pour obtenir un pointeur vers cette interface. 
+Les serveurs de formulaires utilisent un objet de sink de conseil de formulaire pour **implémenter IMAPIFormAdviseSink** au lieu de l’inclure avec leur objet de formulaire. Par conséquent, les visionneuses de formulaire doivent s’attendre à un appel qui a échoué à la méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) d’un formulaire pour obtenir un pointeur vers cette interface. 
   
-Les serveurs de formulaire appellent la méthode [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) d’une visionneuse pour s’inscrire aux notifications. Un pointeur vers leur **implémentation IMAPIFormAdviseSink** est inclus en tant que paramètre. 
+Les serveurs de formulaires appellent la méthode [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) d’une visionneuse pour s’inscrire aux notifications. Un pointeur vers leur **implémentation IMAPIFormAdviseSink** est inclus en tant que paramètre. 
   
 ## <a name="see-also"></a>Voir aussi
 

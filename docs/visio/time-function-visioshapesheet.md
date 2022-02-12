@@ -9,16 +9,16 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e662230-0760-5f43-52dc-927f499715f6
 description: Renvoie l’heure représentée par heure, minute et seconde.
-ms.openlocfilehash: 4df859721e4947ba625a473f391d9e81f5606b2e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 931e52a5b344c20ffcc51815a34d9d244cf07933
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622745"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62778054"
 ---
 # <a name="time-function-visioshapesheet"></a>TIME Function (VisioShapeSheet)
 
-Renvoie l’heure représentée par  _l’heure,_  _la minute_ et la  _seconde_.
+Renvoie l’heure représentée par  _heure_,  _minute_ et  _seconde_.
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,9 +28,9 @@ TIME(** *hour* **, ** *minute* **, ** *second* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _hour_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Composant heure  <br/> |
-| _minute_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Composant minute  <br/> |
-| _second_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Composant seconde  <br/> |
+| _hour_ <br/> |Requis  <br/> |**Numérique** <br/> |Composant heure |
+| _minute_ <br/> |Requis  <br/> |**Numérique** <br/> |Composant minute |
+| _second_ <br/> |Requis  <br/> |**Numérique** <br/> |Composant seconde |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
