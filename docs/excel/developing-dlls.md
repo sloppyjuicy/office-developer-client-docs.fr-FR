@@ -8,12 +8,12 @@ keywords:
 - DLL [Excel 2007], création, création de DLL [Excel 2007]
 ms.assetid: 5d69d06d-a126-4c47-82ad-17112674c8a3
 ms.localizationpriority: high
-ms.openlocfilehash: 51eb07e975cb1a53e3109b22f71a98e31fe61d54
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a9b9cbe90b525ce560590e8fdcca71b1b5836416
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773760"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371757"
 ---
 # <a name="developing-dlls"></a>Développement de DLL
 

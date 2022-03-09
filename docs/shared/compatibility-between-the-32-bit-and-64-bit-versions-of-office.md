@@ -5,71 +5,76 @@ ms.audience: ITPro
 ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: Découvrez en quoi la version 32 bits d’Office est compatible avec la version 64 bits d’Office.
 ms.localizationpriority: high
-ms.openlocfilehash: a18b9a266de508595a6ca2b2525c0768f463d80c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: da3af3466ea948f2ecc01cfcc3f218d6ebd266ae
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778677"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63378449"
 ---
 # <a name="compatibility-between-the-32-bit-and-64-bit-versions-of-office"></a>Compatibilité entre les versions 32 bits et 64 bits d’Office
 
 Découvrez en quoi la version 32 bits d’Office est compatible avec la version 64 bits d’Office.
   
-Les applications Office sont disponibles en versions 32 bits et 64 bits. 
+Les applications Office sont disponibles en versions 32 bits et 64 bits.
   
 Les versions 64 bits d’Office vous permettent de déplacer davantage de données pour une fonctionnalité accrue, par exemple lorsque vous travaillez avec de grands nombres dans Microsoft Excel 2010. Lorsque vous écrivez du code 32 bits, vous pouvez utiliser la version 64 bits d’Office sans aucune modification. Toutefois, lorsque vous écrivez du code 64 bits, vous devez vous assurer que votre code contient des mots clés spécifiques et des constantes de compilation conditionnelle pour vous assurer que le code est à compatibilité descendante avec une version antérieure d’Office et que le code approprié est exécuté si vous mélangez du code 32 bits et 64 bits.
   
 L’implémentation Visual Basic pour Applications 7.0 (VBA 7) est publiée dans les versions 64 bits d’Office, mais elle fonctionne avec les applications 32 bits et 64 bits. Les modifications décrites dans cet article s’appliquent uniquement aux versions 64 bits d’Office. Utiliser les versions 32 bits de Microsoft Office vous permet d’exploiter les solutions intégrées dans les versions précédentes d’Office sans apporter d’autres modifications.
   
 > [!NOTE]
-> Par défaut, lorsque vous installez une version 64 bits d'Office, vous ne pouvez pas installer la version 32 bits à côté de celle-ci. Vous devez explicitement sélectionner l’option d’installation de la version 64 bits de Microsoft Office. 
+> Par défaut, lorsque vous installez une version 64 bits d'Office, vous ne pouvez pas installer la version 32 bits à côté de celle-ci. Vous devez explicitement sélectionner l’option d’installation de la version 64 bits de Microsoft Office.
   
-Dans VBA 7, vous devez mettre à jour les instructions API Windows existantes (instructions **Declare**) pour qu’elles fonctionnent avec la version 64 bits. De plus, vous devez mettre à jour les pointeurs d’adresse et afficher les handles de fenêtre dans les types définis par l’utilisateur utilisés par ces instructions. Ces questions sont abordées plus en détail dans cet article, ainsi que les problèmes de compatibilité entre les versions 32 bits et 64 bits et les solutions suggérées. 
+Dans VBA 7, vous devez mettre à jour les instructions API Windows existantes (instructions **Declare**) pour qu’elles fonctionnent avec la version 64 bits. De plus, vous devez mettre à jour les pointeurs d’adresse et afficher les handles de fenêtre dans les types définis par l’utilisateur utilisés par ces instructions. Ces questions sont abordées plus en détail dans cet article, ainsi que les problèmes de compatibilité entre les versions 32 bits et 64 bits et les solutions suggérées.
   
 ## <a name="comparing-32-bit-and-64-bit-systems"></a>Comparer des systèmes 32 bits et 64 bits
+
 <a name="odc_office_Compatibility32bit64bit_Comparing32BitSystemsto64BitSystems"> </a>
 
 Les applications créées avec les versions 64 bits d’Office peuvent faire référence à de plus grands espaces d’adressage que ceux des versions 32 bits. Cela signifie que vous pouvez utiliser davantage de mémoire physique pour les données qu’auparavant, permettant éventuellement de réduire la charge liée aux transferts incessants de données sur une mémoire physique.
   
-En plus de faire référence à des emplacements spécifiques (appelés pointeurs) dans la mémoire physique, vous pouvez également utiliser des adresses pour référencer des identificateurs de fenêtre d’affichage (appelés handles). La taille (en octets) du pointeur ou du handle varie selon que vous utilisez un système 32 bits ou 64 bits. 
+En plus de faire référence à des emplacements spécifiques (appelés pointeurs) dans la mémoire physique, vous pouvez également utiliser des adresses pour référencer des identificateurs de fenêtre d’affichage (appelés handles). La taille (en octets) du pointeur ou du handle varie selon que vous utilisez un système 32 bits ou 64 bits.
   
 Si vous voulez exécuter vos solutions existantes avec les versions 64 bits d’Office, tenez compte des points suivants :
   
 - Les processus 64 bits natifs dans Office ne peuvent pas charger de fichiers binaires 32 bits. Il s’agit normalement d’un problème courant lorsque vous avez des contrôles Microsoft ActiveX existants et des compléments existants.
-    
-- Auparavant, VBA ne disposait pas de type de données de pointeur. Vous deviez utiliser des variables 32 bits pour stocker les pointeurs et les handles. Ces variables tronquent désormais les valeurs 64 bits renvoyées par les appels d’API lors de l’utilisation des instructions **Declare**. 
-    
+
+- Auparavant, VBA ne disposait pas de type de données de pointeur. Vous deviez utiliser des variables 32 bits pour stocker les pointeurs et les handles. Ces variables tronquent désormais les valeurs 64 bits renvoyées par les appels d’API lors de l’utilisation des instructions **Declare**.
+
 ## <a name="vba-7-code-base"></a>Base de code VBA 7
+
 <a name="odc_office_Compatibility32bit64bit_IntroducingVBA7CodeBase"> </a>
 
-VBA 7 remplace la base de code VBA Office 2007 et versions antérieures. Cette implémentation est disponible dans les versions 32 bits et 64 bits d’Office. Elle fournit deux constantes de compilation conditionnelle : 
+VBA 7 remplace la base de code VBA Office 2007 et versions antérieures. Cette implémentation est disponible dans les versions 32 bits et 64 bits d’Office. Elle fournit deux constantes de compilation conditionnelle :
   
-- **VBA7** : permet de garantir la compatibilité descendante de votre code en testant si votre application utilise VBA 7 ou la version antérieure de VBA. 
-    
-- **Win64** : teste si le code est en cours d’exécution au format 32 bits ou 64 bits. 
-    
+- **VBA7** : permet de garantir la compatibilité descendante de votre code en testant si votre application utilise VBA 7 ou la version antérieure de VBA.
+
+- **Win64** : teste si le code est en cours d’exécution au format 32 bits ou 64 bits.
+
 À quelques exceptions près, les macros d’un document qui fonctionnent dans la version 32 bits de l’application fonctionnent également dans la version 64 bits.
   
 ## <a name="activex-control-and-com-add-in-compatibility"></a>Compatibilité des contrôles ActiveX et des compléments COM
+
 <a name="odc_office_Compatibility32bit64bit_ActiveXControlCOMAddinCompatibility"> </a>
 
 Les contrôles ActiveX 32 bits existants ne sont pas compatibles avec les versions 64 bits d’Office. Pour les contrôles ActiveX et les objets COM :
   
 - Si vous disposez du code source, vous pouvez générer une version 64 bits vous-même.
 - Si vous n’avez pas le code source, contactez le fournisseur pour obtenir une version mise à jour.
-    
-Les processus 64 bits natifs d’Office ne peuvent pas charger les fichiers binaires 32 bits. Cela inclut les contrôles communs de **MSComCtl** (TabStrip, Toolbar, StatusBar, ProgressBar, TreeView, ListViews, ImageList, Slider, ImageComboBox) et les contrôles de **MSComCt2** (Animation, UpDown, MonthView, DateTimePicker, FlatScrollBar). Ces contrôles ont été installés par les versions 32 bits d’Office antérieures à Office 2010. Lorsque vous migrez le code vers les versions 64 bits d’Office, vous devez trouver une alternative pour vos solutions VBA existantes qui utilisent ces contrôles. 
+
+Les processus 64 bits natifs d’Office ne peuvent pas charger les fichiers binaires 32 bits. Cela inclut les contrôles communs de **MSComCtl** (TabStrip, Toolbar, StatusBar, ProgressBar, TreeView, ListViews, ImageList, Slider, ImageComboBox) et les contrôles de **MSComCt2** (Animation, UpDown, MonthView, DateTimePicker, FlatScrollBar). Ces contrôles ont été installés par les versions 32 bits d’Office antérieures à Office 2010. Lorsque vous migrez le code vers les versions 64 bits d’Office, vous devez trouver une alternative pour vos solutions VBA existantes qui utilisent ces contrôles.
   
 ## <a name="api-compatibility"></a>Compatibilité de l’API
+
 <a name="odc_office_Compatibility32bit64bit_ApplicationProgrammingInterfaceCompatibility"> </a>
 
-L’association de VBA et de bibliothèques de types vous offre de nombreuses fonctionnalités utiles pour créer des applications Office. Cependant, vous devez parfois communiquer directement avec le système d’exploitation et d’autres composants de l’ordinateur, par exemple lorsque vous gérez la mémoire ou des processus, lorsque vous travaillez avec des éléments d’interface utilisateur comme des fenêtres et des contrôles ou lorsque vous modifiez le Registre Windows. Dans ces scénarios, votre meilleure option consiste à utiliser l’une des fonctions externes incorporées dans les fichiers DLL. Vous pouvez le faire dans VBA en passant des appels d’API à l’aide des instructions **Declare**. 
+L’association de VBA et de bibliothèques de types vous offre de nombreuses fonctionnalités utiles pour créer des applications Office. Cependant, vous devez parfois communiquer directement avec le système d’exploitation et d’autres composants de l’ordinateur, par exemple lorsque vous gérez la mémoire ou des processus, lorsque vous travaillez avec des éléments d’interface utilisateur comme des fenêtres et des contrôles ou lorsque vous modifiez le Registre Windows. Dans ces scénarios, votre meilleure option consiste à utiliser l’une des fonctions externes incorporées dans les fichiers DLL. Vous pouvez le faire dans VBA en passant des appels d’API à l’aide des instructions **Declare**.
   
 > [!NOTE]
-> Microsoft fournit le fichier Win32API.txt qui contient 1 500 instructions Declare et un outil permettant de copier l’instruction **Declare** que vous souhaitez dans votre code. Cependant, ces instructions s’appliquent aux systèmes 32 bits et doivent être converties en 64 bits à l’aide des informations indiquées plus loin dans cet article. Les instructions **Declare** existantes ne seront pas compilées dans VBA 64 bits avant d’avoir été indiquées comme fiables pour 64 bits à l’aide de l’attribut **PtrSafe**. Vous trouverez des exemples de ce type de conversion sur le site web de Jan Karel Pieterse, Excel MVP à l’adresse suivante [https://www.jkp-ads.com/articles/apideclarations.asp](https://www.jkp-ads.com/articles/apideclarations.asp). Le [guide d’utilisateur de l’inspecteur de compatibilité du code Office](https://docs.microsoft.com/previous-versions/office/office-2010/ee833946(v=office.14)) est un outil particulièrement utile pour examiner la syntaxe des instructions API **Declare** pour l’attribut **PtrSafe**, le cas échéant, et le type de renvoi approprié. 
+> Microsoft fournit le fichier Win32API.txt qui contient 1 500 instructions Declare et un outil permettant de copier l’instruction **Declare** que vous souhaitez dans votre code. Cependant, ces instructions s’appliquent aux systèmes 32 bits et doivent être converties en 64 bits à l’aide des informations indiquées plus loin dans cet article. Les instructions **Declare** existantes ne seront pas compilées dans VBA 64 bits avant d’avoir été indiquées comme fiables pour 64 bits à l’aide de l’attribut **PtrSafe**. Vous trouverez des exemples de ce type de conversion sur le site web de Jan Karel Pieterse, Excel MVP à l’adresse suivante [https://www.jkp-ads.com/articles/apideclarations.asp](https://www.jkp-ads.com/articles/apideclarations.asp).
+> Le [guide d’utilisateur de l’inspecteur de compatibilité du code Office](https://docs.microsoft.com/previous-versions/office/office-2010/ee833946(v=office.14)) est un outil particulièrement utile pour examiner la syntaxe des instructions API **Declare** pour l’attribut **PtrSafe**, le cas échéant, et le type de renvoi approprié.
   
-Les instructions **Declare** ressemblent à ce qui suit, selon que vous appelez une sous-routine (qui n’a aucune valeur de retour) ou une fonction (qui a une valeur de retour). 
+Les instructions **Declare** ressemblent à ce qui suit, selon que vous appelez une sous-routine (qui n’a aucune valeur de retour) ou une fonction (qui a une valeur de retour).
   
 ```vb
 Public/Private Declare Sub SubName Lib "LibName" Alias "AliasName" (argument list)
@@ -77,15 +82,15 @@ Public/Private Declare Function FunctionName Lib "Libname" alias "aliasname" (ar
 
 ```
 
-La fonction **SubName** ou **FunctionName** est remplacée par le vrai nom de la procédure décrite dans le fichier DLL et correspond au nom utilisé lorsque la procédure est appelée à partir du code VBA. Vous pouvez également spécifier un argument **AliasName** pour le nom de la procédure. Le nom du fichier DLL qui contient la procédure appelée suit le mot-clé **Lib**. Enfin, la liste d’arguments contient les paramètres et les types de données qui doivent être transmis à la procédure. 
+La fonction **SubName** ou **FunctionName** est remplacée par le vrai nom de la procédure décrite dans le fichier DLL et correspond au nom utilisé lorsque la procédure est appelée à partir du code VBA. Vous pouvez également spécifier un argument **AliasName** pour le nom de la procédure. Le nom du fichier DLL qui contient la procédure appelée suit le mot-clé **Lib**. Enfin, la liste d’arguments contient les paramètres et les types de données qui doivent être transmis à la procédure.
   
-L’instruction **Declare** suivante ouvre une *subkey* dans le Registre Windows et remplace sa valeur. 
+L’instruction **Declare** suivante ouvre une *sous-clé* dans le Registre de Windows et remplace sa valeur.
   
 ```vb
 Declare Function RegOpenKeyA Lib "advapi32.dll" (ByVal Key As Long, ByVal SubKey As String, NewKey As Long) As Long
 ```
 
-L’entrée Windows.h (handle de fenêtre) pour la fonction **RegOpenKeyA** est comme suit : 
+L’entrée Windows.h (handle de fenêtre) pour la fonction **RegOpenKeyA** est comme suit :
   
 ```vb
 LONG RegOpenKeyA ( HKEY hKey, LPCSTR lpSubKey, HKEY *phkResult );
@@ -93,15 +98,15 @@ LONG RegOpenKeyA ( HKEY hKey, LPCSTR lpSubKey, HKEY *phkResult );
 
 Dans Visual C et Microsoft Visual C++, l’exemple précédent se compile correctement pour les versions 32 bits et 64 bits. Cela est dû au fait que HKEY est défini comme un pointeur, dont la taille reflète la taille de mémoire de la plateforme dans laquelle le code est compilé.
   
-Dans les versions précédentes de VBA, il n’existait aucun type de données de pointeur spécifique ; le type de données **Long** était par conséquent toujours utilisé. Le type de données **Long** étant toujours 32 bits, cela provoque un échec en cas d’utilisation sur un système doté d’une mémoire 64 bits car les 32 bits supérieurs peuvent être tronqués ou peuvent remplacer d’autres adresses mémoire. L’une ou l’autre de ces situations peut provoquer un comportement inattendu ou un blocage système. 
+Dans les versions précédentes de VBA, il n’existait aucun type de données de pointeur spécifique ; le type de données **Long** était par conséquent toujours utilisé. Le type de données **Long** étant toujours 32 bits, cela provoque un échec en cas d’utilisation sur un système doté d’une mémoire 64 bits car les 32 bits supérieurs peuvent être tronqués ou peuvent remplacer d’autres adresses mémoire. L’une ou l’autre de ces situations peut provoquer un comportement inattendu ou un blocage système.
   
-Pour résoudre ce problème, VBA inclut un véritable type de données *pointeur* : **LongPtr**. Ce nouveau type de données vous permet d’écrire correctement l’instruction **Declare** d’origine comme suit : 
+Pour résoudre ce problème, VBA inclut un véritable type de données *pointeur* : **LongPtr**. Ce nouveau type de données vous permet d’écrire correctement l’instruction **Declare** d’origine comme suit :
   
 ```vb
 Declare PtrSafe Function RegOpenKeyA Lib "advapire32.dll" (ByVal hKey as LongPtr, ByVal lpSubKey As String, phkResult As LongPtr) As Long
 ```
 
-Ce type de données et le nouvel attribut **PtrSafe** vous permettent d’utiliser cette instruction **Declare** sur les systèmes 32 bits ou 64 bits. L’attribut **PtrSafe** indique au compilateur VBA que l’instruction **Declare** concerne la version 64 bits d’Office. Sans cet attribut, l’utilisation de l’instruction **Declare** dans un système 64 bits entraîne une erreur de compilation. L’attribut **PtrSafe** est facultatif sur la version 32 bits d’Office. Cela permet aux instructions **Declare** existantes de fonctionner comme elles l’ont toujours fait. 
+Ce type de données et le nouvel attribut **PtrSafe** vous permettent d’utiliser cette instruction **Declare** sur les systèmes 32 bits ou 64 bits. L’attribut **PtrSafe** indique au compilateur VBA que l’instruction **Declare** concerne la version 64 bits d’Office. Sans cet attribut, l’utilisation de l’instruction **Declare** dans un système 64 bits entraîne une erreur de compilation. L’attribut **PtrSafe** est facultatif sur la version 32 bits d’Office. Cela permet aux instructions **Declare** existantes de fonctionner comme elles l’ont toujours fait.
   
 Le tableau suivant fournit des informations supplémentaires sur le nouveau qualificateur et les nouveaux types de données, ainsi qu’un autre type de données, deux opérateurs de conversion et trois fonctions.
   
@@ -115,16 +120,16 @@ Le tableau suivant fournit des informations supplémentaires sur le nouveau qual
 |Fonction  <br/> |**VarPtr** <br/> |Convertisseur de variante. Renvoie un **LongPtr** sur les versions 64 bits et un **Long** sur les versions 32 bits (4 octets). |
 |Fonction  <br/> |**ObjPtr** <br/> |Convertisseur d’objet. Renvoie un **LongPtr** sur les versions 64 bits et un **Long** sur les versions 32 bits (4 octets). |
 |Fonction  <br/> |**StrPtr** <br/> |Convertisseur de chaîne. Renvoie un **LongPtr** sur les versions 64 bits et un **Long** sur les versions 32 bits (4 octets). |
-   
-L’exemple suivant montre comment utiliser certains de ces éléments dans une instruction **Declare**. 
+
+L’exemple suivant montre comment utiliser certains de ces éléments dans une instruction **Declare**.
   
 ```vb
 Declare PtrSafe Function RegOpenKeyA Lib "advapi32.dll" (ByVal Key As LongPtr, ByVal SubKey As String, NewKey As LongPtr) As Long
 ```
 
-Notez que les instructions **Declare** sans attribut **PtrSafe** sont considérées comme non compatibles avec la version 64 bits d’Office. 
+Notez que les instructions **Declare** sans attribut **PtrSafe** sont considérées comme non compatibles avec la version 64 bits d’Office.
   
-Il existe deux constantes de compilation conditionnelle : **VBA7** et **Win64**. Pour assurer la compatibilité descendante avec les versions antérieures de Microsoft Office, utilisez la constante **VBA7** (c’est le cas le plus typique) pour empêcher d’utiliser le code 64 bits dans la version antérieure d’Office. Pour le code qui est différent entre la version 32 bits et la version 64 bits, comme l’appel d’une API de mathématiques qui utilise **LongLong** pour sa version 64 bits et **Long** pour sa version 32 bits, utilisez la constante **Win64**. Le code suivant montre l’utilisation de ces deux constantes. 
+Il existe deux constantes de compilation conditionnelle : **VBA7** et **Win64**. Pour assurer la compatibilité descendante avec les versions antérieures de Microsoft Office, utilisez la constante **VBA7** (c’est le cas le plus typique) pour empêcher d’utiliser le code 64 bits dans la version antérieure d’Office. Pour le code qui est différent entre la version 32 bits et la version 64 bits, comme l’appel d’une API de mathématiques qui utilise **LongLong** pour sa version 64 bits et **Long** pour sa version 32 bits, utilisez la constante **Win64**. Le code suivant montre l’utilisation de ces deux constantes.
   
 ```vb
 #if Win64 then
@@ -139,12 +144,13 @@ Il existe deux constantes de compilation conditionnelle : **VBA7** et **Win64**.
 #end if
 ```
 
-Pour résumer, si vous écrivez du code 64 bits et que vous comptez l’utiliser dans les versions précédentes d’Office, utilisez la constante de compilation conditionnelle **VBA7**. Cependant, si vous écrivez du code 32 bits dans Office, ce code fonctionne tel quel dans les versions précédentes d’Office sans passer par la constante de compilation. Si vous voulez vérifier que vous utilisez les instructions 32 bits pour les versions 32 bits et les instructions 64 bits pour les versions 64 bits, votre meilleure option consiste à utiliser la constante de compilation conditionnelle **Win64**. 
+Pour résumer, si vous écrivez du code 64 bits et que vous comptez l’utiliser dans les versions précédentes d’Office, utilisez la constante de compilation conditionnelle **VBA7**. Cependant, si vous écrivez du code 32 bits dans Office, ce code fonctionne tel quel dans les versions précédentes d’Office sans passer par la constante de compilation. Si vous voulez vérifier que vous utilisez les instructions 32 bits pour les versions 32 bits et les instructions 64 bits pour les versions 64 bits, votre meilleure option consiste à utiliser la constante de compilation conditionnelle **Win64**.
   
 ## <a name="using-conditional-compilation-attributes"></a>Utilisation des attributs de compilation conditionnelle
+
 <a name="odc_office_Compatibility32bit64bit_UsingConditionalCompilationAttributes"> </a>
 
-L’exemple suivant montre le code VBA destiné aux versions 32 bits qui doit être mis à jour. Notez que les types de données du code hérité sont mis à jour pour utiliser **LongPtr**, car ils font référence aux handles ou aux pointeurs. 
+L’exemple suivant montre le code VBA destiné aux versions 32 bits qui doit être mis à jour. Notez que les types de données du code hérité sont mis à jour pour utiliser **LongPtr**, car ils font référence aux handles ou aux pointeurs.
   
 ### <a name="vba-code-written-for-32-bit-versions"></a>Code VBA destiné aux versions 32 bits
   
@@ -219,7 +225,7 @@ Non.
   
 #### <a name="when-should-i-convert-long-parameters-to-longptr"></a>Quand dois-je convertir des paramètres Long en LongPtr ?
   
-Vous devez vérifier la documentation de l’API Windows sur le Microsoft Developers Network pour la fonction que vous voulez appeler. Les handles et les pointeurs doivent être convertis en **LongPtr**. À titre d'exemple, la documentation de [RegOpenKeyA](/windows/win32/api/winreg/nf-winreg-regopenkeyexa.md) fournit la signature suivante. 
+Vous devez vérifier la documentation de l’API Windows sur le Microsoft Developers Network pour la fonction que vous voulez appeler. Les handles et les pointeurs doivent être convertis en **LongPtr**. À titre d'exemple, la documentation de [RegOpenKeyA](/windows/win32/api/winreg/nf-winreg-regopenkeyexa.md) fournit la signature suivante.
   
 ```cs
 LONG WINAPI RegOpenKeyEx(
@@ -240,8 +246,8 @@ Les paramètres sont définis comme suit :
 |ulOptions  <br/> |Ce paramètre est réservé et doit être égal à zéro. |
 |samDesired [dans]  <br/> |Masque qui spécifie les droits d’accès souhaités à la clé. |
 |phkResult [out]  <br/> |Un *pointeur* vers une variable qui reçoit une handle vers la clé ouverte. |
-   
-Dans [Win32API_PtrSafe.txt](/office/troubleshoot/office/win32api_ptrsafe-with-64-bit-support.md), l’instruction **Declare** se définit comme suit : 
+
+Dans [Win32API_PtrSafe.txt](/office/troubleshoot/office/win32api_ptrsafe-with-64-bit-support.md), l’instruction **Declare** se définit comme suit :
   
 ```vb
 Declare PtrSafe Function RegOpenKeyEx Lib "advapi32.dll" Alias "RegOpenKeyExA" (ByVal hKey As LongPtr , ByVal lpSubKey As String, ByVal ulOptions As Long, ByVal samDesired As Long, phkResult As LongPtr ) As Long
@@ -249,7 +255,7 @@ Declare PtrSafe Function RegOpenKeyEx Lib "advapi32.dll" Alias "RegOpenKeyExA" (
 
 #### <a name="should-i-convert-pointers-and-handles-in-structures"></a>Dois-je convertir les pointeurs et les handles dans les structures ?
   
-Oui. Observez le type **MSG** dans Win32API_PtrSafe.txt : 
+Oui. Observez le type **MSG** dans Win32API_PtrSafe.txt :
   
 ```vb
 Type MSG
@@ -267,6 +273,7 @@ End TypeF
 Vous devez utiliser ces fonctions pour récupérer respectivement des pointeurs vers des chaînes, des variables et des objets. Sur la version 64 bits d’Office, ces fonctions renvoient un **LongPtr** de 64 bits, qui peut être transféré à l’instruction **Declare**. L’utilisation de ces fonctions n’a pas changé des versions précédentes de VBA. La seule différence est qu’elles renvoient désormais un **LongPtr**.
   
 ## <a name="see-also"></a>Voir aussi
+
 <a name="odc_office_Compatibility32bit64bit_AdditionalResources"> </a>
 
 - [Anatomie d’une instruction Declare](https://docs.microsoft.com/previous-versions/aa671659(v=vs.71))
