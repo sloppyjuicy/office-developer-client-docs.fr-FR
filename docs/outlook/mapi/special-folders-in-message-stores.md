@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9462070e-1472-4e12-ba4e-e4ac60022892
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 453aaa842b9b69d5eaf502f85cd5b3c2b655b673
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 27968188c366c0f4eb2b0dbb4eaf2b35369edfbf
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591072"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368747"
 ---
 # <a name="special-folders-in-message-stores"></a>Dossiers sp�ciaux dans des magasins de Message
 

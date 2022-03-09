@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee57d6e0-9de0-4427-97ce-371c1c01f3de
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6d65a0103e86b89aa051c41a1597d0b2208aa33e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 201be667502f67c69368fc8f60012a222da19157
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596140"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372954"
 ---
 # <a name="imapisupportcreateoneoff"></a>IMAPISupport::CreateOneOff
 
@@ -42,7 +41,7 @@ HRESULT CreateOneOff(
 
  _lpszName_
   
-> [in] Pointeur vers le nom complet du destinataire de la PR_DISPLAY_NAME **(** [PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Le  _paramètre lpszName_ peut être NULL. 
+> [in] Pointeur vers le nom complet du destinataire **PR_DISPLAY_NAME propriété (**[PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Le  _paramètre lpszName_ peut être NULL. 
     
  _lpszAdrType_
   
@@ -58,7 +57,7 @@ HRESULT CreateOneOff(
     
 MAPI_SEND_NO_RICH_INFO 
   
-> Le destinataire ne peut pas gérer le contenu des messages formatés. Si MAPI_SEND_NO_RICH_INFO est définie, MAPI définit la  propriété PR_SEND_RICH_INFO[(PidTagSendRichInfo)](pidtagsendrichinfo-canonical-property.md)du destinataire sur FALSE. Si MAPI_SEND_NO_RICH_INFO n’est pas définie, MAPI définit cette propriété sur TRUE, sauf si l’adresse de messagerie du destinataire pointée par  _lpszAddress_ est interprétée comme une adresse Internet. Dans ce cas, MAPI **définit** PR_SEND_RICH_INFO sur FALSE. 
+> Le destinataire ne peut pas gérer le contenu des messages formatés. Si MAPI_SEND_NO_RICH_INFO est définie, MAPI définit la propriété **PR_SEND_RICH_INFO (**[PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) du destinataire sur FALSE. Si MAPI_SEND_NO_RICH_INFO n’est pas définie, MAPI définit cette propriété sur TRUE, sauf si l’adresse de messagerie du destinataire pointée par  _lpszAddress_ est interprétée comme une adresse Internet. Dans ce cas, MAPI **définit PR_SEND_RICH_INFO** sur FALSE. 
     
 MAPI_UNICODE 
   
@@ -66,7 +65,7 @@ MAPI_UNICODE
     
  _lpcbEntryID_
   
-> [out] Pointeur vers le nombre d’octets dans l’identificateur d’entrée pointé par _le paramètre lppEntryID._ 
+> [out] Pointeur vers le nombre d’octets dans l’identificateur d’entrée pointé par  _le paramètre lppEntryID_ . 
     
  _lppEntryID_
   
@@ -84,7 +83,7 @@ La **méthode IMAPISupport::CreateOneOff** est implémentée pour tous les objet
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsque vous avez terminé d’utiliser l’identificateur d’entrée renvoyé par **CreateOneOff,** libérez la mémoire allouée pour l’identificateur d’entrée à l’aide de la fonction [MAPIFreeBuffer.](mapifreebuffer.md) 
+Lorsque vous avez terminé d’utiliser l’identificateur d’entrée renvoyé par **CreateOneOff**, libérez la mémoire allouée pour l’identificateur d’entrée à l’aide de la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
   
 ## <a name="notes-to-transport-providers"></a>Remarques aux fournisseurs de transport
 

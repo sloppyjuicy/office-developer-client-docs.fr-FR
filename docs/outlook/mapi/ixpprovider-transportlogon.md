@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 534929f2-36a2-463d-8c4c-d86060cde127
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 89a2cc10d7ee7e177c8dcbbbd28e89a26656b7e6
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 09890f299df688f98634df43442829f2f943e550
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461974"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372905"
 ---
 # <a name="ixpprovidertransportlogon"></a>IXPProvider::TransportLogon
 
@@ -50,7 +49,7 @@ _lpulFlags_: [in, out] Masque de bits d’indicateurs qui contrôle la façon do
         
   - LOGON_NO_DIALOG : aucune boîte de dialogue ne doit s’afficher même si les informations d’identification de l’utilisateur actuellement enregistrées ne sont pas valides ou insuffisantes pour la connexion.
         
-  - LOGON_NO_INBOUND : le fournisseur de transport n’a pas à s’initialiser pour la réception des messages et ne doit pas accepter les messages entrants. Lepooler MAPI peut utiliser la méthode [IXPLogon::TransportNotify](ixplogon-transportnotify.md) ultérieurement pour indiquer au fournisseur de transport d’activer le traitement des messages entrants. 
+  - LOGON_NO_INBOUND : le fournisseur de transport n’a pas besoin de s’initialiser pour la réception des messages et n’accepte pas les messages entrants. Lepooler MAPI peut utiliser la méthode [IXPLogon::TransportNotify](ixplogon-transportnotify.md) ultérieurement pour indiquer au fournisseur de transport d’activer le traitement des messages entrants. 
         
   - LOGON_NO_OUTBOUND : le fournisseur de transport n’a pas à s’initialiser pour l’envoi de messages, car lepooler MAPI n’en fournit aucun. Si une application cliente nécessite une connexion à un fournisseur distant pendant la composition d’un message afin de pouvoir effectuer des appels de méthode [IXPLogon::AddressTypes](ixplogon-addresstypes.md) , le fournisseur de transport doit établir la connexion. Lepooler MAPI peut utiliser **TransportNotify** pour signaler au fournisseur de transport que les opérations sortantes peuvent commencer. 
       
@@ -106,7 +105,7 @@ Si l’logo du fournisseur de transport réussit, le fournisseur doit renvoyer d
   
 Pour la plupart des valeurs d’erreur **renvoyées par TransportLogon**, MAPI désactive les services de messagerie à laquelle le fournisseur appartient. MAPI n’appellera aucun fournisseur qui appartient à ce service pour le reste de la session MAPI. En revanche, lorsque **TransportLogon** renvoie la valeur d’erreur MAPI_E_FAILONEPROVIDER à partir de son logo, MAPI ne désactive pas le service de messagerie auquel appartient le fournisseur. **TransportLogon** doit renvoyer MAPI_E_FAILONEPROVIDER si elle rencontre une erreur qui ne justifie pas la désactivation du service pour le reste de la session. 
   
-Si un fournisseur renvoie MAPI_E_UNCONFIGURED à partir de sa logon, MAPI appelle la fonction d’entrée de service de messagerie du fournisseur, puis réessaye d’y revenir. MAPI passe MSG_SERVICE_CONFIGURE comme contexte, pour donner au service la possibilité de se configurer lui-même. Si le client a choisi d’autoriser une interface utilisateur sur la logon, le service peut présenter sa feuille de propriétés de configuration afin que l’utilisateur puisse entrer des informations de configuration. 
+Si un fournisseur renvoie MAPI_E_UNCONFIGURED à partir de sa logon, MAPI appelle la fonction d’entrée de service de messagerie du fournisseur, puis réessaye d’y revenir. MAPI transmet MSG_SERVICE_CONFIGURE comme contexte, pour donner au service la possibilité de se configurer lui-même. Si le client a choisi d’autoriser une interface utilisateur sur la logon, le service peut présenter sa feuille de propriétés de configuration afin que l’utilisateur puisse entrer des informations de configuration. 
   
 Si le fournisseur trouve que toutes les informations requises ne se trouvent pas dans le profil, il doit renvoyer MAPI_E_UNCONFIGURED afin que MAPI appelle la fonction de point d’entrée du service de messagerie du fournisseur. 
   

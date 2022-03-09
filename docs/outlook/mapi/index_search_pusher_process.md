@@ -7,19 +7,16 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 6b39504f-6eed-2605-048d-2707f38a7d9a
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 34c7f5f2a17ce4b1fb4ed18bf7c3ab89a18cb658
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4aca18b7cf648dbeaf12663006fc5f6cbbc936b1
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556356"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371498"
 ---
 # <a name="index_search_pusher_process"></a>INDEX_SEARCH_PUSHER_PROCESS
 
-  
-  
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016
   
 Spécifie le processus qui envoie une notification au responsable du protocole MAPI qu’un objet de ce magasin est prêt pour l’indexation.
   
@@ -33,8 +30,6 @@ typedef struct _INDEX_SEARCH_PUSHER_PROCESS {
 
 ## <a name="members"></a>Membres
 
- *dwPID* 
+ *dwPID*
   
->  ID de processus pour le processus qui envoie une notification d’indexation à l’indexeur du handler de protocole MAPI. 
-    
-
+> ID de processus pour le processus qui envoie une notification d’indexation à l’indexeur du handler de protocole MAPI.

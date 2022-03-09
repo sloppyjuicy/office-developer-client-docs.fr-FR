@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7ea282d7-388a-4f05-9780-f8dbc5c5d395
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e134af27e4d4a3bc9e3300168998f773e5ce5624
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: fc10bb50dbffeaef77e61bc3c6d9833990686a07
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462430"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370854"
 ---
 # <a name="imapimessagesitegetlasterror"></a>IMAPIMessageSite::GetLastError
 

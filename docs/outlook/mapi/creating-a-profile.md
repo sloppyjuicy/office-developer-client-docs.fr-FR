@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 80867adf-6786-47a9-9d3f-4aef4a7d7c66
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f1e0c0e4f9ad2f9d723e32a46ea6284807098054
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ea844ebf0e49399684a79afe075840169bdde24d
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551736"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370035"
 ---
 # <a name="creating-a-profile"></a>Création d’un profil
 

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd4646d2-8229-499d-91aa-3cbec72b9445
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 23b486a91701a317f23b6dd1f0018db115f369c4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e972e6c7983afe65a04e5345908fccc6cc29afb5
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579767"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370364"
 ---
 # <a name="ipersistmessageload"></a>IPersistMessage::Load
 
@@ -40,7 +39,7 @@ HRESULT Load(
 
  _pMessageSite_
   
-> [in] Pointeur vers le site de message pour le formulaire à charger.
+> [in] Pointeur vers le site du message pour le formulaire à charger.
     
  _pMessage_
   
@@ -48,11 +47,11 @@ HRESULT Load(
     
  _ulMessageStatus_
   
-> [in] Masque de bits d’indicateurs définis par le client ou par un fournisseur, copiés à partir de la propriété **PR_MSG_STATUS** ([PidTagMessageStatus)](pidtagmessagestatus-canonical-property.md)du message, qui fournissent des informations sur l’état du message.
+> [in] Masque de bits d’indicateurs définis par le client ou par un fournisseur, copiés à partir de la propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) du message, qui fournissent des informations sur l’état du message.
     
  _ulMessageFlags_
   
-> [in] Masque de bits d’indicateurs, copié à partir de la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags)](pidtagmessageflags-canonical-property.md)du message, qui fournit des informations supplémentaires sur l’état du message.
+> [in] Masque de bits d’indicateurs, copié à partir de la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du message, qui fournit des informations supplémentaires sur l’état du message.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -62,7 +61,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IPersistMessage::Load** pour charger un formulaire pour un message existant. 
+Les visionneuses de **formulaires appellent la méthode IPersistMessage::Load** pour charger un formulaire pour un message existant. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
@@ -76,9 +75,9 @@ Les visionneuses de formulaires appellent la méthode **IPersistMessage::Load** 
     
 Si une visionneuse de formulaire appelle **Load** alors que le formulaire est dans un autre état, la méthode renvoie E_UNEXPECTED. 
   
-Si votre formulaire a une référence à un site de message actif autre que celui qui est transmis au chargement **,** libèrez le site d’origine car il ne sera plus utilisé. Stockez les pointeurs vers le site de message et le message à partir des paramètres  _pMessageSite_ et  _pMessage_ et appelez les méthodes [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) des deux objets pour incrémenter leur nombre de références. 
+Si votre formulaire a une référence à un site de messages actif autre que celui qui est transmis à **Load**, release the original site because it will no longer be used. Stockez les pointeurs vers le site de message et le message à partir des paramètres  _pMessageSite_ et  _pMessage_ et appelez les méthodes [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) des deux objets pour incrémenter leur nombre de références. 
   
-Une **fois AddRef** terminé, stockez les propriétés des  _paramètres ulMessageStatus_ et  _ulMessageFlags_ dans le formulaire. Transition du formulaire vers son état [Normal](normal-state.md) avant de l’afficher et avertir les visionneuses inscrites en appelant leurs méthodes [IMAPIViewAdviseSink::OnNewMessage.](imapiviewadvisesink-onnewmessage.md) 
+Une **fois AddRef** terminé, stockez les  _propriétés des paramètres ulMessageStatus_ et  _ulMessageFlags_ dans le formulaire. Transition du formulaire vers son état [Normal](normal-state.md) avant de l’afficher et avertir les visionneuses inscrites en appelant leurs méthodes [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) . 
   
 Si aucune erreur ne se produit, renvoyez S_OK. 
   

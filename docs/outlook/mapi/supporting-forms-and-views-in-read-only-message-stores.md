@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: da5f080d-4397-4ce6-8561-73dd13445e77
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 688c0726faa5cb27f74f433e356a9931db58033f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5f07e70135e02df278693bceff94e03c42a76efb
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590988"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372170"
 ---
 # <a name="supporting-forms-and-views-in-read-only-message-stores"></a>Prise en charge des formulaires et des affichages dans des magasins de Message en lecture seule
 

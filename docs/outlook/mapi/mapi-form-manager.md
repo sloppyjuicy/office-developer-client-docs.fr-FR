@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c0bbbd06-d47d-45ad-8179-2372d1d023d0
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 67022a2fd85dbbc7be0dbc3f5481318f2a806d7c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2e7fa6dfc9b0d4fae30ce781272f0bc017ac0f3a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592157"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369111"
 ---
 # <a name="mapi-form-manager"></a>Gestionnaire de formulaire MAPI
 
@@ -21,9 +20,9 @@ ms.locfileid: "59592157"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un gestionnaire de formulaires est un objet qui implémente l’interface [IMAPIFormMgr.](imapiformmgriunknown.md) La plupart des organisations utilisent le gestionnaire de formulaires fourni avec MAPI, appelé gestionnaire de formulaires par défaut. Toutefois, une organisation peut remplacer le gestionnaire de formulaires par défaut par un gestionnaire de formulaires personnalisé si vous le souhaitez. Le gestionnaire de formulaires s’occupe de la localisation des formulaires dans les bibliothèques de formulaires, du chargement des formulaires en réponse aux demandes des utilisateurs et de l’installation des formulaires dans la bibliothèque de formulaires locale, la bibliothèque de formulaires de dossiers ou la bibliothèque de formulaires personnels d’un utilisateur. 
+Un gestionnaire de formulaires est un objet qui implémente l’interface [IMAPIFormMgr](imapiformmgriunknown.md) . La plupart des organisations utilisent le gestionnaire de formulaires fourni avec MAPI, appelé gestionnaire de formulaires par défaut. Toutefois, une organisation peut remplacer le gestionnaire de formulaires par défaut par un gestionnaire de formulaires personnalisé si vous le souhaitez. Le gestionnaire de formulaires s’occupe de la localisation des formulaires dans les bibliothèques de formulaires, du chargement des formulaires en réponse aux demandes des utilisateurs et de l’installation des formulaires dans la bibliothèque de formulaires locale, la bibliothèque de formulaires de dossiers ou la bibliothèque de formulaires personnels d’un utilisateur. 
   
-Pour qu’un utilisateur interagisse avec un message, une instance du serveur de formulaire pour la classe de message du message doit être créée et activée pour afficher le message et effectuer l’opération demandée sur le message. Comme décrit dans la rubrique Bibliothèques de [formulaires MAPI,](mapi-form-libraries.md)l’implémentation d’un formulaire peut exister à différents emplacements (bibliothèques de formulaires) et il n’est pas garanti qu’un formulaire ou son serveur sera disponible localement ou dans un état d’exécution lorsqu’un utilisateur souhaite interagir avec celui-ci. Le gestionnaire de formulaires s’occupe des détails de la localisation et de l’activation du formulaire.
+Pour qu’un utilisateur interagisse avec un message, une instance du serveur de formulaires pour la classe de message du message doit être créée et activée pour afficher le message et effectuer l’opération demandée sur le message. Comme décrit dans la rubrique [Bibliothèques de formulaires MAPI](mapi-form-libraries.md), l’implémentation d’un formulaire peut exister à différents emplacements (bibliothèques de formulaires) et il n’est pas garanti qu’un formulaire ou son serveur sera disponible localement ou dans un état d’exécution lorsqu’un utilisateur souhaite interagir avec celui-ci. Le gestionnaire de formulaires s’occupe des détails de la localisation et de l’activation du formulaire.
   
 Les clients utilisent les services fournis par le gestionnaire de formulaires pour rechercher et activer des formulaires. **L’interface IMAPIFormMgr** est implémentée par le gestionnaire de formulaires et est appelée par les clients pour accéder à ses services. Le gestionnaire de formulaires est un composant essentiel, car il masque presque tous les détails de recherche et d’activation des formulaires des clients de messagerie. 
   

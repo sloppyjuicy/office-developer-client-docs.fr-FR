@@ -10,14 +10,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7a92060b-4c30-4eba-993f-36f5f9231a4b
-description: 'Derniére modification : samedi 23 juillet 2011'
 ms.localizationpriority: high
-ms.openlocfilehash: 86eef598a84ed7cd11d1fdcc6350375c6421a029
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0872c2a8922ee00f8bcc99ecca4679966ffce68e
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59549874"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372149"
 ---
 # <a name="tchar"></a>TCHAR
 

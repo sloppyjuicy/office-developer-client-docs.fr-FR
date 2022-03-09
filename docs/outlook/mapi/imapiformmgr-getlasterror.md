@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5d908771-ec16-444d-a9b6-44cc75a4d715
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a55ab1ab9212fab53078dd09658e9565826c6613
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7e3657f13d85a481b0a57bb53eaf256389ede830
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610565"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371953"
 ---
 # <a name="imapiformmgrgetlasterror"></a>IMAPIFormMgr::GetLastError
 
@@ -47,7 +46,7 @@ HRESULT GetLastError(
     
 MAPI_UNICODE 
   
-> Les chaînes de la structure **MAPIERROR renvoyées** dans le paramètre  _lppMAPIError_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
+> Les chaînes de la structure **MAPIERROR renvoyées** dans le paramètre _lppMAPIError_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
     
  _lppMAPIError_
   
@@ -71,7 +70,7 @@ La **méthode IMAPIFormMgr::GetLastError** fournit des informations sur un appel
 
 Vous pouvez utiliser la structure **MAPIERROR** pointée par le paramètre  _lppMAPIError_ si MAPI en fournit un uniquement si **GetLastError** renvoie S_OK. Parfois, MAPI ne peut pas déterminer la dernière erreur ou n’a rien d’autre à signaler sur l’erreur. Dans ce cas, NULL est renvoyé dans  _lppMAPIError_ à la place. 
   
-Pour plus d’informations sur **la méthode GetLastError,** voir [Using Extended Errors](mapi-extended-errors.md).
+Pour plus d’informations **sur la méthode GetLastError** , voir [Using Extended Errors](mapi-extended-errors.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a51547e6-8f0e-45f4-a341-3cfa735112c2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f189ed78d7feb1714fa2a04bf29403c6d33773af
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 115e6f2e647dd3359a7aa718b763834fca245f08
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609319"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370217"
 ---
 # <a name="transport-provider-overview"></a>Vue d’ensemble du fournisseur de transport
 

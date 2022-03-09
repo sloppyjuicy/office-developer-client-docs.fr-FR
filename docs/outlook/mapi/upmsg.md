@@ -7,19 +7,18 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 5fe3956b-819a-3edf-0e49-7a44bcfbabcd
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d615084e2fc379925f53d08a2dd8ddbe538111ea
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c079d4ac3cb1cfc4b8ff8fe3d166b287e9642ac0
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619511"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368579"
 ---
 # <a name="upmsg"></a>UPMSG
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour le chargement d’un Outlook pendant [l’état de chargement du message.](upload-message-state.md)
+Informations pour le chargement d’un Outlook pendant [l’état de chargement du message](upload-message-state.md).
   
 ## <a name="quick-info"></a>Informations rapides
 

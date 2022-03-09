@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: d423f7b5-23b8-44dd-bca3-6590182dc42d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 43ccaf50aedf94e041e6975325a0bf553aac4c4b
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 37af0f0fc9a13834385d373fac86bf5b1f2b8bc2
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461925"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373185"
 ---
 # <a name="iaddrbookpreparerecips"></a>IAddrBook::PrepareRecips
 
@@ -43,7 +42,7 @@ HRESULT PrepareRecips(
     
 MAPI_CACHE_ONLY
   
-> Utilisez uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le Exchange de carnet d’adresses.
+> Utilisez uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur Exchange carnet d’adresses.
     
  _lpSPropTagArray_
   

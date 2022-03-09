@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 34bae703-a979-437c-9d86-8b91e9822a54
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2e78f5a9450b16e323bfea3ebb8c01119d2cf3d3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e2fd04ed89484504342194d19d2fbc491c676fa2
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567213"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369139"
 ---
 # <a name="mapi-features-and-architecture"></a>Fonctionnalités et architecture MAPI
 

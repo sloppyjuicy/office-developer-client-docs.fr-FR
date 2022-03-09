@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 890d9cbe-3570-4cf0-aeae-667c0e5ba181
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 99022d5914881ff6ce2893c8f1d624d8c70efbec
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: fcc8e6b6372f35f254b68ba6b7469e1b8ff7521c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462812"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369188"
 ---
 # <a name="imsproviderlogon"></a>IMSProvider::Logon
 
@@ -56,7 +55,7 @@ HRESULT Logon(
     
  _lpszProfileName_
   
-> [in] Pointeur vers une chaîne qui contient le nom du profil utilisé pour l’ouverture de page du fournisseur de magasins. Cette chaîne peut être affichée dans des boîtes de dialogue, écrite dans un fichier journal ou simplement ignorée. Elle doit être au format Unicode si l’MAPI_UNICODE est définie dans _le paramètre ulFlags_ . 
+> [in] Pointeur vers une chaîne qui contient le nom du profil utilisé pour l’ouverture de page du fournisseur de magasins. Cette chaîne peut être affichée dans des boîtes de dialogue, écrite dans un fichier journal ou simplement ignorée. Elle doit être au format Unicode si l’MAPI_UNICODE est définie dans le _paramètre ulFlags_ . 
     
  _cbEntryID_
   
@@ -186,7 +185,7 @@ MAPI libère cette mémoire tampon, le cas échéant. Si l’ouverture de page d
   
 La plupart des fournisseurs de magasins utilisent la méthode [IMAPISession::OpenProfileSection](imapisession-openprofilesection.md) de l’objet de support transmis dans le paramètre _lpMAPISup_ pour enregistrer et récupérer les informations d’identification et les options de l’utilisateur. **OpenProfileSection** permet à un fournisseur de magasin d’enregistrer des informations arbitraires supplémentaires dans une section de profil et de les associer à une ressource particulière. Par exemple, un fournisseur de banque d’informations peut enregistrer le nom du compte d’utilisateur et le mot de passe associés à une ressource, ainsi que les chemins d’accès ou autres informations nécessaires pour accéder à cette ressource. 
   
-Les propriétés dont les identificateurs de propriétés 0x6600 via 0x67FF sont des propriétés sécurisées disponibles pour le fournisseur pour son propre usage afin de stocker des données privées dans des sections de profil. Pour plus d’informations sur les utilisations des propriétés dans les objets de section de profil, voir la méthode [IProfSect : IMAPIProp](iprofsectimapiprop.md) . 
+Les propriétés avec identificateurs 0x6600 par 0x67FF sont des propriétés sécurisées disponibles pour le fournisseur pour son propre usage pour stocker des données privées dans des sections de profil. Pour plus d’informations sur les utilisations des propriétés dans les objets de section de profil, voir la méthode [IProfSect : IMAPIProp](iprofsectimapiprop.md) . 
   
 Outre les données privées dans les propriétés avec des identificateurs 0x6600 via 0x67FF, le fournisseur de banque doit fournir des informations pour la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) dans sa section de profil. Il doit placer dans **PR_DISPLAY_NAME** le nom complet du fournisseur lui-même , une chaîne d’identification (par exemple, « Microsoft Personal Information Store ») qui s’affiche pour les utilisateurs afin qu’ils peuvent distinguer ce magasin de messages des autres personnes à qui ils ont peut-être accès. **PR_DISPLAY_NAME** contient généralement un nom de serveur, un nom de compte d’utilisateur ou un chemin d’accès. 
   
@@ -194,7 +193,7 @@ Certaines propriétés de section de profil sont visibles dans la table de la bo
   
 Après avoir correctement journalé un utilisateur et avant de revenir à MAPI, le fournisseur de magasins doit créer le tableau des propriétés de la ligne d’état de la ressource et appeler la méthode [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) . 
   
- **Les appels d’ouverture** de session qui ouvrent des magasins de messages déjà ouverts pour la session MAPI en cours ignorent une grande partie du traitement décrit précédemment. Ces appels ne créent pas de lignes d’état, ne retournent pas d’objets d’ouverture de conférence de la boutique de messages, appellent **AddRef** pour l’objet de support MAPI ou ne retournent pas de données pour l’ouverture de conférence dupooler MAPI. Ces appels ne retournent pas S_OK et retournent un objet de magasin de messages avec l’interface demandée. 
+ **Les appels d’ouverture** de session qui ouvrent des magasins de messages déjà ouverts pour la session MAPI en cours ignorent une grande partie du traitement décrit précédemment. Ces appels ne créent pas de lignes d’état, ne retournent pas d’objets d’ouverture de conférence de la boutique de messages, appellent **AddRef** pour l’objet de support MAPI ou ne retournent pas de données pour l’ouverture de conférence dupooler MAPI. Ces appels ne retournent S_OK et retournent un objet de magasin de messages avec l’interface demandée. 
   
 Pour détecter ces appels, le fournisseur doit conserver une liste dans l’objet fournisseur de la boutique de messages des magasins déjà ouverts pour cet objet fournisseur. Lors du traitement **d’un appel d’ouverture** de session, le fournisseur doit analyser cette liste de magasins ouverts et déterminer si la boutique à ouvrir est déjà ouverte. Si c’est le cas, les informations d’identification de l’utilisateur n’ont pas besoin d’être cochées et l’affichage d’une boîte de dialogue doit être évité, si possible. Si des boîtes de dialogue doivent être affichées, le fournisseur doit vérifier les informations renvoyées pour voir si un magasin a été ouvert une deuxième fois. En outre, le fournisseur doit vérifier les ouvertures en double à l’aide de  _lpEntryID_ au début du traitement des appels **d’ouverture** de conférence. 
   

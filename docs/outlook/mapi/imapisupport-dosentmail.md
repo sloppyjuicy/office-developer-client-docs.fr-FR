@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4bb65c2a-9926-42da-9161-47836e8de40a
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 296c2df4b3dbee93a54585a932ee06591aecb3aa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 50725583e6d6f0346a7fdfb7224f15c76c360ae3
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596070"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369370"
 ---
 # <a name="imapisupportdosentmail"></a>IMAPISupport::DoSentMail
 
@@ -56,7 +55,7 @@ The **IMAPISupport::DoSentMail** method is implemented for message store provide
   
  **DoSentMail** effectue les t�ches suivantes : 
   
-- Vérifie la propriété **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) pour déterminer si le message doit être supprimé après l’envoi.
+- Vérifie le message pour la **propriété PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) pour déterminer si le message doit être supprimé après l’envoi.
     
 - D�termine l'emplacement du dossier �l�ments envoy�s.
     

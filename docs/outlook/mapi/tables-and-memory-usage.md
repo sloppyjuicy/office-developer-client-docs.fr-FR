@@ -7,29 +7,28 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7ac11e60-6b2c-4241-96e2-20219f84d949
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7ddb50ba5c64ca91485252c0d58de5d2febf7cd4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bcfaa795af9fd983860352154ac32184d7fba078
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566303"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369818"
 ---
 # <a name="tables-and-memory-usage"></a>Utilisation de la mémoire et des tables
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un problème important lié à la récupération de données à partir d’une table est l’utilisation de la mémoire. Le manque de mémoire disponible peut entraîner l’échec [d’IMAPITable::QueryRows](imapitable-queryrows.md) et [HrQueryAllRows,](hrqueryallrows.md) en renvoyant moins de lignes que le nombre souhaité. Le choix de la méthode ou de la fonction à utiliser pour récupérer les données d’un tableau dépend du fait que la table doit tenir dans la mémoire et, si elle ne l’est pas, si l’échec est acceptable. 
+Un problème important lié à la récupération des données d’une table est l’utilisation de la mémoire. Le manque de mémoire disponible peut entraîner l’échec [d’IMAPITable::QueryRows](imapitable-queryrows.md) et [HrQueryAllRows](hrqueryallrows.md) , en renvoyant moins de lignes que le nombre souhaité. Le choix de la méthode ou de la fonction à utiliser pour récupérer les données d’un tableau varie selon que la table doit tenir dans la mémoire et, si elle ne l’est pas, si l’échec est acceptable. 
   
-Étant donné qu’il n’est pas toujours facile de déterminer la quantité de données qui s’intégrera en mémoire à la fois, MAPI fournit des instructions de base pour qu’une application cliente ou un fournisseur de services suive. N’oubliez pas qu’il existe toujours des exceptions, en fonction de l’implémentation particulière de la table et de la façon dont les données sous-jacentes sont stockées.
+Étant donné qu’il n’est pas toujours facile de déterminer la quantité de données qui s’intégrera dans la mémoire à la fois, MAPI fournit des instructions de base pour qu’une application cliente ou un fournisseur de services suive. N’oubliez pas qu’il existe toujours des exceptions, en fonction de l’implémentation de la table particulière et de la façon dont les données sous-jacentes sont stockées.
   
 Les instructions suivantes peuvent être utilisées pour évaluer l’utilisation de la mémoire des tableaux :
   
 - Les clients qui peuvent tolérer un travail occasionnel définissent l’utilisation de la mémoire dans la plage de mégaoctets et peuvent supposer qu’ils n’auront aucun problème à lire un tableau entier en mémoire. 
     
-- Les restrictions ont une incidence sur l’utilisation de la mémoire par une table. Un tableau très restreint avec un grand nombre de lignes, telles qu’une table des matières, peut être censé tenir dans la mémoire, alors qu’une grande table non restreinte ne le peut généralement pas. 
+- Les restrictions ont une incidence sur l’utilisation de la mémoire par une table. Une table très restreinte avec un grand nombre de lignes, telles qu’une table des matières, peut être attendue pour tenir dans la mémoire, alors qu’une grande table non restreinte ne le peut généralement pas. 
     
-- Plusieurs tables de MAPI, telles que les tables d’état, de profil, de service de message, de fournisseur et de magasin de messages, sont généralement stockées en mémoire. Il s’agit généralement de petites tables. Toutefois, il existe des exceptions. Par exemple, un fournisseur de profils basé sur un serveur peut générer une table de profil plus grande qui ne pourra pas tenir.
+- Plusieurs tables de MAPI, telles que les tables d’état, de profil, de service de message, de fournisseur et de magasin de messages, sont généralement stockées en mémoire. Il s’agit généralement de petites tables. Toutefois, il existe des exceptions. Par exemple, un fournisseur de profils basé sur un serveur peut générer une table de profils plus grande qui ne pourra pas tenir.
     
 Pour récupérer toutes les lignes d’un tableau qui s’intègrera dans la mémoire sans problème, appelez [HrQueryAllRows](hrqueryallrows.md), en fixant le nombre maximal de lignes sur zéro.
   

@@ -5,13 +5,12 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 78e2806d-bb6f-cd96-21f1-b7c667c73c33
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 033053c41988ad9b63f88def7652d1a37dae5f1e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fa3fee69ae7676ecdf280cf922e5ddf54e07d0db
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588307"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372996"
 ---
 # <a name="about-mapi-additions"></a>Ajouts MAPI
 

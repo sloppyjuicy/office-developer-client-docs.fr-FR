@@ -7,13 +7,12 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: bf6892d0-a923-e926-5361-59efa49ebdc0
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: de70857fa24cd6e02596fd871aa0ff369389c616
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7918db66ca41ba13b62fea2fa345fc5e5572520d
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564364"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368838"
 ---
 # <a name="hdrsync"></a>HDRSYNC
 
@@ -21,7 +20,7 @@ ms.locfileid: "59564364"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour la synchronisation d’un en-tête de message pendant [l’état d’en-tête du message de téléchargement.](download-message-header-state.md)
+Informations pour la synchronisation d’un en-tête de message pendant [l’état d’en-tête du message de téléchargement](download-message-header-state.md).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -42,7 +41,7 @@ struct HDRSYNC
   
 - [out] Informations pour l’en-tête de message actuel dans la boutique locale.
     
- _pare-vie_
+ _todPar_
   
 - [out] ID d’entrée pour le dossier parent de l’élément de message.
     

@@ -8,18 +8,18 @@ keywords:
 - framework library functions [excel 2007],functions [Excel 2007], Framework library
 ms.localizationpriority: medium
 ms.assetid: 7d9a13fd-9a4c-423e-bb08-4a5be57c7905
-ms.openlocfilehash: 4c4d1ffd5d3a6db756aed7f18bc4d305c54e4981
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: 430cbc7616a26ab07abf40d1ac11e41a9ca0e638
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62199002"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372030"
 ---
 # <a name="functions-in-the-framework-library"></a>Fonctions dans la bibliothèque d’infrastructure
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-La bibliothèque Framework a été créée pour faciliter l’écriture de XL. Il inclut des fonctions simples pour la gestion de la mémoire **XLOPER** XLOPER12, la création temporaire de XLOPER XLOPER12 , l’appel robuste des fonctions de rappel /   Microsoft Excel  /  (**Excel4**, **Excel4v**, ** Excel12 **, ** Excel12v **) et l’impression de chaînes de débogage sur un terminal attaché.
+La bibliothèque Framework a été créée pour faciliter l’écriture de XL. Il inclut des fonctions simples pour la gestion de la mémoire **XLOPERXLOPER12**/ , la création temporaire de **XLOPERXLOPER12**/ , l’appel robuste des fonctions de rappel Microsoft Excel (**Excel4**, **Excel4v**, **Excel12**, **Excel12v**) et l’impression de chaînes de débogage sur un terminal attaché.
   
 Les fonctions incluses dans cette bibliothèque simplifient un élément de code qui ressemble à ce qui suit.
   
@@ -64,7 +64,7 @@ Les fonctions suivantes sont incluses dans la bibliothèque Framework :
    
 L’utilisation de ces fonctions réduit le temps nécessaire à l’écriture d’une DLL ou d’une XLL. Le démarrage du développement à partir de l’exemple d’application GENERIC raccourcit également le temps de développement. Utilisez GENERIC. C en tant que modèle pour vous aider à configurer l’infrastructure d’une XLL, puis à remplacer le code existant par le vôtre.
   
-Les fonctions **XLOPER** /  **XLOPER12** temporaires créent des valeurs  /  **XLOPER XLOPER12** à l’aide de la mémoire d’un tas local géré par la bibliothèque Framework. Les **valeurs XLOPER** XLOPER12 restent valides jusqu’à ce que vous appeliez la fonction /   **FreeAllTempMemory** ou l’une des fonctions **Excel** ou **Excel12f.** (Les **fonctions Excel** **excel12f** libèrent toute la mémoire temporaire avant de revenir.) 
+Les fonctions **XLOPERXLOPER12** /  temporaires créent des valeurs **XLOPERXLOPER12** /  à l’aide de la mémoire d’un tas local géré par la bibliothèque Framework. Les **valeurs** XLOPERXLOPER12 /  restent valides jusqu’à ce que vous appeliez la fonction **FreeAllTempMemory** ou l’une des fonctions **Excel** ou **Excel12f**. (Les **fonctions Excel** **excel12f** libèrent toute la mémoire temporaire avant de revenir.) 
   
 Pour utiliser les fonctions de la bibliothèque Framework, vous devez inclure FRAMEWRK. Fichier H dans votre code C et ajoutez frameWRK. C ou FRMWRK32. Fichiers LIB dans votre projet de code.
   

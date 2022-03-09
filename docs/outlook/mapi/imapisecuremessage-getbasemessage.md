@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 573f40c5-e0d2-4281-8c22-10a1ae1f0dee
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: abbbc3e67cb82bec98e136093dc324d761bce956
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cb455858fec9020c558958282e8066d3250e256b
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613918"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370658"
 ---
 # <a name="imapisecuremessagegetbasemessage"></a>IMAPISecureMessage::GetBaseMessage
 
@@ -25,7 +24,7 @@ ms.locfileid: "59613918"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Extrait [l’IMessage sous-jacent : IMAPIProp](imessageimapiprop.md) que cet [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) encapsule. 
+Extrait [l’IMessage sous-jacent : IMAPIProp](imessageimapiprop.md) que ce [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) encapsule. 
   
 ```cpp
 HRESULT GetBaseMessage(

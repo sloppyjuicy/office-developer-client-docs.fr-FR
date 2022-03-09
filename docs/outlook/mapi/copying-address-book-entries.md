@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 285abeb4-45c8-4e82-9a16-b935b4651afe
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e795bbd5b521abc8c2a6cc7bb9e8fc59e6d22844
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 2dde3f005d909050b69869e03cd3775919c3736c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781568"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368873"
 ---
 # <a name="copying-address-book-entries"></a>Copie des entrées du carnet d’adresses
 
@@ -21,7 +21,7 @@ ms.locfileid: "62781568"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La méthode [IABContainer::CopyEntries](iabcontainer-copyentries.md) de votre conteneur est appelée lorsqu’un ou plusieurs destinataires du même conteneur ou d’un autre conteneur doivent être copiés dans ce conteneur. **CopyEntries** possède quatre paramètres d’entrée : un tableau d’identificateurs d’entrée représentant les destinataires à copier, une poignée de fenêtre pour l’indicateur de progression, un pointeur d’objet de progression et une valeur d’indicateurs. Votre fournisseur doit afficher la progression si l’indicateur AB_NO_DIALOG n’est pas définie et utiliser l’objet de progression du paramètre  _lpProgress_ s’il n’est pas NULL. Si  _lpProgress_ est NULL, appelez [IMAPISupport::D oProgressDialog](imapisupport-doprogressdialog.md) pour utiliser l’objet de progression MAPI. Pour plus d’informations sur l’affichage de la progression, voir [Affichage d’un indicateur de progression](mapi-progress-indicators.md).
+La méthode [IABContainer::CopyEntries](iabcontainer-copyentries.md) de votre conteneur est appelée lorsqu’un ou plusieurs destinataires du même conteneur ou d’un autre conteneur doivent être copiés dans ce conteneur. **CopyEntries** possède quatre paramètres d’entrée : un tableau d’identificateurs d’entrée représentant les destinataires à copier, une poignée de fenêtre pour l’indicateur de progression, un pointeur d’objet de progression et une valeur d’indicateurs. Votre fournisseur doit afficher la progression si l’indicateur AB_NO_DIALOG n’est pas définie et utiliser l’objet de progression du paramètre _lpProgress_ s’il n’est pas NULL. Si  _lpProgress_ est NULL, appelez [IMAPISupport::D oProgressDialog](imapisupport-doprogressdialog.md) pour utiliser l’objet de progression MAPI. Pour plus d’informations sur l’affichage de la progression, voir [Affichage d’un indicateur de progression](mapi-progress-indicators.md).
   
 En plus de AB_NO_DIALOG supprimer un indicateur de progression, l’un des deux autres indicateurs peut être définie pour demander un type de vérification des entrées en double : CREATE_CHECK_DUP_LOOSE ou CREATE_CHECK_DUP_STRICT. Les indicateurs CREATE_CHECK_DUP_LOOSE et CREATE_CHECK_DUP_STRICT sont uniquement des suggestions quant à la façon dont votre fournisseur détermine les entrées en double et peut être ignorée. MAPI suggère à votre fournisseur d’implémenter la prise en charge de ces indicateurs comme suit.
   

@@ -7,19 +7,18 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 39d9ad3b-ff4b-8378-a3ac-d5621c7ef7f1
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: db56cf54bf524e3d0996b35c99eee385117b0cf8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 90c9338a6b4814bfcb0080109ec070ed0f2c157c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609228"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371183"
 ---
 # <a name="uptbl"></a>UPTBL
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour le chargement du contenu d’un dossier pendant [l’état de la table de chargement.](upload-table-state.md)
+Informations pour le chargement du contenu d’un dossier pendant [l’état de la table de chargement](upload-table-state.md).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -83,7 +82,7 @@ _cEnt_
     
 _movHead_
   
-> [out] Chaîne de structures [UPMOV.](upmov.md) 
+> [out] Chaîne de structures [UPMOV](upmov.md) . 
     
 _pReserved_
   

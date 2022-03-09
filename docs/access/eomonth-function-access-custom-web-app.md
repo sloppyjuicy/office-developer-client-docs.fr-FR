@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: df98bcca-152b-49f2-b4e1-35d68008fb8f
 description: Renvoie le dernier jour du mois avant ou le nombre spécifié de mois.
-ms.openlocfilehash: dd2c788079194d6672cdcda3cd209f5c1f8996f9
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 21e9c8e9f613a1e39ae18d7fe8cdc113ad88c4ca
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62789381"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370503"
 ---
 # <a name="eomonth-function-access-custom-web-app"></a>EOMonth Function (Access custom web app)
 
@@ -34,7 +34,7 @@ Renvoie le dernier jour du mois avant ou le nombre spécifié de mois.
 
 ## <a name="remarks"></a>Remarques
 
-Si *Date n’est*  pas une date valide, **EOMonth** renvoie une erreur.
+Si *Date n’est* pas une date valide, **EOMonth** renvoie une erreur.
   
-Si *Date*  plus  *NumberOfMonth*  produit une date non valide, **EOMonth** renvoie une erreur.
+Si *Date* plus *NumberOfMonth* produit une date non valide, **EOMonth** renvoie une erreur.
   

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2a575cac-dbfd-4f42-9c10-4b7e355a065e
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5ad3c9ae2d42b0cc9fbc613b35b645ad50e809c8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4005497ad0e3b5285f5363f0f26c17c85df7208b
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596035"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370231"
 ---
 # <a name="iprofadminrenameprofile"></a>IProfAdmin::RenameProfile
 
@@ -71,11 +70,11 @@ MAPI_E_LOGON_FAILED
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le **bouton Annuler dans** une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IProfAdmin::RenameProfile** attribue un nouveau nom à un profil, s’il en possède un. Si le profil à renommer est utilisé par un client lorsque **RenameProfile** est appelé, **RenameProfile** marque le profil et renvoie S_OK au lieu de tenter l’opération de changement de nom pendant que le profil est en cours d’utilisation. Lorsque le profil n’est plus utilisé, **RenameProfile** lui attribue le nouveau nom. 
+La **méthode IProfAdmin::RenameProfile** attribue un nouveau nom à un profil, s’il en possède un. Si le profil à renommer est utilisé par un client lorsque **RenameProfile** est appelé, **RenameProfile** marque le profil et renvoie S_OK au lieu de tenter l’opération de changement de nom pendant l’utilisation du profil. Lorsque le profil n’est plus utilisé, **RenameProfile** lui attribue le nouveau nom. 
   
 L’ancien et le nouveau nom du profil peuvent comporter jusqu’à 64 caractères et inclure les caractères suivants :
   

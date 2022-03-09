@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7b351eec-9624-4b38-9978-5d0b67b64687
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e5b8bfaa1b09d3302be249f195dd01004297277e
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 1f46050242e5d37c77308d0784478538ed1be212
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461981"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372541"
 ---
 # <a name="itabledatahrdeleterows"></a>ITableData::HrDeleteRows
 
@@ -43,7 +42,7 @@ HRESULT HrDeleteRows(
     
 TAD_ALL_ROWS 
   
-> Supprime toutes les lignes de la table et tous les affichages correspondants, en envoyant une notification TABLE_RELOAD unique.
+> Supprime toutes les lignes de la table et tous les affichages correspondants, en envoyant une seule TABLE_RELOAD notification.
     
  _lprowsetToDelete_
   

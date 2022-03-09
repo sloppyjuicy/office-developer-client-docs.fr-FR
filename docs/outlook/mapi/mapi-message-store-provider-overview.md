@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: eae44469-b217-4d05-b47f-5a0b1fab7056
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: dce839bdeb067abb3702919faad9782a53ebde18
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cccec7c19ff573f04a8214dba2eb3a81a7af6f63
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556167"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372534"
 ---
 # <a name="mapi-message-store-provider-overview"></a>Vue d’ensemble du fournisseur de magasin de messages MAPI
   
@@ -33,7 +32,7 @@ Vous pouvez utiliser les données de la boutique de messages de différentes man
   
 Les dossiers de la boutique de messages vous permettent de trier et de filtrer des messages et de personnaliser l’affichage des messages dans une interface utilisateur. Les liens vers les messages filtrés sont placés dans des dossiers spéciaux appelés dossiers de résultats de recherche. L’utilisateur d’une application cliente entre des critères de filtrage, que MAPI appelle une restriction, et les critères sont appliqués aux messages stockés dans un ou plusieurs dossiers. Par exemple, un utilisateur peut vouloir afficher uniquement les messages qui traitent d’un sujet particulier et dont les dates d’arrivée sont plus récentes que la semaine dernière. Les références aux messages qui correspondent aux critères sont répertoriées dans le dossier de recherche et les messages réels restent dans leurs dossiers habituels.
   
-Les messages sont les unités de données transférées d’un utilisateur ou d’une application vers un autre utilisateur ou une autre application. Chaque message contient du texte de message, avec une mise en forme simple ou complexe, ainsi que des informations d’enveloppe de message utilisées pour la transmission. Certains messages incluent une ou plusieurs pièces jointes, ou des données supplémentaires liées à un message et transporté avec celui-ci sous la forme d’un fichier, d’un autre message ou d’un objet OLE. 
+Les messages sont les unités de données transférées d’un utilisateur ou d’une application vers un autre utilisateur ou une autre application. Chaque message contient du texte de message, avec une mise en forme simple ou complexe, ainsi que des informations d’enveloppe de message utilisées pour la transmission. Certains messages incluent une ou plusieurs pièces jointes, ou des données supplémentaires relatives à un message et le transport avec celui-ci sous la forme d’un fichier, d’un autre message ou d’un objet OLE. 
   
 Selon le fournisseur de la boutique de messages, un utilisateur peut enregistrer un nouveau message en cours d’écriture en plus des messages qui ont été envoyés ou reçus. Les messages peuvent être copiés ou déplacés d’un dossier vers un autre, chaque copie devient un message distinct qui peut être copié, supprimé ou modifié individuellement. Une autre fonctionnalité activée par certains fournisseurs de magasins de messages est la possibilité de modifier un message après sa réception et de le stocker dans son dossier. Un utilisateur peut tirer parti de cette fonctionnalité pour faire pivoter un message de télécopie arrivé à l’envers. L’utilisateur peut stocker la vue correcte dans le dossier pour un affichage ultérieur. 
   

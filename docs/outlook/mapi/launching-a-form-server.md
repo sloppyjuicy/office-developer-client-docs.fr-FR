@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a439e75a-92b3-4830-9dfc-e723d046be7b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f5f76dd0e17abe53b3666f3f00580cc6af1cdcf0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b5c5586dd7f0e451c0eba84b867c462f5e6099f9
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610376"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372877"
 ---
 # <a name="launching-a-form-server"></a>Lancement d’un serveur de formulaires
 
@@ -43,7 +42,7 @@ La série d’interactions qui se produit lorsqu’un formulaire est chargé à 
     
 10. Le client de messagerie appelle la méthode [IMAPIForm::Advise](imapiform-advise.md) de l’objet formulaire avec les interfaces de contexte d’affichage de l’objet visionneuse et de l’objet de site de message. 
     
-11. Le client de messagerie appelle la méthode [IMAPIForm::D oVerb](imapiform-doverb.md) de l’objet formulaire. 
+11. Le client de messagerie appelle la méthode [IMAPIForm::D oVerb de l’objet](imapiform-doverb.md) formulaire. 
     
 12. L’objet formulaire crée son interface utilisateur, si nécessaire, et interagit avec l’utilisateur.
     

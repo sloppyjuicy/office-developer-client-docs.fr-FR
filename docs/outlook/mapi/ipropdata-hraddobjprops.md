@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 683cf476-3c02-4b3b-939f-6fff6611f9aa
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b726369dff524feb509bcf9b9728184001da2f7c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2ad2762252aa8a83024f6976db90fe04778e5e7c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561389"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371477"
 ---
 # <a name="ipropdatahraddobjprops"></a>IPropData::HrAddObjProps
 
@@ -52,7 +51,7 @@ S_OK
     
 MAPI_E_INVALID_TYPE 
   
-> Un type de propriété autre que PT_OBJECT a été transmis dans le tableau vers qui pointe le paramètre _lpPropTagArray._ 
+> Un type de propriété autre que PT_OBJECT a été transmis dans le tableau vers qui pointe le paramètre  _lpPropTagArray_ . 
     
 MAPI_E_NO_ACCESS 
   
@@ -68,9 +67,9 @@ La **méthode IPropData::HrAddObjProps** ajoute une ou plusieurs propriétés de
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si **HrAddObjProps** renvoie MAPI_W_PARTIAL_COMPLETION et que vous avez définie  _lppProblems_ sur un pointeur valide, vérifiez la structure [SPropProblemArray](spropproblemarray.md) renvoyée pour connaître les propriétés qui n’ont pas été ajoutées. En règle générale, le seul problème qui se produit est le manque de mémoire. Libérez la structure **SPropProblemArray** en appelant la fonction [MAPIFreeBuffer](mapifreebuffer.md) lorsque vous en avez terminé. 
+Si **HrAddObjProps** renvoie MAPI_W_PARTIAL_COMPLETION et que vous avez définie  _lppProblems_ sur un pointeur valide, vérifiez la structure [SPropProblemArray](spropproblemarray.md) renvoyée pour connaître les propriétés qui n’ont pas été ajoutées. En règle générale, le seul problème qui se produit est le manque de mémoire. Libérez **la structure SPropProblemArray** en appelant la fonction [MAPIFreeBuffer](mapifreebuffer.md) lorsque vous en avez terminé. 
   
-Pour ajouter une propriété, l’objet cible doit avoir une autorisation de lecture/écriture. Si **HrAddObjProps** renvoie MAPI_E_NO_ACCESS, vous ne pouvez pas ajouter de propriétés à l’objet, car il n’autorise pas la modification. Pour obtenir une autorisation de lecture/écriture sur un objet avant d’appeler **HrAddObjProps,** appelez [IPropData::HrSetObjAccess](ipropdata-hrsetobjaccess.md) et définissez le paramètre  _ulAccess_ sur IPROP_READWRITE. 
+Pour ajouter une propriété, l’objet cible doit avoir une autorisation de lecture/écriture. Si **HrAddObjProps** renvoie MAPI_E_NO_ACCESS, vous ne pouvez pas ajouter de propriétés à l’objet, car il n’autorise pas la modification. Pour obtenir une autorisation de lecture/écriture sur un objet avant d’appeler **HrAddObjProps**, appelez [IPropData::HrSetObjAccess](ipropdata-hrsetobjaccess.md) et définissez le paramètre  _ulAccess_ sur IPROP_READWRITE. 
   
 ## <a name="see-also"></a>Voir aussi
 

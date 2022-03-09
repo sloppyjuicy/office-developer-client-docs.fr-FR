@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 440d61c4-b69a-4010-a22b-0c9c5c376fbc
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 62f303122e1ebc7c2bf5153266b7e05589b8f0b7
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 136d94f86ad12bcf890b12a22c9893894c69ec65
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462623"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371890"
 ---
 # <a name="imslogonunadvise"></a>IMSLogon::Unadvise
 

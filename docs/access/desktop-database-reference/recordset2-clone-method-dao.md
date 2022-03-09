@@ -7,12 +7,12 @@ ms:contentKeyID: 48548614
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b160e2dcff4dbd7df8889d8fe86dc6a34eeaaa86
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 85d21f12985e49ab61045684c4fb12451618d55f
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572857"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373304"
 ---
 # <a name="recordset2clone-method-dao"></a>Recordset2.Clone, méthode (DAO)
 
@@ -24,7 +24,7 @@ Crée un objet **[Recordset](recordset-object-dao.md)** en double qui fait réf�
 
 *expression* . Clone
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -39,6 +39,7 @@ Vous pouvez utiliser la méthode **Clone** si vous souhaitez effectuer une opér
 Le fait d'appliquer la méthode **[Close](connection-close-method-dao.md)** à l'objet d'origine ou à son double n'a aucune incidence sur l'autre objet. Par exemple, si vous appliquez la méthode **Close** au jeu d'enregistrements d'origine, le clone ne se ferme pas.
 
 > [!NOTE]
+> 
 > - Le fait de fermer un jeu d'enregistrements clone pendant une transaction en attente entraîne une opération **Rollback** implicite.
 > - Lorsque vous clonez un objet **Recordset** de type table dans un espace de travail Microsoft Access, la définition de la propriété **[Index](recordset2-index-property-dao.md)** n'est pas clonée dans la nouvelle copie du jeu d'enregistrements. Vous devez copier la définition de la propriété **Index** manuellement.
 
@@ -57,7 +58,7 @@ Cet exemple de code montre comment utiliser la méthode **Clone** pour créer de
      
        Set dbsNorthwind = OpenDatabase("Northwind.mdb") 
      
-       ' If the following SQL statement will be used often,  
+       ' If the following SQL statement will be used often, 
        ' creating a permanent QueryDef will result in better 
        ' performance. 
        Set arstProducts(1) = dbsNorthwind.OpenRecordset( _ 

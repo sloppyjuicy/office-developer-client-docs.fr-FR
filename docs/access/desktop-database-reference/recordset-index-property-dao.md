@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 894212be61c3dfb30ac1846838a04c96a4a27063
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: b671095411d2bbf96aed7156ac3482fddeb11624
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462079"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373003"
 ---
 # <a name="recordsetindex-property-dao"></a>Recordset.Index, propriété (DAO)
 
@@ -42,14 +42,13 @@ Vous pouvez créer un nouvel index de la table en créant une nouvelle **Index**
 
 Les enregistrements renvoyés à partir d'un objet **Recordset** de type table peuvent être uniquement classés en fonction des index définis pour l'objet **TableDef** sous-jacent. Pour trier les enregistrements d'une autre façon, vous pouvez ouvrir un objet **Recordset** de type feuille de réponse dynamique, instantané ou avant uniquement à l'aide d'une instruction SQL avec une clause ORDER BY.
 
-
 > [!NOTE]
+>
 > - Vous ne devez créer d’index pour les tableaux. Avec des tableaux de grande taille, non indexés, accéder à un enregistrement spécifique ou en créant un **jeu d’enregistrements** objet peut prendre un certain temps. Créer des index trop grand nombre en revanche, ralentit la mise à jour, ajouter et supprimer des opérations, car tous les index sont automatiquement mis à jour.
 > - Enregistrements lus à partir de tables sans index sont renvoyés dans aucune séquence particulière.
 > - Le **[attributs](field-attributes-property-dao.md)** propriété de chaque **[champ](field-object-dao.md)** objet dans le **Index** objet détermine la ordre des enregistrements et par conséquent détermine les techniques d’accès à utiliser pour cet index.
 > - Un index unique vous permet d’optimiser la recherche des enregistrements.
 > - Les index n’ont aucune incidence sur l’ordre physique d’une table de base. Ils affectent uniquement la procédure d’accès aux enregistrements utilisée par l’objet **Recordset** de type table lors de la sélection d’un index particulier ou de l’ouverture d’un objet **Recordset**.
-
 
 ## <a name="example"></a>Exemple
 
@@ -95,7 +94,6 @@ Cet exemple utilise la propriété **Index** pour définir des ordres d’enregi
     End Sub 
 ```
 
-
 Cet exemple illustre la méthode **Seek** en autorisant l’utilisateur à rechercher un produit avec un numéro d’identification.
 
 ```vb
@@ -110,7 +108,7 @@ Cet exemple illustre la méthode **Seek** en autorisant l’utilisateur à reche
        Dim varBookmark As Variant 
      
        Set dbsNorthwind = OpenDatabase("Northwind.mdb") 
-       ' You must open a table-type Recordset to use an index,  
+       ' You must open a table-type Recordset to use an index, 
        ' and hence the Seek method. 
        Set rstProducts = _ 
           dbsNorthwind.OpenRecordset("Products", dbOpenTable) 
@@ -155,7 +153,6 @@ Cet exemple illustre la méthode **Seek** en autorisant l’utilisateur à reche
      
     End Sub 
 ```
-
 
 L’exemple suivant montre comment utiliser la méthode Seek pour rechercher un enregistrement dans une table liée.
 

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb161d7b-ae5b-4f8e-a506-8346ac5e583d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c2731776caccfa2e56ae47ff69edd63e738a3a20
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 636a3ed93142f1488d5c78bf0b429e71ebb59bf6
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461565"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370238"
 ---
 # <a name="iprofadmingetlasterror"></a>IProfAdmin::GetLastError
 
@@ -61,7 +60,7 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L’indicateur MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
+> L’MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
     
 ## <a name="remarks"></a>Remarques
 

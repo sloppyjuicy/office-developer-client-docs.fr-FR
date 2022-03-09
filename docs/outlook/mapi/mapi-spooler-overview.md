@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 5866b202-883e-454e-aeb1-61526c43dae9
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f92d7a579c2ccd8c945cdbb820bd97b66d6fa2c5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b70f96773b19bec558e4b9f9d40276d86536e11b
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592122"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373409"
 ---
 # <a name="mapi-spooler-overview"></a>Présentation du spouleur MAPI
   
@@ -39,17 +38,17 @@ L’illustration suivante montre à un niveau élevé comment un message circule
   
 ![Flux de message sortant](media/amapi_46.gif "Flux de message sortant")
   
-L’utilisateur d’une application cliente envoie un message à un ou plusieurs destinataires. Le fournisseur de la boutique de messages lance le processus d’envoi, en formatant le message avec des informations supplémentaires nécessaires pour la transmission.
+L’utilisateur d’une application cliente envoie un message à un ou plusieurs destinataires. Le fournisseur de la boutique de messages lance le processus d’envoi, en formatant le message avec des informations supplémentaires nécessaires à la transmission.
   
 Lepooler MAPI reçoit le message à traiter si l’une des conditions suivantes se produit :
   
-- Le fournisseur de la boutique de messages n’est pas étroitement associé à un fournisseur de transport.
+- Le fournisseur de magasin de messages n’est pas étroitement associé à un fournisseur de transport.
     
 - Le message nécessite un prétraitment.
     
 - La magasin de messages et le fournisseur de transport sont étroitement associés, mais ils ne peuvent pas gérer tous les destinataires auxquels le message est adressé.
     
-Si lepooler MAPI reçoit le message, il effectue les prétraitations requises et le remettre au fournisseur de transport approprié. Le fournisseur de transport envoie le message à son système de messagerie, qui l’envoie à son destinataire prévu.
+Si lepooler MAPI reçoit le message, il effectue tout prétraitage requis et le remettre au fournisseur de transport approprié. Le fournisseur de transport envoie le message à son système de messagerie, qui l’envoie à son destinataire prévu.
   
 Avec les messages entrants, le flux est inversé. Le fournisseur de transport reçoit un message de son système de messagerie et avertit lepooler MAPI. Spooler effectue tout post-traitement nécessaire et informe le fournisseur de la boutique de messages qu’un nouveau message est arrivé. Cette notification entraîne l’actualisation de l’affichage du message par le client, ce qui permet à l’utilisateur de lire le nouveau message.
   

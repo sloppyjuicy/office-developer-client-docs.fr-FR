@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cc74b31c-d7ed-4fcf-9535-a2f9222901b7
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a43569352cdcf8c0a8eac533be7a3b6cb7793652
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b5e8dd51ab102b31cfc3b13e283d2c54c69f215a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59631005"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371162"
 ---
 # <a name="creating-and-storing-messages-in-message-stores"></a>Création et stockage des messages dans des banques de messages
 

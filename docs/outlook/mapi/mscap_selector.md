@@ -7,13 +7,12 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f28ac144-f5ac-fd83-2b72-8d6e5fd74b6e
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ab0041d579f4c8aac6d531fe94a4b18ba7825379
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 04356840e0a7f45f3dc6f23f6dae7f4deec87ca6
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575385"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371820"
 ---
 # <a name="mscap_selector"></a>MSCAP_SELECTOR
 

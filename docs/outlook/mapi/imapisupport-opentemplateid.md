@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 532f7af0-b2cc-49dd-b1de-e3ec1dc9a3e7
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 80123df77d76ea6ad04b99df4ab879359d86278b
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: e5334e004e292e10fdc1dc7fe468ef63de9d613a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461770"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370370"
 ---
 # <a name="imapisupportopentemplateid"></a>IMAPISupport::OpenTemplateID
 

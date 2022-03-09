@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 20e1f43e-8279-48fc-8f34-16a2729dbc9b
 description: Lorsque vous ajoutez une référence à un assembly personnalisé dans un projet de modèle de formulaire avec code managé , cet assembly est inclus dans le fichier de modèle de formulaire (.xsn) lors de la compilation et de la publication du projet.
-ms.openlocfilehash: b6752af815afa663bb2c03e4066dc10cee6ee112
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 09afa358f36406c462722f29fe9ef1a1d4d0ebcf
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592871"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371036"
 ---
 # <a name="add-and-reference-custom-assemblies"></a>Ajouter et référencer des assemblys personnalisés
 
@@ -22,7 +22,7 @@ Lorsque vous ajoutez une référence à un assembly personnalisé dans un projet
   
 ## <a name="add-and-reference-a-custom-assembly"></a>Ajout et référence à un assembly personnalisé
 
-Pour éviter un conflit avec la manière dont le projet InfoPath gère les fichiers ajoutés au fichier de modèle du formulaire, ne copiez aucun des assemblys que vous souhaitez référencer dans le dossier du niveau le plus élevé du projet de modèle de formulaire. Par défaut, le chemin est au format < *lecteur*  >:\Utilisateurs\  *NomUtilisateur*  \Documents\Projets InfoPath\  *NomProjet* 
+Pour éviter un conflit avec la manière dont le projet InfoPath gère les fichiers ajoutés au fichier de modèle du formulaire, ne copiez aucun des assemblys que vous souhaitez référencer dans le dossier du niveau le plus élevé du projet de modèle de formulaire. Par défaut, il s’agit d’un chemin d’accès au format suivant : < *lecteur* >:\Users\  *UserName*  \Documents\InfoPath Projects\  *ProjectName* 
   
 Si vous souhaitez déplacer des assemblys personnalisés auxquels vous faites référence depuis le dossier du projet, vous devez créer un sous-dossier dans le dossier principal du projet, puis copier et référencer les assemblys personnalisés depuis ce dossier. Cependant, la création d'un sous-dossier pour les assemblys référencés n'est pas nécessaire. Tant qu'un assembly référencé ne se trouve pas dans le dossier de niveau supérieur du projet, le projet InfoPath copie l'assembly dans le fichier de modèle de formulaire (.xsn) lorsque le projet est compilé et publié.
   

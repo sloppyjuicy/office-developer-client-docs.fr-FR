@@ -7,39 +7,39 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 8a2490f2-48c4-5df3-a3b3-40e8e0c80479
 description: Renvoie la mesure de la partie spécifiée du cadre englobant de la forme.
-ms.openlocfilehash: 90edae63d277a628834eca4239fffd2ed3029b6d
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: f8b71238f177283d829ab0bd948d24ab3dcebda0
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778579"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372716"
 ---
 # <a name="boundingboxdist-function"></a>Fonction BOUNDINGBOXDIST
 
-Renvoie la mesure de la partie spécifiée du cadre englobant de la forme. 
+Renvoie la mesure de la partie spécifiée du cadre englobant de la forme.
   
 ## <a name="version-information"></a>Informations de version
 
 Version ajoutée : Visio 2010
- 
+
   
 ## <a name="syntax"></a>Syntaxe
 
-BOUNDINGBOXDIST(** *Index* ** ) 
+BOUNDINGBOXDIST(***Index*** )
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _Index_ <br/> |Obligatoire  <br/> |**Number** <br/> |Partie du cadre de limite de la forme à mesurer et à renvoyer. Les valeurs possibles, reportez-vous à la section Remarques. |
-   
+| *Index* <br/> |Obligatoire  <br/> |**Number** <br/> |Partie du cadre de limite de la forme à mesurer et à renvoyer. Les valeurs possibles, reportez-vous à la section Remarques. |
+
 ### <a name="return-value"></a>Valeur renvoyée
 
  **Number**
   
 ## <a name="remarks"></a>Remarques
 
- *Index*  peut être l’une des valeurs suivantes. 
+ *Index* peut prendre l’une des valeurs suivantes.
   
 |**Item**|**Valeur**|
 |:-----|:-----|
@@ -51,5 +51,3 @@ BOUNDINGBOXDIST(** *Index* ** )
 |Bord inférieur à l’axe de la forme  <br/> |5  <br/> |
 |Centre du cadre englobant à AxeX  <br/> |6   <br/> |
 |Centre du cadre englobant à AxeY  <br/> |7   <br/> |
-   
-

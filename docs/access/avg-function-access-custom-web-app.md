@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: d432e823-a255-4860-9c8b-201b2e0476fd
 description: Calcule la moyenne arithmétique d’un ensemble de valeurs contenues dans un champ spécifié.
-ms.openlocfilehash: cb1c3aaac89e426917ef0ea8c54525e17d3e52ed
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 10de4f60c11112c9bd6e92e494baf11dffb79949
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771016"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369461"
 ---
 # <a name="avg-function-access-custom-web-app"></a>Avg Function (Access custom web app)
 

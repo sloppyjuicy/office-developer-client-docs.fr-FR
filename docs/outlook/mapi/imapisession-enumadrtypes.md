@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a3702a4-8a6b-4c0c-a90f-02be3a2bfa05
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 590f965d1e2e1155f3171f0888efda7613d4830e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 11a4569ce8703314c7f3766dd25a3ed48e435a12
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592458"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372261"
 ---
 # <a name="imapisessionenumadrtypes"></a>IMAPISession::EnumAdrTypes
 
@@ -47,7 +46,7 @@ MAPI_UNICODE
     
  _lpcAdrTypes_
   
-> [out] Pointeur vers un nombre de types d’adresses pointés par le _paramètre lpppszAdrTypes._ 
+> [out] Pointeur vers un nombre de types d’adresses pointés par le  _paramètre lpppszAdrTypes_ . 
     
  _lpppszAdrTypes_
   
@@ -61,11 +60,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISession::EnumAdrTypes** renvoie une liste des types d’adresses qui peuvent être gérés par tous les fournisseurs de transport actifs dans la session. Les types d’adresses pour les fournisseurs de transport qui ne sont pas actuellement chargés ne sont pas inclus dans la liste. Les fournisseurs de transport s’inscrivent pour gérer un ou plusieurs types d’adresses lorsque MAPI appelle leur méthode [IXPLogon::AddressTypes.](ixplogon-addresstypes.md) 
+La **méthode IMAPISession::EnumAdrTypes** renvoie une liste des types d’adresses qui peuvent être gérés par tous les fournisseurs de transport actifs dans la session. Les types d’adresses pour les fournisseurs de transport qui ne sont pas actuellement chargés ne sont pas inclus dans la liste. Les fournisseurs de transport s’inscrivent pour gérer un ou plusieurs types d’adresses lorsque MAPI appelle leur [méthode IXPLogon::AddressTypes](ixplogon-addresstypes.md) . 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez [MAPIFreeBuffer pour](mapifreebuffer.md) libérer le tableau de chaînes pointé par _le paramètre lpppszAdrTypes._ 
+[Appelez MAPIFreeBuffer pour](mapifreebuffer.md) libérer le tableau de chaînes pointé par _le paramètre lpppszAdrTypes_. 
   
 ## <a name="see-also"></a>Voir aussi
 

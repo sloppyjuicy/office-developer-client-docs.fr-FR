@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 612cbab7-60cb-48bb-906e-18d9135e7a86
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 560d68693589b5fc4daef8c6f440147b6fe9283a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 559ba5f7664f91fd453fb718fb671d9b87950965
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551183"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372583"
 ---
 # <a name="imslogonopenentry"></a>IMSLogon::OpenEntry
 
@@ -42,7 +41,7 @@ HRESULT OpenEntry(
 
  _cbEntryID_
   
-> [in] Taille, en octets, de l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Taille, en octets, de l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -50,7 +49,7 @@ HRESULT OpenEntry(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet. Le passage de null indique que l’objet est casté vers l’interface standard pour un tel objet. Le  _paramètre lpInterface_ peut également être définie sur un identificateur pour une interface appropriée pour l’objet. 
+> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet. Le passage de null indique que l’objet est casté vers l’interface standard pour un tel objet. Le  _paramètre lpInterface peut_ également être définie sur un identificateur pour une interface appropriée pour l’objet. 
     
  _ulOpenFlags_
   
@@ -58,7 +57,7 @@ HRESULT OpenEntry(
     
 MAPI_BEST_ACCESS 
   
-> L’objet doit être ouvert avec les autorisations maximales autorisées pour l’utilisateur et le nombre maximal d’autorisations d’application cliente. Par exemple, si le client dispose d’une autorisation de lecture/écriture, l’objet est ouvert avec une autorisation de lecture/écriture . Si le client dispose d’une autorisation en lecture seule, l’objet est ouvert avec une autorisation en lecture seule. Le client peut récupérer le niveau d’autorisation en obtenant **la propriété PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
+> L’objet doit être ouvert avec les autorisations maximales autorisées pour l’utilisateur et le nombre maximal d’autorisations d’application cliente. Par exemple, si le client dispose d’une autorisation de lecture/écriture, l’objet est ouvert avec une autorisation de lecture/écriture . Si le client dispose d’une autorisation en lecture seule, l’objet est ouvert avec une autorisation en lecture seule. Le client peut récupérer le niveau d’autorisation en obtenant **PR_ACCESS_LEVEL** propriété ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
     
 MAPI_DEFERRED_ERRORS 
   
@@ -84,11 +83,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la **méthode IMSLogon::OpenEntry** pour ouvrir un dossier ou un message dans une magasin de messages. MAPI transmet l’identificateur d’entrée de l’objet à ouvrir. Le fournisseur de la boutique de messages doit renvoyer un pointeur qui permet un accès supplémentaire à l’objet spécifié dans _le paramètre lppUnk._ 
+MAPI appelle la **méthode IMSLogon::OpenEntry** pour ouvrir un dossier ou un message dans une magasin de messages. MAPI transmet l’identificateur d’entrée de l’objet à ouvrir. Le fournisseur de magasin de messages doit renvoyer un pointeur qui permet un accès supplémentaire à l’objet spécifié dans _le paramètre lppUnk_ . 
   
-Avant que MAPI appelle **IMSLogon::OpenEntry,** il détermine d’abord que l’identificateur d’entrée de message ou de dossier donné correspond à un identificateur enregistré par ce fournisseur de magasin de messages. Pour plus d’informations sur la façon dont les fournisseurs de magasins enregistrent les identificateurs d’entrée, voir [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md).
+Avant que MAPI appelle **IMSLogon::OpenEntry**, il détermine d’abord que l’identificateur d’entrée de message ou de dossier donné correspond à un identificateur enregistré par ce fournisseur de magasin de messages. Pour plus d’informations sur la façon dont les fournisseurs de magasins enregistrent les identificateurs d’entrée, voir [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md).
   
- **IMSLogon::OpenEntry** est identique à la méthode [IMsgStore::OpenEntry](imsgstore-openentry.md) de l’objet de magasin de messages, sauf que le client n’appelle pas **IMSLogon::OpenEntry**; MAPI appelle **IMSLogon::OpenEntry** lorsqu’il traite une méthode **IMAPISession::OpenEntry.** Les objets ouverts à l’aide **d’IMSLogon::OpenEntry** doivent être traités exactement de la même manière que les objets ouverts à l’aide de l’objet de la boutique de messages . en particulier, les objets ouverts à l’aide de cet appel doivent être invalidés lorsque l’objet de la boutique de messages est libéré. 
+ **IMSLogon::OpenEntry** est identique à la méthode [IMsgStore::OpenEntry](imsgstore-openentry.md) de l’objet de magasin de messages, sauf que le client n’appelle pas **IMSLogon::OpenEntry** ; MAPI appelle **IMSLogon::OpenEntry** lorsqu’il traite une **méthode IMAPISession::OpenEntry** . Les objets ouverts à l’aide **d’IMSLogon::OpenEntry** doivent être traités exactement de la même manière que les objets ouverts à l’aide de l’objet de la boutique de messages . en particulier, les objets ouverts à l’aide de cet appel doivent être invalidés lorsque l’objet de la boutique de messages est libéré. 
   
 ## <a name="see-also"></a>Voir aussi
 

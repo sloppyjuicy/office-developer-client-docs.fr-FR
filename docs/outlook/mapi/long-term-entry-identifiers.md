@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a514275e-40c2-48db-8072-1dfc392a7ac6
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: eeb134dd883c2f8b4687be0feb83c88e6b45eb05
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b7791b3378ee96a3111ab1e6e9f6ee9e59078e33
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571533"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373416"
 ---
 # <a name="long-term-entry-identifiers"></a>Long-Term d’entrée de données
 
@@ -29,7 +28,7 @@ Les identificateurs d’entrée à long terme doivent être uniques dans toutes 
   
 En règle générale, les fournisseurs de magasins de messages implémentent le comportement suivant lorsqu’ils déplacent des dossiers :
   
-- Lorsqu’un dossier est déplacé d’une magasin de messages vers une autre d’un autre type, l’identificateur d’entrée est assuré de changer.
+- Lorsqu’un dossier est déplacé d’une magasin de messages vers une autre de type différent, il est garanti que l’identificateur d’entrée change.
     
 - Lorsqu’un dossier est déplacé d’une magasin de messages vers une autre du même type, l’identificateur d’entrée change presque toujours.
     

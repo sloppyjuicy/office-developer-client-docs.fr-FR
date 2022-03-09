@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e296f6d-4833-4c68-9b84-df0b09878474
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e0ea3adad5ed1dfc0fc2bed7b2ec162b22a6bc22
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 8fc9543af89fe384644802c5468396c847fb90df
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462630"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373451"
 ---
 # <a name="imslogongetlasterror"></a>IMSLogon::GetLastError
 
@@ -61,7 +60,7 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L’indicateur MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
+> L’MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
     
 ## <a name="remarks"></a>Remarques
 

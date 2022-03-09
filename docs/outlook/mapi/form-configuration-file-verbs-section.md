@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e7e1f371-9e9a-4bec-a0b3-87753a16f5e0
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e9eb46f67d205d118c2eef77bd789cd76beff394
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 22acbf85e4d554c3aedb8d58e85167e5448672a2
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556699"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369972"
 ---
 # <a name="form-configuration-file-verbs-section"></a>Section Fichier de configuration de formulaire [Verbes]
 
@@ -21,13 +20,13 @@ ms.locfileid: "59556699"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La section **[Verbes]** répertorie l’ensemble complet des verbes pris en charge par le formulaire. Le format de la section **[Verbes]** est le suivante : 
+La section **[Verbes] répertorie** l’ensemble complet des verbes pris en charge par le formulaire. Le format de la section **[Verbes]** est le suivante : 
   
  **[Verbes]**
   
- **Verb1**  =   _string_
+ **Verb1** =   _string_
   
-Voici un exemple de section **[Verbes].** 
+Voici un exemple de section **[Verbes** ]. 
   
 ```cpp
 [Verbs]
@@ -36,17 +35,17 @@ Verb2=2
 
 ```
 
-Chaque verbe est défini dans un **[Verbe.** _string_ **]** section. A **[Verbe.** _section_ **]** décrit un verbe unique proposé par le formulaire. Entrée **DisplayName** dans un **[Verbe.** _section_ **]** spécifie le nom de la commande affiché dans l’interface utilisateur. **L’entrée** de code correspond au numéro de verbe transmis dans la méthode [IMAPIForm::D oVerb.](imapiform-doverb.md) Syntaxe du **[Verbe.** _la_ section **string ]** est la suivante : 
+Chaque verbe est défini dans un **[Verbe.** _string_ **]** section. A **[Verbe.** _section_ **]** décrit un verbe unique proposé par le formulaire. Entrée **DisplayName** dans un **[Verbe.** _section_ **]** spécifie le nom de la commande affiché dans l’interface utilisateur. **L’entrée** de code correspond au numéro de verbe transmis dans la méthode [IMAPIForm::D oVerb](imapiform-doverb.md). Syntaxe du **[Verbe.** _la_ section **string ]** est la suivante : 
   
  **[Verbe.** _string_ **]**
   
- **DisplayName**  =   _chaîne affichée_
+ **DisplayName** =   _chaîne affichée_
   
- **Code**  =   _integer_
+ **Code** =   _integer_
   
- **Indicateurs**  =   _integer_
+  =   Indicateurs _integer_
   
- **Attribs**  =   _integer_
+ **Attribs** =   _integer_
   
 Voici un exemple de **[Verbe.** _string_ **]** section. 
   

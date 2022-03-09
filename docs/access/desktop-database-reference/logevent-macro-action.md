@@ -7,12 +7,12 @@ ms:contentKeyID: 48544148
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5868f8c351bfacba2008b114f5df1596eb4a246f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d2b074a96aa82200faec431373068590de5baee9
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602254"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372086"
 ---
 # <a name="logevent-macro-action"></a>LogEvent, action de macro
 
@@ -23,31 +23,13 @@ L'action **ConsignerÉvénement** écrit des informations dans la table système
 > [!NOTE]
 > L’action **USysApplicationLog** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **ConsignerÉvénement** utilise les arguments suivants.
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Argument</p></th>
-<th><p>Obligatoire</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>Description</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Expression de type Chaîne qui décrit la condition que vous souhaitez consigner. La description ne doit pas dépasser 255 caractères.</p></td>
-</tr>
-</tbody>
-</table>
+|Argument |Obligatoire   |Description|
+|:----------|:-----------|:------------|
+|Description |Non       |Expression de type Chaîne qui décrit la condition que vous souhaitez consigner. La description ne doit pas dépasser 255 caractères. |
 
 ## <a name="remarks"></a>Remarques
 
@@ -57,13 +39,8 @@ Lorsque vous utilisez l'action **ConsignerÉvénement** pour écrire dans la tab
 
 Pour afficher la table **USysApplicationLog**, procédez comme suit :
 
-1.  Cliquez sur le menu **Fichier**, puis cliquez sur **Options**.
-
-2.  Dans la boîte dialogue **Options Access**, cliquez sur l'onglet **Base de données active**.
-
-3.  Dans la section **Navigation**, cliquez sur **Options de navigation**.
-
-4.  Dans la boîte de dialogue **Options de navigation**, cliquez sur **Afficher les objets système**, puis sur **OK**.
-
-5.  Cliquez sur **OK** pour fermer la boîte de dialogue **Options Access**.
-
+1. Cliquez sur **le** menu Fichier, puis sur **Options**.
+2. Dans la boîte dialogue **Options Access**, cliquez sur l'onglet **Base de données active**.
+3. Dans la section **Navigation**, cliquez sur **Options de navigation**.
+4. Dans la boîte de dialogue **Options de navigation**, cliquez sur **Afficher les objets système**, puis sur **OK**.
+5. Cliquez sur **OK** pour fermer la boîte de dialogue **Options Access**.

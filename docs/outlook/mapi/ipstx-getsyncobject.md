@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: b93dae79-4305-9a3a-7b93-42319f7e26ba
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: afb2d133259f5eb8645e67ad1def88097b5ed60b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a92f0aec02831ed2856fbf88d30c9ee70e292d9f
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587831"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369658"
 ---
 # <a name="ipstxgetsyncobject"></a>IPSTX::GetSyncObject
 
@@ -37,7 +36,7 @@ HRESULT GetSyncObject(
 
  _ppostx_
   
->  [out] Pointeur vers **l’interface IOSTX** à obtenir. 
+> [out] Pointeur vers **l’interface IOSTX** à obtenir. 
     
 ## <a name="remarks"></a>Remarques
 

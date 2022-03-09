@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a0d9a3e0-a500-4d72-8859-ecfd1604fc5b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b08057ce597459988fc443f5e7495b45fdef56a7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 250ca7b471c30b0c8e134da89311387156060ab8
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578794"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369874"
 ---
 # <a name="required-functionality-for-transport-providers"></a>Fonctionnalités requises pour les fournisseurs de transport
 
@@ -23,14 +22,14 @@ ms.locfileid: "59578794"
   
 Chaque fournisseur de transport MAPI doit :
   
-- Suivez les instructions générales pour travailler avec MAPI et d’autres fournisseurs de services. Pour plus d’informations, voir [Développement d’applications MAPI](mapi-application-development.md) et Fournisseurs [de services MAPI.](mapi-service-providers.md)
+- Suivez les instructions générales pour travailler avec MAPI et d’autres fournisseurs de services. Pour plus d’informations, voir [Développement d’applications MAPI](mapi-application-development.md) et Fournisseurs de [services MAPI](mapi-service-providers.md).
     
-- Exposer la DLL de son fournisseur de transport à MAPI avec sa fonction d’initialisation [XPProviderInit.](xpproviderinit.md) 
+- Exposer la DLL de son fournisseur de transport à MAPI avec sa fonction d’initialisation [XPProviderInit](xpproviderinit.md) . 
     
-- Exposez à MAPI son implémentation des interfaces [IXPProvider : IUnknown](ixpprovideriunknown.md) et [IXPLogon : IUnknown.](ixplogoniunknown.md) 
+- Exposez à MAPI son implémentation des interfaces [IXPProvider : IUnknown](ixpprovideriunknown.md) et [IXPLogon : IUnknown](ixplogoniunknown.md) . 
     
-- Exposer à MAPI et aux applications clientes son implémentation de l’interface [IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) Pour plus d’informations sur l’implémentation **d’IMAPIStatus,** voir [Status Object Implementation](status-object-implementation.md). 
+- Exposer à MAPI et aux applications clientes son implémentation de l’interface [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) . Pour plus d’informations sur l’implémentation **d’IMAPIStatus**, voir [Status Object Implementation](status-object-implementation.md). 
     
-- Implémenter une boîte de dialogue feuille de propriétés pour la configuration. Pour plus d’informations sur l’implémentation des feuilles de propriétés, voir [Implémentation de la feuille de propriétés.](property-sheet-implementation.md)
+- Implémenter une boîte de dialogue feuille de propriétés pour la configuration. Pour plus d’informations sur l’implémentation des feuilles de propriétés, voir [Implémentation de la feuille de propriétés](property-sheet-implementation.md).
     
 

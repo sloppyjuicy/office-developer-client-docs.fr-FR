@@ -7,12 +7,12 @@ ms:contentKeyID: 48547471
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: f8cd471e2723c3d07256cf7c90a555c6d9f11c04
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 91f51d09c5f64631799895965f828b9c3bb29c72
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62460027"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371043"
 ---
 # <a name="ado-objects-and-interfaces"></a>Objets et interfaces ADO
 
@@ -42,11 +42,11 @@ Chaque objet peut être contenu dans sa collection correspondante. Un objet [Err
 <td><p>Crée un objet <strong>Recordset</strong> ADO à partir d'un objet <strong>Rowset</strong> OLE DB dans une application C/C++.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="error-object-ado.md">Command</a></p></td>
+<td><p><a href="command-object-ado.md">Command</a></p></td>
 <td><p>Définit une commande spécifique que vous avez l'intention d'exécuter sur une source de données.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="field-object-ado.md">Connection</a></p></td>
+<td><p><a href="connection-object-ado.md">Connection</a></p></td>
 <td><p>Représente une connexion ouverte à une source de données.</p></td>
 </tr>
 <tr class="odd">

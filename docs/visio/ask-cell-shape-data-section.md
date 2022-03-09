@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b499a5eb-db8f-ebd0-d505-c9a002205e7d
 description: Détermine si un utilisateur est invité à entrer les données de forme d’une forme lorsqu’une occurrence est créée ou lorsque la forme est dupliquée ou copiée.
-ms.openlocfilehash: cde6353cd3850c067d2ea3c7e11d929a4066ce2f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 938e0c16cc0001ca2b8064034731818010f9080f
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776059"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368705"
 ---
 # <a name="ask-cell-shape-data-section"></a>Ask, cellule (section Shape Data)
 
@@ -24,23 +24,21 @@ Détermine si un utilisateur est invité à entrer les données de forme d’une
 |:-----|:-----|
 |TRUE  <br/> |L'utilisateur est invité à entrer des données de forme dans la boîte de dialogue **Définir les données de forme**. |
 |FALSE  <br/> |L'utilisateur n'est pas invité à entrer de données. |
-   
+
 ## <a name="remarks"></a>Remarques
 
 La valeur de cette cellule correspond à la case à cocher **Demander lors de l’insertion** de la boîte de dialogue **Définir les données de forme** (cliquez avec le bouton droit sur la forme, pointez sur **Données**, puis cliquez sur **Définir les données de forme**).
   
-Pour obtenir une référence à la cellule Ask par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
+Pour obtenir une référence à la cellule Ask par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez :
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Prop. *nom*  . Vérifiez où Prop.  *est*  le nom de la ligne de propriété personnalisée. |
-   
-Pour obtenir une référence référence à la cellule Ask à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+|Nom de cellule :  <br/> |Prop. *nom* . Vérifiez où Prop. *name est* le nom de la ligne de propriété personnalisée. |
+
+Pour obtenir une référence référence à la cellule Ask à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionProp** <br/> |
 |Index de la ligne :  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2,... |
 |Index de la cellule :  <br/> |**visCustPropsAsk** <br/> |
-   
-

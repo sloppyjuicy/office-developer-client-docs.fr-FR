@@ -5,13 +5,12 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 2499587b-2a0e-4987-9bf7-591bef41b894
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fd4dfba1aaa13294fc1a238e9d4cfac28831849e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ec204fd5da3f723bb6c8d830040683e65861fc25
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624208"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368810"
 ---
 # <a name="skipblock-stream-structure"></a>Structure de flux SkipBlock
 
@@ -27,13 +26,13 @@ Les éléments de données de ce flux sont stockés dans l’ordre des petits bo
   
 - Taille : DWORD (4 octets), taille, en nombre d’octets, de l’élément de données de contenu.
     
-- Contenu : tableau de BYTE. Le nombre de ce tableau est égal à l’élément de données Size. La signification de l’élément de données Content dépend de l’emplacement de la structure SkipBlock dans la série et de la version de Outlook. Si la première structure SkipBlock n’est pas la structure de fin, Outlook considère la première structure SkipBlock comme la structure de flux [FirstSkipBlockContent](firstskipblockcontent-stream-structure.md) qui spécifie le nom du champ dans Unicode. 
+- Contenu : tableau de byte. Le nombre de ce tableau est égal à l’élément de données Size. La signification de l’élément de données Content dépend de l’emplacement de la structure SkipBlock dans la série et de la version de Outlook. Si la première structure SkipBlock n’est pas la structure de fin, Outlook considère la première structure SkipBlock comme la structure de flux [FirstSkipBlockContent](firstskipblockcontent-stream-structure.md) qui spécifie le nom du champ dans Unicode. 
     
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Outlook Éléments et champs](outlook-items-and-fields.md)
+[Outlook et champs](outlook-items-and-fields.md)
   
 [Structures de flux](stream-structures.md)
   

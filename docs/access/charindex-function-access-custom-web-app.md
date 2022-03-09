@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 340ed9a8-6f82-4aa8-a951-2c453b3d1ac4
 description: Recherche une autre expression de texte dans une expression de texte et renvoie sa position de départ si elle est trouvée.
-ms.openlocfilehash: c7cb6c1e1ff8e5e204601939eb0f467bad37780e
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: f0c320c7314e109588eabd4d7d8429546b51b0a9
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777935"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370546"
 ---
 # <a name="charindex-function-access-custom-web-app"></a>Fonction CharIndex (application web personnalisée Access)
 
@@ -32,9 +32,9 @@ Recherche une autre expression de texte dans une expression de texte et renvoie 
 
 ## <a name="remarks"></a>Remarques
 
-Si *TextExpression ou* *WithinText a la*  valeur NULL, *CharIndex renvoie* la valeur NULL.
+Si *TextExpression ou* *WithinText a la* valeur NULL, *CharIndex renvoie* la valeur NULL.
   
-Si *TextExpression n’est*  pas trouvé *dans WithinText*, *CharIndex renvoie* 0.
+Si *TextExpression n’est* pas trouvé *dans WithinText*, *CharIndex renvoie* 0.
   
 La position de départ renvoyée est basée sur 1, et non sur 0.
   

@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 24fc4d78-726d-40ff-bad2-25dc298bd51a
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 821e59dc006b334383cad6367e19359d0f6006fd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 23ab883f9b4eaa1ae997ff75b6517454cd1e3538
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556447"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371323"
 ---
 # <a name="implementing-objects-in-c"></a>Implémentation des objets dans C
 
@@ -43,7 +42,7 @@ typedef struct _MYSTATUSOBJECT
  
 ```
 
-Étant donné que cet objet est un objet d’état, le vtable inclut des pointeurs vers les implémentations de chacune des méthodes dans l’interface [IMAPIStatus : IMAPIProp,](imapistatusimapiprop.md) ainsi que des pointeurs vers les implémentations de chacune des méthodes dans les interfaces de base — **IUnknown** et **IMAPIProp**. L’ordre des méthodes dans le vtable correspond à l’ordre spécifié tel que défini dans le fichier d’en-tête Mapidefs.h.
+Étant donné que cet objet est un objet d’état, le vtable inclut des pointeurs vers les implémentations de chacune des méthodes dans l’interface [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) , ainsi que des pointeurs vers les implémentations de chacune des méthodes dans les interfaces de base : **IUnknown** et **IMAPIProp**. L’ordre des méthodes dans le vtable correspond à l’ordre spécifié tel que défini dans le fichier d’en-tête Mapidefs.h.
   
 ```js
 static const MYOBJECT_Vtbl vtblSTATUS =
@@ -70,7 +69,7 @@ static const MYOBJECT_Vtbl vtblSTATUS =
  
 ```
 
-Les clients et les fournisseurs de services écrits en C utilisent des objets indirectement via le vtable et ajoutent un pointeur d’objet comme premier paramètre dans chaque appel. Chaque appel à une méthode d’interface MAPI nécessite un pointeur vers l’objet appelé comme premier paramètre. C++ définit un pointeur spécial  appelé pointeur à cet effet. Le compilateur C++ ajoute implicitement ce **pointeur** en tant que premier paramètre à chaque appel de méthode. En C, il n’existe pas de pointeur de ce type ; Il doit être ajouté explicitement. 
+Les clients et fournisseurs de services écrits en C utilisent des objets indirectement via le vtable et ajoutent un pointeur d’objet comme premier paramètre dans chaque appel. Chaque appel à une méthode d’interface MAPI nécessite un pointeur vers l’objet appelé comme premier paramètre. C++ définit un pointeur spécial appelé pointeur à  cet effet. Le compilateur C++ ajoute implicitement **ce pointeur** en tant que premier paramètre à chaque appel de méthode. En C, il n’existe pas de pointeur de ce type ; Il doit être ajouté explicitement. 
   
 Le code suivant montre comment un client peut appeler une instance de MYSTATUSOBJECT :
   

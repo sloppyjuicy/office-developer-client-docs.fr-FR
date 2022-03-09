@@ -10,20 +10,20 @@ keywords:
 - fonction xlAutoClose [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 147e46cd-d4d7-49eb-acdc-5a2ebc2fb6c2
-ms.openlocfilehash: b8525497b93cee5057f0458ebc97218a137b335b
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: 20749476e9556b148698f86ee96139f68d6790ec
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198309"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370525"
 ---
 # <a name="xlautoclose"></a>xlAutoClose
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio
   
 Activée par Microsoft Excel chaque fois que la XLL est désactivée. Le complément est désactivé lorsqu’une session Excel se termine normalement. Le complément peut être désactivé par l’utilisateur pendant une session Excel et, dans ce cas, cette fonction est activée.
   
-Excel ne requiert pas de XLL pour exécuter et exporter cette fonction, bien que cela soit conseillé afin que votre XLL puisse désinscrire des fonctions et des commandes, libérer des ressources, annuler des personnalisations et ainsi de suite. Si les fonctions et les commandes ne sont pas explicitement désinscrites par la XLL, Excel l’effectue après avoir activé la fonction **xlAutoClose**. 
+Excel ne requiert pas de XLL pour exécuter et exporter cette fonction, bien que cela soit conseillé afin que votre XLL puisse désinscrire des fonctions et des commandes, libérer des ressources, annuler des personnalisations et ainsi de suite. Si les fonctions et les commandes ne sont pas explicitement désinscrites par la XLL, Excel l’effectue après avoir activé la fonction **xlAutoClose**.
   
 ```cs
 int WINAPI xlAutoClose(void);
@@ -39,31 +39,31 @@ Votre exécution de cette fonction doit renvoyer 1 (**ent**).
   
 ## <a name="remarks"></a>Remarques
 
-Excel active la fonction **xlAutoClose** chaque fois que la XLL est désactivée, autrement dit, déchargée à partir de la mémoire. La XLL est désactivée dans les situations suivantes : 
+Excel active la fonction **xlAutoClose** chaque fois que la XLL est désactivée, autrement dit, déchargée à partir de la mémoire. La XLL est désactivée dans les situations suivantes :
   
 - À la fin d’une session normale Excel si celle-ci est active au cours de cette session.
-    
+
 - Si elle est explicitement déchargée pendant une session Excel.
-    
+
 - Une XLL peut être déchargée de différentes manières :
-    
+
 - À l’aide du Gestionnaire de compléments.
-    
-- À partir d’une autre XLL qui active [xlfUnregister](xlfunregister-form-1.md) avec le nom de cette DLL comme argument unique. 
-    
-- À partir d’une autre feuille macro XLL qui active [DÉSINCRIRE](xlfunregister-form-1.md) avec le nom de cette DLL comme argument unique. 
-    
+
+- À partir d’une autre XLL qui active [xlfUnregister](xlfunregister-form-1.md) avec le nom de cette DLL comme argument unique.
+
+- À partir d’une autre feuille macro XLL qui active [DÉSINCRIRE](xlfunregister-form-1.md) avec le nom de cette DLL comme argument unique.
+
 Cette fonction effectue les opérations suivantes :
   
 - Supprimer les menus ou les éléments du menu qui ont été ajoutés via la XLL.
-    
+
 - Effectuer tout nettoyage général nécessaire.
-    
-- Supprimer les noms qui ont été créés en particulier les noms de fonctions exportées. N’oubliez pas qu’inscrire les fonctions peut entraîner la création de certains noms, si le quatrième argument de **INSCRIRE** est présent. 
-    
+
+- Supprimer les noms qui ont été créés en particulier les noms de fonctions exportées. N’oubliez pas qu’inscrire les fonctions peut entraîner la création de certains noms, si le quatrième argument de **INSCRIRE** est présent.
+
 ## <a name="example"></a>Exemple
 
-Reportez-vous aux fichiers `SAMPLES\EXAMPLE\EXAMPLE.C` et `SAMPLES\GENERIC\GENERIC.C` pour des exemples d’implémentation de cette fonction. Le code suivant provient de `SAMPLES\GENERIC\GENERIC.C`.
+Consultez les fichiers `SAMPLES\EXAMPLE\EXAMPLE.C` et par `SAMPLES\GENERIC\GENERIC.C` exemple les implémentations de cette fonction. Le code suivant est de .`SAMPLES\GENERIC\GENERIC.C`
   
 ```cs
 int WINAPI xlAutoClose(void)
@@ -110,10 +110,5 @@ int WINAPI xlAutoClose(void)
 
 ## <a name="see-also"></a>Voir aussi
 
-
-
 [xlAutoOpen](xlautoopen.md)
-
-
-[Fonctions du Gestionnaire de compléments et de l’interface XLL](add-in-manager-and-xll-interface-functions.md)
-
+ [Fonctions du Gestionnaire de modules et de l’interface XLL](add-in-manager-and-xll-interface-functions.md)

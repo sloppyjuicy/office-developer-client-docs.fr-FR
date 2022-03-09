@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 5b57296c-61d7-e517-7ab7-44a9cc1f7ffc
 description: Une variable de ce type de données contient une valeur binaire.
-ms.openlocfilehash: 315336db9a62c3ae7e56feb871bcd0b2f7971d48
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dfb25a65fb3cbfab21134f1df33964c11bc0e17d
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596647"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370126"
 ---
 # <a name="acct_bin"></a>ACCT_BIN
 
@@ -32,10 +32,8 @@ typedef struct {
 
 _cb_
   
-> Nombre d’octets vers _qui pointe le pb._ 
-    
+> Nombre d’octets vers _qui pointe le pb_ .
+
 _pb_
   
 > Pointeur vers les informations binaires.
-    
-

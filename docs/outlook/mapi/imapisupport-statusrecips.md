@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9c34538e-5ba4-47c8-8002-85afa9d6c067
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f892380c1e113d2400d8b5d14e288a9a3fe322af
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a70dcf429501af176fc0927f047b9d8fb6d07db1
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592374"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370826"
 ---
 # <a name="imapisupportstatusrecips"></a>IMAPISupport::StatusRecips
 
@@ -52,7 +51,7 @@ S_OK
     
 MAPI_W_ERRORS_RETURNED 
   
-> L’appel a réussi globalement, mais il n’existe aucune option de destinataire pour ce type de destinataire. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
+> L’appel a réussi globalement, mais il n’existe aucune option de destinataire pour ce type de destinataire. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED’avertissement** . Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
@@ -62,11 +61,11 @@ La **méthode IMAPISupport::StatusRecips est** implémentée pour les objets de 
 
 Vous pouvez appeler **StatusRecips plusieurs** fois pendant le traitement d’un message. Toutefois, si vous appelez **StatusRecips** pour un message ouvert, faites de votre mieux pour collecter toutes les informations de remise et de remise pour les destinataires du message et appeler **StatusRecips** pour cette liste de destinataires. Un point de collecte unique est important, car plusieurs appels **StatusRecips** pour un destinataire peuvent entraîner l’envoi de plusieurs rapports identiques. 
   
-Stockez les propriétés liées à la remise ou à la non remise des messages dans la structure **ADRLIST** indiquée par _le paramètre lpRecipList._ Pour obtenir la liste complète des propriétés obligatoires et facultatives pour les rapports de remise et les rapports non remise, voir [Propriétés](required-report-message-properties.md) de message de rapport obligatoires et [propriétés facultatives](optional-report-message-properties.md)du message de rapport. 
+Stockez les propriétés liées à la remise ou à la non remise des messages dans la structure **ADRLIST** indiquée par  _le paramètre lpRecipList_ . Pour obtenir la liste complète des propriétés requises et facultatives pour les rapports de remise et les rapports non remise, voir [Propriétés de message](required-report-message-properties.md) de rapport requises et [propriétés facultatives du message de rapport](optional-report-message-properties.md). 
   
-Allouez de la mémoire pour la structure **ADRLIST** dans _lpRecipList_ à l’aide des fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIAllocateMore.](mapiallocatemore.md) MAPI libère la mémoire en appelant la [fonction MAPIFreeBuffer](mapifreebuffer.md) uniquement si **StatusRecips** réussit. 
+Allouez de la mémoire pour la structure **ADRLIST** dans  _lpRecipList_ à l’aide des fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIAllocateMore](mapiallocatemore.md) . MAPI libère la mémoire en appelant la [fonction MAPIFreeBuffer](mapifreebuffer.md) uniquement si **StatusRecips** réussit. 
   
-Pour une vue d’ensemble des rapports de remise et de non remise, voir [messages de rapport MAPI](mapi-report-messages.md).
+Pour une vue d’ensemble des rapports de remise et de non remise, voir [MESSAGES de rapport MAPI](mapi-report-messages.md).
   
 ## <a name="see-also"></a>Voir aussi
 

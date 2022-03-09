@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 84019475-5176-4fc5-a3ee-871095077498
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5569e52a5e4865e6e343da38ba60fa6fef2e087c
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 26b846a156e445fb373fd776e03936c3385c6f60
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461854"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373507"
 ---
 # <a name="imapisupportdocopyto"></a>IMAPISupport::DoCopyTo
 

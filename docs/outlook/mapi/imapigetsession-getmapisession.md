@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 581db5d9-35f7-43ad-aef3-a5d5da310150
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fb9803954a7beeb37e58106463b944abb2180ae0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 31f8e8b559a1119f297697e14a36dae2c8a8a9e2
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576001"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371603"
 ---
 # <a name="imapigetsessiongetmapisession"></a>IMAPIGetSession::GetMAPISession
 

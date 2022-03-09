@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: dbce1c47-1252-ddeb-64ae-d52118e6821f
 description: Avertit le client des modifications apportées au compte spécifié.
-ms.openlocfilehash: 2e5bd7d6e2f727b7f89bdf6555ad8e123bc8da13
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fba334e72aeb38bed91386ac10deec818b2036ae
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557154"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373276"
 ---
 # <a name="iolkaccountnotifynotify"></a>IOlkAccountNotify::Notify
 
@@ -53,7 +53,7 @@ _dwNotify_
     
  _dwFlags_
   
->  [in] Non utilisé. OLK_ACCOUNT_NO_FLAGS est la seule valeur prise en charge. 
+> [in] Non utilisé. OLK_ACCOUNT_NO_FLAGS est la seule valeur prise en charge. 
     
 ## <a name="return-values"></a>Valeurs de retour
 

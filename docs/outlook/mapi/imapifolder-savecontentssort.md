@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5ae3fdf0-6193-4c1f-bd2e-d69c56d69773
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1e16f14afda35ec67375f77371f7601f056e968f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d1321b168ba861d2a53e17f83ea669a272a528e9
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596329"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372303"
 ---
 # <a name="imapifoldersavecontentssort"></a>IMAPIFolder::SaveContentsSort
 
@@ -52,7 +51,7 @@ RECURSIVE_SORT
 
 S_OK 
   
-> L’ordre de tri a été enregistré avec succès.
+> L’ordre de tri a été enregistré.
     
 MAPI_E_NO_SUPPORT 
   
@@ -60,9 +59,9 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPIFolder::SaveContentsSort** établit un ordre de tri par défaut pour la table des matières d’un dossier. Autrement dit, lorsqu’un client appelle la méthode [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) du dossier après que le code appelle **SaveContentsSort,** les lignes de la table des matières retournée apparaissent dans l’ordre établi par **SaveContentsSort**.
+La **méthode IMAPIFolder::SaveContentsSort** établit un ordre de tri par défaut pour la table des matières d’un dossier. Autrement dit, lorsqu’un client appelle la méthode [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) du dossier après que le code a appelé **SaveContentsSort**, les lignes de la table des matières retournée apparaissent dans l’ordre établi par **SaveContentsSort**.
   
-Tous les fournisseurs de magasins de messages ne sont pas en charge **SaveContentsSort**; Il est acceptable que les fournisseurs de magasins de messages MAPI_E_NO_SUPPORT à partir de la **méthode SaveContentsSort.** 
+Tous les fournisseurs de magasins de messages ne sont pas **en charge SaveContentsSort** ; Il est acceptable que les fournisseurs de magasins de messages MAPI_E_NO_SUPPORT à partir de la **méthode SaveContentsSort** . 
   
 ## <a name="see-also"></a>Voir aussi
 

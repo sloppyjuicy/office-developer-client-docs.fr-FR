@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: efa178eb-feb2-443f-8f6b-2ea53a456bf2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6f25fdeb176b2d885a4ba3fbf2bfb8b094de223f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 25d648d667273d53cdb4ee18546f15527e384d17
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576414"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370462"
 ---
 # <a name="default-message-stores"></a>Banques de messages par défaut
 

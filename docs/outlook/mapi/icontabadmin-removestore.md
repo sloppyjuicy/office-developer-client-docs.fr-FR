@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2a5fcf5c-8a5a-4774-b8c9-1ac1ff27947d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f92e562196f551bc6dca7be9f3fd5093d5f4cc03
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dbfd5959ad60dfd035a64bfa91e604aca3a0da4a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592444"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369958"
 ---
 # <a name="icontabadminremovestore"></a>IContabAdmin::RemoveStore
 
@@ -38,7 +37,7 @@ LPENTRYID lpEntryID
 
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   

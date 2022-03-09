@@ -10,16 +10,16 @@ keywords:
 - fonction xlfsetname [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
-ms.openlocfilehash: 096c71fa2d96d516b6e0f3f6b1ed3d7e65984f55
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: 13f942b624e7e5525bc36377a5db09821a73ec11
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62199699"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370175"
 ---
 # <a name="xlfsetname"></a>xlfSetName
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio
   
 Utilisé pour créer et supprimer des noms définis associés à la DLL.
   
@@ -35,7 +35,7 @@ Nom de la plage, qui doit être conforme aux limitations habituelles dans Micros
   
 _pxNameDefinition_ (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeSRef**, **xltypeRef** ou **xltypeInt**)
   
-(Facultatif). Valeur, ensemble de valeurs, cellule ou plage de cellules définies par _pxNameText._ S’il est omis, le nom est supprimé. 
+(Facultatif). Valeur, ensemble de valeurs, cellule ou plage de cellules définies par _pxNameText_ . S’il est omis, le nom est supprimé.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
@@ -49,9 +49,8 @@ Lorsqu’une fonction ou une commande est enregistrée à l’aide de **xlfRegis
   
 ### <a name="example"></a>Exemple
 
-Voir le code de la **fonction xlAutoClose** dans  `\SAMPLES\GENERIC\GENERIC.C` .
+Voir le code de la **fonction xlAutoClose** dans `\SAMPLES\GENERIC\GENERIC.C`.
   
 ## <a name="see-also"></a>Voir aussi
 
 - [Fonctions XLM essentielles et utiles de l’API C](essential-and-useful-c-api-xlm-functions.md)
-

@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 79e0bc93-f37d-4f6a-beed-7519d01e0056
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6f08e5f9d75a88d14c4f0e904d79546a4a23f73e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 14ade4f6154fa269500b3625949a0c523ca1a176
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561172"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373094"
 ---
 # <a name="opening-the-address-book"></a>Ouverture du carnet d’adresses
 

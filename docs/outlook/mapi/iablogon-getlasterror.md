@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: d157e29e-7731-4e47-b4a7-e8622b223001
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1a72a65a1d53329a13eac38364b8af8de73a2c0a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 20263602cf2d1595073d5491fa86bdea34cb1bac
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571926"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369398"
 ---
 # <a name="iablogongetlasterror"></a>IABLogon::GetLastError
 
@@ -47,7 +46,7 @@ HRESULT GetLastError(
     
 MAPI_UNICODE 
   
-> Les chaînes de la structure **MAPIERROR renvoyées** dans le paramètre  _lppMAPIError_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
+> Les chaînes de la structure **MAPIERROR renvoyées** dans le paramètre _lppMAPIError_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
     
  _lppMAPIError_
   
@@ -65,13 +64,13 @@ MAPI_E_BAD_CHARWIDTH
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de carnet d’adresses implémentent **la méthode GetLastError** pour fournir des informations sur un appel de méthode antérieur qui a échoué. Les appelants peuvent fournir à leurs utilisateurs des informations détaillées sur l’erreur en incluant les données de la structure **MAPIERROR** dans une boîte de dialogue. 
+Les fournisseurs de carnet d’adresses **implémentent la méthode GetLastError** pour fournir des informations sur un appel de méthode antérieur qui a échoué. Les appelants peuvent fournir à leurs utilisateurs des informations détaillées sur l’erreur en incluant les données de la structure **MAPIERROR** dans une boîte de dialogue. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
 Vous pouvez utiliser la structure **MAPIERROR** pointée par le paramètre  _lppMAPIError_ si le fournisseur de carnet d’adresses fournit la structure et uniquement si **GetLastError** renvoie S_OK. Parfois, le fournisseur de carnet d’adresses ne peut pas déterminer la dernière erreur ou n’a rien d’autre à signaler à propos de l’erreur. Dans ce cas, le fournisseur de carnet d’adresses renvoie un pointeur vers NULL dans  _lppMAPIError_ à la place. 
   
-Pour plus d’informations **sur la méthode GetLastError,** voir [MAPI Extended Errors](mapi-extended-errors.md).
+Pour plus d’informations **sur la méthode GetLastError** , voir [MAPI Extended Errors](mapi-extended-errors.md).
   
 ## <a name="see-also"></a>Voir aussi
 

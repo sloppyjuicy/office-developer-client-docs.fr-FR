@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: eba0e7f2-03c1-4713-aa36-3d0b398cd197
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0018833c991a62ac11b50682b49a55a3dc97e70b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 49e471eecc87fe7e4e17ed194d46cdf8bd7bc1f2
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551246"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369328"
 ---
 # <a name="imsgserviceadminrenamemsgservice"></a>IMsgServiceAdmin::RenameMsgService
 
@@ -53,7 +52,7 @@ HRESULT RenameMsgService(
 
 MAPI_E_NO_SUPPORT 
   
-> MAPI ne prend pas en charge le changement de nom de ce service de message. **RenameMsgService renvoie** toujours cette valeur. 
+> MAPI ne prend pas en charge le changement de nom de ce service de message. **RenameMsgService** renvoie toujours cette valeur. 
     
 ## <a name="remarks"></a>Remarques
 

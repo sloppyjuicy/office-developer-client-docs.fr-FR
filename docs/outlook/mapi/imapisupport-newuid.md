@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7994477d-5207-4335-b538-69c98782d52d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 09a9a9f4e118ee1f52f4ddfb69d59f66523cb24d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 72ab67679fb4bc2b48a69f13fb1c1b5f9c36565f
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584359"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371904"
 ---
 # <a name="imapisupportnewuid"></a>IMAPISupport::NewUID
 
@@ -37,7 +36,7 @@ LPMAPIUID lpMuid
 
  _lpMuid_
   
-> Pointeur vers la nouvelle structure **MAPIUID.** 
+> Pointeur vers la nouvelle structure **MAPIUID** . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -51,7 +50,7 @@ La **méthode IMAPISupport::NewUID** est implémentée pour tous les objets de p
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Ne confondez pas la structure **MAPIUID** que vous inscrivez au moment de l’inscription avec les structures **MAPIUID** créées par la méthode **NewUID.** La structure **MAPIUID** que vous inscrivez lorsque vous appelez la méthode [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) représente votre carnet d’adresses ou votre fournisseur de magasin de messages mapi et est utilisée pour distinguer les identificateurs d’entrée créés par différents fournisseurs. Cette structure **MAPIUID** doit être codée en dur et ne doit pas être obtenue via un appel à **NewUID**.
+Ne confondez pas la structure **MAPIUID** que vous inscrivez au moment de l’inscription avec les structures **MAPIUID** créées par **la méthode NewUID** . La structure **MAPIUID** que vous inscrivez lorsque vous appelez la méthode [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) représente votre carnet d’adresses ou fournisseur de magasin de messages mapi et est utilisée pour distinguer les identificateurs d’entrée créés par différents fournisseurs. Cette structure **MAPIUID** doit être codée en dur et ne doit pas être obtenue via un appel à **NewUID**.
   
 ## <a name="see-also"></a>Voir aussi
 

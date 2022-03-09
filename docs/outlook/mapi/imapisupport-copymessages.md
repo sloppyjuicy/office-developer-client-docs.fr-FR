@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70f67614-af0d-43f6-99f6-391a2f5673cb
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3ca7f2b32dd04bf46f1d150ad0d30213045f27e5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d932b02abed11b5cb9667db00c822b8a78249ac6
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575840"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370847"
 ---
 # <a name="imapisupportcopymessages"></a>IMAPISupport::CopyMessages
 
@@ -56,7 +55,7 @@ HRESULT CopyMessages(
     
  _lpDestInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au dossier de destination pour les messages copiés ou déplacés.
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au dossier de destination des messages copiés ou déplacés.
     
  _lpDestFolder_
   
@@ -64,11 +63,11 @@ HRESULT CopyMessages(
     
  _ulUIParam_
   
-> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress,_ le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’MESSAGE_DIALOG est définie dans  _ulFlags_.
+> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress_, le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’MESSAGE_DIALOG est définie dans  _ulFlags_.
     
  _lpProgress_
   
-> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress,_ le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’MESSAGE_DIALOG est définie dans  _ulFlags_.
+> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress_, le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’MESSAGE_DIALOG est définie dans  _ulFlags_.
     
  _ulFlags_
   
@@ -90,11 +89,11 @@ S_OK
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le **bouton Annuler dans** une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::CopyMessages** est implémentée pour les objets de prise en charge du fournisseur de magasins de messages. Les fournisseurs de magasins de messages peuvent appeler **IMAPISupport::CopyMessages** dans leur implémentation [d’IMAPIFolder::CopyMessages](imapifolder-copymessages.md) pour copier ou déplacer un ou plusieurs messages d’un dossier vers un autre. Dans le cadre de l’appel **IMAPISupport::CopyMessages,** le fournisseur de magasin de messages peut spécifier que MAPI doit afficher un indicateur de progression. 
+La **méthode IMAPISupport::CopyMessages** est implémentée pour les objets de prise en charge du fournisseur de magasins de messages. Les fournisseurs de magasins de messages peuvent appeler **IMAPISupport::CopyMessages** dans leur implémentation [d’IMAPIFolder::CopyMessages](imapifolder-copymessages.md) pour copier ou déplacer un ou plusieurs messages d’un dossier vers un autre. Dans le cadre de l’appel **IMAPISupport::CopyMessages** , le fournisseur de magasin de messages peut spécifier que MAPI doit afficher un indicateur de progression. 
   
 ## <a name="see-also"></a>Voir aussi
 

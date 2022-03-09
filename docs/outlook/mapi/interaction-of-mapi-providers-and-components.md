@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2c0e010b-0432-4ef7-a243-3a4b46f0a19d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d9cec36654328accadce77a3f67da58542774aa6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7ed628d442c926a48c766e1627f5db8486cf14c8
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564083"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370791"
 ---
 # <a name="interaction-of-mapi-providers-and-components"></a>Interaction des fournisseurs et composants MAPI
 
@@ -39,7 +38,7 @@ Les fournisseurs de services MAPI de tout type doivent suivre certaines instruct
     
 - Utilisez la [méthode IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) pour enregistrer toutes les fonctions de prétraitment des messages. 
     
-- Incluez les fichiers d’en-tête appropriés (y compris mapispi.h) qui définissent des constantes, des structures, des interfaces et des valeurs de retour communes.
+- Incluez les fichiers d’en-tête appropriés (y compris mapispi.h) qui définissent les constantes, structures, interfaces et valeurs de retour communes.
     
 - Respecter les conventions de format d’adresse pour les types d’adresses courants.
     

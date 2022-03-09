@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 539bf79a-df09-2048-2aba-8c863dd26fc2
 description: Renvoie le pourcentage de la distance le long du chemin du point le plus proche des coordonnées spécifiées, sous la forme d’une valeur comprise entre 0 et 1.
-ms.openlocfilehash: c0ff90ab4e251c5dad68ddcee960b7eaae343703
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: f6cfecd19be0f45e5b9a08e7ec1526d3f6d1489d
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770456"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368950"
 ---
 # <a name="nearestpointonpath-function"></a>Fonction NEARESTPOINTONPATH
 
@@ -25,7 +25,7 @@ Version ajoutée : Visio 2010
   
 ## <a name="syntax"></a>Syntaxe
 
-NEARESTPOINTONPATH(** *section* **, ** *x* **, ** *y* ** ) 
+NEARESTPOINTONPATH(***section** _, _*_x_*_, _ *_y_** ) 
   
 ### <a name="parameters"></a>Paramètres
 

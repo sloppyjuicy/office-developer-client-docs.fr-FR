@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 29b7f5f1-afc1-45d9-8867-9312c072e74b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c15cee3268f78ee718fecf4fbdbc8b424e745372
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: de6f33de2793f34fb6dc247bb67fbf09623eef85
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551547"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368692"
 ---
 # <a name="getting-and-setting-multiple-properties"></a>Obtention et définition de plusieurs propriétés
 

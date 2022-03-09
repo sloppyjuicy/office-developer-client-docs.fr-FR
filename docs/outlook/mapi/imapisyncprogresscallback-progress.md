@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6797cd1c-8a0b-4f42-ba56-6162d8e7b058
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0f01f495372122c2c2f8b2e5d1242d7a1898f62f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 733301a2c63d2809c8260d8db56adb73fe11eb54
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592339"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372625"
 ---
 # <a name="imapisyncprogresscallbackprogress"></a>IMAPISyncProgressCallback::Progress
 
@@ -25,7 +24,7 @@ ms.locfileid: "59592339"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Met à jour l’état dans la boîte de dialogue d’envoi/réception. Le fournisseur de magasins appelle régulièrement cette fonction.
+Met à jour l’état dans la boîte de dialogue d’envoi/réception. Le fournisseur de magasin appelle périodiquement cette fonction.
   
 ```cpp
 HRESULT Progress(

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 21570b2692020f9123205148aa5cb2fdb0c967ac
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fde569ce4c37fdc4c5c41abb6f1f4e7caa6951e4
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606302"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370210"
 ---
 # <a name="recordsetclone-method-dao"></a>Recordset.Clone, méthode (DAO)
 
@@ -61,7 +61,7 @@ Cet exemple utilise la méthode **Clone** pour créer des copies d'un objet **Re
      
        Set dbsNorthwind = OpenDatabase("Northwind.mdb") 
      
-       ' If the following SQL statement will be used often,  
+       ' If the following SQL statement will be used often, 
        ' creating a permanent QueryDef will result in better 
        ' performance. 
        Set arstProducts(1) = dbsNorthwind.OpenRecordset( _ 

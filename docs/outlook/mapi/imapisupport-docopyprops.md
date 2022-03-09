@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2446ef52-578a-4004-9719-de9b0207ccad
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 34619be68148d23f40392d97bbf331ccbe0e4fa2
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: f678a51a4986be749497e98ba0d76ec032d4b6d9
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461446"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371582"
 ---
 # <a name="imapisupportdocopyprops"></a>IMAPISupport::DoCopyProps
 
@@ -137,11 +136,11 @@ La **méthode IMAPISupport::D oCopyProps** est implémentée pour les objets de 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsque vous copiez des propriétés entre des objets du même type, tels que deux messages, les paramètres  _lpSrcInterface_ et  _lpDestInterface_ doivent contenir le même identificateur d’interface, et les paramètres  _lpSrcObj_ et  _lpDestObj_ doivent pointer vers des objets du même type. Si  _lpDestInterface_ est définie sur NULL, **DoCopyProps** renvoie MAPI_E_INVALID_PARAMETER. Si vous définissez  _lpDestInterface_ sur un identificateur d’interface acceptable, mais que vous définissez  _lpDestObj_ sur un pointeur non valide, les résultats sont imprévisibles. Il est fort probable que votre fournisseur échoue. 
+Lorsque vous copiez des propriétés entre des objets du même type, tels que deux messages, les paramètres  _lpSrcInterface_ et  _lpDestInterface_ doivent contenir le même identificateur d’interface, et les paramètres  _lpSrcObj_ et  _lpDestObj_ doivent pointer vers des objets du même type. Si  _lpDestInterface est_ définie sur NULL, **DoCopyProps** renvoie MAPI_E_INVALID_PARAMETER. Si vous définissez  _lpDestInterface_ sur un identificateur d’interface acceptable, mais que vous définissez  _lpDestObj_ sur un pointeur non valide, les résultats sont imprévisibles. Il est fort probable que votre fournisseur échoue. 
   
 Définissez l MAPI_NOREPLACE si vous ne souhaitez pas que les propriétés de l’objet de destination soient écrasées. Les propriétés de l’objet de destination qui existent dans l’objet source et qui ne sont pas écrasées ne sont ni supprimées ni modifiées.
   
-Pour copier la liste des destinataires d’un message, **incluez** la propriété PR_MESSAGE_RECIPIENTS ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) dans le tableau de balises de propriétés pointant vers le paramètre  _lpIncludeProps_ . Pour copier les pièces jointes du message, incluez la **propriété PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)). 
+Pour copier la liste des destinataires d’un message, incluez la propriété **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) dans le tableau de balises de propriétés pointant vers le paramètre  _lpIncludeProps_ . Pour copier les pièces jointes du message, **PR_MESSAGE_ATTACHMENTS propriété (**[PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)). 
   
 Pour copier la hiérarchie ou la table des matières d’un conteneur de dossier ou de carnet d’adresses, incluez **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) ou **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) dans le tableau de balises de propriétés. Pour inclure la table des matières associée d’un dossier, incluez la propriété **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) dans le tableau.
   

@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: f8d7b944-a8fd-9c5f-8f66-0f1b628b7c6e
 description: 'Les services Web peuvent exposer un style parmi deux pour lier leurs méthodes Web dans le contrat WSDL (Web Service Description Language) qui les décrit : Document ou RPC.'
-ms.openlocfilehash: 66f915ac299f20e91f7e2ed1404f65ac44af0afd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4224948cdce73b0fc6c9a2baeaf60151900d6504
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601267"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370154"
 ---
 # <a name="infopath-rpc-encoding-and-web-services"></a>InfoPath, chiffrement RPC et services Web
 
@@ -31,20 +31,20 @@ Les préalables à la création d'un tel service de proxy Microsoft .NET Web son
   
 ## <a name="creating-a-proxy-web-service-using-visual-studio"></a>Création d’un service Web de proxy à l’aide de Visual Studio
 
-1. Créez un nouveau projet **Application de service Web ASP.NET**. 
-    
-2. Dans l' **Explorateur de solutions**, cliquez avec le bouton droit sur le dossier **Références** de votre nouveau projet, puis cliquez sur **Ajouter une référence Web**. 
-    
+1. Créez un nouveau projet **Application de service Web ASP.NET**.
+
+2. Dans l' **Explorateur de solutions**, cliquez avec le bouton droit sur le dossier **Références** de votre nouveau projet, puis cliquez sur **Ajouter une référence Web**.
+
 3. Dans la boîte de dialogue **Ajouter une référence Web**, entrez l'URL du service Web RPC/codé que vous voulez utiliser, puis cliquez sur **Aller à**.
-    
-4. Cliquez sur **Ajouter une référence**. 
-    
+
+4. Cliquez sur **Ajouter une référence**.
+
 5. Ouvrez le fichier .asmx pour votre service Web et ajoutez une méthode de service Web pour appeler chaque méthode de service Web depuis le service Web RPC/codé référencé.
-    
-6. Pour afficher une liste des méthodes dans le serveur Web RPC/codé de référence, affichez la fenêtre **Affichage de classes**. Pour chaque méthode de service Web, vous voyez trois méthodes. Par exemple, si la méthode de service Web est appelée  `doSearch`, vous voyez trois méthodes appelées  `doSearch`,  `BegindoSearch` et  `EnddoSearch`. Vous devez créer un service Web de wrapper seulement pour la méthode  `doSearch`. Vérifiez que vous utilisez exactement la signature et le type de retour de la méthode. 
-    
-7. Dans chaque méthode de wrapper, vous devez écrire du code pour effectuer un appel au service Web RPC/codé référencé, comme dans l'exemple suivant. 
-    
+
+6. Pour afficher une liste des méthodes dans le serveur Web RPC/codé de référence, affichez la fenêtre **Affichage de classes**. Pour chaque méthode de service Web, vous voyez trois méthodes. Par exemple, si la méthode de service Web est appelée  `doSearch`, vous verrez trois méthodes appelées  `doSearch`, `BegindoSearch`et  `EnddoSearch`. Vous devez créer un service Web de wrapper seulement pour la méthode  `doSearch`. Vérifiez que vous utilisez exactement la signature et le type de retour de la méthode.
+
+7. Dans chaque méthode de wrapper, vous devez écrire du code pour effectuer un appel au service Web RPC/codé référencé, comme dans l'exemple suivant.
+
    ```cs
     [WebMethod] 
     public string[] doSearch(string keyword) 
@@ -55,15 +55,15 @@ Les préalables à la création d'un tel service de proxy Microsoft .NET Web son
     
    ```
 
-8. Si le service Web RPC/codé requiert une authentification, vous pouvez coder en dur les informations d'identification requises pour la connexion au service Web RPC/codé dans le code source pour le service Web .NET de proxy ou bien vous pouvez utiliser du code similaire à l'exemple suivant. 
-    
+8. Si le service Web RPC/codé requiert une authentification, vous pouvez coder en dur les informations d'identification requises pour la connexion au service Web RPC/codé dans le code source pour le service Web .NET de proxy ou bien vous pouvez utiliser du code similaire à l'exemple suivant.
+
    ```cs
     myProxy.Credentials = System.Net.CredentialCache.DefaultCredentials; 
     
    ```
 
-Pour plus d'informations, recherchez l'article de la Base de connaissances Microsoft « Procédure : passage des informations d'identification actuelles à un service Web ASP.NET » (éventuellement en anglais) sur https://support.microsoft.com/.
-    
+Pour plus d'informations, recherchez l'article de la Base de connaissances Microsoft « Procédure : passage des informations d'identification actuelles à un service Web ASP.NET » (éventuellement en anglais) sur <https://support.microsoft.com/>.
+
 ## <a name="creating-a-proxy-web-service-without-visual-studio-net"></a>Création d’un service Web de proxy sans Visual Studio .NET
 
 Il est également possible de créer un service Web de proxy à l'aide des outils fournis avec le Kit de développement logiciel (SDK) .NET Framework, qui peut être téléchargé sur MSDN.
@@ -119,5 +119,3 @@ public class GoogleSearchServiceWrapper : System.Web.Services.WebService
     } 
 }
 ```
-
-

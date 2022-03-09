@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4860992d-65d7-4cb0-a874-ceccb153dbac
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d70dc611a7756c8dca15e1c173e5702a7fc86f63
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bfa2641b75a1ce7e055ba873e5a76b02e34a8013
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575749"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373493"
 ---
 # <a name="imapisyncprogresscallbackerror"></a>IMAPISyncProgressCallback::Error
 
@@ -25,7 +24,7 @@ ms.locfileid: "59575749"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit des détails affichés dans la boîte de dialogue d’envoi/réception. Si des erreurs se sont rencontrées lors de la synchronisation, le fournisseur de magasins appelle cette fonction.
+Fournit des détails qui sont affichés dans la boîte de dialogue d’envoi/réception. Si des erreurs se sont rencontrées lors de la synchronisation, le fournisseur de magasins appelle cette fonction.
   
 ```cpp
 HRESULT Error(

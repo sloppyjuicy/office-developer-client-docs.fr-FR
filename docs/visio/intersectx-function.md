@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d8dc1915-f055-e858-1323-9e8c1cb7f2f1
 description: Renvoie la coordonnée x (dans le système de coordonnées local) du point où deux lignes se coupent.
-ms.openlocfilehash: 8af4da4eefa2f5a21c1f976d9313e7fa2c9fa7df
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3195fc8b9360f7ec1caac5afd2807388d9c001f8
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774159"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368558"
 ---
 # <a name="intersectx-function"></a>Fonction INTERSECTX
 
@@ -22,7 +22,7 @@ Renvoie la  *coordonnée x*  (dans le système de coordonnées local) du point o
   
 ## <a name="syntax"></a>Syntaxe
 
-INTERSECTX(** *x1* **, ** *y1* **, ** *angle1* **, ** *x2* **, ** *y2* **, ** *angle2* ** ) 
+INTERSECTX(***x1** _, _*_y1_*_, _*_angle1_*_, _*_x2_*_, _*_y2_*_, _ *_angle2_** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -30,7 +30,7 @@ INTERSECTX(** *x1* **, ** *y1* **, ** *angle1* **, ** *x2* **, ** *y2* **, ** *a
 |:-----|:-----|:-----|:-----|
 | _x1_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée  _x_ d’un point sur la première ligne. |
 | _y1_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée  _y_ d’un point sur la première ligne. |
-| _angle1_ <br/> |Requis  <br/> |**Number** <br/> | Valeur de la cellule Angle de la première ligne. |
+| _angle1_ <br/> |Obligatoire  <br/> |**Number** <br/> | Valeur de la cellule Angle de la première ligne. |
 | _x2_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée  _x_ d’un point sur la deuxième ligne. |
 | _y2_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée  _y_ d’un point sur la deuxième ligne. |
 | _angle2_ <br/> |Requis  <br/> |**Number** <br/> |Valeur de la cellule Angle de la deuxième ligne. |

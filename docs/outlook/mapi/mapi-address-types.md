@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: eee97982-29be-4dcf-ae11-8a38f0080ea7
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c6faae3c477c221d2395b28a7104f15621378a89
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ddb4c540b5e78b9b3fc4934b18e5e36132658cd7
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579630"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371834"
 ---
 # <a name="mapi-address-types"></a>Types d’adresse MAPI
 
@@ -33,6 +32,6 @@ Toutes les entrées de carnet d’adresses doivent avoir un type d’adresse val
   
 MAPI définit un seul type d’adresse : MAPIPDL, qui signifie liste de distribution personnelle.
   
-Pour obtenir la liste des types d’adresses pris en charge par tous les fournisseurs de transport dans la session, les applications clientes appellent la méthode **IMAPISession::EnumAdrTypes.** Pour plus d’informations, [voir IMAPISession::EnumAdrTypes](imapisession-enumadrtypes.md).
+Pour obtenir la liste des types d’adresses pris en charge par tous les fournisseurs de transport dans la session, les applications clientes appellent la méthode **IMAPISession::EnumAdrTypes** . Pour plus d’informations, [voir IMAPISession::EnumAdrTypes](imapisession-enumadrtypes.md).
   
 

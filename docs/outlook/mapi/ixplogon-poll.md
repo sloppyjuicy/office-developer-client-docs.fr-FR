@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1524eb06-7492-42de-b455-e0982bda7ece
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 837fcfdffb455dd3ad579b4d3fba3e7f3b29e0db
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 2528c6d397198b6445caf7d5d3dcb1cdd1705a66
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462170"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368586"
 ---
 # <a name="ixplogonpoll"></a>IXPLogon::Poll
 

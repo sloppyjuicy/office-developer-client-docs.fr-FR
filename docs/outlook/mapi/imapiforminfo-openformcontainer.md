@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1d6eec99-59f9-4700-9b83-7f7f8787a9f8
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b8efa9fb9537cdf92718ab6b70deb15682df502b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8f16cf47567adb109e9acd9136102044b163be9d
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596301"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373143"
 ---
 # <a name="imapiforminfoopenformcontainer"></a>IMAPIFormInfo::OpenFormContainer
 

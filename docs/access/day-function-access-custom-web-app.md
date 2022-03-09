@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 8e0a77e4-0653-4a85-b507-13440aef195b
 description: Renvoie un nombre complet représentant le jour (jour du mois) de la date spécifiée dans le calendrier grégorien.
-ms.openlocfilehash: f85cb4655d80169c0fb8a0b96b08d17697348c8c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: aff6a92deabe05bb8d74c5deb5bd035baf09aacd
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770877"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371050"
 ---
 # <a name="day-function-access-custom-web-app"></a>Day function (Access custom web app)
 
@@ -29,7 +29,7 @@ La **fonction Day** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *Date*  <br/> |Expression qui peut être résolue en valeur Date/Heure. Expression *d’argument Date*  , expression de colonne, variable définie par l’utilisateur ou littéral de chaîne. |
+| *Date*  <br/> |Expression qui peut être résolue en valeur Date/Heure. Expression *d’argument Date* , expression de colonne, variable définie par l’utilisateur ou littéral de chaîne. |
 
 ## <a name="remarks"></a>Remarques
 

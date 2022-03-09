@@ -6,20 +6,18 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 270ff414-514c-b1fc-db48-761bf6de8867
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 11d9b10c9872b7f6904cc9268f8954b9953462f7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ad7ea1a71a99a0b70807f3b0dc04a8caa30932a0
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578535"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368992"
 ---
 # <a name="synchronize-state"></a>Synchroniser l’état
 
+**S’applique à** : Outlook 2013 | Outlook 2016
   
-  
-**S’applique à** : Outlook 2013 | Outlook 2016 
-  
- Cette rubrique décrit ce qui se produit pendant l’état de synchronisation de la machine à états de réplication. 
+ Cette rubrique décrit ce qui se produit pendant l’état de synchronisation de la machine à états de réplication.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -28,28 +26,22 @@ ms.locfileid: "59578535"
 |Identificateur d’état :  <br/> |**LR_SYNC** <br/> |
 |Structure de données associée :  <br/> |**[SYNC](sync.md)** <br/> |
 |À partir de cet état :  <br/> |[État inactif](idle-state.md) <br/> |
-|À cet état :  <br/> |[Télécharger l’état de la hiérarchie,](download-hierarchy-state.md) [synchroniser l’état du contenu,](synchronize-contents-state.md) [charger l’état de la](upload-hierarchy-state.md)hiérarchie ou état inactif  <br/> |
-   
+|À cet état :  <br/> |[Télécharger l’état de la hiérarchie](download-hierarchy-state.md), [synchroniser l’état du contenu](synchronize-contents-state.md), télécharger [l’état de la](upload-hierarchy-state.md) hiérarchie ou l’état inactif  <br/> |
+
 > [!NOTE]
-> La machine à états de réplication est une machine à états déterministe. Un client s’écartant d’un état à un autre doit finalement revenir au premier à partir du second. 
+> La machine à états de réplication est une machine à états déterministe. Un client s’écartant d’un état à un autre doit finalement revenir au premier à partir du second.
   
 ## <a name="description"></a>Description
 
 Cet état lance la synchronisation. Un magasin local peut passer à un état de chargement ou de téléchargement à partir d’ici. Par exemple, un magasin local peut passer à l’état de hiérarchie de téléchargement pour télécharger une hiérarchie de dossiers sur le serveur, ou il peut effectuer une synchronisation complète en téléchargeant d’abord la hiérarchie, puis en téléchargeant la hiérarchie à partir du serveur.
   
-Au cours de cet état, Outlook initialise la structure de données **SYNC** associée avec le chemin d’accès au magasin local, afin Outlook voir les modifications pendant d’autres états. 
+Au cours de cet état, Outlook initialise la structure de données **SYNC** associée avec le chemin d’accès au magasin local, afin que Outlook les modifications pendant d’autres états.
   
-Le client définit les membres [in] de **SYNC,** qui Outlook comment gérer d’autres états. Par exemple, le client peut définir *ulFlags* sur **UPS_UPLOAD_ONLY** et **UPS_THESE_FOLDERS** et *pel* à une liste d’identificateurs d’entrée des dossiers pour indiquer à Outlook que seuls ces dossiers seront téléchargés. Lorsque cet état se termine, le magasin local revient à l’état inactif. 
+Le client définit les membres [in] de **SYNC**, ce qui Outlook comment gérer d’autres états. Par exemple, le client peut définir *ulFlags* sur **UPS_UPLOAD_ONLY** et **UPS_THESE_FOLDERS** et *pel* à une liste d’identificateurs d’entrée des dossiers pour indiquer à Outlook que seuls ces dossiers seront téléchargés. Lorsque cet état se termine, le magasin local revient à l’état inactif.
   
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[À propos de l’API de réplication](about-the-replication-api.md)
-  
-[Constantes MAPI](mapi-constants.md)
-  
-[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
-  
+[À propos de l’API de réplication](about-the-replication-api.md)  
+[Constantes MAPI](mapi-constants.md)  
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)  
 [SYNCSTATE](syncstate.md)
-

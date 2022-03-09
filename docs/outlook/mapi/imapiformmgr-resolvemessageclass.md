@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c2af7516-3a97-4422-874d-b1e3a0d4f316
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8ea8a07c8b299c254fbbb8fd914838c916c5684f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 073b50305e236cbdfb9e88459b2b3a2a954e54b6
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596205"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369391"
 ---
 # <a name="imapiformmgrresolvemessageclass"></a>IMAPIFormMgr::ResolveMessageClass
 
@@ -66,21 +65,21 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> La classe de message transmise dans le paramètre  _szMsgClass_ ne correspond à la classe de message pour aucun formulaire de la bibliothèque de formulaires. 
+> La classe de message transmise dans le paramètre _szMsgClass_ ne correspond à la classe de message pour aucun formulaire de la bibliothèque de formulaires. 
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaire appellent la méthode **IMAPIFormMgr::ResolveMessageClass** pour résoudre une classe de message dans son formulaire dans un conteneur de formulaire. L’objet informations du formulaire renvoyé dans le  _paramètre ppResult_ fournit un accès supplémentaire aux propriétés du formulaire qui possède la classe de message donnée. 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::ResolveMessageClass** pour résoudre une classe de message dans son formulaire dans un conteneur de formulaire. L’objet informations du formulaire renvoyé dans le _paramètre ppResult_ fournit un accès supplémentaire aux propriétés du formulaire qui possède la classe de message donnée. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour résoudre une classe de message en formulaire, une visionneuse de formulaire transmet le nom de la classe de message à résoudre, tel que « `IPM.HelpDesk.Software` ». Pour forcer la résolution à être exacte (c’est-à-dire pour empêcher la résolution à une classe de base de la classe de message lorsqu’un serveur de formulaires correspondant exactement n’est pas disponible), l’indicateur MAPIFORM_EXACTMATCH peut être transmis dans le paramètre _ulFlags._ Si le  _paramètre pFolderFocus_ est NULL, le processus de résolution de classe de message ne recherche pas un conteneur de dossiers. 
+Pour résoudre une classe de message en formulaire, une visionneuse de formulaire transmet le nom de la classe de message à résoudre, tel que « `IPM.HelpDesk.Software`». Pour forcer la résolution à être exacte (c’est-à-dire pour empêcher la résolution à une classe de base de la classe de message lorsqu’un serveur de formulaires correspondant exactement n’est pas disponible), l’indicateur MAPIFORM_EXACTMATCH peut être transmis dans le paramètre _ulFlags_ . Si le  _paramètre pFolderFocus_ est NULL, le processus de résolution de classe de message ne recherche pas un conteneur de dossiers. 
   
 L’ordre des conteneurs recherchés dépend de l’implémentation du fournisseur de bibliothèque de formulaires. Le fournisseur de bibliothèque de formulaires par défaut recherche d’abord le conteneur local, puis le conteneur de dossiers pour le dossier transmis, le conteneur de formulaire personnel et, enfin, le conteneur d’organisation.
   
 Les noms de classe de message sont toujours des chaînes ANSI, jamais Unicode.
   
-L’identificateur de classe de la classe de message résolue est renvoyé dans le cadre de l’objet d’informations du formulaire. Une visionneuse de formulaire ne doit pas fonctionner sur l’hypothèse que l’identificateur de classe existe dans la bibliothèque OLE tant que la visionneuse n’a pas appelé la méthode [IMAPIFormMgr::P repareForm](imapiformmgr-prepareform.md) ou [IMAPIFormMgr::CreateForm.](imapiformmgr-createform.md) 
+L’identificateur de classe pour la classe de message résolue est renvoyé dans le cadre de l’objet d’informations du formulaire. Une visionneuse de formulaire ne doit pas fonctionner sur l’hypothèse que l’identificateur de classe existe dans la bibliothèque OLE tant que la visionneuse n’a pas appelé la méthode [IMAPIFormMgr::P repareForm](imapiformmgr-prepareform.md) ou [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) . 
   
 ## <a name="see-also"></a>Voir aussi
 

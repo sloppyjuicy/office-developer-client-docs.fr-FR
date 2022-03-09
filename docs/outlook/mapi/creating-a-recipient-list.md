@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 270f86dd-2c1f-47eb-80f7-9d0d63936d61
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e460765d57e4e40cc2739b39521b995c64ba5cf0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 375f1fdd65d0d3b1ea46d1d46fe96abdd4a815ec
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584667"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371974"
 ---
 # <a name="creating-a-recipient-list"></a>Création d’une liste de destinataires
 
@@ -39,9 +38,9 @@ Chaque destinataire doit avoir un ensemble principal de propriétés dans son ta
     
 - **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 
     
-Ces propriétés sont utilisées pour accéder au destinataire, lui envoyer des messages et les comparer à d’autres. Toutes ces propriétés ne doivent pas être disponibles immédiatement. Vous pouvez ajouter un destinataire initialement sans connaître son identificateur d’entrée, en vous appuyant sur le processus de résolution de noms pour affecter cette propriété. Avant d’envoyer un message, appelez [IAddrBook::ResolveName](iaddrbook-resolvename.md) pour vous assurer que tous les destinataires de votre liste de destinataires sont résolus. Pour plus d’informations, [voir Résolution d’un nom de destinataire.](resolving-a-recipient-name.md)
+Ces propriétés sont utilisées pour accéder au destinataire, lui envoyer des messages et les comparer à d’autres. Toutes ces propriétés ne doivent pas nécessairement être disponibles immédiatement. Vous pouvez ajouter un destinataire initialement sans connaître son identificateur d’entrée, en vous appuyant sur le processus de résolution de noms pour affecter cette propriété. Avant d’envoyer un message, appelez [IAddrBook::ResolveName](iaddrbook-resolvename.md) pour vous assurer que tous les destinataires de votre liste de destinataires sont résolus. Pour plus d’informations, [voir Résolution d’un nom de destinataire](resolving-a-recipient-name.md).
   
-Les listes de destinataires peuvent être créées à partir d’utilisateurs de messagerie ou d’entrées de liste de distribution dans un conteneur de carnet d’adresses ou à partir d’un conteneur de carnet d’adresses. Les destinataires à usage unique sont des destinataires créés en tant qu’entrées temporaires à utiliser uniquement pour traiter un seul message ou en tant qu’entrées à ajouter à un carnet d’adresses personnel. Le format d’un identificateur et d’une adresse d’entrée uniques est défini par MAPI. Pour plus d’informations sur ces formats, voir [Adresses uniques](one-off-addresses.md) et Identificateurs d’entrée [uniques.](one-off-entry-identifiers.md)
+Les listes de destinataires peuvent être créées à partir d’utilisateurs de messagerie ou d’entrées de liste de distribution dans un conteneur de carnet d’adresses ou à partir d’un conteneur de carnet d’adresses. Les destinataires à usage unique sont des destinataires créés en tant qu’entrées temporaires à utiliser uniquement pour traiter un seul message ou en tant qu’entrées à ajouter à un carnet d’adresses personnel. Le format d’un identificateur et d’une adresse d’entrée uniques est défini par MAPI. Pour plus d’informations sur ces formats, voir [Adresses uniques](one-off-addresses.md) et Identificateurs [d’entrée uniques](one-off-entry-identifiers.md).
   
 Vous pouvez permettre aux utilisateurs de créer leurs listes de destinataires :
   
@@ -51,22 +50,22 @@ Vous pouvez permettre aux utilisateurs de créer leurs listes de destinataires :
     
 - Avec une combinaison de destinataires de carnet d’adresses et de destinataires unique.
     
- **Pour créer une liste de destinataires à l’aide de la boîte de dialogue Adresse commune**
+ **Pour créer une liste de destinataires à l’aide de la boîte de dialogue d’adresse commune**
   
-1. Allouez une structure [ADRPARM](adrparm.md) et un pointeur à une structure [ADRLIST.](adrlist.md) 
+1. Allouez [une structure ADRPARM](adrparm.md) et un pointeur à [une structure ADRLIST](adrlist.md) . 
     
 2. Zéro la mémoire dans la structure **ADRPARM** et définissez le **pointeur ADRLIST** sur NULL. 
     
-3. Appelez [IAddrBook::Address](iaddrbook-address.md) pour afficher la boîte de dialogue d’adresse et remplir la structure **ADRPARM.** 
+3. [Appelez IAddrBook::Address](iaddrbook-address.md) pour afficher la boîte de dialogue d’adresse et remplir la structure **ADRPARM**. 
     
-4. Appelez [IMessage::ModifyRecipients](imessage-modifyrecipients.md), en passant le pointeur **ADRLIST.** Cette structure contient les propriétés de chacun des destinataires sélectionnés par l’utilisateur. 
+4. [Appelez IMessage::ModifyRecipients](imessage-modifyrecipients.md), en passant le pointeur **ADRLIST**. Cette structure contient les propriétés de chacun des destinataires sélectionnés par l’utilisateur. 
     
  **Pour créer une liste de destinataires par programme**
   
-1. Allouez une structure **ADRLIST** qui contient une structure [ADRENTRY](adrentry.md) pour chacun des destinataires à inclure dans la liste. Rendez chaque **structure ADRENTRY** suffisamment grande pour contenir chacune des propriétés et PR_RECIPIENT_TYPE **(** [PidTagRecipientType](pidtagrecipienttype-canonical-property.md)).
+1. **Allouez une structure ADRLIST** qui contient une structure [ADRENTRY](adrentry.md) pour chacun des destinataires à inclure dans la liste. Rendez chaque **structure ADRENTRY** suffisamment grande pour contenir chacune des propriétés et **PR_RECIPIENT_TYPE (**[PidTagRecipientType](pidtagrecipienttype-canonical-property.md)).
     
-2. Pour chaque destinataire, définissez le tableau des valeurs de propriété pour son membre **aEntries** dans la structure **ADRLIST.** 
+2. Pour chaque destinataire, définissez le tableau de valeurs de propriété pour son membre **aEntries** dans la structure **ADRLIST** . 
     
-3. Appelez [IMessage::ModifyRecipients](imessage-modifyrecipients.md) avec l’MODRECIP_ADD d’appel. 
+3. [Appelez IMessage::ModifyRecipients](imessage-modifyrecipients.md) avec l’MODRECIP_ADD d’appel. 
     
 

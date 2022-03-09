@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 850e256b-6b50-428c-aede-287edaf7b005
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: acb42aa4fedf0cdd006553cbeb9a5a5be96f61b1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4c06df6eb5d2e3917a1347996b42fa7399178dcc
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620673"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372555"
 ---
 # <a name="imslogonopenstatusentry"></a>IMSLogon::OpenStatusEntry
 
@@ -25,7 +24,7 @@ ms.locfileid: "59620673"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre un objet status.
+Ouvre un objet d’état.
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -40,7 +39,7 @@ HRESULT OpenStatusEntry(
 
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet d’état à ouvrir. La transmission null indique que l’interface standard de l’objet est renvoyée (dans ce cas, l’interface [IMAPIStatus).](imapistatusimapiprop.md) Le  _paramètre lpInterface_ peut également être définie sur un identificateur pour une interface appropriée pour l’objet. 
+> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet d’état à ouvrir. La transmission de la valeur NULL indique que l’interface standard de l’objet est renvoyée (dans ce cas, l’interface [IMAPIStatus](imapistatusimapiprop.md) ). Le  _paramètre lpInterface peut_ également être définie sur un identificateur pour une interface appropriée pour l’objet. 
     
  _ulFlags_
   
@@ -66,7 +65,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de magasins de messages implémentent la méthode **IMSLogon::OpenStatusEntry** pour ouvrir un objet d’état. Cet objet d’état est ensuite utilisé pour permettre aux clients d’appeler des [méthodes IMAPIStatus.](imapistatusimapiprop.md) Par exemple, les clients peuvent utiliser la méthode [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) pour reconfigurer la session d’ouverture de session de la boutique de messages ou la méthode [IMAPIStatus::ValidateState](imapistatus-validatestate.md) pour valider l’état de la session d’ouverture de session de la boutique de messages. 
+Les fournisseurs de magasins de messages implémentent **la méthode IMSLogon::OpenStatusEntry** pour ouvrir un objet d’état. Cet objet d’état est ensuite utilisé pour permettre aux clients d’appeler des [méthodes IMAPIStatus](imapistatusimapiprop.md) . Par exemple, les clients peuvent utiliser la méthode [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) pour reconfigurer la session d’ouverture de session de la boutique de messages ou la méthode [IMAPIStatus::ValidateState](imapistatus-validatestate.md) pour valider l’état de la session d’ouverture de session de la boutique de messages. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 58855843-9a2b-4e5d-9332-b1bfad8b45e4
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 270e1486c7c33ea8655914bf9fe51e9f335fc707
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 50f4468d8d35761f680588e81b5b0b285476fed1
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575742"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368607"
 ---
 # <a name="imapisupportsetprovideruid"></a>IMAPISupport::SetProviderUID
 
@@ -54,11 +53,11 @@ S_OK
 
 La **méthode IMAPISupport::SetProviderUID** est implémentée pour les objets de prise en charge du carnet d’adresses et du fournisseur de magasins de messages. Ces fournisseurs **appellent SetProviderUID** pour inscrire un identificateur unique décrit dans la structure **MAPIUID** pointée par  _lpProviderID_. Les fournisseurs incluent cet identificateur dans tous les identificateurs d’entrée qu’ils créent. 
   
-MAPI utilise la structure **MAPIUID** lorsqu’il envoie des messages sortants au spouleur MAPI et pour déterminer le fournisseur approprié pour la gestion des demandes client. Par exemple, lorsqu’un client appelle la méthode [IMAPISession::OpenEntry,](imapisession-openentry.md) MAPI examine la partie **MAPIUID** de l’identificateur d’entrée, la maie au fournisseur qui l’a passée à **SetProviderUID** et appelle l’OpenEntry de ce fournisseur.  
+MAPI utilise la structure **MAPIUID** lorsqu’il envoie des messages sortants au spouleur MAPI et pour déterminer le fournisseur approprié pour la gestion des demandes client. Par exemple, lorsqu’un client appelle la méthode [IMAPISession::OpenEntry](imapisession-openentry.md), MAPI examine la partie **MAPIUID** de l’identificateur d’entrée, la maie au fournisseur qui l’a passée à **SetProviderUID** et appelle l’OpenEntry de ce fournisseur. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez **SetProviderUID** au moment de l’inscription pour inscrire votre structure **MAPIUID.** MAPI permet aux fournisseurs de carnet d’adresses et de magasin de messages d’inscrire plusieurs identificateurs. Lorsque vous faites plusieurs appels à **SetProviderUID,** il ajoute toujours la structure **MAPIUID** à l’ensemble de structures **MAPIUID** du fournisseur, même si **mapIUID** est un doublon. **SetProviderUID ne** peut pas supprimer un **MAPIUID**. 
+**Appelez SetProviderUID** au moment de l’inscription pour inscrire votre structure **MAPIUID**. MAPI permet aux fournisseurs de carnet d’adresses et de magasin de messages d’inscrire plusieurs identificateurs. Lorsque vous faites plusieurs appels à **SetProviderUID**, il ajoute toujours la structure **MAPIUID** à l’ensemble de structures **MAPIUID** du fournisseur, même si **mapIUID** est un doublon. **SetProviderUID ne** peut pas supprimer **un MAPIUID**. 
   
 ## <a name="see-also"></a>Voir aussi
 

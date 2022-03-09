@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 58f36a6b-bcc5-4ebb-9761-6f420a718d97
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b4463dcadb73eb44aadd16cb75eb9750968a57bb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 80ec6dc34c50919d09a8e9c6d4f6fee85beb0b0d
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579606"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369034"
 ---
 # <a name="mapi-message-service-overview"></a>Vue d’ensemble du service de message MAPI
   

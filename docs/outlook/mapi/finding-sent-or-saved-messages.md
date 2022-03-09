@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 6b6714a5-7f36-4a72-9a2a-0d7fdf0e21b7
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 77d7173a6a62a375108f0d8bcffa3b99237417b2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 15139a67c56416e5b1623f9100d446ad750eea04
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587999"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373542"
 ---
 # <a name="finding-sent-or-saved-messages"></a>Recherche des messages envoyés ou enregistrés
 
@@ -23,11 +22,11 @@ ms.locfileid: "59587999"
   
  **Pour localiser tous les messages sortants que vous avez enregistrés ou envoyés**
   
-1. Appelez [IMsgStore::CompareEntryIDs](imsgstore-compareentryids.md) pour comparer le dossier qui contient vos messages envoyés avec le dossier qui contient vos messages entrants. 
+1. [Appelez IMsgStore::CompareEntryIDs](imsgstore-compareentryids.md) pour comparer le dossier qui contient vos messages envoyés avec le dossier qui contient vos messages entrants. 
     
-2. Définissez le paramètre  _lpEntryID1_ pour qu’il pointe vers **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) et le paramètre  _lpEntryID2_ pour pointer vers **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
+2. Définissez le paramètre  _lpEntryID1_ sur **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) et le paramètre  _lpEntryID2_ sur **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
     
-N’ignorez pas que si vous supprimez des messages après leur envoi ou que vous avez déplacé l’un des messages envoyés vers un autre dossier, cette stratégie ne fonctionne pas. 
+N’ignorez pas que si vous supprimez des messages après leur envoi ou que vous les avez déplacés vers un autre dossier, cette stratégie ne fonctionne pas. 
   
 Si, lors de l’examen d’un message entrant, vous remarquez que les propriétés généralement définies par un fournisseur de transport sont manquantes, vous pouvez supposer que le message n’a jamais été géré par un fournisseur de transport. Ces propriétés sont les suivantes :
   

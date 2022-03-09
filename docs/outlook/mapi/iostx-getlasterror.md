@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: b25c9288-b391-6303-3643-5a5b66b75c48
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 73a5559a22ceece27e692e95d2ab1bc01c654336
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 70d2eb92c10e3d00f06049033c52d255969eb3fd
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604774"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372205"
 ---
 # <a name="iostxgetlasterror"></a>IOSTX::GetLastError
 
@@ -39,15 +38,15 @@ HRESULT GetLastError(
 
  _hResult_
   
->  [in] Code d’erreur. 
+> [in] Code d’erreur. 
     
  _ulFlags_
   
->  [in] Indicateurs pour modifier le comportement. Ce doit être 0. 
+> [in] Indicateurs pour modifier le comportement. Ce doit être 0. 
     
  _lppMAPIError_
   
->  [out] Pointeur vers la structure **MAPIERROR** qui contient les informations étendues de l’erreur. Voir mapidefs.h pour la définition de type **de LPMAPIERROR**. 
+> [out] Pointeur vers la structure **MAPIERROR** qui contient les informations étendues de l’erreur. Voir mapidefs.h pour la définition de type **de LPMAPIERROR**. 
     
 ## <a name="see-also"></a>Voir aussi
 

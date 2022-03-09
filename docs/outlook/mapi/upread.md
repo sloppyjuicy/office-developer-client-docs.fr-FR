@@ -7,13 +7,12 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 568f2336-cb4d-3f2c-a304-d29cdb0bcbcc
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 844030b69c07196278069a3011f73bf892be996b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7beab4fdfde5a538aaba4924df0ee9bc1521c55f
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623928"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368726"
 ---
 # <a name="upread"></a>UPREAD
 
@@ -21,7 +20,7 @@ ms.locfileid: "59623928"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour le chargement de l’état de lecture des éléments pendant l’état de [lecture du chargement.](upload-read-status-state.md)
+Informations pour le chargement de l’état de lecture des éléments pendant l’état de [lecture du chargement](upload-read-status-state.md).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -37,11 +36,11 @@ struct UPREAD
 
  _pupre_
   
->  [out] Vecteur des **[entrées UPREADE.](upreade.md)** 
+> [out] Vecteur des **[entrées UPREADE](upreade.md)** . 
     
  _cEnt_
   
->  [out] Nombre **d’entrées UPREADE.** 
+> [out] Nombre **d’entrées UPREADE** . 
     
 ## <a name="see-also"></a>Voir aussi
 

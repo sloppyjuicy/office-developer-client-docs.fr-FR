@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 62aee641-b73f-4f53-9e8d-adf010c9ea1a
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2192421ddcde6771fa0eb342fc07aa28a65ddc51
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 109f7600c241439af4474e11433b865b2fd9f05b
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575441"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369881"
 ---
 # <a name="mapisvcinf-help-file-mappings-section"></a>Section MapiSvc.inf [Mappages des fichiers d’aide]
 
@@ -23,7 +22,7 @@ ms.locfileid: "59575441"
   
 La section **[Mappages** des fichiers d’aide] contient des entrées qui maient chaque service de message au fichier qui fournit de l’aide pour les erreurs générées par le service. Les entrées de cette section utilisent le format suivant : 
   
- **Nom de fichier d’aide** du service de _message_  =   [Mappages des fichiers _d’aide]_
+ **[Help File Mappings]** _message service nameHelp_ =   _file name_
   
 Le nom du service de message est le nom du service de message installé ; Le nom du fichier d’aide est le nom du fichier où résident les informations d’erreur. L’exemple suivant montre une section **type [Mappages** de fichiers d’aide] qui contient des entrées pour trois services : MAPI, le service MsgService et le service MS. 
   

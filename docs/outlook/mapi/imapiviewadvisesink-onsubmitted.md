@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: a2401662-1ddc-40d8-a5a7-ceca24442bd4
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 67dac1246a2d01557ce2d6167f5f3eb32cb57a38
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 771339b5b215d016be337f3f35334439bc45a863
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592290"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371526"
 ---
 # <a name="imapiviewadvisesinkonsubmitted"></a>IMAPIViewAdviseSink::OnSubmitted
 
@@ -25,7 +24,7 @@ ms.locfileid: "59592290"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avertit la visionneuse de formulaires que le message actuel a été envoyé aupooler MAPI.
+Avertit la visionneuse de formulaire que le message actuel a été envoyé aupooler MAPI.
   
 ```cpp
 HRESULT OnSubmitted( void );
@@ -47,7 +46,7 @@ Un objet de formulaire appelle la méthode **IMAPIViewAdviseSink::OnSubmitted** 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Après **l’appel de OnSubmitted,** vous pouvez continuer sur l’hypothèse que le message a été mis à jour. Mettez à jour vos fenêtres pour refléter les modifications qui se sont produites. 
+Après **avoir appelé OnSubmitted** , vous pouvez continuer sur l’hypothèse que le message a été mis à jour. Mettez à jour vos fenêtres pour refléter les modifications qui se sont produites. 
   
 Pour plus d’informations sur les notifications de formulaire, voir [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   

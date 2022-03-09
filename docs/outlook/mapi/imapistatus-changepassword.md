@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0cd1026a-342d-4d05-91ed-d3decced5bf3
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c98f3c2d3f14893fc37ab9c876d41ed65de409fc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ff0de6776f440d6232dcc4d8c743386c2a4509da
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596168"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368845"
 ---
 # <a name="imapistatuschangepassword"></a>IMAPIStatus::ChangePassword
 
@@ -69,7 +68,7 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Remarques
 
-Les objets d’état ne sont pas tous en charge par la méthode **IMAPIStatus::ChangePassword.** Il est uniquement pris en charge par les fournisseurs de services qui exigent que les clients entrent un mot de passe. Aucun des objets d’état implémentés par MAPI ne permet de modifier le mot de passe. 
+Les objets d’état ne sont pas tous en charge par la méthode **IMAPIStatus::ChangePassword** . Il est uniquement pris en charge par les fournisseurs de services qui exigent que les clients entrent un mot de passe. Aucun des objets d’état implémentés par MAPI ne permet de modifier le mot de passe. 
   
  **ChangePassword** modifie un mot de passe par programme, sans intervention de l’utilisateur. 
   

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 31325e8f-1cf9-49b2-8118-953996b0037f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 338e3aaeb11ff11a80737d06b9b084865112460e
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: cf6f099700832eb6a432ac3e819b2bd168f7641e
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62458798"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370819"
 ---
 # <a name="imapitablesetcollapsestate"></a>IMAPITable::SetCollapseState
 

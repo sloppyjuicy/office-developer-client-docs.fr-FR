@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 8936f0b6-f9b2-44ef-bf90-e482b64611cd
 description: Renvoie une valeur numérique qui représente la partie date spécifiée de la date spécifiée.
-ms.openlocfilehash: 547168f56e411d95541b01872bd2548b8ceaf193
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a9a4082cf73c7457c265d6af0cef4f1156d0a5ba
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770891"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370700"
 ---
 # <a name="datepart-function-access-custom-web-app"></a>Fonction DatePart (application web personnalisée Access)
 
@@ -29,7 +29,7 @@ La **fonction DatePart** contient les arguments suivants.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *DatePart*  <br/> |Partie de *Date*  (valeur de date ou d’heure) pour laquelle un nombre integer est renvoyé. Reportez-vous à la section Remarques pour obtenir la liste des abréviations valides. |
+| *DatePart*  <br/> |Partie de *Date* (valeur de date ou d’heure) pour laquelle un nombre integer est renvoyé. Reportez-vous à la section Remarques pour obtenir la liste des abréviations valides. |
 | *Date*  <br/> |Expression qui peut être résolue en valeur Date/Heure. Expression *d’argument Date* , expression de colonne, variable définie par l’utilisateur ou littéral de chaîne. |
 
 ## <a name="remarks"></a>Remarques

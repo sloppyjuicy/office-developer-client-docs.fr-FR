@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: e931246e-7fff-4116-a9fc-f685988e21e8
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d38a9930e9bdd3fcc5fb782c5bec45b1b6147e2e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0670d4865bf99b7f9138f801eca78eed0910a373
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567500"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371589"
 ---
 # <a name="imapistatussettingsdialog"></a>IMAPIStatus::SettingsDialog
 
@@ -60,7 +59,7 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPIStatus::SettingsDialog** affiche une feuille des propriétés de configuration. Tous les fournisseurs de services doivent prendre en charge **la méthode SettingsDialog,** mais elle n’est pas obligatoire. Les fournisseurs de services peuvent implémenter leurs propres feuilles de propriétés ou utiliser l’implémentation fournie dans la méthode [IMAPISupport::D oConfigPropsheet](imapisupport-doconfigpropsheet.md) de l’objet de support. **DoConfigPropsheet** crée une feuille de propriétés en lecture/écriture. 
+La **méthode IMAPIStatus::SettingsDialog** affiche une feuille des propriétés de configuration. Tous les fournisseurs de services doivent prendre en charge **la méthode SettingsDialog** , mais elle n’est pas obligatoire. Les fournisseurs de services peuvent implémenter leurs propres feuilles de propriétés ou utiliser l’implémentation fournie dans la méthode [IMAPISupport::D oConfigPropsheet](imapisupport-doconfigpropsheet.md) de l’objet de support. **DoConfigPropsheet** crée une feuille de propriétés en lecture/écriture. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
@@ -92,7 +91,7 @@ Vous pouvez utiliser la feuille des propriétés affichée via **SettingsDialog*
     
 Les fournisseurs de services peuvent implémenter des feuilles de propriétés qui sont en lecture/écriture, en lecture seule ou une combinaison d’autorisations, selon la propriété. Les fournisseurs de services peuvent implémenter différentes autorisations sur des propriétés individuelles en fixant des restrictions de propriété. Le mode par défaut pour les feuilles de propriétés est en lecture-écriture. Vous pouvez demander des feuilles de propriétés en lecture seule en UI_READONLY’indicateur dans vos appels **à SettingsDialog**. Les fournisseurs de services qui sont en mesure d’implémenter des feuilles de propriétés en lecture seule peuvent le faire. Toutefois, étant donné que certains fournisseurs de services ne peuvent pas remplacer le mode par défaut, vous devez être prêt à gérer les feuilles de propriétés de l’un ou l’autre type. 
   
-Étant donné qu’une interface utilisateur est toujours impliquée dans cette opération, seuls les clients interactifs doivent appeler **SettingsDialog**.
+Étant donné qu’une interface utilisateur est toujours impliquée dans cette opération, seuls les clients **interactifs doivent appeler SettingsDialog**.
   
 ## <a name="see-also"></a>Voir aussi
 

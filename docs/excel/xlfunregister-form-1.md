@@ -10,28 +10,28 @@ keywords:
 - fonction xlfunregister [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 850bf65f-a151-44d6-b49f-d53ae2c83760
-ms.openlocfilehash: 1125cb9966c6ad43ee543f82a3beaa54b9b4e4b7
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: 9560c09e615c329537eefa4ff161c848df1ed342
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198456"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372653"
 ---
 # <a name="xlfunregister-form-1"></a>xlfUnregister (formulaire 1)
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio
   
-Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **UNREGISTER** à partir d’Excel feuille macro XLM. 
+Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **UNREGISTER** à partir d’Excel feuille macro XLM.
   
-**xlfUnregister** peut être appelé sous deux formes : 
+**xlfUnregister** peut être appelé sous deux formes :
   
 - Formulaire 1 : désinsère une commande ou une fonction individuelle.
-    
+
 - Formulaire 2 : décharge et désactive une XLL.
-    
+
 Appelée dans le formulaire 1, cette fonction réduit le nombre d’utilisations d’une fonction ou d’une commande DLL précédemment inscrite à l’aide de **xlfRegister** ou **REGISTER**. Si le nombre d’utilisations est déjà zéro, cette fonction n’a aucun effet. Lorsque le nombre d’utilisations de toutes les fonctions dans une DLL atteint zéro, la DLL est déchargée de la mémoire.
   
-**xlfRegister** (formulaire 1) définit également un nom masqué qui est l’argument de texte de la fonction,  _pxFunctionText_, et qui est évalué en fonction de l’ID d’inscription de la fonction ou de la commande. Lors de la désinssion de la fonction, ce nom doit être supprimé à l’aide de **xlfSetName** afin que le nom de la fonction ne soit plus répertorié par l’Assistant Fonction. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
+**xlfRegister** (formulaire 1) définit également un nom masqué qui est l’argument de texte de la fonction, _pxFunctionText_, et qui est évalué en fonction de l’ID d’inscription de la fonction ou de la commande. Lors de la désinssion de la fonction, ce nom doit être supprimé à l’aide de **xlfSetName** afin que le nom de la fonction ne soit plus répertorié par l’Assistant Fonction. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
@@ -49,11 +49,11 @@ Si elle réussit, renvoie **TRUE** (**xltypeBool**), sinon elle renvoie FALSE.
   
 ## <a name="remarks"></a>Remarques
 
-L’ID d’inscription de la fonction est renvoyé par **xlfRegister** lors de la première inscription de la fonction. Il peut également être obtenu en appelant la fonction [xlfRegisterId](xlfregisterid.md) ou [la fonction xlfEvaluate](xlfevaluate.md). Notez que xlfRegisterId tente d’inscrire la fonction si elle n’a pas déjà été inscrite. Pour cette raison, si vous essayez uniquement d’obtenir l’ID afin de pouvoir désinsérer la fonction, il est préférable de l’obtenir en passant le nom enregistré à **xlfEvaluate**. Si la fonction n’a pas été enregistrée, **xlfEvaluate** échoue avec une #NAME ? erreur. 
+L’ID d’inscription de la fonction est renvoyé par **xlfRegister** lors de la première inscription de la fonction. Elle peut également être obtenue en appelant la fonction [xlfRegisterId](xlfregisterid.md) ou [la fonction xlfEvaluate](xlfevaluate.md). Notez que xlfRegisterId tente d’inscrire la fonction si elle n’a pas déjà été inscrite. Pour cette raison, si vous essayez uniquement d’obtenir l’ID afin de pouvoir désinsérer la fonction, il est préférable de l’obtenir en passant le nom enregistré à **xlfEvaluate**. Si la fonction n’a pas été enregistrée, **xlfEvaluate** échoue avec une #NAME ? erreur.
   
 ## <a name="example"></a>Exemple
 
-Consultez le code de la **fonction fExit** dans  `\SAMPLES\GENERIC\GENERIC.C` .
+Consultez le code de la **fonction fExit** dans `\SAMPLES\GENERIC\GENERIC.C`.
   
 ```cs
 int WINAPI fExit(void)
@@ -94,4 +94,3 @@ int WINAPI fExit(void)
 - [xlfRegisterId](xlfregisterid.md)
 - [xlfUnregister (formulaire 2)](xlfunregister-form-2.md)
 - [Fonctions XLM essentielles et utiles de l’API C](essential-and-useful-c-api-xlm-functions.md)
-

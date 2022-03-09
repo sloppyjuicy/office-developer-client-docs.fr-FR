@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ac82f7e8-6453-4b4f-8223-3c23d09ca4c6
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 74ab2cfde01d1aeabee3567b556ece6325ccd003
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 952def51338fd729d3ddf16b858e99e1d3a46aec
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590918"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368978"
 ---
 # <a name="tips-for-better-table-performance"></a>Conseils pour améliorer les performances d’une table
   
@@ -35,11 +34,11 @@ ms.locfileid: "59590918"
     
 - **Retarder une opération à l’aide de l’TBL_BATCH si possible**
     
-    La définition de l’indicateur BATCH TBL sur une méthode permet à l’implémenteur de table de collecter plusieurs appels avant d’agir \_ sur l’un d’eux. Au lieu d’effectuer potentiellement de nombreux appels vers un serveur distant ; un implémenteur de table peut en effectuer une, en effectuer toutes les opérations en même temps. Les résultats des opérations ne sont pas évalués tant qu’ils ne sont pas nécessaires. 
+    La définition de l’indicateur TBLBATCH\_ sur une méthode permet à l’implémenteur de table de collecter plusieurs appels avant d’agir sur l’un d’eux. Au lieu d’effectuer potentiellement de nombreux appels vers un serveur distant ; un implémenteur de table peut en effectuer un, en effectuer toutes les opérations en même temps. Les résultats des opérations ne sont pas évalués tant qu’ils ne sont pas nécessaires. 
     
-    Par exemple, lorsqu’un client appelle [IMAPITable::Restrict](imapitable-restrict.md) pour spécifier une restriction avec l’indicateur BATCH TBL, la restriction n’a pas besoin d’entrer en vigueur tant que le client n’appelle \_ [pas IMAPITable::QueryRows](imapitable-queryrows.md) pour récupérer les données. Cela permet à l’implémenteur de table de combiner le travail de deux appels en un seul. Les utilisateurs de tableau qui tirez parti de l’indicateur BATCH TBL doivent savoir que la gestion des erreurs dans ces \_ conditions peut être plus complexe. 
+    Par exemple, lorsqu’un client appelle [IMAPITable::Restrict](imapitable-restrict.md) pour spécifier une restriction avec l’indicateur TBLBATCH\_ définie, la restriction n’a pas besoin d’entrer en vigueur tant que le client n’a pas appelé [IMAPITable::QueryRows](imapitable-queryrows.md) pour récupérer les données. Cela permet à l’implémenteur de table de combiner le travail de deux appels en un seul. Les utilisateurs de tableau qui tirez parti de l’indicateur TBLBATCH\_ doivent savoir que la gestion des erreurs dans ces conditions peut être plus complexe. 
     
-    Étant donné que la gestion des erreurs à partir d’une opération différée est similaire à la gestion des erreurs lorsque l’indicateur DEFERRED_ERRORS MAPI est définie, voir Différer les erreurs MAPI pour plus \_ d’informations. [](deferring-mapi-errors.md) 
+    Étant donné que la gestion des erreurs à partir d’une opération différée est similaire à la gestion des erreurs lorsque l’indicateur MAPI\_ DEFERRED_ERRORS est définie, voir Différer les erreurs [MAPI](deferring-mapi-errors.md) pour plus d’informations. 
     
 - **Conserver un cache des propriétés couramment utilisées**
     

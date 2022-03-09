@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 821cc42d-eebb-4327-b2d4-594421a5c22c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b1caebdf75d6b7b7d84e786585199f2e780caa05
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2939bca5d3512dd215e2370e4eabc531c1898535
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592500"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370021"
 ---
 # <a name="developing-a-mapi-address-book-provider"></a>Développement d’un fournisseur de carnet d’adresses MAPI
 
@@ -31,10 +30,10 @@ MAPI crée le carnet d’adresses intégré en :
     
 3. Copie de chaque table de hiérarchie dans une table de hiérarchie intégrée. Il s’agit de la table de hiérarchie intégrée qui est exposée au client. 
     
-MAPI impose peu d’exigences aux rédacteurs de fournisseurs de carnet d’adresses. La gamme de fonctionnalités possibles que vous pouvez implémenter en tant que rédacteur de carnet d’adresses est variée et flexible. Par exemple, votre fournisseur peut être limité à fournir une vue en lecture seule d’un type particulier d’informations sur les destinataires ou implémenter un ensemble complet de fonctionnalités, ce qui peut permettre aux clients ou fournisseurs d’apporter des ajouts ou des modifications aux données des destinataires et d’imposer des critères de recherche pour définir des affichages personnalisés. 
+MAPI impose peu d’exigences aux rédacteurs de fournisseurs de carnet d’adresses. Les fonctionnalités possibles que vous pouvez implémenter en tant que rédacteur de carnet d’adresses sont variées et flexibles. Par exemple, votre fournisseur peut être limité à fournir une vue en lecture seule d’un type particulier d’informations sur les destinataires ou implémenter un ensemble complet de fonctionnalités, ce qui peut permettre aux clients ou fournisseurs d’apporter des ajouts ou des modifications aux données des destinataires et d’imposer des critères de recherche pour définir des affichages personnalisés. 
   
 Les données de votre fournisseur peuvent résider localement dans un fichier ou une base de données ou sur un serveur distant. Certains fournisseurs de carnets d’adresses sont destinés à fonctionner avec un système de messagerie particulier, étroitement associé à un fournisseur de transport, tandis que d’autres peuvent fonctionner avec n’importe quel système de messagerie.
   
-MAPI définit un type spécial de fournisseur de carnet d’adresses appelé carnet d’adresses personnel( PAB), qui implémente un conteneur modifiable unique et peut contenir des informations sur les destinataires copiées à partir d’autres conteneurs, ainsi que des informations créées directement. Bien que n’importe quel fournisseur de carnet d’adresses puisse implémenter un carnet d’adresses en mode page et que plusieurs carnets d’adresses en mode sans fil peuvent être ajoutés à un profil, un seul de ces fournisseurs peut être désigné pour fonctionner en tant que carnet d’adresses en mode sans fil au cours d’une session. 
+MAPI définit un type spécial de fournisseur de carnet d’adresses appelé carnet d’adresses personnel( PAB), qui implémente un conteneur modifiable unique et peut contenir des informations sur les destinataires copiées à partir d’autres conteneurs, ainsi que des informations créées directement. Bien que n’importe quel fournisseur de carnet d’adresses puisse implémenter un carnet d’adresses en mode page et que plusieurs carnets d’adresses en mode sans fil peuvent être ajoutés à un profil, un seul de ces fournisseurs peut être désigné comme carnet d’adresses en mode sans fil au cours d’une session. 
   
 

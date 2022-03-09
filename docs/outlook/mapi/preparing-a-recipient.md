@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9573f10c-66e1-4e87-93f0-89687e906b8b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4b04ea717f6fd12b6efb150bdd06c7d2046e4402
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fec84902bcb54db0f68f5cf68cf3c90f73e7c40a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550273"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369608"
 ---
 # <a name="preparing-a-recipient"></a>Préparation d’un destinataire
 
@@ -21,9 +20,9 @@ ms.locfileid: "59550273"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une application cliente prépare les destinataires en convertissant leurs identificateurs d’entrée à court terme en identificateurs d’entrée à long terme et éventuellement en ajoutant, modifiant ou réordant des propriétés. Vous pouvez préparer les destinataires qui font partie d’une liste de destinataires pour un message ou des destinataires qui ne sont pas liés à un message. En règle générale, les clients appellent [IAddrBook::P repareRecips](iaddrbook-preparerecips.md) directement pour traduire les identificateurs d’entrée à court terme en identificateurs d’entrée à long terme pour les destinataires inclus dans la boîte de dialogue Adresse commune. Pour les destinataires associés à un message sortant, la préparation du destinataire est gérée par le processus de résolution de noms. 
+Une application cliente prépare les destinataires en convertissant leurs identificateurs d’entrée à court terme en identificateurs d’entrée à long terme et éventuellement en ajoutant, modifiant ou réordant des propriétés. Vous pouvez préparer les destinataires qui font partie d’une liste de destinataires pour un message ou les destinataires qui ne sont pas liés à un message. En règle générale, les clients appellent [IAddrBook::P repareRecips](iaddrbook-preparerecips.md) directement pour traduire les identificateurs d’entrée à court terme en identificateurs d’entrée à long terme pour les destinataires inclus dans la boîte de dialogue d’adresse commune. Pour les destinataires associés à un message sortant, la préparation du destinataire est gérée par le processus de résolution de noms. 
   
-Pour préparer une liste de destinataires, appelez **IAddrBook::P repareRecips**. **PrepareRecips** accepte une structure [ADRLIST](adrlist.md) et une liste de balises de propriété. La structure **ADRLIST** contient les destinataires à préparer tandis que la liste de balises de propriétés représente les propriétés que chaque destinataire doit prendre en charge. **PrepareRecips** tente de placer les propriétés incluses dans la liste des balises de propriétés au début de la structure **ADRLIST.** Si l’une des propriétés de la liste est manquante dans la structure **ADRLIST,** MAPI appelle le fournisseur de carnet d’adresses pour les fournir. Si vous devez uniquement vérifier les identificateurs d’entrée à long terme, passez NULL pour le _paramètre lpSPropTagArray._ 
+Pour préparer une liste de destinataires, appelez **IAddrBook::P repareRecips**. **PrepareRecips** accepte une structure [ADRLIST](adrlist.md) et une liste de balises de propriété. La structure **ADRLIST** contient les destinataires à préparer tandis que la liste de balises de propriétés représente les propriétés que chaque destinataire doit prendre en charge. **PrepareRecips** tente de placer les propriétés incluses dans la liste des balises de propriétés au début de la structure **ADRLIST** . Si l’une des propriétés de la liste est manquante dans la structure **ADRLIST** , MAPI appelle le fournisseur de carnet d’adresses pour les fournir. Si vous devez uniquement vérifier les identificateurs d’entrée à long terme, passez NULL pour le  _paramètre lpSPropTagArray_ . 
   
 Par exemple, supposons que vous travaillez avec cinq destinataires. Les cinq destinataires apparaissent dans la structure **ADRLIST** avec les propriétés suivantes dans l’ordre suivant : 
   
@@ -45,7 +44,7 @@ Trois autres propriétés sont incluses dans la structure **ADRLIST** pour les d
     
 3. **PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md))
     
-Étant donné que tous les destinataires doivent avoir comme leurs trois premières propriétés **PR_ADDRTYPE**, **PR_ENTRYID** et **PR_HOME_TELEPHONE_NUMBER** ([PidTagHomeTelephoneNumber](pidtaghometelephonenumber-canonical-property.md)), créez un tableau de balises de propriétés avec ces propriétés et passez-le et la structure **ADRLIST** **à PrepareRecips**. **PrepareRecips** appelle la méthode **IMAPIProp::GetProps** de chaque destinataire pour récupérer **PR_HOME_TELEPHONE_NUMBER** car elle ne fait actuellement pas partie de la structure **ADRLIST.** Lorsque **PrepareRecips** renvoie, la liste des destinataires représente une liste fusionnée de destinataires dont les propriétés incluses dans la structure **ADRLIST** apparaissent en premier pour chaque destinataire. 
+Étant donné que tous les destinataires doivent avoir comme trois premières propriétés **PR_ADDRTYPE**, **PR_ENTRYID** et **PR_HOME_TELEPHONE_NUMBER** ([PidTagHomeTelephoneNumber](pidtaghometelephonenumber-canonical-property.md)), créez un tableau de balises de propriétés avec ces propriétés et passez-le et la structure **ADRLIST** à **PrepareRecips**. **PrepareRecips** appelle la méthode **IMAPIProp::GetProps** de chaque destinataire pour récupérer **PR_HOME_TELEPHONE_NUMBER** car elle ne fait actuellement pas partie de la structure **ADRLIST** . Lorsque **PrepareRecips** renvoie, la liste des destinataires représente une liste fusionnée de destinataires dont les propriétés incluses dans la structure **ADRLIST** apparaissent en premier pour chaque destinataire. 
   
 La liste des destinataires pour les destinataires 1 et 2 inclut les propriétés dans l’ordre suivant :
   
@@ -85,6 +84,6 @@ La liste des destinataires pour les destinataires 3, 4 et 5 inclut les propriét
     
 7. **PR_ADDRTYPE**
     
-Au lieu d’appeler **IAddrBook::P repareRecips** pour travailler avec les propriétés, appelez la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) de chaque destinataire et, si nécessaire, sa méthode [IMAPIProp::SetProps.](imapiprop-setprops.md) Lorsqu’un seul destinataire est impliqué, l’une ou l’autre technique est satisfaisante. Toutefois, lorsque plusieurs destinataires sont impliqués, l’appel de **PrepareRecips** plutôt que des méthodes **IMAPIProp** permet de gagner du temps et, si vous fonctionnez à distance, de nombreux appels de procédure distante. **PrepareRecips traite tous** les destinataires dans un seul appel, tandis que **GetProps** et **SetProps** font un appel pour chaque destinataire. 
+Au lieu d’appeler **IAddrBook::P repareRecips** pour travailler avec les propriétés, appelez la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) de chaque destinataire et, si nécessaire, sa méthode [IMAPIProp::SetProps](imapiprop-setprops.md) . Lorsqu’un seul destinataire est impliqué, l’une ou l’autre technique est satisfaisante. Toutefois, lorsque plusieurs destinataires sont impliqués, l’appel de **PrepareRecips** plutôt que des méthodes **IMAPIProp** permet de gagner du temps et, si vous fonctionnez à distance, de nombreux appels de procédure distante. **PrepareRecips traite tous** les destinataires dans un seul appel, tandis que **GetProps** et **SetProps** font un appel pour chaque destinataire. 
   
 

@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 80d31611-e508-4b17-b482-bedf76db26ff
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a569f99065acbb7a099839b078c56c0a0db0658d
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 36b3c13b81b7d3fbabac239d68b449567854fc37
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462226"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371799"
 ---
 # <a name="setting-table-position-with-a-fractional-value"></a>Définition de la position du tableau avec une valeur fractionnaire
 

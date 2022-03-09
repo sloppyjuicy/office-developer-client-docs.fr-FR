@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7622b531-cc4d-4146-8a57-5a3356de3b45
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8cfa538722b71813264ca733bfbd574a6db37380
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e61995e3452c43d2bab7fe484e62ee4f41f14204
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579375"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369286"
 ---
 # <a name="operating-environment-issues"></a>Problèmes de l’environnement d’exploitation
 

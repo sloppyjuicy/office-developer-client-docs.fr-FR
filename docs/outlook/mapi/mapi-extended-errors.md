@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b0a9fc55-f4ab-45d8-98cc-b040f9ef6aa4
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 85ac7357094575ca575b6d259e2beeadcba1abde
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 998679016664c46dc73b9e5d92978ab5c272074f
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567227"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369153"
 ---
 # <a name="mapi-extended-errors"></a>MAPI �tendue des erreurs
 

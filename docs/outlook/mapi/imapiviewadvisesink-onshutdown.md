@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c9c3aecf-5e4b-407a-8ea1-6211b4c6e0a5
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0e7cc95d7894fbaa0aa9aa3a80c515349a3808ce
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8bbcbac93d8a61adde6d3818fcf9e4a9641eaf13
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625258"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369937"
 ---
 # <a name="imapiviewadvisesinkonshutdown"></a>IMAPIViewAdviseSink::OnShutdown
 
@@ -25,7 +24,7 @@ ms.locfileid: "59625258"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avertit la visionneuse de formulaires qu’un formulaire est en cours de fermeture.
+Avertit la visionneuse de formulaire qu’un formulaire est en cours de fermeture.
   
 ```cpp
 HRESULT OnShutdown( void );

@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0afceb1f-9086-4cc9-8ce4-fb9256a81a9c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a51e1eeb3685e4782cd5d64b93d0ce73cfb75e19
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 42c195cd97e8c032fa4945dd9a450f92c51a8b6a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609466"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372163"
 ---
 # <a name="testing-and-debugging"></a>Test et débogage
 

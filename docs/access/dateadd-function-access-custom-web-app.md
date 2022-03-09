@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 7174c585-86e1-42a3-bb7f-d6641001b0f2
 description: Renvoie une date spécifiée avec l’intervalle de nombre spécifié (nombre total positif ou négatif) ajouté à une partie de date spécifiée de cette date.
-ms.openlocfilehash: bad4f0ac111a3098b27d66c13b53c7b355c0082b
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 6d176ee1805f45b9273ad4a91187e1198f0a2f43
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777830"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370770"
 ---
 # <a name="dateadd-function-access-custom-web-app"></a>DateAdd, fonction (application web personnalisée Access)
 
@@ -29,13 +29,13 @@ La **fonction DateAdd** contient les arguments suivants.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *DatePart*  <br/> |Partie de *Date*  à laquelle un nombre d’nombres integer est ajouté. Reportez-vous à la section Remarques pour obtenir la liste des paramètres valides. |
+| *DatePart*  <br/> |Partie de *Date* à laquelle un nombre d’nombres integer est ajouté. Reportez-vous à la section Remarques pour obtenir la liste des paramètres valides. |
 | *Number*  <br/> |Est une expression qui peut être résolue en un nombre integer qui est ajouté à un *datepart* de *date*. Si vous spécifiez une valeur avec une fraction décimale, la fraction est tronquée. |
-| *Date*  <br/> |Expression qui peut être résolue en valeur Date/Heure. Expression *d’argument Date*  , expression de colonne, variable définie par l’utilisateur ou littéral de chaîne. |
+| *Date*  <br/> |Expression qui peut être résolue en valeur Date/Heure. Expression *d’argument Date* , expression de colonne, variable définie par l’utilisateur ou littéral de chaîne. |
 
 ## <a name="remarks"></a>Remarques
 
-Le tableau suivant répertorie tous les arguments *DatePart*  valides.
+Le tableau suivant répertorie tous les arguments *DatePart* valides.
   
 |***DatePart***|
 |:-----|

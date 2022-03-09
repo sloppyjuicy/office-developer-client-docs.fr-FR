@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 71768db3-a107-47c6-8e6b-775e8d40ac36
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: abe1e54c4205d8b7d09344dfa09c20af5e560b26
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 88a3163873471370c5b2c57181f16e68e744c45f
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550154"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372821"
 ---
 # <a name="resending-an-undelivered-message"></a>Renvoi d’un message non remis
   
@@ -25,24 +24,24 @@ Lorsqu’un message de nouvelle réception est reçu, il doit ressembler exactem
   
 ### <a name="to-resend-an-undelivered-message"></a>Pour renvoyer un message non reçu
   
-1. Appelez [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) pour créer un message. 
+1. [Appelez IMAPIFolder::CreateMessage](imapifolder-createmessage.md) pour créer un message. 
     
-2. Copiez toutes les propriétés du message d’origine, à l’exception de la propriété ** PR_MESSAGE_RECIPIENTS ** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)), et des propriétés **PR_SENDER** et **PR_SENT_REPRESENTING.** A effectuer les modifications de propriété suivantes : 
+2. Copiez toutes les propriétés du message d’origine, à l’exception de la propriété ** PR_MESSAGE_RECIPIENTS ** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) et des propriétés **PR_SENDER** et **PR_SENT_REPRESENTING** . A effectuer les modifications de propriété suivantes : 
     
-   - Définissez **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) à la propriété **PR_ORIG_MESSAGE_CLASS ** ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md)) de l’état.
+   - **Définissez PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) sur la propriété **PR_ORIG_MESSAGE_CLASS ** ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md)) de l’état.
     
-   - Définissez MSGFLAG_RESEND’indicateur **de** PR_MESSAGE_FLAGS ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)).
+   - Définissez l MSGFLAG_RESEND de la **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)).
     
-   - Définissez **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) sur la propriété PR_ENTRYID **(** [PidTagEntryId](pidtagentryid-canonical-property.md)) du message d’origine.
+   - **Définissez PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) sur la propriété **PR_ENTRYID (**[PidTagEntryId](pidtagentryid-canonical-property.md)) du message d’origine.
     
    - Pour chaque destinataire, définissez MAPI_SUBMITTED la propriété **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)). 
     
-   - Dupliquer chaque destinataire en échec. Modifiez **la PR_RECIPIENT_TYPE** du destinataire dupliqué en MAPI_P1. Par conséquent, pour chaque destinataire ayant échoué, il existe désormais deux entrées dans la table des destinataires : une avec **PR_RECIPIENT_TYPE** définie sur sa valeur d’origine et l’autre avec **PR_RECIPIENT_TYPE** définie sur MAPI_P1. 
+   - Dupliquer chaque destinataire en échec. Modifiez **la PR_RECIPIENT_TYPE** du destinataire dupliqué en MAPI_P1. Par conséquent, pour chaque destinataire ayant échoué, il existe désormais deux entrées dans la table des destinataires : une avec **PR_RECIPIENT_TYPE** définie sur sa valeur d’origine  et l’autre avec PR_RECIPIENT_TYPE définie sur MAPI_P1. 
     
-3. Appelez [ScCreateConversationIndex](sccreateconversationindex.md) pour configurer le suivi des conversations si vous le souhaitez. 
+3. [Appelez ScCreateConversationIndex](sccreateconversationindex.md) pour configurer le suivi des conversations si vous le souhaitez. 
     
 4. Appelez la méthode [IMessage::ModifyRecipients](imessage-modifyrecipients.md) du nouveau message pour mettre à jour la liste des destinataires. 
     
-5. Appelez [IMessage::SubmitMessage](imessage-submitmessage.md) pour enregistrer et envoyer le nouveau message. 
+5. [Appelez IMessage::SubmitMessage](imessage-submitmessage.md) pour enregistrer et envoyer le nouveau message. 
     
 

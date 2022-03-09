@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7663c640-396e-4720-9345-370d0856bd49
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6b726bbf32e6c97566471a6ae6be4c33aa7e92d9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 37376211dad4f17f204b4b7709dffee809e1b4bc
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575735"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63371533"
 ---
 # <a name="imapitablewaitforcompletion"></a>IMAPITable::WaitForCompletion
 
@@ -65,7 +64,7 @@ MAPI_E_TIMEOUT
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPITable::WaitForCompletion** suspend le traitement jusqu’à ce que toutes les opérations asynchrones en cours pour la table soient terminées. **WaitForCompletion** peut permettre aux opérations asynchrones soit de se terminer entièrement, soit de s’exécuter pendant un certain nombre de millisecondes, comme indiqué par  _ulTimeout_, avant d’être interrompues. Pour détecter les opérations asynchrones en cours, appelez la méthode [IMAPITable::GetStatus.](imapitable-getstatus.md) 
+La **méthode IMAPITable::WaitForCompletion** suspend le traitement jusqu’à ce que toutes les opérations asynchrones en cours pour la table soient terminées. **WaitForCompletion** peut permettre aux opérations asynchrones soit de se terminer entièrement, soit de s’exécuter pendant un certain nombre de millisecondes, comme indiqué par  _ulTimeout_, avant d’être interrompues. Pour détecter les opérations asynchrones en cours, appelez la méthode [IMAPITable::GetStatus](imapitable-getstatus.md) . 
   
 ## <a name="see-also"></a>Voir aussi
 

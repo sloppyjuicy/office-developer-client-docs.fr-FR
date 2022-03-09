@@ -8,21 +8,20 @@ keywords:
 - compléments - [Excel 2007], développer des fichiers XLL - [Excel 2007], fichiers XLL - [Excel 2007], développer
 ms.assetid: dd27ae4d-ef97-47db-885c-ddd955816900
 ms.localizationpriority: high
-ms.openlocfilehash: dadb3bef8a87c804d961d518467994a9ca2beb49
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: 0bd4db26c711d8eb2fbe23cc97dc6b63f9b7681c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198428"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372408"
 ---
 # <a name="developing-excel-xlls"></a>Développement de fichiers XLL Excel
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio
   
 La principale raison d’écrire des fichiers XLL Microsoft Excel et d’utiliser l’API C est de créer des fonctions de feuille de calcul hautes performances. Les applications des fonctions hautes performances (et dans Excel 2007, la possibilité d’écrire des interfaces multithreads vers des ressources serveur puissantes) en font un axe essentiel de l’extensibilité d’Excel. Les performances des fichiers XLL ont été davantage améliorées dans Excel 2007 grâce à l’ajout de nouveaux types de données et, surtout, à la prise en charge du multithreading.
   
 L’API C ne possède aucune des fonctionnalités de développement rapide de niveau supérieur de Microsoft Visual Basic pour Applications (VBA), COM ou Microsoft .NET Framework. La gestion de la mémoire opère à faible niveau et, par conséquent, fait peser plus de responsabilités sur le développeur. La plupart des fonctionnalités d’Excel exposées par le biais de COM, ce qui les rend accessibles par le biais de .NET Framework et de VBA, ne sont pas exposées à l’API C.
-
 
 - [Concepts de programmation Excel](excel-programming-concepts.md)
   
@@ -52,4 +51,3 @@ L’API C ne possède aucune des fonctionnalités de développement rapide de n
   
 - [Compatibilité descendante](backward-compatibility.md)
   
-

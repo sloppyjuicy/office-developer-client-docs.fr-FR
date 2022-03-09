@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3e3cfaa-9c4a-482a-9411-9c4ab01d312f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: af34b77eb1a6fe8809d1910c03c80c2fea46fbf6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 33b08428f71d22d6b4e439c879f4db739a7dfe96
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579774"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372233"
 ---
 # <a name="imsprovidercomparestoreids"></a>IMSProvider::CompareStoreIDs
 
@@ -72,11 +71,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la méthode **IMSProvider::CompareStoreIDs** lorsqu’elle traite un appel à la méthode [IMAPISession::OpenMsgStore.](imapisession-openmsgstore.md) **CompareStoreIDs** est appelée à ce stade pour déterminer la section de profil, le cas cas, est associée à la magasin de messages en cours d’ouverture. Un **appel CompareStoreIDs peut** être effectué lorsqu’aucune boutique de messages n’est ouverte pour un fournisseur de magasins particulier. En outre, MAPI appelle **également CompareStoreIDs** lorsqu’il traite un appel de fournisseur de magasin à la méthode [IMAPISupport::OpenProfileSection.](imapisupport-openprofilesection.md) 
+MAPI appelle la méthode **IMSProvider::CompareStoreIDs** lorsqu’elle traite un appel à la méthode [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) . **CompareStoreIDs** est appelée à ce stade pour déterminer la section de profil, le cas cas, est associée à la magasin de messages en cours d’ouverture. Un **appel CompareStoreIDs peut** être effectué lorsqu’aucune boutique de messages n’est ouverte pour un fournisseur de magasins particulier. En outre, MAPI appelle **également CompareStoreIDs** lorsqu’il traite un appel de fournisseur de magasin à la méthode [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) . 
   
-Les identificateurs d’entrée comparés par **compares CompareStoreID** sont tous deux pour la bibliothèque de liens dynamiques (DLL) du fournisseur de magasins actuel et sont tous deux des identificateurs d’entrée de magasin non veloppés. Pour plus d’informations sur l’habillage des identificateurs d’entrée de magasin, voir [IMAPISupport::WrapStoreEntryID](imapisupport-wrapstoreentryid.md).
+Les identificateurs d’entrée **comparés par compares CompareStoreID** sont tous deux pour la bibliothèque de liens dynamiques (DLL) du fournisseur de magasins actuel et sont tous deux des identificateurs d’entrée de magasin non veloppés. Pour plus d’informations sur l’habillage des identificateurs d’entrée de magasin, voir [IMAPISupport::WrapStoreEntryID](imapisupport-wrapstoreentryid.md).
   
-La comparaison des identificateurs d’entrée est utile car un objet peut avoir plusieurs identificateurs d’entrée valides. Cela peut se produire, par exemple, après l’installation d’une nouvelle version d’un fournisseur de magasins de messages. 
+La comparaison des identificateurs d’entrée est utile, car un objet peut avoir plusieurs identificateurs d’entrée valides. Cela peut se produire, par exemple, après l’installation d’une nouvelle version d’un fournisseur de magasins de messages. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8316bfa1-3077-401f-aa1e-e9492aca12a8
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ae363eafc089d5af3f9f45a575d220c63ca2e4ff
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5e53bcc2741ae66cc055363b9f59b46f75bdf4e5
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600847"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372597"
 ---
 # <a name="imapiviewcontextgetsavestream"></a>IMAPIViewContext::GetSaveStream
 
@@ -37,7 +36,7 @@ LPSTREAM FAR * ppstm
 
 ## <a name="parameters"></a>Paramètres
 
- _nbFlags_
+ _graphieFlags_
   
 > [out] Pointeur vers un masque de bits d’indicateurs qui contrôle la façon dont le texte du message doit être enregistré. L’indicateur suivant peut être définie :
     
@@ -69,7 +68,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les objets form appellent la méthode **IMAPIViewContext::GetSaveStream** pour récupérer un flux d’un objet qui implémente l’interface **IStream** pour prendre en charge la gestion du verbe Enregistrer sous dans la visionneuse de formulaires. La méthode [IMAPIForm::D oVerb,](imapiform-doverb.md) implémentée dans le serveur de formulaires et appelée par la visionneuse de formulaire pour appeler un verbe, ne doit pas renvoyer tant que le message n’a pas été entièrement converti au format de texte approprié et placé dans le flux approprié. 
+Les objets form appellent la méthode **IMAPIViewContext::GetSaveStream** pour récupérer un flux d’un objet qui implémente l’interface **IStream** pour prendre en charge la gestion du verbe Enregistrer sous dans la visionneuse de formulaires. La méthode [IMAPIForm::D oVerb](imapiform-doverb.md) , implémentée dans le serveur de formulaires et appelée par la visionneuse de formulaire pour appeler un verbe, ne doit pas renvoyer tant que le message n’a pas été entièrement converti au format de texte approprié et placé dans le flux approprié. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

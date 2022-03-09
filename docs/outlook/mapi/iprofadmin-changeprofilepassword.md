@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: a41f707a-5c84-49aa-aeb6-469b2600e181
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3b6898962a9156e0da387e23108d4c4a38f34d65
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a0b8cddfd14620df13f07030d05af3d7a211f834
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579760"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63370308"
 ---
 # <a name="iprofadminchangeprofilepassword"></a>IProfAdmin::ChangeProfilePassword
 

@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cc3e1546-e58b-413f-82d7-4efeb86b0000
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 44137ffcab25ace7e93d92a735bca4a1c1186c24
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: eb2aa5dcadf3efaa572bae74c9289e347fb6e20a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609620"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369643"
 ---
 # <a name="posting-a-message"></a>Publication d’un message
 
@@ -25,31 +24,31 @@ La publication d’un message est similaire à l’envoi d’un message. La prin
   
 1. Ouvrez le dossier de destination en appelant [IMsgStore::OpenEntry](imsgstore-openentry.md). Si le dossier de destination est la boîte de réception, recherchez l’identificateur d’entrée à transmettre à **OpenEntry** en appelant [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md). 
     
-2. Appelez [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) pour créer le message. 
+2. [Appelez IMAPIFolder::CreateMessage](imapifolder-createmessage.md) pour créer le message. 
     
 3. Appelez la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) du message pour définir : 
     
-   - L MSGFLAG_READ de la **propriété PidTagMessageFlags** [(PR_MESSAGE_FLAGS).](pidtagmessageflags-canonical-property.md)
+   - L MSGFLAG_READ de la **propriété PidTagMessageFlags** ( [PR_MESSAGE_FLAGS](pidtagmessageflags-canonical-property.md)).
     
-   - Propriétés **PR_SENDER** propriétés. 
+   - **Propriétés PR_SENDER** propriétés. 
     
-   - Propriétés **PR_SENT_REPRESENTING** propriétés. 
+   - **Propriétés PR_SENT_REPRESENTING** propriétés. 
     
    - Propriété **PR_RECEIPT_TIME** ([PidTagReceiptTime](pidtagreceipttime-canonical-property.md)).
     
-   - Propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) ou **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)).
+   - Propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) **ou PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)).
     
    - Propriété **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
     
-   - Propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass).](pidtagmessageclass-canonical-property.md)
+   - Propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
     
    - Toutes les propriétés requises par la classe de message.
     
 4. Appelez la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) du message pour enregistrer le message. 
     
-5. Si nécessaire, créez une pièce jointe, définissez ses propriétés et enregistrez-la. Pour plus d’informations sur l’ajout de pièces jointes à des messages, voir [Création d’une pièce jointe de message.](creating-a-message-attachment.md)
+5. Si nécessaire, créez une pièce jointe, définissez ses propriétés et enregistrez-la. Pour plus d’informations sur l’ajout de pièces jointes à des messages, voir [Création d’une pièce jointe de message](creating-a-message-attachment.md).
     
-6. Appelez **IMessage::SaveChanges** pour enregistrer le message. À ce stade, elle apparaît dans la table des matières du dossier de destination. 
+6. **Appelez IMessage::SaveChanges** pour enregistrer le message. À ce stade, elle apparaît dans la table des matières du dossier de destination. 
     
 Notez que vous ne créez pas de liste de destinataires. Au lieu de cela, vous définissez plusieurs propriétés qui sont normalement définies par un fournisseur de transport pour un message envoyé. 
   

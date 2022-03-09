@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 18a10f14-0795-4d4d-b590-f4cef4f2902a
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 02bb6eb7620ee57f340217b7d9a70b63ef9878ab
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a7a5244865155d2fe5124f30f4f79274231ba37c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579881"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63369951"
 ---
 # <a name="imapiforminfosaveform"></a>IMAPIFormInfo::SaveForm
 
@@ -47,7 +46,7 @@ S_OK
     
 MAPI_E_EXTENDED_ERROR 
   
-> Le fichier de configuration n’a pas pu être écrit. Pour obtenir la structure [MAPIERROR](mapierror.md) associée à l’erreur, appelez la méthode [IMAPIProp::GetLastError.](imapiprop-getlasterror.md) 
+> Le fichier de configuration n’a pas pu être écrit. Pour obtenir la structure [MAPIERROR](mapierror.md) associée à l’erreur, appelez la méthode [IMAPIProp::GetLastError](imapiprop-getlasterror.md) . 
     
 MAPI_E_NO_SUPPORT 
   
@@ -55,7 +54,7 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Remarques
 
-Les applications clientes appellent la méthode **IMAPIFormInfo::SaveForm** pour enregistrer une description du formulaire actuel dans le fichier qui a le nom de fichier donné. **SaveForm crée** un fichier de configuration. 
+Les applications clientes appellent **la méthode IMAPIFormInfo::SaveForm** pour enregistrer une description du formulaire actuel dans le fichier qui a le nom de fichier donné. **SaveForm crée** un fichier de configuration. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
