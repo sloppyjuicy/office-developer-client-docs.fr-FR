@@ -7,12 +7,12 @@ ms:contentKeyID: 48546706
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a887505d29833ca074160103d5fac8be7c798f2f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9252c43ff91ab8be9e670722676f73763f324ea3
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621863"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463176"
 ---
 # <a name="seekenum"></a>SeekEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59621863"
 
 Spécifie le type de [Seek](seek-method-ado.md) à exécuter.
 
-<br/>
 
 <table>
 <colgroup>
@@ -48,7 +47,7 @@ Spécifie le type de [Seek](seek-method-ado.md) à exécuter.
 </tr>
 <tr class="odd">
 <td><p>adSeekAfterEQ</p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Recherche soit une clé égale à <em>KeyValues</em>, soit l'emplacement théorique suivant.</p></td>
 </tr>
 <tr class="even">
@@ -58,7 +57,7 @@ Spécifie le type de [Seek](seek-method-ado.md) à exécuter.
 </tr>
 <tr class="odd">
 <td><p>adSeekBeforeEQ</p></td>
-<td><p>16 </p></td>
+<td><p>16</p></td>
 <td><p>Recherche une clé égale à <em>KeyValues</em>, ou l'emplacement théorique suivant de cette correspondance.</p></td>
 </tr>
 <tr class="even">
@@ -80,7 +79,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

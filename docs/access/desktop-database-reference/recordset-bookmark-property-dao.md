@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 08c68c7ff58fb0dc0397ea7895f5efc58b99ccc9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8f51dac5b671f3660029bd275725eec051ba2484
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617666"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465022"
 ---
 # <a name="recordsetbookmark-property-dao"></a>Recordset.Bookmark, propriété (DAO)
 
@@ -124,7 +124,6 @@ Cet exemple utilise les propriétés **Bookmark** et **Bookmarkable** pour perme
     End Sub 
 ```
 
-<br/>
 
 Cet exemple utilise la propriété **LastModified** pour déplacer le pointeur d'enregistrement actif sur un enregistrement modifié et sur un enregistrement récemment créé.
 

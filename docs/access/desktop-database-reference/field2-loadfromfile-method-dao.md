@@ -1,5 +1,5 @@
 ---
-title: Field2.LoadFromFile method (DAO)
+title: Méthode Field2.LoadFromFile (DAO)
 TOCTitle: LoadFromFile Method
 ms:assetid: 8ffe4636-d4da-0579-f4b5-14f423647562
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197396(v=office.15)
@@ -11,14 +11,14 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: c921ba3292cb19ee3279ae72e054e12396fa4861
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bc3e4a25320da8c7524bac5d927acb6083392fb2
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615458"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464226"
 ---
-# <a name="field2loadfromfile-method-dao"></a>Field2.LoadFromFile method (DAO)
+# <a name="field2loadfromfile-method-dao"></a>Méthode Field2.LoadFromFile (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -87,7 +87,6 @@ L'extrait de code suivant utilise la méthode **LoadFromFile** pour charger la p
    rsEmployees.Update 
 ```
 
-<br/>
 
 L’exemple suivant montre comment ajouter des fichiers à partir d’un chemin d’accès de dossier spécifié à un champ Pièce jointe.
 

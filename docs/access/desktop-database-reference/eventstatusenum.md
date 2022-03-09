@@ -7,12 +7,12 @@ ms:contentKeyID: 48547059
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5a703dcafc981bd5663d01329330dd3cd2b0e23b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fa5bad57ba11c79039f720398f473b9db1e4d7e1
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602681"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464240"
 ---
 # <a name="eventstatusenum"></a>EventStatusEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59602681"
 
 Spécifie l'état en cours de l'exécution d'un événement.
 
-<br/>
 
 <table>
 <colgroup>
@@ -38,7 +37,7 @@ Spécifie l'état en cours de l'exécution d'un événement.
 <tbody>
 <tr class="odd">
 <td><p><strong>adStatusCancel</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Demande l'annulation de l'opération qui a provoqué l'événement.</p></td>
 </tr>
 <tr class="even">
@@ -75,7 +74,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

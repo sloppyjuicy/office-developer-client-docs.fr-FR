@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4ce90548a39ce33c795f68e513f3c178131b50b3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a081357e518ea7d0ac0653d0a61dd9859e649a15
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591268"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465597"
 ---
 # <a name="rtfsync"></a>RTFSync
 
@@ -53,7 +53,7 @@ _ulFlags_
       
   - RTF_SYNC_RTF_CHANGED : la version RTF du message a changé.
     
-  Tous les autres bits du  _paramètre ulFlags_ sont réservés pour une utilisation ultérieure. 
+  Tous les autres bits du _paramètre ulFlags_ sont réservés pour une utilisation ultérieure. 
     
 _lpfMessageUpdated_
   
@@ -67,17 +67,17 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Si la propriété **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) est manquante ou a la valeur FALSE, avant de lire la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), la **fonction RTFSync** doit être appelée avec l’indicateur RTF_SYNC_BODY_CHANGED définie. 
+Si la propriété **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) est manquante ou a la valeur FALSE, avant de lire la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), la fonction **RTFSync** doit être appelée avec l’indicateur RTF_SYNC_BODY_CHANGED. 
   
-Si l’indicateur STORE_RTF_OK n’est pas définie dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask),](pidtagstoresupportmask-canonical-property.md)cette fonction doit être appelée avec l’indicateur RTF_SYNC_RTF_CHANGED définie après la modification **PR_RTF_COMPRESSED**. 
+Si l’indicateur STORE_RTF_OK n’est pas définie dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)), cette fonction doit être appelée avec l’indicateur RTF_SYNC_RTF_CHANGED définie après la modification **PR_RTF_COMPRESSED.** 
   
-Si les **deux PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) et **PR_RTF_COMPRESSED** ont été modifiées, la **fonction RTFSync** doit être appelée avec les deux indicateurs. 
+Si les **deux PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) et **PR_RTF_COMPRESSED** ont été modifiés, la fonction **RTFSync** doit être appelée avec les deux indicateurs. 
   
 Si la valeur du paramètre  _lpfMessageUpdated_ est définie sur TRUE, la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) doit être appelée pour le message. Si **SaveChanges n’est** pas appelé, les modifications ne seront pas enregistrées dans le message. 
   
-Les fournisseurs de magasins de messages peuvent utiliser **RTFSync** pour maintenir les propriétés PR_BODY **et** **PR_RTF_COMPRESSED** synchronisées. 
+Les fournisseurs de magasins de messages peuvent utiliser **RTFSync** pour maintenir les propriétés **PR_BODY et** **PR_RTF_COMPRESSED** synchronisées. 
   
-Pour plus d’informations, voir [Prise en charge du texte RTF pour les fournisseurs de magasins de messages.](supporting-rtf-text-for-message-store-providers.md) 
+Pour plus d’informations, voir [Supporting RTF Text for Message Store Providers](supporting-rtf-text-for-message-store-providers.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

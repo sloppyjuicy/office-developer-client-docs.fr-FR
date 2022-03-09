@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 35cd57b4-9901-456c-bf06-1f84e274eb4e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e6f449728d985de1d263c25ee20239c64a4ad735
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 67a328e73f2c243ef7032bb316be576901d8312b
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556951"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465256"
 ---
 # <a name="adrparm"></a>ADRPARM
 
@@ -82,15 +82,15 @@ ADDRESS_ONE
     
 DIALOG_MODAL
   
-> Entraîne l’affichage de la version modale de la boîte de dialogue d’adresses commune. Cet indicateur ou cet DIALOG_SDI doit être définie ; Ils ne peuvent pas être tous les deux définies. 
+> Entraîne l’affichage de la version modale de la boîte de dialogue d’adresse commune. Cet indicateur ou cet DIALOG_SDI doit être définie ; Ils ne peuvent pas être tous les deux définies. 
     
 DIALOG_OPTIONS
   
-> Entraîne **l’affichage du** bouton Options d’envoi dans la boîte de dialogue. Cet indicateur est utilisé uniquement si la boîte de dialogue est modale, comme indiqué par l’DIALOG_MODAL en cours de mise en place. 
+> Entraîne **l’affichage du bouton Options** d’envoi dans la boîte de dialogue. Cet indicateur est utilisé uniquement si la boîte de dialogue est modale, comme indiqué par l’DIALOG_MODAL en cours de mise en place. 
     
 DIALOG_SDI
   
-> Entraîne l’affichage de la version non modée de la boîte de dialogue d’adresse commune. Cet indicateur ou cet DIALOG_MODAL doit être définie ; Ils ne peuvent pas être tous les deux définies. L DIALOG_SDI est ignoré pour les clients non Outlook, et la version modale de la boîte de dialogue s’affiche. Par conséquent, un pointeur vers un handle ne doit pas être attendu dans le paramètre  _lpulUIParam_ de [IAddrBook::Address](iaddrbook-address.md).
+> Entraîne l’affichage de la version non modée de la boîte de dialogue d’adresse commune. Cet indicateur ou cet DIALOG_MODAL doit être définie ; Ils ne peuvent pas être tous les deux définies. L DIALOG_SDI est ignoré pour les clients non Outlook, et la version modale de la boîte de dialogue s’affiche. Par conséquent, un pointeur vers un handle ne doit pas être attendu dans le paramètre _lpulUIParam_ de [IAddrBook::Address](iaddrbook-address.md).
     
 **lpReserved**
   
@@ -98,15 +98,15 @@ DIALOG_SDI
     
 **ulHelpContext**
   
-> Spécifie le contexte  dans l’aide qui s’affiche pour la première fois lorsque l’utilisateur clique sur le bouton Aide de la boîte de dialogue d’adresse. 
+> Spécifie le contexte dans **l’aide qui** s’affiche pour la première fois lorsque l’utilisateur clique sur le bouton Aide dans la boîte de dialogue Adresse. 
     
 **lpszHelpFileName**
   
-> Pointeur vers le nom d’un fichier d’aide qui sera associé à la boîte de dialogue d’adresses. Le **membre lpszHelpFileName** est utilisé avec **ulHelpContext** pour appeler Windows **fonction WinHelp.** 
+> Pointeur vers le nom d’un fichier d’aide qui sera associé à la boîte de dialogue d’adresses. Le **membre lpszHelpFileName** est utilisé avec **ulHelpContext** pour appeler Windows **fonction WinHelp**. 
     
 **lpfnABSDI**
   
-> Pointeur vers une fonction MAPI basée sur le prototype [ACCELERATEABSDI](accelerateabsdi.md) ou NULL. Ce membre s’applique uniquement à la version sans mode de la boîte de dialogue, comme indiqué par l’DIALOG_SDI en cours de mise en place. Les clients qui construisent une structure **ADRPARM** à transmettre à [IAddrBook::Address](iaddrbook-address.md) doivent toujours définir le membre **lpfnABSDI** sur NULL. Si l DIALOG_SDI est définie, MAPI le définira sur une fonction valide avant de le renvoyer. Les clients appellent cette fonction à partir de leur boucle de message pour s’assurer que les accélérateurs de la boîte de dialogue du carnet d’adresses fonctionnent. Lorsque la boîte de dialogue est fermée et que MAPI appelle la fonction pointée par le membre **lpfnDismiss,** les clients doivent déhooker la fonction **ACCELERATEABSDI** de leur boucle de messages. 
+> Pointeur vers une fonction MAPI basée sur le prototype [ACCELERATEABSDI](accelerateabsdi.md) ou NULL. Ce membre s’applique uniquement à la version sans mode de la boîte de dialogue, comme indiqué par l’DIALOG_SDI en cours de mise en place. Les clients qui construisent une structure **ADRPARM** à transmettre à [IAddrBook::Address](iaddrbook-address.md) doivent toujours définir le membre **lpfnABSDI** sur NULL. Si l DIALOG_SDI est définie, MAPI le définira sur une fonction valide avant de le renvoyer. Les clients appellent cette fonction à partir de leur boucle de message pour s’assurer que les accélérateurs de la boîte de dialogue du carnet d’adresses fonctionnent. Lorsque la boîte de dialogue est fermée et que MAPI appelle la fonction pointée par le membre **lpfnDismiss** , les clients doivent déhooker la fonction **ACCELERATEABSDI** de leur boucle de messages. 
     
 **lpfnDismiss**
   
@@ -114,15 +114,15 @@ DIALOG_SDI
     
 **lpvDismissContext**
   
-> Pointeur vers les informations de contexte à passer à la **fonction DISMISSMODELESS** pointée par le membre **lpfnDismiss.** Ce membre s’applique uniquement à la version sans mode de la boîte de dialogue, comme indiqué par l’indicateur DIALOG_SDI en cours de mise en place. 
+> Pointeur vers les informations de contexte à passer à la **fonction DISMISSMODELESS** pointée par le membre **lpfnDismiss** . Ce membre s’applique uniquement à la version sans mode de la boîte de dialogue, comme indiqué par l’indicateur DIALOG_SDI en cours de mise en place. 
     
 **lpszCaption**
   
-> Pointeur vers le texte à utiliser comme titre pour la boîte de dialogue d’adresse commune.
+> Pointeur vers le texte à utiliser comme titre pour la boîte de dialogue Adresse commune.
     
 **lpszNewEntryTitle**
   
-> Pointeur vers le texte à utiliser comme étiquette de  bouton pour le bouton qui appelle la boîte de dialogue Nouvelle entrée ou une autre boîte de dialogue. 
+> Pointeur vers le texte à utiliser comme étiquette de bouton pour le bouton qui appelle la boîte de  dialogue Nouvelle entrée ou une autre boîte de dialogue. 
     
 **lpszDestWellsTitle**
   
@@ -130,7 +130,7 @@ DIALOG_SDI
     
 **cDestFields**
   
-> Nombre de contrôles de zone de texte de destinataire dans la version modale de la boîte de dialogue d’adresses, ou zéro si la boîte de dialogue est sans mode. La boîte de dialogue d’adresse est ouverte pour la navigation uniquement lorsque les conditions suivantes sont vraies : 
+> Nombre de contrôles de zone de texte de destinataire dans la version modale de la boîte de dialogue d’adresse, ou zéro si la boîte de dialogue est sans mode. La boîte de dialogue d’adresse est ouverte pour la navigation uniquement lorsque les conditions suivantes sont vraies : 
     
   - Le **membre cDestFields** est définie sur zéro. 
     
@@ -150,7 +150,7 @@ DIALOG_SDI
     
 **lpulDestComps**
   
-> Pointeur vers un tableau de valeurs de type destinataire, telles que MAPI_TO, MAPI_CC et MAPI_BCC, qui est associé à chaque contrôle de zone de texte. La valeur du **membre CDestFields** indique le nombre de types de destinataires inclus dans le tableau. Les valeurs pointées par **lpulDestComps** peuvent être utilisées pour définir la propriété **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) de chaque destinataire. Si le **membre lpulDestComps** est NULL, la méthode **Address** utilise les types de destinataires par défaut. 
+> Pointeur vers un tableau de valeurs de type de destinataire, telles que MAPI_TO, MAPI_CC et MAPI_BCC, qui est associé à chaque contrôle de zone de texte. La valeur du **membre CDestFields** indique le nombre de types de destinataires inclus dans le tableau. Les valeurs pointées par **lpulDestComps** peuvent être utilisées pour définir la propriété **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) de chaque destinataire. Si le **membre lpulDestComps** est NULL, la méthode **Address** utilise les types de destinataires par défaut. 
     
 **lpContRestriction**
   
@@ -162,7 +162,7 @@ DIALOG_SDI
     
 ## <a name="remarks"></a>Remarques
 
-Les structures **ADRPARM** sont utilisées par les clients et les fournisseurs de services pour contrôler l’apparence et le comportement des boîtes de dialogue d’adresse commune MAPI. Il existe deux variantes de la boîte de dialogue d’adresse : modeless et modal. Certains des membres de la structure **ADRPARM** s’appliquent aux deux versions de la boîte de dialogue, mais d’autres s’appliquent uniquement à l’une des deux versions. Le tableau suivant relie les membres d’une structure **ADRPARM** à leur utilisation avec les boîtes de dialogue d’adresse communes. 
+**Les structures ADRPARM** sont utilisées par les clients et les fournisseurs de services pour contrôler l’apparence et le comportement des boîtes de dialogue d’adresse commune MAPI. Il existe deux variantes de la boîte de dialogue d’adresse : modeless et modal. Certains des membres de la structure **ADRPARM** s’appliquent aux deux versions de la boîte de dialogue, mais d’autres s’appliquent uniquement à l’une des deux versions. Le tableau suivant relie les membres d’une structure **ADRPARM** à leur utilisation avec les boîtes de dialogue d’adresses communes. 
   
 |Membre ADRPARM|Type de boîte de dialogue|
 |:-----|:-----|
@@ -178,19 +178,19 @@ Les structures **ADRPARM** sont utilisées par les clients et les fournisseurs d
 |**lpContRestriction** <br/> |Modal et non modal  <br/> |
 |**lpHierRestriction** <br/> |Modal et non modal  <br/> |
    
-La boîte de dialogue sans mode est un affichage en lecture seule des entrées d’un ou plusieurs conteneurs de carnet d’adresses. La boîte de dialogue peut afficher toutes les entrées des conteneurs sélectionnés ou être limitée uniquement aux entrées et conteneurs qui correspondent aux critères établis par une restriction. La restriction de contenu pointée par **lpContRestriction** peut limiter les types d’entrées affichées et la restriction de hiérarchie pointée par **lpHierRestriction** peut limiter les conteneurs fournissant les entrées. Pour informer l’appelant lorsque la boîte de dialogue est rejetée, MAPI appelle une fonction fournie par l’appelant qui correspond au prototype [DISMISSMODELESS.](dismissmodeless.md) Une autre fonction, qui correspond au prototype [ACCELERATEABSDI,](accelerateabsdi.md) est fournie par MAPI et invoquée par l’appelant dans la boucle de message Windows pour faciliter le fonctionnement des raccourcis clavier. La version sans mode de la boîte de dialogue d’adresse MAPI peut être affichée lorsque les clients appellent [IAddrBook::Address](iaddrbook-address.md) ou lorsque les fournisseurs de services appellent [IMAPISupport::Address](imapisupport-address.md). 
+La boîte de dialogue sans mode est un affichage en lecture seule des entrées d’un ou plusieurs conteneurs de carnet d’adresses. La boîte de dialogue peut afficher toutes les entrées des conteneurs sélectionnés ou être limitée uniquement aux entrées et conteneurs qui correspondent aux critères établis par une restriction. La restriction de contenu pointée par **lpContRestriction** peut limiter les types d’entrées affichées et la restriction de hiérarchie pointée par **lpHierRestriction** peut limiter les conteneurs fournissant les entrées. Pour informer l’appelant lorsque la boîte de dialogue est rejetée, MAPI appelle une fonction fournie par l’appelant qui correspond au prototype [DISMISSMODELESS](dismissmodeless.md) . Une autre fonction, qui correspond au prototype [ACCELERATEABSDI](accelerateabsdi.md), est fournie par MAPI et invoquée par l’appelant dans la boucle de message Windows pour faciliter le fonctionnement des raccourcis clavier. La version sans mode de la boîte de dialogue d’adresse MAPI peut être affichée lorsque les clients appellent [IAddrBook::Address](iaddrbook-address.md) ou lorsque les fournisseurs de services [appellent IMAPISupport::Address](imapisupport-address.md). 
   
-La boîte de dialogue modale est un affichage en lecture/écriture des entrées d’un ou plusieurs conteneurs. Son contenu peut être affecté de la même manière que la version sans mode par des restrictions définies dans les membres **lpContRestriction** et **lpHierRestriction.** Outre la zone de liste affichant les entrées de conteneur, la boîte de dialogue modale peut contenir entre un et trois contrôles de zone de texte pour contenir les entrées sélectionnées par l’utilisateur. Chaque contrôle d’édition est associé à un type de destinataire ou **à une propriété PR_RECIPIENT_TYPE** spécifique, telle que MAPI_TO. La boîte de dialogue d’adresse modale peut être affichée par l’une des méthodes **Address** ou lorsque les clients appellent [IAddrBook::D etails](iaddrbook-details.md) et que les fournisseurs de services appellent [IMAPISupport::D etails](imapisupport-details.md). 
+La boîte de dialogue modale est un affichage en lecture/écriture des entrées d’un ou plusieurs conteneurs. Son contenu peut être affecté de la même manière que la version sans mode par des restrictions définies dans les membres **lpContRestriction** et **lpHierRestriction** . Outre la zone de liste affichant les entrées de conteneur, la boîte de dialogue modale peut contenir entre un et trois contrôles de zone de texte pour contenir les entrées sélectionnées par l’utilisateur. Chaque contrôle d’édition est associé à un type de destinataire ou **à une propriété PR_RECIPIENT_TYPE** spécifique, telle que MAPI_TO. La boîte de dialogue d’adresse modale peut être affichée par l’une des méthodes **Address** ou lorsque les clients appellent [IAddrBook::D etails](iaddrbook-details.md) et les fournisseurs de services appellent [IMAPISupport::D etails](imapisupport-details.md). 
   
 Cette illustration comprend deux contrôles de zone de texte, car le membre **cDestFields** de la structure **ADRPARM** contrôlant l’affichage de cette boîte de dialogue est définie sur 2. Le premier contrôle a le focus initial, car le membre **nDestFieldFocus** est définie sur 0. 
   
-Le **membre lpszNewEntryTitle** pointe vers le texte d’une étiquette de bouton qui, lorsqu’elle est sélectionnée, entraîne l’affichage d’une boîte de dialogue supplémentaire. En règle générale, comme illustré dans l’illustration de la boîte de dialogue modale, le bouton est intitulé **Nouveau** et la boîte de dialogue qui s’affiche répertorie tous les types d’adresses qui peuvent être créés par n’importe quel fournisseur de carnet d’adresses dans le profil. Les clients  affichent cette boîte de dialogue Nouvelle entrée en appelant [IAddrBook::NewEntry](iaddrbook-newentry.md) et en passant zéro pour le paramètre _cbEidNewEntryTpl_ et NULL pour le paramètre _lpEidNewEntryTpl_ lorsque l’utilisateur sélectionne le bouton. Les informations incluses dans cette boîte de dialogue proviennent du tableau MAPI one-off. 
+Le **membre lpszNewEntryTitle** pointe vers le texte d’une étiquette de bouton qui, lorsqu’elle est sélectionnée, entraîne l’affichage d’une boîte de dialogue supplémentaire. En règle générale, comme illustré dans l’illustration de la boîte de dialogue modale, le bouton est intitulé **Nouveau** et la boîte de dialogue qui s’affiche répertorie tous les types d’adresses qui peuvent être créés par n’importe quel fournisseur de carnet d’adresses dans le profil. Les clients affichent  cette boîte de dialogue Nouvelle entrée en appelant [IAddrBook::NewEntry](iaddrbook-newentry.md) et en passant zéro pour le paramètre _cbEidNewEntryTpl_ et NULL pour le paramètre _lpEidNewEntryTpl_ lorsque l’utilisateur sélectionne le bouton. Les informations incluses dans cette boîte de dialogue proviennent du tableau MAPI one-off. 
   
-Chaque entrée de cette boîte de dialogue est associée à un modèle pour entrer les données requises pour créer une adresse du type particulier. La plupart des fournisseurs de carnet d’adresses fournissent un modèle pour chaque type d’entrée d’adresse qu’ils peuvent créer. Lorsqu’un utilisateur effectue une sélection dans cette boîte de dialogue, MAPI affiche le modèle correspondant.
+Chaque entrée de cette boîte de dialogue est associée à un modèle pour entrer les données requises pour créer une adresse du type particulier. La plupart des fournisseurs de carnet d’adresses fournissent un modèle pour chaque type d’entrée d’adresse qu’ils peuvent créer. Lorsqu’un utilisateur effectue une sélection à partir de cette boîte de dialogue, MAPI affiche le modèle correspondant.
   
-Les quatre bits les plus significatifs du membre **ulFlags** de la structure **ADRPARM** contiennent un numéro de version identifiant la version de la structure **ADRPARM.** La version actuelle est 0 (zéro) ou ADRPARM_HELP_CTX. L’implémentation actuelle de MAPI échoue pour toute version de la structure autre que zéro. 
+Les quatre bits les plus significatifs du membre **ulFlags** de la structure **ADRPARM** contiennent un numéro de version identifiant la version de la structure **ADRPARM**. La version actuelle est 0 (zéro) ou ADRPARM_HELP_CTX. L’implémentation actuelle de MAPI échoue pour toute version de la structure autre que zéro. 
   
-Les versions futures de la structure peuvent être complètement différentes . il se peut qu’ils ne prisent pas en charge la structure version zéro. Les macros suivantes sont fournies pour extraire le numéro de version du membre **ulFlags** et pour le combiner avec les indicateurs définis : 
+Les versions futures de la structure peuvent être complètement différentes . il se peut qu’ils ne  prisent pas en charge la structure version zéro. Les macros suivantes sont fournies pour extraire le numéro de version du membre **ulFlags** et pour le combiner avec les indicateurs définis : 
   
 - **GET_ADRPARM_VERSION** (_ulFlags_) 
 - **SET_ADRPARM_VERSION** (_ulFlags_, _ ulVersion _) 

@@ -7,12 +7,12 @@ ms:contentKeyID: 48545637
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 79067ba0d5fc46b83de5a8d38bb174279f773b12
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2674525f81b49850fafeef41f0513772ae5bd8bf
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597001"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462847"
 ---
 # <a name="recordset2bookmark-property-dao"></a>Recordset2.Bookmark, propriété (DAO)
 
@@ -25,7 +25,7 @@ Définit ou renvoie un signet qui identifie de façon unique l'enregistrement ac
 
 *expression* . Bookmark
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -35,7 +35,7 @@ Lorsque vous créez ou que vous ouvrez un objet **Recordset**, chacun de ses enr
 
 Il n'existe aucune limite quant au nombre de signets que vous pouvez définir. Pour créer un signet d'un enregistrement autre que l'enregistrement actif, accédez à l'enregistrement souhaité et affectez à la propriété **Bookmark** une variable de type **String** qui identifie l'enregistrement.
 
-Pour vous assurer que l’objet **Recordset** prend en charge les signets, vérifiez la valeur de sa propriété **[Bookmarkable](recordset2-bookmarkable-property-dao.md)** avant d’utiliser la propriété **Bookmark**. Si la propriété **Bookmarkable** est False, l'objet **Recordset** ne prend pas en charge les signets et l'utilisation de la propriété **Bookmark** provoquera une erreur piégeable.
+Pour vous assurer que l'objet **Recordset** prend en charge les signets, vérifiez la valeur de sa propriété **[Bookmarkable](recordset2-bookmarkable-property-dao.md)** avant d'utiliser la propriété **Bookmark**. Si la propriété **Bookmarkable** est False, l'objet **Recordset** ne prend pas en charge les signets et l'utilisation de la propriété **Bookmark** provoquera une erreur interceptable.
 
 Si vous utilisez la méthode **[Clone](recordset2-clone-method-dao.md)** pour créer une copie de l'objet **Recordset**, les paramètres de la propriété **Bookmark** des objets **Recordset** d'origine et dupliqué sont identiques et interchangeables. En revanche, vous ne pouvez pas utiliser indifféremment des signets d'objets **Recordset** différents même s'ils ont été créés à l'aide du même objet ou de la même instruction SQL.
 
@@ -120,7 +120,6 @@ Cet exemple montre comment les propriétés **Bookmark** et **Bookmarkable** per
     End Sub 
 ```
 
-<br/>
 
 Cet exemple utilise la propriété **LastModified** pour déplacer le pointeur d'enregistrement actif sur un enregistrement modifié et sur un enregistrement récemment créé.
 

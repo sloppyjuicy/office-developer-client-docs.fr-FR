@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0949e066-aa28-4ede-ac88-b2dccd5098e8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: af4c5b0305f8de8b31ca54747db2d3faed68131f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3930b69acc0d9710470e55661f80d180f02753d1
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609186"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463148"
 ---
 # <a name="wrapcompressedrtfstream"></a>WrapCompressedRTFStream
 
@@ -71,11 +71,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Si l MAPI_MODIFY est transmis dans le paramètre  _ulFlags,_ le paramètre  _lpCompressedRTFStream_ doit déjà être ouvert pour la lecture et l’écriture. Le nouveau texte RTF non compressé doit être écrit dans l’interface de flux renvoyée dans  _lpUncompressedRTFStream_. Étant donné qu’il n’est pas possible d’appender le flux existant, l’intégralité du texte du message doit être écrite. 
+Si l MAPI_MODIFY est transmis dans le paramètre _ulFlags_ , le paramètre  _lpCompressedRTFStream_ doit déjà être ouvert pour lecture et écriture. Le nouveau texte RTF non compressé doit être écrit dans l’interface de flux renvoyée dans  _lpUncompressedRTFStream_. Étant donné qu’il n’est pas possible d’appender le flux existant, l’intégralité du texte du message doit être écrite. 
   
-Si zéro est transmis dans le  _paramètre ulFlags,_  _lpCompressedRTFStream_ peut être ouvert en lecture seule. Seul l’intégralité du texte du message peut être lue à partir de l’interface de flux renvoyée dans  _lpUncompressedRTFStream_. Il n’est pas possible de rechercher à partir du milieu du flux. 
+Si zéro est transmis dans le _paramètre ulFlags_ ,  _lpCompressedRTFStream_ peut être ouvert en lecture seule. Seul l’intégralité du texte du message peut être lue à partir de l’interface de flux renvoyée dans  _lpUncompressedRTFStream_. Il n’est pas possible de rechercher à partir du milieu du flux. 
   
- **WrapCompressedRTFStream** suppose que le pointeur du flux compressé est placé au début du flux. Certaines méthodes OLE **IStream** ne sont pas pris en charge par le flux non compressé renvoyé. Ceux-ci incluent **IStream::Clone**, **IStream::LockRegion**, **IStream::Revert**, **IStream::Seek**, **IStream::SetSize**, **IStream::Stat** et **IStream::UnlockRegion**. Pour copier dans le flux entier, une boucle de lecture/écriture est nécessaire. 
+ **WrapCompressedRTFStream** suppose que le pointeur du flux compressé est placé au début du flux. Certaines méthodes OLE **IStream** ne sont pas pris en charge par le flux non compressé renvoyé. Ces éléments incluent **IStream::Clone**, **IStream::LockRegion**, **IStream::Revert**, **IStream::Seek**, **IStream::SetSize**, **IStream::Stat** et **IStream::UnlockRegion**. Pour copier l’intégralité du flux, une boucle de lecture/écriture est nécessaire. 
   
 Étant donné que le client écrit le nouveau format RTF dans un format non compressé, il doit utiliser **WrapCompressedRTFStream**, au lieu d’écrire directement dans le flux. Les clients rtF doivent rechercher l’indicateur STORE_UNCOMPRESSED_RTF dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) et le transmettre à **WrapCompressed RTFStream** s’il est paradé. 
   

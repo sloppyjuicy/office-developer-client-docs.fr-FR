@@ -7,12 +7,12 @@ ms:contentKeyID: 48545028
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 0ea5d8e52d14ae477167864b8c084e5f4837faef
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d3e84e6f68ba7c28c5407f935ea93ca6242b116a
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577471"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465308"
 ---
 # <a name="datatypeenum-enumeration-dao"></a>DataTypeEnum, énumération (DAO)
 
@@ -47,7 +47,7 @@ Spécifie le type des données opérationnelles d'un objet.
 </tr>
 <tr class="odd">
 <td><p>dbBinary</p></td>
-<td><p>9</p></td>
+<td><p>9 </p></td>
 <td><p>Type de données Binaire</p></td>
 </tr>
 <tr class="even">
@@ -62,7 +62,7 @@ Spécifie le type des données opérationnelles d'un objet.
 </tr>
 <tr class="even">
 <td><p>dbChar</p></td>
-<td><p>18</p></td>
+<td><p>18 </p></td>
 <td><p>Type de données Texte (largeur fixe)</p></td>
 </tr>
 <tr class="odd">
@@ -112,7 +112,7 @@ Spécifie le type des données opérationnelles d'un objet.
 </tr>
 <tr class="even">
 <td><p>dbDate</p></td>
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>Données de valeurs de date</p></td>
 </tr>
 <tr class="odd">
@@ -123,22 +123,21 @@ Spécifie le type des données opérationnelles d'un objet.
 </tr>
 <tr class="even">
 <td><p>dbDouble</p></td>
-<td><p>7</p></td>
+<td><p>7 </p></td>
 <td><p>Type de données Virgule flottante double précision</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbFloat</p></td>
-<td><p>21</p></td>
+<td><p> 21</p></td>
 <td><p>Type de données Virgule flottante (ODBCDirect uniquement)</p>
 
-<br/>
 
 
 </td>
 </tr>
 <tr class="even">
 <td><p>dbGUID</p></td>
-<td><p>15</p></td>
+<td><p>15 </p></td>
 <td><p>Type de données GUID</p></td>
 </tr>
 <tr class="odd">
@@ -158,7 +157,7 @@ Spécifie le type des données opérationnelles d'un objet.
 </tr>
 <tr class="even">
 <td><p>dbMemo</p></td>
-<td><p>12</p></td>
+<td><p>12 </p></td>
 <td><p>Type de données Mémo (texte étendu)</p></td>
 </tr>
 <tr class="odd">
@@ -166,14 +165,13 @@ Spécifie le type des données opérationnelles d'un objet.
 <td><p>19</p></td>
 <td><p>Type de données Numérique (ODBCDirect uniquement)</p>
 
-<br/>
 
 
 </td>
 </tr>
 <tr class="even">
 <td><p>dbSingle</p></td>
-<td><p>6</p></td>
+<td><p>6 </p></td>
 <td><p>Type de données Virgule flottante simple précision</p></td>
 </tr>
 <tr class="odd">
@@ -186,7 +184,6 @@ Spécifie le type des données opérationnelles d'un objet.
 <td><p>22</p></td>
 <td><p>Données au format de l'heure (ODBCDirect uniquement)</p>
 
-<br/>
 
 
 </td>
@@ -196,17 +193,15 @@ Spécifie le type des données opérationnelles d'un objet.
 <td><p>23</p></td>
 <td><p>Données au format de la date et de l'heure (ODBCDirect uniquement)</p>
 
-<br/>
 
 
 </td>
 </tr>
 <tr class="even">
 <td><p>dbVarBinary</p></td>
-<td><p>17</p></td>
+<td><p>17 </p></td>
 <td><p>Type de données Binaire à longueur variable (ODBCDirect uniquement)</p>
 
-<br/>
 
 
 </td>

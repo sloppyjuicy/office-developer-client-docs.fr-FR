@@ -7,12 +7,12 @@ ms:contentKeyID: 48548876
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d684c6f50a07efd07b28b64fd36b5106a940e55f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8400379df7016d9d607304d428d2f8deb7ccba3b
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626637"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464188"
 ---
 # <a name="fieldenum"></a>FieldEnum
 
@@ -24,7 +24,6 @@ Spécifie les champs spéciaux référencés dans une collection [Fields](record
 
 Ces constantes représentent un "raccourci" pour accéder aux champs spéciaux associés à un objet **Record**. Extrayez l’objet [Field](field-object-ado.md) depuis la collection **Fields**, puis obtenez son contenu avec la propriété [Value](value-property-ado.md) de l’objet **Field**.
 
-<br/>
 
 <table>
 <colgroup>

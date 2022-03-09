@@ -7,12 +7,12 @@ ms:contentKeyID: 48543967
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: f7e4b9db2fee904e2beb640e8a8ffe460e54ff15
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: abf2e17797d72584a14211975d9c88eaaf95a492
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612154"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465442"
 ---
 # <a name="fieldattributeenum"></a>FieldAttributeEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59612154"
 
 Spécifie un ou plusieurs attributs d’un objet [Field](field-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>
@@ -131,7 +130,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

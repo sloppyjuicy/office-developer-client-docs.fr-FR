@@ -7,12 +7,12 @@ ms:contentKeyID: 48544337
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: fa2261b1d0fa09916a0cea833c00358b8cf77bf5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8de5af742b7b7d5d20d1a0a6d69bd313fec726bf
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615024"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464556"
 ---
 # <a name="resyncenum"></a>ResyncEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59615024"
 
 Spécifie si les valeurs sous-jacentes sont remplacées par un appel à [Resync](resync-method-ado.md).
 
-<br/>
 
 <table>
 <colgroup>
@@ -60,7 +59,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

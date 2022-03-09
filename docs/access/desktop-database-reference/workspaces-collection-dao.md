@@ -7,12 +7,12 @@ ms:contentKeyID: 48546142
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6f95c44eb5517ebbd0d963058123c07717be2699
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a4a28c1ca8a527a22860abd670e578fc95757d1b
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588545"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462833"
 ---
 # <a name="workspaces-collection-dao"></a>Workspaces collection (DAO)
 
@@ -25,7 +25,7 @@ Une collection **Workspaces** contient tous les objets **Workspace** actifs et n
 
 L'objet **Workspace** permet de gérer la session active ou de démarrer une session supplémentaire.
 
-Lorsque vous utilisez ou référencez un objet **Workspace** pour la première fois, vous créez automatiquement l’espace de travail par défaut DBEngine.Workspaces(0). Les paramètres des propriétés **Name** et **UserName** de l’espace de travail par défaut sont respectivement « \##Default Workspace#\# » et « Admin ». Si la sécurité est activée, la **nom d’utilisateur** paramètre de la propriété est le nom de l’utilisateur connecté.
+Lorsque vous utilisez ou référencez un objet **Workspace** pour la première fois, vous créez automatiquement l'espace de travail par défaut, appelé DBEngine.Workspaces(0). Les paramètres des propriétés **Name** et **UserName** de l'espace par défaut sont respectivement « \#Espace de travail par défaut\# » et « Administrateur ». Si la sécurité est activée, le paramètre de propriété **UserName** est le nom de l’utilisateur qui s’est connecté.
 
 Vous pouvez créer de nouveaux objets **Workspace** à l'aide de la méthode **[CreateWorkspace](dbengine-createworkspace-method-dao.md)**. Une fois le nouvel objet **Workspace** créé, vous devez l'ajouter à la collection **Workspaces** si vous devez vous y référer à partir de la collection. **Workspaces** Toutefois, vous pouvez utiliser un objet **Workspace** nouvellement créé sans l'ajouter à la collection **Workspaces**.
 
@@ -78,7 +78,6 @@ Sub WorkspaceX()
 End Sub 
 ```
 
-<br/>
 
 Cet exemple utilise la méthode **CreateWorkspace** pour créer un espace de travail Microsoft Access. Il répertorie ensuite les propriétés de l'espace de travail.
 

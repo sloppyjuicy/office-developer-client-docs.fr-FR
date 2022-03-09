@@ -7,12 +7,12 @@ ms:contentKeyID: 48544702
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: d1d9afb32230969939a0883c8d473ba410813afc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 15614e3943f2eba5fe04095cb3cea8c65156a912
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59569040"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463015"
 ---
 # <a name="fields-collection-dao"></a>Collection de champs (DAO)
 
@@ -101,7 +101,6 @@ Cet exemple indique les propriétés valides pour un objet **Field** en fonction
     End Sub 
 ```
 
-<br/>
 
 Cet exemple utilise la méthode **CreateField** pour créer trois objets **Fields** pour un objet **TableDef**. Il affiche ensuite les propriétés de ces objets **Field**, qui sont automatiquement définies par la méthode **CreateField** (les propriétés dont les valeurs sont vides lors de la création de **Field** ne sont pas affichées).
 

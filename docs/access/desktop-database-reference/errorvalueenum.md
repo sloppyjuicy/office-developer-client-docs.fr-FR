@@ -7,12 +7,12 @@ ms:contentKeyID: 48543921
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 958cb01ebe84a7295df23dcdede346ce767cd0f9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c7b3ffdc4e1714d4b5c9f9f563437d065aeab9c7
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626763"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465618"
 ---
 # <a name="errorvalueenum"></a>ErrorValueEnum
 
@@ -31,7 +31,6 @@ Trois formes d'erreur sont répertoriées :
 > [!NOTE]
 > Les erreurs OLE DB peuvent être transmises à votre application ADO. En général, elles peuvent être identifiées par un code de fonction Windows *4*. Par exemple, 0x800_ **4** _.... Pour plus d’informations sur ces numéros, voir le chapitre 16 du *OLE DB Programmer’s Reference.*
 
-<br/>
 
 <table>
 <colgroup>
@@ -441,7 +440,7 @@ Seuls les sous-ensembles suivants d'équivalents ADO/WFC sont définis.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

@@ -7,12 +7,12 @@ ms:contentKeyID: 48544303
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b49e2c26f06c75a0b80cce202533fc85984e6fe0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b73cbdf796e3e635e54326e33f68b319c13d6e30
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597477"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465625"
 ---
 # <a name="cursoroptionenum"></a>CursorOptionEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59597477"
 
 Spécifie la fonctionnalité que la méthode [Supports](supports-method-ado.md) doit tester.
 
-<br/>
 
 <table>
 <colgroup>
@@ -115,7 +114,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

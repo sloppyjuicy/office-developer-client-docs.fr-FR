@@ -8,18 +8,18 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 282b2377-45ba-4f0c-a7d9-830fa3505c93
 description: Le Outlook Social Connector (OSC) appelle la méthode ISocialProvider::GetCapabilities pour déterminer les fonctionnalités du fournisseur OSC pour un réseau social.
-ms.openlocfilehash: da424c773b7860c27bc5bf6609b6b26508212e72
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 51cad238b38bd72b4f454d5cb4b5bbd0c9a7e7bd
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563266"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465449"
 ---
 # <a name="forms-based-authentication"></a>Authentification basée sur les formulaires
 
 Le Outlook Social Connector (OSC) appelle la méthode [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) pour déterminer les fonctionnalités du fournisseur OSC pour un réseau social. L’OSC utilise les fonctionnalités retournées pour déterminer comment prendre en charge un utilisateur Office qui se connecte à ce réseau social. 
 
-Si l’élément **useLogonWebAuth** dans le **XML** des fonctionnalités renvoyées indique que le fournisseur OSC prend en charge l’authentification basée sur les formulaires, l’OSC peut effectuer la séquence d’appels suivante pour permettre à un utilisateur de se connecter à ce réseau social : 
+Si l’élément **useLogonWebAuth** dans **le XML** des fonctionnalités renvoyées indique que le fournisseur OSC prend en charge l’authentification basée sur les formulaires, l’OSC peut effectuer la séquence d’appels suivante pour permettre à un utilisateur de se connecter à ce réseau social : 
   
 1. [ISocialProvider::Load](isocialprovider-load.md) &ndash; L’OSC charge le fournisseur. 
     
@@ -29,17 +29,17 @@ Si l’élément **useLogonWebAuth** dans le **XML** des fonctionnalités renvoy
     
 4. [ISocialProvider::SocialNetworkGuid](isocialprovider-socialnetworkguid.md) &ndash; L’OSC obtient un GUID immuable qui représente le réseau social. 
     
-5. [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) &ndash; L’OSC obtient une chaîne qui représente les fonctionnalités du fournisseur et qui est conforme à la définition de schéma de **l’élément capabilities.** 
+5. [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) &ndash; L’OSC obtient une chaîne qui représente les fonctionnalités du fournisseur et qui est conforme à la définition de schéma de **l’élément capabilities** . 
     
-6. [ISocialProvider::SocialNetworkIcon](isocialprovider-socialnetworkicon.md) &ndash; OsC obtient un tableau d’byte qui représente l’icône du site de réseau social. 
+6. [ISocialProvider::SocialNetworkIcon](isocialprovider-socialnetworkicon.md) &ndash; L’OSC obtient un tableau d’byte qui représente l’icône du site de réseau social. 
     
-7. [ISocialProvider::GetSession](isocialprovider-getsession.md) &ndash; L’OSC obtient une interface [ISocialSession.](isocialsessioniunknown.md) 
+7. [ISocialProvider::GetSession](isocialprovider-getsession.md) &ndash; L’OSC obtient une interface [ISocialSession](isocialsessioniunknown.md) . 
     
-8. [ISocialSession::LogonWeb](isocialsession-logonweb.md) &ndash; L’OSC initialise la connexion au site de réseau social à l’aide de l’authentification basée sur les formulaires. Pour cet appel de connexion initial, OSC transmet la valeur **null** pour le _paramètre connectIn._ 
+8. [ISocialSession::LogonWeb](isocialsession-logonweb.md) &ndash; L’OSC initialise la connexion au site de réseau social à l’aide de l’authentification basée sur les formulaires. Pour cet appel de connexion initial, OSC transmet la valeur **null** pour le  _paramètre connectIn_ . 
     
-9. [ISocialSession::GetLogonUrl](isocialsession-getlogonurl.md) &ndash; OsC obtient l’URL pour afficher un formulaire basé sur un navigateur à l’utilisateur lors de l’authentification web. 
+9. [ISocialSession::GetLogonUrl](isocialsession-getlogonurl.md) &ndash; L’OSC obtient l’URL pour afficher un formulaire basé sur un navigateur à l’utilisateur lors de l’authentification web. 
     
-10. [ISocialSession::LogonWeb](isocialsession-logonweb.md) &ndash; L’OSC termine l’accès au site de réseau social à l’aide de l’authentification basée sur les formulaires. L’OSC appelle cette méthode une deuxième fois, en passant l’URL du formulaire de connexion au fournisseur dans le _paramètre connectIn._ 
+10. [ISocialSession::LogonWeb](isocialsession-logonweb.md) &ndash; L’OSC termine l’accès au site de réseau social à l’aide de l’authentification basée sur les formulaires. L’OSC appelle cette méthode une deuxième fois, en passant l’URL du formulaire de connexion au fournisseur dans le _paramètre connectIn_ . 
     
 11. [ISocialSession::GetLoggedOnUser](isocialsession-getloggedonuser.md) &ndash; L’OSC obtient une interface [ISocialProfile](isocialprovideriunknown.md) qui représente l’utilisateur connecté. 
     

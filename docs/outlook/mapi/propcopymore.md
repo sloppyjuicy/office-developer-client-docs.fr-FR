@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 133d47cf-3592-44f3-8cdd-be402d160ee4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ba233885e8173a978f3884943ebc358e39b78d2c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2adb8716f9a69ef32eb67fa7774e15af64e6912f
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578857"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465463"
 ---
 # <a name="propcopymore"></a>PropCopyMore
 
@@ -46,7 +46,7 @@ SCODE PropCopyMore(
 
  _lpSPropValueDest_
   
-> [out] Pointeur vers l’emplacement où cette fonction écrit une structure [SPropValue](spropvalue.md) définissant la valeur de la propriété copiée. 
+> [out] Pointeur vers l’emplacement auquel cette fonction écrit une structure [SPropValue](spropvalue.md) définissant la valeur de la propriété copiée. 
     
  _lpSPropValueSrc_
   
@@ -74,8 +74,8 @@ MAPI_E_NO_SUPPORT
 
 Une application cliente ou un fournisseur de services peut utiliser la fonction **PropCopyMore** pour copier une propriété d’une table qui est sur le point d’être libérée afin de l’utiliser ailleurs. 
   
- **PropCopyMore** n’a pas besoin d’allouer de mémoire, sauf si la valeur de propriété copiée est d’un type, tel que PT_STRING8, qui ne correspond pas à une structure [SPropValue.](spropvalue.md) Pour ces propriétés de grande taille, la fonction alloue de la mémoire à l’aide de la [fonction MAPIAllocateMore](mapiallocatemore.md) à laquelle un pointeur est transmis dans le paramètre _lpfAllocMore._ 
+ **PropCopyMore** n’a pas besoin d’allouer de mémoire, sauf si la valeur de propriété copiée est d’un type, tel que PT_STRING8, qui ne correspond pas à une structure [SPropValue](spropvalue.md) . Pour ces propriétés de grande taille, la fonction alloue de la mémoire à l’aide de la [fonction MAPIAllocateMore](mapiallocatemore.md) à laquelle un pointeur est transmis dans le paramètre _lpfAllocMore_ . 
   
-Utilisationjudicious de la mémoire des fragments **PropCopyMore** ; envisagez plutôt d’utiliser la fonction [ScCopyProps.](sccopyprops.md) 
+Utilisationjudicious de la **mémoire des fragments PropCopyMore** ; envisagez plutôt [d’utiliser la fonction ScCopyProps](sccopyprops.md) . 
   
 

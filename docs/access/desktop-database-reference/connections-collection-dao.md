@@ -7,12 +7,12 @@ ms:contentKeyID: 48545330
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 357af9df22c0857febf6721759d755910a6d5306
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: af6770a89cbaa26ad45ea5cb0da58a6eb4d84064
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589952"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462868"
 ---
 # <a name="connections-collection-dao"></a>Connections collection (DAO)
 
@@ -31,11 +31,11 @@ Lorsque vous ouvrez un objet **Connection**, un objet **[Database](database-obje
 
 Le paramètre de propriété **Name** d'un objet **Connection** est une chaîne qui spécifie le chemin d'accès au fichier de base de données. Pour faire référence à un objet **Connection** d'une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des syntaxes suivantes :
 
-- **Connexions**(0)
+- **Connections**(0)
 
-- **Connexions**( »*nom*« )
+- **Connections**(« *name* »)
 
-- **Connexions** \! \[ *name*\]
+- **Connexions**\!\[ *name*\]
 
 
 > [!NOTE]
@@ -123,7 +123,6 @@ End Sub
  
 ```
 
-<br/>
 
 Cet exemple utilise la méthode **OpenConnection** avec différents paramètres pour ouvrir trois objets **Connection** différents.
 

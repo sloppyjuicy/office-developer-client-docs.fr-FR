@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 5aea8694c450764f686c226554041da13179aead
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 747674d6042df71713bb0ab992450db48594d744
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615724"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465517"
 ---
 # <a name="create-table-statement-microsoft-access-sql"></a>Instruction CREATE TABLE (Microsoft Access SQL)
 
@@ -111,7 +111,6 @@ Cet exemple crée une nouvelle table appelée ThisTable qui comporte deux champs
     End Sub 
 ```
 
-<br/>
 
 Cet exemple crée une nouvelle table appelée MyTable avec deux champs de texte, un champ Date/Heure et un index unique composé de ces trois champs.
 
@@ -138,7 +137,6 @@ Cet exemple crée une nouvelle table appelée MyTable avec deux champs de texte,
     End Sub
 ```
 
-<br/>
 
 Cet exemple crée une nouvelle table avec deux champs de texte et un champ **Entier**. Le champ SSN correspond à la clé primaire.
 
@@ -163,7 +161,6 @@ Cet exemple crée une nouvelle table avec deux champs de texte et un champ **Ent
     End Sub
 ```
 
-<br/>
 
 Cet exemple crée une table appelée `~~Kitsch'n Sync` qui illustre tous les différents types de champ et d’index. Le champ AutoNumber correspond à la clé primaire.
 

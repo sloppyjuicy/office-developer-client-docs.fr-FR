@@ -1,5 +1,5 @@
 ---
-title: Bloc de données LookupRecord
+title: LookupRecord, bloc de données
 TOCTitle: LookupRecord data block
 ms:assetid: 750dc8ca-3bab-c3d1-c91d-2196f9c0604d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195882(v=office.15)
@@ -7,14 +7,14 @@ ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 9ce133ef046ab5093f717c4512b647843ff8dbe9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 31572bfc25e9a43b28f0441ae5d98baef87b95b9
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602247"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464927"
 ---
-# <a name="lookuprecord-data-block"></a>Bloc de données LookupRecord
+# <a name="lookuprecord-data-block"></a>LookupRecord, bloc de données
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -23,7 +23,7 @@ Un bloc de données **RechercherEnregistrement** effectue un ensemble d'actions 
 > [!NOTE]
 > Le bloc de données **RechercherEnregistrement** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **DéfinirChamp** utilise les arguments suivants.
 
@@ -44,17 +44,17 @@ L’action **DéfinirChamp** utilise les arguments suivants.
 <tr class="odd">
 <td><p>Dans le paramètre</p></td>
 <td><p>Oui</p></td>
-<td><p>Chaîne qui identifie l’enregistrement sur lequel opérer. <em>L’argument In</em> peut contenir le nom de la table, une requête Select ou une SQL instruction.</p><p><strong>REMARQUE</strong>: l’enregistrement spécifié ne peut pas inclure de données stockées dans une table liée ou une source de données ODBC.</p></td>
+<td><p>Chaîne qui identifie l’enregistrement sur lequel opérer. <em>L’argument In</em> peut contenir le nom de la table, une requête Select ou une SQL instruction.</p><p><strong>REMARQUE</strong> : l’enregistrement spécifié ne peut pas inclure de données stockées dans une table liée ou une source de données ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condition Where</p></td>
 <td><p>Non</p></td>
-<td><p>Expression de type Chaîne qui permet de restreindre la plage de données sur laquelle opère le bloc de données <strong>RechercherEnregistrement</strong>. Par exemple, les critères sont souvent équivalents à la clause WHERE dans une expression SQL, sans le mot WHERE. Si des critères sont omis, le bloc de données <strong>LookupRecord</strong> fonctionne sur l’intégralité du domaine spécifié par l’argument <em>In.</em> Tout champ inclus dans les critères doit également être un champ dans <em>In</em>.</p></td>
+<td><p>Expression de type Chaîne qui permet de restreindre la plage de données sur laquelle opère le bloc de données <strong>RechercherEnregistrement</strong>. Par exemple, les critères sont souvent équivalents à la clause WHERE dans une expression SQL, sans le mot WHERE. Si des critères sont omis, le bloc de données <strong>LookupRecord</strong> fonctionne sur l’intégralité du domaine spécifié par l’argument <em>In</em> . Tout champ inclus dans les critères doit également être un champ dans <em>In</em>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Alias</p></td>
 <td><p>Non</p></td>
-<td><p>Chaîne qui fournit un autre nom pour l’enregistrement spécifié par l’argument <em>In.</em> On l’utilise souvent pour raccourcir le nom de la table pour les références ultérieures, afin d’éviter d’éventuelles références ambiguës. Si <em>Alias</em> n’est pas spécifié, le nom de la table ou de la requête est utilisé comme alias.</p></td>
+<td><p>Chaîne qui fournit un autre nom pour l’enregistrement spécifié par l’argument <em>In</em> . On l’utilise souvent pour raccourcir le nom de la table pour les références ultérieures, afin d’éviter d’éventuelles références ambiguës. Si <em>Alias</em> n’est pas spécifié, le nom de la table ou de la requête est utilisé comme alias.</p></td>
 </tr>
 </tbody>
 </table>
@@ -62,7 +62,7 @@ L’action **DéfinirChamp** utilise les arguments suivants.
 
 ## <a name="remarks"></a>Remarques
 
-Si les critères spécifiés par les arguments *Condition In* et *Where* renvoient plusieurs enregistrement, le bloc de données **LookupRecord** fonctionne uniquement sur le premier enregistrement.  Si aucun enregistrement ne correspond aux critères spécifiés, Access ignore l’ensemble des actions contenues dans le bloc **LookupRecord,** comme s’il s’agit d’une expression de bloc de macro **[If](if-then-else-macro-block.md)** évaluée comme false.
+Si les critères spécifiés par les arguments Condition *In* et *Where* renvoient plusieurs enregistrement, le bloc de données **LookupRecord** fonctionne uniquement sur le premier enregistrement.  Si aucun enregistrement ne correspond aux critères spécifiés, Access ignore l’ensemble des actions contenues dans le bloc **LookupRecord** , comme s’il s’agit d’une expression de bloc de macro **[If](if-then-else-macro-block.md)** évaluée comme false.
 
 ## <a name="example"></a>Exemple
 
@@ -83,7 +83,6 @@ L’exemple suivant montre comment utiliser l’action SetReturnVar pour renvoye
         Value =[ReturnVars]![CurrentServiceRequest]
 ```
 
-<br/>
 
 L’exemple suivant montre comment utiliser l’action RaiseError pour annuler l’événement de macro de données Avant la modification. Lorsque le champ AssignedTo est mis à jour, un bloc de données LookupRecord est utilisé pour déterminer si le technicien affecté est actuellement affecté à une demande de service ouverte. Si c’est le cas, l’événement Before Change est annulé et l’enregistrement n’est pas mis à jour.
 

@@ -7,19 +7,19 @@ ms:contentKeyID: 48548950
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 84dbcdb2c3195f933f977142906b18c7196d1bc0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 76e7344706d80e5bf9aa796d574fd68b4e94c574
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568501"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463043"
 ---
 # <a name="recordsetcopyquerydef-method-dao"></a>Recordset.CopyQueryDef, méthode (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie un objet **[QueryDef](querydef-object-dao.md)** qui est une copie de l’objet **QueryDef** utilisé pour créer l’objet **[Recordset](recordset-object-dao.md)** représenté par l’espace réservé recordset (espaces de travail Microsoft Access uniquement). .
+Renvoie un objet **[QueryDef](querydef-object-dao.md)** qui est une copie de l’objet **QueryDef** utilisée pour créer l’objet **[Recordset](recordset-object-dao.md)** représenté par l’espace réservé recordset (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -66,7 +66,6 @@ Cet exemple de code montre comment utiliser la méthode **CopyQueryDef** pour cr
     End Function 
 ```
 
-<br/>
 
 Cet exemple de code illustre une utilisation possible de CopyQueryNew().
 

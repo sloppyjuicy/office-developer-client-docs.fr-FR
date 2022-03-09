@@ -7,12 +7,12 @@ ms:contentKeyID: 48546469
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 0eeb52f8885a508de1f9497cdc44df0406e13871
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 105b043f0599ba58e888c17c99eb8f2b289c55a2
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59562348"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463134"
 ---
 # <a name="recordset-object-dao"></a>Objet Recordset (DAO)
 
@@ -142,7 +142,6 @@ L'exemple ci-dessous illustre les objets **Recordset** et la collection **Record
     End Sub 
 ```
 
-<br/>
 
 Cet exemple utilise la méthode **OpenRecordset** pour ouvrir cinq objets **Recordset** différents et afficher leur contenu. La procédure OpenRecordsetOutput est obligatoire pour l'exécution de cette procédure.
 
@@ -229,7 +228,6 @@ Cet exemple utilise la méthode **OpenRecordset** pour ouvrir cinq objets **Reco
     End Sub 
 ```
 
-<br/>
 
 Cet exemple ouvre un objet **Recordset** de type dynamique et énumère ses enregistrements.
 
@@ -279,7 +277,6 @@ Cet exemple ouvre un objet **Recordset** de type dynamique et énumère ses enre
     End Sub 
 ```
 
-<br/>
 
 Cet exemple ouvre un objet **Recordset** de type feuille de réponse dynamique et indique dans quelle mesure ses champs peuvent être mis à jour.
 
@@ -319,7 +316,6 @@ Cet exemple ouvre un objet **Recordset** de type feuille de réponse dynamique e
     End Sub 
 ```
 
-<br/>
 
 Cet exemple ouvre un objet **Recordset** de type transfert uniquement, illustre ses caractéristiques de lecture seule et avance pas à pas dans le **Recordset** avec la méthode **MoveNext**.
 
@@ -366,7 +362,6 @@ Sub dbOpenForwardOnlyX()
 End Sub 
 ```
 
-<br/>
 
 Cet exemple ouvre un objet **Recordset** de type capture instantanée et illustre ses caractéristiques de lecture seule.
 
@@ -405,7 +400,6 @@ Cet exemple ouvre un objet **Recordset** de type capture instantanée et illustr
     End Sub 
 ```
 
-<br/>
 
 Cet exemple ouvre un **Recordset** de type table, définit sa propriété **Index** et énumère ses enregistrements.
 
@@ -442,7 +436,6 @@ Cet exemple ouvre un **Recordset** de type table, définit sa propriété **Inde
     End Sub 
 ```
 
-<br/>
 
 L’exemple suivant montre comment utiliser la méthode Recherche pour rechercher un enregistrement dans un tableau lié.
 
@@ -493,7 +486,6 @@ L’exemple suivant montre comment utiliser la méthode Recherche pour recherche
     End Sub
 ```
 
-<br/>
 
 L’exemple suivant montre comment ouvrir un Recordset basé sur une requête avec paramètres.
 
@@ -515,7 +507,6 @@ L’exemple suivant montre comment ouvrir un Recordset basé sur une requête av
     Set rst = qdf.OpenRecordset()
 ```
 
-<br/>
 
 L’exemple suivant montre comment ouvrir un Recordset basé sur un tableau ou une requête.
 
@@ -533,7 +524,6 @@ L’exemple suivant montre comment ouvrir un Recordset basé sur un tableau ou u
     Set rsQuery = dbs.OpenRecordset("qryMyQuery", dbOpenDynaset)
 ```
 
-<br/>
 
 L’exemple suivant montre comment ouvrir un Recordset basé sur une instruction SQL (Structured Query Language).
 
@@ -549,7 +539,6 @@ L’exemple suivant montre comment ouvrir un Recordset basé sur une instruction
     Set rsSQL = dbs.OpenRecordset(strSQL, dbOpenSnapshot)
 ```
 
-<br/>
 
 L’exemple suivant montre comment utiliser les méthodes TrouverPremier et TrouverSuivant pour rechercher un enregistrement dans un Recordset.
 
@@ -588,7 +577,6 @@ L’exemple suivant montre comment utiliser les méthodes TrouverPremier et Trou
     End Sub
 ```
 
-<br/>
 
 L’exemple suivant montre comment copier les résultats d’une requête vers une feuille de calcul dans un nouveau classeur Microsoft Excel.
 

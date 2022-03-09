@@ -7,12 +7,12 @@ ms:contentKeyID: 48547247
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: e7e4592d589c5039ff834106614d9ea45a26f3c2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 754022978d33094284e2ec8f40a4258c2f5d2da2
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618188"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464391"
 ---
 # <a name="document-object-dao"></a>Document, objet (DAO)
 
@@ -75,9 +75,9 @@ Dans la mesure où un objet **Document** correspond à un objet existant, vous n
 
 - **Documents**(0)
 
-- **Documents**( »*name*« )
+- **Documents**(« *name* »)
 
--  \! Documents \[ *name*\]
+- **Documents**\!\[ *name*\]
 
 ## <a name="example"></a>Exemple
 
@@ -118,7 +118,6 @@ End Sub
  
 ```
 
-<br/>
 
 Cet exemple utilise les propriétés **Owner** et **SystemDB** pour afficher les propriétaires de différents objets **Document**.
 

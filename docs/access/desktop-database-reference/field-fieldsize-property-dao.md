@@ -7,12 +7,12 @@ ms:contentKeyID: 48547645
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: eaa25eaf1ac7070eddb87e9be53077a094c9556b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5b0dca69ea925a72f7b5f4d108fec5bca1c30600
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626679"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464233"
 ---
 # <a name="fieldfieldsize-property-dao"></a>Field.FieldSize, propriété (DAO)
 
@@ -104,7 +104,6 @@ Cet exemple utilise la propriété **FieldSize** pour répertorier le nombre d'o
     End Sub 
 ```
 
-<br/>
 
 Cet exemple utilise les méthodes **AppendChunk** et **GetChunk** pour remplir un champ d'objet OLE avec des données issues d'un autre enregistrement, 32 Ko à la fois. Dans une application réelle, un utilisateur peut avoir recours à une procédure de ce type pour copier un enregistrement d'employé (y compris sa photo) d'une table à une autre. Dans le cadre de cet exemple, l'enregistrement est simplement recopié dans la même table. Notez que toute la manipulation des segments a lieu dans une seule séquence AddNew-Update.
 

@@ -7,12 +7,12 @@ ms:contentKeyID: 48546153
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: afa1880b97c2e5442f8c9833640e3ca8c001dd0e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3c191812a62276cd13adffdade25d0b71c8366c7
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601918"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464623"
 ---
 # <a name="relations-collection-dao"></a>Relations collection (DAO)
 
@@ -29,9 +29,9 @@ Pour faire référence à un objet **Relation** d'une collection par son numéro
 
 **Relations**(0)
 
-**Relations**(« nom »)
+**Relations**(« name »)
 
- \! Relations \[ name\]
+**Relations**\!\[ name\]
 
 ## <a name="example"></a>Exemple
 
@@ -94,9 +94,8 @@ Cet exemple illustre la façon dont un objet **Relation** existant peut contrôl
     End Sub 
 ```
 
-<br/>
 
-Cet exemple utilise la méthode **CreateRelation** pour créer une **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** appelé Departments. Il montre également comment la création d’une **relation** crée également tous les **index** nécessaires dans la table étrangère (l’index DepartmentsEmployees dans la table Employees).
+Cet exemple utilise la méthode **CreateRelation** pour créer une **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** appelé Departments. Elle montre également comment la création d’une **relation** crée également tous les **index** nécessaires dans la table étrangère (l’index DepartmentsEmployees dans la table Employees).
 
 ```vb
     Sub CreateRelationX() 

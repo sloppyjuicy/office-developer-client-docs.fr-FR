@@ -7,12 +7,12 @@ ms:contentKeyID: 48546223
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c639b67ba6295ec97c35ce07cd9da75942548df5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ec1938a1f42e024612c618c62c19ca16ee5678f1
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611337"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465567"
 ---
 # <a name="update-and-cancelupdate-methods-example-vb"></a>Update et CancelUpdate, méthodes – Exemple (VB)
 
@@ -111,7 +111,6 @@ End Sub
 ' EndUpdateVB 
 ```
 
-<br/>
 
 Cet exemple illustre la méthode **Update** conjointement à la méthode [AddNew](addnew-method-ado.md).
 

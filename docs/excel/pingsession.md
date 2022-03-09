@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 4646659b-f932-4d11-a46f-4231bb397243
-ms.openlocfilehash: f159b24e8a95fd41318e27d09bac1ae36ccb74b4
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: f793ce0ca988069b00e0a19b6ae9488cd8857002
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62199730"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464537"
 ---
 # <a name="pingsession"></a>PingSession
 
@@ -31,7 +31,7 @@ _SessionID_
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-**xlHpcRetSuccess si** l’argument  _SessionId_ est valide ; sinon **xlHpcRetInvalidSessionId**.
+**xlHpcRetSuccess si** l’argument _SessionId_ est valide ; sinon **xlHpcRetInvalidSessionId**.
   
 ## <a name="see-also"></a>Voir aussi
 

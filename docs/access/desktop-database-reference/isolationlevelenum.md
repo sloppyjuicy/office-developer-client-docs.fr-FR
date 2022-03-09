@@ -7,12 +7,12 @@ ms:contentKeyID: 48544506
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a54f82a61605700d6691f4adc321114994b9e4a8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c4007030306cdd7f05b79c839780c72a4e1c0446
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568872"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465399"
 ---
 # <a name="isolationlevelenum"></a>IsolationLevelEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59568872"
 
 Spécifie le niveau d’isolement de transaction d’un objet [Connection](connection-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>
@@ -43,7 +42,7 @@ Spécifie le niveau d’isolement de transaction d’un objet [Connection](conne
 </tr>
 <tr class="even">
 <td><p><strong>adXactChaos</strong></p></td>
-<td><p>16 </p></td>
+<td><p>16</p></td>
 <td><p>Indique que les modifications en attente de transactions mieux isolées ne peuvent être remplacées.</p></td>
 </tr>
 <tr class="odd">
@@ -95,7 +94,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

@@ -7,12 +7,12 @@ ms:contentKeyID: 48543381
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d4527f0fdcd0a6b3840559009c7828d9a6c39f02
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 57b85dc5af41e16d9c01016701eac6a53d69f97f
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626553"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465277"
 ---
 # <a name="filtergroupenum"></a>FilterGroupEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59626553"
 
 Spécifie le groupe d’enregistrements à filtrer depuis un objet [Recordset](recordset-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>
@@ -75,7 +74,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

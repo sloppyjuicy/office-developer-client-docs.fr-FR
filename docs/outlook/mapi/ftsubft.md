@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6619fc41-5518-44ce-85c1-6b0077ed5cb9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c50b658a956b1ccbaccafb707c9b60ffa13747f1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6ae798d8ac99954677b17067292b960e4da505f4
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610915"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462959"
 ---
 # <a name="ftsubft"></a>FtSubFt
 
@@ -44,11 +44,11 @@ FILETIME FtSubFt(
 
  _Minuend_
   
-> [in] Structure [FILETIME](filetime.md) qui contient l’entier 64 bits non signé à partir duquel la valeur du paramètre  _Subtrahend_ doit être soustraite. 
+> [in] Structure [FILETIME](filetime.md) qui contient l’entier 64 bits non signé à partir duquel la valeur du paramètre _Subtrahend_ doit être soustraite. 
     
  _Subtrahend_
   
-> [in] Structure **FILETIME** qui contient l’entier 64 bits non signé qui est soustrait de la valeur indiquée par le _paramètre Minuend._ 
+> [in] Structure **FILETIME** qui contient l’entier 64 bits non signé qui est soustrait de la valeur indiquée par le  _paramètre Minuend_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

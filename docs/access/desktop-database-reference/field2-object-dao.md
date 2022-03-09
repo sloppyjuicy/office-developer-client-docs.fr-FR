@@ -7,12 +7,12 @@ ms:contentKeyID: 48544994
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 67e1f3645dd5018c5e70a4a6bb1cf893910840f1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2122bfdbc521915e41afdbd50025c5badcba53a8
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597288"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462861"
 ---
 # <a name="field2-object-dao"></a>Field2, objet (DAO)
 
@@ -110,7 +110,6 @@ L’exemple suivant montre comment naviguer dans un Recordset contenant un champ
     End Sub
 ```
 
-<br/>
 
 L’exemple suivant montre comment naviguer dans les fichiers à l’intérieur d’un champ Pièce jointe. Le type et le nom de fichier de chaque pièce jointe figurent dans la fenêtre Exécution.
 
@@ -160,7 +159,6 @@ L’exemple suivant montre comment naviguer dans les fichiers à l’intérieur 
     End Sub
 ```
 
-<br/>
 
 L’exemple suivant montre comment ajouter des fichiers à partir d’un chemin d’accès de dossier spécifié à un champ Pièce jointe.
 
@@ -217,7 +215,6 @@ L’exemple suivant montre comment ajouter des fichiers à partir d’un chemin 
     End Function
 ```
 
-<br/>
 
 L’exemple suivant montre comment enregistrer les fichiers d’un champ Pièce jointe dans le chemin d’accès de dossier spécifié.
 
@@ -273,7 +270,6 @@ L’exemple suivant montre comment enregistrer les fichiers d’un champ Pièce 
     End Function
 ```
 
-<br/>
 
 L’exemple suivant montre comment supprimer un fichier stocké dans un champ Pièce jointe.
 

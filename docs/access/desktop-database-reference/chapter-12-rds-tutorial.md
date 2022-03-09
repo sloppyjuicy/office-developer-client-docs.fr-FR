@@ -7,12 +7,12 @@ ms:contentKeyID: 48548837
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 9eacebd7dca32012a9bc645133796158d42abea8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 18779a7fc32144093b6bc403be4f8a56938818e1
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586144"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464703"
 ---
 # <a name="chapter-12-remote-data-service-rds-tutorial"></a>Chapitre 12 : Didacticiel RDS (Remote Data Service)
 
@@ -46,7 +46,7 @@ Le modèle de programmation RDS est indiqué ci-dessous. Référez-vous-y à mes
 
 - Les modifications apportées à l'objet **Recordset** sont renvoyées au serveur et utilisées pour la mise à jour de la source de données.
 
-## <a name="step-1-specify-a-server-program"></a>Étape 1 : spécifier un programme serveur
+## <a name="step-1-specify-a-server-program"></a>Étape 1 : Spécifier un programme serveur
 
 Dans la plupart des cas, utilisez la méthode [CreateObject](createobject-method-rds.md) de l’objet [RDS.DataSpace](dataspace-object-rds.md) pour spécifier le programme serveur par défaut, [RDSServer.DataFactory](datafactory-object-rdsserver.md), ou votre propre programme serveur personnalisé (objet métier). Un programme serveur est instancié sur le serveur et une référence à ce programme (ou *proxy*) est retournée.
 
@@ -69,7 +69,7 @@ Lorsque vous appelez une méthode sur le *proxy* client, c'est le programme serv
 
 Si vous n’avez pas utilisé [RDSServer.DataFactory](datafactory-object-rdsserver.md) dans ce didacticiel, le moyen le plus simple d’exécuter cette étape est d’utiliser l’objet [RDS.DataControl](datacontrol-object-rds.md). **RDS.DataControl** combine l’étape précédente de création d’un proxy, et celle-ci, qui consiste à émettre une requête.
 
-1. Définissez **RDS. Propriété Serveur** [d’objets](server-property-rds.md) DataControl pour identifier l’emplacement où le programme serveur doit être inséré.
+1. Définissez **RDS. Propriété Serveur d’objets DataControl** pour identifier l’emplacement où le programme serveur doit être inséré.[](server-property-rds.md)
 
 2. Définissez la [Connecter](connect-property-rds.md) pour spécifier la chaîne de connexion pour accéder à la source de données.
 
@@ -90,7 +90,6 @@ Sub RDSTutorial2A()
 ... 
 ```
 
-<br/>
 
 De même, le didacticiel n'appelle pas RDS avec les objets ADO, mais voici comment se présenterait le code dans le cas contraire :
 
@@ -156,7 +155,7 @@ Sub RDSTutorial4()
 
 L'objet **Recordset** retourné est disponible et peut être utilisé. Vous pouvez l'examiner, le parcourir ou le modifier comme n'importe quel autre objet **Recordset**. L'utilisation que vous pouvez faire de cet objet **Recordset** dépend de votre environnement. Visual Basic et Visual C++ intègrent des contrôles visuels qu'un objet **Recordset** peut utiliser directement ou indirectement à l'aide d'un contrôle d'activation de données.
 
-Par exemple, si vous affichez une page web dans Internet Explorer, vous pouvez afficher les données de l’objet **Recordset** dans un contrôle visuel. Les contrôles visuels d’une page web ne peuvent pas accéder directement à un objet **Recordset.** However, they can access the **Recordset** object through the [RDS.DataControl](datacontrol-object-rds.md). The **RDS.DataControl** becomes usable by a visual control when its [SourceRecordset](recordset-sourcerecordset-properties-rds.md) property is set to the **Recordset** object.
+Par exemple, si vous affichez une page web dans Internet Explorer, vous pouvez afficher les données de l’objet **Recordset** dans un contrôle visuel. Les contrôles visuels d’une page web ne peuvent pas accéder directement à un objet **Recordset** . However, they can access the **Recordset** object through the [RDS.DataControl](datacontrol-object-rds.md). The **RDS.DataControl** becomes usable by a visual control when its [SourceRecordset](recordset-sourcerecordset-properties-rds.md) property is set to the **Recordset** object.
 
 Le paramètre **DATASRC** de l'objet de contrôle visuel doit être défini sur **RDS.DataControl**, et sa propriété **DATAFLD** sur un champ (colonne) de l'objet **Recordset**.
 
@@ -237,7 +236,7 @@ End Sub
 
 Il s’agit du didacticiel RDS, écrit dans Microsoft Visual Basic Scripting Edition. Pour obtenir une description de l’objectif de ce didacticiel, consultez l’introduction à cette rubrique.
 
-Dans ce didacticiel, [RDS. DataControl](datacontrol-object-rds.md) et [RDS. DataSpace sont](dataspace-object-rds.md) créés au moment de la conception ; autrement dit, elles sont définies avec des balises d’objet. Il est également possible de les créer au moment de l'exécution à l'aide de la méthode **Server.CreateObject**. 
+Dans ce didacticiel, [RDS. DataControl](datacontrol-object-rds.md) et [RDS. L’espace de](dataspace-object-rds.md) données est créé au moment de la conception . autrement dit, elles sont définies avec des balises d’objet. Il est également possible de les créer au moment de l'exécution à l'aide de la méthode **Server.CreateObject**. 
 
 Par exemple, l'objet **RDS.DataControl** peut être créé de la façon suivante :
 
@@ -260,7 +259,7 @@ Par exemple, l'objet **RDS.DataControl** peut être créé de la façon suivante
      Dim DF1 
 ```
 
-### <a name="step-1-specify-a-server-program"></a>Étape 1 : spécifier un programme serveur
+### <a name="step-1-specify-a-server-program"></a>Étape 1 : Spécifier un programme serveur
 
 VBScript peut découvrir le nom du serveur web IIS sur qui il s’exécute en accédant à la méthode VBScript **Request.ServerVariables** disponible pour les Active Server Pages :
 

@@ -7,12 +7,12 @@ ms:contentKeyID: 48545686
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 6ae1b84a3f1d99483c3ea1d7f54458ed53e8c4fe
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 28f2b037d3e9698d1f19f37cfaa793a42162ea24
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558519"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465674"
 ---
 # <a name="databasecreatequerydef-method-dao"></a>Database.CreateQueryDef, méthode (DAO)
 
@@ -133,7 +133,6 @@ Cet exemple utilise la méthode **CreateQueryDef** pour créer et exécuter un o
     End Function 
 ```
 
-<br/>
 
 Cet exemple utilise les méthodes **CreateQueryDef** et **OpenRecordset**, ainsi que la propriété **SQL**, pour exécuter une requête sur la table de titres de la base de données exemple Microsoft SQL Server, Pubs, et renvoyer le titre et l’identificateur du titre du best-seller. Ensuite, il exécute une requête sur la table des auteurs et indique à l’utilisateur d’envoyer un chèque de bonification à chaque auteur en fonction de son pourcentage de droits d’auteur (la bonification totale s’élève à 1 000 euros et chaque auteur doit recevoir un pourcentage de ce montant).
 
@@ -201,7 +200,6 @@ Sub ClientServerX2()
 End Sub 
 ```
 
-<br/>
 
 L'exemple suivant montre comment créer une requête avec paramètres. Une requête nommée **myQuery** est créée avec deux paramètres, nommés  Param1 et  Param2. Pour ce faire, la propriété SQL de la requête est définie sur une instruction SQL (Structured Query Language) qui définit les paramètres.
 

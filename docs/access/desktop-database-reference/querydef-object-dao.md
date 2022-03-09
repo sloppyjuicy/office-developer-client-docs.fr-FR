@@ -7,12 +7,12 @@ ms:contentKeyID: 48543169
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: c66c9f6dc891b7be513746206c40d249a5a198f4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 35686263af0a5a4f8958a8b193b848c4c7054ae6
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589267"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463050"
 ---
 # <a name="querydef-object-dao"></a>Objet QueryDef (DAO)
 
@@ -111,7 +111,6 @@ Cet exemple crée un objet **QueryDef** et l’ajoute à la collection **QueryDe
     End Sub 
 ```
 
-<br/>
 
 Cet exemple utilise la méthode **CreateQueryDef** pour créer et exécuter deux objets **QueryDef** (un temporaire et un permanent). La fonction GetrstTemp est requise pour exécuter de cette procédure.
 
@@ -166,7 +165,6 @@ Cet exemple utilise la méthode **CreateQueryDef** pour créer et exécuter deux
     End Function 
 ```
 
-<br/>
 
 L’exemple suivant montre comment remplacer l’instruction SQL (Structured Query Language) dans une requête enregistrée.
 

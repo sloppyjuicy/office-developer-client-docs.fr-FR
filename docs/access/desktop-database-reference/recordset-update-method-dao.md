@@ -7,12 +7,12 @@ ms:contentKeyID: 48546961
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 33e613a1760281326873df264673101e8146e80f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 738df3357538ea7daf9a227f8a0c380b0dff0af7
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597015"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464837"
 ---
 # <a name="recordsetupdate-method-dao"></a>Recordset.Update, méthode (DAO)
 
@@ -142,7 +142,6 @@ Cet exemple illustre la **mise à jour** méthode conjointement avec **modifier*
     End Sub 
 ```
 
-<br/>
 
 Cet exemple illustre la **mise à jour** méthode conjointement avec la **AddNew** méthode.
 
@@ -191,7 +190,6 @@ Cet exemple illustre la **mise à jour** méthode conjointement avec la **AddNew
     End Sub 
 ```
 
-<br/>
 
 Cet exemple utilise la **BatchCollisionCount** propriété et le **mettre à jour** méthode démontre lot la mise à jour dans laquelle les conflits sont résolus en forçant la mise à jour du lot.
 
@@ -261,7 +259,6 @@ End Sub
  
 ```
 
-<br/>
 
 Cet exemple utilise la **AddNew** méthode permettant de créer un enregistrement avec le nom spécifié. La fonction AddName est requise pour exécuter cette procédure.
 

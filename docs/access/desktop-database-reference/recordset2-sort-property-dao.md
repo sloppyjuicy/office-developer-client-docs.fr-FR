@@ -7,12 +7,12 @@ ms:contentKeyID: 48544842
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 2ec38f55bf28b93ae35348800aee85bdbc0de512
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dd16cff7513fc25d67e352ace397fce63c7f401d
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615059"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465270"
 ---
 # <a name="recordset2sort-property-dao"></a>Recordset2.Sort, propriété (DAO)
 
@@ -24,7 +24,7 @@ Définit ou renvoie l’ordre de tri des enregistrements d’un objet **[Records
 
 *expression* .Sort
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -95,7 +95,6 @@ Cet exemple illustre la propriété **Sort** en modifiant sa valeur et en créan
     End Function 
 ```
 
-<br/>
 
 Lorsque vous savez quelles données sélectionner, il est généralement plus efficace de créer un objet **Recordset** avec une instruction SQL. Cet exemple montre comment créer un seul objet **Recordset** et obtenir les mêmes résultats que dans l’exemple précédent.
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 0de9d4e2-eb3f-40e7-aa24-f430892eb9ec
-ms.openlocfilehash: 2cbeb9f4a3e76fa8f8c0449b48396885d9696a76
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: f3c061014e31d131ccd5ab3b3a1398c2a389a51a
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62199422"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464830"
 ---
 # <a name="canceloutstandingrequests"></a>CancelOutstandingRequests
 
@@ -31,7 +31,7 @@ _SessionID_
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-**xlHpcRetSuccess si** l’argument  _SessionId_ est valide ; **xlHpcRetInvalidSessionId** si l’argument  _SessionId_ n’est pas valide ; **xlHpcRetCallFailed sur** d’autres échecs. 
+**xlHpcRetSuccess si** l’argument _SessionId_ est valide ; **xlHpcRetInvalidSessionId** si l’argument _SessionId_ n’est pas valide ; **xlHpcRetCallFailed sur** d’autres échecs. 
   
 ## <a name="remarks"></a>Remarques
 

@@ -7,12 +7,12 @@ ms:contentKeyID: 48546964
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 211666ee74bd3e1b384281cb1d5de238cc10db7a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6cda5ad4d096ddec079a4d9d348b5cfdf0fe43ef
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580726"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463120"
 ---
 # <a name="stringformatenum"></a>StringFormatEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59580726"
 
 Spécifie le format lors de l’extraction d’un [Recordset](recordset-object-ado.md) sous forme de chaîne.
 
-<br/>
 
 <table>
 <colgroup>
@@ -55,7 +54,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

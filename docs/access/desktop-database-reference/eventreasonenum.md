@@ -7,12 +7,12 @@ ms:contentKeyID: 48543047
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 315a6a3f2dac22a3938c81d350dbd62078f1dade
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: db6bbd2b9068aa68097da58c7544bc4439cbf5ab
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612203"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464696"
 ---
 # <a name="eventreasonenum"></a>EventReasonEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59612203"
 
 Spécifie la cause à l'origine d'un événement.
 
-<br/>
 
 <table>
 <colgroup>
@@ -103,7 +102,7 @@ Spécifie la cause à l'origine d'un événement.
 </tr>
 <tr class="even">
 <td><p><strong>adRsnUndoUpdate</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Une opération a annulé la mise à jour d'un enregistrement.</p></td>
 </tr>
 <tr class="odd">
@@ -125,7 +124,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

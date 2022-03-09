@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 2c2371c8-b0e0-4992-b7ac-3949eadf1ebe
-ms.openlocfilehash: a19a59e6dddd25c3c47d31299f921f5e5eb6d43a
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: 304acc3b80d0bdf4eae7d101514d9c1c9334b871
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62199674"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463169"
 ---
 # <a name="closesession"></a>CloseSession
 
@@ -31,7 +31,7 @@ _SessionId_
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-**xlHpcRetSuccess si** la session s’est fermée ; **xlHpcRetInvalidSessionId** si l’argument  _SessionId_ n’est pas valide ; **xlHpcRetCallFailed sur** d’autres échecs. 
+**xlHpcRetSuccess si** la session s’est fermée ; **xlHpcRetInvalidSessionId** si l’argument _SessionId_ n’est pas valide ; **xlHpcRetCallFailed sur** d’autres échecs. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 14c5247d458bb2fb1c18f529bac38cc132e31765
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 21d60f1f07130c5d72e2602a2a7b383d4a05832d
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585388"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464689"
 ---
 # <a name="recordsetsort-property-dao"></a>Propriété Recordset.Sort (DAO)
 
@@ -99,7 +99,6 @@ Cet exemple illustre la propriété **Sort** en modifiant sa valeur et en créan
     End Function 
 ```
 
-<br/>
 
 Lorsque vous savez quelles données sélectionner, il est généralement plus efficace de créer un objet **Recordset** avec une instruction SQL. Cet exemple montre comment créer un seul objet **Recordset** et obtenir les mêmes résultats que dans l’exemple précédent.
 

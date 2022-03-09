@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 33c00752-cdc1-4cbe-8fca-6b06c78bd362
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dada6f5c1e9ddce388901d359766fe9a80c08f45
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 92d31420f1aacf9c0d7f2e280e97d5779b4e09dd
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551575"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465653"
 ---
 # <a name="fpropexists"></a>FPropExists
 
@@ -25,7 +25,7 @@ ms.locfileid: "59551575"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Recherche une balise de propriété donnée dans une interface [IMAPIProp](imapipropiunknown.md) ou une interface dérivée **d’IMAPIProp,** telle que [IMessage](imessageimapiprop.md) ou [IMAPIFolder](imapifolderimapicontainer.md). 
+Recherche une balise de propriété donnée dans une interface [IMAPIProp](imapipropiunknown.md) ou une interface dérivée **d’IMAPIProp**, telle que [IMessage](imessageimapiprop.md) ou [IMAPIFolder](imapifolderimapicontainer.md). 
   
 |||
 |:-----|:-----|
@@ -62,6 +62,6 @@ FALSE
     
 ## <a name="remarks"></a>Remarques
 
-Si la balise de propriété dans le paramètre  _ulPropTag_ possède un type PT_UNSPECIFIED, la fonction **FPropExists** recherche une correspondance basée uniquement sur l’identificateur de propriété. Sinon, la correspondance est pour la balise de propriété entière, y compris le type. 
+Si la balise de propriété dans le paramètre _ulPropTag_ possède un type PT_UNSPECIFIED, la fonction **FPropExists** recherche une correspondance basée uniquement sur l’identificateur de propriété. Sinon, la correspondance correspond à l’ensemble de la balise de propriété, y compris le type. 
   
 

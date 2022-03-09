@@ -7,12 +7,12 @@ ms:contentKeyID: 48546840
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: ebcfcdb81899254b5e24496dff93f82fa626f7c6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d13c88a85bfc97fce31b05e1477e4e7bcfa1db75
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572899"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465667"
 ---
 # <a name="recordsetrequery-method-dao"></a>Méthode Recordset.Requery (DAO)
 
@@ -128,7 +128,6 @@ Cet exemple montre comment la méthode **Requery** peut être utilisée pour act
     End Sub 
 ```
 
-<br/>
 
 Cet exemple de code montre comment la méthode **Requery** peut être utilisée pour actualiser une requête suite à la modification de ses paramètres.
 

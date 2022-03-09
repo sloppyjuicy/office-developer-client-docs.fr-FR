@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ac31cf65-a2bc-4c8e-91a4-d2903aa98776
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 58eef4b8b11b8ef1cfd5df359869f1950a5d8695
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9c7f6dce84d2677fb7e1cdfbc9de4b069d7bc4ba
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629591"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464946"
 ---
 # <a name="sccopynotifications"></a>ScCopyNotifications
 
@@ -46,7 +46,7 @@ SCODE ScCopyNotifications(
 
  _cntf_
   
-> [in] Nombre de structures [NOTIFICATION](notification.md) dans le tableau indiqué par le _paramètre rgntf._ 
+> [in] Nombre de structures [DE NOTIFICATION](notification.md) dans le tableau indiqué par le  _paramètre rgntf_ . 
     
  _rgntf_
   
@@ -58,7 +58,7 @@ SCODE ScCopyNotifications(
     
  _pcb_
   
-> [out] Pointeur facultatif vers une variable où la taille, en octets, du tableau pointé par le paramètre  _rgntf_ est stockée. Si la valeur n’est pas NULL, le _paramètre pcb_ est définie sur le nombre d’octets stockés dans le _paramètre pvDst._ 
+> [out] Pointeur facultatif vers une variable où la taille, en octets, du tableau pointé par le  _paramètre rgntf_ est stockée. Si la valeur n’est pas NULL, le  _paramètre pcb_ est définie sur le nombre d’octets stockés dans le _paramètre pvDst_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -72,6 +72,6 @@ E_INVALIDARG
     
 ## <a name="remarks"></a>Remarques
 
-Si null est transmis dans le  _paramètre pcb,_ aucune copie n’est effectuée ; Si une valeur non null est passée dans  _pcb,_ la fonction **ScCopyNotifications** copie la taille du tableau et du tableau lui-même dans un seul bloc de mémoire. Si _pcb n’est_ pas NULL, il est fixé au nombre d’octets stockés dans le _paramètre pvDst._ Le  _paramètre pvDst_ doit être suffisamment grand pour contenir la totalité du tableau. 
+Si null est transmis dans le _paramètre pcb_ , aucune copie n’est effectuée ; Si une valeur non null est passée dans  _pcb_, la fonction **ScCopyNotifications** copie la taille du tableau et du tableau lui-même dans un seul bloc de mémoire. Si  _pcb n’est_ pas NULL, il est fixé au nombre d’octets stockés dans le _paramètre pvDst_ . Le  _paramètre pvDst_ doit être suffisamment grand pour contenir la totalité du tableau. 
   
 

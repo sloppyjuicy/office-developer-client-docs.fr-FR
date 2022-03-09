@@ -7,12 +7,12 @@ ms:contentKeyID: 48547753
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c7dd26ac4a150ca5daa2b0011ac9373e662f2dbb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8875e03bab9246398ce5e2d409b37b667f0af701
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622073"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463057"
 ---
 # <a name="properties-collection-dao"></a>Properties, collection (DAO)
 
@@ -33,18 +33,18 @@ Vous pouvez utiliser la méthode **Delete** pour supprimer des propriétés pers
 
 Pour faire référence à un objet **Property** intégré d'une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des syntaxes suivantes :
 
-- . **Propriétés**(0)
+- . **Properties**(0)
 
-- . **Propriétés**(« nom »)
+- . **Properties**(« name »)
 
-- . **Propriétés** \! \[ name\]
+- . **Propriétés**\!\[ name\]
 
 Dans le cas d'une propriété prédéfinie, vous pouvez également utiliser la syntaxe suivante :
 
 - object.name
 
 > [!NOTE]
-> Pour une propriété définie par l’utilisateur, vous devez utiliser l’objet complet. **Syntaxe** des propriétés (« nom »).
+> Pour une propriété définie par l’utilisateur, vous devez utiliser l’objet complet. **Syntaxe Properties**(« name »).
 
 Avec les mêmes formes de syntaxe, vous pouvez également faire référence à la propriété **Value** d'un objet **Property**. C'est le contexte de la référence qui indique si vous faites référence à l'objet **Property** ou à la propriété **Value** de l'objet **Property**.
 
@@ -89,7 +89,6 @@ Cet exemple crée une propriété définie par l'utilisateur pour la base de don
     End Sub 
 ```
 
-<br/>
 
 Cet exemple tente de définir la valeur d'une propriété définie par l'utilisateur. Si la propriété n'existe pas, il utilise la méthode **CreateProperty** pour créer la nouvelle propriété et en définir la valeur. La procédure SetProperty est requise pour exécuter cette opération.
 

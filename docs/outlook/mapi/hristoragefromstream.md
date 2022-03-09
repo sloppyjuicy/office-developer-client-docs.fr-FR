@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 1cdc95b8-a156-4600-9e20-caaa02680e87
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fed8b12b1541e0ca952fc54ff9028c49d11d600f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 98542aa2741f0b01558c222dc8b557b33bc5fe87
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610775"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465206"
 ---
 # <a name="hristoragefromstream"></a>HrIStorageFromStream
 
@@ -25,7 +25,7 @@ ms.locfileid: "59610775"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Couches **d’une interface IStorage** sur un **objet IStream.** 
+Couches **d’une interface IStorage** sur un **objet IStream** . 
   
 |||
 |:-----|:-----|
@@ -50,7 +50,7 @@ HRESULT HrIStorageFromStream(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet de flux. L’une des valeurs suivantes peut être transmise dans le paramètre  _lpInterface_ : NULL, IID_IStream ou IID_ILockBytes. La transmission de la valeur NULL  _dans lpInterface_ est la même que la transmission IID_IStream. 
+> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet de flux. L’une des valeurs suivantes peut être transmise dans le paramètre _lpInterface_ : NULL, IID_IStream ou IID_ILockBytes. La transmission de la valeur NULL  _dans lpInterface_ est la même que la transmission de IID_IStream. 
     
  _ulFlags_
   
@@ -84,6 +84,6 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de magasins de messages supportent la fonction **HrIStorageFromStream** à l’aide de l’interface **IStorage** pour les pièces jointes. Les fournisseurs du Store doivent implémenter **l’interface IStream.** **HrIStorageFromStream fournit** l’interface **IStorage** pour l’objet **IStream.** Il est possible de transmettre une interface **ILockBytes** ou **IStream** dans  _lpUnkIn_. 
+Les fournisseurs de magasins de messages supportent **la fonction HrIStorageFromStream** à l’aide de l’interface **IStorage** pour les pièces jointes. Les fournisseurs du Store doivent implémenter **l’interface IStream** . **HrIStorageFromStream fournit** l’interface **IStorage** pour **l’objet IStream** . Il est possible de transmettre une interface **ILockBytes** ou **IStream** dans  _lpUnkIn_. 
   
 

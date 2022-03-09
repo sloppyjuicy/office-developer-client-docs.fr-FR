@@ -7,12 +7,12 @@ ms:contentKeyID: 48543336
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: f7387ad6762d3beb9d5573c8ae67956b8a84545b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5a1aeaba60be5179102a52b49a51bc6036601202
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601708"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463127"
 ---
 # <a name="streamreadenum"></a>StreamReadEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59601708"
 
 Spécifie si la chaîne de données entière ou si la ligne suivante doit être lue depuis un objet [Stream](stream-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>

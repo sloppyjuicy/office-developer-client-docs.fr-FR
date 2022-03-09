@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: b08fadcf-cdf3-48b7-9489-d7f745266482
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ea4e22a379943429476368ca09e37db5caa8e593
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d51e6251a52e79d8a459256e14cd949cf310c739
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561599"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464052"
 ---
 # <a name="hrqueryallrows"></a>HrQueryAllRows
 
@@ -52,7 +52,7 @@ HRESULT HrQueryAllRows(
     
  _ptaga_
   
-> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété indiquant des colonnes de tableau. Ces balises sont utilisées pour sélectionner les colonnes spécifiques à récupérer. Si le _paramètre ptaga_ est NULL, **HrQueryAllRows** récupère l’ensemble de colonnes entier de la vue de table actuelle transmise dans le _paramètre ptable._ 
+> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété indiquant des colonnes de tableau. Ces balises sont utilisées pour sélectionner les colonnes spécifiques à récupérer. Si le  _paramètre ptaga_ est NULL, **HrQueryAllRows** récupère l’ensemble de colonnes entier de la vue de table actuelle transmise dans le _paramètre ptable_ . 
     
  _pres_
   
@@ -64,7 +64,7 @@ HRESULT HrQueryAllRows(
     
  _maxsMax_
   
-> [in] Nombre maximal de lignes à récupérer. Si la valeur du paramètre  _0 est zéro,_ aucune limite n’est définie sur le nombre de lignes récupérées. 
+> [in] Nombre maximal de lignes à récupérer. Si la valeur du paramètre  _« zero » est_ zéro, aucune limite n’est définie sur le nombre de lignes récupérées. 
     
  _pprows_
   
@@ -82,10 +82,10 @@ MAPI_E_TABLE_TOO_BIG
     
 ## <a name="remarks"></a>Remarques
 
-Une application cliente ou un fournisseur de services n’a aucun contrôle sur le nombre de lignes que **HrQueryAllRows** tente d’extraire, autrement qu’en élisant une restriction pointée par le paramètre _pres._ Le  _paramètre parcsMax_ ne limite pas la récupération à un certain nombre de lignes de tableau, mais définit plutôt une quantité maximale de mémoire disponible pour contenir toutes les lignes récupérées. La seule protection contre le dépassement de mémoire massive est la fonctionnalité stopgap fournie par la définition de _la fonctionmax._ Le retour d’MAPI_E_TABLE_TOO_BIG signifie que le tableau contient trop de lignes pour être tenu en mémoire en même temps. 
+Une application cliente ou un fournisseur de services n’a aucun contrôle sur le nombre de lignes que **HrQueryAllRows** tente d’extraire, autrement qu’en élisant une restriction pointée par le paramètre  _pres_ . Le  _paramètre parcsMax_ ne limite pas la récupération à un certain nombre de lignes de tableau, mais définit plutôt une quantité maximale de mémoire disponible pour contenir toutes les lignes récupérées. La seule protection contre un dépassement de mémoire important est la fonctionnalité stopgap fournie par la définition de  _la fonctionmax_. Le retour d’MAPI_E_TABLE_TOO_BIG signifie que le tableau contient trop de lignes pour être maintenues en mémoire en même temps. 
   
-Les tables généralement de petite taille, telles qu’une table de magasins de messages ou une table de fournisseurs, peuvent généralement être récupérées en toute sécurité avec **HrQueryAllRows**. Les tables à risque d’être très grandes, telles qu’une table des matières ou même une table des destinataires, doivent être parcourues dans des sous-sections à l’aide de la méthode [IMAPITable::QueryRows.](imapitable-queryrows.md) 
+Les tables généralement de petite taille, telles qu’une table de magasins de messages ou une table de fournisseurs, peuvent généralement être récupérées en toute sécurité avec **HrQueryAllRows**. Les tables à risque d’être très grandes, telles qu’une table des matières ou même une table des destinataires, doivent être parcourues dans des sous-sections à l’aide de la méthode [IMAPITable::QueryRows](imapitable-queryrows.md) . 
   
-Si des propriétés de table ne sont pas définies lors de l’appel de **HrQueryAllRows,** elles sont renvoyées avec le type de propriété PT_NULL et l’identificateur de PROP_ID_NULL 
+Si des propriétés de table ne sont pas définies lors de l’appel de **HrQueryAllRows** , elles sont renvoyées avec le type de propriété PT_NULL et l’identificateur de propriété PROP_ID_NULL 
   
 

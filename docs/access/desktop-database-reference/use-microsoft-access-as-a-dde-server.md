@@ -12,12 +12,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 0de1c6e053b57fa5ba4c69ba2a999ab35e541f5c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2b22ed9b6c85f8cfe3d6374c0b882048741d6b96
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593361"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464896"
 ---
 # <a name="use-microsoft-access-as-a-dde-server"></a>Utilisation de Microsoft Access en tant que serveur DDE
 
@@ -89,13 +89,12 @@ L'exemple suivant montre comment créer avec Visual Basic une procédure Microso
     End Sub
 ```
 
-<br/>
 
 Les sections suivantes vous informent sur les sujets DDE valides pris en charge par Microsoft Access.
 
 ## <a name="the-system-topic"></a>Le sujet System
 
-La rubrique System est une rubrique standard pour toutes les applications Microsoft Windows basées sur un logiciel. It supplies information about the other topics supported by the application. Pour accéder à ces informations, votre code doit d’abord appeler la fonction **DDEInitiate** avec *l’argument* sujet, puis exécuter l’instruction **DDERequest** avec l’une des instructions suivantes fournies pour l’argument  élément.
+La rubrique System est une rubrique standard pour toutes les applications Microsoft Windows basées sur un logiciel. It supplies information about the other topics supported by the application. Pour accéder à ces informations, votre code doit d’abord appeler la fonction **DDEInitiate** avec *l’argument sujet* , puis exécuter l’instruction **DDERequest** avec l’une des instructions suivantes fournies pour l’argument *élément* .
 
 <table>
 <colgroup>
@@ -118,8 +117,8 @@ La rubrique System est une rubrique standard pour toutes les applications Micros
 <td><p>Une liste des formats que Microsoft Access peut copier dans le Presse-papiers.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Statut</p></td>
-<td><p>&quot;Occupé &quot; ou &quot; prêt &quot; .</p></td>
+<td><p>État</p></td>
+<td><p>&quot;Occupé&quot; ou &quot;prêt&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p>Rubriques</p></td>
@@ -128,7 +127,6 @@ La rubrique System est une rubrique standard pour toutes les applications Micros
 </tbody>
 </table>
 
-<br/>
 
 L'exemple suivant montre comment utiliser les fonctions **DDEInitiate** et **DDERequest** avec le sujet System :
 
@@ -146,7 +144,7 @@ L'exemple suivant montre comment utiliser les fonctions **DDEInitiate** et **DDE
 
 ## <a name="the-database-topic"></a>Rubrique sur la base de données
 
-Le sujet *base-de-données* contient le nom de fichier d'une base de données existante. Vous pouvez taper uniquement le nom de base (Northwind) ou son chemin d’accès et son extension .mdb (C : \\ Access \\ Samples \\ Northwind.mdb). Une fois que vous avez engagé une conversation DDE avec la base de données, vous pouvez demander une liste des objets contenus dans celle-ci.
+Le sujet *base-de-données* contient le nom de fichier d'une base de données existante. Vous pouvez taper uniquement le nom de base (Northwind) ou son chemin d’accès et son extension .mdb (C:\\AccessSamplesNorthwind.mdb\\\\). Une fois que vous avez engagé une conversation DDE avec la base de données, vous pouvez demander une liste des objets contenus dans celle-ci.
 
 > [!NOTE]
 > Vous ne pouvez pas recourir à l'échange dynamique de données (DDE) pour interroger le fichier d'information du groupe de travail.
@@ -204,7 +202,6 @@ Le sujet *base-de-données* prend en charge les éléments suivants :
 </tbody>
 </table>
 
-<br/>
 
 L'exemple suivant montre comment ouvrir le formulaire Employés de la base de données Les comptoirs à l'aide d'une procédure Visual Basic :
 
@@ -223,13 +220,12 @@ L'exemple suivant montre comment ouvrir le formulaire Employés de la base de do
 
 Ces sujets utilisent la syntaxe suivante :
 
-_databasename_ ; **TABLEname** 
+_databasename_ ; **TABLE** _tablename_
 
 _databasename_ ; **QUERY** _queryname_
 
 _databasename_ ; **SQL** [ _sqlstring_ ]
 
-<br/>
 
 <table>
 <colgroup>
@@ -238,7 +234,7 @@ _databasename_ ; **SQL** [ _sqlstring_ ]
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Élément</p></th>
+<th><p>Quitter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -262,7 +258,6 @@ _databasename_ ; **SQL** [ _sqlstring_ ]
 </tbody>
 </table>
 
-<br/>
 
 Le tableau ci-dessous énumère les éléments valides pour les sujets TABLE *nom-table*, QUERY *nom-requête* et SQL *chaîne-sql*.
 
@@ -300,7 +295,7 @@ Le tableau ci-dessous énumère les éléments valides pour les sujets TABLE *no
 <li>1</li>
 <li>2</li>
 <li>3</li>
-<li>4 </li>
+<li>4</li>
 <li>5</li>
 <li>6 </li>
 <li>7 </li>
@@ -335,16 +330,15 @@ Le tableau ci-dessous énumère les éléments valides pour les sujets TABLE *no
 </tr>
 <tr class="odd">
 <td><p>SQLText</p></td>
-<td><p>Une instruction SQL représentant la table ou la requête. Pour les tableaux, cet élément renvoie une SQL sous la forme &quot; SELECT `*` FROM <em>table</em> &quot; ; .</p></td>
+<td><p>Une instruction SQL représentant la table ou la requête. Pour les tableaux, cet élément renvoie une SQL sous la &quot;forme SELECT `*` FROM <em>table</em>;&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p>SQLText ; <em>n</em></p></td>
-<td><p>Une instruction SQL, en segments de <em>n</em> caractères, représentant la table ou la requête, où <em>n</em> est un nombre entier dont la valeur ne peut dépasser 256. Par exemple, supposons qu’une requête est représentée par l’instruction SQL suivante : L’élément SQLText;7 renvoie les blocs délimités par des tabulations suivants : &quot; &quot; L’élément &quot; SQLText ;7 renvoie les blocs délimités par des &quot; tabulations suivants :</p></td>
+<td><p>Une instruction SQL, en segments de <em>n</em> caractères, représentant la table ou la requête, où <em>n</em> est un nombre entier dont la valeur ne peut dépasser 256. Par exemple, supposons qu’une requête est représentée par l’instruction SQL &quot;suivante : L’élément SQLText ;7&quot; renvoie les blocs délimités par des tabulations suivants &quot;: L’élément SQLText ;7&quot; renvoie les blocs délimités par des tabulations suivants :</p></td>
 </tr>
 </tbody>
 </table>
 
-<br/>
 
 L'exemple suivant montre comment utiliser l'échange dynamique de données (DDE) dans une procédure Visual Basic pour demander des données d'une table de la base de données exemple Comptoirs et insérer ces données dans un fichier texte :
 

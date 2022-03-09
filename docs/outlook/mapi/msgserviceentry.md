@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 655774a6-588c-44c7-903b-4497b7eccbc2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8cfd9e655a9690ac2207a36849fe1b6c63d99719
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ffce2f21d4dd2cc9ca6c05263beb65d1486b3034
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575357"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464441"
 ---
 # <a name="msgserviceentry"></a>MSGSERVICEENTRY
 
@@ -56,11 +56,11 @@ HRESULT MSGSERVICEENTRY(
     
  _lpMalloc_
   
-> [in] Pointeur vers un objet d’allocation de mémoire exposant l’interface OLE **IMalloc.** Le service de message peut avoir besoin d’utiliser cette méthode d’allocation lors de l’utilisation de certaines interfaces telles que **IStream**. 
+> [in] Pointeur vers un objet d’allocation de mémoire exposant l’interface OLE **IMalloc** . Le service de message peut avoir besoin d’utiliser cette méthode d’allocation lors de l’utilisation de certaines interfaces telles que **IStream**. 
     
  _lpMAPISup_
   
-> [in] Pointeur vers une [implémentation d’interface IMAPISupport : IUnknown.](imapisupportiunknown.md) 
+> [in] Pointeur vers une [implémentation d’interface IMAPISupport : IUnknown](imapisupportiunknown.md) . 
     
  _ulUIParam_
   
@@ -80,7 +80,7 @@ MSG_SERVICE_UI_READ_ONLY
     
 SERVICE_UI_ALLOWED 
   
-> Permet l’affichage d’une boîte de dialogue de configuration si nécessaire. Lorsque l SERVICE_UI_ALLOWED est définie, la boîte de dialogue ne doit s’afficher que si le tableau des valeurs de propriété  _lpProps_ est vide ou ne contient pas de configuration valide. Si SERVICE_UI_ALLOWED n’est pas définie, une boîte de dialogue peut toujours s’afficher si l’SERVICE_UI_ALWAYS est définie. 
+> Permet l’affichage d’une boîte de dialogue de configuration si nécessaire. Lorsque l SERVICE_UI_ALLOWED est définie, la boîte de dialogue ne doit être affichée que si le tableau des valeurs de propriété _lpProps_ est vide ou ne contient pas de configuration valide. Si SERVICE_UI_ALLOWED n’est pas définie, une boîte de dialogue peut toujours s’afficher si l’SERVICE_UI_ALWAYS est définie. 
     
 UI_CURRENT_PROVIDER_FIRST 
   
@@ -88,7 +88,7 @@ UI_CURRENT_PROVIDER_FIRST
     
 SERVICE_UI_ALWAYS 
   
-> Nécessite que le service de message affiche une boîte de dialogue de configuration. Si l’indicateur SERVICE_UI_ALWAYS n’est pas définie, une boîte de dialogue de configuration peut toujours s’afficher si l’indicateur SERVICE_UI_ALLOWED est définie et que les informations de configuration valides ne sont pas disponibles dans le tableau des valeurs de propriété _lpProps._ Vous SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS être définies pour permettre l’affichage d’une interface utilisateur. 
+> Nécessite que le service de message affiche une boîte de dialogue de configuration. Si l’indicateur SERVICE_UI_ALWAYS n’est pas définie, une boîte de dialogue de configuration peut toujours s’afficher si l’indicateur SERVICE_UI_ALLOWED est définie et que les informations de configuration valides ne sont pas disponibles dans le tableau des valeurs de propriété  _lpProps_ . Vous SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS être définies pour permettre l’affichage d’une interface utilisateur. 
     
  _ulContext_
   
@@ -100,7 +100,7 @@ MSG_SERVICE_CONFIGURE
     
 MSG_SERVICE_CREATE 
   
-> Le service est ajouté à un profil. Si l’indicateur SERVICE_UI_ALWAYS ou SERVICE_UI_ALLOWED est définie, le service doit afficher sa boîte de dialogue de configuration. Si aucun indicateur n’est définie, le service doit échouer. 
+> Le service est ajouté à un profil. Si l’SERVICE_UI_ALWAYS ou SERVICE_UI_ALLOWED est définie, le service doit afficher sa boîte de dialogue de configuration. Si aucun indicateur n’est définie, le service doit échouer. 
     
 MSG_SERVICE_DELETE 
   
@@ -108,15 +108,15 @@ MSG_SERVICE_DELETE
     
 MSG_SERVICE_INSTALL 
   
-> Le service a été installé sur la station de travail de l’utilisateur à partir d’un réseau, d’une disquette ou d’un autre support externe. Après avoir reçu cet événement, le service renvoie généralement S_OK. 
+> Le service a été installé sur la station de travail de l’utilisateur à partir d’un réseau, d’une disquette ou d’un autre support externe. Après réception de cet événement, le service renvoie généralement S_OK. 
     
 MSG_SERVICE_PROVIDER_CREATE 
   
-> Demande au service de créer une instance supplémentaire d’un fournisseur. Si le service prend en charge cette opération, il doit appeler [IProviderAdmin::CreateProvider](iprovideradmin-createprovider.md). Si le service ne prend pas en charge cette opération, il peut MAPI_E_NO_SUPPORT. 
+> Demande au service de créer une instance supplémentaire d’un fournisseur. Si le service prend en charge cette opération, il doit appeler [IProviderAdmin::CreateProvider](iprovideradmin-createprovider.md). Si le service ne prend pas en charge cette opération, il peut renvoyer MAPI_E_NO_SUPPORT. 
     
 MSG_SERVICE_PROVIDER_DELETE 
   
-> Demande au service de supprimer une instance de fournisseur. Si le service prend en charge cette opération, il doit appeler [IProviderAdmin::D eleteProvider](iprovideradmin-deleteprovider.md). Si le service ne prend pas en charge cette opération, il peut MAPI_E_NO_SUPPORT.
+> Demande au service de supprimer une instance de fournisseur. Si le service prend en charge cette opération, il doit appeler [IProviderAdmin::D eleteProvider](iprovideradmin-deleteprovider.md). Si le service ne prend pas en charge cette opération, il peut renvoyer MAPI_E_NO_SUPPORT.
     
 MSG_SERVICE_UNINSTALL 
   
@@ -124,11 +124,11 @@ MSG_SERVICE_UNINSTALL
     
  _cValues_
   
-> [in] Nombre de valeurs de propriété dans le tableau pointés par _le paramètre lpProps._ La valeur du paramètre  _cValues_ est zéro si MAPI ne passe aucune valeur de propriété. 
+> [in] Nombre de valeurs de propriété dans le tableau pointés par  _le paramètre lpProps_ . La valeur du paramètre  _cValues_ est zéro si MAPI ne passe aucune valeur de propriété. 
     
  _lpProps_
   
-> [in] Pointeur vers un tableau facultatif de structures [SPropValue](spropvalue.md) indiquant les valeurs des propriétés pris en charge par le fournisseur que la fonction utilisera lors de la configuration du service de messagerie. La fonction utilise ce paramètre uniquement si le paramètre  _ulContext_ est MSG_SERVICE_CONFIGURE. Ce paramètre est couramment utilisé pour transmettre le chemin d’accès à un fichier pour un service basé sur un fichier, tel qu’un service de carnet d’adresses personnel. Si l MSG_SERVICE_CONFIGURE n’est pas transmis dans le paramètre  _ulFlags,_ le  _paramètre lpProps_ doit être zéro. 
+> [in] Pointeur vers un tableau facultatif de structures [SPropValue](spropvalue.md) indiquant les valeurs des propriétés pris en charge par le fournisseur que la fonction utilisera lors de la configuration du service de messagerie. La fonction utilise ce paramètre uniquement si le paramètre _ulContext_ est MSG_SERVICE_CONFIGURE. Ce paramètre est couramment utilisé pour transmettre le chemin d’accès à un fichier pour un service basé sur un fichier, tel qu’un service de carnet d’adresses personnel. Si l MSG_SERVICE_CONFIGURE n’est pas transmis dans le paramètre _ulFlags_ , le  _paramètre lpProps_ doit être zéro. 
     
  _lpProviderAdmin_
   
@@ -136,7 +136,7 @@ MSG_SERVICE_UNINSTALL
     
  _lppMapiError_
   
-> [out] Pointeur vers une structure [MAPIERROR.](mapierror.md) La structure est allouée avec la [fonction MAPIAllocateBuffer.](mapiallocatebuffer.md) Tous les membres sont facultatifs, bien que la plupart des structures contiennent une chaîne de message d’erreur valide dans le membre _lpszError._ Si les membres  _lpszComponent_ ou  _lpszError_ de la structure sont présents, leur mémoire doit être libérée par un seul appel à [MAPIFreeBuffer](mapifreebuffer.md) sur la structure de base. 
+> [out] Pointeur vers une structure [MAPIERROR](mapierror.md) . La structure est allouée avec la [fonction MAPIAllocateBuffer](mapiallocatebuffer.md) . Tous les membres sont facultatifs, bien que la plupart des structures contiennent une chaîne de message d’erreur valide dans le membre _lpszError_ . Si les membres  _lpszComponent_ ou  _lpszError_ de la structure sont présents, leur mémoire doit être libérée par un seul appel à [MAPIFreeBuffer](mapifreebuffer.md) sur la structure de base. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -150,7 +150,7 @@ MAPI_E_UNCONFIGURED
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le **bouton Annuler dans** une boîte de dialogue. 
     
 MAPI_E_NO_SUPPORT 
   
@@ -162,18 +162,18 @@ MAPI_E_BAD_CHARWIDTH
     
 ## <a name="remarks"></a>Remarques
 
-Une fonction définie à l’aide du prototype de fonction **MSGSERVICEENTRY** permet aux services de message de se configurer eux-mêmes ou d’effectuer d’autres actions spécifiques au service. La fonction fournit principalement une boîte de dialogue dans laquelle l’utilisateur peut modifier les paramètres spécifiques au service de message. Il peut également prendre en charge la configuration par programme à l’aide du tableau de valeurs de propriété transmis dans le _paramètre lpProps._ La configuration par programme est facultative, sauf si le service prend en charge l’Assistant Profil, pour lequel elle est requise. 
+Une fonction définie à l’aide du prototype de fonction **MSGSERVICEENTRY** permet aux services de message de se configurer eux-mêmes ou d’effectuer d’autres actions spécifiques au service. La fonction fournit principalement une boîte de dialogue dans laquelle l’utilisateur peut modifier les paramètres spécifiques au service de message. Il peut également prendre en charge la configuration par programme à l’aide du tableau de valeurs de propriété transmis dans _le paramètre lpProps_ . La configuration par programme est facultative, sauf si le service prend en charge l’Assistant Profil, pour lequel elle est requise. 
   
 MAPI appelle ce point d’entrée à partir de l’application du Panneau de configuration ou en réponse à une application cliente appelant [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) ou [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
   
-MAPI ne place aucune restriction sur le nom de fonction qu’un service de message utilise pour le prototype **MSGSERVICEENTRY,** mais préfère le nom **ServiceEntry**. Il n’existe aucune restriction sur l’ordinal pour la fonction, et une DLL de fournisseur unique peut contenir plusieurs fonctions. Toutefois, une seule des fonctions peut être nommée **ServiceEntry**. 
+MAPI ne place aucune restriction sur le nom de fonction qu’un service de message utilise pour le prototype **MSGSERVICEENTRY** , mais préfère le nom **ServiceEntry**. Il n’existe aucune restriction sur l’ordinal pour la fonction, et une DLL de fournisseur unique peut contenir plusieurs fonctions. Toutefois, une seule des fonctions peut être nommée **ServiceEntry**. 
   
 Un service de message peut utiliser la [fonction BuildDisplayTable](builddisplaytable.md) et la méthode [IMAPISupport::D oConfigPropsheet](imapisupport-doconfigpropsheet.md) pour simplifier l’implémentation de la boîte de dialogue de configuration. 
   
-Il est possible pour un utilisateur d’annuler une MSG_SERVICE_UNINSTALL opération. Dans ce cas, la fonction **ServiceEntry** doit vérifier auprès de l’utilisateur que le service ne doit pas être supprimé et retourner MAPI_E_USER_CANCEL si le service reste installé. 
+Il est possible pour un utilisateur d’annuler une MSG_SERVICE_UNINSTALL opération. Dans ce cas, la **fonction ServiceEntry** doit vérifier auprès de l’utilisateur que le service ne doit pas être supprimé et retourner MAPI_E_USER_CANCEL si le service reste installé. 
   
-Une fonction basée sur le prototype **MSGSERVICEENTRY** renvoie l’une des valeurs HRESULT répertoriées. MAPI forwards this value when responding to a client’s call to [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
+Une fonction basée sur **le prototype MSGSERVICEENTRY** renvoie l’une des valeurs HRESULT répertoriées. MAPI forwards this value when responding to a client’s call to [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
   
-Les services de message qui exportent une fonction d’entrée de service doivent inclure les propriétés **PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)) et **PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) dans la section de service de message de MAPISVC.INF. 
+Les services de message qui exportent une fonction d’entrée de service doivent inclure les propriétés **PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)) et **PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) dans la section service de message de MAPISVC.INF. 
   
 

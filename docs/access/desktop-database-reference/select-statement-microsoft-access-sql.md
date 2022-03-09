@@ -9,12 +9,12 @@ mtps_version: v=office.15
 dev_langs:
 - sql
 ms.localizationpriority: high
-ms.openlocfilehash: 0a407c6b164f2558be46ab2804693121ba07a5c1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 326c42c5893c8241e0f13ba3b865eb54354f6454
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593634"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465510"
 ---
 # <a name="select-statement-microsoft-access-sql"></a>SELECT, instruction (Microsoft Access SQL)
 
@@ -152,7 +152,6 @@ Dans cet exemple, un objet **Recordset** de type feuille dynamique basé sur une
     End Sub
 ```
 
-<br/>
 
 Dans cet exemple, le nombre d'enregistrements comportant une entrée dans le champ PostalCode est calculé et le champ renvoyé est nommé Tally.
 
@@ -182,7 +181,6 @@ Dans cet exemple, le nombre d'enregistrements comportant une entrée dans le cha
     End Sub 
 ```
 
-<br/>
 
 Dans cet exemple, le nombre d'employés est indiqué ainsi que les salaires maximal et moyen.
 
@@ -215,7 +213,6 @@ Dans cet exemple, le nombre d'employés est indiqué ainsi que les salaires maxi
     End Sub 
 ```
 
-<br/>
 
 §LSA La procédure **Sub** EnumFields bénéficie d’un objet **Recordset** à partir de la procédure appelante. La procédure met en forme et imprime les champs de l’objet **Recordset** dans la fenêtre **Débogage**. La variable est la largeur de champ imprimé voulue. Certains champs peuvent être tronqués.
 

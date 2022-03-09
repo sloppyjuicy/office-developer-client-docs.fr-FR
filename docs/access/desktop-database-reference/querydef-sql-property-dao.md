@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 3213cf90bc1f2b07f93f19561d24dbd2ee31dd8e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8b71a366b8dc203c93941b3936cf4d17e1d7bba4
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576995"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465611"
 ---
 # <a name="querydefsql-property-dao"></a>QueryDef.SQL, propriété (DAO)
 
@@ -97,7 +97,6 @@ Cet exemple illustre la **SQL** propriété en définissant et en modifiant le *
     End Function 
 ```
 
-<br/>
 
 Cet exemple utilise la **CopyQueryDef** méthode pour créer une copie d’un **QueryDef** à partir d’un existant **jeu d’enregistrements** et modifie la copie en ajoutant une clause à la **SQL** propriété. Lorsque vous créez un permanente **QueryDef**, espaces, des points-virgules ou des sauts de ligne pourraient être ajoutés à la **SQL** propriété ; ces caractères supplémentaires doivent être supprimés avant des nouvelles clauses pouvant joint à l’instruction SQL.
 
@@ -124,7 +123,6 @@ Cet exemple utilise la **CopyQueryDef** méthode pour créer une copie d’un **
     End Function 
 ```
 
-<br/>
 
 Cet exemple montre une utilisation possible de CopyQueryNew(). 
      
@@ -184,7 +182,6 @@ Cet exemple montre une utilisation possible de CopyQueryNew().
     End Sub 
 ```
 
-<br/>
 
 Cet exemple utilise les méthodes **CreateQueryDef** et **OpenRecordset**, ainsi que la propriété **SQL**, pour exécuter une requête sur la table de titres de la base de données exemple Microsoft SQL Server, Pubs, et renvoyer le titre et l’identificateur du titre du best-seller. Ensuite, il exécute une requête sur la table des auteurs et indique à l’utilisateur d’envoyer un chèque de bonification à chaque auteur en fonction de son pourcentage de droits d’auteur (la bonification totale s’élève à 1 000 euros et chaque auteur doit recevoir un pourcentage de ce montant).
 
@@ -252,7 +249,6 @@ Cet exemple utilise les méthodes **CreateQueryDef** et **OpenRecordset**, ainsi
     End Sub 
 ```
 
-<br/>
 
 L'exemple suivant montre comment créer une requête avec paramètres. Une requête nommée **myQuery** est créée avec deux paramètres, nommés  Param1 et  Param2. Pour ce faire, la propriété SQL de la requête est définie sur une instruction SQL (Structured Query Language) qui définit les paramètres.
 
@@ -281,7 +277,6 @@ L'exemple suivant montre comment créer une requête avec paramètres. Une requ�
     End Sub
 ```
 
-<br/>
 
 L’exemple suivant montre comment remplacer l’instruction SQL dans une requête enregistrée.
 

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: fa3b54650967dd2fef435374b8b6eace327df3dd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6d746217f4e3eb4d6662a1fdec4190e7d358562c
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593739"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464462"
 ---
 # <a name="recordsetcancelupdate-method-dao"></a>Recordset.CancelUpdate, méthode (DAO)
 
@@ -28,7 +28,7 @@ Annule les mises à jour en attente pour un objet **[Recordset](recordset-object
 
 *.* CancelUpdate(***UpdateType***)
 
-*expression* Variable qui représente un objet **Recordset**.
+*expression* Variable représentant un objet **Recordset**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -52,7 +52,7 @@ Annule les mises à jour en attente pour un objet **[Recordset](recordset-object
 <td><p><em>UpdateType</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>Définissez cette propriété sur l’une <strong><a href="updatetypeenum-enumeration-dao.md">des valeurs UpdateTypeEnum.</a></strong></p><p><strong>REMARQUE</strong>: les <EM>valeurs dbUpdateRegular</EM> et <EM>dbUpdateBatch</EM> ne sont valides que si la mise à jour par lot est activée.</p>
+<td><p>Définissez cette propriété sur l’une <strong><a href="updatetypeenum-enumeration-dao.md">des valeurs UpdateTypeEnum</a></strong> .</p><p><strong>REMARQUE</strong> : les <EM>valeurs dbUpdateRegular</EM> et <EM>dbUpdateBatch</EM> ne sont valides que si la mise à jour par lot est activée.</p>
 </td>
 </tr>
 </tbody>
@@ -108,7 +108,6 @@ Cet exemple de code montre comment utiliser la méthode **CancelUpdate** avec la
     End Sub 
 ```
 
-<br/>
 
 Cet exemple de code montre comment utiliser la méthode **CancelUpdate** avec la méthode **Edit**.
 

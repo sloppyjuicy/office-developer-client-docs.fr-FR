@@ -7,12 +7,12 @@ ms:contentKeyID: 48543557
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 55e4a4586d718747eb5b332074c83331e6e75591
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ded347d1bb8a814a4829823bd43ffef3a1e56586
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626112"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463183"
 ---
 # <a name="recordset2lastmodified-property-dao"></a>Recordset2.LastModified, propriété (DAO)
 
@@ -25,7 +25,7 @@ Renvoie un signet indiquant le dernier enregistrement ajouté ou modifié.
 
 *.* LastModified
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -92,9 +92,8 @@ Cet exemple utilise la propriété **LastModified** pour déplacer le pointeur d
     End Sub 
 ```
 
-<br/>
 
-Cet exemple utilise la méthode **AddNew** pour créer un nouvel enregistrement portant le nom spécifié. La fonction AddName est nécessaire à l'exécution de cette procédure.
+Cet exemple utilise la **AddNew** méthode permettant de créer un enregistrement avec le nom spécifié. La fonction AddName est requise pour exécuter cette procédure.
 
 ```vb
     Sub AddNewX() 

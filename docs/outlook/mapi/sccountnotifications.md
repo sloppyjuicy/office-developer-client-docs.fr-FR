@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 13e80bdc-cb59-47a5-8de0-404e22f87f82
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: de46b401053fa31b93d1dbd2f34a1741a8da1a1b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 221da299083d18e2a1e135549fe5ad58e7b9dfb9
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578710"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463155"
 ---
 # <a name="sccountnotifications"></a>ScCountNotifications
 
@@ -45,7 +45,7 @@ SCODE ScCountNotifications(
 
  _cntf_
   
-> [in] Nombre de structures [NOTIFICATION](notification.md) dans le tableau indiqué par le _paramètre rgntf._ 
+> [in] Nombre de structures [DE NOTIFICATION](notification.md) dans le tableau indiqué par le  _paramètre rgntf_ . 
     
  _rgntf_
   
@@ -53,7 +53,7 @@ SCODE ScCountNotifications(
     
  _pcb_
   
-> [out] Pointeur facultatif vers la taille, en octets, du tableau pointé par le _paramètre rgntf._ Si la valeur est NULL, **ScCountNotifications** valide le tableau des notifications. 
+> [out] Pointeur facultatif vers la taille, en octets, du tableau pointé par le  _paramètre rgntf_ . Si la valeur est NULL, **ScCountNotifications** valide le tableau de notifications. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -67,6 +67,6 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Remarques
 
-Si NULL est transmis dans le  _paramètre pcb,_ la **fonction ScCountNotifications** valide uniquement le tableau de notifications, mais aucun décompte n’est effectué . si une valeur non null est passée dans  _pcb_, **ScCountNotifications** détermine la taille du tableau et stocke la  _cause pcb_. Le  _paramètre pcb_ doit être suffisamment grand pour contenir la totalité du tableau. 
+Si NULL est transmis dans le _paramètre pcb_ , la **fonction ScCountNotifications** valide uniquement le tableau de notifications, mais aucun décompte n’est effectué . Si une valeur non null est passée dans  _pcb_, **ScCountNotifications** détermine la taille du tableau et stocke la  _cause pcb_. Le  _paramètre pcb_ doit être suffisamment grand pour contenir la totalité du tableau. 
   
 

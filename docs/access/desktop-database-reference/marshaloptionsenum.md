@@ -7,12 +7,12 @@ ms:contentKeyID: 48544867
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 04af7f1101c6cf4248d0c0f42a5998d06817e68c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 462551314e41960d082e6b284887863306c8eedc
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558281"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462854"
 ---
 # <a name="marshaloptionsenum"></a>MarshalOptionsEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59558281"
 
 Spécifie les enregistrements qui doivent être renvoyés au serveur.
 
-<br/>
 
 <table>
 <colgroup>
@@ -60,7 +59,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>
