@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 9b46358c-bcab-f097-8746-fabfd4722b3c
 description: Obtient le nombre spécifié suivant de blocs de données de libre/occupé dans une éumération.
-ms.openlocfilehash: 918b7f9b00dc514a0f72d6d0f87d742e19e9c40f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 7a5ff3fc06d4fa336d8a96b2afa96ead156f2cb1
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784481"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380283"
 ---
 # <a name="ienumfbblocknext"></a>IEnumFBBlock::Next
 
@@ -34,7 +34,7 @@ HRESULT Next(
 
 _celt_
   
-> [in] Nombre de blocs de données de libre/occupé dans  *pblk*  à récupérer.
+> [in] Nombre de blocs de données de libre/occupé dans *pblk*  à récupérer.
 
 _pblk_
   

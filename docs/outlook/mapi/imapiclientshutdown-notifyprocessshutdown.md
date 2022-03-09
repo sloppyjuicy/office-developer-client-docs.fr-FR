@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42dd7889-5e00-419a-91e7-8350be4efd35
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 88512a6e55bc550e717dae4fda0ca41fce09d221
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 850b12831d55c980afb4a705a619679c63130b94
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571821"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380535"
 ---
 # <a name="imapiclientshutdownnotifyprocessshutdown"></a>IMAPIClientShutdown::NotifyProcessShutdown
 
@@ -39,7 +38,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Pour éviter la perte de données suite à l’arrêt rapide d’un client MAPI, les clients MAPI doivent appeler les méthodes **IMAPIClientShutdown::NotifyProcessShutdown** et [IMAPIClientShutdown::D oFastShutdown](imapiclientshutdown-dofastshutdown.md) basées sur le résultat S_OK renvoyé par le sous-système MAPI dans la méthode [IMAPIClientShutdown::QueryFastShutdown.](imapiclientshutdown-queryfastshutdown.md) Pour plus d’informations, voir [Best Practices for Fast Shutdown](best-practices-for-fast-shutdown.md).
+Pour éviter la perte de données suite à l’arrêt rapide d’un client MAPI, les clients MAPI doivent appeler les méthodes **IMAPIClientShutdown::NotifyProcessShutdown** et [IMAPIClientShutdown::D oFastShutdown](imapiclientshutdown-dofastshutdown.md) en fonction du résultat S_OK renvoyé par le sous-système MAPI dans la méthode [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Pour plus d’informations, voir [Best Practices for Fast Shutdown](best-practices-for-fast-shutdown.md).
   
 ## <a name="see-also"></a>Voir aussi
 

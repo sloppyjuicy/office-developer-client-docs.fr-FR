@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 479404c5-4926-402a-aa12-75dd23276d75
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3f239b996d157ba5d15c5f2af22b4ea585d09d47
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 84c796bbf9dae082ae32137a26f2695f298da0b3
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609480"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373646"
 ---
 # <a name="sending-or-receiving-a-message-on-demand"></a>Envoi ou réception d’un message à la demande
   
@@ -25,39 +24,39 @@ La [méthode IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) supprime tous
   
 ### <a name="to-flush-all-incoming-or-outgoing-queues-in-a-single-operation"></a>Pour vider toutes les files d’attente entrantes ou sortantes en une seule opération
   
-1. Appelez [IMAPISession::GetStatusTable](imapisession-getstatustable.md) pour accéder à la table d’état. 
+1. [Appelez IMAPISession::GetStatusTable](imapisession-getstatustable.md) pour accéder à la table d’état. 
     
 2. Appelez la méthode [IMAPITable::SetColumns](imapitable-setcolumns.md) de la table d’état pour limiter le jeu de colonnes à **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) et **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)).
     
-3. Créez une restriction de propriété à l’aide d’une structure [SPropertyRestriction](spropertyrestriction.md) pour PR_RESOURCE_TYPE **avec** MAPI_SPOOLER. 
+3. Créez une restriction de propriété à l’aide d’une structure [SPropertyRestriction](spropertyrestriction.md) pour **PR_RESOURCE_TYPE avec MAPI_SPOOLER** . 
     
-4. Appelez [HrQueryAllRows,](hrqueryallrows.md)en passant la structure **SPropertyRestriction,** pour récupérer la ligne qui représente l’état dupooler MAPI. 
+4. [Appelez HrQueryAllRows](hrqueryallrows.md), en passant la structure **SPropertyRestriction**, pour récupérer la ligne qui représente l’état dupooler MAPI. 
     
 5. Passez la **PR_ENTRYID** à [IMAPISession::OpenEntry](imapisession-openentry.md) pour ouvrir l’objet d’état dupooler MAPI. 
     
 6. Appelez la méthode [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) dupooler MAPI, en passant l’indicateur FLUSH_NO_UI pour supprimer l’interface utilisateur et l’indicateur FLUSH_DOWNLOAD ou FLUSH_UPLOAD pour vider les files d’attente sortantes ou entrantes. 
     
-7. Relâchez l’objet d’état et la table d’état, ainsi que la structure [SRowSet](srowset.md) allouée à la table. 
+7. Release the status object and the status table, as well as the [SRowSet](srowset.md) structure that is allocated for the table. 
     
 ### <a name="to-flush-incoming-or-outgoing-queues-individually-by-transport-provider"></a>Pour vider les files d’attente entrantes ou sortantes individuellement par fournisseur de transport
   
-1. Appelez [IMAPISession::GetStatusTable](imapisession-getstatustable.md) pour accéder à la table d’état. 
+1. [Appelez IMAPISession::GetStatusTable](imapisession-getstatustable.md) pour accéder à la table d’état. 
     
-2. Appelez la méthode [IMAPITable::SetColumns](imapitable-setcolumns.md) de la table d’état pour limiter le jeu de colonnes PR_ENTRYID **et** **PR_RESOURCE_TYPE**.
+2. Appelez la méthode [IMAPITable::SetColumns](imapitable-setcolumns.md) de la table d’état pour limiter le jeu de colonnes **PR_ENTRYID** et **PR_RESOURCE_TYPE**.
     
-3. Créez une restriction de propriété à l’aide d’une structure [SPropertyRestriction](spropertyrestriction.md) pour PR_RESOURCE_TYPE **avec** MAPI_TRANSPORT_PROVIDER. 
+3. Créez une restriction de propriété à l’aide d’une structure [SPropertyRestriction](spropertyrestriction.md) pour **PR_RESOURCE_TYPE avec MAPI_TRANSPORT_PROVIDER** . 
     
-4. Appelez [HrQueryAllRows,](hrqueryallrows.md)en passant la structure **SPropertyRestriction,** pour récupérer les lignes fournies par les fournisseurs de transport. 
+4. [Appelez HrQueryAllRows](hrqueryallrows.md), en passant la structure **SPropertyRestriction**, pour récupérer les lignes fournies par les fournisseurs de transport. 
     
-5. Pour chaque ligne renvoyée **par HrQueryAllRows**:
+5. Pour chaque ligne renvoyée **par HrQueryAllRows** :
     
     1. Passez la **PR_ENTRYID** à [IMAPISession::OpenEntry](imapisession-openentry.md) pour ouvrir l’objet d’état du fournisseur de transport. 
         
     2. Vérifiez que l’objet d’état de transport prend en charge la méthode **FlushQueues** en vérifiant que sa propriété **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) possède l’indicateur STATUS_FLUSH_QUEUES définie. 
         
-    3. Si pris en charge, [appelez IMAPIStatus::FlushQueues](imapistatus-flushqueues.md). Si ce paramètre n’est pas pris en compte, appelez la méthode **IMAPIStatus::FlushQueues** dupooler MAPI, en passant l’identificateur d’entrée du transport dans le paramètre _lpTargetTransport._ Consultez la procédure précédente pour obtenir des instructions sur l’accès à l’objet d’état dupooler MAPI. Définissez l FLUSH_DOWNLOAD pour vider les files d’attente sortantes ou l’indicateur FLUSH_UPLOAD pour vider les files d’attente entrantes. 
+    3. Si pris en charge, appelez [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md). Si ce paramètre n’est pas pris en compte, appelez la méthode **IMAPIStatus::FlushQueues** dupooler MAPI, en passant l’identificateur d’entrée du transport dans le paramètre _lpTargetTransport_ . Consultez la procédure précédente pour obtenir des instructions sur l’accès à l’objet d’état dupooler MAPI. Définissez l FLUSH_DOWNLOAD pour vider les files d’attente sortantes ou l’indicateur FLUSH_UPLOAD pour vider les files d’attente entrantes. 
         
-    4. Relâchez l’objet d’état et la table d’état, ainsi que la structure [SRowSet](srowset.md) allouée à la table. 
+    4. Release the status object and the status table, as well as the [SRowSet](srowset.md) structure that is allocated for the table. 
     
 Lepooler MAPI honore l’FLUSH_NO_UI comme la plupart des fournisseurs de transport LAN. Toutefois, tous les fournisseurs de transport ne respectent pas cet indicateur, en particulier ceux qui utilisent un modem explicitement et le service d’accès à distance (RAS). Ras n’a pas été conçu pour permettre aux clients de supprimer l’interface utilisateur. Il est possible pour un client d’être configuré de sorte qu’il puisse se connecter sans nécessiter l’interaction d’un utilisateur, mais il est difficile et nécessite une connaissance approfondie des services de message du client.
   

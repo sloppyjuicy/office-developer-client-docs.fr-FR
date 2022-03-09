@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c16c668e-2c8b-4759-bbca-d0c5662b62e9
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6edda10d54e80f982785f65ecec0bdd950f8de59
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 81057380a60a69484be0651f32fe7f23f3dbaa7f
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461362"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381256"
 ---
 # <a name="imapisupportnotify"></a>IMAPISupport::Notify
 
@@ -80,7 +79,7 @@ La clé de notification transmise dans le paramètre _lpKey_ doit être identiqu
   
 Assurez-vous de définir le **membre lpEntryID** de la structure de notification sur un identificateur d’entrée à long terme. 
   
-Si vous définissez l’indicateur NOTIFY_SYNC sur l’appel d’abonnement pour l’une des notifications en attente, **Notify** appelle les fonctions de rappel de méthode **IMAPIAdviseSink::OnNotify** avant de renvoyer. Un sink de conseil peut être créé manuellement ou en appelant [HrAllocAdviseSink](hrallocadvisesink.md). La **fonction HrAllocAdviseSink** permet à son appelant de spécifier une fonction de rappel qui  notifie les appels dans le cadre de la notification. La fonction de rappel est conforme au prototype [NOTIFCALLBACK](notifcallback.md) . Les fonctions de rappel implémentées par les clients retournent toujours S_OK ; les fonctions de rappel implémentées par les fournisseurs de services peuvent renvoyer CALLBACK_DISCONTINUE. 
+Si vous définissez l’indicateur NOTIFY_SYNC sur l’appel d’abonnement pour l’une des notifications en attente, **Notify** appelle les fonctions de rappel de méthode **IMAPIAdviseSink::OnNotify** avant de renvoyer. Un sink de conseil peut être créé manuellement ou en appelant [HrAllocAdviseSink](hrallocadvisesink.md). La **fonction HrAllocAdviseSink** permet à son appelant de spécifier une fonction de rappel qui  notifie les appels dans le cadre de la notification. La fonction de rappel est conforme au prototype [NOTIFCALLBACK](notifcallback.md) . Les fonctions de rappel implémentées par les clients retournent toujours S_OK ; les fonctions de rappel implémentées par les fournisseurs de services peuvent renvoyer des CALLBACK_DISCONTINUE. 
   
 Si une fonction de rappel renvoie CALLBACK_DISCONTINUE, MAPI cesse d’envoyer des notifications et renvoie NOTIFY_CANCELED dans le paramètre _lpulFlags_ de la méthode **Notify**. Vous pouvez supposer que le processus est inactif et arrêter de générer des notifications pour ce processus. Si **Notify** renvoie 0 dans  _lpulFlags_, le processus est toujours actif et vous devez continuer à envoyer des notifications, le cas échéant.
   

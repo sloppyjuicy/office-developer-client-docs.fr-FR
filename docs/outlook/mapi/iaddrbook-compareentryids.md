@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7dabc1d3-5ea4-482f-91a9-9ef3009eddd2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 773391c12d6100482d27c7bf023e4b75f56c195c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 05ab3868a63f0576d266f85ab279ed20658b25c2
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571856"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374431"
 ---
 # <a name="iaddrbookcompareentryids"></a>IAddrBook::CompareEntryIDs
 
@@ -42,7 +41,7 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID1._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID1_ . 
     
  _lpEntryID1_
   
@@ -50,7 +49,7 @@ HRESULT CompareEntryIDs(
     
  _cbEntryID2_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID2._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID2_ . 
     
  _lpEntryID2_
   
@@ -80,7 +79,7 @@ Les applications clientes et les fournisseurs de services appellent la méthode 
   
 MAPI transmet cet appel au fournisseur de carnet d’adresses responsable des identificateurs d’entrée, en déterminant le fournisseur approprié en faisant correspondre la structure [MAPIUID](mapiuid.md) dans les identificateurs d’entrée avec la structure **MAPIUID** inscrite par le fournisseur. 
   
-Si les deux identificateurs d’entrée font référence au même objet, **CompareEntryIDs** définit le contenu du paramètre  _lpulResult_ sur TRUE ; S’ils font référence à différents objets, **CompareEntryIDs** définit le contenu sur FALSE. Dans les deux cas, **CompareEntryIDs** renvoie S_OK. Si **CompareEntryIDs** renvoie une erreur, qui peut se produire si aucun fournisseur de carnet d’adresses n’a inscrit une structure **MAPIUID** qui correspond à celle des identificateurs d’entrée, les clients et les fournisseurs ne doivent pas prendre d’action en fonction du résultat de la comparaison. Au lieu de cela, ils doivent prendre l’approche la plus prudent de l’action en cours. 
+Si les deux identificateurs d’entrée font référence au même objet, **CompareEntryIDs** définit le contenu du paramètre  _lpulResult_ sur TRUE ; s’ils font référence à différents objets, **CompareEntryIDs** définit le contenu sur FALSE. Dans les deux cas, **CompareEntryIDs** renvoie S_OK. Si **CompareEntryIDs** renvoie une erreur, qui peut se produire si aucun fournisseur de carnet d’adresses n’a inscrit une structure **MAPIUID** qui correspond à celle des identificateurs d’entrée, les clients et les fournisseurs ne doivent pas prendre d’action en fonction du résultat de la comparaison. Au lieu de cela, ils doivent prendre l’approche la plus prudent de l’action en cours. 
   
 ## <a name="see-also"></a>Voir aussi
 

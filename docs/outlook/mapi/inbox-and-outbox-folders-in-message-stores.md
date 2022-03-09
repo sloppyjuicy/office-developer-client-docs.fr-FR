@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8e4ce129-137d-4618-80a6-88781a578d01
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: afd7e93e3a6000579f2e1a3daea024e041298e58
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ac9e5c8927d43cbee3c9d1348cd7137f4be59254
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551155"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375208"
 ---
 # <a name="inbox-and-outbox-folders-in-message-stores"></a>Bo�te de r�ception et les dossiers des banques de messages de la bo�te d'envoi
 

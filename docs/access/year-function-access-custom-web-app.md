@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: a70751eb-bfde-4f7d-ad90-a1e4cca25dbc
 description: Renvoie une valeur numérique qui représente l’année de la date spécifiée dans le calendrier grégorien.
-ms.openlocfilehash: 271c6acf39f7286351a826acce7107026164d667
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 4d35e41b2952c6272e13bbc66dbbe27e5eb030f3
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781631"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380031"
 ---
 # <a name="year-function-access-custom-web-app"></a>Year Function (Access custom web app)
 
@@ -30,7 +30,7 @@ La **fonction Year** contient les arguments suivants.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *Date*  <br/> |Expression qui peut être résolue en valeur Date/Heure. Expression *d’argument Date*  , expression de colonne, variable définie par l’utilisateur ou littéral de chaîne. |
+| *Date*  <br/> |Expression qui peut être résolue en valeur Date/Heure. Expression *d’argument Date* , expression de colonne, variable définie par l’utilisateur ou littéral de chaîne. |
 
 ## <a name="remarks"></a>Remarques
 

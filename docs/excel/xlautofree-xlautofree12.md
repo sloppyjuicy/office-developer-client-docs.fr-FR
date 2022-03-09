@@ -10,12 +10,12 @@ keywords:
 - fonction xlautofree [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: f73d292c-d6d8-4be5-89c0-bef15db236d6
-ms.openlocfilehash: c0993e88f84553f538d26ef38025a3fac7dbcc1d
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: de5ff28d2445ab188999caf857836e9e0b15241a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788639"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379996"
 ---
 # <a name="xlautofreexlautofree12"></a>xlAutoFree/xlAutoFree12
 
@@ -50,13 +50,13 @@ Cette fonction ne retourne pas de valeur et doit être déclarée comme renvoyan
 
 Lorsque Excel est configuré pour utiliser le recalcul de workbook multithread, **xlAutoFreexlAutoFree12** /  est appelé sur le thread utilisé pour appeler la fonction qui l’a renvoyée. L’appel à **xlAutoFree**/ **xlAutoFree12** est toujours effectué avant que d’autres cellules de la feuille de calcul soient évaluées sur ce thread. Cela simplifie la conception thread-safe dans votre XLL.
   
-Si la fonction xlAutoFreexlAutoFree12 /  que vous fournissez examine le champ **xltype** _de pxFree_, n’oubliez pas que le bit **xlbitDLLFree** sera toujours définie. 
+Si la fonction xlAutoFreexlAutoFree12 /  que vous fournissez examine le champ **xltype** _de pxFree_, n’oubliez pas que le bit **xlbitDLLFree** sera toujours définie.
   
 ## <a name="example"></a>Exemple
 
  **Exemple d’implémentation 1**
   
-Le premier code de  `\SAMPLES\EXAMPLE\EXAMPLE.C` l’exemple illustre une implémentation très spécifique de **xlAutoFree**, qui est conçue pour fonctionner avec une seule **fonction, fArray**. En règle générale, votre XLL aura plusieurs fonctions qui retournent de la mémoire qui doit être libérée, auquel cas une implémentation moins restreinte est requise.
+Le premier code de `\SAMPLES\EXAMPLE\EXAMPLE.C` l’exemple illustre une implémentation très spécifique de **xlAutoFree**, qui est conçue pour fonctionner avec une seule **fonction, fArray**. En règle générale, votre XLL aura plusieurs fonctions qui retournent de la mémoire qui doit être libérée, auquel cas une implémentation moins restreinte est requise.
   
  **Exemple d’implémentation 2**
   

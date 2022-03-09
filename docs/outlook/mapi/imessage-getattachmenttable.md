@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: e568917e-6085-4094-8728-89ba90a78c40
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6eb28f8e69010b138adbf7ec70daecfba149f8a6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2078829edc6bb17123f92b813f19e7a2aa454689
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592283"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380185"
 ---
 # <a name="imessagegetattachmenttable"></a>IMessage::GetAttachmentTable
 
@@ -62,15 +61,15 @@ S_OK
 
 La **méthode IMessage::GetAttachmentTable** renvoie un pointeur vers la table des pièces jointes du message, qui inclut des informations sur toutes les pièces jointes du message. Les clients peuvent accéder à une pièce jointe uniquement par le biais de la table des pièces jointes. En récupérant le numéro d’une pièce jointe, sa propriété **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) permet à un client d’utiliser plusieurs méthodes **IMessage** pour travailler avec la pièce jointe. 
   
-Il existe une ligne pour chaque pièce jointe. Pour obtenir la liste complète des colonnes d’une table de pièces jointes, voir [Tables des pièces jointes.](attachment-tables.md)
+Il existe une ligne pour chaque pièce jointe. Pour obtenir la liste complète des colonnes d’une table de pièces jointes, voir [Tables des pièces jointes](attachment-tables.md).
   
-Une pièce jointe n’apparaît généralement pas dans la table des pièces jointes tant que la pièce jointe et le message n’ont pas été enregistrés avec un appel [à IMAPIProp::SaveChanges](imapiprop-savechanges.md). Les tables de pièces jointes sont dynamiques. Si un client crée une pièce jointe, supprime une pièce jointe existante ou modifie une ou plusieurs propriétés une fois que les appels **SaveChanges** ont été effectués sur la pièce jointe du message, la table des pièces jointes est mise à jour pour refléter les nouvelles informations. 
+Une pièce jointe n’apparaît généralement pas dans la table des pièces jointes tant que la pièce jointe et le message n’ont pas été enregistrés avec un appel [à IMAPIProp::SaveChanges](imapiprop-savechanges.md). Les tables de pièces jointes sont dynamiques. Si un client crée une pièce jointe, supprime une pièce jointe existante ou modifie une ou plusieurs propriétés une fois que les appels **SaveChanges ont été effectués** sur la pièce jointe du message, la table des pièces jointes est mise à jour pour refléter les nouvelles informations. 
   
 Certaines tables de pièces jointes supportent un large éventail de restrictions . d’autres non. La prise en charge des restrictions dépend de l’implémentation du fournisseur de magasins de messages. 
   
 Lors de l’ouverture initiale, les tables de pièces jointes ne sont pas nécessairement triées dans un ordre particulier. 
   
-La définition MAPI_UNICODE’indicateur dans le  _paramètre ulFlags_ affecte les appels suivants à la table des pièces jointes : 
+La définition MAPI_UNICODE’indicateur dans le _paramètre ulFlags_ affecte les appels suivants à la table des pièces jointes : 
   
 - [IMAPITable::QueryColumns](imapitable-querycolumns.md) pour récupérer le jeu de colonnes. 
     

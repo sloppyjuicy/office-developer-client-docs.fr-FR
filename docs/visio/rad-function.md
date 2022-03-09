@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f6bf2db7-c570-918d-e83e-7a6c8eb64544
 description: Convertit en radians la valeur d’un angle en degrés.
-ms.openlocfilehash: 3772d1455ab4b3cc5410631ec03692c1e0e748ef
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3a244bc3f3d91b1835ca37a8a15db9c52cf39308
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778299"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375278"
 ---
 # <a name="rad-function"></a>Fonction RAD
 
@@ -22,18 +22,16 @@ Convertit en radians la valeur d’un angle en degrés.
   
 ## <a name="syntax"></a>Syntaxe
 
-RAD(** *angle* ** ) 
+RAD(***angle*** )
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Requis  <br/> |**Number** <br/> |Angle à convertir |
-   
+| *angle* <br/> |Obligatoire  <br/> |**Number** <br/> |Angle à convertir |
+
 ## <a name="example"></a>Exemple
 
-RAD(45) 
+RAD(45)
   
-Renvoie 0,7854. 
-  
-
+Renvoie 0,7854.

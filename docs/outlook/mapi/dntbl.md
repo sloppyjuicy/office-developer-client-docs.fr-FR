@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 77835b48-43aa-8518-9712-754e84f1e713
 description: 'Dernière modification : 05 juillet 2012'
-ms.openlocfilehash: 1106df7e7d0926f9a7a4d4d1f0d1425f1bf11371
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 743e7eb8ce3cc84ebb52c529f0b0fca778603395
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556762"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375684"
 ---
 # <a name="dntbl"></a>DNTBL
  
@@ -51,79 +51,78 @@ struct DNTBL
 
 _ulFlags_
   
-> [entrant] Indicateurs permettant de modifier le comportement 
-    
+> [entrant] Indicateurs permettant de modifier le comportement
+
   - DNT_OK
-    
+
     - [entrant] Téléchargement réussi. Le client définit cet élément après avoir téléchargé des informations à partir du serveur.
-    
+
 _pstmReserved1_
   
-> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
-    
+> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+
 _pstmReserved2_
   
-> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
-    
+> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+
 _pstmReserved3_
   
-> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
-    
+> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+
 _pstmReserved4_
   
-> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
-    
+> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+
 _pxicc_
   
->  [sortant] Pointeur vers l’interface de contenu **IExchangeImportContentsChanges** prenant en charge le téléchargement des modifications de contenu. Pour plus d’informations sur **IExchangeImportContentsChanges**, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
-    
+> [sortant] Pointeur vers l’interface de contenu **IExchangeImportContentsChanges** prenant en charge le téléchargement des modifications de contenu. Pour plus d’informations sur **IExchangeImportContentsChanges**, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+
 _pxihc_
   
->  [sortant] Pointeur vers l’interface de hiérarchie **IExchangeImportHierarchyChanges** qui prend en charge le téléchargement des modifications de hiérarchie incrémentielle. Pour plus d’informations sur **IExchangeImportHierarchyChanges**, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
-    
+> [sortant] Pointeur vers l’interface de hiérarchie **IExchangeImportHierarchyChanges** qui prend en charge le téléchargement des modifications de hiérarchie incrémentielle. Pour plus d’informations sur **IExchangeImportHierarchyChanges**, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+
 _pszName_
   
->  [sortant] Nom du dossier. 
-    
+> [sortant] Nom du dossier.
+
 _ftLastMod_
   
->  [sortant] Heure de la dernière modification du dossier. 
-    
+> [sortant] Heure de la dernière modification du dossier.
+
 _ulRights_
   
->  [sortant] Valeur de la propriété **[PR_RIGHTS](https://msdn.microsoft.com/library/ee238052%28v=EXCHG.80%29.aspx)** du dossier. 
-    
+> [sortant] Valeur de la propriété **[PR_RIGHTS](https://msdn.microsoft.com/library/ee238052%28v=EXCHG.80%29.aspx)** du dossier.
+
 _feid_
   
->  [sortant] ID d’entrée du dossier. 
-    
+> [sortant] ID d’entrée du dossier.
+
 _uintReserved_
   
->  [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
-    
+> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+
 _rgte_
   
-> [sortant] Modifications pour les éléments normaux (ou non masqués) et les éléments associés (ou masqués).  *rgte[0]* concerne les éléments normaux et *rgte[1]* concerne les éléments associés. Outlook renseigne ce membre pendant le téléchargement lors de l’utilisation de la synchronisation des modifications incrémentielle (ICS). Pour plus d’informations sur ICS, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
-    
+> [sortant] Modifications pour les éléments normaux (ou non masqués) et les éléments associés (ou masqués). *rgte[0] est* pour les éléments normaux et *rgte[1]* pour les éléments associés. Outlook renseigne ce membre pendant le téléchargement lors de l’utilisation de la synchronisation des modifications incrémentielle (ICS). Pour plus d’informations sur ICS, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+
 _lpsrReserved_
   
->  [entrant]/[sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
-    
+> [entrant]/[sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+
 _boReserved_
   
->  [entrant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
-    
+> [entrant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+
 _pReserved1_
   
->  [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
-    
+> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+
 _pReserved2_
   
->  [entrant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
-    
+> [entrant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+
 ## <a name="see-also"></a>Voir aussi
 
 - [À propos de la machine à états de réplication](about-the-replication-state-machine.md)  
-- [Constantes MAPI](mapi-constants.md) 
+- [Constantes MAPI](mapi-constants.md)
 - [DNTBLE](dntble.md)
-

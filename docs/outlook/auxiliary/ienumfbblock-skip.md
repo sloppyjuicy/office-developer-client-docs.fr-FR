@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 70fbdb41-46ea-d016-25a2-37e94962095d
 description: Ignore un nombre spécifié de blocs de données de libre/occupé.
-ms.openlocfilehash: baf13acb36d1455873771f1191461b7d17677959
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9ef3384656bd636780cc67b15eb2eae2d3fb37a8
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580411"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380296"
 ---
 # <a name="ienumfbblockskip"></a>IEnumFBBlock::Skip
 
@@ -32,7 +32,7 @@ HRESULT Skip(
 
 _celt_
   
->  [in] Nombre de blocs de libre/occupé à ignorer. 
+> [in] Nombre de blocs de libre/occupé à ignorer. 
     
 ## <a name="return-values"></a>Valeurs de retour
 

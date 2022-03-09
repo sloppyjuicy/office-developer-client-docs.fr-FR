@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: e6baaff1-446e-431a-a09b-9b529153382b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: bc65b07ef27c0738a58ef5ef13cb699f4c23d32c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5aa88d8dedc53da313a2699636a7f3b255b9c188
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625398"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379464"
 ---
 # <a name="imapisupportsubscribe"></a>IMAPISupport::Subscribe
 
@@ -25,7 +24,7 @@ ms.locfileid: "59625398"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Inscrit un recevoir de notification pour recevoir des notifications via MAPI.
+Inscrit un réception de notification pour recevoir des notifications via MAPI.
   
 ```cpp
 HRESULT Subscribe(
@@ -53,7 +52,7 @@ ULONG FAR * lpulConnection
     
  _fnevExtended_
   
-> S’inscrit pour les notifications sur les événements spécifiques au carnet d’adresses ou au fournisseur de magasin de messages particulier.
+> S’inscrit aux notifications sur les événements spécifiques au carnet d’adresses ou au fournisseur de magasin de messages particulier.
     
  _fnevNewMail_
   
@@ -89,7 +88,7 @@ ULONG FAR * lpulConnection
     
 NOTIFY_SYNC 
   
-> Lorsque l’appelant appelle la méthode [IMAPISupport::Notify](imapisupport-notify.md) pour générer des notifications pour ce réception de notification, **Notify** doit effectuer tous les appels nécessaires pour avertir les réceptions avant de revenir. Si cet indicateur n’est pas définie, la notification est asynchrone et les rappels sont mis en file d’attente aux processus abonnés et démarrés lorsque ces processus ont le contrôle de l’UC. 
+> Lorsque l’appelant appelle la méthode [IMAPISupport::Notify](imapisupport-notify.md) pour générer des notifications pour ce réception de notification, **Notify** doit effectuer tous les appels nécessaires pour avertir les réceptions avant de revenir. Si cet indicateur n’est pas définie, la notification est asynchrone et les rappels sont mis en file d’attente aux processus abonnés et démarrés lorsque ces processus contrôlent l’UC. 
     
  _lpAdviseSink_
   
@@ -107,7 +106,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::Subscribe** est implémentée pour tous les objets de support du fournisseur de services. Les fournisseurs de services **appellent Subscribe** à partir de l’une de leurs méthodes **Advise** pour permettre à MAPI de gérer les notifications. 
+La **méthode IMAPISupport::Subscribe** est implémentée pour tous les objets de support du fournisseur de services. Les fournisseurs de services **appellent Subscribe** à partir de l’une de leurs **méthodes Advise** pour permettre à MAPI de gérer les notifications. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
@@ -115,7 +114,7 @@ Pour utiliser les méthodes de prise en charge MAPI pour la notification, créez
   
 MAPI utilise la clé de notification pour rechercher les fonctions de rappel enregistrées via la fonction [HrAllocAdviseSink](hrallocadvisesink.md) pour la source de notification correspondante. Passez cette clé à **IMAPISupport::Notify** chaque fois que vous devez générer une notification pour la source de notification correspondante. 
   
-L NOTIFY_SYNC’indicateur affecte le fonctionnement des appels ultérieurs à **Notify**. Lorsque vous définissez NOTIFY_SYNC, **Notify** ne revient pas tant qu’il n’a pas terminé d’envoyer toutes les notifications nécessaires. Lorsque vous ne définissez pas NOTIFY_SYNC, **Notify** fonctionne de manière asynchrone, en renvoyant éventuellement avant que toutes les notifications n’ont été envoyées. 
+L NOTIFY_SYNC de notification affecte le fonctionnement des appels ultérieurs à **Notify**. Lorsque vous définissez NOTIFY_SYNC, **Notify** ne renvoie pas tant qu’il n’a pas terminé d’envoyer toutes les notifications nécessaires. Lorsque vous ne définissez pas NOTIFY_SYNC, **Notify** fonctionne de manière asynchrone, éventuellement avant l’envoi de toutes les notifications. 
   
 ## <a name="see-also"></a>Voir aussi
 

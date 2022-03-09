@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: d3cc6658-e46d-42dd-b1ac-65c88cfef8ca
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fc19d017c2c0d8f06650bc889fb245fb22d2a805
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9106c624528dba77558015c6f923f61112e8bda7
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610544"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375656"
 ---
 # <a name="imapiformmgrresolvemultiplemessageclasses"></a>IMAPIFormMgr::ResolveMultipleMessageClasses
 
@@ -60,7 +59,7 @@ MAPIFORM_LOCALONLY
     
  _ppfrminfoarray_
   
-> [out] Pointeur vers un pointeur vers un tableau d’objets d’informations de formulaire. Si une visionneuse de formulaire transmet la valeur NULL dans le paramètre  _pMsgClasses,_ le paramètre  _ppfrminfoarray_ contient des objets d’informations de formulaire pour tous les formulaires dans le conteneur. 
+> [out] Pointeur vers un pointeur vers un tableau d’objets d’informations de formulaire. Si une visionneuse de formulaire transmet la valeur NULL dans le paramètre _pMsgClasses_ , le paramètre  _ppfrminfoarray_ contient des objets d’informations de formulaire pour tous les formulaires dans le conteneur. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -74,11 +73,11 @@ Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::ResolveMul
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour résoudre un groupe de classes de message en formulaires, une visionneuse de formulaires transmet un tableau de noms de classes de messages à résoudre. Pour forcer la résolution à être exacte (c’est-à-dire pour empêcher la résolution à une classe de base de la classe de message lorsqu’un serveur de formulaires correspondant exactement n’est pas disponible), l’indicateur MAPIFORM_EXACTMATCH peut être transmis dans le paramètre _ulFlags._ 
+Pour résoudre un groupe de classes de message en formulaires, une visionneuse de formulaires transmet un tableau de noms de classes de messages à résoudre. Pour forcer la résolution à être exacte (c’est-à-dire pour empêcher la résolution à une classe de base de la classe de message lorsqu’un serveur de formulaires correspondant exactement n’est pas disponible), l’indicateur MAPIFORM_EXACTMATCH peut être transmis dans le paramètre _ulFlags_ . 
   
 Les noms de classe de message sont toujours des chaînes ANSI, jamais Unicode.
   
-Si une classe de message ne peut pas être résolue en formulaire, null est renvoyé pour cette classe de message dans le tableau d’informations du formulaire. Par conséquent, même si la méthode renvoie S_OK, les visionneuses de formulaires ne doivent pas fonctionner sur l’hypothèse que toutes les classes de message ont été correctement résolues. Au lieu de cela, les visionneuses de formulaire doivent vérifier les valeurs dans le tableau renvoyé.
+Si une classe de message ne peut pas être résolue en formulaire, la valeur NULL est renvoyée pour cette classe de message dans le tableau d’informations du formulaire. Par conséquent, même si la méthode renvoie S_OK, les visionneuses de formulaires ne doivent pas fonctionner sur l’hypothèse que toutes les classes de message ont été correctement résolues. Au lieu de cela, les visionneuses de formulaire doivent vérifier les valeurs dans le tableau renvoyé.
   
 ## <a name="see-also"></a>Voir aussi
 

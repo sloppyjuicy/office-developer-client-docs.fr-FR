@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: cd1fa994-9531-46c4-94e5-505e7f90b884
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 14d26dce5aa9a4caba2134a7e1bdb121b0ee1c8a
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: dc2ffa5fbea328a3c9c9e7ff2a2a0b47a32adc57
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461275"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374963"
 ---
 # <a name="imapisupportopenprofilesection"></a>IMAPISupport::OpenProfileSection
 

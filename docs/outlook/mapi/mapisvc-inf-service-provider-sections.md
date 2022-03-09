@@ -7,19 +7,18 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ab17dcf2-409b-4a57-9cc4-5794f995cd3e
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 276d9e8d96d620060ea1cf3bac5790f34a900efd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8e61ff1762316c5ccfce5d8fb2e3e2698bbfdb3b
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551141"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379393"
 ---
 # <a name="mapisvcinf-service-provider-sections"></a>Sections du fournisseur de services MapiSvc.inf
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Mapisvc.inf comprend une section de fournisseur de services pour chacune des **entrées** répertoriées dans l’entrée Fournisseurs de la section services de messagerie précédente. **Les** sections du fournisseur de services sont similaires aux sections de service de messagerie, dans la sorte que les deux types de sections contiennent des entrées de ce format : 
+Mapisvc.inf comprend une section de fournisseur de services pour chacune des **entrées** répertoriées dans l’entrée Fournisseurs de la section services de message précédente. **Les** sections du fournisseur de services sont similaires aux sections de service de messagerie, dans la sorte que les deux types de sections contiennent des entrées de ce format : 
   
 **balise de propriété** = valeur de propriété 
   
@@ -29,23 +28,23 @@ Certaines des propriétés définies dans les sections du service de messagerie 
   
 Les sections des fournisseurs de services classiques incluent les entrées suivantes, qui sont toutes requises :
   
-**PR_DISPLAY_NAME**  =   _string_
+ =   PR_DISPLAY_NAME _string_
   
-**PR_PROVIDER_DISPLAY**  =   _string_
+ =   PR_PROVIDER_DISPLAY _string_
   
-**PR_PROVIDER_DLL_NAME**  =   _nom du fichier DLL_
+ =   PR_PROVIDER_DLL_NAME _nom du fichier DLL_
   
-**PR_RESOURCE_TYPE**  =   _long_
+ =   PR_RESOURCE_TYPE _long_
   
-**PR_RESOURCE_FLAGS**  =   _masque de bits_
+ =   PR_RESOURCE_FLAGS _masque de bits_
   
-**L PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) est similaire à celle **PR_SERVICE_DLL_NAME**; il indique le nom de fichier de la DLL qui contient le fournisseur de services. Le code du service de messagerie peut être stocké avec l’un de ses fournisseurs de services dans le même fichier DLL ou exister en tant que DLL distincte. Notez qu’aucun suffixe n’est inclus dans l’entrée, quelle que soit la plateforme cible . MAPI s’occupe de l’ajout d’un suffixe si nécessaire. 
+L **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) est similaire à l’entrée **PR_SERVICE_DLL_NAME** ; il indique le nom de fichier de la DLL qui contient le fournisseur de services. Le code du service de messagerie peut être stocké avec l’un de ses fournisseurs de services dans le même fichier DLL ou exister en tant que DLL distincte. Notez qu’aucun suffixe n’est inclus dans l’entrée, quelle que soit la plateforme cible . MAPI s’occupe de l’ajout d’un suffixe si nécessaire. 
   
 **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) représente le type de fournisseur de services ; les fournisseurs de services le définissent sur la constante prédéfinée appropriée. Les valeurs valides sont MAPI_STORE_PROVIDER, MAPI_TRANSPORT_PROVIDER et MAPI_AB_PROVIDER.
   
-Une autre entrée de propriété qui s’applique à la fois aux services de messagerie et aux fournisseurs de services, l’entrée **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) indique les options. Les paramètres de cette entrée de propriété peuvent varier en fonction du fournisseur de services. Par exemple, certains fournisseurs de magasins de messages peuvent définir PR_RESOURCE_FLAGS **sur** STATUS_NO_DEFAULT_STORE s’ils ne peuvent jamais fonctionner en tant que magasin de messages par défaut. 
+Une autre entrée de propriété qui s’applique à la fois aux services de messagerie et aux fournisseurs de services, l’entrée **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) indique les options. Les paramètres de cette entrée de propriété peuvent varier en fonction du fournisseur de services. Par exemple, certains fournisseurs de magasins de messages peuvent définir **PR_RESOURCE_FLAGS sur STATUS_NO_DEFAULT_STORE** s’ils ne peuvent jamais fonctionner en tant que magasin de messages par défaut. 
   
-Voici trois exemples de sections sur les fournisseurs de services. La section **[Fournisseur AB]** est la section du fournisseur de services pour le service de carnet d’adresses par défaut. Les **sections [MsgService Prov1]** et **[MsgService Prov2]** appartiennent à Mon propre service ; La première est une section de fournisseur de carnet d’adresses et la seconde est une section de fournisseur de magasins de messages. 
+Trois exemples de sections de fournisseur de services suivent. La section **[Fournisseur AB]** est la section du fournisseur de services pour le service de carnet d’adresses par défaut. Les **sections [MsgService Prov1]** et **[MsgService Prov2]** appartiennent à Mon propre service ; La première est une section de fournisseur de carnet d’adresses et la seconde est une section de fournisseur de magasins de messages. 
   
 ```cpp
 [AB Provider]

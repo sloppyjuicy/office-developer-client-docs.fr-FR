@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b8f9ac1a-b377-4f83-8fb6-ed85ab9053d0
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: eaa7e53902aa2a862c8f1ff279b05892ad891001
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c92457fd333d9aad21e97a2a97a6e6874ae0f2b4
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619448"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373612"
 ---
 # <a name="writing-an-automated-client"></a>Écriture d’un client automatisé
 
@@ -23,7 +22,7 @@ ms.locfileid: "59619448"
   
 Une application cliente automatisée est une application qui s’exécute sans surveillance et n’affiche aucune interface utilisateur.
   
- Par défaut, de nombreuses méthodes d’interface MAPI montrent une interface utilisateur. Toutes ces méthodes ont des indicateurs qui permettent à un client d’autoriser ou de supprimer cet affichage. Bien que MAPI s’attende à ce que les fournisseurs de services respectent ces indicateurs, certains fournisseurs ne répondent pas toujours à ces attentes. Une raison légitime de ne pas respecter les indicateurs est la dépendance du fournisseur de services vis-à-vis d’un autre service qui n’autorise pas la suppression de l’interface utilisateur. Si vous développez un client automatisé, soyez attentif aux fournisseurs de services que vous utilisez et à leur configuration. Ne supposez pas que tous vos appels pour supprimer une interface utilisateur seront réussis. 
+ Par défaut, de nombreuses méthodes d’interface MAPI montrent une interface utilisateur. Toutes ces méthodes ont des indicateurs qui permettent à un client d’autoriser ou de supprimer cet affichage. Bien que MAPI s’attende à ce que les fournisseurs de services respectent ces indicateurs, certains fournisseurs ne répondent pas toujours à ces attentes. Une raison légitime de ne pas respecter les indicateurs est la dépendance du fournisseur de services vis-à-vis d’un autre service qui n’autorise pas la suppression de l’interface utilisateur. Si vous développez un client automatisé, faites attention aux fournisseurs de services que vous utilisez et à leur configuration. Ne supposez pas que tous vos appels pour supprimer une interface utilisateur seront réussis. 
   
 Les clients automatisés doivent avoir les informations nécessaires pour une configuration appropriée de chacun des services de message dans le profil. Il existe deux façons de fournir des informations de configuration au moment de l’logo :
   

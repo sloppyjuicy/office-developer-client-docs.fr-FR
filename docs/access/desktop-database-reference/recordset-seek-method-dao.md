@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 5942da3b0ea4ab2b2df7a4bbf55555378f8b4bb3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 15bbc8ca7a214ba4f178ca792a73648178fd4ee8
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585430"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374795"
 ---
 # <a name="recordsetseek-method-dao"></a>Méthode Recordset.Seek (DAO)
 
@@ -63,7 +63,6 @@ Localise l’enregistrement dans un objet **Recordset** de type table indexé qu
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Remarques
 
 Vous devez définir l’index actuel avec la propriété **Index** avant d’utiliser la méthode **Seek**. Si l’index identifie un champ de clé non unique, la méthode **Seek** localise le premier enregistrement qui correspond aux critères.
@@ -102,7 +101,7 @@ Cet exemple illustre la méthode **Seek** en autorisant l’utilisateur à reche
        Dim varBookmark As Variant 
      
        Set dbsNorthwind = OpenDatabase("Northwind.mdb") 
-       ' You must open a table-type Recordset to use an index,  
+       ' You must open a table-type Recordset to use an index, 
        ' and hence the Seek method. 
        Set rstProducts = _ 
           dbsNorthwind.OpenRecordset("Products", dbOpenTable) 
@@ -147,8 +146,6 @@ Cet exemple illustre la méthode **Seek** en autorisant l’utilisateur à reche
      
     End Sub 
 ```
-
-<br/>
 
 Cet exemple de code montre comment utiliser la propriété **NoMatch** pour déterminer si les opérations **Seek** et **FindFirst** ont abouti. Si ce n'est pas le cas, l'utilisateur en est informé de façon appropriée. Les procédures SeekMatch et FindMatch sont nécessaires à l'exécution de cette procédure.
 
@@ -270,8 +267,6 @@ Cet exemple de code montre comment utiliser la propriété **NoMatch** pour dét
      
     End Sub 
 ```
-
-<br/>
 
 L’exemple suivant montre comment utiliser la méthode Seek pour rechercher un enregistrement dans un tableau lié.
 

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 66ce8f36-2b2b-4a8e-b9b2-43782d8357a1
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a513fbe235a61b331f05c7c99d11f9adc3c987ac
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 75e9079321e520e65aa3cdf0234dbfe9fd184bfa
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556223"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381445"
 ---
 # <a name="itabledatahrqueryrow"></a>ITableData::HrQueryRow
 
@@ -39,7 +38,7 @@ HRESULT HrQueryRow(
 
  _lpSPropValue_
   
-> [in] Pointeur vers une structure de valeurs de propriété qui décrit la colonne d’index de la ligne à récupérer. Le **membre ulPropTag** de la structure de valeurs de propriété doit contenir la même balise de propriété que le paramètre _ulPropTagIndexColumn_ de l’appel à la fonction [CreateTable,](createtable.md) qui accède à l’implémentation [ITableData.](itabledataiunknown.md) 
+> [in] Pointeur vers une structure de valeurs de propriété qui décrit la colonne d’index de la ligne à récupérer. Le **membre ulPropTag** de la structure de valeurs de propriété doit contenir la même balise de propriété que le paramètre  _ulPropTagIndexColumn_ de l’appel à la fonction [CreateTable](createtable.md) , qui accède à l’implémentation [ITableData](itabledataiunknown.md) . 
     
  _lppSRow_
   
@@ -61,9 +60,9 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode ITableData::HrQueryRow** récupère toutes les propriétés de la ligne qui possède une colonne d’index qui correspond à la valeur de la colonne d’index incluse dans la structure de propriétés pointée par  _lpSPropValue_. **HrQueryRow renvoie** également le numéro de ligne, si l’appelant le demande, qui identifie la position de la ligne dans le tableau. 
+La **méthode ITableData::HrQueryRow** récupère toutes les propriétés de la ligne dont la colonne d’index correspond à la valeur de la colonne d’index incluse dans la structure de propriétés pointée par  _lpSPropValue_. **HrQueryRow renvoie** également le numéro de ligne, si l’appelant le demande, qui identifie la position de la ligne dans le tableau. 
   
-Étant donné que **HrQueryRow** ne modifie pas la structure **SPropValue** pointée par _lpSPropValue_, les appelants doivent libérer la structure lorsque **HrQueryRow renvoie.** Les appelants doivent également libérer la structure **SRow** qui contient la ligne récupérée. 
+Étant **donné que HrQueryRow** ne modifie pas la structure **SPropValue** pointée par  _lpSPropValue_, les appelants doivent libérer la structure lors du retour de **HrQueryRow** . Les appelants doivent également libérer **la structure SRow** qui contient la ligne récupérée. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 33bef4ea-d6c0-4455-b95d-4b29edb9c0bc
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 97383721fd1c9c2d8481f8c9b6fde37768555af6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bbd44b75ba15875bf2cc2b7f4d430b70d653e0e4
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630676"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381536"
 ---
 # <a name="imapisupportmodifyprofile"></a>IMAPISupport::ModifyProfile
 
@@ -51,9 +50,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::ModifyProfile** est implémentée pour les objets de prise en charge du fournisseur de magasins de messages. Les fournisseurs de magasins de messages **appellent ModifyProfile pour** demander à MAPI de modifier leurs informations de profil. 
+La **méthode IMAPISupport::ModifyProfile** est implémentée pour les objets de prise en charge du fournisseur de magasins de messages. Les fournisseurs de magasins de messages **appellent ModifyProfile** pour demander à MAPI de modifier leurs informations de profil. 
   
- **ModifyProfile ajoute la** section de profil associée au fournisseur appelant à la liste des ressources de fournisseur de magasins de messages installées. Cela entraîne la liste de la magasin de messages dans la table de la boutique de messages, accessible aux clients via la méthode [IMAPISession::GetMsgStoresTable,](imapisession-getmsgstorestable.md) et ouverte sans l’affichage d’une boîte de dialogue. 
+ **ModifyProfile ajoute la** section de profil associée au fournisseur appelant à la liste des ressources de fournisseur de magasins de messages installées. Cela entraîne la liste de la magasin de messages dans la table de la boutique de messages, accessible aux clients via la méthode [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) , et ouverte sans l’affichage d’une boîte de dialogue. 
   
 Si l’MDB_TEMPORARY est définie, MAPI ne fait rien et la méthode est immédiatement S_OK.
   

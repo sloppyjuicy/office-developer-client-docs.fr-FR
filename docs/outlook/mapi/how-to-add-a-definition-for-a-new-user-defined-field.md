@@ -5,13 +5,12 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 183d3b86-4506-44da-bbfc-d6242ad89e57
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 40da92fd14036be5b0bdd22596a120bbb4c69b2d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b5ec432d9b3a8a4604e8fc5156181fd62f124808
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561718"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379709"
 ---
 # <a name="add-a-definition-for-a-new-user-defined-field"></a>Ajout de la définition d’un nouveau champ défini par l’utilisateur
  
@@ -25,7 +24,7 @@ Lorsque vous ajoutez un champ défini par l’utilisateur à un élément Micros
     
 2. Si des définitions de champ existantes sont au format PropDefV1, convertissez-les au format PropDefV2. Pour plus d’informations sur les formats de définition de champ, voir [PropertyDefinition Stream Structure](propertydefinition-stream-structure.md) et [FieldDefinition Stream Structure](fielddefinition-stream-structure.md).
     
-3. Créez une définition du nouveau champ défini par l’utilisateur au format PropDefV2 et ajoutez-le au tableau.
+3. Créez une définition du nouveau champ défini par l’utilisateur au format PropDefV2 et ajoutez-la au tableau.
     
 4. Définissez l’élément Version de la structure de flux PropertyDefinition comme 0x0103, si l’élément Version n’a pas été définie sur cette valeur.
     

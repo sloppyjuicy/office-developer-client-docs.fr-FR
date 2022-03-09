@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb29e6a0-7a92-46eb-bbeb-6f2df6ac6d21
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5ffe1f2ce233227de0e3a483524fc4dcb6fca7d5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 883b6cdcf69cbbf66d88267a53fb02173783484e
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584219"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379653"
 ---
 # <a name="ixplogonendmessage"></a>IXPLogon::EndMessage
 
@@ -38,7 +37,7 @@ HRESULT EndMessage(
 
  _ulMsgRef_
   
-> [in] Valeur de référence spécifique au message obtenue lors d’un appel précédent à la méthode [IXPLogon::SubmitMessage.](ixplogon-submitmessage.md) 
+> [in] Valeur de référence spécifique au message obtenue lors d’un appel précédent à la méthode [IXPLogon::SubmitMessage](ixplogon-submitmessage.md) . 
     
  _lpulFlags_
   
@@ -54,7 +53,7 @@ END_RESEND_LATER
     
 END_RESEND_NOW 
   
-> Le fournisseur de transport doit redémarrer le message qui lui a été transmis dans un appel de méthode [IMessage::SubmitMessage.](imessage-submitmessage.md) 
+> Le fournisseur de transport doit redémarrer le message qui lui a été transmis dans un appel de méthode [IMessage::SubmitMessage](imessage-submitmessage.md) . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -66,9 +65,9 @@ S_OK
 
 Lepooler MAPI appelle la méthode **IXPLogon::EndMessage** après avoir terminé le traitement impliqué dans la fourniture d’informations de remise étendues ou de non remise. 
   
-Une fois que cet appel est revenu, la valeur dans le  _paramètre ulMsgRef_ n’est plus valide pour ce message. Le fournisseur de transport peut réutiliser la même valeur sur un message futur. 
+Une fois que cet appel est revenu, la valeur dans le _paramètre ulMsgRef_ n’est plus valide pour ce message. Le fournisseur de transport peut réutiliser la même valeur sur un message futur. 
   
-Tous les objets que le fournisseur de transport ouvre lors du transfert d’un message doivent être libérés avant le retour de l’appel **EndMessage,** à l’exception de l’objet message que lepooler MAPI transmet au fournisseur de transport. L’objet message transmis par lepooler MAPI n’est pas valide après **l’appel EndMessage.** 
+Tous les objets que le fournisseur de transport ouvre lors du transfert d’un message doivent être libérés avant le retour de l’appel **EndMessage** , à l’exception de l’objet message que lepooler MAPI transmet au fournisseur de transport. L’objet message transmis par lepooler MAPI n’est pas valide après **l’appel EndMessage** . 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a1c73bb5-b44a-4ec6-89e4-0e2228572b2d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: a2b418cb0a075a27b3f319a7790007b4774c0aa7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9481769f72a3b5831e62d16f49788e530978996b
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624096"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380136"
 ---
 # <a name="supporting-named-properties-in-message-stores"></a>Prise en charge des propri�t�s nomm�es dans des magasins de Message
 

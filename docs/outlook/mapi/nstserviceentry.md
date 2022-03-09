@@ -8,20 +8,18 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 5ada6363-2406-4c0a-8326-a299a8bbefe1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d68efa728b2cd62aca4ffbce02d2ea894ff74c35
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8907ac29ac5b1641aaedfbddf6969fc28c0d2ca5
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595636"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379345"
 ---
 # <a name="nstserviceentry"></a>NSTServiceEntry
 
+**S’applique à** : Outlook 2013 | Outlook 2016
   
-  
-**S’applique à** : Outlook 2013 | Outlook 2016 
-  
-Fonction de point d’entrée du service de messagerie pour qu’un fournisseur de magasin MAPI encapsule une boutique locale basée sur PST en tant que magasin NST. 
+Fonction de point d’entrée du service de messagerie pour qu’un fournisseur de magasin MAPI encapsule un magasin local PST en tant que magasin NST.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -29,10 +27,10 @@ Fonction de point d’entrée du service de messagerie pour qu’un fournisseur 
 |:-----|:-----|
 |Implémenté par :  <br/> |Fournisseur MAPI  <br/> |
 |Appelé par :  <br/> |MAPI  <br/> |
-   
+
 ```cpp
 HRESULT NSTServiceEntry( 
-    HINSTANCE hInstance,   
+    HINSTANCE hInstance, 
     LPMALLOC lpMalloc, 
     LPMAPISUP lpMAPISup, 
     ULONG ulUIParam, 
@@ -47,41 +45,38 @@ HRESULT NSTServiceEntry(
 
 ## <a name="parameters"></a>Paramètres
 
- **NSTServiceEntry utilise** le prototype de fonction **[MSGSERVICEENTRY.](msgserviceentry.md)** Pour plus d’informations sur ses paramètres, voir **[MSGSERVICEENTRY](msgserviceentry.md)**. 
+**NSTServiceEntry utilise** le prototype **[de fonction MSGSERVICEENTRY](msgserviceentry.md)** . Pour plus d’informations sur ses paramètres, voir **[MSGSERVICEENTRY](msgserviceentry.md)**.
   
 ## <a name="return-values"></a>Valeurs de retour
 
-Pour plus d’informations sur les valeurs de retour, voir **[MSGSERVICEENTRY](msgserviceentry.md)**. 
+Pour plus d’informations sur les valeurs de retour, voir **[MSGSERVICEENTRY](msgserviceentry.md)**.
   
 ## <a name="remarks"></a>Remarques
 
-Lorsque vous **[utilisez GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx)** pour rechercher l’adresse de cette fonction dans msmapi32.dll, spécifiez « NSTServiceEntry » comme nom de procédure. 
+Lorsque vous **[utilisez GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx)** pour rechercher l’adresse de cette fonction dans msmapi32.dll, spécifiez « NSTServiceEntry » comme nom de procédure.
   
-Pour utiliser l’API de réplication, un fournisseur de magasin MAPI doit d’abord ouvrir et encapsuler un magasin local basé sur PST en appelant **[NSTServiceEntry](nstserviceentry.md)**. Le fournisseur peut ensuite utiliser les interfaces principales de l’API, **[IOSTX](iostxiunknown.md)** et **[IPSTX](ipstxiunknown.md)**, pour effectuer la réplication. 
+Pour utiliser l’API de réplication, un fournisseur de magasin MAPI doit d’abord ouvrir et encapsuler un magasin local basé sur PST en appelant **[NSTServiceEntry](nstserviceentry.md)**. Le fournisseur peut ensuite utiliser les interfaces principales de l’API, **[IOSTX](iostxiunknown.md)** et **[IPSTX](ipstxiunknown.md)**, pour effectuer la réplication.
   
 Les remarques suivantes s’appliquent à un magasin NST :
   
-- Ne stockez pas d’informations dans la section de profil global lors de l’implémentation d’un fournisseur MAPI qui utilise **NSTServiceEntry**. La section profil global est partagée par de nombreux fournisseurs et les données stockées dans ce profil peuvent être écrasées. 
-    
-- Seuls les éléments avec des horodaages de modification existants obtiennent leurs cachets mis à jour lorsqu’ils sont enregistrés. 
-    
-- La vérification des conflits ne se produit pas automatiquement lorsque des éléments sont enregistrés.
-    
--  La détection des doublons ne se produit pas lorsque des éléments sont enregistrés. 
-    
--  Le fichier représentant la version mise en cache du serveur est fourni avec . NST. 
-    
-- Pour obtenir un pointeur vers la section profil global, un service de message appelle **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** dans l’objet de support à l’aide de **pbNSTGlobalProfileSectionGuid** comme défini ci-dessous : 
-    
+- Ne stockez aucune information dans la section de profil global lors de l’implémentation d’un fournisseur MAPI qui utilise **NSTServiceEntry**. La section profil global est partagée par de nombreux fournisseurs et les données stockées dans ce profil peuvent être écrasées.
+
+- Seuls les éléments avec des horodats de modification existants obtiennent leurs cachets mis à jour lorsqu’ils sont enregistrés.
+
+- La vérification des conflits ne se produit pas automatiquement lors de l’enregistrement des éléments.
+
+- La détection des doublons ne se produit pas lorsque des éléments sont enregistrés.
+
+- Le fichier représentant la version mise en cache du serveur est fourni avec . NST.
+
+- Pour obtenir un pointeur vers la section profil global, un service de message appelle **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** dans l’objet de support à l’aide de **pbNSTGlobalProfileSectionGuid** comme défini ci-dessous :
+
   ```
   #define  pbNSTGlobalProfileSectionGuid "\x85\xED\x14\x23\x9D\xF7\x42\x66\x8B\xF2\xFB\xD4\xA5\x21\x29\x41"
   ```
 
-- Dans ce cas, l’objet de support du service de message doit s’assurer que **IMAPISupport::OpenProfileSection** renvoie la section de profil identifiée par la propriété **[PR_SERVICE_UID](pidtagserviceuid-canonical-property.md)** dans la section de profil par défaut. Pour obtenir cette section de profil, l’objet de support peut ouvrir la section profil par défaut, récupérer **PR_SERVICE_UID** et transmettre le résultat à **IMAPISupport::OpenProfileSection** pour récupérer la section de profil global correcte. L’objet de support renvoie à son tour un pointeur vers cette section de profil global vers le service de message. 
-    
+- Dans ce cas, l’objet de support du service de message doit s’assurer que **IMAPISupport::OpenProfileSection** renvoie la section de profil identifiée par la propriété **[PR_SERVICE_UID](pidtagserviceuid-canonical-property.md)** dans la section de profil par défaut. Pour obtenir cette section de profil, l’objet de support peut ouvrir la section profil par défaut, récupérer **PR_SERVICE_UID** et transmettre le résultat à **IMAPISupport::OpenProfileSection** pour récupérer la section de profil global correcte. L’objet de support renvoie à son tour un pointeur vers cette section de profil global vers le service de message.
+
 ## <a name="see-also"></a>Voir aussi
 
-
-
 [À propos de l’API de réplication](about-the-replication-api.md)
-

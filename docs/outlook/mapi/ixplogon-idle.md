@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f600db6-f6a6-44f9-aef7-c1309f61eb12
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d7a3b61760b21ee34d5726e9a321fd418c55d7ab
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e03316aeb8bda50163e35018d74762ae8b8be46a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613750"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375621"
 ---
 # <a name="ixplogonidle"></a>IXPLogon::Idle
 
@@ -47,7 +46,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Lepooler MAPI appelle régulièrement la méthode **IXPLogon::Idle,** si nécessaire, lorsque le système est inactif en passant l’indicateur XP_LOGON_SP dans l’appel à la méthode [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) qui a ouvert la session en cours. Lorsque le système est inactif, le fournisseur de transport peut effectuer des opérations en arrière-plan qui ne sont pas appropriées pendant d’autres appels ou qui doivent se produire régulièrement. 
+Lepooler MAPI appelle régulièrement la méthode **IXPLogon::Idle** , si nécessaire, lorsque le système est inactif en passant l’indicateur XP_LOGON_SP dans l’appel à la méthode [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) qui a ouvert la session en cours. Lorsque le système est inactif, le fournisseur de transport peut effectuer des opérations en arrière-plan qui ne sont pas appropriées pendant d’autres appels ou qui doivent se produire régulièrement. 
   
 ## <a name="see-also"></a>Voir aussi
 

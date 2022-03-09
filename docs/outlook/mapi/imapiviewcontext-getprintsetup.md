@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: eaf3bafb-975d-42c8-99ea-7f9ef9c934ba
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 58eccafa4faec96de0acacd4338798dba9f110d2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 757d6079f02db5895cfe607e2fc2a053473044be
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556461"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379933"
 ---
 # <a name="imapiviewcontextgetprintsetup"></a>IMAPIViewContext::GetPrintSetup
 
@@ -56,7 +55,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les objets form appellent la méthode **IMAPIViewContext::GetPrintSetup** pour récupérer des informations sur la configuration de l’imprimante avant d’essayer d’imprimer le message actuel. 
+Les objets form appellent **la méthode IMAPIViewContext::GetPrintSetup** pour récupérer des informations sur la configuration de l’imprimante avant d’essayer d’imprimer le message actuel. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
@@ -64,9 +63,9 @@ Allouez **les membres hDevMode** et **hDevName** de la structure [FORMPRINTSETUP
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si vous attendez que les membres **hDevMode** et **hDevName** de la structure **FORMPRINTSETUP** pointés par le paramètre  _lppFormPrintSetup_ soient des chaînes Unicode, définissez  _ulFlags_ sur MAPI_UNICODE. Sinon, **GetPrintSetup** retournera ces chaînes au format ANSI. 
+Si vous vous attendez à ce que les membres **hDevMode** et **hDevName** de la structure **FORMPRINTSETUP** pointés par le paramètre  _lppFormPrintSetup_ soient des chaînes Unicode, définissez  _ulFlags_ sur MAPI_UNICODE. Sinon, **GetPrintSetup** retournera ces chaînes au format ANSI. 
   
-Libérez **les membres hDevMode** et **hDevName** de la structure **FORMPRINTSETUP** en appelant la fonction Win32 **GlobalFree**. Libérez toute la structure **FORMPRINTSETUP** en appelant [MAPIFreeBuffer](mapifreebuffer.md). 
+Libérez **les membres hDevMode** et **hDevName** de la structure **FORMPRINTSETUP** en appelant la fonction Win32 **GlobalFree**. Libérez toute **la structure FORMPRINTSETUP** en appelant [MAPIFreeBuffer](mapifreebuffer.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

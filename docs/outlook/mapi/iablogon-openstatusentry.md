@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 66f1e246-a67a-4f8a-ae3a-6a8ec8c2b367
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1082e3680ed9a53894c5fd810be91b42eac22cee
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8daec0ac737ee7b69e40e683444b140b2ac4a0d5
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596455"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379520"
 ---
 # <a name="iablogonopenstatusentry"></a>IABLogon::OpenStatusEntry
 
@@ -66,7 +65,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de carnets d’adresses **implémentent la méthode OpenStatusEntry** pour accorder l’accès à leur objet d’état. Tous les fournisseurs de carnet d’adresses sont requis pour implémenter un objet d’état qui prend en charge, au minimum, la méthode [IMAPIStatus::ValidateState.](imapistatus-validatestate.md) Pour plus d’informations, voir [Status Object Implementation](status-object-implementation.md).
+Les fournisseurs de carnet d’adresses **implémentent la méthode OpenStatusEntry** pour accorder l’accès à leur objet d’état. Tous les fournisseurs de carnet d’adresses sont requis pour implémenter un objet d’état qui prend en charge, au minimum, la méthode [IMAPIStatus::ValidateState](imapistatus-validatestate.md) . Pour plus d’informations, voir [Status Object Implementation](status-object-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

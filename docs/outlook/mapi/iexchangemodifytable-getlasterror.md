@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: b850dc08-73c3-4b19-ae29-1892d6a2ff2f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a92089c9df921259b0df638ec94b118fa53276cf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 21c6b8471ed358ebe0ca162289fafdf4dd29157c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613925"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374410"
 ---
 # <a name="iexchangemodifytablegetlasterror"></a>IExchangeModifyTable::GetLastError
 

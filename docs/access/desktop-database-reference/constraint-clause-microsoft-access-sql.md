@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: c239d808a291ea196581eb8b334663c6f03ade14
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: bf37e5a377699c6c56fbf456c9d5830f2b8a4f3c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462609"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381928"
 ---
 # <a name="constraint-clause-microsoft-access-sql"></a>CONSTRAINT, clause (Microsoft Access SQL)
 
@@ -86,7 +86,6 @@ La clause CONSTRAINT comprend les deux parties suivantes :
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Remarques
 
 Vous utilisez la syntaxe pour une contrainte sur champ unique dans la clause de définition de champ d’une instruction ALTER TABLE ou CREATE TABLE qui suit immédiatement la spécification du type de données du champ.
@@ -98,30 +97,30 @@ La clause CONSTRAINT vous permet de désigner un champ comme l’un des types su
 - Vous pouvez utiliser le mot réservé UNIQUE pour désigner un champ en tant que clé unique. Cela signifie que deux enregistrements dans la table peuvent avoir la même valeur dans ce champ. Vous pouvez contraindre tout champ ou toute liste de champs comme uniques. Si une contrainte sur plusieurs champs est désignée comme clé unique, les valeurs combinées de tous les champs dans l’index doivent être uniques, même si deux enregistrements ou plus ont la même valeur dans un seul des champs.
 
 - Vous pouvez utiliser les mots réservés PRIMARY KEY pour désigner un champ ou un ensemble de champs dans une table en tant que clé primaire. Toutes les valeurs dans la clé primaire devant être uniques et non **Null**, il ne peut y avoir qu’une seule clé primaire pour une table.
-    
+
   > [!NOTE]
   > Ne définissez pas une contrainte PRIMARY KEY sur une table possédant déjà une clé primaire. Si vous le faites, une erreur se produit.
 
 - Vous pouvez utiliser les mots réservés FOREIGN KEY pour désigner un champ comme clé étrangère. Si la clé primaire de la table étrangère est constituée de plusieurs champs, vous devez utiliser une définition de contrainte sur plusieurs champs qui répertorie tous les champs de référence, le nom de la table étrangère et les noms des champs référencés dans la table étrangère dans le même ordre que celui des champs de référence.Si les champs référencés constituent la clé primaire de la table étrangère, vous n'avez pas besoin de les spécifier. Par défaut, le moteur de base de données traite les champs référencés comme s'ils constituaient la clé primaire de la table étrangère. Les contraintes de clé étrangère définissent des actions spécifiques à effectuer lorsque la valeur d'une clé primaire correspondante change :
 
 - Vous pouvez spécifier des actions à effectuer sur la table étrangère en fonction d’une action correspondante appliquée à une clé primaire dans la table sur laquelle la clause CONSTRAINT est définie. Par exemple, envisagez la définition suivante pour la table Customers (Clients) :
-    
+
   ``` sql
     CREATE TABLE Customers (CustId INTEGER PRIMARY KEY, CLstNm NCHAR VARYING (50))
   ```
-    
+
   Envisagez la définition suivante de la table Orders (Commandes), qui définit une relation de clé étrangère référençant la clé primaire de la table Customers (Clients) :
-    
+
   ``` sql
     CREATE TABLE Orders (OrderId INTEGER PRIMARY KEY, CustId INTEGER, OrderNotes NCHAR VARYING (255), CONSTRAINT FKOrdersCustId FOREIGN KEY (CustId) REFERENCES Customers ON UPDATE CASCADE ON DELETE CASCADE
   ```
-    
+
   Les deux clauses ON UPDATE CASCADE et ON DELETE CASCADE sont définies sur la clé étrangère. La clause ON UPDATE CASCADE indique que si l'identificateur d'un client (CustId) est modifié dans la table Customer, le nouvel identificateur sera répercuté dans la table Orders. Chaque commande contenant l'identificateur du client sera mise à jour avec le nouvel identificateur. La clause ON DELETE CASCADE indique que si un client est supprimé de la table Customer, toutes les lignes de la table Orders contenant l'identificateur de ce client seront également supprimées. Examinez cette autre définition de la table Orders qui utilise l'action SET NULL à la place de l'action CASCADE :
   
   ``` sql
     CREATE TABLE Orders (OrderId INTEGER PRIMARY KEY, CustId INTEGER, OrderNotes NCHAR VARYING (255), CONSTRAINT FKOrdersCustId FOREIGN KEY (CustId) REFERENCES Customers ON UPDATE SET NULL ON DELETE SET NULL
   ```
-    
+
   La clause ON UPDATE SET NULL signifie que, si l’ID d’un client (CustId) est mis à jour dans la table Customers (Clients), les valeurs de clé étrangère correspondantes dans la table Orders (Commandes) sont automatiquement définies sur NULL. De même, la clause ON DELETE SET NULL signifie que, si un client est supprimé de la table Customers (Clients), toutes les clés étrangères correspondantes dans la table Orders (Commandes) sont automatiquement définies sur NULL.
 
 Pour empêcher la création automatique d’index pour des clés étrangères, vous pouvez utiliser le modificateur NO INDEX. N’utilisez cette forme de définition de clé étrangère que dans les cas où les valeurs d’index obtenues seraient fréquemment dupliquées. Quand les valeurs d’un index de clé étrangère sont fréquemment dupliquées, l’utilisation d’un index peut être moins efficace qu’une simple analyse de table. La tenue à jour de ce type d’index, avec des lignes insérées et supprimées dans la table, a pour effet de dégrader les performances et n’offre aucun avantage.
@@ -130,7 +129,7 @@ Pour empêcher la création automatique d’index pour des clés étrangères, v
 
 Cet exemple crée une nouvelle table appelée ThisTable qui comporte deux champs de texte.
 
-```vb 
+```vb
  Sub CreateTableX1()    
 Dim dbs As Database 
  
@@ -146,7 +145,6 @@ Dim dbs As Database
  
 End Sub
 ```
-
 
 Cet exemple crée une nouvelle table appelée MyTable avec deux champs de texte, un champ Date/Heure et un index unique composé de ces trois champs.
 
@@ -173,7 +171,6 @@ Cet exemple crée une nouvelle table appelée MyTable avec deux champs de texte,
     End Sub
 ```
 
-
 Cet exemple crée une nouvelle table avec deux champs de texte et un champ **Entier**. Le champ SSN correspond à la clé primaire.
 
 ```vb
@@ -196,5 +193,3 @@ Cet exemple crée une nouvelle table avec deux champs de texte et un champ **Ent
      
     End Sub
 ```
-
-

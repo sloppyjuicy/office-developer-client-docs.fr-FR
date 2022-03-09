@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: aec72e51-1f75-b2c5-76ca-626cd21fbc7d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a630db9edb03c67f1f8e2c7a3b19088a88b1123b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dc8753aa5bf805b44faf893bba31d8c1b954757d
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620505"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374907"
 ---
 # <a name="ipstxemulatespooler"></a>IPSTX::EmulateSpooler
 
@@ -35,7 +34,7 @@ HRESULT EmulateSpooler(
 
  _fEmulate_
   
->  [in] Définissez ce paramètre sur True si le magasin local doit émuler lepooler ; si ce n’est pas le cas. 
+> [in] Définissez ce paramètre sur True si le magasin local doit émuler le spooler ; si ce n’est pas le cas. 
     
 ## <a name="remarks"></a>Remarques
 

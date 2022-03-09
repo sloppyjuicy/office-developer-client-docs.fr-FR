@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c57ada0e-b9a1-496b-8548-75686d8cba4e
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d0408801d8f680392319ac93abe5f10e12e93027
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: f23dc7975645d9bf5e973ccb0618efa1332beaec
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462100"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375229"
 ---
 # <a name="imsgserviceadminmsgservicetransportorder"></a>IMsgServiceAdmin::MsgServiceTransportOrder
 
@@ -67,7 +66,7 @@ MAPI_E_NOT_FOUND
 
 La **méthode IMsgServiceAdmin::MsgServiceTransportOrder** définit l’ordre de remise des fournisseurs de transport dans un profil. Le paramètre  _lpUIDList_ doit contenir une liste triée d’identificateurs d’entrée de fournisseur de transport obtenus à partir de la propriété **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) de la table renvoyée par la méthode [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) . Une application cliente doit transmettre la liste complète dans  _lpUIDList_.
   
- **SetTransportOrder** remplace les préférences de fournisseur de transport telles que l’indicateur STATUS_XP_PREFER_LAST définie dans la propriété **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
+ **SetTransportOrder** remplace les préférences de fournisseur de transport telles que l’indicateur STATUS_XP_PREFER_LAST dans la propriété **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
   
 ## <a name="see-also"></a>Voir aussi
 

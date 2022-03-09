@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: da9de705-bdab-6cb8-35ea-61f03cdc4ff5
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 416b4ddc3a5798b1621907f7bc22f9bc440a655a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f76a333d003310cf68610fb92da4688ad387a09a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613813"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381487"
 ---
 # <a name="iostxsyncend"></a>IOSTX::SyncEnd
 

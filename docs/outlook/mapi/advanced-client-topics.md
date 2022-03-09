@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9eb052b5-c0ad-418b-9469-e11ffe450fb7
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 20bae7cecde387a56df71eef0047111ad8c56530
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3ef9b507f9f7ba7c1ad3cc2afa409063e2f33202
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567892"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373780"
 ---
 # <a name="advanced-client-topics"></a>Rubriques client avancées
 

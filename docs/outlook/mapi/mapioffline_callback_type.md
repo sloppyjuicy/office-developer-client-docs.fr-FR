@@ -7,13 +7,12 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 1bafd92e-e044-c902-4fd0-df432bae777d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2da595fb2b348243c937d465a14f4c23b54436ac
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 70b8ff1f6ba01f65ea74118e9f69d8e6e40e2187
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616732"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379863"
 ---
 # <a name="mapioffline_callback_type"></a>MAPIOFFLINE_CALLBACK_TYPE
 

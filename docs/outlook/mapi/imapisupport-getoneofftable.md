@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6800fd3a-aa43-45fe-9cc2-102d0ef43edf
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 83a30a386603b32d10c2784eb6e28a010c3ea898
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 2adbd90883d808c27216a9f5264b5e505cd035ee
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62458833"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381249"
 ---
 # <a name="imapisupportgetoneofftable"></a>IMAPISupport::GetOneOffTable
 

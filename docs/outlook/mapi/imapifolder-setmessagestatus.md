@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42ffbbe0-d678-474a-a016-91c71255613e
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1896e413a1a98973260a239d6aea1cb49bb7068b
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 8fe611041f12213cc213955d56e75041f4d819de
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462458"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374151"
 ---
 # <a name="imapifoldersetmessagestatus"></a>IMAPIFolder::SetMessageStatus
 

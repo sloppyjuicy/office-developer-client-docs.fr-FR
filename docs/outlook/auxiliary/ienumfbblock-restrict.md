@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 887cea55-8f1c-45ec-3100-d03e1213d7c9
 description: Limite l’éumération à une période spécifiée.
-ms.openlocfilehash: 0dcb2cb2304323a4d434bb315531190f36e96e96
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 20fafe28e8c19f4e67b19ec7aa2a0fe3cf6b6ed5
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596609"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381662"
 ---
 # <a name="ienumfbblockrestrict"></a>IEnumFBBlock::Restrict
 
@@ -34,7 +34,7 @@ HRESULT Restrict(
 
 _ftmStart_
   
->  [in] Heure de début pour limiter l’éumération. 
+> [in] Heure de début pour limiter l’éumération. 
     
 _ftmEnd_
   

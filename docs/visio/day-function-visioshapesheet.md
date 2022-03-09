@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b0842ae-6893-2d7b-6cb2-8905198fae30
 description: Renvoie un integer, de 1 à 31, qui représente le jour dans l’expression ou l’heure de date. La fonction DAY utilise le calendrier grégorien.
-ms.openlocfilehash: dc358b6b9672a78671c55bac48d0c75bd623e332
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5334e8c4f94e3d385932ed9440391242db086271
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772786"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379856"
 ---
 # <a name="day-function-visioshapesheet"></a>DAY Function (VisioShapeSheet)
 
@@ -22,13 +22,13 @@ Renvoie un integer, de 1 à 31, qui représente le jour dans _l’expression ou 
   
 ## <a name="syntax"></a>Syntaxe
 
-DAY( » ** *datetime* ** « | ** *expression* ** [, ** *lcid* ** ]) 
+DAY( » ***datetime** _ « | _*_expression_*_ [, _ *_lcid_** ]) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _datetime_ <br/> |Requis  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure. |
+| _datetime_ <br/> |Obligatoire  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure. |
 | _expression_ <br/> |Requis  <br/> |**String** <br/> |Toute expression qui génère une date et une heure. |
 | _lcid_ <br/> |Facultatif  <br/> |**Number** <br/> |Spécifie l’identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système. |
    

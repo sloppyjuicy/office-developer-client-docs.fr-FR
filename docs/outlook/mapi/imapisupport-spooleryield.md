@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: f5c6ba8f-4ef5-4d60-b4e6-5b9160ec4e99
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6cc11912b721a624b065c6d21169056843ceac0e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e752e3a9bf2804db81cc2e7b1c02cbf4364a7bd9
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575728"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373934"
 ---
 # <a name="imapisupportspooleryield"></a>IMAPISupport::SpoolerYield
 
@@ -25,7 +24,7 @@ ms.locfileid: "59575728"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Donne le contrôle de l’UC aupooler MAPI afin qu’il puisse effectuer les tâches qu’il considère nécessaires.
+Donne le contrôle de l’UC aupooler MAPI afin qu’il puisse effectuer toutes les tâches qu’il considère nécessaires.
   
 ```cpp
 HRESULT SpoolerYield(
@@ -55,11 +54,11 @@ La **méthode IMAPISupport::SpoolerYield** est implémentée pour les objets de 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez **SpoolerYield** lorsque vous effectuez des opérations longues qui peuvent être suspendues. Cela permet aux applications au premier plan de s’exécuter pendant une longue opération, telle que la remise à une liste de destinataires importante sur un réseau occupé. 
+**Appelez SpoolerYield** lorsque vous effectuez des opérations longues qui peuvent être suspendues. Cela permet aux applications au premier plan de s’exécuter pendant une longue opération, telles que la remise à une liste de destinataires importante sur un réseau occupé. 
   
 Si **SpoolerYield** est renvoyé avec MAPI_W_CANCEL_MESSAGE, lepooler MAPI a déterminé que le message ne doit plus être envoyé. Renvoyez MAPI_E_USER_CANCEL processus d’appel et quittez, si possible. 
   
-Pour plus d’informations sur le rendement aupooler MAPI, voir Interaction avec le [spooler MAPI](interacting-with-the-mapi-spooler.md).
+Pour plus d’informations sur le rendement aupooler MAPI, voir [Interaction avec le spooler MAPI](interacting-with-the-mapi-spooler.md).
   
 ## <a name="see-also"></a>Voir aussi
 

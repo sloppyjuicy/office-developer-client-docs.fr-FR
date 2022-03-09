@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 20ff2b63-e4a3-4ba9-bad0-2c1873fb69b5
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 59a82ff1ab8880fc89b3195f4631a74923b41722
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fdc897c3713442f4e0ae540dca1a8d3c30770bba
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599010"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380976"
 ---
 # <a name="searching-the-address-book"></a>Recherche dans le carnet d’adresses
 
@@ -27,7 +26,7 @@ MAPI permet de fournisseurs de carnet d'adresses d'impl�menter deux niveaux de
     
 Because address book providers can support searching for each of their containers at the basic level, at both levels, or choose not to support it at all, do not expect searching to be implemented as a standard feature. To determine if a particular container supports searches, attempt to establish search criteria in a call to its [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) method. If **SetSearchCriteria** returns MAPI_E_NO_SUPPORT, the container does not support searches. 
   
-In a container that supports searches, retrieve established criteria by calling [IMAPIContainer::GetSearchCriteria](imapicontainer-getsearchcriteria.md). You can also request that the user be prompted for search criteria before a container's contents table is displayed. Pour choisir cette option, définissez l’AB_FIND_ON_OPEN de la propriété PR_CONTAINER_FLAGS **(** [PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) du conteneur. After the user enters the criteria, it is stored as a restriction and passed to the **SetSearchCriteria** method. Setting AB_FIND_ON_OPEN is particularly useful if you are using an online service or any address book provider that has a slow link to its data. 
+In a container that supports searches, retrieve established criteria by calling [IMAPIContainer::GetSearchCriteria](imapicontainer-getsearchcriteria.md). You can also request that the user be prompted for search criteria before a container's contents table is displayed. Pour choisir cette option, définissez l’AB_FIND_ON_OPEN de la propriété **PR_CONTAINER_FLAGS (**[PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) du conteneur. After the user enters the criteria, it is stored as a restriction and passed to the **SetSearchCriteria** method. Setting AB_FIND_ON_OPEN is particularly useful if you are using an online service or any address book provider that has a slow link to its data. 
   
 ### <a name="to-perform-a-basic-search-in-an-address-book-container"></a>Pour effectuer une recherche de base dans un conteneur de carnet d'adresses
   
@@ -41,16 +40,16 @@ In a container that supports searches, retrieve established criteria by calling 
     
    - [IMAPITable](imapitable-restrict.md) to limit the table view. 
     
-   - Restriction de propriété utilisant la **propriété PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) pour résoudre les noms ambigus. Appelez **IMAPITable** pour imposer � cette restriction. 
+   - Restriction de propriété à **l’PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) pour résoudre les noms ambigus. Appelez **IMAPITable** pour imposer � cette restriction. 
     
    - [IABContainer::ResolveNames](iabcontainer-resolvenames.md) to resolve ambiguous names. 
     
 3. Call [IMAPITable::QueryRows](imapitable-queryrows.md) to retrieve any rows that meet your applied search criteria. **QueryRows** can return zero or more matching rows. 
     
-Les m�thodes **FindRow**, **SortTable** et **Restrict** sont des m�thodes de tableau qui sont disponibles pour une table qui peut �tre cr��e par un client ou un fournisseur de services. La restriction de propriété **\_ PR ANR** et la méthode **IABContainer::ResolveNames** sont spécifiques aux fournisseurs de carnet d’adresses et sont utilisées pour résoudre les noms ambigus. Noms ambigus sont entr�es dans une liste de destinataires qui ne poss�dent pas de propri�t� **PR_ENTRYID** leur sont associ�e. 
+Les m�thodes **FindRow**, **SortTable** et **Restrict** sont des m�thodes de tableau qui sont disponibles pour une table qui peut �tre cr��e par un client ou un fournisseur de services. La restriction **de propriété PRANR\_** et la méthode **IABContainer::ResolveNames** sont spécifiques aux fournisseurs de carnet d’adresses et sont utilisées pour résoudre les noms ambigus. Noms ambigus sont entr�es dans une liste de destinataires qui ne poss�dent pas de propri�t� **PR_ENTRYID** leur sont associ�e. 
   
-La restriction **\_ PR ANR** appelle un algorithme qui sépare une chaîne de caractères en mots et fait correspondre ces mots avec des informations dans le carnet d’adresses à l’aide de la correspondance de préfixe. The information used for the matching depends on the address book provider. All address book providers are required to support the **PR_ANR** restriction for their address book containers. For more information, see [L'impl�mentation de la r�solution de noms](implementing-name-resolution.md).
+La restriction **PRANR\_** appelle un algorithme qui sépare une chaîne de caractères en mots et fait correspondre ces mots avec des informations dans le carnet d’adresses à l’aide de la correspondance de préfixe. The information used for the matching depends on the address book provider. All address book providers are required to support the **PR_ANR** restriction for their address book containers. For more information, see [L'impl�mentation de la r�solution de noms](implementing-name-resolution.md).
   
-**IABContainer::ResolveNames** effectue une restriction **PR_ANR** de traitement sur plusieurs noms sans n�cessiter de tableau de contenu du conteneur � ouvrir. Appeler **ResolveNames une** seule fois pour résoudre plusieurs noms peut être beaucoup plus rapide que d’appeler une restriction **PR \_ ANR** plusieurs fois. Toutefois, fournisseurs de carnet d'adresses ne sont pas requis pour prendre en charge **ResolveNames**.
+**IABContainer::ResolveNames** effectue une restriction **PR_ANR** de traitement sur plusieurs noms sans n�cessiter de tableau de contenu du conteneur � ouvrir. Appeler **ResolveNames une** seule fois pour résoudre plusieurs noms peut être beaucoup plus rapide que d’appeler une restriction **PRANR\_** plusieurs fois. Toutefois, fournisseurs de carnet d'adresses ne sont pas requis pour prendre en charge **ResolveNames**.
   
 

@@ -7,29 +7,28 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 14a4c123-776d-4a32-9688-8a4402dd1f53
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 16b238d28ac059fc3fa5f1e172beba3a077cc96d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 11b39bfbd632e1340ee3925614b6f40dffbc6c46
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596590"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381795"
 ---
 # <a name="displaying-a-folder-contents-table"></a>Affichage de la table des matières d’un dossier
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La table des matières d’un dossier contient des informations récapitulatifs sur tous ses messages. Des informations récapitulatifs sur les nouveaux messages entrants apparaissent dans la table des matières du dossier de réception de la classe de message. Pour mettre ces informations à la disposition des utilisateurs, récupérez le tableau et affichez les colonnes et lignes selon le cas.
+La table des matières d’un dossier contient des informations récapitulatifs sur tous ses messages. Des informations récapitulatifs sur les nouveaux messages entrants apparaissent dans la table des matières du dossier de réception pour la classe de message. Pour mettre ces informations à la disposition des utilisateurs, récupérez le tableau et affichez les colonnes et les lignes selon les cas.
   
 **Pour afficher une table de contenu de dossier**
   
-1. Appelez [IMsgStore::OpenEntry](imsgstore-openentry.md), en passant l’identificateur d’entrée du dossier contenant la table.
+1. [Appelez IMsgStore::OpenEntry](imsgstore-openentry.md), en passant l’identificateur d’entrée du dossier contenant la table.
     
 2. Appelez la méthode [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) du dossier pour ouvrir sa table des matières. 
     
-3. Limitez votre vue de la table des matières si vous le souhaitez en appelant la méthode [IMAPITable::SetColumns](imapitable-setcolumns.md) de la table pour spécifier des colonnes particulières. 
+3. Limitez votre affichage de la table des matières si vous le souhaitez en appelant la méthode [IMAPITable::SetColumns](imapitable-setcolumns.md) de la table pour spécifier des colonnes particulières. 
     
-4. Limitez votre vue de la table des matières si vous le souhaitez en appelant la méthode [IMAPITable::Restrict](imapitable-restrict.md) de la table pour filtrer des lignes particulières. Si, par exemple, vous souhaitez afficher uniquement les messages avec une classe de message spécifique qui n’ont pas encore été lus : 
+4. Limitez votre affichage de la table des matières si vous le souhaitez en appelant la méthode [IMAPITable::Restrict](imapitable-restrict.md) de la table pour filtrer des lignes particulières. Si, par exemple, vous souhaitez afficher uniquement les messages avec une classe de message spécifique qui n’ont pas encore été lus : 
     
     1. Créez une restriction de propriété dans une structure [SPropertyRestriction](spropertyrestriction.md) qui correspond à la propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) avec la classe de message souhaitée. 
         
@@ -39,6 +38,6 @@ La table des matières d’un dossier contient des informations récapitulatifs 
     
 5. Tez la table des matières si vous le souhaitez en appelant la méthode [IMAPITable::SortTable de](imapitable-sorttable.md) la table. 
     
-6. Appelez [IMAPITable::QueryRows](imapitable-queryrows.md) pour récupérer toutes les lignes de la table des matières pour traitement. 
+6. [Appelez IMAPITable::QueryRows](imapitable-queryrows.md) pour récupérer toutes les lignes de la table des matières pour traitement. 
     
 

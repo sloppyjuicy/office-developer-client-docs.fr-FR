@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 32627ebb-547f-4fac-a406-e7243ec5521b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4b100f3daf901bf72cf9998b8678ad597646ef73
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c9a42058babe2c1017efc899050a6cb697e90065
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584618"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379806"
 ---
 # <a name="designing-a-message-service"></a>Conception d’un service de messagerie
 
@@ -25,7 +24,7 @@ Avant de commencer à écrire du code pour prendre en charge votre service de me
     
 2. Déterminez le type de fournisseur de services à inclure dans le service de messagerie. La plupart des services de messge incluent un fournisseur de chacun des types courants. Autrement dit, le service de messagerie classique dispose d’un fournisseur de carnet d’adresses, d’un fournisseur de magasins de messages et d’un fournisseur de transport.
     
-3. Déterminez le nombre de DLLs qui doivent contenir le service de message. Le nombre de DLL qu’un service de message utilise dépend des facteurs suivants :
+3. Déterminez le nombre de DLLs qui doivent contenir le service de message. Le nombre de DLLs qu’un service de message utilise dépend des facteurs suivants :
     
    - Degré de complexité que vous êtes prêt à gérer en tant qu’auteur du service de message.
     

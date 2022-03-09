@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d85d269e-2251-4399-9159-a2f47a85e3d1
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 48cd642cf72a04764c17be5480b10036f61142d1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 68a091871619de95de533f543110b99f9564a958
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592038"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375831"
 ---
 # <a name="message-reception-model"></a>Modèle de réception des messages
 
@@ -33,11 +32,11 @@ Ce processus fonctionne comme suit :
     
 4. Le fournisseur de transport stocke les données de message dans l’instance [IMessage : IMAPIProp](imessageimapiprop.md) transmise. 
     
-5. Le fournisseur de transport appelle [la méthode IMAPIProp::SaveChanges](imapiprop-savechanges.md) sur l’instance **IMessage** et retourne à partir de **StartMessage**.
+5. Le fournisseur de transport appelle [la méthode IMAPIProp::SaveChanges](imapiprop-savechanges.md) sur l’instance **IMessage** et renvoie à partir de **StartMessage**.
     
 6. Lepooler MAPI appelle [IXPLogon::TransportNotify](ixplogon-transportnotify.md) s’il doit arrêter la remise du message. 
     
 > [!NOTE]
-> Si un fournisseur de transport doit remettre un grand nombre de messages et qu’il utilise **IMAPISupport::SpoolerNotify** au lieu d’IXPLogon::P le, il est important de ne pas appeler trop souvent **SpoolerNotify** afin de ne pas inconfidifier d’autres fournisseurs de transport de temps processeur.  Lepooler MAPI a une logique pour empêcher cela, mais en général l’intervalle entre les appels **SpoolerNotify** doit être plus long que le temps qu’il faut à votre fournisseur de transport pour traiter un message. > également, lepooler MAPI peut ne pas traiter immédiatement un message entrant. Lepooler MAPI peut demander au fournisseur de transport d’effectuer d’autres tâches avant de recevoir le message entrant. 
+> Si un fournisseur de transport doit remettre un grand nombre de messages et qu’il utilise **IMAPISupport::SpoolerNotify** au lieu de **IXPLogon::P sun**, il est important de ne pas appeler **SpoolerNotify** trop fréquemment afin de ne pas inconfidifier d’autres fournisseurs de transport de temps processeur. Lepooler MAPI a une logique pour empêcher cela, mais en général l’intervalle entre les appels **SpoolerNotify** doit être plus long que le temps qu’il faut à votre fournisseur de transport pour traiter un message. > également, lepooler MAPI peut ne pas traiter immédiatement un message entrant. Lepooler MAPI peut demander au fournisseur de transport d’effectuer d’autres tâches avant de recevoir le message entrant. 
   
 

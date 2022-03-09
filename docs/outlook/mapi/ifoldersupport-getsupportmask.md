@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d8aaeb7-57d7-ba4c-95d1-a5368cfc4afe
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f337f93393766d6a456d5659b8f1cee13d23a299
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 57933ae3db72ef2f1a57832b704273f06d437218
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600959"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373955"
 ---
 # <a name="ifoldersupportgetsupportmask"></a>IFolderSupport::GetSupportMask
 

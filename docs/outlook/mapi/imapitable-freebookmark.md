@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 797833f7-8295-41bc-8980-977e5f5e05e8
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fb8c31f399c32b3e5ddeb16aa67efb94e2bcadce
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e851966cc153607787a2e3f3446ed73015919062
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600917"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379667"
 ---
 # <a name="imapitablefreebookmark"></a>IMAPITable::FreeBookmark
 
@@ -37,7 +36,7 @@ BOOKMARK bkPosition
 
  _bkPosition_
   
-> [in] Signet à libérer, créé en appelant la [méthode IMAPITable::CreateBookmark.](imapitable-createbookmark.md) 
+> [in] Signet à libérer, créé en appelant la [méthode IMAPITable::CreateBookmark](imapitable-createbookmark.md) . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -55,7 +54,7 @@ La **méthode IMAPITable::FreeBookmark** libère un signet qui n’est plus néc
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Si l’appelant passe l’un des trois signets prédéfincis dans le paramètre  _bkPosition,_ ignorez la demande et renvoyez S_OK. 
+Si l’appelant passe l’un des trois signets prédéfincis dans le paramètre _bkPosition_ , ignorez la demande et renvoyez-S_OK. 
   
 ## <a name="see-also"></a>Voir aussi
 

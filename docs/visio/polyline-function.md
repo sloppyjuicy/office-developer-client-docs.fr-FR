@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 10baeec9-6c9b-b4ba-3138-7d1156a9e056
 description: Renvoie une polyligne. Cette fonction est utilisée dans la cellule A des lignes de géométrie PolyLineTo.
-ms.openlocfilehash: c42447364918896355485a34268ad5fad09b614f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 40d5953162c17de0b70752b188c1de0e2b01b712
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774068"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380059"
 ---
 # <a name="polyline-function"></a>Fonction POLYLINE
 
@@ -35,7 +35,7 @@ POLYLINE(** *xType* **, ** *yType* **, ** *x1* **, ** *y1* **...)
    
 ## <a name="remarks"></a>Remarques
 
-Pour chaque argument  *x*  , il doit y avoir un argument  *y*  ; Sinon, une erreur est renvoyée. 
+Pour chaque argument  *x* , il doit y avoir un argument  *y* ; Sinon, une erreur est renvoyée. 
   
 ## <a name="example"></a>Exemple
 

@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f56c56d8-db46-4c69-876f-2bbb4a5c1185
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6942690214af49274608a48490b8437bd59bff24
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: aae5b71a213efe032c8ee822c656c19b21572d64
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551498"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375936"
 ---
 # <a name="handling-named-property-errors"></a>Gestion des erreurs des propriétés nommées
   

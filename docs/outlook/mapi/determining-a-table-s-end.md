@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c879e972-05f4-4716-8fc2-db5b22f34ca8
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 91a79512991cc5ece2b2792cecb2e6d9f90c7c41
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 390a786a323a28ae3549f174edfabc2d549e7ed2
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576393"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373731"
 ---
 # <a name="determining-a-tables-end"></a>Détermination de la fin d’une table
 

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: d16219a0-268c-428d-9f02-4f06eb5b6d7d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 69f560903ef0fa1430007818cc364752fd9eaeae
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b2b151011b65b7b1ca4bde41742284aa91d496c4
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556481"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374130"
 ---
 # <a name="imapiviewadvisesinkonprint"></a>IMAPIViewAdviseSink::OnPrint
 
@@ -72,7 +71,7 @@ Les objets de formulaire appellent la méthode **IMAPIViewAdviseSink::OnPrint** 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si le travail d’impression implique plusieurs pages, vous pouvez appeler **OnPrint** après l’impression de chaque page. Définissez  _dwPageNumber_ sur la page en cours d’impression et  _hrStatus_ sur S_OK. Une fois la tâche d’impression terminée, appelez **OnPrint** avec  _dwPageNumber_ définie sur la dernière page imprimée et  _hrStatus_ sur S_FALSE. 
+Si le travail d’impression implique plusieurs pages, vous pouvez appeler **OnPrint** après l’impression de chaque page. _Définissez dwPageNumber_ sur la page en cours d’impression et _hrStatus_ sur S_OK. Lorsque le travail d’impression est terminé, appelez **OnPrint** avec  _dwPageNumber_ définie sur la dernière page imprimée et  _hrStatus_ sur S_FALSE. 
   
 Pour plus d’informations sur les notifications de formulaire, voir [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   

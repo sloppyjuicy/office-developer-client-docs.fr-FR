@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: fb321b48-3e5f-4b99-9af0-a57b66f26a2e
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a8a24d00aa9646d52f7409c1234eac12109075f3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 36f19da23f50008d15d7220b147a2837e378c1c5
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621009"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375922"
 ---
 # <a name="imapicontrolgetstate"></a>IMAPIControl::GetState
 
@@ -60,9 +59,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de services implémentent la méthode **IMAPIControl::GetState** pour fournir à MAPI l’état d’un contrôle de bouton. Si le bouton est activé, il peut répondre à un clic de souris ou à une pression sur la touche. S’il est désactivé, le bouton s’affiche estommité et ne répond pas à un clic de souris ou à une pression sur la touche. 
+Les fournisseurs de services **implémentent la méthode IMAPIControl::GetState** pour fournir à MAPI l’état d’un contrôle de bouton. Si le bouton est activé, il peut répondre à un clic de souris ou à une pression sur la touche. S’il est désactivé, le bouton s’affiche estommité et ne répond pas à un clic de souris ou à une pression sur la touche. 
   
-Pour plus d’informations sur l’implémentation de **GetState** et des autres méthodes [IMAPIControl : IUnknown,](imapicontroliunknown.md) voir [Control Object Implementation](control-object-implementation.md).
+Pour plus d’informations sur l’implémentation de **GetState** et des autres méthodes [IMAPIControl : IUnknown](imapicontroliunknown.md) , voir [Control Object Implementation](control-object-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

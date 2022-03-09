@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2fcff3b3-01e7-4758-9c49-0af41abf0d6b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 499800d96341c91ee622f4d6ec1aabcf70e42040
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dd309487dc430b15dfcfa27c10612b71c3319e9a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567290"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374291"
 ---
 # <a name="mapi-address-book-provider-objects"></a>Objets de fournisseur de carnet d’adresses MAPI
   

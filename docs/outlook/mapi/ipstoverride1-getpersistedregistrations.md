@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 027092f0-f2d6-49e8-a8d0-8926824953a2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 397eb3ecfeb245a6afe91be98a5def4c35ba4873
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 29c0eb0cad8861e3f1d1dd80f3b431fc68a5cd3d
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579753"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375635"
 ---
 # <a name="ipstoverride1getpersistedregistrations"></a>IPSTOVERRIDE1::GetPersistedRegistrations
 
@@ -35,7 +34,7 @@ HRESULT GetPersistedRegistration(SPropValue **ppmval);
 
  _ppmval_
   
-> [in] Pointeur vers un pointeur vers une structure [SPropValue.](spropvalue.md) Le membre ulPropTag de cette structure est de type PT_MV_UNICODE et le membre de valeur MVszW sera un tableau de chaînes Unicode terminées par null. Ces chaînes sont des chemins d’accès aux DLLs pour lesquelles l’inscription a été persistante. 
+> [in] Pointeur vers un pointeur vers une structure [SPropValue](spropvalue.md) . Le membre ulPropTag de cette structure est du type PT_MV_UNICODE et le membre de valeur MVszW sera un tableau de chaînes Unicode terminées par null. Ces chaînes sont des chemins d’accès aux DLL pour lesquelles l’inscription a été persistante. 
     
 > [!NOTE]
 > La prise en charge de .pst pour ANSI n’est pas implémentée. 

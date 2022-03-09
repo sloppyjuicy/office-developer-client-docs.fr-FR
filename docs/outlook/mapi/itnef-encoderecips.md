@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: b3ce4b0e-4f48-4a7e-a30c-c4754bccb12c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 98af78d57d633eb5e17d7572aea207ee333daf28
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: f586235b6033b71b0c48fd287f308539542cac9a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462332"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375628"
 ---
 # <a name="itnefencoderecips"></a>ITnef::EncodeRecips
 

@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 23d68d8b-b0b6-4c32-8404-6acd23802db0
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a1c4877dae64ae1890557a40723edbc66e07552b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4605d508900cb1ddad1aa6c724f1ca088e2367b4
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580152"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380262"
 ---
 # <a name="handling-mapi-property-errors"></a>Gestion des erreurs de propriété MAPI
 

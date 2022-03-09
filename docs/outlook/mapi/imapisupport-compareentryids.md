@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: be6991d9-6353-4838-bc6b-39de51a94d8d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 393b52fee4da11d63a5c10426405d3b5c35d2f40
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cdbfb58930887b1e20e32dde87f1233d4428953e
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625496"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379660"
 ---
 # <a name="imapisupportcompareentryids"></a>IMAPISupport::CompareEntryIDs
 
@@ -42,7 +41,7 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID1._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID1_ . 
     
  _lpEntryID1_
   
@@ -50,7 +49,7 @@ HRESULT CompareEntryIDs(
     
  _cbEntryID2_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID2._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID2_ . 
     
  _lpEntryID2_
   

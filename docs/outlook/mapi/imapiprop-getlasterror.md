@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: f64a765d-c653-4eef-a0fc-24a54968757c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9456f834ea606106b313949dfff863534bac2509
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 686d15cb9a1d0468d3c6440c100a80a3a373cbce
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556601"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379688"
 ---
 # <a name="imapipropgetlasterror"></a>IMAPIProp::GetLastError
 
@@ -61,25 +60,25 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L’indicateur MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
+> L’MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
     
 ## <a name="remarks"></a>Remarques
 
 La **méthode IMAPIProp::GetLastError** fournit des informations sur un appel de méthode antérieur qui a échoué. Les clients peuvent fournir à leurs utilisateurs des informations détaillées sur l’erreur en incluant les données de la structure **MAPIERROR** dans une boîte de dialogue. 
   
-Toutes les implémentations de **GetLastError** fournies par MAPI sont des implémentations ANSI, à l’exception de l’implémentation [IAddrBook.](iaddrbookimapiprop.md) La **méthode GetLastError incluse** dans **IAddrBook** prend en charge Unicode. 
+Toutes les implémentations de **GetLastError** fournies par MAPI sont des implémentations ANSI, à l’exception de l’implémentation [IAddrBook](iaddrbookimapiprop.md) . La **méthode GetLastError incluse** avec **IAddrBook** prend en charge Unicode. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Les détails de l’implémentation de cette méthode par un fournisseur de transport distant et les messages qu’elle renvoie sont dus au fournisseur de transport, car les conditions d’erreur particulières qui entraînent diverses valeurs HRESULT seront différentes pour différents fournisseurs de transport.
+Les détails de l’implémentation de cette méthode par un fournisseur de transport distant et les messages qu’elle renvoie sont dus au fournisseur de transport, car les conditions d’erreur particulières qui entraînent diverses valeurs HRESULT sont différentes pour différents fournisseurs de transport.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez utiliser la structure **MAPIERROR** pointée par le paramètre  _lppMAPIError,_ si **GetLastError** en fournit un, uniquement si la valeur de retour est S_OK. Parfois, **GetLastError ne** peut pas déterminer la dernière erreur ou n’a rien d’autre à signaler à propos de l’erreur. Dans ce cas, un pointeur vers NULL est renvoyé dans  _lppMAPIError_ à la place. 
+Vous pouvez utiliser la structure **MAPIERROR** pointée par le paramètre  _lppMAPIError_ , si **GetLastError** en fournit un, uniquement si la valeur de retour est S_OK. Parfois **, GetLastError ne** peut pas déterminer la dernière erreur ou n’a rien d’autre à signaler à propos de l’erreur. Dans ce cas, un pointeur vers NULL est renvoyé dans  _lppMAPIError_ à la place. 
   
-Pour libérer la mémoire de la structure **MAPIERROR,** appelez la [fonction MAPIFreeBuffer.](mapifreebuffer.md) 
+Pour libérer la mémoire de la structure **MAPIERROR** , appelez la [fonction MAPIFreeBuffer](mapifreebuffer.md) . 
   
-Pour plus d’informations **sur la méthode GetLastError,** voir [MAPI Extended Errors](mapi-extended-errors.md).
+Pour plus d’informations **sur la méthode GetLastError** , voir [MAPI Extended Errors](mapi-extended-errors.md).
   
 ## <a name="see-also"></a>Voir aussi
 

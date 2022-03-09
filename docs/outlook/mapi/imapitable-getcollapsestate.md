@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: fd4ea496-4c83-49cd-854e-f373cc1ed2af
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 90edf5340db6d3b3cbce4768503c940a048e9909
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 172f03061779ba2969cd3ab540136836c4a4f82a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461614"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380472"
 ---
 # <a name="imapitablegetcollapsestate"></a>IMAPITable::GetCollapseState
 

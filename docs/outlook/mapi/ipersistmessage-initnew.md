@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4bf37c35-4f72-438a-912c-402f3711a5ea
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 88a49c09f7f4e2678265fae20dddc8833716a2e4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8ff847ed0771506e732d5d547a70cbf7662fb893
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630424"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381214"
 ---
 # <a name="ipersistmessageinitnew"></a>IPersistMessage::InitNew
 
@@ -54,7 +53,7 @@ S_OK
 
 Les visionneuses de formulaires appellent la méthode **IPersistMessage::InitNew** lorsque l’utilisateur écrit un nouveau message appartenant à une classe de message gérée par le formulaire. Si l’objet de formulaire possède un pointeur d’interface utilisateur valide, l’interface utilisateur de l’objet message doit être affichée. 
   
- **InitNew** ne doit pas être appelé lorsque votre formulaire est dans un état autre que [Uninitialized.](uninitialized-state.md) Si le formulaire se trouve dans l’un des autres états lorsque **InitNew** est appelé, renvoyer E_UNEXPECTED. 
+ **InitNew** ne doit pas être appelé lorsque votre formulaire est dans un état autre que [Uninitialized](uninitialized-state.md) . Si le formulaire se trouve dans l’un des autres états lorsque **InitNew** est appelé, renvoyer E_UNEXPECTED. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
@@ -64,13 +63,13 @@ Toutefois, si le traitement de vos messages nouvellement initialisés inclut la 
   
 Si votre formulaire a une référence à un site de message actif autre que celui qui est transmis dans **InitNew**, release the original site because it will no longer be used. Stockez les pointeurs vers le site de message et le message à partir des paramètres  _pMessageSite_ et  _pMessage_ et appelez les méthodes [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) des deux objets pour incrémenter leur nombre de références. 
   
-Définissez les propriétés **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) et **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) pour le nouveau message sur quelque chose de approprié pour votre classe de message. De nombreuses classes de messages, par exemple, **PR_MESSAGE_FLAGS** à MSGFLAG_UNSENT pour les nouveaux messages. 
+Définissez **les** propriétés PR_MESSAGE_FLAGS ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) et **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) du nouveau message sur quelque chose de approprié pour votre classe de message. De nombreuses classes de messages, par exemple, **PR_MESSAGE_FLAGS** à MSGFLAG_UNSENT pour les nouveaux messages. 
   
-Avant de renvoyer le formulaire, transition vers l’état [Normal](normal-state.md) si aucune erreur ne s’est produite. Envoyez une nouvelle notification de message à toutes les visionneuses inscrites en appelant leurs méthodes [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) et renvoyez S_OK. 
+Avant de renvoyer, transition du formulaire à [l’état Normal](normal-state.md) si aucune erreur ne s’est produite. Envoyez une nouvelle notification de message à tous les utilisateurs inscrits en appelant leurs méthodes [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) et renvoyez S_OK. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Une fois que vous avez passé un appel réussi à **InitNew,** vous pouvez supposer que les propriétés requises suivantes, et aucune autre, n’a été définie pour le formulaire :
+Une fois que vous avez passé un appel réussi à **InitNew**, vous pouvez supposer que les propriétés requises suivantes, et aucune autre, n’a été définie pour le formulaire :
   
  **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md))
   
@@ -86,7 +85,7 @@ Une fois que vous avez passé un appel réussi à **InitNew,** vous pouvez suppo
   
  **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))
   
-Pour plus d’informations sur les états des formulaires, voir [États de formulaire.](form-states.md) Pour plus d’informations sur l’initialisation des objets de stockage, voir la méthode [IPersistStorage::InitNew.](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) 
+Pour plus d’informations sur les états des formulaires, voir [États de formulaire](form-states.md). Pour plus d’informations sur l’initialisation des objets de stockage, voir la méthode [IPersistStorage::InitNew](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) . 
   
 ## <a name="see-also"></a>Voir aussi
 

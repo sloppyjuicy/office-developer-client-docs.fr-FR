@@ -5,13 +5,12 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: a6bdf408-114a-2203-189f-101251a65a8c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7762eccb1a4fe72612f02fcdf9baf062ae40643a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 775a918b7910c0085b85c03a073637cf1c17d86b
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564448"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375236"
 ---
 # <a name="about-the-sample-offline-state-add-in"></a>À propos de l’exemple de add-in d’état hors connexion
 

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 832e2c18-ddba-4d18-a391-710d21fe23e6
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3396503d4836f7db25529202895f264d1918a9c7
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 69337d67e2b647d56e676664d73dcf5b2ac59232
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461607"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380465"
 ---
 # <a name="imapitablegetlasterror"></a>IMAPITable::GetLastError
 

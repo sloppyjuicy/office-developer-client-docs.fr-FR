@@ -7,13 +7,12 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: a3dc2c0f-b1fd-d758-e847-a0f101efe7f1
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9995225f1c73ac5bd886a2794354a79b823e8a2e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e0fffb2f788237a9722fb91270a4c1160e3155f5
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555985"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375593"
 ---
 # <a name="olflagicon"></a>OlFlagIcon
 

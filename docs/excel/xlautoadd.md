@@ -10,18 +10,18 @@ keywords:
 - fonction xlautoadd [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: c69299af-a28a-44d9-be10-9c9fb92e21f2
-ms.openlocfilehash: f212cf1dbffd864c94fa3c99a395352477bc3210
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: da047aa483c221d8702003f95cc2d26309274f7a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198708"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380570"
 ---
 # <a name="xlautoadd"></a>xlAutoAdd
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio
   
-Ajouté par le Microsoft Excel chaque fois que l’utilisateur active le XLL au cours d’une session Excel à l’aide du gestionnaire Add-In client. Cette fonction n’est pas appelée lorsque Excel démarre et charge un add-in préinstallé.
+Ajouté par le Microsoft Excel chaque fois que l’utilisateur active le XLL au cours d’une session Excel à l’aide Add-In manager. Cette fonction n’est pas appelée lorsque Excel démarre et charge un add-in préinstallé.
   
 Cette fonction permet d’afficher une boîte de dialogue personnalisée qui indique à l’utilisateur que le module complémentaire a été activé, de lire ou d’écrire dans le Registre, ou de vérifier les informations de licence, par exemple.
   
@@ -45,7 +45,7 @@ Utilisez cette fonction si votre XLL doit faire quelque chose lorsqu’elle est 
   
 ## <a name="example"></a>Exemple
 
-Voir `\SAMPLES\EXAMPLE\EXAMPLE.C` et par exemple les  `\SAMPLES\GENERIC\GENERIC.C` implémentations de cette fonction. Le code suivant provient de `\SAMPLES\EXAMPLE\EXAMPLE.C`.
+Voir `\SAMPLES\EXAMPLE\EXAMPLE.C` et `\SAMPLES\GENERIC\GENERIC.C` par exemple les implémentations de cette fonction. Le code suivant est de .`\SAMPLES\EXAMPLE\EXAMPLE.C`
   
 ```cs
 int WINAPI xlAutoAdd(void)
@@ -61,10 +61,5 @@ int WINAPI xlAutoAdd(void)
 
 ## <a name="see-also"></a>Voir aussi
 
-
-
 [xlAutoRemove](xlautoremove.md)
-
-
-[Fonctions du Gestionnaire de compléments et de l’interface XLL](add-in-manager-and-xll-interface-functions.md)
-
+ [Fonctions du Gestionnaire de modules et de l’interface XLL](add-in-manager-and-xll-interface-functions.md)

@@ -9,16 +9,16 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 82423d08-b6ce-0f23-8b61-354c3e5f323e
 description: Contrôle le type de comportement de la coordonnée x de la poignée de contrôle une fois la poignée déplacée.
-ms.openlocfilehash: 74e6937e7eb7616b877327a793b1092a4e762160
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3d53b48496c3ccb4a3257816ab84e785868f7112
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778971"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374844"
 ---
 # <a name="x-behavior-cell-controls-section"></a>X Behavior, cellule (section Controls)
 
-Contrôle le type de comportement de la  *coordonnée x*  de la poignée de contrôle une fois la poignée déplacée. 
+Contrôle le type de comportement de la  *coordonnée x*  de la poignée de contrôle une fois la poignée déplacée.
   
 |**Valeur**|**Comportement**|**Définition**|**Constante d'automation**|
 |:-----|:-----|:-----|:-----|
@@ -32,21 +32,19 @@ Contrôle le type de comportement de la  *coordonnée x*  de la poignée de cont
 | 7   <br/> | Décalé du bord gauche, masqué  <br/> | Identique à 2 mais la poignée de contrôle n'est pas visible. |**visCtlOffsetMinHidden** <br/> |
 | 8   <br/> | Décalé du centre, masqué  <br/> | Identique à 3 mais la poignée de contrôle n'est pas visible. |**visCtlOffsetMidHidden** <br/> |
 | 9   <br/> | Décalé du bord droit, masqué  <br/> | Identique à 4 mais la poignée de contrôle n'est pas visible. |**visCtlOffsetMaxHidden** <br/> |
-   
+
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule X Behavior par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
+Pour obtenir une référence à la cellule X Behavior par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez :
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Contrôles.  *nom*  . Contrôles XConwhere.  *nom*  est le nom de la ligne des contrôles. |
-   
-Pour obtenir une référence à la cellule X Behavior par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+| Nom de la cellule :  <br/> | Contrôles. *nom* . XCon où Contrôles.  *nom*  est le nom de la ligne des contrôles. |
+
+Pour obtenir une référence à la cellule X Behavior par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionControls** <br/> |
-| Index de la ligne :  <br/> |**visRowControl** +   *i* où *i* = 0, 1, 2... |
+| Index de la ligne :  <br/> |**visRowControl** +  *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visCtlXCon** <br/> |
-   
-

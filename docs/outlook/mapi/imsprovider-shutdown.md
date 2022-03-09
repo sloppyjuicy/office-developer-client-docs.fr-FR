@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ca1861d-9bc9-485a-9807-a598b869e5a2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 79137939ef6f40704804e5a3499c36cc2271c7fd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 96298673772c49784b574704a31c7dc51f93cd2e
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630529"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374088"
 ---
 # <a name="imsprovidershutdown"></a>IMSProvider::Shutdown
 

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d2d786b-e621-456d-b087-3373df6f8ac5
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9f97e1c33ec463f361afb66dc348fdb23c6d174d
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: d26ebe5328b7c9ada66b14b04b831b892bac2ab5
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461939"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379478"
 ---
 # <a name="iaddrbooknewentry"></a>IAddrBook::NewEntry
 

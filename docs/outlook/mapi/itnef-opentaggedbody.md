@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70d5b34c-85b3-4d1f-860e-2838947ba428
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e198c46ffdc4a1bcc54f41149e68df7569edb702
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: daffc13b9d2e1b1d21f6f89abe33a87b0e766bf5
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595944"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374900"
 ---
 # <a name="itnefopentaggedbody"></a>ITnef::OpenTaggedBody
 
@@ -39,7 +38,7 @@ HRESULT OpenTaggedBody(
 
  _lpMessage_
   
-> [in] Pointeur vers le message auquel le flux est associé. Ce message ne doit pas nécessairement être le même que celui transmis dans l’appel à la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx.](opentnefstreamex.md) 
+> [in] Pointeur vers le message auquel le flux est associé. Ce message ne doit pas nécessairement être le même message que celui transmis dans l’appel à la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) . 
     
  _ulFlags_
   
@@ -47,7 +46,7 @@ HRESULT OpenTaggedBody(
     
 MAPI_CREATE 
   
-> Si une propriété n’existe pas dans le message actuel, elle doit être créée. Si la propriété existe, les données actuelles de la propriété doivent être remplacées par les données du flux Transport-Neutral Encapsulation Format (TNEF). Lorsqu’une implémentation définit l’MAPI_CREATE, elle doit également définir l’MAPI_MODIFY’indicateur.
+> Si une propriété n’existe pas dans le message actuel, elle doit être créée. Si la propriété existe, les données actuelles de la propriété doivent être remplacées par les données du flux TNEF (Transport-Neutral Encapsulation Format). Lorsqu’une implémentation définit l’MAPI_CREATE, elle doit également définir l’MAPI_MODIFY’indicateur.
     
 MAPI_MODIFY 
   
@@ -55,7 +54,7 @@ MAPI_MODIFY
     
  _lppStream_
   
-> [out] Pointeur vers un pointeur vers un objet de flux qui contient le texte de la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) du message encapsulé transmis et qui prend en charge l’interface [IStream.](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) 
+> [out] Pointeur vers un pointeur vers un objet de flux qui contient le texte de la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) du message encapsulé transmis et qui prend en charge l’interface [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -69,9 +68,9 @@ Les fournisseurs de transport, les fournisseurs de magasins de messages et les p
   
 Dans le cadre de son traitement, **OpenTaggedBody** insère ou pare les balises de pièce jointe qui indiquent la position des pièces jointes ou des objets OLE dans le texte du message. Les balises de pièce jointe sont au format suivant : 
   
- **[[** _nom de la pièce_ jointe **:** _n dans_ **le nom** _du conteneur de pièces jointes_ **]]**
+ **[[** _nom de la pièce_ **jointe :** _n dans_ **le nom** _du conteneur de pièces jointes_ **]]**
   
- _le nom de la_ pièce jointe décrit l’objet pièce jointe ;  _n_ est un nombre qui identifie la pièce jointe qui fait partie d’une séquence, incrémentant à partir de la valeur transmise dans le paramètre  _lpKey_ de la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) ; et  _le nom du conteneur de_ pièces jointes décrit le composant physique où réside l’objet pièce jointe. 
+ _le nom de la_ pièce jointe décrit l’objet pièce jointe ;  _n_ est un nombre qui identifie la pièce jointe qui fait partie d’une séquence, incrémentant à partir de la valeur transmise dans le paramètre _lpKey_ de la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) ; et  _le nom du conteneur de_ pièces jointes décrit le composant physique où réside l’objet pièce jointe. 
   
  **OpenTaggedBody** lit le texte du message et insère une balise de pièce jointe là où un objet pièce jointe apparaît dans le texte. Le texte du message d’origine n’est pas modifié. 
   

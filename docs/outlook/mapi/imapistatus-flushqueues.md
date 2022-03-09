@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: d6b01a91-b452-4b2c-9802-698e7b0f4169
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5f85765a2440be83a5aafa900b686b2f6de84aa6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 738d26b633daf656d5f755e68c7078721347a2b2
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584401"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375908"
 ---
 # <a name="imapistatusflushqueues"></a>IMAPIStatus::FlushQueues
 
@@ -44,19 +43,19 @@ HRESULT FlushQueues(
     
  _cbTargetTransport_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpTargetTransport._ Le  _paramètre cbTargetTransport_ est uniquement définie sur les appels à l’objet d’état dupooler MAPI. Pour les appels à un fournisseur de transport, le  _paramètre cbTargetTransport_ est définie sur 0. 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpTargetTransport_ . Le  _paramètre cbTargetTransport_ est uniquement définie sur les appels à l’objet d’état dupooler MAPI. Pour les appels à un fournisseur de transport, le  _paramètre cbTargetTransport_ est définie sur 0. 
     
  _lpTargetTransport_
   
-> [in] Pointeur vers l’identificateur d’entrée du fournisseur de transport qui doit vider ses files d’attente de messages. Le  _paramètre lpTargetTransport est_ uniquement définie sur les appels à l’objet d’état dupooler MAPI. Pour les appels à un fournisseur de transport,  _le paramètre lpTargetTransport_ est définie sur NULL. 
+> [in] Pointeur vers l’identificateur d’entrée du fournisseur de transport qui doit vider ses files d’attente de messages. Le  _paramètre lpTargetTransport_ est uniquement définie sur les appels à l’objet d’état dupooler MAPI. Pour les appels à un fournisseur de transport,  _le paramètre lpTargetTransport_ est définie sur NULL. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle l’opération de purge. Les indicateurs suivants peuvent être définies :
+> [in] Masque de bits d’indicateurs qui contrôle l’opération de  purge. Les indicateurs suivants peuvent être définies :
     
 FLUSH_ASYNC_OK 
   
-> L’opération de purge peut se produire de manière asynchrone. Cet indicateur s’applique uniquement à l’objet d’état dupooler MAPI. 
+> L’opération de  purge peut se produire de manière asynchrone. Cet indicateur s’applique uniquement à l’objet d’état dupooler MAPI. 
     
 FLUSH_DOWNLOAD 
   
@@ -64,7 +63,7 @@ FLUSH_DOWNLOAD
     
 FLUSH_FORCE 
   
-> L’opération de purge doit avoir lieu, malgré le risque de diminution des performances. Cet indicateur doit être définie lorsqu’un fournisseur de transport asynchrone est ciblé.
+> L’opération de  purge doit avoir lieu, malgré le risque de diminution des performances. Cet indicateur doit être définie lorsqu’un fournisseur de transport asynchrone est ciblé.
     
 FLUSH_NO_UI 
   
@@ -72,17 +71,17 @@ FLUSH_NO_UI
     
 FLUSH_UPLOAD 
   
-> Les files d’attente de messages sortants doivent être vidées.
+> Les files d’attente de messages sortantes doivent être vidées.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’opération de purge a réussi.
+> L’opération de  purge a réussi.
     
 MAPI_E_BUSY 
   
-> Une autre opération est en cours ; Il doit être autorisé à se terminer ou arrêté avant que cette opération puisse être lancée.
+> Une autre opération est en cours ; Il doit être autorisé à se terminer, ou doit être arrêté, avant que cette opération puisse être lancée.
     
 MAPI_E_NO_SUPPORT 
   
@@ -94,11 +93,11 @@ La méthode **IMAPIStatus::FlushQueues** demande aupooler MAPI ou à un fourniss
   
 MAPI_E_BUSY les demandes asynchrones doivent être renvoyées afin que les clients continuent à travailler. 
   
-Par défaut, **FlushQueues est** une opération synchrone ; ne revient pas à l’appelant tant que le purgement n’est pas terminé. Seule l’opération de purge effectuée par lepooler MAPI peut être asynchrone ; les clients demandent ce comportement en FLUSH_ASYNC_OK’indicateur. 
+Par défaut, **FlushQueues est** une opération synchrone ; ne revient pas à l’appelant tant que le  purgement n’est pas terminé. Seule l’opération de  purge effectuée par lepooler MAPI peut être asynchrone . les clients demandent ce comportement en FLUSH_ASYNC_OK’indicateur. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-L’implémentation de **FlushQueues** par un fournisseur de transport distant définit des bits dans la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de la ligne d’état de l’objet d’authentification pour contrôler la façon dont les files d’attente sont vidées. Si une visionneuse distante passe dans l’indicateur FLUSH_UPLOAD, la méthode **FlushQueues** doit définir les STATUS_INBOUND_ENABLED et STATUS_INBOUND_ACTIVE bits. Si une visionneuse distante passe dans l’indicateur FLUSH_DOWNLOAD, la méthode **FlushQueues** doit définir les bits STATUS_OUTBOUND_ENABLED et STATUS_OUTBOUND_ACTIVE distants. **FlushQueues** doit ensuite renvoyer S_OK. Lepooler MAPI lance ensuite les actions appropriées pour charger et télécharger des messages. 
+L’implémentation de **FlushQueues** par un fournisseur de transport distant définit des bits dans la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de la ligne d’état de l’objet d’authentification pour contrôler la façon dont les files d’attente sont vidées. Si une visionneuse distante passe dans l’indicateur FLUSH_UPLOAD, la méthode **FlushQueues** doit définir les bits STATUS_INBOUND_ENABLED et STATUS_INBOUND_ACTIVE distants. Si une visionneuse distante passe dans l’indicateur FLUSH_DOWNLOAD, la méthode **FlushQueues** doit définir les bits STATUS_OUTBOUND_ENABLED et STATUS_OUTBOUND_ACTIVE distants. **FlushQueues** doit ensuite renvoyer S_OK. Lepooler MAPI lancera ensuite les actions appropriées pour charger et télécharger des messages. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

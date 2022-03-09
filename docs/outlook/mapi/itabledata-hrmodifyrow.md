@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e255b3e-dd17-4528-ba4e-c3a1aef32b04
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b03d7a18b1013dffde8f9f3d729d655915b01c02
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 00f73db7a365e156aec0ec5efa2cb1d44a983f4a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579732"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380458"
 ---
 # <a name="itabledatahrmodifyrow"></a>ITableData::HrModifyRow
 
@@ -37,7 +36,7 @@ HRESULT HrModifyRow(
 
  _lpSRow_
   
-> [in] Pointeur vers une structure [SRow](srow.md) qui décrit la ligne à ajouter ou à remplacer une ligne existante. L’une des structures de valeurs de propriétés pointées par le membre **lpProps** de la structure **SRow** doit contenir la colonne d’index, la même valeur que celle spécifiée dans le paramètre _ulPropTagIndexColumn_ dans l’appel à la fonction [CreateTable.](createtable.md) 
+> [in] Pointeur vers une structure [SRow](srow.md) qui décrit la ligne à ajouter ou à remplacer une ligne existante. L’une des structures de valeurs de propriétés pointées par le membre **lpProps** de la structure **SRow** doit contenir la colonne d’index, la même valeur que celle spécifiée dans le paramètre _ulPropTagIndexColumn_ dans l’appel à la fonction [CreateTable](createtable.md) . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -51,7 +50,7 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode ITableData::HrModifyRow** insère la ligne décrite par la structure **SRow** pointée par _le paramètre lpSRow._ Si une ligne qui a la même valeur pour sa colonne d’index que la ligne vers qui  _pointe lpSRow_ existe déjà dans le tableau, la ligne existante est remplacée. S’il n’existe aucune ligne qui corresponde à celle incluse dans la structure **SRow,** **HrModifyRow** ajoute la ligne à la fin du tableau. 
+La **méthode ITableData::HrModifyRow** insère la ligne décrite par la structure **SRow** pointée par  _le paramètre lpSRow_ . Si une ligne qui a la même valeur pour sa colonne d’index que la ligne vers qui  _pointe lpSRow_ existe déjà dans le tableau, la ligne existante est remplacée. S’il n’existe aucune ligne qui corresponde à celle incluse dans la structure **SRow** , **HrModifyRow** ajoute la ligne à la fin du tableau. 
   
 Tous les affichages du tableau sont modifiés pour inclure la ligne pointée par  _lpSRow_. Toutefois, si une restriction est en place dans un affichage qui exclut la ligne, il se peut qu’elle ne soit pas visible pour l’utilisateur. 
   

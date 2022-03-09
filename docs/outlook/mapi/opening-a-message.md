@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 142c4975-08df-4501-9996-557aa44eafb3
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d74e26f2968758f31a410a428bd75b70803e5141
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 080ba49f23d08d3de3fbba7fd3cabae8ac1dca99
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555950"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381431"
 ---
 # <a name="opening-a-message"></a>Ouverture d’un message
  
@@ -25,7 +24,7 @@ ms.locfileid: "59555950"
     
    - Ligne qui représente le message dans la table des matières de son dossier parent. Pour plus d’informations sur l’working with a folder contents table, see [Contents Tables](contents-tables.md).
     
-   - Membre **lpEntryID** de la structure [NEWMAIL_NOTIFICATION](newmail_notification.md) envoyée avec une nouvelle notification par courrier électronique. Pour plus d’informations sur la réception et la gestion des notifications, voir [Gestion des notifications.](handling-notifications.md)
+   - Membre **lpEntryID** de la structure [NEWMAIL_NOTIFICATION](newmail_notification.md) envoyée avec une nouvelle notification par courrier électronique. Pour plus d’informations sur la réception et la gestion des notifications, voir [Handling Notifications](handling-notifications.md).
     
    - Appel à la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) du message demandant la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). 
     
@@ -44,7 +43,7 @@ ms.locfileid: "59555950"
   
 ### <a name="to-open-a-message-that-has-been-saved-on-disk"></a>Pour ouvrir un message qui a été enregistré sur disque
   
-1. Appelez **StgOpenStorage** pour récupérer un pointeur d’interface **IStorage,** en passant le nom du fichier de message pour le paramètre _pwcsName._ 
+1. **Appelez StgOpenStorage** pour récupérer un pointeur d’interface **IStorage**, en passant le nom du fichier de message pour le paramètre _pwcsName_. 
     
    ```cpp
     LPSTORAGE pStorage = NULL;
@@ -56,7 +55,7 @@ ms.locfileid: "59555950"
     
    ```
 
-2. Appelez **OpenIMsgOnIStg** pour récupérer un pointeur d’interface **IMessage** pour accéder au message. 
+2. **Appelez OpenIMsgOnIStg pour** récupérer un pointeur d’interface **IMessage** pour accéder au message. 
     
    ```cpp
     LPMESSAGE pMessage = NULL;

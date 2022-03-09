@@ -7,15 +7,14 @@ ms:contentKeyID: 48545706
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: de32ce3ad9c24b27817d89d4456151ae5f64fd4a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 051c6fff2b6035455205db0037e36a21bd3fff8a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612224"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375075"
 ---
 # <a name="errors-collection-ado"></a>Errors, collection (ADO)
-
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -33,8 +32,5 @@ Le jeu d'objets **Error** de la collection **Errors** décrit toutes les erreurs
 
 Certaines propriétés et méthodes renvoient des avertissements qui s'affichent sous la forme d'objets **Error** dans la collection **Errors**, mais qui n'empêchent pas l'exécution d'un programme. Avant d'appeler les méthodes [Resync](resync-method-ado.md), [UpdateBatch](updatebatch-method-ado.md) ou [CancelBatch](cancelbatch-method-ado.md) sur un objet [Recordset](recordset-object-ado.md), la méthode [Open](open-method-ado-connection.md) sur un objet **Connection** ou avant de définir la propriété [Filter](filter-property-ado.md) sur un objet **Recordset**, appelez la méthode **Clear** sur la collection **Errors**. Ceci vous permet de lire la propriété [Count](count-property-ado.md) de la collection **Errors** pour tester les avertissements renvoyés.
 
-
 > [!NOTE]
 > [!REMARQUE] Pour plus d'informations sur la manière dont une seule opération ADO peut générer plusieurs erreurs, voir la rubrique consacrée à l'objet **Error**.
-
-

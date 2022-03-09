@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: fbfe2303-b7bc-456b-b746-37f4f4e3eff7
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ef45a519fb21392b79bd18897954f459933a19a4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 112ca1346671e38bb6e113d875ddbe7503a8dee0
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556230"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380423"
 ---
 # <a name="local-form-libraries"></a>Bibliothèques de formulaires locales
 

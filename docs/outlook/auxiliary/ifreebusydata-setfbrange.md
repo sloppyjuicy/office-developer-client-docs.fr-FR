@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 4e7147ea-0eb0-324a-80d8-4f0eef654c32
 description: Définit la plage de temps pour une éumération des blocs de données de la période de libre/occupé d’un utilisateur.
-ms.openlocfilehash: 9e4c61eedf511dd9852cfe8e0c36cff525964815
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ba78ceed2fe5c586f76fa446a3bef64956131130
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572213"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380997"
 ---
 # <a name="ifreebusydatasetfbrange"></a>IFreeBusyData::SetFBRange
 
@@ -38,18 +38,17 @@ _rtmStart_
 _rtmEnd_
   
 > [in] Valeur d’heure relative pour la fin des informations de libre/occupé. Cette valeur est le nombre de minutes depuis le 1er janvier 1601.
-    
+
 ## <a name="return-values"></a>Valeurs de retour
 
 S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
   
 ## <a name="remarks"></a>Remarques
 
-Cette méthode permet d’indiquer l’plage de temps des éléments de calendrier pour lesquels récupérer des détails. Les valeurs  *de ftmStart*  et  *ftmEnd*  sont mises en cache et renvoyées dans un appel ultérieur de [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
+Cette méthode permet d’indiquer l’plage de temps des éléments de calendrier pour lesquels récupérer des détails. Les valeurs *de ftmStart* et *ftmEnd* sont mises en cache et renvoyées dans un appel ultérieur de [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
   
 ## <a name="see-also"></a>Voir aussi
 
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
 - [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)
 - [Utiliser l’heure relative pour accéder aux données de disponibilité](how-to-use-relative-time-to-access-free-busy-data.md)
-

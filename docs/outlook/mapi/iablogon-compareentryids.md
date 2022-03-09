@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: cb4a38ff-2fdd-40ac-a613-12c3f11a1df9
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ca5474e56a1a72124e6d49bc67329994e6eec04f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 765c251c55c9cf6f64786a4b1fafdf82745c49b6
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571919"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373689"
 ---
 # <a name="iablogoncompareentryids"></a>IABLogon::CompareEntryIDs
 
@@ -42,7 +41,7 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID1._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID1_ . 
     
  _lpEntryID1_
   
@@ -50,7 +49,7 @@ HRESULT CompareEntryIDs(
     
  _cbEntryID2_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID2._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID2_ . 
     
  _lpEntryID2_
   
@@ -76,11 +75,11 @@ MAPI_E_INVALID_ENTRYID
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de carnets d’adresses implémentent la méthode **CompareEntryIDs** pour comparer deux identificateurs d’entrée afin de déterminer s’ils font référence au même objet. 
+Les fournisseurs de carnet d’adresses implémentent la méthode **CompareEntryIDs** pour comparer deux identificateurs d’entrée afin de déterminer s’ils font référence au même objet. 
   
  **CompareEntryIDs est utile** car un objet peut avoir plusieurs identificateurs d’entrée valides ; Une telle situation peut se produire, par exemple, lorsque vous comparez un identificateur d’entrée à court terme à un identificateur d’entrée à long terme. 
   
-Pour plus d’informations sur la création d’identificateurs d’entrée, voir identificateurs d’entrée [MAPI.](mapi-entry-identifiers.md)
+Pour plus d’informations sur la création d’identificateurs d’entrée, voir [identificateurs d’entrée MAPI](mapi-entry-identifiers.md).
   
 ## <a name="see-also"></a>Voir aussi
 

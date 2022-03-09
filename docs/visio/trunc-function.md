@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 62f074ef-5bf8-df1e-d826-fc1027a36501
 description: Renvoie un nombre tronqué au nombre de chiffres spécifié.
-ms.openlocfilehash: ec823efa40f8baef0000c4b719c76198dd402b3a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 41e28aaddf25311fc07a5766fc92a5309c73bf01
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777977"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375768"
 ---
 # <a name="trunc-function"></a>Fonction TRUNC
 
@@ -22,22 +22,22 @@ Renvoie un nombre tronqué au nombre de chiffres spécifié.
   
 ## <a name="syntax"></a>Syntaxe
 
-TRUNC(** *number* **, ** *numberofdigits* ** ) 
+TRUNC(***number** _, _ *_numberofdigits_** )
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Requis  <br/> |**Numérique** <br/> |Nombre à tronquer. |
-| _numberofdigits_ <br/> |Requis  <br/> |**Numérique** <br/> |Nombre de chiffres à _tronqué._ |
-   
+| *number* <br/> |Obligatoire  <br/> |**Numérique** <br/> |Nombre à tronquer. |
+| *numberofdigits* <br/> |Obligatoire  <br/> |**Numérique** <br/> |Nombre de chiffres à *tronqué.* |
+
 ### <a name="return-value"></a>Valeur renvoyée
 
 Numérique.
   
 ## <a name="remarks"></a>Remarques
 
-Si  _numberofdigits_ est supérieur à  _0, le_ nombre est tronqué en  _nombreofdigits_ à droite de la décimale. Si  _le nombreofdigits_ est 0,  _le_ nombre est tronqué à un nombre total. Si  _numberofdigits_ est inférieur à  _0, le_ nombre est tronqué en  _nombreofdigits_ à gauche de la décimale. 
+Si  *numberofdigits* est supérieur à *0, le* nombre est tronqué en _nombreofdigits_ à droite de la décimale. Si la valeur _numberofdigits_ est 0, _number_ est arrondi à l’entier. Si la valeur _numberofdigits_ est inférieure à 0,  _number_ est arrondi au _numberofdigits_ indiqué à gauche du séparateur décimal.
   
 ## <a name="example-1"></a>Exemple 1
 
@@ -57,4 +57,3 @@ TRUNC(123.654,-1)
   
 Renvoie 120.
   
-

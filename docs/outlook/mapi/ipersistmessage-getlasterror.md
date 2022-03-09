@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 32cc3a1f-1310-4788-b0f4-93c1e4940f37
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b82c42eb969c808810a571bd408e7c17b4f25cfe
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ab5648cdf5b424adbf253ed122c81ec81a7d6644
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604767"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374312"
 ---
 # <a name="ipersistmessagegetlasterror"></a>IPersistMessage::GetLastError
 
@@ -47,11 +46,11 @@ HRESULT GetLastError(
     
 MAPI_UNICODE 
   
-> Les chaînes de la structure [MAPIERROR renvoyées](mapierror.md) dans le paramètre  _lppMAPIError_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
+> Les chaînes de la structure [MAPIERROR renvoyées](mapierror.md) dans le paramètre _lppMAPIError_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
     
  _lppMAPIError_
   
-> [out] Pointeur vers un pointeur vers une structure **MAPIERROR** qui contient les informations de version, de composant et de contexte de l’erreur. Le _paramètre lppMAPIError_ peut avoir la valeur NULL si le formulaire ne peut pas fournir les informations appropriées pour une structure **MAPIERROR.** 
+> [out] Pointeur vers un pointeur vers une structure **MAPIERROR** qui contient les informations de version, de composant et de contexte de l’erreur. Le  _paramètre lppMAPIError_ peut avoir la valeur NULL si le formulaire ne peut pas fournir les informations appropriées pour une structure **MAPIERROR** . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -71,9 +70,9 @@ Un appel à **GetLastError** n’affecte pas l’état du formulaire. Lorsque **
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez utiliser la structure **MAPIERROR,** si le formulaire en fournit une, qui est pointée par le paramètre  _lppMAPIError_ uniquement si **GetLastError** renvoie S_OK. Parfois, le formulaire ne peut pas déterminer la dernière erreur ou n’a rien d’autre à signaler à propos de l’erreur. Dans ce cas, le formulaire renvoie un pointeur vers NULL dans  _lppMAPIError_ à la place. 
+Vous pouvez utiliser la structure **MAPIERROR** , si le formulaire en fournit une, qui est pointée par le paramètre  _lppMAPIError_ uniquement si **GetLastError** renvoie S_OK. Parfois, le formulaire ne peut pas déterminer la dernière erreur ou n’a rien d’autre à signaler à propos de l’erreur. Dans ce cas, le formulaire renvoie un pointeur vers NULL dans  _lppMAPIError_ à la place. 
   
-Pour plus d’informations **sur la méthode GetLastError,** voir [MAPI Extended Errors](mapi-extended-errors.md).
+Pour plus d’informations **sur la méthode GetLastError** , voir [MAPI Extended Errors](mapi-extended-errors.md).
   
 ## <a name="see-also"></a>Voir aussi
 

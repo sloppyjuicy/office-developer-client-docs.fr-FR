@@ -12,12 +12,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7f17eb51a0cd1e7dbbafb145d64b2f66716d88f8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b610df8ab1f4b5460554e5434507279ab95785dc
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588937"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380024"
 ---
 # <a name="use-activex-data-objects"></a>Utilisation d’ActiveX Data Objects (ADO)
 
@@ -94,7 +94,7 @@ Le tableau ci-dessous indique les fonctionnalités offertes par chaque composant
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Modifier les propriétés d’une table existante.</p></td>
+<td><p>Modifier les propriétés d’un tableau existant.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p>X</p></td>
@@ -122,7 +122,7 @@ Le tableau ci-dessous indique les fonctionnalités offertes par chaque composant
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Modifier les requêtes ou vues de base SQL stockées.</p></td>
+<td><p>Modifier des requêtes ou des affichages SQL de base stockés.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p>X*</p></td>
@@ -201,12 +201,11 @@ Le tableau ci-dessous indique les fonctionnalités offertes par chaque composant
 </tbody>
 </table>
 
-
 \* Uniquement disponible pour la manipulation de bases de données Microsoft Access. Les versions futures de SQL Provider offriront peut-être cette fonctionnalité dans des projets Microsoft Access (.adp).
 
 \*\* Uniquement disponible pour la manipulation de projets Access.
 
-\*\*\*Bien que le moteur de base de données Access prend en charge certains SQL ANSI 92, il n’est pas encore entièrement conforme à ANSI92.
+\*\*\*Bien que le moteur de base de données Access prend en charge certains SQL ANSI 92, il n’est pas encore entièrement conforme ANSI92.
 
 1 Utilise un **objet Connection** pour référencer la base de données.
 
@@ -216,8 +215,5 @@ Le tableau ci-dessous indique les fonctionnalités offertes par chaque composant
 
 4 Utilise un **objet JetEngine** pour référencer la base de données.
 
-
 > [!NOTE]
 > Contrairement à DAO, les objets ADO et ADOX peuvent effectuer les actions marquées dans des bases de données autres que Jet tant que le fournisseur de ces bases de données prend en charge cette action.
-
-

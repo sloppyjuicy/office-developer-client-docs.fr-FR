@@ -7,12 +7,12 @@ ms:contentKeyID: 48545311
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: eb6e8508d879bcaeaed3352bd15630a6ec12921b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b5452d0de206080b644203c615b40de0bf7b06fb
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615164"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375068"
 ---
 # <a name="recordsetfindlast-method-dao"></a>Recordset.FindLast, méthode (DAO)
 
@@ -24,7 +24,7 @@ Recherche le dernier enregistrement dans un objet **[Recordset](recordset-object
 
 *.* FindLast(***Criteria***)
 
-*expression* Variable qui représente un objet **Recordset**.
+*expression* Variable représentant un objet **Recordset**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -52,7 +52,6 @@ Recherche le dernier enregistrement dans un objet **[Recordset](recordset-object
 </tr>
 </tbody>
 </table>
-
 
 ## <a name="remarks"></a>Remarques
 
@@ -99,7 +98,6 @@ Chacune des méthodes **Find** commence sa recherche à partir de l’emplacemen
 </tbody>
 </table>
 
-
 Lorsque vous utilisez la méthode **FindLast**, le moteur de base de données Microsoft Access remplit entièrement votre objet **Recordset** avant de lancer la recherche, si cela n'a pas déjà été fait.
 
 L’utilisation de l’une des méthodes **Find** n’équivaut pas à utiliser une méthode **Move**, qui ne fait que rendre actif l’enregistrement initial, final, suivant ou précédent sans spécifier de condition. Vous pouvez faire suivre une opération Find d’une opération Move.
@@ -117,10 +115,8 @@ Vous devez utiliser un format de date américain (mois-jour-année) lorsque vous
         & Format(mydate, 'm-d-yy' ) & "#" 
 ```
 
-Si les critères se composent d’une chaîne concaténée comportant une valeur non entière, et que les paramètres système spécifient un caractère décimal d’un format différent de celui des États-Unis, tel qu’une virgule (par exemple, strSQL = "PRICE \> " & lngPrice, et lngPrice = 125,50), une erreur se produit lorsque vous tentez d’appeler la méthode. Il s’agit, car lors de la concaténation, le nombre est converti en une chaîne à l’aide du caractère décimal par défaut de votre système et Microsoft Access SQL accepte uniquement des caractères décimaux américains.
+Si les critères sont composés d’une chaîne concaténée avec une valeur non entière, et que les paramètres système indiquent un caractère décimal non américain, comme une virgule (par exemple, strSQL = "PRICE \> " & lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous tentez d’appeler la méthode. Ceci est dû au fait que, lors de la concaténation, le nombre sera converti en chaîne à l’aide du caractère décimal par défaut de votre système, et Microsoft Access SQL accepte uniquement les caractères décimaux américains.
 
 > [!NOTE]
-> - Pour des performances optimales, les *critères* doivent être au format «*champ* = *valeur*» où *champ* est un champ indexé dans la table de base sous-jacente, ou au format «*champ* LIKE *préfixe*» où *champ* est un champ indexé dans la table de base sous-jacente et *préfixe* une chaîne de recherche de préfixe (par exemple, « ART* »).
-> - En général, pour des types de recherches équivalents, la méthode **Seek** offre de meilleures performances que les méthodes **Find**. Cela suppose que les objets **Recordset** de type table suffisent à répondre à vos besoins.
-
-
+> Pour des performances optimales, les *critères* doivent être au format «*champ* = *valeur*» où *champ* est un champ indexé dans la table de base sous-jacente, ou au format «*champ* LIKE *préfixe*» où *champ* est un champ indexé dans la table de base sous-jacente et *préfixe* une chaîne de recherche de préfixe (par exemple, « ART* »).
+> En règle générale, pour des types de recherches équivalents, la méthode **Seek** offre de meilleures performances que la méthode **Find**. Cela suppose que les objets **Recordset** de type table peuvent à eux seuls répondre à vos besoins.

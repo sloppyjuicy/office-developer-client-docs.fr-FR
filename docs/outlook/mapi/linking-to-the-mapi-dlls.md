@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 19fd4678-21d3-47a6-a439-1d4959cac407
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 10fa531c8ef11fb14a344957928b20728d39eba7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 178fd52e4390b59622414c8ce65a918eb9fdd1ff
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584177"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379386"
 ---
 # <a name="linking-to-the-mapi-dlls"></a>Liaison aux fichiers DLL MAPI
 
@@ -21,7 +20,7 @@ ms.locfileid: "59584177"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les clients MAPI peuvent établir un lien vers les DLL MAPI implicitement ou explicitement à l’aide des fonctions Windows **LoadLibrary** et **GetProcAddress**. Pour plus d’informations sur la liaison explicite des DLL MAPI, voir Lien vers les [fonctions MAPI.](how-to-link-to-mapi-functions.md)
+Les clients MAPI peuvent établir un lien vers les DLL MAPI implicitement ou explicitement à l’aide des fonctions Windows **LoadLibrary** et **GetProcAddress**. Pour plus d’informations sur la liaison explicite des DLL MAPI, voir [Lien vers les fonctions MAPI](how-to-link-to-mapi-functions.md).
   
 MAPI fournit des instructions de définition de type dans MAPIX. Fichier d’en-tête H pour chacune des fonctions suivantes :
   

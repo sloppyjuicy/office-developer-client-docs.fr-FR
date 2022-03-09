@@ -7,12 +7,12 @@ ms:contentKeyID: 48546923
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6b63a5d75bf4bc5d38e2b3efa3f53da5b221139b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 54ba89d7d0e6f6ac2c773b1b65ccbb83aaccc34e
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558155"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375257"
 ---
 # <a name="overview-of-multidimensional-schemas-and-data"></a>Vue d’ensemble des données et des schémas multidimensionnels
 
@@ -43,11 +43,11 @@ La dimension Géographie est constituée des membres suivants :
 ```text
  
 {All, North America, Europe, Canada, USA, UK, Germany, Canada-West, 
-Canada-East, USA-NW, USA-SW, USA-NE, USA-SE, England, Scotland,  
-Wales,Ireland, Germany-North, Germany-South, Ottawa, Toronto,  
-Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston,  
-Shreveport, Miami, Boston, New York, London, Dover, Glasgow,  
-Edinburgh, Cardiff, Pembroke, Belfast, Berlin,  
+Canada-East, USA-NW, USA-SW, USA-NE, USA-SE, England, Scotland, 
+Wales,Ireland, Germany-North, Germany-South, Ottawa, Toronto, 
+Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, 
+Shreveport, Miami, Boston, New York, London, Dover, Glasgow, 
+Edinburgh, Cardiff, Pembroke, Belfast, Berlin, 
 Hamburg, Munich, Stuttgart} 
 ```
 
@@ -61,16 +61,16 @@ Dans l'exemple de la dimension Géographie de l'illustration précédente, chaqu
 
 Chaque niveau est constitué de membres, comme suit :
 
-  - Monde = {All}
+- Monde = {All}
 
 
-  - Continents = {Amérique du Nord, Europe}
+- Continents = {Amérique du Nord, Europe}
 
-  - Pays = {Canada, États-Unis, Royaume-Uni, Allemagne}
+- Pays = {Canada, États-Unis, Royaume-Uni, Allemagne}
 
-  - Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Royaume-Uni, Irlande, Allemagne-Nord, Allemagne-Nord, Allemagne-Sud}
+- Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Royaume-Uni, Irlande, Allemagne-Nord, Allemagne-Sud}
 
-  - Cities = {Ottawa, Toronto, Vancouver, Seattle, Seattle, Jeux, Los Seattle, États-Unis, Magasins, Shreveport, Magasins, New York, Londres, Dover, Jeux, Positions, Position, Position, Position, Berlin, Centre d’actualités, Centre d’actualités, États-Unis, États-Unis}
+- Cities = {Ottawa, Toronto, Vancouver, Seattle, Seattle, Jeux, Los Seattle, Magasins, Shreveport, Centre d’actualités, États-Unis, États-Unis, New York, Londres, Dover, Jeux, Magasins, Magasins, Magasins, Beapa, Berlin, Centre d’actualités, États-Unis, États-Unis}
 
 ## <a name="members"></a>Members
 
@@ -83,4 +83,4 @@ Les membres inférieurs d’une hiérarchie n’ont pas d’enfants et les membr
 
 Les membres peuvent faire partie d'une ou plusieurs hiérachies par dimension.
 
-Cet exemple illustre également une autre caractéristique : certains membres du niveau Week de la hiérarchie Year-Week n’apparaissent dans aucun niveau de la Year-Quarter hiérarchique. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
+Cet exemple illustre également une autre caractéristique : certains membres du niveau Week de la hiérarchie Year-Week n’apparaissent dans aucun niveau de la hiérarchie Year-Quarter. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.

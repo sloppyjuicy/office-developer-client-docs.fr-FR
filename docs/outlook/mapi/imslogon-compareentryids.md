@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 481812d6-8e94-4510-b288-55501dd5757c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 984be94199e5cf5f10c9231d6efaf2d04079f84c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0af3416ab5c06733833159a65a425673505a4d93
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556370"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379457"
 ---
 # <a name="imslogoncompareentryids"></a>IMSLogon::CompareEntryIDs
 

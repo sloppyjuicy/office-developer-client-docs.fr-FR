@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0c46c1fb-dd63-4ac5-960e-80f68e75d8f4
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4dc0784f5dec810abcd8bb763fbf1e1417d3446a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f997a03054308e2ee4afdadc22fad4ec957f8f4a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596371"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380220"
 ---
 # <a name="imapicontaineropenentry"></a>IMAPIContainer::OpenEntry
 
@@ -42,7 +41,7 @@ HRESULT OpenEntry(
 
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -50,7 +49,7 @@ HRESULT OpenEntry(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’objet. La transmission DE NULL entraîne le retour de l’identificateur de l’interface standard de l’objet. Pour les messages, l’interface standard [est IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md); pour les dossiers, il [s’agit de IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Les interfaces standard pour les objets de carnet d’adresses sont [IDistList : IMAPIContainer](idistlistimapicontainer.md) pour une liste de distribution et [IMailUser : IMAPIProp](imailuserimapiprop.md) pour un utilisateur de messagerie. 
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’objet. La transmission DE NULL entraîne le retour de l’identificateur de l’interface standard de l’objet. Pour les messages, l’interface standard [est IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md); pour les dossiers, il s’agit [de IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Les interfaces standard pour les objets de carnet d’adresses sont [IDistList : IMAPIContainer](idistlistimapicontainer.md) pour une liste de distribution et [IMailUser : IMAPIProp](imailuserimapiprop.md) pour un utilisateur de messagerie. 
     
  _ulFlags_
   
@@ -66,11 +65,11 @@ MAPI_DEFERRED_ERRORS
     
 MAPI_MODIFY 
   
-> Demande une autorisation de lecture/écriture. Par défaut, les objets sont ouverts avec un accès en lecture seule et les clients ne doivent pas travailler sur l’hypothèse que l’autorisation lecture/écriture a été accordée. 
+> Demande une autorisation de lecture/écriture. Par défaut, les objets sont ouverts avec un accès en lecture seule et les clients ne doivent pas fonctionner sur l’hypothèse que l’autorisation lecture/écriture a été accordée. 
     
 SHOW_SOFT_DELETES
   
-> Affiche les éléments actuellement marqués comme supprimés (supprimés (supprimés( en d’autres cas), ils sont dans la phase de rétention des éléments supprimés.
+> Affiche les éléments qui sont actuellement marqués comme supprimés (supprimés (supprimés( en d’autres cas), ils sont dans la phase de rétention des éléments supprimés.
     
  _lpulObjType_
   
@@ -96,7 +95,7 @@ MAPI_E_NOT_FOUND
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L’identificateur d’entrée dans  _le paramètre lpEntryID_ n’est pas d’un format reconnu par le conteneur. 
+> L’identificateur d’entrée dans _le paramètre lpEntryID_ n’est pas d’un format reconnu par le conteneur. 
     
 ## <a name="remarks"></a>Remarques
 
@@ -104,9 +103,9 @@ La **méthode IMAPIContainer::OpenEntry** ouvre un objet dans un conteneur et re
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Étant donné que les fournisseurs de services ne sont pas tenus de retourner une implémentation d’interface du type spécifié par l’identificateur d’interface dans le paramètre _lpInterface,_ vérifiez la valeur pointée par le paramètre _lpulObjType._ Si nécessaire, cast le pointeur renvoyé dans  _lppUnk_ vers un pointeur du type approprié. 
+Étant donné que les fournisseurs de services ne sont pas tenus de retourner une implémentation d’interface du type spécifié par l’identificateur d’interface dans le paramètre _lpInterface_ , vérifiez la valeur pointée par le paramètre  _lpulObjType_ . Si nécessaire, cast le pointeur renvoyé dans  _lppUnk_ vers un pointeur du type approprié. 
   
-Par défaut, les fournisseurs de services ouvrent des objets avec un accès en lecture seule, sauf si vous définissez l’MAPI_MODIFY ou MAPI_BEST_ACCESS’indicateur. Lorsque l’un de ces indicateurs est définie, les fournisseurs de services tentent de renvoyer un objet modifiable. Toutefois, ne supposez pas que, étant donné que vous avez demandé un objet modifiable, l’objet ouvert dispose d’une autorisation de lecture/écriture. Planifiez la possibilité qu’une modification ultérieure échoue ou récupérez la propriété **PR_ACCESS_LEVEL** de l’objet pour déterminer le niveau d’accès accordé par **OpenEntry**.
+Par défaut, les fournisseurs de services ouvrent des objets avec un accès en lecture seule, sauf si vous définissez l’MAPI_MODIFY ou MAPI_BEST_ACCESS’indicateur. Lorsque l’un de ces indicateurs est définie, les fournisseurs de services tentent de renvoyer un objet modifiable. Toutefois, ne supposez pas que, étant donné que vous avez demandé un objet modifiable, l’objet ouvert dispose d’une autorisation de lecture/écriture. Planifiez l’échec d’une modification ultérieure ou récupérez la propriété **PR_ACCESS_LEVEL** de l’objet pour déterminer le niveau d’accès accordé par **OpenEntry**.
   
 ## <a name="see-also"></a>Voir aussi
 

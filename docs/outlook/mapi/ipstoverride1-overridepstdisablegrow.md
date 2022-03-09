@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: ea8c003f-91d6-4641-aff9-fcf807150c6f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 33f76190182f78707333509244a927a0748ac48f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c9db75b5bd8fe44a95cf5e6bcaa867cae2a2e75a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596000"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381186"
 ---
 # <a name="ipstoverride1overridepstdisablegrow"></a>IPSTOVERRIDE1::OverridePSTDisableGrow
 

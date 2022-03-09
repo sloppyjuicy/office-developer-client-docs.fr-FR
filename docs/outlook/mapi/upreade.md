@@ -7,19 +7,18 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: d146ee74-0c3a-5fdd-b1aa-af6498550801
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d096c9f50efa4590dc6a6f4fb0fd2f79329e6189
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5d42b6ba42b7a5a87185c981fc53ddb87cca3820
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629458"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379590"
 ---
 # <a name="upreade"></a>UPREADE
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations étendues pour le chargement de l’état de lecture d’un élément pendant l’état de [lecture du chargement.](upload-read-status-state.md)
+Informations étendues pour le chargement de l’état de lecture d’un élément pendant l’état de [lecture du chargement](upload-read-status-state.md).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,7 +34,7 @@ struct UPREADE
 
 _ulFlags_
   
->  [out]/[in] Indicateurs pour déterminer le comportement approprié pendant le chargement. 
+> [out]/[in] Indicateurs pour déterminer le comportement approprié pendant le chargement. 
     
   - UPR_ASSOC
     

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 169add60-06b1-4e17-b577-a67cc6c0987c
 description: Compare deux expressions. Lorsque vous comparez des expressions non null, le résultat est TRUE si l’opérande gauche a une valeur inférieure à l’opérande droit ; Sinon, le résultat est FALSE.
-ms.openlocfilehash: 2e2c90c973218b7107b7b7c7b298245ab0124dff
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 180aeeae78b2999d8677bf3cb5d919cf9aae1b32
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180396"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374543"
 ---
 # <a name="less-than-access-custom-web-app"></a>Less Than (Application web personnalisée Access)
 
@@ -25,7 +25,7 @@ Compare deux expressions. Lorsque vous comparez des expressions non null, le ré
 
 `< (Less Than)`
 
-*expression*  \<  *expression* 
+*expression*  \< *expression* 
   
 *expression*  représente toute expression valide. Les deux expressions doivent avoir des types de données implicitement convertibles. La conversion varie en fonction des règles de priorité des types de données. 
   

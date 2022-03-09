@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c327e31a-7b62-4e21-9b69-b27442f1eaca
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6b9fbb2eae00357fdc99965b2668f74246d44dd4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 32b67402c3347ed1b4944bd70df88c44db816594
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620813"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381522"
 ---
 # <a name="imapiviewadvisesinkonsaved"></a>IMAPIViewAdviseSink::OnSaved
 
@@ -43,7 +42,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Un objet de formulaire appelle la méthode **IMAPIViewAdviseSink::OnSaved** une fois que le message en cours dans un formulaire a été enregistré avec succès. Cela permet aux visiteurs de mettre à jour leurs fenêtres pour refléter les modifications apportées au message. 
+Un objet de formulaire appelle la méthode **IMAPIViewAdviseSink::OnSaved** une fois que le message en cours dans un formulaire a été enregistré. Cela permet aux visiteurs de mettre à jour leurs fenêtres pour refléter les modifications apportées au message. 
   
 Pour plus d’informations sur les notifications de formulaire, voir [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   

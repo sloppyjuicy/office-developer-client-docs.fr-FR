@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 923fb879-5f32-4fe2-8920-2ec17002256c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 914b1fb1d9cae010b3ac59ad566705d1beae6eab
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1ca9df5ac30ab1926fd818eadc9d024d0f4fdca2
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567401"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381529"
 ---
 # <a name="imapisupportwrapstoreentryid"></a>IMAPISupport::WrapStoreEntryID
 
@@ -40,7 +39,7 @@ LPENTRYID FAR * lppWrappedEntry
 
  _cbOrigEntry_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpOrigEntry._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpOrigEntry_ . 
     
  _lpOrigEntry_
   
@@ -48,7 +47,7 @@ LPENTRYID FAR * lppWrappedEntry
     
  _lpcbWrappedEntry_
   
-> [out] Pointeur vers le nombre d’byte dans l’identificateur d’entrée pointé par _le paramètre lppWrappedEntry._ 
+> [out] Pointeur vers le nombre d’byte dans l’identificateur d’entrée pointé par  _le paramètre lppWrappedEntry_ . 
     
  _lppWrappedEntry_
   
@@ -62,15 +61,15 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::WrapStoreEntryID** est implémentée pour tous les objets de support du fournisseur de services. Les fournisseurs de services **utilisent WrapStoreEntryID** pour que MAPI génère un identificateur d’entrée pour une magasin de messages qui encapsule l’identificateur d’entrée interne de la boutique. 
+La **méthode IMAPISupport::WrapStoreEntryID** est implémentée pour tous les objets de prise en charge du fournisseur de services. Les fournisseurs de services **utilisent WrapStoreEntryID** pour que MAPI génère un identificateur d’entrée pour une magasin de messages qui encapsule l’identificateur d’entrée interne de la boutique. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsqu’un client appelle la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) de votre banque de messages pour récupérer sa propriété **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)), et que votre banque de messages utilise un identificateur d’entrée dans un format privé, appelez **WrapStoreEntryID** et renvoyez l’identificateur d’entrée pointé par le paramètre _lppWrappedEntry._ 
+Lorsqu’un client appelle la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) de votre banque de messages pour récupérer sa propriété **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) et que votre banque de messages utilise un identificateur d’entrée dans un format privé, appelez **WrapStoreEntryID** et renvoyez l’identificateur d’entrée pointé par le paramètre  _lppWrappedEntry_ . 
   
 Les appels aux méthodes [IMSProvider::Logon](imsprovider-logon.md) et [IMSLogon::CompareEntryIDs](imslogon-compareentryids.md) obtiennent toujours l’identificateur d’entrée privée du magasin ; La version wrapped est utilisée uniquement entre les applications clientes et MAPI. 
   
-Libérez la mémoire de l’identificateur d’entrée pointé par le paramètre  _lppWrappedEntry_ à l’aide de la [fonction MAPIFreeBuffer](mapifreebuffer.md) lorsque vous avez terminé d’utiliser l’identificateur d’entrée. 
+Libérez la mémoire de l’identificateur d’entrée pointé par le paramètre  _lppWrappedEntry_ à l’aide de la fonction [MAPIFreeBuffer](mapifreebuffer.md) lorsque vous avez terminé d’utiliser l’identificateur d’entrée. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 36374d78-1028-bd7f-6282-66555ee31306
 description: Limite la valeur d’une cellule à une plage ou à un ensemble de plages.
-ms.openlocfilehash: ce1fbfedf7e1f7875c6808b7b110a1ca25dc3f73
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e42bfadc64eb016e31b4989e25c59641d9337f39
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781043"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63373584"
 ---
 # <a name="bound-function"></a>Fonction BOUND
 
@@ -28,17 +28,17 @@ BOUND (***value**_, _*_type_*_, _*_ignore_*_, _*_value1_*_, _*_value2_*_ _*_[,ig
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _value_ |Requis |**Numérique** |Valeur actuelle limitée. |
-| _type_ |Obligatoire |**Numérique** |Indique si la contrainte est inclusive (0), exclusive (1) ou désactivée (2). |
-| _ignore_ |Obligatoire |**Booléen** | TRUE pour ignorer la plage ; FALSE pour limiter la valeur de la cellule à la plage. |
-| _value1_ |Requis |**Numérique** |Première valeur d’une plage. |
-| _value2_ |Requis |**Numérique** |Deuxième valeur d’une plage. |
+| *value* |Obligatoire |**Numérique** |Valeur actuelle limitée. |
+| *type* |Obligatoire |**Numérique** |Indique si la contrainte est inclusive (0), exclusive (1) ou désactivée (2). |
+| *ignore* |Obligatoire |**Booléen** | TRUE pour ignorer la plage ; FALSE pour limiter la valeur de la cellule à la plage. |
+| *value1* |Obligatoire |**Numérique** |Première valeur d’une plage. |
+| *value2* |Requis |**Numérique** |Deuxième valeur d’une plage. |
 
 ## <a name="remarks"></a>Remarques
 
 Utilisez la fonction BOUND pour restreindre la valeur d’une cellule à une limite supérieure et inférieure, par exemple, pour contrôler des objets qui ne devraient pas être étirés au delà ou en deçà d’une hauteur minimale ou maximale. La contrainte peut être inclusive ou exclusive par rapport aux plages. Si la valeur actuelle ne doit pas être limitée, définissez le paramètre *type* sur 2 (désactivé).
   
-Vous pouvez définir plusieurs plages en fournissant plusieurs occurrences des paramètres *ignore*, *value1* et *value2*. Utilisez le  *paramètre Ignore* pour désactiver les contraintes d’une plage particulière.
+Vous pouvez définir plusieurs plages en fournissant plusieurs occurrences des paramètres *ignore*, *value1* et *value2*. Utilisez le paramètre *ignore* pour désactiver les contraintes fixées à une plage donnée.
   
 La formule contenant la fonction BOUND n’est pas écrasée lorsque sa valeur change ; la formule est au contraire préservée et la nouvelle valeur est placée dans le paramètre *value*.
   

@@ -11,15 +11,14 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: b6a4a9cb420911bc5220e43abd1753eceb14d2e2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 30079639d879532536c37ee16c2e09b005253d93
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589623"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380598"
 ---
 # <a name="equivalent-ansi-sql-data-types"></a>Types de données équivalents ANSI SQL
-
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -140,8 +139,6 @@ Le tableau suivant répertorie les types de données ANSI SQL, leurs équivalent
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > - Le type de données BIT ANSI SQL ne correspond pas au type de données BIT Microsoft Access SQL. En revanche, il correspond au type de données BINARY. Il n'existe aucun équivalent ANSI SQL pour le type de données BIT Microsoft Access SQL.
 > - TIMESTAMP n'est plus reconnu comme synonyme de DATETIME.
@@ -150,5 +147,3 @@ Le tableau suivant répertorie les types de données ANSI SQL, leurs équivalent
 > - Si le nom du type de données TEXT est utilisé sans que la longueur facultative soit spécifiée, par exemple TEXT(25), un champ LONGTEXT est créé. Des [instructions CREATE TABLE](create-table-statement-microsoft-access-sql.md) sont alors créées pour produire des types de données cohérents avec Microsoft SQL Server.
 > - Un champ CHAR est toujours stocké dans le format de représentation Unicode qui est l'équivalent du type de données NATIONAL CHAR ANSI SQL.
 > - Si le nom du type de données TEXT est utilisé et si la longueur facultative est spécifiée, par exemple TEXT(25), le type de données du champ est équivalent au type de données CHAR. Ceci permet d'assurer la compatibilité avec les anciennes versions de la plupart des applications Microsoft Jet et d'aligner le type de données TEXT (sans spécification de longueur) avec Microsoft SQL Server.
-
-

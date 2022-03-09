@@ -9,16 +9,16 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: cc46f91e-733f-e25a-17d2-19df8c8febd2
 description: Renvoie la sous-stration à l’index d’emplacement de base zéro dans la liste délimitée par le délimiteur. Ou, si l’index est en dehors de la plage, renvoie une chaîne vide ou le jeton facultatif fourni en tant qu’argument valeur d’erreur.
-ms.openlocfilehash: 49a944d120927ff760de014e29d8d584db4c2ad5
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3786a6784b2d24288465388acba1fead3974ef41
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774194"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381368"
 ---
 # <a name="index-function"></a>Fonction INDEX
 
-Renvoie la sous-stration à  _l’index_ d’emplacement de base zéro dans la _liste_ délimitée par  _le délimiteur_. Ou, si l’index est en dehors de la plage, renvoie une chaîne vide ou le jeton facultatif fourni en tant qu’argument  *valeur d’erreur*  . 
+Renvoie la sous-stration à  _l’index_ d’emplacement de base zéro dans la _liste_ délimitée par  _le délimiteur_. Ou, si l’index est en dehors de la plage, renvoie une chaîne vide ou le jeton facultatif fourni en tant qu’argument  *valeur d’erreur* . 
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,8 +28,8 @@ INDEX(** *index* **, » ** *list* ** « [,[ ** *delimiter* ** ][,[ ** *errorva
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _index_ <br/> |Requis  <br/> |**Number** <br/> |Emplacement à localiser. |
-| _list_ <br/> |Requis  <br/> |**String** <br/> |Liste dans laquelle effectuer la recherche. |
+| _index_ <br/> |Obligatoire  <br/> |**Number** <br/> |Emplacement à localiser. |
+| _liste_ <br/> |Obligatoire  <br/> |**String** <br/> |Liste dans laquelle effectuer la recherche. |
 | _delimiter_ <br/> |Facultatif  <br/> |**Chaîne** <br/> | Chaîne à utiliser comme délimiteur dans la  _liste_. Une  _chaîne de délimiteur_ peut comporter plusieurs caractères et inclure des caractères à plusieurs octets. La valeur par défaut est le point-virgule. |
 | _errorvalue_ <br/> |Facultatif  <br/> |**Number** <br/> | Valeur définie par l’utilisateur renvoyée si l’index est hors des limites admises. La valeur par défaut est une chaîne vide. |
    

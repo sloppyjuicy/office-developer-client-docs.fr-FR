@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: a13c6757-358f-421a-9a76-de7483501613
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 95a361a44d4714365b9d8b379a0d7f1cb3f85f27
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 44012b610045ea027c8bbe4a5e7e43a4bfa2f9bb
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571688"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375460"
 ---
 # <a name="imsgserviceadmincopymsgservice"></a>IMsgServiceAdmin::CopyMsgService
 
@@ -51,11 +50,11 @@ HRESULT CopyMsgService(
     
  _lpInterfaceToCopy_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à la section de profil du service de message à copier. Transmission de résultats NULL dans l’interface de section de profil standard, [IProfSect](iprofsectimapiprop.md), en cours d’utilisation.
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à la section de profil du service de message à copier. La transmission DE NULL entraîne l’utilisation de l’interface de section de profil standard [, IProfSect](iprofsectimapiprop.md).
     
  _lpInterfaceDst_
   
-> [in] Pointeur vers l’IID qui représente l’interface à utiliser pour accéder à l’objet pointé par le paramètre _lpObjectDst._ Transmission de résultats NULL dans l’interface de session, [IMAPISession](imapisessioniunknown.md), en cours d’utilisation. Le  _paramètre lpInterfaceDst_ peut également être IID_IMsgServiceAdmin. 
+> [in] Pointeur vers l’IID qui représente l’interface à utiliser pour accéder à l’objet pointé par le paramètre  _lpObjectDst_ . Transmission de résultats NULL dans l’interface de session, [IMAPISession](imapisessioniunknown.md), en cours d’utilisation. Le  _paramètre lpInterfaceDst_ peut également être IID_IMsgServiceAdmin. 
     
  _lpObjectDst_
   
@@ -89,9 +88,9 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMsgServiceAdmin::CopyMsgService** copie un service de message dans un profil, le profil actif ou un autre profil. Le profil qui contient le service de message à copier et la destination n’ont pas besoin d’être identiques, mais ils peuvent l’être. 
+La **méthode IMsgServiceAdmin::CopyMsgService** copie un service de message dans un profil, le profil actif ou un autre profil. Le profil qui contient le service de message à copier et la destination ne doivent pas être du même profil, mais ils peuvent l’être. 
   
-La fonction de point d’entrée du service de message n’est pas appelée pour une opération de copie. Le service de message copié possède les mêmes paramètres de configuration que son original. Pour modifier ces paramètres, un client doit appeler la méthode [IMsgServiceAdmin::ConfigureMsgService.](imsgserviceadmin-configuremsgservice.md) 
+La fonction de point d’entrée du service de message n’est pas appelée pour une opération de copie. Le service de message copié a les mêmes paramètres de configuration que son original. Pour modifier ces paramètres, un client doit appeler la méthode [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) . 
   
 ## <a name="see-also"></a>Voir aussi
 

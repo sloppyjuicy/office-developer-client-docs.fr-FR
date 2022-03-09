@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: febb6a5e-7c40-4f21-806e-7f827d1c37cf
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 1eec1e3e5d18f048146ecbbf019f5e65b592ccab
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5c6cd04e6d5a459df9806c0c281b4d5f35001ae4
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575343"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380983"
 ---
 # <a name="ole-attachments"></a>Pi�ces jointes OLE
 

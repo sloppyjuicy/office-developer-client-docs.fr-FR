@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 303c9dcb-f9b5-4cea-b5f2-3eba01aa3b09
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 808bf3b934e05d4f7d856986fa5ead299a247d05
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: abcd4562f33cc38d552f89f12fca9da6db0fb857
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630522"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375194"
 ---
 # <a name="installing-a-form-into-a-library"></a>Installation d’un formulaire dans une bibliothèque
 
@@ -33,14 +32,14 @@ Si vous implémentez une application d’installation, la série d’actions qu�
     
     Les étapes 4 à 6 sont pour l’installation dans une bibliothèque de formulaires locale :
     
-4. Copiez tous les fichiers à l’endroit approprié sur le disque local, si l’installation se fait dans la bibliothèque de formulaires locale sur la station de travail de l’utilisateur. Si nécessaire, modifiez le fichier de configuration du formulaire pour qu’il reflète les chemins d’accès actuels des composants. Le fichier de configuration du formulaire peut contenir des chemins d’accès relatifs, auquel cas cette étape n’est peut-être pas nécessaire.
+4. Copiez tous les fichiers à l’endroit approprié sur le disque local, si l’installation se fait dans la bibliothèque de formulaires locale sur la station de travail de l’utilisateur. Si nécessaire, modifiez le fichier de configuration du formulaire pour refléter les chemins d’accès actuels des composants. Le fichier de configuration du formulaire peut contenir des chemins d’accès relatifs, auquel cas cette étape n’est peut-être pas nécessaire.
     
 5. Effectuer les étapes d’inscription OLE appropriées pour associer le type de message au serveur de formulaire en cours d’installation.
     
 6. Si le formulaire a été installé dans la bibliothèque de formulaires locale, copiez les fichiers d’icône (.ico) et de configuration (.cfg) du formulaire dans le répertoire %WINDOWS%\FORMS\CONFIGS afin que le formulaire puisse être automatiquement restauré au cas où la bibliothèque de formulaires serait endommagée ou supprimée. Cette étape est recommandée, mais pas obligatoire.
     
 > [!NOTE]
-> Vous pouvez simplifier l’installation dans une bibliothèque de formulaires locale en remplaçant les étapes 1 et 2 par un appel à la fonction [MAPIOpenLocalFormContainer.](mapiopenlocalformcontainer.md) 
+> Vous pouvez simplifier l’installation dans une bibliothèque de formulaires locale en remplaçant les étapes 1 et 2 par un appel à la fonction [MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md) . 
   
 ## <a name="see-also"></a>Voir aussi
 

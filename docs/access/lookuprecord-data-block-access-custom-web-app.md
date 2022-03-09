@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 001899f7-5b1a-4c0b-a0e4-e01985eea818
 description: Un bloc de données RechercherEnregistrement effectue un ensemble d'actions sur un enregistrement spécifique.
-ms.openlocfilehash: 44146de688b0c45b1f1e8beea3fa7082345e043e
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 370cb34244c9b7b0b95f27c1cb181764fb34da4c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780322"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381886"
 ---
 # <a name="lookuprecord-data-block-access-custom-web-app"></a>LookupRecord Data Block (Access custom web app)
 

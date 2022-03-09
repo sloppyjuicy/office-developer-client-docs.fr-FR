@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3899c49c-a0ec-4dca-92e8-e801cd4908cf
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3d16b6fad12091b6e5abe3f467dff18959459fd8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d0f72d93c793f2caacf7a77d5fe9810429b3cff6
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596077"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380227"
 ---
 # <a name="imapisupportdoconfigpropsheet"></a>IMAPISupport::DoConfigPropsheet
 
@@ -25,7 +24,7 @@ ms.locfileid: "59596077"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Affiche une feuille de propriétés de configuration.
+Affiche une feuille des propriétés de configuration.
   
 ```cpp
 HRESULT DoConfigPropsheet(
@@ -62,7 +61,7 @@ HRESULT DoConfigPropsheet(
     
  _ulTopPage_
   
-> [in] Index de base zéro vers la page supérieure par défaut de la feuille des propriétés.
+> [in] Index de base 0 vers la page supérieure par défaut de la feuille des propriétés.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -74,7 +73,7 @@ S_OK
 
 La **méthode IMAPISupport::D oConfigPropsheet** est implémentée pour tous les objets de prise en charge. **DoConfigPropSheet** fournit une interface utilisateur standard pour l’affichage des propriétés des fournisseurs de services et des services de messagerie. Vous devez utiliser cette boîte de dialogue standard pour tous les affichages de propriété de configuration afin que les utilisateurs bénéficient d’une interface Windows cohérente. 
   
-Les fournisseurs de services **appellent DoConfigPropSheet** dans le cadre de leur implémentation de la méthode [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) ou à partir d’un bouton utilisé pour afficher des détails sur les propriétés. Les services de messages **appellent DoConfigPropSheet à** partir de leur fonction de point d’entrée de service de message. 
+Les fournisseurs de services **appellent DoConfigPropSheet** dans le cadre de leur implémentation de la méthode [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) ou à partir d’un bouton utilisé pour afficher des détails sur les propriétés. Les services de message **appellent DoConfigPropSheet à partir de** leur fonction de point d’entrée de service de message. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: dceb21b1-be5e-418d-b0c9-db39195fc82e
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 69b371f5fda78159ff3626148cbc6ef32370a263
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e20c154fb05fc722959fb169d26e467ff0914e1d
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551351"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379681"
 ---
 # <a name="imapiformfactorycreateclassfactory"></a>IMAPIFormFactory::CreateClassFactory
 
@@ -47,7 +46,7 @@ HRESULT CreateClassFactory(
     
  _lppClassFactory_
   
-> [out] Pointeur vers l’objet fabrique de classe.
+> [out] Pointeur vers l’objet fabrique de classes.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -57,13 +56,13 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormFactory::CreateClassFactory** pour obtenir une fabrique de classes pour un formulaire spécifique. La fabrique de classes permet de créer des instances d’un formulaire qui gère les messages d’une classe spécifique et de contrôler l’accès à ces instances. 
+Les visionneuses de formulaires appellent **la méthode IMAPIFormFactory::CreateClassFactory** pour obtenir une fabrique de classes pour un formulaire spécifique. La fabrique de classes permet de créer des instances d’un formulaire qui gère les messages d’une classe spécifique et de contrôler l’accès à ces instances. 
   
-La **méthode CreateClassFactory est** appelée par les visionneuses de formulaires pour obtenir un objet fabrique de classes pour les serveurs de formulaires qui implémentent plusieurs classes de message. Cette méthode reçoit un identificateur de classe (CLSID) en tant que paramètre. En fonction de ce paramètre, cette méthode peut déterminer le type spécifique d’objet usine de classe à renvoyer. 
+La **méthode CreateClassFactory est appelée par** les visionneuses de formulaires pour obtenir un objet fabrique de classes pour les serveurs de formulaires qui implémentent plusieurs classes de message. Cette méthode reçoit un identificateur de classe (CLSID) en tant que paramètre. En fonction de ce paramètre, cette méthode peut déterminer le type spécifique d’objet usine de classe à renvoyer. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Vous pouvez retourner à partir de votre **implémentation CreateClassFactory** le même objet de fabrique de classe sur plusieurs appels pour le même identificateur de classe. La création d’une instance de fabrique de classe n’est pas obligatoire. 
+Vous pouvez retourner à partir de votre **implémentation CreateClassFactory** le même objet de fabrique de classe sur plusieurs appels pour le même identificateur de classe. La création d’une instance d’usine de classe n’est pas obligatoire. 
   
 Vous pouvez avoir une implémentation d’usine de classe unique qui crée des instances d’usine de classe appropriées à la demande, ou plusieurs implémentations d’usine de classe, une pour chaque classe de message.
   

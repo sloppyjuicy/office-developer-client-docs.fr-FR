@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3649daa-cba1-48e3-9ffb-069c1bcf8228
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4da8ae8d05a06c6e377d48a42298e74724674d5e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1ee4f247468fbbd624e8f51f5bda87a5b33d19bc
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561305"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379625"
 ---
 # <a name="ixplogonvalidatestate"></a>IXPLogon::ValidateState
 
@@ -46,7 +45,7 @@ HRESULT ValidateState(
     
 ABORT_XP_HEADER_OPERATION 
   
-> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. Le fournisseur de transport a la possibilité de continuer à travailler sur l’opération, ou il peut abandonner l’opération et retourner MAPI_E_USER_CANCELED. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le **bouton Annuler dans** une boîte de dialogue. Le fournisseur de transport a la possibilité de continuer à travailler sur l’opération, ou il peut abandonner l’opération et retourner MAPI_E_USER_CANCELED. 
     
 CONFIG_CHANGED 
   
@@ -62,7 +61,7 @@ FORCE_XP_DISCONNECT
     
 PROCESS_XP_HEADER_CACHE 
   
-> Les entrées de la table de cache d’en-tête doivent être traitées, tous les messages marqués avec l’indicateur MSGSTATUS_REMOTE_DOWNLOAD doivent être téléchargés et tous les messages marqués avec l’indicateur MSGSTATUS_REMOTE_DELETE doivent être supprimés. Les messages dont la MSGSTATUS_REMOTE_DOWNLOAD et MSGSTATUS_REMOTE_DELETE sont définies doivent être déplacés.
+> Les entrées de la table de cache d’en-tête doivent être traitées, tous les messages marqués avec l’indicateur MSGSTATUS_REMOTE_DOWNLOAD doivent être téléchargés et tous les messages marqués avec l’indicateur MSGSTATUS_REMOTE_DELETE doivent être supprimés. Les messages qui ont des MSGSTATUS_REMOTE_DOWNLOAD et MSGSTATUS_REMOTE_DELETE doivent être déplacés.
     
 REFRESH_XP_HEADER_CACHE 
   
@@ -88,13 +87,13 @@ MAPI_E_NO_SUPPORT
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le **bouton Annuler dans** une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
 Lepooler MAPI appelle la méthode **IXPLogon::ValidateState** pour prendre en charge les appels à la méthode [IMAPIStatus::ValidateState](imapistatus-validatestate.md) pour l’objet d’état. Le fournisseur de transport doit répondre à l’appel **IXPLogon::ValidateState** exactement comme si lepooler MAPI avait ouvert un objet d’état pour la session d’ouverture de session en cours, puis appelé **IMAPIStatus::ValidateState** sur cet objet. 
   
-Pour prendre en charge son implémentation **d’IMAPIStatus::ValidateState,** lepooler MAPI appelle **IXPLogon::ValidateState** sur tous les objets d’ouverture de session pour tous les fournisseurs de transport actifs qui s’exécutent dans une session de profil. 
+Pour prendre en charge son implémentation **d’IMAPIStatus::ValidateState**, lepooler MAPI appelle **IXPLogon::ValidateState** sur tous les objets d’ouverture de session pour tous les fournisseurs de transport actifs qui s’exécutent dans une session de profil. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0a2fb371-90ea-41dc-b2ab-051cf790e85a
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: de450ddef3990f788f3e92ac39b15345aa3adf62
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cd8e1ef32838de438f9beea805aa039deb51b7d4
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630564"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374375"
 ---
 # <a name="imapiviewadvisesinkonnewmessage"></a>IMAPIViewAdviseSink::OnNewMessage
 
@@ -43,7 +42,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les objets form appellent la méthode **IMAPIViewAdviseSink::OnNewMessage** chaque fois qu’un message est chargé dans un formulaire à l’aide de la méthode [IPersistMessage::InitNew](ipersistmessage-initnew.md) ou [IPersistMessage::Load.](ipersistmessage-load.md) 
+Les objets form appellent la méthode **IMAPIViewAdviseSink::OnNewMessage** chaque fois qu’un message est chargé dans un formulaire à l’aide de la méthode [IPersistMessage::InitNew](ipersistmessage-initnew.md) ou [IPersistMessage::Load](ipersistmessage-load.md) . 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 

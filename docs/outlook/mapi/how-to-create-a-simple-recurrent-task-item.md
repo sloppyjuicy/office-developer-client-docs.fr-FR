@@ -7,48 +7,47 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e9ee8865-0983-439e-8405-7946c5ec8762
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 09db0785b8a5d7a895d4d284603a318c623bfcae
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d15a2eefa578a1dda250b3e9001513e5a6bfa56e
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604921"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374998"
 ---
 # <a name="create-a-simple-recurrent-task-item"></a>Création d’un élément de tâche récurrente simple
 
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016
   
 MAPI peut être utilisé pour créer des éléments de tâche. Cette rubrique décrit comment créer un élément de tâche récurrente simple.
   
-Pour plus d’informations sur la façon de télécharger, d’afficher et d’exécuter le code à partir de l’application MFCMAPI et du projet CreateOutlookItemsAddin référencés dans cette rubrique, voir Installer les exemples utilisés dans cette [section.](how-to-install-the-samples-used-in-this-section.md)
+Pour plus d’informations sur la façon de télécharger, d’afficher et d’exécuter le code à partir de l’application MFCMAPI et du projet CreateOutlookItemsAddin référencés dans cette rubrique, voir [Installer les exemples](how-to-install-the-samples-used-in-this-section.md) utilisés dans cette section.
 
 ### <a name="to-create-a-task-item"></a>Pour créer un élément de tâche
 
-1. Ouvrez une magasin de messages. Pour plus d’informations sur l’ouverture d’une magasin de messages, voir [Ouverture d’une magasin de messages.](opening-a-message-store.md)
-    
-2. Ouvrez le dossier Tâches dans la magasin de messages. Pour plus d’informations, **voir PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md)).
-    
-3. Appelez la [méthode IMAPIFolder::CreateMessage](imapifolder-createmessage.md) dans le dossier Tâches pour créer l’élément de tâche. 
-    
+1. Ouvrez une magasin de messages. Pour plus d’informations sur l’ouverture d’une magasin de messages, voir [Opening a Message Store](opening-a-message-store.md).
+
+2. Ouvrez le dossier Tâches dans la magasin de messages. Pour plus d’informations, **PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md)).
+
+3. Appelez [la méthode IMAPIFolder::CreateMessage](imapifolder-createmessage.md) dans le dossier Tâches pour créer l’élément de tâche.
+
 4. Définissez **la propriété dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) et d’autres propriétés liées aux tâches requises pour créer une tâche périodique.
-    
+
 5. Enregistrez le nouvel élément de tâche.
-    
-La  `AddTask` fonction dans le fichier source Tasks.cpp du projet CreateOutlookItemsAddin illustre ces étapes. La fonction prend les paramètres de la boîte de dialogue Ajouter une tâche qui s’affiche lorsque vous cliquez sur Ajouter une tâche dans le menu Des addins de l’exemple `AddTask` d’application  MFCMAPI.   La fonction dans Tasks.cpp affiche la boîte de dialogue et transmet les valeurs de la boîte de dialogue  `DisplayAddTaskDialog` à la  `AddTask` fonction. La fonction n’est pas directement liée à la création d’un élément de tâche à l’aide de  `DisplayAddTaskDialog` MAPI, elle n’est donc pas répertoriée ici. 
+
+La `AddTask` fonction dans le fichier source Tasks.cpp du projet CreateOutlookItemsAddin illustre ces étapes. La `AddTask` fonction prend les paramètres de  la boîte de dialogue Ajouter une tâche qui s’affiche  lorsque vous cliquez sur Ajouter une tâche dans le menu Des **addins** de l’exemple d’application MFCMAPI. La `DisplayAddTaskDialog` fonction dans Tasks.cpp affiche la boîte de dialogue et transmet les valeurs de la boîte de dialogue à la `AddTask` fonction. La `DisplayAddTaskDialog` fonction n’est pas directement liée à la création d’un élément de tâche à l’aide de MAPI, elle n’est donc pas répertoriée ici.
   
 > [!IMPORTANT]
-> Le code de l’application MFCMAPI  ne garantit pas que  le dossier Tâches a été sélectionné lorsque vous cliquez sur la commande Ajouter une tâche dans le menu **Addins.** La création d’éléments de tâche dans un dossier autre que le dossier **Tâches** peut entraîner un comportement non définie. Assurez-vous que vous avez sélectionné le  dossier **Tâches** avant d’utiliser la commande Ajouter une tâche dans l’application MFCMAPI. 
+> Le code de l’application MFCMAPI ne garantit pas  que le dossier Tâches a été sélectionné lorsque vous cliquez  sur la commande Ajouter une tâche dans le menu **Addins**. La création d’éléments de tâche dans un dossier autre que le dossier **Tâches** peut entraîner un comportement non définie. Assurez-vous que vous avez sélectionné le dossier **Tâches** avant d’utiliser la commande Ajouter une tâche dans l’application MFCMAPI.
   
-La  `AddTask` fonction est répertoriée ci-dessous. Notez que le  _paramètre lpFolder_ transmis à la fonction est un pointeur vers une  `AddTask` interface [IMAPIFolder](imapifolderimapicontainer.md) qui représente le dossier dans lequel la nouvelle tâche est créée. Étant donné _le lpFolder_ qui représente une interface **IMAPIFolder,** le code appelle la méthode [IMAPIFolder::CreateMessage.](imapifolder-createmessage.md) La **méthode CreateMessage** renvoie un code de réussite et un pointeur vers un pointeur vers une interface **IMessage.** La plupart du code de fonction gère le travail de spécification des propriétés en vue de l’appel de la méthode `AddTask` [IMAPIProp::SetProps.](imapiprop-setprops.md) Si l’appel à la méthode **SetProps** réussit, la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) est appelée pour valider les modifications dans le magasin et créer un élément de tâche. 
+La `AddTask` fonction est répertoriée ci-dessous. Notez que le  _paramètre lpFolder_ `AddTask` transmis à la fonction est un pointeur vers une interface [IMAPIFolder](imapifolderimapicontainer.md) qui représente le dossier dans lequel la nouvelle tâche est créée. Étant donné  _le lpFolder_ qui représente une interface **IMAPIFolder** , le code appelle la méthode [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) . La **méthode CreateMessage** renvoie un code de réussite et un pointeur vers un pointeur vers une interface **IMessage** . La plupart du `AddTask` code de fonction gère le travail de spécification des propriétés en vue de l’appel de la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) . Si l’appel à la méthode **SetProps** réussit, la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) est appelée pour valider les modifications dans le magasin et créer un élément de tâche.
   
-La  `AddTask` fonction définit un certain nombre de propriétés nommées. Pour plus d’informations sur les propriétés nommées et la façon dont elles sont créées, voir Utilisation de MAPI pour créer des Outlook [2007.](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx) Étant donné que les propriétés nommées utilisées pour les éléments de tâche occupent plusieurs jeux de propriétés, il est important de faire attention lorsque vous créez des paramètres à transmettre à la méthode [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) 
+La `AddTask` fonction définit un certain nombre de propriétés nommées. Pour plus d’informations sur les propriétés nommées et la façon dont elles sont créées, voir [Utilisation de MAPI pour créer des Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Étant donné que les propriétés nommées utilisées pour les éléments de tâche occupent plusieurs jeux de propriétés, il est important de faire attention lorsque vous créez des paramètres à transmettre à la méthode [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) .
   
-La fonction utilise la fonction d’aide pour créer une structure représentant une périodence de tâche pour définir la `AddTask` `BuildWeeklyTaskRecurrencePattern` propriété **dispidTaskRecur.** Pour plus d’informations sur la structure de périodence de la tâche, voir Propri t canonique  `BuildWeeklyTaskRecurrencePattern` [PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md) et Propri t canonique [PidLidRecurrencePattern](pidlidrecurrencepattern-canonical-property.md). 
+La `AddTask` fonction utilise la fonction `BuildWeeklyTaskRecurrencePattern` d’aide pour créer une structure représentant une périodence de tâche pour définir la **propriété dispidTaskRecur** . Pour plus d’informations sur la structure `BuildWeeklyTaskRecurrencePattern` de périodence de la tâche, voir Propri t canonique [PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md) et Propri t canonique [PidLidRecurrencePattern](pidlidrecurrencepattern-canonical-property.md).
 
-Notez que bien qu’une grande variété de modèles de récurrence soit possible, la fonction crée uniquement une récurrence  `BuildWeeklyTaskRecurrencePattern` hebdomadaire. Il est également codé en dur pour un certain nombre d’hypothèses, telles que le type de calendrier (grégorien), le premier jour de la semaine (dimanche) et le nombre d’instances modifiées ou supprimées (aucune). Une fonction de création de modèle de récurrence à usage plus général doit accepter ces types de variables en tant que paramètres. 
+Notez que bien qu’une grande variété de modèles de récurrence soit possible, `BuildWeeklyTaskRecurrencePattern` la fonction crée uniquement une récurrence hebdomadaire. Il est également codé en dur pour un certain nombre d’hypothèses, telles que le type de calendrier (grégorien), le premier jour de la semaine (dimanche) et le nombre d’instances modifiées ou supprimées (aucune). Une fonction de création de modèle de récurrence à usage plus général doit accepter ces types de variables en tant que paramètres.
   
-Voici la liste complète de la  `AddTask` fonction. 
+Voici la liste complète de la `AddTask` fonction.
   
 ```cpp
 HRESULT AddTask(LPMAPIFOLDER lpFolder,
@@ -178,5 +177,4 @@ HRESULT AddTask(LPMAPIFOLDER lpFolder,
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Utilisation de MAPI pour créer Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
-
+- [Utilisation de MAPI pour créer des Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)

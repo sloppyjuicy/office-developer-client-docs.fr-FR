@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: df5003d5-cbfe-40b2-a481-e2e11dce4b3e
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 345abc0b47901b473403a66e48b27c5b1e5ea163
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6003d22e39e3156432cb29be41a02666cf2c5a98
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610446"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374711"
 ---
 # <a name="implementing-messages-in-message-stores"></a>L'impl�mentation des Messages dans les banques de messages
 

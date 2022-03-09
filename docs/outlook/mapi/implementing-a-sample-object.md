@@ -7,21 +7,20 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8f2613dae143de41276e105a32a0d504aeb5b886
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b99b8fad5702a03b25290292ac0fdd340fded64d
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551260"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380164"
 ---
 # <a name="implementing-a-sample-object"></a>Implémentation d’un exemple d’objet
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les objets de réception de notification (objets qui supportent l’interface [IMAPIAdviseSink : IUnknown)](imapiadvisesinkiunknown.md) sont des objets MAPI implémentés par les applications clientes pour le traitement des notifications. **IMAPIAdviseSink** hérite directement [d’IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) et contient une seule méthode, **OnNotify**. Par conséquent, pour implémenter un objet de sink de conseil, un client crée du code pour les trois méthodes **dans IUnknown** et [pour OnNotify](imapiadvisesink-onnotify.md).
+Les objets de réception de notification (objets qui supportent l’interface [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) ) sont des objets MAPI implémentés par les applications clientes pour le traitement des notifications. **IMAPIAdviseSink** hérite directement [d’IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) et ne contient qu’une seule méthode, **OnNotify**. Par conséquent, pour implémenter un objet de sink de conseil, un client crée du code pour les trois méthodes **dans IUnknown** et [pour OnNotify](imapiadvisesink-onnotify.md).
   
-Le fichier d’en-tête Mapidefs.h définit une implémentation d’interface **IMAPIAdviseSink** à l’aide DECLARE_MAPI_INTERFACE **,** comme suit :
+Le fichier d’en-tête Mapidefs.h définit une implémentation d’interface **IMAPIAdviseSink** à l’aide **DECLARE_MAPI_INTERFACE, comme** suit :
   
 ```cpp
 #define      INTERFACE  IMAPIAdviseSink
@@ -34,7 +33,7 @@ DECLARE_MAPI_INTERFACE_(IMAPIAdviseSink, IUnknown)
  
 ```
 
-Les clients qui implémentent des objets de MAPI_IMAPIADVISESINK_METHODS peuvent  définir leurs interfaces dans leurs objets manuellement ou à l’MAPI_IUNKNOWN_METHODS et **MAPI_IMAPIADVISESINK_METHODS** macros. Les implémenteurs d’objets doivent utiliser les macros d’interface chaque fois que possible pour garantir la cohérence entre les objets et pour gagner du temps et des efforts. 
+Les clients qui implémentent des objets de MAPI_IMAPIADVISESINK_METHODS peuvent définir leurs interfaces dans leurs objets manuellement ou à l’MAPI_IUNKNOWN_METHODS **et** **MAPI_IMAPIADVISESINK_METHODS** macros. Les implémenteurs d’objets doivent utiliser les macros d’interface chaque fois que possible pour garantir la cohérence entre les objets et pour gagner du temps et des efforts. 
   
 L’implémentation des méthodes [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) et [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) est relativement simple, car en règle générale, seules quelques lignes de code sont nécessaires. Par conséquent, les clients et les fournisseurs de services qui implémentent des objets peuvent rendre leurs implémentations **AddRef** et **Release** inline. Le code suivant montre comment définir un objet de sink de conseil C++ avec des implémentations en ligne **d’AddRef** et **release**.
   
@@ -103,7 +102,7 @@ static const ADVISE_Vtbl vtblADVISE =
  
 ```
 
-Après avoir déclaré un objet en C, vous devez l’initialiser en fixant le pointeur vtable sur l’adresse de la table vtable construite, comme illustré dans le code suivant :
+Après avoir déclaré un objet en C, vous devez l’initialiser en fixant le pointeur vtable sur l’adresse du tableau vtable construit, comme illustré dans le code suivant :
   
 ```cpp
 LPADVISESINK lpMyObj = NULL;
