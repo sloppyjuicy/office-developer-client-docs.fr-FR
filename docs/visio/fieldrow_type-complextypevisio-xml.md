@@ -6,18 +6,18 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 3474d268-4435-cb4d-9c66-a30924635e20
-ms.openlocfilehash: 3c9d418054c1e1f5c766c83977c2470629d42610
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8305c88c33a7d87b3e4c3c0b646a41d9f333d68a
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618979"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404431"
 ---
 # <a name="fieldrow_type-complextype-visio-xml"></a>FieldRow_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
@@ -46,7 +46,7 @@ ms.locfileid: "59618979"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 

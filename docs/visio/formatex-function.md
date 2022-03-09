@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d375c971-fee2-baa3-dc4f-a26018e70e8a
 description: Renvoie le résultat de l’expression évaluée dans srcUnit sous la forme d’une chaîne mise en forme selon le format exprimé dans dstUnit.
-ms.openlocfilehash: 9c448dddc9fed738c6db63c78983e23bd2c6d610
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 1e4aa50dcc9d3506fc4951455cbf92045033c5db
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783242"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63405106"
 ---
 # <a name="formatex-function"></a>Fonction FORMATEX
 
@@ -22,19 +22,19 @@ Renvoie le résultat de l’expression évaluée dans srcUnit sous la forme d’
   
 ## <a name="syntax"></a>Syntaxe
 
-FORMATEX(** *expression* **, » ** *format* ** « ,[ ** *srcUnit* ** ],[ ** *dstUnit* ** ],[ ** *langID* ** ][, ** *calID* ** ]) 
+FORMATEX(***expression** _, » _*_format_*_ « ,[ _*_srcUnit_*_ ],[ _*_dstUnit_*_ ],[ _*_langID_*_ ][, _ *_calID_** ])
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Requis  <br/> |**String** <br/> |Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur. |
-| _format_ <br/> |Requis  <br/> |**String** <br/> |Image de format utilisée pour mettre en forme la chaîne. Pour plus d’informations sur les images de format, voir [À propos des images de format](about-format-pictures.md). |
-| _srcUnit_ <br/> |Facultatif  <br/> |**Chaîne** <br/> | Unités utilisées pour calculer expression (po, cm, etc.). |
-| _dstUnit_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Unités à utiliser pour le résultat d’expression (po, cm, etc.). |
-| _langID_ <br/> |Facultatif  <br/> |**Number** <br/> |Langue utilisée lors de la mise en forme des dates/heures de Microsoft Office System. |
-| _calID_ <br/> |Facultatif  <br/> |**Number** <br/> |Calendrier utilisé lors de la mise en forme des dates/heures de Microsoft Office System. |
-   
+| *expression* <br/> |Requis  <br/> |**String** <br/> |Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur. |
+| *format* <br/> |Requis  <br/> |**String** <br/> |Image de format utilisée pour mettre en forme la chaîne. Pour plus d’informations sur les images de format, voir [À propos des images de format](about-format-pictures.md). |
+| *srcUnit* <br/> |Facultatif  <br/> |**Chaîne** <br/> | Unités utilisées pour calculer expression (po, cm, etc.). |
+| *dstUnit* <br/> |Facultatif  <br/> |**Chaîne** <br/> |Unités à utiliser pour le résultat d’expression (po, cm, etc.). |
+| *langID* <br/> |Facultatif  <br/> |**Number** <br/> |Langue utilisée lors de la mise en forme des dates/heures de Microsoft Office System. |
+| *calID* <br/> |Facultatif  <br/> |**Number** <br/> |Calendrier utilisé lors de la mise en forme des dates/heures de Microsoft Office System. |
+
 ### <a name="return-value"></a>Valeur renvoyée
 
 Chaîne
@@ -51,8 +51,7 @@ Renvoie une erreur si le résultat d’expression et le type attendu dans format
   
 ## <a name="example"></a>Exemple
 
-FORMATEX(5,5, "0,00 u", "cm", "m") 
+FORMATEX(5,5, "0,00 u", "cm", "m")
   
-Renvoie 0,06 mètre. 
+Renvoie 0,06 mètre.
   
-

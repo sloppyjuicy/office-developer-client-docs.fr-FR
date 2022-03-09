@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 54975434-78b2-4010-b2f9-f277831fa92e
 description: Vous pouvez utiliser le bloc de données ModifierEnregistrement pour modifier les valeurs contenues dans un enregistrement existant.
-ms.openlocfilehash: a548838c38658a6fdf3997403b5cbcd4aa29333d
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 11626729ddfa41cec4e461f9eee923159742bc4d
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775188"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63405148"
 ---
 # <a name="editrecord-data-block-access-custom-web-app"></a>EditRecord Data Block (Access custom web app)
 
@@ -23,7 +23,7 @@ Vous pouvez utiliser le bloc de données **ModifierEnregistrement** pour modifie
 > [!NOTE]
 > Le bloc de données **ModifierEnregistrement** est disponible uniquement dans les macros de données.
   
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 Le bloc de données **ModifierEnregistrement** utilise les arguments suivants.
   
@@ -35,7 +35,7 @@ Le bloc de données **ModifierEnregistrement** utilise les arguments suivants.
 
 Après **l’instruction EditRecord** , vous pouvez insérer un bloc de commandes qui s’exécute avant que les modifications apportées à l’enregistrement ne soient enregistrées. Les actions suivantes sont disponibles dans un bloc **de données EditRecord** . 
   
-||
+|Action |
 |:-----|
 |[Action de macro AnnulerModificationEnregistrement](cancelrecordchange-macro-action-access-custom-web-app.md) <br/> |
 |[Instruction de macro Comment](comment-macro-block-access-custom-web-app.md) <br/> |

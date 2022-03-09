@@ -12,12 +12,12 @@ keywords:
 - fonctions Excel12 [Excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
-ms.openlocfilehash: 921fe2f0436b6112532be9a0b233c0e73f4c9694
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 48edd872335a1482306acbe56f696158c52d3ae2
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63376349"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404721"
 ---
 # <a name="excel4excel12"></a>Excel4/Excel12
 
@@ -78,12 +78,21 @@ Renvoie l’une des valeurs d’un nombre **integer (int**) suivantes.
 
 Les **valeurs iFunction** valides sont l’une des constantes **xlf...** ou **xlc...** définies dans le fichier d’en-tête Xlcall.h ou l’une des fonctions spéciales suivantes.
   
-|||||
-|:-----|:-----|:-----|:-----|
-|**xlAbort** |**xlEnableXLMsgs** |**xlGetInst** |**xlSheetNm** |
-|**xlCoerce** |**xlFree** |**xlGetName** |**xlStack** |
-|**xlDefineBinaryName** |**xlGetBinaryName** |**xlSet** |**xlUDF** |
-|**xlDisableXLMsgs** |**xlGetHwnd** |**xlSheetId** ||
+- **xlAbort**
+- **xlEnableXLMsgs**
+- **xlGetInst**
+- **xlSheetNm**
+- **xlCoerce**
+- **xlFree**
+- **xlGetName**
+- **xlStack**
+- **xlDefineBinaryName**
+- **xlGetBinaryName**
+- **xlSet**
+- **xlUDF**
+- **xlDisableXLMsgs**
+- **xlGetHwnd**
+- **xlSheetId**
 
 ### <a name="different-types-of-functions"></a>Différents types de fonctions
 

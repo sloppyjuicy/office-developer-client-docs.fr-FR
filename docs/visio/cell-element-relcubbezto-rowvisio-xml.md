@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: daa5c527-65fe-a1e4-ab3e-24e77bdb522b
 description: Contient les coordonnées x ou y du point de terminaison d’une courbe de Bézier cubique par rapport à la largeur et à la hauteur de la forme, les coordonnées x ou y du point de contrôle du début de la largeur et de la hauteur de la forme relative de courbe, ou les coordonnées x ou y du point de contrôle de la fin de la largeur et de la hauteur de la forme relative de courbe.
-ms.openlocfilehash: d5727c99e819f48315a6cf1b7b862a639efd116a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 8b5b18a428f76adffe104c9438ce29c73da57e9d
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774537"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404994"
 ---
 # <a name="cell-element-relcubbezto-row-visio-xml"></a>Élément de cellule (ligne RelCubBezTo) (Visio XML)
 
 Contient les coordonnées x ou y du point de terminaison d’une courbe de Bézier cubique par rapport à la largeur et à la hauteur de la forme, les coordonnées x ou y du point de contrôle du début de la largeur et de la hauteur de la forme relative de courbe, ou les coordonnées x ou y du point de contrôle de la fin de la largeur et de la hauteur de la forme relative de courbe.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[RelCubBezTo_Type](relcubbezto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y du point de terminaison d’une courbe de Bézier cubique par rapport à la largeur et à la hauteur de la forme, les coordonnées x ou y du point de contrôle du début de la largeur et de la hauteur de la forme relative de courbe, ou les coordonnées x ou y du point de contrôle de la fin de la largeur et de la hauteur de la forme relative de courbe. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin. |
    

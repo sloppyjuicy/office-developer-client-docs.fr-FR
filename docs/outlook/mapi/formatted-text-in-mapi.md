@@ -7,12 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 4d0ff834-253b-4e8c-a5be-6e4745a2a66c
-ms.openlocfilehash: b8338330987126a3611afac7dbcd6bc7d6bc99d0
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 7c169aee00958fd2cd03401067638cbfe0b5a90a
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63373514"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63403934"
 ---
 # <a name="formatted-text-in-mapi"></a>Texte mis en forme dans MAPI
 
@@ -24,8 +24,6 @@ Le texte mis en forme peut être implémenté de différentes manières. Le moye
   
 MAPI définit ces deux propriétés et mécanismes de conversion de texte de message entre eux afin que les clients sensibles au format RTF peuvent interopérer avec les clients et les systèmes de messagerie qui ne peuvent pas prendre en charge le texte mis en forme.
   
-###
-
 [Synchronisation du texte et de la mise en forme](synchronizing-text-and-formatting.md)
   
 > Indique comment maintenir la synchronisation du texte du message RTF avec la mise en forme.

@@ -9,29 +9,29 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d9fc2007-cc21-b20c-adee-be87cc356753
 description: Détermine si les chaînes sont identiques. Elle renvoie TRUE si elles sont identiques et FALSE si ce n’est pas le cas.
-ms.openlocfilehash: 40e546d0f8f2c96a6f28f59d74e032b0df827e7c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 365383d0a8e4f442c53a27f9891b1f19edf776e0
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772535"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63405029"
 ---
 # <a name="strsame-function"></a>Fonction STRSAME
 
-Détermine si les chaînes sont identiques. Elle renvoie TRUE si elles sont identiques et FALSE si ce n’est pas le cas. 
+Détermine si les chaînes sont identiques. Elle renvoie TRUE si elles sont identiques et FALSE si ce n’est pas le cas.
   
 ## <a name="syntax"></a>Syntaxe
 
-STRSAME ( » ** *string1* ** « , " ** *string2* ** « , ** *ignoreCase* ** ) 
+STRSAME ( » ***string1** _ « , " _*_string2_*_ « , _ *_ignoreCase_** )
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _string1_ <br/> |Requis  <br/> |**String** <br/> |Première chaîne à comparer. |
-| _string2_ <br/> |Requis  <br/> |**String** <br/> |Deuxième chaîne à comparer. |
-| _ignoreCase_ <br/> |Facultatif  <br/> |**Boolean** <br/> |Valeur TRUE pour ne pas tenir compte de la casse et valeur FALSE pour tenir compte de la casse dans la comparaison. La valeur par défaut est FALSE. |
-   
+| *string1* <br/> |Requis  <br/> |**String** <br/> |Première chaîne à comparer. |
+| *string2* <br/> |Requis  <br/> |**String** <br/> |Deuxième chaîne à comparer. |
+| *ignoreCase* <br/> |Facultatif  <br/> |**Boolean** <br/> |Valeur TRUE pour ne pas tenir compte de la casse et valeur FALSE pour tenir compte de la casse dans la comparaison. La valeur par défaut est FALSE. |
+
 ### <a name="return-value"></a>Valeur renvoyée
 
 Booléen
@@ -82,4 +82,3 @@ STRSAME("chât","CHÂT", TRUE)
   
 Renvoie la valeur TRUE.
   
-

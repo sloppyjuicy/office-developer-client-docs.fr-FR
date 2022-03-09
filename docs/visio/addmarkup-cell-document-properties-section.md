@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 46146424-b4c9-2240-36c0-19bb35ec51d1
 description: Indique si le document est en révision pour marque de révision.
-ms.openlocfilehash: 41da1cb559c2a0b2902ac7370b5c06074cdc8380
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: f35048319fb02defb4db9be5baca0e82d5499654
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783732"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404403"
 ---
 # <a name="addmarkup-cell-document-properties-section"></a>AddMarkup, cellule (section Document Properties)
 
@@ -36,16 +36,16 @@ Ce paramètre correspond à la commande **Suivi des révisions** dans le groupe 
   
 Pour obtenir une référence à la cellule AddMarkup par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |AddMarkup  <br/> |
+|**Nom de cellule :**  <br/> |AddMarkup  <br/> |
    
 Pour obtenir une référence à la cellule AddMarkup à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowDoc** <br/> |
-|Index de la cellule :  <br/> |**visDocAddMarkup** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowDoc** <br/> |
+|**Index de la cellule :**  <br/> |**visDocAddMarkup** <br/> |
    
 

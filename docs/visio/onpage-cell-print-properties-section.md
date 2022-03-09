@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 4015506a-e24a-0276-c854-7791a7019067
 description: Indique si le dessin est imprimé sur un nombre spécifique de page d'impression.
-ms.openlocfilehash: 3274fd49848a68fbf2c43036bf26ee3ec2ef5a7e
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: adc74e898ccc78199497a79d50409912162d26c3
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380115"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404515"
 ---
 # <a name="onpage-cell-print-properties-section"></a>OnPage, cellule (section Print Properties)
 
@@ -33,14 +33,14 @@ Cette valeur correspond  à l’option **Ajuster** à sous l’onglet Configurat
   
 Pour obtenir une référence à la cellule OnPage par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |OnPage  <br/> |
+|**Nom de la cellule :**  <br/> |OnPage  <br/> |
 
 Pour obtenir une référence à la cellule OnPage à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowPrintProperties** <br/> |
-|Index de la cellule :  <br/> |**visPrintPropertiesOnPage** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowPrintProperties** <br/> |
+|**Index de la cellule :**  <br/> |**visPrintPropertiesOnPage** <br/> |

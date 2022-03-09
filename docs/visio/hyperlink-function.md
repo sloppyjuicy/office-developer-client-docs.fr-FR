@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 943636a6-e135-a626-7924-11e238156548
 description: Permet d’accéder à l’adresse spécifiée, qui peut être un fichier, un unc ou un chemin d’URL.
-ms.openlocfilehash: a6a6e2f80483ec40644391f45e7a91a0c65fbff4
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: b6db12d932aebc771913731bc4df381c2d4b67b5
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775709"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63405410"
 ---
 # <a name="hyperlink-function"></a>Fonction HYPERLINK
 
@@ -22,25 +22,25 @@ Permet d’accéder à l’adresse spécifiée, qui peut être un fichier, un un
   
 ## <a name="syntax"></a>Syntaxe
 
-HYPERLINK( » ** *address* ** « [, » ** *subaddress* ** « , » ** *extrainfo* ** « , ** *window* **, » ** *frame* ** « ]) 
+HYPERLINK( » ***address** _ « [, » _*_subaddress_*_ « , » _*_extrainfo_*_ « , _*_window_*_, » _ *_frame_** « ])
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _adresse_ <br/> |Requis  <br/> |**String** <br/> |Chemin d’accès complet ou relatif. |
-| _sous-adresse_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Spécifie un emplacement dans address auquel se lier. Par exemple, si address est un fichier Microsoft Visio, subaddress peut être un nom de page. S’il s’agit d’un fichier Microsoft Excel, subaddress peut être une feuille de calcul ou une plage d’une feuille de calcul. Dans le cas d’une URL permettant d’accéder à une page HTML, subaddress peut être un point d’ancrage. |
-| _extrainfo_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Transmet les informations utilisées pour la résolution de l’URL, comme les coordonnées d’une image interactive. |
-| _window_ <br/> |Facultatif  <br/> |**Boolean** <br/> |Indique si le lien hypertexte s’ouvre dans une nouvelle fenêtre. La valeur par défaut est FALSE. |
-| _frame_ <br/> |Facultatif  <br/> |**Chaîne** <br/> | Spécifie le nom d’un cadre à cibler lorsque Visio est ouvert comme document ActiveX dans un navigateur ActiveX, tel que Microsoft Internet Explorer 3.0 ou ultérieur. Par défaut, cette chaîne est vide. |
-   
+| *adresse* <br/> |Requis  <br/> |**String** <br/> |Chemin d’accès complet ou relatif. |
+| *sous-adresse* <br/> |Facultatif  <br/> |**Chaîne** <br/> |Spécifie un emplacement dans address auquel se lier. Par exemple, si address est un fichier Microsoft Visio, subaddress peut être un nom de page. S’il s’agit d’un fichier Microsoft Excel, subaddress peut être une feuille de calcul ou une plage d’une feuille de calcul. Dans le cas d’une URL permettant d’accéder à une page HTML, subaddress peut être un point d’ancrage. |
+| *extrainfo* <br/> |Facultatif  <br/> |**Chaîne** <br/> |Transmet les informations utilisées pour la résolution de l’URL, comme les coordonnées d’une image interactive. |
+| *window* <br/> |Facultatif  <br/> |**Boolean** <br/> |Indique si le lien hypertexte s’ouvre dans une nouvelle fenêtre. La valeur par défaut est FALSE. |
+| *frame* <br/> |Facultatif  <br/> |**Chaîne** <br/> | Spécifie le nom d’un cadre à cibler lorsque Visio est ouvert comme document ActiveX dans un navigateur ActiveX, tel que Microsoft Internet Explorer 3.0 ou ultérieur. Par défaut, cette chaîne est vide. |
+
 ## <a name="remarks"></a>Remarques
 
-Si le document n’est pas associé à un chemin d’accès de base, Visio navigue selon le chemin d’accès du document. Si le document n’a pas été enregistré, le lien hypertexte n’est pas défini. 
+Si le document n’est pas associé à un chemin d’accès de base, Visio navigue selon le chemin d’accès du document. Si le document n’a pas été enregistré, le lien hypertexte n’est pas défini.
   
-Les chemins d’accès relatifs sont basés sur le champ **Répertoire Web** spécifié dans la boîte de dialogue **Propriétés Visio**. 
+Les chemins d’accès relatifs sont basés sur le champ **Répertoire Web** spécifié dans la boîte de dialogue **Propriétés Visio**.
   
-Vous pouvez utiliser la fonction GOTOPAGE pour naviguer vers différentes pages d’un document. 
+Vous pouvez utiliser la fonction GOTOPAGE pour naviguer vers différentes pages d’un document.
   
 ## <a name="example-1"></a>Exemple 1
 
@@ -58,4 +58,3 @@ Vous pouvez utiliser la fonction GOTOPAGE pour naviguer vers différentes pages 
 
  `HYPERLINK("..\data.xlsx","sheet1!A1")`
   
-

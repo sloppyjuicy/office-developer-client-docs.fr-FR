@@ -1,7 +1,7 @@
 ---
 title: MODULUS, fonction
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: cb6326a5-1bf8-b6a3-5c0d-d38c071353a5
 description: Renvoie le reste (module) qui se traduit lorsqu’un nombre est divisé par un diviseur.
-ms.openlocfilehash: f25de1ca0aeb4cdf9766d9bf08f33bf8de67fbbb
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 20754c2bbb24aaf7e515aa5e197df0800758dc51
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62786128"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404930"
 ---
 # <a name="modulus-function"></a>Fonction MODULUS
 
@@ -22,24 +22,24 @@ Renvoie le reste (module) qui se traduit lorsqu’un nombre est divisé par un d
   
 ## <a name="syntax"></a>Syntaxe
 
-MODULUS(** *number* **, ** *divisor* ** ) 
+MODULUS(***number** _, _ *_divisor_** )
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Requis  <br/> |**Number** <br/> |Dividende |
-| _diviseur_ <br/> |Requis  <br/> |**Number** <br/> |Diviseur |
-   
+| *number* <br/> |Requis  <br/> |**Number** <br/> |Dividende |
+| *diviseur* <br/> |Requis  <br/> |**Number** <br/> |Diviseur |
+
 ### <a name="return-value"></a>Valeur renvoyée
 
 Nombre
   
 ## <a name="remarks"></a>Remarques
 
-Le résultat a le même signe que le diviseur. Une erreur #DIV/0! est renvoyée si le diviseur est égal à 0. 
+Le résultat a le même signe que le diviseur. Une erreur #DIV/0! est renvoyée si le diviseur est égal à 0.
   
-Dans la plupart des cas, il est préférable d’utiliser la fonction MODULUS plutôt que la fonction MOD. 
+Dans la plupart des cas, il est préférable d’utiliser la fonction MODULUS plutôt que la fonction MOD.
   
 ## <a name="example-1"></a>Exemple 1
 
@@ -65,4 +65,3 @@ MODULUS(-5; -1,4)
   
 Renvoie -0,8.
   
-

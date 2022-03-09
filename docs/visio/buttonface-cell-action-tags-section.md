@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 26f370e1-5193-f47d-7b60-3597975be650
 description: Contient l’ID de l’image de la face de bouton qui s’affiche sur le bouton de balise d’action.
-ms.openlocfilehash: 9933d86832fed31668482a9209092f37d1a1eb56
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 38a5679cff42ab7387335b821444615919b15b77
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63381102"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63405078"
 ---
 # <a name="buttonface-cell-action-tags-section"></a>ButtonFace, cellule (section Action Tags)
 
@@ -31,14 +31,14 @@ Les ID utilisables dans la cellule ButtonFace sont les mêmes que ceux utilisés
   
 Pour obtenir une référence à la cellule ButtonFace par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez :
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | SmartTags.  *nom* . ButtonFace où SmartTags. *nom*. est le nom de la ligne de balise d’action.  <br/> |
+| **Nom de cellule :**  <br/> | SmartTags.  *nom* . ButtonFace où SmartTags. *nom*. est le nom de la ligne de balise d’action.  <br/> |
 
 Pour obtenir une référence à la cellule ButtonFace par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visSmartTagButtonFace** <br/> |
+| **Index de la section :**  <br/> |**visSectionSmartTag** <br/> |
+| **Index de la ligne :**  <br/> |**visRowSmartTag** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visSmartTagButtonFace** <br/> |

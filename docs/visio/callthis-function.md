@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 461abfc1-d2cc-2354-1c2f-395c9e351a78
 description: Appelle une procédure dans un projet Microsoft Visual Basic pour Applications (VBA).
-ms.openlocfilehash: 3836f983254845b4f9aef0ded92d0ea5aad3c480
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 4c9215f550965ed12fbf3e502b451b849e67cd5a
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63368957"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404579"
 ---
 # <a name="callthis-function"></a>Fonction CALLTHIS
 
@@ -22,13 +22,13 @@ Appelle une procédure dans un projet Microsoft Visual Basic pour Applications (
   
 ## <a name="syntax"></a>Syntaxe
 
-CALLTHIS( » ***procedure** _ « ,[ » _* *project* ** « ],[ ** *arg1* **, ** *arg2* **,...])
+CALLTHIS( » ***procedure** _ « ,[ » _*_project_*_ « ],[ _*_arg1_ **, **_arg2_ **,...])
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| *procedure* <br/> |Obligatoire  <br/> |**String** <br/> | Nom de la procédure à appeler. |
+| *procedure* <br/> |Requis  <br/> |**String** <br/> | Nom de la procédure à appeler. |
 | *projet* <br/> |Facultatif  <br/> |**Chaîne** <br/> |Projet qui contient la procédure. |
 | *arg* <br/> |Facultatif  <br/> |**Number, String, Date ou Currency** <br/> |Transmis comme paramètres à la procédure. |
 

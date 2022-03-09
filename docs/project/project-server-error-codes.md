@@ -12,31 +12,32 @@ f1_keywords:
 keywords:
 - PSI, codes d’erreur, codes d’erreur, Project Server, PSErrorID, interface Project Server, codes d’erreur, Project Server, codes d’erreur
 ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
-description: Cette rubrique présente des tableaux de codes d’erreur pour l’interface Project Server (PSI) dans Project Server 2013. Les tableaux sont organisés par domaine fonctionnel et par plage de codes d’erreur.
+description: Codes d’erreur pour l’interface PSI (Project Server Interface) dans Project Server 2013. Les tableaux sont organisés par domaine fonctionnel et par plage de codes d’erreur.
 ms.localizationpriority: high
-ms.openlocfilehash: c844073c02203bb89259ff47c2aa99cdd53e61b1
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 07e37a956173957af1a49761dacce42f723b1787
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782491"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63372155"
 ---
 # <a name="project-server-error-codes"></a>Codes d’erreur de Project Server
 
 Cette rubrique présente des tableaux de codes d’erreur pour l’interface Project Server (PSI) dans Project Server 2013. Les tableaux sont organisés par domaine fonctionnel et par plage de codes d’erreur.
-   
-Les processus Project Server 2013 et les méthodes PSI ont des numéros de code d’erreur qui sont généralement organisés par domaine fonctionnel. L’énumération [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) est dupliquée dans [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/office/websvcproject.pserrorid_di_pj14mref.aspx) ; elles répertorient les codes d’erreur dans l’ordre alphabétique, par leur nom. Cette rubrique répertorie les codes d’erreur dans des tableaux organisés par classe PSI ou domaine fonctionnel et par numéro d’identification (ID) d’erreur. 
+
+Les processus Project Server 2013 et les méthodes PSI ont des numéros de code d’erreur qui sont généralement organisés par domaine fonctionnel. L’énumération [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) est dupliquée dans [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/office/websvcproject.pserrorid_di_pj14mref.aspx) ; elles répertorient les codes d’erreur dans l’ordre alphabétique, par leur nom. Cette rubrique répertorie les codes d’erreur dans des tableaux organisés par classe PSI ou domaine fonctionnel et par numéro d’identification (ID) d’erreur.
   
 > [!NOTE]
->  De nombreux codes d’erreur sont généraux et peuvent avoir plusieurs causes possibles. Pour plus d’informations sur les erreurs, vous pouvez procéder comme suit : 
-> - Pour les applications basées sur ASMX, utilisez **System.Web.Services.Protocols.SoapException** avec l’objet **PSClientError** pour afficher la liste ou la hiérarchie des erreurs dans un appel de méthode PSI. Voir [Exemple de code d’erreur pour ASMX](#pj15_ErrorCodes_ASMXExample). 
-> - Pour les applications basées sur WCF, vous pouvez utiliser **System.ServiceModel.FaultException** pour obtenir un objet **PSClientError** et pour obtenir des informations supplémentaires sur l’erreur. Voir [Exemple de code d’erreur pour WCF](#pj15_ErrorCodes_WCFExample). 
+> De nombreux codes d’erreur sont généraux et peuvent avoir plusieurs causes possibles. Pour plus d’informations sur les erreurs, vous pouvez procéder comme suit :
+>
+> - Pour les applications basées sur ASMX, utilisez **System.Web.Services.Protocols.SoapException** avec l’objet **PSClientError** pour afficher la liste ou la hiérarchie des erreurs dans un appel de méthode PSI. Voir [Exemple de code d’erreur pour ASMX](#pj15_ErrorCodes_ASMXExample).
+> - Pour les applications basées sur WCF, vous pouvez utiliser **System.ServiceModel.FaultException** pour obtenir un objet **PSClientError** et pour obtenir des informations supplémentaires sur l’erreur. Voir [Exemple de code d’erreur pour WCF](#pj15_ErrorCodes_WCFExample).
 > - Utilisez le journal des événements d’application sur l’ordinateur Project Server.
-> - Utilisez les journaux du suivi du service de journalisation unifiée (ULS). Pour obtenir une explication, reportez-vous à la section relative à la *vérification des erreurs* dans la [prise en main du développement pour Project 2010](https://msdn.microsoft.com/library/gg607685.aspx). 
-> - Pour plus d’informations sur l’utilisation des journaux du service ULS, consultez l’article [Project Server 2010 : Que faire face aux événements inattendus](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx) sur le blog du support technique de Project et recherchez des informations concernant la lecture des journaux du service ULS sur le blog. 
-> - Pour vous aider à rechercher ou examiner des problèmes spécifiques dans les données ULS, utilisez la [visionneuse ULS](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer). 
-> - Utilisez Microsoft SQL Server Profiler pour intercepter ou surveiller des erreurs de base de données. Pour plus d’informations, consultez [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). 
-> - De nombreux codes d’erreur sont utilisés uniquement en interne. Par exemple, les services web **ExchangeSync** et **PWA** n’étant pas pris en charge pour le développement tiers, vous ne verrez probablement pas de codes d’erreur associés aux méthodes dans ces domaines, telles que les méthodes **Rules** et **StatusReports**. Cependant, les tableaux présents dans cet article comprennent tous les codes d’erreur Project Server par souci d’exhaustivité. 
+> - Utilisez les journaux du suivi du service de journalisation unifiée (ULS). Pour obtenir une explication, reportez-vous à la section relative à la *vérification des erreurs* dans la [prise en main du développement pour Project 2010](https://msdn.microsoft.com/library/gg607685.aspx).
+> - Pour plus d’informations sur l’utilisation des journaux du service ULS, consultez l’article [Project Server 2010 : Que faire face aux événements inattendus](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx) sur le blog du support technique de Project et recherchez des informations concernant la lecture des journaux du service ULS sur le blog.
+> - Pour vous aider à rechercher ou examiner des problèmes spécifiques dans les données ULS, utilisez la [visionneuse ULS](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer).
+> - Utilisez Microsoft SQL Server Profiler pour intercepter ou surveiller des erreurs de base de données. Pour plus d’informations, consultez [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx).
+> - De nombreux codes d’erreur sont utilisés uniquement en interne. Par exemple, les services web **ExchangeSync** et **PWA** n’étant pas pris en charge pour le développement tiers, vous ne verrez probablement pas de codes d’erreur associés aux méthodes dans ces domaines, telles que les méthodes **Rules** et **StatusReports**. Cependant, les tableaux présents dans cet article comprennent tous les codes d’erreur Project Server par souci d’exhaustivité.
   
 ## <a name="table-1-error-code-functional-areas-and-related-number-ranges"></a>Tableau 1. Domaines fonctionnels de code d’erreur et plages de numéros associées
 
@@ -71,7 +72,7 @@ Les processus Project Server 2013 et les méthodes PSI ont des numéros de cod
 |[Tableau 29 : Délégation d’utilisateur](#pj15_ErrorCodes_UserDelegation) <br/> |43000 - 43500  <br/> |
 |[Tableau 30 : Flux de travail](#pj15_ErrorCodes_Workflow) <br/> |35000 - 35999 : flux de travail  <br/> |
 |[Tableau 31 : WSSInterop et ObjectLinkProvider (intégration SharePoint)](#pj15_ErrorCodes_WSS) <br/> |16400 - 16499 : intégration SharePoint et espaces de travail de projet  <br/> 18000 - 18099 : fournisseur de liaison d’objet et importation de projet SharePoint  <br/> |
-   
+
 ## <a name="table-2-error-code-table-by-number-range"></a>Tableau 2. Tableau de codes d’erreur par plage de numéros
 
 |Plage de codes d’erreur|Tableau de codes d’erreur|
@@ -139,7 +140,7 @@ Les processus Project Server 2013 et les méthodes PSI ont des numéros de cod
 |GeneralSessionInvalid = 76  <br/> |Paramètre de session non valide. |
 |GeneralDependencyUidInvalid = 78  <br/> |GUID de dépendance non valide. |
 |GeneralNumberInvalid = 79  <br/> |Nombre non valide. |
-|GeneralInvalidDataStore = 80  <br/> |La base de données spécifiée n’existe pas. Utiliser une base de données dans [DataStoreEnum](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.DataStoreEnum.aspx). |
+|GeneralInvalidDataStore = 80  <br/> |La base de données spécifiée n’existe pas. Utilisez une base de données dans [DataStoreEnum](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.DataStoreEnum.aspx). |
 |GeneralDurationOrWorkFormatInvalid = 513  <br/> |Durée ou format du travail non valide. |
 |GeneralRateFormatInvalid = 518  <br/> |Format de taux non valide. |
 |GeneralQueueException = 9131  <br/> |Exception : erreur générale du service de mise en file d’attente. |
@@ -156,7 +157,7 @@ Les processus Project Server 2013 et les méthodes PSI ont des numéros de cod
 |GeneralInvalidObject = 20009  <br/> |Objet non valide. |
 |GeneralSecurityAccessDenied = 20010  <br/> |Accès refusé en raison d’autorisations de sécurité. |
 |GeneralInvalidOperation = 20011  <br/> |Opération non valide. |
-|GeneralInvalidCharacters = 20012  <br/> |Certains caractères ne sont pas valides. La tabulation et les caractères suivants ne sont pas valides dans un nom de projet : `\ / " : ; < > | , . ' ? * #` <br/> |
+|GeneralInvalidCharacters = 20012  <br/> |Certains caractères ne sont pas valides. En plus du caractère Tab, les caractères suivants ne sont pas valides dans un nom de projet : `\ / " : ; < > | , . ' ? * #` <br/> |
 |GeneralNameTooLong = 20013  <br/> |Le nom est trop long. |
 |GeneralNameCannotBeBlank = 20014  <br/> |Le nom ne peut pas être vide. N’utilisez pas de chaîne NULL ou vide. |
 |GeneralInvalidOperationOnReadOnlyValue = 20016  <br/> |Opération non valide tentée sur une valeur en lecture seule. |
@@ -519,11 +520,11 @@ Les processus Project Server 2013 et les méthodes PSI ont des numéros de cod
 |LookupTableMaskHasGaps = 11002  <br/> |Le masque de code de table de choix comporte des espaces. |
 |LookupTableMaskSequenceTypeLimitedToOneLevelDeep = 11003  <br/> |Le type de séquence de masque de code est limité à un seul niveau. |
 |LookupTableMaskSequenceTypeInvalid = 11004  <br/> |Type de séquence de masque de code non valide. |
-|LookupTableMaskSequenceRequiresAnyLength = 11005  <br/> |La longueur de la séquence de masque de code doit être _Any_. |
+|LookupTableMaskSequenceRequiresAnyLength = 11005  <br/> |La longueur de la séquence de masque de code doit être *Any*. |
 |LookupTableMaskSeparatorTooLong = 11006  <br/> |Le séparateur de masque de code comporte un trop grand nombre de caractères. |
 |LookupTableMaskLevelMustBeBlankAcrossLCIDs = 11007  <br/> |Le niveau du masque de code doit être vide pour les identificateurs de paramètres régionaux (ID de langue). |
 |LookupTableMaskSeparatorInvalid = 11008  <br/> |Caractère de séparation du masque de code non valide. |
-|LookupTableMaskBlankSeparatorInvalidAfterAnyLengthSequence = 11009  <br/> |Un caractère de séparation vide n’est pas valide après une longueur de séquence de type _Any_. |
+|LookupTableMaskBlankSeparatorInvalidAfterAnyLengthSequence = 11009  <br/> |Un caractère de séparation vide n’est pas valide après une longueur de séquence de type *Any*. |
 |LookupTableMaskSequenceLengthInvalid = 11010  <br/> |Longueur de séquence du masque de code non valide. |
 |LookupTableMaskLevelMustBeOneOrMore = 11011  <br/> |Le masque de code doit être de niveau 1 ou supérieur. |
 |LookupTableItemDoesNotFitMask = 11050  <br/> |L’élément de table de choix ne correspond pas à la définition du masque de code. |
@@ -551,14 +552,14 @@ Les processus Project Server 2013 et les méthodes PSI ont des numéros de cod
 |LookupTableAlreadyExists = 11076  <br/> |La table de choix existe déjà. |
 |LookupTableInvalidUID = 11078  <br/> |GUID de la table de choix non valide. |
 |LookupTableFilterInvalid = 11079  <br/> |Filtre de la table de choix non valide. |
-|LookupTableLanguageParameterInvalidWithXmlFilter = 11080  <br/> |Un paramètre de langue n’est pas valide avec le paramètre _xmlFilter_ de la table de choix. |
+|LookupTableLanguageParameterInvalidWithXmlFilter = 11080  <br/> |Un paramètre de langue n’est pas valide avec le paramètre *xmlFilter* de la table de choix. |
 |LookupTableInvalidParentStructUid = 11081  <br/> |GUID d’une structure parent de table de choix non valide. |
 |LookupTableItemContainsListSeparator = 11082  <br/> |L’élément de table de choix contient un séparateur de listes. |
-   
+
 Les codes d’erreur du tableau 14 comprennent des éléments relatifs aux erreurs de pages de détails de projet (PDP), de synchronisation Exchange, de chronologie Project Web App et de base de données. De nombreux codes d’erreur divers du tableau 14 sont utilisés en interne.
   
 > [!NOTE]
-> Les codes d’erreur d’audit ne sont pas utilisés dans Project Server 2013. 
+> Les codes d’erreur d’audit ne sont pas utilisés dans Project Server 2013.
 
 <a name="pj15_ErrorCodes_Miscellaneous"></a>
 
@@ -618,7 +619,7 @@ Les codes d’erreur du tableau 14 comprennent des éléments relatifs aux erre
 |NotificationEMailDeliveryFailed = 16080  <br/> |Échec de la remise du message électronique de notification. |
 |NotificationQueueMessageFailed = 16082  <br/> |Échec du message de file d’attente de notification. |
 |NotificationXSLTTransformationError = 16084  <br/> |Erreur lors de la transformation XSLT de la notification. |
-   
+
 Tous les codes d’erreur dans le tableau 16 concernent l’optimiseur, qui est un composant utilisé dans les analyses de portefeuille de projets.
 
 <a name="pj15_ErrorCodes_Optimizer"></a>
@@ -627,10 +628,10 @@ Tous les codes d’erreur dans le tableau 16 concernent l’optimiseur, qui est
 
 |Code d’erreur d’optimiseur|Description|
 |:-----|:-----|
-|OptimizerDepInvalidDepType = 29000  <br/> |La valeur de l’optimiseur **DEPENDENCY_TYPE** dans [OptimizerDependencyDataSet.OptimizerDependenciesRow](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependenciesRow.aspx) n’est pas valide. Voir [Optimizer.DependencyTypes](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Optimizer.DependencyTypes.aspx). |
+|OptimizerDepInvalidDepType = 29000  <br/> |La valeur de l’optimiseur **DEPENDENCY_TYPE** dans le [OptimizerDependencyDataSet.OptimizerDependenciesRow](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependenciesRow.aspx) n’est pas valide. Consultez [Optimizer.DependencyTypes](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Optimizer.DependencyTypes.aspx). |
 |OptimizerDepInvalidEntityType = 29001  <br/> |Le type d’entité n’est pas valide. Voir la propriété [Entities](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.Entities.aspx). |
 |OptimizerDepInvalidPosition = 29003  <br/> |La valeur [POSITION](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependencyDetailsRow.POSITION.aspx) n’est pas valide. |
-|OptimizerDepDuplicateDependentProjects = 29004  <br/> |Il y a des projets en double dans [OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable.aspx). |
+|OptimizerDepDuplicateDependentProjects = 29004  <br/> |Il existe des projets en double dans l’[OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable.aspx). |
 |OptimizerDepInvalidDependency = 29005  <br/> |Dépendance de l’optimiseur non valide. |
 |OptimizerDepCircularDependency = 29006  <br/> |Présence d’une dépendance circulaire. |
 |OptimizerCannotDeleteDependency = 29007  <br/> |Impossible de supprimer la dépendance. |
@@ -658,8 +659,8 @@ Tous les codes d’erreur dans le tableau 16 concernent l’optimiseur, qui est
 |OptimizerCannotUpdateMultiplePrioritizations = 29306  <br/> |Impossible de mettre à jour plusieurs définitions des priorités des axes stratégiques. |
 |OptimizerDriverRelationsNotFilled = 29307  <br/> |Les données de DriverRelationsRow sont incomplètes. |
 |OptimizerDriversNotFilled = 29308  <br/> |Il n’y a pas suffisamment d’informations dans les axes stratégiques de projet pour trouver une solution. |
-|OptimizerDriverRelationsInvalidInversedValue = 29309  <br/> |Il y a des valeurs inverses dans [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx). |
-|OptimizerCannotCreatePrioritizationUsingInactiveDrivers = 29310  <br/> |Il y a un axe stratégique inactif dans [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx). Vérifier les propriétés **DRIVER1_UID** et **DRIVER2_UID**. |
+|OptimizerDriverRelationsInvalidInversedValue = 29309  <br/> |Il existe des valeurs inverses dans le [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx). |
+|OptimizerCannotCreatePrioritizationUsingInactiveDrivers = 29310  <br/> |Un pilote inactif est spécifié dans le [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx). Vérifier les propriétés **DRIVER1_UID** et **DRIVER2_UID**. |
 |OptimizerCannotChangePrioritizationType = 29311  <br/> |Impossible de modifier le type de définition des priorités. |
 |OptimizerCannotSpecifyPriorityValuesForCalculatedPrioritizations = 29312  <br/> |Si une priorité est calculée, vous ne pouvez pas spécifier la valeur de la priorité. |
 |OptimizerCannotNormalizePriorityValues = 29313  <br/> |Les valeurs de priorité ne peuvent pas être normalisées. |
@@ -739,7 +740,7 @@ Tous les codes d’erreur dans le tableau 16 concernent l’optimiseur, qui est
 |OptimizerInvalidForceLookupTableValue = 29727  <br/> |Valeur de table de choix forcée non valide. |
 |OptimizerCannotCreateSolutionWhileAnalysisUpdateIsPending = 29728  <br/> |Impossible de créer une solution d’optimiseur lorsqu’une mise à jour d’analyse est en attente. |
 |OptimizerProjectSelectorAtLeastOne = 29800  <br/> |Au moins un projet doit être sélectionné pour l’optimiseur. |
-   
+
 Les codes d’erreur dans le tableau 17 concernent le planificateur, qui est un composant utilisé dans les analyses de portefeuille de projets.
 
 <a name="pj15_ErrorCodes_Planner"></a>
@@ -1045,8 +1046,8 @@ Les codes d’erreur dans le tableau 17 concernent le planificateur, qui est un
 |ResourcePlanAlreadyExists = 30010  <br/> |Le plan de charge des ressources existe déjà. |
 |ResourcePlanInvalidProjectUID = 30011  <br/> |GUID de projet non valide pour le plan de charge des ressources. |
 |ResourcePlanResourceAlreadyExists = 30012  <br/> |La ressource existe déjà dans le plan de ressources. |
-   
-Les codes d’erreur du tableau 22 concernent les méthodes **Règles** du service web **PWA**. Ils sont utilisés en interne. 
+
+Les codes d’erreur du tableau 22 concernent les méthodes **Règles** du service web **PWA**. Ils sont utilisés en interne.
 
 <a name="pj15_ErrorCodes_Rules"></a>
 
@@ -1142,7 +1143,7 @@ Les codes d’erreur du tableau 22 concernent les méthodes **Règles** du serv
 
 <a name="pj15_ErrorCodes_Statusing"></a>
 
-## <a name="table-25-statusing-web-service"></a>Tableau 25. Service web de gestion des états 
+## <a name="table-25-statusing-web-service"></a>Tableau 25. Service web de gestion des états
 
 |Code d’erreur relatif au service web de gestion des états|Description|
 |:-----|:-----|
@@ -1172,18 +1173,18 @@ Les codes d’erreur du tableau 22 concernent les méthodes **Règles** du serv
 |StatusingMissingNameAttribute = 3126  <br/> |Attribut de nom manquant pour **Gestion des états**. |
 |StatusingInvalidNameAttribute = 3127  <br/> |L’attribut de nom pour **Gestion des états** n’est pas valide. |
 |StatusingInvalidData = 3128  <br/> |Les données **Gestion des états** ne sont pas valides. |
-|StatusingInvalidChangelist = 3130  <br/> |Données XML non valides dans le paramètre _changexml_ de la méthode **UpdateStatus**. |
+|StatusingInvalidChangelist = 3130  <br/> |Données XML non valides dans le paramètre *changexml* de la méthode **UpdateStatus**. |
 |StatusingInsufficientAssignmentRights = 3131  <br/> |**SetAssignmentWorkData** ne peut pas mettre à jour une affectation car l’utilisateur ne dispose pas d’autorisation. |
 |StatusingInvalidChangeNumber = 3132  <br/> |Le numéro de modification **Gestion des états** n’est pas valide. |
 |StatusingPidNotEditable = 3133  <br/> |Le numéro d’identification de la propriété **Gestion des états** n’est pas modifiable. |
 |StatusingCannotSetTimephasedDataInManualTasks = 3134  <br/> |Impossible de définir des données chronologiques dans des tâches manuelles pour **Gestion des états**. |
 |StatusingCannotChangeTaskMode = 3135  <br/> |Impossible de modifier le mode de tâche pour **Gestion des états**. |
-   
-Les codes d’erreur du tableau 26 sont liés aux méthodes **StatusReports** du service web **PWA**. Ils sont utilisés en interne dans Project Web App. 
+
+Les codes d’erreur du tableau 26 sont liés aux méthodes **StatusReports** du service web **PWA**. Ils sont utilisés en interne dans Project Web App.
 
 <a name="pj15_ErrorCodes_StatusReports"></a>
 
-## <a name="table-26-statusreports"></a>Tableau 26. StatusReports 
+## <a name="table-26-statusreports"></a>Tableau 26. StatusReports
 
 |Code d’erreur de rapport d’état|Description|
 |:-----|:-----|
@@ -1194,7 +1195,7 @@ Les codes d’erreur du tableau 26 sont liés aux méthodes **StatusReports** d
 
 <a name="pj15_ErrorCodes_Tasks"></a>
 
-## <a name="table-27-task"></a>Tableau 27. Tâche 
+## <a name="table-27-task"></a>Tableau 27. Tâche
 
 |Code d’erreur de tâche|Description|
 |:-----|:-----|
@@ -1243,7 +1244,7 @@ Les codes d’erreur du tableau 26 sont liés aux méthodes **StatusReports** d
 
 <a name="pj15_ErrorCodes_Timesheets"></a>
 
-## <a name="table-28-timesheet"></a>Tableau 28. Feuille de temps 
+## <a name="table-28-timesheet"></a>Tableau 28. Feuille de temps
 
 |Code d’erreur de feuille de temps|Description|
 |:-----|:-----|
@@ -1263,7 +1264,7 @@ Les codes d’erreur du tableau 26 sont liés aux méthodes **StatusReports** d
 
 <a name="pj15_ErrorCodes_UserDelegation"></a>
 
-## <a name="table-29-user-delegation"></a>Tableau 29. Délégation d’utilisateur 
+## <a name="table-29-user-delegation"></a>Tableau 29. Délégation d’utilisateur
 
 |Code d’erreur de délégation d’utilisateur|Description|
 |:-----|:-----|
@@ -1281,7 +1282,7 @@ Les codes d’erreur du tableau 26 sont liés aux méthodes **StatusReports** d
 
 <a name="pj15_ErrorCodes_Workflow"></a>
 
-## <a name="table-30-workflow"></a>Tableau 30. Flux de travail 
+## <a name="table-30-workflow"></a>Tableau 30. Flux de travail
 
 |Code d’erreur de flux de travail|Description|
 |:-----|:-----|
@@ -1344,9 +1345,9 @@ Les codes d’erreur du tableau 26 sont liés aux méthodes **StatusReports** d
 |EnterpriseProjectTypeCannotDeleteDefault = 35215  <br/> |Impossible de supprimer le type de projet d’entreprise par défaut. |
 |EnterpriseProjectTypeCannotChangeDefault = 35216  <br/> |Impossible de modifier le type de projet d’entreprise par défaut. |
 |EnterpriseProjectTypeHasProjectsCannotDelete = 35217  <br/> |Impossible de supprimer un type de projet d’entreprise qui comporte des projets. |
-|EnterpriseProjectTypeCreatePDPIsRequired = 35218  <br/> |Un modèle de projet d’entreprise (EPT) pour un flux de travail requiert une page de détails de projet (PDP) de type *Créer* associée pour créer un projet à l’aide de ce modèle. Cette erreur se produit lorsque la PDP n’est pas incluse dans la définition du modèle de projet d’entreprise. Les autres types de PDP sont *Normal* pour la modification d’un projet et *État du flux de travail* pour l’affichage des détails d’un projet lié à un flux de travail.   |
+|EnterpriseProjectTypeCreatePDPIsRequired = 35218  <br/> |Un modèle de projet d’entreprise (EPT) pour un flux de travail requiert une page de détails de projet (PDP) de type *Créer* associée pour créer un projet à l’aide de ce modèle. Cette erreur se produit lorsque la PDP n’est pas incluse dans la définition du modèle du projet d’entreprise. Les autres types de PDP sont *Normal* pour la modification d’un projet et État du flux de travail pour l’affichage des détails d’un projet lié à un flux de travail.   |
 |EnterpriseProjectTypeOnlyOneCreatePDPAllowed = 35219  <br/> |La définition du modèle de projet d’entreprise n’autorise qu’une seule page de détails de projet de type *Créer*. |
-|EnterpriseProjectTypeHasWorkflowOnlyCreatePDPAllowed = 35220  <br/> |Un modèle de projet d’entreprise (EPT) pour un flux de travail requiert une page de détails de projet (PDP) de type *Créer* associée pour créer un projet à l’aide de ce modèle. Cette erreur se produit lorsque la PDP incluse dans la définition du modèle de projet d’entreprise du flux de travail est d’un autre type. Les autres types de PDP sont *Normal* pour la modification d’un projet et *État du flux de travail* pour l’affichage des détails d’un projet lié au flux de travail.   |
+|EnterpriseProjectTypeHasWorkflowOnlyCreatePDPAllowed = 35220  <br/> |Un modèle de projet d’entreprise (EPT) pour un flux de travail requiert une page de détails de projet (PDP) de type *Créer* associée pour créer un projet à l’aide de ce modèle. Cette erreur se produit lorsque la PDP incluse dans la définition du modèle de projet d’entreprise du flux de travail est d’un autre type. Les autres types de PDP sont *Normal* pour la modification d’un projet et *État du flux de travail* pour l’affichage des détails d’un projet lié au flux de travail. |
 |EnterpriseProjectTypeInvalidData = 35221  <br/> |Le **WorkflowDataSet** de l’entreprise du type de projet d’entreprise comporte des données qui ne sont pas valides. |
 |EnterpriseProjectNoDefaultEnterpriseProjectTypeDefined = 35222  <br/> |Aucun type de projet d’entreprise par défaut n’est défini. |
 |EnterpriseProjectTypeAtLeastOnePDPIsRequired = 35223  <br/> |Au moins une page de détails de projet est requise pour le type de projet d’entreprise. |
@@ -1403,10 +1404,10 @@ Les codes d’erreur du tableau 26 sont liés aux méthodes **StatusReports** d
 
 ## <a name="error-code-example-for-asmx"></a>Exemple de code d’erreur pour ASMX
 
-Pour obtenir une liste des erreurs si vous recevez une exception lorsque vous appelez une méthode PSI, transmettez l’objet **SoapException** au constructeur de classe [Microsoft.Office.Project.Server.Library.PSClientError](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.aspx). Vous pouvez ensuite utiliser [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) pour stocker les informations d’erreur dans un tableau **PSErrorInfo** et énumérer les erreurs, comme dans l’exemple suivant. 
+Pour obtenir une liste des erreurs si vous recevez une exception lorsque vous appelez une méthode PSI, transmettez l’objet **SoapException** au constructeur de classe [Microsoft.Office.Project.Server.Library.PSClientError](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.aspx). Vous pouvez ensuite utiliser [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) pour stocker les informations d’erreur dans un tableau **PSErrorInfo** et énumérer les erreurs, comme dans l’exemple suivant.
   
 > [!NOTE]
-> L’objet **PSErrorInfo** n’inclut pas toutes les informations dont vous avez peut-être besoin. Par exemple, si vous utilisez **Resource.CheckOutResources** lorsque l’une des ressources est déjà extraite, **PSErrorInfo** indique la raison de l’échec pour chaque ressource ne pouvant pas être extraite, mais n’inclut pas le nom de la ressource ou le GUID. Pour obtenir plus d’informations dans une application ASMX, voir [CheckOutResources](https://msdn.microsoft.com/library/WebSvcResource.Resource.CheckOutResources.aspx). 
+> L’objet **PSErrorInfo** n’inclut pas toutes les informations dont vous avez peut-être besoin. Par exemple, si vous utilisez **Resource.CheckOutResources** lorsque l’une des ressources est déjà extraite, **PSErrorInfo** indique la raison de l’échec pour chaque ressource ne pouvant pas être extraite, mais n’inclut pas le nom de la ressource ou le GUID. Pour obtenir plus d’informations dans une application ASMX, voir [CheckOutResources](https://msdn.microsoft.com/library/WebSvcResource.Resource.CheckOutResources.aspx).
   
 ```cs
 using System;
@@ -1452,7 +1453,7 @@ catch (SoapException ex)
 
 ## <a name="error-code-example-for-wcf"></a>Exemple de code d’erreur pour WCF
 
-Pour obtenir une liste des erreurs si vous recevez une exception **System.ServiceModel.FaultException** lorsque vous appelez une méthode PSI dans une application WCF, vous pouvez extraire un objet **PSClientError** de l’objet **FaultException**. Vous pouvez ensuite utiliser [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) pour stocker les informations d’erreur dans un tableau **PSErrorInfo** et énumérer les erreurs, comme dans l’exemple ASMX précédent. 
+Pour obtenir une liste des erreurs si vous recevez une exception **System.ServiceModel.FaultException** lorsque vous appelez une méthode PSI dans une application WCF, vous pouvez extraire un objet **PSClientError** de l’objet **FaultException**. Vous pouvez ensuite utiliser [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) pour stocker les informations d’erreur dans un tableau **PSErrorInfo** et énumérer les erreurs, comme dans l’exemple ASMX précédent.
   
 ```cs
 using System;
@@ -1574,8 +1575,7 @@ public static PSLibrary.PSClientError GetPSClientError(FaultException e,
 
 ```
 
-
-Outre les données dans l’objet **PSClientError**, l’objet **FaultException** peut inclure d’autres types d’erreurs, comme l’impossibilité de se connecter à Project Server. Le paramètre _errOut_ de la méthode **GetPSClientError** dans l’exemple précédent affiche des informations supplémentaires. Par exemple, l’exemple de code **CreateProject4Department** dans la méthode [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) inclut des commentaires qui montrent comment créer des erreurs lors de la définition des propriétés dans le tableau **ProjectCustomFields**. Lors de l’exécution de l’application, le paramètre _errOut_ inclut l’élément **errinfo** et d’autres données (formatées ici à partir de la sortie console). 
+Outre les données dans l’objet **PSClientError**, l’objet **FaultException** peut inclure d’autres types d’erreurs, comme l’impossibilité de se connecter à Project Server. Le paramètre *errOut* de la méthode **GetPSClientError** dans l’exemple précédent affiche des informations supplémentaires. Par exemple, l’exemple de code **CreateProject4Department** dans la méthode [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) inclut des commentaires qui montrent comment créer des erreurs lors de la définition des propriétés dans le tableau **ProjectCustomFields**. Lors de l’exécution de l’application, le paramètre _errOut_ inclut l’élément **errinfo** et d’autres données (formatées ici à partir de la sortie console).
   
 ```XML
 ==============================
@@ -1612,5 +1612,3 @@ CustomFieldRequiredValueNotProvided
 - [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
 - [Project Server 2010 : ce qui est attendu en cas d’erreur inattendue](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)
 - [Visionneuse ULS](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer)
-    
-

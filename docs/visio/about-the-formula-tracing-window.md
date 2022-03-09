@@ -9,47 +9,46 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 0cdacd4e-74dc-32c3-2eb2-219bf7fcb532
 description: La fenêtre Suivi des formules est conçue pour fournir aux développeurs de formes des informations à propos d’interdépendances entre des cellules — à la fois des cellules dépendantes (qui dépendent d’une cellule en particulier) et des cellules précédentes (dont dépend une cellule en particulier).
-ms.openlocfilehash: 77b058337bd1e8ea95f14015acc15fdccb14dbe4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8a56bdf69d2a103fd0f56d5773d19e3619bf5ad4
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628933"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63405601"
 ---
 # <a name="about-the-formula-tracing-window"></a>À propos de la fenêtre Suivi des formules
 
-La fenêtre **Suivi des formules** est conçue pour fournir aux développeurs de formes des informations à propos d’interdépendances entre des cellules — à la fois des cellules dépendantes (qui dépendent d’une cellule en particulier) et des cellules précédentes (dont dépend une cellule en particulier). 
+La fenêtre **Suivi des formules** est conçue pour fournir aux développeurs de formes des informations à propos d’interdépendances entre des cellules — à la fois des cellules dépendantes (qui dépendent d’une cellule en particulier) et des cellules précédentes (dont dépend une cellule en particulier).
   
-Les cellules d’une feuille ShapeSheet Microsoft Visio contiennent des valeurs et des formules. Les formules peuvent, à leur tour, avoir des références à d’autres cellules, ce qui vous donne la puissance de calculer une valeur dans une cellule en fonction de la valeur d’une autre cellule. Toutefois, en créant ou en maintenant des formes complexes, il peut s’avérer difficile d’identifier toutes ces interdépendances car une formule peut faire référence à n’importe quelle cellule du dessin, qu’il s’agisse d’une cellule de la même feuille ShapeSheet ou d’une cellule appartenant à un autre objet du dessin comme une page, un style, une forme de base ou une autre forme. 
+Les cellules d’une feuille ShapeSheet Microsoft Visio contiennent des valeurs et des formules. Les formules peuvent, à leur tour, avoir des références à d’autres cellules, ce qui vous donne la puissance de calculer une valeur dans une cellule en fonction de la valeur d’une autre cellule. Toutefois, en créant ou en maintenant des formes complexes, il peut s’avérer difficile d’identifier toutes ces interdépendances car une formule peut faire référence à n’importe quelle cellule du dessin, qu’il s’agisse d’une cellule de la même feuille ShapeSheet ou d’une cellule appartenant à un autre objet du dessin comme une page, un style, une forme de base ou une autre forme.
   
-La **fenêtre Suivi des** formules fournit des informations pour vous aider à comprendre les implications des modifications apportées aux cellules. 
+La **fenêtre Suivi des** formules fournit des informations pour vous aider à comprendre les implications des modifications apportées aux cellules.
   
 ## <a name="displaying-the-formula-tracing-window"></a>Affichage de la fenêtre Suivi des formules
 
-Pour afficher  la fenêtre Suivi des formules, avec la fenêtre Feuille ShapeSheet active,  sous Outils **Feuille ShapeSheet** sous l’onglet ** Création **, dans le groupe Suivi des formules, cliquez sur **Afficher la fenêtre.** La  fenêtre Suivi des formules apparaît ancrée dans la fenêtre Feuille ShapeSheet par défaut, mais il s’agit d’une fenêtre ancrée qui peut être ancrée, flottante ou fusionnée avec d’autres fenêtres ShapeSheet ancrées disponibles, par exemple la fenêtre Explorateur de **styles.** 
-  
+Pour afficher **la fenêtre Suivi** des formules, avec la fenêtre Feuille ShapeSheet active, sous Outils  **Feuille ShapeSheet** sous l’onglet Création, dans le groupe Suivi des formules, cliquez sur **Afficher la fenêtre**. La  fenêtre Suivi des formules apparaît ancrée dans la fenêtre Feuille ShapeSheet par défaut, mais il s’agit d’une fenêtre ancrée qui peut être ancrée, flottante ou fusionnée avec d’autres fenêtres ShapeSheet ancrées disponibles, par exemple la fenêtre Explorateur de **styles**.
+
 ## <a name="tracing-dependent-cells"></a>Cellules Tracing dependent
 
-Pour une liste des cellules dépendantes d’une cellule en particulier, sélectionnez cette cellule dans la fenêtre ShapeSheet. Dans cet exemple, la cellule Width est sélectionnée. 
+Pour une liste des cellules dépendantes d’une cellule en particulier, sélectionnez cette cellule dans la fenêtre ShapeSheet. Dans cet exemple, la cellule Width est sélectionnée.
   
 ![La cellule Width est sélectionnée](media/ShapeSheetDependents_UI_01_ZA01039814.gif)
   
-Pour afficher ses cellules dépendantes, dans le groupe **Suivi** des **formules, cliquez sur Dépendants du suivi.**
+Pour afficher ses cellules dépendantes, dans formula **Tracinggroup**, cliquez **sur Dépendants du suivi**.
   
-Une liste reprenant toutes les cellules dépendantes de la cellule Width apparaît dans la fenêtre **Suivi des formules**. Vous pouvez accéder à n’importe quelle cellule de la liste en double-cliquant sur son entrée dans la fenêtre **Suivi des formules**. 
+Une liste reprenant toutes les cellules dépendantes de la cellule Width apparaît dans la fenêtre **Suivi des formules**. Vous pouvez accéder à n’importe quelle cellule de la liste en double-cliquant sur son entrée dans la fenêtre **Suivi des formules**.
   
 ![Toutes les cellules ayant une dépendance sur la cellule Width apparaissent dans la fenêtre Suivi des formules](media/ShapeSheetDependents_UI_02_ZA01039815.gif)
   
 ## <a name="tracing-precendent-cells"></a>Cellules pré-cendentes de suivi
 
-Pour une liste des cellules dont une cellule en particulier est dépendante, sélectionnez d’abord la cellule dans la fenêtre ShapeSheet. Dans cet exemple, Ia cellule Geometry1.X2 est sélectionnée. 
+Pour une liste des cellules dont une cellule en particulier est dépendante, sélectionnez d’abord la cellule dans la fenêtre ShapeSheet. Dans cet exemple, Ia cellule Geometry1.X2 est sélectionnée.
   
 ![La cellule Geometry1.X2 est sélectionnée](media/ShapeSheetPrecedents_UI_01_ZA01039817.gif)
   
-Pour afficher ses cellules précédentes, dans le groupe **Suivi** des formules, cliquez **sur Suivi des antécédents.**
+Pour afficher ses cellules précédentes, dans **formula Tracinggroup**, cliquez **sur Trace Precedents**.
   
-La liste de toutes les cellules dont dépend la cellule Geometry1.X2 apparaît dans la fenêtre Suivi **des** formules. Vous pouvez accéder à n’importe quelle cellule de la liste en double-cliquant sur son entrée dans la fenêtre **Suivi des formules**. 
+La liste de toutes les cellules dont dépend la cellule Geometry1.X2 apparaît dans la fenêtre Suivi **des** formules. Vous pouvez accéder à n’importe quelle cellule de la liste en double-cliquant sur son entrée dans la fenêtre **Suivi des formules**.
   
 ![Toutes les cellules dont dépend la cellule Geometry1.X2 apparaissent dans la fenêtre Suivi des formules](media/ShapeSheetPrecedents_UI_02_ZA01039818.gif)
   
-

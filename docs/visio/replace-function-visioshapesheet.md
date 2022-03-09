@@ -1,7 +1,7 @@
 ---
 title: REPLACE Function (VisioShapeSheet)
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 70c9fc1d-6e7b-479f-effd-0d4bc8ae0f72
 description: Cette méthode remplace une partie de chaîne de texte, selon le nombre de caractères que vous spécifiez, par une chaîne de texte différente.
-ms.openlocfilehash: 64dcd886ce9c357d0f9bd7aa735231ceba3f76ca
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 4a11b356a9263fbc7a93520c5615cc991913d627
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772703"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404151"
 ---
 # <a name="replace-function-visioshapesheet"></a>REPLACE Function (VisioShapeSheet)
 
@@ -22,17 +22,17 @@ Cette méthode remplace une partie de chaîne de texte, selon le nombre de carac
   
 ## <a name="syntax"></a>Syntaxe
 
-REPLACE (** *old_text* **, ** *start_num* **, ** *num_chars* **, ** *new_text* ** ) 
+REPLACE (***old_text** _, _*_start_num_*_, _*_num_chars_*_, _ *_new_text_** )
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _old_text_ <br/> |Requis  <br/> |**String** <br/> |Texte dans lequel vous souhaitez remplacer certains caractères. |
-| _start_num_ <br/> |Requis  <br/> |**Number** <br/> |Position du caractère dans le  _old_text_ que vous souhaitez remplacer par  _new_text_. Le premier caractère de la chaîne est à la position 1. |
-| _num_chars_ <br/> |Requis  <br/> |**Number** <br/> |Nombre de caractères  _dans old_text_ que vous souhaitez remplacer  <br/> |
-| _new_text_ <br/> |Requis  <br/> |**String** <br/> |Texte qui remplace les caractères dans  _old_text_. |
-   
+| *old_text* <br/> |Requis  <br/> |**String** <br/> |Texte dans lequel vous souhaitez remplacer certains caractères. |
+| *start_num* <br/> |Requis  <br/> |**Number** <br/> |Position du caractère dans *old_text* à remplacer par *new_text*. Le premier caractère de la chaîne est à la position 1. |
+| *num_chars* <br/> |Requis  <br/> |**Number** <br/> |Nombre de caractères dans *old_text* à remplacer.  <br/> |
+| *new_text* <br/> |Requis  <br/> |**String** <br/> |Texte qui remplace des caractères dans *old_text*. |
+
 ### <a name="return-value"></a>Valeur renvoyée
 
 Chaîne
@@ -43,8 +43,7 @@ Utilisez la fonction REPLACE lorsque vous souhaitez remplacer du texte qui appar
   
 ## <a name="example"></a>Exemple
 
-REPLACE ("01/03/2002",9,2,"03") 
+REPLACE ("01/03/2002",9,2,"03")
   
-Renvoie le 01.03.03. 
+Renvoie le 01.03.03.
   
-

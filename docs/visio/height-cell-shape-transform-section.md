@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 194d5beb-c705-f567-84de-8305c41081a8
 description: Détermine la hauteur de la forme exprimée en unités de dessin.
-ms.openlocfilehash: 27c1c7fb17cf392d6d3ecad7090d4c4ade95005a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bd9f137f3bbe39b1385e23bf83f66e1f4b8e9284
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628240"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404424"
 ---
 # <a name="height-cell-shape-transform-section"></a>Height, cellule (section Shape Transform)
 
@@ -24,16 +24,16 @@ Détermine la hauteur de la forme exprimée en unités de dessin.
 
 Pour obtenir une référence à la cellule Height par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Hauteur  <br/> |
+| **Nom de la cellule :**  <br/> | Hauteur  <br/> |
    
 Pour obtenir une référence à la cellule Height à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowXFormOut** <br/> |
-| Index de la cellule :  <br/> |**visXFormHeight** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowXFormOut** <br/> |
+| **Index de la cellule :**  <br/> |**visXFormHeight** <br/> |
    
 

@@ -11,12 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70d5b34c-85b3-4d1f-860e-2838947ba428
-ms.openlocfilehash: daffc13b9d2e1b1d21f6f89abe33a87b0e766bf5
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 6fed559f0c4af94fcb2b22d1b80b6aa8f1208397
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374900"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404607"
 ---
 # <a name="itnefopentaggedbody"></a>ITnef::OpenTaggedBody
 
@@ -54,7 +54,7 @@ MAPI_MODIFY
     
  _lppStream_
   
-> [out] Pointeur vers un pointeur vers un objet de flux qui contient le texte de la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) du message encapsulé transmis et qui prend en charge l’interface [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
+> [out] Pointeur vers un pointeur vers un objet de flux qui contient le texte de la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) du message encapsulé transmis et qui prend en charge l’interface [IStream](/windows/desktop/api/objidl/nn-objidl-istream.md) . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: e4511af6-d7e7-44ad-a50d-1b7ee04f8215
 description: Microsoft InfoPath est conçu comme une application COM (Component Object Model) et offre l'accès à ses interfaces de programmation à la fois pour l'automatisation externe et pour les scripts utilisés depuis des modèles de formulaires comme interfaces COM.
-ms.openlocfilehash: 5037b18645d892b0506aaba101c7f7f719290154
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 9a9caa23ef932c93d6e5de38138323aa52c1cc4b
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63381676"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404466"
 ---
 # <a name="infopath-2003-compatible-object-models"></a>Modèles objet compatibles avec InfoPath 2003
 
@@ -99,7 +99,7 @@ Lorsque vous appuyez sur la touche F1 dans l'Éditeur de code, le comportement e
   
 ### <a name="passing-optional-parameters-to-infopath-object-model-members"></a>Passage de paramètres facultatifs aux membres du modèle objet InfoPath
 
-Si un membre du modèle objet compatible InfoPath 2003 contient un paramètre facultatif et que vous ne spécifiez pas de valeur pour ce paramètre, vous devez transmettre le champ **Type.Missing** de ce paramètre. Si vous ne transmettez pas le champ **Type.Missing** alors que la valeur est omise, cela provoque une erreur de compilation. Ceci se produit aussi bien pour le code écrit en Visual C# qu'en Visual Basic. Par exemple, la méthode [SelectNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectNodes.aspx) de l'interface [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewObject.aspx) comprend deux paramètres facultatifs :  _varEndNode_ et  _varViewContext_. Une ligne de code dans laquelle les valeurs de ces deux paramètres ne sont pas spécifiées doit ressembler aux exemples suivants.
+Si un membre du modèle objet compatible InfoPath 2003 contient un paramètre facultatif et que vous ne spécifiez pas de valeur pour ce paramètre, vous devez transmettre le champ **Type.Missing** de ce paramètre. Si vous ne transmettez pas le champ **Type.Missing** alors que la valeur est omise, cela provoque une erreur de compilation. Ceci se produit aussi bien pour le code écrit en Visual C# qu'en Visual Basic. Par exemple, la [méthode SelectNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectNodes.aspx) de l’interface [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewObject.aspx) inclut deux paramètres facultatifs : _varEndNode_ et _varViewContext_. Une ligne de code dans laquelle les valeurs de ces deux paramètres ne sont pas spécifiées doit ressembler aux exemples suivants.
   
 ```cs
 IXMLDOMNode group1 = 

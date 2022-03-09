@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c154413f-c366-a66b-94e3-ed71ad23f325
 description: Exécute une chaîne et transmet les arguments de ligne de commande au programme en tant que chaîne.
-ms.openlocfilehash: 0d796be5e7c3a0c135a7693f0476e224d190057a
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 3f1595ee7edfea25fd565758fc193ffcaf7bfe0e
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63372093"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63405678"
 ---
 # <a name="runaddonwargs-function"></a>Fonction RUNADDONWARGS
 
@@ -22,13 +22,13 @@ Exécute _une_ chaîne et transmet les _arguments de ligne de commande_ au progr
   
 ## <a name="syntax"></a>Syntaxe
 
-RUNADDONWARGS( » ** _string_ ** « , » ** _arguments_ ** « )
+RUNADDONWARGS( » **_string_** « , » **_arguments_** « )
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _string_ <br/> |Obligatoire  <br/> |**String** <br/> | Nom d’un module complémentaire |
+| _string_ <br/> |Requis  <br/> |**String** <br/> | Nom d’un module complémentaire |
 | _arguments_ <br/> |Requis  <br/> |**String** <br/> |Arguments à transmettre à votre programme |
 
 ## <a name="remarks"></a>Remarques

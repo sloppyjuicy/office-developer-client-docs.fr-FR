@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: cf15b879-a47e-a5a5-bfdd-1d7ea423742f
 description: Identifie l’icône qui s’affiche en regard d’une option de menu contextuel ou de balise d’action.
-ms.openlocfilehash: 0a76dc9fe1d9c6e87d4e3254afb7e2f4056c5101
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 6a05a73173ac73cebcebb17ed679dca8ddab3b84
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781064"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404714"
 ---
 # <a name="buttonface-cell-actions-section"></a>ButtonFace, cellule (section Actions)
 
@@ -31,16 +31,16 @@ Les ID utilisables dans la cellule ButtonFace sont les mêmes que ceux utilisés
   
 Pour obtenir une référence à la cellule ButtonFace à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |**Actions**.  *nom*  . **ButtonFace où** **Actions**.  *name*  est le nom de la ligne actions  <br/> |
+|**Nom de cellule :**  <br/> |**Actions**.  *nom*  . **ButtonFace où** **Actions**.  *name*  est le nom de la ligne actions  <br/> |
    
 Pour obtenir une référence à la cellule ButtonFace par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction** +   *i* où **i** = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visActionButtonFace** <br/> |
+|**Index de la section :**  <br/> |**visSectionAction** <br/> |
+|**Index de la ligne :**  <br/> |**visRowAction** +   *i* où **i** = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visActionButtonFace** <br/> |
    
 

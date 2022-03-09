@@ -1,7 +1,7 @@
 ---
 title: IMAPITableAdvise
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -11,19 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: e8b5d21e-dc14-4b61-96b3-a51bcfa0d232
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2c5a8637aa8ce2cc4e98e1a6cb65bda1cc91885b
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Inscrit un objet de réception de notification pour recevoir une notification d’événements spécifiés affectant la table.
+ms.openlocfilehash: d001df966587071d8295d141da629f31cdd79dd1
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776437"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63405113"
 ---
 # <a name="imapitableadvise"></a>IMAPITable::Advise
 
-  
-  
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016
   
 Inscrit un objet de réception de notification pour recevoir une notification d’événements spécifiés affectant la table.
   
@@ -40,36 +38,36 @@ ULONG_PTR FAR * lpulConnection
  _ulEventMask_
   
 > [in] Valeur indiquant le type d’événement qui générera la notification. Seule la valeur suivante est valide :
-    
+
  `fnevTableModified`
   
  _lpAdviseSink_
   
 > [in] Pointeur vers un objet de réception de notification pour recevoir les notifications suivantes. Cet objet de sink de conseil doit avoir été déjà alloué.
-    
+
  _lpulConnection_
   
 > [out] Pointeur vers une valeur autre que zéro qui représente l’inscription de notification réussie.
-    
+
 ## <a name="return-value"></a>Valeur renvoyée
 
-S_OK 
+S_OK
   
 > L’inscription de la notification s’est correctement terminée.
-    
-MAPI_E_NO_SUPPORT 
+
+MAPI_E_NO_SUPPORT
   
 > L’implémentation de tableau ne prend pas en charge les modifications apportées à ses lignes et colonnes ou ne prend pas en charge la notification.
-    
+
 ## <a name="remarks"></a>Remarques
 
-Utilisez la **méthode IMAPITable::Advise** pour inscrire un objet table implémenté dans le fournisseur pour les rappels de notification. Chaque fois qu’une modification a lieu sur l’objet table, le fournisseur vérifie quel bit de masque d’événement a été définie dans le paramètre _ulEventMask_ et par conséquent quel type de modification s’est produit. Si un bit est paramétré, le fournisseur appelle la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour l’objet de sink de conseil indiqué par le paramètre  _lpAdviseSink_ pour signaler l’événement. Les données transmises dans la structure de notification à **la routine OnNotify** décrivent l’événement. 
+Utilisez la **méthode IMAPITable::Advise** pour inscrire un objet table implémenté dans le fournisseur pour les rappels de notification. Chaque fois qu’une modification a lieu sur l’objet table, le fournisseur vérifie quel bit de masque d’événement a été définie dans le paramètre _ulEventMask_ et par conséquent quel type de modification s’est produit. Si un bit est paramétré, le fournisseur appelle la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour l’objet de sink de conseil indiqué par le paramètre  _lpAdviseSink_ pour signaler l’événement. Les données transmises dans la structure de notification à **la routine OnNotify** décrivent l’événement.
   
-L’appel **à OnNotify** peut se produire pendant l’appel qui modifie l’objet, ou à tout moment suivant. Sur les systèmes qui prendre en charge plusieurs threads d’exécution, l’appel à **OnNotify** peut se produire sur n’importe quel thread. Pour transformer un appel à **OnNotify** qui peut se produire à un moment inopportune en un appel plus sûr à gérer, un fournisseur doit utiliser la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . 
+L’appel **à OnNotify** peut se produire pendant l’appel qui modifie l’objet, ou à tout moment suivant. Sur les systèmes qui prendre en charge plusieurs threads d’exécution, l’appel à **OnNotify** peut se produire sur n’importe quel thread. Pour transformer un appel à **OnNotify** qui peut se produire à un moment inopportune en un appel plus sûr à gérer, un fournisseur doit utiliser la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) .
   
-Pour fournir des notifications, le fournisseur qui implémente **Advise** doit conserver une copie du pointeur vers l’objet de réception de notification  _lpAdviseSink_ ; pour ce faire, il appelle la méthode **IUnknown::AddRef** pour que le sink de notification conserve son pointeur d’objet jusqu’à ce que l’inscription de notification soit annulée avec un appel à la méthode [IMAPITable::Unadvise](imapitable-unadvise.md) . **L’implémentation Advise** doit affecter un numéro de connexion à l’inscription de notification et appeler **AddRef** sur ce numéro de connexion avant de le renvoyer dans _le paramètre lpulConnection_. Les fournisseurs de services peuvent libérer l’objet de sink de conseil avant l’annulation de l’inscription, mais ils ne doivent pas libérer le numéro de connexion tant que ** Unadvise ** n’a pas été appelé. 
+Pour fournir des notifications, le fournisseur qui implémente **Advise** doit conserver une copie du pointeur vers l’objet de réception de notification  _lpAdviseSink_ ; pour ce faire, il appelle la méthode **IUnknown::AddRef** pour que le sink de notification conserve son pointeur d’objet jusqu’à ce que l’inscription de notification soit annulée avec un appel à la méthode [IMAPITable::Unadvise](imapitable-unadvise.md) . **L’implémentation Advise** doit affecter un numéro de connexion à l’inscription de notification et appeler **AddRef** sur ce numéro de connexion avant de le renvoyer dans _le paramètre lpulConnection_. Les fournisseurs de services peuvent libérer l’objet de sink de conseil avant l’annulation de l’inscription, mais ils ne doivent pas libérer le numéro de connexion tant **qu’Unadvise** n’a pas été appelé.
   
-Une fois qu’un appel à **Advise** a réussi et avant que ** Unadvise ** ait été appelé, les clients doivent être préparés pour que l’objet de sink de conseil soit libéré. Un client doit donc libérer son objet de sink de conseil après le retour de **Advise** , sauf s’il dispose d’une utilisation spécifique à long terme pour lui. 
+Une fois qu’un appel à **Advise** a réussi et avant l’appel **d’Unadvise** , les clients doivent être préparés pour que l’objet de sink de conseil soit libéré. Un client doit donc libérer son objet de sink de conseil après le retour de **Advise** , sauf s’il dispose d’une utilisation spécifique à long terme pour lui.
   
 En raison du comportement asynchrone de la notification, les implémentations qui modifient les paramètres de colonne de table peuvent recevoir des notifications avec des informations organisées dans un ordre de colonne précédent. Par exemple, une ligne de tableau peut être renvoyée pour un message qui vient d’être supprimé du conteneur. Une telle notification est envoyée lorsque la modification du paramètre de colonne a été réalisée et que des informations à son sujet ont été envoyées, mais que l’affichage de la table de notifications n’a pas encore été mis à jour avec ces informations.
   
@@ -82,21 +80,12 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContestTableListCtrl::NotificationOn  <br/> |MFCMAPI utilise la **méthode IMAPITable::Advise** pour s’inscrire aux notifications afin de permettre à l’affichage tableau de rester à jour. |
-   
+
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[HrThisThreadAdviseSink](hrthisthreadadvisesink.md)
-  
-[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
-  
-[IMAPITable::Unadvise](imapitable-unadvise.md)
-  
-[TABLE_NOTIFICATION](table_notification.md)
-  
-[IMAPITable : IUnknown](imapitableiunknown.md)
-
-
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
-
+[HrThisThreadAdviseSink](hrthisthreadadvisesink.md)  
+[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)  
+[IMAPITable::Unadvise](imapitable-unadvise.md)  
+[TABLE_NOTIFICATION](table_notification.md)  
+[IMAPITable : IUnknown](imapitableiunknown.md)
+ [MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)

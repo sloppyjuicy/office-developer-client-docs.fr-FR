@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: c4f176d6-4af0-282d-5640-7d98e84dfb55
 description: Modifie la couleur en augmentant sa luminosité par la quantité (positive ou négative) spécifiée dans le paramètre int.
-ms.openlocfilehash: 2d99d497e1ca469ef716c519e441d5b3c44a3ea8
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 82e6b047d2376028ce6e29cda3efd0e5feedecba
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783024"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404791"
 ---
 # <a name="tint-function"></a>Fonction TINT
 
-Modifie la couleur en augmentant sa luminosité par la quantité (positive ou négative) spécifiée dans le _paramètre int_ . 
+Modifie la couleur en augmentant sa luminosité par la quantité (positive ou négative) spécifiée dans le _paramètre int_ .
   
 ## <a name="syntax"></a>Syntaxe
 
-TINT(** *color* **, ** *int* ** ) 
+TINT(***color** _, _ *_int_** )
   
 ### <a name="parameters"></a>Paramètres
 
@@ -28,13 +28,12 @@ TINT(** *color* **, ** *int* ** )
 |:-----|:-----|:-----|:-----|
 | _color_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Index de couleurs Microsoft Visio ou valeur RVB de la couleur. |
 | _int_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Valeur d’augmentation de la luminosité de la couleur. Elle peut être positive ou négative. |
-   
+
 ### <a name="return-value"></a>Valeur renvoyée
 
  **RGB**
   
 ## <a name="remarks"></a>Remarques
 
-Les limites basse et haute de luminosité sont respectivement 0 et 240. Il n’y a aucune limite sur la taille de l’nombre  _integer_ que vous pouvez transmettre pour le paramètre int, mais la luminosité ne dépasse jamais ces limites. 
+Les limites basse et haute de luminosité sont respectivement 0 et 240. Il n’existe pas de limite pour la taille de l’entier que vous pouvez envoyer au paramètre _int_, cependant la luminosité ne dépasse jamais ces limites.
   
-

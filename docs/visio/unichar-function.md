@@ -9,35 +9,34 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 371a475d-50f7-6b4c-4b47-581cd778dcba
 description: Renvoie le caractère Unicode d’un nombre.
-ms.openlocfilehash: 75d907e4aa06ab531c28aad031b8e76682a1ea19
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 39e72a3afaa87df9ebe37a107c1c64496e035093
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771058"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404473"
 ---
 # <a name="unichar-function"></a>Fonction UNICHAR
 
-Renvoie le caractère Unicode d’un nombre. 
+Renvoie le caractère Unicode d’un nombre.
   
 ## <a name="syntax"></a>Syntaxe
 
-UNICHAR (** *nombre* ** ) 
+UNICHAR (***number***)
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Entier compris entre 1 et 65 535 (inclus), ou la fonction renvoie une erreur. |
-   
+| *number* <br/> |Obligatoire  <br/> |**Entier** <br/> |Entier compris entre 1 et 65 535 (inclus), ou la fonction renvoie une erreur. |
+
 ## <a name="remarks"></a>Remarques
 
-La chaîne obtenue présente une longueur d’un caractère unicode (deux caractères). 
+La chaîne obtenue présente une longueur d’un caractère unicode (deux caractères).
   
 ## <a name="example"></a>Exemple
 
-UNICHAR(65) 
+UNICHAR(65)
   
-Renvoie A (lettre majuscule latine A) 
+Renvoie A (lettre majuscule latine A)
   
-

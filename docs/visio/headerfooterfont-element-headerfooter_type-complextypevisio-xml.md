@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 4e69dd4f-7281-e988-b1fd-93ac8c775c03
 description: Spécifie la police utilisée pour le texte de l’en-tête et du pied de page.
-ms.openlocfilehash: f528be9c11cc1f1610939f4be2768076c7bec1c8
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 57fd3988a55d94877e138dc76c02dcf6752ae0a3
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771362"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404784"
 ---
 # <a name="headerfooterfont-element-headerfooter_type-complextype-visio-xml"></a>Élément HeaderFooterFont (HeaderFooter_Type complexType) (Visio XML)
 
 Spécifie la police utilisée pour le texte de l’en-tête et du pied de page.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[HeaderFooterFont_Type](headerfooterfont_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de groupe d’un document. |
    

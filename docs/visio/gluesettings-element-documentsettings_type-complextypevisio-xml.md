@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: a5675dea-3b78-9fc2-c1c0-51fefe45c6e3
 description: Spécifie les objets sur qui les formes collent lorsque le collage est activé dans le document.
-ms.openlocfilehash: bf236f476d3d8b3bf179f52ceacb8b20dfdcdc28
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 73a5e5bce1746684f02b4f0471e1b6c232025325
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775835"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63402694"
 ---
 # <a name="gluesettings-element-documentsettings_type-complextype-visio-xml"></a>Élément GlueSettings (DocumentSettings_Type complexType) (Visio XML)
 
 Spécifie les objets sur qui les formes collent lorsque le collage est activé dans le document.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contient des éléments qui spécifient les paramètres de document. |
    

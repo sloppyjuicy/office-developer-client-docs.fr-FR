@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: ef94ee0f-dbb8-a2e1-1805-8a6609830d2a
 description: Renvoie une chaîne convertie en minuscules.
-ms.openlocfilehash: e7f1ea62aa4311464561885214dd1cfe99a52aeb
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: dcf3887ad3e7fa47f554983919b8c6ce714d68fd
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62769875"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404060"
 ---
 # <a name="upper-function"></a>Fonction UPPER
 
@@ -22,22 +22,21 @@ Renvoie une chaîne convertie en minuscules.
   
 ## <a name="syntax"></a>Syntaxe
 
-UPPER(** *expression* ** ) 
+UPPER(***expression***)
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Requis  <br/> |**Varie** <br/> | Chaîne, référence de cellule ou expression ; le résultat est converti en une chaîne à son tour convertie en majuscules. |
-   
+| *expression* <br/> |Requis  <br/> |**Varie** <br/> | Chaîne, référence de cellule ou expression ; le résultat est converti en une chaîne à son tour convertie en majuscules. |
+
 ## <a name="remarks"></a>Remarques
 
-La conversion dépend des paramètres régionaux et est basée sur les paramètres actuels de l’utilisateur. 
+La conversion dépend des paramètres régionaux et est basée sur les paramètres actuels de l’utilisateur.
   
 ## <a name="example"></a>Exemple
 
-UPPER("mAJ eT Min") 
+UPPER("mAJ eT Min")
   
-Renvoie "MAJ ET MIN". 
+Renvoie "MAJ ET MIN".
   
-

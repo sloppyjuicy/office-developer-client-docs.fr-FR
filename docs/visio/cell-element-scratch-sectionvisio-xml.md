@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: af17b1c5-51ee-f46f-79d0-4f33369b66f1
 description: Spécifie une zone de travail pour l’entrée et le test de formules qui peuvent être référentes par d’autres cellules.
-ms.openlocfilehash: ce26a33cbbcf74f09dd19a16d8ca9c43060e3244
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: bd5fae7b5967e172eb3fd84557a1543f90069cfd
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771726"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404707"
 ---
 # <a name="cell-element-scratch-section-visio-xml"></a>Élément de cellule (section Scratch) (Visio XML)
 
 Spécifie une zone de travail pour l’entrée et le test de formules qui peuvent être référentes par d’autres cellules.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (section Scratch)](row-element-scratch-sectionvisio-xml.md) <br/> |[ScratchRow_Type](scratch_type-complextypevisio-xml.md) <br/> |Spécifie une zone de travail pour l’entrée et le test de formules qui peuvent être référentes par d’autres cellules. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page. |
    

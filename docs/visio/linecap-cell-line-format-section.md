@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 3519216b-b6cf-2e8c-e20f-adfa373c9028
 description: Indique si l'extrémité du trait est arrondie, carrée ou étendue.
-ms.openlocfilehash: b062ff673d561a7c328b361fea8da0c4f67024c0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e53f9ecaab78b20ffd103e0142ba5dfd3385cf80
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615899"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404522"
 ---
 # <a name="linecap-cell-line-format-section"></a>LineCap, cellule (section Line Format)
 
@@ -32,16 +32,16 @@ Vous pouvez également définir la valeur de cette cellule dans la boîte de dia
   
 Pour obtenir une référence à la cellule LineCap par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |LineCap  <br/> |
+|**Nom de cellule :**  <br/> |LineCap  <br/> |
    
 Pour obtenir une référence à la cellule LineCap à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowLine** <br/> |
-|Index de la cellule :  <br/> |**visLineEndCap** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowLine** <br/> |
+|**Index de la cellule :**  <br/> |**visLineEndCap** <br/> |
    
 

@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: f9896839-ca36-b82b-7412-e57195d4b8e2
 description: Spécifie une propriété pour un calque ou ses propriétés pour une page.
-ms.openlocfilehash: 4bfc963cf13fa4794fd9d78c20e88f1c87805678
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5de2289441ac6be71fe8dc332b4900d5523475dd
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774558"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63406322"
 ---
 # <a name="cell-element-layer-section-visio-xml"></a>Élément de cellule (section Layer) (Visio XML)
 
 Spécifie une propriété pour un calque ou ses propriétés pour une page.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Row, élément (Layer Section)](row-element-layer-sectionvisio-xml.md) <br/> |[LayerRow_Type](layerrow_type-complextypevisio-xml.md) <br/> |Spécifie une propriété pour un calque ou ses propriétés pour une page. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin. |
    
@@ -75,7 +75,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |NameUniv  <br/> |Spécifie le nom universel d’un calque. |Aucun. |
 |Imprimer  <br/> |Spécifie si les formes appartenant au calque sont imprimées lors de l’impression du dessin. |Aucun. |
 |Aligner  <br/> |Spécifie si d’autres formes peuvent s’aligner sur les formes affectées au calque. |Aucun. |
-|État  <br/> |Spécifie si le calque est un calque valide pour un document. |Aucun. |
+|Statut  <br/> |Spécifie si le calque est un calque valide pour un document. |Aucun. |
 |Visible  <br/> |Indique si les formes appartenant au calque sont visibles sur la page de dessin. |Aucun. |
    
 

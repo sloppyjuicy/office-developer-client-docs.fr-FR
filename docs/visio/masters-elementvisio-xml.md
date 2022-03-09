@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: eb90df82-58b6-5d0b-6b7d-826c5c27c755
 description: Contient les éléments Master du document.
-ms.openlocfilehash: 4a496444bd394a547495534cf400ca7275e228bc
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 01620ecd4902d605d38a78d597aa8381289aeef3
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771128"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63402687"
 ---
 # <a name="masters-element-visio-xml"></a>Élément Masters (Visio XML)
 
 Contient les éléments Master du document.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -44,7 +44,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Contient des éléments qui définissent une base pour le document. |
 |[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Spécifie un raccourci maître défini dans le document. |

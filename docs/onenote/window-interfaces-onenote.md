@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: e6900ad7-c147-4816-93a9-5773170b115a
 description: Les interfaces Window et Windows sont que des objets OneNote 2013 API qui permet aux utilisateurs de travailler avec les fenêtres OneNote. Ces objets permettent aux utilisateurs d'énumérer l'ensemble des fenêtres OneNote et de modifier certaines propriétés de la fenêtre.
-ms.openlocfilehash: bd3c0f01213255d2346596ed0f707134b92d8c85
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 4750ad5c37e416ba99d22739f4de05a2f03ca2f2
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63375992"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63404053"
 ---
 # <a name="window-interfaces-onenote"></a>Interfaces de fenêtre (OneNote 2013)
 
@@ -74,7 +74,7 @@ Vous pouvez utiliser les méthodes suivantes de l'interface **Window** pour navi
   
 **NavigateTo**
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Description** <br/> |Accède à l'objet spécifié dans la fenêtre OneNote. Par exemple, vous pouvez naviguer vers des sections, des pages et des éléments du plan au sein de pages. |
 |**Syntaxe** <br/> | `HRESULT NavigateTo(`           ` [in]BSTR bstrHierarchyObjectID, `           ` [in]BSTR bstrObjectID); ` <br/> |
@@ -82,7 +82,7 @@ Vous pouvez utiliser les méthodes suivantes de l'interface **Window** pour navi
 
 **NavigateToUrl**
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Description** <br/> |Si un lien OneNote est transmis (onenote://), cette méthode ouvre la fenêtre OneNote à l’emplacement correspondant dans OneNote. Toutefois, si le lien est un lien externe, tel https:// ou file://, une boîte de dialogue de sécurité s’affiche. Après le renvoi, OneNote essaie d'ouvrir la liaison et une erreur HResult.hrObjectDoesNotExist est renvoyée. |
 |**Syntaxe** <br/> | `HRESULT NavigateToUrl (`           ` [in]BSTR bstrUrl); ` <br/> |
@@ -90,7 +90,7 @@ Vous pouvez utiliser les méthodes suivantes de l'interface **Window** pour navi
 
 **SetDockedLocation**
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Description** <br/> |Ancre la fenêtre à l'emplacement spécifié par **dockLocation** et le moniteur au **ptMonitor**. |
 |**Syntaxe** <br/> | `HRESULT SetDockedLocation`(           `[in] DockLocation dockLocation,`           `[in] POINT ptMonitor);` <br/> |
