@@ -7,12 +7,12 @@ ms.topic: overview
 ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
 description: Découvrez comment filtrer un affichage dans une application Access à l’aide de l’action de macro RequeryRecords et une macro de données.
 ms.localizationpriority: high
-ms.openlocfilehash: 1bee9ec3fdf91db3c96ed53f9659787fb3595b3c
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 3a3f79f21dbd5172a029c86ab24f83319b6c8b14
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179612"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63380052"
 ---
 # <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>Filtrage d’une vue à l’aide d’une macro dans l’application Access
 
@@ -29,7 +29,7 @@ Pour suivre les étapes de cet exemple, vous avez besoin des éléments suivants
   
 - Access 2013
 - Un environnement de développement SharePoint 2013
-    
+
 > [!NOTE]
 > Pour plus d'informations sur la configuration de votre environnement de développement SharePoint, consultez [Configurer un environnement de développement général pour SharePoint 2013](https://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx).
 > Pour plus d'informations sur l'obtention de Access 2013 et SharePoint 2013, consultez [Téléchargements](https://msdn.microsoft.com/office/apps/fp123627).
@@ -71,7 +71,7 @@ Les faits pertinents sont :
 
 Le champ **Date d’échéance** fournit des informations sur l’échéance d’une tâche. Le champ **État** fournit des informations d’état des tâches. Pour faire référence à un champ dans une macro, utilisez le format **[*TableName*].[*FieldName*]**. Utilisez **[Tasks].[Due Date]** pour faire référence au champ **Date d’échéance** et **[Tasks].[Status]** pour faire référence au champ **État**.
   
-La fonction [Fonction Today (application web personnalisée Access)](today-function-access-custom-web-app.md) renvoie la date du jour. La fonction [Fonction DateAdd (application web personnalisée Access)](dateadd-function-access-custom-web-app.md) peut être utilisée pour calculer une date qui correspond à un certain nombre de jours après une date spécifiée.
+La [fonction Aujourd’hui (application web personnalisée Access)](today-function-access-custom-web-app.md) retourne la date du jour. La [fonction DateAdd (application web personnalisée Access)](dateadd-function-access-custom-web-app.md) peut être utilisée pour calculer une date qui correspond à un certain nombre de jours après une date spécifiée.
   
 Le champ **État** contient plusieurs valeurs possibles. Une valeur **Terminée** indique que la tâche n’est plus active.
   
@@ -110,7 +110,7 @@ La macro d’interface utilisateur va appeler la macro de données, qui va tente
 6. Dans la zone de liste **Ajouter une nouvelle Action**, sélectionnez **SetReturnVar**.
 
     > [!NOTE]
-    > Vous verrez deux zones de liste **Ajouter une nouvelle action** : une au sein du bloc **LookupRecord** et une autre extérieure au bloc **LookupRecord**. Vous devez sélectionner la zone de liste **Ajouter une nouvelle action** dans le bloc **LookupRecord**, comme illustré dans la Figure 1.
+    > Vous verrez deux zones de liste **Ajouter une nouvelle action**, l’une dans le bloc **LookupRecord** et l’autre en dehors du bloc **LookupRecord**. Vous devez choisir la zone de liste **Ajouter une nouvelle action** dans le bloc **LookupRecord**, comme illustré dans la figure 1.
   
    **Figure 1. Zone de liste Ajouter une nouvelle action**
 
@@ -120,7 +120,7 @@ La macro d’interface utilisateur va appeler la macro de données, qui va tente
 
 8. Dans la zone **Expression**, saisissez **« Yes »**.
 
-9. Cliquez sur **Enregistrer**. Dans la zone **Nom de macro**, saisissez **TasksDueSoon**, puis sélectionnez **OK**.
+9. Sélectionnez **Enregistrer**. Dans le champ **TasksDueSoon**, entrez **Nom de Macro**, puis sélectionnez **OK**.
 
     La macro doit ressembler à celle illustrée à la figure 2.
 
@@ -187,7 +187,7 @@ La macro d’interface utilisateur va appeler la macro de données, qui va tente
 6. Dans la zone de liste **Ajouter une nouvelle action**, sélectionnez **RequeryRecords**.
 
     > [!NOTE]
-    > Vous verrez deux zones de liste **Ajouter une nouvelle action** : une au sein du bloc **If** et une autre extérieure au bloc **If**. Vous devez sélectionner la zone de liste **Ajouter une nouvelle action** dans le bloc **If**, comme illustré dans la Figure 6.
+    > Vous verrez deux zones de liste **Ajouter une nouvelle action** , l’une dans le bloc **Si** et l’autre en dehors du bloc **Si**. Vous devez choisir la zone de liste **Ajouter une nouvelle action** dans le bloc **Si**, comme illustré dans la figure 6.
   
    **Figure 6. Zone de liste Ajouter une nouvelle action**
 
@@ -251,7 +251,7 @@ La macro d’interface utilisateur va appeler la macro de données, qui va tente
 
 4. Fermez l’affichage Création de macros.
 
-5. Fermez l’affichage Liste des problèmes. Lorsque vous êtes invité à enregistrer vos modifications, sélectionnez **Oui**.
+5. Fermez l’affichage Liste des tâches. Choisissez **Oui** lorsque vous êtes invité à enregistrer vos modifications.
 
 À présent, nous sommes prêts pour la personnalisation du texte. Sélectionnez **Lancer l’application** pour ouvrir l’application dans votre navigateur web, puis le bouton de barre d’action personnalisé FilterTasks. Les tâches dont l’échéance est passée ou arrive dans les 7 prochains jours sont affichées. Un message s’affiche si l’application ne contient aucune tâche urgente.
   
