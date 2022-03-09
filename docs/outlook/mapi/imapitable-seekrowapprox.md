@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: ce5e8c43-06af-4afc-9138-5cc51d8fc401
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b88e7d71639d880a001a48d60e6089e9358f807a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c376c913cce72f1926e154b39d38ba014fbe56b4
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592311"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63378239"
 ---
 # <a name="imapitableseekrowapprox"></a>IMAPITable::SeekRowApprox
 
@@ -38,7 +37,7 @@ ULONG ulDenominator
 
  _ulNumerator_
   
-> [in] Pointeur vers le numérateur de la fraction représentant la position du tableau. Si le  _paramètre ulNumerator_ est zéro, le curseur est placé au début de la table, quelle que soit la valeur du dénominateur. Si  _ulNumerator est_ égal au paramètre  _ulDenominator,_ le curseur est placé après la dernière ligne du tableau. 
+> [in] Pointeur vers le numérateur de la fraction représentant la position du tableau. Si le  _paramètre ulNumerator_ est zéro, le curseur est placé au début de la table, quelle que soit la valeur du dénominateur. Si  _ulNumerator est_ égal au paramètre  _ulDenominator_ , le curseur est placé après la dernière ligne du tableau. 
     
  _ulDenominator_
   
@@ -56,11 +55,11 @@ MAPI_E_BUSY
     
 ## <a name="remarks"></a>Remarques
 
-La position du curseur dans une table après un appel à la méthode **IMAPITable::SeekRowApprox** est heuristiquement la fraction et peut ne pas être exacte. Par exemple, certains fournisseurs peuvent implémenter un tableau au-dessus d’une arborescence binaire, en traitant le point à mi-chemin de la table comme le haut de l’arborescence pour des raisons de performances. Si l’arborescence n’est pas équilibrée, le point à mi-chemin utilisé risque de ne pas être exactement à mi-chemin du tableau. 
+La position du curseur dans une table après un appel à la méthode **IMAPITable::SeekRowApprox** est heuristiquement la fraction et peut ne pas être exacte. Par exemple, certains fournisseurs peuvent implémenter une table au-dessus d’une arborescence binaire, en traitant le point à mi-chemin de la table comme le haut de l’arborescence pour des raisons de performances. Si l’arborescence n’est pas équilibrée, le point à mi-chemin utilisé risque de ne pas être exactement à mi-chemin du tableau. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez **SeekRowApprox** pour fournir les données d’une implémentation de barre de défilement. Par exemple, si l’utilisateur place la case de défilement 2/3 vers le bas de la barre de défilement, vous pouvez modéliser cette action en appelant **SeekRowApprox** et en passant une valeur fractionnaire équivalente à l’aide  _d’ulNumerator_ et  _ulDenominator_. La **recherche SeekRowApprox** est toujours absolue à partir du début du tableau. Pour aller à la fin du tableau, les valeurs dans  _ulNumerator_ et  _ulDenominator_ doivent être identiques. 
+**Appelez SeekRowApprox** pour fournir les données d’une implémentation de barre de défilement. Par exemple, si l’utilisateur place la case de défilement 2/3 vers le bas de la barre de défilement, vous pouvez modéliser cette action en appelant **SeekRowApprox** et en passant une valeur fractionnaire équivalente à l’aide  _d’ulNumerator_ et  _ulDenominator_. La **recherche SeekRowApprox** est toujours absolue à partir du début du tableau. Pour aller à la fin du tableau, les valeurs dans  _ulNumerator_ et  _ulDenominator_ doivent être identiques. 
   
 Utilisez n’importe quel schéma de nombres approprié. Autrement dit, pour rechercher une position à mi-chemin du tableau, vous pouvez spécifier 1/2, 10/20 ou 50/100. 
   

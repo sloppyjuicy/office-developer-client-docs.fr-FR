@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 79d5af23-efad-4013-a330-56babfb2bb0f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3a7640f0591157b40cf552705d02d613a8ebad92
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 9b498ed6ea7cc2ce49120d7d053f1d89ecd17e6c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461502"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63378197"
 ---
 # <a name="imsproviderspoolerlogon"></a>IMSProvider::SpoolerLogon
 
@@ -56,7 +55,7 @@ HRESULT SpoolerLogon(
     
  _lpszProfileName_
   
-> [in] Pointeur vers une chaîne qui contient le nom du profil utilisé pour la logo dupooler MAPI. Cette chaîne peut être affichée dans des boîtes de dialogue, écrite dans un fichier journal ou simplement ignorée. Elle doit être au format Unicode si l’MAPI_UNICODE est définie dans _le paramètre ulFlags_ . 
+> [in] Pointeur vers une chaîne qui contient le nom du profil utilisé pour la logo dupooler MAPI. Cette chaîne peut être affichée dans des boîtes de dialogue, écrite dans un fichier journal ou simplement ignorée. Elle doit être au format Unicode si l’MAPI_UNICODE est définie dans le _paramètre ulFlags_ . 
     
  _cbEntryID_
   

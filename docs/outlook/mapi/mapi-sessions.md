@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c5a7c137-393e-40ff-a2b9-afe02da2435a
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d4e81b3e3c948d31e1f34e9e6b423ba881302f48
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 62e1f6dccc387b18f1439cf792c8bf52885d7260
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595790"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377770"
 ---
 # <a name="mapi-sessions"></a>Sessions MAPI
 

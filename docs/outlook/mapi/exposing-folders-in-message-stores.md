@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d9309e47-2a92-4576-9921-c89cc48472c2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fb6134d462dbe7541e7672b5a684bc6af51a0d86
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ae7f7f948d07ae3f2985ffa132e998739bfc6fa9
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596483"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376916"
 ---
 # <a name="exposing-folders-in-message-stores"></a>Exposition des dossiers dans des banques de messages
 

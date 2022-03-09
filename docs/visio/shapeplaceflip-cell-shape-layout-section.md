@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 40008507-d9e4-9c0e-603f-d5e6da73a94b
 description: Détermine la façon dont une forme positionnable est retournée et/ou pivote sur la page lorsque vous disposez des formes à l’aide de la boîte de dialogue Configurer la disposition (dans le groupe Disposition de l’onglet Création, cliquez sur Nouvelle disposition de page, puis cliquez sur Autres options de disposition).
-ms.openlocfilehash: a77861ed9d53d05b13e2a7bda752f91047a760c0
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a7e511519bd64e313694313c4ce5a2a76bb2cbc3
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781890"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376958"
 ---
 # <a name="shapeplaceflip-cell-shape-layout-section"></a>ShapePlaceFlip, cellule (section Shape Layout)
 
@@ -27,25 +27,23 @@ Détermine la façon dont une forme positionnable est retournée et/ou pivote su
 |2  <br/> |Retournement vertical. |**visLOFlipY** <br/> |
 |4  <br/> |Retourner par incréments de 90 degrés entre 0 et 270. |**visLOFlipRotate** <br/> |
 |8   <br/> |Ne pas retourner. |**visLOFlipNone** <br/> |
-   
+
 ## <a name="remarks"></a>Remarques
 
 La valeur de la cellule ShapePlaceFlip facilite l'orientation d'une forme positionnable vers la forme positionnable suivante à laquelle elle est liée.
   
-Pour définir ce comportement pour  *toutes les formes*  de la page de dessin, utilisez la cellule PlaceFlip dans la section Mise en page. 
+Pour définir ce comportement pour *toutes* les formes de la page de dessin, utilisez la cellule PlaceFlip de la section Page Layout.
   
-Pour obtenir une référence à la cellule ShapePlaceFlip par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
+Pour obtenir une référence à la cellule ShapePlaceFlip par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez :
   
 |||
 |:-----|:-----|
 |Nom de la cellule :  <br/> |ShapePlaceFlip  <br/> |
-   
-Pour obtenir une référence à la cellule ShapePlaceFlip à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+
+Pour obtenir une référence à la cellule ShapePlaceFlip à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
 |Index de la cellule :  <br/> |**visSLOPlaceFlip** <br/> |
-   
-

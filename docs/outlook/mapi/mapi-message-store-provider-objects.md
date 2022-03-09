@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 87a452e6-dedf-414d-b7cf-07c8b02dd94a
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 539b5648652be3d29e514f5bd540820142566b8a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: edba0fc6b9eccaac410af12088ad94d6eb1d9dfd
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584142"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376202"
 ---
 # <a name="mapi-message-store-provider-objects"></a>Objets fournisseurs de magasin de messages MAPI
   

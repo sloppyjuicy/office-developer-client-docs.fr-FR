@@ -7,12 +7,12 @@ ms:contentKeyID: 48545274
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4e9dc5b2f0c1501dd313a0f70c241d8dfa7fbe59
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 920208a423cef36dc7cf8ead45fe6c4b18c28dca
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621842"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63378932"
 ---
 # <a name="setpermissions-method-adox"></a>SetPermissions, méthode (ADOX)
 
@@ -22,7 +22,7 @@ Spécifie les autorisations d'un groupe ou d'un utilisateur sur un objet.
 
 ## <a name="syntax"></a>Syntaxe
 
-*GroupOrUser*. SetPermissions *Name*, *ObjectType*, *Action*, *Rights* \[ ,*Inherit* \] \[ ,*ObjectTypeId*\]
+*GroupOrUser*. SetPermissionsName, *ObjectType*, *Action*, *Rights* \[,*Inherit*\] \[,*ObjectTypeId*\]
 
 ## <a name="parameters"></a>Paramètres
 
@@ -41,5 +41,3 @@ Une erreur se produit si le fournisseur ne prend pas en charge la définition de
 
 > [!NOTE]
 > En cas d'appel de **SetPermissions**, l'octroi de la valeur **adAccessRevoke** au paramètre Actions remplace la configuration du paramètre *Rights*. N'affectez pas la valeur **adAccessRevoke** au paramètre *Actions* si vous souhaitez que les droits spécifiés dans le paramètre *Rights* soient appliqués.
-
-

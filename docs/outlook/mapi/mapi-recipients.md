@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 88a4360d-6ab8-466e-8ebd-af80227ee00a
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ebcce8da0d0c2d1e50db199ef59f0873c02cebae
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b31d1b60a3cbd1598be97d45fc438685cbecfa4d
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584100"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376195"
 ---
 # <a name="mapi-recipients"></a>Destinataires MAPI
 
@@ -29,7 +28,7 @@ Clients acc�dent � un destinataire de message par le biais de sa table des d
     
 - Type de destinataire ou **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md))
     
-- Identificateur **de ligne ou PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md))
+- Identificateur de **ligne ou PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md))
     
 Une fois que le message a subi le processus de résolution de noms, chaque destinataire possède également un identificateur d’entrée ou **une PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Et lorsque le message a �t� envoy�, les lignes dans la table de destinataires ajoute deux colonnes :
   

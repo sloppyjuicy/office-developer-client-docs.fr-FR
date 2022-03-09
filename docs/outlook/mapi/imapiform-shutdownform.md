@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: f1e2a526-40ad-4a93-908f-8ab9a65928a8
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d0aebc6236a4c364262904baa96fd1d1139c43ca
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 225624fc81655b9f5a6afcf1ffe9d4a66beffa54
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571800"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63382103"
 ---
 # <a name="imapiformshutdownform"></a>IMAPIForm::ShutdownForm
 
@@ -67,7 +66,7 @@ Les visionneuses de formulaire **appellent la méthode IMAPIForm::ShutdownForm**
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Effectuez les tâches suivantes dans votre implémentation de **ShutdownForm**:
+Effectuez les tâches suivantes dans votre implémentation **de ShutdownForm** :
   
 1. Vérifiez qu’une visionneuse n’a pas encore appelé **ShutdownForm** et E_UNEXPECTED si c’est le cas. Bien que cela soit peu probable, vous devez vérifier.
     
@@ -79,22 +78,22 @@ Effectuez les tâches suivantes dans votre implémentation de **ShutdownForm**:
     
 5. Release your form’s message and message site objects by calling their [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) methods. 
     
-6. Informez tous les utilisateurs inscrits de l’arrêt en attente en appelant leurs méthodes [IMAPIViewAdviseSink::OnShutdown.](imapiviewadvisesink-onshutdown.md) 
+6. Informez tous les utilisateurs inscrits de l’arrêt en attente en appelant leurs méthodes [IMAPIViewAdviseSink::OnShutdown](imapiviewadvisesink-onshutdown.md) . 
     
 7. Appelez [la méthode IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) pour annuler l’inscription de votre formulaire pour la notification en réglant le pointeur de réception de notification sur **null**.
     
 8. Appelez la [fonction MAPIFreeBuffer](mapifreebuffer.md) pour libérer de la mémoire pour les propriétés de votre formulaire. 
     
-9. Appelez la méthode **IUnknown::Release** de votre formulaire, en correspondant à l’appel **AddRef** effectué à l’étape 2. 
+9. Appelez la méthode **IUnknown::Release** de votre formulaire, correspondant à l’appel **AddRef** effectué à l’étape 2. 
     
 10. Elles retournent S_OK.
     
 > [!NOTE]
-> Une fois ces actions terminées, les seules méthodes valides sur l’objet de formulaire qui peuvent être appelées sont celles de l’interface [IUnknown.](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) 
+> Une fois ces actions terminées, les seules méthodes valides sur l’objet de formulaire qui peuvent être appelées sont celles de l’interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) . 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsque **ShutdownForm renvoie,** qu’il renvoie ou non une erreur, relâchez le formulaire en appelant sa méthode **IUnknown::Release.** Vous pouvez ignorer en toute sécurité les erreurs renvoyées par **ShutdownForm**.
+Lorsque **ShutdownForm renvoie** , qu’il renvoie ou non une erreur, relâchez le formulaire en appelant sa méthode **IUnknown::Release** . Vous pouvez ignorer en toute sécurité les erreurs renvoyées par **ShutdownForm**.
   
 ## <a name="see-also"></a>Voir aussi
 

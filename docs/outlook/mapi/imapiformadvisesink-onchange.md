@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: d700b40f-e5b2-4d37-bf1f-8fd3dfa0dda5
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4ed41bc702d6296d1c714e89f99e9fac63ca055d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 954d5932b301a1ac261678dcdd61f3f0fd143d43
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579907"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376867"
 ---
 # <a name="imapiformadvisesinkonchange"></a>IMAPIFormAdviseSink::OnChange
 

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83290b8e-fffc-41c8-a01e-578d130b65c5
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ab4aab0fe555445b56e2c42fbe7bc00505e44b36
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8b5e5df136e7908c2011c9fb362211e2c6fbc2e3
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596343"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377889"
 ---
 # <a name="imapicontrolgetlasterror"></a>IMAPIControl::GetLastError
 
@@ -47,7 +46,7 @@ HRESULT GetLastError(
     
 MAPI_UNICODE 
   
-> Les chaînes de la structure **MAPIERROR renvoyées** dans le paramètre  _lppMAPIError_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
+> Les chaînes de la structure **MAPIERROR renvoyées** dans le paramètre _lppMAPIError_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
     
  _lppMAPIError_
   
@@ -61,17 +60,17 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L’indicateur MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
+> L’MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de services implémentent la méthode **IMAPIControl::GetLastError** pour fournir des informations sur un appel de méthode antérieur qui a échoué. MAPI peut fournir aux utilisateurs des informations détaillées sur l’erreur en affichant les données de la structure **MAPIERROR** dans un message ou une boîte de dialogue. 
+Les fournisseurs de services **implémentent la méthode IMAPIControl::GetLastError** pour fournir des informations sur un appel de méthode antérieur qui a échoué. MAPI peut fournir aux utilisateurs des informations détaillées sur l’erreur en affichant les données de la structure **MAPIERROR** dans un message ou une boîte de dialogue. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Il n’est pas nécessaire d’inclure des informations dans la structure **MAPIERROR** pour chaque erreur. Il n’est peut-être pas possible de déterminer la raison de l’erreur précédente. Si vous avez des informations, renvoyez S_OK données appropriées dans la structure **MAPIERROR.** Si aucune information n’est disponible, renvoyez S_OK et un pointeur vers NULL pour _le paramètre lppMAPIError._ 
+Il n’est pas nécessaire d’inclure des informations dans la structure **MAPIERROR** pour chaque erreur. Il n’est peut-être pas possible de déterminer la raison de l’erreur précédente. Si vous avez des informations, renvoyez S_OK données appropriées dans la structure **MAPIERROR** . Si aucune information n’est disponible, renvoyez S_OK et un pointeur vers NULL pour  _le paramètre lppMAPIError_ . 
   
-Pour plus d’informations **sur la méthode GetLastError,** voir [MAPI Extended Errors](mapi-extended-errors.md).
+Pour plus d’informations **sur la méthode GetLastError** , voir [MAPI Extended Errors](mapi-extended-errors.md).
   
 ## <a name="see-also"></a>Voir aussi
 

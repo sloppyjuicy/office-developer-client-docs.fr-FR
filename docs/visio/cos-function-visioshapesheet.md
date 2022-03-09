@@ -9,35 +9,34 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e6c82e7-a025-9df5-a95d-b00b0f39724f
 description: Renvoie le cosine d’un angle.
-ms.openlocfilehash: 14988aa215ec10380ce8c3311ee9b738cfc26243
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 1f3f959141bbbf9323417a5dfcdd7e840ab5a8c3
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783550"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376986"
 ---
 # <a name="cos-function-visioshapesheet"></a>COS Function (VisioShapeSheet)
 
-Renvoie le cosine d’un angle. 
+Renvoie le cosine d’un angle.
   
 ## <a name="syntax"></a>Syntaxe
 
-COS( *angle*) 
+COS( *angle*)
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Requis  <br/> |**Numérique** <br/> |Angle pour lequel le cosinus doit être obtenu. |
-   
+| *angle* <br/> |Obligatoire  <br/> |**Numérique** <br/> |Angle pour lequel le cosinus doit être obtenu. |
+
 ## <a name="remarks"></a>Remarques
 
-La fonction COS utilise des radians, sauf si vous spécifiez une unité de mesure différente dans  *l’angle*  . 
+La fonction COS utilise des radians, sauf si vous spécifiez une unité de mesure différente dans *angle*.
   
 ## <a name="example"></a>Exemple
 
-COS(45 deg) 
+COS(45 deg)
   
-Renvoie 0,7071. 
+Renvoie 0,7071.
   
-

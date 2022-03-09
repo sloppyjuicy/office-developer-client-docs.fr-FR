@@ -5,13 +5,12 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: a70c1445-03d5-9585-2bdb-d03c608b313b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c5825589e33ad3023993d05038c883a6ab350057
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ec7d902fec864aab0eaa67de1f47d4c1df8c25c7
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601113"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379240"
 ---
 # <a name="about-the-attachment-security-api"></a>À propos de l’API de sécurité des pièces jointes
 

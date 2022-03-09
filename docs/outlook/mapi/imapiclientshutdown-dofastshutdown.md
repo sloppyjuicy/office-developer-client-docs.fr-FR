@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 310cba9a-a343-484d-a029-fcd51b731460
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 531653f794b38fec68fac206963df04b55af20d1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 35117c318149df090dd12a1d82169d8b41711c22
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580026"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377511"
 ---
 # <a name="imapiclientshutdowndofastshutdown"></a>IMAPIClientShutdown::DoFastShutdown
 
@@ -35,7 +34,7 @@ HRESULT DoFastShutdown ();
 
 S_OK
   
-> Le sous-système MAPI a indiqué aux fournisseurs MAPI chargés que le client MAPI quitte immédiatement et que les fournisseurs MAPI sont prêts pour la sortie du client.
+> Le sous-système MAPI a indiqué aux fournisseurs MAPI chargés que le client MAPI se quitte immédiatement et que les fournisseurs MAPI sont prêts pour la sortie du client.
     
 MAPI_E_NO_SUPPORT
   
@@ -43,7 +42,7 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Remarques
 
-Pour éviter la perte de données suite à l’arrêt rapide d’un client MAPI, les clients MAPI doivent appeler les méthodes [IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) et **IMAPIClientShutdown::D oFastShutdown** basées sur le résultat S_OK renvoyé par le sous-système MAPI dans la méthode [IMAPIClientShutdown::QueryFastShutdown.](imapiclientshutdown-queryfastshutdown.md) Pour plus d’informations, voir [Best Practices for Fast Shutdown](best-practices-for-fast-shutdown.md).
+Pour éviter la perte de données suite à l’arrêt rapide d’un client MAPI, les clients MAPI doivent appeler les méthodes [IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) et **IMAPIClientShutdown::D oFastShutdown** en fonction du résultat S_OK renvoyé par le sous-système MAPI dans la méthode [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Pour plus d’informations, voir [Best Practices for Fast Shutdown](best-practices-for-fast-shutdown.md).
   
 ## <a name="see-also"></a>Voir aussi
 

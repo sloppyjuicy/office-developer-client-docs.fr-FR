@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ffceaa03-76f2-42e0-b28d-226f1f9cc889
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 29ad3393340d356a043f5df5115b9112d8e3b3df
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 26b1c35dcedbf1aaaf5fb2cc7a13844bca1ecc71
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610355"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63382320"
 ---
 # <a name="launching-a-new-compose-form"></a>Lancement d’un nouveau formulaire de composition
 
@@ -21,7 +20,7 @@ ms.locfileid: "59610355"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les implémenteurs de serveur de formulaire doivent s’attendre à ce que la séquence suivante d’appels de méthode soit appliquée à leur serveur de formulaires et à leurs objets de formulaire lorsqu’une application cliente ouvre un nouveau message pour la composition :
+Les implémenteurs de serveur de formulaire doivent s’attendre à ce que la séquence d’appels de méthode suivante s’applique à leur serveur de formulaires et à leurs objets de formulaire lorsqu’une application cliente ouvre un nouveau message pour la composition :
   
 1. L’application cliente appelle [la méthode IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) pour obtenir des informations de classe sur la classe de message du serveur de formulaires. 
     
@@ -31,7 +30,7 @@ Les implémenteurs de serveur de formulaire doivent s’attendre à ce que la s�
     
 4. L’application cliente prend l’interface **IMAPIForm** qui en résulte et appelle la méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) pour obtenir l’interface [IPersistMessage](ipersistmessageiunknown.md) de l’objet. 
     
-5. L’application cliente appelle la méthode [IPersistMessage::InitNew](ipersistmessage-initnew.md) pour associer l’objet de formulaire à [IMessage,](imessageimapiprop.md)afficher le contexte et conseiller les objets de type sink.
+5. L’application cliente appelle la méthode [IPersistMessage::InitNew](ipersistmessage-initnew.md) pour associer l’objet de formulaire à [IMessage](imessageimapiprop.md), afficher le contexte et conseiller les objets de type sink.
     
 6. L’application cliente appelle [la méthode IMAPIForm::D oVerb](imapiform-doverb.md) pour appeler le verbe ouvert. 
     

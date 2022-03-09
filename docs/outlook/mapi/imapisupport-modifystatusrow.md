@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: a304ca8f-e404-4535-be76-0b673f2061a0
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 19292d41e04b4a80d69ce68a1961c1deacbfde71
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f931790822815d956f869876bf8faa2b99c1e20c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625426"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377882"
 ---
 # <a name="imapisupportmodifystatusrow"></a>IMAPISupport::ModifyStatusRow
 
@@ -65,11 +64,11 @@ La **méthode IMAPISupport::ModifyStatusRow** est implémentée pour tous les ob
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Définissez l STATUSROW_UPDATE lorsque vous appelez **ModifyStatusRow** pour apporter des modifications aux propriétés de la ligne de votre table d’état existante. Cela informe MAPI que seules les colonnes modifiées sont passées dans le _paramètre lpColumnVals._ 
+Définissez l STATUSROW_UPDATE lorsque vous appelez **ModifyStatusRow** pour apporter des modifications aux propriétés de la ligne de votre table d’état existante. Cela informe MAPI que seules les colonnes modifiées sont passées dans le _paramètre lpColumnVals_ . 
   
 Les clients peuvent utiliser les informations de la table d’état pour accéder à votre objet d’état. 
   
-Pour obtenir la liste complète des colonnes que vous devez inclure dans la ligne de votre tableau d’état, voir [Tableaux d’état.](status-tables.md)
+Pour obtenir la liste complète des colonnes que vous devez inclure dans la ligne de votre tableau d’état, voir [Tableaux d’état](status-tables.md).
   
 ## <a name="see-also"></a>Voir aussi
 

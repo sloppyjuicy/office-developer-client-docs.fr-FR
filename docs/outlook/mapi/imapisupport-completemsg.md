@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: e7932433-abe0-4341-95e0-91b37c848145
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 87640445c1243f6725c42fbc0a20f77f54e45dde
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 98d0ab421669ae1c2ad7f66bcca5741af87d2cfb
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625440"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376832"
 ---
 # <a name="imapisupportcompletemsg"></a>IMAPISupport::CompleteMsg
 
@@ -43,7 +42,7 @@ HRESULT CompleteMsg(
     
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   

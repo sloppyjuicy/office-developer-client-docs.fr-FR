@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 22005976-37c0-d2be-8e34-8aee8458e4be
 description: Renvoie un nombre integer, de 0 à 59, qui représente le composant de secondes de date/heure ou d’expression.
-ms.openlocfilehash: 98fb0bb2bc6cb8507389248708a0f3ac3ec18c38
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: cc3dc8c87481fb866f6c7f50299b6d37a2c525e3
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788744"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376405"
 ---
 # <a name="second-function-visioshapesheet"></a>SECOND Function (VisioShapeSheet)
 
@@ -22,13 +22,13 @@ Renvoie un nombre integer, de 0 à 59, qui représente le composant de secondes 
   
 ## <a name="syntax"></a>Syntaxe
 
-SECOND( » ** *datetime* ** « | ** *expression* ** [, ** *lcid* ** ]) 
+SECOND( » ***datetime** _ « | _*_expression_*_ [, _ *_lcid_** ]) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _datetime_ <br/> |Requis  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure. |
+| _datetime_ <br/> |Obligatoire  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure. |
 | _expression_ <br/> |Requis  <br/> |**String** <br/> | Toute expression qui génère une date et une heure. |
 | _lcid_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Identificateur de paramètres régionaux à utiliser pour l’évaluation d’une  _date/heure non locale_. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système. |
    

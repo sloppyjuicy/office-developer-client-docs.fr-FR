@@ -6,16 +6,16 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
 description: 'Dernière modification : 07 décembre 2015'
-ms.openlocfilehash: 87575d171d96a4c3083b2e9b0b03feb19ec42afe
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a3d939617c373f3d1a48a4275e541763381dd742
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630998"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377560"
 ---
 # <a name="disconnecting-an-offline-state-add-in"></a>Déconnexion d’un complément d’état hors connexion
 
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016
   
 Lorsque le complément d’état hors connexion est déconnecté, vous devez implémenter des fonctions pour l’arrêter et le nettoyer correctement. Pour plus d’informations sur la manière de configurer et d'utiliser le complément d’état hors connexion pour surveiller les modifications de l’état de connexion, reportez-vous aux articles [Configuration d’un complément d’état hors connexion](setting-up-an-offline-state-add-in.md) et [Surveillance des modifications de l’état de connexion à l’aide d’un complément d’état hors connexion](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   
@@ -23,7 +23,7 @@ Dans cette rubrique, ces fonctions de déconnexion, d’arrêt et de nettoyage s
   
 ## <a name="on-disconnection-routine"></a>Routine à la déconnexion (OnDisconnection)
 
-La méthode **IIDTExtensibility2.OnDisconnection** est appelée lorsque le complément d’état hors connexion est déchargé. Vous devez implémenter un code de nettoyage dans cette fonction. Dans l’exemple suivant, la fonction **IDTExtensibility2.OnDisconnection** appelle la fonction `HrTermAddin`. 
+La méthode **IIDTExtensibility2.OnDisconnection** est appelée lorsque le complément d’état hors connexion est déchargé. Vous devez implémenter un code de nettoyage dans cette fonction. Dans l’exemple suivant, la **fonction IDTExtensibility2.OnDisconnection** appelle la `HrTermAddin` fonction.
   
 ### <a name="cmyaddinondisconnection-example"></a>Exemple CMyAddin::OnDisconnection()
 
@@ -39,7 +39,7 @@ STDMETHODIMP CMyAddin::OnDisconnection(ext_DisconnectMode /*RemoveMode*/, SAFEAR
 
 ## <a name="terminate-add-in-function"></a>Fonction d’arrêt du complément (TermAddin)
 
-La fonction `HrTermAddin` appelle les fonctions `inDeInitMonitor`, `HrRemoveMenuItems` et `UnloadLibraries` pour terminer le nettoyage du complément d’état hors connexion. 
+La `HrTermAddin` fonction appelle le `inDeInitMonitor`, et `HrRemoveMenuItems`les `UnloadLibraries` fonctions pour terminer le nettoyage du add-in d’état hors connexion.
   
 ### <a name="cmyaddinhrtermaddin-example"></a>Exemple CMyAddin::HrTermAddin()
 
@@ -56,7 +56,7 @@ HRESULT CMyAddin::HrTermAddin()
 
 ## <a name="deinitialize-monitor-routine"></a>Routine de désinitialisation du moniteur (DeInitMonitor)
 
-La fonction `inDeInitMonitor` appelle la fonction [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) pour annuler les rappels pour l’objet hors connexion. 
+La `inDeInitMonitor` fonction appelle la [fonction IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) pour annuler les rappels de l’objet hors connexion.
   
 ### <a name="deinitmonitor-example"></a>Exemple DeInitMonitor()
 
@@ -77,7 +77,7 @@ g_ulAdviseToken = NULL;
 
 ## <a name="remove-menu-items-routine"></a>Routine de suppression d’éléments de menu (RemoveMenuItems)
 
-La fonction `HrRemoveMenuItems` appelle `DispEventUnadvise` pour chaque élément de menu sous le menu **État hors connexion**, puis supprime le menu **État hors connexion**. 
+La `HrRemoveMenuItems` fonction appelle chaque `DispEventUnadvise` élément de menu sous **le menu État** hors connexion, puis supprime **le menu État** hors connexion.
   
 ### <a name="cmyaddinhrremovemenuitems-example"></a>Exemple CMyAddin::HrRemoveMenuItems()
 
@@ -124,7 +124,7 @@ HRESULT CMyAddin::HrRemoveMenuItems()
 
 ## <a name="unload-libraries-routine"></a>Routine de déchargement de bibliothèques (UnloadLibraries)
 
-Lorsque le complément est déchargé à partir d’Outlook, la fonction `UnloadLibraries` décharge les bibliothèques de liens dynamiques (DLL) requises par le complément. 
+Lorsque le add-in est déchargé de Outlook, `UnloadLibraries` la fonction décharge les bibliothèques de liens dynamiques (DLL) requises par le module.
   
 ### <a name="unloadlibraries-example"></a>Exemple UnloadLibraries()
 
@@ -150,4 +150,3 @@ void UnloadLibraries()
 - [À propos de l’exemple de complément d’état hors connexion](about-the-sample-offline-state-add-in.md)
 - [Configuration d’un complément d’état hors connexion](setting-up-an-offline-state-add-in.md)
 - [Surveillance des modifications de l’état de connexion à l’aide d’un complément d’état hors connexion](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
-

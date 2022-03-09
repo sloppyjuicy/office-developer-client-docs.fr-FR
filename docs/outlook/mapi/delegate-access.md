@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a863494f-0071-4d97-a6c4-26707ee00e04
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 50fcb0693a72d563bac475e9455aec653742dc2c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2d442949ccece01ce15ac7efeb5db7bb09efb7f5
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551694"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377203"
 ---
 # <a name="delegate-access"></a>Accès délégué
 

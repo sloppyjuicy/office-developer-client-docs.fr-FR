@@ -7,19 +7,18 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: a75ca0dd-9c50-2a9f-6c59-1f8020833a01
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d75f072d07b987d2f243d64eda5829348a19c2aa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6d2c4e58c2ff894667d446225da49a789cf6d6fe
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623942"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377426"
 ---
 # <a name="uphier"></a>UPHIER
- 
-**S’applique à** : Outlook 2013 | Outlook 2016 
+
+**S’applique à** : Outlook 2013 | Outlook 2016
   
-Informations pour la synchronisation d’une hiérarchie de dossiers pendant [l’état de la hiérarchie de téléchargement.](upload-hierarchy-state.md)
+Informations pour la synchronisation d’une hiérarchie de dossiers pendant [l’état de la hiérarchie de chargement](upload-hierarchy-state.md).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -38,28 +37,27 @@ struct UPHIER
 _ulFlags_
   
 > [in] Indicateurs pour modifier le comportement lors de la synchronisation de la hiérarchie de dossiers.
-    
-  - UPH_OK
-    
-    - [in] Télécharger a réussi. Le client définit cette information après avoir chargé les informations sur le serveur. Lorsque vous voyez cet indicateur, Outlook effacer toutes les informations de comptabilité internes qui signalaient la hiérarchie de dossiers à mettre à jour. 
-    
-    - Le client transmet le HRESULT si le chargement n’a pas réussi.
-    
+
+- UPH_OK
+
+  - [in] Télécharger a réussi. Le client définit cette information après avoir chargé les informations sur le serveur. Lorsque vous voyez cet indicateur, Outlook effacer toutes les informations de comptabilité internes qui signalaient la hiérarchie de dossiers à mettre à jour.
+
+  - Le client transmet le HRESULT si le chargement n’a pas réussi.
+
 _pstmReserved_
   
 > [out] Ce membre est réservé à un Outlook interne et n’est pas pris en charge.
-    
+
 _iEnt_
   
-> [out] Index pour suivre la synchronisation du nombre de dossiers spécifié par  *cEnt*  . 
-    
+> [out] Index pour suivre la synchronisation du nombre de dossiers spécifié b  _cEnt_.
+
 _cEnt_
   
 > [out] Nombre de dossiers non synchronisés.
-    
+
 ## <a name="see-also"></a>Voir aussi
 
 - [À propos de l’API de réplication](about-the-replication-api.md)
 - [À propos de la machine à états de réplication](about-the-replication-state-machine.md)
 - [Constantes MAPI](mapi-constants.md)
-

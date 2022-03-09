@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 784b6218-548d-817a-caaa-cf9be6bc3d2f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 17d3bd9edb392db85ba8b5845a396fbf41af4525
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a5ba1ca982e5a71e54d649f3705715d4f8ffa970
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596182"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376300"
 ---
 # <a name="imapiofflinemgradvise"></a>IMAPIOfflineMgr::Advise
 
@@ -39,7 +38,7 @@ HRESULT COfflineObj::Advise(
 
  _ulFlags_
   
->  [in] Indicateurs qui modifient le comportement. Seule la valeur MAPIOFFLINE_ADVISE_DEFAULT est prise en charge. 
+> [in] Indicateurs qui modifient le comportement. Seule la valeur MAPIOFFLINE_ADVISE_DEFAULT est prise en charge. 
     
  _pAdviseInfo_
   
@@ -65,7 +64,7 @@ E_NOINTERFACE
     
 ## <a name="remarks"></a>Remarques
 
-Lors de l’ouverture d’un objet hors connexion à l’aide de **[HrOpenOfflineObj](hropenofflineobj.md)**, un client obtient un objet hors connexion qui prend en charge **IMAPIOfflineMgr**. Le client peut vérifier les types de rappels pris en charge par l’objet à l’aide de **[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)**. Le client peut déterminer le type et d’autres détails sur le rappel qu’il souhaite, puis appeler **IMAPIOfflineMgr::Advise** pour recevoir ces rappels sur l’objet. 
+Lors de l’ouverture d’un objet hors connexion à l’aide de **[HrOpenOfflineObj](hropenofflineobj.md)**, un client obtient un objet hors connexion qui prend en charge **IMAPIOfflineMgr**. Le client peut vérifier les types de rappels pris en charge par l’objet à l’aide **[d’IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)**. Le client peut déterminer le type et d’autres détails sur le rappel qu’il souhaite, puis appeler **IMAPIOfflineMgr::Advise** pour recevoir ces rappels sur l’objet. 
   
 ## <a name="see-also"></a>Voir aussi
 

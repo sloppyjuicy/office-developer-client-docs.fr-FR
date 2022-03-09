@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cd2f595f-4dd0-4704-b670-6857d6c843ca
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 043101e89c59d44b148b542e39b476c6c661098e
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: a25d7f7818c2382952dffb84495a5fdb9587b833
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461868"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379205"
 ---
 # <a name="encoding-recipient-tables-by-using-tnef"></a>Codage des tables des destinataires à l’aide du TNEF
 

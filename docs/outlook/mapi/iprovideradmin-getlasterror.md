@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 853ddee5-24d6-423d-b483-6a07a12de51f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e96120b1ef1c1c56f227dd120e01063086f24dfa
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 5e56a0b7bb59c1d29eb84c5e2c770f02dd2b4315
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462423"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379135"
 ---
 # <a name="iprovideradmingetlasterror"></a>IProviderAdmin::GetLastError
 

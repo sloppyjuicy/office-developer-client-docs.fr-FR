@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 953c97ef-bc38-4e30-9906-b16373cd33c2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 631243b098995d1553c98f457baac28497d0d05a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 976ad1b694882e5fe9a79a366cdb9fa9fb53a2ce
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592115"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376776"
 ---
 # <a name="mapi-service-provider-samples"></a>Exemples de fournisseurs de services MAPI
 
@@ -23,7 +22,7 @@ ms.locfileid: "59592115"
   
 Cette section contient des exemples de code de trois fournisseurs de services MAPI :
   
-- [Téléchargement des exemples Outlook MAPI](downloading-the-outlook-mapi-samples.md)
+- [Téléchargement des exemples OUTLOOK MAPI](downloading-the-outlook-mapi-samples.md)
     
     Cette rubrique décrit comment télécharger les exemples.
     

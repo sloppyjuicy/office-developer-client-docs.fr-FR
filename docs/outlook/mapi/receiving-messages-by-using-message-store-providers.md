@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 4763951e-ccfd-453e-b99c-5c7d5efb90c2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8b93327dd95ae24d69ec633ff12252bac8744c87
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d1228c02d1180c0816dd9e29eea9a50a475f9075
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550168"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379065"
 ---
 # <a name="receiving-messages-by-using-message-store-providers"></a>Réception de messages à l’aide de fournisseurs de magasins de messages
 
@@ -25,7 +24,7 @@ Les fournisseurs de magasins de messages n’ont pas besoin de prendre en charge
   
 Pour prendre en charge les envois de messages entrants, votre fournisseur de magasins de messages doit :
   
-- Prendre en charge les méthodes [IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) et [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) pour que les applications clientes trouvent les messages entrants. 
+- Prendre en charge [les méthodes IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) et [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) pour que les applications clientes trouvent les messages entrants. 
     
 - Prise en charge de la méthode [IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md) afin que lepooler MAPI puisse informer le fournisseur de la boutique de messages qu’un nouveau message est arrivé. 
     
@@ -33,9 +32,9 @@ Pour prendre en charge les envois de messages entrants, votre fournisseur de mag
     
 La séquence d’appels de méthode qui se produit lorsqu’un message entrant est remis à une magasin de messages est la suivante :
   
-1. Lepooler MAPI appelle [IMsgStore::OpenEntry](imsgstore-openentry.md) avec [l’EntryID](entryid.md) de boîte de réception pour obtenir une interface [IMAPIFolder.](imapifolderimapicontainer.md) 
+1. Lepooler MAPI appelle [IMsgStore::OpenEntry](imsgstore-openentry.md) avec [l’ID](entryid.md) d’entrée de boîte de réception pour obtenir une interface [IMAPIFolder](imapifolderimapicontainer.md) . 
     
-2. Lepooler MAPI appelle [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) pour obtenir un nouvel objet de message. 
+2. Lepooler MAPI appelle [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) pour obtenir un nouvel objet message. 
     
 3. Lepooler MAPI transmet l’objet message au fournisseur de transport.
     

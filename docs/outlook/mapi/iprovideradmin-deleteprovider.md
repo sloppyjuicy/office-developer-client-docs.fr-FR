@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0065b50f-95f6-4af1-81c2-a73e5111eecf
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: de399f12e95c94560ad5bd65cdd0a111871f0766
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 05f8ece81cc99fcaead01b4da9eeaeb7ee44af9a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592255"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379142"
 ---
 # <a name="iprovideradmindeleteprovider"></a>IProviderAdmin::DeleteProvider
 

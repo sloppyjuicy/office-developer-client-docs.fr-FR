@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 20f5ad5a-b700-4fb5-9658-f71da5a06a12
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 892882531df4fd857e7eb525a615657f5ef4e4e9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9d8167e075da50a98834d1ac5ccee7515210679f
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551428"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63382404"
 ---
 # <a name="display-a-progress-indicator"></a>Affichage d’un indicateur de progression
  
@@ -23,7 +22,7 @@ Pour afficher un indicateur de progression, appelez [IMAPIProgress::GetFlags](im
   
 Si l’MAPI_TOP_LEVEL est définie, complétez les étapes suivantes :
   
-1. Définissez une variable sur le nombre total d’éléments à traiter dans l’opération. Par exemple, si vous copiez le contenu d’un dossier, cette valeur est égale au nombre de sous-dossiers du dossier plus le nombre de messages. 
+1. Définir une variable égale au nombre total d’éléments à traiter dans l’opération. Par exemple, si vous copiez le contenu d’un dossier, cette valeur est égale au nombre de sous-dossiers du dossier plus le nombre de messages. 
     
 2. Définissez une variable sur 1 000 divisé par le nombre d’éléments. 
     
@@ -37,7 +36,7 @@ Si l’MAPI_TOP_LEVEL est définie, complétez les étapes suivantes :
     
 4. Pour chaque objet à traiter, effectuer les étapes suivantes :
     
-   1. Appelez **IMAPIProgress::SetLimits** et passez les valeurs suivantes pour les trois paramètres : 
+   1. **Appelez IMAPIProgress::SetLimits** et passez les valeurs suivantes pour les trois paramètres : 
       
      - Définissez  _le paramètre lpulMin_ sur la variable définie à l’étape 2 multipliée par l’élément actuel moins 1. 
       
@@ -45,9 +44,9 @@ Si l’MAPI_TOP_LEVEL est définie, complétez les étapes suivantes :
       
      - Définissez  _le paramètre lpulFlags_ sur 0. 
       
-   2. Effectuez tout traitement à effectuer sur cet objet. S’il s’agit d’un sous-objet et que vous souhaitez afficher la progression sur les sous-objets, passez un pointeur vers l’objet de progression dans le paramètre  _lpProgress_ à la méthode. 
+   2. Effectuez tout traitement à effectuer sur cet objet. S’il s’agit d’un sous-objet et que vous souhaitez afficher la progression sur les sous-objets, passez un pointeur vers l’objet de progression dans le paramètre _lpProgress_ à la méthode. 
       
-   3. Appelez [IMAPIProgress::P rogress](imapiprogress-progress.md) et passez les valeurs suivantes pour les trois paramètres : 
+   3. [Appelez IMAPIProgress::P rogress](imapiprogress-progress.md) et passez les valeurs suivantes pour les trois paramètres : 
       
      - Définissez  _le paramètre ulValue_ sur la variable définie à l’étape 2 multipliée par l’objet actuel. 
       
@@ -59,7 +58,7 @@ Si l’MAPI_TOP_LEVEL n’est pas définie, complétez les étapes suivantes :
   
 1. Appelez la méthode [IMAPIProgress::GetMin](imapiprogress-getmin.md) de l’objet de progression pour récupérer la valeur minimale de l’affichage. 
     
-2. Appelez [IMAPIProgress::GetMax](imapiprogress-getmax.md) pour récupérer la valeur maximale de l’affichage. 
+2. [Appelez IMAPIProgress::GetMax](imapiprogress-getmax.md) pour récupérer la valeur maximale de l’affichage. 
     
 3. Définissez une variable sur le nombre total d’objets à traiter. 
     
@@ -75,15 +74,15 @@ Si l’MAPI_TOP_LEVEL n’est pas définie, complétez les étapes suivantes :
       
      - Définissez  _le paramètre lpulFlags_ sur 0. 
       
-   2. Effectuez tout traitement à effectuer sur cet objet. Si l’objet est un sous-objet et que votre fournisseur affiche la progression des sous-objets, passez un pointeur vers l’objet de progression dans le paramètre  _lpProgress_ à la méthode. 
+   2. Effectuez tout traitement à effectuer sur cet objet. Si l’objet est un sous-objet et que votre fournisseur affiche la progression des sous-objets, passez un pointeur vers l’objet de progression dans le paramètre _lpProgress_ à la méthode. 
       
-   3. Appelez [IMAPIProgress::P rogress](imapiprogress-progress.md) et passez les valeurs suivantes pour les trois paramètres : 
+   3. [Appelez IMAPIProgress::P rogress](imapiprogress-progress.md) et passez les valeurs suivantes pour les trois paramètres : 
       
-     - Définissez  _le paramètre ulValue_ sur variable définie à l’étape 2 multipliée par l’objet actuel. 
+     - Définissez  _le paramètre ulValue_ sur un jeu de variables à l’étape 2 multiplié par l’objet actuel. 
       
      - Définissez  _le paramètre ulCount_ sur 0. 
       
-     - Définissez  _le paramètre ulTotal_ sur 0. 
+     - Définissez  _le paramètre ulTotal_ sur 0.
     
 L’exemple de code suivant illustre la logique requise pour afficher la progression à tous les niveaux d’une opération qui copie le contenu d’un dossier qui contient cinq sous-dossiers. 
   
@@ -116,7 +115,7 @@ else
                               ulMin + i * ulDelta, 0)
         CopyOneFolder(lpFolder(i), lpProgress)
         /* Pass 0 for ulCount and ulTotal because this is not the */
-        /* top-level display, and that information is unavailable  */
+        /* top-level display, and that information is unavailable */
         lpProgress->Progress( i * ulDelta, 0, 0)
     }
 }
@@ -126,4 +125,3 @@ else
 ## <a name="see-also"></a>Voir aussi
 
 - [Indicateurs de progression MAPI](mapi-progress-indicators.md)
-

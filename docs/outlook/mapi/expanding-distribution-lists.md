@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 44231a95-dafc-44f7-bfa9-9f73ea8cb8b7
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0d0bd0780d8148346e7a18017f0d66d672b16ac9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4774bc525bce384e5c44967f07890248e0f3fdf1
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601057"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376923"
 ---
 # <a name="expanding-distribution-lists"></a>Développement des listes de distribution
 
@@ -23,7 +22,7 @@ ms.locfileid: "59601057"
   
  **Pour inciter MAPI à développer une liste de distribution**
   
-- Définissez **sa PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) sur MAPIPDL.
+- Définissez **PR_ADDRTYPE** propriété ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) sur MAPIPDL.
     
     MAPI développe les adresses de ce type avant d’envoyer le message au fournisseur de transport.
     

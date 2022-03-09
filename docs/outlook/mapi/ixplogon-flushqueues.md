@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1f630c6-9e95-49c0-9757-4685c98184dc
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7fde61429307c2adf209b87b325deef69f098c35
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7c7fb7f90bed51aafb8e54adb4cc37c5b0ef5059
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584212"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376223"
 ---
 # <a name="ixplogonflushqueues"></a>IXPLogon::FlushQueues
 
@@ -52,7 +51,7 @@ HRESULT FlushQueues(
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont le purgement de file d’attente de messages est effectué. Les indicateurs suivants peuvent être définies :
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont le  purgement de file d’attente de messages est effectué. Les indicateurs suivants peuvent être définies :
     
 FLUSH_DOWNLOAD 
   
@@ -78,9 +77,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Lepooler MAPI appelle la méthode **IXPLogon::FlushQueues** pour informer le fournisseur de transport que lepooler MAPI est sur le point de commencer le traitement des messages. Le fournisseur de transport doit appeler la méthode [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) pour définir un bit approprié pour son état dans la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de sa ligne d’état. Après avoir mis à jour sa ligne d’état, le fournisseur de transport doit S_OK pour **l’appel FlushQueues.** Lepooler MAPI commence ensuite à envoyer des messages, l’opération étant synchrone avec lepooler MAPI. 
+Lepooler MAPI appelle la méthode **IXPLogon::FlushQueues** pour informer le fournisseur de transport que lepooler MAPI est sur le point de commencer le traitement des messages. Le fournisseur de transport doit appeler la méthode [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) pour définir un bit approprié pour son état dans la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de sa ligne d’état. Après avoir mis à jour sa ligne d’état, le fournisseur de transport doit S_OK pour **l’appel FlushQueues** . Lepooler MAPI commence ensuite à envoyer des messages, l’opération étant synchrone avec lepooler MAPI. 
   
-Pour prendre en charge son implémentation de la méthode [IMAPIStatus::FlushQueues,](imapistatus-flushqueues.md) lepooler MAPI appelle **IXPLogon::FlushQueues** pour tous les objets d’ouverture de session pour les fournisseurs de transport actifs qui s’exécutent dans une session de profil. Lorsque la méthode **FlushQueues** d’un fournisseur de transport est appelée à la suite d’un appel d’application cliente à **IMAPIStatus::FlushQueues**, le traitement des messages se produit de manière asynchrone pour le client.
+Pour prendre en charge son implémentation de la méthode [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) , lepooler MAPI appelle **IXPLogon::FlushQueues** pour tous les objets d’ouverture de session pour les fournisseurs de transport actifs qui s’exécutent dans une session de profil. Lorsque la méthode **FlushQueues** d’un fournisseur de transport est appelée à la suite d’un appel d’application cliente à **IMAPIStatus::FlushQueues**, le traitement des messages se produit de manière asynchrone pour le client.
   
 ## <a name="see-also"></a>Voir aussi
 

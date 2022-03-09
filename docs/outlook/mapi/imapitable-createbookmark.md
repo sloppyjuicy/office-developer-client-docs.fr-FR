@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 320af2ff-c2a5-43b1-b3a1-76cb5ffd6a4f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e3605dc630b6a7bcff46aa3a038d4a4ec7a1f114
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6b82d7a78c2c662638d750e65a3088d7643eb1ac
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600966"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63378057"
 ---
 # <a name="imapitablecreatebookmark"></a>IMAPITable::CreateBookmark
 
@@ -37,7 +36,7 @@ BOOKMARK FAR * lpbkPosition
 
  _lpbkPosition_
   
-> [out] Pointeur vers la valeur de signet 32 bits renvoyée. Ce signet peut ensuite être transmis dans un appel à la [méthode IMAPITable::SeekRow.](imapitable-seekrow.md) 
+> [out] Pointeur vers la valeur de signet 32 bits renvoyée. Ce signet peut ensuite être transmis dans un appel à la [méthode IMAPITable::SeekRow](imapitable-seekrow.md) . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,7 +46,7 @@ S_OK
     
 MAPI_E_UNABLE_TO_COMPLETE 
   
-> L’opération demandée n’a pas pu être achevée.
+> L’opération demandée n’a pas pu être terminée.
     
 ## <a name="remarks"></a>Remarques
 
@@ -61,11 +60,11 @@ En raison de la dépense de mémoire de la gestion des positions du curseur avec
   
 Parfois, un signet pointe vers une ligne qui n’est plus dans l’affichage Tableau. Si un appelant utilise un signet de ce type, déplacez le curseur sur la ligne visible suivante et arrêtez-le. 
   
-Lorsque l’appelant tente d’utiliser un signet qui pointe vers une ligne nonvisible car elle a été réduire, renvoyer MAPI_W_POSITION_CHANGED après le déplacement du signet. Vous pouvez repositionner le signet sur la ligne visible suivante à ce moment-là ou lorsque la réduction se produit dans la **méthode SetCollapseState.** Si vous déplacez le signet au moment où la ligne est réduire, vous devez conserver un bit dans le signet qui indique exactement quand le signet a été déplacé : depuis sa dernière utilisation ou s’il n’a jamais été utilisé depuis sa création. 
+Lorsque l’appelant tente d’utiliser un signet qui pointe vers une ligne nonvisible parce qu’elle a été réduire, renvoyer MAPI_W_POSITION_CHANGED après le déplacement du signet. Vous pouvez repositionner le signet sur la ligne visible suivante à ce moment-là ou lorsque la réduction se produit dans la **méthode SetCollapseState** . Si vous déplacez le signet au moment où la ligne est réduire, vous devez conserver un bit dans le signet qui indique exactement quand le signet a été déplacé : depuis sa dernière utilisation ou s’il n’a jamais été utilisé depuis sa création. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
- **CreateBookmark alloue** de la mémoire pour le signet qu’il crée. Libérez les ressources du signet en appelant la [méthode IMAPITable::FreeBookmark.](imapitable-freebookmark.md) 
+ **CreateBookmark alloue** de la mémoire pour le signet qu’il crée. Libérez les ressources du signet en appelant la [méthode IMAPITable::FreeBookmark](imapitable-freebookmark.md) . 
   
 ## <a name="see-also"></a>Voir aussi
 

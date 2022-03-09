@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 35d68d27-7e58-4484-be55-a64f467c75cd
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 81dd3edadbca6f8f903c0848b56e7c614fb44aef
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1b4d33513536c076c13553d1ad577aa4f79211a5
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571709"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63378617"
 ---
 # <a name="improving-client-performance"></a>Amélioration des performances du client
  

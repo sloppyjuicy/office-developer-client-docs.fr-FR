@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: d0d003b0-f12f-4422-b71f-26886169461f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ddc2af722a6cf0535236a2b78d5c01488973bfb0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cc1c390d94a3ac3f678d9403281a4163272af08a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575685"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377518"
 ---
 # <a name="imsgstorenotifynewmail"></a>IMsgStore::GetReceiveFolderTable
 

@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 80a97c3d-4bca-4819-9da4-ca0fbf3a686f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1c42383acae606eae2f6db4ee67e42294b3fbd62
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 369693f4b9692685c3eeed445ef0da06a7f7b73d
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462742"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377553"
 ---
 # <a name="finding-the-icon-for-a-message"></a>Recherche de l’icône d’un message
 

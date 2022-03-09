@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3c6a4050-fd97-42ce-abb1-118254b367bd
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: eb9379486bffdaa723365e959bb8b3b439f76798
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 2842767bf1593fc02c1751640e77c9b09d03a788
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461882"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377217"
 ---
 # <a name="attowner"></a>attOwner
 
@@ -31,7 +30,7 @@ ms.locfileid: "62461882"
   
 > type **:** address 
     
-Contrairement aux autres valeurs de longueur, les longueurs de nom d’affichage et d’adresse sont des valeurs 16 bits non signées au lieu des nombres longs non signés. Toutefois, elles incluent toujours des caractères null de fin. Les chaînes de type et d’adresse dans l’entrée d’adresse de messagerie sont séparées par un _deux-points_ littéral (:) par exemple« smtp:joe@nowhere.com ». Seul le type combiné **:** chaîne d’adresse est terminée par null.
+Contrairement aux autres valeurs de longueur, les longueurs de nom d’affichage et d’adresse sont des valeurs 16 bits non signées au lieu des nombres longs non signés. Toutefois, elles incluent toujours des caractères null de fin. Les chaînes de type et d’adresse dans l’entrée d’adresse de messagerie sont séparées par un _deux-points_ littéral (:) par exemple « smtp:joe@nowhere.com ». Seul le type combiné **:** chaîne d’adresse est terminée par null.
   
 Le mappage des propriétés MAPI à **l’attribut attOwner** dépend de la classe de message du message en cours d’encodage. 
   

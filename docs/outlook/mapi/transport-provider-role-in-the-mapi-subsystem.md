@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7659369a-0952-4f5a-a86b-91958c4c1a3f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0cfc1fd71e70fbc3555e63551cb3e48c708b98bc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 21134012fd09b7f9205e4ee0813df83045c369e1
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609277"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379009"
 ---
 # <a name="transport-provider-role-in-the-mapi-subsystem"></a>Rôle du fournisseur de transport dans le sous-système MAPI
   
@@ -25,11 +24,11 @@ En règle générale, les applications clientes ne communiquent pas directement 
   
 Les fournisseurs de transport ont les responsabilités suivantes dans un système de messagerie MAPI :
   
-- Inscrivez les types d’adresses qu’ils peuvent accepter avec lepooler MAPI afin que lepooler MAPI puisse envoyer des messages au fournisseur de transport approprié en fonction de l’adresse de destination des messages. Un fournisseur de transport peut inscrire plusieurs types d’adresses. Les fournisseurs de transport peuvent également inscrire des adresses de destinataires spécifiques auprès dupooler MAPI. Les messages adressés à l’une de ces adresses sont envoyés au fournisseur de transport qui a enregistré l’adresse auprès dupooler MAPI. Pour plus d’informations, voir Fournisseur de transport et Modèle opérationnel [dupooler MAPI.](transport-provider-and-mapi-spooler-operational-model.md)
+- Inscrivez les types d’adresses qu’ils peuvent accepter avec lepooler MAPI afin que lepooler MAPI puisse envoyer des messages au fournisseur de transport approprié en fonction de l’adresse de destination des messages. Un fournisseur de transport peut inscrire plusieurs types d’adresses. Les fournisseurs de transport peuvent également inscrire des adresses de destinataires spécifiques auprès dupooler MAPI. Les messages adressés à l’une de ces adresses sont envoyés au fournisseur de transport qui a enregistré l’adresse auprès dupooler MAPI. Pour plus d’informations, [voir Fournisseur de transport et Modèle opérationnel dupooler MAPI](transport-provider-and-mapi-spooler-operational-model.md).
     
-- Remettre les messages entrants aupooler MAPI. Selon la nature du système de messagerie, un fournisseur de transport peut avertir directement lepooler MAPI à l’arrivée d’un nouveau message ou demander aupooler MAPI d’informer régulièrement le fournisseur de transport de la recherche de nouveaux messages.
+- Remettre les messages entrants aupooler MAPI. Selon la nature du système de messagerie, un fournisseur de transport peut soit avertir directement lepooler MAPI lorsqu’un nouveau message arrive, soit demander aupooler MAPI d’avertir régulièrement le fournisseur de transport pour vérifier la recherche de nouveaux messages.
     
-- Convertissez les propriétés de message MAPI en propriétés de message natives dans le système de messagerie. Par exemple, le fournisseur de transport peut avoir à convertir les adresses de l’expéditeur et du destinataire dans un message sortant en un formulaire acceptable pour le système de messagerie. Certains systèmes de messagerie ne sont pas en charge toutes les propriétés de message MAPI. Pour plus d’informations sur la conservation des propriétés de message MAPI lors de la livraison de messages à un système de messagerie, voir [Developing a TNEF-Enabled Transport Provider](developing-a-tnef-enabled-transport-provider.md).
+- Convertissez les propriétés de message MAPI en propriétés de message natives dans le système de messagerie. Par exemple, le fournisseur de transport peut avoir à convertir les adresses de l’expéditeur et du destinataire dans un message sortant en un formulaire acceptable pour le système de messagerie. Certains systèmes de messagerie ne supportent pas toutes les propriétés de message MAPI. Pour plus d’informations sur la conservation des propriétés de message MAPI lors de la livraison de messages à un système de messagerie, voir [Developing a TNEF-Enabled Transport Provider](developing-a-tnef-enabled-transport-provider.md).
     
 - Inscrire les options de message et de destinataire spécifiques au fournisseur de transport.
     
@@ -37,7 +36,7 @@ Les fournisseurs de transport ont les responsabilités suivantes dans un systèm
     
 - Accéder aux messages sortants à l’aide de l’objet message qui lui a été transmis par lepooler MAPI.
     
-- Traduire le format de message tel que requis par le système de messagerie sous-jacent.
+- Traduire le format des messages selon les besoins du système de messagerie sous-jacent.
     
 - Indiquez **aupooler** MAPI quels destinataires d’un message sortant le fournisseur de transport a accepté la responsabilité de la gestion en fixant la propriété PR_RESPONSIBILITY ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) pour ces destinataires.
     

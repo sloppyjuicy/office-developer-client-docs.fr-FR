@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 04952b51-f005-4933-a1d1-695c6dc736cc
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f6d4b9fd559d9844f0a7ef59049585e6687d275f
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: af626f07486d06b5e418afe0c8a2e55b9a2ef3e2
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461911"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376293"
 ---
 # <a name="imapiformcontainergetlasterror"></a>IMAPIFormContainer::GetLastError
 

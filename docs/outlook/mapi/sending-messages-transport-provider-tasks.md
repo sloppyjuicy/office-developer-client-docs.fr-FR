@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bd722f48-b166-4670-8dba-897ac50caf37
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: fa25f575e55eb3d0446148d75de314a8883a4170
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 032263ef506eb93da6777e54c965aca2cfe94731
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591177"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63382271"
 ---
 # <a name="sending-messages-transport-provider-tasks"></a>Envoi de messages : tâches du fournisseur de transport
 
@@ -25,7 +24,7 @@ ms.locfileid: "59591177"
   
 - Définissez la propriété **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) du message sur TRUE une fois que le fournisseur de transport a envoyé le message ou a tenté d’envoyer le message. If an attempt to send a message fails, transport providers should call [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) to generate a nondelivery report. Si le message est envoyé avec succès et que la propriété **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) est définie sur TRUE, créez une structure [ADRLIST](adrlist.md) contenant les destinataires réussis, définissez la propriété **PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) pour chacun d’eux et appelez **StatusRecips** pour générer une note de remise. For more information about creating delivery and non-delivery reports, see the following topics: [Messages de rapport MAPI](mapi-report-messages.md), [Propri�t�s de Message de rapport requis](required-report-message-properties.md), [Propri�t�s de Message d'�tat facultatives](optional-report-message-properties.md), and [Envoi de rapports de remise de Message](sending-message-delivery-reports.md).
     
-- D�finir le groupe de **PR_SENDER** du message de propri�t�s � l'identit� de l'utilisateur qui a ouvert une session. Ce groupe inclut **: PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)), **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)), **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)), **PR_SENDER_ADDRTYPE** ([PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md)) et **PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)).
+- D�finir le groupe de **PR_SENDER** du message de propri�t�s � l'identit� de l'utilisateur qui a ouvert une session. Ce groupe comprend **: PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)), **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)), **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)), **PR_SENDER_ADDRTYPE** ([PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md)) et **PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)).
     
 - D�finir les propri�t�s de message **PR_SENT_REPRESENTING**, dans la mesure du possible, soit l'identit� de l'utilisateur qui a ouvert une session ou une identit� de d�l�gu� valide. Les propri�t�s **PR_SENT_REPRESENTING** sont utilis�es pour impl�menter l'envoi de messages par un utilisateur au nom d'un autre utilisateur. Fournisseurs de transport qui ne prennent pas en charge ces propri�t�s doivent ignorer les messages sortants. 
     

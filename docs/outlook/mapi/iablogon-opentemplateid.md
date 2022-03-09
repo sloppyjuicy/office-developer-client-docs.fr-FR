@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 751c36d3-c39e-4357-a60a-88685a378de0
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f087e5fd301ade7331a3681be6042ec61b48493c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0647569fd72e84b9b937c424560a1c013a8790ec
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596448"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63378232"
 ---
 # <a name="iablogonopentemplateid"></a>IABLogon::OpenTemplateID
 
@@ -43,7 +42,7 @@ HRESULT OpenTemplateID(
 
  _cbTemplateID_
   
-> [in] Nombre d’byte dans l’identificateur de modèle pointé par _le paramètre lpTemplateID._ 
+> [in] Nombre d’byte dans l’identificateur de modèle pointé par  _le paramètre lpTemplateID_ . 
     
  _lpTemplateID_
   
@@ -55,7 +54,7 @@ HRESULT OpenTemplateID(
     
 FILL_ENTRY 
   
-> Le fournisseur d’hôte crée une entrée dans son conteneur en fonction de l’entrée représentée par l’identificateur de modèle. La méthode **IABLogon::OpenTemplateID** doit soit effectuer une initialisation spécifique de l’entrée du fournisseur hôte à l’aide de l’implémentation [IMAPIProp : IUnknown](imapipropiunknown.md) dans le paramètre _lpMAPIPropData,_ soit retourner une implémentation d’interface **IMAPIProp** personnalisée dans le paramètre _lppMAPIPropNew._ 
+> Le fournisseur d’hôte crée une entrée dans son conteneur en fonction de l’entrée représentée par l’identificateur de modèle. La méthode **IABLogon::OpenTemplateID** doit soit effectuer une initialisation spécifique de l’entrée du fournisseur hôte à l’aide de l’implémentation [IMAPIProp : IUnknown](imapipropiunknown.md) dans le paramètre _lpMAPIPropData_ , soit retourner une implémentation d’interface **IMAPIProp** personnalisée dans le paramètre _lppMAPIPropNew_ . 
     
  _lpMAPIPropData_
   
@@ -63,7 +62,7 @@ FILL_ENTRY
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente le type de pointeur d’interface à retourner dans le paramètre _lppMAPIPropNew._ La **transmission null** renvoie l’interface utilisateur de messagerie standard, [IMailUser : IMAPIProp](imailuserimapiprop.md).
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente le type de pointeur d’interface à retourner dans le paramètre _lppMAPIPropNew_ . La **transmission de la valeur null** renvoie l’interface utilisateur de messagerie standard, [IMailUser : IMAPIProp](imailuserimapiprop.md).
     
  _lppMAPIPropNew_
   
@@ -85,7 +84,7 @@ MAPI_E_NO_SUPPORT
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L’identificateur de modèle transmis dans le paramètre  _lpTemplateID_ n’est pas reconnu par le fournisseur de carnet d’adresses. 
+> L’identificateur de modèle transmis dans _le paramètre lpTemplateID_ n’est pas reconnu par le fournisseur de carnet d’adresses. 
     
 ## <a name="remarks"></a>Remarques
 
@@ -99,31 +98,31 @@ Voici quelques exemples de cas où un fournisseur de carnet d’adresses doit im
     
 - Pour implémenter des fonctionnalités que le fournisseur d’hôte ne peut pas implémenter, telles que le remplissage dynamique d’une liste qui apparaît dans la table de détails de l’entrée à partir de données sur un serveur.
     
-- Pour contrôler l’interaction entre les propriétés de l’entrée du fournisseur hôte et l’entrée d’origine, par exemple, calculer le **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) à partir des valeurs des contrôles d’édition dans l’affichage des détails qui contiennent différents composants de l’adresse.
+- Pour contrôler l’interaction entre les propriétés de l’entrée du fournisseur hôte et l’entrée d’origine, telles que le calcul du **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) à partir des valeurs des contrôles d’édition dans l’affichage des détails qui contiennent différents composants de l’adresse.
     
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Lorsqu’un fournisseur d’hôtes copie ou crée une entrée à partir de votre fournisseur et que vous fournissez une implémentation d’objet de propriété via **IABLogon::OpenTemplateID**, vous traitez la plupart des appels pour maintenir l’entrée. Toutefois, étant donné que c’est au fournisseur d’hôte de vous les faire suivre, le fournisseur d’hôtes peut intercepter n’importe quel appel et effectuer un traitement personnalisé avant de le faire.
+Lorsqu’un fournisseur d’hôtes copie ou crée une entrée à partir de votre fournisseur et que vous fournissez une implémentation d’objet de propriété via **IABLogon::OpenTemplateID**, vous traitez la plupart des appels pour maintenir l’entrée. Toutefois, étant donné que c’est au fournisseur d’hôte de vous les faire suivre, le fournisseur hôte peut intercepter n’importe quel appel et effectuer un traitement personnalisé avant de le faire.
   
 Vous devez utiliser les instructions suivantes dans vos implémentations d’objets de propriété :
   
 - Lorsque [IMAPIProp::GetProps](imapiprop-getprops.md) est appelé, déterminez si la demande est pour une propriété calculée et, si c’est le cas, traitez-la. Transférer toutes les demandes de propriétés non complexes au fournisseur d’hôtes. 
     
-- Lorsque [IMAPIProp::OpenProperty](imapiprop-openproperty.md) est appelé pour ouvrir une table à l’exception de la table d’affichage des détails, traitez la demande. La plupart des tables ne peuvent pas être copiées avec précision dans le fournisseur d’hôtes. Vous devez générer **l’implémentation IMAPITable** pour ces tables demandées. La table de **détails PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) doit être copiée dans le fournisseur d’hôte. Cela permet à ce fournisseur de générer la table localement. Vous souhaitez peut-être encapsuler l’implémentation de la table d’affichage pour générer des notifications de tableau d’affichage. 
+- Lorsque [IMAPIProp::OpenProperty](imapiprop-openproperty.md) est appelé pour ouvrir une table à l’exception de la table d’affichage des détails, traitez la demande. La plupart des tables ne peuvent pas être copiées avec précision dans le fournisseur d’hôtes. Vous devez générer **l’implémentation IMAPITable** pour ces tables demandées. La table de **détails PR_DETAILS_TABLE** propriété ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) doit être copiée dans le fournisseur d’hôtes. Cela permet à ce fournisseur de générer la table localement. Vous souhaitez peut-être encapsuler l’implémentation de la table d’affichage pour générer des notifications de tableau d’affichage. 
     
 - Lorsque [IMAPIProp::SetProps](imapiprop-setprops.md) est appelé, le fournisseur hôte peut valider les données avant de vous laisser définir les propriétés. Vous pouvez vérifier que toutes les propriétés nécessaires ont été définies ou calculées. Si une erreur est détectée, renvoyez la valeur d’erreur appropriée et, si possible, toute explication supplémentaire via [IMAPIProp::GetLastError](imapiprop-getlasterror.md).
     
 - Lorsque [IMAPIProp::SaveChanges](imapiprop-savechanges.md) est appelé, le fournisseur d’hôtes peut vouloir effectuer le traitement avant d’enregistrer l’entrée. Vous devez enregistrer toutes les données affectées par les propriétés modifiées, telles qu’une nouvelle adresse, dans l’entrée du fournisseur hôte. 
     
-En règle générale, faites en sorte que votre implémentation de l’entrée que vous passez au fournisseur hôte intercepte toutes les méthodes pour effectuer une manipulation spécifique du contexte des propriétés pertinentes. Si l FILL_ENTRY est transmis dans le  _paramètre ulTemplateFlags,_ définissez toutes les propriétés de l’entrée. 
+En règle générale, faites en sorte que votre implémentation de l’entrée que vous revoyez au fournisseur hôte intercepte toutes les méthodes pour effectuer une manipulation spécifique du contexte des propriétés pertinentes. Si l FILL_ENTRY est transmis dans le _paramètre ulTemplateFlags_ , définissez toutes les propriétés de l’entrée. 
   
-Si vous renvoyez un nouvel objet de propriété dans le paramètre  _lppMAPIPropNew,_ appelez la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) de l’objet de propriété du fournisseur hôte pour conserver une référence. Tous les appels via l’objet lié renvoyé par l’implémentation **IMAPIProp** dans  _lppMAPIPropNew_ doivent être acheminés vers leur méthode correspondante dans l’objet de propriété hôte une fois traités par l’objet lié. 
+Si vous renvoyez un nouvel objet de propriété dans le paramètre _lppMAPIPropNew_ , appelez la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) de l’objet de propriété du fournisseur hôte pour conserver une référence. Tous les appels via l’objet lié renvoyé par l’implémentation **IMAPIProp** dans  _lppMAPIPropNew_ doivent être acheminés vers leur méthode correspondante dans l’objet de propriété hôte une fois traités par l’objet lié. 
   
-Les identificateurs de propriétés de toutes les propriétés nommées qui sont passées par votre objet de propriété liée sont dans l’espace de noms d’identificateur de votre fournisseur. Votre implémentation de la méthode [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) doit déterminer les noms des propriétés afin qu’elle puisse effectuer des tâches spécifiques au modèle. De même, les propriétés que votre fournisseur transmet au fournisseur hôte doivent également se trouver dans votre espace de noms. Par exemple, si vous définissez une propriété nommée dans **OpenTemplateID,** vous devez utiliser l’un de vos identificateurs pour le nom, en la créant, si nécessaire, en appelant la méthode [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) 
+Les identificateurs de propriétés de toutes les propriétés nommées qui sont transmises via votre objet de propriété liée sont dans l’espace de noms d’identificateur de votre fournisseur. Votre implémentation de la méthode [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) doit déterminer les noms des propriétés afin qu’elle puisse effectuer toutes les tâches spécifiques au modèle. De même, les propriétés que votre fournisseur transmet au fournisseur hôte doivent également se trouver dans votre espace de noms. Par exemple, si vous définissez une propriété nommée dans **OpenTemplateID**, vous devez utiliser l’un de vos identificateurs pour le nom, en la créant, si nécessaire, en appelant la méthode [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
   
 Si vous ne reconnaissez pas l’identificateur d’entrée transmis  _dans lpTemplateID_, renvoyez MAPI_E_UNKNOWN_ENTRYID.
   
-Pour plus d’informations sur l’emploi des identificateurs de modèles de carnet d’adresses, voir Agir en tant que fournisseur de carnet [d’adresses étranger.](acting-as-a-foreign-address-book-provider.md)
+Pour plus d’informations sur l’emploi des identificateurs de modèles de carnet d’adresses, voir [Acting as a Foreign Address Book Provider](acting-as-a-foreign-address-book-provider.md).
   
 ## <a name="see-also"></a>Voir aussi
 

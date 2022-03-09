@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: d2b66a8e-2e28-4c32-af95-38d345c7bbd7
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5fc5914f6af792bb59d8063e87ceb29ca0ccf8ad
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7a139ed6b782814e21f4fa77a7914d542f48639b
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620939"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63382082"
 ---
 # <a name="imapiprovidershutdowndofastshutdown"></a>IMAPIProviderShutdown::DoFastShutdown
 

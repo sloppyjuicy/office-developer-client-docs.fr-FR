@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a0aac5e9-4d66-41fc-a2da-dec6ab1f1035
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 32058ba5a189fc0db519d052ea1e65ebcbd521e2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b09420be89a24c73644527e13c7fb87e0d827bcc
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564441"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377259"
 ---
 # <a name="attoriginalmessageclass"></a>attOriginalMessageClass
 

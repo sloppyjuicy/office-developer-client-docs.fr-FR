@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b1cb53ae3e4f38e202105ef8989257babfe4b456
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 08c39af45e3bcc07348243119e49e529cad465aa
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613771"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376237"
 ---
 # <a name="itabledatahrinsertrow"></a>ITableData::HrInsertRow
 
@@ -56,11 +55,11 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode ITableData::HrInsertRow** insère une ligne dans un tableau à une position particulière. La nouvelle ligne est insérée après la ligne qui se trouve à la position spécifiée par le _paramètre uliRow._ 
+La **méthode ITableData::HrInsertRow** insère une ligne dans un tableau à une position particulière. La nouvelle ligne est insérée après la ligne qui se trouve à la position spécifiée par le  _paramètre uliRow_ . 
   
 Si  _uliRow est_ définie sur le nombre de lignes du tableau, la nouvelle ligne est ajouté à la fin du tableau. 
   
-La propriété qui agit comme colonne d’index pour la table doit être incluse dans le membre **lpProps** de la structure [SRow](srow.md) pointée par le _paramètre lpSRow._ Cette propriété d’index, **généralement PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), est utilisée pour identifier de manière unique la ligne pour les tâches de maintenance futures.
+La propriété qui agit en tant que colonne d’index pour la table doit être incluse dans le membre **lpProps** de la structure [SRow](srow.md) pointée par le  _paramètre lpSRow_ . Cette propriété d’index, **généralement PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), est utilisée pour identifier de manière unique la ligne pour les tâches de maintenance futures.
   
 Les colonnes de propriétés de la structure **SRow** ne doivent pas être dans le même ordre que les colonnes de propriétés du tableau. 
   

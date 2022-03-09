@@ -7,45 +7,44 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7632d784-00d8-48fd-a73b-73778efbef7f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6469f039b9a70eb12c4dd137aefbdbd1472fdee2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 748fd64dc03f4e5f0ecfe817207cce0ef82e6f58
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598996"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63382292"
 ---
 # <a name="sending-messages-by-using-message-store-providers"></a>Envoi de messages via les fournisseurs de banques de messages
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les fournisseurs de magasins de messages ne sont pas tenus de prendre en charge les envois de messages sortants (autrement dit, la possibilité pour les applications clientes d’utiliser le fournisseur de magasin de messages pour envoyer des messages). Les applications clientes doivent utiliser un magasin de messages lors de l’envoi de messages, car les données du message doivent être stockées quelque part entre le moment où l’utilisateur a terminé de le composer et le moment où lepooler MAPI envoie le message à un fournisseur de transport pour l’envoi au système de messagerie sous-jacent. Si votre fournisseur de magasins de messages ne prend pas en charge les envois de messages sortants, il ne peut pas être utilisé comme magasin de messages par défaut.
+Les fournisseurs de magasins de messages ne sont pas tenus de prendre en charge les envois de messages sortants (autrement dit, la possibilité pour les applications clientes d’utiliser le fournisseur de magasin de messages pour envoyer des messages). Les applications clientes doivent utiliser un magasin de messages lors de l’envoi de messages, car les données du message doivent être stockées quelque part entre le moment où l’utilisateur a terminé de le composer et le moment où lepooler MAPI envoie le message à un fournisseur de transport pour l’envoi au système de messagerie sous-jacent. Si votre fournisseur de magasin de messages ne prend pas en charge les envois de messages sortants, il ne peut pas être utilisé comme magasin de messages par défaut.
   
 Pour prendre en charge l’envoi de messages, votre fournisseur de magasins de messages doit :
   
 - Implémenter une file d’attente de messages sortants.
     
-- Prise en charge de la méthode [IMessage::SubmitMessage](imessage-submitmessage.md) sur les objets de message créés dans la magasin de messages. 
+- Prise en [charge de la méthode IMessage::SubmitMessage](imessage-submitmessage.md) sur les objets de message créés dans la magasin de messages. 
     
-- Prendre en charge les méthodes **IMsgStore** spécifiques aupooler MAPI : [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md), [IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md), [IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md)et [IMsgStore::SetLockState](imsgstore-setlockstate.md).
+- Prendre en charge les méthodes **IMsgStore** spécifiques aupooler MAPI : [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md), [IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md), [IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md) et [IMsgStore::SetLockState](imsgstore-setlockstate.md).
     
 La **méthode SetLockState** est importante pour une interopérabilité appropriée entre lepooler MAPI et les clients. Lorsque lepooler MAPI appelle **SetLockState** sur un message sortant, le fournisseur de magasin de messages ne doit pas laisser les clients ouvrir le message. Si un client tente d’ouvrir un message verrouillé par lepooler MAPI, le fournisseur de la boutique de messages doit MAPI_E_NO_ACCESS. L’état verrouillé d’un message n’a pas besoin d’être persistant au cas où la boutique serait fermée pendant que le message serait verrouillé par lepooler MAPI. 
   
 Que lepooler MAPI ait verrouillé ou non un message sortant, le fournisseur de la boutique de messages ne doit pas autoriser l’ouverture d’un message dans la file d’attente de messages sortants pour l’écriture. Si un client appelle la méthode [IMSgStore::OpenEntry](imsgstore-openentry.md) sur un message sortant avec l’indicateur MAPI_MODIFY, l’appel doit échouer et MAPI_E_SUBMITTED. Si une application cliente appelle **OpenEntry** sur un message sortant avec l’indicateur MAPI_BEST_ACCESS, le fournisseur de magasins de messages doit autoriser l’accès en lecture seule au message. 
   
-Lorsqu’un message doit être géré par lepooler MAPI, le fournisseur de la boutique de messages définit la propriété **PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md)) du message sur SUBMITFLAG_LOCKED. La SUBMITFLAG_LOCKED indique que lepooler MAPI a verrouillé le message pour son usage exclusif. L’autre valeur **pour PR_SUBMIT_FLAGS**, SUBMITFLAG_PREPROCESS, est définie lorsque le message nécessite un prétraitage par une ou plusieurs fonctions de préprocesseur inscrites par un fournisseur de transport.
+Lorsqu’un message doit être géré par lepooler MAPI, le fournisseur de magasin de messages définit la propriété **PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md)) du message sur SUBMITFLAG_LOCKED. La SUBMITFLAG_LOCKED indique que lepooler MAPI a verrouillé le message pour son usage exclusif. L’autre valeur de **PR_SUBMIT_FLAGS**, SUBMITFLAG_PREPROCESS, est définie lorsque le message nécessite un prétraitment d’une ou plusieurs fonctions de préprocesseur inscrites par un fournisseur de transport.
   
 Les procédures suivantes décrivent comment le magasin de messages, le transport et lepooler MAPI interagissent pour envoyer un message d’un client à un ou plusieurs destinataires. 
   
-L’application cliente appelle [la méthode IMessage::SubmitMessage.](imessage-submitmessage.md) Dans **SubmitMessage,** le fournisseur de magasin de messages fait les choses suivantes :
+L’application cliente appelle [la méthode IMessage::SubmitMessage](imessage-submitmessage.md) . Dans **SubmitMessage**, le fournisseur de magasin de messages fait les choses suivantes :
   
 1. Appelle [IMAPISupport::P repareSubmit](imapisupport-preparesubmit.md). Si MAPI renvoie une erreur, le fournisseur de la boutique de messages renvoie cette erreur au client.
     
 2. Définit le MSGFLAG_SUBMIT bit dans la **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du message.
     
-3. Garantit qu’il existe une colonne pour la propriété **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) dans la table des destinataires et la définit sur FALSE pour indiquer qu’aucun transport n’a encore pris en charge la transmission du message.
+3. Garantit qu’il existe une colonne pour la propriété PR_RESPONSIBILITY ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) dans la table des destinataires et la définit sur FALSE pour indiquer qu’aucun transport **n’a** encore pris en charge la transmission du message.
     
-4. Définit la date et l’heure d’origine dans **la propriété PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)).
+4. Définit la date et l’heure d’origine dans **PR_CLIENT_SUBMIT_TIME** propriété ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)).
     
 5. Appelle [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md) pour : 
     
@@ -59,7 +58,7 @@ L’application cliente appelle [la méthode IMessage::SubmitMessage.](imessage-
     
 6. Ex�cute les t�ches suivantes si l'indicateur de message NEEDS_PREPROCESSING est d�fini :
     
-    1. Place le message dans la file d’attente sortante avec SUBMITFLAG_PREPROCESS bits dans la **PR_SUBMIT_FLAGS** sortante. 
+    1. Place le message dans la file d’attente sortante avec SUBMITFLAG_PREPROCESS bits dans la **propriété PR_SUBMIT_FLAGS** sortante. 
         
     2. Avertit le spouleur MAPI que la file d'attente a �t� modifi�e.
         
@@ -67,11 +66,11 @@ L’application cliente appelle [la méthode IMessage::SubmitMessage.](imessage-
     
        1. Verrouille le message en appelant [IMsgStore::SetLockState](imsgstore-setlockstate.md).
             
-       2. Effectue le prétraitage nécessaire en appelant toutes les fonctions de prétraitation dans l’ordre d’inscription. Les fournisseurs de transport [appellent IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) pour enregistrer les fonctions de prétraitment. 
+       2. Effectue le prétraitage nécessaire en appelant toutes les fonctions de prétraitage dans l’ordre d’inscription. Les fournisseurs de transport [appellent IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) pour enregistrer les fonctions de prétraitment. 
             
        3. Appelle [IMessage::SubmitMessage](imessage-submitmessage.md) sur le message ouvert pour indiquer à la boutique de messages que le prétraitement est terminé. 
     
-S’il n’y a pas eu de prétraitement, ou s’il y a eu un prétraitement et que lepooler MAPI a appelé **SubmitMessage,** le fournisseur de magasin de messages fait les opérations suivantes dans le processus client : 
+S’il n’y a pas eu de prétraitement ou de prétraitement et que lepooler MAPI a appelé **SubmitMessage**, le fournisseur de magasin de messages fait les opérations suivantes dans le processus client : 
   
 - Performs the following tasks if the message store is tightly coupled to a transport and the NEEDS_SPOOLER flag was returned from [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md):
     
@@ -81,13 +80,13 @@ S’il n’y a pas eu de prétraitement, ou s’il y a eu un prétraitement et q
     
    - Ex�cute les t�ches suivantes si tous les destinataires sont connus � ce magasin �troitement coupl� et de transport : 
     
-     - Appelle [IMAPISupport::CompleteMsg](imapisupport-completemsg.md) si le message a été prétraité ou si le fournisseur de magasins de messages souhaite que lepooler MAPI termine le traitement des messages. Le flux de messages se poursuit avec lepooler MAPI. 
+     - Appelle [IMAPISupport::CompleteMsg](imapisupport-completemsg.md) si le message a été prétraité ou si le fournisseur de magasin de messages souhaite que lepooler MAPI termine le traitement des messages. Le flux de messages se poursuit avec lepooler MAPI. 
     
      - Effectue les tâches suivantes si le message n’a pas été prétraité ou si le fournisseur de la boutique de messages ne souhaite pas que lepooler MAPI termine le traitement des messages :
     
        1. Copie le message dans le dossier identifié par l’identificateur d’entrée dans la **propriété PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)), si elle est définie.
             
-       2. Supprime le message si la **propriété PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) a été définie sur TRUE.
+       2. Supprime le message si la propriété **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) a été définie sur TRUE.
             
        3. Déverrouille le message s’il est verrouillé.
             

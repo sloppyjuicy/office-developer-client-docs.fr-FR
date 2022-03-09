@@ -6,22 +6,22 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 032f7242-5500-1e21-06d3-b2d947eb1043
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: ec0adc11a7530cf69f9e7a3bb26f2b8662e21df5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 93b40a66c0d3bcfaefb1e02a19c8225470059f77
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564336"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376888"
 ---
 # <a name="get-the-email-address-of-a-contact-item"></a>Obtention de l’adresse e-mail d’un contact
 
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016
   
 Cette rubrique montre comment obtenir la valeur d’une propriété nommée qui représente l’adresse e-mail d’un Microsoft Outlook 2010 ou Microsoft Outlook 2013 contact.
   
-Vous pouvez associer jusqu’à trois adresses de messagerie à un élément contact dans Outlook 2010 et Outlook 2013. Chaque adresse de messagerie correspond à une propriété de l’objet **ContactItem** Outlook 2010 ou Outlook 2013 dans les modèles objet Outlook 2010 et Outlook 2013. Interne à Outlook 2010 et Outlook 2013, l’adresse e-mail correspond également à une propriété nommée MAPI. Par exemple, la première adresse de messagerie d’un contact correspond à la propriété **Email1Address** de **l’objet ContactItem** dans les modèles objet Outlook 2010 et Outlook 2013, ainsi qu’à la propriété canonique interne Outlook 2010 et Outlook 2013 nommée [PidLidEmail1EmailAddress.](pidlidemail1emailaddress-canonical-property.md)
+Vous pouvez associer jusqu’à trois adresses de messagerie à un contact dans Outlook 2010 et Outlook 2013. Chaque adresse de messagerie correspond à une propriété de l’objet **ContactItem** Outlook 2010 ou Outlook 2013 dans les modèles objet Outlook 2010 et Outlook 2013. Interne à Outlook 2010 et Outlook 2013, l’adresse e-mail correspond également à une propriété nommée MAPI. Par exemple, la première adresse de messagerie d’un contact correspond à la propriété **Email1Address** de **l’objet ContactItem** dans les modèles objet Outlook 2010 et Outlook 2013, et aux propriétés canoniques internes Outlook 2010 et Outlook 2013 nommées [PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md).
   
-Pour obtenir la valeur d’une adresse de messagerie d’un élément de contact, vous pouvez utiliser l’objet **PropertyAccessor** du modèle objet Outlook 2010 ou Outlook 2013, ou d’abord utiliser [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir la balise de propriété de la propriété nommée, puis spécifier cette balise de propriété dans [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la valeur. Lorsque vous appelez **IMAPIProp::GetIDsFromNames**, spécifiez les valeurs appropriées pour la structure [MAPINAMEID](mapinameid.md) pointée par le paramètre d’entrée  _lppPropNames_. L’exemple de code suivant montre comment obtenir la première adresse de messagerie d’un contact spécifié, à l’aide de  `lpContact` **GetIDsFromNames** et **GetProps**. 
+Pour obtenir la valeur d’une adresse de messagerie d’un élément de contact, vous pouvez utiliser l’objet **PropertyAccessor** du modèle objet Outlook 2010 ou Outlook 2013, ou d’abord utiliser [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir la balise de propriété de la propriété nommée, puis spécifier cette balise de propriété dans [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la valeur. Lorsque vous appelez **IMAPIProp::GetIDsFromNames**, spécifiez les valeurs appropriées pour la structure [MAPINAMEID](mapinameid.md) pointée par le paramètre d’entrée  _lppPropNames_. L’exemple de code suivant montre comment obtenir la première adresse de messagerie d’un contact spécifié, lpContact', à l’aide de **GetIDsFromNames** et **GetProps**.
   
 ```cpp
 HRESULT HrGetEmail1(LPMESSAGE lpContact) 
@@ -68,5 +68,3 @@ HRESULT HrGetEmail1(LPMESSAGE lpContact)
      return hRes; 
 }
 ```
-
-

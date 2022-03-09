@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 43b51a66-71fa-4e10-93e4-d533b48af4de
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4d4934cb17b66c0daeb09100e024082621555cec
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3c2ead4201bfeb4177fa34d7f8884b0df70615b5
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571835"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376629"
 ---
 # <a name="iaddrbookgetsearchpath"></a>IAddrBook::GetSearchPath
 
@@ -25,7 +24,7 @@ ms.locfileid: "59571835"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie une liste triée des identificateurs d’entrée des conteneurs à inclure dans le processus de résolution de noms initié par la méthode [IAddrBook::ResolveName.](iaddrbook-resolvename.md) 
+Renvoie une liste triée des identificateurs d’entrée des conteneurs à inclure dans le processus de résolution de noms initié par la méthode [IAddrBook::ResolveName](iaddrbook-resolvename.md) . 
   
 ```cpp
 HRESULT GetSearchPath(
@@ -46,7 +45,7 @@ MAPI_UNICODE
     
  _lppSearchPath_
   
-> [out] Pointeur vers un pointeur vers une liste ordonnée d’identificateurs d’entrée de conteneur. **GetSearchPath stocke** la liste ordonnée dans une structure [SRowSet.](srowset.md) S’il n’existe aucun conteneur dans la hiérarchie du carnet d’adresses, zéro est renvoyé dans la structure **SRowSet.** 
+> [out] Pointeur vers un pointeur vers une liste ordonnée d’identificateurs d’entrée de conteneur. **GetSearchPath stocke** la liste ordonnée dans une structure [SRowSet](srowset.md) . S’il n’existe aucun conteneur dans la hiérarchie du carnet d’adresses, zéro est renvoyé dans la structure **SRowSet** . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -56,11 +55,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les clients et les fournisseurs de services appellent la **méthode GetSearchPath** pour obtenir le chemin de recherche utilisé pour résoudre les noms avec **la méthode ResolveName.** En règle générale, les clients appellent la méthode [IAddrBook::SetSearchPath](iaddrbook-setsearchpath.md) pour établir un chemin de recherche de conteneur dans le profil avant d’appeler **GetSearchPath** pour le récupérer. Toutefois, **l’appel de SetSearchPath** est facultatif. 
+Les clients et les fournisseurs de services appellent la **méthode GetSearchPath** pour obtenir le chemin de recherche utilisé pour résoudre les noms avec la **méthode ResolveName** . En règle générale, les clients appellent [la méthode IAddrBook::SetSearchPath](iaddrbook-setsearchpath.md) pour établir un chemin de recherche de conteneur dans le profil avant d’appeler **GetSearchPath** pour le récupérer. Toutefois, **l’appel de SetSearchPath est** facultatif. 
   
 Si **SetSearchPath n’a** jamais été appelé, **GetSearchPath** crée un chemin d’accès en passant par les tables hiérarchiques du carnet d’adresses. Le chemin de recherche par défaut établi par **GetSearchPath** se compose des conteneurs suivants dans l’ordre suivant : 
   
-1. Premier conteneur avec autorisation de lecture/écriture, généralement le carnet d’adresses personnel .
+1. Premier conteneur avec autorisation de lecture/écriture, généralement le carnet d’adresses personnel (PAB).
     
 2. Chaque conteneur dont la propriété **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) est définie sur DT_GLOBAL. Ce paramètre indique que le conteneur contient des destinataires. 
     

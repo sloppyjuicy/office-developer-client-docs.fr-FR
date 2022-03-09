@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: a36465e2-7be9-4bd6-8091-685f0a045aa9
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2f51e657fb3ab2c05a28af24a91c38d990b5d132
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a20bead4672b5e863a30e2f65462acec1566d537
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616935"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376321"
 ---
 # <a name="iablogonlogoff"></a>IABLogon::Logoff
 

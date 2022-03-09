@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4b1176ec-4126-43f5-856d-cbab8d622825
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: af7fbea1e9e6ef6be8da08a296c85e3124d7800a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b3bcd40343646d74862d950c522eedde60af2d6f
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556377"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63382026"
 ---
 # <a name="imsgstoresetlockstate"></a>IMsgStore::SetLockState
 
@@ -62,7 +61,7 @@ S_OK
 
 La **méthode IMsgStore::SetLockState** verrouille ou déverrouille un message. **SetLockState peut** être appelé uniquement par lepooler MAPI lors de l’envoi du message. 
   
-En règle générale, lorsque lepooler MAPI appelle **SetLockState** pour verrouiller un message, il verrouille uniquement le message le plus ancien (autrement dit, le message suivant mis en file d’attente pour que lepooler MAPI envoie). Si le message le plus ancien de la file d’attente attend un fournisseur de transport temporairement indisponible et que le message suivant dans la file d’attente utilise un autre fournisseur de transport, lepooler MAPI peut commencer à traiter le message ultérieur. Il commence le traitement en verrouiller ce message à l’aide **de SetLockState**.
+En règle générale, lorsque lepooler MAPI appelle **SetLockState** pour verrouiller un message, il verrouille uniquement le message le plus ancien (autrement dit, le message suivant mis en file d’attente pour que lepooler MAPI envoie). Si le message le plus ancien de la file d’attente attend un fournisseur de transport temporairement indisponible et que le message suivant dans la file d’attente utilise un autre fournisseur de transport, lepooler MAPI peut commencer à traiter le message suivant. Il commence le traitement en verrouilleant ce message à l’aide **de SetLockState**.
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 

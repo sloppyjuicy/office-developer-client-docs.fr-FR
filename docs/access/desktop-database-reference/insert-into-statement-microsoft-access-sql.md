@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 0a4c94e90e2c9efd29d0d07eae852ab2a2c009f2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 44555fbed93fa797a065da85d7358f31b8d6475b
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568900"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376692"
 ---
 # <a name="insert-into-statement-microsoft-access-sql"></a>Instruction INSERT INTO (Microsoft Access SQL)
 
@@ -75,7 +75,6 @@ L'instruction INSERT INTO comprend les éléments suivants :
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser l’instruction INSERT INTO pour ajouter un enregistrement unique à une table à l’aide de la syntaxe de requête Ajout d’enregistrement unique indiquée ci-dessus. Dans ce cas, votre code spécifie le nom et la valeur de chaque champ de l’enregistrement. Vous devez spécifier chacun des champs de l’enregistrement auxquels une valeur doit être attribuée, et la valeur de chaque champ. Si vous ne spécifiez pas tous les champs, la valeur par défaut ou une valeur **Null** est insérée dans les colonnes vides. Les enregistrements sont ajoutés à la fin de la table.
@@ -130,8 +129,6 @@ Cet exemple sélectionne tous les enregistrements dans une table New Customers h
     End Sub
 ```
 
-<br/>
-
 Cet exemple crée un nouvel enregistrement dans la table Employees.
 
 ```vb
@@ -144,7 +141,7 @@ Cet exemple crée un nouvel enregistrement dans la table Employees.
         Set dbs = OpenDatabase("Northwind.mdb") 
          
         ' Create a new record in the Employees table. The  
-        ' first name is Harry, the last name is Washington,  
+        ' first name is Harry, the last name is Washington, 
         ' and the job title is Trainee. 
         dbs.Execute " INSERT INTO Employees " _ 
             & "(FirstName,LastName, Title) VALUES " _ 
@@ -154,4 +151,3 @@ Cet exemple crée un nouvel enregistrement dans la table Employees.
      
     End Sub 
 ```
-

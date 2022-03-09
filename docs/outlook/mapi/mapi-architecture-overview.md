@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 00d2993c-d66a-4a00-9fb2-98696d29a007
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8fbb340371a2f7ff5ef6b28fa63af2f4ecc438d5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0833422bc10eb8e9ca73030f37b1d1717668cfee
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571478"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377126"
 ---
 # <a name="mapi-architecture-overview"></a>Vue d’ensemble de l’architecture MAPI
  
@@ -29,7 +28,7 @@ Le sous-système MAPI est composé d’une interface utilisateur commune et des 
   
 MAPI dispose d’interfaces de programmation utilisées par le sous-système MAPI, par les développeurs de logiciels clients et par les développeurs de fournisseurs de services. L’interface de programmation MAPI est la principale interface de programmation basée sur l’objet. L’interface de programmation MAPI est similaire au modèle objet de composant OLE et est utilisée par le sous-système MAPI et les applications clientes basées sur la messagerie écrites en C ou C++. 
   
-En tant que développeur de logiciels clients, vous faites des appels MAPI directement via l’interface de programmation MAPI. Vous pouvez implémenter la messagerie avec une interface cliente MAPI unique ou une combinaison d’interfaces. Une seule application peut effectuer des appels à des méthodes ou des fonctions appartenant à n’importe quelle interface.
+En tant que développeur de logiciels client, vous faites des appels MAPI directement via l’interface de programmation MAPI. Vous pouvez implémenter la messagerie avec une interface cliente MAPI unique ou une combinaison d’interfaces. Une seule application peut effectuer des appels à des méthodes ou des fonctions appartenant à n’importe quelle interface.
   
 ## <a name="see-also"></a>Voir aussi
 

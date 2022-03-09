@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4e775228-5ceb-4002-9b68-999fb5889b86
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c0969e7518d2e326a35c2e37d8c94c3f6e97da27
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6c9231017cdd67375bfdb8caf140b24660e7ac6e
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580061"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376328"
 ---
 # <a name="iabcontainercopyentries"></a>IABContainer::CopyEntries
 
@@ -44,11 +43,11 @@ HRESULT CopyEntries(
     
  _ulUIParam_
   
-> [in] Poignée vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres affichées par cette méthode. Le _paramètre ulUIParam_ doit être zéro si l’AB_NO_DIALOG est définie dans _le paramètre ulFlags._ 
+> [in] Poignée vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres affichées par cette méthode. Le  _paramètre ulUIParam_ doit être zéro si l’AB_NO_DIALOG est définie dans _le paramètre ulFlags_ . 
     
  _lpProgress_
   
-> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression, ou NULL. Si _lpProgress_ est NULL, un indicateur de progression doit être affiché à l’aide de l’objet de progression fourni par MAPI via la méthode [IMAPISupport::D oProgressDialog.](imapisupport-doprogressdialog.md) Le  _paramètre lpProgress est_ ignoré si l’AB_NO_DIALOG est définie dans  _ulFlags_.
+> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression, ou NULL. Si  _lpProgress_ est NULL, un indicateur de progression doit être affiché à l’aide de l’objet de progression fourni par MAPI via la méthode [IMAPISupport::D oProgressDialog](imapisupport-doprogressdialog.md) . Le  _paramètre lpProgress_ est ignoré si l’AB_NO_DIALOG est définie dans  _ulFlags_.
     
  _ulFlags_
   
@@ -78,7 +77,7 @@ S_OK
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> L’opération de copie a réussi globalement, mais une ou plusieurs des entrées n’ont pas pu être copiées. Lorsque cette valeur est renvoyée, l’appel doit être géré comme réussi. Pour tester cette valeur, utilisez la macro **HR_FAILED** macro. Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
+> L’opération de copie a réussi globalement, mais une ou plusieurs des entrées n’ont pas pu être copiées. Lorsque cette valeur est renvoyée, l’appel doit être géré comme réussi. Pour tester cette valeur, utilisez la macro **HR_FAILED** macro. Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
@@ -104,13 +103,13 @@ Si l CREATE_REPLACE est définie, copiez toujours l’entrée, qu’elle soit CR
   
 Si CREATE_REPLACE n’est pas définie et CREATE_CHECK_DUP_STRICT est définie, recherchez les doublons. Si une entrée est déterminée comme dupliquée, ne copiez pas l’entrée. 
   
-Vous n’avez pas besoin de prendre en charge CREATE_REPLACE; Ne pas prendre CREATE_REPLACE signifie que vous pouvez l’ignorer en toute sécurité et toujours effectuer une copie. 
+Vous n’avez pas besoin de prendre en charge CREATE_REPLACE; Ne pas CREATE_REPLACE signifie que vous pouvez l’ignorer en toute sécurité et toujours effectuer une copie. 
   
 Renvoyer l’avertissement MAPI_W_PARTIAL_COMPLETION uniquement si une entrée non mise en place ne peut pas être copiée. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Utilisez les indicateurs CREATE_CHECK_DUP_LOOSE et CREATE_CHECK_DUP_STRICT pour indiquer au fournisseur comment vous souhaitez que le conteneur effectue la vérification des entrées en double. Si une entrée doit être ajoutée, qu’il s’agit d’un doublon ou non, ne définissez pas l’un de ces indicateurs ou définissez l’CREATE_REPLACE’indicateur. CREATE_REPLACE indique que vous ne vous souciez pas si une entrée est en double ; vous souhaitez toujours qu’elle remplace l’entrée d’origine. 
+Utilisez les indicateurs CREATE_CHECK_DUP_LOOSE et CREATE_CHECK_DUP_STRICT pour indiquer au fournisseur comment vous souhaitez que le conteneur effectue la vérification des entrées en double. Si une entrée doit être ajoutée, qu’il s’agit d’un doublon ou non, ne définissez pas l’un ou l’autre de ces indicateurs ou CREATE_REPLACE’indicateur. CREATE_REPLACE que vous ne vous souciez pas si une entrée est en double ; vous souhaitez toujours qu’elle remplace l’entrée d’origine. 
   
 ## <a name="see-also"></a>Voir aussi
 

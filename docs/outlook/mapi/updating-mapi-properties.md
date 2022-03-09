@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: faafde3d-3989-4182-91f1-a0cf0f1b5388
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 90af0f7226acbdbab4fde6480763d3415236cfcc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f9aa404503b4932ce60ed15815334ca4e5216794
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623970"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63378519"
 ---
 # <a name="updating-mapi-properties"></a>Mise à jour des propriétés MAPI
 
@@ -25,11 +24,11 @@ Les clients et les fournisseurs de services peuvent mettre à jour une valeur de
     
 - Fonction [HrSetOneProp](hrsetoneprop.md) pour mettre à jour une seule propriété à la fois. Utilisez **HrSetOneProp** uniquement si l’objet cible est local ; Cette fonction peut entraîner une dégradation des performances lorsqu’elle est utilisée avec des objets distants. 
     
-La procédure suivante montre comment utiliser **SetProps** pour mettre à jour la classe de message, ou la propriété PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), d’un message. 
+La procédure suivante montre comment utiliser **SetProps** pour mettre à jour la classe de message ou la propriété PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) d’un message. 
   
 ### <a name="to-update-the-message-class-of-a-message"></a>Pour mettre à jour la classe de message d’un message 
   
-1. Allouez une structure [SPropValue](spropvalue.md) pour la classe de message et définissez ses membres selon le cas. 
+1. Allouez [une structure SPropValue](spropvalue.md) pour la classe de message et définissez ses membres selon le cas. 
     
   ```cpp
     SPropValue spvMsgClass;

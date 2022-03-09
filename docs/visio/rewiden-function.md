@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c20842cd-86b1-83fa-49ba-118936013b6f
 description: Convertit une formule qui produit des codes de caractères 16 bits qui sont élargis de codes de jeu de caractères codés sur un octet ou sur plusieurs octets en une chaîne de codes de caractères Unicode 16 bits, à l’aide des jeux de caractères spécifiés.
-ms.openlocfilehash: 4043712e7e520f2640758eae14dab803f0b5a23c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: af5939245508e1ed6634467d5497839683920816
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783073"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63382236"
 ---
 # <a name="rewiden-function"></a>Fonction REWIDEN
 
@@ -22,7 +22,7 @@ Convertit une formule qui produit des codes de caractères 16 bits qui sont éla
   
 ## <a name="syntax"></a>Syntaxe
 
-REWIDEN(** *srcCharSet* **, ** *dstCharSet* **, ** *text* ** ) 
+REWIDEN(***srcCharSet** _, _*_dstCharSet_*_, _ *_text_** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -30,7 +30,7 @@ REWIDEN(** *srcCharSet* **, ** *dstCharSet* **, ** *text* ** )
 |:-----|:-----|:-----|:-----|
 | _srcCharSet_ <br/> |Requis  <br/> |**String** <br/> |Jeu de caractères du document source |
 | _dstCharSet_ <br/> |Requis  <br/> |**String** <br/> | Jeu de caractères du document de destination |
-| _text_ <br/> |Requis  <br/> |**String** <br/> |Texte à convertir |
+| _text_ <br/> |Obligatoire  <br/> |**String** <br/> |Texte à convertir |
    
 ## <a name="remarks"></a>Remarques
 

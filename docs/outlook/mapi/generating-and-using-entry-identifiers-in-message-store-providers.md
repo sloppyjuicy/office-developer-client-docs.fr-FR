@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0c43546a-4788-4852-bc89-d6baa4f33c94
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6d5cc5899c911e3fbf9e47746d223ba6b5150130
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 144feb35b2df9e768328dc2fd321c038e965163b
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580201"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377168"
 ---
 # <a name="generating-and-using-entry-identifiers-in-message-store-providers"></a>Génération et utilisation d’identificateurs d’entrées dans les fournisseurs de banques de messages
 

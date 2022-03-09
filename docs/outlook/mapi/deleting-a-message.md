@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9ed166b4-6b7b-478f-bbe5-4115bb818ac0
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: dc8f6886f324f38d195f79727af0f0542e8534cd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1a250143d7f2930fa81115a4c3d2dfe2819e49d3
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556804"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63382173"
 ---
 # <a name="deleting-a-message"></a>Suppression d’un message
 
@@ -25,7 +24,7 @@ Un client peut supprimer un message lorsqu’il est ouvert et que l’utilisateu
   
 1. Marquez un message pour suppression en le déplaçant vers le dossier désigné comme dossier Éléments supprimés , le dossier dont l’identificateur d’entrée est stocké dans la propriété **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)). 
     
-2. Supprimez le message en appelant [la méthode IMAPIFolder::D eleteMessages.](imapifolder-deletemessages.md) 
+2. Supprimez le message en appelant [la méthode IMAPIFolder::D eleteMessages](imapifolder-deletemessages.md) . 
     
 Lorsqu’un utilisateur choisit de supprimer un message dans un dossier autre que le dossier Éléments supprimés, marquez-le pour suppression. Ce n’est que lorsqu’un utilisateur sélectionne des messages à partir du dossier Éléments supprimés que les messages doivent être physiquement supprimés de la station de travail. Vous pouvez invite l’utilisateur à vérifier qu’il a vraiment l’intention d’effectuer la suppression.
   

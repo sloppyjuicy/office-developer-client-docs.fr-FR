@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 394e1430-04d6-4d61-be13-eb695309fa73
 description: Cette rubrique décrit la structure du BLOB POP3 qui représente l’historique de téléchargement des messages d’un compte POP3, pour identifier les messages qui ont été téléchargés ou supprimés sur ce compte.
-ms.openlocfilehash: e2b4f3e94b187bbae137cf833c5e68604309d19d
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 8c3c5e91c11de3df904a50138c156bfbb5e1c185
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776668"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377609"
 ---
 # <a name="parsing-the-message-download-history-for-a-pop3-account"></a>Analyse de l’historique de téléchargement de message pour un compte POP3
 
@@ -26,15 +26,15 @@ Le fournisseur POP (Post Office Protocol) pour Outlook permet aux utilisateurs d
   
 Pour obtenir l’historique de téléchargement des messages pour une boîte de réception :
   
-- Suivez les étapes de recherche de l’historique de téléchargement des messages pour un compte [POP3](locating-the-message-download-history-for-a-pop3-account.md) pour rechercher la propriété [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) , qui contient un objet BLOB (Binary Large Object) qui représente l’historique des messages d’un compte POP3. 
-    
+- Suivez les étapes de recherche de l’historique de téléchargement des messages pour un compte [POP3](locating-the-message-download-history-for-a-pop3-account.md) pour rechercher la propriété [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) , qui contient un objet BLOB (Binary Large Object) qui représente l’historique des messages d’un compte POP3.
+
 - Lisez cette rubrique, qui décrit la structure du BLOB et présente un exemple blob pour identifier les messages qui ont été téléchargés ou supprimés pour la boîte de réception du compte POP3.
 
 <a name="OL15Con_AuxRef_ParsingMsgsHistory_BLOBStructure"> </a>
 
 ## <a name="pop-blob-structure"></a>Structure BLOB POP
 
-La structure BLOB POP, comme décrit dans le tableau 1, commence par deux champs, **Version** et **Count**, suivis d’un nombre de balises de ressources, chacune étant terminée par null. 
+La structure BLOB POP, comme décrit dans le tableau 1, commence par deux champs, **Version** et **Count**, suivis d’un nombre de balises de ressources, chacune étant terminée par null.
   
 **Tableau 1. Structure du BLOB qui représente l’historique de téléchargement des messages d’un compte POP3**
 
@@ -43,8 +43,8 @@ La structure BLOB POP, comme décrit dans le tableau 1, commence par deux champs
 |**Version** <br/> |2 octets  <br/> |Doit être 3 (**PBLOB_VERSION_NUM**). |
 |**Count** <br/> |2 octets  <br/> |Nombre de balises de ressource dans cet objet BLOB. |
 |Balise de ressource  <br/> |Variable  <br/> |0 ou plus chaînes UTF-8 terminées par null qui encodent les balises de ressource. Le nombre de chaînes terminées par null doit correspondre à **Nombre**. |
-   
-Chaque balise de ressource spécifie l’opération qui est appliquée à un message, certaines métadonnées date-heure sur l’opération et code l’UID du message. Le format d’une chaîne de balise de ressource est décomposé comme suit et est expliqué plus en détail dans le tableau 2. 
+
+Chaque balise de ressource spécifie l’opération qui est appliquée à un message, certaines métadonnées date-heure sur l’opération et code l’UID du message. Le format d’une chaîne de balise de ressource est décomposé comme suit et est expliqué plus en détail dans le tableau 2.
   
 `Ocyyyymmddhhmmssuuu...`
   
@@ -66,7 +66,7 @@ Chaque balise de ressource spécifie l’opération qui est appliquée à un mes
 
 ## <a name="example"></a>Exemple
 
-La figure 1 montre un exemple d’objet BLOB qui représente l’historique de téléchargement des messages d’un compte POP. 
+La figure 1 montre un exemple d’objet BLOB qui représente l’historique de téléchargement des messages d’un compte POP.
   
 **Figure 1. Exemple de structure BLOB pour l’historique de téléchargement des messages d’un compte POP3**
 
@@ -82,15 +82,14 @@ Pour identifier l’UID brut dans chaque balise de ressource, n’ignorez pas qu
 
 ![Conversion d’un UID brut dans BLOB vers l’UID de message actuel](media/OL15Con_AuxRef_ParsingMsgsHistory_BlobRscTag.gif)
   
-Pour interpréter la balise de ressource 1 dans ce BLOB : le message avec l’UID  `0BC535DB-EA63-11E1-A75C-00215AD7BB74` a été récupéré avec succès le 6 septembre 2012 à 13:11:38. 
+Pour interpréter la balise de ressource 1 dans ce BLOB : le message avec l’UID `0BC535DB-EA63-11E1-A75C-00215AD7BB74` a été récupéré avec succès le 6 septembre 2012 à 13:11:38.
   
 Vous pouvez de même, pour ce BLOB, l’une des 22 balises de ressources restantes.
   
 ## <a name="see-also"></a>Voir aussi
+
 <a name="OL15Con_AuxRef_ParsingMsgsHistory_AdditionalRsc"> </a>
 
-- [Gestion des téléchargements de messages pour les comptes POP3](managing-message-downloads-for-pop3-accounts.md)    
-- [Localisation de l'historique de téléchargement des messages pour un compte POP3](locating-the-message-download-history-for-a-pop3-account.md)    
+- [Gestion des téléchargements de messages pour les comptes POP3](managing-message-downloads-for-pop3-accounts.md)
+- [Localisation de l'historique de téléchargement des messages pour un compte POP3](locating-the-message-download-history-for-a-pop3-account.md)
 - [Parsage de l’historique UIDL POP3](https://blogs.msdn.com/b/stephen_griffin/archive/2012/12/04/parsing-the-pop3-uidl-history.aspx)
-    
-

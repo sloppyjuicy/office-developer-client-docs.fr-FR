@@ -7,19 +7,18 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9b82097c-dbd6-4ba0-a6cb-292301f9402b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e4d88037bd5473bd6faeaf8832730ff31a1df088
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bb0316cf3b2e87640d25fb1fe1763600b49b518b
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599094"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377434"
 ---
 # <a name="sample-restriction-code"></a>Exemple de code de restriction
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L’exemple de code suivant montre comment créer une restriction qui filtre tous les messages qui ne contiennent pas le mot « domaine » dans la ligne d’objet et qui n’ont pas été envoyés à Sue à partir de Sam. Une arborescence de structures [SRestriction](srestriction.md) est requise, le nœud supérieur étant une restriction **AND** implémentée avec une structure [SAndRestriction.](sandrestriction.md) Les trois restrictions qui sont jointes par l’opération **AND** sont une restriction de sous-objet qui recherche les messages envoyés à Sue, une restriction de contenu qui recherche des messages de Sam et une autre restriction **AND** qui recherche les messages dont l’objet contient « y ». Étant **donné PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) n’est pas une propriété obligatoire, une restriction **Exist** doit être incluse. 
+L’exemple de code suivant montre comment créer une restriction qui filtre tous les messages qui ne contiennent pas le mot « domaine » dans la ligne d’objet et qui n’ont pas été envoyés à Sue à partir de Sam. Une arborescence de structures [SRestriction](srestriction.md) est requise, le nœud supérieur étant une restriction **AND** implémentée avec une structure [SAndRestriction](sandrestriction.md) . Les trois restrictions qui sont jointes par l’opération **AND** sont une restriction de sous-objet qui recherche les messages envoyés à Sue, une restriction de contenu qui recherche des messages de Sam et une autre restriction **AND** qui recherche les messages dont l’objet contient « ya ». Comme **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) n’est pas une propriété obligatoire, une restriction **Exist** doit être incluse. 
   
 Ce code utilise l’allocation et l’initialisation dynamiques ; il est également possible d’allouer et d’initialiser de manière statique. Par souci de concision, la vérification des erreurs qui doit se produire après les appels d’allocation n’est pas incluse dans l’exemple. 
   

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01711aca-c598-438c-88d7-0719b6691e34
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 22735e5d165fb61043bb6433ba84567bf1b3f957
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 839eef63a93510df6f5ea854ed2e2e678e7823d3
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567360"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377805"
 ---
 # <a name="imessagecreateattach"></a>IMessage::CreateAttach
 
@@ -40,7 +39,7 @@ LPATTACH FAR * lppAttach
 
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) représentant l’interface à utiliser pour accéder au message. La transmission de null entraîne le retour de l’interface standard du message, **ou IMessage.** 
+> [in] Pointeur vers l’identificateur d’interface (IID) représentant l’interface à utiliser pour accéder au message. La transmission DE NULL entraîne le retour de l’interface standard du message, **ou IMessage**. 
     
  _ulFlags_
   
@@ -52,7 +51,7 @@ MAPI_DEFERRED_ERRORS
     
  _lpulAttachmentNum_
   
-> [out] Pointeur vers un numéro d’index identifiant la pièce jointe nouvellement créée. Ce numéro n’est valide que lorsque le message est ouvert et constitue la base de la propriété PR_ATTACH_NUM **(** [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)).
+> [out] Pointeur vers un numéro d’index identifiant la pièce jointe nouvellement créée. Ce numéro n’est valide que lorsque le message est ouvert et constitue la base de la propriété **PR_ATTACH_NUM (**[PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de la pièce jointe.
     
  _lppAttach_
   

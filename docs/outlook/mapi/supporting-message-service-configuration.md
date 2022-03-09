@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bb6ab537-2876-474b-be7a-84734ace2bae
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f2b7c5dfc745ef97051f391d6a3dd68766ef844b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9f1b8e66e05b1a29f1490e6452558b3ce1461bac
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629528"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379030"
 ---
 # <a name="supporting-message-service-configuration"></a>Prise en charge de la configuration du service de messagerie
   
@@ -21,7 +20,7 @@ ms.locfileid: "59629528"
   
 Pour prendre en charge la configuration du service de message, utilisez la procédure suivante :
   
-1. Implémenter une fonction de point d’entrée conforme au prototype [MSGSERVICEENTRY.](msgserviceentry.md) Les fonctions de point d’entrée de service de message gèrent l’accès aux données de configuration et sont appelées dans les circonstances suivantes : 
+1. Implémenter une fonction de point d’entrée conforme au prototype [MSGSERVICEENTRY](msgserviceentry.md) . Les fonctions de point d’entrée de service de message gèrent l’accès aux données de configuration et sont appelées dans les circonstances suivantes : 
     
    - Lorsqu’un client se connecte pour récupérer des informations afin de configurer votre service de message.
     
@@ -45,9 +44,9 @@ Pour prendre en charge la configuration du service de message, utilisez la proc�
     
 4. Effectuez les tâches suivantes si vous souhaitez autoriser l’Assistant Profil à configurer votre service de message :
     
-   - Implémenter une fonction de point d’entrée conforme au prototype [WIZARDENTRY.](wizardentry.md) 
+   - Implémenter une fonction de point d’entrée conforme au prototype [WIZARDENTRY](wizardentry.md) . 
     
-   - Implémentez une Windows de dialogue standard conforme au prototype [SERVICEWIZARDDLGPROC.](servicewizarddlgproc.md) 
+   - Implémentez une Windows de dialogue standard conforme au prototype [SERVICEWIZARDDLGPROC](servicewizarddlgproc.md). 
     
    - Améliorez votre fonction de point d’entrée de service de message pour répondre à des événements supplémentaires.
     

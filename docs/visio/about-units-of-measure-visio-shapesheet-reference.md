@@ -9,18 +9,18 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 48f765a8-7485-03c0-3484-d4ec07822600
 description: Lorsque vous insérez des champs dans du texte ou construisez des formules, vous devez souvent indiquer l’unité de mesure des valeurs que vous tapez.
-ms.openlocfilehash: e0d347ab6d044e2191b179ff8104e2795061e821
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: fd733fcd6b3b34092c810bfdadf7bb2abb526984
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782478"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377329"
 ---
 # <a name="about-units-of-measure-visio-shapesheet-reference"></a>About Units of Measure (Visio ShapeSheet Reference)
 
 Lorsque vous insérez des champs dans du texte ou construisez des formules, vous devez souvent indiquer l’unité de mesure des valeurs que vous tapez.
   
-Microsoft Visio calcule le résultat d’une formule différemment selon la cellule dans laquelle la formule est entrée. De manière générale, les cellules qui représentent une position de forme, une cote ou un angle nécessitent une paire nombre-unité, constituée d’un nombre et de l’unité permettant de l’interpréter. Beaucoup de cellules ne nécessitent pas d’unités et renvoient une chaîne, TRUE ou FALSE ou un index. Par exemple, la même formule que dans la cellule **FillForegnd** signifie que la couleur 5 de la palette de couleurs du dessin signifie TRUE (et verrouille la largeur de la forme) dans la cellule LockWidth. 
+Microsoft Visio calcule le résultat d’une formule différemment selon la cellule dans laquelle la formule est entrée. De manière générale, les cellules qui représentent une position de forme, une cote ou un angle nécessitent une paire nombre-unité, constituée d’un nombre et de l’unité permettant de l’interpréter. Beaucoup de cellules ne nécessitent pas d’unités et renvoient une chaîne, TRUE ou FALSE ou un index. Par exemple, la même formule que dans la cellule **FillForegnd** signifie que la couleur 5 de la palette de couleurs du dessin signifie TRUE (et verrouille la largeur de la forme) dans la cellule LockWidth.
   
 Veillez à toujours indiquer une unité de mesure lorsque vous entrez une formule dans une cellule devant contenir une cote. Si vous ne précisez pas d’unité de mesure, Visio utilise l’unité par défaut pour cette cellule, qui peut être une unité de page, de dessin ou d’angle.
   
@@ -54,7 +54,7 @@ Dans les formules ShapeSheet, entrez les unités de mesure en utilisant les abr�
 | Radians  <br/> | rad  <br/> |**visRadians (83)** <br/> |
 | Secondes  <br/> | "  <br/> |**visSec (85)** <br/> |
 | Yards  <br/> | yd  <br/> |**visYards (75)** <br/> |
-   
+
 ## <a name="compound-units-of-measure"></a>Unités de mesure composées
 
 Dans les formules, vous pouvez exprimer des unités de mesure pour les nombres composés à l’aide des abréviations du tableau suivant. Visio simplifie les résultats et les affiche dans les unités composées.
@@ -67,15 +67,15 @@ Par exemple, si vous entrez 45,635°, Visio affiche la valeur équivalente de la
 | Degrés, minutes et secondes  <br/> | °  <br/> |**visDegreeMinSec (82)** <br/> |
 | Pieds et pouces  <br/> | PIEDS/POUCE  <br/> |**visFeetAndInches (67)** <br/> |
 | Picas et points  <br/> | PICAPOINTS  <br/> |**visPicasAndPoints (49)** <br/> |
-   
+
 ## <a name="fractional-units-of-measure"></a>Unités de mesure en fraction
 
-Vous pouvez spécifier des unités de mesure fractionnaires dans la cellule **DrawingScale** afin d’affecter le nombre de sous-sections de Visio qui s’affichent dans la fenêtre de dessin. Par défaut, les unités des règles sont divisés en dixièmes. Si vous utilisez des unités de mesure fractionnaires dans la cellule **DrawingScale**, Visio divise la distance en l’une des suivantes : 
+Vous pouvez spécifier des unités de mesure fractionnaires dans la cellule **DrawingScale** afin d’affecter le nombre de sous-sections de règle Visio dans la fenêtre de dessin. Par défaut, les unités des règles sont divisés en dixièmes. Si vous utilisez des unités de mesure fractionnaires dans la cellule **DrawingScale**, Visio divise la distance en ce qui suit :
   
-- Huitièmes  *pour visInchFrac*  et  *visMileFrac* 
-    
-- Douzièmes pour  *visFeetAndInches* 
-    
+- Huitièmes *pour visInchFrac* et visMileFrac*
+
+- douzièmes pour *visFeetAndInches*
+
 Les unités de mesure en fraction n’ont aucun effet dans les cellules autres que DrawingScale.
   
 |**Pour définir des unités en fraction**|**Utilisez cette abréviation**|**Constante d’automation**|
@@ -83,7 +83,7 @@ Les unités de mesure en fraction n’ont aucun effet dans les cellules autres q
 | Pouces avec leurs divisions  <br/> | IN_F  <br/> |**visInchFrac (73)** <br/> |
 | Miles avec leurs divisions  <br/> | MI_F  <br/> |**visMileFrac (74)** <br/> |
 | Pieds et pouces  <br/> | PIEDS/POUCE  <br/> |**visFeetAndInches (67)** <br/> |
-   
+
 ## <a name="multidimensional-units-of-measure"></a>Unités de mesure multidimensionnelles
 
 Dans les formules, vous pouvez exprimer des unités de mesure pour les nombres multidimensionnels à l’aide des abréviations du tableau suivant. Visio simplifie les résultats et les affiche dans les unités multidimensionnelles.
@@ -100,7 +100,7 @@ Dans les formules, vous pouvez exprimer des unités de mesure pour les nombres m
 | Miles  <br/> | MI. CARRE, MI CARRE, MI.^2, MI ^2  <br/> |**visMiles (68)** <br/> |
 | Millimètres  <br/> | MM. CARRE, MM CARRE, MM.^2, MM ^2  <br/> |**visMillimeters (70)** <br/> |
 | Yards  <br/> | YD. CARRE, YD CARRE, YD.^2, YD^2  <br/> |**visYards (75)** <br/> |
-   
+
 ## <a name="universal-strings"></a>Chaînes universelles
 
 Dans les versions localisées de Visio, les chaînes reconnues changent en fonction de la langue utilisée. Si vous souhaitez travailler avec plusieurs langues, utilisez les chaînes universelles pour les unités de mesure.
@@ -137,7 +137,7 @@ Dans les versions localisées de Visio, les chaînes reconnues changent en fonct
 | Radians  <br/> | RAD  <br/> |
 | Secondes  <br/> | "  <br/> |
 | Yards  <br/> | YD  <br/> |
-   
+
 ## <a name="implicit-units-of-measure"></a>Unités de mesure implicites
 
 Lorsque Visio analyse et stocke une paire nombre-unité, il peut utiliser des unités explicites ou implicites. Un nombre exprimé en unité explicite s’affiche toujours dans l’unité de mesure entrée à l’origine. Un nombre exprimé en unité implicite est toujours converti en une valeur équivalente dans l’unité de dessin, de page ou d’angle spécifique à la cellule.
@@ -152,21 +152,21 @@ number  [unit , flag ]
 
 |||
 |:-----|:-----|
-| _number_ <br/> |Valeur d’origine, telle que 3,7, 1,7E-4 ou 5 1/2. |
-| _unit_ <br/> |Unités dans lesquelles le  _nombre_ est exprimé à l’origine. |
-| _flag_ <br/> |Système de mesure à utiliser lorsque l’unité de valeur implicite est affichée. Reportez-vous au tableau ci-dessous. |
-   
-_L’indicateur de_ paramètre est l’une des lettres suivantes (majuscules ou minuscules) indiquant le système de mesure à utiliser lorsque l’unité de valeur implicite est affichée. 
+| *number* <br/> |Valeur d’origine, telle que 3,7, 1,7E-4 ou 5 1/2. |
+| *unit* <br/> |Unité dans laquelle le *nombre* est initialement exprimé. |
+| *flag* <br/> |Système de mesure à utiliser lorsque l’unité de valeur implicite est affichée. Reportez-vous au tableau ci-dessous. |
+
+*L’indicateur de* paramètre est l’une des lettres suivantes (majuscules ou minuscules) indiquant le système de mesure à utiliser lorsque l’unité de valeur implicite est affichée.
   
-|**_Flag_**|**Système de mesure**|**Exemple**|
+|***Flag** _|_ *Measurement System**|**Exemple**|
 |:-----|:-----|:-----|
 | a, A  <br/> | Angle  <br/> | =5[deg,A]  <br/> |
 | d, D  <br/> | Drawing  <br/> | =5[in,D]  <br/> |
 | e, E  <br/> | Durée  <br/> | =5[eh,E]  <br/> |
 | p, P  <br/> | Page  <br/> | =5[in,P]  <br/> |
 | t, T  <br/> | Type  <br/> | =5[pt,T]  <br/> |
-   
-Vous pouvez également utiliser les unités implicites DL, DP, DT, DA, DE, qui correspondent respectivement aux unités implicites de dessin, de page, de texte, d’angle et de temps. Avec ces unités, Visio considère que la valeur associée est exprimée dans l’unité interne. Par exemple, si le système de mesure actuel est en centimètres,  *=2 DL*  est interprété comme 2 unités internes (pouces) et affiché sous la forme 5,08 cm. 
+
+Vous pouvez également utiliser les unités implicites DL, DP, DT, DA, DE, qui correspondent respectivement aux unités implicites de dessin, de page, de texte, d’angle et de temps. Avec ces unités, Visio considère que la valeur associée est exprimée dans l’unité interne. Par exemple si le système de mesure en cours utilise les centimètres, *=2 DL* est interprété comme 2 unités internes (pouces) et affiché sous la forme 5,08 cm.
   
 Dans la syntaxe des unités implicites décrite ci-dessus, cette expression (=2 DL) est équivalente à 2[in,d]. Elle a l’avantage de vous laisser le choix des valeurs, ce qui vous permet d’indiquer par exemple 2[ft,d], interprété comme 2 pieds et affiché ainsi : 60,96 cm. Les unités implicites DL, DP, DT, DA, et DE sont universelles et n’ont pas de traduction.
   
@@ -181,5 +181,3 @@ Le tableau ci-dessous présente les unités de mesure par défaut avec les param
 |**visTypeUnits** <br/> |Unités sélectionnées dans la zone de  texte sous Affichage  sous l’onglet Avancé de la boîte de dialogue **Options Visio** (cliquez sur l’onglet Fichier, puis sur **Options**).  |
 |**visAngleUnits** <br/> |Unités sélectionnées dans la zone **Angle** de la section **Affichage** de l’onglet **Avancé** de la boîte de dialogue **Options Visio**. |
 |**visDurationUnits** <br/> |Unités sélectionnées dans la zone **Durée** de la section **Affichage** sous l’onglet **Avancé** de la boîte de dialogue **Options Visio**. |
-   
-

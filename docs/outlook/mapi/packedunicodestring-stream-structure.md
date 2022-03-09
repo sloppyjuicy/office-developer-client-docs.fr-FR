@@ -5,13 +5,12 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: e4cb1613-7e81-432a-ae3a-7fedb05dac65
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 73a3f6f8ca3dd23326f28ea18228c09cf310d444
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 27f04f03f9271faf075c673a5ea8f167c97dc7ab
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625118"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63381991"
 ---
 # <a name="packedunicodestring-stream-structure"></a>Structure de flux PackedUnicodeString
 
@@ -39,7 +38,7 @@ La structure de flux PackedUnicodeString contient une représentation Unicode (U
 
 
 
-[Outlook Éléments et champs](outlook-items-and-fields.md)
+[Outlook et champs](outlook-items-and-fields.md)
   
 [Structures de flux](stream-structures.md)
   

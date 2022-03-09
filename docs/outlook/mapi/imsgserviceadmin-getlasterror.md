@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e3c8d6e-74be-46a7-94ed-74a969caf165
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 144a5f5f9b73710448259acf334429dc780ee385
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 8f3d11c1bbaa52247934165f5fd41ac073df00bd
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462346"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63382033"
 ---
 # <a name="imsgserviceadmingetlasterror"></a>IMsgServiceAdmin::GetLastError
 
@@ -61,7 +60,7 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L MAPI_UNICODE a été définie et l’objet d’administration du service de message ne prend pas en charge Unicode.
+> L’MAPI_UNICODE a été définie et l’objet d’administration du service de message ne prend pas en charge Unicode.
     
 ## <a name="remarks"></a>Remarques
 

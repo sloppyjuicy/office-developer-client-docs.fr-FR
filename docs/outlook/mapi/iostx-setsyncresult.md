@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f083ee0-bf36-0059-1589-66e454fe0098
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 664c8f3c1fdbfbdf830c16834f62220fbfe0949b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b2c79e8c486415867aae2e15f484df4498b5fa32
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571576"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377147"
 ---
 # <a name="iostxsetsyncresult"></a>IOSTX::SetSyncResult
 
@@ -37,7 +36,7 @@ HRESULT SetSyncResult(
 
  _hrSync_
   
->  [in] Résultat de la synchronisation. 
+> [in] Résultat de la synchronisation. 
     
 ## <a name="remarks"></a>Remarques
 

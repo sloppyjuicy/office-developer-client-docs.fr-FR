@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d556ff4d-e2f3-4c83-a93f-b1bfda5abc8c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 58285c4b9ca4752645e1aa378cd8e51d59095a88
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ec7a7fd52b7ae21405f5f0ed22976164f5a0717c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576386"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63378890"
 ---
 # <a name="disk-instances-and-cache-tables"></a>Instances de disque et tables de cache
 
@@ -21,12 +20,12 @@ ms.locfileid: "59576386"
   
 Pour activer un formulaire, ses fichiers exécutables doivent être disponibles sur l’ordinateur de l’utilisateur. S’ils ne sont pas disponibles, ils doivent être copiés à partir de la bibliothèque de formulaires sur le disque local. Pour ce faire, le gestionnaire de formulaires par défaut crée un sous-répertoire dans le répertoire Windows de l’utilisateur pour contenir les fichiers exécutables du formulaire (. EXE,. HLPs). Ce répertoire est appelé instance de disque du formulaire.
   
-Le gestionnaire de formulaires par défaut tient à jour une table de toutes les instances de disque afin que, si une instance de disque existe déjà, elle puisse être utilisée sans avoir à copier des fichiers de la bibliothèque de formulaires sur le disque de l’utilisateur. La table des instances de disque est gérée en tant que cache le moins fréquemment utilisé. Si une nouvelle instance de disque est nécessaire, elle est copiée sur l’ordinateur de l’utilisateur, en remplaçant l’instance de disque la moins fréquemment utilisée. La table de cache des instances de disque est ensuite mise à jour pour refléter la configuration la plus récente. La taille du cache de disque est une option configurable par l’utilisateur, qui permet aux utilisateurs d’équilibrer la vitesse avec la capacité disque disponible.
+Le gestionnaire de formulaires par défaut tient à jour une table de toutes les instances de disque afin que, si une instance de disque existe déjà, elle puisse être utilisée sans avoir à copier des fichiers de la bibliothèque de formulaires sur le disque de l’utilisateur. La table des instances de disque est gérée en tant que cache le moins fréquemment utilisé. Si une nouvelle instance de disque est nécessaire, elle est copiée sur l’ordinateur de l’utilisateur, en remplaçant l’instance de disque la moins fréquemment utilisée. La table de cache des instances de disque est ensuite mise à jour pour refléter la configuration la plus récente. La taille du cache disque est une option configurable par l’utilisateur, qui permet aux utilisateurs d’équilibrer la vitesse avec la capacité disque disponible.
   
-Outre le cache d’instance de disque, le gestionnaire de formulaires par défaut tient à jour une table d’instances en cours d’exécution qui répertorie toutes les instances en cours d’exécution des serveurs de formulaires sur l’ordinateur de l’utilisateur. Cela utilise la capacité de MAPI à conserver les instances de formulaire inactives en cours d’exécution dans un état invisible jusqu’à ce qu’une forme de la classe de message de ce serveur de formulaires soit activée. En d’autres termes, les serveurs de formulaires peuvent être mis en cache dans la RAM pour réduire le nombre de fois que l’exécutable d’un formulaire doit être situé dans une bibliothèque de formulaires et chargé en mémoire à partir du disque ou sur le réseau. Comme le cache d’instance de disque, le cache d’instances en cours d’exécution se comporte de manière moins fréquemment utilisée afin qu’une instance de formulaire en cours d’exécution puisse être purgée du cache pour faire de la place à une autre instance de formulaire. Ce cache est recherché pour une instance en cours d’exécution d’un serveur de formulaires avant que les bibliothèques de formulaires ne soient recherchés pour le serveur de formulaires.
+Outre le cache d’instance de disque, le gestionnaire de formulaires par défaut tient à jour une table d’instances en cours d’exécution qui répertorie toutes les instances en cours d’exécution des serveurs de formulaires sur l’ordinateur de l’utilisateur. Cela utilise la capacité de MAPI à conserver les instances de formulaire inactives en cours d’exécution dans un état invisible jusqu’à ce qu’une forme de la classe de message de ce serveur de formulaires soit activée. En d’autres termes, les serveurs de formulaires peuvent être mis en cache en RAM pour réduire le nombre de fois que l’exécutable d’un formulaire doit être situé dans une bibliothèque de formulaires et chargé en mémoire à partir du disque ou sur le réseau. Comme le cache d’instance de disque, le cache d’instances en cours d’exécution se comporte de manière à ce qu’une instance de formulaire en cours d’exécution puisse être purgée du cache pour faire de la place à une autre instance de formulaire. Ce cache est recherché pour une instance en cours d’exécution d’un serveur de formulaires avant que les bibliothèques de formulaires ne soient recherchés pour le serveur de formulaires.
   
 > [!NOTE]
-> Le gestionnaire de formulaires par défaut affiche un indicateur de progression lors de l’installation d’un formulaire sur la station de travail d’un utilisateur, permettant ainsi à l’utilisateur d’annuler l’opération. Ceci est particulièrement utile si la connexion de l’utilisateur au fichier exécutable du serveur de formulaire est sur un réseau à faible bande passante. 
+> Le gestionnaire de formulaires par défaut affiche un indicateur de progression lors de l’installation d’un formulaire sur la station de travail d’un utilisateur, ce qui lui permet d’annuler l’opération. Ceci est particulièrement utile si la connexion de l’utilisateur au fichier exécutable du serveur de formulaires est sur un réseau à faible bande passante. 
   
 ## <a name="see-also"></a>Voir aussi
 

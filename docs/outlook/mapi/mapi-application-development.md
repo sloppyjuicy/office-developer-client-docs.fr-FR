@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: efc84e9c-7b1a-438a-9308-9a7e454c59b0
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 322d94d22b0081808701267c6c0ee110e6c36806
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8dc442c54d9d84a2be54b6a9dd6765faf50f9e39
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571492"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377119"
 ---
 # <a name="mapi-application-development"></a>D�veloppement d'applications MAPI
 

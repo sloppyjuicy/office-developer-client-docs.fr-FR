@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 1b3afeaa-4ede-41eb-a3c1-b8947a46ef97
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c2c47bd25c0ddd05d6a0c518af37763803724e98
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 26e928357dd03e425ac996b58462899d52985af0
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595867"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377791"
 ---
 # <a name="mapi-forms-overview"></a>Vue d’ensemble des formulaires MAPI
   
@@ -21,7 +20,7 @@ ms.locfileid: "59595867"
   
 Un formulaire MAPI est une visionneuse pour un message. Chaque message possède une classe de message qui détermine le formulaire particulier qui est utilisé comme visionneuse. MAPI définit plusieurs classes de messages et a implémenté les formulaires d’affichage des messages de ces classes. Les développeurs de logiciels clients peuvent créer des classes de messages et des formulaires personnalisés pour afficher les messages créés à l’aide des nouvelles classes.
   
-Chaque formulaire personnalisé implémente un ensemble de commandes de menu standard, telles que **Ouvrir,** **Créer,** Supprimer et **Répondre,** et un ensemble de commandes spécifiques au formulaire particulier. Certaines commandes de formulaire sont intégrées à l’interface utilisateur de l’application cliente lorsque le formulaire est actif ; les autres commandes de formulaire remplacent complètement les commandes clientes. 
+Chaque formulaire personnalisé implémente un ensemble de commandes de menu standard, telles qu’Ouvrir **, Créer****, Supprimer** et **Répondre, ainsi** qu’un ensemble de commandes spécifiques au formulaire particulier. Certaines commandes de formulaire sont intégrées à l’interface utilisateur de l’application cliente lorsque le formulaire est actif ; les autres commandes de formulaire remplacent complètement les commandes clientes. 
   
 L’illustration suivante montre la relation entre les composants MAPI impliqués dans l’utilisation de formulaires. 
   
@@ -29,7 +28,7 @@ L’illustration suivante montre la relation entre les composants MAPI impliqué
   
 ![Architecture de formulaire MAPI](media/forms01.gif "Architecture de formulaire MAPI")
   
-Dans le diagramme, notez que le gestionnaire de formulaires joue un rôle semblable à d’autres fournisseurs de services MAPI, bien qu’il ne soit pas un fournisseur de services lui-même. Le gestionnaire de formulaires est une DLL remplaçable qui implémente certaines interfaces MAPI. Bien que les développeurs peuvent implémenter leur propre gestionnaire de formulaires, la plupart des environnements utiliseront le gestionnaire de formulaires fourni par Microsoft en raison de la complexité du gestionnaire de formulaires.
+Dans le diagramme, notez que le gestionnaire de formulaires joue un rôle semblable à d’autres fournisseurs de services MAPI, bien qu’il ne s’agit pas d’un fournisseur de services lui-même. Le gestionnaire de formulaires est une DLL remplaçable qui implémente certaines interfaces MAPI. Bien que les développeurs peuvent implémenter leur propre gestionnaire de formulaires, la plupart des environnements utiliseront le gestionnaire de formulaires fourni par Microsoft en raison de la complexité du gestionnaire de formulaires.
   
 La liste suivante décrit les composants du diagramme et leur relation avec d’autres composants :
   

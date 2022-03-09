@@ -7,12 +7,12 @@ ms:contentKeyID: 48544926
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 23b6db5cc5cb64ae0d302f147fcfa0f068338504
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3879fbe37ea80ae2ead009fd1ff3eec1bb9181c3
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564798"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376930"
 ---
 # <a name="field-object"></a>Field, objet
 
@@ -46,7 +46,7 @@ Les rubriques suivantes abordent les propriétés de l'objet [Field](field-objec
 
 ## <a name="discovering-the-data-type"></a>Découverte du type de données
 
-La propriété **Type** indique le type de données du champ. Les constantes éumées de type de données qui sont pris en charge par ADO sont décrites dans [DataTypeEnum](datatypeenum.md) dans la référence du *programmeur ADO.*
+La propriété **Type** indique le type de données du champ. Les constantes éumées de type de données qui sont pris en charge par ADO sont décrites dans [DataTypeEnum](datatypeenum.md) dans la référence du *programmeur ADO*.
 
 Pour les types numériques en virgule flottante comme **adNumeric**, vous pouvez obtenir plus d'informations. La propriété **NumericScale** indique le nombre de chiffres à droite du point décimal utilisé pour représenter les valeurs du **champ**. La propriété **Precision** spécifie le nombre maximal de chiffres utilisé pour représenter les valeurs du **champ**.
 
@@ -73,7 +73,7 @@ Les objets ADO possèdent deux types de propriétés : intégré et dynamique. �
 
 Les propriétés intégrées sont les propriétés implémentées dans ADO et immédiatement disponibles pour tout nouvel objet, à l’aide de la syntaxe. Elles n'apparaissent pas comme des objets **Property** dans la collection **Properties** d'un objet.
 
-Les propriétés dynamiques sont définies par le fournisseur de données sous-jacent et apparaissent dans la collection **Properties** de l'objet ADO correspondant. Par exemple, une propriété spécifique au fournisseur peut indiquer si un objet **Recordset** prend en charge les transactions ou les mises à jour. Ces propriétés supplémentaires apparaissent comme des objets **Property** dans la collection **Properties** de cet objet **Recordset**. Les propriétés dynamiques peuvent être référencés uniquement par le biais de la collection, à l’aide de la syntaxe MyObject.Properties(0) ou MyObject.Properties(« Name ») .
+Les propriétés dynamiques sont définies par le fournisseur de données sous-jacent et apparaissent dans la collection **Properties** de l'objet ADO correspondant. Par exemple, une propriété spécifique au fournisseur peut indiquer si un objet **Recordset** prend en charge les transactions ou les mises à jour. Ces propriétés supplémentaires apparaissent comme des objets **Property** dans la collection **Properties** de cet objet **Recordset**. Les propriétés dynamiques peuvent être référencés uniquement par le biais de la collection, à l’aide de la syntaxe MyObject.Properties(0) ou MyObject.Properties(« Name »).
 
 Vous ne pouvez supprimer ni l'un ni l'autre de ces deux types de propriétés.
 
@@ -89,7 +89,7 @@ Un objet **Property** dynamique possède quatre propriétés intégrées :
 
 La collection **Properties** de l'objet **Field** contient des métadonnées supplémentaires relatives au champ. Le contenu de cette collection varie en fonction du fournisseur. L'exemple de code suivant examine la collection **Properties** de l'exemple de **jeu d'enregistrements** présenté au début de ce chapitre. Il étudie d'abord le contenu de la collection. Ce code utilise le [fournisseur OLE DB pour SQL Server](microsoft-ole-db-provider-for-sql-server.md). La collection **Properties** renferme donc les informations propres à ce fournisseur.
 
-```vb 
+```vb
  
 'BeginFieldProps 
  Dim objProp As ADODB.Property 
@@ -122,5 +122,4 @@ Si la section **adFldLong** de la propriété **Attributes** d'un objet **Field*
 
 S'il n'existe aucun enregistrement actif lorsque vous utilisez la méthode **GetChunk** ou **AppendChunk** sur un objet **Field**, l'erreur 3021 (aucun enregistrement actif) survient.
 
-Pour obtenir un exemple d’utilisation de ces méthodes pour manipuler des données binaires, voir les exemples [appendChunk Method](appendchunk-method-ado.md) et [GetChunk Method](getchunk-method-ado.md) dans la référence du *programmeur ADO.*
-
+Pour obtenir un exemple *d’utilisation* de ces méthodes pour manipuler des données binaires, voir les exemples [appendChunk Method](appendchunk-method-ado.md) et [GetChunk Method](getchunk-method-ado.md) dans la référence du programmeur ADO.

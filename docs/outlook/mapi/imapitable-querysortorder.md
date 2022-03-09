@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7b4ca523-0703-417c-8586-c4324c200020
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: af518be23c8bd192ca9fd2b8d987cd64c4562287
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 49154d9beceefa20776ba01a169df3d062cf8e9c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592332"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63378645"
 ---
 # <a name="imapitablequerysortorder"></a>IMAPITable::QuerySortOrder
 
@@ -51,7 +50,7 @@ MAPI_E_BUSY
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPITable::QuerySortOrder** récupère l’ordre de tri actuel d’une table. Les ordres de tri sont décrits avec une structure [SSortOrderSet.](ssortorderset.md) 
+La **méthode IMAPITable::QuerySortOrder** récupère l’ordre de tri actuel d’une table. Les ordres de tri sont décrits avec [une structure SSortOrderSet](ssortorderset.md) . 
   
 - Le **membre cSorts** de la structure **SSortOrderSet** peut être définie sur zéro si : 
     
@@ -63,9 +62,9 @@ La **méthode IMAPITable::QuerySortOrder** récupère l’ordre de tri actuel d�
     
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Si un appel est effectué à votre méthode [IMAPITable::SortTable](imapitable-sorttable.md) avec une structure **SSortOrderSet** contenant zéro colonne dans la clé de tri, supprimez l’ordre de tri actuel et appliquez l’ordre par défaut, s’il en existe un. Dans les appels suivants **à QuerySortOrder,** vous pouvez choisir de renvoyer zéro ou plusieurs colonnes pour la clé de tri. Vous pouvez renvoyer plus de colonnes que dans l’affichage actuel.
+Si un appel est effectué à votre méthode [IMAPITable::SortTable](imapitable-sorttable.md) avec une structure **SSortOrderSet** contenant zéro colonne dans la clé de tri, supprimez l’ordre de tri actuel et appliquez l’ordre par défaut, s’il en existe un. Dans les appels **suivants à QuerySortOrder**, vous pouvez choisir de renvoyer zéro ou plusieurs colonnes pour la clé de tri. Vous pouvez renvoyer plus de colonnes que dans l’affichage actuel.
   
-Pour plus d’informations sur le tri, voir [Tri et catégorisation.](sorting-and-categorization.md)
+Pour plus d’informations sur le tri, voir [Tri et catégorisation](sorting-and-categorization.md).
   
 ## <a name="see-also"></a>Voir aussi
 

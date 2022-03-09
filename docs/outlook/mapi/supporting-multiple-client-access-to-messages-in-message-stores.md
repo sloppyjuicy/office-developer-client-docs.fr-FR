@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 31885c64-edb2-4a87-8730-09f163dedd40
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 907dd58dd06ed538a34c659bcd697bdacb16afbf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 11587b748f896bf8b3f25823ed438904b34ad9fb
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624103"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379317"
 ---
 # <a name="supporting-multiple-client-access-to-messages-in-message-stores"></a>Prise en charge de plusieurs clients l'acc�s aux Messages dans les banques de messages
 

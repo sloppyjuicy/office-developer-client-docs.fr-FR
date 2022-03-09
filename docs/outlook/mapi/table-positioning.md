@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a0cbbc93-8074-4e86-b660-ee7bab910587
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fe261b96e18d320d3caafe6aa0afcd85abb721d9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 593426302e5526df768aa987ced72a36c8f7bb8c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59549859"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377413"
 ---
 # <a name="table-positioning"></a>Positionnement des tableaux
 

@@ -5,13 +5,12 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 489e0d74-8ecd-23ba-c874-18fd8c50fd12
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: da084d7469fd1be7483da7a72a1b1fc353524748
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d7779c0775a7cde57d6dea16cca1903d1316b2ea
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588251"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377343"
 ---
 # <a name="algorithm-to-calculate-the-store-hash-number"></a>Algorithme permettant de calculer le numéro de hachage de la boutique
  
@@ -21,14 +20,14 @@ Dans le cadre d’une URL (Uniform Resource Locator) MAPI, un fournisseur de mag
   
 Cette rubrique décrit un algorithme que Microsoft Office Outlook utilise pour calculer un numéro de hachage de magasin en fonction de la signature de mappage de la boutique ou de l’ID d’entrée et du nom du fichier de la boutique. 
   
-Le blob binaire à coder est le PR_ENTRYID du magasin dans la plupart des cas, mais pour les magasins de Exchange mis en cache, publics et privés, l’objet blob binaire doit être le PR_MAPPING_SIGNATURE trouvé dans le profil.
+Le blob binaire à coder est le PR_ENTRYID du magasin dans la plupart des cas, mais pour les magasins de Exchange mis en cache, publics et privés, le blob binaire doit être le PR_MAPPING_SIGNATURE trouvé dans le profil.
   
-Après avoir calculé le hachage pour le blob binaire d’une magasin de dossiers publics, mais avant le hachage dans le chemin d’accès OST, la constante 0x2E505542, qui représente la chaîne « . PUB » est haché pour garantir qu’il est unique, c’est-à-dire distinct du hachage du magasin privé.
+Après avoir calculé le hachage pour le blob binaire d’une magasin de dossiers publics, mais avant le hachage dans le chemin d’accès OST, la constante 0x2E505542, qui représente la chaîne « . PUB » est haché pour s’assurer qu’il est unique, c’est-à-dire distinct du hachage du magasin privé.
   
-Le code de prise en charge annule les bits pertinents du profil, qui peuvent être utilisés pour déterminer si une banque est publique ou privée, si elle est mise en cache et le chemin d’accès à l’OST. Pour incorporer ce code dans un projet, appelez la fonction ComputeStoreHash, qui prend comme entrée le pointeur de session, ainsi que pr ENTRYID, PR SERVICE_UID et pr MDB_PROVIDER à partir de la table de la boutique de \_ \_ \_ messages. Le reste des informations dont il a besoin est issu du profil. Pour la sortie, cette fonction renvoie le hachage tel que calculé à partir de pr MAPPING_SIGNATURE si le magasin est un magasin de Exchange mis en cache ou le hachage tel que calculé à partir de \_ PR \_ ENTRYID.
+Le code de prise en charge annule les bits pertinents du profil, qui peuvent être utilisés pour déterminer si une banque est publique ou privée, si elle est mise en cache et le chemin d’accès à l’OST. Pour incorporer ce code dans un projet, appelez la fonction ComputeStoreHash, qui prend comme entrée le pointeur de session, ainsi que PRENTRYID, PR\_\_ SERVICE_UID et PR\_ MDB_PROVIDER à partir de la table de la boutique de messages. Le reste des informations dont il a besoin est issu du profil. Pour la sortie,\_ cette fonction renvoie le hachage tel qu’il est calculé à partir du pr MAPPING_SIGNATURE si le magasin est un magasin de Exchange mis en cache ou le hachage tel que calculé à partir de PRENTRYID\_.
   
 > [!NOTE]
-> La fonction de prise en charge HrEmsmdbUIDFromStore est un remplacement de comptes Exchange [multiples](using-multiple-exchange-accounts.md)pour utiliser pbGlobalProfileSectionGuid pour ouvrir la section de profil d’une boîte aux lettres Exchange. 
+> La fonction de prise en charge HrEmsmdbUIDFromStore est un remplacement pris en charge par plusieurs comptes [Exchange](using-multiple-exchange-accounts.md) pour utiliser pbGlobalProfileSectionGuid pour ouvrir la section de profil d’une boîte aux lettres Exchange. 
   
 ```cpp
 #define PR_PROFILE_OFFLINE_STORE_PATH_A PROP_TAG(PT_STRING8, 0x6610)
@@ -242,6 +241,6 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
   
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos Notification-Based'indexation du Store](about-notification-based-store-indexing.md)
+- [À propos Notification-Based'indexation de la boutique d’informations](about-notification-based-store-indexing.md)
 - [À propos des URL MAPI pour lNotification-Based indexation](about-mapi-urls-for-notification-based-indexing.md)
 

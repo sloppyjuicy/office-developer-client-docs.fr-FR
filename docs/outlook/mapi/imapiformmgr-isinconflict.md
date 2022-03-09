@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5ca86ee8-1bf6-4ec8-95b3-575c22fbb170
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c00fe1d77d7f85b5481da5c178cff3613513dcab
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 0a758d2c4783dcb10f0d8dea0b1ab1e83a665e23
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462693"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377539"
 ---
 # <a name="imapiformmgrisinconflict"></a>IMAPIFormMgr::IsInConflict
 

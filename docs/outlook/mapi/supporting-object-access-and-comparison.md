@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: aac7c6c5-6896-4824-ba36-81bb292777a9
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9383cd11a9183032d2aeaa7621b72592700e977c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7f5b19e7d38d862554e6c4ee22ee96f81ac73d2a
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609472"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63377959"
 ---
 # <a name="supporting-object-access-and-comparison"></a>Prise en charge de l’accès et de la comparaison des objets
 
@@ -23,9 +22,9 @@ ms.locfileid: "59609472"
   
 Les fournisseurs de services peuvent utiliser les méthodes [IMAPISupport::OpenEntry](imapisupport-openentry.md) et [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) pour ouvrir et comparer des objets appartenant à leur fournisseur ou à d’autres fournisseurs : 
   
-Comme [IMAPISession::OpenEntry](imapisession-openentry.md) pour les clients, les fournisseurs peuvent utiliser la méthode **OpenEntry** de leur objet de support pour accéder à n’importe quel objet tant qu’ils connaissent l’identificateur d’entrée de l’objet. Contrairement à la méthode de session, la méthode de prise en charge nécessite de spécifier un identificateur d’entrée valide dans le paramètre _lpEntryID._ Elle ne peut pas être NULL. 
+Comme [IMAPISession::OpenEntry](imapisession-openentry.md) pour les clients, les fournisseurs peuvent utiliser la méthode **OpenEntry** de leur objet de support pour accéder à n’importe quel objet tant qu’ils connaissent l’identificateur d’entrée de l’objet. Contrairement à la méthode de session, la méthode de prise en charge nécessite de spécifier un identificateur d’entrée valide dans _le paramètre lpEntryID_ . Elle ne peut pas être NULL. 
   
-Pour illustrer comment un fournisseur de transport peut utiliser **IMAPISupport::OpenEntry,** envisagez le scénario suivant. Le fournisseur de transport a reçu un message mis en forme au format Texte enrichi et ne sait pas si le destinataire cible peut gérer ce format. Avant de remettre le message, le fournisseur de transport doit :
+Pour illustrer comment un fournisseur de transport peut utiliser **IMAPISupport::OpenEntry**, envisagez le scénario suivant. Le fournisseur de transport a reçu un message mis en forme au format Texte enrichi et ne sait pas si le destinataire cible peut gérer ce format. Avant de remettre le message, le fournisseur de transport doit :
   
 1. Appelez la méthode [IMessage::GetRecipientTable](imessage-getrecipienttable.md) du message pour accéder à la table des destinataires et à l’identificateur d’entrée du destinataire, sa propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
@@ -33,7 +32,7 @@ Pour illustrer comment un fournisseur de transport peut utiliser **IMAPISupport:
     
 3. Appelez la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) du destinataire pour récupérer sa propriété **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)). Si **PR_SEND_RICH_INFO** est définie sur TRUE, le destinataire peut gérer le texte mis en forme. 
     
-Si vous avez ouvert plusieurs objets à partir d’autres fournisseurs, vous devrez peut-être déterminer si deux identificateurs d’entrée font référence au même objet. Par exemple, vous pouvez avoir un identificateur d’entrée à court terme et un identificateur d’entrée à long terme, et ces identificateurs peuvent ou non identifier le même objet. Pour éviter un traitement redondant, appelez la méthode [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) pour comparer ces identificateurs d’entrée. Vous devez utiliser cette méthode pour la comparaison des identificateurs d’entrée, car les identificateurs d’entrée ne peuvent pas être comparés directement. 
+Si vous avez ouvert plusieurs objets provenant d’autres fournisseurs, vous devrez peut-être déterminer si deux identificateurs d’entrée font référence au même objet. Par exemple, vous pouvez avoir un identificateur d’entrée à court terme et un identificateur d’entrée à long terme, et ces identificateurs peuvent ou non identifier le même objet. Pour éviter un traitement redondant, appelez la méthode [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) pour comparer ces identificateurs d’entrée. Vous devez utiliser cette méthode pour la comparaison des identificateurs d’entrée, car les identificateurs d’entrée ne peuvent pas être comparés directement. 
   
 ## <a name="see-also"></a>Voir aussi
 

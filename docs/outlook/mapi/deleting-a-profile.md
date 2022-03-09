@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 4d01ab2e-40fd-409d-a69d-163b7d5462ca
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fc951d5b4a031aed335181ac8534ac4eb9c6c8ba
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a845690c45905c4b3ecc3eba3720c5f9206009e9
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588181"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63382166"
 ---
 # <a name="deleting-a-profile"></a>Suppression d’un profil
 
@@ -23,7 +22,7 @@ ms.locfileid: "59588181"
   
  **Pour supprimer un profil**
   
-- Appelez [IProfAdmin::D eleteProfile](iprofadmin-deleteprofile.md).
+- [Appelez IProfAdmin::D eleteProfile](iprofadmin-deleteprofile.md).
     
  **DeleteProfile marque** le profil à supprimer s’il est en cours d’utilisation, en attendant qu’il ne soit plus actif pour le supprimer. Le profil ne disparaît pas tant que chaque client avec une session active n’a pas été déconnecté. 
   

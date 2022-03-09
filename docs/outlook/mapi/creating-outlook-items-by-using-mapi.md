@@ -1,5 +1,5 @@
 ---
-title: Création d Outlook à l’aide de MAPI
+title: Création d Outlook éléments à l’aide de MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,15 +7,14 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 92070b45-33cf-4b19-a899-7956bda79752
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 51954f18dd816239b5d9bef7402ff072d7ad4af8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3c3ac14a7814bbcbe99ecb43ef6b8a2c93c8b713
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584653"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63378918"
 ---
-# <a name="creating-outlook-items-by-using-mapi"></a>Création d Outlook à l’aide de MAPI
+# <a name="creating-outlook-items-by-using-mapi"></a>Création d Outlook éléments à l’aide de MAPI
 
   
   

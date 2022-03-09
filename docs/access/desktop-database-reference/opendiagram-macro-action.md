@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5334c23603fbc90dc3736236a60dd256bc50c11c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1fd5f9a2e635c7f830646c060db32e50f0ff0e6b
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602100"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63378379"
 ---
 # <a name="opendiagram-macro-action"></a>OpenDiagram, action de macro
 
@@ -25,9 +25,9 @@ ms.locfileid: "59602100"
 Dans un projet Access, vous pouvez utiliser l'action **OuvrirSchéma** pour ouvrir un schéma de base de données en mode Création.
 
 > [!NOTE]
-> Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **OuvrirSchéma** possède l’argument suivant.
 
@@ -58,4 +58,3 @@ Cette action équivaut à double-cliquer sur un schéma de base de données dans
 > [!CONSEIL] Vous pouvez faire glisser un schéma de base de données depuis le volet de navigation vers une ligne d'action de macro. Ceci crée automatiquement une action **OuvrirSchéma** qui ouvre le schéma de base de données en mode Création.
 
 Pour exécuter l'action **OuvrirSchéma** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **OpenDiagram** de l'objet **DoCmd**.
-

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f2625ef8-3bdb-5a8d-48b9-149be0592533
 description: Renvoie un integer, de 1 à 7, qui représente le jour de la semaine dans l’heure ou l’expression.
-ms.openlocfilehash: 8227def3922e68239c4b984ec29be0f94bfe78f6
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: d18af85183eca3a41146dca36c4742542286962c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775202"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376937"
 ---
 # <a name="weekday-function-visioshapesheet"></a>WEEKDAY Function (VisioShapeSheet)
 
@@ -22,14 +22,14 @@ Renvoie un integer, de 1 à 7, qui représente le jour de la semaine dans  _l’
   
 ## <a name="syntax"></a>Syntaxe
 
-WEEKDAY( » ** *datetime* ** « | ** *expression* ** [, ** *lcid* ** ]) 
+WEEKDAY( » ***datetime** _ « | _*_expression_*_ [, _ *_lcid_** ]) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _datetime_ <br/> |Requis  <br/> |**String** <br/> | Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure. |
-| _expression_ <br/> |Requis  <br/> |**Varie** <br/> |Toute expression qui génère une date et une heure. |
+| _datetime_ <br/> |Obligatoire  <br/> |**String** <br/> | Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure. |
+| _expression_ <br/> |Obligatoire  <br/> |**Varie** <br/> |Toute expression qui génère une date et une heure. |
 | _lcid_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système. |
    
 ### <a name="return-value"></a>Valeur renvoyée

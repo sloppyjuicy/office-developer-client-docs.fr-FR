@@ -7,13 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: de737118-5f3b-464f-b036-f4a3489d411a
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fe73b2ea48faa3064bee839aa997ff2d0875716c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 628175229f49531fb91fdd7c58bb563ffbf1cbfb
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629549"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376062"
 ---
 # <a name="supporting-formatted-text-gateway-responsibilities"></a>Prise en charge du texte formaté : responsabilités de la passerelle
 
@@ -33,7 +32,7 @@ ms.locfileid: "59629549"
     
 5. Si des modifications ont été apportées, appelez **RTFSync** avec les indicateurs RTF_SYNC_RTF_CHANGED et RTF_SYNC_BODY_CHANGED définies. **RTFSync** recalcule les propriétés auxilliary RTF à partir du texte modifié. 
     
-6. A apporter des modifications inversionables au texte du message, telles que l’insertion d’espaces réservé aux pièces jointes et l’insertion de conversions de page de code non sécurisables.
+6. A effectuez des modifications inversables dans le texte du message, telles que l’insertion d’espaces réservé de pièce jointe et la conversion de page de code nondestructive.
     
 7. Envoyez le message.
     
@@ -41,9 +40,9 @@ ms.locfileid: "59629549"
   
 1. Annuler toutes les modifications de texte de message effectuées directement avant l’envoi du message. 
     
-2. Appelez **RTFSync** si le message contient les propriétés **PR_RTF_COMPRESSED** et **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). 
+2. **Appelez RTFSync** si le message contient les propriétés **PR_RTF_COMPRESSED** et **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). 
     
-3. Mettez à jour le message dans la boutique de messages avec **la propriété PR_RTF_COMPRESSED** si le message le contient ; mise à jour avec **la propriété PR_BODY** uniquement si **PR_RTF_COMPRESSED** est absent. 
+3. Mettez à jour le message dans la magasin de messages avec **la propriété PR_RTF_COMPRESSED** si le message le contient ; mise à jour avec **la propriété PR_BODY** uniquement **si PR_RTF_COMPRESSED** est absent. 
     
 4. Ignorer **PR_BODY** si le message contient à la fois cette propriété et **PR_RTF_COMPRESSED**.
     

@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 261d5f7c-bb61-4e1d-aa41-cca224c63f8e
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a471b66709d2109bfd3894eed80168ea1b8d5140
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3f37e2d3b5580e7375ea1248d11b52a31f29e2c3
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571555"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63376216"
 ---
 # <a name="ixplogonopenstatusentry"></a>IXPLogon::OpenStatusEntry
 
@@ -40,7 +39,7 @@ HRESULT OpenStatusEntry(
 
  _lpInterface_
   
-> [in] Pointeur vers un identificateur d’interface (IID) pour l’objet d’identification de transport. La transmission null renvoie [l’interface IMAPIStatus.](imapistatusimapiprop.md) Le  _paramètre lpInterface peut_ également être définie sur un identificateur pour une interface pour l’objet. 
+> [in] Pointeur vers un identificateur d’interface (IID) pour l’objet d’identification de transport. La transmission null renvoie [l’interface IMAPIStatus](imapistatusimapiprop.md) . Le  _paramètre lpInterface_ peut également être définie sur un identificateur pour une interface pour l’objet. 
     
  _ulFlags_
   
@@ -66,7 +65,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Lepooler MAPI appelle la méthode **IXPLogon::OpenStatusEntry** lorsqu’une application cliente appelle une méthode **OpenEntry** pour l’identificateur d’entrée dans la ligne de table d’état du fournisseur de transport. **OpenStatusEntry ouvre** un objet avec l’interface **IMAPIStatus** associée à ce fournisseur de transport particulier. Cet objet est ensuite utilisé pour permettre aux applications clientes d’appeler des méthodes **IMAPIStatus** (par exemple, pour reconfigurer la session d’ouverture de session à l’aide de la méthode [IMAPIStatus::SettingsDialog,](imapistatus-settingsdialog.md) ou pour valider l’état de la session d’ouverture de session à l’aide de la méthode [IMAPIStatus::ValidateState).](imapistatus-validatestate.md) 
+Lepooler MAPI appelle la méthode **IXPLogon::OpenStatusEntry** lorsqu’une application cliente appelle une méthode **OpenEntry** pour l’identificateur d’entrée dans la ligne de table d’état du fournisseur de transport. **OpenStatusEntry ouvre** un objet avec l’interface **IMAPIStatus** associée à ce fournisseur de transport particulier. Cet objet est ensuite utilisé pour permettre aux applications clientes d’appeler des méthodes **IMAPIStatus** (par exemple, pour reconfigurer la session d’ouverture de session à l’aide de la méthode [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) , ou pour valider l’état de la session d’ouverture de session à l’aide de la méthode [IMAPIStatus::ValidateState](imapistatus-validatestate.md) ). 
   
 ## <a name="see-also"></a>Voir aussi
 

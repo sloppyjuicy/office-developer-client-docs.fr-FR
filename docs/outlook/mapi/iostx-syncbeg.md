@@ -11,13 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a935df3-98c4-2742-206e-4e16eda7b9bc
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b35d5a55a61620cbc829da2640c3a3f588584b84
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 66a5871658c9a0d3d620f8eb0939dead4d6e444c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613897"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63379191"
 ---
 # <a name="iostxsyncbeg"></a>IOSTX::SyncBeg
 
@@ -38,7 +37,7 @@ HRESULT SyncBeg(
 
  _uiSync_
   
->  [in] État entré par le magasin local. Voici une liste des identifateurs d’état : 
+> [in] État entré par le magasin local. Voici une liste des identifateurs d’état : 
     
 LR_SYNC_IDLE
   
@@ -86,7 +85,7 @@ LR_SYNC_DOWNLOAD_TABLE
     
  _ppv_
   
->  [in]/[out] Pointeur vers la structure de données correspondant à l’état à entrer. 
+> [in]/[out] Pointeur vers la structure de données correspondant à l’état à entrer. 
     
 [DNHIER](dnhier.md)
   
@@ -152,7 +151,7 @@ LR_SYNC_DOWNLOAD_TABLE
 
 Le client appelle **[IOSTX::SetSyncResult](iostx-setsyncresult.md)** pour définir le résultat de la synchronisation, puis appelle **[IOSTX::SyncEnd](iostx-syncend.md)** pour mettre fin à cet état. Le client doit appeler **[IOSTX::SyncEnd](iostx-syncend.md)** pour chaque appel à **IOSTX::SyncBeg** afin de déterminer si l’état a été répliqué avec succès. Une fois cela déterminé, Outlook pouvez commencer à nettoyer son état interne. 
   
-La plupart de ces structures contiennent des informations [out]/[in], ce qui permet aux Outlook de transmettre des informations au client et au client de transmettre des informations à Outlook. Lorsque le client appelle **IOSTX::SyncBeg**, Outlook alloue la structure de données pour un état donné et l’initialise avec des informations pour cet état. Il s’agit des informations [sortantes]. Lorsqu’il est dans un état, le client met à jour la structure de données correspondante pour cet état. Il s’agit des informations [in]. 
+La plupart de ces structures contiennent des informations [out]/[in], ce qui permet à Outlook de transmettre des informations au client et au client de transmettre des informations à Outlook. Lorsque le client appelle **IOSTX::SyncBeg**, Outlook alloue la structure de données pour un état donné et l’initialise avec des informations pour cet état. Il s’agit des informations [sortantes]. Lorsqu’il est dans un état, le client met à jour la structure de données correspondante pour cet état. Il s’agit des informations [in]. 
   
 ## <a name="see-also"></a>Voir aussi
 
