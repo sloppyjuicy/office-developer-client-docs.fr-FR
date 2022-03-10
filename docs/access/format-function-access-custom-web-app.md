@@ -7,12 +7,12 @@ ms.topic: reference
 ms.assetid: 550fc235-f0b9-4d8e-805b-ce467821a8c9
 description: Renvoie une valeur mise en forme selon un modèle spécifié.
 ms.localizationpriority: high
-ms.openlocfilehash: 2ec1e6d38bb6673848d5629bd2580ec028212a99
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5edae783e466d2d204762f3a0e708819e4be285c
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780406"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63375985"
 ---
 # <a name="format-function-access-custom-web-app"></a>Fonction de format (application web personnalisée Access)
 
@@ -31,11 +31,11 @@ La fonction **Format** contient les arguments suivants.
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
 | *Expression*  <br/> |Expression d’un type de données pris en charge à mettre en forme. |
-| *Format*  <br/> | Un modèle de format. L’argument Format doit contenir une chaîne de format valide, soit sous la forme d’une chaîne de format standard (par exemple, « C » ou « D ») ou d’un modèle de caractères personnalisés pour les dates et des valeurs numériques (par exemple, « MMMM jj, aaaa (jjjj) »). Pour plus d’informations, consultez la rubrique Remarques. |
+| *Format*  <br/> | Modèle de format. L’argument de format doit contenir une chaîne de format valide, soit en tant que chaîne de format standard (par exemple, « C » ou « D ») soit en tant que modèle de caractères personnalisés pour les dates et les valeurs numériques (par exemple, « MMMM dd, aaaa (dddd) »). Pour plus d’informations, consultez Remarques. |
 
 ## <a name="remarks"></a>Remarques
 
-Pour le paramètre *Format*, vous pouvez passer des chaînes qui correspondent à l’un des modèles suivants :
+Pour le paramètre *Format*, passez des chaînes qui correspondent à l’un des modèles suivants :
   
 - [Chaînes de format numériques standard](https://msdn.microsoft.com/library/dwhawy9k%28v=vs.110%29.aspx)
 
