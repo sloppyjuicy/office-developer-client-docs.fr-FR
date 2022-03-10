@@ -6,13 +6,13 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: d085f83a-f77b-9bf9-07dc-4561b83e288c
-description: Contient la couleur, la transparence et la position d’un dégradé pour un dégradé de remplissage.
-ms.openlocfilehash: a6105c9a969a7700839cfc3f9b376f120a7d6d0a
-ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
+description: L’élément de cellule contient la couleur, la transparence et la position d’un point de dégradé pour un dégradé de remplissage.
+ms.openlocfilehash: dcb7a64786ffc54866515efc247657c77444defe
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63406407"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63427055"
 ---
 # <a name="cell-element-fill-gradient-section-visio-xml"></a>Élément de cellule (section Fill Gradient) (Visio XML)
 

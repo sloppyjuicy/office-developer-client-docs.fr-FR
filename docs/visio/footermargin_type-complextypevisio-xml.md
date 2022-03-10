@@ -6,18 +6,18 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: db8d1e5b-cd29-f9ff-994a-25c28672db81
-ms.openlocfilehash: 377f13b350f0946430b3b6a9f4e4daf5d6536d90
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e27aac9c6933819ef0aff9f7eb09134567439bbb
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775849"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63427083"
 ---
 # <a name="footermargin_type-complextype-visio-xml"></a>FooterMargin_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |

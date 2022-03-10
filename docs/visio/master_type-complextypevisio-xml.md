@@ -6,22 +6,22 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 2d799074-13d9-3c98-3bee-b57af9966c81
-ms.openlocfilehash: 2192da80efa41f41e8dbef85c225d63f12bc8159
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 53409767f6aaa121e20d2619c207885476f68f78
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782107"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63427062"
 ---
 # <a name="master_type-complextype-visio-xml"></a>Master_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base d’extension** <br/> |Aucune  <br/> |
+|**Base d’extension** <br/> |Aucun  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -104,7 +104,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Icon](icon-element-master_type-complextypevisio-xml.md) <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> ||
 |[PageSheet](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> ||

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6bd2781a-d4e7-136f-8996-62ebc5f890ab
 description: Indique la langue dans laquelle les données forme ont été entrées.
-ms.openlocfilehash: e04d07f80a12e13a71549a22d3c4786e67d70ccc
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a233734577d60baff7ab7aece2f45cfeb1ba27d6
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775524"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63426642"
 ---
 # <a name="langid-cell-shape-data-section"></a>LangID, cellule (section Shape Data)
 
@@ -26,16 +26,16 @@ Pour une liste des langues prises en charge par les applications du système Mic
   
 Pour obtenir une référence à la cellule LangID par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Prop.  *nom*  . LangID où Prop.  *nom est*  le nom de ligne  <br/> |
+| **Nom de cellule :**  <br/> | Prop.  *nom*  . LangID où Prop.  *nom est*  le nom de ligne  <br/> |
    
 Pour obtenir une référence à la cellule LangID à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionProp** <br/> |
-| Index de la ligne :  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visCustPropsLangID** <br/> |
+| **Index de la section :**  <br/> |**visSectionProp** <br/> |
+| **Index de la ligne :**  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visCustPropsLangID** <br/> |
    
 

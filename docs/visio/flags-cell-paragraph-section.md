@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 898bf89d-d00f-9769-a89d-787ef708eca5
 description: Indique si l'orientation du texte est de gauche à droite ou de droite à gauche.
-ms.openlocfilehash: 2d87143b5bbcb1bcadcbc1833a54a9e4bfc37732
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 09a3eba44c1e618f0df9eeb078925a05012ed7de
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777214"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63426936"
 ---
 # <a name="flags-cell-paragraph-section"></a>Flags, cellule (section Paragraph)
 
@@ -31,16 +31,16 @@ La valeur de cette cellule correspond au paramètre **Direction** sous l’ongle
   
 Pour obtenir une référence à la cellule Flags par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Para.Flags[ *i*  ] où  *i*  = <1>, 2, 3... |
+|**Nom de cellule :**  <br/> |Para.Flags[ *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Flags à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionParagraph** <br/> |
-|Index de la ligne :  <br/> |**visRowParagraph** +   *i* où *i* = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visFlags** <br/> |
+|**Index de la section :**  <br/> |**visSectionParagraph** <br/> |
+|**Index de la ligne :**  <br/> |**visRowParagraph** +   *i* où *i* = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visFlags** <br/> |
    
 

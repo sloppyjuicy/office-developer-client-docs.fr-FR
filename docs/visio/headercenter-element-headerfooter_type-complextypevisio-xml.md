@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: bd026cb1-6d35-f9dc-e9dc-f95c0a6f2ff0
 description: Contient la chaîne de texte qui apparaît au centre de l’en-tête d’un document.
-ms.openlocfilehash: e24e47cda9ce6775c7f656b66a38a9ebc51ea205
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e9bf252d90ebceb0ebbae889b8b7357e53ac6325
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771377"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63426341"
 ---
 # <a name="headercenter-element-headerfooter_type-complextype-visio-xml"></a>Élément HeaderCenter (HeaderFooter_Type complexType) (Visio XML)
 
 Contient la chaîne de texte qui apparaît au centre de l’en-tête d’un document.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[HeaderCenter_Type](headercenter_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de groupe d’un document. |
    

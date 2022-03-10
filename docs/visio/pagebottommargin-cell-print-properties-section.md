@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 7a97e97c-278d-2e1e-6c4f-f5f32e2cdeb0
 description: Indique la marge au bas de la page d'impression.
-ms.openlocfilehash: 32e411b476bdd943e2294b7ba9943653ff0ce41c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4f1a2e626ea87dee9dc421ba9e1b7a4acb268012
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577800"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63426915"
 ---
 # <a name="pagebottommargin-cell-print-properties-section"></a>PageBottomMargin, cellule (section Print Properties)
 
@@ -26,16 +26,16 @@ Cette valeur représente des unités physiques et n'est pas affectée par les un
   
 Pour obtenir une référence à la cellule PageBottomMargin par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | PageBottomMargin  <br/> |
+| **Nom de la cellule :**  <br/> | PageBottomMargin  <br/> |
    
 Pour obtenir une référence à la cellule PageBottomMargin à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowPrintProperties** <br/> |
-| Index de la cellule :  <br/> |**visPrintPropertiesBottomMargin** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowPrintProperties** <br/> |
+| **Index de la cellule :**  <br/> |**visPrintPropertiesBottomMargin** <br/> |
    
 

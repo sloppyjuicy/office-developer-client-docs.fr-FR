@@ -6,18 +6,18 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 815131c6-190c-4f29-83bf-c853eee72821
 description: Pour aider les clients à utiliser au mieux les Project Online et à améliorer l’extensibilité et la flexibilité de nos services, nous avons ajouté deux méthodes au modèle objet côté client que vous pouvez utiliser dans les flux de travail et les applications Project Online.
-ms.openlocfilehash: 54dbdf4114f53ce0b595a2f099fc6df81ee4ad24
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 056b698b7fd0f39376116f41a03d454aa62b1909
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63369020"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63426698"
 ---
 # <a name="bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project-online"></a>Mise à jour en bloc des champs personnalisés et création de sites de projet à partir d’un flux de travail dans Project Online
 
 Pour aider les clients à utiliser au mieux les Project Online et à améliorer l’extensibilité et la flexibilité de nos services, nous avons ajouté deux méthodes au modèle objet côté client que vous pouvez utiliser dans les flux de travail et les applications Project Online.
   
-|||
+||Valeur |
 |:-----|:-----|
 |**UpdateCustomFields** <br/> |Met à jour en bloc les champs personnalisés de projet. Par Project Online uniquement. Disponible uniquement dans l’API REST. |
 |**CreateProjectSite** <br/> | Crée un Project site. Par Project Online uniquement. Disponible dans l’API REST, le modèle objet client géré et le modèle objet client JavaScript. |
@@ -78,7 +78,7 @@ Le flux de travail final de bout en bout se ressemble :
 
     |Nom|Type|Valeur|
     |:-----|:-----|:-----|
-    |Accepter  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
+    |Accepter  <br/> |Chaîne  <br/> |application/json; odata=verbose  <br/> |
     |Content-Type  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
 
     ![Ajout d’un en-tête Accept](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "Ajout d’un en-tête Accept")
@@ -124,18 +124,18 @@ Le flux de travail final de bout en bout se ressemble :
   
        |Nom|Type|Valeur|
        |:-----|:-----|:-----|
-       |customFieldDictionary(0)/__metadata/type  <br/> |String  <br/> |SP. KeyValue  <br/> |
+       |customFieldDictionary(0)/__metadata/type  <br/> |Chaîne  <br/> |SP. KeyValue  <br/> |
        |customFieldDictionary(0)/Key  <br/> |String  <br/> |Customce23fbf43fa0e411941000155d3c8201\_  <br/> |
-       |customFieldDictionary(0)/Value  <br/> |Chaîne  <br/> |Entryb9a2fd69279de411940f00155d3c8201\_;#Entry\_ baa2fd69279de411940f00155d3c8201  <br/> |
+       |customFieldDictionary(0)/Value  <br/> |String  <br/> |Entryb9a2fd69279de411940f00155d3c8201\_;#Entry\_ baa2fd69279de411940f00155d3c8201  <br/> |
        |customFieldDictionary(0)/ValueType  <br/> |String  <br/> |Edm.String  <br/> |
        |customFieldDictionary(1)/__metadata/type  <br/> |String  <br/> |SP. KeyValue  <br/> |
-       |customFieldDictionary(1)/Key  <br/> |Chaîne  <br/> |Custom_c7f114c97098e411940f00155d3c8201  <br/> |
+       |customFieldDictionary(1)/Key  <br/> |String  <br/> |Custom_c7f114c97098e411940f00155d3c8201  <br/> |
        |customFieldDictionary(1)/Value  <br/> |String  <br/> |90.5  <br/> |
        |customFieldDictionary(1)/ValueType  <br/> |Chaîne  <br/> |Edm.Double  <br/> |
        |customFieldDictionary(2)/__metadata/type  <br/> |Chaîne  <br/> |SP. KeyValue  <br/> |
        |customFieldDictionary(2)/Key  <br/> |Chaîne  <br/> |Custom_c6fb67e0b9a1e411941000155d3c8201  <br/> |
-       |customFieldDictionary(2)/Value  <br/> |Chaîne  <br/> |2015-04-01T00:00:00  <br/> |
-       |customFieldDictionary(2)/ValueType  <br/> |String  <br/> |Edm.DateTime  <br/> |
+       |customFieldDictionary(2)/Value  <br/> |String  <br/> |2015-04-01T00:00:00  <br/> |
+       |customFieldDictionary(2)/ValueType  <br/> |Chaîne  <br/> |Edm.DateTime  <br/> |
 
        ![Dictionnaire définissant les mises à jour de champs personnalisés](media/41a1f18f-a6b2-40ff-904b-437baf962621.png "Dictionnaire définissant les mises à jour de champs personnalisés")
   

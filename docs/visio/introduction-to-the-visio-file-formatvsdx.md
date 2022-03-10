@@ -7,18 +7,18 @@ ms.topic: overview
 ms.assetid: 69736f40-8f67-46c2-abf6-82dffecb2274
 description: Découvrez le nouveau format de fichier Visio 2013, explorez certains concepts généraux relatifs à l’utilisation du format de fichier Visio 2013 par programmation, et créez une application de console simple qui examine un fichier Visio 2013.
 ms.localizationpriority: high
-ms.openlocfilehash: c56793bc46d939ab81a4055687c8ec720dfb6260
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 07916d83056a6c01336d747b3a361da4cce82c8b
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63370574"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63426355"
 ---
 # <a name="introduction-to-the-visio-file-format-vsdx"></a>Présentation du format de fichier Visio (.vsdx)
 
 Découvrez le nouveau format de fichier Visio 2013, explorez certains concepts généraux relatifs à l’utilisation du format de fichier Visio 2013 par programmation, et créez une application de console simple qui examine un fichier Visio 2013.
   
-|||
+||Valeur |
 |:-----|:-----|
 |**Dans cet article**         [Introduction](#vis15_IntroVSDX_Intro)          [Format de fichier Visio 2013 sous-jacent](#vis15_IntroVSDX_What)          [Scénarios de développeur pour utiliser le format de fichier Visio 2013](#vis15_IntroVSDX_Scenarios)          [Exploration par programmation du format de fichier Visio 2013](#vis15_IntroVSDX_Explore)          [Ressources supplémentaires](#vis15_IntroVSDX_Resources)||
 

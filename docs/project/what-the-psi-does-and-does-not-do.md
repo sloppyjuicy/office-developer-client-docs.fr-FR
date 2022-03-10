@@ -6,20 +6,16 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: eac6be6a-9a20-4bc0-8da2-b2fd93aab04f
 description: L’interface PSI (Project Server Interface) peut vous aider à automatiser de nombreux processus côté serveur dans les installations sur site de Project Server 2013. Toutefois, plusieurs fonctions nécessitent l’utilisation de Microsoft Project Professionnel 2013.
-ms.openlocfilehash: f6cd99863f7378c7f3502d8bbb1e987de83737ed
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: ceef86539523aff9685018d93f479073edb2977e
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63372100"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63426383"
 ---
 # <a name="what-the-psi-does-and-does-not-do"></a>Fonctionnalités de l’interface PSI
 
 L’interface PSI (Project Server Interface) peut vous aider à automatiser de nombreux processus côté serveur dans les installations sur site de Project Server 2013. Toutefois, plusieurs fonctions nécessitent l’utilisation de Microsoft Project Professionnel 2013.
-  
-|||
-|:-----|:-----|
-|||
 
 L’interface PSI est conçue pour compléter les fonctionnalités de Project Professionnel 2013, au lieu de fournir une alternative basée sur le serveur pour toutes Project Professionnel fonctions. Les développeurs tiers peuvent utiliser l’interface PSI pour créer des composants WebPart pour les installations locales de Project Web App et d’espaces de travail de projet, créer des applications Windows personnalisées et des applications web qui interagissent avec les Project  Les données de serveur, développez une logique de flux de travail pour la gestion de portefeuille de projets, développez des gestionnaires d’événements de confiance totale locaux et intégrez Project Server à d’autres applications. L’interface PSI ne peut pas être utilisée pour le développement d’applications pour le Office Store, les appareils mobiles ou les tablettes ; pour cela, vous pouvez utiliser le modèle objet côté client (CSOM).
   
@@ -40,11 +36,11 @@ Voici quelques exemples d’applications que l’interface PSI prend en charge p
 
 - **Maintenance projects** Create placeholder projects to use with resource plans. Reserve or book time against resources for maintenance work or base business. Maintenance projects generally do not have tasks.
 
-- **Créer des projets financiers** Créez des projets de capture du temps via la feuille de temps pour les intégrer à un système financier. Créez une hiérarchie de codes financiers qui traduit la structure de répartition des coûts du système financier. Les projets financiers ne nécessitent pas de planification ou de mise à jour de statut.
+- **Créer des projets financiers** Créez des projets pour la capture de temps via la feuille de temps pour l’intégration à un système financier. Créez une hiérarchie de codes financiers qui reflètent la structure de répartition des coûts du système financier. Les projets financiers ne nécessitent pas de mise à jour de planification ou d’état.
 
-- **Intégration avec les systèmes de comptabilité** Capturez les coûts de ressources et les frais associés aux projets pour alimenter les systèmes financiers et de facturation, et à des fins de comparaison budgétaire. Synchronize tasks, resources, and assignments between the systems. Capture timesheet data in one system to feed the other (which timesheet is used depends on the needs of the organization or of individual projects).
+- **Intégrer aux systèmes de comptabilité** Capturez les coûts et les dépenses de ressources associés aux projets pour alimenter les systèmes financiers et de facturation et à des fins de comparaison de budget. Synchronisez les tâches, les ressources et les affectations entre les systèmes. Capturez des données de feuille de temps dans un système pour alimenter l’autre (la feuille de temps utilisée dépend des besoins de l’organisation ou des projets individuels).
 
-- **Mises à jour automatiques par les membres de l’équipe** Pour les projets qui ne sont pas gérés activement, mettez-les à jour automatiquement sur le serveur concernant la progression et d’autres modifications apportées par les membres de l’équipe du projet. Les projets peuvent être mis à jour et republiés sans examen des résultats ni ajustements de plan par un responsable de projet.
+- **Automatiser les mises à jour des membres de l’équipe** Pour les projets qui ne sont pas gérés activement, mettez automatiquement à jour les projets sur le serveur avec la progression et d’autres modifications des membres de l’équipe de projet. Les projets peuvent être mis à jour et republiés sans qu’un responsable de projet examine les résultats ou n’apporte des ajustements au plan.
 
 - Évaluer **les données Project Server** dans les serveurs de gestion d’événements de confiance totale locaux Un handler d’événements local pour le pré-événement **ProjectCreating** peut utiliser les données Project Server de l’interface PSI pour vous aider à déterminer s’il faut annuler un événement. Par exemple, avant de créer un projet, comparez la proposition de projet avec des projets existants.
 

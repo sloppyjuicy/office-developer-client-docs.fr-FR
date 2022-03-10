@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 994d29c1-deca-6036-fdb1-12da945b29f2
 description: Contient la chaîne de texte qui apparaît dans la partie gauche du pied de document.
-ms.openlocfilehash: 8dfcb796187828be6333460b6c7dcae83beca5e4
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 86a6d0a9e5aa99f5cbcb520f17aed9541448d6aa
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775856"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63426348"
 ---
 # <a name="footerleft-element-headerfooter_type-complextype-visio-xml"></a>Élément FooterLeft (HeaderFooter_Type complexType) (Visio XML)
 
 Contient la chaîne de texte qui apparaît dans la partie gauche du pied de document.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[FooterLeft_Type](footerleft_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de groupe d’un document. |
    

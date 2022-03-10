@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 2b5beeb6-e52d-41be-94df-083d36141a9d
 description: Microsoft Access utilise des mots clés réservés pour définir, manipuler et accéder aux bases de données. Les mots clés réservés font partie de la grammaire de la langue utilisée par Access pour l’SQL des instructions.
-ms.openlocfilehash: de6fa9778d46638af44a02f3510833df54ce6233
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 0279ac630f586afd0b47350043fd80f80c277549
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180466"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63426334"
 ---
 # <a name="reserved-keywords-access-custom-web-app"></a>Mots clés réservés (application web personnalisée Access)
 
@@ -25,7 +25,7 @@ Microsoft Access utilise des mots clés réservés pour définir, manipuler et a
 
 Le tableau suivant répertorie les mots clés réservés Access.
   
-||||
+|Keyword |Keyword |Keyword |
 |:-----|:-----|:-----|
 |ADD  <br/> |FILLFACTOR  <br/> |Trimestre  <br/> |
 |TOUT  <br/> |Flottant  <br/> |RAISERROR  <br/> |
@@ -62,11 +62,11 @@ Le tableau suivant répertorie les mots clés réservés Access.
 |CROSS  <br/> |J’AIME  <br/> |SYSTEM_USER  <br/> |
 |Devise  <br/> |LINENO  <br/> |TABLE  <br/> |
 |CURRENT  <br/> |LOAD  <br/> |TABLESAMPLE  <br/> |
-|CURRENT_DATE  <br/> |LongText  <br/> |Text  <br/> |
+|CURRENT_DATE  <br/> |LongText  <br/> |Texte  <br/> |
 |CURRENT_TIME  <br/> |MERGE  <br/> |TEXTIZE  <br/> |
 |CURRENT_TIMESTAMP  <br/> |Milliseconde  <br/> |THEN  <br/> |
-|CURRENT_USER  <br/> |Minute  <br/> |Time  <br/> |
-|CURSOR  <br/> |Month  <br/> |TO  <br/> |
+|CURRENT_USER  <br/> |Minute  <br/> |Temps  <br/> |
+|CURSOR  <br/> |Mois  <br/> |TO  <br/> |
 |DATABASE  <br/> |NATIONAL  <br/> |RETOUR AU DÉBUT  <br/> |
 |Date  <br/> |Non  <br/> |TRAN  <br/> |
 |DateWithTime  <br/> |NOCHECK  <br/> |TRANSACTION  <br/> |
@@ -76,7 +76,7 @@ Le tableau suivant répertorie les mots clés réservés Access.
 |DEALLOCATE  <br/> |NULLIF  <br/> |TSEQUAL  <br/> |
 |DECLARE  <br/> |OF  <br/> |UNION  <br/> |
 |VALEUR PAR DÉFAUT  <br/> |OFF  <br/> |UNIQUE  <br/> |
-|DELETE  <br/> |OFFSETS  <br/> |UNPIVOT  <br/> |
+|DELETE  <br/> |DECALER  <br/> |UNPIVOT  <br/> |
 |REFUSER  <br/> |ACTIVÉ  <br/> |METTRE À JOUR  <br/> |
 |DESC  <br/> |OPEN  <br/> |UPDATETEXT  <br/> |
 |DISK  <br/> |OPENDATASOURCE  <br/> |USE  <br/> |
@@ -108,7 +108,7 @@ Les mots suivants sont réservés pour être utilisés dans les appels de foncti
   
 Il s’agit de la liste actuelle des mots clés réservés ODBC.
   
-||||
+|Keyword |Keyword |Keyword |
 |:-----|:-----|:-----|
 |ABSOLUTE  <br/> |EXEC  <br/> |OVERLAPS  <br/> |
 |ACTION  <br/> |EXECUTE  <br/> |PAD  <br/> |
@@ -192,9 +192,9 @@ Il s’agit de la liste actuelle des mots clés réservés ODBC.
    
 ## <a name="future-keywords"></a>Mots clés futurs
 
-Les mots clés suivants peuvent être réservés dans les futures SQL Server que de nouvelles fonctionnalités sont implémentées. Évitez d’utiliser ces mots comme identificateurs.
+Les mots clés suivants peuvent être réservés dans les prochaines SQL Server à mesure que de nouvelles fonctionnalités sont implémentées. Évitez d’utiliser ces mots comme identificateurs.
   
-||||
+|Keyword |Keyword |Keyword |
 |:-----|:-----|:-----|
 |ABSOLUTE  <br/> |HOST  <br/> |RELATIVE  <br/> |
 |ACTION  <br/> |HOUR  <br/> |RELEASE  <br/> |

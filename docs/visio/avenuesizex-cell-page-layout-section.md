@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 86fe25ed-590d-b2f0-5dfe-9746a19c6b04
 description: Détermine la quantité d’espace horizontal entre les formes sur la page de dessin lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition.
-ms.openlocfilehash: ec0486f860fad838594c4f93cbb7ba8c819fa6b5
-ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
+ms.openlocfilehash: 6ae51d18198a1518b7ffe22fb50104bd0c36957f
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63406182"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63427195"
 ---
 # <a name="avenuesizex-cell-page-layout-section"></a>AvenueSizeX, cellule (section Page Layout)
 
@@ -28,14 +28,14 @@ La grille dynamique utilise le paramètre dans la cellule AvenueSizeX uniquement
   
 Pour obtenir une référence à la cellule AvenueSizeX par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez :
   
-|**Valeur**|**Description**|
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | AvenueSizeY  <br/> |
+| **Nom de cellule :**  <br/> | AvenueSizeY  <br/> |
 
 Pour obtenir une référence à la cellule AvenueSizeX à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :
   
-|**Valeur**|**Description**|
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
-| Index de la cellule :  <br/> |**visPLOAvenueSizeX** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowPageLayout** <br/> |
+| **Index de la cellule :**  <br/> |**visPLOAvenueSizeX** <br/> |

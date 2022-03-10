@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c003f7b9-b0cd-4656-98fa-3466fda6832c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bdec4a5f75012d55b007db38a827030df6f32ea4
-ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
+description: Contient l’EntryID du dossier Outlook Notes.
+ms.openlocfilehash: 5301c94e19bac70b70cae81cd78b0026623da30c
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63404684"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63426817"
 ---
 # <a name="pidtagipmnoteentryid-canonical-property"></a>Propriété canonique PidTagIpmNoteEntryId
 

@@ -1,18 +1,18 @@
 ---
 title: MentionEntry_Type complexType (Visio XML)
 ms.date: 02/18/2022
-ms.openlocfilehash: 72031a37727c3a05a61eb8e75faf3757ce0081fd
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 9c8954ab910312c96e144f79246f234203b4ac48
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63371622"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63426376"
 ---
 # <a name="mentionentry_type-complextype-visio-xml"></a>MentionEntry_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |

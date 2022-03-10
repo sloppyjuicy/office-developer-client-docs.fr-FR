@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 062022ff-e243-2540-becd-d9b969ce83ce
 description: Indique si la forme a été retournée verticalement.
-ms.openlocfilehash: ed1c3b25fce07a93e73d19c5e886bd4d797bbdc7
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 4f98e018f871497d6fa14a4be7d8a4df1a36c571
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780805"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63427181"
 ---
 # <a name="flipy-cell-shape-transform-section"></a>FlipY, cellule (section Shape Transform)
 
@@ -29,16 +29,16 @@ Indique si la forme a été retournée verticalement.
 
 Pour obtenir une référence à la cellule FlipY par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | FlipY  <br/> |
+| **Nom de la cellule :**  <br/> | FlipY  <br/> |
    
 Pour obtenir une référence à la cellule FlipY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowXFormOut** <br/> |
-| Index de la cellule :  <br/> |**visXFormFlipY** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowXFormOut** <br/> |
+| **Index de la cellule :**  <br/> |**visXFormFlipY** <br/> |
    
 

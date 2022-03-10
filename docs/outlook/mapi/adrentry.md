@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5fa091a4-3a84-4881-91b3-e34fd9ca6f38
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8e5532de3c28d3cdbdda4badb97d1a5dceb83af2
-ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
+description: Décrit zéro ou plusieurs propriétés appartenant à un destinataire.
+ms.openlocfilehash: d6c7092f2abcf664f6888cce9a24031d51543bf5
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63405022"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63426530"
 ---
 # <a name="adrentry"></a>ADRENTRY
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b57fb962-0b3e-f2e5-3b88-3edf33e40496
 description: "Détermine la largeur de l'image de l'objet à l'intérieur de ses bordures. La formule par défaut est la suivante :"
-ms.openlocfilehash: d09728bcefe1b3f8f795d53cf03b7c09f173e51c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 628aa10aa07f3ab5c3cfb20adbcf67374bcd5f40
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554606"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63427188"
 ---
 # <a name="imgwidth-cell-foreign-image-info-section"></a>ImgWidth, cellule (section Foreign Image Info)
 
@@ -28,16 +28,16 @@ Toute découpe de l'objet modifie le facteur par lequel la largeur est multipli�
 
 Pour obtenir une référence à la cellule ImgWidth par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | ImgWidth  <br/> |
+| **Nom de la cellule :**  <br/> | ImgWidth  <br/> |
    
 Pour obtenir une référence à la cellule ImgWidth à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowForeign** <br/> |
-| Index de la cellule :  <br/> |**visFrgnImgWidth** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowForeign** <br/> |
+| **Index de la cellule :**  <br/> |**visFrgnImgWidth** <br/> |
    
 

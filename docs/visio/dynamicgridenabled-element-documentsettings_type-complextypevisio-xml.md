@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: f18d797e-9885-f2fb-a521-5172aac7894c
 description: Spécifie si la fonctionnalité de grille dynamique est activée pour un document.
-ms.openlocfilehash: 2931c0215139edac4c04fb8e5186d54c60143e9b
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: d800965c729fd712e44db6ff8e80808d11db9d1d
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771586"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63427090"
 ---
 # <a name="dynamicgridenabled-element-documentsettings_type-complextype-visio-xml"></a>Élément DynamicGridEnabled (DocumentSettings_Type complexType) (Visio XML)
 
 Spécifie si la fonctionnalité de grille dynamique est activée pour un document.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contient des éléments qui spécifient les paramètres de document. |
    

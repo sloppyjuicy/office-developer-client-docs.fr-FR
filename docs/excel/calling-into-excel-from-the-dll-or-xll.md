@@ -8,12 +8,12 @@ keywords:
 - boîtes de dialogue [excel 2007], invocation des commandes excel, DLL [Excel 2007], appel dans Excel, passage d'arguments aux fonctions de l'API C [Excel 2007], commandes [Excel 2007], invocation avec des boîtes de dialogue, des commandes [Excel 2007], accessible depuis DLL/XLL, fonction Excel4 [Excel 2007],fonction Excel12 [Excel  2007], fonction XLCallVer [Excel 2007], argument operRes [Excel 2007], fonctions [Excel 2007], accessible de DLL/XLL,Excel12v fonction [Excel 2007],seules fonctions DLL [Excel 2007],C API [Excel 2007], passer les arguments, compter les arguments [Excel 2007], commandes [Excel  2007], passer les arguments, compter les arguments [Excel 2007], versions internationales [Excel 2007], appeler des fonctions et des commandes, XLLs [Excel 2007], appel dans Excel, fonction 4v d'Excel [Excel 2007], argument xlfn [Excel 2007], fonctions [Excel  2007], appel dans les versions internationales
 ms.assetid: 616e3def-e4ec-4f3c-bc65-3b92710da1e6
 ms.localizationpriority: high
-ms.openlocfilehash: 02531dfdc970f208fab71869b72500fccb9f7051
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 59b1eee4c407f99c15556feb97ea149e7c54ff89
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62789325"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63426537"
 ---
 # <a name="calling-into-excel-from-the-dll-or-xll"></a>Appel dans Excel à partir du fichier DLL ou XLL
 
@@ -161,7 +161,7 @@ int WINAPI InternationlExample(void)
 
 Excel prend en charge un petit nombre de fonctions accessibles uniquement depuis une DLL ou une XLL. Elles sont définies dans le fichier d'en-tête en tant que `(n | xlSpecial)` où `n` est un nombre décimal supérieur ou égal à 0 et `xlSpecial` est défini en tant que 0x4000 en hexadécimal. Ces fonctions sont répertoriées dans le tableau suivant et documentées dans la [Référence des fonctions API](excel-xll-sdk-api-function-reference.md).
   
-||||
+|Fonction |n |xlSpecial |Description |
 |:-----|:-----|:-----|
 |[xlFree](xlfree.md) |0 | xlSpecial  |Libère les ressources de mémoire allouées par Excel.  |
 |[xlStack](xlstack.md) |1 | xlSpecial  |Renvoie l’espace libre dans la pile Excel.  |
