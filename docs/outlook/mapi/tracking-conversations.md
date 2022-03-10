@@ -6,14 +6,13 @@ ms.audience: Developer
 api_type:
 - COM
 ms.assetid: 0500dee8-a39d-45ce-87b1-c515e92e083d
-description: 'Derniére modification : samedi 23 juillet 2011'
 ms.localizationpriority: high
-ms.openlocfilehash: 299951304f01532cc9f87e36bd58070524e55331
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 96e16acdcf515718553cd478d234b43c9518ec6b
+ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619602"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63374641"
 ---
 # <a name="tracking-conversations"></a>Suivi de conversations
 
@@ -25,7 +24,7 @@ Le suivi de conversations vise à collecter les réponses à un message. Les cli
   
 - **PR_CONVERSATION_TOPIC** ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md))
     
-    **PR_CONVERSATION_TOPIC** correspond à l’objet du message normalisé, l’objet sans les chaînes de préfixe. Définir cette propriété sur la valeur de la propriété **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) du message. 
+    **PR_CONVERSATION_TOPIC** est l’objet normalisé du message, l’objet sans les chaînes de préfixe. Définissez cette propriété sur la valeur de la **PR_NORMALIZED_SUBJECT** du message ([propriété PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)). 
     
 - **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md))
     
@@ -61,8 +60,8 @@ Si vous choisissez de d�finir les index de conversations de messages manuellem
     
 4. Threads distincts d�marr� � des moments diff�rents qui partagent la m�me rubrique en r�alit�. 
     
-5. Pour implémenter un tri classé afin que les messages soient regroupés par sujet, triez d’abord par **PR_CONVERSATION_TOPIC**, puis par **PR_CONVERSATION_INDEX**. Pour présenter les résultats de l’ordre de tri, définissez la propriété **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) sur 0 pour les messages avec un index de conversation de 22 octets de longueur. Ensuite, pour chaque incrément de 5 octets de longueur, incrémentez la valeur de la propriété **PR_DEPTH** d’une unité. 
+5. Pour implémenter un tri classé afin que les messages soient regroupés par rubrique, triez d’abord par **PR_CONVERSATION_TOPIC**, puis par **PR_CONVERSATION_INDEX**. Pour présenter les résultats du tri, définissez la propriété **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) sur 0 pour les messages dont la longueur est de 22 octets dans l’index de conversation. Ensuite, pour chaque incrément de 5 octets dans la longueur, incrémentez la valeur de la propriété **PR_DEPTH** d’un. 
     
-Le groupe PR_ORIGINAL de propri�t�s peut �galement servir de conversation de suivi. D�finir ces propri�t�s pour lier r�pondre ou les messages transf�r�s au message d'origine. Toutes les propriétés PR_ORIGINAL sont facultatives. Si vous ne définissez pas explicitement, par exemple, **PR_ORIGINAL_AUTHOR_ENTRYID** ([PidTagOriginalAuthorEntryId](pidtagoriginalauthorentryid-canonical-property.md)), le fournisseur de banque de message peut utiliser la valeur par défaut ou la valeur de la propriété **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). De même, si vous ne définissez pas **PR_ORIGINAL_AUTHOR_NAME** ou **PR_ORIGINAL_SUBMIT_TIME** ([PidTagOriginalSubmitTime](pidtagoriginalsubmittime-canonical-property.md)), ces propriétés peuvent par défaut pour les valeurs des propriétés de **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagsendername-canonical-property.md)) et **PR_SENDER_NAME** ([PidTagSenderName](pidtagclientsubmittime-canonical-property.md)) respectivement. 
+Le PR_ORIGINAL groupe de propriétés peut également être utilisé pour le suivi des conversations. Définissez ces propriétés pour lier les messages de réponse ou transférés au message d’origine. Toutes les propriétés PR_ORIGINAL sont facultatives. Si vous ne définissez pas explicitement, par exemple, **PR_ORIGINAL_AUTHOR_ENTRYID** ([PidTagOriginalAuthorEntryId](pidtagoriginalauthorentryid-canonical-property.md)), le fournisseur de magasin de messages peut utiliser la valeur par défaut ou la valeur de la propriété **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). De même, si vous ne définissez pas **PR_ORIGINAL_AUTHOR_NAME** ou **PR_ORIGINAL_SUBMIT_TIME** ([PidTagOriginalSubmitTime](pidtagoriginalsubmittime-canonical-property.md)), ces propriétés peuvent par défaut avoir les valeurs des propriétés **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) et **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)), respectivement. 
   
 
