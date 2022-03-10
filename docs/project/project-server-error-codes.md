@@ -12,18 +12,18 @@ f1_keywords:
 keywords:
 - PSI, codes d’erreur, codes d’erreur, Project Server, PSErrorID, interface Project Server, codes d’erreur, Project Server, codes d’erreur
 ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
-description: Codes d’erreur pour l’interface PSI (Project Server Interface) dans Project Server 2013. Les tableaux sont organisés par domaine fonctionnel et par plage de codes d’erreur.
+description: Codes d’erreur pour l’interface PSI (Project Server Interface) dans Project Server 2013. Les tables sont organisées par zone fonctionnelle et par plage de codes d’erreur.
 ms.localizationpriority: high
-ms.openlocfilehash: 07e37a956173957af1a49761dacce42f723b1787
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: bf7dc20a61c78e5da3363803c4f8bae07c100522
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63372155"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63402666"
 ---
 # <a name="project-server-error-codes"></a>Codes d’erreur de Project Server
 
-Cette rubrique présente des tableaux de codes d’erreur pour l’interface Project Server (PSI) dans Project Server 2013. Les tableaux sont organisés par domaine fonctionnel et par plage de codes d’erreur.
+Cette rubrique contient des tableaux de codes d’erreur pour l’interface PSI (Project Server Interface) dans Project Server 2013. Les tables sont organisées par zone fonctionnelle et par plage de codes d’erreur.
 
 Les processus Project Server 2013 et les méthodes PSI ont des numéros de code d’erreur qui sont généralement organisés par domaine fonctionnel. L’énumération [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) est dupliquée dans [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/office/websvcproject.pserrorid_di_pj14mref.aspx) ; elles répertorient les codes d’erreur dans l’ordre alphabétique, par leur nom. Cette rubrique répertorie les codes d’erreur dans des tableaux organisés par classe PSI ou domaine fonctionnel et par numéro d’identification (ID) d’erreur.
   
@@ -33,7 +33,7 @@ Les processus Project Server 2013 et les méthodes PSI ont des numéros de cod
 > - Pour les applications basées sur ASMX, utilisez **System.Web.Services.Protocols.SoapException** avec l’objet **PSClientError** pour afficher la liste ou la hiérarchie des erreurs dans un appel de méthode PSI. Voir [Exemple de code d’erreur pour ASMX](#pj15_ErrorCodes_ASMXExample).
 > - Pour les applications basées sur WCF, vous pouvez utiliser **System.ServiceModel.FaultException** pour obtenir un objet **PSClientError** et pour obtenir des informations supplémentaires sur l’erreur. Voir [Exemple de code d’erreur pour WCF](#pj15_ErrorCodes_WCFExample).
 > - Utilisez le journal des événements d’application sur l’ordinateur Project Server.
-> - Utilisez les journaux du suivi du service de journalisation unifiée (ULS). Pour obtenir une explication, reportez-vous à la section relative à la *vérification des erreurs* dans la [prise en main du développement pour Project 2010](https://msdn.microsoft.com/library/gg607685.aspx).
+> - Utilisez les journaux de suivi ULS (Unified Logging Service). Pour obtenir une explication, consultez la section *Vérification des erreurs* dans [Prise en main avec Développement pour Project 2010](https://msdn.microsoft.com/library/gg607685.aspx).
 > - Pour plus d’informations sur l’utilisation des journaux du service ULS, consultez l’article [Project Server 2010 : Que faire face aux événements inattendus](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx) sur le blog du support technique de Project et recherchez des informations concernant la lecture des journaux du service ULS sur le blog.
 > - Pour vous aider à rechercher ou examiner des problèmes spécifiques dans les données ULS, utilisez la [visionneuse ULS](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer).
 > - Utilisez Microsoft SQL Server Profiler pour intercepter ou surveiller des erreurs de base de données. Pour plus d’informations, consultez [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx).
@@ -276,7 +276,7 @@ Les processus Project Server 2013 et les méthodes PSI ont des numéros de cod
 
 <a name="pj15_ErrorCodes_Archive"></a>
 
-## <a name="table-7-archive-web-service"></a>Tableau 7. Service web d’archivage
+## <a name="table-7-archive-web-service"></a>Tableau 7. Service web d’archivage
 
 |Code d’erreur relatif au service web d’archivage (sauvegarde et restauration)|Description|
 |:-----|:-----|
@@ -467,14 +467,14 @@ Les processus Project Server 2013 et les méthodes PSI ont des numéros de cod
 |CustomFieldInvalidID = 11701  <br/> |Numéro d’identification de champ personnalisé non valide. |
 |CustomFieldInvalidUID = 11702  <br/> |GUID de champ personnalisé non valide. |
 |CustomFieldInvalidType = 11703  <br/> |Type de champ personnalisé non valide. |
-|CustomFieldInvalidTypeColumnFilledIn = 11704  <br/> |La valeur de la colonne du type de champ personnalisé n’est pas valide. Voir l’exemple dans [Exemple de code d’erreur pour WCF](#pj15_ErrorCodes_WCFExample). |
+|CustomFieldInvalidTypeColumnFilledIn = 11704  <br/> |La valeur de colonne de type de champ personnalisé n’est pas valide. Consultez l’exemple dans [Exemple de code d’erreur pour WCF](#pj15_ErrorCodes_WCFExample). |
 |CustomFieldCodeValueDoesNotMatchLookupTable = 11706  <br/> |La valeur de code ne correspond pas à la table de choix. |
 |CustomFieldCodeValueIsNotLeafNode = 11707  <br/> |La valeur de code n’est pas un nœud terminal de la table de choix. |
 |CustomFieldRowAlreadyExists = 11708  <br/> |La ligne de champ personnalisé existe déjà. |
 |CustomFieldRowDoesNotMatchCorrespondingDefinitionInDB = 11710  <br/> |La ligne de champ personnalisé ne correspond pas à la définition de la base de données. |
 |CustomFieldCodeValueAlreadyUsed = 11711  <br/> |La valeur de code est déjà utilisée. |
 |CustomFieldMaxValuesExceeded = 11712  <br/> |Valeurs maximales des champs personnalisés dépassées. |
-|CustomFieldRequiredValueNotProvided = 11713  <br/> |Une valeur de champ personnalisé requise n’est pas fournie. Voir l’exemple dans [Exemple de code d’erreur pour WCF](#pj15_ErrorCodes_WCFExample). |
+|CustomFieldRequiredValueNotProvided = 11713  <br/> |Aucune valeur de champ personnalisé requise n’est fournie. Consultez l’exemple dans [Exemple de code d’erreur pour WCF](#pj15_ErrorCodes_WCFExample). |
 |CustomFieldCannotChangeLookupTable = 11715  <br/> |Impossible de modifier la table de choix du champ personnalisé. |
 |CustomFieldFilterInvalid = 11716  <br/> |Filtre de champ personnalisé non valide. |
 |CustomFieldRolldownInvalidOnFormulaFields = 11717  <br/> |Impossible de réaliser une généralisation sur un champ personnalisé de formule. |
@@ -556,7 +556,7 @@ Les processus Project Server 2013 et les méthodes PSI ont des numéros de cod
 |LookupTableInvalidParentStructUid = 11081  <br/> |GUID d’une structure parent de table de choix non valide. |
 |LookupTableItemContainsListSeparator = 11082  <br/> |L’élément de table de choix contient un séparateur de listes. |
 
-Les codes d’erreur du tableau 14 comprennent des éléments relatifs aux erreurs de pages de détails de projet (PDP), de synchronisation Exchange, de chronologie Project Web App et de base de données. De nombreux codes d’erreur divers du tableau 14 sont utilisés en interne.
+Les codes d’erreur du tableau 14 incluent des éléments pour les pages de détails du projet (PDP), la synchronisation Exchange, la chronologie Project Web App et les erreurs de base de données. La plupart des codes d’erreur divers du tableau 14 sont utilisés en interne.
   
 > [!NOTE]
 > Les codes d’erreur d’audit ne sont pas utilisés dans Project Server 2013.
@@ -607,7 +607,7 @@ Les codes d’erreur du tableau 14 comprennent des éléments relatifs aux erre
 
 <a name="pj15_ErrorCodes_Notifications"></a>
 
-## <a name="table-15-notification"></a>Tableau 15. Notification
+## <a name="table-15-notification"></a>Tableau 15. Notification
 
 |Code d’erreur de notification|Description|
 |:-----|:-----|
@@ -660,7 +660,7 @@ Tous les codes d’erreur dans le tableau 16 concernent l’optimiseur, qui est
 |OptimizerDriverRelationsNotFilled = 29307  <br/> |Les données de DriverRelationsRow sont incomplètes. |
 |OptimizerDriversNotFilled = 29308  <br/> |Il n’y a pas suffisamment d’informations dans les axes stratégiques de projet pour trouver une solution. |
 |OptimizerDriverRelationsInvalidInversedValue = 29309  <br/> |Il existe des valeurs inverses dans le [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx). |
-|OptimizerCannotCreatePrioritizationUsingInactiveDrivers = 29310  <br/> |Un pilote inactif est spécifié dans le [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx). Vérifier les propriétés **DRIVER1_UID** et **DRIVER2_UID**. |
+|OptimizerCannotCreatePrioritizationUsingInactiveDrivers = 29310  <br/> |Un pilote inactif est spécifié dans le [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx). Vérifiez les propriétés **DRIVER1_UID** et **DRIVER2_UID** . |
 |OptimizerCannotChangePrioritizationType = 29311  <br/> |Impossible de modifier le type de définition des priorités. |
 |OptimizerCannotSpecifyPriorityValuesForCalculatedPrioritizations = 29312  <br/> |Si une priorité est calculée, vous ne pouvez pas spécifier la valeur de la priorité. |
 |OptimizerCannotNormalizePriorityValues = 29313  <br/> |Les valeurs de priorité ne peuvent pas être normalisées. |
@@ -951,7 +951,7 @@ Les codes d’erreur dans le tableau 17 concernent le planificateur, qui est un
 
 <a name="pj15_ErrorCodes_Resources"></a>
 
-## <a name="table-20-resource"></a>Tableau 20. Ressource
+## <a name="table-20-resource"></a>Tableau 20. Ressource
 
 |Code d’erreur de ressource|Description|
 |:-----|:-----|
@@ -1056,14 +1056,14 @@ Les codes d’erreur du tableau 22 concernent les méthodes **Règles** du serv
 |Code d’erreur de règles|Description|
 |:-----|:-----|
 |RulesNameTooLong = 21001  <br/> |Le nom de la règle d’approbation est trop long. Utilisation interne uniquement dans Project Web App. |
-|RulesDescriptionTooLong = 21002  <br/> |La description de la règle est trop longue. Utilisation interne uniquement dans Project Web App. |
+|RulesDescriptionTooLong = 21002  <br/> |La description de la règle est trop longue. Utilisation interne uniquement dans Project Web App. |
 |RulesInvalidRuleType = 21003  <br/> |Le type de règle n’est pas valide. Utilisation interne uniquement dans Project Web App. |
-|RulesInvalidConditionType = 21004  <br/> |Le type de condition pour une règle n’est pas valide. Utilisation interne uniquement dans Project Web App. |
-|RulesInvalidOperatorType = 21005  <br/> |Le type d’opérateur pour une règle n’est pas valide. Utilisation interne uniquement dans Project Web App. |
-|RulesInvalidListItemType = 21007  <br/> |Le type d’élément de liste pour une règle n’est pas valide. Utilisation interne uniquement dans Project Web App. |
-|RulesNameInvalidCharacters = 21008  <br/> |Un ou plusieurs caractères ne sont pas valides dans le nom de la règle. Utilisation interne uniquement dans Project Web App. |
-|RulesDescriptionInvalidCharacters = 21009  <br/> |Un ou plusieurs caractères ne sont pas valides dans la description de la règle. Utilisation interne uniquement dans Project Web App. |
-|RulesInvalidValueType = 21010  <br/> |Le type de valeur dans la règle n’est pas valide. Utilisation interne uniquement dans Project Web App. |
+|RulesInvalidConditionType = 21004  <br/> |Le type de condition d’une règle n’est pas valide. Utilisation interne uniquement dans Project Web App. |
+|RulesInvalidOperatorType = 21005  <br/> |Le type d’opérateur d’une règle n’est pas valide. Utilisation interne uniquement dans Project Web App. |
+|RulesInvalidListItemType = 21007  <br/> |Le type d’élément de liste d’une règle n’est pas valide. Utilisation interne uniquement dans Project Web App. |
+|RulesNameInvalidCharacters = 21008  <br/> |Le nom de la règle contient un ou plusieurs caractères qui ne sont pas valides. Utilisation interne uniquement dans Project Web App. |
+|RulesDescriptionInvalidCharacters = 21009  <br/> |Un ou plusieurs caractères ne sont pas valides dans la description de la règle. Usage interne uniquement dans Project Web App. |
+|RulesInvalidValueType = 21010  <br/> |Le type de valeur dans la règle n’est pas valide. Utilisation interne uniquement dans Project Web App. |
 
 <a name="pj15_ErrorCodes_Security"></a>
 
@@ -1125,14 +1125,14 @@ Les codes d’erreur du tableau 22 concernent les méthodes **Règles** du serv
 
 <a name="pj15_ErrorCodes_Events"></a>
 
-## <a name="table-24-project-server-event"></a>Tableau 24. Événement Project Server
+## <a name="table-24-project-server-event"></a>Tableau 24. Événement Project Server
 
 |Code d’erreur d’événement Project Server|Description|
 |:-----|:-----|
 |ServerEventInvalidEventId = 19033  <br/> |Numéro d’identification d’événement Project Server non valide. |
 |ServerEventServiceNotFound = 22003  <br/> |Service d’événement Project Server introuvable. Cette erreur n’est pas utilisée dans le code de Project Server, mais elle correspond à un événement du service de journalisation unifiée (ULS) brut. |
-|ServerEventRemoteCouldNotReachProxy = 22005  <br/> |La Project Web App distante n’a pas pu atteindre le gestionnaire d’événements Project Server de proxy. Cette erreur n’est pas utilisée dans le code Project Server mais elle mappe à un événement ULS brut. |
-|ServerEventManagerCouldNotReachRemote = 22006  <br/> |Le gestionnaire d’événements Project Server n’a pas pu atteindre la Project Web App distante. Cette erreur n’est pas utilisée dans le code Project Server mais elle mappe à un événement ULS brut. |
+|ServerEventRemoteCouldNotReachProxy = 22005  <br/> |L’application Project Web App distante n’a pas pu accéder au proxy du gestionnaire d’événements Project Server. Cette erreur n’est pas utilisée dans le code de Project Server, mais elle correspond à un événement du service ULS brut. |
+|ServerEventManagerCouldNotReachRemote = 22006  <br/> |Le gestionnaire d’événements Project Server n’a pas pu accéder à l’application Project Web App distante. Cette erreur n’est pas utilisée dans le code de Project Server, mais elle correspond à un événement du service ULS brut. |
 |ServerEventHandlerNotSigned = 22007  <br/> |Gestionnaire d’événements Project Server non signé. |
 |ServerEventHandlerMalformedAssemblyName = 22008  <br/> |Nom d’assembly non valide pour le gestionnaire d’événements Project Server. |
 |ServerEventHandlerOrderInvalid = 22009  <br/> |Ordre non valide pour le gestionnaire d’événements Project Server. |
@@ -1143,7 +1143,7 @@ Les codes d’erreur du tableau 22 concernent les méthodes **Règles** du serv
 
 <a name="pj15_ErrorCodes_Statusing"></a>
 
-## <a name="table-25-statusing-web-service"></a>Tableau 25. Service web de gestion des états
+## <a name="table-25-statusing-web-service"></a>Tableau 25. Service web de gestion des états
 
 |Code d’erreur relatif au service web de gestion des états|Description|
 |:-----|:-----|
@@ -1184,7 +1184,7 @@ Les codes d’erreur du tableau 26 sont liés aux méthodes **StatusReports** d
 
 <a name="pj15_ErrorCodes_StatusReports"></a>
 
-## <a name="table-26-statusreports"></a>Tableau 26. StatusReports
+## <a name="table-26-statusreports"></a>Tableau 26. StatusReports
 
 |Code d’erreur de rapport d’état|Description|
 |:-----|:-----|
@@ -1372,7 +1372,7 @@ Les codes d’erreur du tableau 26 sont liés aux méthodes **StatusReports** d
 |WSSURIInvalidFormat = 16409  <br/> |Format de l’URI du site web SharePoint non valide. |
 |WSSSyncReportingDataFailed = 16410  <br/> |Échec de la synchronisation des données de création de rapports pour SharePoint. |
 |WSSWorkspaceUrlPathTooLong = 16411  <br/> |Le chemin de l’URL de l’espace de travail de projet SharePoint est trop long. |
-|WSSWorkspaceNameContainsIllegalChars = 16412  <br/> |Un ou plusieurs caractères dans un nom de site de projet SharePoint ne sont pas valides. Les caractères suivants ne sont pas valides dans un nom de projet : / " : \< \> | , . ' ? \* #  <br/> |
+|WSSWorkspaceNameContainsIllegalChars = 16412  <br/> |Un ou plusieurs caractères présents dans le nom du site de projet SharePoint ne sont pas valides. Les caractères suivants ne sont pas valides dans un nom de projet : / " : \< \>\| , . ’ ? \* #  <br/> |
 |WSSInvalidWssServerUid = 16413  <br/> |GUID du serveur SharePoint non valide. |
 |WSSSyncUsersFailed = 16414  <br/> |Échec de la synchronisation des utilisateurs de Project Server avec SharePoint. |
 |WSSWrongWebTemplateLCID = 16415  <br/> |Identificateur de paramètres régionaux (ID de langue) du modèle web SharePoint non valide. |
@@ -1575,7 +1575,7 @@ public static PSLibrary.PSClientError GetPSClientError(FaultException e,
 
 ```
 
-Outre les données dans l’objet **PSClientError**, l’objet **FaultException** peut inclure d’autres types d’erreurs, comme l’impossibilité de se connecter à Project Server. Le paramètre *errOut* de la méthode **GetPSClientError** dans l’exemple précédent affiche des informations supplémentaires. Par exemple, l’exemple de code **CreateProject4Department** dans la méthode [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) inclut des commentaires qui montrent comment créer des erreurs lors de la définition des propriétés dans le tableau **ProjectCustomFields**. Lors de l’exécution de l’application, le paramètre _errOut_ inclut l’élément **errinfo** et d’autres données (formatées ici à partir de la sortie console).
+En plus des données incluses dans l’objet **PSClientError**, l’objet **FaultException** peut contenir d’autres types d’erreurs, comme un échec de connexion à Project Server. Le paramètre *errOut* de la méthode **GetPSClientError** de l’exemple précédent affiche des informations supplémentaires. Par exemple, l’exemple de code **CreateProject4Department** dans la méthode [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) comporte des commentaires qui expliquent comment créer des erreurs lors de la définition des priorités dans la table **ProjectCustomFields**. Lorsque l’application est exécutée, le paramètre _errOut_ comporte l’élément **errinfo** ainsi que d’autres données (formatées ici à partir de la sortie de console).
   
 ```XML
 ==============================

@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 98643832-7861-385d-3a52-0060ea413e2e
 description: Spécifie une propriété des données de forme.
-ms.openlocfilehash: 844ac0421041f48d3f3b4a559967f6d344a3adb7
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: c832875f7d49db57520087b7432230d18d0dc73d
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772962"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63406471"
 ---
 # <a name="cell-element-shape-data-section-visio-xml"></a>Élément de cellule (section Shape Data) (Visio XML)
 
 Spécifie une propriété des données de forme.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Row, élément (shape data section)](row-element-shape-data-sectionvisio-xml.md) <br/> |[Forme Data_Type](propertyrow_type-complextypevisio-xml.md) <br/> |Spécifie une entrée de données de forme pour l’association de données à une forme. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin. |
    

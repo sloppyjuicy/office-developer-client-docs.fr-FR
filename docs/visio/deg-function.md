@@ -1,7 +1,7 @@
 ---
 title: DEG, fonction
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: ed3c7e1a-620d-a1f7-2eef-bd3e674b0c1b
 description: Convertit en degrés la valeur d’un angle en radians.
-ms.openlocfilehash: 3093dd9205351802ff5965a5e0ae27b50b14deef
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 27008e7dff81a3a7e2ca694faa79da6baa8afab0
+ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780854"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63406464"
 ---
 # <a name="deg-function"></a>Fonction DEG
 
@@ -22,18 +22,17 @@ Convertit en degrés la valeur d’un angle en radians.
   
 ## <a name="syntax"></a>Syntaxe
 
-DEG(** *angle* ** ) 
+DEG(***angle*** )
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Requis  <br/> |**String** <br/> |Valeur de l’angle en radians. |
-   
+| *angle* <br/> |Requis  <br/> |**String** <br/> |Valeur de l’angle en radians. |
+
 ## <a name="example"></a>Exemple
 
-DEG(PI( )/4) 
+DEG(PI( )/4)
   
-Renvoie 45 
+Renvoie 45
   
-
