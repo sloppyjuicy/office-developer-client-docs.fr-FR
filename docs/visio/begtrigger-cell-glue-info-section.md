@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 0b7ffe39-ee6c-71eb-355c-9bb4660260f1
 description: Contient une formule de déclenchement générée par l'application, qui détermine si le point de début d'une forme 1D doit être déplacé pour maintenir son lien à une autre forme.
-ms.openlocfilehash: 745dfed2762dc9b3f10d3da576609ec9b8cce36d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 231844d5f6b20dbe6565bcaa6f89dae33665cb9a
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598807"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63447668"
 ---
 # <a name="begtrigger-cell-glue-info-section"></a>BegTrigger, cellule (section Glue Info)
 
@@ -26,16 +26,16 @@ Lorsque vous collez une forme 1D à une autre forme au moyen de la colle dynamiq
   
 Pour obtenir une référence à la cellule BegTrigger par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | BegTrigger  <br/> |
+| **Nom de la cellule :**  <br/> | BegTrigger  <br/> |
    
 Pour obtenir une référence à la cellule BegTrigger à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowGroup** <br/> |
-| Index de la cellule :  <br/> |**visBegTrigger** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowGroup** <br/> |
+| **Index de la cellule :**  <br/> |**visBegTrigger** <br/> |
    
 

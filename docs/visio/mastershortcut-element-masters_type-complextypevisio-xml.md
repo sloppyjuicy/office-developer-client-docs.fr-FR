@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 62f0e093-5385-e552-f91a-02a65eb0e6e1
 description: Spécifie un raccourci maître défini dans le document.
-ms.openlocfilehash: 61f0f869233cdbaa838ce51543923fb94622345a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 439dd57fe69e46e48bb4f196c454df68320024d6
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775552"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448481"
 ---
 # <a name="mastershortcut-element-masters_type-complextype-visio-xml"></a>Élément MasterShortcut (Masters_Type complexType) (Visio XML)
 
 Spécifie un raccourci maître défini dans le document.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Masters](masters-elementvisio-xml.md) <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |Contient les **éléments Master** du document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Icon](icon-element-mastershortcut_type-complextypevisio-xml.md) <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |Spécifie une icône binaire codée MIME (Multipurpose Internet Mail Extensions) (au format .ico) pour un élément **Master** ou **MasterShortcut** dans un document. |
    

@@ -6,18 +6,18 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: dc10f727-5243-2fdb-4042-3dfdfcd8504c
-ms.openlocfilehash: 80192cdf6b348c800040111c0013b86ce894cdbf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6da370cf235ac9ce0cd8b0492b378e5dbff7e9b7
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574313"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448306"
 ---
 # <a name="ellipticalarcto_type-complextype-visio-xml"></a>EllipticalArcTo_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
@@ -46,11 +46,11 @@ ms.locfileid: "59574313"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Cell](cell-element-ellipticalarcto-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> ||
    

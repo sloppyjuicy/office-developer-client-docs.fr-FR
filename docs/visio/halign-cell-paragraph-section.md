@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: a8d6b622-60b3-e43f-b6a1-55db561204ed
 description: Détermine l'alignement horizontal du texte dans le bloc de texte de la forme.
-ms.openlocfilehash: f6a8516448bc473065e92b4c8a50a8104c351ff6
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 514391217f4cd5885e6afbe26c898a2e1d60eeb6
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774207"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448726"
 ---
 # <a name="halign-cell-paragraph-section"></a>HAlign, cellule (section Paragraph)
 
@@ -36,16 +36,16 @@ La justification forcée aligne toutes les lignes du paragraphe, y compris la de
   
 Pour obtenir une référence à la cellule HAlign par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Para.HorzAlign[  *i*  ] where  *i*  = <1>, 2, 3... |
+| **Nom de cellule :**  <br/> | Para.HorzAlign[  *i*  ] where  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule HAlign à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionParagraph** <br/> |
-| Index de la ligne :  <br/> |**visRowParagraph** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visHorzAlign** <br/> |
+| **Index de la section :**  <br/> |**visSectionParagraph** <br/> |
+| **Index de la ligne :**  <br/> |**visRowParagraph** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visHorzAlign** <br/> |
    
 

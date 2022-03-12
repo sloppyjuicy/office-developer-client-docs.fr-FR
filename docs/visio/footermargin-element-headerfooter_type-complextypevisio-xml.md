@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 047f42cf-4202-50bd-40b4-a71052e2dfb3
 description: Spécifie la marge du pied de document.
-ms.openlocfilehash: 20cdea3fc9cfbb3405776314992ee56ee4ed0bf4
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5040e6a2d4d74a7f08f5e264b9eb9858a289da3d
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62787274"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448432"
 ---
 # <a name="footermargin-element-headerfooter_type-complextype-visio-xml"></a>Élément FooterMargin (HeaderFooter_Type complexType) (Visio XML)
 
 Spécifie la marge du pied de document.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[FooterMargin_Type](footermargin_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de groupe d’un document. |
    

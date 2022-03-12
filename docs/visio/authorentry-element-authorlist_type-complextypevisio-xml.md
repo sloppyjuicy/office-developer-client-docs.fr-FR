@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 21ca601b-27f0-b30b-a99e-56359bdf594c
 description: Spécifie les propriétés utilisées pour identifier l’auteur d’un commentaire dans un dessin.
-ms.openlocfilehash: cb827b0da6e5f2ef31306061e5e7a62c587530ab
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e968675fffc6254d3599827cc3ece216fe61df67
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62787491"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63447612"
 ---
 # <a name="authorentry-element-authorlist_type-complextype-visio-xml"></a>Élément AuthorEntry (AuthorList_Type complexType) (Visio XML)
 
 Spécifie les propriétés utilisées pour identifier l’auteur d’un commentaire dans un dessin.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[AuthorEntry_Type](authorentry_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[AuthorList](authorlist-element-comments_type-complextypevisio-xml.md) <br/> |[AuthorList_Type](authorlist_type-complextypevisio-xml.md) <br/> |Spécifie les auteurs d’un dessin. |
    

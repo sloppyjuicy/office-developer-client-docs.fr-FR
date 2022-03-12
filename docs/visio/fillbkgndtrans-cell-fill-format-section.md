@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 87065350-ba9a-aae8-47f6-f263f6700d08
 description: Détermine le degré de transparence de la couleur d'arrière-plan (remplissage) du motif de remplissage de la forme.
-ms.openlocfilehash: 7d3d42817655bc2ad08ce3351df046b727116913
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: f5bf10de4fc46b130c9f5bbbba74dac77d2d19c3
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780833"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448754"
 ---
 # <a name="fillbkgndtrans-cell-fill-format-section"></a>FillBkgndTrans, cellule (section Fill Format)
 
@@ -32,16 +32,16 @@ Vous pouvez également définir cette valeur à l’aide du curseur dans la boî
   
 Pour obtenir une référence à la cellule FillBkgndTrans par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |FillBkgndTrans  <br/> |
+|**Nom de la cellule :**  <br/> |FillBkgndTrans  <br/> |
    
 Pour obtenir une référence à la cellule FillBkgndTrans à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowFill** <br/> |
-|Index de la cellule :  <br/> |**visFillBkgndTrans** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowFill** <br/> |
+|**Index de la cellule :**  <br/> |**visFillBkgndTrans** <br/> |
    
 

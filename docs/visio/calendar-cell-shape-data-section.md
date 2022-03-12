@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f5dcc6d9-474a-9ecb-21f5-56415d934890
 description: Détermine le calendrier utilisé pour les données de forme lorsque le type de données est Date.
-ms.openlocfilehash: 2e73e6b18d42c1851f1b1db9db9ffdaaa5f4805d
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: a31e0cbd323e472d18e3de4f20684f1b41e8f497
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63378967"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63447626"
 ---
 # <a name="calendar-cell-shape-data-section"></a>Calendar, cellule (section Custom Properties)
 
@@ -26,14 +26,14 @@ Les valeurs possibles sont : 0 (Occidental), 1 (Hijri arabe), 2 (Lunaire hébra
   
 Pour obtenir une référence à la cellule Calendar par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Prop.  *nom* . Calendrier où Prop.  *nom est*  le nom de ligne  <br/> |
+| **Nom de cellule :**  <br/> | Prop.  *nom* . Calendrier où Prop.  *nom est*  le nom de ligne  <br/> |
 
 Pour obtenir une référence à la cellule Calendar à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionProp** <br/> |
-| Index de la ligne :  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visCustPropsCalendar** <br/> |
+| **Index de la section :**  <br/> |**visSectionProp** <br/> |
+| **Index de la ligne :**  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visCustPropsCalendar** <br/> |

@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 021536b9-6724-4b8a-35c2-966e456e5232
 description: Contient des coordonnées x ou y pour le deuxième point de contrôle d’une spline, son deuxième nœud, son premier nœud, le dernier nœud ou le degré de la spline.
-ms.openlocfilehash: 72274e02fb3609e70f9c0085bc5ba9b3bf81a88a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 0cd1194b1f7988669de2ba9db1ce7704ec9bf7dc
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771685"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448509"
 ---
 # <a name="cell-element-splinestart-row-visio-xml"></a>Élément de cellule (ligne SplineStart) (Visio XML)
 
 Contient des coordonnées x ou y pour le deuxième point de contrôle d’une spline, son deuxième nœud, son premier nœud, le dernier nœud ou le degré de la spline.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[SplineStart_Type](splinestart_type-complextypevisio-xml.md) <br/> |Contient des coordonnées x ou y pour le deuxième point de contrôle d’une spline, son deuxième nœud, son premier nœud, le dernier nœud ou le degré de la spline. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin. |
    

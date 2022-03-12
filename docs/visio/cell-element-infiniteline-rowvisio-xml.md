@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: e14b8246-0064-3a54-7bd6-ad28180f9ea6
 description: Contient les coordonnées x ou y de deux points sur une ligne infinie.
-ms.openlocfilehash: 866158262387c029d41d8b0292d0dd95208680de
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 61e1ea66eab88f005a97748d183221478cd69bc6
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771761"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448488"
 ---
 # <a name="cell-element-infiniteline-row-visio-xml"></a>Élément de cellule (ligne InfiniteLine) (Visio XML)
 
 Contient les coordonnées x ou y de deux points sur une ligne infinie.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[InfiniteLine_Type](infiniteline_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y de deux points sur une ligne infinie. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin. |
    

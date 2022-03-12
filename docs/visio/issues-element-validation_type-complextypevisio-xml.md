@@ -1,5 +1,5 @@
 ---
-title: Issues, élément (Validation_Type complexType) (Visio XML)
+title: Élément Issues (Validation_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 23544055-c554-28b7-c351-370ab9b3c96c
 description: Contient tous les éléments Issue du document.
-ms.openlocfilehash: 26bc63d40c1fbed149ceb02e1fd90817e280d2ff
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 86fb99434bf24286966280c5dc4175b6740b0a7a
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775601"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63447745"
 ---
-# <a name="issues-element-validation_type-complextype-visio-xml"></a>Issues, élément (Validation_Type complexType) (Visio XML)
+# <a name="issues-element-validation_type-complextype-visio-xml"></a>Élément Issues (Validation_Type complexType) (Visio XML)
 
 Contient tous les éléments Issue du document.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Valider](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Stocke les informations relatives à la validation du diagramme pour le document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Problème](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |Représente un problème de validation unique dans le document. |
    

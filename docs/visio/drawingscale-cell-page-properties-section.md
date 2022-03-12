@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: bc447f22-a188-2c61-e33c-df0d401a4725
 description: Représente la valeur de l'unité de dessin dans l'échelle de dessin en cours. L'échelle de dessin est le rapport entre l'unité de page représentée dans la cellule PageScale et l'unité de dessin représentée dans la cellule DrawingScale.
-ms.openlocfilehash: cf4bf34a9d1c37c0fea7c14bbf1916b3edda2bcf
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 0365418825e515a3d521825e5606c99fdb7e7644
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63377623"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448537"
 ---
 # <a name="drawingscale-cell-page-properties-section"></a>DrawingScale, cellule (section Page Properties)
 
@@ -51,15 +51,15 @@ Les unités de la formule contenue dans la cellule DrawingScale définissent ég
 
 Pour obtenir une référence à la cellule DrawingScale par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |DrawingScale  <br/> |
+|**Nom de cellule :**  <br/> |DrawingScale  <br/> |
 
 Pour obtenir une référence à la cellule DrawingScale à l'aide d'un index à partir d'un programme
 , utilisez la propriété **CellsSRC** avec les arguments suivants :
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowPage** <br/> |
-|Index de la cellule :  <br/> |**visPageDrawingScale** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowPage** <br/> |
+|**Index de la cellule :**  <br/> |**visPageDrawingScale** <br/> |

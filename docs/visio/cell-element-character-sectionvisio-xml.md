@@ -1,5 +1,5 @@
 ---
-title: Élément cell (Character Section) (Visio XML)
+title: Élément de cellule (section Character) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6b452591-cf0c-9e1c-c203-e9cf608d3cc3
 description: Spécifie un attribut de mise en forme pour l’écriture de texte d’une forme, tel que la police, la couleur, le style, la case, la position par rapport à la ligne de base ou la taille du point.
-ms.openlocfilehash: 1ef32dceee6fd0e5d21a12af196e0cfecdbff322
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 4d56397c30a4da1a403deb8da8be2c853ccdf3a8
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788947"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448607"
 ---
-# <a name="cell-element-character-section-visio-xml"></a>Élément cell (Character Section) (Visio XML)
+# <a name="cell-element-character-section-visio-xml"></a>Élément de cellule (section Character) (Visio XML)
 
 Spécifie un attribut de mise en forme pour l’écriture de texte d’une forme, tel que la police, la couleur, le style, la case, la position par rapport à la ligne de base ou la taille du point.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (Character Section)](row-element-character-sectionvisio-xml.md) <br/> |[CharacterRow_Type](characterrow_type-complextypevisio-xml.md) <br/> |Spécifie un attribut de mise en forme pour l’écriture de texte d’une forme, tel que la police, la couleur, le style, la case, la position par rapport à la ligne de base ou la taille du point. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin. |
    

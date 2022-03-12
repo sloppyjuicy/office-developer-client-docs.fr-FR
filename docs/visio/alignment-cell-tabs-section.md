@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 84234177-a2df-6acc-2761-230bc5d12627
 description: Détermine l'alignement des tabulations.
-ms.openlocfilehash: 502074bb25a37756ce64123ddb74abc93119086a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 6f00d565f87d10404f62e00275e3ef8283c7afda
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776073"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448320"
 ---
 # <a name="alignment-cell-tabs-section"></a>Alignment, cellule (section Tabs)
 
@@ -32,16 +32,16 @@ Détermine l'alignement des tabulations.
 
 Pour obtenir une référence à la cellule Alignment par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Onglets.  *ij*            où  *i et j =*  <1>, 2, 3  <br/> |
+| **Nom de cellule :**  <br/> | Onglets.  *ij*            où  *i et j =*  <1>, 2, 3  <br/> |
    
 Pour obtenir une référence à la cellule Alignment à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionTab** <br/> |
-| Index de la ligne :  <br/> |**visRowTab +** *i*            où  *i*  = 0, 1, 2... |
-| Index de la cellule :  <br/> | (*j*  *3) **+ visTabAlign** <br/> |
+| **Index de la section :**  <br/> |**visSectionTab** <br/> |
+| **Index de la ligne :**  <br/> |**visRowTab +** *i*            où  *i*  = 0, 1, 2... |
+| **Index de la cellule :**  <br/> | (*j*  *3) **+ visTabAlign** <br/> |
    
 

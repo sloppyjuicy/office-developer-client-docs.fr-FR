@@ -6,21 +6,17 @@ ms.audience: Developer
 ms.assetid: 6828485c-040b-4278-923f-4cc7c8fe0fb1
 description: Le modèle objet côté client (CSOM) est un ensemble d’API pour Project Server 2013 conçues pour une utilisation en ligne et locale dans les applications qui peuvent être développées pour les PC, les appareils mobiles et les tablettes. Cet article inclut des cas d’utilisation type du modèle CSOM et répertorie également les limites de ce modèle.
 ms.localizationpriority: high
-ms.openlocfilehash: ca926d445b2ea447c76282ea36c7df472988ca54
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: d965d276665ca00385d2d0b1ac5235b1cac14587
+ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63372107"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63426766"
 ---
 # <a name="what-the-csom-does-and-does-not-do"></a>Fonctionnalités du modèle CSOM
 
 Le modèle objet côté client (CSOM) est un ensemble d’API pour Project Server 2013 conçues pour une utilisation en ligne et locale dans les applications qui peuvent être développées pour les PC, les appareils mobiles et les tablettes. Cet article inclut des cas d’utilisation type du modèle CSOM et répertorie également les limites de ce modèle.
   
-|||
-|:-----|:-----|
-|||
-
 Le CSOM permet le développement des applications pour Project Server 2013 et l’intégration de Project Server à d’autres applications. Les applications peuvent être développées pour s’exécuter sur des PC, des appareils mobiles comme Windows Phone 7.5, des tablettes comme les appareils Windows 8, ainsi que des appareils iOS et Android. Le CSOM offre des API qui couvrent les fonctionnalités des 12 services PSI les plus couramment utilisés dans Project Server. Les API CSOM sont organisées différemment et sont plus faciles à utiliser que les services PSI basés sur WCF et sur ASMX. Le CSOM n’utilise pas de jeu de données ADO.NET et est accessible via le protocole OData. Le CSOM permet le développement des applications à l’aide des bibliothèques .NET Framework 4, de JavaScript ou des requêtes REST.
   
 Pour une vue d’ensemble du CSOM et des articles qui montrent comment utiliser JavaScript et .NET Framework 4 avec le CSOM, consultez l’article [Modèle objet côté client (CSOM) pour Project Server](client-side-object-model-csom-for-project-2013.md). Pour plus d’informations sur les classes, les membres et les assemblys CSOM, consultez la référence de l’espace de noms [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx).
@@ -31,9 +27,9 @@ Pour une vue d’ensemble du CSOM et des articles qui montrent comment utiliser 
 
 Voici des exemples de certains types d’applications pris en charge par le CSOM. Le CSOM peut être utilisé à la place de l’interface PSI dans de nombreux cas :
   
-- **Développer des applications qui étendent Project Server** L’objectif principal du CSOM est le développement d’applications pour Project Server 2013, où les applications peuvent être créées pour un large éventail d’appareils incluant des PC, des appareils mobiles et des tablettes. Les applications peuvent être distribuées au sein d’un catalogue d’applications privé ou d’un Office Store public.
+- **Développer des apps qui étendent Project Server** L'objectif principal du modèle objet client est le développement d'applications pour Project Server 2013, où des applications peuvent être créées pour une grande variété d'appareils qui incluent les PC, les appareils mobiles et les tablettes. Les applications peuvent être distribuées dans un catalogue d'applications privé ou dans l'Office Store public.
 
-- **Automatiser la création ou la gestion des entités dans Project Server** Le CSOM peut effectuer des opérations CRUD pour les entités comme des projets, des tâches, des affectations, des ressources d’entreprise, des champs personnalisés, des tables de choix, des feuilles de temps, des  gestionnaires d’événements, des phases de flux de travail et des étapes. Il existe souvent des cas où une application personnalisée peut faire économiser du temps avec des tâches répétitives ou en bloc.
+- **Automatiser la création ou la gestion d'entités dans Project Server** Le modèle objet client peut effectuer des opérations CRUD pour des entités telles que des projets, des tâches, des affectations, des ressources d'entreprise, des champs personnalisés, des tables de consultation, des feuilles de temps, des gestionnaires d'événements et des phases et étapes de flux de travail. Il y a souvent des cas où une application personnalisée peut faire gagner du temps pour des travaux en masse ou répétitifs.
 
 - **Obtenir des données dans les tables publiées de la base de données Project** Étant donné que l’accès direct à la base de données vers les tables provisoires, publiées et archivées n’est pas pris en charge, vous pouvez utiliser le CSOM pour lire les données qui ne sont pas disponibles dans les vues ou les tables de création de rapports. Vous pouvez, par exemple, obtenir des informations relatives aux étapes, aux phases et aux activités de flux de travail. Pour lire les données dans les tables de création de rapports, vous pouvez utiliser des requêtes OData.
 
@@ -48,7 +44,7 @@ Voici des exemples de certains types d’applications pris en charge par le CSOM
     > [!NOTE]
     > Le CSOM prend en charge l’envoi des mises à jour de statut, mais ne prend actuellement pas en charge les approbations de statut.
   
-- **Évaluer les données de Project Server dans les récepteurs d’événements distants** Un récepteur d’événements distant pour un pré-événement **ProjectCreating** peut utiliser les données de Project Server depuis le CSOM pour vous aider à déterminer si l’événement doit être annulé. Par exemple, avant de créer un projet, comparez la proposition de projet avec des projets existants.
+- **Évaluer les données de Project Server dans les récepteurs d’événements distants** Un récepteur d’événements distant pour un pré-événement **ProjectCreating** peut utiliser les données de Project Server depuis le modèle objet client pour vous aider à déterminer si l’événement doit être annulé.
 
 - **Prise en charge des flux de travail Project Server déclaratifs** Le CSOM active les flux de travail Project Server qui sont créés dans SharePoint Designer 2013. Le CSOM prend en charge les définitions de flux de travail qui utilisent Windows Workflow Foundation version 4 (WF4). (L’interface PSI ne prend pas en charge les flux de travail WF4.)
 

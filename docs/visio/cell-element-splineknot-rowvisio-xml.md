@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 61faf0d6-c0a2-9350-8712-7a450591afad
 description: Contient des coordonnées x ou y pour le point de contrôle d’une spline ou le nœud d’une spline.
-ms.openlocfilehash: a54ab1e1b776d6aa7535eb4f9954a3c318075b16
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 18d9fe431778b5dbf7b7b5d86014adb4c67eca61
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783508"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448516"
 ---
 # <a name="cell-element-splineknot-row-visio-xml"></a>Élément de cellule (ligne SplineKnot) (Visio XML)
 
 Contient des coordonnées x ou y pour le point de contrôle d’une spline ou le nœud d’une spline.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[SplineKot_Type](splineknot_type-complextypevisio-xml.md) <br/> |Contient des coordonnées x ou y pour le point de contrôle d’une spline ou le nœud d’une spline. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin. |
    

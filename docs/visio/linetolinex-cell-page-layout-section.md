@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f6b461fe-56ac-4c0e-31cd-6b3c1075db6e
 description: Définit l'écart horizontal entre tous les connecteurs de la page de dessin.
-ms.openlocfilehash: a708e9e80332e5338e5f5ecf6e25b9414df627f9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dc1d6809c76d00c1dd3b4888b34a50d4675afa8e
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628018"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448327"
 ---
 # <a name="linetolinex-cell-page-layout-section"></a>LineToLineX, cellule (section Page Layout)
 
@@ -26,16 +26,16 @@ Vous pouvez également définir la valeur de cette cellule dans la boîte de dia
   
 Pour obtenir une référence à la cellule LineToLineX par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |LineToLineX  <br/> |
+|**Nom de la cellule :**  <br/> |LineToLineX  <br/> |
    
 Pour obtenir une référence à la cellule LineToLineX à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
-|Index de la cellule :  <br/> |**visPLOLineToLineX** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowPageLayout** <br/> |
+|**Index de la cellule :**  <br/> |**visPLOLineToLineX** <br/> |
    
 

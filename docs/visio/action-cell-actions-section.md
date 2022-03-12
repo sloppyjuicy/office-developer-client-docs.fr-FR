@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 435e49ee-0b51-8ce3-0589-3f0717026f4a
 description: Contient la formule à exécuter lorsqu’un utilisateur choisit une commande de menu contextuel ou de balise d’action.
-ms.openlocfilehash: 323e828e1aec389e08d12e18e17413e021b7615b
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: cb75bc42d7c0cfc60433883817f05723b1e1917e
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778656"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448313"
 ---
 # <a name="action-cell-actions-section"></a>Action, cellule (section Actions)
 
@@ -29,16 +29,16 @@ Une cellule Action n'est évaluée que lorsque l'action se produit, et non lorsq
   
 Pour obtenir une référence à la cellule Action à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | Actions.  *nom*  . Action où Actions. *name*  est le nom de la ligne actions  <br/> |
+| **Nom de cellule :**  <br/> | Actions.  *nom*  . Action où Actions. *name*  est le nom de la ligne actions  <br/> |
    
 Pour obtenir une référence à la cellule Action à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionAction** <br/> |
-| Index de la ligne :  <br/> |**visRowAction** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visActionAction** <br/> |
+| **Index de la section :**  <br/> |**visSectionAction** <br/> |
+| **Index de la ligne :**  <br/> |**visRowAction** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visActionAction** <br/> |
    
 

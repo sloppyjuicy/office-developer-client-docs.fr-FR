@@ -6,18 +6,18 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6b35d58b-ec6f-9b99-01fb-c665630e65d7
-ms.openlocfilehash: 6809978cf6f95183e07ae91b0e47a6950dc9e09e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5d4a76b6134d8189fd794297a3bf792da8fa07a2
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59582595"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448775"
 ---
 # <a name="linegradientrow_type-complextype-visio-xml"></a>LineGradientRow_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
@@ -46,11 +46,11 @@ ms.locfileid: "59582595"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Cell](cell-element-line-gradient-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> ||
    

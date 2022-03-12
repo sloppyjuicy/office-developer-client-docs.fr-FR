@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 38391818-21c9-9450-2ed1-11cc1d862310
 description: Indique la langue par défaut pour le document.
-ms.openlocfilehash: a6608515101955dc8867e9eca8812022f3e2e1ca
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fe5e7ffe88f3a2d602732399efeb6a6ea47f851d
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59594558"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448663"
 ---
 # <a name="doclangid-cell-document-properties-section"></a>DocLangID, cellule (section Document Properties)
 
@@ -22,9 +22,9 @@ Indique la langue par défaut pour le document.
   
 ## <a name="remarks"></a>Remarques
 
-La langue du document est basée sur la langue définie dans la boîte de Microsoft Office préférences **de** langue. (Cliquez **sur** Démarrer, sur Tous les **programmes,** sur **Microsoft Office,** sur Microsoft Office **Outils,** puis sur Microsoft Office **langue.)**
+La langue du document est basée sur la langue définie dans la boîte de **dialogue Préférences** Microsoft Office langue. (Cliquez **sur** Démarrer, sur Tous les **programmes, sur** **Microsoft Office**, sur Microsoft Office **Outils**, puis sur Microsoft Office **langue.**)
   
-Si vous souhaitez modifier la langue d’un document, au lieu de modifier cette  cellule directement,  il est préférable de modifier cette valeur dans la boîte de dialogue Propriétés (cliquez sur l’onglet Fichier, cliquez sur **Informations,** sur Propriétés, puis sur Propriétés **avancées)** ou par programme, à l’aide de la propriété **Language** de l’objet **Document.** 
+Si vous souhaitez modifier la langue d’un document, au lieu de modifier cette cellule directement, il est préférable de modifier cette valeur dans la  boîte de dialogue Propriétés (cliquez sur l’onglet Fichier, sur **Informations****, sur** Propriétés, puis sur Propriétés **avancées) ou** par programme, à l’aide de la propriété **Language** de l’objet **Document**. 
   
 Le tableau suivant contient une liste des langues et leur LCID correspondant.
   
@@ -146,18 +146,18 @@ Le tableau suivant contient une liste des langues et leur LCID correspondant.
 |Yiddish  <br/> |1085  <br/> |
 |Yorouba  <br/> |1130  <br/> |
    
-Pour obtenir une référence à la cellule DocLangID par un nom à partir d’une autre formule ou d’un programme à l’aide de la **propriété CellsU,** utilisez : 
+Pour obtenir une référence à la cellule DocLangID par un nom à partir d’une autre formule ou d’un programme à l’aide de la **propriété CellsU** , utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |DocLangID  <br/> |
+|**Nom de la cellule :**  <br/> |DocLangID  <br/> |
    
 Pour obtenir une référence à la cellule DocLangID à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowDoc** <br/> |
-|Index de la cellule :  <br/> |**visDocLangID** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowDoc** <br/> |
+|**Index de la cellule :**  <br/> |**visDocLangID** <br/> |
    
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f864c759-ed94-8ab7-d664-cc04b3ed743e
 description: Indique la marge de droite de la page d'impression.
-ms.openlocfilehash: 822cdf7fa58a51362b8a67fc4f22c778f522cc8b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f71affe9b00ce604288616e1fb11e130e459f858
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59562922"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448495"
 ---
 # <a name="pagerightmargin-cell-print-properties-section"></a>PageRightMargin, cellule (section Print Properties)
 
@@ -26,16 +26,16 @@ Cette valeur représente des unités physiques et n'est pas affectée par les un
   
 Pour obtenir une référence à la cellule PageRightMargin par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | PageRightMargin  <br/> |
+| **Nom de la cellule :**  <br/> | PageRightMargin  <br/> |
    
 Pour obtenir une référence à la cellule PageRightMargin à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowPrintProperties** <br/> |
-| Index de la cellule :  <br/> |**visPrintPropertiesRightMargin** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowPrintProperties** <br/> |
+| **Index de la cellule :**  <br/> |**visPrintPropertiesRightMargin** <br/> |
    
 

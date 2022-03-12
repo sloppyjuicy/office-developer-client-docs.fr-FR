@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 2bb0f4c5-eacf-e09b-2fce-dcff2d927557
 description: Spécifie la marge de l’en-tête d’un document.
-ms.openlocfilehash: bf2db1025023b0eaf43a15d39487e5511beb7088
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 7598ac5a9d518a6e0d96b0ee352a1f6697457492
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775807"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448782"
 ---
 # <a name="headermargin-element-headerfooter_type-complextype-visio-xml"></a>Élément HeaderMargin (HeaderFooter_Type complexType) (Visio XML)
 
 Spécifie la marge de l’en-tête d’un document.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[HeaderMargin_Type](headermargin_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de groupe d’un document. |
    

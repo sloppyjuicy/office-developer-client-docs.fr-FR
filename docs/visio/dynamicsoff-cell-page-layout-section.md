@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 055764aa-9681-ffb0-83ce-fdd612fe37af
 description: Détermine si les formes positionnables se déplacent et si les connecteurs sont repositionnés autour des autres formes et des connecteurs sur la page de dessin.
-ms.openlocfilehash: 216f6c035f4122fc47766639e05854d95319be6e
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 4975aeed0dd53b9846261b77b43ee620b371491d
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775905"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448621"
 ---
 # <a name="dynamicsoff-cell-page-layout-section"></a>DynamicsOff, cellule (section Page Layout)
 
@@ -31,16 +31,16 @@ Vous pouvez désactiver le repositionnement automatique pour augmenter les perfo
   
 Pour obtenir une référence à la cellule DynamcOff par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | DynamicsOff  <br/> |
+| **Nom de la cellule :**  <br/> | DynamicsOff  <br/> |
    
 Pour obtenir une référence à la cellule DynamcOff à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
-| Index de la cellule :  <br/> |**visPLODynamicsOff** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowPageLayout** <br/> |
+| **Index de la cellule :**  <br/> |**visPLODynamicsOff** <br/> |
    
 

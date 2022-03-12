@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: ef200f41-7b69-1291-f9df-a7035239a033
 description: Détermine, en unités de page, la distance du décalage vertical entre l'ombre d'une forme et la forme.
-ms.openlocfilehash: 45efbee0376bd680dea4dbbb8f5961c0e9275ecc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 515be19462ddffac0a691db1fada2a84712cfc22
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622885"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448397"
 ---
 # <a name="shapeshdwoffsety-cell-fill-format-section"></a>ShapeShdwOffsetY, cellule (section Fill Format)
 
@@ -26,16 +26,16 @@ Cette valeur correspond à celle du paramètre **Décalage Y** de la boîte de d
   
 Pour obtenir une référence à la cellule ShapeShdwOffsetY par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | ShapeShdwOffsetY  <br/> |
+| **Nom de cellule :**  <br/> | ShapeShdwOffsetY  <br/> |
    
 Pour obtenir une référence à la cellule ShapeShdwOffsetY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowFill** <br/> |
-| Index de la cellule :  <br/> |**visFillShdwOffsetY** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowFill** <br/> |
+| **Index de la cellule :**  <br/> |**visFillShdwOffsetY** <br/> |
    
 

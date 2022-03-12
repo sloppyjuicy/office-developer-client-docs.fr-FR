@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 3c0aa7a3-cc54-ffac-2c62-917b3d0a357e
 description: Contient les coordonnées x ou y du point de terminaison, des coordonnées x ou y d’un arc elliptique des points de contrôle sur l’arc, l’angle entre l’axe des x et l’axe principal de l’ellipse, ou le rapport entre les axes principal et mineur de l’ellipse.
-ms.openlocfilehash: 14854d82333c68b4e734ab5f296ee9fac6f87e21
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 9c9be6437563574c08e3fbf16123b8581a98a5bc
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773004"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448425"
 ---
 # <a name="cell-element-ellipticalarcto-row-visio-xml"></a>Élément de cellule (ligne EllipticalArcTo) (Visio XML)
 
 Contient les coordonnées x ou y du point de terminaison, des coordonnées x ou y d’un arc elliptique des points de contrôle sur l’arc, l’angle entre l’axe des x et l’axe principal de l’ellipse, ou le rapport entre les axes principal et mineur de l’ellipse.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[EllipticalArcTo_Type](ellipticalarcto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y du point de terminaison, des coordonnées x ou y d’un arc elliptique des points de contrôle sur l’arc, l’angle entre l’axe des x et l’axe principal de l’ellipse, ou le rapport entre les axes principal et mineur de l’ellipse. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin. |
    

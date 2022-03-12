@@ -6,22 +6,22 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 04448cfa-7eb4-62ca-97d2-409b59a8db90
-ms.openlocfilehash: 0a7462fd1e34dc28224b31b82b2c30fd25c7bb72
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 4dbe40f66b68144fe85d9f339b14a1a6fd65be64
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782310"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448768"
 ---
 # <a name="datarecordsets_type-complextype-visio-xml"></a>DataRecordSets_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base d’extension** <br/> |Aucune  <br/> |
+|**Base d’extension** <br/> |Aucun  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -56,7 +56,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> ||
    

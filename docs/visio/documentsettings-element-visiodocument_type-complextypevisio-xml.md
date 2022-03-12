@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 46712e1f-4e02-974f-c224-85db47666ae1
 description: Contient des éléments qui spécifient les paramètres de document.
-ms.openlocfilehash: 1832279f8e0282f5aa74e88d8489322e930d53d8
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3219eb1e673a4449a1a88e7341f80db02e432dda
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62787344"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448411"
 ---
 # <a name="documentsettings-element-visiodocument_type-complextype-visio-xml"></a>Élément DocumentSettings (VisioDocument_Type complexType) (Visio XML)
 
 Contient des éléments qui spécifient les paramètres de document.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,16 +40,16 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Élément racine d’un document Microsoft Visio document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[AttachedToolbars](attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md) <br/> |[AttachedToolbars_Type](attachedtoolbars_type-complextypevisio-xml.md) <br/> |Fichier MIME (Multipurpose Internet Mail Extensions) codé Microsoft Visio interface utilisateur (VSU) représentant des barres d’outils personnalisées. |
-|[CustomMenusFile](custommenusfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[CustomMenusFile_Type](custommenusfile_type-complextypevisio-xml.md) <br/> |Contient le nom du fichier d’interface Visio Microsoft (.vsu) qui définit des menus et des accélérateurs personnalisés pour un document. |
+|[CustomMenusFile](custommenusfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[CustomMenusFile_Type](custommenusfile_type-complextypevisio-xml.md) <br/> |Contient le nom du fichier d’interface utilisateur microsoft Visio (.vsu) qui définit des menus et des accélérateurs personnalisés pour un document. |
 |[CustomToolbarsFile](customtoolbarsfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[CustomToolbarsFile_Type](customtoolbarsfile_type-complextypevisio-xml.md) <br/> |Contient le nom du fichier d’interface Visio Microsoft (.vsu) qui définit les barres d’outils et barres d’état personnalisées d’un document. |
 |[DynamicGridEnabled](dynamicgridenabled-element-documentsettings_type-complextypevisio-xml.md) <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |Spécifie si la fonctionnalité de grille dynamique est activée pour un document ou une fenêtre. |
 |[GlueSettings](gluesettings-element-documentsettings_type-complextypevisio-xml.md) <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> |Spécifie les objets sur qui les formes collent lorsque le collage est activé dans le document. |

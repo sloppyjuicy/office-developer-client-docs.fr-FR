@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c18955c8-d653-c29d-d3da-9d3cd0241e17
 description: Détermine si la plage de texte est soulignée ou non d'une ligne double.
-ms.openlocfilehash: cfb0e374226aa0ab9f4d8d84db5778eed31468f2
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 0ebb319ae4bb0c7e5a31e9820a384ee0d5726cfe
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771600"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448278"
 ---
 # <a name="doubleuline-cell-character-section"></a>DoubleULine, cellule (section Character)
 
@@ -33,16 +33,16 @@ Vous pouvez également définir la valeur de cette cellule dans la boîte de dia
   
 Pour obtenir une référence à la cellule DoubleULine par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Char.DblUnderline[ *i*  ] où  *i*  = <1>, 2, 3... |
+|**Nom de cellule :**  <br/> |Char.DblUnderline[ *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule DoubleULine à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionCharacter** <br/> |
-|Index de la ligne :  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visCharacterDblUnderline** <br/> |
+|**Index de la section :**  <br/> |**visSectionCharacter** <br/> |
+|**Index de la ligne :**  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visCharacterDblUnderline** <br/> |
    
 

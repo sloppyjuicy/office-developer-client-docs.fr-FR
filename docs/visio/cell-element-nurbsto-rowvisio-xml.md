@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: e76bae8f-b9de-39ef-1f56-b00a6cd2ba6c
 description: Contient les coordonnées x ou y, la position du deuxième au dernier nœud, la position du dernier poids, la position du premier nœud, la position de la première pondération ou la formule d’une ligne B-spline rationnelle nonuniforme (NURBS).
-ms.openlocfilehash: 3e1e0e752a780ddf99f5515294eab2132c889df5
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 8b17fc8bfcda34ed8a725bf1ba1911f2e593046b
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781031"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448446"
 ---
 # <a name="cell-element-nurbsto-row-visio-xml"></a>Élément de cellule (ligne NURBSTo) (Visio XML)
 
 Contient les coordonnées x ou y, la position du deuxième au dernier nœud, la position du dernier poids, la position du premier nœud, la position de la première pondération ou la formule d’une ligne B-spline rationnelle nonuniforme (NURBS).
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[NURBSTo_Type](nurbsto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y, la position du deuxième au dernier nœud, la position du dernier poids, la position du premier nœud, la position de la première pondération ou la formule d’une ligne B-spline rationnelle nonuniforme (NURBS). |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin. |
    

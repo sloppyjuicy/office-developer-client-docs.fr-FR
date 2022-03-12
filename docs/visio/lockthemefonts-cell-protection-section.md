@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 1ce8b52c-b6c1-4764-b4ec-00c7efb8929d
 description: Empêche la cellule FontIndex de la ligne Propriétés du thème d’être modifiée en appliquant un nouveau thème. N’empêche pas les utilisateurs de modifier manuellement cette valeur dans la feuille ShapeSheet.
-ms.openlocfilehash: 90e6b61d875760c1ae374bd263c41b519492f449
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: f7200a155f007f8fe18948d11aba6fea9b26194e
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788870"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448362"
 ---
 # <a name="lockthemefonts-cell-protection-section"></a>LockThemeFonts Cell (Protection Section)
 
@@ -27,16 +27,16 @@ Empêche la cellule **FontIndex** de la ligne **Propriétés** du thème d’êt
 
 Pour obtenir une référence à la cellule **LockThemeFonts** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | LockThemeFonts  <br/> |
+| **Nom de cellule :**  <br/> | LockThemeFonts  <br/> |
    
 Pour obtenir une référence à la **cellule LockThemeFonts** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowLock** <br/> |
-| Index de la cellule :  <br/> |**visLockThemeFonts** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowLock** <br/> |
+| **Index de la cellule :**  <br/> |**visLockThemeFonts** <br/> |
    
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: bc0154b1-6930-1fe0-655c-05eab2d60230
 description: Contient une formule de courbe B-spline rationnelle non uniforme (NURBS).
-ms.openlocfilehash: cc9e07907a71fa44ab2c319c28b23947f8d06184
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 953aac5a8c2f903096456883004acc790c93db77
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774307"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448530"
 ---
 # <a name="e-cell-geometry-section"></a>E, cellule (section Geometry)
 
@@ -24,16 +24,16 @@ Contient une formule de courbe B-spline rationnelle non uniforme (NURBS).
 
 Pour obtenir une référence à la cellule E par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Geometry  *i*  . E  *j*            où  *i*  et  *j*  = <1>, 2, 3... |
+| **Nom de cellule :**  <br/> | Geometry  *i*  . E  *j*            où  *i*  et  *j*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule E à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionFirstComponent** +   *i* où *i* = 0, 1, 2... |
-| Index de la ligne :  <br/> |**visRowVertex** +   *j* où *j* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visNURBSData** <br/> |
+| **Index de la section :**  <br/> |**visSectionFirstComponent** +   *i* où *i* = 0, 1, 2... |
+| **Index de la ligne :**  <br/> |**visRowVertex** +   *j* où *j* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visNURBSData** <br/> |
    
 

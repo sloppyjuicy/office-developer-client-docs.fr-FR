@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: a29c5d4e-d3d6-d984-495a-4b0b130352ef
 description: 'Représente la coordonnée y de l’axe de la forme (centre de rotation) par rapport à l’origine de la forme. La formule par défaut permettant de déterminer LocPinY est la suivante :'
-ms.openlocfilehash: 3e9ff2fd0daf3f75e1e1b341a37836e0ccc70831
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a4bb5c4c05d6b0d62c74488996ab1fb1f00f18ae
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623361"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448635"
 ---
 # <a name="locpiny-cell-shape-transform-section"></a>LocPinY, cellule (section Shape Transform)
 
@@ -26,16 +26,16 @@ Représente la  *coordonnée y*  de l’axe de la forme (centre de rotation) par
 
 Pour obtenir une référence à la cellule LocPinY par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | LocPinY  <br/> |
+| **Nom de la cellule :**  <br/> | LocPinY  <br/> |
    
 Pour obtenir une référence à la cellule LocPinY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowXFormOut** <br/> |
-| Index de la cellule :  <br/> |**visXFormLocPinY** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowXFormOut** <br/> |
+| **Index de la cellule :**  <br/> |**visXFormLocPinY** <br/> |
    
 

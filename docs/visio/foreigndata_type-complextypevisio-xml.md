@@ -6,22 +6,22 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 21b394a6-6f95-fc17-482c-4cb648a0d9bb
-ms.openlocfilehash: 381124edfa2b2b48c349fb75cab80f18c808de76
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: cb1547df147dc61c75bd6ee73ee1751dbb8eec34
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782212"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448502"
 ---
 # <a name="foreigndata_type-complextype-visio-xml"></a>ForeignData_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base d’extension** <br/> |Aucune  <br/> |
+|**Base d’extension** <br/> |Aucun  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -77,7 +77,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Rel](rel-element-foreigndata_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> ||
    

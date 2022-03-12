@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 3afee07b-e91a-a91c-fba2-0e3251dd6385
 description: Détermine si les objets sont positionnables ou repositionnables dans les diagrammes lorsque vous utilisez la boîte de dialogue Configurer la disposition pour disposer des formes.
-ms.openlocfilehash: 44a0b2858a3835d5d60af55d4b0b0463dcdacce7
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 9ad97504ef2c00b8f86d28ddd988db2794470530
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774131"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448390"
 ---
 # <a name="objtype-cell-miscellaneous-section"></a>ObjType, cellule (section Miscellaneous)
 
@@ -36,16 +36,16 @@ La valeur de la cellule ObjType peut être une combinaison de plusieurs valeurs.
   
 Pour obtenir une référence à la cellule ObjType par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |ObjType  <br/> |
+|**Nom de la cellule :**  <br/> |ObjType  <br/> |
    
 Pour obtenir une référence à la cellule ObjType à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowMisc** <br/> |
-|Index de la cellule :  <br/> |**visLOFlags** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowMisc** <br/> |
+|**Index de la cellule :**  <br/> |**visLOFlags** <br/> |
    
 

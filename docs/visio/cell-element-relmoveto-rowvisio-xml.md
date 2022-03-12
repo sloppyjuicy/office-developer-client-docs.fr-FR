@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 8e91497c-0aa1-2021-9317-cf989e5b84a3
 description: Contient les coordonnées x ou y du premier sommet d’une forme, ou les coordonnées x ou y du premier sommet après une coupure dans un chemin d’accès, par rapport à la hauteur et à la largeur de la forme.
-ms.openlocfilehash: 00eb6670bd710a3f140a2487c5810e90c493874a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 12d0690b7a68fc1773747d3fb9075f6aaabfca05
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781057"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448698"
 ---
 # <a name="cell-element-relmoveto-row-visio-xml"></a>Élément de cellule (ligne RelMoveTo) (Visio XML)
 
 Contient les coordonnées x ou y du premier sommet d’une forme, ou les coordonnées x ou y du premier sommet après une coupure dans un chemin d’accès, par rapport à la hauteur et à la largeur de la forme.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[RelMoveTo_Type](relmoveto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y du premier sommet d’une forme, ou les coordonnées x ou y du premier sommet après une coupure dans un chemin d’accès, par rapport à la hauteur et à la largeur de la forme. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page. |
    

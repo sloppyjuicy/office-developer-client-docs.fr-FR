@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: cafd7589-1c94-b9bc-b1a6-40f7c15fba71
 description: Détermine l'aspect d'un connecteur.
-ms.openlocfilehash: f3bba289b4b4f4dc880694b40b8bf835f7cdc321
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 55f71d77892a1036879c1db8c5a5431199536dd5
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577968"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448712"
 ---
 # <a name="conlinerouteext-cell-shape-layout-section"></a>ConLineRouteExt, cellule (section Shape Layout)
 
@@ -30,16 +30,16 @@ Détermine l'aspect d'un connecteur.
 
 Pour obtenir une référence à la cellule ConLineTouteExt par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | ConLineRouteExt  <br/> |
+| **Nom de la cellule :**  <br/> | ConLineRouteExt  <br/> |
    
 Pour obtenir une référence à la cellule ConLineRouteExt à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
-| Index de la cellule :  <br/> |**visSLOLineRouteExt** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowShapeLayout** <br/> |
+| **Index de la cellule :**  <br/> |**visSLOLineRouteExt** <br/> |
    
 

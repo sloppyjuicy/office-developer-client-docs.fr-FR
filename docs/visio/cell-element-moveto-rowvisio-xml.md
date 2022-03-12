@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: b3b2a08f-07a0-5f1c-4910-503229927816
 description: Contient les coordonnées x ou y du premier sommet d’une forme, ou représente les coordonnées x ou y du premier sommet après une coupure dans un chemin d’accès.
-ms.openlocfilehash: ac847ce51875deefc1d9e1a1b89ff7ee9c50c20b
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5ef6f6c0f143eebb0894947de110358adbf0b515
+ms.sourcegitcommit: 7b410a51d1e8c97e9cce8d4aa75074162b7d9485
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771754"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448733"
 ---
 # <a name="cell-element-moveto-row-visio-xml"></a>Élément de cellule (ligne MoveTo) (Visio XML)
 
 Contient les coordonnées x ou y du premier sommet d’une forme, ou représente les coordonnées x ou y du premier sommet après une coupure dans un chemin d’accès.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[MoveTo_Type](moveto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y du premier sommet d’une forme, ou représente les coordonnées x ou y du premier sommet après une coupure dans un chemin d’accès. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin. |
    
