@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 328f8ab5-217f-0336-0d56-611eff509fe8
 description: Indique le point zéro sur l'axe x de la règle de la page.
-ms.openlocfilehash: 5788094abad6cadc2b32f8a9fe9d7e2a80c4209b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fd31992e5106c7e4e987aa0f3b8678efc09cc7c0
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622577"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63505980"
 ---
 # <a name="xrulerorigin-cell-ruler-amp-grid-section"></a>XRulerOrigin, cellule (section Ruler &amp; Grid)
 
@@ -22,20 +22,20 @@ Indique le point zéro sur l'axe x de la règle de la page.
   
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l’option **Règle** zéro horizontale dans  la boîte de dialogue **Grille &amp;** de règles (sous l’onglet Affichage, cliquez sur **Afficher** la flèche). 
+Cette cellule correspond à l’option **Règle** zéro horizontale dans la boîte de dialogue **Grille &amp;** de règles (sous l’onglet Affichage, cliquez sur **Afficher** la flèche). 
   
 Pour obtenir une référence à la cellule XRulerOrigin par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |XRulerOrigin  <br/> |
+|**Nom de la cellule :**  <br/> |XRulerOrigin  <br/> |
    
 Pour obtenir une référence à la cellule XRulerOrigin par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
-|Index de la cellule :  <br/> |**visXRulerOrigin** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowRulerGrid** <br/> |
+|**Index de la cellule :**  <br/> |**visXRulerOrigin** <br/> |
    
 

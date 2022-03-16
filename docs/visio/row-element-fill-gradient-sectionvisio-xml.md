@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: f216afb5-4393-6e1c-54c2-3c184a26d934
 description: Contient la couleur, la transparence et la position d’un dégradé pour un dégradé de remplissage.
-ms.openlocfilehash: 97ca98826673174856b38f09dc41d50630f2af68
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: bd525b45095f307388b150dcbf8af1ff50a61b7e
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778229"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507978"
 ---
 # <a name="row-element-fill-gradient-section-visio-xml"></a>Élément Row (Fill Gradient Section) (Visio XML)
 
 Contient la couleur, la transparence et la position d’un dégradé pour un dégradé de remplissage.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[FillGradientRow_Type](fillgradientrow_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contient la couleur, la transparence et la position d’un dégradé pour un dégradé de remplissage. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Cell](cell-element-fill-gradient-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Spécifie une propriété unique. |
    

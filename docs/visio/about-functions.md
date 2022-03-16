@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 871b8601-8117-bc51-17b9-6002234b4bfb
 description: "Une fonction effectue une tâche unique et bien précise. La plupart des fonctions acceptent plusieurs arguments comme entrées. Le type et le nombre d'arguments dépendent des fonctions, mais toutes utilisent la même syntaxe générale :"
-ms.openlocfilehash: afac1bfe879239aebefc702e1487afba90ed50d6
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 3642d4ac3cb692d542db14bcc20eef06f05985c7
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374599"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63508221"
 ---
 # <a name="about-functions"></a>À propos des fonctions
 
@@ -28,7 +28,7 @@ Une fonction effectue une tâche unique et bien précise. La plupart des fonctio
 | ,  <br/> | Les arguments sont séparés par une virgule. |
 | ... | Utilisé pour la notation uniquement ; ne pas inclure dans une fonction. |
 | [ ]  <br/> | Argument facultatif. Utilisé pour la notation uniquement ; ne pas inclure dans une fonction. |
-| |  <br/> | Un choix ; vous pouvez inclure  _argumentA_ ou  _argument_. Utilisé pour la notation uniquement ; ne pas inclure dans une fonction. |
+| \|  <br/> | Un choix ; vous pouvez inclure  _argumentA_ ou  _argument_. Utilisé pour la notation uniquement ; ne pas inclure dans une fonction. |
 
 De nombreuses fonctions utilisables dans les formules ressemblent à celles que vous avez l'habitude de rencontrer dans les tableurs : fonctions mathématiques, comme SUM ou SQRT ; trigonométriques, comme SIN ou COS, ou logiques, comme IF ou NOT. Beaucoup d'autres fonctions sont toutefois propres à Microsoft Office Visio, par exemple GUARD, GRAVITY et RUNADDON.
   

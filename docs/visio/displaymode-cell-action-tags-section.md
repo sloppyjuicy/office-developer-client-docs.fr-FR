@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 0dfad40b-f97e-0c4a-2102-7344d1317b82
 description: Détermine si la balise d’action s’affiche lorsque l’utilisateur place le pointeur sur la balise, lorsque la forme est sélectionnée ou en tout temps.
-ms.openlocfilehash: 7bc26323ff26467b7539ac8342627514051d88e2
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 43e3ae61a2ad742ca7ddbf45f2d9781bf7daa0d6
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775919"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506536"
 ---
 # <a name="displaymode-cell-action-tags-section"></a>DisplayMode Cell (Action Tags Section)
 
@@ -37,16 +37,16 @@ Si une balise d’action est définie pour une page et si cette cellule contient
   
 Pour obtenir une référence à la cellule DisplayMode à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | SmartTags.  *nom*  . DisplayMode où SmartTags. *name est*  le nom de la ligne de balise d’action  <br/> |
+| **Nom de cellule :**  <br/> | SmartTags.  *nom*  . DisplayMode où SmartTags. *name est*  le nom de la ligne de balise d’action  <br/> |
    
 Pour obtenir une référence à la cellule DisplayMode à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visSmartTagDisplayMode** <br/> |
+| **Index de la section :**  <br/> |**visSectionSmartTag** <br/> |
+| **Index de la ligne :**  <br/> |**visRowSmartTag** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visSmartTagDisplayMode** <br/> |
    
 

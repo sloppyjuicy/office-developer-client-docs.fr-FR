@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: eac6be6a-9a20-4bc0-8da2-b2fd93aab04f
 description: L’interface PSI (Project Server Interface) peut vous aider à automatiser de nombreux processus côté serveur dans les installations sur site de Project Server 2013. Toutefois, plusieurs fonctions nécessitent l’utilisation de Microsoft Project Professionnel 2013.
-ms.openlocfilehash: ceef86539523aff9685018d93f479073edb2977e
-ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
+ms.openlocfilehash: 4e4b1fdab2745f3b7975ba85ccc7f863b992d6b3
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63426383"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507696"
 ---
 # <a name="what-the-psi-does-and-does-not-do"></a>Fonctionnalités de l’interface PSI
 
@@ -233,4 +233,4 @@ Pour la tâche récapitulatif du projet, les limitations PSI sont les mêmes que
 - [Fonctionnalité du modèle CSOM](what-the-csom-does-and-does-not-do.md)  
 - [Programmabilité de Project Server](project-server-programmability.md)
 - [Authentification à distance dans SharePoint Online à l’aide de l’authentification basée sur les revendications](https://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
-- [Compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
+- [Compléments Office](/office/dev/add-ins/overview/office-add-ins)

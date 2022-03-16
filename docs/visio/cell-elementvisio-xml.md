@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 3131bfbb-9bf6-d15d-c6ca-2f15bd038f39
 description: Spécifie les éléments de cellule qui peuvent être contenus dans une feuille DocumentSheet, StyleSheet, PageSheet ou ShapeSheet.
-ms.openlocfilehash: c447d05067ae6229d18a464375fa2b1fb516d08b
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 6e31c217f03260be3ce69a90f0ed84d9d81eaf7c
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781050"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507117"
 ---
 # <a name="cell-element-visio-xml"></a>Élément de cellule (Visio XML)
 
 Spécifie les éléments de cellule qui peuvent être contenus dans une feuille DocumentSheet, StyleSheet, PageSheet ou ShapeSheet.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -38,7 +38,7 @@ Spécifie les éléments de cellule qui peuvent être contenus dans une feuille 
 
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Forme](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Spécifie les éléments de cellule qui fournissent des informations pour la définition d’une forme. |
 |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSheet_Type](documentsheet_type-complextypevisio-xml.md) <br/> |Définit la structure de la feuille de document. |
@@ -48,7 +48,7 @@ Spécifie les éléments de cellule qui peuvent être contenus dans une feuille 
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin. |
    
@@ -77,7 +77,7 @@ Spécifie les éléments de cellule qui peuvent être contenus dans une feuille 
 |AlignTop  <br/> |Détermine la position verticale, par rapport à l'origine de son parent, d'un repère horizontal ou d'un point de repère sur lequel est aligné le bord supérieur de la forme. |[AlignTop, cellule (section Alignment)](aligntop-cell-alignment-section.md) <br/> |
 |Angle  <br/> |Représente l'angle de rotation actuel de la forme par rapport à son parent. La formule par défaut déterminant l'angle de rotation d'une forme 1D est : =ATAN2(EndY-BeginY,EndX-BeginX). |[Cellule Angle (section Shape Transform)](angle-cell-shape-transform-section.md) <br/> |
 |AvenueSizeX  <br/> |Détermine la quantité d’espace horizontal entre les formes de la page de dessin lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Re-Layout Page, puis sur Autres options de disposition). |[AvenueSizeX, cellule (section Page Layout)](avenuesizex-cell-page-layout-section.md) <br/> |
-|AvenueSizeY  <br/> |Détermine la quantité d’espace vertical entre les formes sur la page de dessin lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Re-Layout Page, puis sur Autres options de disposition). Détermine la quantité d’espace vertical entre les formes sur la page de dessin lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Re-Layout Page, puis sur Autres options de disposition). |[AvenueSizeY, cellule (section Page Layout)](avenuesizey-cell-page-layout-section.md) <br/> |
+|AvenueSizeY  <br/> |Détermine la quantité d’espace vertical entre les formes sur la page de dessin lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Re-Layout Page, puis cliquez sur Autres options de disposition). Détermine la quantité d’espace vertical entre les formes sur la page de dessin lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Re-Layout Page, puis cliquez sur Autres options de disposition). |[AvenueSizeY, cellule (section Page Layout)](avenuesizey-cell-page-layout-section.md) <br/> |
 |AvoidPageBreaks  <br/> |Détermine si les formes peuvent être placées sur les sauts de page lorsqu’elles sont alignées et/ou espacées de manière incrémentielle. |[AvoidPageBreaks Cell (Page Layout Section)](avoidpagebreaks-cell-page-layout-section.md) <br/> |
 |BeginArrow  <br/> |Indique si un trait comporte une pointe de flèche ou un autre format d'extrémité de trait à son premier sommet. Entrez un nombre compris entre 0 et 45 ou la fonction UTILISATION avec le nom d'une extrémité de trait personnalisée ou utilisez la boîte de dialogue Trait. |[BeginArrow, cellule (section Line Format)](beginarrow-cell-line-format-section.md) <br/> |
 |BeginArrowSize  <br/> |Détermine la taille de la pointe de flèche au début du trait. |[BeginArrowSize, cellule (section Line Format)](beginarrowsize-cell-line-format-section.md) <br/> |

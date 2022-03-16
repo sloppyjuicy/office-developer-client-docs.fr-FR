@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: ac14d132-bc91-194b-4a0b-8a4b72acdbfd
 description: Spécifie si la fonctionnalité de grille dynamique est activée pour une fenêtre.
-ms.openlocfilehash: e946e7cbad2ad6e5660da3d2875ca166999963ba
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 6996362c19ae8a2d6479138bf0d7d967e2d7ab8e
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783340"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63508120"
 ---
 # <a name="dynamicgridenabled-element-window_type-complextype-visio-xml"></a>Élément DynamicGridEnabled (Window_Type complexType) (Visio XML)
 
 Spécifie si la fonctionnalité de grille dynamique est activée pour une fenêtre.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio. |
    

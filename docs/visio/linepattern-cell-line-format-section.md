@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: a416762b-7294-c99f-d9f1-332c3ed35dff
 description: Détermine le motif de trait d'une forme. La valeur entrée dans la cellule LinePattern est un nombre correspondant à un index d'un ensemble de motifs de trait.
-ms.openlocfilehash: e17227418fe358cb66a3ab7983940527510d8c62
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2a5d5225cc713d5b30dad086edcf4d85869b6121
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623410"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507293"
 ---
 # <a name="linepattern-cell-line-format-section"></a>LinePattern, cellule (section Line Format)
 
@@ -34,16 +34,16 @@ Pour choisir un motif de trait personnalisé, utilisez la fonction USE dans cett
   
 Pour obtenir une référence à la cellule LinePattern par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |LinePattern  <br/> |
+|**Nom de la cellule :**  <br/> |LinePattern  <br/> |
    
 Pour obtenir une référence à la cellule LinePattern à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowLine** <br/> |
-|Index de la cellule :  <br/> |**visLinePattern** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowLine** <br/> |
+|**Index de la cellule :**  <br/> |**visLinePattern** <br/> |
    
 

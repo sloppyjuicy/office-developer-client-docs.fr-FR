@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: bad4c512-e91f-d459-d65c-a4ab725c3c14
 description: Indique l'angle de la direction oblique de l'ombre d'une forme.
-ms.openlocfilehash: 504283783040899cf505498264b9a9c50c275f5e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8cac34fb582cb1a8355df6c718bc8375c4446ac1
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553878"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507966"
 ---
 # <a name="shapeshdwobliqueangle-cell-fill-format-section"></a>ShapeShdwObliqueAngle, cellule (section Fill Format)
 
@@ -28,16 +28,16 @@ Cette valeur correspond à celle du paramètre **Orientation** de la boîte de d
   
 Pour obtenir une référence à la cellule ShapeShdwObliqueAngle par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | ShapeShdwObliqueAngle  <br/> |
+| **Nom de cellule :**  <br/> | ShapeShdwObliqueAngle  <br/> |
    
 Pour obtenir une référence à la cellule ShapeShdwObliqueAngle à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowFill** <br/> |
-| Index de la cellule :  <br/> |**visFillShdwObliqueAngle** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowFill** <br/> |
+| **Index de la cellule :**  <br/> |**visFillShdwObliqueAngle** <br/> |
    
 

@@ -8,24 +8,24 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 59e9c1ed-32a8-4bcd-bdfc-9aa568a34d2a
 description: Vous pouvez écrire du code pour répondre à différents événements qui se produisent lorsqu'un utilisateur remplit un formulaire. Pour utiliser des événements dans InfoPath, vous créez des gestionnaires d'événements dans le Concepteur InfoPath.
-ms.openlocfilehash: 5bfde9545a570baef4cbe679c9c6a2fe103215b6
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 6dc019f8b198f28cd7f977132569b1af6dec6b98
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770842"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507838"
 ---
 # <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Répondre aux événements de formulaire à l’aide du modèle objet InfoPath 2003
 
 Vous pouvez écrire du code pour répondre à différents événements qui se produisent lorsqu'un utilisateur remplit un formulaire. Pour utiliser des événements dans InfoPath, vous créez des gestionnaires d'événements dans le Concepteur InfoPath.
   
-Les gestionnaires d'événements InfoPath doivent être créés dans le Concepteur InfoPath car, lors de l'utilisation du modèle objet compatible InfoPath 2003, InfoPath ajoute automatiquement la déclaration appropriée et applique un attribut ([InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) dans le fichier de code de formulaire (FormCode.cs ou FormCode.vb) pour identifier et réceptionner le gestionnaire d'événements. Après avoir créé un gestionnaire d'événements, vous ne devez pas modifier sa déclaration et son attribut dans le fichier de code du formulaire. 
+Les gestionnaires d'événements InfoPath doivent être créés dans le Concepteur InfoPath car, lors de l'utilisation du modèle objet compatible InfoPath 2003, InfoPath ajoute automatiquement la déclaration appropriée et applique un attribut ([InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) dans le fichier de code de formulaire (FormCode.cs ou FormCode.vb) pour identifier et réceptionner le gestionnaire d'événements. Après avoir créé un gestionnaire d'événements, vous ne devez pas modifier sa déclaration et son attribut dans le fichier de code du formulaire.
   
 Pour plus d’informations sur la création des handlers d’événements InfoPath, voir [Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
 ## <a name="overview-of-the-event-objects"></a>Vue d'ensemble des objets d'événement
 
-Le modèle objet compatible InfoPath 2003 implémente neuf objets exposés dans l'espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . Le tableau ci-dessous contient une description de chacun des neuf événements InfoPath, en indiquant les gestionnaires d'événements qui lui sont associés. 
+Le modèle objet compatible InfoPath 2003 implémente neuf objets exposés dans l'espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . Le tableau ci-dessous contient une description de chacun des neuf événements InfoPath, en indiquant les gestionnaires d'événements qui lui sont associés.
   
 |**Name**|**Gestionnaires d’événements**|**Description**|
 |:-----|:-----|:-----|
@@ -38,12 +38,12 @@ Le modèle objet compatible InfoPath 2003 implémente neuf objets exposés dans 
 |[SaveEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SaveEvent.aspx) <br/> |[OnSaveRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSaveRequest.aspx) <br/> |Renvoie un certain nombre de propriétés et de méthodes qui peuvent être utilisées durant une opération d'enregistrement à partir du gestionnaire d'événements **OnSaveRequest**, afin d'interagir par programme avec le document XML sous-jacent d'un formulaire, de déterminer les propriétés d'enregistrement et d'effectuer l'opération d'enregistrement. |
 |[SignEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEvent.aspx) <br/> |[OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx) <br/> |Utilisé pour ajouter des données supplémentaires à la signature numérique. |
 |[VersionUpgradeEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.VersionUpgradeEvent.aspx) <br/> |[OnVersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnVersionUpgrade.aspx) <br/> |Renvoie une référence au document XML sous-jacent d'un formulaire, le statut de renvoi et les numéros de version du document et de la solution lors d'une opération de mise à niveau de la version. |
-   
+
 ## <a name="using-the-event-objects"></a>Utilisation des objets d'événement
 
-Lorsque vous créez un gestionnaire d'événements, InfoPath crée la déclaration de celui-ci dans le fichier de code de formulaire du projet (FormCode.cs ou FormCode.vb). Dans cette déclaration, InfoPath utilise **e** comme nom du paramètre transmis au gestionnaire d'événements. Ce paramètre contient l'objet d'événement associé au gestionnaire d'événements. 
+Lorsque vous créez un gestionnaire d'événements, InfoPath crée la déclaration de celui-ci dans le fichier de code de formulaire du projet (FormCode.cs ou FormCode.vb). Dans cette déclaration, InfoPath utilise **e** comme nom du paramètre transmis au gestionnaire d'événements. Ce paramètre contient l'objet d'événement associé au gestionnaire d'événements.
   
-Par exemple, lorsque vous créez un gestionnaire d'événements pour l'événement **OnLoad** en mode Création (en cliquant sur **Événement Sur chargement (OnLoad)** sous l'onglet **Développeur**), InfoPath ajoute la déclaration du gestionnaire d'événements qui reçoit l'objet **DocReturnEvent** au fichier de code du formulaire, puis ouvre l'éditeur de code pour vous permettre d'ajouter votre code à la déclaration de gestionnaire d'événements qui suit. 
+Par exemple, lorsque vous créez un gestionnaire d'événements pour l'événement **OnLoad** en mode Création (en cliquant sur **Événement Sur chargement (OnLoad)** sous l'onglet **Développeur**), InfoPath ajoute la déclaration du gestionnaire d'événements qui reçoit l'objet **DocReturnEvent** au fichier de code du formulaire, puis ouvre l'éditeur de code pour vous permettre d'ajouter votre code à la déclaration de gestionnaire d'événements qui suit.
   
 ```cs
 // The following function handler is created by Microsoft Office 
@@ -84,7 +84,7 @@ public void field1_OnBeforeChange(DataDOMEvent e)
 ```
 
 ```vb
-<InfoPathEventHandler(MatchPath:="/my:myFields/my:field1", _ EventType:=InfoPathEventType.OnBeforeChange)> _
+<InfoPathEventHandler(MatchPath:="/my:myFields/my:field1", _EventType:=InfoPathEventType.OnBeforeChange)> _
 Public Sub field1_OnBeforeChange(ByVal e As DataDOMEvent)
    ' Determine whether there is a new value.
    If (e.NewValue = "") Then
@@ -98,6 +98,5 @@ End Sub
 ```
 
 > [!NOTE]
-> [!REMARQUE] Chaque objet d'événement InfoPath du modèle objet compatible avec InfoPath 2003 implémente différentes propriétés et méthodes. Pour plus d'informations sur un objet d'événement en particulier, cliquez dessus dans le tableau Objets d'événement présenté plus haut. 
+> [!REMARQUE] Chaque objet d'événement InfoPath du modèle objet compatible avec InfoPath 2003 implémente différentes propriétés et méthodes. Pour plus d'informations sur un objet d'événement en particulier, cliquez dessus dans le tableau Objets d'événement présenté plus haut.
   
-

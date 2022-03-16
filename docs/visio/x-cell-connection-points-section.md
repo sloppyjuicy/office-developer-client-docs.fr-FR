@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 11c69600-4e1f-4c52-ff35-b6a7cc6c734c
 description: Représente la coordonnée x d’un point de connexion en coordonnées locales.
-ms.openlocfilehash: bc3e95d369bd712657934b0b4611d774f92811cf
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 82fb8c17be9ccbddb8f14356cf1fcb30bd2e18f0
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777991"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507667"
 ---
 # <a name="x-cell-connection-points-section"></a>X, cellule (section Connection Points)
 
@@ -24,16 +24,16 @@ Représente la  *coordonnée x d’un*  point de connexion en coordonnées local
 
 Pour obtenir une référence à la cellule X à l'aide d'un nom à partir d'une autre formule ou programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | Connections.X  *i*            où  *i*  = <1>, 2, 3... |
+| **Nom de cellule :**  <br/> | Connections.X  *i*            où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule X à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionConnectionPts** <br/> |
-| Index de la ligne :  <br/> |**visRowConnectionPts** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visX** <br/> |
+| **Index de la section :**  <br/> |**visSectionConnectionPts** <br/> |
+| **Index de la ligne :**  <br/> |**visRowConnectionPts** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visX** <br/> |
    
 

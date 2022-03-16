@@ -14,12 +14,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: df584b25-4460-46c8-89a8-3b2c94d20bba
 description: Découvrez des informations pour vous aider à créer des projets dans Visual Studio à l’aide des exemples de code ASMX inclus dans les rubriques de référence psi (Project Server Interface).
-ms.openlocfilehash: 289171cf628028c16247e67d50190ea5162ab18b
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: a272ff744e3d351a566c93098c28e0af113e06a9
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380612"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507583"
 ---
 # <a name="prerequisites-for-asmx-based-code-samples-in-project"></a>Conditions préalables pour les exemples de code basés sur ASMX
 

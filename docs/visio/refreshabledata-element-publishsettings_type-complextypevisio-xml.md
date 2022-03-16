@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 9a3b9d5a-fcba-eb18-3199-bd5a7f889af8
 description: Spécifie si un recordset est actualisable à l’aide Visio Services dans Microsoft SharePoint Server 2013.
-ms.openlocfilehash: a7ea988f7d3bb8b3876000be41b8ba8c5725d448
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3da76d892c45a7ec7adef1821099e4391fd29994
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772745"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506287"
 ---
 # <a name="refreshabledata-element-publishsettings_type-complextype-visio-xml"></a>Élément RefreshableData (PublishSettings_Type complexType) (Visio XML)
 
 Spécifie si un recordset est actualisable à l’aide Visio Services dans Microsoft SharePoint Server 2013.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -41,9 +41,9 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Spécifie les paramètres utilisés lorsque le diagramme est ouvert à l’aide de Visio Services. |
+|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Spécifie les paramètres utilisés lorsque le diagramme est ouvert à l’aide Visio Services. |
    
 ### <a name="child-elements"></a>Éléments enfants
 

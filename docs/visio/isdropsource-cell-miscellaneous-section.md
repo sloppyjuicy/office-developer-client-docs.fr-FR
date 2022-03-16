@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b20e6ef-f1ac-5bb0-5ac3-4df3ae5e9bf9
 description: Détermine si la forme peut être ajoutée à un groupe en la faisant glisser sur ce groupe.
-ms.openlocfilehash: 81f006319a9712daa07e29a21b78ea1aad4ed237
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5382fab3bd31387c53a2804cfdea286dbea4a96e
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775688"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507809"
 ---
 # <a name="isdropsource-cell-miscellaneous-section"></a>IsDropSource, cellule (section Miscellaneous)
 
@@ -33,16 +33,16 @@ Outre l’activation de ce comportement pour la forme, vous devez également act
   
 Pour obtenir une référence à la cellule IsDropSource par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |IsDropSource  <br/> |
+|**Nom de la cellule :**  <br/> |IsDropSource  <br/> |
    
 Pour obtenir une référence à la cellule IsDropSource à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowMisc** <br/> |
-|Index de la cellule :  <br/> |**visDropSource** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowMisc** <br/> |
+|**Index de la cellule :**  <br/> |**visDropSource** <br/> |
    
 

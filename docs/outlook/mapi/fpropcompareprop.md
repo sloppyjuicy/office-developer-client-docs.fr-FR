@@ -1,7 +1,7 @@
 ---
 title: FPropCompareProp
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 17cb53c4-7154-4a4e-b4ec-de720fa055cb
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5357bd8a2adc470322b772ceabbeaef8596290f5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Compare deux valeurs de propriété à l’aide d’un opérateur relationnel spécifié.
+ms.openlocfilehash: f94cad0854c496773837da5b3b4f06cb22532557
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621044"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507870"
 ---
 # <a name="fpropcompareprop"></a>FPropCompareProp
 
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016
   
-Compare deux valeurs de propriété à l’aide d’un opérateur relationnel spécifié. 
+Compare deux valeurs de propriété à l’aide d’un opérateur relationnel spécifié.
   
-|||
+|**Valeur**|**Description**|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
-   
+
 ```cpp
 BOOL FPropCompareProp(
   LPSPropValue lpSPropValue1,
@@ -43,30 +43,28 @@ BOOL FPropCompareProp(
 
 _lpSPropValue1_
   
-> [in] Pointeur vers une structure [SPropValue](spropvalue.md) définissant la première valeur de propriété à comparer. 
-    
+> [in] Pointeur vers une structure [SPropValue](spropvalue.md) définissant la première valeur de propriété à comparer.
+
 _ulRelOp_
   
-> [in] Opérateur relationnel à utiliser dans la comparaison. Pour les valeurs permises, voir la structure [SComparePropsRestriction.](scomparepropsrestriction.md) 
-    
+> [in] Opérateur relationnel à utiliser dans la comparaison. Pour les valeurs permises, voir [la structure SComparePropsRestriction](scomparepropsrestriction.md) .
+
 _lpSPropValue2_
   
-> [in] Pointeur vers une structure **SPropValue** définissant la deuxième valeur de propriété à comparer. 
-    
+> [in] Pointeur vers une structure **SPropValue** définissant la deuxième valeur de propriété à comparer.
+
 ## <a name="return-value"></a>Valeur renvoyée
 
-TRUE 
+TRUE
   
-> Les valeurs de propriété répondent à la relation spécifiée. 
-    
-FALSE 
+> Les valeurs de propriété répondent à la relation spécifiée.
+
+FALSE
   
 > Les valeurs de propriété ne répondent pas à la relation spécifiée.
-    
+
 ## <a name="remarks"></a>Remarques
 
-La méthode de comparaison dépend des types de propriétés spécifiés dans les définitions de [propriétéSPropValue.](spropvalue.md) Les **fonctions FPropCompareProp** et [FPropContainsProp](fpropcontainsprop.md) peuvent être utilisées pour préparer les restrictions de génération d’une table. 
+La méthode de comparaison dépend des types de propriétés spécifiés dans les définitions de [propriétéSPropValue](spropvalue.md) . Les **fonctions FPropCompareProp** et [FPropContainsProp](fpropcontainsprop.md) peuvent être utilisées pour préparer les restrictions de génération d’une table.
   
-L’ordre de comparaison est  _lpSPropValue1_, _ ulRelOp _, _ lpSPropValue2 _. Si les types de propriété des valeurs de propriété à comparer ne correspondent pas, la **fonction FPropCompareProp** renvoie false. 
-  
-
+L’ordre de comparaison _est lpSPropValue1_, _ulRelOp_, _lpSPropValue2_. Si les types de propriété des valeurs de propriété à comparer ne correspondent pas, la **fonction FPropCompareProp** renvoie false.

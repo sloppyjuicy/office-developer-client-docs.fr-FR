@@ -6,18 +6,18 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 5ab57bf2-0d9f-4a3a-4882-c77d7c781cbd
-ms.openlocfilehash: 2ee62423f94a442af5cab740eadc72ff812d32e1
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5f81b754b99febc5286ba4e329f0411b15130b18
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772605"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506415"
 ---
 # <a name="sectiondef_type-complextype-visio-xml"></a>SectionDef_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
@@ -62,7 +62,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |CellDef <br/> |[CellDef_Type](celldef_type-complextypevisio-xml.md) <br/> ||
 |RowDef <br/> |[RowDef_Type](rowdef_type-complextypevisio-xml.md) <br/> ||

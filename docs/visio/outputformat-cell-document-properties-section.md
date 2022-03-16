@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 17238019-c800-5d3a-32f6-fb0008d4e25f
 description: Détermine le format de sortie d'un dessin. Les pages de dessin sont généralement mises en forme pour l'impression (par défaut), mais vous pouvez choisir d'autres formats de sortie.
-ms.openlocfilehash: b4e2c63912509c9cdae04f828e138ef90fbe4859
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4b01a066c3b516af2d21799b3a05fb74e0f88017
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577814"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507246"
 ---
 # <a name="outputformat-cell-document-properties-section"></a>OutputFormat, cellule (section Document Properties)
 
@@ -30,16 +30,16 @@ Détermine le format de sortie d'un dessin. Les pages de dessin sont généralem
 
 Pour obtenir une référence à la cellule OutputFormat par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | OutputFormat  <br/> |
+| **Nom de la cellule :**  <br/> | OutputFormat  <br/> |
    
 Pour obtenir une référence à la cellule OutputFormat à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowDoc** <br/> |
-| Index de la cellule :  <br/> |**visDocOutputFormat** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowDoc** <br/> |
+| **Index de la cellule :**  <br/> |**visDocOutputFormat** <br/> |
    
 

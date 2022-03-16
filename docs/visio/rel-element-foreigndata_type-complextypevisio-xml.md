@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 7ed604ef-e001-f379-92c3-391a18f22bb3
 description: Spécifie une relation entre une forme et une partie de document qui contient les données d’image associées à la forme.
-ms.openlocfilehash: adc55ca60a06c431f106a5b5c488fde7cdaeea5b
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: fc92fa928132bff4a04ea6f1ce10eeaa8b9f4c75
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778257"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506005"
 ---
 # <a name="rel-element-foreigndata_type-complextype-visio-xml"></a>Élément Rel (ForeignData_Type complexType) (Visio XML)
 
 Spécifie une relation entre une forme et une partie de document qui contient les données d’image associées à la forme.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[ForeignData](foreigndata-element-shapesheet_type-complextypevisio-xml.md) <br/> |[ForeignData_Type](foreigndata_type-complextypevisio-xml.md) <br/> |Spécifie une instance de données d’image stockées dans le dessin. |
    

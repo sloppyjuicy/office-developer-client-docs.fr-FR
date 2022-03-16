@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 2b3334de-588c-6cf3-bc88-be03ae71b1a6
 description: Détermine si un style comporte des propriétés de remplissage.
-ms.openlocfilehash: 3ddcb8502d89b6b65f5c7770224296ad8f7bfc85
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 85dba6ee92b66283946908a7f06777a7fbb6cbc1
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772801"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506034"
 ---
 # <a name="enablefillprops-cell-style-properties-section"></a>EnableFillProps, cellule (section Style Properties)
 
@@ -29,16 +29,16 @@ Détermine si un style comporte des propriétés de remplissage.
 
 Pour obtenir une référence à la cellule EnableFillProps par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |EnableFillProps  <br/> |
+|**Nom de la cellule :**  <br/> |EnableFillProps  <br/> |
    
 Pour obtenir une référence à la cellule EnableFillProps à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowStyle** <br/> |
-|Index de la cellule :  <br/> |**visStyleIncludesFill** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowStyle** <br/> |
+|**Index de la cellule :**  <br/> |**visStyleIncludesFill** <br/> |
    
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 60d2afc8-10b6-465d-8ce8-c073da6e5054
 description: Découvrez des informations pour vous aider à créer des projets dans Visual Studio à l’aide des exemples de code WCF inclus dans les rubriques de référence psi (Project Server Interface).
-ms.openlocfilehash: 6d0edb524317b590c89761353216035771d66cca
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: dc0fb1fd3619949b67bebb6c1b74f55984c6de69
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380143"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507704"
 ---
 # <a name="prerequisites-for-wcf-based-code-samples-in-project"></a>Conditions préalables pour les exemples de code basés sur WCF
 
@@ -351,7 +351,7 @@ L’authentification des utilisateurs Project Server locaux, que ce soit par l�
 
 Pour résoudre le problème de WCF, tous les appels aux méthodes PSI doivent se trouver dans un **OperationContextScope** défini pour chaque service PSI. N’imbriez pas d’étendues pour plusieurs services ; par exemple, lors de l’utilisation d’appels vers les services Project ressources et de gestion, chaque ensemble d’appels doit se trouver dans sa propre portée.
   
-Dans l’exemple suivant, la **méthode DisableFormsAuth** peut être appelée à partir de chaque section **OperationContextScope** d’une application. La méthode supprime toute valeur d’en-tête qui désactivait précédemment l’authentification par formulaires, afin que l’authentification par formulaires puisse continuer si le paramètre _isWindowsAuth_ est **false**. Si  _isWindowsAuth_ est **vrai**, la **méthode DisableFormsAuth** désactive l’authentification par formulaires.
+Dans l’exemple suivant, la **méthode DisableFormsAuth** peut être appelée à partir de chaque section **OperationContextScope** d’une application. La méthode supprime toute valeur d’en-tête qui désactivait précédemment l’authentification par formulaires, afin que l’authentification par formulaires puisse continuer si le paramètre _isWindowsAuth_ est **false**. Si _isWindowsAuth_ est **vrai**, la **méthode DisableFormsAuth** désactive l’authentification par formulaires.
   
 Dans la **méthode WcfSample** , l’objet **projectClient** est une instance de la classe PSI **SvcProject.ProjectClient** .
   

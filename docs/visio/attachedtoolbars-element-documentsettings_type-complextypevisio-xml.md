@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: cd7d8a06-5661-d515-f106-ff8275a04f40
 description: Fichier MIME (Multipurpose Internet Mail Extensions) codé Microsoft Visio interface utilisateur (VSU) représentant des barres d’outils personnalisées.
-ms.openlocfilehash: d1ff1dbe1e889787953be877127cdd39f6ff7063
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 7ad0767d1bf848a7e380a991f9cde38eaeda61ec
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782429"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507131"
 ---
 # <a name="attachedtoolbars-element-documentsettings_type-complextype-visio-xml"></a>Élément AttachedToolbars (DocumentSettings_Type complexType) (Visio XML)
 
 Fichier MIME (Multipurpose Internet Mail Extensions) codé Microsoft Visio interface utilisateur (VSU) représentant des barres d’outils personnalisées.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[AttachedToolbars_Type](attachedtoolbars_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contient des éléments qui spécifient les paramètres de document. |
    

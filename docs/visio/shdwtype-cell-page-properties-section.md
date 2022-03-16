@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 551166d0-3aaa-0fd7-e742-cf3450ba90ed
 description: Indique le type d'ombre par défaut d'une page.
-ms.openlocfilehash: 0279aaab9e608f482d0f1ecbc24e48012c087b1c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fbeb7a1714323b8fa9fd5578a9f9f6912c7d7045
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59607667"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506411"
 ---
 # <a name="shdwtype-cell-page-properties-section"></a>ShdwType, cellule (section Page Properties)
 
@@ -36,16 +36,16 @@ Pour obtenir une liste des types d’ombre simples et obliques prédéfinis, rep
   
 Pour obtenir une référence à la cellule ShdwType par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | ShdwType  <br/> |
+| **Nom de cellule :**  <br/> | ShdwType  <br/> |
    
 Pour obtenir une référence à la cellule ShdwType par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowPage** <br/> |
-| Index de la cellule :  <br/> |**visPageShdwType** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowPage** <br/> |
+| **Index de la cellule :**  <br/> |**visPageShdwType** <br/> |
    
 

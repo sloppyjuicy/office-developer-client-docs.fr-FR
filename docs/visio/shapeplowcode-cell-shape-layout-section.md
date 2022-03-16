@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: acf07fd7-6aa6-1a92-9b7a-bd6fea8a7cb2
 description: Détermine si cette forme positionnable se déplace lorsque vous placez une autre forme positionnable à côté d'elle sur la page de dessin.
-ms.openlocfilehash: c2cdcbcc381bfa87c78db463d34a2149c07890e5
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a8ad006804908c37c09da0ce5aeec8a4ce59e6ed
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776993"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507531"
 ---
 # <a name="shapeplowcode-cell-shape-layout-section"></a>ShapePlowCode, cellule (section Shape Layout)
 
@@ -34,16 +34,16 @@ Pour définir ce comportement pour  *toutes les formes*  de la page de dessin, u
   
 Pour obtenir une référence à la cellule ShapePlowCode par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |ShapePlowCode  <br/> |
+|**Nom de la cellule :**  <br/> |ShapePlowCode  <br/> |
    
 Pour obtenir une référence à la cellule ShapePlowCode à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
-|Index de la cellule :  <br/> |**visSLOPlowCode** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowShapeLayout** <br/> |
+|**Index de la cellule :**  <br/> |**visSLOPlowCode** <br/> |
    
 

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: b3880511-dd27-4dc2-9e50-a49084ef8195
 description: Indique si une forme peut participer à une opération de remplacement (en tant que cible ou forme de remplacement).
-ms.openlocfilehash: e672b57e440973126463a8e21b0e73a98ac564bd
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ec065e5c4c3f3af486210ef9c48463e88b6ca433
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778348"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507010"
 ---
 # <a name="lockreplace-cell-protection-section"></a>LockReplace Cell (Protection Section)
 
@@ -27,16 +27,16 @@ Indique si une forme peut participer à une opération de remplacement (en tant 
 
 Pour obtenir une référence à la cellule **LockReplace** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | LockReplace  <br/> |
+| **Nom de cellule :**  <br/> | LockReplace  <br/> |
    
 Pour obtenir une référence à la **cellule LockReplace** à l’aide d’un index à partir d’un programme, utilisez la **propriété CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowLock** <br/> |
-| Index de la cellule :  <br/> |**visLockReplace** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowLock** <br/> |
+| **Index de la cellule :**  <br/> |**visLockReplace** <br/> |
    
 

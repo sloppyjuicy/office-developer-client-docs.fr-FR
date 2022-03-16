@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm70
 ms.localizationpriority: medium
 ms.assetid: 9ff2893c-afe5-505e-0b55-48ec1de08a5f
-description: Détermine la quantité d’espace vertical entre les formes de la page de dessin lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Re-Layout Page, puis sur Autres options de disposition).
-ms.openlocfilehash: 08c40814735f4e2db8092221c99f9213857f14ec
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Détermine la quantité d’espace vertical entre les formes sur la page de dessin lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Re-Layout Page, puis cliquez sur Autres options de disposition).
+ms.openlocfilehash: e74ba7999432b3e91f8b83ea8d49975fce6c60d1
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578185"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63508209"
 ---
 # <a name="avenuesizey-cell-page-layout-section"></a>AvenueSizeY, cellule (section Page Layout)
 
-Détermine la quantité d’espace vertical entre les formes de la page de dessin lors  de la  disposition des formes à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur **Re-disposition** de la page, puis cliquez sur Autres  **options** de disposition).
+Détermine la quantité d’espace vertical entre les formes de la page de dessin lorsque vous les avez mises en page à l’aide de la boîte  de dialogue Configurer la disposition  (sous l’onglet Création, dans le groupe Disposition, cliquez sur **Re-disposition** de la page, puis cliquez sur Autres **options** de disposition).
   
 ## <a name="remarks"></a>Remarques
 
@@ -28,16 +28,16 @@ La grille dynamique utilise le paramètre dans la cellule AvenueSizeY uniquement
   
 Pour obtenir une référence à la cellule AvenueSizeY par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | AvenueSizeY  <br/> |
+| **Nom de cellule :**  <br/> | AvenueSizeY  <br/> |
    
 Pour obtenir une référence à la cellule AvenueSizeY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
-| Index de la cellule :  <br/> |**visPLOAvenueSizeY** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowPageLayout** <br/> |
+| **Index de la cellule :**  <br/> |**visPLOAvenueSizeY** <br/> |
    
 

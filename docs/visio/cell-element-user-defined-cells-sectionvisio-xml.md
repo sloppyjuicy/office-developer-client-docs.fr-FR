@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: ab7a11a0-a413-d4fe-ddf1-0d2e967dc21d
 description: Propriété d’une information spécifiée par l’utilisateur à qui peuvent faire référence d’autres cellules et outils de module complémentaire.
-ms.openlocfilehash: 0091caf6ca8b26da263bc0d5acb9f3ef43da567d
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 6a374f814b2a284c7f1de62166e94e8af933fcef
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783515"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507416"
 ---
 # <a name="cell-element-user-defined-cells-section-visio-xml"></a>Élément de cellule (section User-defined Cells) (Visio XML)
 
 Propriété d’une information spécifiée par l’utilisateur à qui peuvent faire référence d’autres cellules et outils de module complémentaire.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Row, élément (section User-defined Cells)](row-element-user-defined-cells-sectionvisio-xml.md) <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> |Propriété d’une information spécifiée par l’utilisateur à qui peuvent faire référence d’autres cellules et outils de module complémentaire. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin. |
    

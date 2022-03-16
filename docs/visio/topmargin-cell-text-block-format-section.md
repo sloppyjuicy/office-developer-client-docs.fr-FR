@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c599b444-4d0e-a855-b04b-dd9dcaedf263
 description: Définit la distance séparant le bord supérieur du bloc de texte de la première ligne de texte qui y figure. La valeur par défaut est 40 000 points. Cette valeur est indépendante de l'échelle du dessin. Si le dessin est mis à l'échelle, la marge supérieure ne change pas.
-ms.openlocfilehash: 4bc351b8b0b8ebfa537965cf89d67640206f646e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 48b8612a357d7381ea9aa9e131d0db10ce43f811
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622724"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63505983"
 ---
 # <a name="topmargin-cell-text-block-format-section"></a>TopMargin, cellule (section Text Block Format)
 
@@ -24,16 +24,16 @@ Définit la distance séparant le bord supérieur du bloc de texte de la premiè
 
 Pour obtenir une référence à la cellule TopMargin par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | TopMargin  <br/> |
+| **Nom de la cellule :**  <br/> | TopMargin  <br/> |
    
 Pour obtenir une référence à la cellule TopMargin par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowText** <br/> |
-| Index de la cellule :  <br/> |**visTxtBlkTopMargin** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowText** <br/> |
+| **Index de la cellule :**  <br/> |**visTxtBlkTopMargin** <br/> |
    
 

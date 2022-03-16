@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: fffbefd6-8b0b-0023-6b03-026d1c6e885e
 description: Détermine si une forme 1D utilise un collage statique (point à point) ou dynamique (forme à forme) lorsqu'elle est attachée à une autre forme.
-ms.openlocfilehash: e9dd099e2cd04367001e0deb82550a3661d73e15
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 77ad17cf1412ebf24279adeb25b0aceb0d1af22b
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778558"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506889"
 ---
 # <a name="gluetype-cell-glue-info-section"></a>GlueType, cellule (section Glue Info)
 
@@ -42,16 +42,16 @@ Lorsque la valeur de cette cellule change et ne permet plus le collage dynamique
   
 Pour obtenir une référence à la cellule GlueType par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | GlueType  <br/> |
+| **Nom de la cellule :**  <br/> | GlueType  <br/> |
    
 Pour obtenir une référence à la cellule GlueType à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowMisc** <br/> |
-| Index de la cellule :  <br/> |**visGlueType** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowMisc** <br/> |
+| **Index de la cellule :**  <br/> |**visGlueType** <br/> |
    
 

@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 59db25bc-0283-6f56-0aa9-9be98a3e9041
 description: Contient un OBJET BLOB MIME (Multipurpose Internet Mail Extensions) codé de données d’image, telles que Windows métafichier, bitmap ou données OLE.
-ms.openlocfilehash: 3bc7583c9b38fd1e0a19a06e67959771c3fcc688
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 507dd9871def50db7076877745fa6fe0976c773c
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771511"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63508102"
 ---
 # <a name="foreigndata-element-shapesheet_type-complextype-visio-xml"></a>Élément ForeignData (ShapeSheet_Type complexType) (Visio XML)
 
 Contient un OBJET BLOB MIME (Multipurpose Internet Mail Extensions) codé de données d’image, telles que Windows métafichier, bitmap ou données OLE.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[ForeignData_Type](foreigndata_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Forme](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contient des éléments qui définissent une forme dans un **élément Master**, **Page** ou Group Shape. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Rel](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Rel_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Spécifie une relation à une partie contenant les données d’image. |
    

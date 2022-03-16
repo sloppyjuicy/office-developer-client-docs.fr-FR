@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a223dac-538b-cb5d-a32d-61395276f9da
 description: Détermine le style et la direction du positionnement de tous les connecteurs de la page de dessin n'ayant pas de style de positionnement local.
-ms.openlocfilehash: aa7979183e4e717ef7432c74b8f998274b5a48e6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ca0916ca0259354269160e9054124cc1715b9b5e
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573508"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506837"
 ---
 # <a name="routestyle-cell-page-layout-section"></a>RouteStyle, cellule (section Page Layout)
 
@@ -23,10 +23,10 @@ Détermine le style et la direction du positionnement de tous les connecteurs de
 |**Valeur**|**Style de positionnement**|**Direction**|**Constante d'automation**|
 |:-----|:-----|:-----|:-----|
 |0  <br/> |Valeur par défaut ; angle droit  <br/> |Aucun  <br/> |**visLORouteDefault** <br/> |
-|1  <br/> |Angle droit  <br/> |Aucun  <br/> |**visLORouteRightAngle** <br/> |
-|2  <br/> |Droite  <br/> |Aucun  <br/> |**visLORouteStraight** <br/> |
+|1  <br/> |Angle droit  <br/> |Aucune  <br/> |**visLORouteRightAngle** <br/> |
+|2  <br/> |Droite  <br/> |Aucune  <br/> |**visLORouteStraight** <br/> |
 |3  <br/> |Organigramme  <br/> |De haut en bas  <br/> |**visLORouteOrgChartNS** <br/> |
-|4   <br/> |Organigramme  <br/> |De gauche à droite  <br/> |**visLORouteOrgChartWE** <br/> |
+|4  <br/> |Organigramme  <br/> |De gauche à droite  <br/> |**visLORouteOrgChartWE** <br/> |
 |5  <br/> |Diagramme de flux  <br/> |De haut en bas  <br/> |**visLORouteFlowchartNS** <br/> |
 |6   <br/> |Diagramme de flux  <br/> |De gauche à droite  <br/> |**visLORouteFlowchartWE** <br/> |
 |7   <br/> |Arborescence  <br/> |De haut en bas  <br/> |**visLORouteTreeNS** <br/> |
@@ -38,32 +38,32 @@ Détermine le style et la direction du positionnement de tous les connecteurs de
 |13  <br/> |Diagramme de flux  <br/> |De droite à gauche  <br/> |**visLORouteFlowchartEW** <br/> |
 |14   <br/> |Arborescence  <br/> |De bas en haut  <br/> |**visLORouteTreeSN** <br/> |
 |15   <br/> |Arborescence  <br/> |De droite à gauche  <br/> |**visLORouteTreeEW** <br/> |
-|16   <br/> |Centre vers centre  <br/> |Aucun  <br/> |**visLORouteCenterToCenter** <br/> |
+|16  <br/> |Centre vers centre  <br/> |Aucune  <br/> |**visLORouteCenterToCenter** <br/> |
 |17   <br/> |Simple  <br/> |De haut en bas  <br/> |**visLORouteSimpleNS** <br/> |
 |18   <br/> |Simple  <br/> |De gauche à droite  <br/> |**visLORouteSimpleWE** <br/> |
 |19  <br/> |Simple  <br/> |De bas en haut  <br/> |**visLORouteSimpleSN** <br/> |
 |20  <br/> |Simple  <br/> |De droite à gauche  <br/> |**visLORouteSimpleEW** <br/> |
-| 21  <br/> |Horizontal-vertical simple  <br/> |Aucun  <br/> |**visLORouteSimpleHV** <br/> |
+| 21  <br/> |Horizontal-vertical simple  <br/> |Aucune  <br/> |**visLORouteSimpleHV** <br/> |
 |22  <br/> |Vertical-horizontal simple  <br/> |Aucun  <br/> |**visLORouteSimpleVH** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur  de cette cellule sous l’onglet Mise  en page et routage dans la boîte de dialogue Mise en **page** (sous l’onglet Création, cliquez sur la flèche Mise en **page,** cliquez sur Mise en page et routage, puis sur Espacement).  
+Vous pouvez également définir la valeur de cette cellule sous l’onglet Mise en page et routage dans la boîte de dialogue Mise  en **page** (sous l’onglet Création, cliquez sur la flèche Mise en **page**, cliquez sur Mise en page et  routage **, puis** sur Espacement **).** 
   
 Vous pouvez définir le style de positionnement d'un connecteur dans la cellule ShapeRouteStyle de la section Shape Layout. 
   
 Pour obtenir une référence à la cellule RouteStyle par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |RouteStyle  <br/> |
+|**Nom de la cellule :**  <br/> |RouteStyle  <br/> |
    
 Pour obtenir une référence à la cellule RouteStyle à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
-|Index de la cellule :  <br/> |**visPLORouteStyle** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowPageLayout** <br/> |
+|**Index de la cellule :**  <br/> |**visPLORouteStyle** <br/> |
    
 

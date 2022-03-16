@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 5b2b22cd-6e28-43a8-9092-b411da8bfb53
 description: Les nouvelles fonctionnalités comprennent un modèle objet client (CSOM), des interfaces REST, un service OData pour la génération de rapports, des récepteurs d’événements à distance, des flux de travail déclaratifs et des compléments du volet de tâches.
-ms.openlocfilehash: daf23daa0ccd36a65da58772f63ef0c9b3c2ec0b
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: cef867ca59ef0da0df0c9523976318b9786f7044
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63378470"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507855"
 ---
 # <a name="updates-for-developers-in-project"></a>Mises à jour pour les développeurs dans Project
 
@@ -74,7 +74,7 @@ Dans Office Outils de développement pour Visual Studio 2012, le fichier AppMani
 |**Projet unique** <br/> |**Lecture**, **Écriture** (Nécessite au moins les autorisations des membres de l’équipe du projet. L’accès à certaines données d’un projet dépend d’autres niveaux d’autorisations.)  <br/> |
 |**Ressources de l’entreprise** <br/> |**Lecture**, **Écriture** (Nécessite les autorisations du gestionnaire de ressources.)  <br/> |
 |**Statusing** <br/> |**SubmitStatus** (Nécessite l’autorisation de soumettre l’état de vos projets.)  <br/> |
-|**Compte-rendu** <br/> |**Lecture** (Nécessite l’autorisation de se connecter à Project Server.)  <br/> |
+|**Rapports** <br/> |**Lecture** (Nécessite l’autorisation de se connecter à Project Server.)  <br/> |
 |**Flux de travail** <br/> |**Élever** (Nécessite l’autorisation d’exécuter des flux de travail. Le complément fonctionne avec des autorisations élevées afin de permettre des transitions d’une étape à une autre dans un flux de travail. Dans le complément, la logique métier contrôle les transitions d’étapes.)<br/> |
 
 > [!NOTE]
@@ -154,7 +154,7 @@ Pour plus d’informations sur le développement avec le modèle CSOM, voir [Cli
 Les quatre bases de données de Project Server 2010 sont combinées en une seule base de données Project dans Project Server 2013. Le nom par défaut de la base de données Project est ProjectService. Les tables et vues de génération de rapports conservent leurs noms précédents, et les tables et vues des bases de données provisoire, publiée et d’archivage ont les préfixes `draft`et `pub``ver` dans la base de données ProjectService. Par exemple, la table de projets publiés s’intitule pub.MSP_PROJECTS.
   
 > [!IMPORTANT]
-> L’accès direct n’est pas`draft` pris en charge pour les tables et vues provisoires (préfixes), publiées (`pub`) et archivées (`ver`). Les rapports doivent utiliser uniquement les tables et vues de rapports, qui ont le `dbo` préfixe. Par exemple, le dbo. MSP_EpmProject tableau inclut la liste des projets dans l’instance Project Web App instance.
+> L’accès direct n’est pas`draft` pris en charge pour les tables et vues provisoires (préfixes), publiées (`pub`) et archivées (`ver`). Les rapports doivent utiliser uniquement les tables et les vues de création de rapports, qui ont le préfixe `dbo`. Par exemple, le dbo. MSP_EpmProject tableau inclut la liste des projets dans l’instance Project Web App instance.
 >
 > Rien ne vous empêche d’utiliser activement l’accès direct à la base de données par programme pour mettre à jour les données dans l’une des tables et vues dans la base de données Project. Vous devez être conscient que le cache Project Professionel, les tables des données brouillon et publiées, ainsi que les tables de rapport reposent tous sur un protocole de synchronisation de cache qui peut être perturbé par la modification directe de données. Toutefois, si vous endommagez vos bases de données Project Server ou les caches côté client Project Professionnel suite à un accès direct pour modifier les données, notez que le support technique ne sera pas en mesure de vous aider.
   
@@ -282,7 +282,7 @@ Pour vous aider à décider s’il faut utiliser Project Server local ou Project
 |:-----|:-----|:-----|
 |**Programmabilité** <br/> |Applications basées sur le modèle objet client ; modèle de programmation cohérent  <br/>- Bibliothèques clientes .NET, Silverlight Windows Phone client  <br/>- Bibliothèque JavaScript pour les extensions de page, composants WebPart et ruban personnalisées  <br/>- Protocoles OData et REST<br/><br/> Applications basées sur l’interface PSI ; modèle de programmation complexe, pouvant également créer des applications pour l’administration, l’analyse de portefeuille, les notifications, la sécurité en mode Project, le système de file d’attente, ainsi que d’autres domaines<br/><br/>Extensions de l’interface PSI  <br/><br/>Autorisations personnalisés avec la sécurité en mode Project (déconseillé)  <br/><br/>Emprunt d’identité avec l’interface PSI (déconseillé)  <br/><br/>Code de confiance totale ; installation d’extensions dans une batterie de serveurs SharePoint  <br/> |Applications basées sur le modèle objet client ; modèle de programmation cohérent  <br/>- Bibliothèques clientes .NET, Silverlight Windows Phone client<br/>- Bibliothèque JavaScript pour les extensions de page, composants WebPart et ruban personnalisées<br/>- Protocoles OData et REST<br/><br/>Possibilité d’utiliser l’interface PSI, mais elle n’est pas prise en charge : aucune connexion OAuth et service-à-service<br/><br/>Aucune extension de l’API CSOM<br/><br/>Aucune autorisation personnalisée<br/><br/>Aucun emprunt d’identité<br/><br/>Aucun code de confiance totale  <br/> |
 |**Bases de données personnalisées** <br/> |- SQL Azure  <br/>- SQL Server (la modification des tables et vues de rapports dans la base de données Project Server n’est pas prise en charge)  <br/> |- SQL Azure  <br/>- SQL Server (la modification des tables et vues de rapports dans la base de données Project Server n’est pas prise en charge)  <br/> |
-|**Compte-rendu** <br/> |- **Service ProjectData** ; Protocoles OData et REST  <br/>- Tables et vues de rapports dans la base de données Project Server<br/>- Base de données OLAP  <br/> |- **Service ProjectData** ; Protocoles OData et REST  <br/> |
+|**Rapports** <br/> |- **Service ProjectData** ; Protocoles OData et REST  <br/>- Tables et vues de rapports dans la base de données Project Server<br/>- Base de données OLAP  <br/> |- **Service ProjectData** ; Protocoles OData et REST  <br/> |
 |**Gestionnaires d’événements** <br/> |- Récepteurs d’événements distants, accessibles via les points de terminaison WCF<br/>- Des handlers d’événements de confiance totale, installés dans SharePoint batterie de serveurs  <br/> | - Récepteurs d’événements distants, accessibles via les points de terminaison WCF  <br/> |
 |**Flux de travail** <br/> |Flux de travail déclaratifs, créés avec SharePoint Designer 2013<br/>- Utiliser uniquement sur une instance Project Web App spécifique<br/>- Peut importer une conception de flux de travail Visio 2013<br/>- Peut importer et utiliser des actions personnalisées<br/><br/> Flux de travail déclaratifs, créés avec Visual Studio 2012<br/>- Créer une application qui peut inclure des flux de travail<br/>- Créer un package SharePoint solution (.wsp) qui peut inclure des flux de travail<br/>- Créer des modèles de flux de travail à réutiliser<br/>- Créer et utiliser des actions personnalisées  <br/><br/>Possibilité d’utiliser des flux de travail compilés et hérités créés avec WF3.5 (mise à niveau recommandée vers un flux de travail WF4 déclaratif)  <br/> |Flux de travail déclaratifs, créés avec SharePoint Designer 2013<br/>- Utiliser uniquement sur une instance Project Web App spécifique<br/>- Peut importer une conception de flux de travail Visio 2013<br/>- Peut importer et utiliser des actions personnalisées  <br/><br/>Flux de travail déclaratifs, créés avec Visual Studio 2012<br/>- Créer une application qui peut inclure des flux de travail  <br/>- Créer un package SharePoint solution (.wsp) qui peut inclure des flux de travail<br/>- Créer des modèles de flux de travail à réutiliser <br/>- Créer et utiliser des actions personnalisées  <br/> |
 |**Distribution** <br/> |- Office Store (pour les applications basées sur CSOM)<br/>- Catalogue d’applications privé sur SharePoint<br/>- Partage de fichiers intranet  <br/> |- Office Store<br/>- Catalogue d’applications privé sur SharePoint  <br/> |

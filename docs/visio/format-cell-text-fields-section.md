@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: ab937a00-84c2-6c1c-9080-b7c95ead4f63
 description: Détermine la mise en forme d'un champ de texte qui est une chaîne, un nombre, une date ou une heure, une durée ou une devise.
-ms.openlocfilehash: f1c7d01afc58fb20c94abd6832b094ad4418916b
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: bc996d9fa07c11b0493184284d1280e848745c61
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771520"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507375"
 ---
 # <a name="format-cell-text-fields-section"></a>Format, cellule (section Text Fields)
 
@@ -28,16 +28,16 @@ Un nombre (Type = 2) peut représenter une cote, un vecteur, un angle, une date,
   
 Pour obtenir une référence à la cellule Format par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | Fields.Format[  *i*  ] où  *i*  = <1>, 2, 3... |
+| **Nom de cellule :**  <br/> | Fields.Format[  *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Format à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionTextField** <br/> |
-| Index de la ligne :  <br/> |**visRowField** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visFieldFormat** <br/> |
+| **Index de la section :**  <br/> |**visSectionTextField** <br/> |
+| **Index de la ligne :**  <br/> |**visRowField** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visFieldFormat** <br/> |
    
 

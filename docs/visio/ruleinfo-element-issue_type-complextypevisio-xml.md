@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: aec47b43-adbe-3344-fbac-29554f244c99
 description: Spécifie les informations relatives à la règle de validation à qui appartient le problème de validation parent.
-ms.openlocfilehash: 64be856802db8ea8d4dde50f1665b57cf1946df9
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e3b959c2c2d28144dc13ad7d061dfc6ee26cc97c
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773942"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506818"
 ---
 # <a name="ruleinfo-element-issue_type-complextype-visio-xml"></a>Élément RuleInfo (Issue_Type complexType) (Visio XML)
 
 Spécifie les informations relatives à la règle de validation à qui appartient le problème de validation parent.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Problème](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |Représente un problème de validation unique dans le document. |
    

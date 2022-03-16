@@ -10,12 +10,12 @@ keywords:
 - fonction xlfregister [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: c730124c-1886-4a0f-8f06-79763025537d
-ms.openlocfilehash: 12ec5575796ba7e342553f172e56390f407fd059
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 15b4e58b79517f3a27c5e1e36310596211ada66f
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63373794"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507939"
 ---
 # <a name="xlfregister-form-1"></a>xlfRegister (formulaire 1)
 
@@ -75,9 +75,8 @@ _pxMacroType_ (**xltypeNum** ou **xltypeInt**)
   
 Argument facultatif qui indique le type de point d’entrée XLL. La valeur par défaut, si elle est omise, est 1.
   
-|||||
-|:-----|:-----|:-----|:-----|
 | _Valeur pxMacroType_ <br/> |0  <br/> |1  <br/> |2  <br/> |
+|:-----|:-----|:-----|:-----|
 |Peut être appelé à partir d’une feuille de calcul  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Peut être appelé à partir d’une feuille macro  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Peut être appelée à partir d’une définition de nom défini  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
@@ -136,7 +135,7 @@ Le premier tableau répertorie les types pris en charge dans toutes les versions
 |FP  <br/> ||K  <br/> |Structure de tableau à virgule flottante  <br/> |
 |Tableau  <br/> ||O  <br/> |Trois arguments sont passés :<br/>- unsigned short int \*<br/>- unsigned short int \*<br/>- double []  <br/> |
 |XLOPER  <br/> ||P  <br/> |Tableaux et valeurs de feuille de calcul de type variable  <br/> |
-|||R  <br/> |Valeurs, tableaux et références de plage  <br/> |
+||Valeur |R  <br/> |Valeurs, tableaux et références de plage  <br/> |
 
 Dans Excel 2007, les types de données suivants ont été introduits pour prendre en charge les grilles plus grandes et les chaînes Unicode longues.
   
@@ -147,7 +146,7 @@ Dans Excel 2007, les types de données suivants ont été introduits pour prendr
 |FP12  <br/> ||K%  <br/> |Structure de tableau à grande grille à pointe flottante  <br/> |
 |Tableau  <br/> ||O%  <br/> |Trois arguments sont passés :<br/>- signed int \* /RW \*<br/>- signed int \* /COL \*<br/>- double []  <br/> |
 |XLOPER12  <br/> ||Q  <br/> |Tableaux et valeurs de feuille de calcul de type variable  <br/> |
-|||U  <br/> |Valeurs, tableaux et références de plage  <br/> |
+||Valeur |U  <br/> |Valeurs, tableaux et références de plage  <br/> |
 
 À compter Excel 2010, les types de données suivants ont été introduits :
   
@@ -275,7 +274,7 @@ Le tableau suivant répertorie les catégories standard qui sont visibles  lorsq
 |1  <br/> |Financier  <br/> |
 |2  <br/> |Heure de &amp; la date  <br/> |
 |3  <br/> |Math &amp; Trig  <br/> |
-|4  <br/> |Texte  <br/> |
+|4  <br/> |Text  <br/> |
 |5  <br/> |Logique  <br/> |
 |6   <br/> |Lookup &amp; Reference  <br/> |
 |7   <br/> |Database  <br/> |

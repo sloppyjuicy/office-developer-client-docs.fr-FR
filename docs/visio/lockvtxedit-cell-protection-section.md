@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 966cde5c-f04e-7149-3660-720ffa4f7079
 description: Verrouille les sommets d’une forme afin d’empêcher leur modification.
-ms.openlocfilehash: 589551d0736a350565a36b87f65d550f7a478f38
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 0ac81dfabc9632bf8ae8c3d2b261b2ea0e5956c0
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62786790"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507268"
 ---
 # <a name="lockvtxedit-cell-protection-section"></a>LockVtxEdit, cellule (section Protection)
 
@@ -29,16 +29,16 @@ Verrouille les sommets d’une forme afin d’empêcher leur modification.
 
 Pour obtenir une référence à la cellule LockVtxEdit par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |LockVtxEdit  <br/> |
+|**Nom de la cellule :**  <br/> |LockVtxEdit  <br/> |
    
 Pour obtenir une référence à la cellule LockVtxEdit à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowLock** <br/> |
-|Index de la cellule :  <br/> |**visLockVtxEdit** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowLock** <br/> |
+|**Index de la cellule :**  <br/> |**visLockVtxEdit** <br/> |
    
 

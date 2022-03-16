@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 9148c73f-970d-61f8-b5da-e3bc748a6541
 description: Spécifie une relation à un élément avec le recordset associé et les informations de liaison de données.
-ms.openlocfilehash: 0830389933b77dfd6c53c4d86fe1b7fb42977276
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: f39f706c11398bd0b72544a4243d5769145f69e3
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784607"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506273"
 ---
 # <a name="rel-element-datarecordset_type-complextype-visio-xml"></a>Élément Rel (DataRecordSet_Type complexType) (Visio XML)
 
 Spécifie une relation à un élément avec le recordset associé et les informations de liaison de données.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Spécifie une instance d’un recordset et des informations de liaison de données stockées dans le dessin. |
    

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6d328b1c-8d92-eb1a-7317-7dd85c674ff9
 description: Indique l’intitulé que les utilisateurs voient s’afficher dans la fenêtre  Données de forme. Un intitulé se compose de caractères alphanumériques dont le caractère de soulignement (_).
-ms.openlocfilehash: ffef4a6fe2bbb983ddbc7701c3aa904d8207e866
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 01ff4abf5a00916e5a87ad48971ddfe903b28b82
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788898"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507660"
 ---
 # <a name="label-cell-shape-data-section"></a>Label, cellule (section Shape Data)
 
@@ -28,16 +28,16 @@ Si aucun texte d’intitulé n’est trouvé, Visio affiche le nom de la ligne (
   
 Pour obtenir une référence à la cellule Label par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Prop. *Nom*  . Étiquette où Prop.  *Le nom*  est le nom de la ligne  <br/> |
+|**Nom de cellule :**  <br/> |Prop. *Nom*  . Étiquette où Prop.  *Le nom*  est le nom de la ligne  <br/> |
    
 Pour obtenir une référence à la cellule Label à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionProp** <br/> |
-|Index de la ligne :  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visCustPropsLabel** <br/> |
+|**Index de la section :**  <br/> |**visSectionProp** <br/> |
+|**Index de la ligne :**  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visCustPropsLabel** <br/> |
    
 

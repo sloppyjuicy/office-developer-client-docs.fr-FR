@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: Spécifie une collection de propriétés connexes.
-ms.openlocfilehash: dfddb027a552fb54b60f05371addb99da1211593
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 1cd2058ae08f53ef36e33d54565020a23a4d06f2
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778201"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506684"
 ---
 # <a name="section-element-sheet_type-complextype-visio-xml"></a>Élément Section (Sheet_Type complexType) (Visio XML)
 
 Spécifie une collection de propriétés connexes.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSheet_Type](documentsheet_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés d’un dessin. |
 |[PageSheet](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés d’une page dans un dessin. |
@@ -51,7 +51,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Spécifie une propriété unique. |
 |[Ligne](https://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> |Spécifie une collection **d’Cell_Type** éléments. |
@@ -62,7 +62,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |:-----|:-----|:-----|:-----|:-----|
 |Del  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Indique si une collection héritée a été supprimée. Elle DOIT être égale à 0 ou 1. La valeur 1 spécifie que la collection est inutilisée et DOIT être ignorée. La valeur 0 indique que la collection de propriétés est valide pour la forme. Si **l’attribut Del** n’est pas présent, la valeur est 0. |Valeurs du type xsd:boolean. |
 |IX  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Spécifie l’index de base zéro de l’élément. Il DOIT être unique parmi tous les éléments **Section_Type** avec le même attribut **N** du **Sheet_Type.** Il DOIT être supérieur à **l’attribut IX** de tout **élément Section_Type** précédent avec le même attribut **N** du **Sheet_Type.** |Valeurs du type xsd:unsignedInt. |
-|N  <br/> |xsd:string  <br/> |obligatoire  <br/> |Spécifie le nom indépendant de la langue de la collection de propriétés. Il DOIT être unique parmi tous les éléments Section_Type  de l’élément Sheet_Type contenant,  sauf s’il est égal à « Geometry ». Il DOIT être égal à un sous-en-tête dans **Sections**. |Valeurs du type xsd:string. |
+|N  <br/> |xsd:string  <br/> |obligatoire  <br/> |Spécifie le nom indépendant de la langue de la collection de propriétés. Il DOIT être unique parmi tous les éléments Section_Type  de l’élément Sheet_Type contenant, sauf  s’il est égal à « Geometry ». Il DOIT être égal à un sous-en-tête dans **Sections**. |Valeurs du type xsd:string. |
    
 ### <a name="remarks"></a>Remarques
 
@@ -88,7 +88,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |Champ  <br/> |Collection de propriétés associées qui spécifient les champs de texte d’une forme. Elle DOIT avoir un **élément ShapeSheet_Type** parent. |[Text Fields, section](text-fields-section.md) <br/> |
 |FillGradient  <br/> |Collection de propriétés qui spécifient le dégradé de couleur de remplissage d’une forme. Elle DOIT avoir un **élément ShapeSheet_Type** ou **StyleSheet_Type** parent. |[Fill Gradient Section](fill-gradient-section.md) <br/> |
 |Geometry  <br/> |Collection de propriétés associées qui spécifient la visualisation de la géométrie. Elle DOIT avoir un **élément ShapeSheet_Type** parent. Le premier **Row_Type** enfant de cet élément DOIT être de type MoveTo, RelMoveTo, Ellipse ou InfiniteLine. |[Geometry, section](geometry-section.md) <br/> |
-|Calques  <br/> |Collection de propriétés qui affiche toutes les couches définies sur une page de dessin. Il DOIT être l’enfant **d’un PageSheet_Type** de projet. |[Layers, section](layers-section.md) <br/> |
+|Calques  <br/> |Collection de propriétés qui affiche toutes les couches définies sur une page de dessin. Il DOIT être l’enfant **d’un PageSheet_Type’élément** . |[Layers, section](layers-section.md) <br/> |
 |Dégradé de trait  <br/> |Collection de propriétés associées qui spécifient le dégradé de couleur de trait d’une forme. Elle DOIT avoir un **élément ShapeSheet_Type** ou **StyleSheet_Type** parent. |[Line Gradient Section](line-gradient-section.md) <br/> |
 |Paragraphe  <br/> |Collection de propriétés associées qui spécifient les propriétés de paragraphe du texte d’une forme. Elle DOIT avoir un **ShapeSheet_Type** parent ou un **StyleSheet_Type** parent. |[Paragraph, section](paragraph-section.md) <br/> |
 |Relecteur  <br/> |Collection de propriétés utilisées pour l’évaluation de formule. Elle DOIT avoir un **élément DocumentSheet_Type** parent. |[Reviewer, section](reviewer-section.md) <br/> |

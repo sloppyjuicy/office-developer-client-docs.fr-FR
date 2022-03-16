@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b68054b5-7efd-1156-9dc1-5ec94e18d227
 description: Détermine le niveau de transparence de la couleur de trait d'une forme.
-ms.openlocfilehash: ad7f947e98e45d91b318f2499e751920de058402
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a0ce88d932e3b4a6b0cf52d5dcad1333703f549e
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780714"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506028"
 ---
 # <a name="linecolortrans-cell-line-format-section"></a>LineColorTrans, cellule (section Line Format)
 
@@ -32,16 +32,16 @@ Vous pouvez également définir cette valeur à l’aide du curseur dans la boî
   
 Pour obtenir une référence à la cellule LineColorTrans par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |LineColorTrans  <br/> |
+|**Nom de la cellule :**  <br/> |LineColorTrans  <br/> |
    
 Pour obtenir une référence à la cellule LineColorTrans à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowLine** <br/> |
-|Index de la cellule :  <br/> |**visLineColorTrans** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowLine** <br/> |
+|**Index de la cellule :**  <br/> |**visLineColorTrans** <br/> |
    
 

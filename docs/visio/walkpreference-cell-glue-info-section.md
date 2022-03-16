@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 08165195-7e4e-f3ab-fa76-fbcacb0a9c9c
 description: Détermine si un point de fin d'une forme 1D se déplace vers un point de connexion horizontal ou vertical sur la forme à laquelle il est collé avec de la colle dynamique, lorsque la forme est déplacée dans une position ambiguë. Par défaut, les deux points de fin d'une forme 1D se déplacent vers les points de connexion horizontaux.
-ms.openlocfilehash: d0d13108f0fb8723d8043f51c7be7ef6469b303a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5bf57a844296558ead9c906f1a63a65884df2dde
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778005"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63508233"
 ---
 # <a name="walkpreference-cell-glue-info-section"></a>WalkPreference, cellule (section Glue Info)
 
@@ -31,16 +31,16 @@ Cette cellule n'a pas d'effet sur les liens dynamiques. Le comportement d'un lie
   
 Pour obtenir une référence à la cellule WalkPreference par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | WalkPreference  <br/> |
+| **Nom de la cellule :**  <br/> | WalkPreference  <br/> |
    
 Pour obtenir une référence à la cellule WalkPreference par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowMisc** <br/> |
-| Index de la cellule :  <br/> |**visChansPref** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowMisc** <br/> |
+| **Index de la cellule :**  <br/> |**visChansPref** <br/> |
    
 

@@ -7,15 +7,14 @@ ms:contentKeyID: 48546142
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a4a28c1ca8a527a22860abd670e578fc95757d1b
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: cceb6109007d03a0dc175f4699c346c0f0df45f8
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462833"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506567"
 ---
 # <a name="workspaces-collection-dao"></a>Workspaces collection (DAO)
-
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -37,17 +36,14 @@ Pour faire référence à un objet **TableDef** dans une collection par son nomb
 
 **DBEngine**.**Workspaces**\!\[name\]
 
-
 > [!NOTE]
 > Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
-
-
 
 ## <a name="example"></a>Exemple
 
 Cet exemple crée un objet espace de travail Microsoft Access et qu’il ajoute le **espaces de travail** collection de sites. Il énumère ensuite la **espaces de travail** collections de sites et le **propriétés** ensemble de la **espace de travail** objet.
 
-```vb 
+```vb
 Sub WorkspaceX() 
  
  Dim wrkNewAcc As Workspace 
@@ -78,10 +74,9 @@ Sub WorkspaceX()
 End Sub 
 ```
 
-
 Cet exemple utilise la méthode **CreateWorkspace** pour créer un espace de travail Microsoft Access. Il répertorie ensuite les propriétés de l'espace de travail.
 
-```vb 
+```vb
 Sub CreateWorkspaceX() 
  
  Dim wrkAcc As Workspace 
@@ -118,4 +113,3 @@ Sub CreateWorkspaceX()
 End Sub 
  
 ```
-

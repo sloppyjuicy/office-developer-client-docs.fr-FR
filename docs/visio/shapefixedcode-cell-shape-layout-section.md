@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: a1736a5c-421c-2bdb-b164-76a8cd06cc3d
 description: Indique le comportement du positionnement d'une forme positionnable.
-ms.openlocfilehash: efb821aca9d60f2d1d80d9615c39a0ae8672b0f5
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: b24eae149c1812484f15fccf925447a06a4c069a
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62779291"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507235"
 ---
 # <a name="shapefixedcode-cell-shape-layout-section"></a>ShapeFixedCode, cellule (section Shape Layout)
 
@@ -39,16 +39,16 @@ Dans les versions antérieures à Visio 2000, vous pouviez définir ce comportem
   
 Pour obtenir une référence à la cellule ShapeFixedCode par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |ShapeFixedCode  <br/> |
+|**Nom de cellule :**  <br/> |ShapeFixedCode  <br/> |
    
 Pour obtenir une référence à la cellule ShapeFixedCode à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
-|Index de la cellule :  <br/> |**visSLOFixedCode** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowShapeLayout** <br/> |
+|**Index de la cellule :**  <br/> |**visSLOFixedCode** <br/> |
    
 

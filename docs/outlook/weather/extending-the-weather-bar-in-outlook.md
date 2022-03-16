@@ -1,19 +1,19 @@
 ---
 title: Extension de la barre météorologique dans Outlook
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3b355b98-dd7d-4f16-8257-367e5dd61b34
 description: Découvrez comment ajouter un service web météorologique tiers à la barre météorologique dans Outlook 2013, afin de fournir des données de conditions météorologiques pour un lieu choisi par l'utilisateur.
-ms.openlocfilehash: 18c9888b2c75dbcb4204ed03d3b2deb1523fbc0d
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 7105de8024cc90432c4ba5f52e5fe6705fad1afb
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63377007"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63508301"
 ---
 # <a name="extending-the-weather-bar-in-outlook"></a>Extension de la barre météorologique dans Outlook
 
@@ -81,7 +81,7 @@ L'administrateur ou l'utilisateur avancé peut utiliser la clé de Registre **We
   
 Le tableau suivant décrit la clé **WeatherServiceUrl**.
   
-|||
+|**Valeur**|**Description**|
 |:-----|:-----|
 |**Clé** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Nom de valeur** <br/> |**WeatherServiceUrl** <br/> |
@@ -101,7 +101,7 @@ Tout d'abord, vérifiez que l'option **Afficher la météo sur le calendrier** e
   
 Notez qu'un administrateur peut également utiliser la stratégie de groupe pour complètement désactiver la barre météorologique dans Outlook 2013 en définissant la clé suivante dans le Registre Windows :
   
-|||
+|**Valeur**|**Description**|
 |:-----|:-----|
 |**Clé** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Nom de valeur** <br/> |**DisableWeather** <br/> |
@@ -119,7 +119,7 @@ Si l'utilisateur a choisi de ne pas recevoir les mises à jour pour Office, la b
   
 Un administrateur peut également utiliser la stratégie de groupe pour désactiver tous les contenus en ligne, y compris la barre météorologique, en définissant la clé suivante dans le Registre Windows :
   
-|||
+|**Valeur**|**Description**|
 |:-----|:-----|
 |**Clé** <br/> |HKCU\Software\Microsoft\Office\15.0\Common\Internet  <br/> |
 |**Nom de valeur** <br/> |**UseOnlineContent** <br/> |
@@ -143,7 +143,7 @@ Contoso Météo fournit l'URL de base suivante pour leur service de données mé
   
 ### <a name="getting-a-location-code"></a>Obtention d'un code d'emplacement
 
-Outlook ajoute les paramètres décrits lors de l'étape 2 à l'URL de base afin d'obtenir le code d'emplacement d'un lieu géographique ( _city_) :
+Outlook les paramètres décrits à l’étape 2 ci-dessus à l’URL de base pour obtenir le code d’emplacement d’une _ville géographique :_
   
 https://service.contoso.com/data.aspx?outputview=search&amp;weasearchstr= _city_
   

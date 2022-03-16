@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: bfea4ef4-1b30-eb22-215d-3b9b73098da9
 description: Détermine si l’application aligne les formes sur une grille de page interne invisible lorsque vous configurez la disposition dans la boîte de dialogue Configurer la disposition. (Sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition de page, puis cliquez sur Autres options de disposition.)
-ms.openlocfilehash: 3a54dabb092f9d09ce537e0de494fb243a0f0e7a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a67e8d19199d9806704a4225bcc2bc453cd12edd
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774341"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506965"
 ---
 # <a name="enablegrid-cell-page-layout-section"></a>EnableGrid, cellule (section Page Layout)
 
@@ -33,16 +33,16 @@ Lorsque vous activez cette fonction, l'application aligne le point central de ch
   
 Pour obtenir une référence à la cellule EnableGrid par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |EnableGrid  <br/> |
+|**Nom de la cellule :**  <br/> |EnableGrid  <br/> |
    
 Pour obtenir une référence à la cellule EnableGrid à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
-|Index de la cellule :  <br/> |**visPLOEnableGrid** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowPageLayout** <br/> |
+|**Index de la cellule :**  <br/> |**visPLOEnableGrid** <br/> |
    
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 158b4188-570c-3817-bf34-8dc0c64befa5
 description: Contrôle si l’action d’un menu contextuel ou de balise d’action est en lecture seule.
-ms.openlocfilehash: 6f9e2dd875687aa626775e1adbc2df659a663ae1
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 1034b9efbf61c62477901cd79cec42e41e01f9df
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774054"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506424"
 ---
 # <a name="readonly-cell-actions-section"></a>ReadOnly, cellule (section Actions)
 
@@ -34,16 +34,16 @@ Lorsqu’une action est en lecture seule, elle apparaît dans le menu contextuel
   
 Pour obtenir une référence à la cellule ReadOnly à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Actions. *nom*  . ReadOnlywhere Actions.  *name*  est le nom de la ligne Actions  <br/> |
+|**Nom de cellule :**  <br/> |Actions. *nom*  . ReadOnlywhere Actions.  *name*  est le nom de la ligne Actions  <br/> |
    
 Pour obtenir une référence à la cellule ReadOnly à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction** +   *i* où *i* = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visActionReadOnly** <br/> |
+|**Index de la section :**  <br/> |**visSectionAction** <br/> |
+|**Index de la ligne :**  <br/> |**visRowAction** +   *i* où *i* = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visActionReadOnly** <br/> |
    
 

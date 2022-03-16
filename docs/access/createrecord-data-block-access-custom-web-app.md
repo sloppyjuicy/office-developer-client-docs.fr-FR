@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 9dd73bae-a8d5-4d8b-b356-01ac72f7e5d9
 description: Vous pouvez utiliser le bloc de données CréerEnregistrement pour créer un nouvel enregistrement dans la table spécifiée.
-ms.openlocfilehash: f8c09f249e284dd672ef8f29811673ecd909c312
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a45aa10c38cd659780cd70cad07a75adccf2d750
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770974"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506692"
 ---
 # <a name="createrecord-data-block-access-custom-web-app"></a>CreateRecord Data Block (Access custom web app)
 
@@ -40,7 +40,7 @@ L’enregistrement créé par **CréerEnregistrement** devient automatiquement l
   
 Après **l’instruction CreateRecord** , vous pouvez insérer un bloc de commandes qui s’exécute avant que le nouvel enregistrement ne soit engagé. Les actions suivantes sont disponibles dans un bloc de données **CréerEnregistrement**. 
   
-||
+|Opération |
 |:-----|
 |[Action de macro AnnulerModificationEnregistrement](cancelrecordchange-macro-action-access-custom-web-app.md) <br/> |
 |[Instruction de macro Comment](comment-macro-block-access-custom-web-app.md) <br/> |

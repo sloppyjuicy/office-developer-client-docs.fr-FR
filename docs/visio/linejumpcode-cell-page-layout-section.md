@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 56f9043d-a632-65df-c710-45867cce1627
 description: Détermine les connecteurs auxquels appliquer des déviations
-ms.openlocfilehash: ffe98e406e76568a5580b03af0498faaf372c549
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0ac7b84be0254eab06c27c64c1381268727190da
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623431"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506746"
 ---
 # <a name="linejumpcode-cell-page-layout-section"></a>LineJumpCode, cellule (section Page Layout)
 
@@ -26,8 +26,8 @@ Détermine les connecteurs auxquels appliquer des déviations
 |1  <br/> |Lignes horizontales  <br/> |**visPLOJumpHorizontal** <br/> |
 |2  <br/> |Traits verticaux  <br/> |**visPLOJumpVertical** <br/> |
 |3  <br/> |Dernier trait repositionné  <br/> |**visPLOJumpLastRouted** <br/> |
-|4   <br/> |Dernière ligne affichée (forme supérieure dans *l’ordre de z)*  <br/> |**visPLOJumpDisplayOrder** <br/> |
-|5  <br/> |Première ligne affichée (forme au bas de *l’ordre de z)*  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
+|4  <br/> |Dernière ligne affichée (forme supérieure dans  *l’ordre de z*  )  <br/> |**visPLOJumpDisplayOrder** <br/> |
+|5  <br/> |Première ligne affichée (forme au bas de  *l’ordre de z*  )  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -35,16 +35,16 @@ Vous pouvez également définir la valeur de cette cellule dans l’onglet **Dis
   
 Pour obtenir une référence à la cellule LineJumpCode par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |LineJumpCode  <br/> |
+|**Nom de la cellule :**  <br/> |LineJumpCode  <br/> |
    
 Pour obtenir une référence à la cellule LineJumpCode à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
-|Index de la cellule :  <br/> |**visPLOJumpCode** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowPageLayout** <br/> |
+|**Index de la cellule :**  <br/> |**visPLOJumpCode** <br/> |
    
 

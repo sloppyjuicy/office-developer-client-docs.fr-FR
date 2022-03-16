@@ -1,18 +1,18 @@
 ---
 title: Mots clés réservés (application web personnalisée Access)
-manager: kelbow
-ms.date: 08/18/2017
+manager: lindalu
+ms.date: 03/11/2022
 ms.audience: Developer
 ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 2b5beeb6-e52d-41be-94df-083d36141a9d
 description: Microsoft Access utilise des mots clés réservés pour définir, manipuler et accéder aux bases de données. Les mots clés réservés font partie de la grammaire de la langue utilisée par Access pour l’SQL des instructions.
-ms.openlocfilehash: 0279ac630f586afd0b47350043fd80f80c277549
-ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
+ms.openlocfilehash: dec55c645d3460c1fc5f7d5c56b779881e796e29
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63426334"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507427"
 ---
 # <a name="reserved-keywords-access-custom-web-app"></a>Mots clés réservés (application web personnalisée Access)
 
@@ -62,7 +62,7 @@ Le tableau suivant répertorie les mots clés réservés Access.
 |CROSS  <br/> |J’AIME  <br/> |SYSTEM_USER  <br/> |
 |Devise  <br/> |LINENO  <br/> |TABLE  <br/> |
 |CURRENT  <br/> |LOAD  <br/> |TABLESAMPLE  <br/> |
-|CURRENT_DATE  <br/> |LongText  <br/> |Texte  <br/> |
+|CURRENT_DATE  <br/> |LongText  <br/> |Text  <br/> |
 |CURRENT_TIME  <br/> |MERGE  <br/> |TEXTIZE  <br/> |
 |CURRENT_TIMESTAMP  <br/> |Milliseconde  <br/> |THEN  <br/> |
 |CURRENT_USER  <br/> |Minute  <br/> |Temps  <br/> |

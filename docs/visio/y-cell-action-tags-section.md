@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b213fc46-7f80-99fd-60ba-8ddf3d0f6ee3
 description: Position de la coordonnée y dans les coordonnées locales de la forme autour de laquelle le bouton de balise d’action est placé.
-ms.openlocfilehash: eac4b1442e41f6dc3a8c1d765a5c6aa19912ebfb
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 042d38e6e51960c4a69bd7aaf2e24b6cd64d6ee0
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374851"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507848"
 ---
 # <a name="y-cell-action-tags-section"></a>Y, cellule (section Action Tags)
 
@@ -29,14 +29,14 @@ Les cellules X et Y définissent un point dans le système de coordonnées local
   
 Pour obtenir une référence à la cellule Y à l'aide d'un nom à partir d'une autre formule ou programme en faisant appel à la propriété **CellsU**, utilisez :
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | SmartTags. *nom* . Y où SmartTags. *nom* est le nom de la ligne de balise d’action. <br/> |
+| **Nom de cellule :**  <br/> | SmartTags. *nom* . Y où SmartTags. *nom* est le nom de la ligne de balise d’action. <br/> |
 
 Pour obtenir une référence à la cellule Y à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag** +  *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visSmartTagY** <br/> |
+| **Index de la section :**  <br/> |**visSectionSmartTag** <br/> |
+| **Index de la ligne :**  <br/> |**visRowSmartTag** +  *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visSmartTagY** <br/> |

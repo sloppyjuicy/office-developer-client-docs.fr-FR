@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 5a14be0d-9e3c-23c4-7782-bda5470d1243
 description: Détermine la taille des déviations sur les connecteurs dynamiques verticaux de la page par rapport à la valeur de la cellule LineToLineY. La valeur de cette cellule est comprise entre 0 et 10 mais des valeurs fractionnelles de 0 à 1 sont proposées.
-ms.openlocfilehash: b5faf545682f80cfcc1b6774144791b1083439cc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9d29d7106c95c29ddc03dd9899ae4b56740caa27
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612525"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507027"
 ---
 # <a name="linejumpfactory-cell-page-layout-section"></a>LineJumpFactorY, cellule (section Page Layout)
 
@@ -26,16 +26,16 @@ Vous pouvez également définir la valeur de cette cellule dans l’onglet **Dis
   
 Pour obtenir une référence à la cellule LineJumpFactorY par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |LineJumpFactory  <br/> |
+|**Nom de la cellule :**  <br/> |LineJumpFactory  <br/> |
    
 Pour obtenir une référence à la cellule LineJumpFactorY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
-|Index de la cellule :  <br/> |**visPLOJumpFactory** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowPageLayout** <br/> |
+|**Index de la cellule :**  <br/> |**visPLOJumpFactory** <br/> |
    
 

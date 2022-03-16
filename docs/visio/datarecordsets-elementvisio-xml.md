@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: c75b3233-9ac5-d29c-a658-d554e86e6be4
 description: Contient tous les éléments DataRecordset du document.
-ms.openlocfilehash: 4b32cbbc3cb2793481ca66458e022fc68dc4bab5
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 9593aa639913e93c95cac92c8e6ca1e02ea0d76f
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783424"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63507111"
 ---
 # <a name="datarecordsets-element-visio-xml"></a>Élément DataRecordSets (Visio XML)
 
 Contient tous les **éléments DataRecordset** du document. 
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[DataRecordSets_Type](datarecordsets_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -44,7 +44,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Contient tous les **éléments DataRecordset** du document. |
    

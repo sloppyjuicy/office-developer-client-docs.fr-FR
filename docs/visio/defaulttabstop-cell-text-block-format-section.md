@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b3e458a-206c-8699-8bf7-da80f4350706
 description: Détermine l’intervalle des taquets de tabulation par défaut dans un bloc de texte.
-ms.openlocfilehash: 10589f110ec1121fd04bdd3caea6ca876bbfc3c9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cd075e82d5c7e3fbd8f7ab381f472ca0d91eccd7
+ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628478"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63506545"
 ---
 # <a name="defaulttabstop-cell-text-block-format-section"></a>DefaultTabstop, cellule (section Text Block Format)
 
@@ -26,16 +26,16 @@ La valeur par défaut est de 1,5 cm pour les documents créés en unités métr
   
 Pour obtenir une référence à la cellule DefaultTabstop par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |DefaultTabstop  <br/> |
+|**Nom de cellule :**  <br/> |DefaultTabstop  <br/> |
    
 Pour obtenir une référence à la cellule DefaultTabstop à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowText** <br/> |
-|Index de la cellule :  <br/> |**visTxtBlkDefaultTabStop** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowText** <br/> |
+|**Index de la cellule :**  <br/> |**visTxtBlkDefaultTabStop** <br/> |
    
 
