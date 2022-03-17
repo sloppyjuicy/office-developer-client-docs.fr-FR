@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 390df5ce-e730-470d-b6e9-0de4a3e904f8
 description: This topic lists the error codes in the OneNote 2013 object model.
-ms.openlocfilehash: f8be6ff28dfd75c83af247c1b84ca929ee733d14
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 74df469bc0fc7d8affda95c4b14469aa2eeca257
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774964"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522659"
 ---
 # <a name="error-codes-onenote"></a>Codes d'erreur (OneNote 2013)
 
@@ -50,7 +50,7 @@ This topic lists the error codes in the OneNote 2013 object model.
 |hrSectionEncryptedAndLocked  <br/> |0x8004201b  <br/> |The section is encrypted and locked. |
 |hrDisabledByPolicy  <br/> |0x8004201c  <br/> |The action is disabled by a policy. |
    
-||||
+|**HResult**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |hrNotYetSynchronized  <br/> |0x8004201d  <br/> |OneNote has not yet synchronized content. |
 |hrLegacySection  <br/> |0x8004201E  <br/> |The section is from OneNote 2007 or earlier. |

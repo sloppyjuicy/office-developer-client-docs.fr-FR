@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 48ceeeed-66ae-a81f-2aee-f0010102dfb7
 description: Verrouille la position horizontale de la forme afin d'empêcher son déplacement horizontal.
-ms.openlocfilehash: 96be4143e15ea296e192b0e8e4c506b1d0b418fa
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: c89708ffa02a2c0a55e9d869299bb73848c18405
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780672"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522687"
 ---
 # <a name="lockmovex-cell-protection-section"></a>LockMoveX, cellule (section Protection)
 
@@ -29,16 +29,16 @@ Verrouille la position horizontale de la forme afin d'empêcher son déplacement
 
 Pour obtenir une référence à la cellule LockMoveX par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | LockMoveX  <br/> |
+| **Nom de la cellule :**  <br/> | LockMoveX  <br/> |
    
 Pour obtenir une référence à la cellule LockMoveX à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowLock** <br/> |
-| Index de la cellule :  <br/> |**visLockMoveX** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowLock** <br/> |
+| **Index de la cellule :**  <br/> |**visLockMoveX** <br/> |
    
 

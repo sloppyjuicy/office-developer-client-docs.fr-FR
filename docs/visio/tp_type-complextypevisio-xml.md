@@ -6,22 +6,22 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 27a4147f-bd69-0a17-be2f-264f41e84ec1
-ms.openlocfilehash: e7543a72725b6a9c0372192a44d80d2013b64bce
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 04e7b8632a02c722bc5a57afc601a9511cb70576
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781756"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522526"
 ---
 # <a name="tp_type-complextype-visio-xml"></a>tp_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base d’extension** <br/> |Aucune  <br/> |
+|**Base d’extension** <br/> |Aucun  <br/> |
    
 ## <a name="definition"></a>Définition
 

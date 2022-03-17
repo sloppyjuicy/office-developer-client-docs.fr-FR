@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 04b0fa5b-1680-cfe2-6aaf-0502ad196027
 description: Verrouille un groupe afin d'empêcher sa dissociation.
-ms.openlocfilehash: acdb9a38e2cefafcc292fff1075fa2084757cb2f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 31472fe76a879188d6f90a4ea954ad11d5ac27c1
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788877"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521175"
 ---
 # <a name="lockgroup-cell-protection-section"></a>LockGroup, cellule (section Protection)
 
@@ -31,16 +31,16 @@ La définition de la valeur LockGroupCell sur TRUE empêche également la suppre
   
 Pour obtenir une référence à la cellule LockGroup par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |LockGroup  <br/> |
+|**Nom de la cellule :**  <br/> |LockGroup  <br/> |
    
 Pour obtenir une référence à la cellule LockGroup à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowLock** <br/> |
-|Index de la cellule :  <br/> |**visLockGroup** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowLock** <br/> |
+|**Index de la cellule :**  <br/> |**visLockGroup** <br/> |
    
 

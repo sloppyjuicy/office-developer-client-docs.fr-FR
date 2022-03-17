@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f3f53a7d-7450-b2b0-b508-6044a87450d9
 description: Détermine, en unités de page, la distance du décalage vertical entre l'ombre d'une forme et la forme.
-ms.openlocfilehash: 441b63f8b7fb335ce2d159b70e6086aba9a3c1bc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c70c5c87822e69360d977a92fef1fe76089fae6f
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622878"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520699"
 ---
 # <a name="shdwoffsety-cell-page-properties-section"></a>ShdwOffsetY, cellule (section Page Properties)
 
@@ -26,16 +26,16 @@ Cette valeur est définie dans la boîte de dialogue **Mise en page** (sous l’
   
 Pour obtenir une référence à la cellule ShdwOffsetY par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | ShdwOffsetY  <br/> |
+| **Nom de la cellule :**  <br/> | ShdwOffsetY  <br/> |
    
 Pour obtenir une référence à la cellule ShdwOffsetY par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowPage** <br/> |
-| Index de la cellule :  <br/> |**visPageShdwOffsetY** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowPage** <br/> |
+| **Index de la cellule :**  <br/> |**visPageShdwOffsetY** <br/> |
    
 

@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: b0653622-fa94-4889-68c2-94f3e7a83119
 description: Spécifie les propriétés utilisées pour identifier un commentaire dans un dessin.
-ms.openlocfilehash: 39b3f6808aba401006bd1365fbcfcaed59d9e86c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3c9b2dba344ce9b56705b64e576ec11b55a15299
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772892"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520867"
 ---
 # <a name="commententry-element-commentlist_type-complextype-visio-xml"></a>Élément CommentEntry (CommentList_Type complexType) (Visio XML)
 
 Spécifie les propriétés utilisées pour identifier un commentaire dans un dessin.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[CommentEntry_Type](commententry_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[CommentList](commentlist-element-comments_type-complextypevisio-xml.md) <br/> |[CommentList_Type](commentlist_type-complextypevisio-xml.md) <br/> |Spécifie les commentaires d’un dessin. |
    

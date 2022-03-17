@@ -6,18 +6,18 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: f7bce473-9a3d-65f2-8323-1e00db110c71
-ms.openlocfilehash: cc476551441fe3f7c6df28a20d47c6e6d4d8f6ae
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3dc404551a16a8120d48101964f02327df10971b
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774117"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521595"
 ---
 # <a name="pagesheet_type-complextype-visio-xml"></a>PageSheet_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |

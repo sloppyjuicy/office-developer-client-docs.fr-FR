@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: ac7b39d4-3942-4b23-b188-2c3f69e54929
 description: Spécifie le type de biseau inférieur du biseau d’une forme.
-ms.openlocfilehash: 54d42bfcb71fba1006e15b57a52b2b7c8dbbaf9f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 168fd70c76fd3a5743ff0f24bd7bbb638724a083
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578164"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63519859"
 ---
 # <a name="bevelbottomtype-cell-bevel-properties-section"></a>BevelBottomType Cell (Bevel Properties Section)
 
@@ -24,7 +24,7 @@ Spécifie le type de biseau inférieur du biseau d’une forme.
 |1  <br/> |Biseau de cercle  <br/> |
 |2  <br/> |Biseau d’ensemble relâché  <br/> |
 |3  <br/> |Biseau croisé  <br/> |
-|4   <br/> |Biseau incliné froid  <br/> |
+|4  <br/> |Biseau incliné froid  <br/> |
 |5  <br/> |Biseau d’angle  <br/> |
 |6   <br/> |Biseau arrondi  <br/> |
 |7   <br/> |Biseau convexe  <br/> |
@@ -36,18 +36,18 @@ Spécifie le type de biseau inférieur du biseau d’une forme.
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule **BevelBottomType** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** au format de fichier .vsdx ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
+Pour obtenir une référence à la cellule **BevelBottomType** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** au format de fichier .vsdx ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | BevelBottomType  <br/> |
+| **Nom de cellule :**  <br/> | BevelBottomType  <br/> |
    
 Pour obtenir une référence à la **cellule BevelBottomType** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowBevelProperties** <br/> |
-| Index de la cellule :  <br/> |**visBevelBottomType** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowBevelProperties** <br/> |
+| **Index de la cellule :**  <br/> |**visBevelBottomType** <br/> |
    
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: ff34a23b-2881-864f-42e4-871c4fde0992
 description: Détermine l'alignement vertical du texte dans le bloc de texte.
-ms.openlocfilehash: 59892b4c28278bf59dbf474f900c0cf7e498dbd8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: effb1980c6bd8425cd6906e285fa0a6b79495198
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622640"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520167"
 ---
 # <a name="verticalalign-cell-text-block-format-section"></a>VerticalAlign, cellule (section Text Block Format)
 
@@ -30,16 +30,16 @@ Détermine l'alignement vertical du texte dans le bloc de texte.
 
 Pour obtenir une référence à la cellule VerticalAlign par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | VerticalAlign  <br/> |
+| **Nom de la cellule :**  <br/> | VerticalAlign  <br/> |
    
 Pour obtenir une référence à la cellule VerticalAlign par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowText** <br/> |
-| Index de la cellule :  <br/> |**visTxtBlkVerticalAlign** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowText** <br/> |
+| **Index de la cellule :**  <br/> |**visTxtBlkVerticalAlign** <br/> |
    
 

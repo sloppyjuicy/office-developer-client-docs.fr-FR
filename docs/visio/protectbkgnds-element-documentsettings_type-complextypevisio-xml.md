@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 99b7d89e-b482-ef19-1683-667095f8114a
 description: Spécifie si l’utilisateur est empêché de supprimer ou de modifier des pages d’arrière-plan.
-ms.openlocfilehash: 4eba9cd989b7f098048940550550814832ea710f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: d2427d596ae9c9c7afd47ac47cf73724481517d2
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775350"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520545"
 ---
 # <a name="protectbkgnds-element-documentsettings_type-complextype-visio-xml"></a>Élément ProtectBkgnds (DocumentSettings_Type complexType) (Visio XML)
 
 Spécifie si l’utilisateur est empêché de supprimer ou de modifier des pages d’arrière-plan.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[ProtectBkgnds_Type](protectbkgnds_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contient des éléments qui spécifient les paramètres de document. |
    

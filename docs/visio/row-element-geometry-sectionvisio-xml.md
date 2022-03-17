@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 2b273958-1997-7c63-4a61-d231f023a81f
 description: Contient les lignes qui répertorient les coordonnées des sommets des traits et des arcs qui constituent la forme.
-ms.openlocfilehash: 1a1bd9e51446948ca8150e06f19e300d97e47fa8
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: d0851e8596b95924589918e7c6503570c579c368
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780518"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520027"
 ---
 # <a name="row-element-geometry-section-visio-xml"></a>Row, élément (Geometry Section) (Visio XML)
 
 Contient les lignes qui répertorient les coordonnées des sommets des traits et des arcs qui constituent la forme.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[GeometryRow_Type](geometry_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contient les lignes qui répertorient les coordonnées des sommets des traits et des arcs qui constituent la forme. |
    
@@ -49,7 +49,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 > [!NOTE]
 > L’élément Cell est le seul enfant de cet élément. Selon l’attribut « T » de cet élément, la signification des éléments Cell diffère. Dans le tableau ci-dessous, le texte sous-titre du nom de l’élément correspond à la valeur « T » à laquelle s’applique la rubrique. 
   
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément de cellule (ligne ArcTo)](arcto-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Contient les coordonnées x et y et la courbure d'un arc circulaire. |
 |[Élément de cellule (ligne Ellipse)](ellipse-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Contient les coordonnées x et y du centre et de deux points de l'ellipse. |

@@ -6,18 +6,18 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: bacc4fbd-1530-033d-b323-1fac944af1ad
-ms.openlocfilehash: 147b73c210abecd721881bbd57c4fe312c438fe7
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: b700470e1ba79e4816574be7de7938e70701e942
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777002"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522799"
 ---
 # <a name="rulesetflags_type-complextype-visio-xml"></a>RuleSetFlags_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |

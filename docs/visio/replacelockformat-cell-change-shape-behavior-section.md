@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6973e2e6-7e7f-48ba-95b3-37c959f6ffb1
 description: Indique si les valeurs des cellules spécifiées dans une forme de base remplacent les valeurs (y compris les valeurs locales) d’une forme remplacée lors d’une opération de remplacement de forme. Si la cellule ReplaceLockFormat d’une forme de base est définie sur TRUE (1), les valeurs de mise en forme de la forme de base remplacent toutes les valeurs correspondantes d’une forme remplacée par la forme de base.
-ms.openlocfilehash: 2a0cccb26ef6a20cd9332fcf22e2c55d5a095aa1
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 2953636e325960f2947a8ecb0f38d505a66a8ceb
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773970"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521812"
 ---
 # <a name="replacelockformat-cell-change-shape-behavior-section"></a>ReplaceLockFormat Cell (Change Shape Behavior Section)
 
@@ -47,16 +47,16 @@ La **cellule ReplaceLockFormat** détermine si la forme de base remplace les val
     
 Pour obtenir une référence à la cellule **ReplaceLockFormat** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | ReplaceLockFormat  <br/> |
+| **Nom de cellule :**  <br/> | ReplaceLockFormat  <br/> |
    
 Pour obtenir une référence à la **cellule ReplaceLockFormat** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowReplaceBehaviors** <br/> |
-| Index de la cellule :  <br/> |**visReplaceLockFormat** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowReplaceBehaviors** <br/> |
+| **Index de la cellule :**  <br/> |**visReplaceLockFormat** <br/> |
    
 

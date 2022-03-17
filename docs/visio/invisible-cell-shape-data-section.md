@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 5f368c2e-2a40-38ee-3568-ed5c57633345
 description: Détermine si l’élément de données de forme est visible ou non dans la fenêtre Données de forme.
-ms.openlocfilehash: 9d9a5244369cd89187186f319098dc7303b24464
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 4c2747f23052ed9329e25e3e41f9f9c0c43c5bd8
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775674"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520573"
 ---
 # <a name="invisible-cell-shape-data-section"></a>Invisible, cellule (section Shape Data)
 
@@ -31,16 +31,16 @@ La valeur de cette cellule correspond à la case à cocher **Masquer** dans la b
   
 Pour obtenir une référence à la cellule Invisible par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | Prop.  *nom*  . Invisible où Prop.  *nom est*  le nom de ligne  <br/> |
+| **Nom de cellule :**  <br/> | Prop.  *nom*  . Invisible où Prop.  *nom est*  le nom de ligne  <br/> |
    
 Pour obtenir une référence à la cellule Invisible à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionProp** <br/> |
-| Index de la ligne :  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visCustPropsInvis** <br/> |
+| **Index de la section :**  <br/> |**visSectionProp** <br/> |
+| **Index de la ligne :**  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visCustPropsInvis** <br/> |
    
 

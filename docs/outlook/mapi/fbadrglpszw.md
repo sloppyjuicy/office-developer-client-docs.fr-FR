@@ -11,28 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 880eb35d-7045-4fdd-bb33-0f14557a7316
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2d677c6d4e1eb416e5dabf466f24d9b77c48c03e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Valide toutes les chaînes d’un tableau de chaînes Unicode.
+ms.openlocfilehash: 43b85f3d15b5409e22dd2f64d2d59aaf560fdf93
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621114"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63519985"
 ---
 # <a name="fbadrglpszw"></a>FBadRglpszW
 
+**S’applique à** : Outlook 2013 | Outlook 2016
   
-  
-**S’applique à** : Outlook 2013 | Outlook 2016 
-  
-Valide toutes les chaînes d’un tableau de chaînes Unicode. 
+Valide toutes les chaînes d’un tableau de chaînes Unicode.
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Fournisseurs de services  <br/> |
-   
+
 ```cpp
 BOOL FBadRglpszW(
   LPWSTR FAR * lppszW,
@@ -44,20 +42,18 @@ BOOL FBadRglpszW(
 
  _lppszW_
   
-> [in] Pointeur vers un tableau de chaînes Unicode terminées par null. 
-    
+> [in] Pointeur vers un tableau de chaînes Unicode terminées par null.
+
  _cStrings_
   
-> [in] Nombre de chaînes dans le tableau pointées par _le paramètre lppszW._ 
-    
+> [in] Nombre de chaînes dans le tableau pointées par _le paramètre lppszW_ .
+
 ## <a name="return-value"></a>Valeur renvoyée
 
-TRUE 
+TRUE
   
-> Une ou plusieurs des chaînes du tableau spécifié ne sont pas valides. 
-    
-FALSE 
+> Une ou plusieurs des chaînes du tableau spécifié ne sont pas valides.
+
+FALSE
   
 > Les chaînes du tableau spécifié sont valides.
-    
-

@@ -1,5 +1,5 @@
 ---
-title: Notice de copyright de la documentation de 2013 Office
+title: Office 2013 documentation copyright notice, Outlook Social Connector
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: a9c2f3d9-cea2-49a3-b709-40dc614b9f86
 description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
-ms.openlocfilehash: d68c0abdff68757ea5a26ac2cd259d9027d88bd0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 970fd274121ab5b6395c75b0f1d311170d15e6b2
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598975"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522918"
 ---
-# <a name="office-2013-documentation-copyright-notice"></a>Notice de copyright de la documentation de 2013 Office
+# <a name="office-2013-documentation-copyright-notice-outlook-social-connector"></a>Office 2013 documentation copyright notice, Outlook Social Connector
 
 Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation. 
   

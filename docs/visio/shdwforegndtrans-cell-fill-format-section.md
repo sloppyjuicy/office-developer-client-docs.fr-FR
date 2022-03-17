@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c42d4d2e-f8f0-bc5b-6018-4bb4ffa81b64
 description: Détermine le niveau de transparence de la couleur utilisée pour le premier plan (trait) du motif de remplissage de l'ombre de la forme.
-ms.openlocfilehash: 968127e2c254db545e7ef6deeb7016728cdc3ba0
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 1e6bf41b048b2008e3a57e7ec73c1e290ea5abd8
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771100"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521714"
 ---
 # <a name="shdwforegndtrans-cell-fill-format-section"></a>ShdwForegndTrans, cellule (section Fill Format)
 
@@ -32,16 +32,16 @@ Vous pouvez également définir cette valeur à l’aide du curseur dans la boî
   
 Pour obtenir une référence à la cellule ShdwForegndTrans par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |ShdwForegndTrans  <br/> |
+|**Nom de la cellule :**  <br/> |ShdwForegndTrans  <br/> |
    
 Pour obtenir une référence à la cellule ShdwForegndTrans par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowFill** <br/> |
-|Index de la cellule :  <br/> |**visFillShdwForegndTrans** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowFill** <br/> |
+|**Index de la cellule :**  <br/> |**visFillShdwForegndTrans** <br/> |
    
 

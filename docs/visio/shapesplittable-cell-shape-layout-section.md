@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6330304a-71f3-62b4-1b27-14495e3f12c3
 description: Indique si cette forme 1D peut être fractionnée.
-ms.openlocfilehash: d476c6121959d0e7db411697e85b1a6d576643c8
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e760fb29260facc496f66fc19e397099b9a76171
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784572"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521371"
 ---
 # <a name="shapesplittable-cell-shape-layout-section"></a>ShapeSplittable, cellule (section Shape Layout)
 
@@ -39,16 +39,16 @@ Pour savoir comment une forme peut fractionner les formes 1D fractionnables, con
   
 Pour obtenir une référence à la cellule ShapeSplittable par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | ShapeSplittable  <br/> |
+| **Nom de cellule :**  <br/> | ShapeSplittable  <br/> |
    
 Pour obtenir une référence à la cellule ShapeSplittable à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
-| Index de la cellule :  <br/> |**visSLOSplittable** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowShapeLayout** <br/> |
+| **Index de la cellule :**  <br/> |**visSLOSplittable** <br/> |
    
 

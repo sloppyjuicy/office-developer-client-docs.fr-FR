@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 30dd19d9-0840-49e9-aec6-ec8d19b1f91d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 79ef39504d118ac7577fed789360a08bca043d3e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1b5ee60cdf48484f1f8c7119535036e1d3e1b577
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624173"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522470"
 ---
 # <a name="spropattrarray"></a>SPropAttrArray
 
@@ -45,23 +45,20 @@ typedef struct
 
  **cValues**
   
-> Nombre d’attributs de propriété dans le **membre aPropAttr.** 
+> Nombre d’attributs de propriété dans le **membre aPropAttr** . 
     
  **aPropAttr**
   
 > Tableau d’attributs de propriété. Les valeurs valides pour les attributs sont les suivantes :
-    
-    - PROPATTR_MANDATORY
-    
-    - PROPATTR_READABLE
-    
-    - PROPATTR_WRITEABLE
-    
-    - PROPATTR_NOT_PRESENT
+
+  - PROPATTR_MANDATORY
+  - PROPATTR_READABLE
+  - PROPATTR_WRITEABLE
+  - PROPATTR_NOT_PRESENT
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SPropAttrArray** est utilisée par les objets de données de propriété qui implémentent l’interface [IPropData : IMAPIProp.](ipropdataimapiprop.md) Il est également utilisé par l’implémentation MAPI de [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) basé sur un stockage structuré. 
+La structure **SPropAttrArray** est utilisée par les objets de données de propriété qui implémentent l’interface [IPropData : IMAPIProp](ipropdataimapiprop.md) . Il est également utilisé par l’implémentation MAPI de [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) basé sur un stockage structuré. 
   
 ## <a name="see-also"></a>Voir aussi
 

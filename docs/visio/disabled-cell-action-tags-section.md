@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: bf0a80c9-0fdb-e2cf-3ab0-74cb6338fdce
 description: Indique si la balise d’action s’affiche dans la fenêtre de dessin.
-ms.openlocfilehash: a2bcb4f66109e155b5c5504008ea10059c6d283f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a03e3f40fcf7eceb436ff5b297913b67944f674d
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771628"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521637"
 ---
 # <a name="disabled-cell-action-tags-section"></a>Disabled, cellule (section Action Tags)
 
@@ -34,16 +34,16 @@ Lorsqu’une balise d’action est désactivée, elle ne s’affiche plus du tou
   
 Pour obtenir une référence à la cellule Disabled à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | SmartTags.  *nom*  . Désactivé lorsque SmartTags. *name est*  le nom de la ligne de balise d’action  <br/> |
+| **Nom de cellule :**  <br/> | SmartTags.  *nom*  . Désactivé lorsque SmartTags. *name est*  le nom de la ligne de balise d’action  <br/> |
    
 Pour obtenir une référence à la cellule Disabled à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visSmartTagDisabled** <br/> |
+| **Index de la section :**  <br/> |**visSectionSmartTag** <br/> |
+| **Index de la ligne :**  <br/> |**visRowSmartTag** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visSmartTagDisabled** <br/> |
    
 

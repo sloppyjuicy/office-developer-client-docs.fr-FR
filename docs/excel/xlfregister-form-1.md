@@ -10,12 +10,12 @@ keywords:
 - fonction xlfregister [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: c730124c-1886-4a0f-8f06-79763025537d
-ms.openlocfilehash: 15b4e58b79517f3a27c5e1e36310596211ada66f
-ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
+ms.openlocfilehash: cc63010f39c1ec5bc420cadd1cb894e7d8874a8a
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63507939"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523548"
 ---
 # <a name="xlfregister-form-1"></a>xlfRegister (formulaire 1)
 
@@ -295,7 +295,7 @@ En outre, ces catégories sont également visibles lorsque vous affichez la boî
 
 ### <a name="example"></a>Exemple
 
-Consultez le code de la **fonction xlAutoOpen** dans  `\SAMPLES\GENERIC\GENERIC.C`.
+Consultez le code de la **fonction xlAutoOpen** dans `\SAMPLES\GENERIC\GENERIC.C`.
   
 ## <a name="see-also"></a>Voir aussi
 

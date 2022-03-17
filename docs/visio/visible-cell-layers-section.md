@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 02048012-a814-410b-f26e-56fcfbe106e6
 description: Indique si les formes appartenant au calque sont visibles sur la page de dessin.
-ms.openlocfilehash: 222950da1dce771906e7ede181377d7cc3c3fbbc
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 7bcf7c14233cea5969bf2185ae29a60060e2b18e
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775244"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523079"
 ---
 # <a name="visible-cell-layers-section"></a>Visible, cellule (section Layers)
 
@@ -31,16 +31,16 @@ Cette cellule correspond à l’option **Visible** dans la  boîte de dialogue P
   
 Pour obtenir une référence à la cellule Visible par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Layers.Visible[ *i*  ] where  *i*  = <1>, 2, 3... |
+|**Nom de cellule :**  <br/> |Layers.Visible[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Visible par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionLayer** <br/> |
-|Index de la ligne :  <br/> |**visRowLayer** +   *i* où *i* = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visLayerVisible** <br/> |
+|**Index de la section :**  <br/> |**visSectionLayer** <br/> |
+|**Index de la ligne :**  <br/> |**visRowLayer** +   *i* où *i* = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visLayerVisible** <br/> |
    
 

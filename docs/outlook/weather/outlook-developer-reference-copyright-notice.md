@@ -1,5 +1,5 @@
 ---
-title: Outlook copyright de référence du développeur
+title: Outlook copyright de référence du développeur, Météo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3d692894-a0c1-b9dc-1196-07ecaa72afee
 description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
-ms.openlocfilehash: 0be57bd22f3ffac55f94bfe7d248ed634ef8919e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9774f05a706d89c2508ea4313ec8e35886dcc932
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623564"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520622"
 ---
-# <a name="outlook-developer-reference-copyright-notice"></a>Outlook copyright de référence du développeur
+# <a name="outlook-developer-reference-copyright-notice-weather"></a>Outlook copyright de référence du développeur, Météo
 
 Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation. 
   

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 69d64520-9a47-07ca-09c7-d1e5da620348
 description: Indique un type de données pour la valeur du champ de texte.
-ms.openlocfilehash: e0ff76c50bbc27244e96f13860041b8435980f5c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3e000793e1b61758d7b2346a032262e0c107674b
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62769965"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520174"
 ---
 # <a name="type-cell-text-fields-section"></a>Type, cellule (section Text Fields)
 
@@ -34,16 +34,16 @@ Vous pouvez également définir la valeur de cette cellule à l’aide de la bo�
   
 Pour obtenir une référence à la cellule Type par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Fields.Type[ *i*  ] where  *i*  = <1>, 2, 3... |
+|**Nom de cellule :**  <br/> |Fields.Type[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Type par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionTextField** <br/> |
-|Index de la ligne :  <br/> |**visRowField** +   *i* où *i* = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visFieldType** <br/> |
+|**Index de la section :**  <br/> |**visSectionTextField** <br/> |
+|**Index de la ligne :**  <br/> |**visRowField** +   *i* où *i* = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visFieldType** <br/> |
    
 

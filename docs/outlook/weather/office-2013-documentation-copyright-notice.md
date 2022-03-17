@@ -1,5 +1,5 @@
 ---
-title: Notice de copyright de la documentation de 2013 Office
+title: Office 2013 - Copyright de la documentation, Outlook Météo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: a9c2f3d9-cea2-49a3-b709-40dc614b9f86
 description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
-ms.openlocfilehash: da87c356f805ffcee4070d160ca2bcd4ef071043
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 271688def5c671788ec942f4b5b9c304c4637f81
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613211"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523065"
 ---
-# <a name="office-2013-documentation-copyright-notice"></a>Notice de copyright de la documentation de 2013 Office
+# <a name="office-2013-documentation-copyright-notice-outlook-weather"></a>Office 2013 - Copyright de la documentation, Outlook Météo
 
 Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation. 
   

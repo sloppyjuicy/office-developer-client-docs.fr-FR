@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 89f16674-ee1f-f5f9-9830-7bcc52e3a068
 description: Détermine le style de déviation de tous les connecteurs de la page de dessin n'ayant pas de style de déviation local.
-ms.openlocfilehash: 78f1003c5f1afac945edd31bf82fb64732b8da1e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ebe7dd7ea9cffe1edd48fbad9b027f8f43aaa343
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603668"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523002"
 ---
 # <a name="linejumpstyle-cell-page-layout-section"></a>LineJumpStyle, cellule (section Page Layout)
 
@@ -26,7 +26,7 @@ Détermine le style de déviation de tous les connecteurs de la page de dessin n
 |1  <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
 |2  <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
 |3  <br/> |Square  <br/> |**visLOJumpStyleSquare** <br/> |
-|4   <br/> |2 côtés  <br/> |**visLOJumpStyleTriangle** <br/> |
+|4  <br/> |2 côtés  <br/> |**visLOJumpStyleTriangle** <br/> |
 |5  <br/> |3 côtés  <br/> |**visLOJumpStyle2Point** <br/> |
 |6   <br/> |4 côtés  <br/> |**visLOJumpStyle3Point** <br/> |
 |7   <br/> |5 côtés  <br/> |**visLOJumpStyle4Point** <br/> |
@@ -39,16 +39,16 @@ Vous pouvez également définir la valeur de cette cellule dans l’onglet **Dis
   
 Pour obtenir une référence à la cellule LineJumpStyle par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |LineJumpStyle  <br/> |
+|**Nom de la cellule :**  <br/> |LineJumpStyle  <br/> |
    
 Pour obtenir une référence à la cellule LineJumpStyle à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
-|Index de la cellule :  <br/> |**visPLOJumpStyle** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowPageLayout** <br/> |
+|**Index de la cellule :**  <br/> |**visPLOJumpStyle** <br/> |
    
 

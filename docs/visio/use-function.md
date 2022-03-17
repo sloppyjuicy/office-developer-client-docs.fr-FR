@@ -1,4 +1,5 @@
 ---
+title: USE, fonction
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 410c4187-21f3-d959-750e-9dc6095fba9a
 description: Applique le nom appelé motif de trait, motif de remplissage ou fin de trait à la forme lorsqu’il est placé dans la cellule LinePattern, FillPattern, BeginArrow ou EndArrow.
-ms.openlocfilehash: 2b28947c0b74bbeb9a1f1e4bbb6bab702911fc67
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 6faf44a8abe269f87f4407e21b07c62feb5339c7
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63376713"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521672"
 ---
 # <a name="use-function"></a>Fonction USE
 
@@ -27,7 +28,7 @@ USE( » ***name*** « )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _nom_ <br/> |Obligatoire  <br/> |**String** <br/> |Chaîne correspondant à un nom de forme de base valide. |
+| _nom_ <br/> |Requis  <br/> |**String** <br/> |Chaîne correspondant à un nom de forme de base valide. |
 
 ### <a name="return-value"></a>Valeur renvoyée
 

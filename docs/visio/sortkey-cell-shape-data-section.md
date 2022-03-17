@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 67fa5389-f0b9-a9db-8d19-9b16e256dfa3
 description: Produit une chaîne qui détermine l’ordre dans lequel les éléments de la fenêtre Données de forme sont présentés.
-ms.openlocfilehash: 8a9c30c9873a56de2f55bd9dacb8cf17915ee0bc
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ed441bf2a0781b59c709ad4571818b99ce01ad38
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788716"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520181"
 ---
 # <a name="sortkey-cell-shape-data-section"></a>SortKey, cellule (section Shape Data)
 
@@ -36,16 +36,16 @@ Entrez par exemple les clés de tri suivantes pour afficher les données de form
    
 Pour obtenir une référence à la cellule SortKey par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | Prop.  *Nom*  . SortKey où Prop.  *Name*  est le nom de la ligne de propriété personnalisée  <br/> |
+| **Nom de cellule :**  <br/> | Prop.  *Nom*  . SortKey où Prop.  *Name*  est le nom de la ligne de propriété personnalisée  <br/> |
    
 Pour obtenir une référence à la cellule SortKey par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionProp** <br/> |
-| Index de la ligne :  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visCustPropsSortKey** <br/> |
+| **Index de la section :**  <br/> |**visSectionProp** <br/> |
+| **Index de la ligne :**  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visCustPropsSortKey** <br/> |
    
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 8dc6515b-66ab-f1ac-18fd-820209f90991
 description: Contient une formule de déclenchement générée par l'application qui détermine si le point de fin d'une forme 1D doit être déplacé pour maintenir son lien à une autre forme.
-ms.openlocfilehash: 395a53d792b8a9cad336c816be255d2ee4d15aca
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ccc808914951bbc728f8d708625c5714cbd9dbc4
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619091"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520146"
 ---
 # <a name="endtrigger-cell-glue-info-section"></a>EndTrigger, cellule (section Glue Info)
 
@@ -26,16 +26,16 @@ Lorsque vous collez une forme 1D à une autre de façon dynamique, Visio génèr
   
 Pour obtenir une référence à la cellule EndTrigger par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | EndTrigger  <br/> |
+| **Nom de la cellule :**  <br/> | EndTrigger  <br/> |
    
 Pour obtenir une référence à la cellule EndTrigger à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowMisc** <br/> |
-| Index de la cellule :  <br/> |**visEndTrigger** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowMisc** <br/> |
+| **Index de la cellule :**  <br/> |**visEndTrigger** <br/> |
    
 

@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6e4ac41f-3855-05d8-e659-02c265b8750c
 description: Contient des éléments qui définissent une page dans le document.
-ms.openlocfilehash: 3dcb96b6a532e70281916276878ea60b9b8b2bef
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 12ccd628dc904aee4d9fc361021377ede8627f5e
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782023"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522666"
 ---
 # <a name="page-element-pages_type-complextype-visio-xml"></a>Élément Page (Pages_Type complexType) (Visio XML)
 
 Contient des éléments qui définissent une page dans le document.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Pages](pages-elementvisio-xml.md) <br/> |[Pages_Type](pages_type-complextypevisio-xml.md) <br/> |Contient les **éléments Page** du document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[PageSheet](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Contient des éléments qui définissent la feuille de page d’un **élément Page** . |
    
@@ -54,7 +54,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Contexte  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Indicateur indiquant si la page est une page d’arrière-plan. |Valeurs du type xsd:boolean. |
+|Arrière-plan  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Indicateur indiquant si la page est une page d’arrière-plan. |Valeurs du type xsd:boolean. |
 |BackPage  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |ID de la page d’arrière-plan de cette page. |Valeurs du type xsd:unsignedInt. |
 |ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID unique de l’élément au sein de son élément parent. |Valeurs du type xsd:unsignedInt. |
 |IsCustomName  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Indique si le nom a été personnalisé par l’utilisateur. |Valeurs du type xsd:Boolean. |

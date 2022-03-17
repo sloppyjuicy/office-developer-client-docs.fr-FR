@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 40e0dc3fa990d9b39801987ed8aedc8baa3879c7
-ms.sourcegitcommit: 759a4c5cff383963ef0d64888bcc0046738e9635
+ms.openlocfilehash: 9f3b19f4140ae2ff18b504aba4313b2b86e354b1
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61327746"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523086"
 ---
 # <a name="setfilter-macro-action"></a>SetFilter, action de macro
 
@@ -24,9 +24,10 @@ ms.locfileid: "61327746"
 
 Vous pouvez utiliser l’action **AppliquerFiltre** pour appliquer un filtre aux enregistrements de la feuille de données, de l’état, de la table ou du formulaire actif.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **AppliquerFiltre** utilise les arguments suivants.
+
 |Argument de l’action  |Description   |
 |----------|-----------|
 |Nom du filtre  |Si spécifié, il s’agit du nom d’une requête ou d’un filtre enregistré en tant que requête. Cet argument ou l’argument Condition Where est obligatoire dans une base de données cliente. Dans une base de données web, cet argument n’est pas disponible.|

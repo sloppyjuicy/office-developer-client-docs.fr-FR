@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b6951a92-f32a-5829-5e07-b277b7934df3
 description: Vous pouvez effectuer des opérations dans les formules à l’aide de valeurs de date, d’heure et de durée. Dans Microsoft Visio, une expression de date et d’heure peut être évaluée comme une valeur simple. Une expression de date et d’heure est toute expression reconnue en tant que date et/ou heure ou référence à une cellule contenant une date et/ou une heure. Cette expression peut contenir des chaînes et des nombres avec un format de date et d’heure ainsi que des valeurs de date et d’heure renvoyées par des fonctions.
-ms.openlocfilehash: 1ac082f4e095013d5d6b2b9a1b52c1c3d9e99a59
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: be31e01daf2798d6067d0b4b67688e840281d2e3
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788989"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521518"
 ---
 # <a name="about-date-time-and-duration-values"></a>À propos des valeurs Date, Heure et Durée
 
@@ -26,7 +26,7 @@ Pour utiliser des dates et des heures dans une expression (plutôt qu'une consta
   
 ## <a name="valid-dates"></a>Dates correctes
 
-||||
+|Dates correctes |Dates correctes |Dates correctes |
 |:-----|:-----|:-----|
 | "2/28"  <br/> | "2/28/99"  <br/> | "2/28/1999"  <br/> |
 | "2-28"  <br/> | "2-28-99"  <br/> | "2-28/1999"  <br/> |
@@ -36,7 +36,7 @@ Pour utiliser des dates et des heures dans une expression (plutôt qu'une consta
    
 ## <a name="valid-times"></a>Heures correctes
 
-||||
+|Heures correctes |Heures correctes |Heures correctes |
 |:-----|:-----|:-----|
 | "3:45"  <br/> | "3:45:27"  <br/> | « 7a »  <br/> |
 | "7 am"  <br/> | "7 p"  <br/> | "7:30 PM"  <br/> |

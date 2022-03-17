@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 90701ecf-3d34-2eac-9ee9-7965e16c0f7c
 description: Détermine si un connecteur peut se positionner verticalement en traversant une forme positionnable.
-ms.openlocfilehash: 51901a33a69f5889c7e67dd481b4bfc941452b93
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 1250c0569490fbb071656165c51a0ab98a52662b
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773913"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520307"
 ---
 # <a name="shapepermeabley-cell-shape-layout-section"></a>ShapePermeableY, cellule (section Shape Layout)
 
@@ -33,16 +33,16 @@ Dans les versions antérieures à Visio 2000, vous pouviez définir ce comporte
   
 Pour obtenir une référence à la cellule ShapePermeableY par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |ShapePermeableY  <br/> |
+|**Nom de la cellule :**  <br/> |ShapePermeableY  <br/> |
    
 Pour obtenir une référence à la cellule ShapePermeableY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
-|Index de la cellule :  <br/> |**visSLOPermY** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowShapeLayout** <br/> |
+|**Index de la cellule :**  <br/> |**visSLOPermY** <br/> |
    
 

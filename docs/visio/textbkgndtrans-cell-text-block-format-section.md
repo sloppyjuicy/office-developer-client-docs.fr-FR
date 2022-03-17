@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b2f9d317-cc42-bec5-66f9-f988bcbdcc24
 description: Détermine le niveau de transparence de la couleur d'arrière-plan du bloc de texte de la forme.
-ms.openlocfilehash: 67b009346a8fd929e11355a0b38452e473e985d4
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 25e4c7b797ac86da3000e185eb6a366017614b6e
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784537"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521973"
 ---
 # <a name="textbkgndtrans-cell-text-block-format-section"></a>TextBkgndTrans, cellule (section Text Block Format)
 
@@ -32,16 +32,16 @@ Vous pouvez également définir cette valeur à l’aide du curseur sous l’ong
   
 Pour obtenir une référence à la cellule TextBkgndTrans par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |TextBkgndTrans  <br/> |
+|**Nom de cellule :**  <br/> |TextBkgndTrans  <br/> |
    
 Pour obtenir une référence à la cellule TextBkgndTrans par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowText** <br/> |
-|Index de la cellule :  <br/> |**visTxtBlkBkgndTrans** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowText** <br/> |
+|**Index de la cellule :**  <br/> |**visTxtBlkBkgndTrans** <br/> |
    
 

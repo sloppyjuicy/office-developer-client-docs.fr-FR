@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 495b2aec-e197-75eb-9974-e7c92d26546f
 description: Indique une valeur pour la cellule définie par l'utilisateur correspondante.
-ms.openlocfilehash: 2cb7530f0bca0cb00018100d00a8fb43640fcb28
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a1c1574ed773a7ef93dd94c0962b259942c9cc95
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771051"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521959"
 ---
 # <a name="value-cell-user-defined-cells-section"></a>Value, cellule (section User-Defined Cells)
 
@@ -26,16 +26,16 @@ Pour faire référence à cette valeur dans une autre cellule, indiquez le nom d
   
 Pour obtenir une référence à la cellule Value par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Utilisateur.  *Nom*  . Valeur où User.  *Le nom*  est le nom de la ligne  <br/> |
+| **Nom de cellule :**  <br/> | Utilisateur.  *Nom*  . Valeur où User.  *Le nom*  est le nom de la ligne  <br/> |
    
 Pour obtenir une référence à la cellule Value par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionUser** <br/> |
-| Index de la ligne :  <br/> |**visRowUser** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visUserValue** <br/> |
+| **Index de la section :**  <br/> |**visSectionUser** <br/> |
+| **Index de la ligne :**  <br/> |**visRowUser** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visUserValue** <br/> |
    
 

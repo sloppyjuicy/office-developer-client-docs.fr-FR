@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: e3b58a19-9f1a-4f2b-9fe2-45cbb7ec6898
 description: Détermine s’il faut remplacer les formules et les valeurs de texte, de trait et de couleur de remplissage (ou une combinaison de ces propriétés) à l’aide de couleurs qui contrastent avec l’arrière-plan du diagramme. La valeur est un OR au bit de 0, 1, 2, 4 et 8.
-ms.openlocfilehash: e22ebdaceff5281b278a681d23bafb4173edc7f0
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 8d4ba0cfb203da3e69bb1a1f4110d44ac2db8cd4
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774061"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523492"
 ---
 # <a name="quickstylevariation-cell-quick-style-section"></a>QuickStyleVariation Cell (Quick Style Section)
 
@@ -34,16 +34,16 @@ La valeur QuickStyleVariation remplace la valeur produite par la fonction THEMEV
   
 Pour obtenir une référence à la cellule **QuickStyleVariation** par un nom à partir d’une autre formule, en obtenant la valeur de l’attribut **N** d’un élément **Cell** ou d’un programme à l’aide de la propriété **CellsU** , utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |QuickStyleVariation  <br/> |
+|**Nom de cellule :**  <br/> |QuickStyleVariation  <br/> |
    
 Pour obtenir une référence à la **cellule QuickStyleVariation** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowQuickStyleProperties** <br/> |
-|Index de la cellule :  <br/> |**visQuickStyleVariation** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowQuickStyleProperties** <br/> |
+|**Index de la cellule :**  <br/> |**visQuickStyleVariation** <br/> |
    
 

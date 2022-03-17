@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 5f1fdf59-db58-561c-e187-1af72a8b87f2
 description: Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule D pour chaque ligne.
-ms.openlocfilehash: b4748670a25536b66e27e35d3234cd80a6066ce2
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: b47511f67aadd10e81c6e2881a78b572a32f4866
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62779601"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522560"
 ---
 # <a name="d-cell-geometry-section"></a>D, cellule (section Geometry)
 
@@ -31,21 +31,21 @@ Représente des informations différentes selon la ligne où elle se trouve. Le 
 
 Pour obtenir une référence à la cellule D par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Geometry  *i*  . D  *j*            où  *i*  et  *j*  = <1>, 2, 3... |
-|| Geometry  *i*  . D1 (ligne Ellipse) où  *i*  = <1>, 2, 3... |
+| **Nom de cellule :**  <br/> | Geometry  *i*  . D  *j*            où  *i*  et  *j*  = <1>, 2, 3... |
+| **Nom de cellule :**  <br/> | Geometry  *i*  . D1 (ligne Ellipse) où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule D à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionFirstComponent** +   *i* où *i* = 0, 1, 2... |
-| Index de la ligne :  <br/> |**visRowVertex** +   *j* où *j* = 0, 1, 2... |
-||**visRowVertex** (ligne Ellipse)  <br/> |
-| Index de la cellule :  <br/> |**visAspectRatio** (ligne EllipticalArcTo)  <br/> |
-||**visNURBSWeightPrev** (ligne NURBSTo)  <br/> |
-||**visSplineDegree** (ligne SplineStart)  <br/> |
-||**visEllipseMinorY** (ligne Ellipse)  <br/> |
+| **Index de la section :**  <br/> |**visSectionFirstComponent** +   *i* où *i* = 0, 1, 2... |
+| **Index de la ligne :**  <br/> |**visRowVertex** +   *j* où *j* = 0, 1, 2... |
+| **Index de la ligne :**  <br/> |**visRowVertex** (ligne Ellipse)  <br/> |
+| **Index de cellule :**  <br/> |**visAspectRatio** (ligne EllipticalArcTo)  <br/> |
+| **Index de la cellule :**  <br/> |**visNURBSWeightPrev** (ligne NURBSTo)  <br/> |
+| **Index de la cellule :**  <br/> |**visSplineDegree** (ligne SplineStart)  <br/> |
+| **Index de la cellule :**  <br/> |**visEllipseMinorY** (ligne Ellipse)  <br/> |
    
 

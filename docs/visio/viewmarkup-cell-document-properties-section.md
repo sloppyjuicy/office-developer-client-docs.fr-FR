@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6c956266-8266-3312-5a68-cc9d8bdb8cd9
 description: Détermine si les marques de révision apparaissent dans la fenêtre de dessin.
-ms.openlocfilehash: 85607f120979528f211b7dd3d515f77204446453
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 2cfbb492b5cb8aa3909d478f9801f71d712b589a
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776857"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523107"
 ---
 # <a name="viewmarkup-cell-document-properties-section"></a>ViewMarkup, cellule (section Document Properties)
 
@@ -35,16 +35,16 @@ Cette cellule correspond à la commande **Afficher les marques** dans le groupe 
   
 Pour obtenir une référence à la cellule ViewMarkup par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |ViewMarkup  <br/> |
+|**Nom de la cellule :**  <br/> |ViewMarkup  <br/> |
    
 Pour obtenir une référence à la cellule ViewMarkup à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowDoc** <br/> |
-|Index de la cellule :  <br/> |**visDocViewMarkup** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowDoc** <br/> |
+|**Index de la cellule :**  <br/> |**visDocViewMarkup** <br/> |
    
 

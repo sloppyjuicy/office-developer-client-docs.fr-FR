@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b7aea554-f491-6a9a-4d07-feeab739a9df
 description: Représente la coordonnée x qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales.
-ms.openlocfilehash: b32426116945facceebbd10b9595c35e4a55996f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: cb9f8345d1df61102a1b3410f1ed577f404bde6e
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775174"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521098"
 ---
 # <a name="x-cell-controls-section"></a>X, cellule (section Controls)
 
@@ -24,16 +24,16 @@ Représente la coordonnée  *x*  qui indique l’emplacement de la poignée de c
 
 Pour obtenir une référence à la cellule X à l'aide d'un nom à partir d'une autre formule ou programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | Contrôles.  *nom*  . X où Controls.  *nom*  est le nom de la ligne des contrôles. |
+| **Nom de cellule :**  <br/> | Contrôles.  *nom*  . X où Controls.  *nom*  est le nom de la ligne des contrôles. |
    
 Pour obtenir une référence à la cellule X à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionControls** <br/> |
-| Index de la ligne :  <br/> |**visRowControl** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visCtlX** <br/> |
+| **Index de la section :**  <br/> |**visSectionControls** <br/> |
+| **Index de la ligne :**  <br/> |**visRowControl** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visCtlX** <br/> |
    
 

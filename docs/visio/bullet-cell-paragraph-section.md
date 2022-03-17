@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 124a5ee1-6dd1-d17d-6f0e-dbaa5d95d9cd
 description: Détermine le style de puce.
-ms.openlocfilehash: f0b39c1c51313920f54b52348778053747402e14
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 19ee2e8912db7d1acf0e8c7ac36648b965355c70
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788968"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63519866"
 ---
 # <a name="bullet-cell-paragraph-section"></a>Bullet, cellule (section Paragraph)
 
@@ -38,14 +38,14 @@ Pour définir la valeur de cette cellule, cliquez avec le bouton droit sur une f
   
 Pour obtenir une référence à la cellule BulletString par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule : |Para.Bullet[ *i*  ] où *i*  = <1>, 2, 3, ... |
+|**Nom de cellule :** |Para.Bullet[ *i*  ] où *i*  = <1>, 2, 3, ... |
 
 Pour obtenir une référence à la cellule Bullet par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
 
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section : |**visSectionParagraph** |
-|Index de la ligne :  |**visRowParagraph** +   *i* où *i* = 0, 1, 2, ... |
-|Index de la cellule : |**visBulletIndex** |
+|**Index de la section :** |**visSectionParagraph** |
+|**Index de la ligne :**  |**visRowParagraph** +   *i* où *i* = 0, 1, 2, ... |
+|**Index de la cellule :** |**visBulletIndex** |

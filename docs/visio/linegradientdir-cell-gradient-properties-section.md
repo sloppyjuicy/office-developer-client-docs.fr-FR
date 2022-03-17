@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: c603f9a5-f887-47ce-90bb-d41ec2d1a6a1
 description: Détermine la direction du dégradé de trait. Un dégradé peut être linéaire, radial, rectangulaire ou suivre un chemin d’accès.
-ms.openlocfilehash: f4d44559a9456d8bd8f91df4fcfc32e95f21f47e
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 0cae74990fde3872c8274ae7c29cf8a94226be75
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775514"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522099"
 ---
 # <a name="linegradientdir-cell-gradient-properties-section"></a>LineGradientDir Cell (Gradient Properties Section)
 
@@ -32,16 +32,16 @@ Détermine la direction du dégradé de trait. Un dégradé peut être linéaire
 
 Pour obtenir une référence à la cellule **LineGradientDir** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | LineGradientDir  <br/> |
+| **Nom de cellule :**  <br/> | LineGradientDir  <br/> |
    
 Pour obtenir une référence à la cellule **LineGradientDir** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowGradientProperties** <br/> |
-| Index de la cellule :  <br/> |**visLineGradientDir** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowGradientProperties** <br/> |
+| **Index de la cellule :**  <br/> |**visLineGradientDir** <br/> |
    
 

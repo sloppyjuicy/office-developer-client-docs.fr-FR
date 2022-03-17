@@ -7,12 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2d405268-bb33-4863-be38-2d17e8fc956e
-ms.openlocfilehash: dd7aa519ecabf005c3eaadcfff527cdb06e5679e
-ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
+ms.openlocfilehash: b014d53719639dcc2946c5fa9e35e50963593878
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63508315"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523401"
 ---
 # <a name="attfrom"></a>attFrom
 

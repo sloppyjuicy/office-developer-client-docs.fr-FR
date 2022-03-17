@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f0671835-8d48-907a-eca6-43953658f800
 description: Détermine la direction de la déviation du trait dans le cas d'un connecteur dynamique horizontal d'une forme.
-ms.openlocfilehash: 2749d1fde3ebcfa6cd5a1c367ea9ce8674925be5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: acc65b93e919ec784e8861f7291879599db6616a
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59608395"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520881"
 ---
 # <a name="conlinejumpdirx-cell-shape-layout-section"></a>ConLineJumpDirX, cellule (section Shape Layout)
 
@@ -28,20 +28,20 @@ Détermine la direction de la déviation du trait dans le cas d'un connecteur dy
    
 ## <a name="remarks"></a>Remarques
 
-Pour définir l’orientation  horizontale par défaut pour tous les sauts de connecteur sur une page, utilisez la cellule PageLineJumpDirX dans la section Mise en page. 
+Pour définir l’orientation horizontale par  défaut pour tous les sauts de connecteur sur une page, utilisez la cellule PageLineJumpDirX dans la section Mise en page. 
   
 Pour obtenir une référence à la cellule ConLineJumpDirX par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | ConLineJumpDirX  <br/> |
+| **Nom de la cellule :**  <br/> | ConLineJumpDirX  <br/> |
    
 Pour obtenir une référence à la cellule ConLineJumpDirX à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
-| Index de la cellule :  <br/> |**visSLOJumpDirX** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowShapeLayout** <br/> |
+| **Index de la cellule :**  <br/> |**visSLOJumpDirX** <br/> |
    
 

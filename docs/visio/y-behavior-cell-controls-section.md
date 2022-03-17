@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6d5062d3-743b-8664-8ec9-5a8f11d5edf9
 description: Contrôle le type de comportement de la coordonnée y de la poignée de contrôle une fois le handle déplacé. Les formules suivantes sont disponibles.
-ms.openlocfilehash: 94d28f0eb8ae2a48c751371e1871f3476f9a5f7e
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e86b96cf4fad0959b42ae458d61b233d728825cd
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781771"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523093"
 ---
 # <a name="y-behavior-cell-controls-section"></a>Y Behavior, cellule (section Controls)
 
@@ -37,16 +37,16 @@ Contrôle le type de comportement de la coordonnée  *y*  de la poignée de cont
 
 Pour obtenir une référence à la cellule Y Behavior par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Contrôles.  *nom*  . Contrôles YConwhere.  *nom*  est le nom de la ligne des contrôles. |
+| **Nom de cellule :**  <br/> | Contrôles.  *nom*  . Contrôles YConwhere.  *nom*  est le nom de la ligne des contrôles. |
    
 Pour obtenir une référence à la cellule Y Behavior par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionControls** <br/> |
-| Index de la ligne :  <br/> |**visRowControl** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visCtlYCon** <br/> |
+| **Index de la section :**  <br/> |**visSectionControls** <br/> |
+| **Index de la ligne :**  <br/> |**visRowControl** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visCtlYCon** <br/> |
    
 

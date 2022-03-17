@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d6fe2574-b719-f38e-b1f1-592a812f1682
 description: Contrôle la largeur de la police. La valeur par défaut de cette cellule est 100 %.
-ms.openlocfilehash: 97610813956517a3960e4be297efe0da8f3a50ba
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 23b17d5290029cadedf540d5cbd103305fabaecb
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781925"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520839"
 ---
 # <a name="scale-cell-character-section"></a>Scale, cellule (section Character)
 
@@ -28,16 +28,16 @@ Vous pouvez également définir la valeur de cette cellule dans la boîte de dia
   
 Pour obtenir une référence à la cellule Scale par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Char.FontScale[ *i*  ] où  *i*  = <1>, 2, 3... |
+|**Nom de cellule :**  <br/> |Char.FontScale[ *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Scale à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionCharacter** <br/> |
-|Index de la ligne :  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visCharacterFontScale** <br/> |
+|**Index de la section :**  <br/> |**visSectionCharacter** <br/> |
+|**Index de la ligne :**  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visCharacterFontScale** <br/> |
    
 

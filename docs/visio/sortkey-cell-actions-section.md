@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c0c4b668-f31b-336f-4434-e94a4804ff7c
 description: Numéro qui détermine l’ordre des actions qui apparaissent dans un menu contextuel ou de balise d’action.
-ms.openlocfilehash: 12729c9e17719e3fbf5ccb48cd7317d13a17b9b5
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 2ce0dea15dbb7247c7d42b2ebd7fd1755f60df31
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63381347"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521693"
 ---
 # <a name="sortkey-cell-actions-section"></a>SortKey, cellule (section Actions)
 
@@ -29,14 +29,14 @@ Les actions d’un menu contextuel ou de balise d’action y apparaissent triée
   
 Pour obtenir une référence à la cellule SortKey à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez :
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Actions. *nom* . SortKeywhere Actions. *nom* est le nom de la ligne Actions.  <br/> |
+|**Nom de cellule :**  <br/> |Actions. *nom* . SortKeywhere Actions. *nom* est le nom de la ligne Actions.  <br/> |
 
 Pour obtenir une référence à la cellule SortKey par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction** +   *i* où *i* = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visActionSortKey** <br/> |
+|**Index de la section :**  <br/> |**visSectionAction** <br/> |
+|**Index de la ligne :**  <br/> |**visRowAction** +   *i* où *i* = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visActionSortKey** <br/> |

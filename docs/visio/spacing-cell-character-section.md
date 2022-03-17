@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 46feb136-01ac-1303-66ab-d772c0ec41a0
 description: Définit l'espace entre les caractères. Les espaces peuvent être ajoutés ou déduits par incréments de 1/20e de point.
-ms.openlocfilehash: 0832d0bf11d194c0c6308023d42f6c1a8e1f39c5
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: bc3a191969b97e472009276a6e8f805279c2a29c
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776913"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523191"
 ---
 # <a name="spacing-cell-character-section"></a>Spacing, cellule (section Character)
 
@@ -26,16 +26,16 @@ Vous pouvez également définir la valeur de cette cellule dans la boîte de dia
   
 Pour obtenir une référence à la cellule Spacing par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Char.Letterspace[ *i*  ] où  *i*  = <1>, 2, 3... |
+|**Nom de cellule :**  <br/> |Char.Letterspace[ *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Spacing par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionCharacter** <br/> |
-|Index de la ligne :  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visCharacterLetterspace** <br/> |
+|**Index de la section :**  <br/> |**visSectionCharacter** <br/> |
+|**Index de la ligne :**  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visCharacterLetterspace** <br/> |
    
 

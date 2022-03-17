@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 3f44fc18-4757-7aba-8778-a474ab93a78d
 description: Contient les coordonnées x ou y, la direction horizontale et verticale, et le type d’un point de connexion unique sur une forme.
-ms.openlocfilehash: 8d8f9f396ceb21f50446058e64d1bba6cfca2ec3
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3c773443bbc2fffd45c0e825a69aaed9379b8310
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781967"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522302"
 ---
 # <a name="row-element-connection-section-visio-xml"></a>Row, élément (Connection Section) (Visio XML)
 
 Contient les coordonnées x ou y, la direction horizontale et verticale, et le type d’un point de connexion unique sur une forme.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[ConnectionRow_Type](connectionrow_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y, la direction horizontale et verticale, et le type d’un point de connexion unique sur une forme. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Cell](cell-element-connection-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Spécifie une propriété unique. |
    

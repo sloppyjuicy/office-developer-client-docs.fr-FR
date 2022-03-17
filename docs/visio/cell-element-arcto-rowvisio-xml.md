@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 69f1a0cc-90fe-4b49-653c-bba4a1a2b1b2
 description: Contient la coordonnée x, la coordonnée y ou la courbe d’un arc circulaire.
-ms.openlocfilehash: 97072c214a3af6e57ff19fa1cb19aab149d3e40c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: fa20c88677efc2d44da8c5cccdad8bfaf16af75d
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782380"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63519761"
 ---
 # <a name="cell-element-arcto-row-visio-xml"></a>Élément de cellule (ligne ArcTo) (Visio XML)
 
 Contient la coordonnée x, la coordonnée y ou la courbe d’un arc circulaire.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[ArcTo_Type](arcto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x et y et la courbure d'un arc circulaire. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Contient la coordonnée x, la coordonnée y ou la courbe d’un arc circulaire. |
    

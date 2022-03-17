@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 7fbb4b16-fe54-42d6-803a-c9980897166d
 description: Détermine le type d’éclairage utilisé par l’effet de biseau.
-ms.openlocfilehash: 6cfdf61a8584753417f57df4dcdc3eedfdb4ed33
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1c5c9f39ad7836637f9f4cfdca109510cf7e0b40
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554886"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520153"
 ---
 # <a name="bevellightingtype-cell-bevel-properties-section"></a>BevelLightingType Cell (Bevel Properties Section)
 
@@ -24,7 +24,7 @@ Détermine le type d’éclairage utilisé par l’effet de biseau.
 |1  <br/> |Trois points  <br/> |
 |2  <br/> |Solde  <br/> |
 |3  <br/> |Doux  <br/> |
-|4   <br/> |En-dent  <br/> |
+|4  <br/> |En-dent  <br/> |
 |5  <br/> |Flood  <br/> |
 |6   <br/> |Contraste  <br/> |
 |7   <br/> |Matin  <br/> |
@@ -39,18 +39,18 @@ Détermine le type d’éclairage utilisé par l’effet de biseau.
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule **BevelLightingType** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
+Pour obtenir une référence à la cellule **BevelLightingType** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |BevelLightingType  <br/> |
+|**Nom de cellule :**  <br/> |BevelLightingType  <br/> |
    
 Pour obtenir une référence à la **cellule BevelLightingType** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowBevelProperties** <br/> |
-|Index de la cellule :  <br/> |**visBevelLightingType** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowBevelProperties** <br/> |
+|**Index de la cellule :**  <br/> |**visBevelLightingType** <br/> |
    
 

@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 1b3ae03c-6951-49e4-a489-4712d3f7ba72
 description: Pour prendre en charge la création de solutions InfoPath qui utilisent des langages de code géré tels que Visual C# et Visual Basic, l’option Prise en charge de la programmabilité .NET dans le programme d’installation d’InfoPath installe trois assemblys d’interop.
-ms.openlocfilehash: 3f7b43f9b504881d9984e8dcf452a5c519dc8343
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: a4afa751375c9e8f5f88e5cdb72411817a409db9
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380318"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520748"
 ---
 # <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>À propos de l’assembly PIA (Primary Interop Assembly) InfoPath de Microsoft Office
 
@@ -93,7 +93,7 @@ L’organisation de [Microsoft.Office. La documentation de référence](https://
   
 Lorsque vous ouvrez une rubrique pour une interface de coclasse, telle [qu’Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.Application.aspx) , le lien vers les membres de l’interface de coclasse qui suit la description de l’interface au début de la rubrique affiche une rubrique vide. Pour afficher la liste des membres implémentés par l'interface de coclasse, vous devez ouvrir la rubrique de la dernière interface héritée par la coclasse, puis ouvrir la table de ses membres. Un lien vers l'interface héritée est proposé au début de la section Remarques de la rubrique consacrée à l'interface de coclasse.
   
-Lorsque vous appuyez sur F1 dans l’éditeur Visual Studio Code, le comportement est similaire, sauf que le membre sur lequel vous voquez l’aide F1 s’affiche directement, car vous travaillez généralement avec les membres d’une interface. Cependant, le fait qu'un membre puisse être implémenté depuis une interface avec version peut paraître confus la première fois que vous y êtes confronté. Par exemple, si vous tapez  `myXDocument.UI.Alert` puis que vous placez le curseur sur  `Alert` et que vous appuyez sur F1, une rubrique intitulée « UI2.Alert Method » s'affiche. Ceci est dû au fait que la méthode **Alert** est une implémentation d'un membre de l'interface **UI2**.
+Lorsque vous appuyez sur F1 dans l’éditeur Visual Studio Code, le comportement est similaire, sauf que le membre sur lequel vous voquez l’aide F1 s’affiche directement, car vous travaillez généralement avec les membres d’une interface. Cependant, le fait qu'un membre puisse être implémenté depuis une interface avec version peut paraître confus la première fois que vous y êtes confronté. Par exemple, si vous tapez `myXDocument.UI.Alert` et placez `Alert` le curseur sur F1 et appuyez sur F1, une rubrique intitulée « UI2. Alert Method » s’affiche. Ceci est dû au fait que la méthode **Alert** est une implémentation d'un membre de l'interface **UI2**.
   
 ### <a name="passing-optional-parameters-to-infopath-object-model-members"></a>Transmission de paramètres facultatifs à des membres du modèle objet InfoPath
 

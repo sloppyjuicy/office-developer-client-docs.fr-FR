@@ -10,12 +10,12 @@ keywords:
 - fonction xlsheetnm [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: bcb16207-5499-4474-b006-51ccde1002d7
-ms.openlocfilehash: 1dc95dbce6b4decfed3ec742cd4774d34ae35efa
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: ec4debb7d8ca41fe7792f56af0e1f8d7ef087f06
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198153"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521035"
 ---
 # <a name="xlsheetnm"></a>xlSheetNm
 
@@ -33,17 +33,17 @@ _pxExtref_ (**xltypeRef** ou **xltypeSRef**)
   
 Référence à la feuille dont vous souhaitez le nom.
   
-Si vous transmettre une référence externe (**xltypeRef**), il ne doit contenir que l’ID de la feuille. Les structures de données qui décrivent les cellules de la feuille de calcul sont ignorées et n’ont pas besoin d’être fournies. Si l’ID est définie sur zéro, **xlSheetNm** renvoie le nom de la feuille actuelle. 
+Si vous transmettre une référence externe (**xltypeRef**), elle ne doit contenir que l’ID de la feuille. Les structures de données qui décrivent les cellules de la feuille de calcul sont ignorées et n’ont pas besoin d’être fournies. Si l’ID est définie sur zéro, **xlSheetNm** renvoie le nom de la feuille actuelle. 
   
 Si vous transmettre une référence interne (**xltypeSef**), **xlSheetNm** renvoie le nom de la feuille actuelle. 
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Renvoie le nom de la feuille (**xltypeStr**) au formulaire  `[Book1]Sheet1` .
+Renvoie le nom de la feuille (**xltypeStr**) au formulaire `[Book1]Sheet1`.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant affiche le nom de la feuille à partir de laquelle la fonction a été appelée. La fonction fonctionne correctement uniquement si elle est appelée à partir d’une feuille macro lors de l’exécution d’une macro de commande XLM. En effet, il appelle **xlcAlert,** ce que seules les commandes peuvent faire, et il doit être appelé à partir d’une feuille plutôt que d’une boîte de dialogue, d’un menu ou d’une barre de commandes pour que **xlfCaller** retourne une référence. 
+L’exemple suivant affiche le nom de la feuille à partir de laquelle la fonction a été appelée. La fonction fonctionne correctement uniquement si elle est appelée à partir d’une feuille macro lors de l’exécution d’une macro de commande XLM. En effet, il appelle **xlcAlert**, ce que seules les commandes peuvent faire, et il doit être appelé à partir d’une feuille plutôt que d’une boîte de dialogue, d’un menu ou d’une barre de commandes pour que **xlfCaller** retourne une référence. 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -63,4 +63,3 @@ short WINAPI xlSheetNmExample(void)
 
 - [xlSheetId](xlsheetid.md)
 - [Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
-

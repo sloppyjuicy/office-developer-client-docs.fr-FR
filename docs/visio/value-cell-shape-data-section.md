@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: fd42a6ce-f621-4e9e-aba3-23a1b87a5651
 description: Contient la valeur de l’élément de données de forme telle qu’elle est saisie dans la boîte de dialogue Définir les données de forme.
-ms.openlocfilehash: b39f9218405685de041d49dc7fdcd27fa634d833
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 26abd9a7ec27163fcaa800d435bced0c93576e31
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788709"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522505"
 ---
 # <a name="value-cell-shape-data-section"></a>Value, cellule (section Shape Data)
 
@@ -26,16 +26,16 @@ Les formules entrées dans cette cellule sont remplacées par les valeurs entré
   
 Pour obtenir une référence à la cellule Value par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | Prop.  *Nom*  . Valeur où Prop.  *Le nom*  est le nom de la ligne  <br/> |
+| **Nom de cellule :**  <br/> | Prop.  *Nom*  . Valeur où Prop.  *Le nom*  est le nom de la ligne  <br/> |
    
 Pour obtenir une référence à la cellule Value par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionProp** <br/> |
-| Index de la ligne :  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visCustPropsValue** <br/> |
+| **Index de la section :**  <br/> |**visSectionProp** <br/> |
+| **Index de la ligne :**  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visCustPropsValue** <br/> |
    
 

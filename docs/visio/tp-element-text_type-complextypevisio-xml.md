@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: b13b9328-c6a0-e282-257c-2de55901df6a
 description: Spécifie le début d’une exécuter les propriétés d’onglets. La suite est définie à la fin du texte ou jusqu’à la balise suivante.
-ms.openlocfilehash: 1aefe382e0644d75624b172dd2c67b8546523ba9
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 08deb88036995ab3996f1abb8da475b04f5a0cdb
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776836"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522937"
 ---
 # <a name="tp-element-text_type-complextype-visio-xml"></a>élément tp (Text_Type complexType) (Visio XML)
 
 Spécifie le début d’une exécuter les propriétés d’onglets. La suite est définie à la fin du texte ou jusqu’à la balise suivante.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -39,7 +39,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |Contient le texte d’une forme. |
    

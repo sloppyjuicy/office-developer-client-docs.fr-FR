@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: d83e39f0-b259-4c33-8f3e-e03e94c2403d
 description: Cette rubrique décrit les interfaces que vous pouvez utiliser pour personnaliser par programme la boîte de dialogue classement rapide dans OneNote 2013.
-ms.openlocfilehash: 44fadecd40f7ce6484a10e4f2e7ca0ededcad89b
-ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
+ms.openlocfilehash: 004a8fa8e2aad114df79595e28f659039f02c7c9
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63404826"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521021"
 ---
 # <a name="quick-filing-dialog-box-interfaces-onenote"></a>Rapides interfaces boîte de dialogue remplissage (OneNote 2013)
 
@@ -36,7 +36,7 @@ Vous pouvez accéder à la fonctionnalité de boîte de dialogue classement rapi
 
 Cette interface autorise l'utilisateur à personnaliser et exécuter la boîte de dialogue. L'utilisateur peut instancier une boîte de dialogue par le biais de la classe **Application** à l'aide de la méthode **Application.QuickFilingDialog**. La méthode retourne une instance de la boîte de dialogue. Une fois que les propriétés de la boîte de dialogue sont définies, la méthode **IQuickFilingDialog.Run** est utilisée pour exécuter la boîte de dialogue. Cette méthode exécute la boîte de dialogue sur un nouveau thread.
   
-**Propriétés**
+## <a name="properties"></a>Propriétés
 
 |**Name**|**Type**|**Description**|
 |:-----|:-----|:-----|
@@ -59,7 +59,7 @@ Cette interface autorise l'utilisateur à personnaliser et exécuter la boîte d
 |:-----|:-----|
 |**Description** <br/> |Définit quelle liste résultats récents s'affichera dans la boîte de dialogue classement rapide et indique s'il faut inclure certains emplacements spéciaux classement dans la liste. Les utilisateurs peuvent sélectionner une liste de résultats récents à partir de l'énumération [RecentResultType](enumerations-onenote-developer-reference.md#odc_RecentResultType) . Les utilisateurs peuvent également choisir d'ajouter les options suivantes à la liste : Section en cours, Page en cours ou Notes non classées. Si **RecentResultType.rrtNone** est sélectionné, aucune liste de résultats récents n'est indiqué.   |
 |**Syntaxe** <br/> | `HRESULT SetRecentResults (`<br/>`[in]RecentResultType recentResults,`<br/>`[in]VARIANT_BOOL fShowCurrentSection,`<br/>`[in]VARIANT_BOOL fShowCurrentPage,`<br/>`[in]VARIANT_BOOL fShowUnfiledNotes);` <br/> |
-|**Paramètres** <br/> | _recentResults_ &ndash; Objet de type **RecentResultType** qui indique la liste des résultats récents, le cas caser, qui doit apparaître. Si **rrtNone** est sélectionné, aucune liste de résultats récents n'apparaît dans la boîte de dialogue.<br/><br/>  _fShowCurrentSection_ &ndash; Valeur Boolean qui indique si la section actuelle doit être incluse dans la liste des résultats récents.<br/><br/> _fShowCurrentPage_ &ndash; Valeur Boolean qui indique si la page actuelle doit être incluse dans la liste des résultats récents.<br/><br/> _fShowUnfiledNotes_ &ndash; Valeur Boolean qui indique si la section Notes non filtrées doit être incluse dans la liste des résultats récents. |
+|**Paramètres** <br/> | _recentResults_ &ndash; Objet de type **RecentResultType** qui indique la liste des résultats récents, le cas caser, qui doit apparaître. Si **rrtNone** est sélectionné, aucune liste de résultats récents n'apparaît dans la boîte de dialogue.<br/><br/> _fShowCurrentSection_ &ndash; Valeur Boolean qui indique si la section actuelle doit être incluse dans la liste des résultats récents.<br/><br/> _fShowCurrentPage_ &ndash; Valeur Boolean qui indique si la page actuelle doit être incluse dans la liste des résultats récents.<br/><br/> _fShowUnfiledNotes_ &ndash; Valeur Boolean qui indique si la section Notes non filtrées doit être incluse dans la liste des résultats récents. |
 
 > [!NOTE]
 > [!REMARQUE] Si un emplacement de la classification spéciaux ne peuvent pas être sélectionné à l'aide d'un des boutons dans la boîte de dialogue, il n'est pas affiché dans la liste. Si aucun élément sélectionnable dans la liste des résultats récents n'est trouvée, aucune liste de résultats récents ne s'affiche.

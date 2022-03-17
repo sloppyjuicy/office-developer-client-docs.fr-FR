@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 7382e2aa-5e18-19d2-88d8-c4a19a385106
 description: Définit le niveau de transparence de la couleur d'un calque.
-ms.openlocfilehash: f4976ae54e38a60d8b9cd6417fd22995016d8ff8
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3c77edb3c2e1457faf0bec04753730be1963eb8a
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62769952"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63519719"
 ---
 # <a name="transparency-cell-layers-section"></a>Transparency, cellule (section Layers)
 
@@ -30,16 +30,16 @@ Les valeurs sont arrondies au demi-point le plus proche. Une valeur de 100 % co
   
 Pour obtenir une référence à la cellule Transparency par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Layers.ColorTrans[ *i*  ] où  *i*  = <1>, 2, 3... |
+|**Nom de cellule :**  <br/> |Layers.ColorTrans[ *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Transparency par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionLayer** <br/> |
-|Index de la ligne :  <br/> |**visRowLayer** +   *i* où *i* = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visLayerColorTrans** <br/> |
+|**Index de la section :**  <br/> |**visSectionLayer** <br/> |
+|**Index de la ligne :**  <br/> |**visRowLayer** +   *i* où *i* = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visLayerColorTrans** <br/> |
    
 

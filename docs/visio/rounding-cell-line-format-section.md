@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c44457ca-997a-5315-44dd-4218e4203550
 description: Indique le rayon de l'arrondi qui est appliqué lorsque deux segments contigus d'un chemin se rejoignent. Par exemple, l'arrondi permet d'attribuer des angles arrondis à un rectangle. Pour le définir, entrez une valeur associée à des unités de mesure (une paire nombre-unité).
-ms.openlocfilehash: 8012422c654b3090ee2c007ce8911e53eef28cfd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c2f8947af17f9814c3c1943825350cf48b6bc3f7
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59607793"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523471"
 ---
 # <a name="rounding-cell-line-format-section"></a>Rounding, cellule (section Line Format)
 
@@ -22,20 +22,20 @@ Indique le rayon de l'arrondi qui est appliqué lorsque deux segments contigus d
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir  cette valeur dans  la boîte de  dialogue Trait (sous l’onglet Accueil, dans le groupe Formes, cliquez sur **Trait,** pointez sur **Poids,** puis cliquez sur **Autres** lignes).
+Vous pouvez également définir cette valeur dans la  boîte de dialogue Trait (sous l’onglet Accueil,  dans le groupe Formes, cliquez sur **Trait**, pointez sur **Poids, puis** cliquez sur  **Autres lignes**).
   
 Pour obtenir une référence à la cellule Rounding par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Arrondi  <br/> |
+|**Nom de la cellule :**  <br/> |Arrondi  <br/> |
    
 Pour obtenir une référence à la cellule Rounding à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowLine** <br/> |
-|Index de la cellule :  <br/> |**visLineRounding** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowLine** <br/> |
+|**Index de la cellule :**  <br/> |**visLineRounding** <br/> |
    
 

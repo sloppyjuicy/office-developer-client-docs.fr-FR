@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 2d97b31d-9008-307d-273a-1726007eeb34
 description: Empêche de faire pivoter les formes 2D avec la poignée de rotation ou la commande Faire pivoter à gauche de 90° ou Faire pivoter à droite de 90°.
-ms.openlocfilehash: eb776471ae3629cfdc6fb90077544543abb848c8
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ef55d75309af509f73bff8d422e0f6406715df95
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771250"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520321"
 ---
 # <a name="lockrotate-cell-protection-section"></a>LockRotate, cellule (section Protection)
 
@@ -31,16 +31,16 @@ La cellule LockRotate n'empêche pas de faire pivoter une forme 1D lorsque vous 
   
 Pour obtenir une référence à la cellule LockRotate par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | LockRotate  <br/> |
+| **Nom de cellule :**  <br/> | LockRotate  <br/> |
    
 Pour obtenir une référence à la cellule LockRotate à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowLock** <br/> |
-| Index de la cellule :  <br/> |**visLockRotate** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowLock** <br/> |
+| **Index de la cellule :**  <br/> |**visLockRotate** <br/> |
    
 

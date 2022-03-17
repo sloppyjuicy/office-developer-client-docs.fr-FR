@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 48f765a8-7485-03c0-3484-d4ec07822600
 description: Lorsque vous insérez des champs dans du texte ou construisez des formules, vous devez souvent indiquer l’unité de mesure des valeurs que vous tapez.
-ms.openlocfilehash: fd733fcd6b3b34092c810bfdadf7bb2abb526984
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: de45f527a932ff2ed6a9bfe8eedfd3fd9ee3fba2
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63377329"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521952"
 ---
 # <a name="about-units-of-measure-visio-shapesheet-reference"></a>About Units of Measure (Visio ShapeSheet Reference)
 
@@ -150,11 +150,11 @@ Pour entrer des unités implicitement, utilisez la syntaxe suivante.
 number  [unit , flag ]
 ```
 
-|||
+||Valeur |
 |:-----|:-----|
-| *number* <br/> |Valeur d’origine, telle que 3,7, 1,7E-4 ou 5 1/2. |
-| *unit* <br/> |Unité dans laquelle le *nombre* est initialement exprimé. |
-| *flag* <br/> |Système de mesure à utiliser lorsque l’unité de valeur implicite est affichée. Reportez-vous au tableau ci-dessous. |
+| **number** <br/> |Valeur d’origine, telle que 3,7, 1,7E-4 ou 5 1/2. |
+| **unit** <br/> |Unité dans laquelle le *nombre* est initialement exprimé. |
+| **flag** <br/> |Système de mesure à utiliser lorsque l’unité de valeur implicite est affichée. Reportez-vous au tableau ci-dessous. |
 
 *L’indicateur de* paramètre est l’une des lettres suivantes (majuscules ou minuscules) indiquant le système de mesure à utiliser lorsque l’unité de valeur implicite est affichée.
   

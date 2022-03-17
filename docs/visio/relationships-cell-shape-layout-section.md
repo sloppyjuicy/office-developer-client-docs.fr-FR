@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 4168cd98-9674-1233-254f-0afe81b7245b
 description: Stocke les relations entre les conteneurs, les listes, les légendes et les formes.
-ms.openlocfilehash: 7bcff00d67ed32d5b9c11b7b7f10954dc447672f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 357ba47fd28b869068d2c28f35df1406909105ff
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770400"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521448"
 ---
 # <a name="relationships-cell-shape-layout-section"></a>Relationships, cellule (section Shape Layout)
 
@@ -40,16 +40,16 @@ Stocke les relations entre les conteneurs, les listes, les légendes et les form
    
 Pour obtenir une référence à la cellule Relationships par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Relations  <br/> |
+|**Nom de cellule :**  <br/> |Relations  <br/> |
    
 Pour obtenir une référence à la cellule Relationships à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
-|Index de la cellule :  <br/> |**visSLORelationships** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowShapeLayout** <br/> |
+|**Index de la cellule :**  <br/> |**visSLORelationships** <br/> |
    
 

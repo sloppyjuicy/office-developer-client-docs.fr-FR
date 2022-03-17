@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 5ae2b4db-03f4-1b8a-1274-7eb1521f2f59
 description: Spécifie une propriété d’une action associée à une commande personnalisée dans un menu de raccourci ou de balise d’action.
-ms.openlocfilehash: a6e7e70a3cf2f3b4dce812b578d8db21a367ece2
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: cd404ae6121e284c1478d774fb454162cc7f2ecf
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781022"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521938"
 ---
 # <a name="cell-element-actions-row-visio-xml"></a>Élément de cellule (ligne Actions) (Visio XML)
 
 Spécifie une propriété d’une action associée à une commande personnalisée dans un menu de raccourci ou de balise d’action.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Row, élément (actions, section)](row-element-actions-sectionvisio-xml.md) <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |Spécifie une propriété d’une action associée à une commande personnalisée dans un menu de raccourci ou de balise d’action. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin. |
    
@@ -66,7 +66,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|Action  <br/> |Contient la formule à exécuter lorsqu’un utilisateur choisit une commande de menu contextuel ou de balise d’action. |[Action, cellule (section Actions)](action-cell-actions-section.md) <br/> |
+|Opération  <br/> |Contient la formule à exécuter lorsqu’un utilisateur choisit une commande de menu contextuel ou de balise d’action. |[Action, cellule (section Actions)](action-cell-actions-section.md) <br/> |
 |BeginGroup  <br/> |Indique si un séparateur est inséré dans le menu au-dessus de cette action. |[BeginGroup, cellule (section Actions)](begingroup-cell-actions-section.md) <br/> |
 |ButtonFace  <br/> |Identifie l’icône qui s’affiche en regard d’une option de menu contextuel ou de balise d’action. |[ButtonFace, cellule (section Actions)](buttonface-cell-actions-section.md) <br/> |
 |Checked  <br/> |Indique si une option est cochée dans le menu contextuel ou de balise d’action. |[Checked, cellule (section Actions)](checked-cell-actions-section.md) <br/> |

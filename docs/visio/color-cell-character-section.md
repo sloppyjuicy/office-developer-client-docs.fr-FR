@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 1c9aab2e-6c2f-0684-4e66-c35ac71883d6
 description: Détermine la couleur utilisée pour le texte de la forme.
-ms.openlocfilehash: fa51ab92cf36a6802448144e30160ba5b7ddab71
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: d0716571f8f667ded0ee2cec7bb56f1ed59ab3a2
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783501"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520895"
 ---
 # <a name="color-cell-character-section"></a>Color, cellule (section Character)
 
@@ -30,16 +30,16 @@ Vous pouvez définir une transparence pour la couleur du texte dans la cellule T
   
 Pour obtenir une référence à la cellule Color par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Char.Color[ *i*  ] où  *i*  = <1>, 2, 3, ... |
+|**Nom de cellule :**  <br/> |Char.Color[ *i*  ] où  *i*  = <1>, 2, 3, ... |
    
 Pour obtenir une référence à la cellule Color à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionCharacter** <br/> |
-|Index de la ligne :  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2, ... |
-|Index de la cellule :  <br/> |**visCharacterColor** <br/> |
+|**Index de la section :**  <br/> |**visSectionCharacter** <br/> |
+|**Index de la ligne :**  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2, ... |
+|**Index de la cellule :**  <br/> |**visCharacterColor** <br/> |
    
 

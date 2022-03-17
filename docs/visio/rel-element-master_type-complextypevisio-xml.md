@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 151cdd13-d00b-249c-7ebd-1ae9c4042b03
 description: Spécifie une relation à un élément avec le XML maître correspondant.
-ms.openlocfilehash: 3498f6560e6a4258ac3549af671d7233f7f17333
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: eeba6704d2b9edac3c0c608779c74fa2a2c28096
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772689"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63520041"
 ---
 # <a name="rel-element-master_type-complextype-visio-xml"></a>Élément Rel (Master_Type complexType) (Visio XML)
 
 Spécifie une relation à un élément avec le XML maître correspondant.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Spécifie une instance de master XML stockée dans le dessin. |
    

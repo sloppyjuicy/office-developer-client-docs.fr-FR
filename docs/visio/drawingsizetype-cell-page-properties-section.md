@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 7fe270e8-0dff-bf1f-dfc0-c0608af79f59
 description: Détermine la taille du dessin.
-ms.openlocfilehash: eab36fc223c21cc8b943cabb5005649f4b090f05
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 367f0d5a8d5ebd80a798ee48d3d2d97c6b089a71
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570735"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523345"
 ---
 # <a name="drawingsizetype-cell-page-properties-section"></a>DrawingSizeType, cellule (section Page Properties)
 
@@ -26,7 +26,7 @@ Détermine la taille du dessin.
 |1  <br/> |Ajuster la page au contenu du dessin  <br/> |**visTight** <br/> |
 |2  <br/> |Standard  <br/> |**visStandard** <br/> |
 |3  <br/> |Taille de page personnalisée  <br/> |**visCustom** <br/> |
-|4   <br/> |Taille de dessin à l’échelle personnalisée  <br/> |**visLogical** <br/> |
+|4  <br/> |Taille de dessin à l’échelle personnalisée  <br/> |**visLogical** <br/> |
 |5  <br/> |Métrique (ISO)  <br/> |**visDSMetric** <br/> |
 |6   <br/> |Ingénierie ANSI  <br/> |**visDSEngr** <br/> |
 |7   <br/> |Architecturale ANSI  <br/> |**visDSArch** <br/> |
@@ -37,16 +37,16 @@ Pour définir la taille du dessin, utilisez la boîte de dialogue **Mise en page
   
 Pour obtenir une référence à la cellule DrawingSizeType par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |DrawingSizeType  <br/> |
+|**Nom de cellule :**  <br/> |DrawingSizeType  <br/> |
    
 Pour obtenir une référence à la cellule DrawingSizeType à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowPage** <br/> |
-|Index de la cellule :  <br/> |**visPageDrawSizeType** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowPage** <br/> |
+|**Index de la cellule :**  <br/> |**visPageDrawSizeType** <br/> |
    
 

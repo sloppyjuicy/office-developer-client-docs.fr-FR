@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 7d4416b2-429b-713e-61dc-8b2ead0e6053
 description: Détermine la position horizontale, par rapport à l'origine de son parent, d'un repère vertical ou d'un point de repère sur lequel est aligné le centre horizontal de la forme.
-ms.openlocfilehash: 23bbb263a167e80972136d21744867a646162620
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b4a56f7e488ea38e6759da692b4782513c480229
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560115"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63521196"
 ---
 # <a name="aligncenter-cell-alignment-section"></a>AlignCenter, cellule (section Alignment)
 
@@ -24,16 +24,16 @@ Détermine la position horizontale, par rapport à l'origine de son parent, d'un
 
 Pour obtenir une référence à la cellule AlignCenter par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | AlignCenter  <br/> |
+| **Nom de la cellule :**  <br/> | AlignCenter  <br/> |
    
 Pour obtenir une référence à la cellule AlignCenter à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowAlign** <br/> |
-| Index de la cellule :  <br/> |**visAlignCenter** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowAlign** <br/> |
+| **Index de la cellule :**  <br/> |**visAlignCenter** <br/> |
    
 

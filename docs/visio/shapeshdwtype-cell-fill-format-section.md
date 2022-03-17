@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 1461148d-90a9-6f7c-1b28-9310ffaf0e3b
 description: Indique le type d'ombre d'une forme.
-ms.openlocfilehash: a2c82e41d00151202ee47c2863364e59a3688a66
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1bfebcf92828ceeef59f68ff1a45068570307e3f
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598128"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523324"
 ---
 # <a name="shapeshdwtype-cell-fill-format-section"></a>ShapeShdwType Cell (Fill Format Section)
 
@@ -36,16 +36,16 @@ Pour obtenir une liste de types d’ombre simples et obliques prédéfinis, repo
   
 Pour obtenir une référence à la cellule ShapeShdwType par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |ShapeShdwType  <br/> |
+|**Nom de cellule :**  <br/> |ShapeShdwType  <br/> |
    
 Pour obtenir une référence à la cellule ShapeShdwType à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowFill** <br/> |
-|Index de la cellule :  <br/> |**visFillShdwType** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowFill** <br/> |
+|**Index de la cellule :**  <br/> |**visFillShdwType** <br/> |
    
 

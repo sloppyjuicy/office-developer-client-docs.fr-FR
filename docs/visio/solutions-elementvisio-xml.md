@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 75e53ad0-3ca3-11a1-9107-63ec15601c13
 description: Spécifie les propriétés des solutions stockées dans le document.
-ms.openlocfilehash: f077fe41597dc2801a2869a951bdb63307d64e00
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3384e5233c0ed6bf3dfe80950fbe8b67c1b3e88f
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781876"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522967"
 ---
 # <a name="solutions-element-visio-xml"></a>Élément Solutions (Visio XML)
 
 Spécifie les propriétés des solutions stockées dans le document.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -43,7 +43,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Spécifie une instance de solution XML stockée dans le dessin. |
    

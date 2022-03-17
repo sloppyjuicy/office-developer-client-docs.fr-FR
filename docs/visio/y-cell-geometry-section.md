@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: a53b5787-f419-7a36-3c04-c63b3c173ac7
 description: Représente une coordonnée y sur une forme en coordonnées locales. Ce tableau décrit la cellule Y suivant la ligne sur laquelle elle se trouve.
-ms.openlocfilehash: 5ec100c9efe7f8028dcb6862105c956ecfebabcf
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: b5e6c673a15acac5c0effdbc34d6a46e48511e51
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63376419"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63519746"
 ---
 # <a name="y-cell-geometry-section"></a>Y, cellule (section Geometry)
 
@@ -37,18 +37,18 @@ Représente une  *coordonnée y*  sur une forme en coordonnées locales. Ce tabl
 
 Pour obtenir une référence à la cellule Y à l'aide d'un nom à partir d'une autre formule ou programme en faisant appel à la propriété **CellsU**, utilisez :
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | Geometry *i* . Y  *j*            où *i* et *j* = <1>, 2, 3... |
-|| Geometry *i* . Y1 (lignes InfiniteLine et Ellipse) où *i* = <1>, 2, 3... |
+| **Nom de cellule :**  <br/> | Geometry *i* . Y  *j*            où *i* et *j* = <1>, 2, 3... |
+| **Nom de cellule :**  <br/> | Geometry *i* . Y1 (lignes InfiniteLine et Ellipse) où *i* = <1>, 2, 3... |
 
 Pour obtenir une référence à la cellule Y à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionFirstComponent** +   *i* où *i* = 0, 1, 2... |
-| Index de la ligne :  <br/> |**visRowVertex** +  *j* où *j* = 0, 1, 2... |
-||**visRowVertex** (lignes InfiniteLine et Ellipse)  <br/> |
-| Index de la cellule :  <br/> |**visY** (lignes MoveTo, LineTo, ArcTo, EllipticalArcTo, NURBSTo, Polyline, SplineStart et SplineKnot)  <br/> |
-||**visInfiniteLineY1** (ligne InfiniteLine)  <br/> |
-||**visEllipseCenterY** (ligne Ellipse)  <br/> |
+| **Index de la section :**  <br/> |**visSectionFirstComponent** +   *i* où *i* = 0, 1, 2... |
+| **Index de la ligne :**  <br/> |**visRowVertex** +  *j* où *j* = 0, 1, 2... |
+| **Index de la ligne :**  <br/> |**visRowVertex** (lignes InfiniteLine et Ellipse)  <br/> |
+| **Index de la cellule :**  <br/> |**visY** (lignes MoveTo, LineTo, ArcTo, EllipticalArcTo, NURBSTo, Polyline, SplineStart et SplineKnot)  <br/> |
+| **Index de la cellule :**  <br/> |**visInfiniteLineY1** (ligne InfiniteLine)  <br/> |
+| **Index de la cellule :**  <br/>|**visEllipseCenterY** (ligne Ellipse)  <br/> |

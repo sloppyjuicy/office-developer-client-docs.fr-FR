@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d1c23f1d-485d-a897-594d-15d6e8d0fb3c
 description: Détermine si l’utilisateur peut ajouter, supprimer ou modifier des données de forme dans l’interface utilisateur à l’aide de la boîte de dialogue Définir les données de forme ou du menu contextuel de la fenêtre Données de forme.
-ms.openlocfilehash: b5630f8400ceab7ccf038cbae27e3126f315dadf
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 210c235e8e0f686bcfd77649171d797ca3a37441
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780658"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522085"
 ---
 # <a name="lockcustprop-cell-protection-section"></a>LockCustProp, cellule (section Protection)
 
@@ -31,16 +31,16 @@ La valeur TRUE n'empêche pas un utilisateur de changer la valeur d'un élément
   
 Pour obtenir une référence à la cellule LockCustProp par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |LockCustProp  <br/> |
+|**Nom de cellule :**  <br/> |LockCustProp  <br/> |
    
 Pour obtenir une référence à la cellule LockCustProp à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowLock** <br/> |
-|Index de la cellule :  <br/> |**visLockCustProp** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowLock** <br/> |
+|**Index de la cellule :**  <br/> |**visLockCustProp** <br/> |
    
 

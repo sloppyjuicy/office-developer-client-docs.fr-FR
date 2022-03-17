@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: ff5bbf05-4851-30ce-7ee1-f0ce7b2781ab
 description: Détermine la possibilité ou non de faire glisser, à l'aide de la souris, des formes dans un groupe.
-ms.openlocfilehash: 946cb739c7b801585e66b8c261b5299546e08a31
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a33a747849ce9918b9d1436098211e404f4087bb
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774362"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63523513"
 ---
 # <a name="dontmovechildren-cell-group-properties-section"></a>DontMoveChildren, cellule (section Group Properties)
 
@@ -33,16 +33,16 @@ Cette cellule a pour valeur TRUE pour les groupes de formes de base et ceux d'in
   
 Pour obtenir une référence à la cellule DontMoveChildren par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | DontMoveChildren  <br/> |
+| **Nom de la cellule :**  <br/> | DontMoveChildren  <br/> |
    
 Pour obtenir une référence à la cellule DontMoveChildren à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowGroup** <br/> |
-| Index de la cellule :  <br/> |**visGroupDontMoveChildren** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowGroup** <br/> |
+| **Index de la cellule :**  <br/> |**visGroupDontMoveChildren** <br/> |
    
 

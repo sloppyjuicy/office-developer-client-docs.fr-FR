@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d8de5fa4-826b-e869-4d9f-997361d05fd8
 description: Verrouille le texte d’une forme afin d’empêcher sa modification.
-ms.openlocfilehash: 75cf8c7a9ffb4b9a1de388d283e38324591ff212
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 87bda635c85a6d09aa946171cf524f3e6d8f98a3
+ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783164"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63522680"
 ---
 # <a name="locktextedit-cell-protection-section"></a>LockTextEdit, cellule (section Protection)
 
@@ -31,16 +31,16 @@ Vous pouvez mettre le texte en forme en appliquant un style à l’aide de la bo
   
 Pour obtenir une référence à la cellule LockTextEdit par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | LockTextEdit  <br/> |
+| **Nom de la cellule :**  <br/> | LockTextEdit  <br/> |
    
 Pour obtenir une référence à la cellule LockTextEdit à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowLock** <br/> |
-| Index de la cellule :  <br/> |**visLockTextEdit** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowLock** <br/> |
+| **Index de la cellule :**  <br/> |**visLockTextEdit** <br/> |
    
 
