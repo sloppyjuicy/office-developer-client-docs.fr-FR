@@ -7,12 +7,12 @@ ms:contentKeyID: 48547471
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 91f51d09c5f64631799895965f828b9c3bb29c72
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 86775f2a9ca534c2a3d3f773ece2b33df22b9ca7
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63371043"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558388"
 ---
 # <a name="ado-objects-and-interfaces"></a>Objets et interfaces ADO
 
@@ -25,8 +25,8 @@ Chaque objet peut être contenu dans sa collection correspondante. Un objet [Err
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">

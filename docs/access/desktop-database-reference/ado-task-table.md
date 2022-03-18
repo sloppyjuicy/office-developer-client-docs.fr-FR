@@ -1,5 +1,5 @@
 ---
-title: ActiveX Table de tâches Objets de données (ADO)
+title: ActiveX de tâches ADO (Data Objects)
 TOCTitle: ADO task table
 ms:assetid: 39671d86-72ac-a7b0-53d2-7a17429b15ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
@@ -7,28 +7,28 @@ ms:contentKeyID: 48544245
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 05c377775e5da09f1d81e3e31b00e5d3939d423d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4fa0b204f1f8883bf1a04bee9cf0232e88684922
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59607569"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558396"
 ---
 # <a name="ado-task-table"></a>Tableau de tâches ADO
 
 **S’applique à** : Access 2013, Office 2013
 
-Le tableau suivant répertorie les tâches de programmation contenues dans le guide du *programmeur ADO* et fournit des références pour chaque tâche. Ces références peuvent être des descriptions ou des exemples de code contenant des informations sur la fonctionnalité ADO qui exécute cette tâche.
+Le tableau suivant répertorie les tâches de programmation contenues dans le *guide du programmeur ADO* et fournit des références pour chaque tâche. Ces références peuvent être des descriptions ou des exemples de code contenant des informations sur la fonctionnalité ADO qui exécute cette tâche.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Tâche ADO</p></th>
-<th><p>Références</p></th>
+<th><p>References</p></th>
 </tr>
 </thead>
 <tbody>

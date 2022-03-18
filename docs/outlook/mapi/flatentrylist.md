@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b465d015-9b62-4986-b0df-118121f60602
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ee32e389120a91d61cf154d2eb67cfa70658ece9
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+description: Contient un tableau de structures FLATENTRY.
+ms.openlocfilehash: dfe499a8e7432f1bbd6c3acd2ef6b84d586d5592
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63520986"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558767"
 ---
 # <a name="flatentrylist"></a>FLATENTRYLIST
 
@@ -25,7 +25,7 @@ ms.locfileid: "63520986"
   
 Contient un tableau de structures [FLATENTRY](flatentry.md) .
   
-|||
+|**Informations**|**Valeur**|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Macros associées :  <br/> |[CbFLATENTRYLIST](cbflatentrylist.md), [CbNewFLATENTRYLIST](cbnewflatentrylist.md) <br/> |

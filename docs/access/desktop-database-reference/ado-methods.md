@@ -7,12 +7,12 @@ ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ae535bbc91bac884debc896838a28940aed28610
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: e028b33a75846e083979daa658ec859ff30a3163
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461066"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558368"
 ---
 # <a name="ado-methods"></a>Méthodes ADO
 
@@ -21,8 +21,8 @@ ms.locfileid: "62461066"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">
@@ -222,7 +222,7 @@ ms.locfileid: "62461066"
 <td><p>Détermine si un objet <strong>Recordset</strong> spécifique prend en charge un type particulier de fonctionnalité.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Mettre à jour</a></p></td>
+<td><p><a href="update-method-ado.md">Mise à jour</a></p></td>
 <td><p>Enregistre les modifications que vous avez apportées à la ligne active d'un objet <strong>Recordset</strong> ou à la collection <strong>Fields</strong> d'un objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">

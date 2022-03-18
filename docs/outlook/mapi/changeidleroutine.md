@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0a24fe3b-a1ef-4748-b3b3-3bf747473c9d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b2700b887d21bf83add18479e30d7cbff9f6b1b5
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+description: Modifie une partie ou l’ensemble des caractéristiques d’une routine d’inactivité basée sur FNIDLE.
+ms.openlocfilehash: 084cd469dee5e8848f4424c38b60fb839da5225e
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63521007"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558745"
 ---
 # <a name="changeidleroutine"></a>ChangeIdleRoutine
 
@@ -25,7 +25,7 @@ ms.locfileid: "63521007"
   
 Modifie une partie ou l’ensemble des caractéristiques d’une routine [d’inactivité basée sur FNIDLE](fnidle.md) .
   
-|||
+|**Valeur**|**Description**|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

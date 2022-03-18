@@ -7,12 +7,12 @@ ms:contentKeyID: 48547143
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 3397a3c797293e619a0416159e9e6e6a1ad7711c
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: c1e27cb129841fda08dd11a178d32474bfee0e8b
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461481"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558669"
 ---
 # <a name="adcprop_asyncthreadpriority_enum"></a>ADCPROPASYNCTHREADPRIORITYENUM\_\_
 
@@ -25,9 +25,9 @@ Utilisez ces constantes avec la propriété dynamique « **Background Thread Pri
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -71,7 +71,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

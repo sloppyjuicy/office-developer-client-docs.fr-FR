@@ -7,12 +7,12 @@ ms:contentKeyID: 48544502
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 039cb85a1867c84b74627e83621a43fca5f11fc4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 14a1da78fbaf1def40fd7927ca491d53b9077c32
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553437"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558536"
 ---
 # <a name="ado-dynamic-property-index"></a>Index des propriétés dynamiques ADO
 
@@ -38,7 +38,7 @@ Notez les numéros utilisés dans l'index croisé :
 
 (1) Cette propriété est un indicateur booléen indiquant si l'interface nommée doit être utilisée. Le nom de propriété OLE DB équivalent est répertorié s'il existe.
 
-(2) La propriété ADO « Bookmarkable » est générée en interne pour des raisons de compatibilité ascendante et mappée à la propriété OLE DB, DBPROP \_ IROWSETLOCATE. Il s'agit de la même propriété que celle correspondant à la propriété ADO IRowsetLocate.
+(2) La propriété ADO « Bookmarkable » est générée en interne pour des raisons de compatibilité ascendante et mappée à la propriété OLE DB, DBPROPIROWSETLOCATE\_. Il s'agit de la même propriété que celle correspondant à la propriété ADO IRowsetLocate.
 
 (3) Le nom de propriété ADO Hidden Columns est différent du nom utilisé pour la description du nom de propriété OLE DB (Hidden Columns Count).
 
@@ -50,8 +50,8 @@ Notez les numéros utilisés dans l'index croisé :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -322,8 +322,8 @@ Notez que les **propriétés dynamiques** de l'objet **Recordset** deviennent in
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

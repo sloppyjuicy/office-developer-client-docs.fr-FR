@@ -7,12 +7,12 @@ ms:contentKeyID: 48543366
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 3430bce9d131bce459c6460a9e10d0dcbca1c67c
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 74e137baff9ae3c670f81576d68b7b0e2d797eee
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461073"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558480"
 ---
 # <a name="ado-md-objects"></a>Objets ADO MD
 
@@ -21,8 +21,8 @@ ms.locfileid: "62461073"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">
@@ -78,8 +78,8 @@ En outre, l'objet **Catalog** est lié à un objet ADO **Connection**, qui est i
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

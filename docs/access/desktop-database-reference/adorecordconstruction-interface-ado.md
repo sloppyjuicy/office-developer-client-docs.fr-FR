@@ -7,12 +7,12 @@ ms:contentKeyID: 48544387
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 2b223e10e6ed8450a881225b76b01761436b12ba
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 63df2070c7b2eca993530cf8a1275bb50115e756
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59607534"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558374"
 ---
 # <a name="adorecordconstruction-interface-ado"></a>Interface ADORecordConstruction (ADO)
 
@@ -27,8 +27,8 @@ Cette interface prend en charge les propriétés ci-après :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -56,7 +56,7 @@ Aucun.
 
 ## <a name="remarks"></a>Remarques
 
-Étant donné un objet row OLE **DB** (pRow), la construction d’un objet **Record** ADO (), la construction d’un objet **Record** ADO (adoR), revient aux trois opérations de base suivantes :
+Étant donné un objet row OLE **DB (** pRow), la construction d’un objet **Record** ADO (), la construction d’un objet **Record** ADO (adoR), revient aux trois opérations de base suivantes :
 
 1.  Créez un objet ADO **Record**:
     
@@ -73,7 +73,7 @@ Aucun.
                             (void**)&adoRConstruct);
     ```
 
-3.  Appelez la méthode de propriété **IADORecordConstruction::p ut \_ Row** pour définir l’objet Row OLE **DB** sur l’objet **Record** ADO :
+3.  Appelez **la méthode de propriété IADORecordConstruction::p utRow\_** pour définir l’objet row OLE **DB sur** l’objet **Record** ADO :
     
     ```vb
         IUnknown *pUnk=NULL;
@@ -85,7 +85,7 @@ L'objet **adoR** qui en résulte représente maintenant l'objet **Record** ADO c
 
 Un objet **Record** ADO peut également être créé à partir du conteneur d'un objet **Row** OLE DB.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 **Version :** ADO 2.0 et supérieure
 

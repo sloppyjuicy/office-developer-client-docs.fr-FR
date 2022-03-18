@@ -7,12 +7,12 @@ ms:contentKeyID: 48548139
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d7d764fe89eba8b9a8dc0f498c1845ec1705e61a
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: dad64ec950c452f1eb3578fa3c5e9ceeab3a6682
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62460104"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558501"
 ---
 # <a name="ado-md-collections"></a>Collections ADO MD
 
@@ -21,8 +21,8 @@ ms.locfileid: "62460104"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">

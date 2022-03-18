@@ -7,12 +7,12 @@ ms:contentKeyID: 48548701
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ce180d7ebf76c758155b8af006100a070596875c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cc91c0f860da6198d84faedce839e522da80d914
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553388"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558519"
 ---
 # <a name="ado-event-handler-summary"></a>Résumé du gestionnaire d’événements ADO
 
@@ -29,8 +29,8 @@ Les tableaux suivants présentent et décrivent les événements.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -61,8 +61,8 @@ Les tableaux suivants présentent et décrivent les événements.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

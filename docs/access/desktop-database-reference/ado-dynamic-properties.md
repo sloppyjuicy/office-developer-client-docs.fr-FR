@@ -7,12 +7,12 @@ ms:contentKeyID: 48546915
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a78d8a441bb47188cda1b653e848a4c1ee99bd7a
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 5b661fdf333326329e339b2271109f70b244e0f7
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461088"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558543"
 ---
 # <a name="ado-dynamic-properties"></a>Propriétés dynamiques ADO
 
@@ -27,8 +27,8 @@ Les propriétés dynamiques suivantes sont destinées à un emploi particulier ;
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">

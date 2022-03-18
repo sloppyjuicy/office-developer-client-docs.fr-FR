@@ -7,12 +7,12 @@ ms:contentKeyID: 48544416
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 54b21685686d168eb415d119dcabd34164d56e90
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 2a3190edf27ce0cf438aa5ada8971df78bccdf43
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62460090"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558487"
 ---
 # <a name="ado-md-properties"></a>Propriétés ADO MD
 
@@ -21,8 +21,8 @@ ms.locfileid: "62460090"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">
@@ -118,7 +118,7 @@ ms.locfileid: "62460090"
 <td><p>Indique l'état actuel de l'ensemble de données.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado-md.md">Type (Type)</a></p></td>
+<td><p><a href="type-property-ado-md.md">Type</a></p></td>
 <td><p>Indique le type du membre actif.</p></td>
 </tr>
 <tr class="even">

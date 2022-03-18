@@ -1,5 +1,5 @@
 ---
-title: ActiveX Data Objects (ADO)
+title: ActiveX data objects (ADO)
 TOCTitle: ADO properties
 ms:assetid: 04f08f22-6327-c603-229e-d06a9f1c0d83
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
@@ -7,12 +7,12 @@ ms:contentKeyID: 48543020
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 59c76bfe77cc6ff8bd43c57f89865429a633b803
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 1f3c6982c7cc4a30ccb53272c6ed780e59b1cf35
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461059"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558382"
 ---
 # <a name="ado-properties"></a>Propriétés ADO
 
@@ -21,8 +21,8 @@ ms.locfileid: "62461059"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">
@@ -294,7 +294,7 @@ ms.locfileid: "62461059"
 <td><p>Indique, dans un objet <strong>Recordset</strong> hiérarchique, si la référence aux enregistrements enfants sous-jacents (c'est-à-dire, le <em>chapitre</em>) change en même temps que la position de la ligne parente.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado.md">Type (Type)</a></p></td>
+<td><p><a href="type-property-ado.md">Type</a></p></td>
 <td><p>Indique le type opérationnel ou le type de données d'un objet <strong>Parameter</strong>, <strong>Field</strong> ou <strong>Property</strong>.</p></td>
 </tr>
 <tr class="even">

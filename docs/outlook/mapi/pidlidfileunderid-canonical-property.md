@@ -11,23 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 917431a9-fd90-4b4d-b042-886e3dbf47c0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5be5b1abc4a9f853727a9cf7910fd83f65b88235
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Indique comment générer et recompiler la valeur de la propriété dispidFileUnder lorsque d’autres propriétés de nom de contact changent.
+ms.openlocfilehash: b28d1792ec9057bd7eb6c3ffbae825967ac9df00
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771922"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558751"
 ---
 # <a name="pidlidfileunderid-canonical-property"></a>Propriété canonique PidLidFileUnderId
-
-  
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique comment générer et recompiler la valeur de la propriété **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) lorsque d’autres propriétés de nom de contact changent.
   
-|||
+|**Propriété**|**Valeur**|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFileUnderId  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
@@ -39,7 +37,7 @@ Indique comment générer et recompiler la valeur de la propriété **dispidFile
 
 Si cette propriété est manquante ou définie sur une valeur non détaillée dans le tableau [ci-dessous ou dans [MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx), l’application peut choisir sa propre logique pour recompiler la valeur de **dispidFileUnder** à mesure que d’autres propriétés de nom de contact changent. 
   
-Dans le tableau suivant, la notation <PropertyName> est utilisée pour spécifier « la valeur de PropertyName ». Par exemple, si la valeur de la propriété **PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md)) est « Smith » et que la valeur de la propriété **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) est « Ben », « »<PidTagGivenName> <PidTagSurname>spécifie la chaîne « Ben Smith ». Dans le tableau, « \r » spécifie un caractère de retour chariot, « \n » spécifie un caractère de retour de ligne et <space> représente un espace.
+Dans le tableau suivant, la notation \<PropertyName> est utilisée pour spécifier « la valeur de PropertyName ». Par exemple, si la valeur de la propriété **PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md)) est « Smith » et que la valeur de la propriété **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) est « Ben », « »\<PidTagGivenName> \<PidTagSurname>spécifie la chaîne « Ben Smith ». Dans le tableau, « \r » spécifie un caractère de retour chariot, « \n » spécifie un caractère de retour de ligne et \<space> représente un espace.
   
 |**Valeur de la **propriété dispidFileUnderId****|**Description de la **propriété dispidFileUnder****|
 |:-----|:-----|
@@ -69,28 +67,22 @@ Dans le tableau suivant, la notation <PropertyName> est utilisée pour spécifie
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
-  
+
 > Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
-    
+ 
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
-  
+
 > Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
-    
+
 ### <a name="header-files"></a>Fichiers d’en-tête
 
 Mapidefs.h
-  
+
 > Fournit des définitions de type de données.
     
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[Propriétés MAPI](mapi-properties.md)
-  
-[Propriétés canoniques MAPI](mapi-canonical-properties.md)
-  
-[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
-  
+[Propriétés MAPI](mapi-properties.md)  
+[Propriétés canoniques MAPI](mapi-canonical-properties.md)  
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)  
 [Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
-

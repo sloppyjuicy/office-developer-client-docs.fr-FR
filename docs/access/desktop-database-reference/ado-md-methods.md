@@ -7,12 +7,12 @@ ms:contentKeyID: 48543456
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 95230ff4c47d9ca94f8d3f07ed876573a6a4396a
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: def6afecdaa635100f4a3716ed01449bb40c6215
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62460097"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558494"
 ---
 # <a name="ado-md-methods"></a>Méthodes ADO MD
 
@@ -21,8 +21,8 @@ ms.locfileid: "62460097"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 263b9f24-eac8-4d34-8f66-dc87024b94b9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 569438356c3cc1760985a96f61303ea04894aa07
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Alloue et initialise un objet OLE IStream pour accéder au contenu d’un fichier.
+ms.openlocfilehash: 9dddbc61810f92295c2a9204ae653b3d3d4bda2c
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63379618"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558361"
 ---
 # <a name="openstreamonfilew"></a>OpenStreamOnFileW
 
@@ -25,7 +25,7 @@ ms.locfileid: "63379618"
   
 Alloue et initialise un objet OLE **IStream** pour accéder au contenu d’un fichier. Cette fonction prend les chaînes UNICODE comme arguments, contrairement à la version ANSI de cette fonction [OpenStreamOnFile](openstreamonfile.md), et autorise donc les caractères arbitraires dans le nom de fichier, y compris le chemin d’accès et l’extension de fichier.
   
-|||
+|**Informations**|**Valeur**|
 |:-----|:-----|
 |Exporté par :  <br/> |olmapi32.dll  <br/> |
 |Implémenté par :  <br/> |Outlook  <br/> |
@@ -114,7 +114,7 @@ MAPI utilise les fonctions pointées par _lpAllocateBuffer_ et _lpFreeBuffer_ po
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-L SOF_UNIQUEFILENAME est utilisé pour créer un fichier temporaire avec un nom propre au système de messagerie. Si cet indicateur est définie, le paramètre _lpszFileName_ specifes the path for the temporary file, and the _lpszPrefix_ parameter contains the prefix characters of the filename. Le nom de fichier construit est <prefix>HHHH. TMP, où HHHH est un nombre hexadécimal. Si _lpszFileName_ est NULL, le fichier est créé dans le répertoire de fichiers temporaire qui est renvoyé à partir de la fonction Windows **GetTempPath**, ou le répertoire actuel si aucun répertoire de fichiers temporaires n’a été désigné.
+L SOF_UNIQUEFILENAME est utilisé pour créer un fichier temporaire avec un nom propre au système de messagerie. Si cet indicateur est définie, le paramètre _lpszFileName_ specifes the path for the temporary file, and the _lpszPrefix_ parameter contains the prefix characters of the filename. Le nom de fichier construit est \<prefix>HHHH. TMP, où HHHH est un nombre hexadécimal. Si _lpszFileName_ est NULL, le fichier est créé dans le répertoire de fichiers temporaire qui est renvoyé à partir de la fonction Windows **GetTempPath**, ou le répertoire actuel si aucun répertoire de fichiers temporaires n’a été désigné.
   
 Si l’indicateur SOF_UNIQUEFILENAME n’est pas définie, _lpszPrefix_ est ignoré et _lpszFileName_ doit contenir le chemin d’accès complet et le nom du fichier à ouvrir ou à créer. Le fichier sera ouvert ou créé en fonction des autres indicateurs qui sont définies dans _ulFlags_.
   

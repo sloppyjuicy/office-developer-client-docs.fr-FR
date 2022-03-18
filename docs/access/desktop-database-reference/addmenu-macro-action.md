@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: b788fa30f143d5810cc9a64fa041b401518e87e5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9e78bfc5ba999beaad1840b0a1dca9f1d2545be0
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597701"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558634"
 ---
 # <a name="addmenu-macro-action"></a>AddMenu, action de macro
 
@@ -33,14 +33,14 @@ Vous pouvez utiliser l’action **AjouterMenu** pour créer les éléments suiva
 
 - un menu contextuel global. Le menu contextuel global remplace le menu contextuel intégré pour les champs des feuilles de données de table et de requête, des formulaires et des états, sauf là où vous avez ajouté un menu contextuel personnalisé pour un formulaire, un état ou un contrôle.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **AjouterMenu** possède les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -51,14 +51,14 @@ L’action **AjouterMenu** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom du menu</strong></p></td>
-<td><p>Nom du menu, par exemple, Commandes de rapport &quot; &quot; ou &quot; &quot; Outils. Pour créer une touche d’accès rapide qui vous permet de choisir le menu à l’aide du clavier, tapez une eterr e ( ) avant la lettre que vous souhaitez utiliser comme touche <strong>&amp;</strong> d’accès rapide. Cette lettre sera soulignée dans le nom de menu sous l’onglet <strong>Compléments</strong>.</p></td>
+<td><p>Nom du menu, par exemple, &quot;Commandes de rapport ou &quot;Outils&quot;&quot;. Pour créer une touche d’accès rapide qui vous permet de choisir le menu à l’aide du clavier, tapez une eterr e (<strong>&amp;</strong>) avant la lettre que vous souhaitez utiliser comme touche d’accès rapide. Cette lettre sera soulignée dans le nom de menu sous l’onglet <strong>Compléments</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nom de la macro de menu</strong></p></td>
 <td><p>Nom du groupe de macros qui contient les macros pour les commandes du menu. Cet argument est obligatoire. 
 
 </p>
-<p><strong>REMARQUE</strong>: si vous exécutez une macro contenant l’action <strong>AjouterMenu</strong> dans une base de données bibliothèque, Microsoft Office Access 2007 recherche uniquement le groupe de macros de ce nom dans la base de données actuelle.</p></td>
+<p><strong>REMARQUE</strong> : si vous exécutez une macro contenant l’action <strong>AjouterMenu</strong> dans une base de données bibliothèque, Microsoft Office Access 2007 recherche uniquement le groupe de macros de ce nom dans la base de données actuelle.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Texte de la barre d’état</strong></p></td>

@@ -7,12 +7,12 @@ ms:contentKeyID: 48545571
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 591aede4af4d558ad719606064fa91e1f6b7b99d
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: a4b3342d0f192bd3569e3dbd8c317933e5709677
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461474"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558648"
 ---
 # <a name="adcprop_updatecriteria_enum"></a>ADCPROPUPDATECRITERIAENUM\_\_
 
@@ -25,9 +25,9 @@ Utilisez ces constantes avec la propriété dynamique "**Update Criteria**" du *
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -67,7 +67,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

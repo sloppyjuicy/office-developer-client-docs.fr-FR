@@ -7,12 +7,12 @@ ms:contentKeyID: 48546833
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 24df622689646293724289b040b25dac04e2257b
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 4893734b76184e4cbe495070466eaf431afe953e
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461096"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558620"
 ---
 # <a name="ado-collections"></a>Collections ADO
 
@@ -23,8 +23,8 @@ Chaque collection peut contenir son objet correspondant. Une collection [Errors]
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">

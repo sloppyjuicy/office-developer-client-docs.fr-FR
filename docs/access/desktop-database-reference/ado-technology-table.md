@@ -7,28 +7,28 @@ ms:contentKeyID: 48544268
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6de2017ff38d9c7e09eb5657786163d9d5100d91
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bef0090642b60433e42afeeea26076e2b7bc8681
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559247"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558354"
 ---
 # <a name="ado-technology-table"></a>Tableau de technologie ADO
 
 **S’applique à** : Access 2013, Office 2013
 
-Le tableau suivant répertorie les produits, outils et technologies Microsoft présentés dans le guide du *programmeur ADO.* Il fournit également les liens disponibles vers les rubriques de ce guide traitant du sujet.
+Le tableau suivant répertorie les produits, outils et technologies Microsoft présentés dans le *guide du programmeur ADO*. Il fournit également les liens disponibles vers les rubriques de ce guide traitant du sujet.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Produit ou technologie Microsoft</p></th>
-<th><p>Références</p></th>
+<th><p>References</p></th>
 </tr>
 </thead>
 <tbody>

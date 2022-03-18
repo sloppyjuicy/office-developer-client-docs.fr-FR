@@ -7,12 +7,12 @@ ms:contentKeyID: 48545841
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: fc9cbe405b70b7b1cf7756cd62e719696fa44265
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 08a9a9ef2a5ad29c39ccb0e60132eb80f21c8276
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461081"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558517"
 ---
 # <a name="ado-enumerated-constants"></a>Constantes énumérées ADO
 
@@ -23,8 +23,8 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">

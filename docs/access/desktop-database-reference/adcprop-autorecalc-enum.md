@@ -7,12 +7,12 @@ ms:contentKeyID: 48545779
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5aebc9bc3c21e4ce3992169a021413fce8e28a3d
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 1cd23f801d6a0461349ec558f40d535f28abd699
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62460252"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558662"
 ---
 # <a name="adcprop_autorecalc_enum"></a>ADCPROPAUTORECALCENUM\_\_
 
@@ -25,9 +25,9 @@ Ces constantes sont utilisées uniquement avec le fournisseur **MSDataShape** et
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

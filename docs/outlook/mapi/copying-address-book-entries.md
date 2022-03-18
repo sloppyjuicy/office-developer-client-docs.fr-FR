@@ -7,13 +7,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 285abeb4-45c8-4e82-9a16-b935b4651afe
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 258abaa8b08d8a96e081495759c1a9844c6a7476
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+description: Appelé lorsqu’un ou plusieurs destinataires du même conteneur ou d’un autre conteneur doivent être copiés dans ce conteneur.
+ms.openlocfilehash: 49c5b3580af6b88057618c0aa415c4e16005286f
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63520993"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558781"
 ---
 # <a name="copying-address-book-entries"></a>Copie des entrées du carnet d’adresses
 

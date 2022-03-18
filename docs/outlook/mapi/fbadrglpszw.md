@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 880eb35d-7045-4fdd-bb33-0f14557a7316
 description: Valide toutes les chaînes d’un tableau de chaînes Unicode.
-ms.openlocfilehash: 43b85f3d15b5409e22dd2f64d2d59aaf560fdf93
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+ms.openlocfilehash: 894ba2618458c0c0adf812aad0742972db4bad5f
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63519985"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558760"
 ---
 # <a name="fbadrglpszw"></a>FBadRglpszW
 
@@ -25,7 +25,7 @@ ms.locfileid: "63519985"
   
 Valide toutes les chaînes d’un tableau de chaînes Unicode.
   
-|||
+|**Informations**|**Valeur**|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

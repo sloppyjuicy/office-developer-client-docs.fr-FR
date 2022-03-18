@@ -7,12 +7,12 @@ ms:contentKeyID: 48546145
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 566587d608da401149538a4e2edbe5a1bc7842d3
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 86014ad92ee5cbc8a1df12e4ce2b3585502c2622
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62460118"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558641"
 ---
 # <a name="adcprop_updateresync_enum"></a>ADCPROPUPDATERESYNCENUM\_\_
 
@@ -23,9 +23,9 @@ Indique si la méthode [UpdateBatch](updatebatch-method-ado.md) est suivie d’u
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

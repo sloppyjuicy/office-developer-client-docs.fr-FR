@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 38429fdb-be93-213a-a780-80f9837f55fa
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 21bfba796c521f1e6764f0d25496cf48210b1ef9
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+description: Affiche la taille des dossiers spécifiés sur le serveur dans la boîte de dialogue Outlook taille du dossier.
+ms.openlocfilehash: 67528116a38fd718e697e4128fd9c858b5abd383
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63522232"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558682"
 ---
 # <a name="display-server-folder-sizes-property"></a>Display Server Folder Sizes, propriété
 

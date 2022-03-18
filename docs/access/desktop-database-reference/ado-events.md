@@ -7,12 +7,12 @@ ms:contentKeyID: 48546041
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 9a5ee16f376df43cb126de010f104fd3336ac61a
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 3b28ec0724983cac3bc881fffa7d12a19048d99c
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461551"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558527"
 ---
 # <a name="ado-events"></a>Événements ADO
 
@@ -20,8 +20,8 @@ ms.locfileid: "62461551"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">

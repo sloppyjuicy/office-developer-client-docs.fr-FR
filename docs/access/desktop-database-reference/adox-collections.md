@@ -7,12 +7,12 @@ ms:contentKeyID: 48547500
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 1606fe329e08b8e466c48b825d839cc4b296b747
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: d1b80bcc2eb4c2f0e850277ff24871227f4da7ed
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62459992"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558403"
 ---
 # <a name="adox-collections"></a>Collections ADOX
 
@@ -21,8 +21,8 @@ ms.locfileid: "62459992"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

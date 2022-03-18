@@ -7,12 +7,12 @@ ms:contentKeyID: 48543690
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ba9481d364f9595cd5991fee1cd39b1ea251b75f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9c04eb5429d154c857773bfd6a591220f3ae409a
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553381"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558508"
 ---
 # <a name="ado-error-reference"></a>Référence des erreurs ADO
 
@@ -22,9 +22,9 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -222,7 +222,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3727</strong></p></td>
 <td><p><strong>adErrURLDoesNotExist</strong></p></td>
-<td><p>L’URL source ou le parent de l’URL de destination n’existent pas. Un erreur typographique figure dans l’URL source ou l’URL de destination. Vous https://mysite/photo/myphoto.jpg l’avez peut-être déjà https://mysite/photos/myphoto.jpg fait à la place. L’erreur typographique dans l’URL parent (dans ce cas, il s’agit de <em>photo</em> au lieu de <em>photos</em>) est à l’origine de l’erreur.</p></td>
+<td><p>L’URL source ou le parent de l’URL de destination n’existent pas. Un erreur typographique figure dans l’URL source ou l’URL de destination. Vous l’avez https://mysite/photo/myphoto.jpg peut-être déjà https://mysite/photos/myphoto.jpg fait à la place. L’erreur typographique dans l’URL parent (dans ce cas, il s’agit de <em>photo</em> au lieu de <em>photos</em>) est à l’origine de l’erreur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3728</strong></p></td>

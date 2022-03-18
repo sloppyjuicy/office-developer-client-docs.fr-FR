@@ -7,12 +7,12 @@ ms:contentKeyID: 48543926
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: fb31007a8dc1a1471219a5849924e147aab41778
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a0d18c4fab3a3103315be739a5c8dd3ea90f987a
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559212"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558347"
 ---
 # <a name="adorecordsetconstruction-interface-ado"></a>Interface ADORecordsetConstruction (ADO)
 
@@ -27,8 +27,8 @@ Cette interface prend en charge les propriétés ci-après :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -76,7 +76,7 @@ Aucun.
          (void**)&adoRsConstruct);
    ```
 
-3. Appelez la méthode de propriété IADORecordsetConstruction::p ut Rowset pour définir l’objet Rowset OLE DB sur l’objet \_ Recordset ADO :
+3. Appelez la méthode de propriété IADORecordsetConstruction::p utRowset\_ pour définir l’objet Rowset OLE DB sur l’objet Recordset ADO :
 
    ```vb     
     IUnknown *pUnk=NULL;
@@ -87,7 +87,7 @@ L’objet résultant représente désormais l’objet **Recordset** ADO construi
 
 Vous pouvez également créer un objet **Recordset** ADO à partir d'un objet **Chapter** ou **RowPosition** OLE DB.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 - **Version :** ADO 2.0 et supérieure
 

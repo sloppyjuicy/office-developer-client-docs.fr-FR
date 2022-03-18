@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 77425a61-bf33-b3d8-442a-caee48e54a48
 description: Le modèle de sécurité Microsoft InfoPath repose sur le modèle de sécurité mis en œuvre par Internet Explorer. Le modèle de sécurité Internet Explorer contribue à protéger votre ordinateur contre les opérations risquées en utilisant des zones et des niveaux de sécurité. En collaborant avec le modèle de sécurité Internet Explorer, InfoPath fournit deux types de déploiement de formulaires qui affectent le fonctionnement d'un formulaire InfoPath au sein de ce modèle de sécurité.
-ms.openlocfilehash: aaaf1429282a82518e6eb13a90fb50103439066f
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+ms.openlocfilehash: 534cac982a0c1169f4eaadb973a7445504dbb5d8
+ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63521014"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63558774"
 ---
 # <a name="additional-infopath-form-security-concepts"></a>Autres concepts de sécurité pour les formulaires InfoPath
 
@@ -33,7 +33,7 @@ Les formulaires entièrement fiables sont identifiés par leur URN et si l’att
   
 Vous trouverez tous les détails sur le fonctionnement des formulaires entièrement fiables et des instructions sur leur création et leur déploiement dans [Présentation des formulaires entièrement fiables](understanding-fully-trusted-forms.md).
   
-## <a name="trusting-installed-forms"></a>Approbation des formulaires installés
+## <a name="trusting-installed-forms"></a>Confiance des formulaires installés
 
 L'utilisation des formulaires approuvés peut être activée ou désactivée sur des ordinateurs individuels. Lorsqu'un ordinateur est configuré pour approuver les formulaires installés, les utilisateurs peuvent remplir ceux qui nécessitent un accès aux ressources de leur ordinateur.
   
@@ -41,33 +41,33 @@ Dans l'éditeur InfoPath, vous configurez un ordinateur pour qu'il approuve les 
   
 ## <a name="using-security-features-in-infopath"></a>Utilisation des fonctionnalités de sécurité dans InfoPath
 
-Le modèle de sécurité InfoPath permet de protéger les utilisateurs contre les menaces suivantes émanant de modèles créés par des personnes malveillantes :
+Le modèle de sécurité InfoPath permet de protéger les utilisateurs contre les menaces suivantes émanant de modèles créés par des personnes malveillantes :
   
 - risque de diffusion d'informations sensibles à partir de votre ordinateur local ou de sources de données distantes ;
 - utilisation malveillante des contrôles ActiveX ;
-- utilisation malveillante des propriétés et méthodes du modèle objet InfoPath.
+- L'utilisation malveillante de propriétés et de méthodes du modèle objet InfoPath.
 
-## <a name="cross-domain-data-access"></a>Accès aux données d’autres domaines
+## <a name="cross-domain-data-access"></a>Accès aux données entre domaines
 
 Un des scénarios risqués pour la sécurité est l'accès aux données d'autres domaines.
   
 Le modèle de sécurité Internet Explorer sur lequel repose InfoPath fournit un paramètre appelé **Accès aux sources de données sur plusieurs domaines**. Par défaut, ce paramètre désactive l'accès entre les domaines pour les formulaires InfoPath qui résident dans les zones de sécurité Internet et Sites sensibles. Il demande à l'utilisateur d'autoriser ou de ne pas autoriser l'accès sur plusieurs domaines pour les formulaires InfoPath qui résident dans la zone de sécurité Intranet Local et il autorise l'accès sur plusieurs domaines pour les formulaires InfoPath qui résident dans les zones **Sites approuvés** ou **Ordinateur local**.
   
-## <a name="use-of-the-infopath-html-task-pane"></a>Utilisation du volet des tâches InfoPath HTML
+## <a name="use-of-the-infopath-html-task-pane"></a>Utilisation du volet Des tâches Html d’InfoPath
 
 Le volet des tâches InfoPath HTML permet d'afficher les pages Web, tels que des fichiers .htm, .asp et .hta. Les pages référencées à partir des volets des tâches peuvent se trouver à l'intérieur ou à l'extérieur du modèle de formulaire. La seule restriction sur ce qui peut être référencé de l'extérieur du modèle de formulaire, c'est que la page Web doit se trouver dans le même domaine que ce modèle, ou que la zone de sécurité dans laquelle se trouve le modèle accepte les autorisations d'accès sur plusieurs domaines pour charger le volet des tâches.
   
 Le volet des tâches ne propose pas de barre d'adresse ni de barre d'état ; l'utilisateur n'a donc aucun moyen de valider l'emplacement de la source pour le volet des tâches ou de s'assurer que cet emplacement est utilise bien un accès sur un canal sécurisé (https). Vous devez donc éviter d'utiliser le volet des tâches pour afficher ou entrer des informations sensibles. Le volet des tâches a été conçu pour afficher des informations d'aide en temps réel et des contrôles pour la navigation entre les vues et les autres éléments d'une solution intégrée. De plus, la logique métier d'un modèle de formulaire et le script du volet des tâches peuvent interagir. Toutefois, cette interaction n'est autorisée que si le modèle de formulaire et le volet des tâches se trouvent dans le même domaine, ce qui permet d'éviter l'échange d'informations entre les domaines.
   
-## <a name="cross-domain-data-access-prompts"></a>Messages concernant l’accès aux données d’autres domaines
+## <a name="cross-domain-data-access-prompts"></a>Invites d’accès aux données entre domaines
 
-Si un modèle de formulaire nécessitant un accès aux données d’autres domaines se trouve dans une zone de sécurité définie pour demander cet accès (paramètre par défaut pour la zone Internat Local), l’utilisateur sera invité à indiquer s’il faut autoriser l’accès. Le choix de l’utilisateur reste alors en vigueur tant que le formulaire est ouvert. Si vous devez déployer des modèles de formulaire InfoPath nécessitant un accès aux données sur plusieurs domaines, vous devez déployer ces modèles en tant que formulaires entièrement fiables ou les rendre disponibles sur un serveur situé dans la zone de sécurité Sites approuvés, ce qui évite de demander aux utilisateurs d’autoriser l’accès. Les utilisateurs ne devraient pas être invités à abaisser le niveau de sécurité de la zone Intranet Local pour éviter ces messages.
+Si un modèle de formulaire nécessitant un accès aux données d'autres domaines se trouve dans une zone de sécurité définie pour demander cet accès (paramètre par défaut pour la zone Internat Local), l'utilisateur sera invité à indiquer s'il faut autoriser l'accès. Le choix de l'utilisateur reste alors en vigueur tant que le formulaire est ouvert. Si vous devez déployer des modèles de formulaire InfoPath nécessitant un accès aux données sur plusieurs domaines, vous devez déployer ces modèles en tant que formulaires entièrement fiables ou les rendre disponibles sur un serveur situé dans la zone de sécurité Sites approuvés, ce qui évite de demander aux utilisateurs d'autoriser l'accès. Les utilisateurs ne devraient pas être invités à abaisser le niveau de sécurité de la zone Intranet Local pour éviter ces messages.
   
 ## <a name="forms-without-a-publishurl-attribute"></a>Formulaires sans attribut publishURL
 
-Si InfoPath charge un modèle de formulaire à partir de l'ordinateur local et qu'il a un attribut **publishUrl** vide ou si cet attribut est absent, le formulaire est placé dans une zone de sécurité plus restrictive. Cela permet de réduire la menace de distribution par courrier électronique d’un modèle de formulaire malveillant. Par conséquent, si l’utilisateur enregistre ce modèle de formulaire sur le disque, ce modèle ne pourra pas s’exécuter avec les autorisations d’un formulaire situé dans la zone **Ordinateur local**.
+Si InfoPath charge un modèle de formulaire à partir de l'ordinateur local et qu'il a un attribut **publishUrl** vide ou si cet attribut est absent, le formulaire est placé dans une zone de sécurité plus restrictive. Cela permet de réduire la menace de distribution par courrier électronique d’un modèle de formulaire malveillant. Par conséquent, si l'utilisateur enregistre ce modèle de formulaire sur le disque, ce modèle ne pourra pas s'exécuter avec les autorisations d'un formulaire situé dans la zone **Ordinateur local**.
   
-## <a name="unsafe-activex-controls"></a>Contrôles ActiveX non sécurisés
+## <a name="unsafe-activex-controls"></a>Contrôles de ActiveX non sécurisés
 
 Le scénario le plus courant pour l'utilisation malveillante des contrôles ActiveX peut se produire si un auteur utilise un script avec un contrôle ActiveX fournissant des méthodes pour accéder au système de fichiers afin de récupérer des fichiers personnels et des listes de mots de passe, supprimer des fichiers ou désactiver le système de l'utilisateur. Un formulaire InfoPath ne peut utiliser que des contrôles ActiveX à partir du script du fichier de scripts principal d'un formulaire (script.js) ou d'un script d'un volet de tâches. InfoPath n'accepte pas les scripts des vues InfoPath pour exécuter des contrôles ActiveX.
   
@@ -101,20 +101,19 @@ Pour une meilleure protection contre l'utilisation malveillante des membres du m
 ## <a name="summary"></a>Résumé
 
 Le tableau suivant récapitule les autorisations par défaut pour chaque méthode de déploiement de formulaires dans InfoPath. Les autorisations dépendent de la zone de sécurité du domaine d’où provient le modèle de formulaire.
-  
-|**Zone de sécurité**|**Déploiement**|**Autorisations par défaut**|
-|:-----|:-----|:-----|
-||**Basé sur l’URL** <br/> |**Basé sur l’URN** <br/> |**ActiveX marqués comme non sécurisés pour les scripts** <br/> |**Accès aux données d’autres domaines** <br/> |**Niveau de sécurité du modèle objet** <br/> |
-|Sites sensibles  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |
-|Internet  <br/> |X  <br/> ||Désactiver  <br/> |Désactiver  <br/> |2  <br/> |
-|Intranet local  <br/> |X  <br/> ||Désactiver  <br/> |Invite  <br/> |2  <br/> |
-|Sites approuvés  <br/> |X  <br/> ||Invite  <br/> |Activer  <br/> |2  <br/> |
-|Ordinateur local  <br/> |X  <br/> |X  <br/> |Désactiver  <br/> |Invite  <br/> |2  <br/> |
-|Formulaire entièrement fiable  <br/> |X (signé par un éditeur approuvé)  <br/> |X  <br/> |Activer  <br/> |Activer  <br/> |3  <br/> |
-|Formulaire entièrement fiable  <br/> ||X  <br/> |Activer  <br/> |Activer  <br/> |3  <br/> |
-|Restreint  <br/> ||X  <br/> |Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2  <br/> |
-|Restreint  <br/> |X  <br/> ||Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2  <br/> |
-|Restreint  <br/> |X  <br/> |X  <br/> |Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2  <br/> |
+
+|**Zone de sécurité**  |**Basé sur l’URL** |**Basé sur l’URN** |**ActiveX marqués comme non sécurisés pour les scripts**  |**Accès aux données d’autres domaines**  |**Niveau de sécurité du modèle objet**  |
+|:-----|:-----|:-----|:-----|:-----|:-----|
+|Sites sensibles <br/> |N/A <br/> |N/A <br/> |N/A <br/> |N/A <br/> |N/A <br/> |
+|Internet <br/>      |X  <br/> |     |Désactiver  <br/> |Désactiver  <br/> |2  <br/> |
+|Intranet local <br/>|X  <br/> ||Désactiver  <br/> |Invite  <br/> |2  <br/> |
+|Sites approuvés <br/> |X  <br/> ||Invite  <br/> |Activer  <br/> |2  <br/> |
+|Ordinateur local <br/> |X  <br/> |X  <br/> |Désactiver  <br/> |Invite  <br/> |2  <br/> |
+|Formulaire entièrement fiable <br/> |X (signé par un éditeur approuvé)  <br/> |X <br/> |Activer <br/> |Activer <br/> |3 <br/> |
+|Formulaire entièrement fiable <br/> | |X  <br/> |Activer  <br/> |Activer  <br/> |3  <br/> |
+|Restreint <br/> |         |X  <br/> |Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2 <br/> |
+|Restreint <br/> |X  <br/> |         |Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2 <br/> |
+|Restreint <br/> |X  <br/> |X  <br/> |Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2 <br/> |
 
 Pour plus d'informations sur les consignes générales de sécurité lors du développement de formulaires, voir [Consignes de sécurité pour développer des formulaires InfoPath](security-guidelines-for-developing-infopath-forms.md).
   
