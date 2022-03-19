@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 883448f5-0d3f-486d-80a3-7b961c209cd0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 45905d24b53561a54385a2f3301e62a116da25ec
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5c3cc80afca981f51e495bef244e72794ae3063e
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770793"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633974"
 ---
 # <a name="imapimessagesite--iunknown"></a>IMAPIMessageSite : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62770793"
   
 Manipule les messages et est implémenté par le code de la visionneuse de formulaires (généralement une application cliente) qui répond à cette manipulation.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Exposé par :  <br/> |Objets de site de message  <br/> |
@@ -38,7 +38,7 @@ Manipule les messages et est implémenté par le code de la visionneuse de formu
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member | Description |
 |:-----|:-----|
 |[GetSession](imapimessagesite-getsession.md) <br/> |Renvoie la session MAPI dans laquelle le message actuel a été créé ou ouvert. |
 |[GetStore](imapimessagesite-getstore.md) <br/> |Renvoie la boutique de messages qui contient le message actuel, si une telle magasin existe. |
@@ -54,7 +54,7 @@ Manipule les messages et est implémenté par le code de la visionneuse de formu
 |[GetSiteStatus](imapimessagesite-getsitestatus.md) <br/> |Renvoie des informations à partir d’un objet de site de message sur les fonctionnalités du site de message pour le message actuel. |
 |[GetLastError](imapimessagesite-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite sur l’objet de site de message. |
    
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

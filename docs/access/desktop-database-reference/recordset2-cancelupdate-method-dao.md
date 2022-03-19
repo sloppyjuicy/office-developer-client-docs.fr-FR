@@ -7,12 +7,12 @@ ms:contentKeyID: 48548761
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d0d9e416296fe24675dae34a2aa074d452cf4c44
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 17c9986bbd69501b20b02e0e9c5e3615e0e2125e
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465576"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634981"
 ---
 # <a name="recordset2cancelupdate-method-dao"></a>Recordset2.CancelUpdate, méthode (DAO)
 
@@ -30,10 +30,10 @@ Annule les mises à jour en attente pour un objet **[Recordset](recordset-object
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

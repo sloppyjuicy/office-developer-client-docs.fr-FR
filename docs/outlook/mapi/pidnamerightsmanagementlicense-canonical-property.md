@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ca3c9317-7873-4f37-b78f-b35467c81c29
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fd5503901e50c3b7f44d567aa09b3b6306639343
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f61b1dc468e22b7793fa86c3d2869046d8151ef4
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550875"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629474"
 ---
 # <a name="pidnamerightsmanagementlicense-canonical-property"></a>Propriété canonique PidNameRightsManagementLicense
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550875"
   
 Met en cache la licence d’utilisation pour le message électronique géré par des droits.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 53ea3f545f27bbbea0ff4fb3ec3f142bd245d727
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0e2c077392d9a31967ba7f9933fe006f2bc00eed
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565617"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629236"
 ---
 # <a name="databasepopulatepartial-method-dao"></a>Database.PopulatePartial method (DAO)
 
@@ -34,10 +34,10 @@ Synchronise les modifications d'un réplica partiel avec le réplica complet, ef
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -60,7 +60,7 @@ Synchronise les modifications d'un réplica partiel avec le réplica complet, ef
 
 ## <a name="remarks"></a>Remarques
 
-Lorsque vous synchronisez un réplica partiel avec un réplica complet, il est possible de créer des enregistrements « orphelins » dans le réplica partiel. Par exemple, supposons que vous avez une table Customers dont le **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** a la valeur « Region = 'CA' ». Si un utilisateur modifie la région d'un client en remplaçant CA par NY dans le réplica partiel, puis qu'une synchronisation est conduite via la méthode **[Synchronize](database-synchronize-method-dao.md)**, la modification est propagée dans le réplica complet, mais l'enregistrement contenant NY dans le réplica partiel devient orphelin, car il ne correspond plus aux critères du filtre de réplica.
+Lorsque vous synchronisez un réplica partiel avec un réplica complet, il est possible de créer des enregistrements « orphelins » dans le réplica partiel. Par exemple, supposons que vous avez une table Customers dont **[le replicaFilter](tabledef-replicafilter-property-dao.md)** a la valeur « Region = 'CA' ». Si un utilisateur modifie la région d'un client en remplaçant CA par NY dans le réplica partiel, puis qu'une synchronisation est conduite via la méthode **[Synchronize](database-synchronize-method-dao.md)**, la modification est propagée dans le réplica complet, mais l'enregistrement contenant NY dans le réplica partiel devient orphelin, car il ne correspond plus aux critères du filtre de réplica.
 
 Pour résoudre le problème des enregistrements orphelins, vous pouvez utiliser la méthode **PopulatePartial**. La méthode **PopulatePartial** est similaire à la méthode **Synchronize**, à ceci près qu'elle synchronise les modifications avec le réplica complet, qu'elle supprime tous les enregistrements dans le réplica partiel, puis qu'elle remplit à nouveau le réplica partiel en fonction des filtres de réplica actifs. Même si vos filtres de réplica n'ont pas changé, **PopulatePartial** efface invariablement l'ensemble des enregistrements du réplica partiel et le remplit à nouveau en fonction des filtres actifs.
 

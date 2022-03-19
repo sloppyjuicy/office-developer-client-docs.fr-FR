@@ -7,12 +7,12 @@ ms:contentKeyID: 48546904
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 29946cf70f1bfac4bff57f5bcbc3d3f521b3d8d8
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 6fba6af76782e9b9d8515cde6d00b3fd43216170
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462515"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627661"
 ---
 # <a name="datatypeenum"></a>DataTypeEnum
 
@@ -23,9 +23,9 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -248,7 +248,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

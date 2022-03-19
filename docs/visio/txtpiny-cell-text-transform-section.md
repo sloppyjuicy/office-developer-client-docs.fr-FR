@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 88ddf4b5-8248-8c1a-c387-09a607639d26
 description: 'Détermine la coordonnée y du centre de rotation du bloc de texte par rapport à l’origine de la forme. La formule par défaut est la suivante :'
-ms.openlocfilehash: a08e1da3a7e36cf7bfd04d199a949dfe91d6df33
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 76785a5177bb5a1a6c800bd1173ff93bd24bf24b
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603234"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626856"
 ---
 # <a name="txtpiny-cell-text-transform-section"></a>TxtPinY, cellule (section Text Transform)
 
@@ -26,16 +26,16 @@ Détermine la coordonnée  *y*  du centre de rotation du bloc de texte par rappo
 
 Pour obtenir une référence à la cellule TxtPinY par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | TxtPinY  <br/> |
+| **Nom de la cellule :**  <br/> | TxtPinY  <br/> |
    
 Pour obtenir une référence à la cellule TxtPinY par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowTextXForm** <br/> |
-| Index de la cellule :  <br/> |**visXFormPinY** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowTextXForm** <br/> |
+| **Index de la cellule :**  <br/> |**visXFormPinY** <br/> |
    
 

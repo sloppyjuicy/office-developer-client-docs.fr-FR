@@ -7,12 +7,12 @@ ms:contentKeyID: 48545965
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a49c49cb914d9311bea869f7030a68abb7eb2809
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 5b775387818bd3e28f3d0da5e05bb2683094041a
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461404"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628942"
 ---
 # <a name="connectpromptenum"></a>ConnectPromptEnum
 
@@ -23,9 +23,9 @@ Spécifie si une boîte de dialogue doit s'afficher pour inviter à entrer les p
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -65,7 +65,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

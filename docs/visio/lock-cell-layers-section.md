@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 47bb268f-acdd-7369-716c-bd51a32b8a49
 description: Indique si les formes appartenant au calque sont verrouillées en sélection ou en modification.
-ms.openlocfilehash: 724cb2f3e64297815ef0d9b0bd2562a2c0a23dac
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e12ba141dab5e4279134845266574963b252cb44
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771271"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628424"
 ---
 # <a name="lock-cell-layers-section"></a>Lock, cellule (section Layers)
 
@@ -31,16 +31,16 @@ Vous pouvez également définir cette valeur en activant la case à cocher **Ver
   
 Pour obtenir une référence à la cellule Lock par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Layers.Locked[ *i*  ] où  *i*  = <1>, 2, 3... |
+|**Nom de cellule :**  <br/> |Layers.Locked[ *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Lock à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionLayer** <br/> |
-|Index de la ligne :  <br/> |**visRowLayer** +   *i* où *i* = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visLayerLock** <br/> |
+|**Index de la section :**  <br/> |**visSectionLayer** <br/> |
+|**Index de la ligne :**  <br/> |**visRowLayer** +   *i* où *i* = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visLayerLock** <br/> |
    
 

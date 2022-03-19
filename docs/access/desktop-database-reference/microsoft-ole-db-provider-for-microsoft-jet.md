@@ -7,12 +7,12 @@ ms:contentKeyID: 48544660
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 91852f8d08ae8ea7f71d079c625b9d17b7ddf427
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 807c398bd664307dd00ebb8c7b8189a4b8bef8b9
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611930"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633350"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-jet"></a>Fournisseur Microsoft OLE DB pour Microsoft Jet
 
@@ -44,12 +44,12 @@ La chaîne est composée des mots clé suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Mot clé</p></th>
+<th><p>Keyword</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -64,11 +64,11 @@ La chaîne est composée des mots clé suivants :
 </tr>
 <tr class="odd">
 <td><p><strong>User ID</strong></p></td>
-<td><p>Spécifie le nom de l'utilisateur. Si ce mot clé n’est pas spécifié, la chaîne, &quot; &quot; admin, est utilisée par défaut.</p></td>
+<td><p>Spécifie le nom de l'utilisateur. Si ce mot clé n’est pas spécifié, la chaîne, &quot;admin&quot;, est utilisée par défaut.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Password</strong></p></td>
-<td><p>Spécifie le mot de passe de l'utilisateur. Si ce mot clé n’est pas spécifié, la chaîne vide ( &quot; &quot; ), est utilisée par défaut.</p></td>
+<td><p>Spécifie le mot de passe de l'utilisateur. Si ce mot clé n’est pas spécifié, la chaîne vide (&quot;&quot;) est utilisée par défaut.</p></td>
 </tr>
 </tbody>
 </table>
@@ -82,8 +82,8 @@ Le tableau suivant répertorie ces propriétés en indiquant entre parenthèses 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -242,8 +242,8 @@ Le fournisseur Jet prend aussi en charge plusieurs propriétés spécifiques au 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -333,8 +333,8 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -581,8 +581,8 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -889,8 +889,8 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1183,7 +1183,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 </table>
 
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 Pour obtenir des détails spécifiques sur l’implémentation et des informations fonctionnelles sur le fournisseur OLE DB pour Microsoft Jet, consultez la documentation relative à ce fournisseur dans le Kit de développement logiciel (SDK) de MDAC.
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 83a4d458-9982-4857-8d4a-7ce4a0d97668
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f4279e05cb696b7797dff63bca37a8eaaa4fdef2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cedb928737360540427108419871cb805590f695
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561109"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626267"
 ---
 # <a name="pidlidclassificationkeep-canonical-property"></a>Propri t canonique PidLidClassificationKeep
 
@@ -25,9 +25,9 @@ ms.locfileid: "59561109"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si la classification du message doit être persistante avec le message si le message est transmis ou répondu.
+Indique si la classification du message doit persister avec le message si le message est transmis ou répondu.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidClassKeep  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

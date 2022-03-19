@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 0504ff7f-2274-7ae3-1f4b-a3d890dbd79a
 description: Indique si la grille sera imprimée lors de l'impression d'une page de document.
-ms.openlocfilehash: d120e20b9fb3a4345a97a7ec1da6576adf437410
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: f11435d018a03b25533330693b6e889b87378ec3
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775355"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633777"
 ---
 # <a name="printgrid-cell-print-properties-section"></a>PrintGrid, cellule (section Print Properties)
 
@@ -33,16 +33,16 @@ Vous pouvez choisir d’imprimer la grille page par page. Le style de grille peu
   
 Pour obtenir une référence à la cellule PrintGrid par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |PrintGrid  <br/> |
+|**Nom de la cellule :**  <br/> |PrintGrid  <br/> |
    
 Pour obtenir une référence à la cellule PrintGrid à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowPrintProperties** <br/> |
-|Index de la cellule :  <br/> |**visPrintPropertiesPrintGrid** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowPrintProperties** <br/> |
+|**Index de la cellule :**  <br/> |**visPrintPropertiesPrintGrid** <br/> |
    
 

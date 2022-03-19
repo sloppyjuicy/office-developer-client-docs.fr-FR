@@ -1,5 +1,5 @@
 ---
-title: Objet CubeDef (ADO MD)
+title: CubeDef, objet (ADO MD)
 TOCTitle: CubeDef object (ADO MD)
 ms:assetid: 199235b7-3d98-f655-27bc-94f66e994e06
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248941(v=office.15)
@@ -7,14 +7,14 @@ ms:contentKeyID: 48543502
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: f01aa6bbc694cfc798351c9711a38e567c9d3f66
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 202ab9cb12c28003f4457902140d9796481f6404
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597547"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626695"
 ---
-# <a name="cubedef-object-ado-md"></a>Objet CubeDef (ADO MD)
+# <a name="cubedef-object-ado-md"></a>CubeDef, objet (ADO MD)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -37,8 +37,8 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,12 +7,12 @@ ms:contentKeyID: 48544377
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 44fec0ff495b20758fb9c4409aa507a7799fd7c5
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 2d179eb9165d75a879f2c10ef025eee88739dc39
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465043"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628116"
 ---
 # <a name="streamtypeenum"></a>StreamTypeEnum
 
@@ -23,9 +23,9 @@ Spécifie le type de données stockées dans un objet [Stream](stream-object-ado
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

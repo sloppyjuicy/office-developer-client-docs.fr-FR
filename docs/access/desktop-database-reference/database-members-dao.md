@@ -7,12 +7,12 @@ ms:contentKeyID: 48545392
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 0f6688f09a542ade2b47c4e9909dc67977b7b163
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: aa07ec160d9b4d08ecd93ed6eb7e4b5ee4d29256
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589805"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627675"
 ---
 # <a name="database-members-dao"></a>Database Members (DAO)
 
@@ -25,8 +25,8 @@ Un objet Database représente une base de données ouverte.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -53,10 +53,10 @@ Un objet Database représente une base de données ouverte.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-createtabledef-method-dao.md">CreateTableDef</a></strong></p></td>
-<td><p>Crée un objet <strong><a href="tabledef-object-dao.md">TableDef</a></strong> (espaces de travail Microsoft Access uniquement).</p></td>
+<td><p>Crée un objet <strong><a href="tabledef-object-dao.md">TableDef</a></strong> (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-execute-method-dao.md">Execute</a></strong></p></td>
+<td><p><strong><a href="database-execute-method-dao.md">Exécuter</a></strong></p></td>
 <td><p>Exécute une requête action ou exécute une instruction SQL sur l’objet spécifié.</p></td>
 </tr>
 <tr class="odd">
@@ -87,8 +87,8 @@ Un objet Database représente une base de données ouverte.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -107,11 +107,11 @@ Un objet Database représente une base de données ouverte.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-connection-property-dao.md">Connection</a></strong></p></td>
-<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p><strong>REMARQUE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Access.</p>
 <p>Renvoie l'objet <strong><a href="connection-object-dao.md">Connection</a></strong> qui correspond à la base de données (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-containers-property-dao.md">Conteneurs</a></strong></p></td>
+<td><p><strong><a href="database-containers-property-dao.md">Containers</a></strong></p></td>
 <td><p>Renvoie une collection <strong>Containers</strong> qui représente tous les objets <strong>Container</strong> de la base de données spécifiée. Valeur en lecture seule.</p></td>
 </tr>
 <tr class="odd">
@@ -120,7 +120,7 @@ Un objet Database représente une base de données ouverte.
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Renvoie le nom de l'objet spécifié. En lecture seule <strong>chaîne</strong>.</p></td>
+<td><p>Renvoie le nom de l'objet spécifié. Type <strong>chaîne</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-properties-property-dao.md">Propriétés</a></strong></p></td>
@@ -160,7 +160,7 @@ Un objet Database représente une base de données ouverte.
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Type de données <strong>Boolean</strong> en lecture seule.</p></td>
+<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Valeur <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-version-property-dao.md">Version</a></strong></p></td>

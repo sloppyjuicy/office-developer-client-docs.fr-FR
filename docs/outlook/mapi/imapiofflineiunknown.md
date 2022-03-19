@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 211281ff-3c22-1b51-4b72-ca1e313c7202
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 758ff54c2745547884fd78592034350ec834411c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 62342971334cd95d3f6384879c1ebbbf6ffe8006
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773410"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629495"
 ---
 # <a name="imapioffline--iunknown"></a>IMAPIOffline : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62773410"
   
 Fournit des informations pour un objet hors connexion.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fourni par :  <br/> |Requête sur [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) <br/> |
 |Appelé par :  <br/> |Client  <br/> |
@@ -35,7 +35,7 @@ Fournit des informations pour un objet hors connexion.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+||Valeur |
 |:-----|:-----|
 |**[SetCurrentState](imapioffline-setcurrentstate.md)** <br/> |Définit l’état actuel d’un objet hors connexion sur en ligne ou hors connexion. |
 |**[GetCapabilities](imapioffline-getcapabilities.md)** <br/> |Obtient les conditions pour lesquelles les rappels sont pris en charge par un objet hors connexion. |
@@ -48,7 +48,7 @@ Un client utilise **[HrOpenOfflineObj](hropenofflineobj.md)** pour ouvrir et obt
   
 Un membre de cette interface est un espace réservé à l’utilisation interne de Microsoft Outlook 2013 et peut faire l’objet de changements. Les autres membres de cette interface doivent être utilisés uniquement comme documentés. 
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

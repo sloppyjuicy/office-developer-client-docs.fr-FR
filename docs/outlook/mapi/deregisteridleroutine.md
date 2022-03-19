@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a8ada6fe-9963-4c25-b4b4-db77f9517368
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 724591b1612ff9012e2fd37531973004815ef9c6
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 4b175ca1459f1972fbaf3a810604d6a8fae4e554
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780133"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633170"
 ---
 # <a name="deregisteridleroutine"></a>DeregisterIdleRoutine
 
@@ -27,7 +27,7 @@ ms.locfileid: "62780133"
   
 Supprime une routine [d’inactivité basée sur FNIDLE](fnidle.md) du système MAPI. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

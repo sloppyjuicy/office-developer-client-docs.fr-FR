@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: ab835a1a-9e90-126e-279f-463882c48e93
 description: Détermine le niveau de transparence d'une plage de la couleur de texte d'une forme.
-ms.openlocfilehash: 1924168c1dd974b3e0a4cde31043cbbe6016fa39
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 2fc881807ddf907fc5cdf459a9d1d3ec5f63e531
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784544"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626947"
 ---
 # <a name="transparency-cell-character-section"></a>Transparency, cellule (section Character)
 
@@ -34,16 +34,16 @@ Si la section Characters contient plusieurs lignes, la cellule Transparency cont
   
 Pour obtenir une référence à la cellule Transparency par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Char.ColorTrans[ *i*  ] où  *i*  = <1>, 2, 3... |
+|**Nom de cellule :**  <br/> |Char.ColorTrans[ *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Transparency par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionCharacter** <br/> |
-|Index de la ligne :  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visCharacterColorTrans** <br/> |
+|**Index de la section :**  <br/> |**visSectionCharacter** <br/> |
+|**Index de la ligne :**  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visCharacterColorTrans** <br/> |
    
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 1cdc95b8-a156-4600-9e20-caaa02680e87
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 98542aa2741f0b01558c222dc8b557b33bc5fe87
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 899d529db55d72e7d6c8c486a1a7a86b7029ac38
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465206"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629502"
 ---
 # <a name="hristoragefromstream"></a>HrIStorageFromStream
 
@@ -27,7 +27,7 @@ ms.locfileid: "62465206"
   
 Couches **d’une interface IStorage** sur un **objet IStream** . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -50,7 +50,7 @@ HRESULT HrIStorageFromStream(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet de flux. L’une des valeurs suivantes peut être transmise dans le paramètre _lpInterface_ : NULL, IID_IStream ou IID_ILockBytes. La transmission de la valeur NULL  _dans lpInterface_ est la même que la transmission de IID_IStream. 
+> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet de flux. L’une des valeurs suivantes peut être transmise dans le paramètre _lpInterface_ : NULL, IID_IStream ou IID_ILockBytes. La transmission de la valeur NULL  _dans lpInterface_ est la même que la transmission IID_IStream. 
     
  _ulFlags_
   

@@ -12,12 +12,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 2b22ed9b6c85f8cfe3d6374c0b882048741d6b96
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: d31f8e7a3d68aee53a8b77655774d8016ba4c1cd
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62464896"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634722"
 ---
 # <a name="use-microsoft-access-as-a-dde-server"></a>Utilisation de Microsoft Access en tant que serveur DDE
 
@@ -94,16 +94,16 @@ Les sections suivantes vous informent sur les sujets DDE valides pris en charge 
 
 ## <a name="the-system-topic"></a>Le sujet System
 
-La rubrique System est une rubrique standard pour toutes les applications Microsoft Windows basées sur un logiciel. It supplies information about the other topics supported by the application. Pour accéder à ces informations, votre code doit d’abord appeler la fonction **DDEInitiate** avec *l’argument sujet* , puis exécuter l’instruction **DDERequest** avec l’une des instructions suivantes fournies pour l’argument *élément* .
+La rubrique System est une rubrique standard pour toutes les applications Microsoft Windows basées sur le système. It supplies information about the other topics supported by the application. Pour accéder à ces informations, votre code doit d’abord appeler la fonction **DDEInitiate** avec *l’argument sujet* , puis exécuter l’instruction **DDERequest** avec l’une des instructions suivantes fournies pour l’argument *élément* .
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Item</p></th>
+<th><p>Élément</p></th>
 <th><p>Retourne</p></th>
 </tr>
 </thead>
@@ -153,12 +153,12 @@ Le sujet *base-de-données* prend en charge les éléments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Item</p></th>
+<th><p>Élément</p></th>
 <th><p>Retourne</p></th>
 </tr>
 </thead>
@@ -229,8 +229,8 @@ _databasename_ ; **SQL** [ _sqlstring_ ]
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -263,12 +263,12 @@ Le tableau ci-dessous énumère les éléments valides pour les sujets TABLE *no
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Item</p></th>
+<th><p>Élément</p></th>
 <th><p>Retourne</p></th>
 </tr>
 </thead>

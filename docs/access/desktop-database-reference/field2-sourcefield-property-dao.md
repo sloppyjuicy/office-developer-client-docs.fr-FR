@@ -7,12 +7,12 @@ ms:contentKeyID: 48548784
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c86f38479915a962f1e1a34030e968fbf019b20b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f695fdf825166417defcf0545ad539a6764d7619
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602660"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627528"
 ---
 # <a name="field2sourcefield-property-dao"></a>Field2.SourceField, propriété (DAO)
 
@@ -33,8 +33,8 @@ Pour un objet **Field2**, l'utilisation des propriétés **SourceField** et **So
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

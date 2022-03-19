@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 73b68614-6aca-4669-b879-5631c5d6483c
 description: Décrit un contrôle de zone de liste déroulante qui sera utilisé dans une boîte de dialogue conçue à partir d’un tableau d’affichage.
-ms.openlocfilehash: 6c5d7e697f026356f08d9c830843c9041c1dac83
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 133e0ce5d01aa468c1d7d6914e0aa6e4a1b6c737
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63375950"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628550"
 ---
 # <a name="dtblcombobox"></a>DTBLCOMBOBOX
   
@@ -25,7 +25,7 @@ ms.locfileid: "63375950"
   
 Décrit un contrôle de zone de liste déroulante qui sera utilisé dans une boîte de dialogue conçue à partir d’un tableau d’affichage.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  |Mapidefs.h |
 |Macro associée [: SizedDtblComboBox](sizeddtblcombobox.md) |
@@ -88,7 +88,7 @@ Pour afficher une valeur initiale pour le contrôle d’édition, MAPI appelle [
   
 Pour une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 [DTCTL](dtctl.md)  
 Propriété canonique [PidTagControlType](pidtagcontroltype-canonical-property.md)

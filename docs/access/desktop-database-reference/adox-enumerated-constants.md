@@ -7,12 +7,12 @@ ms:contentKeyID: 48543163
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b5bf77a0260fd64cd63e5d57641bfb22d5803ec9
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 409093ce3e38f5e68e3305ad3a6ca5065728e38e
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461032"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629362"
 ---
 # <a name="adox-enumerated-constants"></a>Constantes énumérées ADOX
 
@@ -25,8 +25,8 @@ Les constantes énumérées suivantes sont définies.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,12 +7,12 @@ ms:contentKeyID: 48546719
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: f233e85fd6de5b7bfb31b0e4e1211ce7612996af
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: aa6d4afc77db99da070fdade08e2940cd7ff64ff
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618126"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629152"
 ---
 # <a name="fieldsappend-method-dao"></a>Fields.Append, méthode (DAO)
 
@@ -30,10 +30,10 @@ Ajoute un nouveau **[champ](field-object-dao.md)** à la collection de sites **[
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

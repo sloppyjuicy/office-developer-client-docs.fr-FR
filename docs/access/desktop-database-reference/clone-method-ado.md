@@ -7,12 +7,12 @@ ms:contentKeyID: 48547693
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ec081c42a219e7073041998826b533a1b0fa6c81
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 69e27ab7253807b8608e8efae83c1c7be83e863c
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627078"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626814"
 ---
 # <a name="clone-method-ado"></a>Clone, méthode (ADO)
 
@@ -22,7 +22,7 @@ Crée une copie de l'objet [Recordset](recordset-object-ado.md) à partir d'un o
 
 ## <a name="syntax"></a>Syntaxe
 
-**Définissez** *rstDuplicate*  =  *rstOriginal*. Clone (*LockType*)
+**Définissez** *rstDuplicaterstOriginal* = . Clone (*LockType*)
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -58,8 +58,8 @@ Le tableau suivant répertorie tous les événements **Recordset** et indique s'
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: c2ddec42d2e459b49a119adf7ac9c197da69b20f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 17547dd53792d3d782cf2986cd58d7f60b6640a1
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577401"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626583"
 ---
 # <a name="fieldsourcetable-property-dao"></a>Field.SourceTable, propriété (DAO)
 
@@ -37,8 +37,8 @@ Pour un objet **Field**, l'utilisation des propriétés **SourceField** et **Sou
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,12 +7,12 @@ ms:contentKeyID: 48545784
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ac6f805bcd2cbad752d3ed59419ac8ab8dea0c13
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4affb0063ec5833332b80f11d7a4ef6fd8b15512
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593522"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628648"
 ---
 # <a name="tabledefs-members-dao"></a>TableDefs members (DAO)
 
@@ -25,8 +25,8 @@ Une collection TableDefs contient tous les objets TableDef stockés dans une bas
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,8 +55,8 @@ Une collection TableDefs contient tous les objets TableDef stockés dans une bas
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

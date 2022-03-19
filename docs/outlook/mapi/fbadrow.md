@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 205d00df-488d-4888-8782-a1f70f54d720
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6edefa72e7410bbea1474c948c016f06c30d5f64
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 05489e55449dcaf354f439592628c1d7465047ea
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576302"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626366"
 ---
 # <a name="fbadrow"></a>FBadRow
 
@@ -27,7 +27,7 @@ ms.locfileid: "59576302"
   
 Valide une ligne dans un tableau.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -55,7 +55,7 @@ FALSE
   
 > Ligne spécifiée valide.
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

@@ -1,18 +1,18 @@
 ---
 title: ModernCommentsList_Type complexType (Visio XML)
 ms.date: 02/18/2022
-ms.openlocfilehash: 0db63453b9e1e7012d6b3fb63a2d97b28b4dfca6
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 96d1661e076633ce0a05d5b87a2d5a4dd5f43356
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63382465"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628977"
 ---
 # <a name="moderncommentslist_type-complextype-visio-xml"></a>ModernCommentsList_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
@@ -35,7 +35,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[ModernCommentEntry](moderncommententry-element-moderncommentslist_type-complextypevisio-xml.md) <br/> |[ModernCommentEntry_Type](moderncommententry_type-complextypevisio-xml.md) <br/> ||
    

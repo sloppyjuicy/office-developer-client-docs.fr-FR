@@ -7,12 +7,12 @@ ms:contentKeyID: 48546608
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6d8d09e155d70827aee5ba3fbf7487a114becdc8
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: f89084c9650f2b0ae720762098d9032a9976dbe1
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461636"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634960"
 ---
 # <a name="working-with-recordsets"></a>Utilisation de recordsets
 
@@ -122,8 +122,8 @@ Les constantes suivantes sont disponibles pour le filtrage des objets **Recordse
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

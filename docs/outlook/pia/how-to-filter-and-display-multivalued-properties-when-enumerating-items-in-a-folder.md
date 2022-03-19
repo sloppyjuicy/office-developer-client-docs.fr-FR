@@ -7,12 +7,12 @@ ms:contentKeyID: 55119887
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b2102d23d77ab3dbfb458949da93f21722dfc75c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: aef5ebc4e3599fdfd96fc851a289a367b4290765
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609074"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634855"
 ---
 # <a name="filter-and-display-multivalued-properties-when-enumerating-items-in-a-folder"></a>Filtrage et affichage des propriétés à valeurs multiples pendant l’énumération des éléments d’un dossier
 
@@ -27,9 +27,9 @@ L'objet [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) repr
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -60,7 +60,7 @@ L'objet [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) repr
 
 L'exemple de code suivant montre comment ajouter une propriété d'espace de noms de chaîne MAPI à l'objet **Table** et comment les propriétés à valeurs multiples affectent les valeurs retournées dans un objet [Column](https://msdn.microsoft.com/library/bb609646\(v=office.15\)) . La procédure TableMultiValuedProperties filtre l’objet **Table** pour trouver les lignes où la propriété [Categories](https://msdn.microsoft.com/library/bb646607\(v=office.15\)) n’est pas une référence null. La propriété **Categories** est représentée par une propriété qui utilise l’espace de noms de la chaîne MAPI. Un filtre DASL est construit pour les éléments ayant des catégories (le filtre réel retourne les catégories n'ayant pas une référence null). Une colonne **Categories** est ensuite ajoutée à l’objet **Table** en concaténant le spécificateur de type, 0000001f, avec la constante categoriesProperty. Enfin, l'objet **Column** qui représente la propriété **Categories** contient un tableau unidimensionnel de chaînes où chaque élément représente une catégorie assignée à l'élément. Les propriétés **Categories** et **Subject** de l’élément sont écrites sur les écouteurs de suivi de la collection [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable Outlook lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration Class publique. La ligne de code suivante montre comment effectuer l’importation et l’affectation dans C \#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

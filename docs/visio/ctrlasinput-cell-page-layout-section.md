@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c6fd0aba-7c33-b77f-207b-ba704b3e0756
 description: Détermine la forme parente lors de la manipulation de formes avec des poignées de contrôle. Cette cellule définit le comportement de toutes les formes de la page de dessin.
-ms.openlocfilehash: aafe53a8e1e5154dd391380049b0d6e3235ea2d4
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 61b2674667b9d1a7b7d72f40c925b5cbf04389f5
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774446"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634827"
 ---
 # <a name="ctrlasinput-cell-page-layout-section"></a>CtrlAsInput, cellule (section Page Layout)
 
@@ -29,16 +29,16 @@ Détermine la forme parente lors de la manipulation de formes avec des poignées
 
 Pour obtenir une référence à la cellule CtrlAsInput par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | CtrlAsInput  <br/> |
+| **Nom de la cellule :**  <br/> | CtrlAsInput  <br/> |
    
 Pour obtenir une référence à la cellule CtrlAsInput à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
-| Index de la cellule :  <br/> |**visPLOCtrlAsInput** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowPageLayout** <br/> |
+| **Index de la cellule :**  <br/> |**visPLOCtrlAsInput** <br/> |
    
 

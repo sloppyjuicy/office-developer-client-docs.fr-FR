@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 84f4e5f1-7c28-9e83-8644-28d117bb10a5
 description: Détermine la distance séparant une ligne de texte de la suivante, exprimée en pourcentage, où 100 % représente la hauteur d'une ligne de texte.
-ms.openlocfilehash: cb7816a7d122d910baab1b29732ec91ccd7e8ade
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5c085d7e5be48d343dc6ed05d4bd434d8a5417de
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771079"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626100"
 ---
 # <a name="spline-cell-paragraph-section"></a>SpLine, cellule (section Paragraph)
 
@@ -30,16 +30,16 @@ Détermine la distance séparant une ligne de texte de la suivante, exprimée en
 
 Pour obtenir une référence à la cellule SpLine par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Para. SpLine [  *i*  ] où  *i*  = <1>, 2, 3... |
+| **Nom de cellule :**  <br/> | Para. SpLine [  *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule SpLine dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionParagraph** <br/> |
-| Index de la ligne :  <br/> |**visRowParagraph** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visSpaceLine** <br/> |
+| **Index de la section :**  <br/> |**visSectionParagraph** <br/> |
+| **Index de la ligne :**  <br/> |**visRowParagraph** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visSpaceLine** <br/> |
    
 

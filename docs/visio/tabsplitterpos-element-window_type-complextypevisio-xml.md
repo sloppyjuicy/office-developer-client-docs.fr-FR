@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: eca75ec6-3677-54ef-74ec-4a440a089e5d
 description: Spécifie la largeur du contrôle d’onglet de page d’une fenêtre de dessin (en tant que fraction de la largeur totale de la fenêtre de dessin).
-ms.openlocfilehash: e9e1bd63ab2741a60ce8b61dbe677d16e691de23
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: f923403432909c3fb19209f97601ee442c63e35d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772542"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626954"
 ---
 # <a name="tabsplitterpos-element-window_type-complextype-visio-xml"></a>Élément TabSplitterPos (Window_Type complexType) (Visio XML)
 
 Spécifie la largeur du contrôle d’onglet de page d’une fenêtre de dessin (en tant que fraction de la largeur totale de la fenêtre de dessin).
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[TabSplitterPos_Type](tabsplitterpos_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -39,7 +39,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Fenêtre ouverte dans une instance Visio instance. |
    

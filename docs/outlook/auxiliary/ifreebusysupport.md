@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 17df868b-d329-cefa-bd16-84960cbf5921
-ms.openlocfilehash: dd739a52f429cb1a824896b26e7ab91a98c50e52
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 70bdb4fe89c64c708056d96c386067fcad792a94
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780238"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633210"
 ---
 # <a name="ifreebusysupport"></a>IFreeBusySupport
 
@@ -19,7 +19,7 @@ Prend en charge la spécification des interfaces qui accèdent aux données de l
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Hérite de :  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Fourni par :  <br/> |Fournisseur de services de libre-service  <br/> |
@@ -27,7 +27,7 @@ Prend en charge la spécification des interfaces qui accèdent aux données de l
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Membre |Valeur |
 |:-----|:-----|
 |[Placeholder1](ifreebusysupport-placeholder1.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
 |[Placeholder2](ifreebusysupport-placeholder2.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
@@ -58,7 +58,7 @@ Prend en charge la spécification des interfaces qui accèdent aux données de l
 
 La plupart des membres de cette interface sont des espaces réservés à l’utilisation interne des Outlook et peuvent faire l’objet de changements. Les fournisseurs de libre/occupé doivent les implémenter uniquement comme spécifié, en renvoyant uniquement les valeurs de retour spécifiées.
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 - [À propos de l’API Disponibilité](about-the-free-busy-api.md)
 - [FBUser](fbuser.md)

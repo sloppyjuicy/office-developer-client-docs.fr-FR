@@ -7,12 +7,12 @@ ms:contentKeyID: 48546728
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4cd15467e627dac1bb08b5686bc7deff4fc5f793
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: b72f231b01c0e2666d0a8131f0a5087b6195203c
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462543"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633616"
 ---
 # <a name="connectmodeenum"></a>ConnectModeEnum
 
@@ -23,9 +23,9 @@ Spécifie les autorisations disponibles pour modifier les données dans une [Con
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -90,7 +90,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

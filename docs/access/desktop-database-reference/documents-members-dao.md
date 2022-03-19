@@ -7,12 +7,12 @@ ms:contentKeyID: 48546255
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6963371753479dc96b771afc0d281c47dc9c63f2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: debe4a1e66c06aa3e9633c3c82bf0ff512d0e65f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553073"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629243"
 ---
 # <a name="documents-members-dao"></a>Documents members (DAO)
 
@@ -25,8 +25,8 @@ Une collection Documents contient tous les objets Document d'un type spécifique
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -47,8 +47,8 @@ Une collection Documents contient tous les objets Document d'un type spécifique
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,12 +7,12 @@ ms:contentKeyID: 48548519
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 2f46b897ba4e37f454c656f39333f5c4e0389e94
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: edc5c9ad8103c8fe4f3aeef210be9ab11416ac5e
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59581587"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627710"
 ---
 # <a name="create-view-statement-microsoft-access-sql"></a>CREATE VIEW, instruction (Microsoft Access SQL)
 
@@ -31,8 +31,8 @@ L’instruction CRÉER UN AFFICHAGE est composée des éléments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

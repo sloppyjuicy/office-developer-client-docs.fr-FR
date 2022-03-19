@@ -7,12 +7,12 @@ ms:contentKeyID: 48546934
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 11d2a442647c00f73f0f5debfa2bfb914b092276
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a5d8bef3bd224e977d6418450358b4e85e5b89ec
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618230"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627668"
 ---
 # <a name="databasetypeenum-enumeration-dao"></a>DatabaseTypeEnum, éumération (DAO)
 
@@ -23,9 +23,9 @@ Spécifie la version du format des données pour une base de données compactée
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -37,7 +37,7 @@ Spécifie la version du format des données pour une base de données compactée
 <tbody>
 <tr class="odd">
 <td><p>dbDecrypt</p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Décrypte la base de données pendant le compactage</p></td>
 </tr>
 <tr class="even">
@@ -62,7 +62,7 @@ Spécifie la version du format des données pour une base de données compactée
 </tr>
 <tr class="even">
 <td><p>dbVersion20</p></td>
-<td><p>16 </p></td>
+<td><p>16</p></td>
 <td><p>Moteur de base de données Microsoft Jet version 2.0</p></td>
 </tr>
 <tr class="odd">

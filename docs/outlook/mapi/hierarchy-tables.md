@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: b8aa6b36-d6e5-4e1f-8ac5-5d6a78a70bf8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f5f5149f3976e0d2416e7370eaca651f5d728e65
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 79972bd36aa28d7e6cd354a4de487c2ae8e430bb
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63375019"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628557"
 ---
 # <a name="hierarchy-tables"></a>Tables hiérarchiques
   
@@ -40,7 +40,7 @@ L’appel **à IMAPIProp::OpenProperty** implique d’accéder à la table de hi
   
 Les propriétés suivantes définissent le jeu de colonnes requis dans un tableau hiérarchique :
   
-|||
+||Valeur |
 |:-----|:-----|
 |**PR_COMMENT** ([PidTagComment](pidtagcomment-canonical-property.md))  <br/> |**PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md))  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |
@@ -75,7 +75,7 @@ Les tables de hiérarchie de magasin de messages incluent ces propriétés dans 
 
 Les fournisseurs de carnets d’adresses doivent prendre en charge les méthodes **IMAPITable** suivantes dans leurs implémentations de table hiérarchique, car elles sont requises par le carnet d’adresses intégré MAPI :
   
-|||
+|Méthode |Méthode |
 |:-----|:-----|
 |[IMAPITable::QueryColumns](imapitable-querycolumns.md) <br/> |[IMAPITable::QueryPosition](imapitable-queryposition.md) <br/> |
 |[IMAPITable::SeekRow](imapitable-seekrow.md) <br/> |[IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) <br/> |
@@ -83,6 +83,6 @@ Les fournisseurs de carnets d’adresses doivent prendre en charge les méthodes
 |[IMAPITable::CreateBookmark](imapitable-createbookmark.md) <br/> |[IMAPITable::FreeBookmark](imapitable-freebookmark.md) <br/> |
 |[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> | <br/> |
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 [MAPI Tables](mapi-tables.md)

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: df7f79df-770a-4868-e7e2-05c3828e23eb
 description: Détermine si le nom de la page est exposé dans l'interface utilisateur (IU).
-ms.openlocfilehash: 38b667739df13656872d6ffce235c29e6e796342
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 8c3e2d37fc43050fe4d02b0575747c02c4891ddc
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62779013"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633693"
 ---
 # <a name="uivisibility-cell-page-properties-section"></a>UIVisibility, cellule (section Page Properties)
 
@@ -36,16 +36,16 @@ Définir la cellule UIVisibility sur **visUIVHidden** empêche la page d’appar
   
 Pour obtenir une référence à la cellule UIVisibility par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |UIVisibility  <br/> |
+|**Nom de la cellule :**  <br/> |UIVisibility  <br/> |
    
 Pour obtenir une référence à la cellule UIVisibility à l'aide d'un index à partir un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowPage** <br/> |
-|Index de la cellule :  <br/> |**visPageUIVisibility** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowPage** <br/> |
+|**Index de la cellule :**  <br/> |**visPageUIVisibility** <br/> |
    
 

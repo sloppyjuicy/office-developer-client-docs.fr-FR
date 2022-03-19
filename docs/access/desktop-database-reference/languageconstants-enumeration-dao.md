@@ -7,12 +7,12 @@ ms:contentKeyID: 48546794
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 3370da65579bb75233de58cebcb4acc336460674
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2dc1acc515397195099016a5b10b1e12712d8715
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626322"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628675"
 ---
 # <a name="languageconstants-enumeration-dao"></a>LanguageConstants, éumération (DAO)
 
@@ -23,9 +23,9 @@ Indique un ordre d'attachement pour la création d'une base de données.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -78,7 +78,7 @@ Indique un ordre d'attachement pour la création d'une base de données.
 <tr class="odd">
 <td><p>dbLangHebrew</p></td>
 <td><p>&quot;; LANGID=0x040D; CP=1255; COUNTRY=0&quot;</p></td>
-<td><p>Hebrew</p></td>
+<td><p>Hébreu</p></td>
 </tr>
 <tr class="even">
 <td><p>dbLangHungarian</p></td>
@@ -93,17 +93,17 @@ Indique un ordre d'attachement pour la création d'une base de données.
 <tr class="even">
 <td><p>dbLangJapanese</p></td>
 <td><p>&quot;; LANGID=0x0411; CP=932; COUNTRY=0&quot;</p></td>
-<td><p>Japonais</p></td>
+<td><p>Japanese</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangKorean</p></td>
 <td><p>&quot;; LANGID=0x0412; CP=949; COUNTRY=0&quot;</p></td>
-<td><p>Coréen</p></td>
+<td><p>Korean</p></td>
 </tr>
 <tr class="even">
 <td><p>dbLangNordic</p></td>
 <td><p>&quot;; LANGID=0x041D; CP=1252; COUNTRY=0&quot;</p></td>
-<td><p>Centre d’ment</p></td>
+<td><p>En-dent</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangNorwDan</p></td>
@@ -118,7 +118,7 @@ Indique un ordre d'attachement pour la création d'une base de données.
 <tr class="odd">
 <td><p>dbLangSlovenian</p></td>
 <td><p>&quot;; LANGID=0x0424; CP=1250; COUNTRY=0&quot;</p></td>
-<td><p>Slovenian</p></td>
+<td><p>Slovène</p></td>
 </tr>
 <tr class="even">
 <td><p>dbLangSpanish</p></td>

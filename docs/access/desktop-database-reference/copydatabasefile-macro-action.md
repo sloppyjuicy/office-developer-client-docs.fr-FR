@@ -7,12 +7,12 @@ ms:contentKeyID: 48548373
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 44f079d84ec3b651b114ed9341fbf5361caf87e1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e1c97270a91cf41cdb29b5f4dc41c42a54d82b26
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615731"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627787"
 ---
 # <a name="copydatabasefile-macro-action"></a>CopyDatabaseFile, action de macro
 
@@ -24,14 +24,14 @@ Utilisez l’action **CopierFichierBaseDeDonnées** pour créer une copie de la 
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **CopierFichierBaseDeDonnées** possède les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -52,7 +52,7 @@ L’action **CopierFichierBaseDeDonnées** possède les arguments suivants.
 <td><p><strong>Déconnecter tous les utilisateurs</strong></p></td>
 <td><p>Spécifie si Access doit ou non forcer la déconnexion des utilisateurs de la base de données. Si cet argument est défini sur <strong>Oui</strong>, tout utilisateur connecté à la base de données active est déconnecté et l’opération de copie de la base de données peut se poursuivre. S’il est défini sur <strong>Non</strong> et si un ou plusieurs utilisateurs sont connectés à la base de données, l’opération de copie de la base de données échoue. La valeur par défaut est <strong>Non</strong>. 
 
-</p><p><strong>AVERTISSEMENT :</strong>la déconnexion des utilisateurs d’une base de données sans avertissement adéquat peut entraîner une perte de données.</p></td>
+</p><p><strong>AVERTISSEMENT :</strong> la déconnexion des utilisateurs d’une base de données sans avertissement adéquat peut entraîner une perte de données.</p></td>
 </tr>
 </tbody>
 </table>

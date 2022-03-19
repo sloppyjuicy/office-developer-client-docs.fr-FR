@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 655b66e8-8642-43ad-8392-048578f96820
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1f2130e86b0be8e5790d863ea18dc1597d9a4c62
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7cc0da5ad532563367f69b628e6aa18e1a41a769
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59631082"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626387"
 ---
 # <a name="cbflatentry"></a>CbFLATENTRY
 
@@ -27,7 +27,7 @@ ms.locfileid: "59631082"
   
 Calcule le nombre d’octets dans une structure [FLATENTRY](flatentry.md) existante. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**FLATENTRY** <br/> |
@@ -42,7 +42,7 @@ CbFLATENTRY (_lpentry)
   
 > Pointeur vers la structure **FLATENTRY** existante. 
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

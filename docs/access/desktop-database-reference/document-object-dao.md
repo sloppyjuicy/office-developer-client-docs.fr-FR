@@ -7,12 +7,12 @@ ms:contentKeyID: 48547247
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 754022978d33094284e2ec8f40a4258c2f5d2da2
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 43bd5d6c76f673b99b4cbf0f6495cdae6d1c5b90
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62464391"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633539"
 ---
 # <a name="document-object-dao"></a>Document, objet (DAO)
 
@@ -26,9 +26,9 @@ Chaque objet **Container** comporte une collection **Documents** qui contient de
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

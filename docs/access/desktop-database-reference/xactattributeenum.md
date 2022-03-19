@@ -7,12 +7,12 @@ ms:contentKeyID: 48546366
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7a8de78fb8d12684f117ddc6adef80a48f9a4fe3
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 07679e8427cfb69f655c50c14ed4e61a8179fe05
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461791"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633224"
 ---
 # <a name="xactattributeenum"></a>XactAttributeEnum
 
@@ -23,9 +23,9 @@ Spécifie les attributs de transaction d’un objet [Connection](connection-obje
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,7 +55,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

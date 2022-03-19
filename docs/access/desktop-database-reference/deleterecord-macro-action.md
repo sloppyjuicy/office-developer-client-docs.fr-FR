@@ -7,12 +7,12 @@ ms:contentKeyID: 48547624
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b6190a4fe8395901304202019b2ac0891f36fada
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d7c5f6909e7f62dacff263e0056ec3529b3a4828
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577429"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626688"
 ---
 # <a name="deleterecord-macro-action"></a>DeleteRecord, action de macro
 
@@ -20,14 +20,14 @@ ms.locfileid: "59577429"
 
 Vous pouvez utiliser l’action **SupprimerEnregistrement** pour supprimer un enregistrement.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 Le bloc de données **CréerEnregistrement** utilise les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

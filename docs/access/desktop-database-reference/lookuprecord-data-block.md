@@ -7,12 +7,12 @@ ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 31572bfc25e9a43b28f0441ae5d98baef87b95b9
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 27271e9c4385cb45150a6fc580d214c40bf6af41
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62464927"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627430"
 ---
 # <a name="lookuprecord-data-block"></a>LookupRecord, bloc de données
 
@@ -29,9 +29,9 @@ L’action **DéfinirChamp** utilise les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,7 +66,7 @@ Si les critères spécifiés par les arguments Condition *In* et *Where* renvoie
 
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre comment utiliser l’action SetReturnVar pour renvoyer une valeur à partir d’une macro de données nommée. Une valeur ReturnVar nommée **CurrentServiceRequest** est renvoyée à la macro ou à la sous-Visual Basic pour Applications (VBA) qui a appelé la macro de données nommée.
+L’exemple suivant montre comment utiliser l’action SetReturnVar pour renvoyer une valeur à partir d’une macro de données nommée. Une valeur ReturnVar **nommée CurrentServiceRequest** est renvoyée à la macro ou à la sous-Visual Basic pour Applications (VBA) qui a appelé la macro de données nommée.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

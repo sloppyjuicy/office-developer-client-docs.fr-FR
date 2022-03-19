@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 0474df0c026385731a13bf122c87bebab7af9e3c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 97fd0c192675367b35a8bb809e5fbaa17b3443f0
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626245"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627402"
 ---
 # <a name="openvisualbasicmodule-macro-action"></a>OpenVisualBasicModule, action de macro
 
@@ -27,14 +27,14 @@ Utilisez l'action **OuvrirModuleVisualBasic** pour ouvrir un module Visual Basic
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **OuvrirModuleVisualBasic** utilise les arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -60,7 +60,7 @@ L’action **OuvrirModuleVisualBasic** utilise les arguments suivants :
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser cette action pour ouvrir une procédure événementielle en spécifiant les arguments **Nom du module** et **Nom de la procédure**. Par exemple, pour  ouvrir la procédure événement de clic du bouton ImprimerInvoice dans le formulaire Commandes, définissez l’argument Nom du **module** sur **Form.Orders** et définissez l’argument  Nom de procédure sur **ImprimerInvoice \_** Clic . Pour afficher la procédure événementielle d'un formulaire ou d'un état, celui-ci doit être ouvert.
+Vous pouvez utiliser cette action pour ouvrir une procédure événementielle en spécifiant les arguments **Nom du module** et **Nom de la procédure**. Par exemple, pour ouvrir la  procédure événement de clic du bouton ImprimerInvoice dans le formulaire Commandes, définissez l’argument Nom du **module** sur **Form.Orders** et définissez l’argument **Nom** de la procédure sur **PrintInvoiceClick\_**. Pour afficher la procédure événementielle d'un formulaire ou d'un état, celui-ci doit être ouvert.
 
 De même, pour ouvrir une procédure dans un module de classe, vous devez spécifier le nom du module, bien que celui-ci ne doit pas être ouvert.
 

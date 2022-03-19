@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: bfe06cf1f1f4ab10d2c35eacb9f9dc5ff858b7c6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bdb825762eda64030d2e5a374052d4769586bd8b
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597162"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628235"
 ---
 # <a name="openquery-macro-action"></a>OpenQuery, action de macro
 
@@ -27,14 +27,14 @@ Faites appel à l'action **OuvrirRequête** pour ouvrir une requête Sélection 
 > [!NOTE]
 > [!REMARQUE] Cette action n'est disponible que dans l'environnement de base de données Access (.mdb ou .accdb). Reportez-vous aux actions **OuvrirVue**, **OuvrirProcédureStockée** ou **OuvrirFonction** si vous utilisez l'environnement de projet Access (.adp).
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **OuvrirRequête** possède les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -45,7 +45,7 @@ L’action **OuvrirRequête** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom de la requête</strong></p></td>
-<td><p>Nom de la requête à ouvrir. La <strong>zone Nom de la</strong> requête dans la section Arguments de l’action du volet Générateur de macro affiche toutes les requêtes de la base de données actuelle. <strong></strong> Il s’agit d’un argument obligatoire. Si vous exécutez <strong></strong> une macro contenant l’action OuvrirRequête dans une base de données bibliothèque, Microsoft Access recherche d’abord la requête de ce nom dans la base de données bibliothèque, puis dans la base de données actuelle.</p></td>
+<td><p>Nom de la requête à ouvrir. La <strong>zone Nom de la</strong> requête dans la section <strong>Arguments de l’action</strong> du volet Générateur de macro affiche toutes les requêtes de la base de données actuelle. Il s’agit d’un argument obligatoire. Si vous exécutez une macro contenant <strong></strong> l’action OuvrirRequête dans une base de données bibliothèque, Microsoft Access recherche d’abord la requête de ce nom dans la base de données bibliothèque, puis dans la base de données actuelle.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

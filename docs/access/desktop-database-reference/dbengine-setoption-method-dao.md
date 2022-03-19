@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: e95e92405d1eac52d7815897f9fe52ceea0b223a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 91fbc99bd3ac917fd76b0f6868a516afef41cb9d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606834"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633588"
 ---
 # <a name="dbenginesetoption-method-dao"></a>DBEngine.SetOption, méthode (DAO)
 
@@ -34,10 +34,10 @@ Remplace temporairement les valeurs des clés du moteur de base de données Micr
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,12 +66,12 @@ Remplace temporairement les valeurs des clés du moteur de base de données Micr
 
 ## <a name="remarks"></a>Remarques
 
-Chaque constante fait référence à la clé de Registre correspondante dans le chemin d’accès HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access Connectivity \\ Engines ACE (autrement \\ dit, **dbSharedAsyncDelay** correspond à la clé HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access Connectivity \\ Engines ACE \\ \\ SharedAsyncDelay, etc. ).
+Chaque constante fait référence à la clé de Registre correspondante dans le chemin d’accès HKEYLOCALMACHINESOFTWAREMicrosoft\_\\\\\_\\ Office\\ 12.0Access\\ Connectivity EngineEnginesACE\\\\ (autrement dit, **dbSharedAsyncDelay** correspond à la clé HKEYLOCALMACHINESOFTWAREMicrosoft\_\_\\\\\\ Office\\ 12.0Access\\ Connectivity EngineEnginesACESharedAsyncDelay\\\\\\, etc. ).
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

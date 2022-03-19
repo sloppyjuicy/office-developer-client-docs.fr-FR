@@ -7,12 +7,12 @@ ms.topic: overview
 ms.assetid: 87926f7d-e1dc-41d5-8805-6ba91fc7b154
 description: 'L’interface d’application inclut des méthodes qui vous aident à récupérer, à manipuler et à mettre à jour les informations et le contenu de OneNote. Les méthodes se divisent en quatre catégories générales :'
 ms.localizationpriority: high
-ms.openlocfilehash: 50bec66f7418c1035ec898a6c438ac84c09c51f9
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: bcd5c4b44e36bf91f6509abf53c802e79fd0019d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374760"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629635"
 ---
 # <a name="application-interface-onenote"></a>Interface d’application (OneNote)
 
@@ -36,7 +36,7 @@ Les méthodes décrites dans cette section vous permettent de découvrir, d’ou
   
 ### <a name="gethierarchy-method"></a>Méthode GetHierarchy
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Obtient la structure de la hiérarchie du nœud de bloc-notes, en commençant par le nœud que vous spécifiez (tous les blocs-notes ou un seul bloc-notes, un groupe de sections ou une section), puis en continuant avec tous les descendants au niveau que vous spécifiez. |
 |**Syntaxe** <br/> | `HRESULT GetHierarchy(`<br/>`[in]BSTR bstrStartNodeID,`<br/>`[in]HierarchyScope hsScope,`<br/>`[out]BSTR * pbstrHierarchyXmlOut,`<br/>`[in,defaultvalue(xs2013)]XMLSchema xsSchema);` <br/> |
@@ -65,7 +65,7 @@ static void GetEntireHierarchy()
 
 ### <a name="updatehierarchy-method"></a>Méthode UpdateHierarchy
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description**|Modifie ou met à jour la hiérarchie des bloc-notes. Par exemple, vous pouvez ajouter des sections ou des groupes de sections à un bloc-notes, ajouter un nouveau bloc-notes, déplacer des sections au sein d’un bloc-notes, modifier le nom d’une section, ajouter des pages à une section ou modifier l’ordre des pages dans des sections.|
 |**Syntaxe**| `HRESULT UpdateHierarchy(`<br/>`[in]BSTR bstrChangesXmlIn,`<br/>`[in,defaultvalue(xsCurrent)] XMLSchema xsSchema);`|
@@ -152,7 +152,7 @@ L’exemple C# suivant montre une application console complète qui recherche un
 
 ### <a name="openhierarchy-method"></a>Méthode OpenHierarchy
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Ouvre le groupe de sections ou la section que vous spécifiez. |
 |**Syntaxe** <br/> | `HRESULT OpenHierarchy(`<br/>`[in]BSTR bstrPath,`<br/>`[in]BSTR bstrRelativeToObjectID,`<br/>`[out]BSTR * pbstrObjectID,`<br/>`[in,defaultvalue(cftNone)]CreateFileType cftIfNotExist);` <br/> |
@@ -177,7 +177,7 @@ static void OpenSection()
 
 ### <a name="deletehierarchy-method"></a>Méthode DeleteHierarchy
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Supprime tout objet de la hiérarchie (groupe de sections, section ou page) de la hiérarchie de bloc-notes OneNote. |
 |**Syntaxe** <br/> | `HRESULT DeleteHierarchy(`<br/>`[in]BSTR bstrObjectID,`<br/>`[in,defaultvalue(0)]DATE dateExpectedLastModified,`<br/>`[in,defaultvalue(false)]VARIANT_BOOL deletePermanently);` <br/> |
@@ -185,7 +185,7 @@ static void OpenSection()
 
 ### <a name="createnewpage-method"></a>Méthode CreateNewPage
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Ajoute une nouvelle page à la section que vous spécifiez. Celle-ci est ajoutée comme la dernière page de la section.  <br/> |
 |**Syntaxe** <br/> | `HRESULT CreateNewPage(`<br/>`[in]BSTR bstrSectionID,`<br/>`[out]BSTR * pbstrPageID);`<br/>`[in,defaultvalue(npsDefault)]NewPageStyle npsNewPageStyle);` <br/> |
@@ -195,7 +195,7 @@ L’API OneNote inclut la méthode **CreateNewPage** pour plus de commodité. Vo
   
 ### <a name="closenotebook-method"></a>Méthode CloseNotebook
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Ferme le bloc-notes spécifié. |
 |**Syntaxe** <br/> | `HRESULT CloseNotebook(`<br/>`[in]BSTR bstrNotebookID,`<br/>`[in,defaultvalue(false)]VARIANT_BOOL force);` <br/> |
@@ -205,7 +205,7 @@ Utilisez la méthode **CloseNotebook** pour fermer le bloc-notes de votre choix.
   
 ### <a name="gethierarchyparent-method"></a>Méthode GetHierarchyParent
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Obtient l’ID OneNote de l’objet parent d’un objet OneNote. |
 |**Syntaxe** <br/> | `HRESULT GetHierarchyParent (`<br/>`[in]BSTR bstrObjectID,`<br/>`[out]BSTR * pbstrParentID);` <br/> |
@@ -215,7 +215,7 @@ Si l’objet OneNote n’a pas d’objet parent (par exemple, lorsqu’un utilis
   
 ### <a name="getspeciallocation-method"></a>Méthode GetSpecialLocation
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Recherche le chemin d’accès à l’emplacement où OneNote stocke certains éléments spéciaux, tels que les sauvegardes, les notes non classées et le bloc-notes par défaut. |
 |**Syntaxe** <br/> | `HRESULT GetSpecialLocation(`<br/>`[in]SpecialLocation slToGet,`<br/>`[out]BSTR * pbstrSpecialLocationPath);` <br/> |
@@ -231,7 +231,7 @@ Les méthodes décrites dans cette section vous aident à découvrir, mettre à 
   
 ### <a name="getpagecontent-method"></a>Méthode GetPageContent
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description**|Obtient l’ensemble du contenu (au format XML OneNote) de la page spécifiée.|
 |**Syntaxe**| `HRESULT GetPageContent(`<br/>`[in]BSTR bstrPageID,`<br/>`[out]BSTR * pbstrPageXmlOut,`<br/>`[in,defaultvalue(piBasic)]PageInfo pageInfoToExport,`<br/>`[in,defaultvalue(xsCurrent)]XMLSchema xsSchema);`|
@@ -241,7 +241,7 @@ Par défaut, pour éviter que la chaîne XML renvoyée soit trop longue, OneNote
   
 ### <a name="updatepagecontent-method"></a>Méthode UpdatePageContent
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description**|Met à jour ou modifie le contenu de la page.|
 |**Syntaxe**| `HRESULT UpdatePageContent(`<br/>`[in]BSTR bstrPageChangesXmlIn,`<br/>`[in,defaultvalue(0)]DATE dateExpectedLastModified,`<br/>`[in,defaultvalue(xsCurrent)]XMLSchema xsSchema,`<br/>`[in,defaultvalue(false)]VARIANT_BOOL force);`|
@@ -301,7 +301,7 @@ static void UpdatePageContent()
 
 ### <a name="getbinarypagecontent-method"></a>Méthode GetBinaryPageContent
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Renvoie un objet binaire, comme une entrée manuscrite ou une image, sur une page OneNote sous forme de chaîne encodée en base 64. |
 |**Syntaxe** <br/> | `HRESULT GetBinaryPageContent(`<br/>`[in]BSTR bstrPageID,`<br/>`[in]BSTR bstrCallbackID,`<br/>`[out]BSTR * pbstrBinaryObjectB64Out);` <br/> |
@@ -309,7 +309,7 @@ static void UpdatePageContent()
 
 ### <a name="deletepagecontent-method"></a>Méthode DeletePageContent
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Supprime un objet &ndash; comme un objet **Outline**, **Ink** ou **Image** d’une page. |
 |**Syntaxe** <br/> | `HRESULT DeletePageContent(`<br/>`[in]BSTR bstrPageID,`<br/>`[in]BSTR bstrObjectID,`<br/>`[in,defaultvalue(0)]DATE dateExpectedLastModified,`<br/>`[in,defaultvalue(#)]VARIANT_BOOL force);` <br/> |
@@ -317,7 +317,7 @@ static void UpdatePageContent()
 
 ### <a name="publish-method"></a>Méthode Publish
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Exporte la page que vous spécifiez dans un fichier sous n’importe quel format pris en charge par OneNote. |
 |**Syntaxe** <br/> | `HRESULT Publish(`<br/>`[in]BSTR bstrHierarchyID,`<br/>`[in]BSTR bstrTargetFilePath,`<br/>`[in,defaultvalue(pfOneNote)]PublishFormat pfPublishFormat,`<br/>`[in,defaultvalue(0)]BSTR bstrCLSIDofExporter);` <br/> |
@@ -344,7 +344,7 @@ Les méthodes décrites dans cette section vous aident à rechercher, atteindre 
   
 ### <a name="navigateto-method"></a>Méthode NavigateTo
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Accède à l’objet spécifié (par exemple, sections, pages et éléments **Outline** au sein des pages). |
 |**Syntaxe** <br/> | `HRESULT NavigateTo(`<br/>`[in]BSTR bstrHierarchyObjectID,`<br/>`[in,defaultvalue(#)]BSTR bstrObjectID,`<br/>`[in,defaultvalue(0)]VARIANT_BOOL fNewWindow);` <br/> |
@@ -352,7 +352,7 @@ Les méthodes décrites dans cette section vous aident à rechercher, atteindre 
 
 ### <a name="navigatetourl-method"></a>Méthode NavigateToUrl
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Si un lien OneNote est transmis (onenote://), cette méthode ouvre la fenêtre OneNote à l’emplacement correspondant dans OneNote. Si le lien est externe à OneNote (par exemple, https:// ou file://), une boîte de dialogue de sécurité s’affiche. Après le renvoi, OneNote essaie d’ouvrir le lien et une erreur **HResult.hrObjectDoesNotExist** est renvoyée. |
 |**Syntaxe** <br/> | `HRESULT NavigateTo(`<br/>`[in]BSTR bstrUrl,`<br/>`[in,defaultvalue(0)]VARIANT_BOOL fNewWindow);` <br/> |
@@ -360,7 +360,7 @@ Les méthodes décrites dans cette section vous aident à rechercher, atteindre 
 
 ### <a name="gethyperlinktoobject-method"></a>Méthode GetHyperLinkToObject
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Obtient un lien hypertexte OneNote vers le bloc-notes, le groupe de sections, la section, la page ou l’objet de page spécifié. |
 |**Syntaxe** <br/> | `HRESULT GetHyperlinkToObject(`<br/>`[in] BSTR bstrHierarchyID,`<br/>`[in] BSTR bstrPageContentObjectID,`<br/>`[out] BSTR * pbstrHyperlinkOut);` <br/> |
@@ -370,7 +370,7 @@ Lorsque vous tentez d’accéder au lien obtenu, OneNote ouvre et affiche l’ob
   
 ### <a name="getwebhyperlinktoobject-method"></a>Méthode GetWebHyperlinktoObject
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Renvoie un lien hypertexte vers un objet qui s’ouvre dans le client web de OneNote. |
 |**Syntaxe** <br/> | `HRESULT GetWebHyperlinkToObject (`<br/>`[in] BSTR bstrHierarchyID,`<br/>`[in] BSTR bstrPageContentObjectID,`<br/>`[out] BSTR * pbstrHyperlinkOut);` <br/> |
@@ -378,7 +378,7 @@ Lorsque vous tentez d’accéder au lien obtenu, OneNote ouvre et affiche l’ob
 
 ### <a name="findpages-method"></a>Méthode FindPages
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description**|Renvoie la liste des pages correspondant au terme de requête spécifié.|
 |**Syntaxe**| `HRESULT FindPages(`<br/>`[in]BSTR bstrStartNodeID,`<br/>`[in]BSTR bstrSearchBSTR,`<br/>`[out]BSTR * pbstrHierarchyXmlOut,`<br/>`[in,defaultvalue(#)]VARIANT_BOOL fIncludeUnindexedPages,`<br/>`[in,defaultvalue(0)]VARIANT_BOOL fDisplay,`<br/>`[in,defaultvalue(#)]XMLSchema xsSchema);`|
@@ -388,7 +388,7 @@ Lorsque vous tentez d’accéder au lien obtenu, OneNote ouvre et affiche l’ob
   
 ### <a name="findmeta-method"></a>Méthode FindMeta
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description**|Renvoie la liste des objets OneNote qui contiennent des métadonnées correspondant au terme de requête spécifié.|
 |**Syntaxe**| `HRESULT FindMeta (`<br/>`[in]BSTR bstrStartNodeID,`<br/>`[in]BSTR bstrSearchBSTRName,`<br/>`[out]BSTR * pbstrHierarchyXmlOut,`<br/>`[in,defaultvalue(#)]VARIANT_BOOL fIncludeUnindexedPages,`<br/>`[in,defaultvalue(#)]XMLSchema xsSchema);`|
@@ -404,7 +404,7 @@ Les méthodes décrites dans cette section vous aident à effectuer certaines ac
   
 ### <a name="mergefiles-method"></a>Méthode MergeFiles
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Permet aux utilisateurs de fusionner les modifications pour le même fichier dans un seul fichier. Les fichiers considérés comme identiques doivent avoir le même ID OneNote. |
 |**Syntaxe** <br/> | `HRESULT MergeFiles (`<br/>`[in]BSTR bstrBaseFile,`<br/>`[in]BSTR bstrClientFile,`<br/>`[in]BSTR bstrServerFile,`<br/>`[in]BSTR bstrTargetFile);` <br/> |
@@ -414,7 +414,7 @@ La méthode **MergeFiles** a été conçue pour les scénarios mobiles dans lesq
   
 ### <a name="mergesections-method"></a>Méthode MergeSections
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Fusionne le contenu d’une section dans une autre section dans OneNote. |
 |**Syntaxe** <br/> | `HRESULT MergeSections (`<br/>`[in]BSTR bstrSectionSourceId,`<br/>`[in]BSTR bstrSectionDestinationId);` <br/> |
@@ -424,14 +424,14 @@ Cette méthode effectue la même opération que la fonctionnalité **Fusionner d
   
 ### <a name="quickfiling-method"></a>Méthode QuickFiling
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Renvoie une instance de la boîte de dialogue [IQuickFilingDialog](quick-filing-dialog-box-interfaces-onenote.md#odc_IQuickFilingDialog), qui peut être utilisée pour sélectionner un emplacement dans l’arborescence de la hiérarchie OneNote. |
 |**Syntaxe** <br/> | `HRESULT QuickFiling (`<br/>`);` <br/> |
 
 ### <a name="synchierarchy-method"></a>Méthode SyncHierarchy
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Force OneNote à synchroniser l’objet spécifié avec le fichier source sur le disque. |
 |**Syntaxe** <br/> | `HRESULT SyncHierarchy (`<br/>`[in]BSTR bstrHierarchyID);` <br/> |
@@ -439,7 +439,7 @@ Cette méthode effectue la même opération que la fonctionnalité **Fusionner d
 
 ### <a name="setfilinglocation-method"></a>Méthode SetFilingLocation
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Permet aux utilisateurs de spécifier où et comment certains types de contenu doivent être classés dans OneNote. |
 |**Syntaxe** <br/> | `HRESULT SetFilingLocation (`<br/>`[in]FilingLocation flToSet,`<br/>`[in]FilingLocationType fltToSet,`<br/>`[in]BSTR bstrFilingSectionID);`           <br/> |
@@ -470,14 +470,14 @@ Cette section décrit les événements de l’interface d’application.
   
 ### <a name="onnavigate-event"></a>Événement OnNavigate
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Permet à l’utilisateur d’affecter une fonction à appeler lorsqu’il s’éloigne de l’emplacement OneNote en cours dans l’interface utilisateur OneNote. |
 |**Syntaxe** <br/> | `Event OnNavigate (`<br/>`);` <br/> |
 
 ### <a name="onhierarchychange-method"></a>Méthode OnHierarchyChange
 
-|||
+|Valeur | Description |
 |:-----|:-----|
 |**Description** <br/> |Permet à l’utilisateur d’affecter une fonction à appeler à tout moment en cas de modifications de hiérarchie OneNote (par exemple, ajout ou suppression de pages, ou déplacement de sections). Les modifications de hiérarchie sont regroupées. De cette façon, si plusieurs modifications se produisent en même temps ou presque, OneNote déclenche l’événement une seule fois. |
 |**Syntaxe** <br/> | `Event OnHierarchyChange (`<br/>`BSTR bstrActivePageID);` <br/> |

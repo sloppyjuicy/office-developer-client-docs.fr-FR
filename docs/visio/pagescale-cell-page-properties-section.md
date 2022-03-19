@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: e1da84b3-fd15-12b9-9342-0412e818b3b9
 description: Détermine la valeur de l'unité de page dans l'échelle de dessin en cours. L'échelle de dessin est le rapport entre l'unité de page représentée dans la cellule PageScale et l'unité de dessin représentée dans la cellule DrawingScale.
-ms.openlocfilehash: 32d596b7b7e2b7e9810f0bc168072eefa534b045
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3923b5d9df65d91196b06e67a694ae8b8ec23ae5
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554221"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628410"
 ---
 # <a name="pagescale-cell-page-properties-section"></a>PageScale, cellule (section Page Properties)
 
@@ -26,16 +26,16 @@ Vous pouvez également définir la valeur de la cellule PageScale sous l’ongle
   
 Pour obtenir une référence à la cellule PageScale par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |PageScale  <br/> |
+|**Nom de cellule :**  <br/> |PageScale  <br/> |
    
 Pour obtenir une référence à la cellule PageScale à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowPage** <br/> |
-|Index de la cellule :  <br/> |**visPageScale** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowPage** <br/> |
+|**Index de la cellule :**  <br/> |**visPageScale** <br/> |
    
 

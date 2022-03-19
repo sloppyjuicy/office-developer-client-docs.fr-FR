@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6d1589e9-b171-427a-9a3e-b4154ee8ceb6
 description: Décrit un contrôle qui sera utilisé dans une boîte de dialogue conçue à partir d’un tableau d’affichage.
-ms.openlocfilehash: 48cef66fc6c75d2cd6a208e9f6a0f2a5ccf23bba
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 94d49413c5d492689ec0c1bcf5bae93f09e5ce39
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780068"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634582"
 ---
 # <a name="dtctl"></a>DTCTL
 
@@ -25,7 +25,7 @@ ms.locfileid: "62780068"
   
 Décrit un contrôle qui sera utilisé dans une boîte de dialogue conçue à partir d’un tableau d’affichage. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h |
    
@@ -114,7 +114,7 @@ DTCT_MVDDLBX
     
 **ulCtlFlags**
   
-> Masque de bits d’indicateurs qui décrit les fonctionnalités du contrôle et correspond à la propriété **PR_CONTROL_FLAGS (**[PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) du contrôle. Ces indicateurs peuvent être définies uniquement pour les cases à cocher, les zones de liste déroulante, les zones de liste et les contrôles d’édition. Les valeurs possibles sont les suivantes :
+> Masque de bits d’indicateurs qui décrit les fonctionnalités du contrôle et correspond à la propriété **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) du contrôle. Ces indicateurs peuvent être définies uniquement pour les cases à cocher, les zones de liste déroulante, les zones de liste et les contrôles d’édition. Les valeurs possibles sont les suivantes :
     
 DT_ACCEPT_DBCS 
   
@@ -172,7 +172,7 @@ DT_SET_IMMEDIATE
 
 La structure **DTCTL** décrit un contrôle de n’importe quel type. La plupart de ses membres sont utilisés pour définir des propriétés sur le contrôle. 
   
-Le **membre ctl** est une union de structures liées à un type particulier de contrôle. Si la structure **DTCTL** décrit un contrôle d’édition, par exemple, le membre **ctl** pointe vers une structure [DTBLEDIT](dtbledit.md) . Cette structure correspond à la propriété **PR_CONTROL_STRUCTURE contrôle.** L’union possède comme premier membre une variable de type LPVOID pour permettre l’initialisation du temps de compilation de la structure **DTCTL** . 
+Le **membre ctl** est une union de structures liées à un type particulier de contrôle. Si la structure **DTCTL** décrit un contrôle d’édition, par exemple, le membre **ctl** pointe vers une structure [DTBLEDIT](dtbledit.md) . Cette structure correspond à la propriété **PR_CONTROL_STRUCTURE du contrôle** . L’union possède comme premier membre une variable de type LPVOID pour permettre l’initialisation du temps de compilation de la structure **DTCTL** . 
   
 Bien que la [fonction BuildDisplayTable](builddisplaytable.md) utilise la structure **DTCTL** pour créer le tableau d’affichage à partir des ressources de contrôle, la structure **DTCTL** n’apparaît jamais dans le tableau d’affichage lui-même. Cette structure fournit simplement des informations **à BuildDisplayTable**.
   
@@ -182,7 +182,7 @@ Les contrôles disponibles pour une boîte de dialogue sont étiquette, zone de 
   
 Pour une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 - [BuildDisplayTable](builddisplaytable.md)
 - [DTBLBUTTON](dtblbutton.md)

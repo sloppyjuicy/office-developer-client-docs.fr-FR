@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: df014b98-cfd5-b6d3-4b8a-b0acb3b94412
 description: Détermine la façon dont les formes positionnables sont retournées et/ou pivotent lorsque vous utilisez la commande Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition de page, puis cliquez sur Autres options de disposition).
-ms.openlocfilehash: 54aacfcf504ef4598573fd91f6078593b918c6cd
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 2c97580b398d62203acb3d8ddef01a8e462c2c7a
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774096"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633833"
 ---
 # <a name="placeflip-cell-page-layout-section"></a>PlaceFlip, cellule (section Page Layout)
 
@@ -36,16 +36,16 @@ Pour définir ce comportement pour une forme donnée, utilisez la cellule ShapeP
   
 Pour obtenir une référence à la cellule PlaceFlip par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |PlaceFlip  <br/> |
+|**Nom de la cellule :**  <br/> |PlaceFlip  <br/> |
    
 Pour obtenir une référence à la cellule PlaceFlip à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
-|Index de la cellule :  <br/> |**visPLOPlaceFlip** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowPageLayout** <br/> |
+|**Index de la cellule :**  <br/> |**visPLOPlaceFlip** <br/> |
    
 

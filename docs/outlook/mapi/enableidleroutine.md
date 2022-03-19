@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 332ea831-bdf9-4dbd-b9c7-a80f8ba11b3b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f6864833dc97d7a59cb9b8b748df6f0cb7fcf85e
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: b72e3d4ca6cf94449e96e19d43ee5db1901ee092
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780064"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634029"
 ---
 # <a name="enableidleroutine"></a>EnableIdleRoutine
 
@@ -27,7 +27,7 @@ ms.locfileid: "62780064"
   
 Active ou désactive une routine [d’inactivité basée sur FNIDLE](fnidle.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

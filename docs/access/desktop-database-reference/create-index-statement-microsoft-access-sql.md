@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 68902f60b4b912a9f9793c3ba3a7a02c8a005b26
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: b0a118a6cf30c8916fe2c5fcf134ca46027762ff
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461166"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627752"
 ---
 # <a name="create-index-statement-microsoft-access-sql"></a>CREATE INDEX, instruction (Microsoft Access SQL)
 
@@ -35,8 +35,8 @@ L’instruction CREATE INDEX comprend les parties suivantes :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

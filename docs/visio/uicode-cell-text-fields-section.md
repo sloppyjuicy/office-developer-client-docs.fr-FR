@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 1d9717c1-4310-0d62-874f-4df77cd81627
 description: Définit le code d'un champ inséré dans les versions de Visio antérieures à Visio 2000.
-ms.openlocfilehash: 69337d1bdc74de31377bec4b07fe2418369018ac
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 7a5225dbe1180cfc7ca33a24dc7a4ae6a00a0711
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776843"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627857"
 ---
 # <a name="uicode-cell-text-fields-section"></a>UICode, cellule (section Text Fields)
 
@@ -26,16 +26,16 @@ Cette cellule n'apparaît pas dans la fenêtre Feuille ShapeSheet. Utilisez-la p
   
 Pour obtenir une référence à la cellule UICode par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Fields.UICod[  *i*  ] où  *i*  = <1>, 2, 3... |
+| **Nom de cellule :**  <br/> | Fields.UICod[  *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule UICode par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionTextField** <br/> |
-| Index de la ligne :  <br/> |**visRowField** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visFieldUICode** <br/> |
+| **Index de la section :**  <br/> |**visSectionTextField** <br/> |
+| **Index de la ligne :**  <br/> |**visRowField** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visFieldUICode** <br/> |
    
 

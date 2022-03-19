@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cffc05a0-95e4-4b9f-bf8f-c4272a75afa8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5da768e4d26ad76e17a1c7271405739b52a2c028
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 488134524e9b0b4e4812148424c4899e576bfe2b
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592521"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633189"
 ---
 # <a name="currency"></a>CURRENCY
 
@@ -27,7 +27,7 @@ ms.locfileid: "59592521"
   
 Contient un integer signé 64 bits représentant une valeur monétaire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -56,7 +56,7 @@ La structure **CURRENCY** est une représentation entière à l’échelle d’u
   
 La structure **CURRENCY** est utilisée pour décrire une propriété de type PT_CURRENCY. Pour plus d’informations sur les types de propriétés, voir [MAPI Property Type Overview](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

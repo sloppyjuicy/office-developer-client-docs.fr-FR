@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: a9ff662ecd8c52c8caa8060e0c29a9a8f01440c4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 62995c093e57055ab9980315fff429f566a4154b
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565239"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626429"
 ---
 # <a name="onerror-macro-action"></a>OnError, action de macro
 
@@ -24,14 +24,14 @@ ms.locfileid: "59565239"
 
 Utilisez l’action **SurErreur** pour indiquer ce qui doit se passer lorsqu’une erreur se produit dans une macro.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **SurErreur** possède les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -46,12 +46,12 @@ L’action **SurErreur** possède les arguments suivants.
 <div class="tableSection">
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Setting</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -75,7 +75,7 @@ L’action **SurErreur** possède les arguments suivants.
 </tr>
 <tr class="even">
 <td><p>Nom macro</p></td>
-<td><p>Si l’argument Aller à est définie sur Nom de macro, tapez le nom de la macro à utiliser pour la gestion des erreurs. Le nom que vous tapez doit correspondre à un nom dans la <strong>colonne Nom</strong> de macro de la macro en cours ; vous ne pouvez pas entrer le nom d’un autre objet macro. Dans l’exemple ci-dessous, la macro <strong>ErrorHandler</strong> est contenue dans le même objet macro que l’action <strong>OnError.</strong> Cet argument doit rester vide si l’argument Atteindre est défini sur <strong>Suivant</strong> ou sur <strong>Échec</strong>.</p></td>
+<td><p>Si l’argument Aller à est définie sur Nom de macro, tapez le nom de la macro à utiliser pour la gestion des erreurs. Le nom que vous tapez doit correspondre à un nom dans la <strong>colonne Nom de macro</strong> de la macro en cours ; vous ne pouvez pas entrer le nom d’un autre objet macro. Dans l’exemple ci-dessous, la macro <strong>ErrorHandler</strong> est contenue dans le même objet macro que l’action <strong>OnError</strong> . Cet argument doit rester vide si l’argument Atteindre est défini sur <strong>Suivant</strong> ou sur <strong>Échec</strong>.</p></td>
 </tr>
 </tbody>
 </table>

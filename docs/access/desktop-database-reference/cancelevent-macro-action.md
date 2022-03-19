@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: a1f5882119a52c0c3f73d4d4da96e4e8ec8f8377
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f665ab12e72379330e96d1cad906d8ee093e2739
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558596"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629299"
 ---
 # <a name="cancelevent-macro-action"></a>CancelEvent, action de macro
 
@@ -24,7 +24,7 @@ ms.locfileid: "59558596"
 
 Vous pouvez utiliser **l’action AnnulerEvent** pour annuler l’événement qui a entraîné l’utilisation de la macro contenant cette action par Access. Le nom de la macro est le paramètre d’une propriété de type événement comme **AvantMAJ**, **SurOuverture**, **SurLibération** ou **SurImpression**.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **AnnulerEvénement** ne possède aucun argument.
 
@@ -38,9 +38,9 @@ Les événements suivants peuvent être annulés par l’action **AnnulerEvénem
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -55,7 +55,7 @@ Les événements suivants peuvent être annulés par l’action **AnnulerEvénem
 </tr>
 <tr class="odd">
 <td><p><strong>BeforeInsert</strong></p></td>
-<td><p><strong>Filtre</strong></p></td>
+<td><p><strong>Filter</strong></p></td>
 <td><p><strong>Ouvert</strong></p></td>
 </tr>
 <tr class="even">
@@ -96,10 +96,10 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -117,7 +117,7 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 <td><p>Si PaysRégion est <strong>Null</strong>, le code postal ne peut pas être validé.</p></td>
 </tr>
 <tr class="even">
-<td><p>[CountryRegion] In ( &quot; France , Italie , Espagne ) et &quot; &quot; &quot; &quot; &quot; Len([Code postal]) &lt; &gt; 5</p></td>
+<td><p>[CountryRegion] In (&quot;France,Italie,Espagne&quot;&quot;&quot;&quot;&quot;) et Len([Code postal]) 5 &lt;&gt;</p></td>
 <td><p>MessageBox</p></td>
 <td><p>Message : Le code postal doit contenir 5 caractères. Beep : <strong>Yes</strong> Type: <strong>Information</strong> Title: Postal Code Error</p></td>
 <td><p>Si le code postal ne contient pas 5 caractères, affiche un message.</p></td>
@@ -135,7 +135,7 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>[CountryRegion] In ( &quot; Australie , Singapour ) et &quot; &quot; &quot; Len([Code postal]) &lt; &gt; 4</p></td>
+<td><p>[CountryRegion] In (&quot;Australie,Singapour&quot;&quot;&quot;) et Len([Code postal]) &lt;&gt; 4</p></td>
 <td><p>MessageBox</p></td>
 <td><p>Message : Le code postal doit contenir 4 caractères. Beep : <strong>Yes</strong> Type: <strong>Information</strong> Title: Postal Code Error</p></td>
 <td><p>Si le code postal ne contient pas 4 caractères, affiche un message.</p></td>
@@ -153,9 +153,9 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>([CountryRegion] = &quot; Canada &quot; ) And ([Postal Code] Not Like &quot; [A-Z][0-9][A-Z] [0-9][A-Z][0-9] &quot; )</p></td>
+<td><p>([CountryRegion] = &quot; Canada&quot;) And ([Postal Code] Not Like&quot;[A-Z][0-9][A-Z] [0-9][A-Z][0-9]&quot;)</p></td>
 <td><p>MessageBox</p></td>
-<td><p>Message : Le code postal n’est pas valide. Exemple de code canadien : Signal sonore H1J 1C3 : Oui <strong>Type</strong> : Titre de <strong>l’information</strong> : Erreur de code postal</p></td>
+<td><p>Message : Le code postal n’est pas valide. Exemple de code canadien : Signal sonore H1J 1C3 : <strong>Type oui :</strong> Titre de l’information : Erreur de code postal <strong></strong></p></td>
 <td><p>Si le code postal n’est pas correct pour le Canada, affiche un message. (Exemple de code postal canadien : H1J 1C3.)</p></td>
 </tr>
 <tr class="odd">

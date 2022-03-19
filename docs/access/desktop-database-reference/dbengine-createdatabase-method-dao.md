@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: ef1ea7dd482c94407691c7c7cfc8f2b1175f6b01
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 54be886fefe003d651244184c0e0b86de2c6a7c6
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589700"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628830"
 ---
 # <a name="dbenginecreatedatabase-method-dao"></a>DBEngine.CreateDatabase, méthode (DAO)
 
@@ -34,10 +34,10 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -52,7 +52,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 <td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>String comportant jusqu’à 255 caractères formant le nom du fichier de base de données que vous créez. Il peut s’agir du nom de fichier et du chemin d’accès complets. Si votre réseau le prend en charge, vous pouvez également spécifier un chemin d’accès réseau, tel que &quot; \\ server1\share1\dir1\db1 &quot; . Vous ne pouvez créer que des fichiers de base de données Microsoft Access avec cette méthode.</p></td>
+<td><p>String comportant jusqu’à 255 caractères formant le nom du fichier de base de données que vous créez. Il peut s’agir du nom de fichier et du chemin d’accès complets. Si votre réseau le prend en charge, vous pouvez également spécifier un chemin d’accès réseau, &quot;\\tel que server1\share1\dir1\db1&quot;. Vous ne pouvez créer que des fichiers de base de données Microsoft Access avec cette méthode.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Locale</em></p></td>
@@ -60,8 +60,8 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 <td><p><strong>String</strong></p></td>
 <td><ul>
 <li><p>Expression de chaîne qui spécifie un ordre de classement pour la création de la base de données, tel qu'il est spécifié dans la section Remarques. Vous devez indiquer cet argument sans quoi une erreur se produit.</p></li>
-<li><p>Vous pouvez également créer un mot de passe pour le nouvel objet <strong>Database</strong> en concatenant la chaîne de mot de passe (en commençant par ;p wd= ) avec une constante dans &quot; l’argument &quot; <em>paramètres</em> régionaux, comme ceci :</p></li>
-<li><p>dbLangSpanish &amp; &quot; ;p wd=NewPassword&quot;</p></li>
+<li><p>Vous pouvez également créer un mot de passe pour le nouvel objet <strong>Database</strong> en concassant la chaîne de mot de passe ( &quot;en commençant par ;p wd=&quot; ) avec une constante dans l’argument <em>paramètres</em> régionaux, comme ceci :</p></li>
+<li><p>dbLangSpanish &amp; &quot;;p wd=NewPassword&quot;</p></li>
 <li><p>Si vous souhaitez utiliser la valeur par défaut de <em>locale</em> mais spécifier un mot de passe, entrez simplement une chaîne de mot de passe pour l'argument <em>locale</em> :</p></li>
 <li><p>&quot;;p wd=NewPassword&quot;</p></li>
 <li><p>Utilisez des mots de passe forts qui associent des majuscules et des minuscules, des chiffres et des symboles. Les mots de passe faibles n'associent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : House27. Utilisez un mot de passe fort facile à mémoriser afin de ne pas avoir à le noter.</p></li>
@@ -83,8 +83,8 @@ Vous pouvez utiliser l’une des constantes suivantes pour l’argument paramèt
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -185,8 +185,8 @@ Vous pouvez utiliser une ou plusieurs des constantes suivantes dans l'argument o
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

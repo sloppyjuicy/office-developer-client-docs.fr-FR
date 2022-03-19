@@ -7,12 +7,12 @@ ms:contentKeyID: 48545643
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: e031e3145883b1b622af5bca6811cb9a346f0d44
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9488bf61d6a8cbcb952d30765eea8b4259a3b80f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626224"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633337"
 ---
 # <a name="parameterdirectionenum"></a>ParameterDirectionEnum
 
@@ -23,9 +23,9 @@ Précise si le [paramètre](parameter-object-ado.md) représente un paramètre d
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -52,7 +52,7 @@ Précise si le [paramètre](parameter-object-ado.md) représente un paramètre d
 </tr>
 <tr class="even">
 <td><p><strong>adParamReturnValue</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Indique que le paramètre représente une valeur de retour.</p></td>
 </tr>
 <tr class="odd">
@@ -70,11 +70,11 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

@@ -7,12 +7,12 @@ ms:contentKeyID: 48543644
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ca550cf77b70d27cd1fbc8b7b21af98fe10d7e54
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 655b4ea09e2e7f9efbb7ea7ab291ecee8105d432
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621625"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634715"
 ---
 # <a name="updatecriteriaenum-enumeration-dao"></a>UpdateCriteriaEnum, éumération (DAO)
 
@@ -23,9 +23,9 @@ Cette énumération est utilisée avec la méthode **UpdateOptions** pour spéci
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -37,12 +37,12 @@ Cette énumération est utilisée avec la méthode **UpdateOptions** pour spéci
 <tbody>
 <tr class="odd">
 <td><p>dbCriteriaAllCols</p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Utilise les colonnes clé et toutes les colonnes dans la clause WHERE.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbCriteriaDeleteInsert</p></td>
-<td><p>16 </p></td>
+<td><p>16</p></td>
 <td><p>Utilise une instruction DELETE et une instruction INSERT pour chaque ligne modifiée.</p></td>
 </tr>
 <tr class="odd">

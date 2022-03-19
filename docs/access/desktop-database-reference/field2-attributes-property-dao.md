@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 767e4cf78f8c77dc1f20a5ee24336e25d05cae46
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cf0015af07d35a75c3c46b5f1a08f3625e4212db
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577394"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628298"
 ---
 # <a name="field2attributes-property-dao"></a>Field2.Attributes, propriété (DAO)
 
@@ -38,8 +38,8 @@ La valeur spécifie les caractéristiques du champ représenté par l'objet **Fi
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -84,8 +84,8 @@ Pour un objet pas encore ajouté à une collection, cette propriété est en lec
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d1c4b9d9-6d64-8ed1-9fc6-2dbf829a75b5
 description: Détermine si une forme est redimensionnée ou pivote de façon dynamique lorsque vous la manipulez.
-ms.openlocfilehash: c74440fc37b4d47557992ac8c7df06a935d2916b
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 104bc41f7ee58e92b5f2f08b8d790e5326d76a02
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62786100"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628957"
 ---
 # <a name="nolivedynamics-cell-miscellaneous-section"></a>NoLiveDynamics, cellule (section Miscellaneous)
 
@@ -31,16 +31,16 @@ Lorsque vous redimensionnez ou faites pivoter une forme 2D sans effets dynamique
   
 Pour obtenir une référence à la cellule NoLiveDynamics par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | NoLiveDynamics  <br/> |
+| **Nom de la cellule :**  <br/> | NoLiveDynamics  <br/> |
    
 Pour obtenir une référence à la cellule NoLiveDynamics à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section  :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowMisc** <br/> |
-| Index de la cellule :  <br/> |**visNoLiveDynamics** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowMisc** <br/> |
+| **Index de la cellule :**  <br/> |**visNoLiveDynamics** <br/> |
    
 

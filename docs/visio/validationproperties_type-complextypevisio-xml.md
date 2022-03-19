@@ -6,18 +6,18 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 3b0d1209-4636-ea9c-acf7-895c3300492a
-ms.openlocfilehash: 0aa02c0c17cc7d53e96b38107fd26a821b33e762
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 2811532028fe4591c06781fd5a5d60174377ff93
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772365"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626079"
 ---
 # <a name="validationproperties_type-complextype-visio-xml"></a>ValidationProperties_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |

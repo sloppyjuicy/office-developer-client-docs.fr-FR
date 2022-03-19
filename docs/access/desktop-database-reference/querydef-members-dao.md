@@ -7,12 +7,12 @@ ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5e3577692f757483c141abf64cc934dfcf5bcec9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fbb2f13139bd79eb98f49d799e5968c604c640fd
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617761"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627395"
 ---
 # <a name="querydef-members-dao"></a>QueryDef, membres (DAO)
 
@@ -25,8 +25,8 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -37,7 +37,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="querydef-cancel-method-dao.md">Annuler</a></strong></p></td>
-<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p><strong>REMARQUE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Access.</p>
 <p>Annule l'exécution d'un appel asynchrone de méthode en attente (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
@@ -49,7 +49,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 <td><p>Crée un objet utilisateur <strong><a href="property-object-dao.md">Property</a></strong> (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-execute-method-dao.md">Execute</a></strong></p></td>
+<td><p><strong><a href="querydef-execute-method-dao.md">Exécuter</a></strong></p></td>
 <td><p>Exécute une instruction SQL sur l’objet spécifié.</p></td>
 </tr>
 <tr class="odd">
@@ -64,8 +64,8 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -76,7 +76,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="querydef-cachesize-property-dao.md">CacheSize</a></strong></p></td>
-<td><p>Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. Valeur <strong>Long</strong> en lecture-écriture.</p></td>
+<td><p>Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. Valeur <strong>Long</strong> en en lecture et en écriture.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-connect-property-dao.md">Connecter</a></strong></p></td>
@@ -112,7 +112,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-prepare-property-dao.md">Préparation</a></strong></p></td>
-<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p><strong>REMARQUE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Access.</p>
 <p>Définit ou renvoie une valeur qui indique si la requête doit être préparée sur le serveur comme procédure stockée temporaire à l'aide d'une fonction API <strong>SQLPrepare</strong> ODBC avant l'exécution, ou juste exécutée à l'aide de la fonction API <strong>SQLExecDirect</strong> ODBC (espaces de travail ODBCDirect uniquement). En lecture/écriture <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -133,16 +133,16 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p><strong>REMARQUE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Access.</p>
 <p>Indique si l'exécution d'une opération asynchrone (c.-à-d. une méthode appelée avec l'option <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a>) est terminée (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-type-property-dao.md">Type</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. En lecture seule<strong>integer</strong>.</p></td>
+<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. En lecture <strong>seuleInteger</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Type de données <strong>Boolean</strong> en lecture seule.</p></td>
+<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Valeur <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 </tbody>
 </table>

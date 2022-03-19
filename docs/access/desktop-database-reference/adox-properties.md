@@ -7,12 +7,12 @@ ms:contentKeyID: 48545675
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 168b847de25e6e14943dfcb1e85efb6f691a501b
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: b502c36056d72b2c277f9269d9e7d734ef4f8b4f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62459803"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629348"
 ---
 # <a name="adox-properties"></a>Propriétés ADOX
 
@@ -21,8 +21,8 @@ ms.locfileid: "62459803"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: c314ff6d-3e60-4b81-87ac-6ca6753ff633
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 65a8d490abc4bc44cca0f612b2b90b7ecb6a0c62
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 099248899e75ed2bac2f34a8c3389f549d9096bc
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63376657"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628095"
 ---
 # <a name="display-tables"></a>Afficher les tableaux
 
@@ -49,7 +49,7 @@ Le type d’implémentation dépend des caractéristiques des données à affich
   
 Les tableaux d’affichage ont les propriétés suivantes dans leur jeu de colonnes requis :
   
-|||
+||Valeur |
 |:-----|:-----|
 |**PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md))  <br/> |**PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md))  <br/> |
 |**PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md))  <br/> |**PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md))  <br/> |
@@ -68,6 +68,6 @@ La structure de contrôle, **PR_CONTROL_STRUCTURE**, contient des informations p
   
 Pour plus d’informations sur les tableaux d’affichage, voir [Implémentation de tableau](display-table-implementation.md) d’affichage et [À propos des notifications de tableau d’affichage](about-display-table-notifications.md).
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 [MAPI Tables](mapi-tables.md)

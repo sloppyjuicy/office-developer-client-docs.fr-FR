@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 106ce3d8-d0bf-4a0e-9a15-dc8988d0eb58
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fb109b8738ed3a1fcdb1445a07297381f993607c
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 68b8f5a580b883afc8dcf8a4e1a44d81497369ae
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63370105"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629082"
 ---
 # <a name="createtable"></a>CreateTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "63370105"
   
 Crée des structures et un handle d’objet pour un objet [ITableData](itabledataiunknown.md) qui peut être utilisé pour créer le contenu d’une table.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -105,6 +105,6 @@ S_OK
 
 Les paramètres d’entrée _lpAllocateBuffer_, _lpAllocateMore_ et _lpFreeBuffer_ pointent respectivement vers les fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md) et [MAPIFreeBuffer](mapifreebuffer.md) . Une application cliente appelant **CreateTable** transmet des pointeurs vers les fonctions MAPI nommées ; un fournisseur de services transmet les pointeurs vers ces fonctions qu’il a reçues dans son appel d’initialisation ou récupérées avec un appel à la méthode [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) .
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 [IMAPITable : IUnknown](imapitableiunknown.md)

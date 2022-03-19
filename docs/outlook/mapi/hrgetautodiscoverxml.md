@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 03691187-7c65-620b-576f-6ebe62a80830
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b779ae8aae545af1cf3a8930f47df84cba0ea294
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: ca381718de22396ef6f12eba65e11bfc18bcdaa0
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63378050"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626282"
 ---
 # <a name="hrgetautodiscoverxml"></a>HrGetAutoDiscoverXML
 
@@ -27,7 +27,7 @@ Renvoie un flux XML (Extensible Markup Language) qui représente les information
 
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Exporté par :  <br/> |olmapi32.dll  <br/> |
 |Appelé par :  <br/> |Client  <br/> |

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 5eba43d04f1d0eccf1b7e0ce63c6c6aedd3946d6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cf07e10b32dad6c1ef0dba2d2ad14b516ffe1ed5
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618244"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633553"
 ---
 # <a name="delete-statement-microsoft-access-sql"></a>DELETE, instruction (Microsoft Access SQL)
 
@@ -32,8 +32,8 @@ L’instruction DELETE est composée des éléments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

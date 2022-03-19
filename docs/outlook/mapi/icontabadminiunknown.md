@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1f72ab6c-14da-47b7-97ab-f729914214ba
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4076a8995c1d0d3a7834e40a9249f7972cd9829e
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: d7663056b1df76352a7bc3a7ca822997d69aefbd
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788569"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627983"
 ---
 # <a name="icontabadmin--iunknown"></a>IContabAdmin : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62788569"
   
 Supprime les dossiers de contacts du carnet Microsoft Outlook 2010 et Microsoft Outlook 2013'adresses.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |caminemin.h  <br/> |
 |Exposé par :  <br/> ||
@@ -38,7 +38,7 @@ Supprime les dossiers de contacts du carnet Microsoft Outlook 2010 et Microsoft 
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Supprime le carnet d’adresses de contact spécifié par l’ID d’entrée donné de la hiérarchie du carnet d’adresses. |
    

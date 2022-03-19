@@ -7,19 +7,19 @@ ms:contentKeyID: 48542993
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 63bade63bf6ca064b99b1d4ac9c365cbdcbf6ecb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8e83be281f253b1ab02f400b49fee90b633441af
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611888"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633266"
 ---
 # <a name="querydeftype-property-dao"></a>QueryDef.Type, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. En lecture seule **integer**.
+Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. En lecture **seuleInteger**.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -33,19 +33,19 @@ Les paramètres et valeurs de retour possible d'un objet **QueryDef** sont décr
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Type de requête</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>dbQAction</strong></p></td>
-<td><p>Action</p></td>
+<td><p>Opération</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQAppend</strong></p></td>
@@ -73,7 +73,7 @@ Les paramètres et valeurs de retour possible d'un objet **QueryDef** sont décr
 </tr>
 <tr class="even">
 <td><p><strong>dbQProcedure</strong></p></td>
-<td><p>Procédure (espaces de travail ODBCDirect uniquement)</p><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p></td>
+<td><p>Procédure (espaces de travail ODBCDirect uniquement)</p><p><strong>REMARQUE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Access.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQSelect</strong></p></td>

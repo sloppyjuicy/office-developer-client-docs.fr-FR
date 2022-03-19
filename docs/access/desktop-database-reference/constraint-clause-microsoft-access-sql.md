@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: bf37e5a377699c6c56fbf456c9d5830f2b8a4f3c
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 14be05720ac61c3ff50588c3781bdbf5382820e7
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63381928"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626723"
 ---
 # <a name="constraint-clause-microsoft-access-sql"></a>CONSTRAINT, clause (Microsoft Access SQL)
 
@@ -45,8 +45,8 @@ La clause CONSTRAINT comprend les deux parties suivantes :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

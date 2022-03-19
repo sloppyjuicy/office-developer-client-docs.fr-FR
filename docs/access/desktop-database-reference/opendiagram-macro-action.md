@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 1fd5f9a2e635c7f830646c060db32e50f0ff0e6b
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: ae9e007849a066dc13fb474721144b3d20094b16
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63378379"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626422"
 ---
 # <a name="opendiagram-macro-action"></a>OpenDiagram, action de macro
 
@@ -33,8 +33,8 @@ L’action **OuvrirSchéma** possède l’argument suivant.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

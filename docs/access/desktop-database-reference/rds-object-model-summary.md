@@ -7,12 +7,12 @@ ms:contentKeyID: 48542981
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4472b38f92e7b304e0c5da0bbd1960a0b4d154e4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a929815a9c125505ff05f87da1bfea3a6892bc81
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576981"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628670"
 ---
 # <a name="rds-object-model-summary"></a>Résumé du modèle objet RDS
 
@@ -21,8 +21,8 @@ ms.locfileid: "59576981"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

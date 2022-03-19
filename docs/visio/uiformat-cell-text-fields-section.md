@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 0dddef20-c58e-2306-ab8e-6cac8e159f61
 description: Définit le format d'un champ inséré dans les versions de Visio antérieures à Visio 2000.
-ms.openlocfilehash: 1b116bf87c217ba99fa88818b5dbfb0ff7a7671c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 2e1f854d3fba0be656c13d9307193f20ee49124c
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62769917"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634323"
 ---
 # <a name="uiformat-cell-text-fields-section"></a>UIFormat, cellule (section Text Fields)
 
@@ -26,16 +26,16 @@ Cette cellule n'apparaît pas dans la fenêtre Feuille ShapeSheet. Utilisez-la p
   
 Pour obtenir une référence à la cellule UIFormat par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Fields.UIFmt[  *i*  ] où  *i*  = <1>, 2, 3... |
+| **Nom de cellule :**  <br/> | Fields.UIFmt[  *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule UIFormat par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionTextField** <br/> |
-| Index de la ligne :  <br/> |**visRowField** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visFieldUIFormat** <br/> |
+| **Index de la section :**  <br/> |**visSectionTextField** <br/> |
+| **Index de la ligne :**  <br/> |**visRowField** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visFieldUIFormat** <br/> |
    
 

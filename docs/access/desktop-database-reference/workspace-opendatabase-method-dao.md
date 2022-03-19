@@ -7,12 +7,12 @@ ms:contentKeyID: 48548108
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: cf71b7460463316f9c5c0b03441dbc6029093a2b
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 0653a0f17e4324624850484d278b3defa47370ee
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461523"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629642"
 ---
 # <a name="workspaceopendatabase-method-dao"></a>Méthode Workspace.OpenDatabase (DAO)
 
@@ -30,10 +30,10 @@ Ouvre une base de données spécifiée dans un objet **[Workspace](workspace-obj
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -82,8 +82,8 @@ Vous pouvez utiliser les valeurs ci-dessous pour l’argument options.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

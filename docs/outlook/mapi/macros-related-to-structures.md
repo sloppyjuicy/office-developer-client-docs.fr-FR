@@ -1,5 +1,5 @@
 ---
-title: Macros associées aux structures
+title: Macros liées aux structures
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -10,14 +10,14 @@ api_type:
 - COM
 ms.assetid: e58c4954-e6b5-469d-898b-cef0a8fd612c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b4ac81e205938f8048a375210deb1d83e328bbba
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 47e6254be2d1b9828d119deef18affa74e10df5b
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613673"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634876"
 ---
-# <a name="macros-related-to-structures"></a>Macros associées aux structures
+# <a name="macros-related-to-structures"></a>Macros liées aux structures
 
   
   
@@ -27,7 +27,7 @@ Les rubriques de cette section décrivent les macros liées aux structures MAPI.
   
 Le tableau suivant répertorie les macros liées aux structures MAPI :
   
-|||
+|Macro |Macro |
 |:-----|:-----|
 |[CbADRLIST](cbadrlist.md) <br/> |[CbFLATENTRY](cbflatentry.md) <br/> |
 |[CbFLATENTRYLIST](cbflatentrylist.md) <br/> |[CbFLATMTSIDLIST](cbflatmtsidlist.md) <br/> |
@@ -52,7 +52,7 @@ Le tableau suivant répertorie les macros liées aux structures MAPI :
 |[SizedSPropProblemArray](sizedspropproblemarray.md) <br/> |[SizedSPropTagArray](sizedsproptagarray.md) <br/> |
 |[SizedSRowSet](sizedsrowset.md) <br/> |[SizedSSortOrderSet](sizedssortorderset.md) <br/> |
    
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

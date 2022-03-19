@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: bc3e4a25320da8c7524bac5d927acb6083392fb2
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 612e951ce75c222d32249cfbbb3aee240d845472
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62464226"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626562"
 ---
 # <a name="field2loadfromfile-method-dao"></a>Méthode Field2.LoadFromFile (DAO)
 
@@ -38,10 +38,10 @@ Version ajoutée : Access 2007
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

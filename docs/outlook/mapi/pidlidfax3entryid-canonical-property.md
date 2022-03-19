@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c0740644-63fb-41cf-a39e-1265390fc9bc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b2490c9e2a9fcf5741aabe854f8569a341dae0c9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4e7e532c5a05a38e1537e0ff207ef431cf2b08d4
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604627"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633917"
 ---
 # <a name="pidlidfax3entryid-canonical-property"></a>Propriété canonique PidLidFax3EntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604627"
   
 Spécifie l’EntryID de l’autre adresse de télécopie du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax3EntryID  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
@@ -53,7 +53,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

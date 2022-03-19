@@ -7,12 +7,12 @@ ms:contentKeyID: 48543907
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6a13183d985849e44dd6ab1931c117bfe3aad97b
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 4dfb0f98a06980768468f5ec957b490bc4f49e23
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462086"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628165"
 ---
 # <a name="positionenum"></a>PositionEnum
 
@@ -23,9 +23,9 @@ Spécifie la position en cours du pointeur de l’enregistrement dans un objet [
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -60,7 +60,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

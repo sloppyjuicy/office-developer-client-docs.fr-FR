@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e95c2445-7711-4683-8c39-3979b64fe100
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6e1b3b9c1ecc863ecd5bac361bc05e03927b7f5f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c2fb00fb500fb7dc629c0f6246e18b4d251261db
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575224"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628543"
 ---
 # <a name="pidlidclassificationguid-canonical-property"></a>Propriété canonique PidLidClassificationGuid
 
@@ -27,7 +27,7 @@ ms.locfileid: "59575224"
   
 Spécifie un identificateur global unique (GUID) d’une classification de message existante.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidClassGuid  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

@@ -2,20 +2,20 @@
 title: Élément ModernCommentEntry (ModernCommentsList_Type complexType) (Visio XML)
 ms.date: 02/18/2022
 description: Spécifie les propriétés utilisées pour identifier le commentaire parent et la liste des mentions dans un commentaire d’un dessin.
-ms.openlocfilehash: 1d69cffd95c5fb5ec45b8dd38168cae58b656c90
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 118db7279f1e1ad56b948b5eae06f7b040c2c782
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63382477"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634792"
 ---
 # <a name="moderncommententry-element-moderncommentslist_type-complextype-visio-xml"></a>Élément ModernCommentEntry (ModernCommentsList_Type complexType) (Visio XML)
 
 Spécifie les propriétés utilisées pour identifier le commentaire parent d’un commentaire et la liste des mentions présentes dans un commentaire dans un dessin.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[ModernCommentEntry_Type](moderncommententry_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -34,13 +34,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[ModernCommentsList](moderncommentslist-element-moderncomments_type-complextypevisio-xml.md) <br/> |[ModernCommentsList_Type](moderncommentslist_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés utilisées pour identifier le commentaire parent et la liste des mentions dans tous les commentaires d’un dessin. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[MentionsList](mentionslist-element-moderncommententry_type-complextypevisio-xml.md) <br/> |[MentionsList_Type](mentionslist_type-complextypevisio-xml.md) <br/> |Spécifie la liste des mentions dans un commentaire dans un dessin. |
   

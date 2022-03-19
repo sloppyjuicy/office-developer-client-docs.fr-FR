@@ -7,12 +7,12 @@ ms:contentKeyID: 48547514
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c57ce2bae41853c5dd01e2adc5bc965b7766a2db
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 53f5d119da4115f6dd02ddc9f491d8931f4af53c
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462651"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629663"
 ---
 # <a name="workspacecreatedatabase-method-dao"></a>Workspace.CreateDatabase, méthode (DAO)
 
@@ -30,10 +30,10 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -52,11 +52,11 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 </tr>
 <tr class="even">
 <td><p><em>Connect</em></p></td>
-<td><p>Requis</p></td>
+<td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
 <td><ul>
 <li><p>Expression de chaîne qui spécifie un ordre de classement pour la création de la base de données, tel qu'il est spécifié dans la section Remarques. Vous devez indiquer cet argument sans quoi une erreur se produit.</p></li>
-<li><p>Vous pouvez également créer un mot de passe pour le nouvel objet <strong>Database</strong> en concassant la chaîne de mot de passe ( &quot;en commençant par ;p wd=&quot;) avec une constante dans l’argument <em>paramètres</em> régionaux, comme ceci :</p></li>
+<li><p>Vous pouvez également créer un mot de passe pour le nouvel objet <strong>Database</strong> en concassant la chaîne de mot de passe ( &quot;en commençant par ;p wd=&quot;) avec une constante dans l’argument <em>de paramètres</em> régionaux, comme ceci :</p></li>
 <li><p>dbLangSpanish &amp; &quot;;p wd=NewPassword&quot;</p></li>
 <li><p>Si vous souhaitez utiliser la valeur par défaut de <em>locale</em> mais spécifier un mot de passe, entrez simplement une chaîne de mot de passe pour l'argument <em>locale</em> :</p></li>
 <li><p>&quot;;p wd=NewPassword&quot;</p></li>
@@ -79,8 +79,8 @@ Vous pouvez utiliser l’une des constantes suivantes pour l’argument Paramèt
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -181,8 +181,8 @@ Vous pouvez utiliser une ou plusieurs des constantes suivantes dans l'argument o
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

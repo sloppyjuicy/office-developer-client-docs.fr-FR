@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 97b41c7c4b296f931c04108568735f2bd38877e9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b06407265d2213340a00bf6314293464348e138c
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601631"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633231"
 ---
 # <a name="update-statement-microsoft-access-sql"></a>UPDATE, instruction (Microsoft Access SQL)
 
@@ -34,8 +34,8 @@ L’instruction SELECT comprend les parties suivantes :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

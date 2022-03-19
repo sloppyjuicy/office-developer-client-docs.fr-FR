@@ -7,12 +7,12 @@ ms:contentKeyID: 48548018
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c2dccc9d9dbb30e38856923d7fb321e9fc951826
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: efcc73db155f1f1c8d18227f6b8dea37f7989510
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62460998"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628389"
 ---
 # <a name="adox-objects"></a>Objets ADOX
 
@@ -23,8 +23,8 @@ Chaque objet peut être contenu dans sa collection correspondante. Par exemple, 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

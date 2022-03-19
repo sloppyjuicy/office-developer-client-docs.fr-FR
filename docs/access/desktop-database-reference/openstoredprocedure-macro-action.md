@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5da86224211362c4819f7f5a49e3509c900f319a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7a4e88e622c15517dd8222a6bfbf207259790bcd
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611880"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628200"
 ---
 # <a name="openstoredprocedure-macro-action"></a>OpenStoredProcedure, action de macro
 
@@ -27,14 +27,14 @@ Dans un projet Access, vous pouvez utiliser l’action **OuvrirProcédureStocké
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **OuvrirProcédureStockée** possède les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -45,7 +45,7 @@ L’action **OuvrirProcédureStockée** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom de la procédure</strong></p></td>
-<td><p>Nom de la procédure stockée à ouvrir. La <strong>zone Nom de</strong> la procédure de la section Arguments de l’action du volet Générateur de macro affiche toutes les procédures stockées dans la base de données actuelle. <strong></strong> Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>OuvrirProcédureStockée</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord la procédure stockée portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
+<td><p>Nom de la procédure stockée à ouvrir. La <strong>zone Nom de</strong> la procédure de la section <strong>Arguments de l’action</strong> du volet Générateur de macro affiche toutes les procédures stockées dans la base de données actuelle. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>OuvrirProcédureStockée</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord la procédure stockée portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 44995137-d241-937a-c097-0f9d79203cdf
 description: Définit si le lien hypertexte doit être ouvert dans une nouvelle fenêtre.
-ms.openlocfilehash: aa99371b62c33ea49f92948c595cd18585d48d42
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 0aac64fdae14d805b7131141e60da021ff6fa081
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782044"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633882"
 ---
 # <a name="newwindow-cell-hyperlinks-section"></a>NewWindow, cellule (section Hyperlinks)
 
@@ -29,16 +29,16 @@ Définit si le lien hypertexte doit être ouvert dans une nouvelle fenêtre.
 
 Pour obtenir une référence à la cellule NewWindow par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Lien hypertexte.  *Nom*  . NewWindow où Lien hypertexte.  *Le nom*  est le nom de la ligne  <br/> |
+| **Nom de cellule :**  <br/> | Lien hypertexte.  *Nom*  . NewWindow où Lien hypertexte.  *Le nom*  est le nom de la ligne  <br/> |
    
 Pour obtenir une référence à la cellule NewWindow à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionHyperlink** <br/> |
-| Index de la ligne :  <br/> |**visRow1stHyperlink** +   *i* où *i* = 0, 1, 2, ... |
-| Index de la cellule :  <br/> |**visHLinkNewWin** <br/> |
+| **Index de la section :**  <br/> |**visSectionHyperlink** <br/> |
+| **Index de la ligne :**  <br/> |**visRow1stHyperlink** +   *i* où *i* = 0, 1, 2, ... |
+| **Index de la cellule :**  <br/> |**visHLinkNewWin** <br/> |
    
 

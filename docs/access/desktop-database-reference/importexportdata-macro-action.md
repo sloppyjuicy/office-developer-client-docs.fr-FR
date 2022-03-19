@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 199da1d702bea1db81443faffaa89d00192c22d9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1f3abab5d8a8d7094cbb49e2b26a142c2c65016d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565281"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626534"
 ---
 # <a name="importexportdata-macro-action"></a>ImportExportData, action de macro
 
@@ -33,8 +33,8 @@ L’action **ImporterExporterDonnées** utilise les arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

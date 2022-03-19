@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: c25362594ca22a14663669847f0c20fd981b067d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 23327b6416ea506afca9302216f0fd7397219fa2
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552723"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628689"
 ---
 # <a name="openreport-macro-action"></a>OpenReport, action de macro
 
@@ -24,14 +24,14 @@ ms.locfileid: "59552723"
 
 Faites appel à l'action **OuvrirEtat** pour ouvrir un état en mode Création ou Aperçu avant impression ou pour envoyer l'état directement à l'imprimante. Vous pouvez également limiter les enregistrements qui sont imprimés dans l'état.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **OuvrirEtat** possède les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,20 +55,20 @@ L’action **OuvrirEtat** possède les arguments suivants.
 <tr class="even">
 <td><p>Condition Where</p></td>
 <td><p>Clause ou expression WHERE SQL valable (sans le mot WHERE) utilisée par Access pour sélectionner des enregistrements dans la table ou requête sous-jacente de l'état. Si vous sélectionnez un filtre avec l’argument Nom du filtre, Access applique cette clause WHERE aux résultats du filtre. Pour ouvrir un état et limiter ses enregistrements à ceux spécifiés par la valeur d’un contrôle sur un formulaire, utilisez l’expression suivante :<br />
-<strong>[</strong><em>nom_champ</em><strong>] = Formulaires ! [</strong><em>nom_formulaire</em><strong>]! [</strong><em>nom du contrôle sur le formulaire</em><strong>]</strong><br />
-Remplacez <em>fieldname</em> par le nom d’un champ dans la table ou la requête sous-jacente de l’état que vous souhaitez ouvrir. Remplacez <em>nom_formulaire</em> et <em>nom_contrôle dans le formulaire</em> par le nom du formulaire et du contrôle dans le formulaire qui contient la valeur avec laquelle vous souhaitez que les enregistrements de l’état correspondent.</p>
-<p><b>REMARQUE</b>: la longueur maximale de l’argument Condition Where est de 255 caractères. If you need to enter a more complex SQL WHERE clause longer than this, use the <b>OpenReport</b> method of the <b>DoCmd</b> object in a Visual Basic for Applications (VBA) module instead. You can enter SQL WHERE clause statements of up to 32,768 characters in VBA.</p>
+<strong>[</strong><em>fieldname</em><strong>] = Forms! [</strong><em>nom_formulaire</em><strong>]! [</strong><em>controlname sur le formulaire</em><strong>]</strong><br />
+<em>Remplacez fieldname</em> par le nom d’un champ dans la table ou la requête sous-jacente de l’état que vous souhaitez ouvrir. Remplacez <em>nom_formulaire</em> et <em>nom_contrôle dans le formulaire</em> par le nom du formulaire et du contrôle dans le formulaire qui contient la valeur avec laquelle vous souhaitez que les enregistrements de l’état correspondent.</p>
+<p><b>REMARQUE</b> : la longueur maximale de l’argument Condition Where est de 255 caractères. If you need to enter a more complex SQL WHERE clause longer than this, use the <b>OpenReport</b> method of the <b>DoCmd</b> object in a Visual Basic for Applications (VBA) module instead. You can enter SQL WHERE clause statements of up to 32,768 characters in VBA.</p>
 </td>
 </tr>
 <tr class="odd">
 <td><p>Mode Fenêtre</p></td>
 <td><p>Mode dans lequel s'ouvre l'état. Cliquez sur <strong>Standard</strong>, <strong>Masqué</strong>, <strong>Icône</strong> ou <strong>Boîte de dialogue</strong> dans la zone <strong>Mode Fenêtre</strong>. La valeur par défaut est <strong>Standard</strong>.  </p>
-<p><b>REMARQUE</b>: certains paramètres d’argument du mode Fenêtre ne s’appliquent pas lors de l’utilisation de documents à onglets. Pour passer à des fenêtres superposées :
+<p><b>REMARQUE</b> : certains paramètres d’argument du mode Fenêtre ne s’appliquent pas lors de l’utilisation de documents à onglets. Pour passer à des fenêtres superposées :
 <ol>
 <li><p>Cliquez sur <strong>Options</strong>.</p></li>
 <li><p>Dans la boîte dialogue <strong>Options Access</strong>, cliquez sur <strong>Base de données active</strong>.</p></li>
 <li><p>Dans la section <strong>Options de l'application</strong>, sous <strong>Options de la fenêtre Document</strong>, cliquez sur <strong>Fenêtres superposées</strong>.</p></li>
-<li><p>Cliquez <strong>sur OK,</strong>puis fermez et rouvrez la base de données.</p></li>
+<li><p>Cliquez <strong>sur OK</strong>, puis fermez et rouvrez la base de données.</p></li>
 </ol>
 </td>
 </tr>

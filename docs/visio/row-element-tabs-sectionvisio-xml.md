@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: a30d5701-4b56-c44c-fb62-d9daaee3b86e
 description: Contient les cellules de formes ou de styles qui contrôlent la position de la tabulation et l'alignement.
-ms.openlocfilehash: 3e70601d8f7dc7b9a3a2bfed8721b26cf5d3d76a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: c30734a8906274ba49a67206fe4fc322588b3e03
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772654"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627000"
 ---
 # <a name="row-element-tabs-section-visio-xml"></a>Row, élément (Tabs Section) (Visio XML)
 
 Contient les cellules de formes ou de styles qui contrôlent la position de la tabulation et l'alignement.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[TabsRow_Type](tabsrow_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contient les cellules de formes ou de styles qui contrôlent la position de la tabulation et l'alignement. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Cell](cell-element-tabs-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Spécifie une propriété unique. |
    

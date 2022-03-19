@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f8354d0d-0ce2-fb33-ddf7-611a2c24a8be
 description: Détermine si la page est imprimée en orientation portrait ou paysage.
-ms.openlocfilehash: 7618077640875c9952a9c05e39ab1307407a3d91
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b197b89439b6f2c4cacafee86d5237c7de77d97c
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570315"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628403"
 ---
 # <a name="printpageorientation-cell-print-properties-section"></a>PrintPageOrientation, cellule (section Print Properties)
 
@@ -32,16 +32,16 @@ Lorsque vous insérez de nouvelles pages dans un document, ce paramètre est par
   
 Pour obtenir une référence à la cellule PrintPageOrientation par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | PrintPageOrientation  <br/> |
+| **Nom de la cellule :**  <br/> | PrintPageOrientation  <br/> |
    
 Pour obtenir une référence à la cellule PrintPageOrientation à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowPrintProperties** <br/> |
-| Index de la cellule :  <br/> |**visPrintPropertiesPageOrientation** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowPrintProperties** <br/> |
+| **Index de la cellule :**  <br/> |**visPrintPropertiesPageOrientation** <br/> |
    
 

@@ -8,20 +8,20 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 04d57c1d-ce91-42ce-9f0f-00563092f6f4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6a4f547ad55270eb3a2f4ec0ddb398c2d96fd257
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 93c3dd93bf2d4c234eec091da55584e6bee16549
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571940"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626359"
 ---
 # <a name="hrcreateofflineobj"></a>HrCreateOfflineObj
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Crée un objet MAPI hors connexion utilisé par le fournisseur et stocké afin d’avertir MAPI lorsque l’objet est en ligne et hors connexion. 
+ Crée un objet MAPI hors connexion qui est utilisé par le fournisseur et le magasin afin d’avertir MAPI lorsque l’objet est en ligne et hors connexion, 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Exporté par :  <br/> |Msmapi32.dll  <br/> |
 |Implémenté par :  <br/> |Outlook  <br/> |
@@ -47,7 +47,7 @@ _pCreateInfo_
     
 _ppOffline_
   
-> [out] Pointeur vers l’interface **IMAPIOfflineMgr.** 
+> [out] Pointeur vers l’interface **IMAPIOfflineMgr** . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

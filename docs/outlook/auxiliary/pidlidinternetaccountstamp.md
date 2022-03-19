@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 52003a4e-1b61-2965-5204-6601652dd15b
 description: Renvoie le cachet du compte qui a remis le message.
-ms.openlocfilehash: 265c01ebee0c6a5f8c7e2b0df3e52e5a3748e7a6
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: a8acfff1b199ebe7057d6ed07bb4405697b84638
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63378904"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633203"
 ---
 # <a name="pidlidinternetaccountstamp"></a>PidLidInternetAccountStamp
 
@@ -20,7 +20,7 @@ Renvoie le cachet du compte qui a remis le message.
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidInetAcctStamp  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -41,13 +41,13 @@ Généralement, le gestionnaire de protocole Outlook fournit des messages et Out
   
 Pour prendre en charge ces propriétés nommées, les fournisseurs de magasins doivent s’attendre à ce que Outlook utilise **IMAPIProp::GetIDsFromNames** pour obtenir la balise de propriété pour cette propriété. Outlook spécifie les valeurs suivantes pour la structure [MAPINAMEID](https://msdn.microsoft.com/library/9a92e9cd-8282-4cf0-93af-4089b3763594%28Office.15%29.aspx) qui correspond à cette propriété nommée, qui est passée dans le cadre du tableau pointé par le paramètre d’entrée *lppPropNames de* **IMAPIProp::GetIDsFromNames**.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |lpGuid:  <br/> |PSETID_Common  <br/> |
 |ulKind :  <br/> |MNID_ID  <br/> |
 |Kind.lID :  <br/> |dispidInetAcctStamp  <br/> |
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 - [À propos de l'API de gestion de compte](about-the-account-management-api.md)
 - [Constantes (API de gestion des comptes)](constants-account-management-api.md)

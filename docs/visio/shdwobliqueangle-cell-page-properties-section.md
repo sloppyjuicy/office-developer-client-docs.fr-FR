@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e0b9754-3e3b-3a26-4e1a-e09102055c20
 description: Contient une valeur indiquant l'angle de la direction oblique lors de l'application du type d'ombre par défaut de la page.
-ms.openlocfilehash: 4982d531663eaf7a854e1a50a50e57b8c52086f2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2b8949f519c04206a224ef91e847e73e3d5f0757
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570063"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626121"
 ---
 # <a name="shdwobliqueangle-cell-page-properties-section"></a>ShdwObliqueAngle, cellule (section Page Properties)
 
@@ -30,16 +30,16 @@ Pour définir ce comportement pour une forme individuelle, utilisez la cellule S
   
 Pour obtenir une référence à la cellule ShdwObliqueAngle par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | ShdwObliqueAngle  <br/> |
+| **Nom de cellule :**  <br/> | ShdwObliqueAngle  <br/> |
    
 Pour obtenir une référence à la cellule ShdwObliqueAngle par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowPage** <br/> |
-| Index de la cellule :  <br/> |**visPageShdwObliqueAngle** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowPage** <br/> |
+| **Index de la cellule :**  <br/> |**visPageShdwObliqueAngle** <br/> |
    
 

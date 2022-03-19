@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 40e45007-e5c3-118c-1460-af83b461b014
 description: Spécifie le groupe de fenêtres de gabarit fusionnées dont la fenêtre est membre.
-ms.openlocfilehash: 5fc7eb033fc4fe42f9dd7dc2b22d12e3f3ac6334
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 73bea16c6845ef1171bfeb80c140930b279afd50
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773858"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627948"
 ---
 # <a name="stencilgroup-element-window_type-complextype-visio-xml"></a>Élément StencilGroup (Window_Type complexType) (Visio XML)
 
 Spécifie le groupe de fenêtres de gabarit fusionnées dont la fenêtre est membre.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[StencilGroup_Type](stencilgroup_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio. |
    

@@ -7,12 +7,12 @@ ms:contentKeyID: 48542899
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 65c2a2cc5186526d240e2c20f3668c17dceab840
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: a2e902fb9282801030cc5b6534a50dd362c1d926
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461658"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627367"
 ---
 # <a name="rds-properties"></a>Propriétés RDS
 
@@ -21,8 +21,8 @@ ms.locfileid: "62461658"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">
@@ -70,7 +70,7 @@ ms.locfileid: "62461658"
 <td><p>Indique l'objet <strong>Recordset</strong> retourné d'un objet métier personnalisé.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">Serveur</a></p></td>
+<td><p><a href="server-property-rds.md">Server</a></p></td>
 <td><p>Indique le nom de l'IIS (Internet Information Services) et du protocole de communication.</p></td>
 </tr>
 <tr class="even">

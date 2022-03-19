@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b7f80e0a-8ddd-4b24-ab63-2078a8152058
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f051996cf6beb8b9a02889c9917eafa66e15c7d1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6434c17a88e76736378b3108b5eecd61b9cba027
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567647"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626394"
 ---
 # <a name="fbadsortorderset"></a>FBadSortOrderSet
 
@@ -27,7 +27,7 @@ ms.locfileid: "59567647"
   
 Valide un ordre de tri en vérifiant son allocation de mémoire. 
   
-|||
+|Clé|Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -57,6 +57,6 @@ FALSE
     
 ## <a name="remarks"></a>Remarques
 
-La **fonction FBadSortOrderSet** peut être utilisée pour préparer un appel à une méthode de tri telle que la méthode [IMAPITable::SortTable.](imapitable-sorttable.md) 
+La **fonction FBadSortOrderSet** peut être utilisée pour préparer un appel à une méthode de tri telle que la méthode [IMAPITable::SortTable](imapitable-sorttable.md) . 
   
 

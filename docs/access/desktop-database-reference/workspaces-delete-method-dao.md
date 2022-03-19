@@ -7,12 +7,12 @@ ms:contentKeyID: 48543078
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 24410b0c39c422c72887c5435b20ff29818c4fcc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1e8ed1b46bdddf66ae58cf308dabeeab8b204d8c
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572500"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634911"
 ---
 # <a name="workspacesdelete-method-dao"></a>Workspaces.Delete, méthode (DAO)
 
@@ -24,16 +24,16 @@ Supprime le formulaire **Workspace** dans la collection **Workspaces**.
 
 *.* Delete(***Name***)
 
-*expression* Variable qui représente un **objet Workspaces.**
+*expression* Variable qui représente un objet **Workspaces** .
 
 ## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

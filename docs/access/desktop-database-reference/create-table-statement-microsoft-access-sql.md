@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 747674d6042df71713bb0ab992450db48594d744
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: b1be66c4349e7113eaeedce73672b23ba928b995
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465517"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627717"
 ---
 # <a name="create-table-statement-microsoft-access-sql"></a>Instruction CREATE TABLE (Microsoft Access SQL)
 
@@ -35,8 +35,8 @@ L’instruction CREATE TABLE comprend les parties suivantes :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -63,11 +63,11 @@ L’instruction CREATE TABLE comprend les parties suivantes :
 </tr>
 <tr class="odd">
 <td><p><em>index1</em>, <em>index2</em></p></td>
-<td><p>Clause CONSTRAINT définissant un index de champ unique. Pour plus d'informations sur la création de cet index, voir <a href="constraint-clause-microsoft-access-sql.md">Clause CONSTRAINT</a>.</p></td>
+<td><p>Clause CONSTRAINT définissant un index de champ unique. Pour plus d’informations sur la création de cet index, voir <a href="constraint-clause-microsoft-access-sql.md">Clause CONSTRAINT</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>multifieldindex</em></p></td>
-<td><p>Clause CONSTRAINT définissant un index multi-champ. Pour plus d'informations sur la création de cet index, voir <a href="constraint-clause-microsoft-access-sql.md">Clause CONSTRAINT</a>.</p></td>
+<td><p>Clause CONSTRAINT définissant un index à champs multiples. Pour plus d’informations sur la création de cet index, voir <a href="constraint-clause-microsoft-access-sql.md">Clause CONSTRAINT</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -75,7 +75,7 @@ L’instruction CREATE TABLE comprend les parties suivantes :
 
 ## <a name="remarks"></a>Remarques
 
-L’instruction CREATE TABLE permet de définir une nouvelle table, ses champs et ses contraintes de champ. Si NOT NULL est spécifié pour un champ, les nouveaux enregistrements doivent contenir des données valides dans ce champ.
+Utilisez l’instruction CREATE TABLE pour définir une nouvelle table, ses champs et ses contraintes de champ. Si NOT NULL est spécifié pour un champ, les nouveaux enregistrements doivent contenir des données valides dans ce champ.
 
 Une clause CONSTRAINT établit diverses restrictions sur un champ et peut être utilisée pour établir la clé primaire. Vous pouvez également utiliser l'instruction [CREATE INDEX](create-index-statement-microsoft-access-sql.md) pour créer une clé primaire ou des index supplémentaires sur les tables existantes.
 

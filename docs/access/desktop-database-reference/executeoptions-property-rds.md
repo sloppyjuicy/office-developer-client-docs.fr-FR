@@ -7,12 +7,12 @@ ms:contentKeyID: 48548864
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c316893e29856169b4176ef5f1f5f3fc11e78178
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d754c821e08dc583934c2c55d4c6d49225d92899
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558372"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627556"
 ---
 # <a name="executeoptions-property-rds"></a>ExecuteOptions, propriété (RDS)
 
@@ -27,8 +27,8 @@ Définit ou renvoie l'une des valeurs suivantes.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

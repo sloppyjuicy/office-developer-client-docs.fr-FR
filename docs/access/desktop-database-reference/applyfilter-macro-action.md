@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5046b0ac633f0e2811f83a2a39130d548417932d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b4274c8875e818685b71f33cff8015fda5d68560
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558890"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628368"
 ---
 # <a name="applyfilter-macro-action"></a>ApplyFilter, action de macro
 
@@ -27,14 +27,14 @@ Utilisez l'action **AppliquerFiltre** pour appliquer un filtre, une requête ou 
 > [!NOTE]
 > [!REMARQUE] Vous pouvez utiliser cette action pour appliquer une clause WHERE SQL seulement lorsque vous appliquez un filtre serveur. Il n'est pas possible d'appliquer un filtre serveur à une source d'enregistrement d'une procédure stockée.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **AppliquerFiltre** possède les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -45,13 +45,13 @@ L’action **AppliquerFiltre** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p>Nom du filtre</p></td>
-<td><p>Nom d’un filtre ou d’une requête qui restreint ou trie les enregistrements de la table, du formulaire ou du rapport. Vous pouvez entrer le nom d’une requête existante ou d’un filtre <strong></strong> qui a été enregistré en tant que requête dans la zone Nom du filtre de la section Arguments de <strong>l’action</strong> du volet Générateur de <strong>macro.</strong></p><p><strong>REMARQUE</strong>: lorsque vous utilisez cette action pour appliquer un filtre serveur, l’argument Nom du filtre doit être vide.</p></td>
+<td><p>Nom d’un filtre ou d’une requête qui restreint ou trie les enregistrements de la table, du formulaire ou du rapport. Vous pouvez entrer le nom d’une requête existante ou d’un filtre qui a été enregistré en tant que requête dans la <strong></strong> zone Nom du filtre de la section <strong>Arguments de l’action</strong> du volet Générateur de <strong>macro</strong>.</p><p><strong>REMARQUE</strong> : lorsque vous utilisez cette action pour appliquer un filtre serveur, l’argument Nom du filtre doit être vide.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condition Where</p></td>
 <td><p>Clause SQL WHERE (sans le mot WHERE) valide ou expression qui restreint les enregistrements de la table, du formulaire ou de l’état.</p>
-<p><b>REMARQUE</b>: dans une expression d’argument Condition Where, le côté gauche de l’expression contient généralement un nom de champ de la table ou de la requête sous-jacente pour le formulaire ou l’état. La partie droite de l’expression contient généralement les critères que vous souhaitez appliquer à ce champ pour restreindre ou trier les enregistrements. Ces critères peuvent ainsi être le nom d’un contrôle dans un autre formulaire qui contient la valeur à laquelle doivent correspondre les enregistrements dans le premier formulaire. Le nom du contrôle doit être complet, comme dans l’exemple suivant :</p>
-<p><strong>Formulaires</strong>! <em>formname</em>! <em>controlname</em> Les noms de champs doivent être entourés de guillemets doubles et les littéraux de chaîne doivent être entourés de guillemets simples. L’argument Condition Where est limité à 255 caractères. Si vous avez besoin d’entrer une clause SQL WHERE plus longue, utilisez la méthode <strong>ApplyFilter</strong> de l’objet <strong>DoCmd</strong> dans un module Visual Basic pour Applications (VBA). Dans VBA, les instructions de clause SQL WHERE peuvent contenir jusqu’à 32 768 caractères.</p></td>
+<p><b>REMARQUE</b> : dans une expression d’argument Condition Where, le côté gauche de l’expression contient généralement un nom de champ de la table ou de la requête sous-jacente pour le formulaire ou l’état. La partie droite de l’expression contient généralement les critères que vous souhaitez appliquer à ce champ pour restreindre ou trier les enregistrements. Ces critères peuvent ainsi être le nom d’un contrôle dans un autre formulaire qui contient la valeur à laquelle doivent correspondre les enregistrements dans le premier formulaire. Le nom du contrôle doit être complet, comme dans l’exemple suivant :</p>
+<p><strong>Formulaires</strong> ! <em>formname</em>! <em>controlname</em> Les noms de champs doivent être entourés de guillemets doubles et les littéraux de chaîne doivent être entourés de guillemets simples. L’argument Condition Where est limité à 255 caractères. Si vous avez besoin d’entrer une clause SQL WHERE plus longue, utilisez la méthode <strong>ApplyFilter</strong> de l’objet <strong>DoCmd</strong> dans un module Visual Basic pour Applications (VBA). Dans VBA, les instructions de clause SQL WHERE peuvent contenir jusqu’à 32 768 caractères.</p></td>
 </tr>
 </tbody>
 </table>

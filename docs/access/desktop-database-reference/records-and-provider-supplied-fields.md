@@ -7,12 +7,12 @@ ms:contentKeyID: 48547776
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 77e913f87923cb4dc7f4d4ddde5bf63b944c6252
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 98251127149e3272cb669e75437d753fc442a112
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593774"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628132"
 ---
 # <a name="records-and-provider-supplied-fields"></a>Enregistrements et champs fournis par le fournisseur
 
@@ -24,7 +24,7 @@ Si l'objet **Record** est ouvert depuis un objet **Recordset**, la collection **
 
 Le fournisseur peut insérer d'autres champs utilisés comme caractéristiques supplémentaires de l'objet **Record**. Par conséquent, un objet **Record** peut comporter des champs uniques, non présents dans l'objet **Recordset** ou tout objet **Record** dérivé d'une autre ligne de l'objet **Recordset**.
 
-Par exemple, toutes les lignes d’un **recordset** dérivé d’une source de données de courrier électronique peuvent avoir des colonnes telles que De, À et Objet. Un objet **Record** dérivé de cet objet **Recordset** comportera les mêmes champs. Cependant, l'objet **Record** peut également comporter d'autres champs uniques et spécifiques au message représenté par cet objet **Record**, Pièce jointe et CC, par exemple.
+Par exemple, toutes les lignes d’un **recordset** dérivé d’une source de données de messagerie peuvent avoir des colonnes telles que De, À et Objet. Un objet **Record** dérivé de cet objet **Recordset** comportera les mêmes champs. Cependant, l'objet **Record** peut également comporter d'autres champs uniques et spécifiques au message représenté par cet objet **Record**, Pièce jointe et CC, par exemple.
 
 Bien que l'objet **Record** et la ligne active de l'objet **Recordset** comportent les mêmes champs, ceux-ci diffèrent, car les objets **Record** et **Recordset** possèdent des méthodes et des propriétés différentes.
 
@@ -56,9 +56,9 @@ Un *objet Recordset de ressources* comporte les colonnes suivantes.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -101,7 +101,7 @@ Un *objet Recordset de ressources* comporte les colonnes suivantes.
 <tr class="odd">
 <td><p>RESOURCE_CONTENTCLASS</p></td>
 <td><p>AdVarWChar</p></td>
-<td><p>Indique le type MIME du document, indiquant le format tel que &quot; &quot; texte/html.</p></td>
+<td><p>Indique le type MIME du document, indiquant le format tel que texte &quot;/html&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p>RESOURCE_CONTENTLANGUAGE</p></td>

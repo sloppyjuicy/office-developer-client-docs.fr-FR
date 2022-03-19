@@ -7,12 +7,12 @@ ms:contentKeyID: 48545686
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 28f2b037d3e9698d1f19f37cfaa793a42162ea24
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: d30d1e82136b236724524f1d24c060ec4b7235d9
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465674"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628837"
 ---
 # <a name="databasecreatequerydef-method-dao"></a>Database.CreateQueryDef, méthode (DAO)
 
@@ -30,10 +30,10 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

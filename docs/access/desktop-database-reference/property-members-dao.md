@@ -7,12 +7,12 @@ ms:contentKeyID: 48544076
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 94aaaaecdf868f82394345586f6bf6508030c6b9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d48a9e6f5f800dff4a82dc8c40576b31d4b24688
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59631831"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629096"
 ---
 # <a name="property-members-dao"></a>Property members (DAO)
 
@@ -25,8 +25,8 @@ Un objet Property représente une caractéristique prédéfinie ou définie par 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

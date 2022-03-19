@@ -7,12 +7,12 @@ ms:contentKeyID: 48548025
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 88884141e90faca4eb83168d4f2378df5a6e399a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b24884b5f0aad255497dc810de8d051d599f3723
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602226"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628262"
 ---
 # <a name="member-object-ado-md"></a>Objet Member (ADO MD)
 
@@ -67,8 +67,8 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

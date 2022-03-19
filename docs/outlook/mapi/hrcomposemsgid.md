@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bb76b147-6552-4cc4-920f-699170aea17f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 178575fb52f9c44038b785cb60805302c8e09d6d
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 9d5e0dc0c58c84c7046a50d6722e04b6046e0a4e
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63371960"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634533"
 ---
 # <a name="hrcomposemsgid"></a>HrComposeMsgID
 
@@ -25,7 +25,7 @@ ms.locfileid: "63371960"
   
 Crée une chaîne ASCII représentant un identificateur d’entrée composé pour un objet, généralement un message dans une magasin de messages.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

@@ -7,12 +7,12 @@ ms:contentKeyID: 48548290
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b29d6bd758edc6e4614d12daf2483b12d09fbf0e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9cbeb55ea4cfdbe798a03ae3ebc077fb6ecb223d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589476"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627507"
 ---
 # <a name="index-members-dao"></a>Index members (DAO)
 
@@ -25,8 +25,8 @@ Les objets Index déterminent l'ordre des enregistrements accessibles depuis les
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -51,8 +51,8 @@ Les objets Index déterminent l'ordre des enregistrements accessibles depuis les
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -86,7 +86,7 @@ Les objets Index déterminent l'ordre des enregistrements accessibles depuis les
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture si l'objet n'a pas été ajouté à une collection. Type <strong>String</strong> en lecture seule si l'objet a été ajouté à une collection.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-primary-property-dao.md">Principal</a></strong></p></td>
+<td><p><strong><a href="index-primary-property-dao.md">Primaire</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui indique si un objet <strong><a href="index-object-dao.md">Index</a></strong> représente un index de clé primaire pour une table (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">

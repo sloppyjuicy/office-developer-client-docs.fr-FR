@@ -7,12 +7,12 @@ ms:contentKeyID: 48544481
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4c2504e30445b78d04e55bd5e8cab0ed0fd551eb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1e7e8750dfee6eaec14117d5782367ddd76cc622
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59581146"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634253"
 ---
 # <a name="group-macro-statement"></a>Group, instruction de macro
 
@@ -21,15 +21,15 @@ ms.locfileid: "59581146"
 
 **L’instruction** Group vous permet de spécifier un bloc d’actions dans une macro que vous pouvez développer ou réduire.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’instruction **Group** utilise les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

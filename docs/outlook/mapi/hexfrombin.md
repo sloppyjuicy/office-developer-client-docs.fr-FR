@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 12b95657-1926-4a24-be63-40305ea6f990
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a6a326d49548e59a0476942b3465b1cef19355d4
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 70ec38c8ce100c0ba89c1b37d46b9e94f731dca1
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461686"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628067"
 ---
 # <a name="hexfrombin"></a>HexFromBin
 
@@ -27,7 +27,7 @@ ms.locfileid: "62461686"
   
 Convertit un nombre binaire en une représentation sous forme de chaîne d’un nombre hexadécimal. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

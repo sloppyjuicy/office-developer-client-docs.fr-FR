@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d999852d-ce98-4c3c-a772-87f5db4aa04e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ba79612479f28589fb078aca67c37897d86b8aad
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e1fa64721555aa1890729e4faf9a7f38dee6279e
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583904"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628536"
 ---
 # <a name="pidlidcommonstart-canonical-property"></a>Propriété canonique PidLidCommonStart
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583904"
   
 Représente la date et l’heure de début d’un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidCommonStart  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -39,7 +39,7 @@ Représente la date et l’heure de début d’un message.
 
 Cette propriété indique l’heure de début d’un élément. Elle doit être inférieure ou égale à la valeur de la propriété **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)).
   
-La valeur de cette propriété doit être l’équivalent UTC (Temps universel coordonné) de la propriété **dispidTaskStartDate** ([PidLidTaskStartDate).](pidlidtaskstartdate-canonical-property.md)
+La valeur de cette propriété doit être l’équivalent UTC (Temps universel coordonné) de la propriété **dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -51,7 +51,7 @@ La valeur de cette propriété doit être l’équivalent UTC (Temps universel c
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

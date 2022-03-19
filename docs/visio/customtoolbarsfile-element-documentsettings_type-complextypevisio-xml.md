@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: c9789239-a919-97f6-8109-126bb1038be6
 description: Contient le nom du fichier d’interface Visio Microsoft (.vsu) qui définit les barres d’outils et barres d’état personnalisées d’un document.
-ms.openlocfilehash: 589394cd735c2f86e931833ef40eb5707d0f3a1a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3dd0e09c9640dbf891214d76b172841b16a6c646
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774460"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633147"
 ---
 # <a name="customtoolbarsfile-element-documentsettings_type-complextype-visio-xml"></a>Élément CustomToolbarsFile (DocumentSettings_Type complexType) (Visio XML)
 
 Contient le nom du fichier d’interface Visio Microsoft (.vsu) qui définit les barres d’outils et barres d’état personnalisées d’un document.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[CustomToolbarsFile_Type](customtoolbarsfile_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contient des éléments qui spécifient les paramètres de document. |
    

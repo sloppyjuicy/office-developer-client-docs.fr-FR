@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 89b33a24-395a-4a3f-bc05-a44529399d7c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4d5545bf9814ee515b80dc18b35943e272e8d000
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 765739abdf31185da4ee95143cfe1d4e4e036be9
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624971"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628508"
 ---
 # <a name="pidlidemail2emailaddress-canonical-property"></a>Propriété canonique PidLidEmail2EmailAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624971"
   
 Spécifie la deuxième adresse de messagerie du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidEmail2EmailAddress  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

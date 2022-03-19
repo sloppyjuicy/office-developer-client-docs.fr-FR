@@ -7,12 +7,12 @@ ms:contentKeyID: 48548350
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c7b495745dfd6e41846f41fe88eeee719778360d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 93c45c7304d9880d15a560d3a07a23458bcc47dd
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577492"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628928"
 ---
 # <a name="containers-members-dao"></a>Containers members (DAO)
 
@@ -25,8 +25,8 @@ ms.locfileid: "59577492"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -47,8 +47,8 @@ ms.locfileid: "59577492"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

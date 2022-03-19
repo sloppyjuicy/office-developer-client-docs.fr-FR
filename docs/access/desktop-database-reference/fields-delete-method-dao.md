@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 000ced7ef62e41e7a1fb38f287c2dd1e9758dfe8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9ea5ea3391a4a51bdb1dce857788c2d7580d5121
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565330"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628795"
 ---
 # <a name="fieldsdelete-method-dao"></a>Fields.Delete, méthode (DAO)
 
@@ -34,10 +34,10 @@ Supprime un objet **[Field](field-object-dao.md)** de la collection **[Fields](f
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 81db1fa425f95643ae2260a1d3d0ddfe41406e0d
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 13d9514bdcaca22405e887ea1d613ffd3758ae8e
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772202"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628046"
 ---
 # <a name="hrgetoneprop"></a>HrGetOneProp
 
@@ -27,7 +27,7 @@ ms.locfileid: "62772202"
   
 Récupère la valeur d’une propriété unique à partir d’une interface de propriété, c’est-à-dire une interface dérivée [d’IMAPIProp](imapipropiunknown.md). 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -75,7 +75,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |GetMAPIObjectType  <br/> |MFCMAPI utilise la **méthode HrGetOneProp** pour récupérer le type d’un objet. |
    
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

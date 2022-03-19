@@ -2,20 +2,20 @@
 title: Élément PersonEntry (PersonsList_Type complexType) (Visio XML)
 ms.date: 02/18/2022
 description: Spécifie les propriétés utilisées pour identifier une personne mentionnée dans les commentaires d’un dessin.
-ms.openlocfilehash: 66b9a771841ebf972bb70ccfff94c6fefd356944
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 086f01acc9c14e1cb1d03e501239f73ddaec5e3e
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63371654"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633084"
 ---
 # <a name="personentry-element-personslist_type-complextype-visio-xml"></a>Élément PersonEntry (PersonsList_Type complexType) (Visio XML)
 
 Spécifie les propriétés utilisées pour identifier une personne mentionnée dans les commentaires d’un dessin.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[PersonEntry_Type](personentry_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -34,7 +34,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[PersonsList](personslist-element-persons_type-complextypevisio-xml.md) <br/> |[PersonsList_Type](personslist_type-complextypevisio-xml.md) <br/> |Spécifie la liste des personnes mentionnées dans les commentaires d’un dessin. |
    

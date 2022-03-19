@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: d552874568fe0e081ab4fe86e4f8a73c36281bc7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: db123ee01d2dca0bd9cdaaa3aaf7ec151e0b7c21
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580845"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627374"
 ---
 # <a name="setlocalvar-macro-action"></a>SetLocalVar, action de macro
 
@@ -30,9 +30,9 @@ L’action **DéfinirVarTemp** utilise les arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

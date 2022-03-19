@@ -7,12 +7,12 @@ ms:contentKeyID: 48547803
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 3a762d71a3a7ab077a78274425ff9a7dba33ccb5
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 2017e64053aed0fbb834a46984b3d6d78796c5bd
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462973"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627381"
 ---
 # <a name="rds-events"></a>Événements RDS
 
@@ -21,8 +21,8 @@ ms.locfileid: "62462973"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">

@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 8e0400ba-8530-e6ac-5de8-a62aeec5e10a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 16a9691cb5129fd53817db295017cdac664992bd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4875d4a511bb2e5a547b12fd8fc2c74c284c9af7
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596567"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634043"
 ---
 # <a name="download-hierarchy-state"></a>Télécharger l’état de la hiérarchie
 
@@ -23,7 +23,7 @@ ms.locfileid: "59596567"
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Identificateur d’état :  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |
 |Structure de données associée :  <br/> |**[DNHIER](dnhier.md)** <br/> |
@@ -37,11 +37,11 @@ ms.locfileid: "59596567"
 
 Cet état lance le téléchargement d’une hiérarchie d’arborescences de dossiers à partir d’un serveur vers le magasin local. 
   
-Outlook initialise la structure de données **DNHIER** associée avec un pointeur vers la hiérarchie. Le client télécharge la hiérarchie et insère de nouveaux dossiers ou modifications dans les dossiers de la boutique locale. Le processus de téléchargement adopte Microsoft Exchange synchronisation incrémentielle des changements (ICS). Pour plus d’informations sur ICS, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+Outlook initialise la structure **de données DNHIER** associée avec un pointeur vers la hiérarchie. Le client télécharge la hiérarchie et insère de nouveaux dossiers ou modifications dans les dossiers de la boutique locale. Le processus de téléchargement adopte Microsoft Exchange synchronisation incrémentielle des changements (ICS). Pour plus d’informations sur ICS, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
 Lorsque cet état se termine, le magasin local revient à l’état de synchronisation.
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

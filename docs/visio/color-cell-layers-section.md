@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 61c19342-46fb-48d4-6375-c9ea8306286d
 description: Indique la couleur utilisée pour afficher le calque.
-ms.openlocfilehash: a996568875e4064aabe0198de8be15aa6798377e
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3f02902b29a9f1efeaac41337f894acc476b0aac
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783543"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633903"
 ---
 # <a name="color-cell-layers-section"></a>Color, cellule (section Layers)
 
@@ -32,16 +32,16 @@ Vous pouvez définir la transparence de la couleur du calque dans la cellule Tra
   
 Pour obtenir une référence à la cellule Color par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Layers.Color[ *i*  ] où  *i*  = <1>, 2, 3, ... |
+|**Nom de cellule :**  <br/> |Layers.Color[ *i*  ] où  *i*  = <1>, 2, 3, ... |
    
 Pour obtenir une référence à la cellule Color à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionLayer** <br/> |
-|Index de la ligne :  <br/> |**visRowLayer** +   *i* où *i* = 0, 1, 2, ... |
-|Index de la cellule :  <br/> |**visLayerColor** <br/> |
+|**Index de la section :**  <br/> |**visSectionLayer** <br/> |
+|**Index de la ligne :**  <br/> |**visRowLayer** +   *i* où *i* = 0, 1, 2, ... |
+|**Index de la cellule :**  <br/> |**visLayerColor** <br/> |
    
 

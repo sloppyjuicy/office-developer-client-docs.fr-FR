@@ -7,12 +7,12 @@ ms:contentKeyID: 48543336
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5a1aeaba60be5179102a52b49a51bc6036601202
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: fa43232a014355c1e8a9340a849e1aace998f457
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62463127"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627269"
 ---
 # <a name="streamreadenum"></a>StreamReadEnum
 
@@ -23,9 +23,9 @@ Spécifie si la chaîne de données entière ou si la ligne suivante doit être 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

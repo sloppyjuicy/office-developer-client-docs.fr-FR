@@ -7,12 +7,12 @@ ms:contentKeyID: 48543921
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c7b3ffdc4e1714d4b5c9f9f563437d065aeab9c7
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: b6fb4fa1f4f2cce8bc453741e9878e9faa33be27
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465618"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627570"
 ---
 # <a name="errorvalueenum"></a>ErrorValueEnum
 
@@ -34,9 +34,9 @@ Trois formes d'erreur sont répertoriées :
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -436,7 +436,7 @@ Seuls les sous-ensembles suivants d'équivalents ADO/WFC sont définis.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

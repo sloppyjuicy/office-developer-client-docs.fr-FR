@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 65f28bfafebf145c7b995c4aecc0aa3499f2b6c5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 04ec9ceca7b8841a227174d02dc7f30612da2e39
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606708"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633483"
 ---
 # <a name="field2ordinalposition-property-dao"></a>Field2.OrdinalPosition, propriété (DAO)
 
@@ -42,8 +42,8 @@ La disponibilité de la propriété **OrdinalPosition** dépend de l'objet conte
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -76,9 +76,9 @@ La disponibilité de la propriété **OrdinalPosition** dépend de l'objet conte
 </table>
 
 
-En règle générale, la position ordinale d'un objet ajouté à une collection dépend de l'ordre dans lequel vous ajoutez l'objet. Le premier objet est ajouté a la première position (0), le second à la seconde position (1) et ainsi de suite. Le dernier objet ajouté se trouve à la position ordinale : 1, où nombre est le nombre d’objets dans la collection, tel que spécifié par le paramètre de propriété **[Count.](containers-count-property-dao.md)**
+En règle générale, la position ordinale d'un objet ajouté à une collection dépend de l'ordre dans lequel vous ajoutez l'objet. Le premier objet est ajouté a la première position (0), le second à la seconde position (1) et ainsi de suite. Le dernier objet ajouté se trouve à la position ordinale : 1, où nombre est le nombre d’objets dans la collection, tel que spécifié par le paramètre de propriété **[Count](containers-count-property-dao.md)** .
 
-La propriété **OrdinalPosition** vous permet de spécifier une position ordinale pour les nouveaux objets **Field2** qui diffère de l'ordre dans lequel vous les ajoutez à une collection. Ceci vous permet de spécifier un ordre de champs pour vos tables, requêtes et jeux d'enregistrements lorsque vous les utilisez dans une application. Par exemple, l’ordre dans lequel les champs sont renvoyés dans une requête SELECT est déterminé par les valeurs actuelles de la \* **propriété OrdinalPosition.**
+La propriété **OrdinalPosition** vous permet de spécifier une position ordinale pour les nouveaux objets **Field2** qui diffère de l'ordre dans lequel vous les ajoutez à une collection. Ceci vous permet de spécifier un ordre de champs pour vos tables, requêtes et jeux d'enregistrements lorsque vous les utilisez dans une application. Par exemple, l’ordre dans lequel les champs sont renvoyés dans une requête SELECT \* est déterminé par les valeurs actuelles de la propriété **OrdinalPosition** .
 
 Vous pouvez à tout moment redéfinir l'ordre de renvoi des champs dans les jeux d'enregistrements en définissant la propriété **OrdinalPosition** sur tout entier positif.
 
@@ -88,7 +88,7 @@ Vous pouvez spécifier un nombre supérieur au nombre de champs moins 1. Le cham
 
 
 > [!NOTE]
-> Même si la collection **Fields** d’un objet **[TableDef](tabledef-object-dao.md)** n’a **[](recordset-object-dao.md)** pas été actualisée, l’ordre des champs dans un jeu d’enregistrements ouvert à partir de l’objet **TableDef** reflète les données **OrdinalPosition** de l’objet **TableDef.** Un objet **Recordset** de type table a les mêmes données **OrdinalPosition** en tant que table sous-jacente, mais tout autre type d'objet **Recordset** a des nouvelles données **OrdinalPosition** (commençant par 0) qui suivent l'ordre déterminé par les données **OrdinalPosition** de l'objet **TableDef**.
+> Même si la collection **Fields** d’un objet **[TableDef](tabledef-object-dao.md)** n’a pas été actualisée, l’ordre des champs dans un jeu **[d’enregistrements](recordset-object-dao.md)** ouvert à partir de **l’objet TableDef** reflète les données **OrdinalPosition** de l’objet **TableDef** . Un objet **Recordset** de type table a les mêmes données **OrdinalPosition** en tant que table sous-jacente, mais tout autre type d'objet **Recordset** a des nouvelles données **OrdinalPosition** (commençant par 0) qui suivent l'ordre déterminé par les données **OrdinalPosition** de l'objet **TableDef**.
 
 
 

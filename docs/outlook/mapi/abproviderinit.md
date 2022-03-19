@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: c3dcd0d4-018a-47b0-b040-227034ed59d8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a3609a1a7ece51f087cf46b66bece0e75ab8c714
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: b477bfb864699d305079bbe14bf7afb6db3a649c
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63381823"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629089"
 ---
 # <a name="abproviderinit"></a>ABProviderInit
 
@@ -25,7 +25,7 @@ ms.locfileid: "63381823"
   
 Initialise un fournisseur de carnet d’adresses pour l’opération.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
 |Implémenté par :  <br/> |Fournisseurs de carnets d’adresses  <br/> |
@@ -111,7 +111,7 @@ Le fournisseur de carnet d’adresses doit utiliser les fonctions pointées par 
   
 Pour plus d’informations sur l’écriture **d’ABProviderInit**, voir [Implementing an Address Book Provider Entry Point Function](implementing-an-address-book-provider-entry-point-function.md). Pour plus d’informations sur les fonctions de point d’entrée, voir [Implementing a Service Provider Entry Point Function](implementing-a-service-provider-entry-point-function.md).
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 - [IABProvider : IUnknown](iabprovideriunknown.md)
 - [MSProviderInit](msproviderinit.md)

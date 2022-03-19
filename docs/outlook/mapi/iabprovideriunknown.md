@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3f98d982-156d-43d7-8b0b-94d8c24debef
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1a3e893410dc536efa77483e3ad958b7cc52ce21
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 18f70d28807e12ef3f03d974a63775b13cdaef07
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780028"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627997"
 ---
 # <a name="iabprovider--iunknown"></a>IABProvider : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62780028"
   
 Fournit une méthode pour se connecter à un objet fournisseur de carnet d’adresses et une méthode pour invalider un objet fournisseur de carnet d’adresses.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
 |Exposé par :  <br/> |Objets du fournisseur de carnets d’adresses  <br/> |
@@ -38,12 +38,12 @@ Fournit une méthode pour se connecter à un objet fournisseur de carnet d’adr
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[Logon](iabprovider-logon.md) <br/> |Établit une connexion à une session active. |
 |[Arrêt](iabprovider-shutdown.md) <br/> |Annule une connexion à une session active. |
    
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

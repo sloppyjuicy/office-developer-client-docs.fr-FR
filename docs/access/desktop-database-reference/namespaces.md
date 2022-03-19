@@ -7,12 +7,12 @@ ms:contentKeyID: 48548318
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: f380ea60ea9d4676f1174884ef8331c0fef0462c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: aaa5046a11bb5ee46eadf018b5228310d1a7e965
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602107"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629110"
 ---
 # <a name="namespaces"></a>Espaces de noms
 
@@ -22,8 +22,8 @@ Le format XML de persistance dans ADO utilise les quatre espaces de noms suivant
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -34,7 +34,7 @@ Le format XML de persistance dans ADO utilise les quatre espaces de noms suivant
 <tbody>
 <tr class="odd">
 <td><p>s</p></td>
-<td><p>Fait référence à l’espace de noms XML-Data contenant les éléments et attributs qui définissent le schéma &quot; &quot; du <strong>recordset actuel.</strong></p></td>
+<td><p>Fait référence à l’espace &quot;de noms XML-Data&quot; contenant les éléments et attributs qui définissent le schéma du <strong>recordset actuel</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p>dt</p></td>

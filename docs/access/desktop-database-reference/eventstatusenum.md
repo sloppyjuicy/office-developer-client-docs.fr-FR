@@ -7,12 +7,12 @@ ms:contentKeyID: 48547059
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: fa5bad57ba11c79039f720398f473b9db1e4d7e1
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: a1e1b727ff0323fee7c5323479962c0523e84dbf
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62464240"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633490"
 ---
 # <a name="eventstatusenum"></a>EventStatusEnum
 
@@ -23,9 +23,9 @@ Spécifie l'état en cours de l'exécution d'un événement.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -70,7 +70,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

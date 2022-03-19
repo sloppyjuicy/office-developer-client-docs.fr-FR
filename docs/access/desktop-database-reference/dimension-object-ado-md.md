@@ -7,12 +7,12 @@ ms:contentKeyID: 48543355
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 1390d169af300a382a1cfe7705bc30e0f0a6da6c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 05d5a34951885decfbe4e0de9d2caed6fc6a2cca
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585752"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626674"
 ---
 # <a name="dimension-object-ado-md"></a>Dimension, objet (ADO MD)
 
@@ -37,8 +37,8 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

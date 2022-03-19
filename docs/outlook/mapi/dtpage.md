@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 500f60ed-fdec-4d70-8cf5-664c46643956
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 428c81eadd540b145aa4fe257729fbda28bd91ec
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 0f4f35849007032c38efe1f01bdcbf3444e505c7
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461201"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634554"
 ---
 # <a name="dtpage"></a>DTPAGE
 
@@ -27,7 +27,7 @@ ms.locfileid: "62461201"
   
 Décrit la boîte de dialogue qui est conçue à partir d’un tableau d’affichage par la [fonction BuildDisplayTable](builddisplaytable.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -78,7 +78,7 @@ Bien **que BuildDisplayTable** utilise cette structure pour créer la table d’
   
 Pour une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

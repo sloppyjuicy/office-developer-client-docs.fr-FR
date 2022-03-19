@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: e823797e-dde9-6ee7-b5e4-9e57cef90b08
 description: Contient une valeur de chaîne arbitraire utilisée pour fournir des informations supplémentaires sur une forme.
-ms.openlocfilehash: a320aee1cb638ef34f77de6d5006421b37931a7f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 6def9f487336ae7ddc23e6cc298bba547bb62fe2
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772871"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633126"
 ---
 # <a name="data2-element-shapesheet_type-complextype-visio-xml"></a>Élément Data2 (ShapeSheet_Type complexType) (Visio XML)
 
 Contient une valeur de chaîne arbitraire utilisée pour fournir des informations supplémentaires sur une forme.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Forme](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contient des éléments qui définissent une forme dans un **élément Master**, **Page** ou Group Shape. |
    

@@ -7,12 +7,12 @@ ms:contentKeyID: 48543360
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: e5e3fb18aad122d7e4ef5174b724c9fce5a3f729
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ea1f2c284b4db91df5c526950d135e277d76fb71
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565652"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627696"
 ---
 # <a name="createobject-method-rds"></a>CreateObject, méthode (RDS)
 
@@ -26,8 +26,8 @@ RDS (Remote Data Service) prend en charge les protocoles suivants : HTTP, HTTPS
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -38,19 +38,19 @@ RDS (Remote Data Service) prend en charge les protocoles suivants : HTTP, HTTPS
 <tbody>
 <tr class="odd">
 <td><p>HTTP</p></td>
-<td><p>Définir<em>l’objet</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>https://awebsrvr</em> &quot; )</p></td>
+<td><p><em>SetobjectDataSpace</em><em></em> = . CreateObject(&quot;<em>ProgId</em>&quot;, &quot;<em>https://awebsrvr</em>&quot;)</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS</p></td>
-<td><p>Définir<em>l’objet</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>https://awebsrvr</em> &quot; )</p></td>
+<td><p><em>SetobjectDataSpace</em><em></em> = . CreateObject(&quot;<em>ProgId</em>&quot;, &quot;<em>https://awebsrvr</em>&quot;)</p></td>
 </tr>
 <tr class="odd">
 <td><p>DCOM</p></td>
-<td><p>Définir<em>l’objet</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>computername</em> &quot; )</p></td>
+<td><p><em>SetobjectDataSpace</em><em></em> = . CreateObject(&quot;<em>ProgId</em>&quot;, &quot;<em>computername</em>&quot;)</p></td>
 </tr>
 <tr class="even">
 <td><p>In-process</p></td>
-<td><p>Définir<em>l’objet</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; &quot; )</p></td>
+<td><p><em>SetobjectDataSpace</em><em></em> = . CreateObject(&quot;<em>ProgId</em>&quot;, &quot; &quot;)</p></td>
 </tr>
 </tbody>
 </table>
@@ -63,7 +63,7 @@ RDS (Remote Data Service) prend en charge les protocoles suivants : HTTP, HTTPS
 |*Object* |Variable objet correspondant à un objet du type spécifié dans *ProgID*.|
 |*DataSpace* |Variable objet représentant un objet [RDS.DataSpace](dataspace-object-rds.md) utilisé pour créer une instance du nouvel objet.|
 |*ProgID* |Valeur de type **String** contenant l'identificateur programmatique spécifiant un objet métier côté serveur qui implémente les règles métier de votre application.|
-|*awebsrvr* ou *computername* |Valeur de type **String** qui représente une URL identifiant le serveur web Internet Information Services (IIS) sur lequel une instance de l’objet métier serveur est créée.|
+|*awebsrvr* ou *computername* |Valeur **de type String** qui représente une URL identifiant le serveur web Internet Information Services (IIS) sur lequel une instance de l’objet métier serveur est créée.|
 
 ## <a name="remarks"></a>Remarques
 

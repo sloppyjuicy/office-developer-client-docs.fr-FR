@@ -7,12 +7,12 @@ ms:contentKeyID: 48544506
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c4007030306cdd7f05b79c839780c72a4e1c0446
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 2f2782a52621300bb5e02b1ae5f1742f7e53f819
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465399"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626527"
 ---
 # <a name="isolationlevelenum"></a>IsolationLevelEnum
 
@@ -23,9 +23,9 @@ Spécifie le niveau d’isolement de transaction d’un objet [Connection](conne
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -90,7 +90,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

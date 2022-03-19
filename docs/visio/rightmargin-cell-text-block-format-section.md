@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: bc8f5469-e79f-4a68-73cb-d11c938353a4
 description: Définit la distance séparant le bord droit du bloc de texte du texte qui y figure. La valeur par défaut est 2,54 mm.
-ms.openlocfilehash: 4152c76a1950c598cbd979209d7a9967d11ce170
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b433e006747929cf071e7e00e478850e5fa77750
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559639"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634771"
 ---
 # <a name="rightmargin-cell-text-block-format-section"></a>RightMargin, cellule (section Text Block Format)
 
@@ -26,16 +26,16 @@ Cette valeur est indépendante de l'échelle du dessin. Si le dessin est mis à 
   
 Pour obtenir une référence à la cellule RightMargin par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | RightMargin  <br/> |
+| **Nom de la cellule :**  <br/> | RightMargin  <br/> |
    
 Pour obtenir une référence à la cellule RightMargin à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowText** <br/> |
-| Index de la cellule :  <br/> |**visTxtBlkRightMargin** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowText** <br/> |
+| **Index de la cellule :**  <br/> |**visTxtBlkRightMargin** <br/> |
    
 

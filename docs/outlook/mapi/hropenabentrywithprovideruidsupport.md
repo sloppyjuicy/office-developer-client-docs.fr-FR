@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 1fafc810-7cf3-4c8c-bf21-055ae34da690
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9ebf63e283d332fce73b13d4a12f071349f523f0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f4d58aaf1dbc4800c4c473b949add6ca5af42a58
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576162"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634526"
 ---
 # <a name="hropenabentrywithprovideruidsupport"></a>HrOpenABEntryWithProviderUIDSupport
 
@@ -21,9 +21,9 @@ ms.locfileid: "59576162"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Effectue la même fonction que la fonction [HrOpenABEntryWithProviderUID,](hropenabentrywithprovideruid.md) sauf que la fonction **HrOpenABEntryWithProviderUIDSupport** ouvre l’entrée à l’aide de l’objet de support donné au lieu d’utiliser la session et le carnet d’adresses. 
+Effectue la même fonction que la fonction [HrOpenABEntryWithProviderUID](hropenabentrywithprovideruid.md) , sauf que la fonction **HrOpenABEntryWithProviderUIDSupport** ouvre l’entrée à l’aide de l’objet de support donné au lieu d’utiliser la session et le carnet d’adresses. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |abhelp.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -54,7 +54,7 @@ HRESULT HrOpenABEntryWithProviderUIDSupport(
     
  _cbEntryID_
   
-> [in] Nombre d’bytes de l’identificateur d’entrée spécifié par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes de l’identificateur d’entrée spécifié par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -62,11 +62,11 @@ HRESULT HrOpenABEntryWithProviderUIDSupport(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) de l’interface à utiliser pour accéder à l’entrée ouverte. La transmission NULL renvoie l’interface standard de l’objet. Pour les utilisateurs de messagerie, l’interface standard [est IMailUser : IMAPIProp](imailuserimapiprop.md). Pour les listes de distribution, il s’agit [d’IDistList : IMAPIContainer](idistlistimapicontainer.md)et pour les conteneurs il s’agit de [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md). Les appelants peuvent définir  _lpInterface_ sur l’interface standard appropriée ou une interface dans la hiérarchie d’héritage. 
+> [in] Pointeur vers l’identificateur d’interface (IID) de l’interface à utiliser pour accéder à l’entrée ouverte. La transmission NULL renvoie l’interface standard de l’objet. Pour les utilisateurs de messagerie, l’interface standard [est IMailUser : IMAPIProp](imailuserimapiprop.md). Pour les listes de distribution, il s’agit de [IDistList : IMAPIContainer](idistlistimapicontainer.md), et pour les conteneurs [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md). Les appelants peuvent définir  _lpInterface_ sur l’interface standard appropriée ou une interface dans la hiérarchie d’héritage. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le type du texte pour le _paramètre lpszButtonText._ Les indicateurs suivants peuvent être définies : 
+> [in] Masque de bits d’indicateurs qui contrôle le type du texte pour le  _paramètre lpszButtonText_ . Les indicateurs suivants peuvent être définies : 
     
 AB_TELL_DETAILS_CHANGE
   
@@ -74,7 +74,7 @@ AB_TELL_DETAILS_CHANGE
     
 DIALOG_MODAL
   
-> Affiche la version modale de la boîte de dialogue d’adresse commune. Cet indicateur s’exclue mutuellement avec DIALOG_SDI.
+> Affiche la version modale de la boîte de dialogue Adresse commune. Cet indicateur s’exclue mutuellement avec DIALOG_SDI.
     
 DIALOG_SDI
   

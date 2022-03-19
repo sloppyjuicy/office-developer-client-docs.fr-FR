@@ -7,12 +7,12 @@ ms:contentKeyID: 48544833
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 991c3cf1e28db385af06a71cfb6ba247455bda91
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3f3422fc4bd284aa293afe1a9fd550db4c4889a5
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593445"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634169"
 ---
 # <a name="limits-of-a-recordset"></a>Limites d’un recordset
 
@@ -23,9 +23,9 @@ Utilisez les propriétés **BOF** et **EOF** pour déterminer si un objet **Reco
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -91,7 +91,7 @@ If oRs.BOF And oRs.EOF Then
 End If 
 ```
 
-Si vous ouvrez un objet **Recordset** ne contenant aucun enregistrement, les propriétés **BOF** et **EOF** ont toutes deux la valeur **True** et la valeur définie pour la propriété **RecordCount** de l'objet **Recordset** dépend du type de curseur. -1 est renvoyé pour les curseurs dynamiques (**CursorType**  =  **adOpenDynamic**) et 0 pour les autres curseurs.
+Si vous ouvrez un objet **Recordset** ne contenant aucun enregistrement, les propriétés **BOF** et **EOF** ont toutes deux la valeur **True** et la valeur définie pour la propriété **RecordCount** de l'objet **Recordset** dépend du type de curseur. -1 est renvoyé pour les curseurs dynamiques (**CursorTypeadOpenDynamic** = ) et 0 pour les autres curseurs.
 
 Lorsque vous ouvrez un objet **Recordset** qui contient au moins un enregistrement, le premier enregistrement est l'enregistrement actif. Les propriétés **BOF** et **EOF** ont, dans ce cas, la valeur **False**.
 

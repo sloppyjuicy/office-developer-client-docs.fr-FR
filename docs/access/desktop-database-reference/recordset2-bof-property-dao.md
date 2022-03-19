@@ -7,12 +7,12 @@ ms:contentKeyID: 48548053
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 39389ef841940663115fc8c70fa75ee06b4861b2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 41e1fef7a045c4155896dc5089dc03b7d62bfbfc
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611769"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634988"
 ---
 # <a name="recordset2bof-property-dao"></a>Recordset2.BOF, propriété (DAO)
 
@@ -25,7 +25,7 @@ Renvoie une valeur qui indique si la position d'enregistrement actuelle précèd
 
 *.* BOF
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -49,11 +49,11 @@ Le tableau suivant répertorie les méthodes Move sont autorisés avec différen
 
 <table>
 <colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -117,9 +117,9 @@ Le tableau suivant montre comment déplacer des méthodes qui ne localiser un en
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

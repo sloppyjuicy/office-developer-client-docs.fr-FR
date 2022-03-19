@@ -1,5 +1,5 @@
 ---
-title: Propri t canonique PidLidContacts
+title: Propriété canonique PidLidContacts
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - COM
 ms.assetid: 709e701f-b24e-4cd5-8c55-3f9e67f67a4a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 16b36986cd6272bddd014583b670325eefbd452e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 13ee80e601b3704d8ed952789377e339d51572f2
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566989"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634862"
 ---
-# <a name="pidlidcontacts-canonical-property"></a>Propri t canonique PidLidContacts
+# <a name="pidlidcontacts-canonical-property"></a>Propriété canonique PidLidContacts
 
   
   
@@ -27,7 +27,7 @@ ms.locfileid: "59566989"
   
 Contient les noms des contacts associés à l’élément.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidContacts  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -57,7 +57,7 @@ Cette propriété contient la propriété **PR_DISPLAY_NAME** ([PidTagDisplayNam
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: b29792b6d734293ee5b5b48d1de4882df9947fe0
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 77b0fd47eb42fb0cd210d395c4bd6645577bd4e9
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461243"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629250"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Database.CreateTableDef, méthode (DAO)
 
@@ -34,10 +34,10 @@ Crée un objet **[TableDef](tabledef-object-dao.md)** (espaces de travail Micros
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

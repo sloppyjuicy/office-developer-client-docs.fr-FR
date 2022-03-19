@@ -7,12 +7,12 @@ ms:contentKeyID: 48543214
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 8b8196d46b60600b54b3dc619279da7a995fa7d3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fde237ba29d6f3e342d47611141c172828b857da
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626903"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627689"
 ---
 # <a name="creating-the-connection-string"></a>Création de la chaîne de connexion
 
@@ -22,8 +22,8 @@ ADO prend directement en charge cinq arguments dans une chaîne de connexion. D'
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 8438fe4b-f5f7-d4e4-58b7-7ebdc1da197a
 description: Spécifie une relation à un élément avec le XML de solution associé à cette solution.
-ms.openlocfilehash: e9142bcafd3365e7cf9d105c744c389bb6be0200
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 88c7b722b3adc7c908f21529f9d5d04a7469c6eb
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62779453"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634428"
 ---
 # <a name="rel-element-solution_type-complextype-visio-xml"></a>Élément Rel (Solution_Type complexType) (Visio XML)
 
 Spécifie une relation à un élément avec le XML de solution associé à cette solution.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Spécifie une instance de solution XML stockée dans le dessin. |
    

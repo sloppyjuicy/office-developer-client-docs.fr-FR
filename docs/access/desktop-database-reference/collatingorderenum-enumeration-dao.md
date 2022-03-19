@@ -7,12 +7,12 @@ ms:contentKeyID: 48544667
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ba00e459e62a2c87c43ee19dbd1958f42ee0cc0e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a1dee7bf8f536f082ee30080e667b68968d51cb0
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627029"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626807"
 ---
 # <a name="collatingorderenum-enumeration-dao"></a>CollatingOrderEnum, éumération (DAO)
 
@@ -23,9 +23,9 @@ Spécifie l'ordre de tri du texte pour les comparaisons de chaînes ou les tris.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

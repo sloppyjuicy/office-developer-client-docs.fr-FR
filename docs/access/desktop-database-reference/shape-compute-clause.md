@@ -7,12 +7,12 @@ ms:contentKeyID: 48548699
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: e8edb920e5a4786a8e5bfb7908dd942b8172eb9a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c3f8aa354bf4c861c5fbef8f84a10772e3a00b16
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552520"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627353"
 ---
 # <a name="shape-compute-clause"></a>Shape Compute, clause
 
@@ -55,7 +55,7 @@ Cette clause comporte les parties suivantes :
 
 - *grp-field-list*
 
-  - Liste de colonnes dans les objets **Recordset** parent et enfant qui spécifie comment les lignes doivent être regroupées dans l’enfant. Pour chaque colonne de la liste de champs *grp,* il existe une colonne correspondante dans les objets **Recordset** enfants et parents. Pour chaque ligne du jeu d’enregistrements **parent,** les colonnes de liste de champs *grp* ont des valeurs uniques, et l’recordset enfant référencé par la ligne parente se compose uniquement de lignes enfants dont les colonnes de liste de champs *grp* ont les mêmes valeurs que la ligne parente. 
+  - Liste de colonnes dans les objets **Recordset** parent et enfant qui spécifie la façon dont les lignes doivent être regroupées dans l’enfant. Pour chaque colonne de la *liste de champs grp,* il existe une colonne correspondante dans les objets **Recordset** enfants et parents. Pour chaque ligne du jeu d’enregistrements **parent,** les colonnes de liste de champs *grp* ont des valeurs uniques et l’recordset enfant référencé par la ligne parente se compose uniquement de lignes enfants dont les colonnes de liste de champs *grp* ont les mêmes valeurs que la ligne parente.
 
 Si la clause BY est incluse, les lignes de l'objet **Recordset** enfant sont groupées en fonction des colonnes dans la clause COMPUTE. L'objet **Recordset** parent contiendra une ligne pour chaque groupe de lignes de l'objet **Recordset** enfant.
 
@@ -80,9 +80,9 @@ Par exemple, supposons que nous disposons d'une table, Demographics, comportant 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -140,7 +140,7 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
            objConnection 
 ```
 
-Cette commande ouvre un objet **Recordset** mis en forme comportant deux niveaux. Le niveau parent est  un jeu d’enregistrements généré avec une colonne d’agrégation (SUM(rs.population) ), une colonne qui fait référence à l’recordset enfant (rs ), et une colonne pour le regroupement du jeu d’enregistrements enfant **(état).**  Le niveau enfant  est le jeu d’enregistrements renvoyé par la commande de requête (), une colonne faisant référence à l’recordset enfant (rs ) et une colonne pour le regroupement du jeu d’enregistrements enfant **(état).**  Le niveau enfant est le **jeu d’enregistrements** renvoyé par la commande de requête (à partir de \* données démographiques).
+Cette commande ouvre un objet **Recordset** mis en forme comportant deux niveaux. Le niveau parent est un jeu d’enregistrements généré avec une colonne d’agrégation (SUM(rs.population) ), une colonne qui fait référence à l’recordset enfant (rs ), et une colonne pour le regroupement de  l’recordset enfant (état ).  Le niveau enfant est le  jeu d’enregistrements renvoyé par la commande de requête (), une colonne faisant référence à l’recordset enfant (rs ), et une colonne pour le regroupement du jeu d’enregistrements **enfant (état**). Le niveau enfant est le **jeu d’enregistrements** renvoyé par la commande de requête (à partir \* de données démographiques).
 
 Les lignes de détail de l'objet **Recordset** sont groupées en fonction de la colonne State, mais dans aucun ordre particulier. En d'autres termes, les groupes ne sont pas classés par ordre alphabétique ou numérique. Si vous voulez trier l'objet **Recordset** parent, utilisez la méthode **Sort** **Recordset** pour trier l'objet **Recordset** parent.
 
@@ -152,9 +152,9 @@ Vous pouvez désormais parcourir l'objet **Recordset** parent et accéder aux ob
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -187,9 +187,9 @@ Vous pouvez désormais parcourir l'objet **Recordset** parent et accéder aux ob
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -217,9 +217,9 @@ Vous pouvez désormais parcourir l'objet **Recordset** parent et accéder aux ob
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -247,9 +247,9 @@ Vous pouvez désormais parcourir l'objet **Recordset** parent et accéder aux ob
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

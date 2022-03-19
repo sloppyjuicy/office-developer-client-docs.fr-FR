@@ -7,12 +7,12 @@ ms:contentKeyID: 48544495
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 2df24234a33fffada6e84957db4939bac641bf0a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: eca2ee9ad3f9abcc323e19bfcb97cf47b9855b24
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558015"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628662"
 ---
 # <a name="querydeftypeenum-enumeration-dao"></a>QueryDefTypeEnum, éumération (DAO)
 
@@ -23,9 +23,9 @@ Cette énumération est utilisée avec la propriété **Type** pour spécifier l
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -52,7 +52,7 @@ Cette énumération est utilisée avec la propriété **Type** pour spécifier l
 </tr>
 <tr class="even">
 <td><p>dbQCrosstab</p></td>
-<td><p>16 </p></td>
+<td><p>16</p></td>
 <td><p>Requête analyse croisée</p></td>
 </tr>
 <tr class="odd">

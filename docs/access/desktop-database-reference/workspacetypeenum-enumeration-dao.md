@@ -7,12 +7,12 @@ ms:contentKeyID: 48547625
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: dd03060698adcb884f4a734248476f18b4a8a561
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e03168c6c04966a2b1ec012740c99622ee7b00b9
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584947"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634673"
 ---
 # <a name="workspacetypeenum-enumeration-dao"></a>WorkspaceTypeEnum, éumération (DAO)
 
@@ -23,9 +23,9 @@ Cette énumération est utilisée avec la méthode **CreateWorkspace** pour déf
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 41c2be7b412bf043f392fb5d26ba5eb2cbc9971c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 79e6767680be310b09f8177efc542fbe7bb51c2b
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606778"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633497"
 ---
 # <a name="exportwithformatting-macro-action"></a>ExportWithFormatting, action de macro
 
@@ -31,8 +31,8 @@ L’action **ExporterAvecMiseEnForme** utilise les arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

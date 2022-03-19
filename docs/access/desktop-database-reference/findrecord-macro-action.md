@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 47d63dd88226d74b1138b59ce441efc0ef4ce588
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b9e67e846ccb61eadfef5d3876d12597f4bad62d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622255"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633462"
 ---
 # <a name="findrecord-macro-action"></a>FindRecord, action de macro
 
@@ -24,14 +24,14 @@ ms.locfileid: "59622255"
 
 You can use the **FindRecord** action to find the first instance of data that meets the criteria specified by the **FindRecord** arguments. This data can be in the current record, in a succeeding or prior record, or in the first record. You can find records in the active table datasheet, query datasheet, form datasheet, or form.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **TrouverEnregistrement** possède les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -42,7 +42,7 @@ L’action **TrouverEnregistrement** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Rechercher</strong></p></td>
-<td><p>Spécifie les données à rechercher dans l’enregistrement. Entrez le texte, le numéro ou la date à rechercher ou tapez une expression, qui est précédée d’un signe égal ( ), dans la zone Rechercher quoi dans la section Arguments de l’action du volet Générateur de <strong>=</strong> macro. <strong></strong> <strong></strong> Vous pouvez utiliser des caractères génériques. Cet argument est obligatoire.</p></td>
+<td><p>Spécifie les données à rechercher dans l’enregistrement. Entrez le texte, le numéro ou la date à rechercher ou tapez une expression, qui est précédée d’un signe égal (<strong>=</strong>), dans <strong></strong> la zone Rechercher quoi dans la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Vous pouvez utiliser des caractères génériques. Cet argument est obligatoire.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Match</strong></p></td>
@@ -53,13 +53,13 @@ L’action **TrouverEnregistrement** possède les arguments suivants.
 <td><p>Indique si la recherche respecte la casse. Cliquez sur <strong>Oui</strong> (effectuer une recherche qui respecte la casse) ou sur <strong>Non</strong> (effectuer la recherche sans respecter les majuscules et les minuscules). La valeur par défaut est <strong>Non</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Recherche</strong></p></td>
+<td><p><strong>Rechercher</strong></p></td>
 <td><p>Spécifie si la recherche part de l’enregistrement actif et remonte jusqu’au début des enregistrements (<strong>Haut</strong>), descend jusqu’à la fin des enregistrements (<strong>Bas</strong>) ou descend jusqu’à la fin des enregistrements, puis repart du début des enregistrements jusqu’à l’enregistrement actif afin que tous les enregistrements soient inclus dans la recherche (<strong>Tous</strong>). La valeur par défaut est <strong>Tous</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Avec mise en forme</strong></p></td>
 <td><p>Spécifie si la recherche inclut les données mises en forme. Cliquez sur <strong>Oui</strong> (Microsoft Office Access 2007 recherche les données telles que mises en forme et affichées dans le champ) ou <strong>Non</strong> (Access recherche les données telles que stockées dans la base de données, ce qui ne correspond pas toujours à la manière dont elles sont affichées). La valeur par défaut est <strong>Non</strong>. Vous pouvez utiliser cette fonctionnalité pour restreindre la recherche aux données correspondant à un format particulier. Par exemple, cliquez sur <strong>Oui</strong> et tapez <strong>1,234</strong> dans l’argument <strong>Rechercher</strong> pour rechercher la valeur 1,234 dans un champ mis en forme avec des virgules. Cliquez sur <strong>Non</strong> si vous souhaitez taper <strong>1234</strong> pour rechercher les données dans ce champ. Pour rechercher des dates, cliquez sur <strong>Oui</strong> afin de rechercher une date correspondant exactement à sa mise en forme, par exemple 08 juillet 2003. Si vous cliquez sur <strong>Non</strong>, entrez la date dans l’argument <strong>Rechercher</strong> en suivant le format défini dans les paramètres régionaux du Panneau de configuration de Windows. Ce format est indiqué dans la zone <strong>Format de date courte</strong> sous l’onglet <strong>Date</strong> des paramètres régionaux. Par exemple, si la zone <strong>Format de date courte</strong> est défini sur <strong>j/m/aa</strong>, vous pouvez entrer 8/7/03 ; Access recherche alors toutes les entrées d’un champ Date qui correspondent à 8 juillet 2003, quelle que soit la mise en forme de ce champ.</p>
-<p><strong>REMARQUE</strong>: <strong></strong> l’argument Rechercher au formatage prend effet uniquement si le champ actuel est un contrôle lié, si l’argument <strong></strong> Match est définie sur <strong>Champ</strong>entier , l’argument <strong></strong> Champ actuel uniquement est définie sur <strong>Oui</strong>et <strong>l’argument</strong> Cas de correspondance est définie sur <strong>Non</strong>.</p>
+<p><strong>REMARQUE</strong> : l’argument <strong>Rechercher</strong> au format n’est pris en compte que si le champ actuel est un contrôle lié, si l’argument <strong>Match</strong> a la valeur <strong>Champ</strong> entier, si l’argument <strong>Champ</strong> en cours uniquement a la valeur Oui et si <strong></strong>l’argument <strong>Cas</strong> de correspondance a la valeur <strong>Non</strong>.</p>
 <p>Si vous définissez <strong>Respecter la casse</strong> sur <strong>Oui</strong> ou <strong>Champ actif uniquement</strong> sur <strong>Non</strong>, vous devez également définir <strong>Avec mise en forme</strong> sur <strong>Oui</strong>.</p></td>
 </tr>
 <tr class="even">

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 30079639d879532536c37ee16c2e09b005253d93
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 99af9bd1d1f84facc97e3ba6e66998a41172c859
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380598"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629222"
 ---
 # <a name="equivalent-ansi-sql-data-types"></a>Types de données équivalents ANSI SQL
 
@@ -26,10 +26,10 @@ Le tableau suivant répertorie les types de données ANSI SQL, leurs équivalent
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,12 +7,12 @@ ms:contentKeyID: 48548250
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: cf05bfbfb95b0a9d4cef831f968463a34a88032f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cc6fe2d8f90ac9a65253dcdb1eb819d586b7974e
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565050"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633301"
 ---
 # <a name="querydefcreateproperty-method-dao"></a>Méthode QueryDef.CreateProperty (DAO)
 
@@ -30,10 +30,10 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -74,7 +74,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 
 ## <a name="return-value"></a>Valeur renvoyée
 
-Property
+Propriété
 
 ## <a name="remarks"></a>Remarques
 
@@ -82,7 +82,7 @@ Vous pouvez créer un objet utilisateur **Property** uniquement dans la collecti
 
 Si vous omettez une ou plusieurs parties facultatives lorsque vous utilisez **CreateProperty**, vous pouvez utiliser une instruction d'affectation appropriée pour définir ou réinitialiser la propriété correspondante avant d'ajouter le nouvel objet à une collection. Une fois que vous ajoutez l'objet, vous pouvez modifier certains de ses paramètres de propriété mais pas tous. Pour plus d'informations, reportez-vous aux rubriques des propriétés **Name**, **Type** et **Value**.
 
-Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez **[la méthode Append.](fields-append-method-dao.md)**
+Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez **[la méthode Append](fields-append-method-dao.md)** .
 
 Pour supprimer un objet utilisateur **Property** de la collection, utilisez la méthode **[Delete](fields-delete-method-dao.md)** de la collection **[Properties](properties-collection-dao.md)**. Vous ne pouvez pas supprimer de propriétés intégrées.
 

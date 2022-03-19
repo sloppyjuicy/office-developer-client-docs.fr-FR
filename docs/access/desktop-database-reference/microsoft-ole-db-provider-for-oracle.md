@@ -7,12 +7,12 @@ ms:contentKeyID: 48546465
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 258fbb5ef1810951788e0dc81dd00386064efc0a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a70294e4381413fc19ce504b3547e837ed0e9a09
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622164"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633329"
 ---
 # <a name="microsoft-ole-db-provider-for-oracle"></a>Fournisseur Microsoft OLE DB pour Oracle
 
@@ -46,12 +46,12 @@ La chaîne est composée des mots clé suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Mot clé</p></th>
+<th><p>Keyword</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -84,8 +84,8 @@ Ces paramètres sont décrits en détail dans le guide OLE DB Programmer's Refer
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

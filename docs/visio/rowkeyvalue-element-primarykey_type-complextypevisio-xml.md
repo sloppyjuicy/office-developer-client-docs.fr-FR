@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 9077ad4b-c539-c0c8-d268-9a009990abdd
 description: Spécifie la valeur d’une clé primaire pour une ligne individuelle d’un recordset.
-ms.openlocfilehash: 36938e7a1d348bd4c00778b2a58776d2f9b2e62c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3f0f9fd16ff7e663a82c50a4117d8d19d56e331d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772640"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626989"
 ---
 # <a name="rowkeyvalue-element-primarykey_type-complextype-visio-xml"></a>Élément RowKeyValue (PrimaryKey_Type complexType) (Visio XML)
 
 Spécifie la valeur d’une clé primaire pour une ligne individuelle d’un recordset.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[PrimaryKey](primarykey-element-datarecordset_type-complextypevisio-xml.md) <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |Spécifie une clé primaire d’un recordset. |
    

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 9e055269-f3bf-4b64-8384-3cbc372c0b34
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7f7a35716c37228c3c113c99739fd3b4c8f798e0
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 116c74037d2cf9d33d7dbba07e46a52d545b1865
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784285"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634050"
 ---
 # <a name="dir_entryid"></a>DIR_ENTRYID
 
@@ -23,7 +23,7 @@ ms.locfileid: "62784285"
   
 Décrit les propriétés d’un ID d’entrée d’annuaire.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |entryid.h  <br/> |
    
@@ -72,7 +72,7 @@ typedef struct _dir_entryid
 
 Les structures **DIR_ENTRYID** et [CONTAB_ENTRYID](contab_entryid.md) sont identiques, à l’exception du **membre ulType** . Le contenu du membre **ulType** détermine la structure appropriée pour les champs restants. 
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

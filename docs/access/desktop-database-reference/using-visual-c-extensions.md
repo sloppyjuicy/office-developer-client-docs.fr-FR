@@ -7,12 +7,12 @@ ms:contentKeyID: 48543270
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4b39946c0288de29714eb8416242670c761557dc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6f08d0dddaa26623861359525b92c3502649d3e1
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59562026"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634974"
 ---
 # <a name="using-visual-c-extensions"></a>Utilisation d’extensions Visual C++
 
@@ -48,7 +48,7 @@ Incluez le fichier suivant dans votre application pour pouvoir utiliser les exte
 
 1.  Créez une classe dérivée de la classe **CADORecordBinding**.
 
-2.  Spécifiez les entrées de liaison et les variables C/C++ correspondantes dans la classe dérivée. Mettre entre crochets les entrées de liaison entre les macros **BEGIN \_ ADO \_ BINDING** et **END \_ ADO \_ BINDING.** Les macros ne doivent pas se terminer par des virgules ou des points-virgules. Les délimiteurs appropriés sont spécifiés automatiquement par chaque macro. Spécifiez une entrée de liaison pour chaque champ à mapper à une variable C/C++. Utilisez un membre approprié de la famille de macros ENTRÉE LONGUEUR FIXE **ADO, \_ \_ \_** ENTRÉE NUMÉRIQUE **ADO \_ \_** ou **LONGUEUR \_ VARIABLE \_ \_ ADO.**
+2.  Spécifiez les entrées de liaison et les variables C/C++ correspondantes dans la classe dérivée. Mettre entre crochets les entrées **de liaison entre les macros BEGINADOBINDING\_\_** et **ENDADOBINDING\_\_**. Les macros ne doivent pas se terminer par des virgules ou des points-virgules. Les délimiteurs appropriés sont spécifiés automatiquement par chaque macro. Spécifiez une entrée de liaison pour chaque champ à mapper à une variable C/C++. Utilisez un membre approprié de la famille de macros **ADOFIXEDLENGTHENTRY\_\_\_**, **ADONUMERICENTRY\_\_** ou **ADOVARIABLELENGTHENTRY\_\_\_**.
 
 3.  Dans votre application, créez une instance de la classe dérivée de **CADORecordBinding**. Obtenez l'interface **IADORecordBinding** de l'objet **Recordset**, puis appelez la méthode **BindToRecordset** pour lier les champs de l'objet **Recordset** aux variables C/C++.
 
@@ -82,33 +82,33 @@ Pour plus d'informations, consultez le manuel *OLE DB Programmer's Reference*, A
 
 _**Début des entrées de liaison**_
 
-**BEGIN \_ ADO \_ BINDING**(*Class*)
+**BEGIN\_ ADOBINDING\_**(*Class*)
 
 _**Données de longueur fixe**_
 
-**ADO \_ FIXED \_ LENGTH \_ ENTRY**(*Ordinal, DataType, Buffer, Status, Modify*)  
-**ADO \_ FIXED \_ LENGTH \_ ENTRY2**(*Ordinal, DataType, Buffer, Modify*)
+**ADO\_ FIXEDLENGTHENTRY\_\_**(*Ordinal, DataType, Buffer, Status, Modify*)  
+**ADO\_ FIXEDLENGTHENTRY2\_\_**(*Ordinal, DataType, Buffer, Modify*)
 
 _**Données numériques**_
 
-**ADO \_ NUMERIC \_ ENTRY**(*Ordinal, DataType, Buffer, Precision, Scale, Status, Modify*)  
-**ADO \_ NUMERIC \_ ENTRY2**(*Ordinal, DataType, Buffer, Precision, Scale, Modify*)
+**ADO\_ NUMERICENTRY\_**(*Ordinal, DataType, Buffer, Precision, Scale, Status, Modify*)  
+**ADO\_ NUMERICENTRY2\_**(*Ordinal, DataType, Buffer, Precision, Scale, Modify*)
 
 _**Données de longueur variable**_
 
-**ADO \_ ENTRÉE \_ DE LONGUEUR \_ VARIABLE**(*Ordinal, Type de données, Mémoire tampon, Taille, État, Longueur, Modifier*)  
-**ADO \_ VARIABLE \_ LENGTH \_ ENTRY2**(*Ordinal, DataType, Buffer, Size, Status, Modify*)  
-**ADO \_ VARIABLE \_ LENGTH \_ ENTRY3**(*Ordinal, DataType, Buffer, Size, Length, Modify*)  
-**ADO \_ VARIABLE \_ LENGTH \_ ENTRY4**(*Ordinal, DataType, Buffer, Size, Modify*)
+**ADO\_ VARIABLELENGTHENTRY\_\_**(*Ordinal, DataType, Buffer, Size, Status, Length, Modify*)  
+**ADO\_ VARIABLELENGTHENTRY2\_\_**(*Ordinal, DataType, Buffer, Size, Status, Modify*)  
+**ADO\_ VARIABLELENGTHENTRY3\_\_**(*Ordinal, DataType, Buffer, Size, Length, Modify*)  
+**ADO\_ VARIABLELENGTHENTRY4\_\_**(*Ordinal, DataType, Buffer, Size, Modify*)
 
-_**Entrées de liaison de fin**_
+_**Fin des entrées de liaison**_
 
-**END \_ LIAISON \_ ADO**()
+**END\_ ADOBINDING\_**()
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -139,7 +139,7 @@ _**Entrées de liaison de fin**_
 </tr>
 <tr class="even">
 <td><p><em>État</em></p></td>
-<td><p>Nom d'une variable qui indique si le contenu du paramètre <em>Mémoire tampon</em> est valide et si la conversion du champ en <em>Type de données</em> s'est correctement déroulée. Les deux valeurs les plus importantes de cette variable sont <strong>adFldOK</strong>, qui indique que la conversion s'est correctement déroulée, et <strong>adFldNull</strong>, qui indique que la valeur du champ est un VARIANT de type VT_NULL et que ce champ n'est pas simplement vide. Les valeurs possibles <em>pour l’état</em> sont répertoriées dans le tableau suivant, &quot; Valeurs d’état.&quot;</p></td>
+<td><p>Nom d'une variable qui indique si le contenu du paramètre <em>Mémoire tampon</em> est valide et si la conversion du champ en <em>Type de données</em> s'est correctement déroulée. Les deux valeurs les plus importantes de cette variable sont <strong>adFldOK</strong>, qui indique que la conversion s'est correctement déroulée, et <strong>adFldNull</strong>, qui indique que la valeur du champ est un VARIANT de type VT_NULL et que ce champ n'est pas simplement vide. Les valeurs possibles <em>pour l’état</em> sont répertoriées dans le tableau suivant, &quot;Valeurs d’état.&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Modify</em></p></td>
@@ -170,9 +170,9 @@ Lorsque vous définissez les données, vous pouvez affecter à *État* la valeur
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -204,7 +204,7 @@ Lorsque vous définissez les données, vous pouvez affecter à *État* la valeur
 </tr>
 <tr class="odd">
 <td><p><strong>adFldTruncated</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Des données de longueur variable ou des chiffres ont été tronqués.</p></td>
 </tr>
 <tr class="even">

@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 47533e6e-0a48-af61-a0c2-b2cec140ae4b
 description: Identifie une ou plusieurs colonnes de clé primaire dans le recordset de données.
-ms.openlocfilehash: 4d2984e105fa2f56536d69f4618cb88a25ac5f64
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a426b8a7f5756f63113a1fc93987088334b53373
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784621"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626135"
 ---
 # <a name="primarykey-element-datarecordset_type-complextype-visio-xml"></a>Élément PrimaryKey (DataRecordSet_Type complexType) (Visio XML)
 
 Identifie une ou plusieurs colonnes de clé primaire dans le recordset de données.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Stocke, met en forme, actualise et expose dans Microsoft Visio les données qui ont fait l’objet d’une requête dans une base de données. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |Spécifie la valeur de ce composant de la clé primaire pour une ligne individuelle d’un recordset. Il DOIT y avoir au moins une occurrence de cet élément enfant. |
    

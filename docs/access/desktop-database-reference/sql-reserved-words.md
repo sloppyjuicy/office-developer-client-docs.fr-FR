@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 1ea19e7032dd1e67d8911bf7a66d51b2dc44077a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b1fccd9ac62886c78f0d6cbb6cb294eed3b17d35
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621765"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627283"
 ---
 # <a name="sql-reserved-words"></a>Mots réservés SQL
 
@@ -34,8 +34,8 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -82,8 +82,8 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -170,8 +170,8 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -214,8 +214,8 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -266,8 +266,8 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -322,8 +322,8 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -378,8 +378,8 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -454,8 +454,8 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -526,8 +526,8 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">

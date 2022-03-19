@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 4c639f14a414c5bd32d1790631a6c1e6baaf1288
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e52d9eb2c8e7e9a1f51641e7a88dc21d16fc794f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597449"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627647"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>DBEngine.OpenDatabase, méthode (DAO)
 
@@ -34,10 +34,10 @@ Ouvre une base de données spécifiée et renvoie une référence à l’objet *
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -86,8 +86,8 @@ Vous pouvez utiliser les valeurs ci-dessous pour l’argument options.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

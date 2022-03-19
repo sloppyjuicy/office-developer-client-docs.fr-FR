@@ -7,12 +7,12 @@ ms:contentKeyID: 48544389
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 9059af7438d877c003fbe4e5deb2e9ab90fef966
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 72996b948ceb3d11969bef3857eb82c5be1ac4d7
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585570"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634995"
 ---
 # <a name="parameterdirectionenum-enumeration-dao"></a>ParameterDirectionEnum, éumération (DAO)
 
@@ -23,9 +23,9 @@ Cette énumération est utilisée avec la propriété **Direction** pour spécif
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -52,7 +52,7 @@ Cette énumération est utilisée avec la propriété **Direction** pour spécif
 </tr>
 <tr class="even">
 <td><p>dbParamReturnValue</p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Transmet la valeur de retour d'une procédure.</p></td>
 </tr>
 </tbody>

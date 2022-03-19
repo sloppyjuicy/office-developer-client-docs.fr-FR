@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4dd58b0b-dc39-4782-a9ec-05e353c90927
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 51052bd3ee46e880f84cbc0fd5ace69f2ae68f21
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4bb6295ce75c0036aaa8d13cdd8c66acf8cd4c35
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604991"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629516"
 ---
 # <a name="fequalnames"></a>FEqualNames
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604991"
   
 Détermine si deux propriétés nommées MAPI sont identiques. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

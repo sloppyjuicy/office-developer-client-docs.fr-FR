@@ -7,12 +7,12 @@ ms:contentKeyID: 48548905
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 042ede650e6658ef346177491f95e976839c96e2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6dd1b4ac9e1c18ef266b1dc81d3904cad8f6d00f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568319"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629677"
 ---
 # <a name="whats-new-in-ado"></a>Nouveautés dans ADO
 
@@ -24,7 +24,7 @@ La version ADO 2.5 propose les nouvelles fonctionnalités suivantes ainsi qu'une
 
 - **[Enregistrements et flux](chapter-10-records-and-streams.md)**
 
-  Cette version d’ADO introduit l’objet [Record,](record-object-ado.md) qui peut représenter et gérer des éléments tels que des répertoires et des fichiers dans un système de fichiers, ainsi que des dossiers et des messages dans un système de messagerie. L'objet **Record** peut également représenter une ligne d'un [Recordset](recordset-object-ado.md), bien que les objets **Record** et **Recordset** aient des méthodes et des propriétés différentes.
+  Cette version d’ADO introduit l’objet [Record](record-object-ado.md) , qui peut représenter et gérer des éléments tels que des répertoires et des fichiers dans un système de fichiers, ainsi que des dossiers et des messages dans un système de messagerie. L'objet **Record** peut également représenter une ligne d'un [Recordset](recordset-object-ado.md), bien que les objets **Record** et **Recordset** aient des méthodes et des propriétés différentes.
 
   Le nouvel objet [Stream](stream-object-ado.md) fournit les moyens de lire, d'écrire et de gérer le flux binaire d'octets ou de texte qui compose un flux de message ou de fichier.
 
@@ -36,7 +36,7 @@ La version ADO 2.5 propose les nouvelles fonctionnalités suivantes ainsi qu'une
 
 - **[Champs spéciaux pour les fournisseurs de sources de documents](records-and-provider-supplied-fields.md)**
 
-  Une classe spéciale de fournisseurs, appelée fournisseurs de *source de documents*, gère des dossiers et des documents. Lorsqu'un objet **Record** représente un document ou lorsqu'un objet **Recordset** représente un dossier de documents, le fournisseur de source de documents remplit ces objets d'un ensemble de champs unique qui décrit les caractéristiques du document. Ces champs constituent un *enregistrement de ressource*  ou **un recordset**.
+  Une classe spéciale de fournisseurs, appelée fournisseurs de *source de documents*, gère des dossiers et des documents. Lorsqu'un objet **Record** représente un document ou lorsqu'un objet **Recordset** représente un dossier de documents, le fournisseur de source de documents remplit ces objets d'un ensemble de champs unique qui décrit les caractéristiques du document. Ces champs constituent un *record ou* **un** **recordset de ressource**.
 
 ## <a name="new-reference-topics"></a>Nouvelles rubriques de référence
 
@@ -46,12 +46,12 @@ Les nouvelles propriétés suivantes sont fournies dans cette version.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Property</p></th>
+<th><p>Propriété</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -93,11 +93,11 @@ Les nouvelles propriétés suivantes sont fournies dans cette version.
 <td><p>Indique l'entité représentée par l'objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado.md">State</a></p></td>
+<td><p><a href="state-property-ado.md">État</a></p></td>
 <td><p>Indique, pour tous les objets applicables, si l'état de l'objet est ouvert ou fermé. Indique, pour tous les objets applicables exécutant une méthode asynchrone, si l'état actuel de l'objet est « en cours de connexion », « en cours d'exécution » ou « en cours d'extraction ».</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado-stream.md">Type (Type)</a></p></td>
+<td><p><a href="type-property-ado-stream.md">Type</a></p></td>
 <td><p>Indique le type des données contenues dans l'objet <strong>Stream</strong> (binaire ou texte).</p></td>
 </tr>
 </tbody>
@@ -109,8 +109,8 @@ Les nouvelles méthodes suivantes sont fournies dans cette version.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -125,7 +125,7 @@ Les nouvelles méthodes suivantes sont fournies dans cette version.
 </tr>
 <tr class="even">
 <td><p><a href="copyto-method-ado.md">CopyTo</a></p></td>
-<td><p>Copie le nombre spécifié de caractères ou d’octets (selon <strong>le type)</strong>de l’objet <strong>Stream</strong> <strong>dans</strong> un <strong>autre objet Stream.</strong></p></td>
+<td><p>Copie le nombre spécifié de caractères ou d’octets (selon le <strong>type</strong>) de l’objet <strong>Stream</strong> <strong>dans un</strong> <strong>autre objet Stream</strong> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="deleterecord-method-ado.md">DeleteRecord</a></p></td>
@@ -199,5 +199,5 @@ Les nouvelles méthodes suivantes sont fournies dans cette version.
 
 - **[Programmation avec ADO](appendix-c-programming-with-ado.md)**
 
-  Cette nouvelle section contient des conseils et des astuces pour l'utilisation d'ADO avec différents langages de programmation. Il contient les index de syntaxe existants pour les extensions Visual C++ pour ADO et ADO/WFC, ainsi que de nouvelles informations spécifiques aux développeurs utilisant Microsoft Visual Basic, Microsoft Visual Basic Scripting Edition, Microsoft JScript, Microsoft Visual C++ ou Microsoft Visual J++.
+  Cette nouvelle section contient des conseils et des astuces pour l'utilisation d'ADO avec différents langages de programmation. Il contient les index de syntaxe existants pour les extensions Visual C++ pour ADO et ADO/WFC, ainsi que de nouvelles informations spécifiques aux développeurs qui utilisent Microsoft Visual Basic, Microsoft Visual Basic Scripting Edition, Microsoft JScript, Microsoft Visual C++ ou Microsoft Visual J++.
 

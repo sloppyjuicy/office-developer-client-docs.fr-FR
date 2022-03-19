@@ -7,12 +7,12 @@ ms:contentKeyID: 48543842
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4852562fcc755ae0edc8376d0e59d67a1e0affe0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 132212c1dc78a15ebdbef3e36ec7b9a9c854170b
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558197"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626520"
 ---
 # <a name="moverecordoptionsenum"></a>MoveRecordOptionsEnum
 
@@ -23,9 +23,9 @@ Spécifie le fonctionnement de la méthode [MoveRecord](moverecord-method-ado.md
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -52,7 +52,7 @@ Spécifie le fonctionnement de la méthode [MoveRecord](moverecord-method-ado.md
 </tr>
 <tr class="even">
 <td><p><strong>adMoveAllowEmulation</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Demande au fournisseur de simuler le déplacement (à l'aide d'opérations de téléchargement, de chargement et de suppression). Si la tentative de déplacement du <strong>Record</strong> échoue parce que l'URL de destination se trouve sur un autre serveur ou si elle est servie par un autre fournisseur que la source des données, il peut en résulter une latence accrue ou une perte de données, en raison des caractéristiques différentes des fournisseurs.</p></td>
 </tr>
 </tbody>

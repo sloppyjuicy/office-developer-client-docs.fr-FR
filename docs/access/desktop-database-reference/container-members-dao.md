@@ -7,12 +7,12 @@ ms:contentKeyID: 48547451
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 8dfd71c97f9bbece315a522aaf2cfb230a3fa95e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 43c5ac65000f4c6b3f31f8fa487b258785191d17
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626987"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627801"
 ---
 # <a name="container-members-dao"></a>Container Members (DAO)
 
@@ -25,8 +25,8 @@ Un objet Container regroupe des types d'objets Document similaires.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -41,7 +41,7 @@ Un objet Container regroupe des types d'objets Document similaires.
 </tr>
 <tr class="even">
 <td><p><strong><a href="container-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Renvoie le nom de l'objet spécifié. En lecture seule <strong>chaîne</strong>.</p></td>
+<td><p>Renvoie le nom de l'objet spécifié. Type <strong>chaîne</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="container-properties-property-dao.md">Propriétés</a></strong></p></td>

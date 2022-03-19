@@ -7,18 +7,18 @@ ms:contentKeyID: 48545101
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 9dce3b58b21287f38a728bd0db8e3897192f39d6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 12b4a0b087042d665a162f68e35b73e65f41127f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589511"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626576"
 ---
 # <a name="field2getchunk-method-dao"></a>Field2.GetChunk, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie l’ensemble ou une partie du contenu d’un objet **Memo** ou **Long BinaryField2** dans la collection **[Fields](fields-collection-dao.md)** d’un **[objet Recordset.](recordset-object-dao.md)**
+Renvoie l’ensemble ou une partie du contenu d’un objet **Memo** ou **Long BinaryField2** dans la collection **[Fields](fields-collection-dao.md)** d’un **[objet Recordset](recordset-object-dao.md)** .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -30,10 +30,10 @@ Renvoie l’ensemble ou une partie du contenu d’un objet **Memo** ou **Long Bi
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

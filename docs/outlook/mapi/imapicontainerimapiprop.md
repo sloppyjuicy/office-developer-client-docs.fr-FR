@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d83fdd83-3e86-43c8-a73f-8e9e01b53371
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: de8ed6edbdd85f230bcb52f557737f5937fb4e39
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 4e4554556bbb51007454c6cb1b18ee8903fe3043
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62779926"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626262"
 ---
 # <a name="imapicontainer--imapiprop"></a>IMAPIContainer : IMAPIProp
 
@@ -27,7 +27,7 @@ ms.locfileid: "62779926"
   
 Gère les opérations de haut niveau sur les objets conteneur tels que les carnets d’adresses, les listes de distribution et les dossiers. Les interfaces [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md), [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) et [IDistList : IMAPIContainer](idistlistimapicontainer.md) sont dérivées **d’IMAPIContainer**.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Objets dossier, conteneur de carnet d’adresses et liste de distribution  <br/> |
@@ -39,7 +39,7 @@ Gère les opérations de haut niveau sur les objets conteneur tels que les carne
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetContentsTable](imapicontainer-getcontentstable.md) <br/> |Renvoie un pointeur vers la table des matières du conteneur. |
 |[GetHierarchyTable](imapicontainer-gethierarchytable.md) <br/> |Renvoie un pointeur vers le tableau hiérarchique du conteneur. |
@@ -53,7 +53,7 @@ Gère les opérations de haut niveau sur les objets conteneur tels que les carne
 |**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Lecture/écriture  <br/> |
    
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

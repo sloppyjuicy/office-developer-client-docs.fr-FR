@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: fda44d6b78b089f144216eb224ff3d2812b528be
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 38db41c03fd479fe3aad414f5c234c7c66bee801
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612189"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626590"
 ---
 # <a name="execute-statement-microsoft-access-sql"></a>EXECUTE, instruction (Microsoft Access SQL)
 
@@ -32,8 +32,8 @@ L’instruction EXECUTE est composée des éléments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

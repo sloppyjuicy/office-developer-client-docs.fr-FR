@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 5b265356-1602-4241-fbe1-4d5a55392a52
 description: Définit le niveau de transparence de la couleur d'un calque.
-ms.openlocfilehash: 1d4007715b8a4f68b84718cc6a46333c476bf919
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: b32681d07747e4ef630220df1fe3d506816c8f75
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784530"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626940"
 ---
 # <a name="transparency-cell-image-properties-section"></a>Transparency, cellule (section Image Properties)
 
@@ -30,16 +30,16 @@ Les valeurs sont arrondies au demi-point le plus proche. Une valeur de 100 % co
   
 Pour obtenir une référence à la cellule Transparency par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Transparence  <br/> |
+|**Nom de la cellule :**  <br/> |Transparence  <br/> |
    
 Pour obtenir une référence à la cellule Transparency par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowImage** <br/> |
-|Index de la cellule :  <br/> |**visImageTransparency** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowImage** <br/> |
+|**Index de la cellule :**  <br/> |**visImageTransparency** <br/> |
    
 

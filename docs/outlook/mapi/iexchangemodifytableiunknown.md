@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 45a73c7b-5855-4b70-866b-facb41cb3c32
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1299fde8ccd553f6f748fa167085aa277cc200ab
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ffc219ffd731fa128002d795b21f07c83f3aabdb
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784187"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627976"
 ---
 # <a name="iexchangemodifytable--iunknown"></a>IExchangeModifyTable : IUnknown
 
@@ -25,11 +25,11 @@ ms.locfileid: "62784187"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Prend en charge l’Microsoft Exchange Server des objets table, en particulier les objets de table de liste de contrôle d’accès système (SACL) et les objets table de règles sur Microsoft Exchange Server dossiers. Cette interface ressemble à l’interface [IMAPITable : IUnknown](imapitableiunknown.md), mais elle ajoute la prise en charge des structures spécifiques Microsoft Exchange Server utilisées pour contrôler les règles et les saclabes. 
+Prend en charge l’Microsoft Exchange Server des objets table, en particulier les objets de table de liste de contrôle d’accès système (SACL) et les objets table de règles sur Microsoft Exchange Server dossiers. Cette interface ressemble à l’interface [IMAPITable : IUnknown](imapitableiunknown.md), mais elle ajoute la prise en charge de structures spécifiques Microsoft Exchange Server utilisées pour contrôler les règles et les saclabes. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
-|Exposé par :  <br/> |Aucune  <br/> |
+|Exposé par :  <br/> |Aucun  <br/> |
 |Implémenté par :  <br/> |Objets table serveur  <br/> |
 |Appelé par :  <br/> |MAPI et applications clientes  <br/> |
 |Identificateur d’interface :  <br/> |IID_IExchangeModifyTable  <br/> |
@@ -38,7 +38,7 @@ Prend en charge l’Microsoft Exchange Server des objets table, en particulier l
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |Renvoie des informations sur la dernière erreur qui s’est produite dans un objet table. |
 |[GetTable](iexchangemodifytable-gettable.md) <br/> |Renvoie un pointeur vers une interface pour un objet table MAPI. |
@@ -66,9 +66,9 @@ Prend en charge l’Microsoft Exchange Server des objets table, en particulier l
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir l’interface **IExchangeModifyTable** , appelez la méthode MAPI [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur une propriété de type PT_OBJECT sur un objet dossier. Lorsque vous appelez **la méthode OpenProperty** , passez la valeur **IID_IExchangeModifyTable** dans le _paramètre lpiid_ . 
+Pour obtenir l’interface **IExchangeModifyTable** , appelez la méthode MAPI [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur une propriété de type PT_OBJECT sur un objet dossier. Lorsque vous appelez **la méthode OpenProperty** , passez la **valeur IID_IExchangeModifyTable** dans le _paramètre lpiid_ . 
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

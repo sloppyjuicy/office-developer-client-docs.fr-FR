@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4847838a-2ad8-4927-8f78-7fa5c8eb54eb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9a26d55416d7da20b2915acfda644c50e4d86dc2
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 78794f2c90f4c7b001ec63ec9b0e45abb102c810
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63378253"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629068"
 ---
 # <a name="hrdecomposeeid"></a>HrDecomposeEID
 
@@ -25,7 +25,7 @@ ms.locfileid: "63378253"
   
 Sépare l’identificateur d’entrée composé d’un objet, généralement un message dans une magasin de messages, dans l’identificateur d’entrée de cet objet dans la boutique et dans l’identificateur d’entrée de la boutique.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

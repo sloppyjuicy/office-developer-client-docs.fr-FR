@@ -7,12 +7,12 @@ ms:contentKeyID: 48548940
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 02debed4adf3c9579b65660fcfcd27c73ed77588
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7d22c36117b18bf52c3f6a32a17da43a92b200c3
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589644"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628333"
 ---
 # <a name="editrecord-data-block"></a>Bloc de données EditRecord
 
@@ -24,14 +24,14 @@ Vous pouvez utiliser le bloc de données **ModifierEnregistrement** pour modifie
 > Le bloc de données **ModifierEnregistrement** est disponible uniquement dans les macros de données.
 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 Le bloc de données **ModifierEnregistrement** utilise les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -53,7 +53,7 @@ Après l'instruction **ModifierEnregistrement**, vous pouvez insérer un bloc de
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">

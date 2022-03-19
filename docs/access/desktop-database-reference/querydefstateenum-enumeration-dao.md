@@ -7,12 +7,12 @@ ms:contentKeyID: 48548549
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: afed37a05b4598c1f57399162a68f430941d9e93
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ac9e0798df22f9f32726d69ee0fd30cdecf76ca6
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558029"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628695"
 ---
 # <a name="querydefstateenum-enumeration-dao"></a>QueryDefStateEnum, éumération (DAO)
 
@@ -23,9 +23,9 @@ Cette énumération est utilisée avec la propriété **Prepare** afin de spéci
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

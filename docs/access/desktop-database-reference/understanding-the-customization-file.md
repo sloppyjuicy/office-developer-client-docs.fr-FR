@@ -7,19 +7,19 @@ ms:contentKeyID: 48546507
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 97d4def23493bcbc881fa0a6df5166aba1e116c4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 89fa141fb6d4b97298ed27ee2431d4307bc6c6fa
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588902"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626401"
 ---
 # <a name="understanding-the-customization-file"></a>Présentation du fichier de personnalisation
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Chaque en-tête de section du fichier de personnalisation se compose de crochets ( ) contenant **\[\]** un type et un paramètre. Les quatre types de section sont signalés par les chaînes littérales **connect**, **sql**, **userlist** ou **logs**. Le paramètre est la chaîne littérale, la valeur par défaut, un identificateur spécifié par l'utilisateur ou rien.
+Chaque en-tête de section du fichier de personnalisation se compose de crochets (**\[\]**) contenant un type et un paramètre. Les quatre types de section sont signalés par les chaînes littérales **connect**, **sql**, **userlist** ou **logs**. Le paramètre est la chaîne littérale, la valeur par défaut, un identificateur spécifié par l'utilisateur ou rien.
 
 En conséquence, chaque section est marquée par l'un des en-têtes de section suivants :
 
@@ -37,12 +37,12 @@ Les en-têtes de section comportent les parties suivantes.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Élément</p></th>
+<th><p>Quitter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

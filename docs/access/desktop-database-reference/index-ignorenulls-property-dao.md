@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 51d6ffd9c07ec9d03f9dfce54f98b8edaabf7145
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5b254e278dc88ff68b04cc9d557e690a33f1db4b
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585633"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633406"
 ---
 # <a name="indexignorenulls-property-dao"></a>Index.IgnoreNulls, propriété (DAO)
 
@@ -29,7 +29,7 @@ Définit ou renvoie une valeur qui indique si les enregistrements ayant des vale
 
 *.* IgnoreNulls
 
-*expression* Variable qui représente un objet **Index.**
+*expression* Variable qui représente un objet **Index** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -41,9 +41,9 @@ Les paramètres de propriété **IgnoreNulls** et **[Required](field-required-pr
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -65,7 +65,7 @@ Les paramètres de propriété **IgnoreNulls** et **[Required](field-required-pr
 </tr>
 <tr class="odd">
 <td><p>True ou False</p></td>
-<td><p>Vrai</p></td>
+<td><p>True</p></td>
 <td><p>Aucune valeur nulle n'est autorisée dans le champ d'index ; aucune entrée d'index n'est ajoutée.</p></td>
 </tr>
 </tbody>

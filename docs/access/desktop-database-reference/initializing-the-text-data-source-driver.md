@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: e05fa81a3303daec0c2be34f8f184fde38d771af
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 864ca340e4fffa02ffc82d48290d4de7ee47909d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462030"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634218"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Initialisation du pilote de source de données texte
 
@@ -51,8 +51,8 @@ Le moteur de base de données Microsoft Access utilise les entrées de dossier T
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -108,9 +108,9 @@ Le **dossier Access Connectivity EngineISAM\\ FormatsText\\** contient les entr�
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -123,7 +123,7 @@ Le **dossier Access Connectivity EngineISAM\\ FormatsText\\** contient les entr�
 <tr class="odd">
 <td><p>Moteur</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Texte</p></td>
+<td><p>Text</p></td>
 </tr>
 <tr class="even">
 <td><p>ExportFilter</p></td>
@@ -193,9 +193,9 @@ Le **dossier d’importation Access Connectivity EngineISAM\\ FormatsHTML\\** co
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -208,7 +208,7 @@ Le **dossier d’importation Access Connectivity EngineISAM\\ FormatsHTML\\** co
 <tr class="odd">
 <td><p>Moteur</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Texte</p></td>
+<td><p>Text</p></td>
 </tr>
 <tr class="even">
 <td><p>ImportFilter</p></td>
@@ -267,9 +267,9 @@ Le **dossier Access Connectivity EngineISAM\\ FormatsHTML\\ Export** contient le
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -282,7 +282,7 @@ Le **dossier Access Connectivity EngineISAM\\ FormatsHTML\\ Export** contient le
 <tr class="odd">
 <td><p>Moteur</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Texte</p></td>
+<td><p>Text</p></td>
 </tr>
 <tr class="even">
 <td><p>ExportFilter</p></td>
@@ -420,8 +420,8 @@ Le moteur de base de données Microsoft Access utilise les entrées du fichier S
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

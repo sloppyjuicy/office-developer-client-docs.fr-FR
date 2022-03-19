@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8aba90d8-ea1f-4636-af80-17bfeadbdfa0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f7534e5e23259329b3a020f3a22abb7785c6d3ae
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: aeeaf871750a6175b7f0746c4c92801dd058bdaa
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63378274"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634547"
 ---
 # <a name="hrcomposeeid"></a>HrComposeEID
 
@@ -25,7 +25,7 @@ ms.locfileid: "63378274"
   
 Crée un identificateur d’entrée composé pour un objet, généralement un message dans une magasin de messages.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -83,7 +83,7 @@ Si le message ou un autre objet pour lequel l’identificateur d’entrée compo
   
 La **fonction HrComposeEID** permet aux applications de travailler avec des objets dans plusieurs magasins via l’utilisation d’identificateurs d’entrée composés. Une application peut appeler la [fonction HrDecomposeEID](hrdecomposeeid.md) pour fractionner l’identificateur d’entrée composé en ses constituants d’origine.
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 [HrComposeMsgID](hrcomposemsgid.md)
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f7182631-7f0e-4f4a-995d-22c0bedd7b6a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 058ab8241811c17e127a64509f929b1709e06b57
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6fbd533771542794a1fff9cb9424117e64f63df4
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572066"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634645"
 ---
 # <a name="cbnewflatentrylist"></a>CbNewFLATENTRYLIST
 
@@ -27,7 +27,7 @@ ms.locfileid: "59572066"
   
 Calcule le nombre d’octets qui doivent être alloués à une nouvelle structure [FLATENTRYLIST](flatentrylist.md) qui contient plusieurs structures [FLATENTRY](flatentry.md) d’une taille spécifiée. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**FLATENTRYLIST** <br/> |
@@ -40,9 +40,9 @@ CbNewFLATENTRY (_cb)
 
  _ _cb_
   
-> Nombre d’octets dans les structures **FLATENTRY** à inclure dans la nouvelle structure **FLATENTRYLIST.** 
+> Nombre d’octets dans **les structures FLATENTRY** à inclure dans la nouvelle structure **FLATENTRYLIST** . 
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

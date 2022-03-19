@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5650fa2a-6e62-451c-964e-363f7bee2344
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4c096268804c46527559baae2954495b42decee5
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 633bc0c30b26cae54f464f7596fb8fbea47c96b1
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777459"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627990"
 ---
 # <a name="imapisession--iunknown"></a>IMAPISession : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62777459"
   
 Gère les objets associés à une session d’ouverture de session MAPI.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
 |Exposé par :  <br/> |Objets de session  <br/> |
@@ -38,7 +38,7 @@ Gère les objets associés à une session d’ouverture de session MAPI.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetLastError](imapisession-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur de session précédente. |
 |[GetMsgStoresTable](imapisession-getmsgstorestable.md) <br/> |Permet d’accéder à la table de la boutique de messages qui contient des informations sur tous les magasins de messages dans le profil de session. |
@@ -60,7 +60,7 @@ Gère les objets associés à une session d’ouverture de session MAPI.
 |[ShowForm](imapisession-showform.md) <br/> |Affiche un formulaire. |
 |[PrepareForm](imapisession-prepareform.md) <br/> |Crée un jeton numérique que la **méthode ShowForm** utilise pour accéder à un message. |
    
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

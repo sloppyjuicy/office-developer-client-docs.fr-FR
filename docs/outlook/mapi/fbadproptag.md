@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 143bd3c6-5a55-4122-8522-9c48473aa781
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d1e5bac98f69080a3b534bfa8f96bbe3f5a3e4f8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c7cd82dec7affe7f0f4668150875914865ccf08f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596469"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626373"
 ---
 # <a name="fbadproptag"></a>FBadPropTag
 
@@ -27,7 +27,7 @@ ms.locfileid: "59596469"
   
 Valide une balise de propriété spécifiée. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -59,7 +59,7 @@ FALSE
 
 La **fonction FBadPropTag** valide la balise de propriété spécifiée en fonction des définitions MAPI. Il s’assure que le type de propriété est l’un des types définis par MAPI et que l’identificateur de propriété est défini comme étant de ce type. 
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f9624af2-c087-3dde-9140-339c438b3652
 description: Détermine si un trait est tracé autour du contour du chemin.
-ms.openlocfilehash: a4a2605bc6f71c7dd794c166559c1d8eddff38d6
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e925e6048cbf1edd22fca2308e9e98254d780cc4
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62786114"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626231"
 ---
 # <a name="noline-cell-geometry-section"></a>NoLine, cellule (section Geometry)
 
@@ -31,16 +31,16 @@ Lorsque vous décidez d'utiliser le blanc comme couleur de trait, le trait exist
   
 Pour obtenir une référence à la cellule NoLine par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Geometry  *i*  . NoLine où  *i*  = <1>, 2, 3... |
+| **Nom de cellule :**  <br/> | Geometry  *i*  . NoLine où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule NoLine à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionFirstComponent** +   *i* où *i* = 0, 1, 2... |
-| Index de la ligne :  <br/> |**visRowComponent** <br/> |
-| Index de la cellule :  <br/> |**visCompNoLine** <br/> |
+| **Index de la section :**  <br/> |**visSectionFirstComponent** +   *i* où *i* = 0, 1, 2... |
+| **Index de la ligne :**  <br/> |**visRowComponent** <br/> |
+| **Index de la cellule :**  <br/> |**visCompNoLine** <br/> |
    
 

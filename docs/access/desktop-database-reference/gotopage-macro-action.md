@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 9e4d7acd7c0f07f4d18a0a997c999cb877dbcb45
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2822b84f752566a001882dd31ca127c2a4c8879d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626497"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628732"
 ---
 # <a name="gotopage-macro-action"></a>GoToPage, action de macro
 
@@ -24,14 +24,14 @@ ms.locfileid: "59626497"
 
 Utilisez l'action **AtteindrePage** pour placer le focus dans le formulaire actif sur le premier contrôle d'une page spécifique. Vous pouvez utiliser cette action si vous avez créé un formulaire contenant différents groupes d'informations connexes séparés par des sauts de page. Par exemple, un formulaire Employés peut contenir des informations personnelles sur une page, des informations professionnelles sur une autre page et des informations sur les ventes sur une troisième page. Vous pouvez utiliser l'action **AtteindrePage** pour vous placer sur la page de votre choix. Vous pouvez également présenter plusieurs pages d'informations sur un même formulaire en utilisant des contrôles Onglet.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **AtteindrePage** possède les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -62,7 +62,7 @@ L’action **AtteindrePage** possède les arguments suivants.
 
 Vous pouvez utiliser cette action pour sélectionner le premier contrôle (comme défini par l’ordre de tabulation du formulaire) sur la page spécifiée. Utilisez l’action **AtteindreContrôle** pour vous placer dans un contrôle particulier sur le formulaire.
 
-Vous pouvez utiliser les **arguments** **Droit** et Bas pour les formulaires dont les pages sont plus grandes que la fenêtre Access. Utilisez l'argument **Numéro de page** pour vous placer sur la page de votre choix, puis utilisez les arguments **Droite** et **Bas** pour afficher la partie de la page de votre choix. Access affiche la partie de la page dont l'angle supérieur gauche est décalé de la distance spécifiée de l'angle supérieur gauche de la page.
+Vous pouvez utiliser **les arguments** **Droit** et Bas pour les formulaires dont les pages sont plus grandes que la fenêtre Access. Utilisez l'argument **Numéro de page** pour vous placer sur la page de votre choix, puis utilisez les arguments **Droite** et **Bas** pour afficher la partie de la page de votre choix. Access affiche la partie de la page dont l'angle supérieur gauche est décalé de la distance spécifiée de l'angle supérieur gauche de la page.
 
 Vous pouvez utiliser l'action **AtteindrePage** dans les cas suivants :
 

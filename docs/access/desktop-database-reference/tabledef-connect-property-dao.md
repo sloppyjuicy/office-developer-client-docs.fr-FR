@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: e267a739b3bf4187d8a00ce027d3c31262e4b16b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 339b077f95889b9022e5055860df5853d823688f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564833"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628123"
 ---
 # <a name="tabledefconnect-property-dao"></a>TableDef.Connect, propriété (DAO)
 
@@ -42,9 +42,9 @@ Le tableau suivant indique les types de base de données possible et leur spéci
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

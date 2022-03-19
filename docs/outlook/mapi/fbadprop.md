@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 929330c8-e6f2-4adf-a36e-fba18fa055d4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2274fa324425bfc3e04ec5a6a45ff1270cbfbca8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7b48c35963c822c54ccc4f37010101f8540984f8
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621149"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626380"
 ---
 # <a name="fbadprop"></a>FBadProp
 
@@ -27,7 +27,7 @@ ms.locfileid: "59621149"
   
 Valide une propriété spécifiée. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

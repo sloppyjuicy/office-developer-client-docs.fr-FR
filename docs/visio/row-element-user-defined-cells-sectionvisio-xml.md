@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 9fc27888-2809-aa29-4dbb-7e4f8a0c4758
 description: Information spécifiée par l’utilisateur qui peut être référente par d’autres cellules et outils de module complémentaire.
-ms.openlocfilehash: ba2b695ba56ea8258018b5e5ea332eeadd914608
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a6a30af31670d246e1f6036e0f227d0886c32e12
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62769980"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626982"
 ---
 # <a name="row-element-user-defined-cells-section-visio-xml"></a>Row, élément (section User-defined Cells) (Visio XML)
 
 Information spécifiée par l’utilisateur qui peut être référente par d’autres cellules et outils de module complémentaire.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Information spécifiée par l’utilisateur qui peut être référente par d’autres cellules et outils de module complémentaire. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Cell](cell-element-user-defined-cells-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Propriété d’une information spécifiée par l’utilisateur à qui peuvent faire référence d’autres cellules et outils de module complémentaire. |
    

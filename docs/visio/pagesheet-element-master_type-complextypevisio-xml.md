@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 824fbeb0-1a2f-35a0-50e3-c57143dc21ab
 description: Spécifie les propriétés de la page de dessin associée à la page de dessin.
-ms.openlocfilehash: 0d726e2f2e0384d1181336ef740ff56e9425da85
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 6f5e89bada95d35b956d4702e92e65c92e8b0016
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770442"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626219"
 ---
 # <a name="pagesheet-element-master_type-complextype-visio-xml"></a>Élément PageSheet (Master_Type complexType) (Visio XML)
 
 Spécifie les propriétés de la page de dessin associée à la page de dessin.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Spécifie une master dans un dessin. |
    

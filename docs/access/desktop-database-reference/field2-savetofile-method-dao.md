@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 5fb3d98823296f09a3ce6c7d15fb4c0e78ab6002
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 08e45f7b47235fa722140e09b50ad6d7aae2e432
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462388"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628270"
 ---
 # <a name="field2savetofile-method-dao"></a>Méthode Field2.SaveToFile (DAO)
 
@@ -38,10 +38,10 @@ Version ajoutée : Access 2007
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

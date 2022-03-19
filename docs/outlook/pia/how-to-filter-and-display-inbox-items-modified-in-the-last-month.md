@@ -7,12 +7,12 @@ ms:contentKeyID: 55119886
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4acb448583714b7a75d41ffd8da25ea660caac5b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 083d8602be395a3b3df5ea92c366521decda9c47
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623711"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633910"
 ---
 # <a name="filter-and-display-inbox-items-modified-in-the-last-month"></a>Filtrer et afficher les éléments de boîte de réception modifiés le mois dernier
 
@@ -37,9 +37,9 @@ Le tableau suivant répertorie les macros **DateTime** que vous pouvez utiliser 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -110,7 +110,7 @@ Le tableau suivant répertorie les macros **DateTime** que vous pouvez utiliser 
 
 Dans l'exemple suivant, DemoDASLDateMacro crée une requête DASL qui utilise la macro **DateTime lastmonth** pour filtrer des éléments de la boîte de réception (Inbox) de l'utilisateur qui ont été modifiés au cours du dernier mois. Il crée ensuite un **objet** du tableau avec ce filtre et énumère et affiche les lignes dans l’**objet** du tableau restreint.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable Outlook lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration Class publique. La ligne de code suivante montre comment effectuer l’importation et l’affectation dans C \#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

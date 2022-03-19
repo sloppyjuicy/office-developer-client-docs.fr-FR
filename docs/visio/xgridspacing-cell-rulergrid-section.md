@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: e07dd983-7588-6317-944c-46da2bb65b31
 description: Précise la distance entre les lignes horizontales dans une grille fixe (XGridDensity = 0).
-ms.openlocfilehash: 5c1dcf106c6b4124587d0b13d04f2ccf6e3a4f57
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6056d692f88ecb50d15c498dfc700f1e3c500732
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603171"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627842"
 ---
 # <a name="xgridspacing-cell-ruler-amp-grid-section"></a>XGridSpacing, cellule (section Ruler &amp; Grid)
 
@@ -22,20 +22,20 @@ Précise la distance entre les lignes horizontales dans une grille fixe (XGridDe
   
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l’option d’espacement **minimal** horizontal  dans la boîte de dialogue Grille de règle (sous l’onglet Affichage, cliquez sur **Afficher** la flèche). **&amp;** 
+Cette cellule correspond à l’option **&amp;** d’espacement **minimal** horizontal dans la boîte de dialogue Grille de règle  (sous l’onglet Affichage, cliquez sur **Afficher** la flèche). 
   
 Pour obtenir une référence à la cellule XGridSpacing par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |XGridSpacing  <br/> |
+|**Nom de la cellule :**  <br/> |XGridSpacing  <br/> |
    
 Pour obtenir une référence à la cellule XGridSpacing par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
-|Index de la cellule :  <br/> |**visXGridSpacing** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowRulerGrid** <br/> |
+|**Index de la cellule :**  <br/> |**visXGridSpacing** <br/> |
    
 

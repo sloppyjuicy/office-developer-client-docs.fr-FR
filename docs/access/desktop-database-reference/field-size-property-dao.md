@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: d0651e41cb03e5b689093cea5e33ba95d9d8684a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 606568f0120d68ed0674b01d4e10ff9ee189672f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597316"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628802"
 ---
 # <a name="fieldsize-property-dao"></a>Field.Size, propriété (DAO)
 
@@ -42,8 +42,8 @@ L'utilisation de la propriété **Size** dépend de l'objet qui contient la coll
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

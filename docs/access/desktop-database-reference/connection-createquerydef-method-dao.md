@@ -1,5 +1,5 @@
 ---
-title: Connection.CreateQueryDef method (DAO)
+title: Connection.CreateQueryDef, méthode (DAO)
 TOCTitle: CreateQueryDef Method
 ms:assetid: 254fe81a-9b45-e8e7-108d-503c1c1c0fcc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191860(v=office.15)
@@ -11,14 +11,14 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6f54768e9c6297fb9e0d129f9545f88aaad8cdf7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e1cbf52de80118280b57e5ca971a213afc90c48f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590083"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628961"
 ---
-# <a name="connectioncreatequerydef-method-dao"></a>Connection.CreateQueryDef method (DAO)
+# <a name="connectioncreatequerydef-method-dao"></a>Connection.CreateQueryDef, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,7 +26,7 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* CreateQueryDef(***Name** _, _*_SQLText_**)
+*expression* .CreateQueryDef(***Name** _, _*_SQLText_**)
 
 *expression* Variable qui représente un objet **Connection**.
 
@@ -34,10 +34,10 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -58,7 +58,7 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 <td><p><em>SQLText</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui est une instruction SQL définissant la <strong>QueryDef</strong>. Si vous ne spécifiez pas cet argument, vous pouvez définir l'objet <strong>QueryDef</strong> en paramétrant sa propriété <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> avant ou après son ajout à une collection.</p></td>
+<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui représente une instruction SQL définissant l’objet <strong>QueryDef</strong>. Si vous ne spécifiez pas cet argument, vous pouvez définir l’objet <strong>QueryDef</strong> en paramétrant sa propriété <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> avant ou après son ajout à une collection.</p></td>
 </tr>
 </tbody>
 </table>

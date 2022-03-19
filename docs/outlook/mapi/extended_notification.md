@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f01fce7b-a038-4002-8bad-0e6a51ae9d05
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 91ca448f75e6c860e8d2ef3f1cdf881e35bc47dd
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 9abaa02adf3ec977108d0ce8a7e7713caa764571
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781554"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629544"
 ---
 # <a name="extended_notification"></a>EXTENDED_NOTIFICATION
 
@@ -27,7 +27,7 @@ ms.locfileid: "62781554"
   
 Décrit les informations liées à un événement spécifique au fournisseur de services. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -71,7 +71,7 @@ Pour plus d’informations sur la notification, voir les rubriques décrites dan
 |[Gestion des notifications](handling-notifications.md) <br/> |Discussion sur la façon dont les clients doivent gérer les notifications. |
 |[Prise en charge des notifications d’événement](supporting-event-notification.md) <br/> |Discussion sur la façon dont les fournisseurs de services peuvent utiliser les méthodes [IMAPISupport](imapisupportiunknown.md) pour générer des notifications. |
    
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

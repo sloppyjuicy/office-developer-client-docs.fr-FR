@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 97c5c3bd337785e4222655538310a194ee45e8cf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: df336a50a7e8597f6e2be2713fe9125812aab0cb
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593283"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629656"
 ---
 # <a name="workflowtasks-macro-action"></a>WorkflowTasks, action de macro
 
@@ -25,14 +25,14 @@ ms.locfileid: "59593283"
 
 L’action **TâchesFluxTravail** permet d’afficher la boîte de dialogue **Tâche du flux de travail**.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **TâchesFluxTravail** utilise l’argument suivant :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

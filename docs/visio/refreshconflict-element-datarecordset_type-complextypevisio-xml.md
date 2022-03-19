@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 373983f7-fc0c-95f6-7665-7ed47de82e5e
 description: Indique une ligne du recordset de données liée à une forme en conflit après l’actualisation du recordset de données.
-ms.openlocfilehash: af013b1947fd6dafbc908fca21e27a2c0e10f411
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: aa1edcbe6384f90e2fb04b64401ce24db4e360dd
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783115"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634465"
 ---
 # <a name="refreshconflict-element-datarecordset_type-complextype-visio-xml"></a>Élément RefreshConflict (DataRecordSet_Type complexType) (Visio XML)
 
 Indique une ligne du recordset de données liée à une forme en conflit après l’actualisation du recordset de données.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+| |Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[RefreshConflict_Type](refreshconflict_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Stocke, met en forme, actualise et expose dans Microsoft Visio les données qui ont fait l’objet d’une requête dans une base de données. |
    

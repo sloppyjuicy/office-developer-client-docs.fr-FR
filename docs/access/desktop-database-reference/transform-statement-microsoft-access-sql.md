@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: e85d058d2a5ee92c3934a6c8fd840c1e923fffc6
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: d9ef7c20810eb6516f8fbf812c414e6277e10485
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462374"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629712"
 ---
 # <a name="transform-statement-microsoft-access-sql"></a>TRANSFORM, instruction (Microsoft Access SQL)
 
@@ -32,8 +32,8 @@ L’instruction TRANSFORM est composée des éléments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

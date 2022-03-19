@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c0a65d2b-a9b8-4477-a1c7-18c8478126f6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a5e881c8619eeb67c563653512789207bc2c5136
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: df5b1a9d92d2eb0ebefe050a3ca88718695a2537
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462735"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634561"
 ---
 # <a name="hraddcolumnsex"></a>HrAddColumnsEx
 
@@ -27,7 +27,7 @@ ms.locfileid: "62462735"
   
 Ajoute ou déplace des colonnes au début d’un tableau existant. 
   
-|||
+||Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -84,13 +84,13 @@ Si des propriétés de table ne sont pas définies lors de l’appel de **QueryR
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La **fonction HrAddColumnsEx** permet à l’appelant de fournir une fonction de rappel pour filtrer les colonnes qui seraient déjà dans le tableau, par exemple pour convertir des chaînes du type de propriété PT_UNICODE en PT_STRING8. **HrAddColumnsEx** passe un pointeur vers le jeu de colonnes existant précédemment en tant que paramètre de la fonction de rappel. La fonction de rappel peut modifier les données dans le tableau de balises de propriétés, mais ne peut pas ajouter de nouvelles balises. 
+La fonction **HrAddColumnsEx** permet à l’appelant de fournir une fonction de rappel pour filtrer les colonnes qui seraient déjà dans le tableau, par exemple pour convertir des chaînes du type de propriété PT_UNICODE en PT_STRING8. **HrAddColumnsEx** passe un pointeur vers le jeu de colonnes existant précédemment en tant que paramètre de la fonction de rappel. La fonction de rappel peut modifier les données dans le tableau de balises de propriétés, mais ne peut pas ajouter de nouvelles balises. 
   
  **HrAddColumnsEx** appelle d’abord la fonction de rappel s’il en existe une, ajoute ou déplace les colonnes spécifiées, puis appelle [IMAPITable::SetColumns](imapitable-setcolumns.md). 
   
 Les paramètres d’entrée  _lpAllocateBuffer_ et  _lpFreeBuffer_ pointent respectivement vers les fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIFreeBuffer](mapifreebuffer.md) . Les valeurs exactes des pointeurs transmis à **HrAddColumnsEx** varient selon que l’appelant est une application cliente ou un fournisseur de services. Un client transmet les pointeurs vers les fonctions MAPI avec les noms spécifiés. Un fournisseur de services transmet les pointeurs qu’il a reçus dans son appel d’initialisation ou récupérés en appelant la méthode [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) . 
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

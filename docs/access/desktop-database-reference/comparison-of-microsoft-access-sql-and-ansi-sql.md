@@ -7,12 +7,12 @@ ms:contentKeyID: 48543052
 ms.date: 06/13/2019
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 798e424f1ae7138d15b2bc7db26b17dfebc86d03
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ecb2a754fa5be141ad574f93f589dc544fa73f36
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59569376"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633056"
 ---
 # <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Comparaison de Microsoft Access SQL et d’ANSI SQL
 
@@ -26,7 +26,7 @@ Le langage SQL du moteur de base de données Microsoft Access est en général c
 
 - **[Between…And](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/between-and-operator)**
     
-  *expr1* \[ NOT \] **Between** *value1* **and** *value2*
+  *expr1* \[ NOT\] **Between** *value1* **and** *value2*
     
   Dans Microsoft Access SQL, la *valeur1* peut être supérieure à la *valeur2* ; dans ANSI SQL, la *valeur1* doit être égale ou inférieure à la *valeur2.*
 
@@ -34,9 +34,9 @@ Le langage SQL du moteur de base de données Microsoft Access est en général c
     
     <table>
     <colgroup>
-    <col style="width: 33%" />
-    <col style="width: 33%" />
-    <col style="width: 33%" />
+    <col />
+    <col />
+    <col />
     </colgroup>
     <thead>
     <tr class="header">

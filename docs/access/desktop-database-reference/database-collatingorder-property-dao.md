@@ -7,12 +7,12 @@ ms:contentKeyID: 48545901
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7c4657714ae28df9edeaf9d597b18981a222dcbe
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 47d0de0c3b38e954ac448d5312bfa48be9c9d2d2
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59562754"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627682"
 ---
 # <a name="databasecollatingorder-property-dao"></a>Database.CollatingOrder, propriété (DAO)
 
@@ -33,12 +33,12 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Ordre de tri</p></th>
 </tr>
 </thead>
@@ -77,7 +77,7 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortHebrew</strong></p></td>
-<td><p>Hebrew</p></td>
+<td><p>Hébreu</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbSortHungungung</strong></p></td>
@@ -89,11 +89,11 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </tr>
 <tr class="even">
 <td><p><strong>dbSortJapanese</strong></p></td>
-<td><p>Japonais</p></td>
+<td><p>Japanese</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortKorean</strong></p></td>
-<td><p>Coréen</p></td>
+<td><p>Korean</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbSortNeutral</strong></p></td>
@@ -121,7 +121,7 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </tr>
 <tr class="even">
 <td><p><strong>dbSortSlovenian</strong></p></td>
-<td><p>Slovenian</p></td>
+<td><p>Slovène</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortSpanish</strong></p></td>
@@ -147,7 +147,7 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </table>
 
 
-Le paramètre de la propriété **CollatingOrder** correspond à l’argument de paramètres régionaux de la méthode **CreateDatabase** lors de la création de la base de données ou à la méthode **CompactDatabase** lors du dernier compactage de la base de données.
+Le **paramètre de la propriété CollatingOrder** correspond à l’argument de paramètres régionaux de la méthode **CreateDatabase** lors de la création de la base de données ou à la méthode **CompactDatabase** lors du dernier compactage de la base de données.
 
 Check the **CollatingOrder** property setting of a **Database** or **Field** object to determine the string comparison method for the database or field. You can set the **CollatingOrder** property of a new, unappended **Field** object if you want the setting of the **Field** object to differ from that of the **Database** object that contains it.
 

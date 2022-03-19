@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ca4eb6c2-98e9-4dbc-9f5a-f0f257456ead
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ca648b45cd4f3d55a3654fdcf9fc7d19ea3f8a7b
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: cb606344bed8fe147b09a86910030e9de4b1fae8
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778761"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633161"
 ---
 # <a name="pidlidaddressbookproviderarraytype-canonical-property"></a>Propriété canonique PidLidAddressBookProviderArrayType
 
@@ -27,7 +27,7 @@ ms.locfileid: "62778761"
   
 Spécifie l’état des adresses électroniques du contact et représente un ensemble d’indicateurs de bits.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidABPArrayType  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
@@ -66,7 +66,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

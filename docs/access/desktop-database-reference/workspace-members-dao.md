@@ -7,12 +7,12 @@ ms:contentKeyID: 48543374
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4ede4208d948c87b3c2dbe1a14a1ccc49fd9d142
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1eafa82d9b0f17d5cc2a9467d7a23f5c88c02185
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585017"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627220"
 ---
 # <a name="workspace-members-dao"></a>Workspace members (DAO)
 
@@ -25,8 +25,8 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -53,7 +53,7 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
-<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p><strong>REMARQUE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Access.</p>
 <p>Ouvre un objet <strong><a href="connection-object-dao.md">Connection</a></strong> dans une source de données ODBC (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
@@ -72,8 +72,8 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -92,7 +92,7 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-defaultcursordriver-property-dao.md">DefaultCursorDriver</a></strong></p></td>
-<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p><strong>REMARQUE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Access.</p>
 <p>Définit ou renvoie le type de pilote de curseur utilisé pour la connexion créée par la méthode <strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong> ou <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">

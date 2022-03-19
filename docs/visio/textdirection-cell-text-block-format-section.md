@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 1df3a50e-7ea5-9244-1286-c1d00c217a9a
 description: Détermine le sens des caractères dans un bloc de texte.
-ms.openlocfilehash: d70cf6152fcb3e7ffbda69f6a6e6aaf758074fd1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d660453da25e6c9b3f3be3957d2f8253f141d5f7
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553689"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627941"
 ---
 # <a name="textdirection-cell-text-block-format-section"></a>TextDirection, cellule (section Text Block Format)
 
@@ -31,16 +31,16 @@ Dans la version japonaise 5.0 de Visio, la valeur de cette cellule était stock�
   
 Pour obtenir une référence à la cellule TextDirection par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | TextDirection  <br/> |
+| **Nom de la cellule :**  <br/> | TextDirection  <br/> |
    
 Pour obtenir une référence à la cellule TextDirection par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowText** <br/> |
-| Index de la cellule :  <br/> |**visTxtBlkDirection** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowText** <br/> |
+| **Index de la cellule :**  <br/> |**visTxtBlkDirection** <br/> |
    
 

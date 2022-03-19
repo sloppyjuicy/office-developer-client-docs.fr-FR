@@ -6,18 +6,18 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6d9e99b8-fcd6-f36b-960e-bcf3a23afe04
-ms.openlocfilehash: 4f0386be804454e396dfbeaebc019ca9d8b483fa
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 291af330cd279e0c33c81f4f06b86eb9097e81af
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772899"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626247"
 ---
 # <a name="commententry_type-complextype-visio-xml"></a>CommentEntry_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |

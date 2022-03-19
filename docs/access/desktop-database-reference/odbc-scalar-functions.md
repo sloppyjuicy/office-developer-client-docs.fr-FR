@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: b369a3377ba9f76078ed0295e504a9380e77b02c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0201e2e065f3048dec82b1912e98cf0934071ab6
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585598"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627416"
 ---
 # <a name="odbc-scalar-functions"></a>Fonctions scalaires ODBC
 
@@ -24,7 +24,7 @@ ms.locfileid: "59585598"
 
 Microsoft Access SQL l’utilisation de la syntaxe définie par ODBC pour les fonctions scalar. 
 
-Par exemple, la requête retourne toutes les lignes où la valeur absolue de la modification du prix d’une action est `SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} > 5` supérieure à cinq.
+Par exemple, la requête `SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} > 5` retourne toutes les lignes où la valeur absolue de la modification du prix d’une action est supérieure à cinq.
 
 Un sous-ensemble des fonctions scalaires ODBC est pris en charge. La tableau suivant répertorie les fonctions prises en charge.
 
@@ -34,9 +34,9 @@ Pour une description des arguments et une explication complète de la syntaxe d'
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -56,7 +56,7 @@ Pour une description des arguments et une explication complète de la syntaxe d'
 </tr>
 <tr class="even">
 <td><p>LCASE</p></td>
-<td><p>OUI</p></td>
+<td><p>RIGHT</p></td>
 <td><p>UCASE</p></td>
 </tr>
 <tr class="odd">
@@ -72,9 +72,9 @@ Pour une description des arguments et une explication complète de la syntaxe d'
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -106,13 +106,13 @@ Pour une description des arguments et une explication complète de la syntaxe d'
 </table>
 
 
-## <a name="time--date-functions"></a>Fonctions Date & heure
+## <a name="time--date-functions"></a>Fonctions Date & l’heure
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -148,8 +148,8 @@ Pour une description des arguments et une explication complète de la syntaxe d'
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">

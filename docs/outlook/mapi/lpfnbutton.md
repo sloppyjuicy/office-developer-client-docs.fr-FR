@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cb91ae1d-1ea8-4f02-a1f1-f2a356a71477
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 50555b82e87d11224f589861feb13639278f6bdf
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 568c04d7b47bbf233a26f672996911f2e659ed57
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63370665"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633924"
 ---
 # <a name="lpfnbutton"></a>LPFNBUTTON
 
@@ -25,7 +25,7 @@ ms.locfileid: "63370665"
   
 Définit une fonction de rappel que MAPI appelle pour activer un contrôle de bouton facultatif dans une boîte de dialogue de carnet d’adresses. Ce bouton est généralement un **bouton Détails** .
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Fonction définie implémentée par :  <br/> |Fournisseurs de services  <br/> |
@@ -77,6 +77,6 @@ Les fournisseurs de services appellent une fonction hook basée sur **le prototy
   
 Dans les deux cas, lorsque la boîte de dialogue s’affiche et que l’utilisateur choisit le bouton défini, MAPI appelle **LPFNBUTTON**.
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 [BuildDisplayTable](builddisplaytable.md)

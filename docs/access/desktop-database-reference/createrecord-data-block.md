@@ -7,12 +7,12 @@ ms:contentKeyID: 48548263
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 2430e3731f83c59eb039f504609772cdc69b9695
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 710c232a7eefd8d0ac53b21bdcffbc0e013aa2dc
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59581594"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626702"
 ---
 # <a name="createrecord-data-block"></a>Bloc de données CreateRecord
 
@@ -24,15 +24,15 @@ Vous pouvez utiliser le bloc de données **CréerEnregistrement** pour créer un
 > [!NOTE]
 > Le bloc de données **CréerEnregistrement** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 Le bloc de données **CréerEnregistrement** utilise les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -60,11 +60,11 @@ Le bloc de données **CréerEnregistrement** utilise les arguments suivants.
 
 L’enregistrement créé par **CréerEnregistrement** devient automatiquement l’enregistrement actif.
 
-Après **l’instruction CreateRecord,** vous pouvez insérer un bloc de commandes qui s’exécute avant que le nouvel enregistrement ne soit engagé. Les actions suivantes sont disponibles dans un bloc de données **CréerEnregistrement**.
+Après **l’instruction CreateRecord** , vous pouvez insérer un bloc de commandes qui s’exécute avant que le nouvel enregistrement ne soit engagé. Les actions suivantes sont disponibles dans un bloc de données **CréerEnregistrement**.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">

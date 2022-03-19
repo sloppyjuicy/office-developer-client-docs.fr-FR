@@ -7,12 +7,12 @@ ms:contentKeyID: 48543088
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 1a709b8c9f138be50b71911854a05af69e6bbf50
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0e64cfba075cd49dd60a577af9b5491a1b9c422b
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622346"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628816"
 ---
 # <a name="fieldordinalposition-property-dao"></a>Field.OrdinalPosition, propriété (DAO)
 
@@ -37,8 +37,8 @@ La disponibilité de la propriété **OrdinalPosition** dépend de l'objet conte
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -71,9 +71,9 @@ La disponibilité de la propriété **OrdinalPosition** dépend de l'objet conte
 </table>
 
 
-En règle générale, la position ordinale d'un objet ajouté à une collection dépend de l'ordre dans lequel vous ajoutez l'objet. Le premier objet est ajouté a la première position (0), le second à la seconde position (1) et ainsi de suite. Le dernier objet ajouté se trouve à la position ordinale : 1, où nombre est le nombre d’objets dans la collection, tel que spécifié par le paramètre de propriété **[Count.](containers-count-property-dao.md)**
+En règle générale, la position ordinale d'un objet ajouté à une collection dépend de l'ordre dans lequel vous ajoutez l'objet. Le premier objet est ajouté a la première position (0), le second à la seconde position (1) et ainsi de suite. Le dernier objet ajouté se trouve à la position ordinale : 1, où nombre est le nombre d’objets dans la collection, tel que spécifié par le paramètre de propriété **[Count](containers-count-property-dao.md)** .
 
-La propriété **OrdinalPosition** vous permet de spécifier une position ordinale pour les nouveaux objets **Field** qui diffère de l'ordre dans lequel vous les ajoutez à une collection. Ceci vous permet de spécifier un ordre de champs pour vos tables, requêtes et jeux d'enregistrements lorsque vous les utilisez dans une application. Par exemple, l’ordre dans lequel les champs sont renvoyés dans une requête SELECT est déterminé par les valeurs actuelles de la \* **propriété OrdinalPosition.**
+La propriété **OrdinalPosition** vous permet de spécifier une position ordinale pour les nouveaux objets **Field** qui diffère de l'ordre dans lequel vous les ajoutez à une collection. Ceci vous permet de spécifier un ordre de champs pour vos tables, requêtes et jeux d'enregistrements lorsque vous les utilisez dans une application. Par exemple, l’ordre dans lequel les champs sont renvoyés dans une requête SELECT \* est déterminé par les valeurs actuelles de la propriété **OrdinalPosition** .
 
 Vous pouvez à tout moment redéfinir l'ordre de renvoi des champs dans les jeux d'enregistrements en définissant la propriété **OrdinalPosition** sur tout entier positif.
 

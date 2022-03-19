@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 3262cf95-48b5-4764-a96e-d752ce35b2dc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7183b878646a4f7171de71b042305ede8d90dab6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7dd14275dd73107f52bce317e511f7123cd3b802
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609942"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629460"
 ---
 # <a name="pidtagattachlongpathname-canonical-property"></a>Propriété canonique PidTagAttachLongPathname
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609942"
   
 Contient le chemin d’accès complet et le nom de fichier complets d’une pièce jointe. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_LONG_PATHNAME, PR_ATTACH_LONG_PATHNAME_A, PR_ATTACH_LONG_PATHNAME_W  <br/> |
 |Identificateur :  <br/> |0x370D  <br/> |
@@ -36,11 +36,11 @@ Contient le chemin d’accès complet et le nom de fichier complets d’une piè
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont applicables lorsque vous utilisez l’une des valeurs de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) qui indiquent la pièce jointe par référence : **ATTACH_BY_REFERENCE,** **ATTACH_BY_REF_RESOLVE** ou **ATTACH_BY_REF_ONLY**. Les plateformes qui prendre en charge les noms de fichiers longs doivent définir les propriétés **PR_ATTACH_LONG_PATHNAME** ou associées et les propriétés **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) lors de l’envoi, et doivent d’abord vérifier **PR_ATTACH_LONG_PATHNAME** ou les propriétés associées lors de la réception. 
+Ces propriétés s’appliquent lorsque vous utilisez l’une des valeurs de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) qui indiquent la pièce jointe par référence : **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE** ou **ATTACH_BY_REF_ONLY**. Les plateformes qui prendre en charge les noms de fichiers longs doivent définir les propriétés **PR_ATTACH_LONG_PATHNAME** ou associées et **les** propriétés PR_ATTACH_PATHNAME ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) lors de l’envoi, et doivent d’abord vérifier **PR_ATTACH_LONG_PATHNAME** ou les propriétés associées lors de la réception. 
   
 L’application cliente doit définir ces propriétés sur un chemin d’accès long et un nom de fichier suggérés à utiliser si l’ordinateur hôte recevant un message prend en charge les noms de fichiers longs. La définition de ces propriétés indique que les données de pièce jointe ne sont pas incluses dans le message, mais sont disponibles sur un serveur de fichiers commun. 
   
-Contrairement aux répertoires et noms de fichiers fournis par **PR_ATTACH_PATHNAME,** ces répertoires et noms de fichiers ne sont pas limités à un répertoire ou un nom de fichier à huit caractères plus une extension à trois caractères. Au lieu de cela, chaque répertoire ou nom de fichier peut avoir jusqu’à 256 caractères, y compris le nom, l’extension et la période de séparation. Toutefois, le chemin d’accès global est limité à 256 caractères. 
+Contrairement aux répertoires et noms de fichiers fournis par **PR_ATTACH_PATHNAME**, ces répertoires et noms de fichiers ne sont pas limités à un répertoire ou un nom de fichier à huit caractères plus une extension à trois caractères. Au lieu de cela, chaque répertoire ou nom de fichier peut avoir jusqu’à 256 caractères, y compris le nom, l’extension et la période de séparation. Toutefois, le chemin d’accès global est limité à 256 caractères. 
   
 Les clients doivent utiliser une convention d’attribution de noms universelle (UNC) dans la plupart des cas lorsque le fichier est partagé et doivent utiliser un chemin d’accès absolu lorsque le fichier est local.
   
@@ -52,7 +52,7 @@ MAPI fonctionne uniquement avec les chemins d’accès et les noms de fichiers d
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 > Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

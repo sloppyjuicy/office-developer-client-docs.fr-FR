@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: f87cd7a4-b9de-5fb1-20ec-90759c966bd9
 description: Contient des éléments pour créer plusieurs sauts entre une forme ou une page de dessin et une autre page de dessin, un autre fichier ou un site web.
-ms.openlocfilehash: 46c1bbd9e282bca0b5795035f342c804d2bab3c1
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e4858d0685011a4c70c4067ac56132ba16e54380
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781932"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633721"
 ---
 # <a name="row-element-hyperlink-section-visio-xml"></a>Row, élément (Hyperlink Section) (Visio XML)
 
 Contient des éléments pour créer plusieurs sauts entre une forme ou une page de dessin et une autre page de dessin, un autre fichier ou un site web.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contient des éléments pour créer plusieurs sauts entre une forme ou une page de dessin et une autre page de dessin, un autre fichier ou un site web. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Cell](cell-element-hyperlink-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Contient les informations d’un lien hypertexte unique associé à une forme  <br/> |
    

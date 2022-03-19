@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b7d90666-a1bb-f0de-32da-b2855977f648
 description: Détermine si l'aperçu du dessin est en mode brouillon ou détaillé.
-ms.openlocfilehash: 39aed22a6a489116aab46f9f6ec558775b420961
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bca9044f05be945d62d4c769dcb5835205871307
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573725"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626177"
 ---
 # <a name="previewquality-cell-document-properties-section"></a>PreviewQuality, cellule (section Document Properties)
 
@@ -27,20 +27,20 @@ Détermine si l'aperçu du dessin est en mode brouillon ou détaillé.
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir  cette valeur sous  l’onglet Résumé dans la boîte de  dialogue Propriétés (cliquez sur le bouton **Office,** sur l’onglet Informations, sur Propriétés du **document,** puis sur Propriétés **avancées).**
+Vous pouvez également définir cette valeur sous l’onglet Résumé dans la  boîte de dialogue Propriétés (cliquez sur le bouton **Office**, sur l’onglet Informations, sur Propriétés du **document**, puis sur Propriétés  **avancées).**
   
 Pour obtenir une référence à la cellule PreviewQuality par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | PreviewQuality  <br/> |
+| **Nom de la cellule :**  <br/> | PreviewQuality  <br/> |
    
 Pour obtenir une référence à la cellule PreviewQuality à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowDoc** <br/> |
-| Index de la cellule :  <br/> |**visDocPreviewQuality** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowDoc** <br/> |
+| **Index de la cellule :**  <br/> |**visDocPreviewQuality** <br/> |
    
 

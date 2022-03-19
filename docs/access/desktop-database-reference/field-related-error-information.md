@@ -7,12 +7,12 @@ ms:contentKeyID: 48545958
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d0849868becbe21b502c46fa2445dac42b2a1ad4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a90e93286618d57f03d4bad8d37bb13a05fb5d17
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589531"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627577"
 ---
 # <a name="field-related-error-information"></a>Informations sur les erreurs en lien avec le champ
 
@@ -23,9 +23,9 @@ Si une erreur est directement liée à un champ  par exemple, si les données 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

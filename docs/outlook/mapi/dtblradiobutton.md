@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 64cef938-ef6f-43bb-8f6e-d4cd4d6c9888
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 323699bd8964e1da03dff3620bbaa17b78edeca6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dd4fd9909e61c296ddf6158b1ce1aa7ec442afdb
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588111"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634869"
 ---
 # <a name="dtblradiobutton"></a>DTBLRADIOBUTTON
 
@@ -25,9 +25,9 @@ ms.locfileid: "59588111"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une seule bouton d’radio qui fera partie d’un groupe de boutons d’radio. Le groupe de boutons d’radio sera utilisé dans une boîte de dialogue qui est conçue à partir d’une table d’affichage.
+Décrit une seule bouton d’radio qui fera partie d’un groupe de boutons d’radio. Le groupe de case d’affichage sera utilisé dans une boîte de dialogue qui est conçue à partir d’une table d’affichage.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -51,7 +51,7 @@ typedef struct _DTBLRADIOBUTTON
     
  **ulFlags**
   
-> Masque de bits d’indicateurs utilisé pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabel.** L’indicateur suivant peut être définie : 
+> Masque de bits d’indicateurs utilisé pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabel** . L’indicateur suivant peut être définie : 
     
 MAPI_UNICODE 
   
@@ -59,7 +59,7 @@ MAPI_UNICODE
     
  **ulcButtons**
   
-> Nombre de boutons dans le groupe de boutons d’radio. Les structures **DTBLRADIOBUTTON pour** les autres boutons du groupe doivent être contenues dans des lignes successives du tableau d’affichage. Chacune de ces lignes doit contenir la même valeur pour le **membre ulcButtons.** 
+> Nombre de boutons dans le groupe de boutons d’radio. Les structures **DTBLRADIOBUTTON pour** les autres boutons du groupe doivent être contenues dans des lignes successives du tableau d’affichage. Chacune de ces lignes doit contenir la même valeur pour le **membre ulcButtons** . 
     
  **ulPropTag**
   
@@ -75,9 +75,9 @@ Une structure **DTBLRADIOBUTTON** décrit une bouton d’radio un contrôle de b
   
 Le nombre de boutons est le nombre de boutons d’radio dans le groupe. Les structures des autres boutons d’radio du groupe doivent se trouver dans les lignes suivantes du tableau d’affichage. Chacune de ces structures doit avoir la même valeur pour son nombre de boutons.
   
-Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

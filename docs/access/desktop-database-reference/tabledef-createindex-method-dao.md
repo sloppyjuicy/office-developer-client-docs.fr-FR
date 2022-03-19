@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5a88ecf43d84867f770cecd44057d0c796350e62
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 31986551c29f7154732dfa730ee3b9952b890bb3
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601687"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627262"
 ---
 # <a name="tabledefcreateindex-method-dao"></a>TableDef.CreateIndex, méthode (DAO)
 
@@ -34,10 +34,10 @@ Crée un nouvel objet **[Index](index-object-dao.md)** (Espaces de travail Micro
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,7 +66,7 @@ Index
 
 Vous pouvez utiliser la méthode **CreateIndex** afin de créer un un objet **Index** pour un objet **TableDef**. Si vous ne spécifiez pas l'argument name facultatif avec la méthode **CreateIndex**, vous pouvez utiliser une instruction d'affectation appropriée pour définir ou redéfinir la propriété **Name** avant d'ajouter le nouvel objet à une collection. Après l'ajout de l'objet, il n'est pas toujours possible de définir sa propriété **Name**, selon le type d'objet qui contient la collection **Indexes**. Pour plus d'informations, consultez la rubrique de la propriété **Name**.
 
-Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez **[la méthode Append.](fields-append-method-dao.md)**
+Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez **[la méthode Append](fields-append-method-dao.md)** .
 
 Pour supprimer un objet **Index** d'une collection, appelez la méthode **[Delete](fields-delete-method-dao.md)** sur la collection.
 

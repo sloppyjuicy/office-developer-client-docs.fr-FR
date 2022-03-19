@@ -7,12 +7,12 @@ ms:contentKeyID: 48543516
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c63d56165be8e07a9e412f46e69849f314e36510
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 43abc86b1b04ccd98335d008cfce2cd7d18aec8d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62459985"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629355"
 ---
 # <a name="adox-methods"></a>Méthodes ADOX
 
@@ -21,8 +21,8 @@ ms.locfileid: "62459985"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

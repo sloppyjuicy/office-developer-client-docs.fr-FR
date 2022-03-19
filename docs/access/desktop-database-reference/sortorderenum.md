@@ -7,12 +7,12 @@ ms:contentKeyID: 48545327
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d198bd0da7b0cb09d68766c25625f64d0d85a22c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 70cdbde08eac7ea156c656e267a6f5ee118092d7
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611475"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634729"
 ---
 # <a name="sortorderenum"></a>SortOrderEnum
 
@@ -20,13 +20,12 @@ ms.locfileid: "59611475"
 
 Spécifie la séquence de tri d'une colonne indexée.
 
-<br/>
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,12 +7,12 @@ ms:contentKeyID: 48546549
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 56f7ddc717e1df284c77127cb9ebff05e0151797
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 0d30d79bcc887aa9b0c542de484fa850988a9066
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462402"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627822"
 ---
 # <a name="commandtypeenum"></a>CommandTypeEnum
 
@@ -23,9 +23,9 @@ Spécifie comment interpréter un argument de commande.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -80,7 +80,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

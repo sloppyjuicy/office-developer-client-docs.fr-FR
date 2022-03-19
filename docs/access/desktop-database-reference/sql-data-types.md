@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 0c3e12a1ff9f02f3b2ad85ed47ee496b998b73c9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2e5abd817617ed3726f075be503aa240aba4a116
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617411"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627276"
 ---
 # <a name="sql-data-types"></a>Types de données SQL
 
@@ -28,9 +28,9 @@ Le tableau suivant répertorie les principaux types de données. Les synonymes s
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
