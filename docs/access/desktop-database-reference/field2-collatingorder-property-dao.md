@@ -7,12 +7,12 @@ ms:contentKeyID: 48547709
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5303fc3730772d6ccf17198610313b9559e76dfe
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fa8eac4677018ef1f017996af9d5fc074cb74b9b
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597295"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632881"
 ---
 # <a name="field2collatingorder-property-dao"></a>Field2.CollatingOrder, propriété (DAO)
 
@@ -33,12 +33,12 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Ordre de tri</p></th>
 </tr>
 </thead>
@@ -77,7 +77,7 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortHebrew</strong></p></td>
-<td><p>Hebrew</p></td>
+<td><p>Hébreu</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbSortHungungung</strong></p></td>
@@ -89,11 +89,11 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </tr>
 <tr class="even">
 <td><p><strong>dbSortJapanese</strong></p></td>
-<td><p>Japonais</p></td>
+<td><p>Japanese</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortKorean</strong></p></td>
-<td><p>Coréen</p></td>
+<td><p>Korean</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbSortNeutral</strong></p></td>
@@ -121,7 +121,7 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </tr>
 <tr class="even">
 <td><p><strong>dbSortSlovenian</strong></p></td>
-<td><p>Slovenian</p></td>
+<td><p>Slovène</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortSpanish</strong></p></td>
@@ -151,8 +151,8 @@ La disponibilité de la propriété **CollatingOrder** dépend de l'objet conten
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -185,7 +185,7 @@ La disponibilité de la propriété **CollatingOrder** dépend de l'objet conten
 </table>
 
 
-Le paramètre de la propriété **CollatingOrder** correspond à l’argument de paramètres régionaux de la méthode **CreateDatabase** lors de la création de la base de données ou à la méthode **CompactDatabase** lors du dernier compactage de la base de données.
+Le **paramètre de la propriété CollatingOrder** correspond à l’argument de paramètres régionaux de la méthode **CreateDatabase** lors de la création de la base de données ou à la méthode **CompactDatabase** lors du dernier compactage de la base de données.
 
 Les paramètres de propriété **CollatingOrder** et **Attributes** d'un objet **Field2** d'une collection **Fields** d'un objet **Index** déterminent ensemble la séquence et la direction de l'ordre de tri dans un index. Toutefois, vous ne pouvez définir aucun ordre de tri pour un index individuel, vous pouvez uniquement le faire pour une table entière.
 

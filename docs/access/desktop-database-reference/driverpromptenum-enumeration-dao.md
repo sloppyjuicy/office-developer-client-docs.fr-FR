@@ -7,12 +7,12 @@ ms:contentKeyID: 48546266
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d4011bb2958aa1bb34dfc8255196b4e6001ba848
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d1cd6a1d602ec530be032352f92633309a518ae1
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615584"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632188"
 ---
 # <a name="driverpromptenum-enumeration-dao"></a>DriverPromptEnum, éumération (DAO)
 
@@ -23,9 +23,9 @@ Spécifie si le système doit demander à l'utilisateur d'établir une connexion
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

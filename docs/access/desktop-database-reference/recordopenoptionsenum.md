@@ -7,12 +7,12 @@ ms:contentKeyID: 48544534
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: e4a348338e66e0d20153c41fb48ab76e1fd0b681
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ace37ca4dba8990db1fcd6980c48cd4f003e6984
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568543"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632650"
 ---
 # <a name="recordopenoptionsenum"></a>RecordOpenOptionsEnum
 
@@ -23,9 +23,9 @@ Spécifie des options pour l'ouverture d'un [Record](record-object-ado.md). Les 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

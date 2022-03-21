@@ -7,12 +7,12 @@ ms:contentKeyID: 48543497
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 0665a57f3157fabceb954067d50d1583cb5bdfcb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d778c656be6ca2c825cd6ee5650a308ade2f5d21
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626931"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632251"
 ---
 # <a name="createrecordset-method-rds"></a>CreateRecordset, méthode (RDS)
 
@@ -53,15 +53,15 @@ Pour certains types de données variables, il est possible de forcer une convers
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Longueur</p></th>
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Nombre</p></th>
 <th><p>Substitution</p></th>
 </tr>
@@ -70,7 +70,7 @@ Pour certains types de données variables, il est possible de forcer une convers
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adTinyInt</strong></p></td>
-<td><p>16 </p></td>
+<td><p>16</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
@@ -118,7 +118,7 @@ Pour certains types de données variables, il est possible de forcer une convers
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adSingle</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">

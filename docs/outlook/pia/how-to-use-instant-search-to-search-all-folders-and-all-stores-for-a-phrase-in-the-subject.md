@@ -7,12 +7,12 @@ ms:contentKeyID: 55119923
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 03dfddac8190d6ce209ec29346a101a5cf9549ed
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e49d85da12b5c47fcd69d81e78bba028d166afda
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590645"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630342"
 ---
 # <a name="use-instant-search-to-search-all-folders-and-all-stores-for-a-phrase-in-the-subject"></a>Utiliser la recherche instantanée pour effectuer une recherche dans tous les dossiers et tous les magasins pour une expression dans l’objet
 
@@ -27,8 +27,8 @@ La recherche instantanée est une fonctionnalité de Microsoft Outlook qui perm
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,7 +55,7 @@ La recherche instantanée est une fonctionnalité de Microsoft Outlook qui perm
 
 Dans l’exemple de code suivant, DemoInstantSearch obtient tous les dossiers de messagerie électronique de tous les magasins où l’indexation est activée à l’aide de la propriété [IsInstantSearchEnabled](https://msdn.microsoft.com/library/bb609793\(v=office.15\)) de l’objet [Store](https://msdn.microsoft.com/library/bb609139\(v=office.15\)). Il utilise ensuite la méthode **Search** de l’objet **Explorer** pour filtrer tous les éléments qui contiennent la phrase exacte « Office 2007 » dans l’objet et qui ont été reçus au cours du mois dernier. Enfin, les résultats de la recherche sont affichés dans une fenêtre distincte de l’explorateur.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable Outlook lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration Class publique. La ligne de code suivante montre comment effectuer l’importation et l’affectation dans C \#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

@@ -7,12 +7,12 @@ ms:contentKeyID: 48545835
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 39d724d1b67f2d706e1269a78e104e4799371574
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 3d6fb421e2c4c2538008cc36b5f9445624c0f0bd
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462672"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628886"
 ---
 # <a name="cursortypeenum"></a>CursorTypeEnum
 
@@ -23,9 +23,9 @@ Spécifie le type de curseur utilisé dans un objet [Recordset](recordset-object
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -70,7 +70,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

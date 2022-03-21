@@ -7,12 +7,12 @@ ms:contentKeyID: 48546628
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7ab35ea1acbd1fe4d34fb8626e76f460e7be6340
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 45371c5f4cd06c43f55349d0bf4eca0af7694b33
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461629"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629649"
 ---
 # <a name="workspaceopenconnection-method-dao"></a>Workspace.OpenConnection, méthode (DAO)
 
@@ -28,10 +28,10 @@ ms.locfileid: "62461629"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -64,7 +64,7 @@ ms.locfileid: "62461629"
 <td><p><em>Connect</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Chaîne de connexion ODBC. Voir la <strong><a href="connection-connect-property-dao.md">propriété Connecter</a></strong> pour les éléments et la syntaxe spécifiques de cette chaîne. OdBC prédépendant &quot;est&quot; requis.</p></td>
+<td><p>Chaîne de connexion ODBC. Consultez <strong><a href="connection-connect-property-dao.md">la Connecter</a></strong> pour connaître les éléments et la syntaxe spécifiques de cette chaîne. OdBC prédépendant &quot;est&quot; requis.</p></td>
 </tr>
 </tbody>
 </table>
@@ -84,8 +84,8 @@ L’argument Options détermine si et quand demander à l’utilisateur d’éta
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

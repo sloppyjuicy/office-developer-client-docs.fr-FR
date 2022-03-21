@@ -12,12 +12,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: b610df8ab1f4b5460554e5434507279ab95785dc
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 954ab4cd2922eb02ff0bda7a61ab5e4b4e91257a
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380024"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631922"
 ---
 # <a name="use-activex-data-objects"></a>Utilisation d’ActiveX Data Objects (ADO)
 
@@ -41,11 +41,11 @@ Le tableau ci-dessous indique les fonctionnalités offertes par chaque composant
 
 <table>
 <colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

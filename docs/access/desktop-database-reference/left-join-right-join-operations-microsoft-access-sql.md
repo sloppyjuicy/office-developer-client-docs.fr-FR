@@ -9,12 +9,12 @@ mtps_version: v=office.15
 dev_langs:
 - sql
 ms.localizationpriority: high
-ms.openlocfilehash: 01c1c1b095d37d7505524af5360b0079e6dd1c0e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a00095f540455a234f4fc2fa5250d399ce183c53
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602359"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632783"
 ---
 # <a name="left-join-right-join-operations-microsoft-access-sql"></a>Opérations LEFT JOIN, RIGHT JOIN (Microsoft Access SQL)
 
@@ -30,8 +30,8 @@ Les opérations LEFT JOIN et RIGHT JOIN sont composées des arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

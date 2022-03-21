@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 2cfb01c542134570b2ccc0ac2a0e31fd3599cc5c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b74abfe54be45db52e9854d73a5bf99b98c6d9eb
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585480"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630566"
 ---
 # <a name="printout-macro-action"></a>PrintOut, action de macro
 
@@ -27,14 +27,14 @@ Faites appel à l'action **Imprimer** pour imprimer l'objet actif dans la base d
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **Imprimer** possède les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

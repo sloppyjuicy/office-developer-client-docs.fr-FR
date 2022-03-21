@@ -7,12 +7,12 @@ ms:contentKeyID: 48543839
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6dfad2cb2dd650b93bb04c8322b0ccf9b8cd4228
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c679e6d67c55d5ab27b477f7ad16f128058da2d8
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622297"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628809"
 ---
 # <a name="field2-members-dao"></a>Field2 members (DAO)
 
@@ -25,8 +25,8 @@ Un objet Field2 représente une colonne de données avec un type de données com
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -45,7 +45,7 @@ Un objet Field2 représente une colonne de données avec un type de données com
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-getchunk-method-dao.md">GetChunk</a></strong></p></td>
-<td><p>Renvoie l’ensemble ou une partie du contenu d’un objet <strong>Memo</strong> ou <strong>Long BinaryField2</strong> dans la collection <strong><a href="fields-collection-dao.md">Fields</a></strong> d’un <strong><a href="recordset-object-dao.md">objet Recordset.</a></strong></p></td>
+<td><p>Renvoie l’ensemble ou une partie du contenu d’un objet <strong>Memo</strong> ou <strong>Long BinaryField2</strong> dans la collection <strong><a href="fields-collection-dao.md">Fields</a></strong> d’un <strong><a href="recordset-object-dao.md">objet Recordset</a></strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-loadfromfile-method-dao.md">LoadFromFile</a></strong></p></td>
@@ -63,8 +63,8 @@ Un objet Field2 représente une colonne de données avec un type de données com
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -75,7 +75,7 @@ Un objet Field2 représente une colonne de données avec un type de données com
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="field2-allowzerolength-property-dao.md">AllowZeroLength</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique si une chaîne de longueur nulle () est un paramètre valide pour la propriété Value de l’objet Field2 avec un type de données Texte ou Mémo (espaces de travail &quot; &quot; Microsoft Access uniquement). <strong><a href="field-value-property-dao.md"></a></strong> <strong></strong></p></td>
+<td><p>Définit ou renvoie une valeur qui indique si une chaîne de longueur nulle (&quot;&quot;) est un paramètre valide pour la propriété <strong><a href="field-value-property-dao.md">Value</a></strong> de l’objet <strong>Field2</strong> avec un type de données Texte ou Mémo (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-appendonly-property-dao.md">AppendOnly</a></strong></p></td>
@@ -127,8 +127,8 @@ Un objet Field2 représente une colonne de données avec un type de données com
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
-<td><p>Une des <strong><a href="workspacetypeenum-enumeration-dao.md">valeurs WorkspaceTypeEnum.</a></strong></p>
-<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p>Une des <strong><a href="workspacetypeenum-enumeration-dao.md">valeurs WorkspaceTypeEnum</a></strong> .</p>
+<td><p><strong>REMARQUE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Access.</p>
 <p>Renvoie la valeur d'un objet <strong>Field2</strong> de la base de données qui existait au moment du lancement de la dernière mise à jour en lot (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="odd">
@@ -173,8 +173,8 @@ Un objet Field2 représente une colonne de données avec un type de données com
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-visiblevalue-property-dao.md">VisibleValue</a></strong></p></td>
-<td><p>Une des <strong><a href="workspacetypeenum-enumeration-dao.md">valeurs WorkspaceTypeEnum.</a></strong></p>
-<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p>Une des <strong><a href="workspacetypeenum-enumeration-dao.md">valeurs WorkspaceTypeEnum</a></strong> .</p>
+<td><p><strong>REMARQUE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Access.</p>
 <p>Renvoie une valeur actuellement dans la base de données qui est plus récente que la propriété <strong>OriginalValue</strong> suite à un conflit de mise à jour en lot (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 </tbody>

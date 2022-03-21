@@ -7,25 +7,25 @@ ms:contentKeyID: 48547490
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b73bb73a5da8fb4cb7fed7d257cb7d6e801ba8be
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 117a8285115ddb69c8dc343b7d8aee4c10a9c288
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606414"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629796"
 ---
 # <a name="propertytype-property-dao"></a>Property.Type, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type **Integer** en lecture-écriture.
+Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. **Integer** en lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
 *expression* .Type
 
-*expression* Variable qui représente un objet **Property.**
+*expression* Variable qui représente un objet **Property** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -35,8 +35,8 @@ Les paramètres et valeurs de retour possible d'un objet **Property** sont décr
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

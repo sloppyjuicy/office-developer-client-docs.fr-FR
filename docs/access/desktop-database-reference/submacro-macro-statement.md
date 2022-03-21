@@ -7,12 +7,12 @@ ms:contentKeyID: 48548867
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 722ec31b62f3a2e028fd076b52d6e526de8efca0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0249909fb4e3c1f9c4d745ad6e389599713d9cf2
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589091"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630489"
 ---
 # <a name="submacro-macro-statement"></a>Submacro, instruction de macro
 
@@ -20,15 +20,15 @@ ms.locfileid: "59589091"
 
 **L’instruction Submacro** définit une macro distincte dans la fenêtre Concepteur de macros.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’instruction **Submacro** utilise les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

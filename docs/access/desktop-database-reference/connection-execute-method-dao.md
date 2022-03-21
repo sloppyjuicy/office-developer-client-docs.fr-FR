@@ -7,12 +7,12 @@ ms:contentKeyID: 48547978
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 9f4d2159e50c54b6dc448cf2b2963ec05df6ffeb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3e274b0d3ad7067afc867a0c0a303b8518b96104
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597586"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627808"
 ---
 # <a name="connectionexecute-method-dao"></a>Connection.Execute, méthode (DAO)
 
@@ -22,7 +22,7 @@ Exécute une requête action ou exécute une instruction SQL sur l’objet spéc
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* Execute(***Query** _, _*_Options_**)
+*expression* .Execute(***Query** _, _*_Options_**)
 
 *expression* Variable qui représente un objet **Connection**.
 
@@ -30,10 +30,10 @@ Exécute une requête action ou exécute une instruction SQL sur l’objet spéc
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,8 +66,8 @@ Vous pouvez utiliser les constantes **[RecordsetOptionEnum](recordsetoptionenum-
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

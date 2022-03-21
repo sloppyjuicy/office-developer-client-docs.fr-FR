@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: ddfbf772f1c7bf562fa6db1abdda88ac730c3db7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 47310af056905f3e79bcfc251c3cd284f13f4ffd
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558785"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628382"
 ---
 # <a name="before-change-macro-event"></a>Before Change, événement de macro
 
@@ -79,8 +79,8 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -98,7 +98,7 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 <td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Flux de programme</p></td>
+<td><p>Déroulement de programme</p></td>
 <td><p><a href="if-then-else-macro-block.md">If...Then...Else, bloc de macro</a></p></td>
 </tr>
 <tr class="even">
@@ -139,7 +139,7 @@ Pour créer une macro de données qui capture l’événement **Avant la modific
 
 2.  Sous l’onglet **Table**, dans le groupe **Événements Avant**, cliquez sur **Avant la modification**.
 
-Une macro de données vide s’affiche dans le concepteur de macros
+Une macro de données vide s’affiche dans le Concepteur de macros.
 
 ## <a name="example"></a>Exemple
 
@@ -180,7 +180,7 @@ Pour afficher cet exemple dans le concepteur de macros, procédez comme suit.
 
 3.  Sélectionnez le code dans l’exemple de code suivant, puis appuyez sur **Ctrl+C** pour le copier dans le Presse-papiers.
 
-4.  Activez la fenêtre du concepteur de macros, puis appuyez **sur Ctrl+V.**
+4.  Activez la fenêtre du concepteur de macros, puis appuyez **sur Ctrl+V**.
 
 
 

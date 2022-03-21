@@ -7,12 +7,12 @@ ms:contentKeyID: 48548682
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6c94012224a75d52d7e9e096c8c98873fbf4a6a8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 34ef7f1fa914d9a9fcd7e2d52d043183d026f6ff
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59581566"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633007"
 ---
 # <a name="cursortype-property-ado"></a>CursorType, propriété (ADO)
 
@@ -37,8 +37,8 @@ Le tableau ci-après indique les fonctionnalités des fournisseurs (identifiées
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,5 +72,5 @@ Le tableau ci-après indique les fonctionnalités des fournisseurs (identifiées
 
 La propriété **CursorType** est en lecture/écriture lorsque l'objet **Recordset** est fermé et en lecture seule lorsqu'il est ouvert.
 
-**Utilisation du service de données à distance** Lorsqu’elle est utilisée sur un objet Recordset côté client, la propriété **CursorType** peut être définie uniquement sur **adOpenStatic**.
+**Utilisation du service de données à distance** Lorsqu’elle est utilisée sur un objet Recordset côté client, la propriété **CursorType** ne peut être définie que **sur adOpenStatic**.
 

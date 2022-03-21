@@ -7,12 +7,12 @@ ms:contentKeyID: 48545681
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7f5990836c2a9a80136684af096187212606504f
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 2ec60762057cdfc62892ca20ffcb1755f085022a
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462409"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630888"
 ---
 # <a name="bookmarkenum"></a>BookmarkEnum
 
@@ -23,9 +23,9 @@ Spécifie un signet indiquant où doit commencer l'opération.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -60,7 +60,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,12 +7,12 @@ ms:contentKeyID: 48547307
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d69025011962a861258e48ed73d381a2069563d7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0f38afd2982b86efa153c4540f32995ffe6dc77f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552926"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630664"
 ---
 # <a name="fields-members-dao"></a>Fields, membres (DAO)
 
@@ -25,8 +25,8 @@ Une collection Fields contient tous les objets Field stockés d'un objet Index, 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,8 +55,8 @@ Une collection Fields contient tous les objets Field stockés d'un objet Index, 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

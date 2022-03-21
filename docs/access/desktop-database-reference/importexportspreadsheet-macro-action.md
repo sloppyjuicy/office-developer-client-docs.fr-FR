@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 06d633cac926015aab985420a618005d8c6774b3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cfda0a704422a61cbf9a4ef9c71010566a8f052d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612049"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630629"
 ---
 # <a name="importexportspreadsheet-macro-action"></a>ImportExportSpreadsheet, action de macro
 
@@ -33,8 +33,8 @@ L’action **TransferSpreadsheet** comporte les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -49,7 +49,7 @@ L’action **TransferSpreadsheet** comporte les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Type de feuille de calcul</strong></p></td>
-<td><p>Type de feuille de calcul à partir de laquelle effectuer l'importation, vers laquelle effectuer l'exportation ou à laquelle attacher les données. Vous pouvez sélectionner un des types de feuilles de calcul dans la zone concernée. La valeur par défaut est <strong>Classeur Excel</strong>.  </p><p><strong>REMARQUE</strong> : vous pouvez effectuer l'importation et attacher les données (lecture seule) à des fichiers Lotus .WK4, mais vous ne pouvez pas exporter des données Access dans ce format de feuille de calcul. Access ne prend plus en charge l’importation, l’exportation ou l’attachement de données à partir de feuilles de calcul Lotus .WKS ou Excel version 2.0 avec cette action. Si vous souhaitez effectuer une importation à partir de données de feuille de calcul ou attacher des donnés au format Excel version 2.0 ou Lotus .WKS, convertissez les données de feuille de calcul dans une version ultérieure d’Excel ou de Lotus 1-2-3 avant d’importer ou d’attacher les données dans Access.</p>
+<td><p>Type de feuille de calcul à partir de laquelle effectuer l'importation, vers laquelle effectuer l'exportation ou à laquelle attacher les données. Vous pouvez sélectionner un des types de feuilles de calcul dans la zone concernée. La valeur par défaut est <strong>Classeur Excel</strong>.  </p><p><strong>REMARQUE</strong> : Vous pouvez importer et lier (en lecture seule) des fichiers Lotus .WK4, mais vous ne pouvez pas exporter des données Access vers ce format de feuille de calcul. Access ne prend également plus en charge l'importation, l'exportation ou la liaison de données à partir de feuilles de calcul Lotus .WKS ou Excel version 2.0 avec cette action. Si vous souhaitez importer ou lier des données de feuilles de calcul au format Excel version 2.0 ou Lotus .WKS, convertissez les données de la feuille de calcul dans une version ultérieure d'Excel ou de Lotus 1-2-3 avant d'importer ou de lier les données dans Access.</p>
 </td>
 </tr>
 <tr class="odd">
@@ -66,7 +66,7 @@ L’action **TransferSpreadsheet** comporte les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Range</strong></p></td>
-<td><p>Plage de cellules à importer ou attacher. Laissez cet argument vierge pour importer ou attacher la feuille de calcul entière. Vous pouvez taper le nom d'une plage dans la feuille de calcul, ou spécifier la plage de cellules à importer ou attacher, par exemple, A1:E25 (notez que la syntaxe A1..E25 ne fonctionne pas dans Access 97 ou une version ultérieure). Si l'importation ou la liaison s'effectue vers une feuille de calcul Excel version 5.0 ou ultérieure, vous pouvez faire précéder la plage du nom de la feuille de calcul, suivi d'un point d'exclamation, par exemple : Budget!A1:C7.</p><p><strong>REMARQUE</strong> : lorsque vous exportez des données vers une feuille de calcul, vous devez laisser cet argument vide. Si vous saisissez une plage, l’exportation échouera.</p></td>
+<td><p>Plage de cellules à importer ou attacher. Laissez cet argument vierge pour importer ou attacher la feuille de calcul entière. Vous pouvez taper le nom d'une plage dans la feuille de calcul, ou spécifier la plage de cellules à importer ou attacher, par exemple, A1:E25 (notez que la syntaxe A1..E25 ne fonctionne pas dans Access 97 ou une version ultérieure). Si l'importation ou la liaison s'effectue vers une feuille de calcul Excel version 5.0 ou ultérieure, vous pouvez faire précéder la plage du nom de la feuille de calcul, suivi d'un point d'exclamation, par exemple : Budget!A1:C7.</p><p><strong>REMARQUE</strong> : Lorsque vous exportez vers une feuille de calcul, vous devez laisser cet argument vide. Si vous entrez une plage, l'exportation échouera.</p></td>
 </tr>
 </tbody>
 </table>

@@ -7,12 +7,12 @@ ms:contentKeyID: 48548740
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b477ff63ab64c20eb96c1759813658f6039c5469
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 6d7bbc0f8c1514be96cd53386f36fa4bb6d88fa2
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461995"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631315"
 ---
 # <a name="rds-objects"></a>Objets RDS
 
@@ -21,8 +21,8 @@ ms.locfileid: "62461995"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">

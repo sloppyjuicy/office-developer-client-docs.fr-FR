@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bc2e8d17-7687-43c2-8f01-b677703f7288
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8da401207ba3e6341ffbe85de2b474103ff986bc
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: cc89166b65d73d429d9f0aeb61ea949b24059fd8
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773578"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632559"
 ---
 # <a name="imapifolder--imapicontainer"></a>IMAPIFolder : IMAPIContainer
 
@@ -27,7 +27,7 @@ ms.locfileid: "62773578"
   
 Effectue des opérations sur les messages et sous-dossiers d’un dossier.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Objets Folder  <br/> |
@@ -39,7 +39,7 @@ Effectue des opérations sur les messages et sous-dossiers d’un dossier.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[CreateMessage](imapifolder-createmessage.md) <br/> |Crée un message. |
 |[CopyMessages](imapifolder-copymessages.md) <br/> |Copie ou déplace un ou plusieurs messages. |
@@ -64,7 +64,7 @@ Effectue des opérations sur les messages et sous-dossiers d’un dossier.
 |**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Lecture seule  <br/> |
    
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

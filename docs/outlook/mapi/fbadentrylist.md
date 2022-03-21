@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 270c47c3-ae68-4995-b304-27f861b350d6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 333cbf047ebefd13c6da39f4d05ab349318d6ccf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 03cf96536c41062d5c158a45a7295e85dec8a964
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576295"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631770"
 ---
 # <a name="fbadentrylist"></a>FBadEntryList
 
@@ -27,7 +27,7 @@ ms.locfileid: "59576295"
   
 Valide une liste d’identificateurs d’entrée MAPI. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

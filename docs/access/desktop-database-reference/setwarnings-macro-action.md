@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 0e25214d4ca7e6779efa127da71f63edef429e23
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7790180690d789ccb9a0de473efbcbb96c9bc361
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585318"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630524"
 ---
 # <a name="setwarnings-macro-action"></a>SetWarnings, action de macro
 
@@ -27,14 +27,14 @@ L'action **Avertissements** permet d'activer ou de désactiver les messages syst
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **Avertissements** utilise les arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

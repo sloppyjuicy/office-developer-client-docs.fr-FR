@@ -8,12 +8,12 @@ keywords:
 ms.assetid: c0e6dd3b-fae1-453d-a9b4-7f456b5172db
 description: Découvrez les nouveaux scénarios de document structuré que permettent de déployer les contrôles de contenu Microsoft Word 2013.
 ms.localizationpriority: high
-ms.openlocfilehash: 4f58900d6297038fe14672fec1792cd51f7febdf
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 65b68b623f16e669e2585c1c3c7ad7b90d2aad06
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63379842"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630167"
 ---
 # <a name="content-controls-in-word"></a>Contrôles de contenu dans Word
 
@@ -251,7 +251,7 @@ Les éléments suivants ont été ajoutés au schéma WordprocessingML au format
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|\<w:appearance\>  <br/> |\<w:appearance\> est un élément enfant de \<w:sdtPr\>. Voici les valeurs valides pour l’attribut val :  <br/> \<w:appearance val= boundingBox|étiquettes|caché. La valeur par défaut est boundingBox. |
+|\<w:appearance\>  <br/> |\<w:appearance\> est un élément enfant de \<w:sdtPr\>. Voici les valeurs valides pour l’attribut val :  <br/> \<w:appearance val= \|balises\| boundingBox cachées. La valeur par défaut est boundingBox. |
 |\<w:color\>  <br/> |\<w:color\> est un élément enfant de\<w:sdtPr\>. Le modèle de contenu correspond au type complexe CT_Color existant. La valeur par défaut est la couleur utilisée dans Word 2010. |
 
 ## <a name="new-word-2013-content-control-object-model-members"></a>Nouveaux membres du modèle objet contrôle de contenu Word 2013

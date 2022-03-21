@@ -7,20 +7,20 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: db6292c7-9f4c-c287-803b-64fa41c0a269
 description: Stocke les informations relatives à la validation du diagramme pour le document.
-ms.openlocfilehash: 72f7dbd5c6e6bd5f83b5adaf8742be22a969dc5f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ddd9a10603f1a2c0f80d4d587acc294a3fa0bdfc
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772521"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632328"
 ---
 # <a name="validation-element-visio-xml"></a>Élément Validation (Visio XML)
 
 Stocke les informations relatives à la validation du diagramme pour le document.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -43,7 +43,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |Contient tous les **éléments Issue** du document. |
 |[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |Inclut **un élément RuleSet** pour chaque ensemble de règles de validation dans le document. |

@@ -7,12 +7,12 @@ ms:contentKeyID: 48547669
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: bcfadc9d0faf0b8a13c26918c1be91c05a987ae9
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: ae385f2615f014a89be007ed2db3ab3be4a647f0
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461544"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630953"
 ---
 # <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Fonctions d’agrégation, fonction CALC et mot-clé NEW
 
@@ -25,8 +25,8 @@ Un alias-chapitre peut être complètement qualifié et se composer de chaque no
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -70,8 +70,8 @@ Un alias-chapitre peut être complètement qualifié et se composer de chaque no
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -90,8 +90,8 @@ Un alias-chapitre peut être complètement qualifié et se composer de chaque no
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -112,8 +112,8 @@ Le *type de champ transmis* avec le mot clé NEW peut être l’un des types de 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

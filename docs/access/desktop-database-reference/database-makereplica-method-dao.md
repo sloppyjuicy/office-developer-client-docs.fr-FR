@@ -1,5 +1,5 @@
 ---
-title: Méthode Database.MakeReplica (DAO)
+title: Database.MakeReplica, méthode (DAO)
 TOCTitle: MakeReplica Method
 ms:assetid: b6bf4982-0804-12ce-849f-d2b4ac2e48a5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822413(v=office.15)
@@ -11,14 +11,14 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: afdb4fe18c3dc987795092859262aca3054b13cd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 29ae25b5cf29b8a046eac3f8eadc5efff82addbe
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59569180"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630773"
 ---
-# <a name="databasemakereplica-method-dao"></a>Méthode Database.MakeReplica (DAO)
+# <a name="databasemakereplica-method-dao"></a>Database.MakeReplica, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -34,10 +34,10 @@ Crée un nouveau réplica à partir d’un autre réplica de base de données (e
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -76,7 +76,7 @@ Les propriétés **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** d'u
 
 ## <a name="example"></a>Exemple
 
-Cette fonction s'appuie sur la méthode **MakeReplica** pour créer un réplica supplémentaire d'un réplica-maître existant. L’argument intOptions peut être une combinaison des constantes **dbRepMakeReadOnly** et **dbRepMakePartial,** ou il peut être 0. Par exemple, pour créer un réplica partiel en lecture seule, vous devez transmettre la valeur **dbRepMakeReadOnly**  +  **dbRepMakePartial** en tant que valeur d’intOptions.
+Cette fonction s'appuie sur la méthode **MakeReplica** pour créer un réplica supplémentaire d'un réplica-maître existant. L’argument intOptions peut être une combinaison des constantes **dbRepMakeReadOnly** et **dbRepMakePartial**, ou il peut être 0. Par exemple, pour créer un réplica partiel en lecture seule, vous devez transmettre la valeur **dbRepMakeReadOnlydbRepMakePartial** +  en tant que valeur d’intOptions.
 
 ```vb 
 Function MakeAdditionalReplica(strReplicableDB As _ 

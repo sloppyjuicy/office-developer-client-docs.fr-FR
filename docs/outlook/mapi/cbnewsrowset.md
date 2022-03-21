@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3b8b8d9f-33e1-45c3-b024-9afcaab8839c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 67f224951faeaaced2f6fc60fbfcb484db0a675b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: aae6fa660db2a386fe73911f234169d80118febc
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551820"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634617"
 ---
 # <a name="cbnewsrowset"></a>CbNewSRowSet
 
@@ -25,9 +25,9 @@ ms.locfileid: "59551820"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets à allouer pour une nouvelle structure [SRowSet](srowset.md) qui contient un nombre spécifié de lignes représentées par les structures [SRow.](srow.md) 
+Calcule le nombre d’octets à allouer pour une nouvelle structure [SRowSet](srowset.md) qui contient un nombre spécifié de lignes représentées par les structures [SRow](srow.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**SRowSet** <br/> |
@@ -38,11 +38,11 @@ CbNewSRowSet (_crow)
 
 ## <a name="parameters"></a>Paramètres
 
- _
+ _ _sous_
   
-> Nombre de structures **SRow** indiquant le nombre de lignes à inclure dans la nouvelle structure **SRowSet.** 
+> Nombre de structures **SRow** indiquant le nombre de lignes à inclure dans la nouvelle structure **SRowSet** . 
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

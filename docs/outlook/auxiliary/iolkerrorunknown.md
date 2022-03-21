@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 9cfbf12c-a71c-092b-d86a-c5585b0f1edb
-ms.openlocfilehash: ca9aa0cf52c283a7e91cd29f1e99415db0023ac8
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 772e01640d76338cac51bcf4483b41c6b84a1991
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777592"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628599"
 ---
 # <a name="iolkerrorunknown"></a>IOlkErrorUnknown
 
@@ -19,7 +19,7 @@ Fournit des informations supplémentaires sur la dernière erreur.
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Hérite de :   |[IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown.md) |
 |Fourni par :   |Client  |
@@ -27,7 +27,7 @@ Fournit des informations supplémentaires sur la dernière erreur.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member | Description |
 |:-----|:-----|
 |[GetLastError](iolkerrorunknown-getlasterror.md) <br/> |Obtient une chaîne de message pour l’erreur spécifiée. |
    
@@ -35,6 +35,6 @@ Fournit des informations supplémentaires sur la dernière erreur.
 
 Cette interface fournit des informations supplémentaires sur une erreur [dans IOlkAccountManager](iolkaccountmanager.md), [IOlkAccountNotify](iolkaccountnotify.md) et [IOlkAccount](iolkaccount.md). Il s’agit également de l’interface de base pour **IOlkAccountManager**, **IOlkAccountNotify** et **IOlkAccount**. 
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 - [À propos de l'API de gestion de compte](about-the-account-management-api.md)

@@ -7,12 +7,12 @@ ms:contentKeyID: 48545150
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 0c53892d9edf6041777ed2115284b468115e8c7d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3182456574772242f3615f665db950a6ef4f753c
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573095"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632300"
 ---
 # <a name="complextype-members-dao"></a>ComplexType members (DAO)
 
@@ -25,8 +25,8 @@ Représente un champ à valeur multiple.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

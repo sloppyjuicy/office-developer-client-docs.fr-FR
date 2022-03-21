@@ -7,12 +7,12 @@ ms:contentKeyID: 48546093
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 9e2ef710d9a7036cc9f15e2c69d37e84393f978d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2e22fd428459027be3f35d2119f7587232ee3dbf
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559072"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630076"
 ---
 # <a name="alter-user-or-database-statement-microsoft-access-sql"></a>ALTER USER ou DATABASE, instruction (Microsoft Access SQL)
 
@@ -30,12 +30,12 @@ L'instruction ALTER USER ou DATABASE est composée des arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Élément</p></th>
+<th><p>Quitter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

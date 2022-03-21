@@ -6,12 +6,12 @@ ms.audience: ITPro
 ms.localizationpriority: medium
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: Découvrez comment intégrer le programme d Microsoft 365 Apps d’installation « En un clic » à une solution de gestion des logiciels.
-ms.openlocfilehash: c3a84e63cb02018a743d7d74bd780e30fd8213a2
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 97099d8c345e02c5c6ce521560490efcae28e35e
+ms.sourcegitcommit: 03348dda157b813ea1af1c4643a328fbf532a20b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63378414"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63661481"
 ---
 # <a name="integrating-manageability-applications-with-microsoft-365-apps-click-to-run-installer"></a>Intégration d’applications de gestion Microsoft 365 Apps programme d’installation « Exécuter en un clic
 
@@ -117,7 +117,7 @@ Dans la documentation de référence de l’API suivante :
 
 - Les paramètres ne sont pas sensibles à la cas.
 
-- Pour plus d’informations, voir Office installations « Exécuter en un clic » et [sur les applications anti-programme malveillant associées](/office/troubleshoot/office-suite-issues/office-click-to-run-installation.md).
+- Pour plus d’informations, voir Les informations Office installations « Exécuter en un clic » et [sur les applications anti-programme malveillant associées](https://docs.microsoft.com/office/troubleshoot/office-suite-issues/office-click-to-run-installation).
 
 - Le résumé de l’interface IUpdateNotify2 est désormais inclus.
 
@@ -185,7 +185,7 @@ HRESULT Cancel() // Cancel the download action.
 
 - Cette méthode ne peut être déclenchée que lorsque l’ID **d’état COM eDOWNLOAD_WIP**. Il tentera d’annuler l’action de téléchargement actuelle. L’état COM **est eDOWNLOAD_CANCELLING puis** **à eDOWNLOAD_CANCELED.** L’état COM **est E_ILLEGAL_METHOD_CALL** s’il est déclenché à tout autre moment.
 
-### <a name="download"></a>Télécharger
+### <a name="download"></a>Téléchargement
 
 ```cpp
 HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
@@ -232,7 +232,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 
 - Si vous appelez la méthode **Apply** sans contenu téléchargé précédemment, la méthode **Apply** indique Réussite  car elle n’a détecté aucun résultat à appliquer et a terminé le **processus Appliquer** avec succès.
 
-#### <a name="examples"></a>範例
+#### <a name="examples"></a>Exemples
 
 - Pour télécharger le contenu à partir du gestionnaire BITS personnalisé : appelez la fonction **download()** en passant les paramètres suivants :
 
@@ -483,7 +483,7 @@ Paramètres facultatifs de la requête
 
 |**Name**|**Description**|
 |:-----|:-----|
-| channel <br/>| Spécifie le nom du canal  <br/> Facultatif : valeur par défaut « SemiAnnual » <br/> Valeurs pris en charge <https://docs.microsoft.com/DeployOffice/office-deployment-tool-configuration-options#channel-attribute-part-of-add-element> |
+| canal <br/>| Spécifie le nom du canal  <br/> Facultatif : valeur par défaut « SemiAnnual » <br/> Valeurs pris en charge <https://docs.microsoft.com/DeployOffice/office-deployment-tool-configuration-options#channel-attribute-part-of-add-element> |
 | version <br/>| Spécifie la version de mise à jour <br/> Facultatif : valeur par défaut de la dernière version disponible pour le canal spécifié |
 | arch <br/>| Spécifie l’architecture du client <br/> Facultatif : valeur par défaut : « x64 » <br/> Valeurs prise en charge : x64, x86 |
 | lid <br/>| Spécifie les fichiers de langue à inclure <br/> Facultatif : aucune valeur par défaut <br/> Pour spécifier plusieurs langues, incluez un paramètre de requête de capot pour chaque langue <br/> Utilisez le format d’identificateur de langue, par exemple. 'en-us', 'fr-fr' |

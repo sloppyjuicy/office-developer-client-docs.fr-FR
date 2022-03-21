@@ -7,12 +7,12 @@ ms:contentKeyID: 48543221
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: aa5bdd448cc46e2b665c85d8aff9b79d1c5e81e9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7523b688a56323cb45b039977638acec90e7778b
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558337"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629936"
 ---
 # <a name="fetchoptions-property-rds"></a>FetchOptions, propriété (RDS)
 
@@ -27,8 +27,8 @@ Définit ou renvoie l'une des valeurs suivantes.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,12 +7,12 @@ ms:contentKeyID: 48548412
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: e1dab8baeeef547c93e8e3ced89ed3fc24ab97f0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c61194f52c91a6167fc19e6168c641c9324c7a45
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59562404"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630531"
 ---
 # <a name="readystate-property-rds"></a>ReadyState, propriété (RDS)
 
@@ -26,8 +26,8 @@ Définit ou renvoie l'une des valeurs suivantes.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -58,5 +58,5 @@ Définit ou renvoie l'une des valeurs suivantes.
 
 Utilisez l’événement [onreadystatechange](onreadystatechange-event-rds.md) pour surveiller les modifications de la propriété **ReadyState** lors d’une requête asynchrone. C’est plus efficace que de vérifier régulièrement la valeur de la propriété.
 
-Si une erreur se produit au cours d’une opération asynchrone, la propriété [](value-property-ado.md) **ReadyState** passe à **adcReadyStateComplete**, la propriété [State](state-property-ado.md) passe d’adStateExecuting à **adStateClosed** et la propriété Valeur de l’objet **Recordset** reste *Nothing*. 
+Si une erreur se produit au cours d’une opération asynchrone, la propriété **ReadyState** passe à **adcReadyStateComplete**, la propriété [State](state-property-ado.md) [](value-property-ado.md) passe **d’adStateExecuting** à **adStateClosed** et la propriété Value de l’objet **Recordset** reste *Nothing*.
 

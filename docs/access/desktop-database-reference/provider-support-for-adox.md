@@ -7,12 +7,12 @@ ms:contentKeyID: 48544091
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: dd41e368a505e6ef3ac40c0cdca343aef5bd45e8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 635e76efa614ce02d72d6d521af0f21c7e50cca1
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597134"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631971"
 ---
 # <a name="provider-support-for-adox"></a>Prise en charge du fournisseur pour ADOX
 
@@ -25,8 +25,8 @@ Selon votre fournisseur de données OLE DB, certaines fonctionnalités d'ADOX ne
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -75,8 +75,8 @@ Selon votre fournisseur de données OLE DB, certaines fonctionnalités d'ADOX ne
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -125,8 +125,8 @@ Selon votre fournisseur de données OLE DB, certaines fonctionnalités d'ADOX ne
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

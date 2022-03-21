@@ -7,12 +7,12 @@ ms:contentKeyID: 48542985
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 9455867ec47354a38084a67360d5ee7f3f66e874
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0760912153359a8f9a1bebd5751c05ad3ec8326f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622500"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632986"
 ---
 # <a name="customization-file-connect-section"></a>Section de connexion du fichier de personnalisation
 
@@ -38,8 +38,8 @@ Une entrée de chaîne de connexion de remplacement a la forme suivante :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -75,5 +75,5 @@ Une entrée de chaîne de connexion de remplacement a la forme suivante :
 </table>
 
 
-Si vous souhaitez autoriser une connexion (désactivant en fait le comportement du responsable par défaut), définissez  l’entrée d’accès dans la section connect **par** défaut sur , puis supprimez ou commentez toute autre *section* d’identificateur de connexion.
+Si vous souhaitez autoriser une connexion (désactivant en fait le comportement du responsable par défaut), définissez l’entrée d’accès dans la section connect **par** défaut sur , puis  supprimez ou commentez toute *autre section* d’identificateur de connexion.
 

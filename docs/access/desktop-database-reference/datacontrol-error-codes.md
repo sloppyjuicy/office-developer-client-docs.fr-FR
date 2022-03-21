@@ -7,12 +7,12 @@ ms:contentKeyID: 48548027
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 8fde92fc77ce53f265ab62e1c6334d919a81e722
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 250e7ce1b770ebd3f999a81e614db51d6f549b6b
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565554"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632223"
 ---
 # <a name="datacontrol-error-codes"></a>Codes d’erreur DataControl
 
@@ -23,9 +23,9 @@ Le tableau suivant répertorie les codes d’erreur de l’objet [RDS.DataContro
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -82,7 +82,7 @@ Le tableau suivant répertorie les codes d’erreur de l’objet [RDS.DataContro
 <td><p>4112<br />
 -2146824170<br />
 0x800A1016</p></td>
-<td><p>Cette page utilise des données situées dans un autre domaine. Voulez-vous continuer ? Pour éviter ce message dans Internet Explorer, vous pouvez ajouter <strong></strong> un site web sécurisé à votre zone Sites de confiance sous l’onglet Sécurité de la boîte de dialogue <strong>Options Internet.</strong></p></td>
+<td><p>Cette page utilise des données situées dans un autre domaine. Voulez-vous continuer ? Pour éviter ce message dans Internet Explorer, vous pouvez ajouter un site web sécurisé à votre zone Sites de confiance <strong></strong> sous l’onglet Sécurité de la boîte de dialogue <strong>Options Internet</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_InvalidADCClientVersion</strong></p></td>

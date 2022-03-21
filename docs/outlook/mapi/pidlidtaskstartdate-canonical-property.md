@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fe87eb3d-21d1-45bb-b848-e141ce1be6a0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 83f57ad55ab5011c9252f5f88f2fff06984394ba
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c31c2917a51d1b97529d46e6eab0b91e68a95b1a
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579368"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632524"
 ---
 # <a name="pidlidtaskstartdate-canonical-property"></a>Propriété canonique PidLidTaskStartDate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579368"
   
 Date à laquelle l’utilisateur s’attend à commencer la tâche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskStartDate  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
@@ -37,9 +37,9 @@ Date à laquelle l’utilisateur s’attend à commencer la tâche.
    
 ## <a name="remarks"></a>Remarques
 
-Si cette valeur de propriété n’est pas jeu, la tâche n’a pas de date de début. La valeur « 0x5AE980E0 » (1 525 252 320) signifie également que la tâche n’a pas de date de début. Si la tâche a une date de début, la valeur doit avoir un composant d’heure de minuit et les propriétés **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) et **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) doivent également être définies.
+Si cette valeur de propriété n’est pas jeu, la tâche n’a pas de date de début. La valeur « 0x5AE980E0 » (1 525 252 320) signifie également que la tâche n’a pas de date de début. Si la tâche a une date de début, la valeur doit avoir un composant d’heure de minuit, et les propriétés **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) et **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) doivent également être définies.
   
-Cette propriété est partagée par les spécifications de protocole Informational Flagging et Task-Related Object Protocol situées dans [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
+Cette propriété est partagée par les spécifications de protocole Informational Flagging et Task-Related Object Protocol [situées dans [MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -59,7 +59,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

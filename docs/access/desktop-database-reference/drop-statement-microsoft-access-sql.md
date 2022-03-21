@@ -7,12 +7,12 @@ ms:contentKeyID: 48546907
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: c196727e104ee0c79e7b5781e6d999902df2d67b
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: a26d109cea3a58f9d342c31f83c3ed39750cec51
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462777"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626660"
 ---
 # <a name="drop-statement-microsoft-access-sql"></a>DROP, instruction (Microsoft Access SQL)
 
@@ -31,8 +31,8 @@ L’instruction DROP est composée des éléments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

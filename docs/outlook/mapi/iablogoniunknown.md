@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fe340182-f41e-42e7-b8e8-cc005b1e9a5f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a4e383b727f36b020bb0b8b72323d35f0ce8c240
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 0b09543147b567281ebbac8f9d2261c55d8dd706
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780035"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632587"
 ---
 # <a name="iablogon--iunknown"></a>IABLogon : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62780035"
   
 Accède aux ressources dans un fournisseur de carnet d’adresses.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
 |Exposé par :  <br/> |Objets d’logo de carnet d’adresses  <br/> |
@@ -38,7 +38,7 @@ Accède aux ressources dans un fournisseur de carnet d’adresses.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member | Description |
 |:-----|:-----|
 |[GetLastError](iablogon-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur de fournisseur de carnet d’adresses précédente. |
 |[Logoff](iablogon-logoff.md) <br/> |Lance le processus de ffage de logo. |
@@ -55,7 +55,7 @@ Accède aux ressources dans un fournisseur de carnet d’adresses.
 
 Pour obtenir des informations générales sur les méthodes de l’interface **IABLogon** , voir [Implementing Service Provider Logon](implementing-service-provider-logon.md).
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

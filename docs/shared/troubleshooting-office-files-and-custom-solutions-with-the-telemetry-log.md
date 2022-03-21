@@ -6,18 +6,18 @@ ms.audience: Developer
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: Utilisez le Journal de télémétrie pour Office 2013 pour déterminer les problèmes de compatibilité avec Office 2013 et les solutions élaborées pour les précédentes versions d'Office.
 ms.localizationpriority: high
-ms.openlocfilehash: 19a73b659e564459bb23953eabcadccf979ea641
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 79c0ca3d827d8b273a24d752985c536e3cd6a180
+ms.sourcegitcommit: 03348dda157b813ea1af1c4643a328fbf532a20b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63372422"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63661467"
 ---
 # <a name="troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log"></a>Dépannage des solutions personnalisées et des fichiers Office avec le journal de télémétrie
 
 Utilisez le Journal de télémétrie pour Office 2013 pour déterminer les problèmes de compatibilité avec Office 2013 et les solutions élaborées pour les précédentes versions d'Office.
   
-L’article suivant décrit le journal de télémétrie et explique comment l’utiliser. Pour plus d'informations sur des résultats spécifiques affichés dans le Journal de télémétrie, reportez-vous à la section [Problèmes de compatibilité dans Office](compatibility-issues-in-office.md).
+L'article suivant décrit le journal de télémétrie et comment l'utiliser. Pour plus d'informations sur les résultats spécifiques affichés dans le journal de télémétrie, consultez la section [Problèmes de compatibilité dans Office](compatibility-issues-in-office.md).
 
 Au fil des versions, Microsoft a proposé des outils et des infrastructures permettant de personnaliser, d'automatiser et d'étendre Office. Ceux-ci ont permis aux entreprises et aux utilisateurs de créer des solutions ou des compléments pour les applications Office en vue d'améliorer leur productivité et leur efficacité. Ces solutions vont des plus simples comme les macros Visual Basic for Applications (VBA) aux plus complexes telles que les personnalisations .NET Framework. La plupart des utilisateurs qui disposent de ces solutions les utilisent pour effectuer des tâches critiques parfois sans même savoir qu'ils utilisent une personnalisation ajoutée à leurs applications Office.
   
@@ -25,7 +25,7 @@ Cette prolifération de solutions Office complexifie les mises à niveau des ver
   
 Outil reposant sur Excel 2013, le Journal de télémétrie pour Office 2013 aide les développeurs et les utilisateurs expérimentés à diagnostiquer les problèmes de compatibilité en affichant les événements qui se produisent dans un éventail d'applications Office 2013. Grâce à cet outil, les utilisateurs sont à même de déterminer les problèmes potentiels avec les compléments qu'ils utilisent dans leur environnement de travail, fournissant ainsi aux décideurs d'entreprise les informations dont ils ont besoin pour déterminer si la mise à niveau vers Office 2013 est possible. Le Journal de télémétrie propose également des commentaires détaillés sur des modifications ou des obsolescences spécifiques dans les modèles objet pour les applications Office 2013, ce qui permet aux développeurs d'identifier et de remanier rapidement le code ou les commandes problématiques. Les informaticiens peuvent voir les tendances de fonctionnement des solutions sur différents clients grâce au Tableau de bord de télémétrie pour Office 2013, outil complémentaire du Journal de télémétrie.
   
-Pour plus d'informations, voir [Déployer le Tableau de bord de télémétrie](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717).
+Pour plus d'informations, voir [Déployer le Tableau de bord de télémétrie](https://docs.microsoft.com/DeployOffice/compat/deploy-telemetry-dashboard).
   
 ## <a name="how-the-telemetry-log-works"></a>Fonctionnement du Journal de télémétrie
 
@@ -91,7 +91,7 @@ Procédez comme suit pour afficher les problèmes Office enregistrés dans le Jo
 4. Pour consulter les informations relatives à l'ordinateur sur lequel Office 2013 et Journal de télémétrie sont installés, reportez-vous aux informations de la feuille de calcul **Infos système**.
 
 > [!NOTE]
-> Il n'est pas nécessaire d'enregistrer le classeur Journal de télémétrie dans Excel 2013 pour conserver un enregistrement des résultats, car les informations sont enregistrées dans le magasin de données local (qui est distinct du Journal de télémétrie). Toutefois, l'enregistrement du classeur n'endommage pas le Journal de télémétrie.
+> Il n'est pas nécessaire d'enregistrer le classeur du journal de télémétrie dans Excel 2013 pour conserver un enregistrement des résultats, car les informations sont stockées dans le magasin de données local (qui est distinct du journal de télémétrie). Cependant, l'enregistrement du classeur n'endommage pas le journal de télémétrie.
   
 Le Journal de télémétrie affiche quelques informations simples sur les événements enregistrés. Chaque enregistrement affiché dans le Journal de télémétrie comporte un titre et indique la gravité de l'événement affiché. Pour les erreurs, les enregistrements comprennent également une description de l'erreur ainsi que la procédure à suivre pour la résoudre. Notez toutefois que tous les enregistrements affichés ne sont pas des erreurs occasionnées par les solutions Office ; le Journal de télémétrie indique également lorsque des solutions et des fichiers sont chargés ou fermés sans problème.
   
@@ -149,7 +149,7 @@ Utilisez le Tableau 2 suivant pour interpréter les enregistrements affichés da
 |19  <br/> |Le complément a rencontré une erreur d’exécution  <br/> |Critique  <br/> |L'Complément Office a rencontré un problème qui l'a empêchée de s'exécuter. Pour plus de détails, consultez le journal des alertes de Microsoft Office à l'aide de l'Observateur d'événements Windows sur l'ordinateur sur lequel l'erreur s'est produite. |
 |20  <br/> |Le complément n’a pas pu vérifier la licence  <br/> |Critique  <br/> |Les informations de licence de l'Complément Office n'ont pas pu être vérifiées et la licence a peut-être expiré. Pour plus de détails, consultez le journal des alertes de Microsoft Office à l'aide de l'Observateur d'événements Windows sur l'ordinateur sur lequel l'erreur s'est produite. |
 | 21 <br/>|Une macro a rencontré une erreur de compilation <br/>|Avertissement <br/>| Le fichier contient une macro dont la compilation a échoué et n’a pas pu être exécutée. Pour plus d’informations, consultez le message d’erreur présenté lors de la tentative de compilation de la macro à partir de l’éditeur de macros.<br/>|
-|22 <br/>|Une macro a rencontré une erreur d’exécution<br/>| Avertissement <br/>| Le fichier contient une macro qui a rencontré une erreur d’exécution. Pour plus d’informations, consultez le message d’erreur présenté lors de la tentative d’exécution de la macro à partir de l’éditeur de macro et consultez [Référence d’applications pour Visual Basic](https://docs.microsoft.com/previous-versions/visualstudio/visual-basic-6/aa264975%28v=vs.60%29).<br/>|
+|22 <br/>|Une macro a rencontré une erreur d’exécution<br/>| Avertissement <br/>| Le fichier contient une macro qui a rencontré une erreur d'exécution. Pour plus de détails, consultez le message d'erreur présenté lors de la tentative d'exécution de la macro à partir de l'éditeur de macro et consultez la référence sur les erreurs d'exécution de [VBA](https://docs.microsoft.com/previous-versions/visualstudio/visual-basic-6/aa264975(v=vs.60)).<br/>|
 |Divers  <br/> |« Modification du comportement du modèle objet : ... »  <br/> |Informationnel  <br/> |Le code du complément ou du document prenant en charge les macros utilise un objet, un membre, une collection, une énumération ou une constante qui se comporte différemment des versions précédentes d’Office.<br/><br/> Pour plus d'informations, reportez-vous à la section [Problèmes de compatibilité dans Office](compatibility-issues-in-office.md). |
 |Divers  <br/> |« Modèle objet - supprimé : … »  <br/> |Critique  <br/> |Le code du complément ou du document prenant en charge les macros utilise une collection, une énumération, une constante, un objet ou un membre ayant été supprimé du modèle objet.<br/><br/>Pour plus d'informations, reportez-vous à la section [Problèmes de compatibilité dans Office](compatibility-issues-in-office.md). |
 |Divers  <br/> |« Modèle objet - masqué : … »  <br/> |Informationnel  <br/> |Le code du complément ou du document prenant en charge les macros utilise une collection, une énumération, une constante, un objet ou un membre ayant été masqué dans le modèle objet.<br/><br/>Pour plus d'informations, reportez-vous à la section [Problèmes de compatibilité dans Office](compatibility-issues-in-office.md). |
@@ -165,7 +165,6 @@ Le Journal de télémétrie fournit aux grandes entreprises, aux utilisateurs in
 
 <a name="OEV_Additional"> </a>
 
-- [Centre pour développeurs Office](https://msdn.microsoft.com/office/aa905340.aspx)
+- [Centre pour développeurs Office](https://developer.microsoft.com/office)
 - [Problèmes de compatibilité dans Office](compatibility-issues-in-office.md)
-- [Déployer le Tableau de bord de télémétrie Office](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
-- [Centre pour développeurs Office](https://msdn.microsoft.com/office/aa905340)
+- [Déployer le Tableau de bord de télémétrie Office](https://docs.microsoft.com/DeployOffice/compat/deploy-telemetry-dashboard)

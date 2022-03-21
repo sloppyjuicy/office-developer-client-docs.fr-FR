@@ -1,5 +1,5 @@
 ---
-title: Workspace.CommitTrans, méthode (DAO)
+title: Workspace.CommitTrans method (DAO)
 TOCTitle: CommitTrans Method
 ms:assetid: e6d129fb-a578-5c79-9c16-6444519f0daf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835985(v=office.15)
@@ -7,14 +7,14 @@ ms:contentKeyID: 48548391
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 69f88c185fefc50e18920896a273c9a3c7de0df9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9c4cd65cfb7b53fa5d4970c3126e2264d6b08f10
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572493"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634925"
 ---
-# <a name="workspacecommittrans-method-dao"></a>Workspace.CommitTrans, méthode (DAO)
+# <a name="workspacecommittrans-method-dao"></a>Workspace.CommitTrans method (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -30,10 +30,10 @@ Met fin à la transaction en cours et enregistre les modifications.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

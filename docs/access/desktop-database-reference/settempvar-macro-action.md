@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5e0d73c700acc66eaac40190012965d865c50b7c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c83ebca6afba43e79ecf566d3ecf53a394899111
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568480"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631294"
 ---
 # <a name="settempvar-macro-action"></a>SetTempVar, action de macro
 
@@ -27,14 +27,14 @@ ms.locfileid: "59568480"
 
 L'action **DéfinirVarTemp** permet de créer une variable temporaire et de la définir sur une valeur spécifique. La variable peut ensuite être utilisée en tant que condition ou argument dans les actions suivantes, dans une autre macro, dans une procédure événementielle, ou dans un formulaire ou un état.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **DéfinirVarTemp** utilise les arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -49,7 +49,7 @@ L’action **DéfinirVarTemp** utilise les arguments suivants :
 </tr>
 <tr class="even">
 <td><p><strong>Expression</strong></p></td>
-<td><p>Expression qui permet de définir la valeur de cette variable temporaire. Ne faites pas précéder l’expression du signe <strong>=</strong> égal (). Vous pouvez cliquer sur le <strong>bouton</strong> Créer <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> pour utiliser le Générateur d’expression pour définir cet argument.</p></td>
+<td><p>Expression qui permet de définir la valeur de cette variable temporaire. Ne faites pas précéder l’expression du signe égal (<strong>=</strong>). Vous pouvez cliquer sur le <strong>bouton</strong> Créer <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> pour utiliser le Générateur d’expression pour définir cet argument.</p></td>
 </tr>
 </tbody>
 </table>
@@ -76,14 +76,14 @@ La macro suivante explique comment créer une variable temporaire, en utilisant 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Condition</p></th>
-<th><p>Action</p></th>
+<th><p>Opération</p></th>
 <th><p>Arguments</p></th>
 </tr>
 </thead>
@@ -91,12 +91,12 @@ La macro suivante explique comment créer une variable temporaire, en utilisant 
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>SetTempVar</strong></p></td>
-<td><p><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox( &quot; Enter a non-zero number. &quot; )</p></td>
+<td><p><strong>Name</strong>: <strong>MyVarExpression</strong>: InputBox(&quot;Enter a non-zero number.&quot;)</p></td>
 </tr>
 <tr class="even">
 <td><p>[TempVars]![MaVar] &lt;&gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: = &quot; vous avez entré &quot; &amp; [TempVars]![ MyVar] &amp; &quot; . &quot; <strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></p></td>
+<td><p><strong>Message</strong> : =&quot;Vous avez entré &quot; &amp; [TempVars]![ MyVar] &amp; &quot;.&quot; <strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

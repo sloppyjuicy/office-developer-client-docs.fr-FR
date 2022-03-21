@@ -7,12 +7,12 @@ ms:contentKeyID: 48547554
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 63c26ea16f3c93094a877ffb4b9a394b0be89be6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d9a49195a4490d91bb7bc1c4d296323311dbd680
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602478"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626555"
 ---
 # <a name="hellodata-a-simple-ado-application"></a>HelloData : une application ADO simple
 
@@ -28,7 +28,7 @@ L'application interroge la base de données exemple Northwind incluse dans Micro
 
 2.  Créez quatre boutons de commande en haut du formulaire, en définissant les propriétés **Name** et **Caption** avec les valeurs indiquées dans le tableau ci-dessous.
 
-3.  En dessous des boutons, ajoutez un **contrôle Microsoft DataGrid** (Msdatgrd.ocx). Le fichier Msdatgrd.ocx est fourni avec Visual Basic et se trouve dans votre répertoire \\ windows \\ system32 ou \\ winnt \\ system32. Pour ajouter le contrôle DataGrid à la Boîte à outils Visual Basic, sélectionnez **Composants** dans le menu **Projet**. Activez ensuite la case à cocher en regard de « Microsoft DataGrid Control 6.0 (SP3) (OLEDB) » et cliquez sur **OK**. Pour ajouter le contrôle au projet, faites glisser le contrôle DataGrid de la Boîte à outils vers le formulaire Visual Basic.
+3.  En dessous des boutons, ajoutez un **contrôle Microsoft DataGrid** (Msdatgrd.ocx). Le fichier Msdatgrd.ocx est fourni avec Visual Basic \\et se trouve dans votre répertoire windowssystem32\\\\ ou winntsystem32\\. Pour ajouter le contrôle DataGrid à la Boîte à outils Visual Basic, sélectionnez **Composants** dans le menu **Projet**. Activez ensuite la case à cocher en regard de « Microsoft DataGrid Control 6.0 (SP3) (OLEDB) » et cliquez sur **OK**. Pour ajouter le contrôle au projet, faites glisser le contrôle DataGrid de la Boîte à outils vers le formulaire Visual Basic.
 
 4.  Créez une **zone de texte** sur le formulaire en dessous de la grille et définissez ses propriétés comme indiqué dans le tableau. Lorsque vous avez terminé, le formulaire doit être identique à celui illustré dans la figure suivante.
 
@@ -41,9 +41,9 @@ Pour obtenir une description détaillée du code, voir [HelloData Details](hello
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,12 +7,12 @@ ms:contentKeyID: 48546385
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7ea95d40d10823de22b7496615a4fddb3e2860c5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ad4e363b9a04274d3c28ae84fa2aeee8b6fa4cc0
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593963"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629866"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>Fournisseur Microsoft OLE DB pour Microsoft Active Directory Service
 
@@ -44,12 +44,12 @@ La chaîne est composée des mots clé suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Mot clé</p></th>
+<th><p>Keyword</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -78,8 +78,8 @@ Dans la syntaxe suivante, une chaîne de texte de commande en quatre parties est
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -93,7 +93,7 @@ Dans la syntaxe suivante, une chaîne de texte de commande en quatre parties est
 <td><p>Indique l'objet <strong>ADsPath</strong> à partir duquel lancer la recherche (c'est-à-dire la racine de la recherche).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Filtre</em></p></td>
+<td><p><em>Filter</em></p></td>
 <td><p>Indique le filtre de recherche au format RFC 1960.</p></td>
 </tr>
 <tr class="odd">
@@ -137,12 +137,12 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Property</p></th>
+<th><p>Propriété</p></th>
 <th><p>Disponibilité</p></th>
 </tr>
 </thead>
@@ -188,7 +188,7 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 <td><p>lecture seule</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filtre</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
@@ -220,7 +220,7 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 <td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">State</a></p></td>
+<td><p><a href="state-property-ado.md">État</a></p></td>
 <td><p>lecture seule</p></td>
 </tr>
 <tr class="even">
@@ -235,8 +235,8 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,12 +7,12 @@ ms:contentKeyID: 48547971
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 0794f1642a9976883eb07dc9bbbb15e085a25965
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: febbe29c4d3b35d686c312b2ab644e133ced9566
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626868"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630048"
 ---
 # <a name="datafactory-properties-methods-and-events-rds"></a>DataFactory properties, methods, and events (RDS)
 
@@ -29,8 +29,8 @@ Aucune.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">

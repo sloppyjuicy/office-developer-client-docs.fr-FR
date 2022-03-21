@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 9c76bf02-7269-65bb-2fd2-920243d962ef
 description: Indique si les formes appartenant au calque peuvent être imprimées.
-ms.openlocfilehash: f7393d3c1353b187aeafffec21b9f49a9c83bc59
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e939bcdba4d49f06aa3b33ab19a992112e47c5bc
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777067"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626107"
 ---
 # <a name="print-cell-layers-section"></a>Print, cellule (section Layers)
 
@@ -31,16 +31,16 @@ Vous pouvez également définir cette valeur à l’aide de l’option **Imprime
   
 Pour obtenir une référence à la cellule Print par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Layers.Print[ *i*  ] where  *i*  = <1>, 2, 3... |
+|**Nom de cellule :**  <br/> |Layers.Print[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Print à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionLayer** <br/> |
-|Index de la ligne :  <br/> |**visRowLayer** +   *i* où *i* = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visDocPreviewScope** <br/> |
+|**Index de la section :**  <br/> |**visSectionLayer** <br/> |
+|**Index de la ligne :**  <br/> |**visRowLayer** +   *i* où *i* = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visDocPreviewScope** <br/> |
    
 

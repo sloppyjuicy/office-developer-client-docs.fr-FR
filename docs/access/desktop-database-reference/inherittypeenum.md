@@ -7,12 +7,12 @@ ms:contentKeyID: 48546944
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ffd5d7792a135fb8f6d63db1452b22a0eaef9a57
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 909b5a77fef6f4391807c9875f8a862517119fec
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462142"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631469"
 ---
 # <a name="inherittypeenum"></a>InheritTypeEnum
 
@@ -23,9 +23,9 @@ Indique comment les objets hériteront des autorisations définies à l’aide d
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

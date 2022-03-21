@@ -7,12 +7,12 @@ ms:contentKeyID: 48546185
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ec9469e2e3d10e9f24def7dbc15e3cecf545328d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6f450e3187e0735a632d46c408050a4cd47d6da1
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626672"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631588"
 ---
 # <a name="fielddefaultvalue-property-dao"></a>Field.DefaultValue, propriété (DAO)
 
@@ -41,8 +41,8 @@ La disponibilité de la propriété **DefaultValue** dépend de l'objet contenan
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

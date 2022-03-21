@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 5bcc8b0a-0ab7-6c3e-8334-9e83cf2882a7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 632592b5f9ea87b17baf0badefb6f3551c4b58da
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a4a4c9ef6fc6063835b9418c2bb19ed283b16e43
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588099"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630369"
 ---
 # <a name="download-table-state"></a>Télécharger l’état du tableau
 
@@ -19,11 +19,11 @@ ms.locfileid: "59588099"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit ce qui se produit lors de l’état de la table de téléchargement de la machine à états de réplication. 
+ Cette rubrique décrit ce qui se produit pendant l’état de la table de téléchargement de la machine à états de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Identificateur d’état :  <br/> |**LR_SYNC_DOWNLOAD_TABLE** <br/> |
 |Structure de données associée :  <br/> |**[DNTBL](dntbl.md)** <br/> |
@@ -39,7 +39,7 @@ Cet état lance le téléchargement d’un dossier. Au cours de cet état, Outlo
   
 Lorsque cet état se termine, la boutique locale revient à l’état de synchronisation du contenu.
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

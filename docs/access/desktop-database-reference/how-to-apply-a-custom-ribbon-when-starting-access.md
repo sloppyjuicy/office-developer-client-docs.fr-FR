@@ -8,12 +8,12 @@ ms:contentKeyID: 48546659
 ms.date: 10/16/2018
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: b52d3b261a3655eedd6a6f911d0d1eade31712aa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8e1f0433ddfb3fca360708cf2d4d1460b8bf3cb9
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602387"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631476"
 ---
 # <a name="apply-a-custom-ribbon-when-starting-access"></a>Appliquer un ruban personnalisé au démarrage d’Access
 
@@ -27,15 +27,15 @@ Le ruban utilise un balisage XML déclaratif basé sur texte, qui simplifie la c
 
 Une méthode que vous pouvez utiliser pour rendre des personnalisations du ruban disponible consiste à les stocker dans un tableau. Si vous stockez les personnalisations dans un tableau nommé **USysRibbons**, les personnalisations peuvent être mises en œuvre sans utiliser des macros ou du code VBA.
 
-**USysRibbons** est un tableau système créé par l’utilisateur. Ce tableau doit être créé en utilisant des noms de colonnes spécifiques afin que les personnalisations du ruban soient implémentées. 
+ **USysRibbons** est une table système créée par l'utilisateur. La table doit être créée en utilisant des noms de colonnes spécifiques pour que les personnalisations des rubans puissent être mises en œuvre. 
 
 Le tableau suivant répertorie les paramètres à utiliser lors de la création du tableau **USysRibbons**.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -61,9 +61,9 @@ Le tableau suivant répertorie les paramètres à utiliser lors de la création 
 
 ### <a name="load-ribbon-extensibility-xml-programmatically"></a>Charger extensibilité du ruban XML par programme
 
-Vous pouvez utiliser la méthode **[LoadCustomUI](https://docs.microsoft.com/office/vba/api/Access.Application.LoadCustomUI)** permettant de charger les personnalisations de ruban par programme. En règle générale, pour créer le ruban et le mettre à la disposition de l’application, vous devez tout d’abord créer un module dans la base de données avec une procédure qui appelle la méthode **LoadCustomUI**, laquelle transmet le nom du Ruban et le code de personnalisation XML.
+Vous pouvez utiliser la méthode **[LoadCustomUI](https://docs.microsoft.com/office/vba/api/Access.Application.LoadCustomUI)** pour charger les personnalisations du ruban de manière programmatique. En général, pour créer et mettre le ruban à la disposition de l'application, vous créez d'abord un module dans la base de données avec une procédure qui appelle la méthode **LoadCustomUI**, en lui transmettant le nom du ruban et le balisage de personnalisation XML.
 
-Le code XML peut provenir d’un objet **Recordset** créé à partir d’une table, d’une source externe à la base de données (comme un fichier XML que vous analysez dans un objet de type String) ou de code XML incorporé directement dans la procédure. Vous pouvez rendre plusieurs rubans disponibles à l'aide de plusieurs appels à la méthode **LoadCustomUI**, autre balisage XML, dans la mesure où le nom de chaque ruban et l'attribut **id** des onglets constituant le ruban sont uniques.
+Le balisage XML peut provenir d'un objet **Recordset** créé à partir d'une table, d'une source externe à la base de données, telle qu'un fichier XML que vous analysez pour obtenir une chaîne, ou d'un balisage XML intégré directement dans la procédure. Vous pouvez créer différents rubans à l'aide de plusieurs appels à la méthode  **LoadCustomUI**, en transmettant différents balisages XML, à condition que le nom de chaque ruban et l'attribut **id** des onglets qui composent le ruban soient uniques.
 
 Une fois la procédure terminée, vous créez ensuite une macro AutoExec qui appelle la procédure à l'aide de l'action ExécuterCode. Ainsi, lorsque l'application est lancée, la méthode **LoadCustomUI** s'exécute automatiquement et tous les rubans personnalisés sont accessibles par l'application.
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 50c91fe6-2a61-4348-a16d-fd5c501b0715
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9255661f27fd2edca6e9a824928b6328f3041ac9
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 328fb301f0dad103268bc7d6adc1a385013c8647
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62787666"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631147"
 ---
 # <a name="pidlidbusystatus-canonical-property"></a>Propri t canonique PidLidBusyStatus
 
@@ -27,7 +27,7 @@ ms.locfileid: "62787666"
   
 Représente la disponibilité de l’utilisateur pour un rendez-vous.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidBusyStatus  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
@@ -64,7 +64,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

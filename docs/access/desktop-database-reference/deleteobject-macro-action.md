@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 32fcab6018adcdb40af56788a036154ce99a8ca6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6fdf945b60c238a882744db4b899d0b5255980af
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553122"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630741"
 ---
 # <a name="deleteobject-macro-action"></a>DeleteObject, action de macro
 
@@ -27,14 +27,14 @@ Utilisez l'action **SupprimerObjet** pour supprimer un objet de base de données
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **SupprimerObjet** possède les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8cbd1a42-7de6-43e0-8c77-7711773843d5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fa4a27d29bdb01da198f997cd0d5ee91f0cf4179
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 11dd507ab9dfe2daa2b0dbc5b4bab3b951ad850d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773494"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627143"
 ---
 # <a name="imapiformmgr--iunknown"></a>IMAPIFormMgr : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62773494"
   
 Permet aux visionneuses de formulaires d’obtenir des informations sur les serveurs de formulaires et d’en activer. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Exposé par :  <br/> |Objets du gestionnaire de formulaires  <br/> |
@@ -38,7 +38,7 @@ Permet aux visionneuses de formulaires d’obtenir des informations sur les serv
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[LoadForm](imapiformmgr-loadform.md) <br/> |Démarre un formulaire pour ouvrir un message existant. |
 |[ResolveMessageClass](imapiformmgr-resolvemessageclass.md) <br/> |Résout une classe de message dans son formulaire dans un conteneur de formulaire et renvoie un objet d’informations de formulaire pour ce formulaire. |
@@ -53,7 +53,7 @@ Permet aux visionneuses de formulaires d’obtenir des informations sur les serv
 |[IsInConflict](imapiformmgr-isinconflict.md) <br/> |Détermine si un formulaire peut gérer ses propres conflits de messages. |
 |[GetLastError](imapiformmgr-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite sur l’objet gestionnaire de formulaires. |
    
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

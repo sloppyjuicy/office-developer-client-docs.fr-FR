@@ -7,12 +7,12 @@ ms:contentKeyID: 48547864
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a7086ab2bf67e66873f60bbc8a614b70bfa7897f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c08e2074c27b972ec63080bfd632d842bd8e4e9b
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606351"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632706"
 ---
 # <a name="querydefs-members-dao"></a>Membres QueryDefs (DAO)
 
@@ -25,8 +25,8 @@ Une collection QueryDefs contient tous les objets QueryDef d'un objet Database d
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,8 +55,8 @@ Une collection QueryDefs contient tous les objets QueryDef d'un objet Database d
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

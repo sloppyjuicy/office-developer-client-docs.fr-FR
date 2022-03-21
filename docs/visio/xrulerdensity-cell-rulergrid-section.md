@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c11717c5-eb0e-e4fa-5a91-c62ecc048635
 description: Définit les graduations horizontales de la règle pour la page.
-ms.openlocfilehash: 23eacc8e1a99df92bf9cdb705adda6cb3ecad890
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a6402414e211578e6f0eacfb2e67af5c63323d9c
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603108"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626821"
 ---
 # <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>XRulerDensity, cellule (section Ruler &amp; Grid)
 
@@ -23,26 +23,26 @@ Définit les graduations horizontales de la règle pour la page.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Fixed  <br/> |**visRulerFixed** <br/> |
-|8 ( &amp; H8)  <br/> |Entâyé  <br/> |**visRulerCoarse** <br/> |
+|8 (&amp;H8)  <br/> |Entâyé  <br/> |**visRulerCoarse** <br/> |
 |16 (&amp;H10)  <br/> |Normal (valeur par défaut)  <br/> |**visRulerNormal** <br/> |
-|32 ( &amp; H20)  <br/> |Fine  <br/> |**visRulerFine** <br/> |
+|32 (&amp;H20)  <br/> |Fine  <br/> |**visRulerFine** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l’option **Subdivisions** horizontale dans  la boîte de dialogue **Grille &amp;** de règles (sous l’onglet Affichage, cliquez sur **Afficher** la flèche). 
+Cette cellule correspond à l’option **Subdivisions horizontale dans** la boîte de dialogue **Grille &amp;** de règles (sous l’onglet Affichage, cliquez sur **Afficher** la flèche). 
   
 Pour obtenir une référence à la cellule XRulerDensity par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de la cellule :  <br/> |XRulerDensity  <br/> |
+|**Nom de la cellule :**  <br/> |XRulerDensity  <br/> |
    
 Pour obtenir une référence à la cellule XRulerDensity par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
-|Index de la cellule :  <br/> |**visXRulerDensity** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowRulerGrid** <br/> |
+|**Index de la cellule :**  <br/> |**visXRulerDensity** <br/> |
    
 

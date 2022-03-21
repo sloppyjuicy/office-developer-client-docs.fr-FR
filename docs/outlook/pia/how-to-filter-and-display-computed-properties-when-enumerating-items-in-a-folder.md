@@ -7,12 +7,12 @@ ms:contentKeyID: 55119922
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 14c572adec3f8d984c1656eb338187ea8f25630a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c7f3159c8ec8f2086c93dd1d7f8224d2b389d527
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623718"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634512"
 ---
 # <a name="filter-and-display-computed-properties-when-enumerating-items-in-a-folder"></a>Filtrer et afficher des propriétés calculées lors de l’énumération d’éléments dans un dossier
 
@@ -28,9 +28,9 @@ L'objet [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) repr
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -73,9 +73,9 @@ Le tableau suivant répertorie les propriétés connues comme étant non valides
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -124,7 +124,7 @@ Le tableau suivant répertorie les propriétés connues comme étant non valides
 
 Bien que certaines propriétés calculées ne peuvent pas être ajoutées à la colonne définie pour un tableau, l’exemple de code suivant contourne cette restriction. GetToDoItems utilise une requête DASL pour limiter les éléments qui apparaissent dans l'objet **Table**. Si la propriété calculée a une représentation d'espace de noms, celle-ci peut être utilisée pour créer une requête DASL qui limite le retour par l'objet **Table** de lignes pour une valeur spécifiée de la propriété calculée. GetToDoItems obtient des éléments dans la Boîte de réception où la valeur de la propriété [IsMarkedAsTask](https://msdn.microsoft.com/library/bb623631\(v=office.15\)) est égale à **true**, puis affecte des valeurs à certaines propriétés de tâche, telles que [TaskSubject](https://msdn.microsoft.com/library/bb643880\(v=office.15\)), [TaskDueDate](https://msdn.microsoft.com/library/bb623035\(v=office.15\)), [TaskStartDate](https://msdn.microsoft.com/library/bb610832\(v=office.15\)) et [TaskCompletedDate](https://msdn.microsoft.com/library/bb624055\(v=office.15\)). Enfin, ces propriétés sont écrites sur les écouteurs de trace de la collection [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable Outlook lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration Class publique. La ligne de code suivante montre comment effectuer l’importation et l’affectation dans C \#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

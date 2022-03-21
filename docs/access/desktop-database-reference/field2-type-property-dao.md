@@ -7,12 +7,12 @@ ms:contentKeyID: 48543032
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 744deba962bec5067a3de3a296bb4e611a573887
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bd3d24417835317325d32686c7377d8d15f48f37
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626700"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629950"
 ---
 # <a name="field2type-property-dao"></a>Field2.Type, propriété (DAO)
 
@@ -35,8 +35,8 @@ Pour un objet **Field2**, les paramètres et valeurs de retour possibles sont pr
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

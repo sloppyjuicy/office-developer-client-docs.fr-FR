@@ -7,12 +7,12 @@ ms:contentKeyID: 48543719
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7b021daeb4d43be52d0b8c8409e3be866b8b27b2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9a9a7141adab06024e2f7f44df329ced59c3e35a
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589364"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629873"
 ---
 # <a name="microsoft-ole-db-persistence-provider-ado-service-provider"></a>Fournisseur de persistance Microsoft OLE DB (fournisseur de services ADO)
 
@@ -38,8 +38,8 @@ Les erreurs suivantes émises par ce fournisseur peuvent être détectées dans 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

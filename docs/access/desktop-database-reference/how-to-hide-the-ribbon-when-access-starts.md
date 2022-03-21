@@ -8,12 +8,12 @@ ms:contentKeyID: 48548817
 ms.date: 10/16/2018
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: b2163e448808c6e23416dac15a18f017997e00b2
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 4bda23c90c288f8d40e81dcd83a0da745a3b7253
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462602"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632118"
 ---
 # <a name="hide-the-ribbon-when-access-starts"></a>Masquer le ruban au démarrage d’Access
 
@@ -29,9 +29,9 @@ Le tableau suivant répertorie les paramètres à utiliser lors de la création 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

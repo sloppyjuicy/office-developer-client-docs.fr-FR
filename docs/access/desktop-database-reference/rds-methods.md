@@ -7,12 +7,12 @@ ms:contentKeyID: 48545899
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 73905491ee5cb20c798f18c2e82997f85e113e80
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 75ea920c6f7a57c9ddab43560786098219f093c6
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457685"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63626408"
 ---
 # <a name="rds-methods"></a>Méthodes RDS
 
@@ -21,8 +21,8 @@ ms.locfileid: "62457685"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">

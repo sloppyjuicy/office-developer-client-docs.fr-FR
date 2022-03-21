@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 43d9555be3282e29bbb1a4efaccb1af5899e4689
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 56a04b6e19f2f955ab0b14b0a19d7483bade863d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461700"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630545"
 ---
 # <a name="querydefexecute-method-dao"></a>QueryDef.Execute, méthode (DAO)
 
@@ -34,10 +34,10 @@ Exécute une instruction SQL sur l’objet spécifié.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -64,8 +64,8 @@ Vous pouvez utiliser les constantes **[RecordsetOptionEnum](recordsetoptionenum-
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

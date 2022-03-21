@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: effc2ddb4c1036d2e0457160380795a8ca2677b9
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: f20f0bc3dba6344d86bab0f2d8475feebe84d59f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461593"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629257"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Database.OpenRecordset, méthode (DAO)
 
@@ -34,10 +34,10 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l’ajoute à la coll
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -65,14 +65,14 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l’ajoute à la coll
 <td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Combinaison de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> qui indiquent les caractéristiques du nouveau <strong>Recordset</strong>.</p><p><strong>REMARQUE</strong> : <strong>dbConsistent</strong> et <strong>dbInconsistent</strong> s’excluent mutuellement, et l’utilisation de ces deux constantes peut entraîner une erreur. Fournir un argument LockEdit lorsque Options utilise la constante <strong>dbReadOnly</strong> génère également une erreur.</p>
+<td><p>Combinaison de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> qui indiquent les caractéristiques du nouveau <strong>Recordset</strong>.</p><p><strong>REMARQUE</strong> : Les constantes <strong>dbConsistent</strong> et <strong>dbInconsistent</strong> sont mutuellement exclusives, et l'utilisation des deux entraîne une erreur. Fournir un argument LockEdit lorsque Options utilise la constante <strong>dbReadOnly</strong> provoque également une erreur.</p>
 </td>
 </tr>
 <tr class="even">
 <td><p><em>LockEdit</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> qui détermine le verrouillage du <strong>Recordset</strong>.</p><p><strong>REMARQUE</strong> : vous pouvez utiliser <strong>dbReadOnly</strong> dans l’argument Options ou l’argument LockedEdit, mais pas dans les deux. Si vous l’utilisez dans les deux arguments, une erreur d’exécution se produit.</p>
+<td><p>Constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> qui détermine le verrouillage du <strong>Recordset</strong>.</p><p><strong>REMARQUE</strong> : Vous pouvez utiliser <strong>dbReadOnly</strong> soit dans l'argument Options, soit dans l'argument LockedEdit, mais pas dans les deux. Si vous l'utilisez pour les deux arguments, une erreur d'exécution se produit.</p>
 </td>
 </tr>
 </tbody>

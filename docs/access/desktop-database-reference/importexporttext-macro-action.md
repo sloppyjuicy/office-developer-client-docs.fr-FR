@@ -11,30 +11,30 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: ce2e04ce40a6cea6db285b6df93097e2553695c4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 46b0b4082191abbe516fbc5468779d49f1eef948
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59594173"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632104"
 ---
 # <a name="importexporttext-macro-action"></a>ImportExportText, action de macro
 
 **S’applique à** : Access 2013, Office 2013
 
-L'action **ImporterExporterTexte** permet d'importer ou d'exporter du texte entre la base de données Microsoft Access (.mdb ou .accdb) ou le projet Access (.adp) actif et un fichier texte. Vous pouvez également lier les données d'un fichier texte à la base de données Access en cours. Avec un fichier texte lié, vous pouvez consulter les données de texte avec Access, tout en autorisant un accès complet aux données de votre programme de traitement de texte. Vous pouvez également importer, exporter vers et lier une table ou une liste dans un fichier HTML \* (.html).
+L'action **ImporterExporterTexte** permet d'importer ou d'exporter du texte entre la base de données Microsoft Access (.mdb ou .accdb) ou le projet Access (.adp) actif et un fichier texte. Vous pouvez également lier les données d'un fichier texte à la base de données Access en cours. Avec un fichier texte lié, vous pouvez consulter les données de texte avec Access, tout en autorisant un accès complet aux données de votre programme de traitement de texte. Vous pouvez également importer, exporter vers et lier une table ou une liste dans un fichier HTML (\*.html).
 
 > [!NOTE]
 > [!REMARQUE] Si la liaison de données s'effectue dans un fichier texte ou dans un fichier HTML, les données seront en lecture seule dans Access. Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **ImporterExporterTexte** utilise les arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -45,7 +45,7 @@ L’action **ImporterExporterTexte** utilise les arguments suivants :
 <tbody>
 <tr class="odd">
 <td><p><strong>Type de transfert</strong></p></td>
-<td><p>Type de transfert à effectuer. Vous pouvez importer des données de, exporter des données dans, ou lier des données à des fichiers textes délimités ou à des fichiers textes de longueur fixe ou des fichiers HTML. Vous pouvez également exporter des données dans un fichier de publipostage Microsoft Word, que vous pourrez ensuite utiliser avec la fonction de publipostage de Microsoft Word pour créer des documents fusionnés tels que des lettres types et des étiquettes de publipostage. Sélectionnez <strong>Importation texte (délimité)</strong>, <strong>Importation texte (longueur fixe)</strong>, <strong>Importation HTML</strong>, <strong>Exportation texte (délimité)</strong>, <strong>Exportation texte (longueur fixe)</strong>, <strong>Exportation HTML</strong>, <strong>Fusion avec Word pour Windows</strong>, <strong>Liaison texte (délimité)</strong>, <strong>Liaison texte (longueur fixe)</strong> ou <strong>Liaison HTML</strong> dans la zone <strong>Type de transfert</strong> dans la section <strong>Arguments de l'action</strong> du volet Générateur de macro. La valeur par défaut est <strong>Importation texte (délimité)</strong>.  </p><p><strong>REMARQUE</strong>: seules les importations délimitées, <STRONG></STRONG>Importation à <STRONG></STRONG>largeur <STRONG>fixe,</STRONG>Exportation <STRONG>délimitée,</STRONG>Exportation à largeur fixe ou Exportation de Word pour <STRONG>Windows</STRONG> Les types de transfert de fusion sont pris en charge dans un projet Access (.adp).</p></td>
+<td><p>Type de transfert à effectuer. Vous pouvez importer des données de, exporter des données dans, ou lier des données à des fichiers textes délimités ou à des fichiers textes de longueur fixe ou des fichiers HTML. Vous pouvez également exporter des données dans un fichier de publipostage Microsoft Word, que vous pourrez ensuite utiliser avec la fonction de publipostage de Microsoft Word pour créer des documents fusionnés tels que des lettres types et des étiquettes de publipostage. Sélectionnez <strong>Importation texte (délimité)</strong>, <strong>Importation texte (longueur fixe)</strong>, <strong>Importation HTML</strong>, <strong>Exportation texte (délimité)</strong>, <strong>Exportation texte (longueur fixe)</strong>, <strong>Exportation HTML</strong>, <strong>Fusion avec Word pour Windows</strong>, <strong>Liaison texte (délimité)</strong>, <strong>Liaison texte (longueur fixe)</strong> ou <strong>Liaison HTML</strong> dans la zone <strong>Type de transfert</strong> dans la section <strong>Arguments de l'action</strong> du volet Générateur de macro. La valeur par défaut est <strong>Importation texte (délimité)</strong>.  </p><p><strong>REMARQUE</strong> : seuls les types de transfert Importation <STRONG>délimitée,</STRONG> Importation à largeur <STRONG>fixe, Exportation</STRONG> <STRONG>délimitée,</STRONG> Exportation à largeur fixe ou Exportation de <STRONG>Word pour Windows</STRONG> Les types de transfert de fusion sont pris en charge dans un projet Access (.adp). <STRONG></STRONG></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Format</strong></p></td>
@@ -77,7 +77,7 @@ L’action **ImporterExporterTexte** utilise les arguments suivants :
 </tr>
 <tr class="even">
 <td><p><strong>Nom de la table HTML</strong></p></td>
-<td><p>The name of the table or list in the HTML file that you want to import or link. This argument is ignored unless the <strong>Transfer Type</strong> argument is set to Import HTML or Link HTML. If you leave this argument blank, the first table or list in the HTML file is imported or linked. <br/><br/>Le nom de la table ou de la liste dans le fichier HTML est déterminé par le texte spécifié par la balise &lt; &gt; CAPTION, s’il existe une &lt; balise &gt; CAPTION. S’il n’y a aucune balise &lt;CAPTION&gt;, le nom est déterminé selon le texte spécifié par la balise &lt;TITLE&gt;. If more than one table or list has the same name, Access distinguishes them by adding a number to the end of each name; for example, Employees1 and Employees2.</p></td>
+<td><p>The name of the table or list in the HTML file that you want to import or link. This argument is ignored unless the <strong>Transfer Type</strong> argument is set to Import HTML or Link HTML. If you leave this argument blank, the first table or list in the HTML file is imported or linked. <br/><br/>Le nom de la table ou de la liste dans le fichier HTML &lt;est déterminé par le texte spécifié par la balise CAPTION&gt; , s’il existe une &lt;balise CAPTION&gt; . S’il n’y a aucune balise &lt;CAPTION&gt;, le nom est déterminé selon le texte spécifié par la balise &lt;TITLE&gt;. If more than one table or list has the same name, Access distinguishes them by adding a number to the end of each name; for example, Employees1 and Employees2.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Page de codes</strong></p></td>

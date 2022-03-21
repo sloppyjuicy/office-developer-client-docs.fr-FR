@@ -7,12 +7,12 @@ ms:contentKeyID: 48545050
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4dea6ef2143699b212822a89739b35df35010b39
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 5ab77c0a8f2d5bae3880b115a9054b30f1573a35
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62464121"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632027"
 ---
 # <a name="persistformatenum"></a>PersistFormatEnum
 
@@ -23,9 +23,9 @@ Spécifie le format dans lequel enregistrer un objet [Recordset](recordset-objec
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -65,7 +65,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

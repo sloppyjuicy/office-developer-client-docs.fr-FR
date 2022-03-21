@@ -7,12 +7,12 @@ ms:contentKeyID: 55119919
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 563859880794ba75cea3f96ddbc2eb0ecdd17aff
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ff030efb68943d56d726c1d10ce26ee81a1080af
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574698"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632517"
 ---
 # <a name="execute-a-rule-instantly"></a>Exécuter une règle instantanément
 
@@ -27,8 +27,8 @@ Vous pouvez déclencher l'exécution immédiate d'une règle en appelant la mét
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -64,7 +64,7 @@ Dans l’exemple de code suivant, ExecuteManagerRule obtient la règle qui a ét
 > [!NOTE]
 > Pour appliquer une règle une fois, indépendamment du fait que la propriété [Enabled](https://msdn.microsoft.com/library/bb609147(v=office.15)) retourne **true**, utilisez la méthode **Rule.Execute**. Pour appliquer la règle pour la session actuelle et au-delà de cette session, utilisez à la fois la propriété **Rule.Enabled** et la méthode [Save(Object)](https://msdn.microsoft.com/library/bb610738(v=office.15)) .
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable Outlook lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration Class publique. La ligne de code suivante montre comment effectuer l’importation et l’affectation dans C \#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

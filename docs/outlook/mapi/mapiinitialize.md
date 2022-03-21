@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: b9584226-79d2-4d83-8f31-dbfbc50f16c5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b7182962e149d6dabd4a986347f2c99f18c77657
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a5331fbb534b3d0b9d9a4010ed753f68357126db
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773255"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632531"
 ---
 # <a name="mapiinitialize"></a>MAPIInitialize
 
@@ -27,7 +27,7 @@ ms.locfileid: "62773255"
   
 Incrémente le nombre de références du sous-système MAPI et initialise les données globales pour la DLL MAPI. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -43,7 +43,7 @@ HRESULT MAPIInitialize(
 
  _lpMapiInit_
   
-> [in] Pointeur vers une [MAPIINIT_0](mapiinit_0.md) structure. Le  _paramètre lpMapiInit_ peut être définie sur NULL. 
+> [in] Pointeur vers une [structure MAPIINIT_0](mapiinit_0.md) de base. Le  _paramètre lpMapiInit_ peut être définie sur NULL. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -76,7 +76,7 @@ Lorsque cette structure est déclarée, MAPI crée un thread distinct pour gére
     
     MAPI_E_INVALID_PARAMETER ou MAPI_E_UNKNOWN_FLAGS. L’appelant a transmis un paramètre ou un indicateur non valide.
     
-2. Initialise les clés de Registre requises par MAPI et confirme le type de système d’exploitation. Cette étape se produit uniquement si le processus client s’exécute en tant que service sous Windows et définit l’indicateur MAPI_NT SERVICE dans la structure **MAPIINIT_0** client. 
+2. Initialise les clés de Registre requises par MAPI et confirme le type de système d’exploitation. Cette étape se produit uniquement si le processus client s’exécute en tant que service sous Windows et définit l’indicateur MAPI_NT SERVICE dans la structure **MAPIINIT_0**. 
     
     MAPI_E_TOO_COMPLEX. Le processus appelant est un service Windows et les clés de Registre requises par MAPI n’ont pas pu être initialisées. 
     
@@ -116,7 +116,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> ||MFCMAPI utilise la **méthode MAPIInitialize** pour initialiser MAPI sur un thread d’arrière-plan pour traiter certaines tables. |
    
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

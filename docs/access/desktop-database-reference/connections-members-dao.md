@@ -7,12 +7,12 @@ ms:contentKeyID: 48548361
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5b05e01e6e80f51922deab11cada24fc7419fdb7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 320b9bf600ab38752a4685c7c432b73e3dbce222
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618384"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632244"
 ---
 # <a name="connections-members-dao"></a>Connections members (DAO)
 
@@ -25,8 +25,8 @@ ms.locfileid: "59618384"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -47,8 +47,8 @@ ms.locfileid: "59618384"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

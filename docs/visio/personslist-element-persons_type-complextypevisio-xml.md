@@ -2,20 +2,20 @@
 title: Élément PersonsList (Persons_Type complexType) (Visio XML)
 ms.date: 02/18/2022
 description: Spécifie la liste des personnes mentionnées dans les commentaires d’un dessin.
-ms.openlocfilehash: 17292815ee677b23b81a4611afa416717a712f00
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: db7cf1a0f837104f6ccf6830731c6a5dc1a4aaac
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63382461"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631686"
 ---
 # <a name="personslist-element-persons_type-complextype-visio-xml"></a>Élément PersonsList (Persons_Type complexType) (Visio XML)
 
 Spécifie la liste des personnes mentionnées dans les commentaires d’un dessin.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[PersonsList_Type](personslist_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -34,13 +34,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Personnes](persons-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Persons_Type](persons_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés utilisées pour identifier les personnes mentionnées dans tous les commentaires d’un dessin. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[PersonEntry](personentry-element-personslist_type-complextypevisio-xml.md) <br/> |[PersonEntry_Type](personentry_type-complextypevisio-xml.md) <br/> ||
    

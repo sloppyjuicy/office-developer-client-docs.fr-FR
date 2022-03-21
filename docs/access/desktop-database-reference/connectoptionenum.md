@@ -7,12 +7,12 @@ ms:contentKeyID: 48545921
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 99110c65cbe459be83c04c15c9800cb1b034b5e6
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: f68406dd00404095c7858570709b629a610cf0ef
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462784"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632258"
 ---
 # <a name="connectoptionenum"></a>ConnectOptionEnum
 
@@ -23,9 +23,9 @@ Indique si la méthode [Open](open-method-ado-connection.md) d’un objet [Conne
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,7 +55,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

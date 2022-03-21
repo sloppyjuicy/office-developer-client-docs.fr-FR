@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 4372f1e1-f0a9-2f63-ff79-58f2afdceed5
 description: Présente la mise en forme de caractères appliquée à une plage de texte dans le bloc de texte de la forme.
-ms.openlocfilehash: 6eefc75d61f132f521ab4153683499807012b4a7
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 533c8cf12e39dea141e414ea389d01358b2919e9
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781827"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632377"
 ---
 # <a name="style-cell-character-section"></a>Style, cellule (section Character)
 
@@ -35,17 +35,17 @@ La valeur représente un nombre binaire dans lequel chaque bit indique un style 
   
 Pour obtenir une référence à la cellule Style par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Char.Style[  *i*  ] où  *i*  = <1>, 2, 3... |
+| **Nom de cellule :**  <br/> | Char.Style[  *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Style par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionCharacter** <br/> |
-| Index de la ligne :  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visCharacterStyle** <br/> |
+| **Index de la section :**  <br/> |**visSectionCharacter** <br/> |
+| **Index de la ligne :**  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visCharacterStyle** <br/> |
    
  *Exemple* 
   

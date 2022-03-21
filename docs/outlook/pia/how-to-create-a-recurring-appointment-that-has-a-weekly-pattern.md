@@ -7,12 +7,12 @@ ms:contentKeyID: 55119810
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 33a5cd2a8703bdb8d146ba65cd80e7c5ab4b5307
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c233a9641ff47409e885caa4387f6e632345678a
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560668"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631777"
 ---
 # <a name="create-a-recurring-appointment-that-has-a-weekly-pattern"></a>Création d’un rendez-vous périodique selon une périodicité hebdomadaire
 
@@ -28,8 +28,8 @@ Lorsque vous créez un rendez-vous périodique, la périodicité est basée sur 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,7 +72,7 @@ Notez que même après la libération de votre référence et la tentative d'obt
 
 Dans l’exemple de code suivant, RecurringAppointmentEveryMondayWednesdayFriday crée un objet [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)), puis appelle [GetRecurrencePattern()](https://msdn.microsoft.com/library/bb652582\(v=office.15\)) pour obtenir l’objet RecurrencePattern du rendez-vous nouvellement créé. RecurringAppointmentEveryMondayWednesdayFriday définit ensuite les propriétés RecurrenceType, DayOfWeekMask, PatternStartDate, PatternEndDate, Duration, StartTime, EndTime et Subject, enregistre le rendez-vous, puis l’affiche selon le schéma « A lieu tous les lundis, mercredis et vendredis à compter du 10/07/2006 jusqu’au 25/08/2006 de 14:00 à 15:00 ».
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable Outlook lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration Class publique. La ligne de code suivante montre comment effectuer l’importation et l’affectation dans C \#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

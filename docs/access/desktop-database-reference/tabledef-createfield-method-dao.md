@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 9a4f117592e58c282b83f3456c275c6b081c1419
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 83d3672d51e684c9e100b3fd08117428591b95b6
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601701"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63628081"
 ---
 # <a name="tabledefcreatefield-method-dao"></a>TableDef.CreateField, méthode (DAO)
 
@@ -34,10 +34,10 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft A
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

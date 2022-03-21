@@ -7,12 +7,12 @@ ms:contentKeyID: 48547661
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7bfeae06c337dd8770e0d724e1b53f3be6ccf0cf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c9acb0ab7b30c35db031f3f7fee1e73be8992a43
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615199"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631329"
 ---
 # <a name="raiseerror-macro-action"></a>RaiseError, action de macro
 
@@ -23,15 +23,15 @@ L'action **DéclencherErreur** lève une exception qui peut être gérée par l'
 > [!NOTE]
 > [!REMARQUE] L'action **DéclencherErreur** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **DéclencherErreur** utilise les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -63,7 +63,7 @@ S'il n'y a aucune instruction **SurErreur** active qui gère les erreurs, l'erre
 
 Pour afficher la table **USysApplicationLog**, procédez comme suit :
 
-1.  Cliquez sur **le** menu Fichier, puis sur **Options.**
+1.  Cliquez sur **le** menu Fichier, puis sur **Options**.
 
 2.  Dans la boîte dialogue **Options Access**, cliquez sur l'onglet **Base de données active**.
 

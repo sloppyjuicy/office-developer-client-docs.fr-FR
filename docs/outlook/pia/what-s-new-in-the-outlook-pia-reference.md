@@ -7,12 +7,12 @@ ms:contentKeyID: 55119775
 ms.date: 09/15/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 85e266967249d0f575773e0b72b81eda0da1d159
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 294bbd8a026e670ebe0515661e39b2d2b4118d35
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590491"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632510"
 ---
 # <a name="whats-new-in-the-outlook-pia-reference"></a>Nouveautés dans la référence PIA Outlook
 
@@ -24,9 +24,9 @@ Le tableau suivant répertorie les nouveaux objets introduits dans Outlook 2013.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -121,8 +121,8 @@ Le tableau suivant répertorie les améliorations apportées aux objets, collect
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -235,8 +235,8 @@ Le tableau suivant répertorie les objets, membres et les valeurs énumération 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

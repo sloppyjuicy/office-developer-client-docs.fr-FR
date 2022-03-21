@@ -7,12 +7,12 @@ ms:contentKeyID: 48545511
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ec94d323cd4bd967006e82ea9d08da65a1565299
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0385b46d524bf3c8fdd502dacc38bd477a3591ac
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565267"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629887"
 ---
 # <a name="microsoft-data-shaping-service-for-ole-db-ado-service-provider"></a>Microsoft Data Shaping Service pour OLE DB (fournisseur de services ADO)
 
@@ -36,8 +36,8 @@ Lorsque ce fournisseur de services est appelé, les propriétés dynamiques suiv
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

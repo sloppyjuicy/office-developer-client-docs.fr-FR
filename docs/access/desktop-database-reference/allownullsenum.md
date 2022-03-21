@@ -7,12 +7,12 @@ ms:contentKeyID: 48545819
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ea4a84f7a25b8e8c5297e4a093f3eb5caf7fae94
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: d8031a64395df42500ef3bcfee9506321652510b
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62459458"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630090"
 ---
 # <a name="allownullsenum"></a>AllowNullsEnum
 
@@ -23,9 +23,9 @@ Indique si des enregistrements contenant des valeurs Null sont indexés.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

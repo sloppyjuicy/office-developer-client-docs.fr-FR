@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 2dbd5c9599ddab70974cc3fd637c6a47999933b6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2acefbc04e33a7fff77934514d0aad54b5c36cad
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615591"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630020"
 ---
 # <a name="dbenginecreateworkspace-method-dao"></a>DBEngine.CreateWorkspace, méthode (DAO)
 
@@ -34,10 +34,10 @@ Crée un nouvel objet **[Workspace](workspace-object-dao.md)**.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -64,16 +64,16 @@ Crée un nouvel objet **[Workspace](workspace-object-dao.md)**.
 <td><p><em>Password</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Chaîne <strong>contenant</strong> le mot de passe du nouvel <strong>objet Workspace.</strong> Le mot de passe peut comporter jusqu’à 20 caractères et peut inclure n’importe quel caractère à l’exception du caractère ASCII 0 (null).</p>
-<p><strong>REMARQUE</strong>: utilisez des mots de passe forts qui combinent des lettres majuscules et minuscules, des chiffres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort facile à mémoriser afin de ne pas avoir à le noter.</p>
+<td><p>Chaîne <strong>contenant</strong> le mot de passe du nouvel <strong>objet Workspace</strong> . Le mot de passe peut comporter jusqu’à 20 caractères et peut inclure n’importe quel caractère à l’exception du caractère ASCII 0 (null).</p>
+<p><strong>REMARQUE</strong> : utilisez des mots de passe forts qui combinent des lettres majuscules et minuscules, des chiffres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort facile à mémoriser afin de ne pas avoir à le noter.</p>
 </td>
 </tr>
 <tr class="even">
 <td><p><em>UseType</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Une des <strong><a href="workspacetypeenum-enumeration-dao.md">valeurs WorkspaceTypeEnum.</a></strong></p>
-<p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p>Une des <strong><a href="workspacetypeenum-enumeration-dao.md">valeurs WorkspaceTypeEnum</a></strong> .</p>
+<p><strong>REMARQUE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Access.</p>
 </td>
 </tr>
 </tbody>
@@ -82,7 +82,7 @@ Crée un nouvel objet **[Workspace](workspace-object-dao.md)**.
 
 ## <a name="return-value"></a>Valeur renvoyée
 
-Environnement de travail
+Espace de travail
 
 ## <a name="remarks"></a>Remarques
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ba33866a-c9c4-454a-9549-72455c61ee97
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2161c68517e2f83e2f2388cf209d464116cac454
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b7745a7815ac24a865226cd08829e8d8fa5d8cd7
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567759"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631189"
 ---
 # <a name="checkparameters"></a>CheckParameters
 
@@ -27,7 +27,7 @@ ms.locfileid: "59567759"
   
 Appelle une fonction interne pour valider les paramètres de débogage sur les méthodes de fournisseur de services appelées par MAPI. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -58,6 +58,6 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La macro **CheckParameters** a été recalée par la macro [CheckParms.](checkparms.md) **CheckParms est** recommandé sur toutes les plateformes. 
+La macro **CheckParameters** a été recalée par la macro [CheckParms](checkparms.md) . **CheckParms est** recommandé sur toutes les plateformes. 
   
 

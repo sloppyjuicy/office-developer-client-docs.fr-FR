@@ -7,12 +7,12 @@ ms:contentKeyID: 48545028
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: d3e84e6f68ba7c28c5407f935ea93ca6242b116a
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 7a4e47bf75049980c45fb53dfbbbf147c57f009c
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465308"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630034"
 ---
 # <a name="datatypeenum-enumeration-dao"></a>DataTypeEnum, énumération (DAO)
 
@@ -23,9 +23,9 @@ Spécifie le type des données opérationnelles d'un objet.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

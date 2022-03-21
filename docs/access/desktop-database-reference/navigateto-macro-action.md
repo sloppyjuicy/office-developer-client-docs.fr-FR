@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4bf5a40d1643861a438e4de4668d845c92ebb93f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2ab9c4a347e77b2091359f7be21a5d1da506fa05
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577212"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631441"
 ---
 # <a name="navigateto-macro-action"></a>NavigateTo, action de macro
 
@@ -24,14 +24,14 @@ ms.locfileid: "59577212"
 
 Utilisez l'action **AccéderA** pour contrôler l'affichage des objets de base de données dans le volet de navigation. Vous pouvez par exemple modifier le classement des objets de base de données et appliquer un filtre aux objets de sorte que seuls certains d'entre eux soient affichés.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **AccéderA** possède les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -46,7 +46,7 @@ L’action **AccéderA** possède les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Group</strong></p></td>
-<td><p>Facultatif. L’argument <strong>Groupe</strong> limite les objets de la catégorie qui apparaissent dans le volet de navigation. Si vous laissez l’argument <strong>Groupe</strong> vide, le volet de navigation affiche tous les objets de base de données, classés selon les critères que vous spécifiez dans l’argument <strong>Catégorie.</strong> Des exemples d’arguments <strong>Groupe</strong> valides pour les différents arguments <strong>Catégorie</strong> sont répertoriés dans le tableau ci-après.</p></td>
+<td><p>Facultatif. L’argument <strong>Groupe</strong> limite les objets de la catégorie qui apparaissent dans le volet de navigation. Si vous laissez l’argument <strong>Groupe</strong> vide, le volet de navigation affiche tous les objets de base de données, classés selon les critères que vous spécifiez dans l’argument <strong>Catégorie</strong> . Des exemples d’arguments <strong>Groupe</strong> valides pour les différents arguments <strong>Catégorie</strong> sont répertoriés dans le tableau ci-après.</p></td>
 </tr>
 </tbody>
 </table>
@@ -60,8 +60,8 @@ L’action **AccéderA** possède les arguments suivants.
     
   <table>
   <colgroup>
-  <col style="width: 50%" />
-  <col style="width: 50%" />
+  <col />
+  <col />
   </colgroup>
   <thead>
   <tr class="header">

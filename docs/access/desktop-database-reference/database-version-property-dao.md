@@ -7,12 +7,12 @@ ms:contentKeyID: 48544440
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ea3d061025619ec2368b1cc3c732c82b2f291ba4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ace90abf922492b97220e946cf6655ccf5a53fe7
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59581545"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632930"
 ---
 # <a name="databaseversion-property-dao"></a>Database.Version, propriété (DAO)
 
@@ -34,14 +34,14 @@ La valeur de retour est une chaîne (type de données String) qui est évaluée 
 
 Le tableau suivant montre la version du moteur de base de données incluse dans différentes versions de produits Microsoft.
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,12 +7,12 @@ ms:contentKeyID: 48543825
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 3e38f278331914804180b60c5ff1064fdd5ca22d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dbe185e17309365ce5df74d955c690776e5336cf
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606660"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630636"
 ---
 # <a name="hierarchy-object-ado-md"></a>Hierarchy, objet (ADO MD)
 
@@ -37,8 +37,8 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

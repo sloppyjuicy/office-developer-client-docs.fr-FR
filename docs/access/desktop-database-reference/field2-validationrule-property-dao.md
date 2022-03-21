@@ -7,12 +7,12 @@ ms:contentKeyID: 48544896
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 3e2c8ba72f55f5c362e01726d0a528b12d9a9960
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0109fd6acf53a991c8bcdc65213fa14782865cc4
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552940"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630678"
 ---
 # <a name="field2validationrule-property-dao"></a>Field2.ValidationRule, propriété (DAO)
 
@@ -25,7 +25,7 @@ Définit ou renvoie une valeur qui valide les données d'un champ lorsque ce der
 
 *.* ValidationRule
 
-*expression* Expression qui renvoie un **objet Field2.**
+*expression* Expression qui renvoie un **objet Field2** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -37,8 +37,8 @@ Pour un objet **Field2**, l'utilisation de la propriété **ValidationRule** dé
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

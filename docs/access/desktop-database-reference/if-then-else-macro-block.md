@@ -7,12 +7,12 @@ ms:contentKeyID: 48543188
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: fe8336d95a0982379621a7dd798113fbf882499c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7ac02a1fcd92384354f1ec337c95210e4fb2ceba
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59562635"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630643"
 ---
 # <a name="ifthenelse-macro-block"></a>If...Then...Else, bloc de macro
 
@@ -37,8 +37,8 @@ Pour les deux **if** et **Else if**, les arguments suivants sont requis.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

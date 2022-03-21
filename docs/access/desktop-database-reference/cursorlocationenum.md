@@ -7,12 +7,12 @@ ms:contentKeyID: 48544836
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b9b86ad957cad07db6e1834cfd2f48ac9580d2e4
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: d8b4fb07d591c8e9546e8dea6ee3b620c72a455e
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461397"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633028"
 ---
 # <a name="cursorlocationenum"></a>CursorLocationEnum
 
@@ -23,9 +23,9 @@ Spécifie l'emplacement du service de curseur.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -60,7 +60,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

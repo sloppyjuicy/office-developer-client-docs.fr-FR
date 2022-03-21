@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 17a88c2b05c6bb66ab0d5e10c38bf17f302f2da4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 45f2c80d1389d3da03446c974828ee1f39eeb2b1
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611503"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632636"
 ---
 # <a name="showtoolbar-macro-action"></a>ShowToolbar, action de macro
 
@@ -28,14 +28,14 @@ L'action **AfficherBarreOutils** permet d'afficher ou de masquer un groupe de co
 > - [!REMARQUE] L'action **AfficherBarreOutils** n'affecte pas les menus contextuels.
 > - Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **AfficherBarreOutils** utilise les arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -50,7 +50,7 @@ L’action **AfficherBarreOutils** utilise les arguments suivants :
 </tr>
 <tr class="even">
 <td><p><strong>Show</strong></p></td>
-<td><p>Indique si le groupe doit être affiché ou masqué, et dans quel mode d’affichage. La valeur par défaut <strong>est Oui</strong> (afficher le groupe en permanence). Vous pouvez <strong></strong> sélectionner Oui pour afficher le groupe à tout <strong>moment,</strong> Le cas échéant <strong></strong> pour afficher le groupe uniquement lorsque le formulaire ou l’état approprié est actif, ou Non pour masquer le groupe à tout moment.</p></td>
+<td><p>Indique si le groupe doit être affiché ou masqué, et dans quel mode d’affichage. La valeur par défaut <strong>est Oui</strong> (afficher le groupe en permanence). Vous pouvez sélectionner <strong></strong> Oui pour afficher le groupe à tout <strong>moment, Le</strong> cas échéant pour afficher le groupe uniquement lorsque le formulaire ou l’état approprié est <strong></strong> actif, ou Non pour masquer le groupe à tout moment.</p></td>
 </tr>
 </tbody>
 </table>

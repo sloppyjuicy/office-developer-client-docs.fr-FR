@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 9041b1e33010f3b80be82c0e80e4a0fe86a7cf80
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 78776a262c1687e267620c5a29dfcf957dac11e9
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622227"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631504"
 ---
 # <a name="gotorecord-macro-action"></a>GoToRecord, action de macro
 
@@ -25,14 +25,14 @@ ms.locfileid: "59622227"
 
 Utilisez l’action **AtteindreEnregistrement** pour que l’enregistrement spécifié devienne l’enregistrement actif dans le jeu de résultats d’une requête, d’une table ou d’un formulaire ouvert.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **AtteindreEnregistrement** possède les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,11 +55,11 @@ L’action **AtteindreEnregistrement** possède les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Offset</strong></p></td>
-<td><p>Entier ou expression qui correspond à un entier. Une expression doit être précédée d’un signe égal ( <strong>=</strong> ). Cet argument spécifie l’enregistrement à rendre actif. Vous pouvez utiliser l’argument <strong>Référence</strong> de deux manières :</p>
+<td><p>Entier ou expression qui correspond à un entier. Une expression doit être précédée d’un signe égal (<strong>=</strong>). Cet argument spécifie l’enregistrement à rendre actif. Vous pouvez utiliser l’argument <strong>Référence</strong> de deux manières :</p>
 <ul>
 <li><p>Lorsque l’argument <strong>Enregistrement</strong> a la valeur <strong>Suivant</strong> ou <strong>Précédent</strong>, Microsoft Office Access 2007 avance ou recule du nombre d’enregistrements spécifié dans l’argument <strong>Référence</strong>.</p></li>
 <li><p>Lorsque l’argument <strong>Enregistrement</strong> est défini sur <strong>Atteindre</strong>, Access accède à l’enregistrement dont le numéro est égal à la valeur de l’argument <strong>Référence</strong>. Le numéro de l’enregistrement est indiqué dans la zone de numéro d’enregistrement en bas de la fenêtre.</p>
-<p><strong>REMARQUE</strong>: si vous utilisez le <strong></strong> paramètre <strong>Premier,</strong> <strong>Dernier</strong>ou Nouveau pour l’argument <strong>Enregistrement,</strong> Access ignore l’argument <strong>Offset.</strong> Si vous entrez une valeur trop élevée pour l’argument <strong>Référence</strong>, Access affiche un message d’erreur. Vous ne pouvez pas entrer de nombres négatifs pour l’argument <strong>Référence</strong>.</p></li>
+<p><strong>REMARQUE</strong> : si vous utilisez le paramètre <strong>First</strong>, <strong>Last</strong> ou <strong>New</strong> pour l’argument <strong>Record</strong> , Access ignore l’argument <strong>Offset</strong> . Si vous entrez une valeur trop élevée pour l’argument <strong>Référence</strong>, Access affiche un message d’erreur. Vous ne pouvez pas entrer de nombres négatifs pour l’argument <strong>Référence</strong>.</p></li>
 <li><p>Lorsque l’argument <strong>Enregistrement</strong> a la valeur <strong>Suivant</strong> ou <strong>Précédent</strong>, Microsoft Office Access 2007 avance ou recule du nombre d’enregistrements spécifié dans l’argument <strong>Référence</strong>.</p></li>
 <li><p>Lorsque l’argument <strong>Enregistrement</strong> est défini sur <strong>Atteindre</strong>, Access accède à l’enregistrement dont le numéro est égal à la valeur de l’argument <strong>Référence</strong>. Le numéro de l’enregistrement est indiqué dans la zone de numéro d’enregistrement en bas de la fenêtre.</p></li>
 </ul>

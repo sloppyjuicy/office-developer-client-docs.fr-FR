@@ -7,12 +7,12 @@ ms:contentKeyID: 48545428
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 8487c6d3cb5e96cd0a1cc00679891e34e5979877
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f1720d6abb7fa2b7925ab876d7596a77aaf35cb9
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572808"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634967"
 ---
 # <a name="recordset2findlast-method-dao"></a>Recordset2.FindLast, méthode (DAO)
 
@@ -24,16 +24,16 @@ Recherche le dernier enregistrement dans un objet **[Recordset](recordset-object
 
 *.* FindLast(***Criteria***)
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -64,9 +64,9 @@ Chacune des méthodes **Find** commence sa recherche à partir de l’emplacemen
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -118,10 +118,10 @@ rstEmployees.FindFirst "HireDate > #" _
 ```
 
 > [!NOTE]
-> Si les critères se composent d’une chaîne concaténée comportant une valeur non entière, et que les paramètres système spécifient un caractère décimal d’un format différent de celui des États-Unis, tel qu’une virgule (par exemple, strSQL = "PRICE \> " & lngPrice, et lngPrice = 125,50), une erreur se produit lorsque vous tentez d’appeler la méthode. Il s’agit, car lors de la concaténation, le nombre est converti en une chaîne à l’aide du caractère décimal par défaut de votre système et Microsoft Access SQL accepte uniquement des caractères décimaux américains.
+> Si les critères sont composés d’une chaîne concaténée avec une valeur non entière, et que les paramètres système indiquent un caractère décimal non américain, comme une virgule (par exemple, strSQL = "PRICE \> " & lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous tentez d’appeler la méthode. Ceci est dû au fait que, lors de la concaténation, le nombre sera converti en chaîne à l’aide du caractère décimal par défaut de votre système, et Microsoft Access SQL accepte uniquement les caractères décimaux américains.
 
 > [!NOTE]
-> - Pour de meilleures performances, le critère *** doit se trouver sous la forme « valeur de champ » où le champ est un champ indexé dans la table de base sous-jacente, ou « préfixe like de champ » où le champ est un champ indexé dans la table de base sous-jacente etle préfixe est une chaîne de recherche de  =  préfixe (par exemple, « ART* »).     
+> - Pour de meilleures performances, le *critère* doit* se trouver sous la forme « *fieldvalue* =  »  où le champ est un champ indexé dans la table de base sous-jacente, ou « *field* LIKE *prefix* » où le champ est un champ indexé dans la table de base sous-jacente et le *préfixe* est une chaîne de recherche de préfixe (par exemple, « ART* »).
 > - En général, pour des types de recherches équivalents, la méthode **Seek** offre de meilleures performances que les méthodes **Find**. Cela suppose que les objets **Recordset** de type table suffisent à répondre à vos besoins.
 
 

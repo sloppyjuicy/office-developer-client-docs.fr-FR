@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: cda7c774e6af9f40d529fe809c49506a57c73c2b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a1f8aca201548895ba2c63f9d3b9e2d7133aebc5
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568472"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631964"
 ---
 # <a name="setmenuitem-macro-action"></a>SetMenuItem, action de macro
 
@@ -27,14 +27,14 @@ Vous pouvez utiliser l'action **DéfinirElémentMenu** pour définir l'état des
 > [!NOTE]
 > [!REMARQUE] L'action **DéfinirElémentMenu** fonctionne uniquement avec les menus personnalisés et globaux générés à l'aide de macros de menu. L'action **DéfinirElémentMenu** est incluse dans Microsoft Access à la seule fin de compatibilité avec les versions antérieures. Il ne fonctionne pas avec les fonctionnalités de la barre de commandes. Vous pouvez toutefois utiliser les propriétés **Enabled** et **State** dans un module Visual Basic pour Applications (VBA) afin de désactiver, d'activer, de sélectionner ou de désélectionner des éléments des menus contextuels ou des menus personnalisés ou globaux.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **DéfinirElémentMenu** accepte les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

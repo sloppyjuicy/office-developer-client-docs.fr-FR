@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 416008b4-13aa-4387-8c12-f8f2ca252391
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9eca18be8d9b6cc1db17d503edff8f121175f27a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8ac1d43977656a28704c60fe1b2ae85d2a6a3da9
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591996"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630356"
 ---
 # <a name="notifcallback"></a>NOTIFCALLBACK
 
@@ -25,9 +25,9 @@ ms.locfileid: "59591996"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une fonction de rappel que MAPI appelle pour envoyer une notification d’événement. Cette fonction de rappel peut uniquement être utilisée lorsqu’elle est wrapped dans un objet de sink de conseil créé en appelant la fonction [HrAllocAdviseSink.](hrallocadvisesink.md) 
+Définit une fonction de rappel que MAPI appelle pour envoyer une notification d’événement. Cette fonction de rappel peut uniquement être utilisée lorsqu’elle est wrapped dans un objet de sink de conseil créé en appelant la fonction [HrAllocAdviseSink](hrallocadvisesink.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Fonction définie implémentée par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
@@ -49,7 +49,7 @@ ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
     
  _cNotification_
   
-> [in] Nombre de notifications d’événement dans le tableau indiqué par le _paramètre lpNotifications._ 
+> [in] Nombre de notifications d’événement dans le tableau indiqué par  _le paramètre lpNotifications_ . 
     
  _lpNotifications_
   
@@ -61,7 +61,7 @@ L’ensemble des valeurs de retour valides pour le prototype de fonction **NOTIF
   
 ## <a name="remarks"></a>Remarques
 
-CALLBACK_DISCONTINUE est une valeur de retour valide pour les fonctions de rappel synchrones uniquement ; il demande à MAPI d’arrêter immédiatement le traitement des rappels pour cette notification. Lorsque CALLBACK_DISCONTINUE est renvoyé, MAPI définit le paramètre  _lpUlFlags_ sur NOTIFY_CANCELED lorsqu’il revient à partir [d’IMAPISupport::Notify](imapisupport-notify.md). 
+CALLBACK_DISCONTINUE est une valeur de retour valide pour les fonctions de rappel synchrones uniquement ; Il demande à MAPI d’arrêter immédiatement le traitement des rappels pour cette notification. Lorsque CALLBACK_DISCONTINUE est renvoyé, MAPI définit le paramètre  _lpUlFlags_ sur NOTIFY_CANCELED lorsqu’il revient à partir [d’IMAPISupport::Notify](imapisupport-notify.md). 
   
 Les limitations suivantes limitent ce que peut faire une fonction de rappel synchrone :
   
@@ -69,7 +69,7 @@ Les limitations suivantes limitent ce que peut faire une fonction de rappel sync
     
 - Il ne peut pas afficher une interface utilisateur.
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

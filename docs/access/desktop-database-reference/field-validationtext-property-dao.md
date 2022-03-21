@@ -7,12 +7,12 @@ ms:contentKeyID: 48545494
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 747422ac1a3dc4ac51ed40611d1c4eee9560d07f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 99cdf3fd82d65d956a6c877f3c7cf637b9ba5646
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59581286"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632153"
 ---
 # <a name="fieldvalidationtext-property-dao"></a>Field.ValidationText, propriété (DAO)
 
@@ -35,8 +35,8 @@ Pour un objet **Field**, l'utilisation de la propriété **ValidationText** dép
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

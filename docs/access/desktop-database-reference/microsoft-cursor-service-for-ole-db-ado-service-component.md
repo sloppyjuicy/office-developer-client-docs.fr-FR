@@ -7,12 +7,12 @@ ms:contentKeyID: 48545376
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5d68acfb2ef210ed4d7da6b36bf0940a43ee43d5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cebf2de36d7f15dcfdf54f6d96a339791e72fd75
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622192"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632776"
 ---
 # <a name="microsoft-cursor-service-for-ole-db-ado-service-component"></a>Service de curseur Microsoft pour OLE DB (composant de service ADO)
 
@@ -25,7 +25,7 @@ Le service de curseur rend les propriétés dynamiques accessibles et améliore 
 
 Dans tous les cas, le service de curseur prend en charge la mise à jour en lot. Il simule également des types de curseurs plus puissants comme les curseurs dynamiques lorsqu'un fournisseur de données ne peut fournir que des curseurs d'une capacité moindre comme les curseurs statiques.
 
-## <a name="keyword"></a>Mot clé
+## <a name="keyword"></a>Keyword
 
 Pour appeler ce composant de service, définissez la propriété [CursorLocation](cursorlocation-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) ou [Connection](connection-object-ado.md) sur **adUseClient**.
 
@@ -58,8 +58,8 @@ Si votre application nécessite le service de curseur et que vous avez besoin de
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -144,8 +144,8 @@ Le service de curseur pour OLE DB affecte également le comportement de certaine
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

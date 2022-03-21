@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7e8f9f010c4e71f4c7fbc52b01e7ced428acbacc
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 92155a8329c137631c1c808019c1ecd7e9912836
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461222"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632097"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Initialisation du pilote Microsoft Excel
 
@@ -26,7 +26,7 @@ Lorsque vous installez le pilote Excel, le programme d’installation écrit un 
 
 ## <a name="excel-initialization-settings"></a>Excel d’initialisation
 
-Le **dossier Access Connectivity EngineEngines\\\\ Excel** inclut des paramètres d’initialisation pour le pilote Aceexcl.dll, utilisé pour l’accès externe à Microsoft Excel feuilles de calcul. L'exemple ci-après montre des paramètres par défaut pour les entrées de ce dossier.
+Le **dossier Access Connectivity EngineEngines\\\\ Excel** inclut les paramètres d’initialisation du pilote Aceexcl.dll, utilisé pour l’accès externe Microsoft Excel feuilles de calcul. L'exemple ci-après montre des paramètres par défaut pour les entrées de ce dossier.
 
 ```vb
     win32=<path>\ Aceexcl.dll  
@@ -44,8 +44,8 @@ Le moteur de base de données Microsoft Access utilise les entrées de dossier E
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -82,9 +82,9 @@ Le **dossier Access Connectivity EngineEngines\\\\ Excel 8.0** contient les entr
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -150,7 +150,7 @@ Lorsque vous utilisez Microsoft Excel driver, vous pouvez utiliser la valeur de 
 
 Pour une installation MSI de Office
 
-- Pour les Office 32 bits sur les Windows 32 bits ou les Office 64 bits sur des Windows 64 bits :
+- Pour les Office 32 bits sur des Windows 32 bits ou des Office 64 bits sur des Windows 64 bits :
     
   **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
 
@@ -160,7 +160,7 @@ Pour une installation MSI de Office
     
 Pour une installation « En un clic de Office
 
-- Pour les Office 32 bits sur les Windows 32 bits ou les Office 64 bits sur des Windows 64 bits :
+- Pour les Office 32 bits sur des Windows 32 bits ou des Office 64 bits sur des Windows 64 bits :
     
   **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
 
@@ -175,14 +175,14 @@ Le type de données est déterminé par le nombre maximal de types de données t
 - Nombre
 - Devise
 - Date
-- Texte
+- Text
 - Boolean
 
 Si des données rencontrées ne correspondent pas au type de données de estimation pour la colonne, ces données sont renvoyées sous forme **de valeur Null** . Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes** .
 
 # <a name="office-2013"></a>[Office 2013](#tab/office-2013)
 
-Pour les Office 32 bits sur les Windows 32 bits ou les Office 64 bits sur des Windows 64 bits :
+Pour les Office 32 bits sur des Windows 32 bits ou des Office 64 bits sur des Windows 64 bits :
 
 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Access Connectivity Engine\Engines\Excel**
 
@@ -197,14 +197,14 @@ Le type de données est déterminé par le nombre maximal de types de données t
 - Nombre
 - Devise
 - Date
-- Texte
-- Boolean
+- Text
+- Booléen
 
 Si des données rencontrées ne correspondent pas au type de données de estimation pour la colonne, ces données sont renvoyées sous forme **de valeur Null** . Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes** .
 
 # <a name="office-2010"></a>[Office 2010](#tab/office-2010)
 
-Pour les Office 32 bits sur les Windows 32 bits ou les Office 64 bits sur des Windows 64 bits :
+Pour les Office 32 bits sur des Windows 32 bits ou des Office 64 bits sur des Windows 64 bits :
 
 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Access Connectivity Engine\Engines\Excel**
 
@@ -219,8 +219,8 @@ Le type de données est déterminé par le nombre maximal de types de données t
 - Nombre
 - Devise
 - Date
-- Texte
-- Boolean
+- Text
+- Booléen
 
 Si des données rencontrées ne correspondent pas au type de données de estimation pour la colonne, ces données sont renvoyées sous forme **de valeur Null** . Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes** .
 
@@ -228,7 +228,7 @@ Si des données rencontrées ne correspondent pas au type de données de estimat
 > [!NOTE]
 > [!REMARQUE] Lorsque vous modifiez des paramètres de registre Windows, vous devez redémarrer le moteur de base de données pour que les nouveaux paramètres entrent en vigueur.
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 - [Utilisation du paramètre TypeGuessRows pour Excel pilote](https://support.office.com/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
 

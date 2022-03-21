@@ -7,12 +7,12 @@ ms:contentKeyID: 48546975
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 2417cde334d540866718407f6b2cfaedfc79e9a9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 961077f4a11b54e84878a1a87b0ef4f9bf5dea3f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589840"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633602"
 ---
 # <a name="copyrecordoptionsenum"></a>CopyRecordOptionsEnum
 
@@ -23,9 +23,9 @@ Spécifie le fonctionnement de la méthode [CopyRecord](copyrecord-method-ado.md
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -37,7 +37,7 @@ Spécifie le fonctionnement de la méthode [CopyRecord](copyrecord-method-ado.md
 <tbody>
 <tr class="odd">
 <td><p><strong>adCopyAllowEmulation</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Indique que le fournisseur <em>Source</em> essaye de simuler une copie à l’aide d’opérations de téléchargement et de chargement si cette méthode échoue parce que <em>Destination</em> se trouve sur un serveur différent ou si le fournisseur est différent de celui de la <em>Source</em>. Il est à noter que, selon les fonctions des fournisseurs, les performances peuvent varier, allant jusqu’à la perte de données.</p></td>
 </tr>
 <tr class="even">

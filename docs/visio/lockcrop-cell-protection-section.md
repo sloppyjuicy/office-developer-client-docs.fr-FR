@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: ae05de63-b527-66e6-2c79-056c9c92ec95
 description: Verrouille un objet d'un autre programme afin d'empêcher qu'il ne soit découpé avec l'outil Découpe.
-ms.openlocfilehash: ff72fbdc0785c677dd558785f9006e730c783c1c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ded9d68be202bcfe7c9a28f2a3651e0d5d4ee6b7
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782191"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632391"
 ---
 # <a name="lockcrop-cell-protection-section"></a>LockCrop, cellule (section Protection)
 
@@ -29,16 +29,16 @@ Verrouille un objet d'un autre programme afin d'empêcher qu'il ne soit découp�
 
 Pour obtenir une référence à la cellule LockCrop par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | LockCrop  <br/> |
+| **Nom de la cellule :**  <br/> | LockCrop  <br/> |
    
 Pour obtenir une référence à la cellule LockCrop à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowLock** <br/> |
-| Index de la cellule :  <br/> |**visLockCrop** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowLock** <br/> |
+| **Index de la cellule :**  <br/> |**visLockCrop** <br/> |
    
 

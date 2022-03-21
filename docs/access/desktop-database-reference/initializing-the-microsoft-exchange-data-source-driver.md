@@ -1,5 +1,5 @@
 ---
-title: Initialisation du pilote de source Exchange données Microsoft
+title: Initialisation du pilote de source de données Microsoft Exchange
 TOCTitle: Initializing the Microsoft Exchange Data Source driver
 ms:assetid: cf87a746-f846-1a01-f4ec-20a25e335193
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834677(v=office.15)
@@ -11,14 +11,14 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 1365e21a7b316d6513d1aad2e62a08c60f24289b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 267ea341b9108fb344ecdb59f45a33ae79deef83
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59631957"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631448"
 ---
-# <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Initialisation du pilote de source Exchange données Microsoft
+# <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Initialisation du pilote de source de données Microsoft Exchange
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,23 +26,23 @@ Lorsque vous installez le pilote de source de données Microsoft Exchange, le pr
 
 ## <a name="microsoft-exchange-data-source-initialization-settings"></a>Paramètres d Exchange d’initialisation de la source de données Microsoft
 
-Le dossier Exchange Access **Connectivity \\ Engines \\** inclut les paramètres d’initialisation du pilote Aceexch.dll, utilisé pour l’accès externe aux dossiers Microsoft Outlook et Microsoft Exchange. L'unique entrée dans ce dossier est la suivante :
+Le **dossier Access Connectivity EngineEngines\\\\ Exchange** inclut les paramètres d’initialisation du pilote Aceexch.dll, utilisé pour l’accès externe aux dossiers Microsoft Outlook et Microsoft Exchange. L'unique entrée dans ce dossier est la suivante :
 
 `win32=<path>\ACEEXCH.DLL`
 
-Le moteur de base de données Microsoft Exchange utilise ce paramètre pour indiquer l'emplacement du pilote Aceexch.dll. Le chemin d'accès complet est déterminé au moment de l'installation. Les valeurs sont de type REG \_ SZ.
+Le moteur de base de données Microsoft Exchange utilise ce paramètre pour indiquer l'emplacement du pilote Aceexch.dll. Le chemin d'accès complet est déterminé au moment de l'installation. Les valeurs sont de type REGSZ\_.
 
 Le format ISAM du client Outlook et le format ISAM du client Exchange donnent des résultats similaires. La seule différence est que ces deux clients utilisent des noms différents pour les mêmes colonnes. Les deux formats ISAM ont été créés afin que le moteur de base de données Microsoft Access puisse retourner les noms de colonnes dans un style particulier souhaité par l'utilisateur.
 
 ## <a name="microsoft-outlook-client-isam-formats"></a>Formats ISAM du client Microsoft Outlook
 
-Les formats ISAM du moteur **de connectivité Access Outlook \\ \\ 9.0** contiennent les entrées suivantes.
+Le **dossier Access Connectivity EngineISAM\\ Formats\\ Outlook 9.0** contient les entrées suivantes.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -104,13 +104,13 @@ Les formats ISAM du moteur **de connectivité Access Outlook \\ \\ 9.0** contien
 
 ## <a name="microsoft-exchange-client-isam-formats"></a>Formats ISAM du client Microsoft Exchange
 
-Les formats ISAM du moteur **de connectivité Access Exchange \\ \\ 4.0** contiennent les entrées suivantes.
+Le **dossier Access Connectivity EngineISAM\\ Formats\\ Exchange 4.0** contient les entrées suivantes.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

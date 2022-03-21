@@ -1,5 +1,5 @@
 ---
-title: Container, objet (DAO)
+title: Objet Container (DAO)
 TOCTitle: Container Object
 ms:assetid: 22e487cd-e966-fe68-fff3-c680b460cbeb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191764(v=office.15)
@@ -7,14 +7,14 @@ ms:contentKeyID: 48543720
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 39a3bb0f2b0b2c8113644f4d509a7867c7d5c8ad
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8f49e9683efb71046bab47c83318515dab5300e6
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577520"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630825"
 ---
-# <a name="container-object-dao"></a>Container, objet (DAO)
+# <a name="container-object-dao"></a>Objet Container (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -28,8 +28,8 @@ Certains de ces objets **Container** sont définis par le moteur de base de donn
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -70,11 +70,11 @@ Comme les objets **Container** sont intégrés, vous ne pouvez pas créer d'obje
 
 Pour renvoyer à un objet **Container** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des formes de syntaxe suivantes :
 
-- **Conteneurs**(0)
+- **Containers**(0)
 
-- **Conteneurs**( »*nom*« )
+- **Containers**(« *name* »)
 
--  \! Conteneurs \[ *name*\]
+- **Conteneurs**\!\[ *name*\]
 
 ## <a name="example"></a>Exemple
 

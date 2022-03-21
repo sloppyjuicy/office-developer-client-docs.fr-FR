@@ -7,12 +7,12 @@ ms:contentKeyID: 48548673
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 656007eb55883ae4dcefdb97318744bb26fe27f4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f2dce29c5c5368428e977b9ac3ac398aa0541555
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597218"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629810"
 ---
 # <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a>Fournisseur d’accès à distance Microsoft OLE DB (fournisseur de services ADO)
 
@@ -35,12 +35,12 @@ Lorsque ce fournisseur de services est appelé, les mots clés supplémentaires 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Mot clé</p></th>
+<th><p>Keyword</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -59,8 +59,8 @@ Lorsque ce fournisseur de services est appelé, les propriétés dynamiques suiv
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -74,10 +74,10 @@ Lorsque ce fournisseur de services est appelé, les propriétés dynamiques suiv
 <td><p>Indique le mode DataFactory. Chaîne qui spécifie la version souhaitée de l’objet <a href="datafactory-object-rdsserver.md">DataFactory</a> sur le serveur. Définissez cette propriété avant d’ouvrir une connexion pour demander une version particulière du <strong>DataFactory</strong>. Si la version souhaitée n’est pas disponible, une tentative d’utilisation d’une version précédente est effectuée. S’il n’existe pas de version précédente, une erreur est générée. Si la valeur de <strong>DFMode</strong> est inférieure à la version disponible, une erreur est générée. Cette propriété passe en lecture seule une fois la connexion établie. Les valeurs valides sont les valeurs de chaîne suivantes :</p>
 <p></p>
 <ul>
-<li><p>&quot;25 &quot; — Version 2.5 (par défaut)</p></li>
-<li><p>&quot;21 &quot; — Version 2.1</p></li>
-<li><p>&quot;20 &quot; — Version 2.0</p></li>
-<li><p>&quot;15 &quot; — Version 1.5</p></li>
+<li><p>&quot;25&quot; — Version 2.5 (par défaut)</p></li>
+<li><p>&quot;21&quot; — Version 2.1</p></li>
+<li><p>&quot;20&quot; — Version 2.0</p></li>
+<li><p>&quot;15&quot; — Version 1.5</p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -98,7 +98,7 @@ La valeur par défaut pour cette chaîne est vt_empty.</p></td>
 <li><p>15 — Version 1.5</p></li>
 </ul>
 <p></p>
-<p>L’ajout de DFMode=20; à votre chaîne de connexion lors de l’utilisation du fournisseur &quot; &quot; <strong>MSRemote</strong> peut améliorer les performances de votre serveur lors de la mise à jour des données. Avec ce paramètre, l'objet <strong>RDSServer.DataFactory</strong> utilise moins de ressources au niveau du serveur. Toutefois, les fonctions suivantes ne sont pas disponibles dans cette configuration :</p>
+<p>L’ajout &quot;de DFMode=20;&quot; à votre chaîne de connexion lors de l’utilisation du fournisseur <strong>MSRemote</strong> peut améliorer les performances de votre serveur lors de la mise à jour des données. Avec ce paramètre, l'objet <strong>RDSServer.DataFactory</strong> utilise moins de ressources au niveau du serveur. Toutefois, les fonctions suivantes ne sont pas disponibles dans cette configuration :</p>
 <p></p>
 <ul>
 <li><p>utilisation de requêtes paramétrées ;</p></li>
@@ -114,7 +114,7 @@ La valeur par défaut pour cette chaîne est vt_empty.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Handler</strong></p></td>
-<td><p>Indique le nom d’un programme (ou d’un handler) de personnalisation côté serveur qui étend les fonctionnalités de <a href="datafactory-object-rdsserver.md">RDSServer.DataFactory</a>et tous les paramètres utilisés par le<em>handler,</em> séparés par des virgules ( &quot; , &quot; ). Valeur <strong>String</strong>.</p></td>
+<td><p>Indique le nom d’un programme (ou d’un handler) de personnalisation côté serveur qui étend les fonctionnalités de <a href="datafactory-object-rdsserver.md">RDSServer.DataFactory</a> et tous les paramètres utilisés par le handler<em>,</em> séparés par des virgules (&quot;,&quot;). Valeur <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Internet Timeout</strong></p></td>

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 59fe0887-2092-4fad-ea38-2aba354f3b92
 description: Active ou désactive l'impression de la forme sélectionnée.
-ms.openlocfilehash: 9812a995ddc027de4c7c7d02a5d74fdbac610092
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 8703f7ec3b71a5dcd39468b49598320c3da037e4
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777129"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631070"
 ---
 # <a name="nonprinting-cell-miscellaneous-section"></a>NonPrinting, cellule (section Miscellaneous)
 
@@ -31,16 +31,16 @@ Pour imprimer un repère, sélectionnez-le, puis affectez la valeur FALSE à la 
   
 Pour obtenir une référence à la cellule NonPrinting par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | NonPrinting  <br/> |
+| **Nom de la cellule :**  <br/> | NonPrinting  <br/> |
    
 Pour obtenir une référence à la cellule NonPrinting à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section  :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowMisc** <br/> |
-| Index de la cellule :  <br/> |**visNonPrinting** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowMisc** <br/> |
+| **Index de la cellule :**  <br/> |**visNonPrinting** <br/> |
    
 

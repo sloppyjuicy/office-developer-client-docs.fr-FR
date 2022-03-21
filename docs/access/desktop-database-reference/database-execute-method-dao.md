@@ -7,12 +7,12 @@ ms:contentKeyID: 48546378
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 5e3e0435b23ec1282d30c62a48fb3a36e08a81fb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a8626a9903e22b83c032b0b38e7d324cc436b465
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597483"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630771"
 ---
 # <a name="databaseexecute-method-dao"></a>Database.Execute, méthode (DAO)
 
@@ -30,10 +30,10 @@ Exécute une requête action ou exécute une instruction SQL sur l’objet spéc
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,8 +66,8 @@ Vous pouvez utiliser les constantes **[RecordsetOptionEnum](recordsetoptionenum-
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

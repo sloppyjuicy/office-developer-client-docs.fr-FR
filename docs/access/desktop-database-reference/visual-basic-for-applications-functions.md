@@ -7,12 +7,12 @@ ms:contentKeyID: 48544617
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b38614471d772d7e940bc0fb4dca05b230ed2733
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8ecf6a12280433181447eb5ffdf5038b69156d44
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585066"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634694"
 ---
 # <a name="visual-basic-for-applications-functions"></a>Fonctions Visual Basic pour Applications
 
@@ -21,14 +21,14 @@ ms.locfileid: "59585066"
 
 Vous pouvez utiliser les fonctions Visual Basic pour Applications suivantes dans des expressions CALC de mise en forme des données :
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -75,7 +75,7 @@ Vous pouvez utiliser les fonctions Visual Basic pour Applications suivantes dans
 <td><p>Erreur</p></td>
 <td><p>Error$</p></td>
 <td><p>Exp</p></td>
-<td><p>Correction</p></td>
+<td><p>Corriger</p></td>
 <td><p>Format</p></td>
 <td><p>Format$</p></td>
 </tr>

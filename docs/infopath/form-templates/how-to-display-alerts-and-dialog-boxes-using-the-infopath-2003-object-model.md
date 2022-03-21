@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 721ac58e-56d9-4e3b-93f1-849e0c94d010
 description: Lorsque vous écrivez du code pour développer les fonctionnalités d'un modèle de formulaire utilisant le modèle objet InfoPath 2003, il est souvent utile de communiquer des informations aux utilisateurs par l'intermédiaire de boîtes de dialogue.
-ms.openlocfilehash: 9e23fd03fa1d53eb6d1891122ec0c588f8726d7d
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 651bc1b7d2cbe6c94dad5e78f3dc938a5f96a1a6
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777767"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630454"
 ---
 # <a name="display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model"></a>Afficher des alertes et des boîtes de dialogue à l’aide du modèle objet InfoPath 2003
 
@@ -30,7 +30,7 @@ L'interface [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Inter
 |[SetSaveAsDialogFileName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogFileName.aspx) <br/> |Définit le nom de fichier par défaut d'un formulaire dans la boîte de dialogue **Enregistrer sous**. |
 |[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogLocation.aspx) <br/> |Définit l'emplacement de recherche initial de la boîte de dialogue **Enregistrer sous**, lors de son ouverture. |
 |[ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) <br/> |Crée un message électronique dans l’application de messagerie par défaut, avec le formulaire actuellement ouvert joint au message. |
-|[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |Affiche une boîte de dialogue qui exige une réponse de l'utilisateur, sur la base du fichier HTML et des arguments de position spécifiés. Cette méthode doit être utilisée si vous souhaitez afficher plus qu’un simple message à l’utilisateur et que vous devez obtenir des données de l’utilisateur (au-delà de la simple confirmation fournie  par le oui | **Non** | **Boutons d’annulation** affichés par la **méthode Confirm** ). |
+|[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |Affiche une boîte de dialogue qui exige une réponse de l'utilisateur, sur la base du fichier HTML et des arguments de position spécifiés. Cette méthode doit être utilisée si vous souhaitez afficher plus qu’un simple message à l’utilisateur et que vous devez obtenir des données de l’utilisateur (au-delà de la  simple confirmation  \| \| fournie par les boutons Oui Non Annuler affichés par la méthode **Confirm**). |
 |[ShowSignatureDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowSignatureDialog.aspx) <br/> |Affiche la boîte de dialogue intégrée **Signatures numériques**. |
    
 ## <a name="using-the-uiobject-interface"></a>Utilisation de l'interface UIObject

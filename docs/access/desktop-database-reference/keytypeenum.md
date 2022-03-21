@@ -7,12 +7,12 @@ ms:contentKeyID: 48544099
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 01f7a86c9afe67d5be5001cb13bc4812077f3f13
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 8ba6bed0454d464d86a89a7f676780ffe074f9b9
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461530"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631455"
 ---
 # <a name="keytypeenum"></a>KeyTypeEnum
 
@@ -23,9 +23,9 @@ Indique le type de l’objet [Key](key-object-adox.md) : clé primaire, étrang
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

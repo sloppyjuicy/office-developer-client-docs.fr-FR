@@ -7,12 +7,12 @@ ms:contentKeyID: 48543999
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 8f62d684d3c33024b4e15d5e8f90e432bfa98b47
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 09e4f131bef0e70c774a11e97f593feb0d3915fa
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622339"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632174"
 ---
 # <a name="fieldrequired-property-dao"></a>Field.Required, propriété (DAO)
 
@@ -35,8 +35,8 @@ La disponibilité de la propriété **Required** dépend de l'objet qui contient
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

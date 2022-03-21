@@ -7,12 +7,12 @@ ms:contentKeyID: 48545641
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 027e93654174aaa70c2f488fc0d350b0b1dad644
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a16e1e1a8ef12aa26ff844a91a64ab4e9b45dde1
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553024"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632909"
 ---
 # <a name="editmodeenum-enumeration-dao"></a>EditModeEnum, éumération (DAO)
 
@@ -23,9 +23,9 @@ Indique l'état d'édition de l'enregistrement actif.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

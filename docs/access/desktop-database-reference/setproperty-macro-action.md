@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 15ad7954c7c6af3f500fad7075deb175905ae667
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7332cbedc8d3a32217e0fa4deabeadcdcebdd627
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621821"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631308"
 ---
 # <a name="setproperty-macro-action"></a>SetProperty, action de macro
 
@@ -24,14 +24,14 @@ ms.locfileid: "59621821"
 
 L'action **DéfinirPropriété** permet de définir une propriété pour un contrôle dans un formulaire ou un état.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Paramètres
 
 L’action **DéfinirPropriété** utilise les arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -45,7 +45,7 @@ L’action **DéfinirPropriété** utilise les arguments suivants :
 <td><p>Tapez le nom du champ ou du contrôle pour lequel vous souhaitez définir la valeur d’une propriété. Utilisez uniquement le nom du contrôle, et non la syntaxe complète. Laissez cet argument vide si vous souhaitez définir cette propriété pour le formulaire ou l’état actif.</p></td>
 </tr>
 <tr class="even">
-<td><p>Property</p></td>
+<td><p>Propriété</p></td>
 <td><p>Sélectionnez la propriété dont la valeur doit être définie. Consultez la section <strong>Remarques</strong> de cet article pour accéder à la liste des propriétés qui peuvent être définies via cette action.</p></td>
 </tr>
 <tr class="odd">
@@ -68,7 +68,7 @@ L’action **DéfinirPropriété** utilise les arguments suivants :
 
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre comment utiliser l’action DéfinirProperty pour faire bascule la visibilité de la zone de **texte MyTextBox.**
+L’exemple suivant montre comment utiliser l’action DéfinirProperty pour faire bascule la visibilité de la **zone de texte MyTextBox** .
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

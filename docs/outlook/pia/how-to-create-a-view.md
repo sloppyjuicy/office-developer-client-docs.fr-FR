@@ -7,12 +7,12 @@ ms:contentKeyID: 55119902
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 060d49571ec50251eb9d8286c08df19d0f37bb3a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8fc34c9e3c7c12f86964634fd262ffda35df6bdd
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560612"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630349"
 ---
 # <a name="create-a-view"></a>Créer un affichage
 
@@ -28,8 +28,8 @@ Vous pouvez créer des vues personnalisables qui vous permettent de trier, de re
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -74,7 +74,7 @@ L'ajout d'un nouvel affichage déclenche l'événement [ViewAdd](https://msdn.mi
 
 Dans l'exemple de code suivant, CreateMeetingRequestsView ajoute un nouvel affichage nommé « Meeting Requests » à la Boîte de réception de l'utilisateur en castant l'objet **View** en un objet **TableView**. CreateMeetingRequestsView appelle ensuite la méthode **Add** de l'objet **Views** avec le paramètre *Name* défini comme « Meeting Requests » et le paramètre *ViewType* défini comme **olTableView**. La propriété [Filter](https://msdn.microsoft.com/library/bb610296\(v=office.15\)) de l'objet **TableView** est définie comme une chaîne DASL qui provoque l'affichage de la vue uniquement lorsque figurent des éléments qui contiennent « IPM.Schedule » dans la classe message de l'élément. Le nouvel affichage est ensuite enregistré et appliqué.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable Outlook lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration Class publique. La ligne de code suivante montre comment effectuer l’importation et l’affectation dans C \#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

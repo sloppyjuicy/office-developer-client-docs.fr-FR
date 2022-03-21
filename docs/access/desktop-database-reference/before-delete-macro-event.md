@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: d8f4f44ae2acdfe5f20b5ee8a95314f518be07f8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b7872194eabcb18b1c55de063d945065de9eba24
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59607121"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630902"
 ---
 # <a name="before-delete-macro-event"></a>Before Delete, événement de macro
 
@@ -41,14 +41,14 @@ Par exemple, pour accéder à la valeur du champ QuantityInStock dans l’enregi
 
 Les valeurs contenues dans l'enregistrement à supprimer sont supprimées définitivement lorsque l'événement **Avant la suppression** se termine.
 
-Vous pouvez annuler l'événement **Avant la suppression** à l'aide de l'action **DéclencherErreur**. Lorsqu’une erreur se produit, les modifications contenues dans l’événement **Avant** la suppression sont ignorées.
+Vous pouvez annuler l'événement **Avant la suppression** à l'aide de l'action **DéclencherErreur**. Lorsqu’une erreur est produite, les modifications contenues dans l’événement **Avant** la suppression sont ignorées.
 
 Le tableau suivant répertorie les commandes de macros qui peuvent être utilisées dans l'événement **Avant la suppression**.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -62,11 +62,11 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 <td><p><a href="comment-macro-statement.md">Comment, instruction de macro</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Flux de programme</p></td>
+<td><p>Déroulement de programme</p></td>
 <td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Flux de programme</p></td>
+<td><p>Déroulement de programme</p></td>
 <td><p><a href="if-then-else-macro-block.md">If...Then...Else, bloc de macro</a></p></td>
 </tr>
 <tr class="even">
@@ -101,5 +101,5 @@ Pour créer une macro de données qui capture l'événement **Avant la suppressi
 
 1.  Ouvrez la table pour laquelle vous souhaitez capturer l'événement **Avant la suppression**.
 
-2.  Sous **l’onglet Tableau,** dans le groupe **Événements** Avant, sélectionnez **Avant la suppression.**
+2.  Sous **l’onglet Tableau** , dans le groupe **Événements** Avant, sélectionnez **Avant la suppression**.
 

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6aada005-3403-4666-9779-7ccb5b83b74a
 description: Détermine si un dégradé de remplissage pivote avec une forme en rotation 2D, sous forme de booléen.
-ms.openlocfilehash: fb8b1ee70d97aeb3d0ce5ac199c93e2d3ebc913d
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 226041eed7e1291c556c6b18b63f250efdf61e24
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62769987"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631063"
 ---
 # <a name="rotategradientwithshape-cell-gradient-properties-section"></a>RotateGradientWithShape Cell (Gradient Properties Section)
 
@@ -27,16 +27,16 @@ Détermine si un dégradé de remplissage pivote avec une forme en rotation 2D, 
 
 Pour obtenir une référence à la cellule **RotateGradientWithShape** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | RotateGradientWithShape  <br/> |
+| **Nom de cellule :**  <br/> | RotateGradientWithShape  <br/> |
    
 Pour obtenir une référence à la **cellule RotateGradientWithShape** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowGradientProperties** <br/> |
-| Index de la cellule :  <br/> |**visRotateGradientWithShape** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowGradientProperties** <br/> |
+| **Index de la cellule :**  <br/> |**visRotateGradientWithShape** <br/> |
    
 

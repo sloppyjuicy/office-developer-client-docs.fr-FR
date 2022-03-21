@@ -7,12 +7,12 @@ ms:contentKeyID: 48547132
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a0176cd57f3079019077e2b4aac63348ecd233d9
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 030224af10fd77faf30f82ba703f4e069f223e98
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461586"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631406"
 ---
 # <a name="objecttypeenum"></a>ObjectTypeEnum
 
@@ -23,9 +23,9 @@ Indique le type d'objet de base de données dont il faut définir les autorisati
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

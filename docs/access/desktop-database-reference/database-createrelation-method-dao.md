@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 61c666aaddbdb3da94be04048cc522605cab1a24
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 17ecb24a57499cc31ae416f0bd54605cef6f69e6
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612273"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630069"
 ---
 # <a name="databasecreaterelation-method-dao"></a>Database.CreateRelation method (DAO)
 
@@ -34,10 +34,10 @@ Crée un nouvel objet **[Relation](relation-object-dao.md)** (Espaces de travail
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -88,7 +88,7 @@ Si vous omettez un ou plusieurs arguments facultatifs avec la méthode **CreateR
 
 Avant de pouvoir appeler la méthode **[Append](fields-append-method-dao.md)** sur un objet **Relation**, vous devez ajouter les objets **[Field](field-object-dao.md)** appropriés pour définir la relation des tables de clé primaire et étrangère.
 
-Si le nom fait référence à un objet qui est déjà membre de la collection ou si les noms d’objets **Field** fournis dans la collection **Fields** subordonnée ne sont pas valides, une erreur d’utilisation se produit lorsque vous utilisez la méthode **Append.**
+Si le nom fait référence à un objet qui est déjà membre de la collection ou si les noms d’objets **Field** fournis dans la collection **Fields** subordonnée ne sont pas valides, une erreur d’utilisation se produit lorsque vous utilisez la méthode **Append** .
 
 Vous ne pouvez ni établir ni conserver de relation entre une table répliquée et une table locale.
 

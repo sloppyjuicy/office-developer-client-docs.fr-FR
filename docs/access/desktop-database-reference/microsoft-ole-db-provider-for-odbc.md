@@ -7,12 +7,12 @@ ms:contentKeyID: 48547602
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 2bc1d657796a35cc1e371fb302ca069d20befd86
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 43ca74db3d3c918322fbbad121cd936d4cfff1ef
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589371"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632748"
 ---
 # <a name="microsoft-ole-db-provider-for-odbc"></a>Fournisseur Microsoft OLE DB pour ODBC
 
@@ -52,12 +52,12 @@ La chaîne est composée des mots clé suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Mot clé</p></th>
+<th><p>Keyword</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -106,7 +106,7 @@ Plutôt que de définir un **DSN**, vous pouvez choisir de spécifier le pilote 
 
 Vous pouvez aussi spécifier un nom de compte utilisateur (**UID=**) et le mot de passe de ce compte (**PWD=**) dans les paramètres spécifiques à ODBC ou dans les paramètres ADO standard *utilisateur* et *mot de passe*.
 
-Bien **qu’une définition de DSN** spécifie   déjà une base de données, vous pouvez spécifier un paramètre de base de données en plus d’un **DSN** pour se connecter à une autre base de données. Il est bon de toujours inclure le *paramètre* de base *de* données lorsque vous utilisez un **DSN**. Vous serez ainsi certain de vous connecter à la bonne base de données même si un autre utilisateur a modifié le paramètre de base de données par défaut depuis votre dernière vérification de la définition du **DSN**.
+Bien **qu’une définition de DSN** spécifie déjà une base de données  , vous pouvez spécifier un paramètre de base de données en plus d’un **DSN** pour se connecter à une autre base de données. Il est bon d’inclure toujours le *paramètre* de *base de données* lorsque vous utilisez un **DSN**. Vous serez ainsi certain de vous connecter à la bonne base de données même si un autre utilisateur a modifié le paramètre de base de données par défaut depuis votre dernière vérification de la définition du **DSN**.
 
 ## <a name="provider-specific-connection-properties"></a>Propriétés de connexion spécifiques au fournisseur
 
@@ -114,8 +114,8 @@ Le fournisseur OLE DB pour ODBC ajoute plusieurs propriétés à la collection [
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -165,12 +165,12 @@ Le fournisseur OLE DB pour ODBC ajoute plusieurs propriétés à la collection [
 <td><p>Indique le nombre maximal de colonnes qui peuvent être répertoriées dans la clause GROUP BY d'une instruction SELECT.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre maximum de colonnes dans l’index<br />
+<td><p>Nombre de colonnes max dans l’index<br />
 (KAGPROP_MAXCOLUMNSININDEX)</p></td>
 <td><p>Indique le nombre maximal de colonnes qui peuvent être incluses dans un index.</p></td>
 </tr>
 <tr class="even">
-<td><p>Colonnes max dans l’ordre par<br />
+<td><p>Nombre de colonnes max dans l’ordre par<br />
 (KAGPROP_MAXCOLUMNSINORDERBY)</p></td>
 <td><p>Indique le nombre maximal de colonnes qui peuvent être répertoriées dans la clause ORDER BY d'une instruction SELECT.</p></td>
 </tr>
@@ -227,7 +227,7 @@ Pour obtenir le listing des noms de fonctions et des valeurs associées utilisé
 <td><p>Indique les fonctions de date et heure prises en charge par le pilote ODBC. Pour obtenir le listing des noms de fonctions et des valeurs associées utilisés dans ce masque de bits, consultez la rubrique sur les fonctions scalaires dans l'Annexe E de la documentation ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p>SQL Prise en charge de la grammaire<br />
+<td><p>SQL grammar support<br />
 (KAGPROP_ODBCSQLCONFORMANCE)</p></td>
 <td><p>Indique la grammaire SQL prise en charge par le pilote ODBC.</p></td>
 </tr>
@@ -241,8 +241,8 @@ Le fournisseur OLE DB pour ODBC ajoute plusieurs propriétés à la collection *
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -331,15 +331,15 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 
 <table>
 <colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Property</p></th>
+<th><p>Propriété</p></th>
 <th><p>ForwardOnly</p></th>
 <th><p>Dynamique</p></th>
 <th><p>Keyset</p></th>
@@ -411,7 +411,7 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 <td><p>lecture seule</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filtre</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>lecture/écriture</p></td>
 <td><p>lecture/écriture</p></td>
 <td><p>lecture/écriture</p></td>
@@ -467,7 +467,7 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 <td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado.md">State</a></p></td>
+<td><p><a href="state-property-ado.md">État</a></p></td>
 <td><p>lecture seule</p></td>
 <td><p>lecture seule</p></td>
 <td><p>lecture seule</p></td>
@@ -490,11 +490,11 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 
 <table>
 <colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -664,8 +664,8 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -936,8 +936,8 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1196,8 +1196,8 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1446,7 +1446,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 </table>
 
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
-Pour plus [d’informations sur l’implémentation](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85)) spécifique et des informations fonctionnelles sur le fournisseur Microsoft OLE DB pour ODBC, consultez le Guide du programmeur OLE DB ou visitez le Centre de développement de plateforme de [données.](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017)
+Pour plus [d’informations sur l’implémentation](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85)) spécifique et des informations fonctionnelles sur le fournisseur Microsoft OLE DB pour ODBC, consultez le Guide du programmeur OLE DB ou visitez le Centre de développement de plateforme de [données](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
 

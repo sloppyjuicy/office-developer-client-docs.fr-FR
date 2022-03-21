@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 1e24a906-83ce-32d2-5d7b-ba6dd6eea2d3
 description: Indique le type des données de forme.
-ms.openlocfilehash: 9d1f8ba4fc67eaa03fd9816b318218015e738066
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: bf06a4eb172e375105641e95308a78deabf19a4d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62779034"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630181"
 ---
 # <a name="type-cell-shape-data-section"></a>Type, cellule (section Shape Data)
 
@@ -35,16 +35,16 @@ Indique le type des données de forme.
 
 Pour obtenir une référence à la cellule Type par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |Prop. *Nom*  . Tapez où Prop.  *Le nom*  est le nom de la ligne  <br/> |
+|**Nom de cellule :**  <br/> |Prop. *Nom*  . Tapez où Prop.  *Le nom*  est le nom de la ligne  <br/> |
    
 Pour obtenir une référence à la cellule Type par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionProp** <br/> |
-|Index de la ligne :  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
-|Index de la cellule :  <br/> |**visCustPropsType** <br/> |
+|**Index de la section :**  <br/> |**visSectionProp** <br/> |
+|**Index de la ligne :**  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
+|**Index de la cellule :**  <br/> |**visCustPropsType** <br/> |
    
 

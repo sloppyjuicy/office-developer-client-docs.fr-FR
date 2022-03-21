@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: f84afe83-8391-0c13-f442-ea8794b38642
 description: Cellule Event qui est évaluée lorsqu'une forme est insérée sur la page de dessin, soit comme instance, soit lorsqu'elle est dupliquée ou collée.
-ms.openlocfilehash: a2e65d4a62f9323580913c0d23eb4b15aa0835e9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e89ec57231f205f1eead224370afcfc9b4469059
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619084"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631112"
 ---
 # <a name="eventdrop-cell-events-section"></a>EventDrop, cellule (section Events)
 
@@ -26,16 +26,16 @@ Les cellules Event ne sont évaluées que lorsque l'événement se produit, et n
   
 Pour obtenir une référence à la cellule EventDrop par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | EventDrop  <br/> |
+| **Nom de la cellule :**  <br/> | EventDrop  <br/> |
    
 Pour obtenir une référence à la cellule EventDrop à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowEvent** <br/> |
-| Index de la cellule :  <br/> |**visEvtCellDrop** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowEvent** <br/> |
+| **Index de la cellule :**  <br/> |**visEvtCellDrop** <br/> |
    
 

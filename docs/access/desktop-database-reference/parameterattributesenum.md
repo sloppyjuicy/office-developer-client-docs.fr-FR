@@ -7,12 +7,12 @@ ms:contentKeyID: 48547773
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 2fc5d2ba4fe60b86bc9c067cbe4a65223d8fd2d9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 25e21d8190bb793d56f262018bfe34be9e8b667d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626231"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631378"
 ---
 # <a name="parameterattributesenum"></a>ParameterAttributesEnum
 
@@ -23,9 +23,9 @@ Spécifie les attributs d’un objet [Parameter](parameter-object-ado.md).
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -37,7 +37,7 @@ Spécifie les attributs d’un objet [Parameter](parameter-object-ado.md).
 <tbody>
 <tr class="odd">
 <td><p><strong>adParamSigned</strong></p></td>
-<td><p>16 </p></td>
+<td><p>16</p></td>
 <td><p>Indique que le paramètre accepte les valeurs signées.</p></td>
 </tr>
 <tr class="even">
@@ -60,11 +60,11 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

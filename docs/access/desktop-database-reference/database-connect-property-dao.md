@@ -7,12 +7,12 @@ ms:contentKeyID: 48547578
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 95d5814d41651287c23e7913103c30387691a50d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fb96916506892ff9eddbe9e4822071d22278d6dc
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585983"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630818"
 ---
 # <a name="databaseconnect-property-dao"></a>Base de données. Connecter property (DAO)
 
@@ -39,9 +39,9 @@ Le tableau suivant indique les types de base de données possible et leur spéci
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -154,9 +154,9 @@ Si le spécificateur est uniquement "ODBC;", le pilote ODBC affiche une boîte d
 
 Si un mot de passe est requis sans être fourni dans le **Connect** propriété définissant, une boîte de dialogue Connexion s’affiche la première fois une table est accessible par le pilote ODBC puis de nouveau si la connexion est fermée et rouvert.
 
-Pour les données dans Microsoft Exchange, vous devez définir la clé MAPILEVEL obligatoire pour un chemin d’accès du dossier entièrement résolu (par exemple, « boîte aux lettres – Pat SmithIAlpha/aujourd'hui »). Le chemin n’inclut pas le nom du dossier qui sera ouvert en tant que table. Au lieu de cela, le nom du dossier doit être spécifié comme argument Name de la méthode **CreateTable**. La clé TABLETYPE doit être définie sur « 0 » pour ouvrir un dossier (par défaut) ou « 1 » pour ouvrir le carnet d’adresses. Les valeurs par défaut clés profil au profil actuellement utilisent.
+Pour les données dans Microsoft Exchange, la clé MAPILEVEL obligatoire doit être définie avec un chemin de dossier entièrement résolu (par exemple, « Mailbox – Pat SmithIAlpha/Today »). Le chemin n'inclut pas le nom du dossier qui sera ouvert comme une table ; au lieu de cela, le nom du dossier doit être spécifié comme argument nom de la méthode **CreateTable**. La clé TABLETYPE doit avoir la valeur « 0 » pour ouvrir un dossier (par défaut) ou « 1 » pour ouvrir un carnet d'adresses. La clé PROFILE prend la valeur par défaut du profil en cours d'utilisation.
 
-Vous pouvez définir la propriété **Connecter** d’un objet **Database** en fournissant un argument source à la **méthode OpenDatabase.** Consultez le paramètre pour connaître le type, le chemin d'accès, l'ID d'utilisateur, le mot de passe ou la source de données ODBC de la base de données.
+Vous pouvez définir la **propriété Connecter** d’un objet **Database** en fournissant un argument source à la **méthode OpenDatabase**. Consultez le paramètre pour connaître le type, le chemin d'accès, l'ID d'utilisateur, le mot de passe ou la source de données ODBC de la base de données.
 
 
 > [!NOTE]

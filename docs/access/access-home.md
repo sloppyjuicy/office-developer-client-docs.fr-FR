@@ -5,12 +5,12 @@ ms.date: 9/20/2021
 ms.audience: Developer
 ms.assetid: 9858d097-d1d1-48df-8344-e7b46afbe0d1
 ms.localizationpriority: high
-ms.openlocfilehash: bbea16be1234d52dc6a0c292617b124d7edb00e4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a7b2edc3c19c4a9a585d82453e6fef5e4fc052e4
+ms.sourcegitcommit: 03348dda157b813ea1af1c4643a328fbf532a20b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553521"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63661446"
 ---
 # <a name="access-developer-documentation"></a>Documentation du développeur Access
 
@@ -33,7 +33,7 @@ Recherchez des procédures, des exemples de code, de la documentation sur les ki
 - [Vidéo de formation Access](https://support.microsoft.com/office/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6?ui=en-us&rs=en-us&ad=us)
 - [Access 2013](/sharepoint/dev/general-development/develop-access-web-apps.md)
 - [Access 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff604965(v=office.14)) 
-- [Référence de la bibliothèque d’objets VBA Office](/office/vba/api/overview/library-reference.md)  
+- [Référence de la bibliothèque d’objets VBA Office](/office/vba/api/overview/library-reference/reference-object-library-reference-for-office.md)  
 - [Référence de langage VBA pour Office](/office/vba/api/overview/language-reference.md) 
 - [Open XML SDK](/office/open-xml/open-xml-sdk.md) 
 - [Compléments VSTO pour Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
@@ -44,5 +44,3 @@ Recherchez des procédures, des exemples de code, de la documentation sur les ki
 - [Poser une question sur le développement d’Access sur Microsoft Q&A](https://docs.microsoft.com/answers/topics/office-access-dev.html) 
 - [Suggérer une idée](https://techcommunity.microsoft.com/t5/microsoft-365-developer-platform/idb-p/Microsoft365DeveloperPlatform)
 - [Développement d’Access sur Stack Overflow](https://stackoverflow.com/questions/tagged/ms-access)
-  
-

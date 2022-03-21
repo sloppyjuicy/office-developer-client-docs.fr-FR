@@ -7,12 +7,12 @@ ms:contentKeyID: 48545239
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 55b5a3cf20e13bc46568c20a375caf442b8c836b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 749203c09855145d7bb977202823107d0c8b3e93
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597414"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627549"
 ---
 # <a name="event-parameters"></a>Paramètres d’événement
 
@@ -40,8 +40,8 @@ Lorsque la routine de gestionnaire d'événements est appelée, le paramètre *S
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,8 +72,8 @@ Si vous ne voulez plus traiter un événement, affectez au paramètre *Status* l
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

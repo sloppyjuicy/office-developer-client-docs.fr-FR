@@ -7,12 +7,12 @@ ms:contentKeyID: 48544737
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a5b2753086118850b5fe4858c983042a19f1ee6c
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: fc55d72bbb0e5ba6c5d30e3cfc2370c83659b956
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461229"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629957"
 ---
 # <a name="editmodeenum"></a>EditModeEnum
 
@@ -23,9 +23,9 @@ Spécifie l'état d'édition d'un enregistrement.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -65,7 +65,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

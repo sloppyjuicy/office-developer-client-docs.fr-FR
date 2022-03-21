@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8ebb21ca-5ad1-4dcc-97b6-2390664b5d8d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2922a242a0ac3ebbd071a85fb49ce9375a4cb22f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c135b5124d97347a5b4b365de4ea09bcb2301df6
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630942"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631798"
 ---
 # <a name="entryid"></a>ENTRYID
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630942"
   
 Contient un identificateur d’entrée pour un objet MAPI. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Macros associées :  <br/> |[CbNewENTRYID](cbnewentryid.md), [SizedENTRYID](sizedentryid.md) <br/> |
@@ -45,7 +45,7 @@ typedef struct
 
  **abFlags**
   
-> Masque de bits d’indicateurs qui fournissent des informations décrivent l’objet. Seul le premier byte des indicateurs, **abFlags[0]**, peut être définie par le fournisseur ; les trois autres sont réservés. Ces indicateurs ne doivent pas être définies pour les identificateurs d’entrée permanents ; Elles sont uniquement définies pour les identificateurs d’entrée à court terme. Pour les clients, cette structure est en lecture seule. Les indicateurs suivants peuvent être définies dans **abFlags[0]**:
+> Masque de bits d’indicateurs qui fournissent des informations décrivent l’objet. Seul le premier byte des indicateurs, **abFlags[0]**, peut être définie par le fournisseur ; les trois autres sont réservés. Ces indicateurs ne doivent pas être définies pour les identificateurs d’entrée permanents ; Elles sont uniquement définies pour les identificateurs d’entrée à court terme. Pour les clients, cette structure est en lecture seule. Les indicateurs suivants peuvent être **définies dans abFlags[0]**:
     
 MAPI_NOTRECIP 
   
@@ -93,15 +93,15 @@ La structure **ENTRYID** est utilisée par les fournisseurs de magasins de messa
     
 Chaque fournisseur utilise un format pour la structure **ENTRYID** qui est logique pour ce fournisseur. 
   
-Chaque identificateur d'entrée ne peut être comparé directement, car un objet peut être représenté par deux valeurs binaires différentes. Pour déterminer si deux identificateurs d’entrée représentent le même objet, appelez la méthode [IMAPISession::CompareEntryIDs.](imapisession-compareentryids.md) 
+Chaque identificateur d'entrée ne peut être comparé directement, car un objet peut être représenté par deux valeurs binaires différentes. Pour déterminer si deux identificateurs d’entrée représentent le même objet, appelez la méthode [IMAPISession::CompareEntryIDs](imapisession-compareentryids.md) . 
   
-Lorsqu’un client appelle la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) d’un objet pour récupérer son identificateur d’entrée, l’objet renvoie la forme la plus permanente de l’identificateur d’entrée. Un client peut vérifier qu’un identificateur d’entrée est à long terme en vérifiant qu’aucun des indicateurs n’est définie dans le premier byte du membre **abFlags.** 
+Lorsqu’un client appelle la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) d’un objet pour récupérer son identificateur d’entrée, l’objet renvoie la forme la plus permanente de l’identificateur d’entrée. Un client peut vérifier qu’un identificateur d’entrée est à long terme en vérifiant qu’aucun des indicateurs n’est définie dans le premier byte du membre **abFlags** . 
   
-Lorsqu’un client accède à un identificateur d’entrée par le biais d’une colonne dans une table, il est fort probable que cet identificateur d’entrée soit à court terme plutôt qu’à long terme. Les identificateurs d’entrée à court terme peuvent être utilisés pour ouvrir leurs objets correspondants uniquement dans la session MAPI en cours. Un client peut vérifier qu’un identificateur d’entrée est à court terme en vérifiant que tous les indicateurs sont définies dans le premier byte du membre **abFlags.** 
+Lorsqu’un client accède à un identificateur d’entrée par le biais d’une colonne dans une table, il est fort probable que cet identificateur d’entrée soit à court terme plutôt qu’à long terme. Les identificateurs d’entrée à court terme peuvent être utilisés pour ouvrir leurs objets correspondants uniquement dans la session MAPI en cours. Un client peut vérifier qu’un identificateur d’entrée est à court terme en vérifiant que tous les indicateurs sont définies dans le premier byte du membre **abFlags** . 
   
-Certains identificateurs d’entrée sont à court terme, mais ont une utilisation à long terme. Un identificateur d’entrée de ce type aura un ou plusieurs des indicateurs appropriés définies dans le premier byte de son membre **abFlags.** 
+Certains identificateurs d’entrée sont à court terme, mais ont une utilisation à long terme. Un identificateur d’entrée de ce type aura un ou plusieurs des indicateurs appropriés définies dans le premier byte de son membre **abFlags** . 
   
-Une structure **ENTRYID** ressemble à une structure [FLATENTRY.](flatentry.md) Toutefois, il existe certaines différences : 
+Une structure **ENTRYID** ressemble à une structure [FLATENTRY](flatentry.md) . Toutefois, il existe certaines différences : 
   
 - Une structure **ENTRYID** ne stocke pas la taille de l’identificateur d’entrée ; une structure **FLATENTRY** le fait. 
     
@@ -113,11 +113,11 @@ Une structure **ENTRYID** ressemble à une structure [FLATENTRY.](flatentry.md) 
     
 Les clients doivent toujours transmettre des identificateurs d’entrée alignés naturellement. Bien que les fournisseurs doivent gérer des identificateurs d’entrée arbitrairement alignés, les clients ne doivent pas s’attendre à ce comportement. L’échec de la passe d’un bon identificateur d’entrée aligné à une méthode peut provoquer une erreur d’alignement sur les processeurs RISC. 
   
-Le facteur d’alignement naturel, généralement 8 octets, est le plus grand type de données pris en charge par l’UC, et généralement le même facteur d’alignement utilisé par l’allocation de mémoire système. Une adresse mémoire alignée naturellement permet à l’UC d’accéder à n’importe quel type de données qu’elle prend en charge à cette adresse sans générer de panne d’alignement. Pour les processeurs RISC, un type de données de taille N octets doit généralement être aligné sur un même multiple de N octets, l’adresse étant un même multiple de N.
+Le facteur d’alignement naturel, généralement 8 octets, est le plus grand type de données pris en charge par le processeur, et généralement le même facteur d’alignement utilisé par l’allocation de mémoire système. Une adresse mémoire alignée naturellement permet au processeur d’accéder à n’importe quel type de données qu’il prend en charge à cette adresse sans générer de panne d’alignement. Pour les processeurs RISC, un type de données de taille N octets doit généralement être aligné sur un même multiple de N octets, l’adresse étant un même multiple de N.
   
-Pour plus d’informations, voir [Identificateurs d’entrée.](mapi-entry-identifiers.md) 
+Pour plus d’informations, voir [Identificateurs d’entrée](mapi-entry-identifiers.md). 
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

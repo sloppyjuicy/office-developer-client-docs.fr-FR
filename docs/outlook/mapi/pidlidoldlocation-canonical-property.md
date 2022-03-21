@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5d31791b-c30d-4a97-b2d3-18cbe0e98792
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6cd1f0eec59e35d75fc2f6862c59082e1e3ac7ee
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 09edf5615e12e001c0319125b8b13d0b3902c441
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555656"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631119"
 ---
 # <a name="pidlidoldlocation-canonical-property"></a>Propriété canonique PidLidOldLocation
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555656"
   
 Indique la valeur d’origine de la **propriété dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) avant une mise à jour de réunion.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidOldLocation  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 
 

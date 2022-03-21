@@ -7,12 +7,12 @@ ms:contentKeyID: 48545100
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: bec6427627697750d3c8e0ee82c32c3818e06e53
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f05942403df4253b0af66607147b44f155f5ce04
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611972"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629859"
 ---
 # <a name="microsoft-ole-db-provider-for-internet-publishing"></a>Fournisseur Microsoft OLE DB pour la publication Internet
 
@@ -51,12 +51,12 @@ La chaîne est composée des mots clé suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Mot clé</p></th>
+<th><p>Keyword</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

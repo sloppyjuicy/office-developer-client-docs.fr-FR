@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 8b8836ddc9e47334bb706050472088bbb585df6e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9a8dd2ba92e648e6d508044d941b77b2d435cc4f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558652"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630874"
 ---
 # <a name="cancel-method-ado"></a>Cancel, méthode (ADO)
 
@@ -36,8 +36,8 @@ Le tableau suivant indique quelle tâche est terminée lorsque vous utilisez la 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

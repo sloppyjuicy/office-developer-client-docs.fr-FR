@@ -7,12 +7,12 @@ ms:contentKeyID: 48543047
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: db6bbd2b9068aa68097da58c7544bc4439cbf5ab
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: dc4c389cacd33cc396f3441033adc30a35b4127f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62464696"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627563"
 ---
 # <a name="eventreasonenum"></a>EventReasonEnum
 
@@ -23,9 +23,9 @@ Spécifie la cause à l'origine d'un événement.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -120,7 +120,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

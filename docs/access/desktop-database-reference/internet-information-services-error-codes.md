@@ -7,12 +7,12 @@ ms:contentKeyID: 48543625
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: f991c57e39c31395334a8acae18c097aa5077d6e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 41076413f83608c826bbfeb0ea5a1cdf03f7129f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572948"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632811"
 ---
 # <a name="internet-information-services-error-codes"></a>Codes d’erreur Internet Information Services
 
@@ -22,9 +22,9 @@ Le tableau suivant répertorie les codes d'erreur des services Internet de Micro
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

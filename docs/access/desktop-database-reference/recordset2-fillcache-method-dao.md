@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: ff230c461290751c436bda5ed6c5e32db01eeee4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d7852d1732f84642edc9a457e7be9c30c70b9903
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606001"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629782"
 ---
 # <a name="recordset2fillcache-method-dao"></a>Recordset2.FillCache, méthode (DAO)
 
@@ -28,16 +28,16 @@ Remplit tout ou partie d'un cache local pour un objet **Recordset** contenant le
 
 *.* FillCache(***Rows** _, _*_StartBookmark_**)
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,7 +72,7 @@ Au lieu d'attendre que le cache ne se remplisse d'enregistrements à mesure de l
 
 Les sources de données ODBC connectées au moteur de base de données Microsoft Access auxquelles vous accédez et qui comportent des objets **Recordset** peuvent disposer d'un cache local. Pour créer le cache, ouvrez un objet **Recordset** de la source de données distante, puis définissez les propriétés **CacheSize** et **CacheStart** de l'objet **Recordset**.
 
-Si des lignes et un startbookmark créent une plage d’enregistrements partiellement ou entièrement en dehors de la plage d’enregistrements spécifiée par les propriétés **CacheSize** et **CacheStart,** la partie du jeu d’enregistrements en dehors de cette plage est ignorée et ne sera pas chargée dans le cache.
+Si des lignes et un startbookmark créent une plage d’enregistrements partiellement ou entièrement en dehors de la plage d’enregistrements spécifiée par les propriétés **CacheSize** et **CacheStart** , la partie du jeu d’enregistrements en dehors de cette plage est ignorée et ne sera pas chargée dans le cache.
 
 Si **FillCache** demande plus d'enregistrements qu'il n'en reste dans la source de données distante, le moteur de base de données Microsoft Access n'extrait que les enregistrements restants, et aucune erreur ne se produit.
 

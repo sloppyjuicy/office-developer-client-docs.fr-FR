@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: e1049a29d38dbf62a483a301f43a54bb9a7a4f8f
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: ef0da2af93f98c3b6baa47cf0237e6e4d6dcd73f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62460991"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630104"
 ---
 # <a name="after-delete-macro-event"></a>After Delete, événement de macro
 
@@ -59,8 +59,8 @@ Les commandes de macro suivantes peuvent être utilisées dans **l’événement
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

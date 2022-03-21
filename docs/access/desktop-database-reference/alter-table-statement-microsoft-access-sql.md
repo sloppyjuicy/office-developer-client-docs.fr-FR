@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 88c261ba89439e2364ec010f3953147c216f6496
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: b893456875ca14f2d7302100d17fdb6a0dda8ef3
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461537"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630937"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>ALTER TABLE (Microsoft Access SQL), instruction
 
@@ -37,8 +37,8 @@ L'instruction ALTER TABLE est composée des arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -65,11 +65,11 @@ L'instruction ALTER TABLE est composée des arguments suivants :
 </tr>
 <tr class="odd">
 <td><p><em>index</em></p></td>
-<td><p>Index pour <em>field</em>. Pour plus d’informations sur la création de cet index, voir <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT, clause</a>.</p></td>
+<td><p>L'index du <em>champ</em>. Pour plus d'informations sur la manière de construire cet index, voir la <a href="constraint-clause-microsoft-access-sql.md">clause CONSTRAINT</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>multifieldindex</em></p></td>
-<td><p>Définition d’un index multichamp à ajouter à <em>table</em>. Pour plus d’informations sur la création de cet index, voir <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT, clause</a>.</p></td>
+<td><p>La définition d'un index à champs multiples à ajouter à la <em>table</em>. Pour plus d'informations sur la façon de construire cet index, voir la <a href="constraint-clause-microsoft-access-sql.md">clause CONSTRAINT</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>indexname</em></p></td>
@@ -89,7 +89,7 @@ En utilisant l’instruction ALTER TABLE, vous pouvez modifier une table existan
     ALTER TABLE Employees ADD COLUMN Notes TEXT(25)
   ```
     
-  Vous pouvez également définir un index sur ce champ. Pour plus d’informations sur les index à champ unique, voir [CONSTRAINT, clause](constraint-clause-microsoft-access-sql.md).
+  Vous pouvez également définir un index sur ce champ. Pour plus d'informations sur les index à champ unique, voir la [clause CONSTRAINT](constraint-clause-microsoft-access-sql.md).
     
   Si vous spécifiez NOT NULL pour un champ, les nouveaux enregistrements doivent disposer de données valides dans ce champ.
 
@@ -99,7 +99,7 @@ En utilisant l’instruction ALTER TABLE, vous pouvez modifier une table existan
     ALTER TABLE Employees ALTER COLUMN ZipCode TEXT(10)
   ```
 
-- Utilisez l’instruction ADD CONSTRAINT pour ajouter un index multichamp. Pour plus d’informations sur les index multichamps, voir [CONSTRAINT, clause](constraint-clause-microsoft-access-sql.md).
+- Utilisez ADD CONSTRAINT pour ajouter un index à champs multiples. Pour plus d'informations sur les index à champs multiples, voir la [clause CONSTRAINT](constraint-clause-microsoft-access-sql.md).
 
 - Utilisez DROP COLUMN pour supprimer un champ. Vous ne devez pour cela spécifier que le nom du champ.
 

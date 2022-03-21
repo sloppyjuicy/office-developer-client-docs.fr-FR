@@ -7,12 +7,12 @@ ms:contentKeyID: 48546448
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 754b998336ae8399e7f61257884faaf62a871f88
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8e5a28f6e6c62b5dd1876d12b9e1f93012049393
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568823"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63633371"
 ---
 # <a name="locktypeenum"></a>LockTypeEnum
 
@@ -22,9 +22,9 @@ Spécifie le type de verrouillage appliqué aux enregistrements pendant l'éditi
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -36,7 +36,7 @@ Spécifie le type de verrouillage appliqué aux enregistrements pendant l'éditi
 <tbody>
 <tr class="odd">
 <td><p><strong>adLockBatchOptimistic</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Indique des mises à jour par lots optimistes. Obligatoire pour le mode de mise à jour par lots.</p></td>
 </tr>
 <tr class="even">
@@ -69,11 +69,11 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

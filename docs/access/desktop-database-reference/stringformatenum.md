@@ -7,12 +7,12 @@ ms:contentKeyID: 48546964
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6cda5ad4d096ddec079a4d9d348b5cfdf0fe43ef
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: b70113f42673c6d7e1a6f1373d39841e6854970a
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62463120"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632622"
 ---
 # <a name="stringformatenum"></a>StringFormatEnum
 
@@ -23,9 +23,9 @@ Spécifie le format lors de l’extraction d’un [Recordset](recordset-object-a
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -50,7 +50,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

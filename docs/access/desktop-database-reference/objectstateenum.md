@@ -7,12 +7,12 @@ ms:contentKeyID: 48543347
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4bb0edabfe8f623502931084ad9702c59784f5fb
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 275d8b9e6542a1205656861833053cf818620154
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462198"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631399"
 ---
 # <a name="objectstateenum"></a>ObjectStateEnum
 
@@ -23,9 +23,9 @@ Spécifie l'état d'un objet : ouvert ou fermé, en cours de connexion à une so
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -70,7 +70,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

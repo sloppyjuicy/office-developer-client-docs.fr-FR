@@ -11,25 +11,25 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: fa77494e65148c23e4c65bf2acc81f14359b7c7a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 95b5d306684c7fd305ac9ffd0ff6bbefd1f83bd1
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572829"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629789"
 ---
 # <a name="recordset2eof-property-dao"></a>Recordset2.EOF, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une valeur qui indique si la position d'enregistrement actuelle suit le dernier enregistrement d'un objet **Recordset**. Type **Boolean** en lecture seule.
+Renvoie une valeur qui indique si la position d'enregistrement actuelle suit le dernier enregistrement d'un objet **Recordset**. **Boolean** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
 *expression* .EOF
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -53,11 +53,11 @@ Le tableau suivant répertorie les méthodes Move sont autorisés avec différen
 
 <table>
 <colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -121,9 +121,9 @@ Le tableau suivant montre comment déplacer des méthodes qui ne localiser un en
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

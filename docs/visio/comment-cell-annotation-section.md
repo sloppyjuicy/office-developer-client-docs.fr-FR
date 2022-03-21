@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b367841a-f31c-4b55-4491-2abab5811dbe
 description: Contient le texte qui apparaît dans un commentaire.
-ms.openlocfilehash: 09ab78da344bee5f2ee3e47f0f2a551782cb89df
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: b6dc406a6fcc7a49332db88cee0acb40ba6373a5
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782387"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630314"
 ---
 # <a name="comment-cell-annotation-section"></a>Comment, cellule (section Annotation)
 
@@ -27,16 +27,16 @@ Contient le texte qui apparaît dans un commentaire.
 
 Pour obtenir une référence à la cellule Comment par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Annotation.Comment[  *i*  ] où  *i*  = <1>, 2, 3... |
+| **Nom de cellule :**  <br/> | Annotation.Comment[  *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Comment à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionAnnotation** <br/> |
-| Index de la ligne :  <br/> |**visRowAnnotation** +   *i* où *i* = 0, 1, 2... |
-| Index de la cellule :  <br/> |**visAnnotationComment** <br/> |
+| **Index de la section :**  <br/> |**visSectionAnnotation** <br/> |
+| **Index de la ligne :**  <br/> |**visRowAnnotation** +   *i* où *i* = 0, 1, 2... |
+| **Index de la cellule :**  <br/> |**visAnnotationComment** <br/> |
    
 

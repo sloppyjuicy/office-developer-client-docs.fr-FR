@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: d9de8c220e3f52ba5eef7bb692fe145d21d3a29d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8b16102cc3983a3264d9813b4553d6a626c92907
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626821"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631610"
 ---
 # <a name="dbengineregisterdatabase-method-dao"></a>DBEngine.RegisterDatabase, méthode (DAO)
 
@@ -34,10 +34,10 @@ Entre les informations de connexion pour une source de données ODBC dans le Reg
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -52,7 +52,7 @@ Entre les informations de connexion pour une source de données ODBC dans le Reg
 <td><p><em>Dsn</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>nom utilisé dans la <strong><a href="dbengine-opendatabase-method-dao.md">méthode OpenDatabase.</a></strong> Il désigne un bloc d’informations descriptives se rapportant à la source de données. Par exemple, si la source de données est une base de données distante ODBC, il peut s’agir du nom du serveur.</p></td>
+<td><p>nom utilisé dans la <strong><a href="dbengine-opendatabase-method-dao.md">méthode OpenDatabase</a></strong> . Il désigne un bloc d’informations descriptives se rapportant à la source de données. Par exemple, si la source de données est une base de données distante ODBC, il peut s’agir du nom du serveur.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Driver</em></p></td>
@@ -64,7 +64,7 @@ Entre les informations de connexion pour une source de données ODBC dans le Reg
 <td><p><em>Silencieux</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Booléen</strong></p></td>
-<td><p><strong>True</strong> si vous ne souhaitez pas afficher les boîtes de dialogue du pilote ODBC, qui invitent à saisir des informations spécifiques au pilote, ou <strong>False</strong> si vous souhaitez les afficher. Si le mode silencieux <strong>est True,</strong>les attributs doivent contenir toutes les informations nécessaires spécifiques au pilote, sinon les boîtes de dialogue s’affichent quand même.</p></td>
+<td><p><strong>True</strong> si vous ne souhaitez pas afficher les boîtes de dialogue du pilote ODBC, qui invitent à saisir des informations spécifiques au pilote, ou <strong>False</strong> si vous souhaitez les afficher. Si le mode silencieux <strong>est True</strong>, les attributs doivent contenir toutes les informations spécifiques au pilote nécessaires, sinon les boîtes de dialogue s’affichent quand même.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Attributs</em></p></td>

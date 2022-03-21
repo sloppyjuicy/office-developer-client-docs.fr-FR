@@ -7,12 +7,12 @@ ms:contentKeyID: 48548768
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 43c1bbedeeee99e1d9c960cda3f8606bad9efd95
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 99433667a321747099f60e345586e9b1364b5a9f
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558729"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630909"
 ---
 # <a name="bof-eof-properties-ado"></a>BOF, EOF, propriétés (ADO)
 
@@ -45,11 +45,11 @@ Ce tableau répertorie les méthodes **Move** autorisées avec les différentes 
 
 <table>
 <colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -105,9 +105,9 @@ Le tableau ci-dessous répertorie les valeurs prises par les propriétés **BOF*
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

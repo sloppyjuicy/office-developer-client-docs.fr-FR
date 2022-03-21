@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 8b8368d2-b04b-42a5-fdc3-955fc873c2f5
 description: Signale l’avancement de l’éumération et de la rebasation des rendez-vous.
-ms.openlocfilehash: 7c8a02c8d3538c6eb4c4c5d30a2b0fa96ae6d56f
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 6ca70434be25f8827ccd93164c1bb0972cd865c4
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63377910"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632601"
 ---
 # <a name="rebasetaskprogress"></a>RebaseTaskProgress
 
@@ -20,7 +20,7 @@ Signale l’avancement de l’éumération et de la rebasation des rendez-vous.
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |tzmovelib.h  <br/> |
 |Implémenté par :  <br/> |Applications clientes MAPI  <br/> |
@@ -79,6 +79,6 @@ S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
 
 Les applications clientes MAPI qui utilisent [l’interface IOlkApptRebaser](iolkapptrebaser.md) implémentent cette fonction pour suivre le traitement des éléments.
   
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 - [À propos de la relocalisation des calendriers par programme à l'heure](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)

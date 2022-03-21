@@ -7,12 +7,12 @@ ms:contentKeyID: 48547232
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 54350b61c59c53f173b491b8f4724c8c1c14f004
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 13aac6cc60da09c837a9b8888d21c33f44d648fd
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589245"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632727"
 ---
 # <a name="querydefopenrecordset-method-dao"></a>Méthode QueryDef.OpenRecordset (DAO)
 
@@ -30,10 +30,10 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l’ajoute à la coll
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

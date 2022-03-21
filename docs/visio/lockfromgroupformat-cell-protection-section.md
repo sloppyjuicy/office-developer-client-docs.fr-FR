@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: abd175af-ad4e-b84a-2687-2c9358653499
-ms.openlocfilehash: ef4cd97298108f64f4fdc7fcd5d690bfeeb16bbc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b51b60f178ef512a477fb89a3c0568471475b741
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554445"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630237"
 ---
 # <a name="lockfromgroupformat-cell-protection-section"></a>LockFromGroupFormat, cellule (section Protection)
 
@@ -23,17 +23,19 @@ Pour faire référence à la cellule LockFromGroupFormat par un nom à partir d'
 
  
   
-|||
+||Valeur |
 |:-----|:-----|
-|Nom de cellule :  <br/> |LockFromGroupFormat  <br/> |
+|**Nom de cellule :**  <br/> |LockFromGroupFormat  <br/> |
    
-Pour faire référence à la cellule LockFromGroupFormat par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour faire référence à la cellule LockFromGroupFormat par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :
+
+ 
   
-|||
+||Valeur |
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
-|Index de la ligne :  <br/> |**visRowLock** <br/> |
-|Index de la cellule :  <br/> |**visLockFromGroupFormat** <br/> |
+|**Index de la section :**  <br/> |**visSectionObject** <br/> |
+|**Index de la ligne :**  <br/> |**visRowLock** <br/> |
+|**Index de la cellule :**  <br/> |**visLockFromGroupFormat** <br/> |
    
 La valeur par défaut de la cellule est 0 (False).
   

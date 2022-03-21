@@ -7,12 +7,12 @@ ms:contentKeyID: 48545578
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d4b792a1b5023f38bac813f0f5ed495de581de7d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 797aeec51eac9de86e8a7960337bf489b6710027
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606638"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630622"
 ---
 # <a name="indexcreateproperty-method-dao"></a>Index.CreateProperty method (DAO)
 
@@ -24,16 +24,16 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 
 *.* CreateProperty(***Name** _, _*_Type_*_, _*_Value_*_, _*_DDL_**)
 
-*expression* Variable qui représente un objet **Index.**
+*expression* Variable qui représente un objet **Index** .
 
 ## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -74,7 +74,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 
 ## <a name="return-value"></a>Valeur renvoyée
 
-Property
+Propriété
 
 ## <a name="remarks"></a>Remarques
 
@@ -82,9 +82,9 @@ Vous pouvez créer un objet utilisateur **Property** uniquement dans la collecti
 
 Si vous omettez une ou plusieurs parties facultatives lorsque vous utilisez **CreateProperty**, vous pouvez utiliser une instruction d'affectation appropriée pour définir ou réinitialiser la propriété correspondante avant d'ajouter le nouvel objet à une collection. Une fois que vous ajoutez l'objet, vous pouvez modifier certains de ses paramètres de propriété mais pas tous. Pour plus d'informations, reportez-vous aux rubriques des propriétés **Name**, **Type** et **Value**.
 
-Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez **[la méthode Append.](fields-append-method-dao.md)**
+Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez **[la méthode Append](fields-append-method-dao.md)** .
 
-Pour supprimer un objet **Property** défini par l’utilisateur de la collection, utilisez la méthode **[Delete](fields-delete-method-dao.md)** sur la collection **Properties.** Vous ne pouvez pas supprimer de propriétés intégrées.
+Pour supprimer un objet **Property** défini par l’utilisateur de la collection, utilisez la méthode **[Delete](fields-delete-method-dao.md)** sur la collection **Properties** . Vous ne pouvez pas supprimer de propriétés intégrées.
 
 > [!NOTE]
 > Si vous omettez l’argument DDL, sa valeur par défaut est False (non DDL). Étant donné qu’aucune propriété DDL correspondante n’est exposée, vous devez supprimer et re-créer un objet **Property** que vous souhaitez remplacer de DDL par un objet non DDL.

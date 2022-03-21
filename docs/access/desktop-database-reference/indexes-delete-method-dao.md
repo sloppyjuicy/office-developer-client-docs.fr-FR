@@ -7,12 +7,12 @@ ms:contentKeyID: 48546252
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ed6fa376b4e0205f33ee5515d908c810f4b4b31d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3f3b271ccf0c7eb8eee1c95a19469bbe7a6cbf81
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615331"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629929"
 ---
 # <a name="indexesdelete-method-dao"></a>Indexes.Delete, méthode (DAO)
 
@@ -24,16 +24,16 @@ Supprime l'objet **Index** spécifié de la collection **Indexes**.
 
 *.* Delete(***Name***)
 
-*expression* Variable qui représente un objet **Indexes.**
+*expression* Variable qui représente un objet **Indexes** .
 
 ## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

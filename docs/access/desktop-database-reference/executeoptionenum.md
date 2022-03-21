@@ -7,12 +7,12 @@ ms:contentKeyID: 48547438
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 900c5469b67d6ba81b973b46b217e251c3a5884a
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: ac5b8e4f9e637992ac514c9e4c428368c6ab69f5
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462395"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630706"
 ---
 # <a name="executeoptionenum"></a>ExecuteOptionEnum
 
@@ -23,9 +23,9 @@ Spécifie la manière dont un fournisseur doit exécuter une commande.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -82,7 +82,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

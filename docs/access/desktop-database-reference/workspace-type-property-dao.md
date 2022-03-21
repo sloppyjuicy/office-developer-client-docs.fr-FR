@@ -7,12 +7,12 @@ ms:contentKeyID: 48546177
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 1d96bfc50d6dd653d667660ca48da84150fdbca1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4dd84837a3343a53933fe9ddea2ac60bfd56dea4
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588561"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631901"
 ---
 # <a name="workspacetype-property-dao"></a>Workspace.Type, propriété (DAO)
 
@@ -33,12 +33,12 @@ Pour un objet **Workspace**, les valeurs des paramètres et de retour possibles 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Type d'espace de travail</p></th>
 </tr>
 </thead>

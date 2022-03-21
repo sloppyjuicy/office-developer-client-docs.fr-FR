@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 06658f6c47eb17cb78829c65ce528e565ff69eb6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fc1af1b8b42a15c3e498e71f490315446f425d74
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585941"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630055"
 ---
 # <a name="databasenewpassword-method-dao"></a>Database.NewPassword, méthode (DAO)
 
@@ -28,16 +28,16 @@ Permet de modifier le mot de passe d’une base de données existante du moteur 
 
 *.* NewPassword(***bstrOld** _, _*_bstrNew_**)
 
-*expression* Expression qui renvoie un objet **Database.**
+*expression* Expression qui renvoie un objet **Database** .
 
 ## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -58,8 +58,8 @@ Permet de modifier le mot de passe d’une base de données existante du moteur 
 <td><p><em>bstrNew</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Nouveau paramètre de la propriété <strong>Password</strong> de l’objet <strong>Database.</strong></p>
-<p><strong>REMARQUE</strong>: utilisez des mots de passe forts qui combinent des lettres majuscules et minuscules, des chiffres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort facile à mémoriser afin de ne pas avoir à le noter.</p>
+<td><p>Nouveau paramètre de la propriété <strong>Password</strong> de <strong>l’objet Database</strong> .</p>
+<p><strong>REMARQUE</strong> : utilisez des mots de passe forts qui combinent des lettres majuscules et minuscules, des chiffres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort facile à mémoriser afin de ne pas avoir à le noter.</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +68,7 @@ Permet de modifier le mot de passe d’une base de données existante du moteur 
 
 ## <a name="remarks"></a>Remarques
 
-Les chaînes bstrOld et bstrNew peuvent comporter jusqu’à 20 caractères et inclure tous les caractères à l’exception du caractère ASCII 0 (null). Pour effacer le mot de passe, utilisez une chaîne de longueur nulle («  ») pour bstrNew.
+Les chaînes bstrOld et bstrNew peuvent comporter jusqu’à 20 caractères et inclure tous les caractères à l’exception du caractère ASCII 0 (null). Pour effacer le mot de passe, utilisez une chaîne nulle («  ») pour bstrNew.
 
 Les mots de passe respectent la casse.
 

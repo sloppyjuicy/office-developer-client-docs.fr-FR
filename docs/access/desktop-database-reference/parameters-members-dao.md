@@ -7,12 +7,12 @@ ms:contentKeyID: 48543863
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 8edd353cd6c520cde404a708eece4cb8a8340e77
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f36a7cb8eda9fed4fc78c1d5038c84f115ea77d6
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552702"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631371"
 ---
 # <a name="parameters-members-dao"></a>Parameters members (DAO)
 
@@ -25,8 +25,8 @@ Une collection Parameters contient tous les objets Parameter d'un objet QueryDef
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -47,8 +47,8 @@ Une collection Parameters contient tous les objets Parameter d'un objet QueryDef
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

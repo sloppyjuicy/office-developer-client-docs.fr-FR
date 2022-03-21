@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 80ba893d-3380-4db1-9175-f5b84cb57def
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ae067fe888ed46282bb2fccd14d1035235f53875
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: b9b088647c5d8d53ed7614b80345e42b60eab513
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465249"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63634904"
 ---
 # <a name="callerrelease"></a>CALLERRELEASE
 
@@ -27,7 +27,7 @@ ms.locfileid: "62465249"
   
 Définit une fonction de rappel qui peut libérer un objet de données de table lorsqu’une vue de table est relâchée. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Fonction définie implémentée par :  <br/> |Applications clientes et fournisseurs de services  <br/> |

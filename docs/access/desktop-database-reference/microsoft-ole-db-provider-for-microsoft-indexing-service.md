@@ -7,12 +7,12 @@ ms:contentKeyID: 48542942
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7070fc6a7eeb9b2a41a15e2deaa24adb3bb7ba05
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: db7e476b059701b4f34a640b61fccaa632cdf373
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611958"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632769"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Fournisseur Microsoft OLE DB pour le service d’indexation Microsoft
 
@@ -47,12 +47,12 @@ La chaîne est composée des mots clé suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Mot clé</p></th>
+<th><p>Keyword</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -91,12 +91,12 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Property</p></th>
+<th><p>Propriété</p></th>
 <th><p>Disponibilité</p></th>
 </tr>
 </thead>
@@ -118,7 +118,7 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 <td><p>lecture seule</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="bookmark-property-ado.md">Signet</a>*</p></td>
+<td><p><a href="bookmark-property-ado.md">Bookmark</a>*</p></td>
 <td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
@@ -142,7 +142,7 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 <td><p>lecture seule</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filtre</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
@@ -174,7 +174,7 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 <td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">State</a></p></td>
+<td><p><a href="state-property-ado.md">État</a></p></td>
 <td><p>lecture seule</p></td>
 </tr>
 <tr class="even">
@@ -191,8 +191,8 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

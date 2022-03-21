@@ -7,12 +7,12 @@ ms:contentKeyID: 48542901
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 629c7a5601f35253f034bb9b488aef3c8a369fc5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ed0c237504432e635031ad68694da2632eb684fe
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622479"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632944"
 ---
 # <a name="customization-file-sql-section"></a>Section SQL du fichier de personnalisation
 
@@ -23,7 +23,7 @@ La section **sql** peut contenir une nouvelle chaîne SQL qui remplace la chaîn
 
 La nouvelle chaîne SQL peut être *paramétrée*. En d'autres termes, les paramètres dans la chaîne SQL de la section **sql** (signalée par le caractère '?') peuvent être remplacés par les arguments correspondants dans un *identificateur* de la chaîne de commande cliente (il s'agit d'une liste séparée par des virgules entre parenthèses). L'identificateur et la liste des arguments ont un comportement similaire à celui d'un appel de fonction.
 
-Par exemple, supposons que la chaîne de commande cliente est « CustomerByID(4) », l’en-tête de section SQL est SQL CustomerByID et la nouvelle chaîne de section SQL est « \[ SELECT FROM Customers WHERE \] \* CustomerID = ». Le handler génère , l’en-tête de section SQL est SQL CustomerByID et la nouvelle chaîne de section SQL est « \[ SELECT FROM Customers WHERE \] \* CustomerID = ». Le handler génère « SELECT FROM Customers WHERE CustomerID = 4 » et utilise cette chaîne pour interroger \* la source de données.
+Par exemple, supposons que la chaîne de commande cliente est « CustomerByID(4) », l’en-tête de section \[SQL est SQL CustomerByID\] et la nouvelle chaîne de section SQL est « SELECT \* FROM Customers WHERE CustomerID = ». Le handler génère , l’en-tête de section \[SQL est SQL CustomerByID\] et la nouvelle chaîne de section SQL est « SELECT \* FROM Customers WHERE CustomerID = ». Le handler génère « SELECT \* FROM Customers WHERE CustomerID = 4 » et utilise cette chaîne pour interroger la source de données.
 
 Si la nouvelle instruction SQL est une chaîne vide (""), la section est ignorée.
 
@@ -43,8 +43,8 @@ Une chaîne d'entrée SQL de remplacement a la forme suivante :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

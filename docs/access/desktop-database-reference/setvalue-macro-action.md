@@ -7,12 +7,12 @@ ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 7228c7ccac02cea2c959f968c0e24e1bdfdefadd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9ac89c53c0e326e430634f9837ba85f2e3bcca54
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617439"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631950"
 ---
 # <a name="setvalue-macro-action"></a>Action de macro SetValue
 
@@ -30,8 +30,8 @@ L’action **DéfinirValeur** utilise les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -46,7 +46,7 @@ L’action **DéfinirValeur** utilise les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Expression</strong></p></td>
-<td><p>Expression utilisée par Access pour définir la valeur de cet élément. Vous devez toujours utiliser la syntaxe complète pour faire référence à des objets dans l’expression. Par exemple, pour augmenter la valeur d’un contrôle Salaire dans un formulaire Employés de 10 pour cent, utilisez Forms!Employees!Salary*1.1.. Il s’agit d’un argument obligatoire.</p><p><strong>REMARQUE</strong> : n’utilisez pas de signe égal (=) avant l’expression dans cet argument. Si vous le faites, Access évalue l’expression, puis utilise cette valeur comme expression dans cet argument. Cela peut entraîner des résultats inattendus si l’expression est une chaîne.</p>
+<td><p>Expression utilisée par Access pour définir la valeur de cet élément. Vous devez toujours utiliser la syntaxe complète pour faire référence à des objets dans l’expression. Par exemple, pour augmenter la valeur d’un contrôle Salaire dans un formulaire Employés de 10 pour cent, utilisez Forms!Employees!Salary*1.1.. Il s’agit d’un argument obligatoire.</p><p><strong>REMARQUE</strong> : Vous ne devez pas utiliser le signe égal (=) avant l'expression dans cet argument. Si vous le faites, Access évalue l'expression et utilise ensuite cette valeur comme expression dans cet argument. Cela peut produire des résultats inattendus si l'expression est une chaîne de caractères.</p>
 <p>Par exemple, si vous tapez <strong>=&quot;Chaîne1&quot;</strong> pour cet argument, Access évalue d’abord l’expression comme Chaîne1. Il utilise ensuite Chaîne1 comme expression dans cet argument, s’attendant à trouver un contrôle ou une propriété nommé Chaîne1 dans le formulaire ou l’état qui a appelé la macro.</p></td>
 </tr>
 </tbody>
@@ -85,9 +85,9 @@ La macro suivante ouvre le formulaire Ajouter des produits à partir d'un bouton
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

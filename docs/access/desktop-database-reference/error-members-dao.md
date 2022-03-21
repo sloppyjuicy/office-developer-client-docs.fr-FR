@@ -7,12 +7,12 @@ ms:contentKeyID: 48543262
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 335602cb96a2eb7933ffa9dcdf75eb2f590e1c14
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 76fc88d4b8bab5c67a7444b66676d1fa40d734b7
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585668"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63631581"
 ---
 # <a name="error-members-dao"></a>Error members (DAO)
 
@@ -25,8 +25,8 @@ L'objet Error contient des détails sur les erreurs d'accès aux données, chacu
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -40,7 +40,7 @@ L'objet Error contient des détails sur les erreurs d'accès aux données, chacu
 <td><p>Renvoie une chaîne descriptive associée à une erreur. Il s'agit de la propriété par défaut de l'objet <strong>Error</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="error-number-property-dao.md">Number</a></strong></p></td>
+<td><p><strong><a href="error-number-property-dao.md">Nombre</a></strong></p></td>
 <td><p>Renvoie une valeur numérique spécifiant une erreur.</p></td>
 </tr>
 <tr class="odd">

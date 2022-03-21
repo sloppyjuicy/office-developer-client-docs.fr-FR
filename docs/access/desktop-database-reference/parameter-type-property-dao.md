@@ -7,25 +7,25 @@ ms:contentKeyID: 48545377
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a01f4457e123642e72ec856a0deac6800ced1bd2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e3fa95d5d10e1c91930b80a3d2bc107e2a106f9d
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577114"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63629817"
 ---
 # <a name="parametertype-property-dao"></a>Parameter.Type, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type **Integer** en lecture-écriture.
+Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. **Integer** en lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
 *expression* .Type
 
-*expression* Variable qui représente un objet **Parameter.**
+*expression* Variable qui représente un objet **Parameter** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -35,8 +35,8 @@ Pour un objet **Parameter**, les paramètres et valeurs de retour possibles sont
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

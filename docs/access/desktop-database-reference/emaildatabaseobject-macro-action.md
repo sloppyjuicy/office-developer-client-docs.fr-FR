@@ -11,16 +11,16 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 36524db4773b1b2882bcd5f1864fa2cadad00a70
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bd84001cde4f11dc986b6d544df7eef2b897f391
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553003"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63627626"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>EMailDatabaseObject, action de macro
 
-**S’applique à** : Access 2013 | Office 2013
+**S’applique à :** Access 2013 | Office 2013
 
 Vous pouvez utiliser l'action **EnvoyerObjetBaseDeDonnées** pour inclure une feuille de données, un formulaire, un état, un module ou une page d'accès aux données Microsoft Access spécifié dans un message électronique, dans lequel il peut être affiché ou transféré.
 
@@ -33,8 +33,8 @@ L’action **EnvoyerObjetBaseDeDonnées** utilise les arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -53,7 +53,7 @@ L’action **EnvoyerObjetBaseDeDonnées** utilise les arguments suivants :
 </tr>
 <tr class="odd">
 <td><p><strong>Format de sortie</strong></p></td>
-<td><p>Type de format que vous souhaitez utiliser pour l’objet inclus. La liste des formats que vous pouvez sélectionner change en fonction de ce que vous sélectionnez pour <strong>l’argument Type d’objet.</strong> Les formats disponibles peuvent inclure <strong>Excel 97 - Excel 2003 Workbook (*.xls)</strong>, <strong>Excel Binary Workbook (*.xlsb),</strong> <strong>Excel Workbook (*.xlsx)</strong>, <strong>HTML (*.htm, *.html)</strong>, <strong>Microsoft Excel 5.0/95 Workbook (*.xls)</strong>, <strong>PDF Format</strong>, Rich Text <strong>Fomat (*.rtf)</strong>, <strong>Text Files (*.txt)</strong>ou <strong>XPS Format (*. xps)</strong>. dans la <strong>zone Format de</strong> sortie. Les modules ne peuvent être envoyés qu’au format texte. Les pages d’accès aux données peuvent uniquement être envoyées au format HTML. Si vous laissez cet argument vide, Access vous demande de spécifier le format de sortie.</p></td>
+<td><p>Type de format que vous souhaitez utiliser pour l’objet inclus. La liste des formats que vous pouvez sélectionner change en fonction de ce que vous sélectionnez pour l’argument <strong>Type d’objet</strong> . Les formats disponibles peuvent inclure <strong>Excel 97 - Excel 2003 Workbook (*.xls)</strong>, <strong>Excel Binary Workbook (*.xlsb)</strong>, <strong>Excel Workbook (*.xlsx)</strong>, <strong>HTML (*.htm, *.html)</strong>, <strong>Microsoft Excel 5.0/95 Workbook (*.xls)</strong>, <strong>PDF Format</strong>, <strong>Rich Text Fomat (*.rtf)</strong>, <strong>Text Files (*.txt)</strong>, or <strong>XPS Format (*. xps)</strong>. dans la <strong>zone Format de</strong> sortie. Les modules ne peuvent être envoyés qu’au format texte. Les pages d’accès aux données peuvent uniquement être envoyées au format HTML. Si vous laissez cet argument vide, Access vous demande de spécifier le format de sortie.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -61,11 +61,11 @@ L’action **EnvoyerObjetBaseDeDonnées** utilise les arguments suivants :
 </tr>
 <tr class="odd">
 <td><p><strong>Cc</strong></p></td>
-<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne <strong>Cc</strong> (copie &quot; &quot; carbone) du message électronique. Si vous laissez cet argument vide, la ligne <strong>Cc :</strong> du message électronique reste vide.</p></td>
+<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne <strong>Cc</strong> (&quot;&quot;copie carbone) du message électronique. Si vous laissez cet argument vide, la ligne <strong>Cc :</strong> du message électronique reste vide.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Bcc</strong></p></td>
-<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne <strong>Bcc</strong> (copie carbone non &quot; &quot; voyante) du message électronique. Si vous laissez cet argument vide, la ligne <strong>Cci :</strong> du message électronique reste vide.</p></td>
+<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne <strong>Bcc</strong> (&quot;&quot;copie carbone non voyante) du message électronique. Si vous laissez cet argument vide, la ligne <strong>Cci :</strong> du message électronique reste vide.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Subject</strong></p></td>
@@ -111,7 +111,7 @@ Pour exécuter l'action **EnvoyerObjetBaseDeDonnées** dans un module Visual Bas
 
 ### <a name="about-the-contributor"></a>À propos du collaborateur
 
-**Lien fourni par** Luke Chung, [FMS, Inc.,](https://www.fmsinc.com/)fondateur et président de FMS, Inc., un fournisseur de solutions de base de données personnalisées et d’outils de développement.
+**Lien fourni par** Luke Chung, [FMS, Inc.](https://www.fmsinc.com/), le fondateur et le président de FMS, Inc., un fournisseur de premier plan de solutions de base de données personnalisées et d’outils de développement.
 
 - [Fonctionnalités et limites de l’utilisation de la méthode SendObject pour envoyer](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
 

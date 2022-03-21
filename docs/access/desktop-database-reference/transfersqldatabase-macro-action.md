@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 645dc3b4f098be2cd3f758c216c5606dff3ba9b9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b44b227bf4d3ce4820e9773112f13ae99bb77073
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593431"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630468"
 ---
 # <a name="transfersqldatabase-macro-action"></a>TransferSQLDatabase, action de macro
 
@@ -27,14 +27,14 @@ Dans un projet Access, l'action **TransférerBaseDeDonnéesSQL** permet de trans
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **TransférerBaseDeDonnéesSQL** utilise les arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -53,7 +53,7 @@ L’action **TransférerBaseDeDonnéesSQL** utilise les arguments suivants :
 </tr>
 <tr class="odd">
 <td><p><strong>Utiliser une connexion approuvée</strong></p></td>
-<td><p>Spécifie s’il existe une connexion approuvée sur le serveur SQL. Si la valeur <strong>Oui</strong> est activée, cela signifie qu’il existe une connexion et que les arguments <strong>Connexion</strong> et <strong>Mot de passe</strong> ne sont pas requis. Si la valeur <strong>Non</strong> est activée, les arguments <strong>Connexion</strong> et <strong>Mot de passe</strong> sont requis. La valeur par défaut est <strong>Oui</strong>. Lorsque vous utilisez une connexion fiable, la sécurité SQL Server s’intègre à la sécurité du système d’exploitation Windows pour fournir une seule connexion au réseau et à la base de données.</p></td>
+<td><p>Spécifie s’il existe une connexion approuvée sur le serveur SQL. Si la valeur <strong>Oui</strong> est activée, cela signifie qu’il existe une connexion et que les arguments <strong>Connexion</strong> et <strong>Mot de passe</strong> ne sont pas requis. Si la valeur <strong>Non</strong> est activée, les arguments <strong>Connexion</strong> et <strong>Mot de passe</strong> sont requis. La valeur par défaut est <strong>Oui</strong>. Lorsque vous utilisez une connexion de confiance, la sécurité SQL Server s’intègre à la sécurité du système d’exploitation Windows pour fournir une seule connexion au réseau et à la base de données.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Connexion</strong></p></td>

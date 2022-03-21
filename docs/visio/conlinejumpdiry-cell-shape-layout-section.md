@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 93f82ae0-3442-fac1-9906-b84afef85f5c
 description: Détermine la direction de la déviation de trait dans le cas d'un connecteur dynamique vertical d'une forme.
-ms.openlocfilehash: 1e5d19f4f8268b02439889d4448c0ca844850c4e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c87661d8c7fa742af59814fd78fc85ea88625c11
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59594740"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632482"
 ---
 # <a name="conlinejumpdiry-cell-shape-layout-section"></a>ConLineJumpDirY, cellule (section Shape Layout)
 
@@ -28,20 +28,20 @@ Détermine la direction de la déviation de trait dans le cas d'un connecteur dy
    
 ## <a name="remarks"></a>Remarques
 
-Pour définir le sens  vertical par défaut de tous les sauts de connecteur sur une page, utilisez la cellule PageLineJumpDirY dans la section Mise en page. 
+Pour définir le sens vertical par défaut  de tous les sauts de connecteur sur une page, utilisez la cellule PageLineJumpDirY dans la section Mise en page. 
   
 Pour obtenir une référence à la cellule ConLineJumpDirY par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de la cellule :  <br/> | ConLineJumpDiry  <br/> |
+| **Nom de la cellule :**  <br/> | ConLineJumpDiry  <br/> |
    
 Pour obtenir une référence à la cellule ConLineJumpDirY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
-| Index de la cellule :  <br/> |**visSLOJumpDirY** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowShapeLayout** <br/> |
+| **Index de la cellule :**  <br/> |**visSLOJumpDirY** <br/> |
    
 

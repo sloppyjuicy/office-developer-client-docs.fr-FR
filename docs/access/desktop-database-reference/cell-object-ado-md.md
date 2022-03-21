@@ -7,12 +7,12 @@ ms:contentKeyID: 48547356
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 1fd28f453ef38b8a2e71f0e479c19fcd05c50aca
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2150152cf90b2ae17378ccb154253fee4652f240
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590099"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63630846"
 ---
 # <a name="cell-object-ado-md"></a>Objet cell (ADO MD)
 
@@ -41,8 +41,8 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,12 +7,12 @@ ms:contentKeyID: 48545807
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5fe1ac30ecb128dc490cf2e659a648694145a7e8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 58cc9fc636204a30549abc1abf135e43fb9c354a
+ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59594096"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63632090"
 ---
 # <a name="indexes-members-dao"></a>Indexes members (DAO)
 
@@ -25,8 +25,8 @@ Une collection Indexes contient tous les objets Index stockés d'un objet TableD
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,8 +55,8 @@ Une collection Indexes contient tous les objets Index stockés d'un objet TableD
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
