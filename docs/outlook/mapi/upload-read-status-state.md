@@ -1,19 +1,19 @@
 ---
-title: Télécharger État de lecture
+title: Télécharger état de lecture
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 4d45574e-df87-8c44-4aa7-d41b38406f0a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1dc04a72c0eb904f97d18019aec41f5ed3d66e4b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 285f9b005c76d16aaeeedc0b095255c96bcc1680
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619546"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722045"
 ---
-# <a name="upload-read-status-state"></a>Télécharger État de lecture
+# <a name="upload-read-status-state"></a>Télécharger état de lecture
 
   
   
@@ -23,7 +23,7 @@ ms.locfileid: "59619546"
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Identificateur d’état :  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |
 |Structure de données associée :  <br/> |**[UPREAD](upread.md)** <br/> |

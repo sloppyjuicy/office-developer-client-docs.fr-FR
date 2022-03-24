@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: eb5ec32eadaf99732758860976aa59c4a29ef6c2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 38046a4d2c0d96919d81f6df0081409ad44c5fd2
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593641"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722957"
 ---
 # <a name="saveobject-macro-action"></a>SaveObject, action de macro
 
@@ -27,14 +27,14 @@ Vous pouvez utiliser l'action **EnregistrerObjet** pour enregistrer un objet Acc
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **EnregistrerObjet** utilise les arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

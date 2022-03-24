@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: c7092375-c945-4f2a-94e0-6d969c6edd27
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 84fb6ee02a8168bd184b7a3641c713b099bf8229
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f3877a32f435cd99c8a384e6a6b1bfdfbf49e32c
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595342"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725076"
 ---
 # <a name="pidtagabdefaultdir-canonical-property"></a>Propriété canonique PidTagAbDefaultDir
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595342"
   
 Contient l’identificateur d’entrée du conteneur de carnet d’adresses à afficher en premier. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_AB_DEFAULT_DIR  <br/> |
 |Identificateur :  <br/> |0x3D06  <br/> |

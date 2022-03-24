@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: d30b60680065fd3d949e64b11789e6fe6bc3b80c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: de46fc102d1e7ce01fa0622a711f98673b82fba0
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572717"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722418"
 ---
 # <a name="searchforrecord-macro-action"></a>SearchForRecord, action de macro
 
@@ -25,14 +25,14 @@ ms.locfileid: "59572717"
 
 L’action **RechercherEnregistrement** permet de rechercher un enregistrement spécifique dans une table, une requête, un formulaire ou un état.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **RechercherEnregistrement** accepte les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,12 +55,12 @@ L’action **RechercherEnregistrement** accepte les arguments suivants.
 <div class="tableSection">
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Setting</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -88,9 +88,9 @@ L’action **RechercherEnregistrement** accepte les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Condition Where</strong></p></td>
-<td><p>Entrez les critères de la recherche à l’aide de la même syntaxe qu’une clause WHERE SQL, uniquement sans le mot &quot; WHERE &quot; . Par exemple :</p>
+<td><p>Entrez les critères de la recherche à l’aide de la même syntaxe qu’une clause WHERE SQL, uniquement sans le mot &quot;WHERE&quot;. Par exemple :</p>
 <p>`Description = "Beverages"`</p>
-<p>Pour créer un critère qui comprend une valeur dans une zone de texte d'un formulaire, vous devez créer une expression qui concatène la première partie du critère avec le nom de la zone de texte contenant la valeur à rechercher. Par exemple, le critère suivant recherche le champ Description de la valeur dans la zone de texte txtDescription du formulaire frmCategories. Notez le signe égal ( ) au début de l’expression et l’utilisation de guillemets simples ( ' ) de part et d’autre de la référence de <strong>=</strong> zone de texte :<strong></strong></p>
+<p>Pour créer un critère qui comprend une valeur dans une zone de texte d'un formulaire, vous devez créer une expression qui concatène la première partie du critère avec le nom de la zone de texte contenant la valeur à rechercher. Par exemple, le critère suivant recherche le champ Description de la valeur dans la zone de texte txtDescription du formulaire frmCategories. Notez le signe égal (<strong>=</strong>) au début de l’expression et l’utilisation de guillemets simples (') de part et <strong>d’autre</strong> de la référence de zone de texte :</p>
 <p>`="Description = ' " & Forms![frmCategories]![txtDescription] & "'"`</p></td>
 </tr>
 </tbody>
@@ -129,8 +129,8 @@ La macro suivante ouvre d’abord la table Catégories en utilisant l’action *
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -141,11 +141,11 @@ La macro suivante ouvre d’abord la table Catégories en utilisant l’action *
 <tbody>
 <tr class="odd">
 <td><p><strong>OpenTable</strong></p></td>
-<td><p><strong>Nom de la</strong>table : affichage<strong>catégories</strong> <strong>: mode DatasheetData</strong>: <strong>modifier</strong></p></td>
+<td><p><strong>Nom de la</strong> table : <strong>CategoriesView</strong>: <strong>DatasheetData Mode</strong>: <strong>Edit</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SearchForRecord</strong></p></td>
-<td><p><strong>Type d’objet</strong>: <strong>TableObject Name</strong>: Categories<strong>Record</strong>: <strong>FirstWhere Condition</strong>: Description &quot; =Où&quot;</p></td>
+<td><p><strong>Type d’objet</strong> <strong>: TableObject Name</strong>: <strong>CategoriesRecord</strong>: <strong>FirstWhere Condition</strong>: Description = &quot;Où&quot;</p></td>
 </tr>
 </tbody>
 </table>

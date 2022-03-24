@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bd3e4568-9730-4648-ba31-28813b5bb471
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 56748cc5cac08a7d45bdd79fd67d3018fdd4f047
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’URL de la page d’accueil de l’entreprise. Ces propriétés sont utilisées comme lien vers la page d’accueil professionnelle du contact.
+ms.openlocfilehash: 6930c6d91adf359c5ab9b1e7c232240b00598ac7
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579172"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63742009"
 ---
 # <a name="pidtagbusinesshomepage-canonical-property"></a>Propriété canonique PidTagBusinessHomePage
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579172"
   
 Contient l’URL de la page d’accueil de l’entreprise.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_BUSINESS_HOME_PAGE, PR_BUSINESS_HOME_PAGE_A, PR_BUSINESS_HOME_PAGE_W  <br/> |
 |Identificateur :  <br/> |0x3A51  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont utilisées comme lien vers la page d’accueil professionn
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

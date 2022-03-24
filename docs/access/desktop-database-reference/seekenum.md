@@ -7,12 +7,12 @@ ms:contentKeyID: 48546706
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 9252c43ff91ab8be9e670722676f73763f324ea3
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: e1013cd1f743681d801235b4e340c816612e4b77
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62463176"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63715934"
 ---
 # <a name="seekenum"></a>SeekEnum
 
@@ -23,9 +23,9 @@ Spécifie le type de [Seek](seek-method-ado.md) à exécuter.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -75,7 +75,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

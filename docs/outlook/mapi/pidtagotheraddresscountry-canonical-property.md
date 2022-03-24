@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4178fdf6-af0e-4833-9751-402f86d18206
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e9424f2395938debf0578cb26835db0916852110
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0ac0739f344d115ec2d23f5a85d5ff5211c0a06a
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595111"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725038"
 ---
 # <a name="pidtagotheraddresscountry-canonical-property"></a>Propriété canonique PidTagOtherAddressCountry
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595111"
   
 Contient l’autre pays/région de l’utilisateur de messagerie.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_OTHER_ADDRESS_COUNTRY, PR_OTHER_ADDRESS_COUNTRY_A, PR_OTHER_ADDRESS_COUNTRY_W  <br/> |
 |Identificateur :  <br/> |0x3A60  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

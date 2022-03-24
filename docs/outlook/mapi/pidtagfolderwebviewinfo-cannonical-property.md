@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 96ea23df-aa4f-4b3e-9663-e7db39f668c1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c30f15c0dc7e5021882628d2f3714357bf4f91df
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 74adc8a904e75ab15369916e9834d5e22d32c69f
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773151"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725045"
 ---
 # <a name="pidtagfolderwebviewinfo-cannonical-property"></a>Propriété canonique PidTagFolderWebViewInfo
 
@@ -27,7 +27,7 @@ ms.locfileid: "62773151"
   
 Contient l’URL de la page d’accueil d’un dossier dans Microsoft Outlook. Cette propriété contient un flux binaire appelé **WebViewPersistenceObject**.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FOLDER_WEBVIEWINFO  <br/> |
 |Identificateur :  <br/> |0x36DF  <br/> |
@@ -55,7 +55,7 @@ Les éléments de données de cette structure sont stockés dans l’ordre des p
   
  _dwVersion_
   
-> DWORD (4 octets). Version du format de la structure. Depuis Microsoft Office Outlook 2007, la seule valeur prise en charge pour ce champ est la suivante.
+> DWORD (4 octets). Version du format de la structure. À partir Microsoft Office Outlook 2007, la seule valeur prise en charge pour ce champ est la suivante.
     
 |**Nom de la valeur**|**Valeur**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ Les éléments de données de cette structure sont stockés dans l’ordre des p
    
  _dwType_
   
-> DWORD (4 octets). Type des informations de la page d’accueil. Depuis Microsoft Office Outlook 2007, la seule valeur prise en charge pour ce champ est la suivante.
+> DWORD (4 octets). Type des informations de la page d’accueil. À partir Microsoft Office Outlook 2007, la seule valeur prise en charge pour ce champ est la suivante.
     
 |**Nom de la valeur**|**Valeur**|
 |:-----|:-----|

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 352a95cb-e8ba-4c79-81d8-b22723ec71fb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3a0a622d801e846d3ce8ca7bd62dfe5574bcab35
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5088461c324f3397cc099883388b2bc0f11e5edd
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604284"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725651"
 ---
 # <a name="pidtagincompletecopy-canonical-property"></a>Propriété canonique PidTagIncompleteCopy
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604284"
   
 Contient TRUE si ce message est une copie incomplète d’un autre message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INCOMPLETE_COPY  <br/> |
 |Identificateur :  <br/> |0x0035  <br/> |

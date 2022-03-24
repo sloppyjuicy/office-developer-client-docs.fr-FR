@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fcb93346-db92-44b5-a447-59fd95f98f45
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bfad9bbaea5f268bc85bb8fe58ff98ad24202470
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un jeton de sécurité ASN.1 pour un message. Cette propriété transmet à son destinataire des informations de sécurité protégées de son auteur.
+ms.openlocfilehash: e5a77601e72dedb3a635308e109e5973206b5f9b
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560843"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763620"
 ---
 # <a name="pidtagmessagetoken-canonical-property"></a>Propriété canonique PidTagMessageToken
 
@@ -27,7 +27,7 @@ ms.locfileid: "59560843"
   
 Contient un jeton de sécurité ASN.1 pour un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_TOKEN  <br/> |
 |Identificateur :  <br/> |0x0C03  <br/> |
@@ -36,7 +36,7 @@ Contient un jeton de sécurité ASN.1 pour un message.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété transmet à son destinataire des informations de sécurité protégées de son auteur. Conjointement avec la **propriété PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)), elle garantit l’association de l’étiquette avec le contenu du message. Conjointement avec la **propriété PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)), il vérifie que le contenu du message est inchangé.
+Cette propriété transmet à son destinataire des informations de sécurité protégées de son auteur. Conjointement avec la **propriété PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)), elle garantit l’association de l’étiquette avec le contenu du message. Conjointement avec la **propriété PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)), elle vérifie que le contenu du message est inchangé.
   
 ## <a name="related-resources"></a>Ressources connexes
 

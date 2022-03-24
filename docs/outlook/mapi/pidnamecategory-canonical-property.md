@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 931a004f-3f20-452b-8d9e-422ee2dba106
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6c61a6e7d40e7aa72d49ecaa4ffb8067b663e906
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la catégorie du fichier joint au document pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: bdb0baeee05b925f1421a3a857ad74409b142cfd
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587768"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763637"
 ---
 # <a name="pidnamecategory-canonical-property"></a>Propriété canonique PidNameCategory
 
@@ -27,9 +27,9 @@ ms.locfileid: "59587768"
   
 Spécifie la catégorie du fichier joint au document.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms convivial :  <br/> |Aucune  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |Catégorie  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |

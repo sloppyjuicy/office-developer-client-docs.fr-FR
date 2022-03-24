@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ba69a557-120c-4b1e-bbb7-0e901e7d1ebf
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d7b12e4b9d8f6c6a6df87c52783e1bd84222b727
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: 'Contient TRUE si une application cliente souhaite que MAPI supprime le message associé après l’envoi. '
+ms.openlocfilehash: e144afa45c014172c190def314cbbdf765fe9cd8
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583498"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741964"
 ---
 # <a name="pidtagdeleteaftersubmit-canonical-property"></a>Propriété canonique PidTagDeleteAfterSubmit
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583498"
   
 Contient TRUE si une application cliente souhaite que MAPI supprime le message associé après l’envoi. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DELETE_AFTER_SUBMIT  <br/> |
 |Identificateur :  <br/> |0x0E01  <br/> |
@@ -44,7 +44,7 @@ Une application cliente utilise cette propriété avec la **propriété PR_SENTM
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   

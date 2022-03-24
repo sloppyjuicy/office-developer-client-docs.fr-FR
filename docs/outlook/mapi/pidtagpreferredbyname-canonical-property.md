@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 102f840c-5cd7-4507-ba42-20ba3669cd05
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c5e6b8e0c08495f86ec51fb5020b35507472e0fa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fbcebfe1e2a9864f861d7d591b69123cbc75c68e
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574915"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724406"
 ---
 # <a name="pidtagpreferredbyname-canonical-property"></a>Propriété canonique PidTagPreferredByName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59574915"
   
 Contient le nom que le destinataire préfère appeler.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PREFERRED_BY_NAME, PR_PREFERRED_BY_NAME_A, PR_PREFERRED_BY_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3A47  <br/> |
@@ -40,7 +40,7 @@ Contient le nom que le destinataire préfère appeler.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

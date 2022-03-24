@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3d39a053-277f-4d59-ab2e-cee81710f2ab
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e4354753067f8d0c6760041aae79986dfd96c364
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e0a03c4209d354d6fcbffae0690a4cd8a406d870
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630340"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721595"
 ---
 # <a name="pidlidrecurring-canonical-property"></a>Propriété canonique PidLidRecurring
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630340"
   
 Spécifie si un message de rendez-vous est récurrent.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRecurring  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
@@ -39,7 +39,7 @@ Spécifie si un message de rendez-vous est récurrent.
 
 Cette propriété a la valeur TRUE si le rendez-vous est un rendez-vous périodique et false si elle n’est pas périodique.
   
-Cette propriété spécifie si l’objet représente ou non une série périodique. La valeur TRUE indique que l’objet représente une série périodique. La valeur FALSE ou l’absence de cette propriété indique que l’objet représente une instance unique ou une exception (y compris une instance orpheline). Notez la différence entre cette propriété et la **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)).
+Cette propriété spécifie si l’objet représente ou non une série périodique. La valeur TRUE indique que l’objet représente une série périodique. La valeur FALSE ou l’absence de cette propriété indique que l’objet représente une instance unique ou une exception (y compris une instance orpheline). Notez la différence entre cette propriété et **la LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 

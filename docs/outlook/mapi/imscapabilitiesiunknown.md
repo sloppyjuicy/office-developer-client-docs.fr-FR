@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 18623a44-719e-f46f-0f04-d6089a19c85d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 98b223f2bfd1fb4e0f963f7869ee65645388d30b
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Fournit des informations sur ce qu’un magasin peut prendre en charge pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 26afc004cd6d8eb1deed1a1480674668e77f4a27
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782730"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762836"
 ---
 # <a name="imscapabilities--iunknown"></a>IMSCapabilities : IUnknown
 
@@ -27,14 +27,14 @@ ms.locfileid: "62782730"
   
 Fournit des informations sur ce qu’un magasin peut prendre en charge.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fourni par :  <br/> |Fournisseur de magasin de messages  <br/> |
 |Identificateur d’interface :  <br/> |IID_IMSCapabilities  <br/> |
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Renvoie les fonctionnalités d’un magasin en fonction de la sélection spécifiée. |
    

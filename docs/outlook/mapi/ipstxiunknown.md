@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 73752f57-6fbc-0201-bf95-0e75c56c04e6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e70c4434dd6d866e43f024ed80a6ec760d909203
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Cette interface fournit des fonctionnalités d’aide lors de la réplication à l’aide de l’interface IOSTX.
+ms.openlocfilehash: 3675788032a9b043cb030c69ff9acb41fcb896b8
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788212"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762430"
 ---
 # <a name="ipstx--iunknown"></a>IPSTX : IUnknown
 
@@ -27,14 +27,14 @@ ms.locfileid: "62788212"
   
 Cette interface fournit des fonctionnalités d’aide lors de la réplication via l’interface **[IOSTX](iostxiunknown.md)** . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fourni par  <br/> |Requête sur [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Identificateur d’interface :  <br/> |IID_IPSTX  <br/> |
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |**[GetLastError](ipstx-getlasterror.md)** <br/> |Obtient des informations étendues sur la dernière erreur. |
 |**[GetSyncObject](ipstx-getsyncobject.md)** <br/> |Obtient l’interface **[IOSTX](iostxiunknown.md)** associée. |

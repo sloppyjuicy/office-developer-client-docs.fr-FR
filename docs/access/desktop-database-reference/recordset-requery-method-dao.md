@@ -7,12 +7,12 @@ ms:contentKeyID: 48546840
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: d13c88a85bfc97fce31b05e1477e4e7bcfa1db75
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: c894011baf740fd4a6b3fe93823faa5f5b49906f
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465667"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720312"
 ---
 # <a name="recordsetrequery-method-dao"></a>Méthode Recordset.Requery (DAO)
 
@@ -30,10 +30,10 @@ Met à jour les données dans un objet **[Recordset](recordset-object-dao.md)** 
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

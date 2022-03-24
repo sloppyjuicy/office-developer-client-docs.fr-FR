@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 26281565237060552c4b4f2fb17e353f7c2279f9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 207a52a06d2f229efea768d72b8bd9913a96f215
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552681"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724217"
 ---
 # <a name="recordsetfindprevious-method-dao"></a>Recordset.FindPrevious, méthode (DAO)
 
@@ -28,16 +28,16 @@ Recherche l'enregistrement précédent dans un objet **[Recordset](recordset-obj
 
 *.* FindPrevious(***Criteria***)
 
-*expression* Variable qui représente un objet **Recordset**.
+*expression* Variable représentant un objet **Recordset**.
 
 ## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -68,9 +68,9 @@ Chacune des méthodes **Find** commence sa recherche à partir de l’emplacemen
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -119,7 +119,7 @@ Vous devez utiliser un format de date américain (mois-jour-année) lorsque vous
         & Format(mydate, 'm-d-yy' ) & "#" 
 ```
 
-Si les critères se composent d’une chaîne concaténée comportant une valeur non entière, et que les paramètres système spécifient un caractère décimal d’un format différent de celui des États-Unis, tel qu’une virgule (par exemple, strSQL = "PRICE \> " & lngPrice, et lngPrice = 125,50), une erreur se produit lorsque vous tentez d’appeler la méthode. Il s’agit, car lors de la concaténation, le nombre est converti en une chaîne à l’aide du caractère décimal par défaut de votre système et Microsoft Access SQL accepte uniquement des caractères décimaux américains.
+Si les critères sont composés d’une chaîne concaténée avec une valeur non entière, et que les paramètres système indiquent un caractère décimal non américain, comme une virgule (par exemple, strSQL = "PRICE \> " & lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous tentez d’appeler la méthode. Ceci est dû au fait que, lors de la concaténation, le nombre sera converti en chaîne à l’aide du caractère décimal par défaut de votre système, et Microsoft Access SQL accepte uniquement les caractères décimaux américains.
 
 > [!NOTE]
 > - Pour des performances optimales, les *critères* doivent être au format «*champ* = *valeur*» où *champ* est un champ indexé dans la table de base sous-jacente, ou au format «*champ* LIKE *préfixe*» où *champ* est un champ indexé dans la table de base sous-jacente et *préfixe* une chaîne de recherche de préfixe (par exemple, « ART* »).

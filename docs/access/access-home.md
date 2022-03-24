@@ -5,12 +5,12 @@ ms.date: 9/20/2021
 ms.audience: Developer
 ms.assetid: 9858d097-d1d1-48df-8344-e7b46afbe0d1
 ms.localizationpriority: high
-ms.openlocfilehash: a7b2edc3c19c4a9a585d82453e6fef5e4fc052e4
-ms.sourcegitcommit: 03348dda157b813ea1af1c4643a328fbf532a20b
+ms.openlocfilehash: b32685a521787d4b6fb07a1ce47d5c511f2a74c5
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63661446"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720343"
 ---
 # <a name="access-developer-documentation"></a>Documentation du développeur Access
 
@@ -36,7 +36,7 @@ Recherchez des procédures, des exemples de code, de la documentation sur les ki
 - [Référence de la bibliothèque d’objets VBA Office](/office/vba/api/overview/library-reference/reference-object-library-reference-for-office.md)  
 - [Référence de langage VBA pour Office](/office/vba/api/overview/language-reference.md) 
 - [Open XML SDK](/office/open-xml/open-xml-sdk.md) 
-- [Compléments VSTO pour Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
+- [Compléments VSTO pour Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017&preserve-view=true )
   
 ### <a name="support"></a>Support
   

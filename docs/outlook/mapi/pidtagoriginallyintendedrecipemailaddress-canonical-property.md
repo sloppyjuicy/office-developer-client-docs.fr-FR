@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6a85b695-731a-4401-9c9c-fda6bc308558
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d95ab4a6ca8d07b7df28af2afed089ec160a0ed6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fe7dff1566553cffc75c60b8bfb5dc6b311f3c38
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583301"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725396"
 ---
 # <a name="pidtagoriginallyintendedrecipemailaddress-canonical-property"></a>Propriété canonique PidTagOriginallyIntendedRecipEmailAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583301"
   
 Contient l’adresse e-mail du destinataire initialement prévu d’un message autoforwarded.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS, PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_A, PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_W  <br/> |
 |Identificateur :  <br/> |0x007C  <br/> |

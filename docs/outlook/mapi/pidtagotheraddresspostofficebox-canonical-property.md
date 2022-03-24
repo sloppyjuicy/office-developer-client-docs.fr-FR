@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: be5d0e43-d8ff-41f9-a472-044b53821667
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 22a6a16249e7a8d4739b73cfdc48b6f541594714
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la boîte de publication de l’autre adresse d’un contact, définie par l’utilisateur ou l’organisation de l’utilisateur.
+ms.openlocfilehash: e1b8a1d9cf7831890d3e5d57d6e73e8d65eada58
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560752"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741794"
 ---
 # <a name="pidtagotheraddresspostofficebox-canonical-property"></a>Propriété canonique PidTagOtherAddressPostOfficeBox
 
@@ -27,12 +27,12 @@ ms.locfileid: "59560752"
   
 Contient la boîte de publication de l’autre adresse d’un contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_OTHER_ADDRESS_POST_OFFICE_BOX, PR_OTHER_ADDRESS_POST_OFFICE_BOX_A, PR_OTHER_ADDRESS_POST_OFFICE_BOX_W  <br/> |
 |Identificateur :  <br/> |0x3A64  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Domaine :  <br/> |Adresse  <br/> |
+|Domaine :  <br/> |Addresse  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -44,7 +44,7 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

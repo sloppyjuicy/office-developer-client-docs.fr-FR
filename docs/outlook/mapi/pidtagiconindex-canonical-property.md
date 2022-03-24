@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 35bb0d6d-41d4-47d6-b161-be3721894201
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2149e2d67bedc3aea6927e502a8d497a893a81e6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un nombre qui indique l’icône à utiliser lorsque vous affichez un groupe d’objets de messagerie. Si elle existe, cette propriété est un conseil au client.
+ms.openlocfilehash: e3b2fb51a9a386b51623b07eba9f32103643bfc2
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600049"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741705"
 ---
 # <a name="pidtagiconindex-canonical-property"></a>Propriété canonique PidTagIconIndex
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600049"
   
 Contient un nombre qui indique l’icône à utiliser lorsque vous affichez un groupe d’objets de messagerie.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ICON_INDEX  <br/> |
 |Identificateur :  <br/> |0x1080  <br/> |
@@ -67,10 +67,10 @@ Si elle existe, cette propriété est un conseil au client. Le client peut ignor
 |Vert de note rouge  <br/> |0x00000301  <br/> |
 |Note rose resserrante  <br/> |0x00000302  <br/> |
 |Jaune de note rouge  <br/> |0x00000303  <br/> |
-|Blanc de note pense-tout  <br/> |0x00000304  <br/> |
+|Blanc de note rouge  <br/> |0x00000304  <br/> |
 |Rendez-vous à instance unique  <br/> |0x00000400  <br/> |
 |Rendez-vous périodique  <br/> |0x00000401  <br/> |
-|Réunion d’instance unique  <br/> |0x00000402  <br/> |
+|Réunion à instance unique  <br/> |0x00000402  <br/> |
 |Réunion périodique  <br/> |0x00000403  <br/> |
 |Demande de réunion  <br/> |0x00000404  <br/> |
 |Accepter  <br/> |0x00000405  <br/> |
@@ -110,7 +110,7 @@ Si elle existe, cette propriété est un conseil au client. Le client peut ignor
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

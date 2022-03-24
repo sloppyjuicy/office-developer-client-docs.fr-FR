@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e56142fd-204b-497e-83b9-59f9acda6cb4
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7e5955044838277b94f3a627c55c88b8e22616f8
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Spécifie l’état de réponse d’un participant pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: d49315721a40c7269b04d0b73767225f5688c610
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771908"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763522"
 ---
 # <a name="pidlidresponsestatus-canonical-property"></a>Propri t canonique PidLidResponseStatus
 
@@ -27,7 +27,7 @@ ms.locfileid: "62771908"
   
 Spécifie l’état de réponse d’un participant.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidResponseStatus  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

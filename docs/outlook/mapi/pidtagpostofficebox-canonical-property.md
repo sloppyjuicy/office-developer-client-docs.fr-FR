@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3c2968bb-9625-4ebe-a8a0-cce8ef1651f4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cf72add308441cf686d32a48d2dd577e2b87f9d8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ec9294f4cdb57fae5baa0764c69138b6591f8398
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587294"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725389"
 ---
 # <a name="pidtagpostofficebox-canonical-property"></a>Propriété canonique PidTagPostOfficeBox
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587294"
   
 Contient le numéro ou l’identificateur de la boîte postale du destinataire.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_POST_OFFICE_BOX, PR_POST_OFFICE_BOX_A, PR_POST_OFFICE_BOX_W, PR_BUSINESS_ADDRESS_POST_OFFICE_BOX, PR_BUSINESS_ADDRESS_POST_OFFICE_BOX_A, PR_BUSINESS_ADDRESS_POST_OFFICE_BOX_W  <br/> |
 |Identificateur :  <br/> |0x3A2B  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés fournissent des informations d’identification et d’accès p
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

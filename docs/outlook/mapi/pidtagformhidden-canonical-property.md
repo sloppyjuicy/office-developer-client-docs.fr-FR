@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 79cb1fa5-9a32-4872-9806-ecd664022234
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: abf5a086c35ff7625705b02b049e795deac27445
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e57e0f1715e4403bd2971ced073aedd1aa6a8249
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563524"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63716254"
 ---
 # <a name="pidtagformhidden-canonical-property"></a>Propriété canonique PidTagFormHidden
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563524"
   
 Contient TRUE si un formulaire doit être supprimé de l’affichage par les menus de composition et les boîtes de dialogue. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_HIDDEN  <br/> |
 |Identificateur :  <br/> |0x3307  <br/> |

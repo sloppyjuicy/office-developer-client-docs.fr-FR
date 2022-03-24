@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8ada5c9b-bec5-42d8-bc58-f0411ec4e88b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3e03f3762f913beb290147b9395fd3c5367d4a55
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7e4fa9d0e201c0283f59a0fdce033e3e73fa686f
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613540"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725062"
 ---
 # <a name="pidtagdeferredsendnumber-canonical-property"></a>Propriété canonique PidTagDeferredSendNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613540"
   
 Contient un nombre qui peut être utilisé pour calculer le report de l’envoi d’un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DEFERRED_SEND_NUMBER  <br/> |
 |Identificateur :  <br/> |0x3FEB  <br/> |

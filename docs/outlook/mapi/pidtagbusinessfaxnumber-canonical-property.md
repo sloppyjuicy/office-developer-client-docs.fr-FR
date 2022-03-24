@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3f77a7e4-342e-49da-970f-3ef02f227724
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2f32aa0fe4eb0d8abcb1a1d5dedf73ceaa5847ed
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le numéro de téléphone de l’ordinateur de télécopie du destinataire. Ces propriétés sont définies par le destinataire et l’organisation du destinataire.
+ms.openlocfilehash: cee906d69e30a6da603f9c94a7626c4103c90ce7
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571170"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762283"
 ---
 # <a name="pidtagbusinessfaxnumber-canonical-property"></a>Propriété canonique PidTagBusinessFaxNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571170"
   
 Contient le numéro de téléphone de l’ordinateur de télécopie du destinataire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_BUSINESS_FAX_NUMBER, PR_BUSINESS_FAX_NUMBER_A, PR_BUSINESS_FAX_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A24  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont des exemples de propriétés qui fournissent des informati
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

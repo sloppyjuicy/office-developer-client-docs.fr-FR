@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 103c9cf2-42fb-4fa5-b9c2-8a92725d3097
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c1e38013734d2acbf418741501b26df453aa3b0d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie l’identificateur global unique (GUID) du fournisseur de partage. Il s’agit d’une propriété d’un message de partage.
+ms.openlocfilehash: 86b1f4173ecf46ff39e54b33633bc49606b78e54
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624778"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762697"
 ---
 # <a name="pidlidsharingproviderguid-canonical-property"></a>Propriété canonique PidLidSharingProviderGuid
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624778"
   
 Spécifie l’identificateur global unique (GUID) du fournisseur de partage. Il s’agit d’une propriété d’un message de partage.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingProviderGuid  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |

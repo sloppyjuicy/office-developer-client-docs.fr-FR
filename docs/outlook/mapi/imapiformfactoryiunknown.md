@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 637be364-c393-430a-84b3-2c96aa553c22
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 009b1ef11a35c378eba94bcc0320d873fe6c5bd8
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 158e44e482035e97a899945a6862eadbc66336eb
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776570"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725287"
 ---
 # <a name="imapiformfactory--iunknown"></a>IMAPIFormFactory : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62776570"
   
 Prend en charge l’utilisation de formulaires d’utilisation configurables dans les environnements informatiques distribués. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Exposé par :  <br/> |Objets fabrique de formulaires  <br/> |
@@ -38,7 +38,7 @@ Prend en charge l’utilisation de formulaires d’utilisation configurables dan
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |[CreateClassFactory](imapiformfactory-createclassfactory.md) <br/> |Renvoie un objet fabrique de classes pour le formulaire. |
 |[GetLastError](imapiformfactory-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite sur l’objet de fabrique de formulaire. |

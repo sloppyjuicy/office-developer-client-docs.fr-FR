@@ -7,12 +7,12 @@ ms:contentKeyID: 48547483
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d17ebad865cb0430b78d17808a0d9f79bb8210f1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 91dabf64bedd4e20ac5c4913ed1b3f1f9b5e7b7b
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572759"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723551"
 ---
 # <a name="recordstatusenum-enumeration-dao"></a>RecordStatusEnum, éumération (DAO)
 
@@ -23,9 +23,9 @@ Cette énumération est utilisée avec la propriété **RecordStatus** pour indi
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -37,7 +37,7 @@ Cette énumération est utilisée avec la propriété **RecordStatus** pour indi
 <tbody>
 <tr class="odd">
 <td><p>dbRecordDBDeleted</p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>L'enregistrement a été supprimé localement dans la base de données.</p></td>
 </tr>
 <tr class="even">

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 47f00706-83df-49cb-bda7-ef572d76a020
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7f4838abd14be7f580cc3d709d361056f1dd6caf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Désigne comme propriété d’un message de partage. Cette propriété doit être définie sur la valeur de la propriété PR_ENTRYID pour le carnet d’adresses de l’utilisateur actuel.
+ms.openlocfilehash: 93e57f21c60fdd492594a7f92022a095a0673aea
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620344"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763396"
 ---
 # <a name="pidlidsharinginitiatorentryid-canonical-property"></a>Propriété canonique PidLidSharingInitiatorEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620344"
   
 Désigne comme propriété d’un message de partage.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingInitiatorEid  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bd8e1ddb-3027-428b-8964-81614f80282d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e41952a4a725ab8368eb4c4b23c3ff3044377f4d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 000872e3ce54858afd123b41bfd48a6202e1f3fe
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600991"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724039"
 ---
 # <a name="idistlist--imapicontainer"></a>IDistList : IMAPIContainer
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600991"
   
 Permet d’accéder aux listes de distribution dans les conteneurs de carnet d’adresses modifiables. **IDistList peut** créer, copier et supprimer des listes de distribution, en plus d’effectuer une résolution de nom. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Objets de liste de distribution  <br/> |
@@ -51,17 +51,17 @@ Cette interface n’a pas de méthode unique.
    
 ## <a name="remarks"></a>Remarques
 
-**L’interface IDistList** hérite d’IMAPIContainer et inclut les mêmes méthodes que les conteneurs de carnet d’adresses. [](imapicontainerimapiprop.md) Par conséquent, étant donné que les méthodes de l’interface **IDistList** sont identiques à celles de l’interface [IABContainer,](iabcontainerimapicontainer.md) elles ne sont pas dupliquées ici. 
+**L’interface IDistList** hérite [d’IMAPIContainer](imapicontainerimapiprop.md) et inclut les mêmes méthodes que les conteneurs de carnet d’adresses. Par conséquent, étant donné que les méthodes de l’interface **IDistList** sont identiques à celles de l’interface [IABContainer](iabcontainerimapicontainer.md) , elles ne sont pas dupliquées ici. 
   
 Une liste de distribution ou un objet qui implémente **IDistList** est une collection d’objets utilisateur de messagerie ou de destinataires individuels. Une liste de distribution peut se composer de tous les objets utilisateur de messagerie, ou d’un utilisateur de messagerie et de certaines listes de distribution. 
   
 Il existe généralement deux types de listes de distribution :
   
-- Listes de distribution étendues par le système de messagerie sous-jacent. Ce type de liste a une adresse, **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)), et est traité comme s’il s’agit d’un destinataire individuel. 
+- Listes de distribution étendues par le système de messagerie sous-jacent. Ce type de liste a une adresse, **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) et est traité comme s’il s’agit d’un destinataire individuel. 
     
 - Listes de distribution qui existent dans un conteneur local et qui sont étendues par l’application cliente.
     
-Les propriétés facultatives de la liste de distribution sont les suivantes :
+Les propriétés de liste de distribution facultatives sont les suivantes :
   
 - **PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))
     
@@ -71,7 +71,7 @@ Les propriétés facultatives de la liste de distribution sont les suivantes :
     
 Notez **que PR_ADDRTYPE** est obligatoire, mais **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) ne l’est pas. En effet, une liste de distribution sans adresse de messagerie peut toujours recevoir des messages, mais sa liste de membres doit être étendue. Si la **PR_ADDRTYPE** est définie sur MAPIPDL, MAPI effectue l’expansion. Si **PR_ADDRTYPE** est une valeur autre que MAPIPDL, le fournisseur de transport effectue l’expansion. 
   
-Pour plus d’informations sur l’utilisation des méthodes **IDistList,** voir les entrées de référence pour les méthodes parallèles de **IABContainer**.
+Pour plus d’informations sur l’utilisation des méthodes **IDistList** , voir les entrées de référence pour les méthodes parallèles **d’IABContainer**.
   
 ## <a name="see-also"></a>Voir aussi
 

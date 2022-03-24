@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b5c833de-db5d-4b3d-ad9a-6a64d046618e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1fe1fbf40d9e3c805bf0305d1a216d7e641f23be
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1625c48605d52ee127c6def15c32b12bc8c49bd9
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579221"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724317"
 ---
 # <a name="pidnamexsharingconfigurl-canonical-property"></a>Propriété canonique PidNameXSharingConfigUrl
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579221"
   
 Représente la valeur de la propriété **dispidSharingConfigUrl** ([PidLidSharingConfigurationUrl](pidlidsharingconfigurationurl-canonical-property.md)).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |

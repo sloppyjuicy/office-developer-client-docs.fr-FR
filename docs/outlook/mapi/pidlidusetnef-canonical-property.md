@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 954048d6-e2eb-43e7-b52c-c2f047bb84a4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d5d38f98402c0804633d3bcb0f9ca196fa15795f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6426a01e223157b76dcd891bd6a1f7a1af8e838d
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610054"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725746"
 ---
 # <a name="pidlidusetnef-canonical-property"></a>Propriété canonique PidLidUseTnef
 
@@ -27,7 +27,7 @@ ms.locfileid: "59610054"
   
 Spécifie si le format TNEF (Transport Neutral Encapsulation Format) doit être inclus dans un message lorsque ce message est converti du format MAPI au format MIME (Multipurpose Internet Mail Extensions) ou SMTP (Simple Mail Transfer Protocol).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidUseTNEF  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -43,7 +43,7 @@ Cette propriété s’applique uniquement lorsque le message est envoyé à part
   
 Dans certaines circonstances, par exemple lorsque les boutons de vote sont activés ou qu’un objet OLE incorporé est joint à un message, Outlook peut définir cette propriété pour forcer l’utilisation du TNEF.
   
-La **PR_MSG_EDITOR_FORMAT** ([PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)) peut être utilisée pour appliquer uniquement le texte simple, et non le TNEF, lors de l’envoi d’un message. Étant donné que **PidLidUseTNEF** remplace le paramètre dans **PR_MSG_EDITOR_FORMAT**, une application qui souhaite forcer le texte simple sur un message sortant doit également rechercher **PidLidUseTNEF** et le redéfinir sur FALSE. En outre, le complément doit supprimer les fonctionnalités de message qui nécessitaient le TNEF pour éviter les pièces jointes inutilisables sur le message qui est finalement envoyé. 
+La **PR_MSG_EDITOR_FORMAT** ([PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)) peut être utilisée pour appliquer uniquement le texte simple, et non le TNEF, lors de l’envoi d’un message. Étant **donné que PidLidUseTNEF** remplace le paramètre dans **PR_MSG_EDITOR_FORMAT**, une application qui souhaite forcer le texte simple sur un message sortant doit également rechercher **PidLidUseTNEF** et le redéfinir sur FALSE. En outre, le complément doit supprimer les fonctionnalités de message qui nécessitaient le TNEF pour éviter les pièces jointes inutilisables sur le message qui est finalement envoyé. 
   
 Utilisez **l’indicateur CCSF_USE_TNEF** lors de l’appel de [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) pour convertir un message MAPI sortant en flux MIME peut également appliquer le TNEF. Cela s’applique même **si PidLidUseTNEF n’est** pas définie. 
   
@@ -61,7 +61,7 @@ Utilisez **l’indicateur CCSF_USE_TNEF** lors de l’appel de [IConverterSessio
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

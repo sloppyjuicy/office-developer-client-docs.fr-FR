@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 437c8a75-1121-4919-8bd4-d57c0d6f4b9a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6382b389d5330399ecac9c25f914ad1eb18be949
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 1114a3e7c4c38184a43c89ae9f734be1062ed1ff
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781421"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724341"
 ---
 # <a name="imapiformcontainer--iunknown"></a>IMAPIFormContainer : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62781421"
   
 Gère les formulaires dans les bibliothèques de formulaires. Cette interface permet de créer des bibliothèques de formulaires spécifiques à l’application. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Exposé par :  <br/> |Objets conteneur de formulaires  <br/> |
@@ -38,7 +38,7 @@ Gère les formulaires dans les bibliothèques de formulaires. Cette interface pe
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[InstallForm](imapiformcontainer-installform.md) <br/> |Installe un formulaire dans un conteneur de formulaires. |
 |[RemoveForm](imapiformcontainer-removeform.md) <br/> |Supprime un formulaire particulier d’un conteneur de formulaires. |

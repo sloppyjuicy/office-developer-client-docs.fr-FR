@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 061c83ae-f561-41d8-a575-ef27e65c7f97
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1c9dc307e823c7fc770836446b0ae90c5a96714f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique si l’élément est un élément de télécopie internet pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 2498a8becb8e9d947283a9bfb1ba3e0b2b7bb3b5
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583792"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762227"
 ---
 # <a name="pidlidisinterpersonalfax-canonical-property"></a>Propriété canonique PidLidIsInterpersonalFax
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583792"
   
 Indique si l’élément est un élément de télécopie Internet.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidIsIPFax  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

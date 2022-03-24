@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: e316a424-d789-4ce5-bcc6-263049f3659e
 description: Spécifie le type de connexion chiffrée à utiliser pour un compte SMTP.
-ms.openlocfilehash: 9bc16777d844340697e1d49d72462c138800da2c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 09df0de80d2b6bfd4f7c8f0733d6ebe98e936217
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62789220"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724111"
 ---
 # <a name="prop_smtp_secure_connection"></a>PROP_SMTP_SECURE_CONNECTION
 
@@ -20,7 +20,7 @@ Spécifie le type de connexion chiffrée à utiliser pour un compte SMTP.
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Identificateur :  <br/> |0x020A  <br/> |
 |Type de propriété :  <br/> |PT_DWORD  <br/> |

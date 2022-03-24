@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 949910b2-2312-4791-9510-c11cca38ec0a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a6cff4711026c92826e3642d3e860a122f58ca0c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’anniversaire du contact. Ces propriétés sont définies par l’utilisateur et l’organisation de l’utilisateur.
+ms.openlocfilehash: 65b5335afab5d8e9d07ce8091ff109ba32b07e6b
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563825"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763081"
 ---
 # <a name="pidtagbirthday-canonical-property"></a>Propriété canonique PidTagBirthday
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563825"
   
 Contient l’anniversaire du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_BIRTHDAY  <br/> |
 |Identificateur :  <br/> |0x3A42  <br/> |
@@ -44,7 +44,7 @@ Cette propriété est l’une des propriétés qui fournit des informations d’
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

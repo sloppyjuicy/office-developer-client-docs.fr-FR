@@ -7,12 +7,12 @@ ms:contentKeyID: 48547787
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7eb11e7da4a529bd50d81f6dbb697b22fcc8a047
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 60baa35ac2b8d9f424ece01c311ca6189809a126
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576939"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724902"
 ---
 # <a name="relationattributeenum-enumeration-dao"></a>RelationAttributeEnum, éumération (DAO)
 
@@ -23,9 +23,9 @@ Cette énumération est utilisée avec la propriété **Attributes** (Attributs)
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -47,7 +47,7 @@ Cette énumération est utilisée avec la propriété **Attributes** (Attributs)
 </tr>
 <tr class="odd">
 <td><p>dbRelationInherited</p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Une relation existe dans la base de données qui contient les deux tables attachées</p></td>
 </tr>
 <tr class="even">

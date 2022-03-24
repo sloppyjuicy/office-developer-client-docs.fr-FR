@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c27b1239-3612-4bb3-9f22-4b89ee9900cd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 20ffefc2f50b85d1fb0a9d1b12222a7d545ec80f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4d1022623d49981d80f27b87fe4289ff741fbf7e
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551008"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724539"
 ---
 # <a name="pidlidsharingresponsetype-canonical-property"></a>Propriété canonique PidLidSharingResponseType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59551008"
   
 Spécifie le type de réponse auquel le destinataire de la demande de partage a répondu. Il s’agit d’une propriété d’un message de partage.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingResponseType  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |
@@ -43,7 +43,7 @@ La valeur de cette propriété doit être définie sur l’une des valeurs suiva
 |:-----|:-----|
 |0x00000000  <br/> |Aucune réponse  <br/> |
 |0x00000001  <br/> |Accepted  <br/> |
-|0x00000002  <br/> |Refusé  <br/> |
+|0x00000002  <br/> |Denied  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7a872296-0378-456f-b4d6-cb4d96b09d6e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5483d02bee37974b05a2a41ce4b39bc7df48a3f5
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 8a018ca66f30c47f3bfde64c48ebbcbeee8aea2e
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773375"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63715920"
 ---
 # <a name="imapiprogress--iunknown"></a>IMAPIProgress : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62773375"
   
 Implémente un objet de progression qui fournit aux applications clientes un indicateur de progression. Un indicateur de progression est un affichage de l’interface utilisateur qui indique le pourcentage d’achèvement d’une opération, tel que la copie de dossiers entre les magasins de messages. MAPI et les applications clientes implémentent des objets de progression et les fournisseurs de services les utilisent. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Objets de progression  <br/> |
@@ -38,7 +38,7 @@ Implémente un objet de progression qui fournit aux applications clientes un ind
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[Progress](imapiprogress-progress.md) <br/> |Met à jour l’indicateur de progression avec un affichage de la progression à mesure qu’il est effectué vers la fin de l’opération. |
 |[GetFlags](imapiprogress-getflags.md) <br/> |Renvoie les paramètres d’indicateur de l’objet de progression pour le niveau d’opération sur lequel les informations de progression sont calculées. |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6efe9dc3-e988-4042-ab02-2863b5e0f294
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ec43982af01f7329a8cd55e6874ff93ba281cdf8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une valeur de vérification de redondance cyclique (CRC) sur le texte du message. La magasin de messages peut utiliser n’importe quel algorithme CRC qui génère une PT_LONG valeur.
+ms.openlocfilehash: 5d4a66b71cd04fca5ae493d7186561d9c871ca6a
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600406"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762262"
 ---
 # <a name="pidtagbodycrc-canonical-property"></a>Propriété canonique PidTagBodyCrc
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600406"
   
 Contient une valeur de vérification de redondance cyclique (CRC) sur le texte du message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_BODY_CRC  <br/> |
 |Identificateur :  <br/> |0x0E1C  <br/> |
@@ -38,7 +38,7 @@ Contient une valeur de vérification de redondance cyclique (CRC) sur le texte d
 
 La magasin de messages peut utiliser n’importe quel algorithme CRC qui génère une PT_LONG valeur. Elle doit calculer cette propriété dans le cadre de la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) lorsque la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) a été définie pour la première fois et chaque fois qu’elle a été modifiée par la suite.
   
-Une application cliente utilise **PR_BODY_CRC** pour vous aider à comparer les chaînes de texte de message contenues **dans PR_BODY** propriétés ou leurs variantes. À l’aide de cette propriété, le client peut rapidement et facilement détecter si le texte du message a changé. Il peut réaliser des gains de performances significatifs en  utilisant **PR_BODY_CRC** au lieu d’obtenir des PR_BODY dans la boutique de messages et de les comparer à une version locale. 
+Une application cliente utilise **PR_BODY_CRC** pour vous aider à comparer les chaînes de texte de message contenues **dans PR_BODY** propriétés ou leurs variantes. À l’aide de cette propriété, le client peut rapidement et facilement détecter si le texte du message a changé. Il peut réaliser des gains de performances significatifs en utilisant **PR_BODY_CRC** au lieu d’obtenir des  PR_BODY dans la boutique de messages et de les comparer à une version locale. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

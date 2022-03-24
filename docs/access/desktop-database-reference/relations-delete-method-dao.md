@@ -7,12 +7,12 @@ ms:contentKeyID: 48548438
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 21f61f562a50dab3bf4256f6b56afa39c7715a89
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f357c65b68e482c60f9d537a3b1d9af24f1c0b96
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557868"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723043"
 ---
 # <a name="relationsdelete-method-dao"></a>Relations.Delete, méthode (DAO)
 
@@ -24,16 +24,16 @@ Supprime l'objet **Relation** spécifié de la collection **Relations**.
 
 *.* Delete(***Name***)
 
-*expression* Variable qui représente un objet **Relations.**
+*expression* Variable qui représente un objet **Relations** .
 
 ## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

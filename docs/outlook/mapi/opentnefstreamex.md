@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: eb84c408-2d8b-453b-92f4-5fd8851b84ca
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 86905839e65fca85ecdf782a8237335bd933e91c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 46560aaa3fd6d3d2a168d79d824e6c9a28a4e2bd
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770695"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725505"
 ---
 # <a name="opentnefstreamex"></a>OpenTnefStreamEx
 
@@ -25,7 +25,7 @@ ms.locfileid: "62770695"
   
 Crée un objet Transport-Neutral Encapsulation Format (TNEF) qui peut être utilisé pour encoder ou décoder un objet message dans un flux de données TNEF à utiliser par les transports, les passerelles et les magasins de messages. Il s’agit du point d’entrée pour l’accès au TNEF. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Tnef.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 133d47cf-3592-44f3-8cdd-be402d160ee4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2adb8716f9a69ef32eb67fa7774e15af64e6912f
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 72113849508ee4b12b49d4008c649fc99b38e638
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465463"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725484"
 ---
 # <a name="propcopymore"></a>PropCopyMore
 
@@ -27,7 +27,7 @@ ms.locfileid: "62465463"
   
 Copie une valeur de propriété unique d’un emplacement source vers un emplacement de destination. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

@@ -7,12 +7,12 @@ ms:contentKeyID: 48547815
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 5c27ef89d9df1a0a8caa761e758a2ecc83108536
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 29e7e9160cb49fc16a9b5a19de413f111c5a372d
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606253"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722487"
 ---
 # <a name="recordset-members-dao"></a>Membres Recordset (DAO)
 
@@ -25,8 +25,8 @@ Un objet Recordset représente les enregistrements dans un tableau de base ou le
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -142,8 +142,8 @@ Un objet Recordset représente les enregistrements dans un tableau de base ou le
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 82a9e379-39e4-4257-8cba-a6758f431cdc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 98a92bfebdba16d559aa9b28cc90ee6070279a2f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ed260a5e1c167463a0b4e9c39ea428fc647a3864
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62779776"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63713472"
 ---
 # <a name="mapiadminprofiles"></a>MAPIAdminProfiles
 
@@ -27,7 +27,7 @@ ms.locfileid: "62779776"
   
 Crée un objet d’administration de profil. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

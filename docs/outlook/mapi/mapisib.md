@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 16452798-7a95-43da-b95e-908debcea050
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 14d5d904a9d9e334956e214b272daace7a82a940
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: f6cf7719c43b5633833db6234dfc8c7f5c7ae2ea
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773193"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721963"
 ---
 # <a name="mapisib"></a>MAPISIB
 
@@ -44,7 +44,7 @@ HANDLE          *phSyncDoneEvent;
   
 > Indicateur qui indique le type de synchronisation. Elle doit avoir l’une des valeurs suivantes :
     
-||||
+|Flag |Valeur |Description |
 |:-----|:-----|:-----|
 |SYNC_OUTGOING_MAIL  <br/> |0x00000200  <br/> |Envoyez le message au serveur (non utilisé actuellement). |
 |SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |Modification de la hiérarchie push sur le serveur. |

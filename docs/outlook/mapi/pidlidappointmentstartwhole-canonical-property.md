@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e5e8ed98-57af-40d0-85c4-9d9832626e6b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b71f6f86d31ef7be4e34917b202515ece98b9e0e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cc9890610a9f2b86a0759600e96b08a48f92870b
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591898"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725794"
 ---
 # <a name="pidlidappointmentstartwhole-canonical-property"></a>Propriété canonique PidLidAppointmentStartWhole
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591898"
   
 Représente la date et l’heure de début d’un rendez-vous.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptStartWhole  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
@@ -37,7 +37,7 @@ Représente la date et l’heure de début d’un rendez-vous.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie la date et l’heure de début de l’événement. Cette propriété doit être au temps universel coordonné (UTC) et doit être inférieure à la valeur de la propriété **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)). Pour une série périodique, cette propriété est la date et l’heure de début de la première instance en fonction de la récurrence.
+Cette propriété spécifie la date et l’heure de début de l’événement. Cette propriété doit être en temps universel coordonné (UTC) et doit être inférieure à la valeur de la propriété **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)). Pour une série périodique, cette propriété est la date et l’heure de début de la première instance en fonction de la récurrence.
   
 ## <a name="related-resources"></a>Ressources connexes
 

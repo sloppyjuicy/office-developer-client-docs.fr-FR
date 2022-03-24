@@ -7,12 +7,12 @@ ms:contentKeyID: 48548881
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ac09a5a63da8748346fa94b4fc661653698c7521
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6286f6dc403ce36c35991f481a5a91fdc29e55b1
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606211"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725355"
 ---
 # <a name="recordsetmovelast-method-dao"></a>Recordset.MoveLast, méthode (DAO)
 
@@ -24,16 +24,16 @@ Atteint le dernier enregistrement d’un objet **Recordset** spécifié et en fa
 
 *.* MoveLast(***Options***)
 
-*expression* Variable qui représente un objet **Recordset**.
+*expression* Variable représentant un objet **Recordset**.
 
 ## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -64,7 +64,7 @@ Lorsque vous ouvrez un objet **Recordset**, le premier enregistrement est actif 
 
 Si le premier ou le dernier enregistrement est déjà actif lorsque vous utilisez la méthode **MoveFirst** ou **MoveLast**, l’enregistrement actif ne change pas.
 
-Si recordset fait référence à un objet **Recordset** de type table (espaces de travail Microsoft Access uniquement), le déplacement suit l’index actuel. Vous pouvez définir l'index actuel par le biais de la propriété **Index**. Si vous ne définissez pas l’index actuel, l’ordre des enregistrements renvoyés est indéfini.
+Si le recordset fait référence à un type de table **Recordset** (espaces de travail Microsoft Access uniquement), le mouvement suit l’index actuel. Vous pouvez définir l’index actuel à l’aide de la propriété **Index** . Si vous ne définissez pas l’index actuel, l’ordre des enregistrements retournés n’est pas défini.
 
 > [!NOTE]
 > [!REMARQUE] Vous pouvez utiliser la méthode **MoveLast** pour remplir entièrement un objet **Recordset** de type feuille de réponse dynamique ou instantané en vue de fournir le nombre actuel d'enregistrements présents dans l'objet **Recordset**. Toutefois, si vous utilisez **MoveLast** de cette manière, vous risquez de ralentir l'exécution de votre application. Il n'est conseillé d'utiliser la méthode **MoveLast** qu'en cas de nécessité absolue pour obtenir un décompte précis des enregistrements présents dans un objet **Recordset** récemment ouvert. 

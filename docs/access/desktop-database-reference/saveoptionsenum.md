@@ -7,12 +7,12 @@ ms:contentKeyID: 48543906
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: e25702f816e198747a9d6d73dc3cc57dd0a9fa83
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: d79edba36a44a000396ec13c52df3f173d5d1da9
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62459108"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722940"
 ---
 # <a name="saveoptionsenum"></a>SaveOptionsEnum
 
@@ -23,9 +23,9 @@ Spécifie si un fichier doit être créé ou remplacé en cas de sauvegarde d'un
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

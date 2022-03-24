@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1520e27f-e261-4a94-be06-31cd47bea4a0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e297bb72a07c409d3087a20a35cd42163db7fd4f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2210ed478f5ca3d0a677cc0aa7e48fcf93600d78
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630390"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720481"
 ---
 # <a name="pidlidfax1originaldisplayname-canonical-property"></a>Propriété canonique PidLidFax1OriginalDisplayName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630390"
   
 Spécifie le nom complet d’origine de l’adresse de télécopie professionnelle du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax1OriginalDisplayName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

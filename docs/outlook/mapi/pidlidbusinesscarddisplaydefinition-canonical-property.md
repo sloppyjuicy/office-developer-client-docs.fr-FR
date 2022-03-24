@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c0b956dd-7139-49e3-a32a-d70bfb11e0b1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7c3c2a5e7c575bd6eacd2b8bb66141f1e1864da7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d6115e7f280ea08f9b2145a8a01c708b3644774b
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625083"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721956"
 ---
 # <a name="pidlidbusinesscarddisplaydefinition-canonical-property"></a>Propriété canonique PidLidBusinessCardDisplayDefinition
 
@@ -27,7 +27,7 @@ ms.locfileid: "59625083"
   
 Contient les détails de personnalisation utilisateur pour l’affichage d’un contact en tant que carte de visite.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidBCDisplayDefinition  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

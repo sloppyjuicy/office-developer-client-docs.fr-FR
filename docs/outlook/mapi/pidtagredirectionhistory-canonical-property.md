@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 380ea11c-b1ac-4f54-9034-c52edec4f700
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2723ed7d39ddcae6bbca770314c481ca2101588a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient des informations sur l’itinéraire couvert par un message remis Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 09d76d7229a907de1389fd261687addbb0989edd
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550574"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763662"
 ---
 # <a name="pidtagredirectionhistory-canonical-property"></a>Propriété canonique PidTagRedirectionHistory
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550574"
   
 Contient des informations sur l’itinéraire couvert par un message remis.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REDIRECTION_HISTORY  <br/> |
 |Identificateur :  <br/> |0x002C  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 790800a0-34a2-4223-8b75-b50c57881022
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b6b529cd7658439de331f8204895516c9b3cb210
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3d01647bbf7b4e3000c5ec12e1cd933a343813f5
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587817"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725181"
 ---
 # <a name="pidlidemail1emailaddress-canonical-property"></a>Propriété canonique PidLidEmail1EmailAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587817"
   
 Spécifie la première adresse de messagerie du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidEmail1EmailAddress  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

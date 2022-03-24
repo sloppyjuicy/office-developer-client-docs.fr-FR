@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4546dd8d-b901-4381-a715-887a31cea2b9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 75cc97789239081879ca1cecf1750e85541290e1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 67ab701118bce85eca4b6a31c943fc761e311d88
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579312"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63715885"
 ---
 # <a name="pidnamecompany-canonical-property"></a>Propriété canonique PidNameCompany
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579312"
   
 Spécifie la société pour laquelle le fichier a été créé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |

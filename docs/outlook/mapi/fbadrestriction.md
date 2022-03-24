@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 6ad3638c-d088-4a89-9b0d-f5b672162203
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b91c33e237af2dc5da3d24961192fff88e64223f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ddb8f3881f1b96d1a77fa0458c2a75d38eb67e19
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604998"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63716389"
 ---
 # <a name="fbadrestriction"></a>FBadRestriction
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604998"
   
 Valide une restriction utilisée pour limiter un affichage tableau. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

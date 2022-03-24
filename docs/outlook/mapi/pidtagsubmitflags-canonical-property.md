@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ea1c029-d53c-4c28-b413-560083b6215a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 90a3807a4dd5edc5a0a18baebbc9754bd35ea1fc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient des indicateurs indiquant les détails d’une soumission de message, notamment si lepooler MAPI a le message verrouillé et s’il doit être prétraité.
+ms.openlocfilehash: c8f5c41b17e76a5a7a9ebeee37edbc8ccce74e2d
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624425"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741556"
 ---
 # <a name="pidtagsubmitflags-canonical-property"></a>Propriété canonique PidTagSubmitFlags
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624425"
   
 Contient un masque de bits d’indicateurs indiquant des détails sur l’envoi d’un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SUBMIT_FLAGS  <br/> |
 |Identificateur :  <br/> |0x0E14  <br/> |
@@ -36,7 +36,7 @@ Contient un masque de bits d’indicateurs indiquant des détails sur l’envoi 
    
 ## <a name="remarks"></a>Remarques
 
-Un ou plusieurs des indicateurs suivants peuvent être définies pour PR_SUBMIT_FLAGS **masque** de bits : 
+Un ou plusieurs des indicateurs suivants peuvent être définies pour **PR_SUBMIT_FLAGS masque de** bits : 
   
 SUBMITFLAG_LOCKED 
   
@@ -44,7 +44,7 @@ SUBMITFLAG_LOCKED
     
 SUBMITFLAG_PREPROCESS 
   
-> Le message doit être prétraité. Lorsque lepooler MAPI a terminé le prétraitement de ce message, il doit appeler la méthode [IMessage::SubmitMessage.](imessage-submitmessage.md) Le fournisseur de magasin de messages reconnaît que lepooler, plutôt que l’application cliente, a appelé **SubmitMessage,** effacer l’indicateur et continue l’envoi du message.
+> Le message doit être prétraité. Lorsque lepooler MAPI a terminé le prétraitement de ce message, il doit appeler la méthode [IMessage::SubmitMessage](imessage-submitmessage.md) . Le fournisseur de la boutique de messages reconnaît que lepooler, plutôt que l’application cliente, a appelé **SubmitMessage**, effacer l’indicateur et poursuivre l’envoi du message.
     
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -52,7 +52,7 @@ SUBMITFLAG_PREPROCESS
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   

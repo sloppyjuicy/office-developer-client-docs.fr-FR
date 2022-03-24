@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5905b9e9-c462-451d-a49f-1f3a8aa506a6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e2be100506babac0e519a9bb4cd88cd6ba2e903b
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Modifie un service de message dans un profil. Si un client nécessite la possibilité d’apporter des modifications au profil actif, IMAPISession::AdminServices doit être appelé.
+ms.openlocfilehash: 1174214f1f5561823071cc527e6cb32a4b527cb2
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774929"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762829"
 ---
 # <a name="imsgserviceadmin--iunknown"></a>IMsgServiceAdmin : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62774929"
   
 Modifie un service de message dans un profil.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |MapiX.h  <br/> |
 |Exposé par :  <br/> |Objets d’administration de service de message  <br/> |
@@ -38,7 +38,7 @@ Modifie un service de message dans un profil.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetLastError](imsgserviceadmin-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur la dernière erreur générée par un objet d’administration de service de message. |
 |[GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) <br/> |Permet d’accéder à la table des services de message, liste des services de message dans le profil. |

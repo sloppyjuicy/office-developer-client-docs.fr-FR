@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 0f8dd043-66f0-4193-9b95-853bc3827f73
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8b5054fb12202d1db8dab575031c711bbb8fff5a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 99cf17cae8b3e5df9211d26c8b7cae5e97881935
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583407"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723214"
 ---
 # <a name="pidtagipmwastebasketentryid-canonical-property"></a>Propriété canonique PidTagIpmWastebasketEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583407"
   
 Contient l’identificateur d’entrée du dossier Éléments supprimés du message interpersonnel standard (IPM). 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IPM_WASTEBASKET_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E3  <br/> |

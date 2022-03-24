@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 56c64e23-4a99-4f80-ba06-dfae2a5fe961
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 66bbaccb056dfeba28d3016023a8093bc05927b9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4294359d104fe898d90392ec5d43966f37e82549
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591968"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725236"
 ---
 # <a name="pidlidappointmentauxiliaryflags-canonical-property"></a>Propriété canonique PidLidAppointmentAuxiliaryFlags
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591968"
   
 Spécifie un champ de bits qui décrit l’état auxiliaire de l’objet.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptAuxFlags  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

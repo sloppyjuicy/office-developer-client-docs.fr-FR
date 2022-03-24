@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 17c8db96-80dd-4a7a-9a1b-ab1b37ba616c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 115bf8277089fb74c9c969921cf7cf63793c2891
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la date et l’heure de fin de l’événement en temps universel coordonné (UTC) pour les objets calendrier d’instance unique.
+ms.openlocfilehash: 09fef151b63e8809bcba98ca947d58554b1dbf61
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630417"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762367"
 ---
 # <a name="pidlidclipend-canonical-property"></a>Propriété canonique PidLidClipEnd
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630417"
   
 Spécifie la date et l’heure de fin de l’événement en temps universel coordonné (UTC) pour les objets calendrier d’instance unique. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidClipEnd  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e618213a-fad1-4559-a1df-5cdf4ea1637b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a46ee0b5dd7031c2c543c73167bd5634620956df
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 39f3571722382d69c40c2969a046446c4d32c2c1
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587761"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720495"
 ---
 # <a name="pidlidemail1originalentryid-canonical-property"></a>Propriété canonique PidLidEmail1OriginalEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587761"
   
 Spécifie **l’EntryId** de l’objet qui correspond à la première adresse de messagerie. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidEmail1OriginalEntryID  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
@@ -37,7 +37,7 @@ Spécifie **l’EntryId** de l’objet qui correspond à la première adresse de
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette propriété doit être un EntryId one-off pour cette adresse électronique ou un **entryId** d’objet carnet d’adresses **valide.**
+La valeur de cette propriété doit être un **EntryId** one-off pour cette adresse électronique ou un **entryId** d’objet carnet d’adresses valide.
   
 ## <a name="related-resources"></a>Ressources connexes
 

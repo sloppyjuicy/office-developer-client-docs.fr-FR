@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 449a94d3-6610-4434-a705-4a739339053d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: adc02410424bfe332e793224dbe716d89fa388f6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 630130dce4032a572103678c87e50907cf32f30e
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551848"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722933"
 ---
 # <a name="cbmapiforminfoarray"></a>CbMAPIFormInfoArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "59551848"
   
 Calcule le nombre d’octets dans une structure [SMAPIFormInfoArray](smapiforminfoarray.md) existante qui contient un nombre spécifié d’objets d’informations de formulaire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Structure connexe :  <br/> |**SMAPIFormInfoArray** <br/> |

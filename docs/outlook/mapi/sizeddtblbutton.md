@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee73ced9-14d8-4a30-9b9f-d54ed9c3a454
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f5794df4df73d199bf7b0acfc91cc111b0d783b3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 46d955a7685a5a63f582eba7177cf93521addaa5
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578640"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723640"
 ---
 # <a name="sizeddtblbutton"></a>SizedDtblButton
 
@@ -27,7 +27,7 @@ ms.locfileid: "59578640"
   
 Crée une structure nommée qui inclut une structure [DTBLBUTTON](dtblbutton.md) pour décrire un bouton et une étiquette d’une longueur spécifiée. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**DTBLBUTTON** <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a3895f90-7561-4b41-92af-ecc8614e4211
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 56c2697b5479a43905a3ddc6403141dceed3b465
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée pour le dossier dans lequel les résultats de recherche sont généralement créés. Cet identificateur a le même format que la structure ENTRYID.
+ms.openlocfilehash: 637d81eb47c3a93856499147e3c045e1b5556288
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550594"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762514"
 ---
 # <a name="pidtagfinderentryid-canonical-property"></a>Propriété canonique PidTagFinderEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550594"
   
 Contient l’identificateur d’entrée pour le dossier dans lequel les résultats de recherche sont généralement créés.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FINDER_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E7  <br/> |
@@ -36,7 +36,7 @@ Contient l’identificateur d’entrée pour le dossier dans lequel les résulta
    
 ## <a name="remarks"></a>Remarques
 
-L’identificateur d’entrée contenu dans cette propriété a le même format que la structure [ENTRYID.](entryid.md) 
+L’identificateur d’entrée contenu dans cette propriété a le même format que la structure [ENTRYID](entryid.md) . 
   
 ## <a name="related-resources"></a>Ressources connexes
 

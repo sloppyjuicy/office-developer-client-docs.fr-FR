@@ -7,12 +7,12 @@ ms:contentKeyID: 48545349
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 693a81a26aea22e934046c221ade55810287da95
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0c8650ed8ddbd8b6b5af9e10ae1b49598d9a794d
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572689"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725529"
 ---
 # <a name="setfield-macro-action"></a>SetField, action de macro
 
@@ -23,14 +23,14 @@ L'action **DéfinirChamp** peut être utilisée pour assigner une valeur à un c
 > [!NOTE]
 > L’action **DéfinirChamp** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **DéfinirChamp** utilise les arguments répertoriés dans le tableau suivant.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

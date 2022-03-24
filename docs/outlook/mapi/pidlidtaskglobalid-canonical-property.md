@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 369d8c78-3cf6-4a55-ba14-9da0377d6ccf
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f608e2b1f40b6ad40056a49d96a48ea4dba1c63d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Recherche une tâche existante, à l’aide d’un GUID, lors de la réception d’une réponse de tâche ou d’une mise à jour de tâche. Cette propriété n’est pas jeunée pour les tâches non assignées.
+ms.openlocfilehash: 468a3b124e7c13ce27875ccb3c44b34df0a5a35f
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604466"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763636"
 ---
 # <a name="pidlidtaskglobalid-canonical-property"></a>Propriété canonique PidLidTaskGlobalId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604466"
   
 Recherche une tâche existante, à l’aide d’un GUID, lors de la réception d’une réponse de tâche ou d’une mise à jour de tâche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskGlobalObjId  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

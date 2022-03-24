@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 94cf031f-4c78-441d-9c01-55905b4974e0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b93ff05c13ab9801e9830e36aeecdf942e53d233
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le texte spécifié par l’utilisateur pour identifier cet objet de message dans une liste de choses à faire consolidée. Cette propriété ne doit pas être définie sur une tâche.
+ms.openlocfilehash: b485fdf31c9722fcc71549ffaa5400964c2ad007
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583638"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762794"
 ---
 # <a name="pidlidtodotitle-canonical-property"></a>Propriété canonique PidLidToDoTitle
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583638"
   
 Contient le texte spécifié par l’utilisateur pour identifier cet objet de message dans une liste de choses à faire consolidée.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidToDoTitle  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -39,7 +39,7 @@ Contient le texte spécifié par l’utilisateur pour identifier cet objet de me
 
 Cette propriété ne doit pas être définie sur une tâche. Pour indiquer une propriété vide, ne définissez pas cette propriété sur la chaîne de longueur nulle, mais supprimez-la. 
   
-Lorsque vous signalez un objet de message et que la propriété n’existe pas, un client doit écrire la valeur de **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) dans cette propriété.
+Lorsque vous signalez un objet message et que la propriété n’existe pas, un client doit écrire la valeur de **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) dans cette propriété.
   
 Dans une liste de choses à faire consolidée, si cette propriété n’existe pas, un client doit remplacer la valeur de la propriété **PR_NORMALIZED_SUBJECT** lors de l’affichage de cette propriété dans la liste des choses à faire. 
   

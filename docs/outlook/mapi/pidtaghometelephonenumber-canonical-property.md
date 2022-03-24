@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 2c7506c4-82f6-49e2-81c8-3ca316831d93
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 713bb6be1441a627ec5df6c01b9b61dd94c0fae1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0c0ff9b1af5b6001b0f335479fdc61782d395fb7
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555362"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722151"
 ---
 # <a name="pidtaghometelephonenumber-canonical-property"></a>Propriété canonique PidTagHomeTelephoneNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555362"
   
 Contient le numéro de téléphone principal du domicile du destinataire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_HOME_TELEPHONE_NUMBER, PR_HOME_TELEPHONE_NUMBER_A, PR_HOME_TELEPHONE_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A09  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés permettent d’identifier et d’accéder à un destinataire. E
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

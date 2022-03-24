@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fc1e0162-d655-4761-92e7-b469579c270b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 91d1554fab3b7ff21b5ad8d5d2546feb8c75758f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un historique montrant comment une liste de distribution a été étendue lors de la transmission du message.
+ms.openlocfilehash: 13e5b2351a015b0db0bceef7e158cdd88e98a1ac
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600147"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741982"
 ---
 # <a name="pidtagdistributionlistexpansionhistory-canonical-property"></a>Propriété canonique PidTagDistributionListExpansionHistory
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600147"
   
 Contient un historique montrant comment une liste de distribution a été étendue lors de la transmission du message. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DL_EXPANSION_HISTORY  <br/> |
 |Identificateur :  <br/> |0x0013  <br/> |

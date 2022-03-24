@@ -1,5 +1,5 @@
 ---
-title: Propri t canonique PidLidPercentComplete
+title: Propriété canonique PidLidPercentComplete
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - COM
 ms.assetid: e63792b1-9580-4702-a6d7-dd3ae5007a4a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c7b1642acd2ce413f55d86aaf3413662f376d662
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fae615d9e79e29b7d3b22db177b144deb2a79a3c
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583729"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63716275"
 ---
-# <a name="pidlidpercentcomplete-canonical-property"></a>Propri t canonique PidLidPercentComplete
+# <a name="pidlidpercentcomplete-canonical-property"></a>Propriété canonique PidLidPercentComplete
 
   
   
@@ -27,7 +27,7 @@ ms.locfileid: "59583729"
   
 Indique la progression de l’utilisateur sur une tâche. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidPercentComplete  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
@@ -39,7 +39,7 @@ Indique la progression de l’utilisateur sur une tâche.
 
 La valeur de cette propriété doit être un nombre supérieur ou égal à 0.0 et inférieur ou égal à 1.0, où 1.0 indique que le travail est terminé et 0.0 indique que le travail n’a pas commencé.
   
-Pour un objet de message avec marquage dans le temps, la valeur de cette propriété doit être définie sur 1.0 si l’objet est marqué comme terminé et doit être définie sur 0.0 dans le cas contraire.
+Pour un objet de message avec marquage dans le temps, la valeur de cette propriété doit être définie sur 1,0 si l’objet est marqué comme terminé et sur 0,0 dans le cas contraire.
   
 ## <a name="related-resources"></a>Ressources connexes
 

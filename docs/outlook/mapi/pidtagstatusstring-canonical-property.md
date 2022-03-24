@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42cd946c-c55a-4371-99ee-05e2248fdd5f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f1c82448e3989ca45676e1347d86ca1f53ed9062
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un message qui indique l’état actuel d’une ressource de session, telle que le carnet d’adresses intégré ou un fournisseur de services particulier.
+ms.openlocfilehash: f086a691ee3ef71b864ce4379e12151e11fbe5dd
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599388"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763228"
 ---
 # <a name="pidtagstatusstring-canonical-property"></a>Propriété canonique PidTagStatusString
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599388"
   
 Contient un message qui indique l’état actuel d’une ressource de session. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_STATUS_STRING, PR_STATUS_STRING_A, PR_STATUS_STRING_W  <br/> |
 |Identificateur :  <br/> |0x3E08  <br/> |
@@ -36,7 +36,7 @@ Contient un message qui indique l’état actuel d’une ressource de session.
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés donnent aux fournisseurs de services et à MAPI la possibilité de fournir des informations spécifiques sur l’état d’une ressource de session, telles que le carnet d’adresses intégré ou un fournisseur de services particulier. Cette propriété explique et fournit des informations supplémentaires sur un code d’état ou la **propriété PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)). Alors **PR_STATUS_CODE** est requise pour tous les objets d’état,  les PR_STATUS_STRING et les propriétés associées sont facultatives. Lorsque le fournisseur de transport ne fournit pas de valeur, lepooler MAPI fournit une valeur par défaut. 
+Ces propriétés donnent aux fournisseurs de services et à MAPI la possibilité de fournir des informations spécifiques sur l’état d’une ressource de session, telles que le carnet d’adresses intégré ou un fournisseur de services particulier. Cette propriété explique et fournit des informations supplémentaires sur un code d’état ou la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)). Alors **PR_STATUS_CODE** est requise pour tous les objets d’état **, les** PR_STATUS_STRING et les propriétés associées sont facultatives. Lorsque le fournisseur de transport ne fournit pas de valeur, lepooler MAPI fournit une valeur par défaut. 
   
 La chaîne est générée du même côté de l’appel de procédure distante que lepooler MAPI ; Il parcourt la mémoire partagée au lieu d’être marshalé à travers une limite de processus.
   

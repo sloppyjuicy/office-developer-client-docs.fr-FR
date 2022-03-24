@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 715a9dbd-78f8-41e1-a76e-29448d06ec19
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 736d98fd779d9e22553ac076f7f6a4deaacc1597
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 102018803466acbcaefb4dca4f5180f2e03f0a9a
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566737"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724440"
 ---
 # <a name="pidtagdeliverypoint-canonical-property"></a>Propriété canonique PidTagDeliveryPoint
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566737"
   
 Spécifie la nature de l’entité fonctionnelle au moyen de laquelle un message a été ou aurait été remis au destinataire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DELIVERY_POINT  <br/> |
 |Identificateur :  <br/> |0x0C07  <br/> |

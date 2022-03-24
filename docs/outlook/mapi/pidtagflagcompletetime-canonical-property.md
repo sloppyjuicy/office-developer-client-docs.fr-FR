@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: effc738a-30f4-4a5e-b21d-04b50dad1f45
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fed617b195ad2615df26a4db8e4844a8d766f18a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la date et l’heure en temps universel coordonné (UTC) à laquelle l’objet de message a été marqué comme étant terminé.
+ms.openlocfilehash: 620288680e5b8226fb98cdf7bb1ebe55d8690788
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616452"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762969"
 ---
 # <a name="pidtagflagcompletetime-canonical-property"></a>Propriété canonique PidTagFlagCompleteTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616452"
   
 Spécifie la date et l’heure en temps universel coordonné (UTC) à laquelle l’objet de message a été marqué comme étant terminé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FLAG_COMPLETE_TIME  <br/> |
 |Identificateur :  <br/> |0x1091  <br/> |
@@ -36,7 +36,7 @@ Spécifie la date et l’heure en temps universel coordonné (UTC) à laquelle l
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est supprimée si l’objet message n’est pas marqué comme terminé. La résolution la plus petite de l’heure doit être de minutes (la valeur doit être un multiple de 600 000 000). Cette propriété ne doit pas exister si l’objet est un objet lié à la réunion et qu’elle ne doit pas exister sur un objet de tâche.
+Cette propriété est supprimée si l’objet message n’est pas marqué comme terminé. La résolution la plus petite de l’heure doit être de minutes (la valeur doit être un multiple de 600 000 000). Cette propriété ne doit pas exister si l’objet est un objet lié à la réunion et qu’il ne doit pas exister sur un objet de tâche.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Cette propriété est supprimée si l’objet message n’est pas marqué comme 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   

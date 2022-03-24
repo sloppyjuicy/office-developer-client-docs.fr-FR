@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a21906f9-5408-41ba-a89b-273ab60eeef3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 99aca12724f7f61e88905dd28c711d2e90f7103d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Nom du composant URL d’un message. Si elle n’est pas définie lors de la création du message, la magasin de messages doit définir ces propriétés en fonction de différentes propriétés de message.
+ms.openlocfilehash: ab9ca3dee9c3e048f04b59bb2752aaa6afd1f679
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550287"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741817"
 ---
 # <a name="pidtagurlcomponentname-canonical-property"></a>Propriété canonique PidTagUrlComponentName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550287"
   
 Nom du composant URL d’un message. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_URL_COMP_NAME, PR_URL_COMP_NAME_A, PR_URL_COMP_NAME_W  <br/> |
 |Identificateur :  <br/> |0x10F3  <br/> |
@@ -36,7 +36,7 @@ Nom du composant URL d’un message.
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés doivent être uniques dans un dossier. Si elle n’est pas définie lors de la création du message, la magasin de messages doit définir ces propriétés en fonction de différentes propriétés de message, en fonction de la classe de message. Par exemple, **L’IPM. Remarque** et **IPM. Les** messages de rendez-vous doivent avoir cette propriété définie en fonction **de la propriété PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) et de **l’IPM. Les** messages de contact doivent avoir cette propriété définie en fonction de la **propriété dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)). Pour la plupart des autres classes de message, cette propriété doit être basée sur la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
+Ces propriétés doivent être uniques dans un dossier. Si elle n’est pas définie lors de la création du message, la magasin de messages doit définir ces propriétés en fonction de différentes propriétés de message, en fonction de la classe de message. Par exemple, **L’IPM. Remarque** et **IPM. Les** messages de rendez-vous doivent avoir cette propriété définie en fonction de la propriété **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) et de **l’IPM. Les** messages de contact doivent avoir cette propriété définie en fonction de la **propriété dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)). Pour la plupart des autres classes de message, cette propriété doit être basée sur la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,15 +44,15 @@ Ces propriétés doivent être uniques dans un dossier. Si elle n’est pas déf
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

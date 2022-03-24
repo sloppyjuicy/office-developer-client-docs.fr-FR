@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 81c2e479-84a1-42ba-a9ce-25e3fc8d80cb
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 06028490d274d2222c9cc3c15a500ceaee00970a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une abréviation générationnelle qui suit le nom complet du destinataire. Les valeurs courantes sont Jr., Sr. et III.
+ms.openlocfilehash: 1f8db364e2e920f07b9464c01c1513cdd5056215
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604298"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762927"
 ---
 # <a name="pidtaggeneration-canonical-property"></a>Propriété canonique PidTagGeneration
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604298"
   
 Contient une abréviation générationnelle qui suit le nom complet du destinataire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_GENERATION, PR_GENERATION_A, PR_GENERATION_W  <br/> |
 |Identificateur :  <br/> |0x3A05  <br/> |
@@ -46,7 +46,7 @@ Les valeurs courantes sont Jr., Sr. et III.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

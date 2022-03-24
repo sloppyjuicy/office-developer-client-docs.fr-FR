@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 180022af-4c1c-408c-a3fe-ed075cef79ab
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d1dbfc48c111204a6952e3fe055e78dbf2274131
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 6b855431c856bf633c19175908d9514182acdbef
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776584"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720583"
 ---
 # <a name="imapiformadvisesink--iunknown"></a>IMAPIFormAdviseSink : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62776584"
   
 Permet aux serveurs de formulaires de recevoir des notifications de visionneuses de formulaires. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Exposé par :  <br/> |Form advise sink objects  <br/> |
@@ -38,7 +38,7 @@ Permet aux serveurs de formulaires de recevoir des notifications de visionneuses
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[OnChange](imapiformadvisesink-onchange.md) <br/> |Indique qu’une modification s’est produite dans l’état de la visionneuse de formulaires. |
 |[OnActivateNext](imapiformadvisesink-onactivatenext.md) <br/> |Indique si le formulaire peut gérer la classe de message du message suivant à afficher. |

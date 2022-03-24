@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 32e33d84-3d75-47e6-9109-d670f9e63d2e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cd1ee1dfd96b8042d408b0c3dcc7db0d61dab2ef
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 748fc74b05791f0cdbd8d48e91367faa902a3253
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625006"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720522"
 ---
 # <a name="pidlidcontactuserfield2-canonical-property"></a>Propriété canonique PidLidContactUserField2
 
@@ -27,7 +27,7 @@ ms.locfileid: "59625006"
   
 Spécifie le deuxième champ du contact qui est destiné à une utilisation diverses pour le contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidContactUserField2  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

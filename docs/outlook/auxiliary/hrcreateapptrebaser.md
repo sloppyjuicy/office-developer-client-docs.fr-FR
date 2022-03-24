@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 265028b7-a583-f6ba-0214-5a4322f98f35
 description: Initialise un objet IOlkApptRebaser pour une utilisation dans le rebasing de rendez-vous dans Outlook calendriers.
-ms.openlocfilehash: 60b547a162d30e6a96d34f6745243aa6a02af701
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: a192e40402ed335b4336550ebcc040d0eda5632e
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63372002"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723945"
 ---
 # <a name="hrcreateapptrebaser"></a>HrCreateApptRebaser
 
@@ -20,7 +20,7 @@ Initialise un objet [IOlkApptRebaser](iolkapptrebaser.md) pour une utilisation d
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |tzmovelib.h  <br/> |
 |Implémenté par :  <br/> |tzmovelib.dll  <br/> |

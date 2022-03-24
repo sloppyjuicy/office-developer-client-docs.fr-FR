@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: bde195cd-ca24-4715-8db7-04ab83ba8a3c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3b0a9c6616ac97131814704627fad63968a4c4ee
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 38288e8b3c00fd87f634be79a10cc526093ed777
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587698"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725658"
 ---
 # <a name="pidtaghtml-canonical-property"></a>Propriété canonique PidTagHtml
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587698"
   
 Contient le corps du message au format HTML.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_HTML  <br/> |
 |Identificateur :  <br/> |0x1013  <br/> |
@@ -52,7 +52,7 @@ Contient le corps du message au format HTML.
     
 [[MS-OXOPOST]](https://msdn.microsoft.com/library/9b18fdab-aacd-4d73-9534-be9b6ba2f115%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées sur les objets de publication.
+> Spécifie les propriétés et opérations autorisées sur les objets post.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   

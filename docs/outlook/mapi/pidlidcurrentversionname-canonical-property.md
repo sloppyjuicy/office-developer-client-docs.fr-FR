@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1904cc68-adf2-4543-8210-043a72b90887
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b190479534e9a504755bf620088f29b5ecbcc061
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5c248d1cd0c9683cf9af45ab804166845d8e145b
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595566"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722559"
 ---
 # <a name="pidlidcurrentversionname-canonical-property"></a>Propriété canonique PidLidCurrentVersionName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595566"
   
 Contient une chaîne qui indique le numéro de version principale et mineure de l’application Outlook’un élément.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidCurrentVersionName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -53,7 +53,7 @@ Contient une chaîne qui indique le numéro de version principale et mineure de 
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f6f0491-2a77-4faf-aa8f-303ebf0ea411
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 56ef4431b654e83c6e815296faa6b137780179ad
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le code postal de l’autre adresse postale de l’utilisateur de messagerie. Ces propriétés sont définies par l’utilisateur ou l’organisation de l’utilisateur.
+ms.openlocfilehash: 1e2f6731dd939f3d6056679b4e372ea82c0e161a
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599739"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763221"
 ---
 # <a name="pidtagotheraddresspostalcode-canonical-property"></a>Propriété canonique PidTagOtherAddressPostalCode
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599739"
   
 Contient le code postal de l’autre adresse postale de l’utilisateur de messagerie.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_OTHER_ADDRESS_POSTAL_CODE, PR_OTHER_ADDRESS_POSTAL_CODE_A, PR_OTHER_ADDRESS_POSTAL_CODE_W  <br/> |
 |Identificateur :  <br/> |0x3A61  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

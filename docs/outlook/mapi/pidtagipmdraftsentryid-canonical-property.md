@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 17d64211-6265-41f4-b016-3677d75af966
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c7ba1d6109b8b96be667b0f177a137eba8e5fc53
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 30835b1063fe0b9fc54196db82366a0785845e97
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600028"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63718496"
 ---
 # <a name="pidtagipmdraftsentryid-canonical-property"></a>Propriété canonique PidTagIpmDraftsEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600028"
   
 Contient **l’EntryID** du dossier Outlook Brouillons. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IPM_DRAFTS_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x36D7  <br/> |
@@ -36,15 +36,15 @@ Contient **l’EntryID** du dossier Outlook Brouillons.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est stockée dans le dossier Boîte de réception, ainsi que dans le dossier racine de la boutique de messages. Pour accéder à la propriété d’une magasin de messages spécifique, vous pouvez : 
+Cette propriété est stockée dans le dossier Boîte de réception, ainsi que dans le dossier racine de la magasin de messages. Pour accéder à la propriété d’une magasin de messages spécifique, vous pouvez : 
   
 1. Tout d’abord, recherchez la propriété dans le dossier Boîte de réception. Utilisez [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) pour obtenir une référence à **EntryID** pour le dossier Boîte de réception. 
     
-2. Si **IMsgStore::GetReceiveFolder** réussit, utilisez la référence à **EntryID** de la boîte de réception et [de l’IMsgStore::OpenEntry](imsgstore-openentry.md) pour ouvrir la boîte de réception et obtenir une référence à un objet **IMAPIFolder.** 
+2. Si **IMsgStore::GetReceiveFolder** réussit, utilisez la référence à **EntryID** de la boîte de réception et [de l’IMsgStore::OpenEntry](imsgstore-openentry.md) pour ouvrir la boîte de réception et obtenir une référence à un objet **IMAPIFolder** . 
     
 3. Si **IMsgStore::OpenEntry** réussit, utilisez la référence renvoyée à l’objet **IMAPIFolder** et [à IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la propriété souhaitée. 
     
-4. Si l’étape 1, 2 ou 3 échoue, recherchez la propriété dans le dossier racine. Pour ce faire, utilisez **IMsgStore::OpenEntry**, en spécifiant NULL pour **lpEntryID,** pour ouvrir le dossier racine de la magasin de messages et obtenir une référence à l’objet **IMAPIFolder.** 
+4. Si l’étape 1, 2 ou 3 échoue, recherchez la propriété dans le dossier racine. Pour ce faire, utilisez **IMsgStore::OpenEntry**, en spécifiant NULL pour **lpEntryID**, pour ouvrir le dossier racine de la magasin de messages et obtenir une référence à l’objet **IMAPIFolder** . 
     
 5. Si l’ouverture du dossier racine réussit, utilisez la référence renvoyée à l’objet **IMAPIFolder** et **à IMAPIProp::GetProps** pour obtenir la propriété souhaitée. 
     
@@ -54,7 +54,7 @@ Cette propriété est stockée dans le dossier Boîte de réception, ainsi que d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   

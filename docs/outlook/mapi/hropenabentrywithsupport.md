@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: eaa988ea-aee1-4066-8c78-2b6c28def5e0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f0e75607871e77b60cfc7fc7fb0ab5efafebf702
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: b2bee46a3b594b815dce8c390132d4b8588192a8
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63375243"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720274"
 ---
 # <a name="hropenabentrywithsupport"></a>HrOpenABEntryWithSupport
 
@@ -21,7 +21,7 @@ ms.locfileid: "63375243"
   
 N’utilisez pas cette fonction.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |abhelp.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

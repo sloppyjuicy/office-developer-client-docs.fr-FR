@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8c980257-9372-4478-b635-bd91d0a66af9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 764c3268786b7429dba24a721be1a1d3c218e257
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e25b313f4bd86ca03b05392a4a5a3118cd891345
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772302"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720627"
 ---
 # <a name="hraddcolumns"></a>HrAddColumns
 
@@ -23,7 +23,7 @@ ms.locfileid: "62772302"
   
 Ajoute ou déplace des colonnes au début d’un tableau existant.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

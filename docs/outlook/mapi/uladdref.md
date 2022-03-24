@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9b897cbc-90b2-4c60-b5f1-dc78e7e7952d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 716be1cdd425b7c8f912d33cda875c20e427ea75
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Fournit une autre méthode pour appeler la méthode OLE IUnknown::AddRef pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 9b248ab4f0054fec3db0585743ca7b22ada850c9
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578430"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763070"
 ---
 # <a name="uladdref"></a>UlAddRef
 
@@ -27,7 +27,7 @@ ms.locfileid: "59578430"
   
 Fournit une autre méthode pour appeler la méthode OLE **IUnknown::AddRef**. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -41,9 +41,9 @@ ULONG UlAddRef(
 
 ## <a name="parameters"></a>Paramètres
 
- _sous-président_
+ _sous-groupe_
   
-> [in] Pointeur vers une interface dérivée de l’interface **IUnknown,** en d’autres termes toute interface MAPI. 
+> [in] Pointeur vers une interface dérivée de l’interface **IUnknown** , en d’autres termes toute interface MAPI. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -57,7 +57,7 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Remarques
 
- **UlAddRef renvoie** la valeur renvoyée par la méthode **IUnknown::AddRef,** qui est la nouvelle valeur du nombre de références pour l’interface. La valeur est non zéro. 
+ **UlAddRef renvoie** la valeur renvoyée par la méthode **IUnknown::AddRef** , qui est la nouvelle valeur du nombre de références pour l’interface. La valeur est non zéro. 
   
 Pour plus d’informations **sur IUnknown::AddRef**, voir [Implementing the IUnknown Interface](implementing-the-iunknown-interface.md). 
   

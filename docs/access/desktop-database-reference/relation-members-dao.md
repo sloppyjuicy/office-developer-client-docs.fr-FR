@@ -7,12 +7,12 @@ ms:contentKeyID: 48546670
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6b44236b61881d8af69a1738b0282d5185b0763a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7ed934bdc29884cec852599ac162bbef7905dec5
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564917"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723544"
 ---
 # <a name="relation-members-dao"></a>Relation members (DAO)
 
@@ -25,8 +25,8 @@ Un objet Relation représente une relation entre des champs de tables ou de requ
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -47,8 +47,8 @@ Un objet Relation représente une relation entre des champs de tables ou de requ
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,12 +7,12 @@ ms:contentKeyID: 48546950
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 35f1c5fe649b7ecb5509dd27f3a884d0f3879306
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6dc6b67f8fbff1a3e8b068dbd36d4db97d15c361
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606274"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725457"
 ---
 # <a name="recordseteof-property-dao"></a>Recordset.EOF, propriété (DAO)
 
@@ -49,11 +49,11 @@ Le tableau suivant répertorie les méthodes Move sont autorisés avec différen
 
 <table>
 <colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -88,8 +88,8 @@ Move &gt; 0</p></th>
 <tr class="odd">
 <td><p>Les deux <strong>vrai</strong></p></td>
 <td><p>Error</p></td>
-<td><p>Erreur</p></td>
-<td><p>Erreur</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 <td><p>Error</p></td>
 </tr>
 <tr class="even">
@@ -117,9 +117,9 @@ Le tableau suivant montre comment déplacer des méthodes qui ne localiser un en
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

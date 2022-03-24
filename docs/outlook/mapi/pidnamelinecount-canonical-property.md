@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 733e07b6-da9f-4ec0-80e4-2267213fceae
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 280b9a4a34946c8d7354652b1d181e59d675617b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7317e6c4a0f57da73853b11d551658f04e469455
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604354"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720444"
 ---
 # <a name="pidnamelinecount-canonical-property"></a>Propriété canonique PidNameLineCount
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604354"
   
 Spécifie le nombre de lignes dans le fichier joint au document.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |

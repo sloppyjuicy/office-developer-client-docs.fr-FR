@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: df239741-6a63-4cd4-9bbb-42c0f5c668a5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a0e55b45f88a9ba5f3773f7c39224b6c7ab2360d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’heure de fin de la plage de publication. Cette valeur est exprimée en minutes depuis le 1er janvier 1601 à minuit(UTC).
+ms.openlocfilehash: 0433f249fa4d9a8904202567050df972681e472b
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579074"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741667"
 ---
 # <a name="pidtagfreebusypublishend-canonical-property"></a>Propriété canonique PidTagFreeBusyPublishEnd
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579074"
   
 Contient l’heure de fin de la plage de publication.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FREEBUSY_PUBLISH_END  <br/> |
 |Identificateur :  <br/> |0x6848  <br/> |
@@ -44,7 +44,7 @@ La valeur de cette propriété est calculée en ajoutant la valeur de **PR_FREEB
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   

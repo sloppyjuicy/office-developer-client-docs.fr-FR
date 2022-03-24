@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 3f6ce4ba-aebe-4b89-87ba-35568a4414d4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a2016dec821839d9b115ef2d3a2303b2a81fbda3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 20cedf63bb770e5efc0b84cdaaa21a27f1cf81ef
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550854"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63716453"
 ---
 # <a name="pidtagabdefaultpab-canonical-property"></a>Propriété canonique PidTagAbDefaultPab
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550854"
   
 Contient l’identificateur d’entrée du conteneur de carnet d’adresses à utiliser comme carnet d’adresses personnel. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_AB_DEFAULT_PAB  <br/> |
 |Identificateur :  <br/> |0x3D07  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6d13f8f3-42fb-4942-b8fd-4cad66924811
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: af47098c85efc5c1913911c0eae177d69b0667fb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la prononciation phonétique du nom de famille du contact pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 1e90656663454314a4f0be1acbade143c271efbc
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604340"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763501"
 ---
 # <a name="pidlidyomilastname-canonical-property"></a>Propri t canonique PidLidYomiLastName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604340"
   
 Spécifie la prononciation phonétique du nom de famille du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidYomiLastName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

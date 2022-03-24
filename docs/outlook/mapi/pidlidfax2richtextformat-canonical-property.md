@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4569b418-72db-4ba1-8184-e7a0cbac100f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0af337aeddb240217c0136ce97c3d95df64d775e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5275a718969fc3e02e3aa89e79edb0164af103fa
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604690"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720465"
 ---
 # <a name="pidlidfax2richtextformat-canonical-property"></a>Propri t canonique PidLidFax2RichTextFormat
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604690"
   
 Spécifie le format de texte enrichi de l’adresse de télécopie du contact de domicile. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax2RTF  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

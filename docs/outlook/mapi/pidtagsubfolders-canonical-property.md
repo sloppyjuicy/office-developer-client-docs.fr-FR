@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b456b07b-4d83-46bf-a305-4f322ea7dbd1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e5572b875f2355e53121516fddf813f1a6eb1d36
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si un dossier contient des sous-dossiers. Les magasins de messages doivent fournir cette propriété pour tous les dossiers.
+ms.openlocfilehash: 396b8eea9c4dafd1962845144a636be6309195b8
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550315"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763382"
 ---
 # <a name="pidtagsubfolders-canonical-property"></a>Propriété canonique PidTagSubfolders
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550315"
   
 Contient TRUE si un dossier contient des sous-dossiers.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SUBFOLDERS  <br/> |
 |Identificateur :  <br/> |0x360A  <br/> |
@@ -44,7 +44,7 @@ Les magasins de messages doivent fournir cette propriété pour tous les dossier
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   

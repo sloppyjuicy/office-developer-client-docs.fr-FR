@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 59b85997-7972-492e-9786-3f0f367dc3e3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a81d6e0011ba6d4c873cc9eeef3bf81212faec09
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 610f176aeb846a222aaede8ec7aca45caea12b28
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555894"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721610"
 ---
 # <a name="pidlidcleanglobalobjectid-canonical-property"></a>Propriété canonique PidLidCleanGlobalObjectId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555894"
   
 Spécifie le clean global **ObjectID**.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidCleanGlobalObjId  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
@@ -37,7 +37,7 @@ Spécifie le clean global **ObjectID**.
    
 ## <a name="remarks"></a>Remarques
 
-Le format de cette propriété est le même que celui de **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)). La valeur de cette propriété doit être égale à la valeur de **LID_GLOBAL_OBJID,** sauf que les champs YH, YL, M et D doivent être zéro. Tous les objets qui font référence à une instance d’une série périodique (y compris une instance orpheline), ainsi que la série périodique elle-même, auront la même valeur pour cette propriété.
+Le format de cette propriété est le même que celui de **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)). La valeur de cette propriété doit être égale à la valeur de **LID_GLOBAL_OBJID**, sauf que les champs YH, YL, M et D doivent être zéro. Tous les objets qui font référence à une instance d’une série périodique (y compris une instance orpheline), ainsi que la série périodique elle-même, auront la même valeur pour cette propriété.
   
 ## <a name="related-resources"></a>Ressources connexes
 

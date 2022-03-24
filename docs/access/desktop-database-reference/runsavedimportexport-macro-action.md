@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 697fd5e7c422be61f05cdb2ceaaa7f0f5e6ec4d9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e27039da1ca9de6a74431e955a8195ebd4396286
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614933"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723513"
 ---
 # <a name="runsavedimportexport-macro-action"></a>RunSavedImportExport, action de macro
 
@@ -27,14 +27,14 @@ L'action **ExécuterImportationExportationSauvegardée** vous permet d'exécuter
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **ExécuterImportationExportationSauvegardée** possède l’argument suivant.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -65,5 +65,5 @@ L’action **ExécuterImportationExportationSauvegardée** possède l’argument
 
 - Des liens vers davantage d'informations sur l'enregistrement et l'exécution de spécifications d'importation et d'exportation sont disponibles à la section **Voir aussi**.
 
-- Si la spécification d’importation ou  d’exportation enregistrée que vous choisissez pour l’argument Importer le nom d’exportation enregistré est supprimée après la création de la macro, Access affiche le message d’erreur suivant lors de l’exécuter : la spécification avec l’index spécifié n’existe **pas. Spécifiez un index différent. ' *****specification name****'.**
+- Si la spécification d’importation ou d’exportation enregistrée que vous choisissez pour **l’argument Importer** le nom d’exportation enregistré est supprimée après la création de la macro, Access affiche le message d’erreur suivant lors de l’exécuter : la spécification avec l’index spécifié n’existe pas **. Spécifiez un autre index. ' *****specification name****'.**
 

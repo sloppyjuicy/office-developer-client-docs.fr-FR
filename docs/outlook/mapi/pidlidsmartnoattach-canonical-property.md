@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 60299c1b-1b46-4c3a-8fb9-a2b4d3383aac
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f73e45038aac9da37519440efce38a4085f83cf9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7e6a736229a4e8b19886c41a68f89a8cc4ad1acf
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630186"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724532"
 ---
 # <a name="pidlidsmartnoattach-canonical-property"></a>Propriété canonique PidLidSmartNoAttach
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630186"
   
 Représente si les pièces jointes d’un message sont considérées comme masquées.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSmartNoAttach  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -51,7 +51,7 @@ Il indique si l’objet message ne possède pas de pièces jointes visibles par 
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

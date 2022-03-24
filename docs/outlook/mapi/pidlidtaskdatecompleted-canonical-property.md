@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ae384529-55e2-4da1-9a41-acc292591a7c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 25fa3f64861468e08a41a8359e082d34ed1007e3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la date à laquelle l’utilisateur termine la tâche. Si elle est définie, cette propriété doit avoir un composant horaire de minuit dans le fuseau horaire local, converti en UTC.
+ms.openlocfilehash: 6b37da4a847fad539a5dc36fbb63dabcc622c7cf
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555502"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741866"
 ---
 # <a name="pidlidtaskdatecompleted-canonical-property"></a>Propriété canonique PidLidTaskDateCompleted
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555502"
   
 Spécifie la date à laquelle l’utilisateur termine la tâche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskDateCompleted  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

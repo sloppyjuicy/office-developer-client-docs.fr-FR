@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2f3a44d1-600f-412e-bc89-078841db5308
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0029882178bdbb0cb727af6bdfa79292448b24a7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie l’utilisateur qui a répondu pour la dernière fois à la demande de réunion ou à l’objet de mise à jour de réunion. Cette propriété est définie uniquement pour un délégant lorsqu’un délégué a répondu.
+ms.openlocfilehash: 09524ae3fcf6c3f69496a552d239e0dba0cdc535
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583911"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763088"
 ---
 # <a name="pidlidappointmentreplyname-canonical-property"></a>Propriété canonique PidLidAppointmentReplyName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583911"
   
 Spécifie l’utilisateur qui a répondu pour la dernière fois à la demande de réunion ou à l’objet de mise à jour de réunion.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptReplyName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
@@ -37,7 +37,7 @@ Spécifie l’utilisateur qui a répondu pour la dernière fois à la demande de
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est définie uniquement pour un délégant lorsqu’un délégué a répondu. La valeur est égale à la **propriété PR_MAILBOX_OWNER_NAME** ([PidTagMailboxOwnerName](pidtagmailboxownername-canonical-property.md)) pour la boutique du délégué. Cette propriété n’a aucune signification pour l’organisateur. Pour plus **d’informations PR_MAILBOX_OWNER_NAME**, voir le protocole d’objet store spécifié dans [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx).
+Cette propriété est définie uniquement pour un délégant lorsqu’un délégué a répondu. La valeur est égale à la **propriété PR_MAILBOX_OWNER_NAME** ([PidTagMailboxOwnerName](pidtagmailboxownername-canonical-property.md)) pour la boutique du délégué. Cette propriété n’a aucune signification pour l’organisateur. Pour plus **d’PR_MAILBOX_OWNER_NAME**, voir le protocole d’objet store spécifié dans [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 

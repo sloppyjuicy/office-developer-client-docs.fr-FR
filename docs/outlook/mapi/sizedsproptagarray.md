@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1d2dc6e9-735d-4b5b-af6f-adf6a32a666d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8ea830c9a198c7483459b6c96087f7c8529f9bf5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7bf7d23b9478810b036639396b7c29dfad1b412d
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591107"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63713500"
 ---
 # <a name="sizedsproptagarray"></a>SizedSPropTagArray
 
@@ -25,7 +25,7 @@ ms.locfileid: "59591107"
   
 Crée une structure [nommée SPropTagArray](sproptagarray.md) qui inclut un nombre spécifié de balises de propriété. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**SPropTagArray** <br/> |
@@ -48,7 +48,7 @@ _ _name_
 
 Utilisez la macro **SizedSPropTagArray pour créer** un tableau de balises de propriétés avec des limites explicites. 
   
-Pour utiliser la nouvelle structure qui résulte de la macro **SizedSPropTagArray** comme pointeur vers une structure **SPropTagArray,** effectuez la distribution suivante : 
+Pour utiliser la nouvelle structure qui résulte de la macro **SizedSPropTagArray** comme pointeur vers une structure **SPropTagArray** , effectuez la distribution suivante : 
   
 ```cpp
 lpPropTagArray = (LPPropTagArray) &SizedSPropTagArray;

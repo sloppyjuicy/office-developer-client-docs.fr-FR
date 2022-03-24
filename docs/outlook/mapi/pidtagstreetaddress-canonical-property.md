@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 41262e7a-5f5f-4830-b80c-f1be3e9a3276
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fbb4ab3696734f60cd0e6399b10bf817d99afe6c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’adresse du destinataire, définie par le destinataire et l’organisation du destinataire.
+ms.openlocfilehash: d8c7ca9b65574dc80b789f7396bbb28d29d3b740
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550322"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763270"
 ---
 # <a name="pidtagstreetaddress-canonical-property"></a>Propriété canonique PidTagStreetAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550322"
   
 Contient l’adresse du destinataire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_STREET_ADDRESS, PR_STREET_ADDRESS_A, PR_STREET_ADDRESS_W, PR_BUSINESS_ADDRESS_STREET, PR_BUSINESS_ADDRESS_STREET_A, PR_BUSINESS_ADDRESS_STREET_W  <br/> |
 |Identificateur :  <br/> |0x3A29  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés fournissent des informations d’identification et d’accès p
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

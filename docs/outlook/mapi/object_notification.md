@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: de3a2297-e0cc-427b-a978-52bade4d9bce
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b89beabba6b6308a78953e5be0e6879fb66683ec
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Contient des informations sur un objet qui a subi une modification, par exemple en cours de copie ou de modification.
+ms.openlocfilehash: 6e89a10445df828669b94db631af30e9f319799c
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776220"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741862"
 ---
 # <a name="object_notification"></a>OBJECT_NOTIFICATION
 
@@ -27,7 +27,7 @@ ms.locfileid: "62776220"
   
 Contient des informations sur un objet qui a subi une modification, par exemple en cours de copie ou de modification.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    

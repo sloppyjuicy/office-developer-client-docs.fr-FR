@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 08fd34680942d47bc6a45abcb54587d7fb29c65e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9f808e105d58fc4f3ab7f70a32a4f6915725ae42
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611608"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723520"
 ---
 # <a name="repaintobject-macro-action"></a>RepaintObject, action de macro
 
@@ -24,14 +24,14 @@ ms.locfileid: "59611608"
 
 Vous pouvez utiliser l’action **RedessinerObjet** pour effectuer les mises à jour d’écran en attente pour l’objet de base de données spécifié ou pour celui actif si aucun objet n’est spécifié. Ces mises à jour englobent les nouveaux calculs en attente des contrôles de l’objet.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **RedessinerObjet** accepte les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

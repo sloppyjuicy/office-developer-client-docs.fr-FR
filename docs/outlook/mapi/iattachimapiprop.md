@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f47e20e1-2a30-4c9e-8ca6-e8c5e72f44a1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c67ce8be8cd1389a985f8762759a0136c5f81c1b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 756578d1b6a1018447633c2080c18f76f5b8357f
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580040"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720250"
 ---
 # <a name="iattach--imapiprop"></a>IAttach : IMAPIProp
 
@@ -25,9 +25,9 @@ ms.locfileid: "59580040"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Maintient et fournit l’accès aux propriétés des pièces jointes dans les messages. **L’interface IAttach** n’a aucune méthode unique. Pour plus d’informations sur l’utilisation des pièces jointes, voir [Pièces jointes MAPI](mapi-attachments.md) et tables de pièces [jointes.](attachment-tables.md) 
+Maintient et fournit l’accès aux propriétés des pièces jointes dans les messages. **L’interface IAttach** n’a aucune méthode unique. Pour plus d’informations sur l’utilisation des pièces jointes, voir [MapI Attachments](mapi-attachments.md) and [Attachment Tables](attachment-tables.md). 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Objets de pièce jointe  <br/> |

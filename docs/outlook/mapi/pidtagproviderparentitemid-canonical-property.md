@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6adb8e85-ae56-4542-8b19-ed3cfe7fe522
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3a0c8af1cc36fe7f3e4c97023381e0036fed18ed
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie un identificateur pour le parent d’un dossier ou d’un élément dans une boutique. Les fournisseurs du Store utilisent cette propriété pour identifier les résultats renvoyés par un moteur de recherche.
+ms.openlocfilehash: f6bf23cf7a9aebad61bf1c5ea8bc26267bb5bf96
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574817"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741544"
 ---
 # <a name="pidtagproviderparentitemid-canonical-property"></a>Propriété canonique PidTagProviderParentItemId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59574817"
   
 Spécifie un identificateur pour le parent d’un dossier ou d’un élément dans une boutique.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROVIDER_PARENT_ITEMID  <br/> |
 |Identificateur :  <br/> |0x0EA4  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6149da2f-6e42-429c-bcdb-d517d21df720
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 36f2f799b2ef7679ee7c51b4f91a56f3f98f93ad
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un nom de dossier utilisé pour les entrées de carnet d’adresses Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: d3dc2b914052dd67d40f0629ed6e6bce42c806f9
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613624"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741671"
 ---
 # <a name="pidtagcontactaddressbookfoldername-canonical-property"></a>Propriété canonique PidTagContactAddressBookFolderName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613624"
   
 Contient un nom de dossier utilisé pour les entrées de carnet d’adresses.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_FOLDER_NAME, PR_CONTAB_FOLDER_NAME_W  <br/> |
 |Identificateur :  <br/> |0x6613  <br/> |

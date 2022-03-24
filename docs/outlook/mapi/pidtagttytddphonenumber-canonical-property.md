@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0471b331-7c8e-4b48-996c-276bdd61f522
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 906bed8cb81021461d61b3f1e846f6c064269304
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d4bca35aabab81c6499746b8306d0b1716d73dbe
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609627"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724977"
 ---
 # <a name="pidtagttytddphonenumber-canonical-property"></a>Propriété canonique PidTagTtyTddPhoneNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609627"
   
 Contient le numéro de téléphone du téléphone texte (TTY) ou du périphérique de télécommunications du contact pour les personnes sourdes.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_TTYTDD_PHONE_NUMBER, PR_TTYTDD_PHONE_NUMBER_A, PR_TTYTDD_PHONE_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A4B  <br/> |
@@ -40,7 +40,7 @@ Contient le numéro de téléphone du téléphone texte (TTY) ou du périphériq
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 3d223809-b697-47c6-bc3c-2206aff7ad33
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8ba391d81a9a615c2c80bc44e429e388e9a50779
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 412c075ec414cf903125482dd83cf15f0307d909
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579193"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63719767"
 ---
 # <a name="pidtagattachtag-canonical-property"></a>Propriété canonique PidTagAttachTag
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579193"
   
 Contient un identificateur d’objet ASN.1 spécifiant l’application qui a fourni une pièce jointe. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_TAG  <br/> |
 |Identificateur :  <br/> |0x370A  <br/> |
@@ -38,7 +38,7 @@ Contient un identificateur d’objet ASN.1 spécifiant l’application qui a fou
 
 Cette propriété identifie l’application qui a généré la pièce jointe à l’origine.
   
- **Remarque** Les **propriétés PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) et **PR_ATTACH_TAG** ne doivent pas être confondues. Elles ne sont ni associées ni associées. **PR_ATTACH_ENCODING** identifie l’algorithme utilisé pour transformer les données d’une pièce jointe. « Object » a une signification beaucoup plus générale dans l’identificateur d’objet de terme et dans l’utilisation X.400 que dans la programmation orientée objet. 
+ **Remarque** Les **propriétés PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) **et PR_ATTACH_TAG** ne doivent pas être confondues. Elles ne sont ni associées ni associées. **PR_ATTACH_ENCODING** identifie l’algorithme utilisé pour transformer les données dans une pièce jointe. « Object » a une signification beaucoup plus générale dans l’identificateur d’objet de terme et dans l’utilisation X.400 que dans la programmation orientée objet. 
   
 La syntaxe de l’identificateur d’objet et les exemples d’identificateurs d’objet sont définis dans MAPIOID. Fichier d’en-tête H. Les **valeurs PR_ATTACH_TAG** ne sont pas limitées à celles définies dans MAPIOID.H. 
   
@@ -50,7 +50,7 @@ Pour plus d’informations sur ces identificateurs d’objets, voir la documenta
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

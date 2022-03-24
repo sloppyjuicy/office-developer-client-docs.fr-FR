@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: f84c6e70-e74e-4ca2-961c-0260ea277b00
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ebae38d8806009c991fc2158824f9f0c492306cf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: aa5a5d72efcd58d0e249e24594b4ffe331e1f855
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575497"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722000"
 ---
 # <a name="mapi-structures"></a>Structures MAPI
 
@@ -25,7 +25,7 @@ ms.locfileid: "59575497"
   
 Les entrées alphabétisées suivantes décrivent les structures MAPI. Pour plus d’informations, des références croisées à d’autres publications ou à d’autres rubriques de cette documentation sont également incluses.
   
-|||
+|MAPI Structure |... |
 |:-----|:-----|
 |[ADRENTRY](adrentry.md) <br/> |[ADRLIST](adrlist.md) <br/> |
 |[ADRPARM](adrparm.md) <br/> |[CURRENCY](currency.md) <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d7bae17b-f1f3-4a29-bfa6-0a0658234eec
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7bd2ff20daf757631274adc9994bc1f1fc92b3df
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f57b4d2688696f37f739f1b7ec2fac93a9a9f9b2
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609977"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724491"
 ---
 # <a name="pidnamesubject-canonical-property"></a>Propriété canonique PidNameSubject
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609977"
   
 Spécifie l’objet du fichier joint au document.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 21d9fbcc-67b3-4475-b5c1-ff6af92404da
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d9f9fd7a8083ca4db936d2ab464b64557acf6d05
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique si la personne affectée à la tâche a été demandée pour envoyer une mise à jour de tâche lorsque la tâche affectée change.
+ms.openlocfilehash: 8475506459406c3d01a23a742abd889aa373b157
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550980"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63742008"
 ---
 # <a name="pidlidtaskupdates-canonical-property"></a>Propriété canonique PidLidTaskUpdates
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550980"
   
 Indique si la personne affectée à la tâche a été demandée pour envoyer une mise à jour de tâche lorsque la tâche affectée change.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskUpdates  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

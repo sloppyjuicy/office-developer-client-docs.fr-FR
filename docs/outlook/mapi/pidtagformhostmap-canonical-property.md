@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 92742747-cce0-4c54-9ece-1fcf652ac498
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a8c7869e6bcfc926e071b386cc70f446b537ac28
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2c4ba7a909e4ae0a0703e367a463694fb4df900b
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587677"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723434"
 ---
 # <a name="pidtagformhostmap-canonical-property"></a>Propriété canonique PidTagFormHostMap
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587677"
   
 Contient une carte hôte des formulaires disponibles. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_HOST_MAP  <br/> |
 |Identificateur :  <br/> |0x3306  <br/> |
@@ -36,7 +36,7 @@ Contient une carte hôte des formulaires disponibles.
    
 ## <a name="remarks"></a>Remarques
 
-Une application cliente doit mettre à jour cette propriété, ainsi que la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), lors de la modification de la structure sous-jacente dans l’interface **IMAPIFormProp.** 
+Une application cliente doit mettre à jour cette propriété, ainsi que la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), lors de la modification de la structure sous-jacente dans l’interface **IMAPIFormProp** . 
   
 ## <a name="related-resources"></a>Ressources connexes
 

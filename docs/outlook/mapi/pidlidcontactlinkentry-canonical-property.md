@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2de48f49-53a4-4117-b5bd-c1db9b5a4d7d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d1a8cf37685dd0439d414c59a3f87de6e33e3016
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8f8e02174b39210de7ffbd0e6eb56f43e2928c59
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575196"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720539"
 ---
 # <a name="pidlidcontactlinkentry-canonical-property"></a>Propriété canonique PidLidContactLinkEntry
 
@@ -27,7 +27,7 @@ ms.locfileid: "59575196"
   
 Contient la liste des **entrées de carnet d’adresses liées** par cet objet de message. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidContactLinkEntry  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -45,7 +45,7 @@ Contient la liste des **entrées de carnet d’adresses liées** par cet objet d
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

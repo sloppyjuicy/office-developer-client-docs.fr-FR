@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 14c171ec-0aec-43ab-8be8-e6bc0ce28a58
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1422a8f6568c210c2d4416a58f625cc701ca3616
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 263b79aff2789827c2a9095a1f622b61b425d4f1
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571947"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720600"
 ---
 # <a name="hrentryidfromsz"></a>HrEntryIDFromSz
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571947"
   
 Recrée un identificateur d’entrée à partir de son codage ASCII. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -49,7 +49,7 @@ HRESULT HrEntryIDFromSz(
     
  _pcb_
   
-> [out] Pointeur vers la taille, en octets, de l’identificateur d’entrée pointé par le _paramètre ppentry._ 
+> [out] Pointeur vers la taille, en octets, de l’identificateur d’entrée pointé par le  _paramètre ppentry_ . 
     
  _ppentry_
   
@@ -71,6 +71,6 @@ Les **fonctions HrEntryIDFromSz** et [HrSzFromEntryID](hrszfromentryid.md) perme
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La **fonction HrEntryIDFromSz** alloue de la mémoire pour la chaîne ASCII à l’aide de la [fonction MAPIAllocateBuffer.](mapiallocatebuffer.md) 
+La **fonction HrEntryIDFromSz** alloue de la mémoire pour la chaîne ASCII à l’aide de la [fonction MAPIAllocateBuffer](mapiallocatebuffer.md) . 
   
 

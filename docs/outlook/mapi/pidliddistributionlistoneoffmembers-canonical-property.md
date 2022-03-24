@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0b92e654-9e2d-4c2e-9a63-d5fac603b0c0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f11d83e57b212d2da05f61aea8b571ac8167dd46
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 90db78a23a4e8930d957b008b1db18fc87db9f07
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555852"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723262"
 ---
 # <a name="pidliddistributionlistoneoffmembers-canonical-property"></a>Propriété canonique PidLidDistributionListOneOffMembers
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555852"
   
 Spécifie la liste des EntryIds qui correspondent aux membres de la liste de distribution personnelle.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidDLOneOffMembers  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
@@ -39,9 +39,9 @@ Spécifie la liste des EntryIds qui correspondent aux membres de la liste de dis
 
 Ces EntryIds encapsulent les noms d’affichage et les adresses e-mail des membres de la liste de distribution personnelle.
   
-Si le client ou le serveur a définie cette propriété, elle doit être synchronisée avec la propriété **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) : pour chaque entrée de la propriété **dispidDLOneOffMembers,** une entrée doit se trouver à la même position dans la propriété **dispidDLMembers.** 
+Si le client ou le serveur définisse cette propriété, elle doit être synchronisée avec la propriété **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) : pour chaque entrée de la propriété **dispidDLOneOffMembers** , une entrée doit se trouver à la même position dans la propriété **dispidDLMembers** . 
   
-Lors de la définition de **dispidDLOneOffMembers,** le client ou le serveur doit s’assurer que sa taille totale est inférieure à 15 000 octets.
+Lors de la définition de **dispidDLOneOffMembers**, le client ou le serveur doit s’assurer que sa taille totale est inférieure à 15 000 octets.
   
 ## <a name="related-resources"></a>Ressources connexes
 

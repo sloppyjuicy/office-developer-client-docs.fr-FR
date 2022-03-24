@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: de942619-2507-8fe0-bc81-f9da9ef7266f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cc847c0950c817c8b52de6652ab6a150d9a5336a
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Spécifie le chemin d’accès d’un conteneur de carnet d’adresses (hors connexion) ou le nom de domaine du serveur de catalogue global où réside le conteneur de carnet d’adresses, en ligne.
+ms.openlocfilehash: 1cb742d35fae312d1e492ca96d028b50a88bdec1
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63381739"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763102"
 ---
 # <a name="pidtagemsabserver-canonical-property"></a>Propriété canonique PidTagEmsAbServer
 
@@ -25,7 +25,7 @@ ms.locfileid: "63381739"
   
 Spécifie le chemin d’accès d’un conteneur de carnet d’adresses dans un scénario hors connexion ou le nom de domaine complet du serveur de catalogue global où réside le conteneur de carnet d’adresses dans un scénario en ligne.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EMS_AB_SERVER, PR_EMS_AB_SERVER_A, PR_EMS_AB_SERVER_W  <br/> |
 |Identificateur :  <br/> |0xFFFE  <br/> |

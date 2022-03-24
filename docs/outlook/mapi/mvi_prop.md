@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d7f07524-6935-4a60-aaf3-3f753ea8d86a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 22521bce4bec39c3d7c21cb7c69d1e1e20cdb0d6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3ffb3c8fcd979b962da7d9f7a3916b7d91cde9b6
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556034"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720556"
 ---
 # <a name="mvi_prop"></a>MVI_PROP
 
@@ -27,7 +27,7 @@ ms.locfileid: "59556034"
   
 Définit le MVI_FLAG d’une propriété spécifiée. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |[SPropValue](spropvalue.md) <br/> |
@@ -48,7 +48,7 @@ Le MVI_FLAG combine les paramètres de MV_FLAG, en identifiant une propriété �
   
 Par exemple, lorsque la macro MVI_PROP est appliquée à une propriété de type PT_FLOAT, son type est modifié en PT_MV_FLOAT. Lorsqu’elles sont incluses dans un tableau, plusieurs lignes sont utilisées pour représenter la propriété qui possède une ligne pour chaque valeur. Les propriétés des autres colonnes sont répétées. 
   
-Pour plus d’informations sur ces indicateurs, voir [MapI Property Type Overview](mapi-property-type-overview.md) and [Working with Multivalued Columns](working-with-multivalued-columns.md).
+Pour plus d’informations sur ces indicateurs, voir Vue d’ensemble du type de propriété [MAPI](mapi-property-type-overview.md) et [fonctionnement avec des colonnes à valeurs multiples](working-with-multivalued-columns.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6807dcfc-d9bd-48a1-a093-3097b2cb107c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 86a023b42ee40558f0fb8164c0174d1261c0482b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d5cdbc4db0ec9b2928003ee401d5c108af3a599d
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564007"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722610"
 ---
 # <a name="pidlidbirthdayevententryid-canonical-property"></a>Propriété canonique PidLidBirthdayEventEntryId
 
@@ -25,9 +25,9 @@ ms.locfileid: "59564007"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie **l’EntryId d’un** rendez-vous facultatif qui représente l’anniversaire du contact. 
+Spécifie **l’EntryId** d’un rendez-vous facultatif qui représente l’anniversaire du contact. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidBirthdayEventEID  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

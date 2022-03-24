@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 82242de7-e6f6-4882-bd2e-d62c8d6701b7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ea61bbb9eedebad06ee51c9afec24466d8a9a156
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le nombre de clips multimédias dans le fichier joint au document.
+ms.openlocfilehash: 3b30f76757a259dc38ed2832eaee608f5b526a07
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587733"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63742101"
 ---
 # <a name="pidnamemultimediaclipcount-canonical-property"></a>Propriété canonique PidNameMultimediaClipCount
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587733"
   
 Spécifie le nombre de clips multimédias dans le fichier joint au document.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |

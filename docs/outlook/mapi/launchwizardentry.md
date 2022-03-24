@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5778dffa-f01b-46b3-9c19-862793740918
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3635e7a26b0187e545c910e7ffa3bec8afa9993a
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: bca0b7df58c225818db09dcc1e442ca7b8d6d9bc
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465001"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722010"
 ---
 # <a name="launchwizardentry"></a>LAUNCHWIZARDENTRY
 
@@ -27,7 +27,7 @@ ms.locfileid: "62465001"
   
 Définit une fonction qui démarre l’application De l’Assistant Profil dans le but d’ajouter un ou plusieurs services de message à un profil. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiwz.h  <br/> |
 |Fonction définie implémentée par :  <br/> |MAPI  <br/> |
@@ -103,7 +103,7 @@ Lorsque l MAPI_PW_ADD_SERVICE_ONLY est définie dans le _paramètre ulFlags_ , l
   
 - L MAPI_PW_LAUNCHED_BY_CONFIG empêche l’affichage de la page d’accueil. 
     
-- Les indicateurs MAPI_PW_HIDE_SERVICES_LIST et MAPI_PW_PROVIDER_UI_ONLY ne sont utiles que s’il n’existe aucun profil par défaut. Dans ce cas, ces indicateurs déterminent la page de l’Assistant Profil à afficher. 
+- Les indicateurs MAPI_PW_HIDE_SERVICES_LIST et MAPI_PW_PROVIDER_UI_ONLY ne sont utiles qu’en l’absence de profil par défaut. Dans ce cas, ces indicateurs déterminent la page de l’Assistant Profil à afficher. 
     
 - S’il existe un profil par défaut, aucune des pages de l’Assistant Profil ne doit être affichée. 
     

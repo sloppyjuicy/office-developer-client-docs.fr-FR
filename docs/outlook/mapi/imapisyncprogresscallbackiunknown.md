@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 146b5e36-8d73-4949-9fed-1074f707423d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 11b3e7a64f649757edb92bfd43e1b14ee1b57082
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e96252a4bb95989f42c381b7387f20d909da7dcc
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772047"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722854"
 ---
 # <a name="imapisyncprogresscallback--iunknown"></a>IMAPISyncProgressCallback : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62772047"
   
 Transmet le fournisseur de magasin en tant que champ sur la structure MAPISIB pendant un appel à [IMAPISync : SynchronizeInBackground](imapisyncsynchronizeinbackground.md). Le fournisseur du Store utilise cette interface pour fournir des commentaires à Microsoft Outlook sur l’état de la synchronisation.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> ||
 |Exposé par :  <br/> |Outlook  <br/> |
@@ -37,7 +37,7 @@ Transmet le fournisseur de magasin en tant que champ sur la structure MAPISIB pe
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[Progress](imapisyncprogresscallback-progress.md) <br/> |Le fournisseur de magasins appelle régulièrement cette fonction pour mettre à jour l’état dans la boîte de dialogue d’envoi/réception. |
 |[Erreur](imapisyncprogresscallback-error.md) <br/> |Si des erreurs se sont rencontrées lors de la synchronisation, le fournisseur de magasins appelle cette fonction pour fournir des détails affichés dans la boîte de dialogue d’envoi/réception. |

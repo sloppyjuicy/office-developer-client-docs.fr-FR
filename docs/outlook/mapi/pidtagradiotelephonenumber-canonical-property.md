@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d6c9b30c-1eb3-45e8-b50a-e664610bc346
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 555226de25dbc92fd6d0945684714c657c94c0cd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5e126e9eeec65fa0260ea036cbf18caa5a0bfbc0
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574803"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724399"
 ---
 # <a name="pidtagradiotelephonenumber-canonical-property"></a>Propriété canonique PidTagRadioTelephoneNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59574803"
   
 Contient le numéro de téléphone radio du destinataire.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RADIO_TELEPHONE_NUMBER, PR_RADIO_TELEPHONE_NUMBER_A, PR_RADIO_TELEPHONE_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A1D  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés fournissent des informations d’identification et d’accès p
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

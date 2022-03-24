@@ -7,12 +7,12 @@ ms:contentKeyID: 48545693
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 66d1743119a8e5ed3046262862d9a3d95e054088
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 35f0da7537932b96fdde9fbca9330eabaf7e2f4e
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465050"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724365"
 ---
 # <a name="rightsenum"></a>RightsEnum
 
@@ -23,9 +23,9 @@ Spécifie les droits ou autorisations d'un groupe ou d'un utilisateur sur un obj
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

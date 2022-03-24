@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3a504594-204c-472c-8be7-dca154c94ea2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5f2250be58bdaa622d2de132f0b919d9ad2f2143
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Spécifie si un délégué peut afficher les objets de message privés du délégant. Cette propriété doit être définie dans l’objet d’informations du délégué.
+ms.openlocfilehash: 0de4d8459a7a1f48723e7e0ba6da1b076ce4bb38
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783851"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762416"
 ---
 # <a name="pidtagdelegateflags-canonical-property"></a>Propriété canonique PidTagDelegateFlags
 
@@ -27,7 +27,7 @@ ms.locfileid: "62783851"
   
 Spécifie si un délégué peut afficher les objets de message privés du délégant.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DELEGATE_FLAGS  <br/> |
 |Identificateur :  <br/> |0x686B  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f510af2d-92b3-4c98-bdf4-8aca8e8b80d1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aca600c63d67ca82b548be54c0101c4b884fde57
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fc6c046e8f4afeb6c6aa3c4a26612a7b263a69c3
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567101"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722817"
 ---
 # <a name="pidlidappointmentcounterproposal-canonical-property"></a>Propri t canonique PidLidAppointmentCounterProposal
 
@@ -25,9 +25,9 @@ ms.locfileid: "59567101"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique que cette réponse de réunion est une proposition de compteur.
+Indique que cette réponse à la réunion est une proposition de compteur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptCounterProposal  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

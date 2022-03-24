@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3a468bb6-c4c2-42ee-8283-492196872ca0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1e8d10237cb19d4f94da4e811c9d285661cf243b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c4256b7eca50bbdb770b85364d158474aa8ee533
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583862"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725134"
 ---
 # <a name="pidlidemail3emailaddress-canonical-property"></a>Propriété canonique PidLidEmail3EmailAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583862"
   
 Spécifie la troisième adresse de messagerie du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidEmail3EmailAddress  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

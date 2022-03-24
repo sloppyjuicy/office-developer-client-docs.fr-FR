@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 7728fa2f-4a59-4e86-90f1-4384824598aa
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 059fc990a3d5644878e2fc7990e49565b3f9da53
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c7102add613b362ad24507ae7a74520c9bb72a28
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583519"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725685"
 ---
 # <a name="pidtagcontroltype-canonical-property"></a>Propriété canonique PidTagControlType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583519"
   
 Contient une valeur indiquant un type de contrôle pour un contrôle utilisé dans une boîte de dialogue. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTROL_TYPE  <br/> |
 |Identificateur :  <br/> |0x3F02  <br/> |
@@ -56,7 +56,7 @@ DTCT_COMBOBOX (0x00000003)
 
 DTCT_DDLBX (0x00000004)
   
-> Boîte de dialogue de listes.
+> Boîte de dialogue de liste.
 
 DTCT_CHECKBOX (0x00000005)
   
@@ -84,7 +84,7 @@ DTCT_MVLISTBOX (0x0000000B)
     
 DTCT_MVDDLBX (0x0000000C)
   
-> Zone de liste de listes à valeurs multiples remplie par une propriété à valeurs multiples de type chaîne.
+> Zone de listes listes à valeurs multiples remplie par une propriété à valeurs multiples de type chaîne.
     
 ## <a name="related-resources"></a>Ressources connexes
 

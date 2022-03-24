@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: f33cfaac8a8e566bb2bc91fa9d1a645b02393452
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 9865a70afaadb61095ce2546a1e9b8f54037395d
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462658"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721791"
 ---
 # <a name="recordset2requery-method-dao"></a>Recordset2.Requery, méthode (DAO)
 
@@ -34,10 +34,10 @@ Met à jour les données dans un objet **[Recordset](recordset-object-dao.md)** 
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

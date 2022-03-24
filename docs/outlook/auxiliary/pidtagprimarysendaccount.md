@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: e1bc4900-d261-f692-386b-139ef6960212
 description: Spécifie l’endstamp de compte principal pour un message.
-ms.openlocfilehash: b4d0188d75cdf03a78c198377c03a885fce3654b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6db0a45098f61501627c1e8b1fcf5ef3ac230f6c
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601232"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724149"
 ---
 # <a name="pidtagprimarysendaccount"></a>PidTagPrimarySendAccount
 
@@ -20,7 +20,7 @@ Spécifie le cachet « envoyer » du compte principal pour un message.
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PRIMARY_SEND_ACCOUNT  <br/> |
 |Identificateur :  <br/> |0x0E28  <br/> |

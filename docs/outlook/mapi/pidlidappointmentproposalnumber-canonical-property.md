@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f985aeaf-653f-44cb-ac70-6e784bc6c848
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6e4d6d3c53543787fd6a66a089baad05e924021a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3d32963628e684e946d73cb3ac986b05598d206e
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567080"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725222"
 ---
 # <a name="pidlidappointmentproposalnumber-canonical-property"></a>Propriété canonique PidLidAppointmentProposalNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59567080"
   
 Spécifie le nombre de participants ayant envoyé des propositions de compteur qui n’ont pas été acceptées ou rejetées par l’organisateur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptProposalNum  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 43549741-ea41-4ea6-9a33-3ede015f901f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 844ce983a751f0c9c7e0ecc1f67388ba1c41609c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6d1dd41551c7b1b4005db080dde36e15e4ba962d
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616592"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724279"
 ---
 # <a name="pidnamexsharinglocaltype-canonical-property"></a>Propriété canonique PidNameXSharingLocalType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616592"
   
 Représente la version de chaîne de la **propriété dispidSharingLocalType** ([PidLidSharingLocalType](pidlidsharinglocaltype-canonical-property.md)).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |

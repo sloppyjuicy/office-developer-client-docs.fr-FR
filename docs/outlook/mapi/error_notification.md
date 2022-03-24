@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6c5bb383-f8e2-4d79-bcf2-aa86c130e8b1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ccfe560636bb2d2a9886efd316b6572508acfc82
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Décrit les informations liées à une erreur critique. Une notification d’erreur est alors générée.
+ms.openlocfilehash: 628ab3cb994fffb21275315cfbd7d1e83e3a34c8
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777557"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762143"
 ---
 # <a name="error_notification"></a>ERROR_NOTIFICATION
 
@@ -27,7 +27,7 @@ ms.locfileid: "62777557"
   
 Décrit les informations liées à une erreur critique. Une notification d’erreur est alors générée. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -70,7 +70,7 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Remarques
 
-La **ERROR_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION](notification.md) . Lorsque le membre **d’informations** d’une structure **NOTIFICATION** contient une structure **ERROR_NOTIFICATION** , le membre **ulEventType** de la structure **NOTIFICATION** est définie sur  _fnevCriticalError_.
+La **ERROR_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION](notification.md) . Lorsque le **membre d’informations** d’une structure **NOTIFICATION** contient une structure **ERROR_NOTIFICATION** , le membre **ulEventType** de la structure **NOTIFICATION** est définie sur  _fnevCriticalError_.
   
 La valeur du **membre cbEntryID** et du membre **lpEntryID** peut être NULL. 
   

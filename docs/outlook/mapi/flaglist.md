@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b4c0655c-1a3a-4f89-a977-0431db596512
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 32789e57bebef3320e413fa67c6352dee43248ff
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6e3f7595ff0e7e6a7f12008ad440ed4d1cfcca49
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614240"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63717281"
 ---
 # <a name="flaglist"></a>FLAGLIST
 
@@ -27,7 +27,7 @@ ms.locfileid: "59614240"
   
 Contient une liste d’indicateurs utilisés pour indiquer l’état des entrées d’adresse pendant le processus de résolution de noms.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -64,7 +64,7 @@ MAPI_UNRESOLVED
     
 ## <a name="remarks"></a>Remarques
 
-La structure **FLAGLIST** est utilisée comme paramètre pour [IABContainer::ResolveNames](iabcontainer-resolvenames.md). Chacun des destinataires à résoudre est inclus dans une structure [ADRLIST.](adrlist.md) Lorsque le conteneur de carnet d’adresses tente de résoudre chaque destinataire, il définit l’indicateur approprié dans l’entrée correspondante dans la structure **FLAGLIST.** Toutes les entrées de la structure **FLAGLIST** sont dans le même ordre que les entrées de la structure **ADRLIST.** Cela facilite l’association d’un paramètre d’indicateur à un destinataire. 
+La structure **FLAGLIST** est utilisée comme paramètre pour [IABContainer::ResolveNames](iabcontainer-resolvenames.md). Chacun des destinataires à résoudre est inclus dans une structure [ADRLIST](adrlist.md) . Lorsque le conteneur de carnet d’adresses tente de résoudre chaque destinataire, il définit l’indicateur approprié dans l’entrée correspondante dans la structure **FLAGLIST** . Toutes les entrées de la structure **FLAGLIST** sont dans le même ordre que les entrées de la structure **ADRLIST** . Cela facilite l’association d’un paramètre d’indicateur à un destinataire. 
   
 ## <a name="see-also"></a>Voir aussi
 

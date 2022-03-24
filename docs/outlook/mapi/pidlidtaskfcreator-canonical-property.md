@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bb88750b-4773-4241-aa38-462a2634dbcb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dcbf11015dc4347a29620da003695b316e83cbbb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4302fc6cfc4319d5cdfd1e2a9d62ee023e66ccde
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616690"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722275"
 ---
 # <a name="pidlidtaskfcreator-canonical-property"></a>Propriété canonique PidLidTaskFCreator
 
@@ -25,9 +25,9 @@ ms.locfileid: "59616690"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique que la tâche a été créée à l’origine par l’utilisateur ou l’agent utilisateur actuel au lieu de traiter une demande de tâche.
+Indique que la tâche a été initialement créée par l’utilisateur ou l’agent utilisateur actuel au lieu de traiter une demande de tâche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskFCreator  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

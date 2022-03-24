@@ -7,12 +7,12 @@ ms:contentKeyID: 48546046
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 191942c63bce2111c22f2fbc871513a3c30c7a40
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8ef05b90a8ade196eca67c5eb993d0a00416d771
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585339"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725314"
 ---
 # <a name="sendemail-macro-action"></a>SendEmail, action de macro
 
@@ -23,15 +23,15 @@ ms.locfileid: "59585339"
 > [!NOTE]
 > L’action **EnvoyerMessage** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **EnvoyerMessage** utilise les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -44,17 +44,17 @@ L’action **EnvoyerMessage** utilise les arguments suivants.
 <tr class="odd">
 <td><p><strong>To</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne <strong>À</strong> du message. Séparez les noms des destinataires que vous spécifiez dans cet argument (et dans les arguments <em>Cc</em> et <em>Cci)</em> par un point-virgule (;).</p></td>
+<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne <strong>À</strong> du message. Séparez les noms des destinataires que vous spécifiez dans cet argument (et dans les arguments <em>Cc</em> et <em>Cci</em> ) par un point-virgule (;).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Cc</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne Cc (copie &quot; &quot; carbone) du message.</p></td>
+<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne Cc (&quot;&quot;copie carbone) du message.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Bcc</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne Bcc (copie carbone non &quot; &quot; voyante) du message.</p></td>
+<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne Bcc (&quot;&quot;copie carbone non voyante) du message.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Sujet</strong></p></td>

@@ -7,12 +7,12 @@ ms:contentKeyID: 48545071
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 13ef2057c763f9ec8122afc6398dc4e4736e5ec2
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 02b157d271e6ac32a85aa5c4ec879577a30c973f
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462966"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723026"
 ---
 # <a name="ruleenum"></a>RuleEnum
 
@@ -23,9 +23,9 @@ Indique la règle à appliquer en cas de suppression d’un objet [Key](key-obje
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

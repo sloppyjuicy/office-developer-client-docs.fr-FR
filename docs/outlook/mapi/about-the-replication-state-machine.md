@@ -5,13 +5,13 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: cf36c6cb-57b4-7b2b-e23d-e0bc8696de96
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 708a38b6f3e5789389febbf08750c16278a3b637
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Cette rubrique contient une vue d’ensemble de la machine à états pour Microsoft Outlook 2013 et Microsoft Outlook 2010 réplication des données.
+ms.openlocfilehash: aece0cb44949db7c55d12279caf16d79c614f4d6
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770828"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763354"
 ---
 # <a name="about-the-replication-state-machine"></a>À propos de la machine à états de réplication
  
@@ -43,9 +43,8 @@ Un client appelle **[IOSTX::SyncBeg](iostx-syncbeg.md)**, **[IOSTX::SyncEnd](ios
 > [!NOTE]
 > Le tableau suivant répertorie tous les états valides de la machine à états de réplication, ainsi que les identificateurs d’état et les structures de données correspondants. Dans la **colonne Répliquée des** données, le terme « éléments » inclut les éléments courrier, calendrier, contact, note, journal et tâche. Lors de la réplication des modifications du magasin local vers le serveur, utilisez des identificateurs d’état spécifiant « UPLOAD » et des structures de données avec le préfixe « UP » (par exemple, **LR_SYNC_UPLOAD_HIERARCHY** et **[UPHIER](uphier.md)** ). Lors de la réplication des modifications du serveur vers le magasin local, utilisez des identificateurs d’état spécifiant « DOWNLOAD » et des structures de données avec le préfixe « DN » (par exemple, **LR_SYNC_DOWNLOAD_HIERARCHY** et **[DNHIER](dnhier.md)** ). 
   
-|||||
-|:-----|:-----|:-----|:-----|
 |**État** <br/> |**Données répliquées** <br/> |**Identificateur d’état** <br/> |**Structure des données** <br/> |
+|:-----|:-----|:-----|:-----|
 |[État inactif](idle-state.md) <br/> | *Aucune*  <br/> |**LR_SYNC_IDLE** <br/> | *Aucune*  <br/> |
 |[Synchronisation de l’état](synchronize-state.md) <br/> |Dossiers ou éléments  <br/> |**LR_SYNC** <br/> |**[SYNC](sync.md)** <br/> |
 |[Télécharger hiérarchie](upload-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
@@ -64,9 +63,8 @@ Un client appelle **[IOSTX::SyncBeg](iostx-syncbeg.md)**, **[IOSTX::SyncEnd](ios
 
  Lors du chargement d’une hiérarchie de dossiers, la séquence d’étapes suivante a lieu : 
   
-|||||
-|:-----|:-----|:-----|:-----|
 |**Étape** <br/> |**Action** <br/> |**État** <br/> |**Structure de données associée** <br/> |
+|:-----|:-----|:-----|:-----|
 |1. |Le client lance le chargement de la hiérarchie avec **IOSTX::SyncBeg**. |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |2. |Outlook 2013 ou Outlook 2010 remplit **UPHIER** avec des informations pour le client. Cela inclut l’initialisation des paramètres [out] :  *iEnt*  est définie sur 0 et  *cEnt*  sur le nombre de dossiers dans la hiérarchie qui doivent être téléchargés. |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |3. |Le client charge la hiérarchie réelle. Par exemple, si  *cEnt*  est 10, pour chacun des 10 dossiers, le client appelle **IOSTX::SyncBeg**, en spécifiant l’identificateur d’état et la structure de données appropriés pour le téléchargement d’un dossier. |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |

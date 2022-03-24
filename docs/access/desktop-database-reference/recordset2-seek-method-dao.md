@@ -7,12 +7,12 @@ ms:contentKeyID: 48546489
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 15a92844e568c69ad490eb612125eff26a4c081e
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: cf6ab65dc7a7dd41889e1e692097e1ea7f8307b3
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462303"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63717368"
 ---
 # <a name="recordset2seek-method-dao"></a>Recordset2.Seek, méthode (DAO)
 
@@ -30,10 +30,10 @@ Localise l’enregistrement dans un objet **Recordset** de type table indexé qu
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

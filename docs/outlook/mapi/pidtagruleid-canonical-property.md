@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 341e8db0-52b7-4ba7-aaa6-eedf2783b4e8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9b8cca70214543658f708beb81785617d79406c5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie un identificateur unique que le serveur de messagerie génère pour chaque règle lors de sa première création.
+ms.openlocfilehash: 802f7a1227430cefb49d7dd83d709422d80fa1c8
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624558"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741823"
 ---
 # <a name="pidtagruleid-canonical-property"></a>Propriété canonique PidTagRuleId
 
@@ -25,9 +25,9 @@ ms.locfileid: "59624558"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie un identificateur unique que le serveur de messagerie génère pour chaque règle lors de la création de la règle. 
+Spécifie un identificateur unique que le serveur de messagerie génère pour chaque règle lors de sa première création. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RULE_ID  <br/> |
 |Identificateur :  <br/> |0x6674  <br/> |
@@ -36,9 +36,9 @@ Spécifie un identificateur unique que le serveur de messagerie génère pour ch
    
 ## <a name="remarks"></a>Remarques
 
-Le client ne doit pas spécifier cette propriété lors de la création d’une règle, mais doit la spécifier lors de la modification ou de la suppression d’une règle.
+Le client ne doit pas spécifier cette propriété lors de la création d’une règle, mais il doit la spécifier lors de la modification ou de la suppression d’une règle.
   
-Lors de la suppression d’une règle, la seule propriété que le client doit transmettre **est PR_RULE_ID** et ne doit pas transmettre d’autre propriété. Le serveur doit ignorer les propriétés autres que cette propriété. Lors de l’ajout d’une règle, le client ne doit pas transmettre **PR_RULE_ID**, il doit passer les propriétés **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) et **PR_RULE_PROVIDER** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md)). Lors de la modification d’une règle, le client doit transmettre **PR_RULE_ID** et transmettre le reste des propriétés qui doivent être modifiées. 
+Lors de la suppression d’une règle, la seule propriété que le client doit transmettre **est PR_RULE_ID** et ne doit pas transmettre d’autre propriété. Le serveur doit ignorer les propriétés autres que cette propriété. Lors de l’ajout d’une règle, le client ne doit pas passer de **PR_RULE_ID**, il doit passer les propriétés **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) et **PR_RULE_PROVIDER** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md)). Lors de la modification d’une règle, le client doit transmettre **PR_RULE_ID** et transmettre le reste des propriétés qui doivent être modifiées. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Lors de la suppression d’une règle, la seule propriété que le client doit t
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   

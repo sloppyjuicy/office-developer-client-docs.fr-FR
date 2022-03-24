@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: b9f746bc0024b4882454bca686ab6170c3c0b446
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 224cd6072ad615792736304c7a2956a8b3a06816
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552534"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725869"
 ---
 # <a name="removetempvar-macro-action"></a>RemoveTempVar, action de macro
 
@@ -27,14 +27,14 @@ ms.locfileid: "59552534"
 
 L’action **SupprimerVarTemp** permet de supprimer une seule variable temporaire que vous avez créée en utilisant l’action **DéfinirVarTemp**.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **SupprimerVarTemp** possède l’argument suivant.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -69,9 +69,9 @@ La macro suivante illustre comment créer une variable temporaire, l'utiliser da
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -84,12 +84,12 @@ La macro suivante illustre comment créer une variable temporaire, l'utiliser da
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>SetTempVar</strong></p></td>
-<td><p><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox( &quot; Enter a non-zero number. &quot; )</p></td>
+<td><p><strong>Name</strong>: <strong>MyVarExpression</strong>: InputBox(&quot;Enter a non-zero number.&quot;)</p></td>
 </tr>
 <tr class="even">
 <td><p>[TempVars]![MaVar] &lt;&gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: = &quot; vous avez entré &quot; &amp; [TempVars]![ MyVar] &amp; &quot; . &quot; <strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></p></td>
+<td><p><strong>Message</strong> : =&quot;Vous avez entré &quot; &amp; [TempVars]![ MyVar] &amp; &quot;.&quot; <strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b9992683-6ea9-4789-8554-024cc1dc7a5d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2560b10c15763e86abbce9226f48d9e1dce7e5ff
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0992bab4be3135f055bd706ff2ce9f64c726ee67
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579227"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720458"
 ---
 # <a name="pidnamecontenttype-canonical-property"></a>Propriété canonique PidNameContentType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579227"
   
 Contient une valeur de champ d’en-tête Content-Type [RFC3282].
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |

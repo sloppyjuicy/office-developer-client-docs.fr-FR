@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 131211b3-e6f9-4dd4-b6d9-b65361bff775
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5a3dc75b0a17455c779f6d5c853d0871f4ab7de9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une valeur utilisée par lepooler MAPI pour suivre la progression d’un message sortant via les fournisseurs de transport sortants.
+ms.openlocfilehash: b8ec03fe3dd215a4006fbb2eca1898eebb929f19
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609725"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762843"
 ---
 # <a name="pidtagtransportkey-canonical-property"></a>Propriété canonique PidTagTransportKey
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609725"
   
 Contient une valeur utilisée par lepooler MAPI pour suivre la progression d’un message sortant via les fournisseurs de transport sortants.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_TRANSPORT_KEY  <br/> |
 |Identificateur :  <br/> |0x0E16  <br/> |

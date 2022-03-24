@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4db67ea7-09bd-4bab-809c-7bbd4c92614f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ac4561f14b8cf183d0b7e5e8b82c0a3ed3cb108d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le numéro de séquence d’un objet Meeting pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 8b36991e2af87035ae34804b7819076279c6e01e
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600700"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762101"
 ---
 # <a name="pidlidappointmentsequence-canonical-property"></a>Propriété canonique PidLidAppointmentSequence
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600700"
   
 Spécifie le numéro de séquence d’un objet Meeting.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptSequence  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

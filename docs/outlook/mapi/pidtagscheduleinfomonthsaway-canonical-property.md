@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 282a8ba1-b786-4d17-b6c5-17e935e59a6b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 84a876ef322ce765fd5bd36eb58c2bdc14609504
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une liste des mois pendant lesquels des données de type absence du bureau (OOF) sont présentes dans le message de libre/occupé.
+ms.openlocfilehash: 27f6ca1694df44cedd14546f987e7d350428b9de
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563307"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63742152"
 ---
 # <a name="pidtagscheduleinfomonthsaway-canonical-property"></a>Propriété canonique PidTagScheduleInfoMonthsAway
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563307"
   
 Contient une liste des mois pendant lesquels des données de type absence du bureau (OOF) sont présentes dans le message de libre/occupé. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_MONTHS_OOF  <br/> |
 |Identificateur :  <br/> |0x6855  <br/> |
@@ -36,7 +36,7 @@ Contient une liste des mois pendant lesquels des données de type absence du bur
    
 ## <a name="remarks"></a>Remarques
 
-Le format, le calcul et les contraintes de cette propriété sont identiques à ceux de **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), mais font référence aux rendez-vous qui sont marqués comme absence du bureau (OOF) sur l’objet calendrier associé.
+Le format, le calcul et les contraintes de cette propriété sont identiques à ceux de **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), mais font référence aux rendez-vous marqués comme étant hors bureau sur l’objet calendrier associé.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Le format, le calcul et les contraintes de cette propriété sont identiques à 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   

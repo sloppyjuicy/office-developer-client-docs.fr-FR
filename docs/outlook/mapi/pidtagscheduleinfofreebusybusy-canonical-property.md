@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 84d9c5b5-e734-4c07-b4cc-1d7b13c1ed19
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b9b7674e1545274420834a7e4bcf4dcc6023a724
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 204cbe8f4817b48ff19e4a433209fd143354cb1d
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609837"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725021"
 ---
 # <a name="pidtagscheduleinfofreebusybusy-canonical-property"></a>Propriété canonique PidTagScheduleInfoFreeBusyBusy
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609837"
   
 Contient les blocs de temps pour lesquels l’état est occupé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_FREEBUSY_BUSY  <br/> |
 |Identificateur :  <br/> |0x6854  <br/> |
@@ -44,7 +44,7 @@ Le format, le calcul et les contraintes de cette propriété sont identiques à 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   

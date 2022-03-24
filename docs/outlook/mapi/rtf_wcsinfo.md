@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 0c94501e-0ec7-e836-33a7-adcf5a61b375
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 97c337b8f3d1f5addad3e2f8ef1838bce50fa0aa
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Cette structure vous permet de spécifier des informations pour décompresser le corps d’un message au format RTF compressé et de renvoyer le flux de corps dans son format natif.
+ms.openlocfilehash: 4ed1ec2b8a2782ef439470dc59d1bf4d8d76a0a6
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62779720"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763207"
 ---
 # <a name="rtf_wcsinfo"></a>RTF_WCSINFO
 
@@ -37,7 +37,7 @@ typedef struct {
 
 ## <a name="members"></a>Membres
 
- _size_
+ _taille_
   
 > Taille de la structure **RTF_WCSINFO** nombre d’octets. 
     
@@ -45,7 +45,7 @@ typedef struct {
   
 > Il s’agit du masque de bits des indicateurs d’option [pour la fonction WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) . Les indicateurs d’option pris en charge sont : 
     
-|||
+|Flag |Description |
 |:-----|:-----|
 |MAPI_MODIFY  <br/> |Cela indique si le client a l’intention d’écrire l’interface de flux wrapped renvoyée. |
 |STORE_UNCOMPRESSED_RTF  <br/> |Cela indique si le RTF décompressé est supposé être écrit dans le flux vers qui pointe le pointeur  _lpCompressedRTFStream_ de la fonction [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) . |

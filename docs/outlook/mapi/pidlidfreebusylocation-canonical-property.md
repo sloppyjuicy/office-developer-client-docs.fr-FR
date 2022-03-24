@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1e7a36e6-2e93-4aa5-bef8-66fd5c407700
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 49f1b270f3442284538f7be7e5e7cdf3685741b7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 273001b6f9c29d2a831a51feadb8834697e7d03d
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595525"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724553"
 ---
 # <a name="pidlidfreebusylocation-canonical-property"></a>Propriété canonique PidLidFreeBusyLocation
 
@@ -25,9 +25,9 @@ ms.locfileid: "59595525"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie un chemin d’URL à partir duquel un client peut récupérer des informations de libre/occupé pour le contact en tant que fichier iCal, comme spécifié dans [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx).
+Spécifie un chemin d’URL à partir duquel un client peut récupérer les informations de libre/occupé du contact en tant que fichier iCal, comme spécifié dans [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFreeBusyLocation  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

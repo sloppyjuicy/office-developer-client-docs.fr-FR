@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f5ae6124-3e44-400f-95c2-24b19f3085b5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e6d169cf0434240207afd2e1db1fbdaa9556a3f4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une liste de noms d’affichage pour les destinataires devant obtenir une réponse. Ces propriétés contiennent les noms d’affichage séparés par des points-virgules.
+ms.openlocfilehash: 28d1ec74510568a465630d3fd5ed389b4bdda11a
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550567"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762150"
 ---
 # <a name="pidtagreplyrecipientnames-canonical-property"></a>Propriété canonique PidTagReplyRecipientNames
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550567"
   
 Contient une liste de noms d’affichage pour les destinataires devant obtenir une réponse.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPLY_RECIPIENT_NAMES, PR_REPLY_RECIPIENT_NAMES_A, PR_REPLY_RECIPIENT_NAMES_W  <br/> |
 |Identificateur :  <br/> |0x0050  <br/> |
@@ -40,7 +40,7 @@ Ces propriétés contiennent les noms d’affichage séparés par des points-vir
   
 Lorsque cette propriété n’est pas présente, une réponse est envoyée uniquement à l’utilisateur identifié par la **propriété PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Lorsque **PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) et que ces propriétés sont définies, la réponse est envoyée à tous les destinataires identifiés par ces deux propriétés. Un fournisseur de transport utilise ces propriétés pour remplacer la logique de réponse habituelle.
   
-Si **l PR_REPLY_RECIPIENT_ENTRIES** ou ces propriétés sont définies, l’autre propriété doit également être définie. Ces propriétés doivent contenir le même nombre de destinataires et elles doivent les contenir dans le même ordre. Le non-respect de ces exigences peut entraîner des résultats imprévisibles. 
+Si l **PR_REPLY_RECIPIENT_ENTRIES** ou ces propriétés sont définies, l’autre propriété doit également être définie. Ces propriétés doivent contenir le même nombre de destinataires et elles doivent les contenir dans le même ordre. Le non-respect de ces exigences peut entraîner des résultats imprévisibles. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Si **l PR_REPLY_RECIPIENT_ENTRIES** ou ces propriétés sont définies, l’autr
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

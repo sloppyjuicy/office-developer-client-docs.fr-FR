@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: e028531d91e0c96f167b28dd6e69314a54d8bcab
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 15021b99e4b6fb325f3bce57ca1a0aa254739158
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621884"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722031"
 ---
 # <a name="runcode-macro-action"></a>RunCode, action de macro
 
@@ -24,14 +24,14 @@ ms.locfileid: "59621884"
 
 Vous pouvez utiliser l’action **ExécuterCode** pour appeler une procédure Function Visual Basic pour Applications (VBA).
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **ExécuterCode** accepte l’argument suivant.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -42,7 +42,7 @@ L’action **ExécuterCode** accepte l’argument suivant.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom de la fonction</strong></p></td>
-<td><p>Nom de la procédure Function VBA à appeler. Placez tous les arguments de la fonction entre parenthèses. Entrez le nom de la fonction dans la zone <strong>Nom fonction</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Cet argument est obligatoire.</p><p><strong>REMARQUE</strong>: dans une base de données Access (.mdb ou .accdb), cliquez sur le bouton Créer pour utiliser le Générateur d’expression afin de sélectionner une fonction pour cet argument. <strong></strong> Cliquez sur la fonction de votre choix dans la liste proposée par le Générateur d’expression.</p></td>
+<td><p>Nom de la procédure Function VBA à appeler. Placez tous les arguments de la fonction entre parenthèses. Entrez le nom de la fonction dans la zone <strong>Nom fonction</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Cet argument est obligatoire.</p><p><strong>REMARQUE</strong> : dans une base de données Access (.mdb ou .accdb), <strong></strong> cliquez sur le bouton Créer pour utiliser le Générateur d’expressions afin de sélectionner une fonction pour cet argument. Cliquez sur la fonction de votre choix dans la liste proposée par le Générateur d’expression.</p></td>
 </tr>
 </tbody>
 </table>
@@ -56,7 +56,7 @@ Vous devez inclure des parenthèses, même si la procédure Function ne prend au
 
 `TestFunction()`
 
-Contrairement aux noms de fonction définis par l’utilisateur  utilisés pour les paramètres de propriété d’événement, le nom de la fonction dans l’argument Nom de la fonction ne commence pas par un signe égal ( **=** ).
+Contrairement aux noms de fonction définis par l’utilisateur utilisés pour les paramètres de propriété d’événement, le nom de la fonction dans **l’argument Nom** de la fonction ne commence pas par un signe égal (**=**).
 
 Access ignore la valeur renvoyée par la fonction.
 

@@ -7,12 +7,12 @@ ms:contentKeyID: 48545170
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 80b71810a59ab1f89dd7cceb199b2f6f9ef53c50
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 2e37ade2c8c227e42823a5cd267d73c25d58fa74
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374207"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725430"
 ---
 # <a name="recordsetfindfirst-method-dao"></a>Recordset.FindFirst, méthode (DAO)
 
@@ -30,10 +30,10 @@ Localise le premier enregistrement dans un objet **Recordset** de type feuille d
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -63,9 +63,9 @@ Chacune des méthodes **Find** commence sa recherche à partir de l’emplacemen
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

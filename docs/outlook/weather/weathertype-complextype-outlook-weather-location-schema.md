@@ -1,5 +1,5 @@
 ---
-title: complexType weatherType (Outlook weather location schema)
+title: complexType weatherType (Outlook Weather Location Schema)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,24 +8,24 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f8054fd9-85ba-fcf6-c96d-a54095d5238c
 description: Définit les paramètres sur les conditions météorologiques d’un emplacement.
-ms.openlocfilehash: 521612cf828416a6ae087c8038ad558cd9e93d42
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 0aa4867dc65bcdfde6711476949834f2d9752bee
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770611"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763214"
 ---
-# <a name="weathertype-complextype-outlook-weather-location-schema"></a>complexType weatherType (Outlook weather location schema)
+# <a name="weathertype-complextype-outlook-weather-location-schema"></a>complexType weatherType (Outlook Weather Location Schema)
 
 Définit les paramètres sur les conditions météorologiques d’un emplacement.
   
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
 |**Fichier de schéma** <br/> |getweatherlocation.xsd  <br/> |
-|**Base d’extension** <br/> |Aucun  <br/> |
+|**Base d’extension** <br/> |Aucune  <br/> |
    
 ## <a name="definition"></a>Définition
 

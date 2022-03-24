@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 803d7c4e-ed80-4d5b-988f-27068a8ccd63
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 53944e14742c26b88706188539f01ad13d68bd10
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2c92ae5c747e2ea0d68804eb2c137cded70f0c25
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579200"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723674"
 ---
 # <a name="pidtag7bitdisplayname-canonical-property"></a>Propriété canonique PidTag7BitDisplayName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579200"
   
 Contient une représentation ASCII 7 bits du nom d’un utilisateur de messagerie. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_7BIT_DISPLAY_NAME, PR_7BIT_DISPLAY_NAME_A, PR_7BIT_DISPLAY_NAME_W  <br/> |
 |Identificateur :  <br/> |0x39FF  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés **m PR_DISPLAY_NAME** la propriété ([PidTagDisplayName](pidta
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
@@ -60,7 +60,7 @@ Ces propriétés **m PR_DISPLAY_NAME** la propriété ([PidTagDisplayName](pidta
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

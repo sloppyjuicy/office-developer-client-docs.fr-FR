@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c7b21c90-7fdc-48e4-8197-7675978c5d3b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3af68c92a99cdbe13fff060672ec547a81a05ab5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5da11b3c6f585d7fdb8aa4a95fbc49e9df8ab490
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560703"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63716152"
 ---
 # <a name="pidtagproofofsubmissionrequested-canonical-property"></a>Propriété canonique PidTagProofOfSubmissionRequested
 
@@ -27,7 +27,7 @@ ms.locfileid: "59560703"
   
 Contient une preuve ASN.1 de la valeur de soumission.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROOF_OF_SUBMISSION_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0028  <br/> |

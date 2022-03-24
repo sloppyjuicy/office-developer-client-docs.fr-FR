@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 92c07a81-9dec-4118-af1f-02ecad340f07
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 86e64c8072849c0919b4feadff100d110c20f7dd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Représente la durée, en minutes, de la planification d’un rendez-vous. La valeur doit être entre les valeurs dispidApptStartWhole et dispidApptEndWhole.
+ms.openlocfilehash: 10ac05ffa8e29760b367df37c0439d5dddf8cae0
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575315"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763511"
 ---
 # <a name="pidlidappointmentduration-canonical-property"></a>Propriété canonique PidLidAppointmentDuration
 
@@ -27,7 +27,7 @@ ms.locfileid: "59575315"
   
 Représente la durée, en minutes, de la planification d’un rendez-vous.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptDuration  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

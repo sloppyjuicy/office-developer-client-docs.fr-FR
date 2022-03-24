@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 95db96ef-f95f-41da-b216-f717c23bffd2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6411a725ca786f7ae9143d32fc192aa0d721088d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 96b35884a98312b0efb1d297481967ce6df1bb54
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578423"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720765"
 ---
 # <a name="ulrelease"></a>UlRelease
 
@@ -27,7 +27,7 @@ ms.locfileid: "59578423"
   
 Fournit une autre méthode pour appeler la méthode OLE **IUnknown::Release**. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -41,9 +41,9 @@ ULONG UlRelease(
 
 ## <a name="parameters"></a>Paramètres
 
- _sous-président_
+ _sous-groupe_
   
-> [in] Pointeur vers une interface dérivée de l’interface **IUnknown,** en d’autres termes toute interface MAPI. 
+> [in] Pointeur vers une interface dérivée de l’interface **IUnknown** , en d’autres termes toute interface MAPI. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -59,10 +59,10 @@ MAPI_E_CALL_FAILED
 
 Le nombre de références est le nombre de pointeurs existants vers l’objet à libérer. 
   
-Si le  _paramètre de contrôle_ est NULL, la fonction renvoie immédiatement sans appeler **IUnknown::Release**
+Si le  _paramètre de contrôle_ est NULL, la fonction renvoie immédiatement sans **appeler IUnknown::Release**
   
- **UlRelease renvoie** la valeur renvoyée par la méthode **IUnknown::Release,** qui peut être égale au nombre de références de l’objet à libérer. 
+ **UlRelease renvoie** la valeur renvoyée par la méthode **IUnknown::Release** , qui peut être égale au nombre de références de l’objet à libérer. 
   
-Pour plus d’informations **sur IUnknown::Release,** voir [Implementing the IUnknown Interface](implementing-the-iunknown-interface.md). 
+Pour plus d’informations **sur IUnknown::Release**, voir [Implementing the IUnknown Interface](implementing-the-iunknown-interface.md). 
   
 

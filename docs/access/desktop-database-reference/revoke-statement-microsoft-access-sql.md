@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 41ae1f88b89a7fb0293b4f0cd3df500687edd799
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cf5516b1c4cbed1c606f0b30e4c28b8151782acd
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580887"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725328"
 ---
 # <a name="revoke-statement-microsoft-access-sql"></a>REVOKE, instruction (Microsoft Access SQL)
 
@@ -26,20 +26,20 @@ Révoque des privilèges spécifiques à un utilisateur ou à un groupe existant
 
 ## <a name="syntax"></a>Syntaxe
 
-REVOKE {*privilège* \[ , *privilège*, ... \] } ON {TABLE *|* OBJECT, *objet*|
+REVOKE {*privilège*\[, *privilège*, ...\]} ON {TABLE *|* OBJECT *, objet*|
 
-CONTENEUR *CONTAINTER*} FROM {*authorizationname* \[ , *authorizationname*, ... \] }
+CONTENEUR *CONTAINTER}* FROM {*authorizationname*\[, *authorizationname*, ...\]}
 
 L'instruction REVOKE est composée des arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Élément</p></th>
+<th><p>Argument</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

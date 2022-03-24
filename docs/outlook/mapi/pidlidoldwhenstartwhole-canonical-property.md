@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 73064a22-68bf-4d3f-91f5-1eec807debf8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 74f9ce5aaf77cb97094c08fe4a6796bb610b2df4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique la valeur d’origine de la propriété dispidApptStartWhole avant une mise à jour de réunion. Cette propriété n’est pas obligatoire.
+ms.openlocfilehash: 60ab5c17d87fccde3b32980761f8b2b7e4977a17
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555642"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63742105"
 ---
 # <a name="pidlidoldwhenstartwhole-canonical-property"></a>Propriété canonique PidLidOldWhenStartWhole
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555642"
   
 Indique la valeur d’origine de la propriété **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) avant une mise à jour de réunion.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidOldWhenStartWhole  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |

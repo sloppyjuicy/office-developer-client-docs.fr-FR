@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 574ffba36f96ae370fa70da268b3bfa63627619f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique l’état de réception des messages qui demandent des reçus Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: b89a6ec3c9718a564faa00a69f77e3d6679ce512
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555173"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763487"
 ---
 # <a name="pidtagreportdisposition-canonical-property"></a>Propriété canonique PidTagReportDisposition
 
@@ -25,7 +25,7 @@ ms.locfileid: "59555173"
   
 Indique l’état de réception des messages qui demandent des reçus. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORT_DISPOSITION, PR_REPORT_DISPOSITION_A, PR_REPORT_DISPOSITION_W  <br/> |
 |Identificateur :  <br/> |0x0080  <br/> |
@@ -52,7 +52,7 @@ Les valeurs valides sont les suivantes :
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

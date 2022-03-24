@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 747f7ba8-42d3-4be3-9908-269e9a347c7f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1c355489d927920d5d1e058f2e8b96c2915830dd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette propriété spécifie si un expéditeur de message souhaite recevoir une notification de non-réception pour un destinataire spécifié.
+ms.openlocfilehash: 1b84974b1d18897c9ee88401cda5e3a905b9926c
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629720"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741830"
 ---
 # <a name="pidtagnonreceiptnotificationrequested-canonical-property"></a>Propriété canonique PidTagNonReceiptNotificationRequested
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629720"
   
 Contient TRUE si un expéditeur de message souhaite recevoir une notification de non-réception pour un destinataire spécifié.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_NON_RECEIPT_NOTIFICATION_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0C06  <br/> |

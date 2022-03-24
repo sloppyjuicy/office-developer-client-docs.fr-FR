@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5cd1fbb0-a7d3-49d5-80d0-08a7a2b8831f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 94e5e113c2a507ac3a3e9fc21ac5d6d65da4250e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le modèle du fichier joint au document pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 125e1fdacf7bd4f7c6697710b8dab1added9ce4a
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609984"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763529"
 ---
 # <a name="pidnametemplate-canonical-property"></a>Propriété canonique PidNameTemplate
 
@@ -27,9 +27,9 @@ ms.locfileid: "59609984"
   
 Spécifie le modèle du fichier joint au document.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms convivial :  <br/> |Aucune  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |Modèle  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1e5f0f83-c40b-4b3a-8492-61d1b53b1e3c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a0de870dc87a09ae43f1365d18d549c9c50a095f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fc80b02cd1f8d7cfdc9d0c5cc415f96ef2e8e15a
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564035"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722796"
 ---
 # <a name="pidlidappointmentstateflags-canonical-property"></a>Propriété canonique PidLidAppointmentStateFlags
 
@@ -27,7 +27,7 @@ ms.locfileid: "59564035"
   
 Spécifie un champ de bits qui décrit l’état de l’objet.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptStateFlags  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
@@ -49,7 +49,7 @@ R (asfReceived, 0x00000002)
     
 C (asfCanceled, 0x00000004)
   
-> Cet indicateur indique que l’objet de réunion représenté par l’objet a été annulé.
+> Cet indicateur indique que l’objet réunion représenté par l’objet a été annulé.
     
 ## <a name="related-resources"></a>Ressources connexes
 

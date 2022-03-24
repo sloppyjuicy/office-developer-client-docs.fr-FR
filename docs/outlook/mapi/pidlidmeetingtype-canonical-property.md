@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 290b290c-7836-4a7e-bf1a-8d0225a07e56
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a0373a1283b1386c0f5baff942334d18d98a78e7
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Indique le type de demande de réunion ou de mise à jour de réunion. La valeur de cette propriété doit être définie sur l’une des valeurs décrites ici.
+ms.openlocfilehash: 44f624f5d685596866905842989c279a17c83b1d
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776234"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741773"
 ---
 # <a name="pidlidmeetingtype-canonical-property"></a>Propriété canonique PidLidMeetingType
 
@@ -27,7 +27,7 @@ ms.locfileid: "62776234"
   
 Indique le type de demande de réunion ou de mise à jour de réunion.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidMeetingType  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |

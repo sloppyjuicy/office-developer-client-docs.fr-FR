@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 5750cf95-8581-43a7-a465-f4114b2939f2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bfb5b873f75cc138a946c57523167fca1ac3d5d9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 71e70d6843e521931c8d6cbcf36e3f240d4f4523
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571184"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721873"
 ---
 # <a name="pidtagcomment-canonical-property"></a>Propriété canonique PidTagComment
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571184"
   
 Contient un commentaire sur l’objectif ou le contenu d’un objet. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_COMMENT, PR_COMMENT_A, PR_COMMENT_W  <br/> |
 |Identificateur :  <br/> |0x3004  <br/> |
@@ -44,7 +44,7 @@ Le contenu de la chaîne est défini par l’utilisateur de messagerie.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   

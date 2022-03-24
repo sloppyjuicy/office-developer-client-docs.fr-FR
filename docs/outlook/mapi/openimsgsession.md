@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f75229e3-5f44-4298-8706-9eddf0ef124c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f22fb10c9e51344ee44889779ca23e0f10f56f92
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 68d3cf354c6aca479e0794177a0ca86e8bf94d08
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374277"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721692"
 ---
 # <a name="openimsgsession"></a>OpenIMsgSession
 
@@ -25,7 +25,7 @@ ms.locfileid: "63374277"
   
 Crée et ouvre une session de message qui groupe les messages créés au sein de celle-ci.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Imessage.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

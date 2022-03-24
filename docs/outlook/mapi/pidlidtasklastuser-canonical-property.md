@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 914c55e9-cb36-46a4-b5ee-382413fa25f9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9c83af4a6b5a784d2aeb525fab598e351fba1278
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Nomme l’utilisateur le plus récent qui était le propriétaire de la tâche. Avant qu’un client envoie une demande de tâche, une acceptation ou un rejet, il définit cette propriété.
+ms.openlocfilehash: f91777d0514b8cc5a00e0049694240c6ebc41344
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620302"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741676"
 ---
 # <a name="pidlidtasklastuser-canonical-property"></a>Propriété canonique PidLidTaskLastUser
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620302"
   
 Nomme l’utilisateur le plus récent qui était le propriétaire de la tâche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskLastUser  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
@@ -37,7 +37,7 @@ Nomme l’utilisateur le plus récent qui était le propriétaire de la tâche.
    
 ## <a name="remarks"></a>Remarques
 
-Avant qu’un client envoie une demande de tâche, il définit cette propriété sur le nom de l’expéditeur de la tâche. Avant qu’un client envoie une acceptation de tâche, il définit cette propriété sur le nom de la personne à qui la tâche est assignée. Avant qu’un client envoie un rejet de tâche, il définit cette propriété sur le nom de l’assigneur de tâche.
+Avant qu’un client envoie une demande de tâche, il définit cette propriété sur le nom de l’assigneur de tâche. Avant qu’un client envoie une acceptation de tâche, il définit cette propriété sur le nom de la personne à qui la tâche a été assignée. Avant qu’un client envoie un rejet de tâche, il définit cette propriété sur le nom de l’assigneur de tâche.
   
 ## <a name="related-resources"></a>Ressources connexes
 

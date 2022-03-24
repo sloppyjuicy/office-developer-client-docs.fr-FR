@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 49311177-17a5-415c-bcb2-dfeb48a5b491
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d16f5d8663953f0a5b45b52d40aa5e8b6c21bbaf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cf146e0c9cf2225d09a34d4f0a851a3fddc233a7
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599289"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725491"
 ---
 # <a name="pidtagtelexnumber-canonical-property"></a>Propriété canonique PidTagTelexNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599289"
   
 Contient le numéro de téléxyx du destinataire.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_TELEX_NUMBER, PR_TELEX_NUMBER_A, PR_TELEX_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A2C  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés fournissent des informations d’identification et d’accès p
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

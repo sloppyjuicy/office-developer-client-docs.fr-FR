@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ef82a75f-a09f-4880-ba6a-e739b16422a3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 88831a9afa71e9c43b031d0c4e552b8e6d886e58
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e691b20f9b454b0e9ea43ec19af3d799905c3450
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555040"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724994"
 ---
 # <a name="pidtagsearchfolderefpflags-canonical-property"></a>Propriété canonique PidTagSearchFolderEfpFlags
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555040"
   
 Contient des indicateurs de dossier étendu qui s’appliquent au conteneur de dossiers de recherche pour le dossier de recherche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_WB_SF_EFP_FLAGS  <br/> |
 |Identificateur :  <br/> |0x6848  <br/> |
@@ -36,7 +36,7 @@ Contient des indicateurs de dossier étendu qui s’appliquent au conteneur de d
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit contenir spécifiquement les indicateurs dans la propriété **PR_EXTENDED_FOLDER_FLAGS** ([PidTagExtendedFolderFlags](pidtagextendedfolderflags-canonical-property.md)) et la sous-propriété **ExtendedFlags,** dans le champ b pour le dossier. Pour plus d’informations sur les indicateurs de dossier, [voir [MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx).
+Cette propriété doit contenir spécifiquement les indicateurs de la propriété **PR_EXTENDED_FOLDER_FLAGS** ([PidTagExtendedFolderFlags](pidtagextendedfolderflags-canonical-property.md)) et de la sous-propriété **ExtendedFlags** , dans le champ b du dossier. Pour plus d’informations sur les indicateurs de dossier, [voir [MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,15 +44,15 @@ Cette propriété doit contenir spécifiquement les indicateurs dans la proprié
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations de manipulation d’une configuration de liste de dossiers de recherche.
+> Spécifie les propriétés et les opérations de manipulation d’une configuration de liste de dossiers de recherche.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Spécifie l’emplacement et les propriétés des données de configuration client et serveur, telles que les listes de catégories partagées et les heures de travail.
+> Spécifie l’emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

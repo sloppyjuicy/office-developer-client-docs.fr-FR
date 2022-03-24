@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ead35049-e60e-4b46-bf12-f73d77cd36b2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2ba6fc19d52e0dbc54c863e0906bf8ff56b512a2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 40f7f7171037a62e8f5b4c7dc2be9e34af733c74
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616676"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724032"
 ---
 # <a name="pidlidpropertydefinitionstream-canonical-property"></a>Propriété canonique PidLidPropertyDefinitionStream
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616676"
   
 Représente les définitions des champs définis par l’utilisateur et les paramètres de liaison de données des champs intégrés d’un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidPropDefStream  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -59,9 +59,9 @@ Mapidefs.h
 
 
 
-[Outlook Éléments et champs](outlook-items-and-fields.md)
+[Outlook et champs](outlook-items-and-fields.md)
   
-[Ajouter une définition pour un nouveau champ User-Defined de recherche](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Ajouter une définition pour un nouveau User-Defined de recherche](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [Exemple de flux PropertyDefinition](propertydefinition-stream-sample.md)
   

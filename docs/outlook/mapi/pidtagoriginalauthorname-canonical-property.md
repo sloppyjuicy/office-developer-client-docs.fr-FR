@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: beb23742-d844-4d90-9b13-1ad376d4206c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fc1a60c72bcf28b5395c92f22993e2da21f3a60c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom complet de l’auteur de la première version d’un message, c’est-à-dire le message avant d’être transmis ou de répondre.
+ms.openlocfilehash: ff954fbe7abf424f7196b85e90e4986a59b27dd8
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595188"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762136"
 ---
 # <a name="pidtagoriginalauthorname-canonical-property"></a>Propriété canonique PidTagOriginalAuthorName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595188"
   
 Contient le nom complet de l’auteur de la première version d’un message, c’est-à-dire le message avant d’être transmis ou de répondre.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_AUTHOR_NAME, PR_ORIGINAL_AUTHOR_NAME_A, PR_ORIGINAL_AUTHOR_NAME_W  <br/> |
 |Identificateur :  <br/> |0x004D  <br/> |
@@ -46,7 +46,7 @@ Les propriétés d’auteur d’origine permettent la conservation des informati
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   

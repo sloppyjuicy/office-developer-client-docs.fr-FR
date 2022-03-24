@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a2d0c3e3-ba49-4e2c-bcfd-27cc5ff78c5b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fe63ad998475bc27bbe662d06a9ec05194681009
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 662b76c5d69d3841864a2d4e17cef818a1d49f63
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595377"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721880"
 ---
 # <a name="pidnamebytecount-canonical-property"></a>Propriété canonique PidNameByteCount
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595377"
   
 Spécifie la taille, en octets, du fichier joint au document.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |

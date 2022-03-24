@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 90333258-8913-4f98-aefb-4cc2ab34abcf
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8f59a78e3a06665bfe8812971d54d362e8d26e71
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si cet utilisateur de messagerie est spécifiquement nommé comme destinataire principal (À), Cc ou Cci de ce message et ne fait pas partie d’une liste de distribution.
+ms.openlocfilehash: ff6d38a98ec369c0d7162eb0d3778ecf25c33a0a
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629808"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741552"
 ---
 # <a name="pidtagmessagerecipientme-canonical-property"></a>Propriété canonique PidTagMessageRecipientMe
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629808"
   
 Contient TRUE si cet utilisateur de messagerie est spécifiquement nommé comme destinataire principal (À), Copie carbone (CC) ou Copie carbone non voyante (Cci) de ce message et ne fait pas partie d’une liste de distribution. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_RECIP_ME  <br/> |
 |Identificateur :  <br/> |0x0059  <br/> |
@@ -36,13 +36,13 @@ Contient TRUE si cet utilisateur de messagerie est spécifiquement nommé comme 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété fournit un moyen pratique de déterminer si le nom d’utilisateur apparaît explicitement dans la liste des destinataires, sans examiner toutes les entrées de la liste. La valeur représente l’opération **logique OR** des propriétés **PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)) et **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md)), et les informations CCI (qui n’apparaissent pas dans une propriété). 
+Cette propriété fournit un moyen pratique de déterminer si le nom d’utilisateur apparaît explicitement dans la liste des destinataires, sans examiner toutes les entrées de la liste. La valeur représente l’opération **logique OR** des propriétés **PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)) et **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md)), ainsi que les informations Cci (qui n’apparaissent pas dans une propriété). 
   
 Cette propriété permet la gestion automatisée des messages reçus au moment de la réception. À l’option du fournisseur de transport, cette propriété contient false ou n’est pas incluse si l’utilisateur de messagerie n’est pas répertorié directement dans la table des destinataires. 
   
 La remise des messages qui résulte de l’extension de la liste de distribution ne provoque pas la mise en place de cette propriété. Le destinataire doit être nommé explicitement. 
   
-Les messages non envoyés ne définissent généralement pas cette **propriété, PR_MESSAGE_CC_ME** ou **PR_MESSAGE_TO_ME**. S’ils sont présents dans des messages accessibles par l’utilisateur dans des magasins de messages publics, dans des magasins privés d’autres utilisateurs, dans des fichiers sur disque ou incorporés à d’autres messages reçus, ils contiennent généralement les valeurs pour lesquelles ils ont été définies la dernière fois qu’un fournisseur de transport a remis le message. 
+Les messages non envoyés ne définissent généralement pas cette propriété, **PR_MESSAGE_CC_ME** ou **PR_MESSAGE_TO_ME**. S’ils sont présents dans des messages accessibles par l’utilisateur dans des magasins de messages publics, dans des magasins privés d’autres utilisateurs, dans des fichiers sur disque ou incorporés à d’autres messages reçus, ils contiennent généralement les valeurs à laquelle ils ont été fixés la dernière fois qu’un fournisseur de transport a remis le message. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -50,7 +50,7 @@ Les messages non envoyés ne définissent généralement pas cette **propriété
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

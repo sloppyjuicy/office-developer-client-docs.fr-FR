@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 93f40161-d4e5-4ef9-a55f-cee62529fc04
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8e35032463212781ded73f4759ef67217c590ebb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f5e603269c3cbb39c21e70bbbf7357bd0f898ab2
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560801"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721798"
 ---
 # <a name="pidtagoriginalsentrepresentingaddresstype-canonical-property"></a>Propriété canonique PidTagOriginalSentRepresentingAddressType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59560801"
   
 Contient le type d’adresse de l’utilisateur de messagerie au nom de qui le message d’origine a été envoyé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE, PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_A, PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_W  <br/> |
 |Identificateur :  <br/> |0x0068  <br/> |
@@ -46,7 +46,7 @@ Une application cliente envoyant un message pour le compte d’un autre client d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

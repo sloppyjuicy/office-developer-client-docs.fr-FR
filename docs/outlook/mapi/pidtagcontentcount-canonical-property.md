@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 27c75031-a968-4636-98a6-4a5b7422f57c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 69c5ab6da80ae4f1e32dfe215338d0eb0872a499
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 415b0ed99f99c511227b0af2c022c6e790070457
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616536"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725069"
 ---
 # <a name="pidtagcontentcount-canonical-property"></a>Propriété canonique PidTagContentCount
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616536"
   
 Contient le nombre de messages dans un dossier, tel que calculé par la boutique de messages.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTENT_COUNT  <br/> |
 |Identificateur :  <br/> |0x3602  <br/> |
@@ -36,9 +36,9 @@ Contient le nombre de messages dans un dossier, tel que calculé par la boutique
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété calculée par la boutique de messages est utilisée à deux fins différentes, bien qu’associées. Sur un objet MapiFolder, il contient le nombre de messages dans un dossier. Dans une ligne de titre dans les tableaux MAPI catégorisés, il contient le nombre de messages non associés dans la catégorie correspondant à cette ligne de titre.
+Cette propriété calculée par la magasin de messages est utilisée à deux fins différentes, bien qu’associées. Sur un objet MapiFolder, il contient le nombre de messages dans un dossier. Dans une ligne de titre des tableaux MAPI classés, elle contient le nombre de messages non associés dans la catégorie correspondant à cette ligne de titre.
   
-Le numéro contenu dans cette propriété n’inclut pas les entrées associées dans le dossier. **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)) contient le nombre de messages non lus pour le dossier. Une application cliente peut lire, mais pas modifier cette propriété et **PR_CONTENT_UNREAD**. 
+Le numéro contenu dans cette propriété n’inclut pas les entrées associées dans le dossier. **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)) contient le nombre de messages non lus pour le dossier. Une application cliente peut lire, mais ne peut pas modifier cette **propriété et PR_CONTENT_UNREAD**. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Le numéro contenu dans cette propriété n’inclut pas les entrées associées
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Microsoft Exchange Server protocole.
+> Fournit des références aux spécifications Microsoft Exchange Server de protocole.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   

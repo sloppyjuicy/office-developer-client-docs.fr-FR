@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a98b0b26-9b19-44ca-9b4e-0ad4d1c54325
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 02e8d4e45d8528ef2484898d75008f38a96ca9f8
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Crée un nouvel objet IMessage au-dessus d’un objet OLE IStorage existant, à utiliser dans une session de message.
+ms.openlocfilehash: 8fe538bb09b898472b8c3add076b2207d7a97cc0
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374284"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762374"
 ---
 # <a name="openimsgonistg"></a>OpenIMsgOnIStg
 
@@ -25,7 +25,7 @@ ms.locfileid: "63374284"
   
 Crée un nouvel [objet IMessage](imessageimapiprop.md) au-dessus d’un objet OLE **IStorage** existant, à utiliser dans une session de message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Imessage.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

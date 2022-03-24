@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 805dcb6c-f405-4c4d-8bca-af4bd9cd44fa
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e5ad825939725a1eb4bc46bf39cce646a53f2abf
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Indique le rôle de l’utilisateur actuel par rapport à la tâche Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: fdc55325f624f4dd1523cc905a71c2d34f6717b0
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773186"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763004"
 ---
 # <a name="pidlidtaskownership-canonical-property"></a>Propriété canonique PidLidTaskOwnership
 
@@ -27,7 +27,7 @@ ms.locfileid: "62773186"
   
 Indique le rôle de l’utilisateur actuel par rapport à la tâche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskOwnership  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b1e166fd-7e15-4371-8510-63001317fb90
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 851c08abcb1d75d6649bb9b5f46618ffa4500d0c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée d’objet d’annuaire d’un membre de la table liste de contrôle d’accès système (SACL).
+ms.openlocfilehash: 1d044f39d0a074fd8639a80b3af23388c1e6d98f
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609858"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763655"
 ---
 # <a name="pidtagmemberentryid-canonical-property"></a>Propriété canonique PidTagMemberEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609858"
   
 Contient l’identificateur d’entrée d’objet d’annuaire d’un membre de la table liste de contrôle d’accès système (SACL).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MEMBER_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x0FFF  <br/> |

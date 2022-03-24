@@ -1,5 +1,5 @@
 ---
-title: Propri t canonique PidLidEmail2DisplayName
+title: Propriété canonique PidLidEmail2DisplayName
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - COM
 ms.assetid: 6ea0ff57-7237-46cb-99fa-716c943383e0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 41a5d4ef720e0439b3e0de97cbc7c081324c3dfd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 000a198062789a44e39a558410e46a536bcdb572
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555831"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724590"
 ---
-# <a name="pidlidemail2displayname-canonical-property"></a>Propri t canonique PidLidEmail2DisplayName
+# <a name="pidlidemail2displayname-canonical-property"></a>Propriété canonique PidLidEmail2DisplayName
 
   
   
@@ -27,7 +27,7 @@ ms.locfileid: "59555831"
   
 Spécifie le nom complet lisible par l’utilisateur pour la deuxième adresse de messagerie.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidEmail2DisplayName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

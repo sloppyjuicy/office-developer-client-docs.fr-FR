@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: b94d848e-868a-5d5e-ad82-39ed9bd5b357
 description: Spécifie les conditions météorologiques d’un emplacement.
-ms.openlocfilehash: 8882883678db2ac3e0e7f9c4627844c7bd8f2645
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: c7c841fe3f55f26a2a3abf3e5e33a1a0595a1fc9
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770625"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722494"
 ---
 # <a name="weathertype-complextype-outlook-weather-information-schema"></a>complexType weatherType (Outlook Weather Information Schema)
 
@@ -21,7 +21,7 @@ Spécifie les conditions météorologiques d’un emplacement.
   
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Fichier de schéma** <br/> |getweatherinfo.xsd  <br/> |

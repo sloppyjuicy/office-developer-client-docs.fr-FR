@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 539aa31d-7dec-4dbb-93f7-fa060c43565a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2a1382a8dc0c0b3a04bc159e0f8a2a533c82b427
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: La MAPIOFFLINE_CREATEINFO structure est utilisée avec HrCreateOfflineObj.
+ms.openlocfilehash: c6504183fe637fb3ca48685cbc984c9e59fde598
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63371099"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741839"
 ---
 # <a name="mapioffline_createinfo"></a>MAPIOFFLINE_CREATEINFO
 
@@ -55,7 +55,7 @@ typedef struct
   
 > Masque de bits des indicateurs de fonctionnalité suivants.
 
-|||
+|Valeur |Description |
 |:-----|:-----|
 |MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |L’objet hors connexion est capable de passer hors connexion. |
 |MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |L’objet hors connexion est capable de passer en ligne. |

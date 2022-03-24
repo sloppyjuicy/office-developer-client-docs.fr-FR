@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 908c2d9f-53f4-4aa8-b309-2f3ac2dca5b5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0d58eafae88f8f384b83defc4630963359567273
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la date et l’heure de début d’un rendez-vous géré par une application de planification. Les applications de planification doivent définir à la fois cette propriété et PR_END_DATE.
+ms.openlocfilehash: a20e6ff427a20a80405a625c8578f8f674045880
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586886"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762787"
 ---
 # <a name="pidtagstartdate-canonical-property"></a>Propriété canonique PidTagStartDate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59586886"
   
 Contient la date et l’heure de début d’un rendez-vous géré par une application de planification.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_START_DATE  <br/> |
 |Identificateur :  <br/> |0x0060  <br/> |
@@ -36,7 +36,7 @@ Contient la date et l’heure de début d’un rendez-vous géré par une applic
    
 ## <a name="remarks"></a>Remarques
 
-Les applications de planification doivent définir à la fois cette **propriété et PR_END_DATE** ([PidTagEndDate](pidtagenddate-canonical-property.md)) lors de l’envoi de demandes de réunion.
+Les applications de planification doivent définir cette propriété et **les** PR_END_DATE ([PidTagEndDate](pidtagenddate-canonical-property.md)) lors de l’envoi de demandes de réunion.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Les applications de planification doivent définir à la fois cette **propriét�
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

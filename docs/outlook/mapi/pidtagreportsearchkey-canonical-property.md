@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4f4c40b-b6a8-45f3-b750-07b92c535322
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7d04784153467cf72a4ef09aeea46be18276ebf0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la clé de recherche pour le destinataire qui doit obtenir des rapports pour ce message. Une application cliente qui doit router des rapports doit définir cette propriété au moment de la soumission.
+ms.openlocfilehash: 829d2e176bcecfa45efe8316cb2b872f6db2ef91
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587152"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762563"
 ---
 # <a name="pidtagreportsearchkey-canonical-property"></a>Propriété canonique PidTagReportSearchKey
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587152"
   
 Contient la clé de recherche pour le destinataire qui doit obtenir des rapports pour ce message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORT_SEARCH_KEY  <br/> |
 |Identificateur :  <br/> |0x0054  <br/> |
@@ -46,7 +46,7 @@ Une application cliente qui doit router des rapports vers un autre utilisateur d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

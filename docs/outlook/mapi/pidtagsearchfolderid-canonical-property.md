@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2a587d8c-f28b-45a6-a3da-cc33052988dc
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7d806d5306b2584e163ad48b0086b55e89b5744b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un identificateur global unique (GUID) qui identifie le dossier de recherche pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: abcd59fcbf103d11d793bcdb38eb409729edb38c
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587005"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762234"
 ---
 # <a name="pidtagsearchfolderid-canonical-property"></a>Propriété canonique PidTagSearchFolderId
 
@@ -27,12 +27,12 @@ ms.locfileid: "59587005"
   
 Contient un identificateur global unique (GUID) qui identifie le dossier de recherche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_WB_SF_ID  <br/> |
 |Identificateur :  <br/> |0x6842  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Rechercher  <br/> |
+|Domaine :  <br/> |Recherche  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -40,11 +40,11 @@ Contient un identificateur global unique (GUID) qui identifie le dossier de rech
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations de manipulation d’une configuration de liste de dossiers de recherche.
+> Spécifie les propriétés et les opérations de manipulation d’une configuration de liste de dossiers de recherche.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

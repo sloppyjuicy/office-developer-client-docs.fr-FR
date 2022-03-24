@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 07500bd0-bcff-4b03-8ed3-80508875e253
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1f72757c8a2104dd1f936d893fa226192981e740
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ccb2508ad7428e8e55b196b06b8b23ae13852707
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583708"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722282"
 ---
 # <a name="pidlidtaskassigners-canonical-property"></a>Propriété canonique PidLidTaskAssigners
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583708"
   
 Contient une pile d’entrées qui représentent les personnes qui affectent des tâches. L’assigneur de tâches le plus récent apparaît en haut de la pile.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskMyDelegators  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
@@ -37,7 +37,7 @@ Contient une pile d’entrées qui représentent les personnes qui affectent des
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque le client reçoit une demande de tâche, il l’append à cette propriété, dont la structure est définie dans [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx), une entrée qui représente l’expéditeur de la tâche. Lorsque le client reçoit un rejet de tâche, il supprime la dernière entrée de l’assigneur de la tâche de cette propriété. Lorsque le client envoie une réponse de tâche, il l’envoie au dernier assigneur de tâche répertorié dans la valeur de cette propriété.
+Lorsque le client reçoit une demande de tâche, il l’append à cette propriété, dont la structure est définie dans [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx), une entrée qui représente l’expéditeur de la tâche. Lorsque le client reçoit un rejet de tâche, il supprime la dernière entrée de l’assigneur de la tâche de cette propriété. Lorsque le client envoie une réponse de tâche, il l’envoie au dernier assigneur de tâches répertorié dans la valeur de cette propriété.
   
 ## <a name="related-resources"></a>Ressources connexes
 

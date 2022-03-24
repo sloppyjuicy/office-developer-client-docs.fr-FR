@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 06fe4d20-c3f5-4f4f-b7b7-5a4f5257079b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 218bf50b958573ad143e62dc20c1925502bdf0cb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 17c3c2cfdf117f49e99b189cd58c66af6bfa2f30
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630403"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722532"
 ---
 # <a name="pidliddistributionlistname-canonical-property"></a>Propriété canonique PidLidDistributionListName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630403"
   
 Spécifie le nom de la liste de distribution personnelle.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidDLName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

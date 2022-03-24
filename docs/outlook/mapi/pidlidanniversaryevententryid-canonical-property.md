@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 177b2b87-7a06-4d53-8f03-5bec5632c2dd
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9de7bf8d2325b49a643122ddcba251b727965bdb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie l’identificateur d’entrée du rendez-vous qui représente l’anniversaire du contact.
+ms.openlocfilehash: 6ebb1db18236d02863c4f6b62a25c96612a50633
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567122"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741690"
 ---
 # <a name="pidlidanniversaryevententryid-canonical-property"></a>Propriété canonique PidLidAnniversaryEventEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59567122"
   
 Spécifie l’identificateur d’entrée du rendez-vous qui représente l’anniversaire du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidAnniversaryEventEID  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

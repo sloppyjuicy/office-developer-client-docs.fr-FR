@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3cab23b6-f0e3-4703-a83b-12a617537651
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b65c0c14ba99670d1cd13a053ebe06a514ffe83c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a0f6c068d54f834ed2c680efc5dfec8dadff3a18
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624950"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723228"
 ---
 # <a name="pidlidfshouldtnef-canonical-property"></a>Propriété canonique PidLidFShouldTNEF
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624950"
   
 Indique s’il faut encoder un élément au format TNEF (Transport Neutral Encapsulation Format). 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFShouldTNEF  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 00377e78-a208-4942-a7a6-893b2a71ab0b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3dcdcdcbcc8b6d8ece3cfc0bff31253bfe6f1f20
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9deb8b5fa3d3597e62520fd12dd7f3a64865c05c
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600175"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721829"
 ---
 # <a name="pidtagdisplaycc-canonical-property"></a>Propriété canonique PidTagDisplayCc
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600175"
   
 Contient une liste ASCII des noms d’affichage des destinataires des messages en copie carbone (CC), séparés par des points-virgules (;). 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DISPLAY_CC, PR_DISPLAY_CC_A, PR_DISPLAY_CC_W  <br/> |
 |Identificateur :  <br/> |0x0E03  <br/> |
@@ -36,19 +36,19 @@ Contient une liste ASCII des noms d’affichage des destinataires des messages e
    
 ## <a name="remarks"></a>Remarques
 
-La magasin de messages calcule ces propriétés sur les objets de message à l’aide de la méthode [IMessage::ModifyRecipients.](imessage-modifyrecipients.md) La magasin de messages conserve également ces propriétés afin qu’elle reflète toujours le dernier état enregistré d’un message. La valeur est synchronisée au moment de chaque appel à [IMAPIProp::SaveChanges](imapiprop-savechanges.md). 
+La magasin de messages calcule ces propriétés sur les objets de message à l’aide de la méthode [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . La magasin de messages conserve également ces propriétés afin qu’elles reflètent toujours le dernier état enregistré d’un message. La valeur est synchronisée au moment de chaque appel à [IMAPIProp::SaveChanges](imapiprop-savechanges.md). 
   
-Si un message ne possède aucun destinataire en copie carbone, la boutique de messages doit répondre à un appel [IMAPIProp::GetProps](imapiprop-getprops.md) avec une valeur de retour de S_OK et une chaîne vide pour ces propriétés. 
+Si un message ne possède aucun destinataire en copie carbone, la magasin de messages doit répondre à un appel [IMAPIProp::GetProps](imapiprop-getprops.md) avec une valeur de retour de S_OK et une chaîne vide pour ces propriétés. 
   
-En raison de la nécessité possible de la localisation, MAPI fournit les instructions suivantes pour tous les noms de destinataires :
+En raison de la nécessité possible de localisation, MAPI fournit ces instructions pour tous les noms de destinataires :
   
 - Tous les noms doivent pouvoir être localisées. 
     
-- Le point-virgule doit être le caractère utilisé pour séparer les noms dans les propriétés **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)), **PR_DISPLAY_CC** et **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)). Les points-virgules ne sont pas autorisés dans les noms de destinataires dans MAPI. 
+- Le point-virgule doit être le caractère utilisé pour séparer les noms des propriétés **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)), **PR_DISPLAY_CC** et **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)). Les points-virgules ne sont pas autorisés dans les noms de destinataires dans MAPI. 
     
 - Les clients doivent traduire chaque point-virgule rencontré dans cette propriété en caractère séparateur traduit avant de rendre les informations de propriété visibles dans l’interface utilisateur. 
     
-- Lors du forwarding de messages, les clients n’ont pas besoin de traduire les caractères de séparation sur la ligne de destinataire en copie carbone. 
+- Lors du forwarding de messages, les clients n’ont pas besoin de traduire les caractères de séparation sur la ligne du destinataire en copie carbone. 
     
 ## <a name="related-resources"></a>Ressources connexes
 

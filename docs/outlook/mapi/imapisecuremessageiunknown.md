@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e6e63104-23db-41a7-a961-d25e2017822e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 41c8d242942b141d8554fdaebb1a9a0e8d49cb44
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Définit les méthodes utilisées pour gérer les messages sécurisés pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: f17d26de42b720d9cc33bcf588e6bec943cf6bae
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784096"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762397"
 ---
 # <a name="imapisecuremessage--iunknown"></a>IMAPISecureMessage : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62784096"
   
 Définit les méthodes utilisées pour gérer les messages sécurisés.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Exchsec.h  <br/> |
 |Exposé par :  <br/> |[IMessage : IMAPIProp](imessageimapiprop.md) <br/> |
@@ -38,7 +38,7 @@ Définit les méthodes utilisées pour gérer les messages sécurisés.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |Membre d’espace réservé. |Non pris en charge ou documenté. |
 |Membre d’espace réservé. |Non pris en charge ou documenté. |

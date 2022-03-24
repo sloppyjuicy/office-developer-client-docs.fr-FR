@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 60b11733-20c2-4fe9-8406-c3103b2852ba
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c6c691b344004cc4f4659cdde1ba869779a5238e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un autre numéro de téléphone pour le destinataire. Ces propriétés sont définies par le destinataire et son organisation.
+ms.openlocfilehash: 68d8a344157c128019f6dc28f594e3d6a38fa185
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583316"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762702"
 ---
 # <a name="pidtagothertelephonenumber-canonical-property"></a>Propriété canonique PidTagOtherTelephoneNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583316"
   
 Contient un autre numéro de téléphone pour le destinataire.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_OTHER_TELEPHONE_NUMBER, PR_OTHER_TELEPHONE_NUMBER_A, PR_OTHER_TELEPHONE_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A1F  <br/> |
@@ -46,7 +46,7 @@ Ces propriétés sont utilisées pour un numéro de téléphone autre que celui 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

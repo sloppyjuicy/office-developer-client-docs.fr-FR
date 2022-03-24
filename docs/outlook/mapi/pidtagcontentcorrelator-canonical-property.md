@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 0bf78879-2f9f-4c29-b1f4-2f4882d8464d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: baad9a247687f9753a5c63d27c7e9cdc07b74e5e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 140f12157dca386ed21e895a68651dcea456a82a
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616543"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63716261"
 ---
 # <a name="pidtagcontentcorrelator-canonical-property"></a>Propriété canonique PidTagContentCorrelator
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616543"
   
 Contient une valeur que l’expéditeur du message peut utiliser pour faire correspondre un état au message d’origine.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTENT_CORRELATOR  <br/> |
 |Identificateur :  <br/> |0x0007  <br/> |

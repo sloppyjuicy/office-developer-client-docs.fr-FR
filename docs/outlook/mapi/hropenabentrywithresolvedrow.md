@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: ce3a583c-16a9-4268-9476-926d2780eae5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 938e862ededa7a809c3847be79acc1430c7a5f0f
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 033fc75ca8785f27a1fbd81405bb215e9c932e3f
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63376643"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63716360"
 ---
 # <a name="hropenabentrywithresolvedrow"></a>HrOpenABEntryWithResolvedRow
 
@@ -21,7 +21,7 @@ ms.locfileid: "63376643"
   
 Effectue la même fonction que [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) , sauf qu’il obtient automatiquement **l’emsabpUID** à partir de la ligne résolue et ouvre **l’entryID**.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |abhelp.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 52fa57be-746d-4b80-92b6-2ba83f796325
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7fd6589a956bb6d477da5744cc62677473cfa1df
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique à l’organisateur le dernier numéro de séquence qui a été envoyé à un participant. Cette propriété n’a aucune signification pour un participant.
+ms.openlocfilehash: c15d7e2848d345d0be36e9f05a6cfe53d0a380aa
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567094"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741534"
 ---
 # <a name="pidlidappointmentlastsequence-canonical-property"></a>Propriété canonique PidLidAppointmentLastSequence
 
@@ -27,7 +27,7 @@ ms.locfileid: "59567094"
   
 Indique à l’organisateur le dernier numéro de séquence qui a été envoyé à un participant.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptLastSequence  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

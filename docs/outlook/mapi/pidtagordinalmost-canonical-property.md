@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c18de08b-8c28-4cdf-bd2e-b9c650cd6da6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 88ad8e805c597ad49d06c2a31921b7187f5b7178
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un nombre positif dont la valeur négative est inférieure ou égale à la valeur de la propriété dispidTaskOrdinal de toutes les tâches du dossier.
+ms.openlocfilehash: ddbed2fd59610a17127f19c4dea09052b916ade8
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587432"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741783"
 ---
 # <a name="pidtagordinalmost-canonical-property"></a>Propriété canonique PidTagOrdinalMost
 
@@ -25,9 +25,9 @@ ms.locfileid: "59587432"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un nombre positif dont le nombre négatif est inférieur ou égal à la valeur de la propriété **dispidTaskOrdinal** ([PidLidTaskOrdinal](pidlidtaskordinal-canonical-property.md)) de toutes les tâches du dossier.
+Contient un nombre positif dont la valeur négative est inférieure ou égale à la valeur de la propriété **dispidTaskOrdinal** ([PidLidTaskOrdinal](pidlidtaskordinal-canonical-property.md)) de toutes les tâches du dossier.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORDINAL_MOST  <br/> |
 |Identificateur :  <br/> |0x36E2  <br/> |
@@ -44,7 +44,7 @@ Cette propriété doit être mise à jour pour conserver cette condition chaque 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   

@@ -7,13 +7,13 @@ ms.topic: overview
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 321cde5a-05db-498b-a9b8-cb54c8a14e34
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 43600035e8fa7b003e43ba8cc22b3f9b510f6662
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le format de l’adresse de messagerie SMTP (Simple Mail Transport Protocol) du propriétaire de la boîte aux lettres d’envoi.
+ms.openlocfilehash: 46920e209cf399f2d4f181c1bf23cd623de5d4b6
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609774"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762549"
 ---
 # <a name="pidtagsendersmtpaddress-canonical-property"></a>Propriété canonique PidTagSenderSmtpAddress
 
@@ -23,7 +23,7 @@ ms.locfileid: "59609774"
   
 Contient le format de l’adresse de messagerie SMTP (Simple Mail Transport Protocol) du propriétaire de la boîte aux lettres d’envoi.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SENDER_SMTP_ADDRESS, PR_SENDER_SMTP_ADDRESS_A, PR_SENDER_SMTP_ADDRESS_W  <br/> |
 |Identificateur :  <br/> |0x5D01  <br/> |
@@ -42,7 +42,7 @@ Si aucun fournisseur de transport n’a fourni de propriétés d’adresse d’e
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Microsoft Exchange Server protocole.
+> Fournit des références aux spécifications Microsoft Exchange Server de protocole.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
@@ -66,7 +66,7 @@ Si aucun fournisseur de transport n’a fourni de propriétés d’adresse d’e
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d291777e-c0c6-4de2-9bf5-5c1d95f3db6c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0cc76e21b51c88e04e1e8969d3d0f723205f5a2f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une liste d’identificateurs d’entrée pour les utilisateurs qui ont autorisé l’envoi d’un message. La magasin de messages ne conserve pas cette propriété.
+ms.openlocfilehash: 72bc120060885dcc6a0722b2ee44c2f5071bfe73
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609886"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763249"
 ---
 # <a name="pidtagauthorizingusers-canonical-property"></a>Propriété canonique PidTagAuthorizingUsers
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609886"
   
 Contient une liste d’identificateurs d’entrée pour les utilisateurs qui ont autorisé l’envoi d’un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_AUTHORIZING_USERS  <br/> |
 |Identificateur :  <br/> |0x0003  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 85762771-b823-4227-9a7b-75b6ac280b2d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e01c5aacef78bbe911ec989c043de1cd0c5eb5fd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une table des pièces jointes d’un message. Cette propriété peut être utilisée pour la restriction de sous-objet en la spécifiant dans la structure SSubRestriction.
+ms.openlocfilehash: 35bfcbc817d2c84c8f9f72077540f808f3504cb6
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587488"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763116"
 ---
 # <a name="pidtagmessageattachments-canonical-property"></a>Propriété canonique PidTagMessageAttachments
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587488"
   
 Contient une table des pièces jointes d’un message. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_ATTACHMENTS  <br/> |
 |Identificateur :  <br/> |0x0E13  <br/> |
@@ -36,11 +36,11 @@ Contient une table des pièces jointes d’un message.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut être exclue dans les opérations [IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluse dans les opérations [IMAPIProp::CopyProps.](imapiprop-copyprops.md) En tant que propriété de type PT_OBJECT, elle ne peut pas être récupérée avec succès par la méthode [IMAPIProp::GetProps.](imapiprop-getprops.md) Son contenu doit être accessible par la méthode [IMAPIProp::OpenProperty,](imapiprop-openproperty.md) en demandant l’identificateur **IID_IMAPITable’interface.** Les fournisseurs de services doivent le signaler à la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) si elle est définie, mais peuvent éventuellement la signaler ou non si elle n’est pas définie. 
+Cette propriété peut être exclue dans les opérations [IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluse dans les opérations [IMAPIProp::CopyProps](imapiprop-copyprops.md) . En tant que propriété de type PT_OBJECT, elle ne peut pas être récupérée avec succès par la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) . Son contenu doit être accessible par la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) , demandant l’identificateur **IID_IMAPITable’interface** . Les fournisseurs de services doivent le signaler à la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) si elle est définie, mais peuvent éventuellement la signaler ou non si elle n’est pas définie. 
   
-Pour récupérer le contenu de la table, une application cliente doit appeler la [méthode IMessage::GetAttachmentTable.](imessage-getattachmenttable.md) For more information, see [Tables des pi�ces jointes](attachment-tables.md). 
+Pour récupérer le contenu de la table, une application cliente doit appeler la [méthode IMessage::GetAttachmentTable](imessage-getattachmenttable.md) . For more information, see [Tables des pi�ces jointes](attachment-tables.md). 
   
-Cette propriété peut être utilisée pour la restriction de sous-objet en la spécifiant dans la structure [SSubRestriction.](ssubrestriction.md) Cela permet au client de limiter l’affichage d’un conteneur aux messages contenant des pièces jointes qui rencontrent des critères donnés. Un message peut être affiché si au moins une ligne de sa table de pièces jointes, c’est-à-dire une pièce jointe, satisfait à la restriction de sous-objet. 
+Cette propriété peut être utilisée pour la restriction de sous-objet en la spécifiant dans la structure [SSubRestriction](ssubrestriction.md) . Cela permet au client de limiter l’affichage d’un conteneur aux messages contenant des pièces jointes qui rencontrent des critères donnés. Un message peut être affiché si au moins une ligne de sa table de pièces jointes, c’est-à-dire une pièce jointe, satisfait à la restriction de sous-objet. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

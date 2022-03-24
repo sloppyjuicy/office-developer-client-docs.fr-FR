@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 27e0ab2f-b373-41ae-b922-2f45f9671ac6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f87f2a56c9b0c69875bcf4f139052cc1d0ef4505
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une valeur de vérification binaire qui permet à un destinataire de rapport de remise de vérifier l’origine du message d’origine.
+ms.openlocfilehash: 258ec4a0b72badd7fc91995bbdcaa431d3b0a589
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619791"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762675"
 ---
 # <a name="pidtagorigincheck-canonical-property"></a>Propriété canonique PidTagOriginCheck
 
@@ -27,7 +27,7 @@ ms.locfileid: "59619791"
   
 Contient une valeur de vérification binaire qui permet à un destinataire de rapport de remise de vérifier l’origine du message d’origine.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGIN_CHECK  <br/> |
 |Identificateur :  <br/> |0x0027  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ec1b8e14-b27d-4a28-b9b7-f36f7c3e7427
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b00a97bf360abaae949b843c7d9a730441896f02
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’UID qui identifie cette session du carnet d’adresses du contact. Si vous avez plusieurs carnets d’adresses, cette propriété doit être définie pour chacun d’eux.
+ms.openlocfilehash: 202aace05f307cf6144b10193e02744762c9ed22
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571058"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762241"
 ---
 # <a name="pidtagcontactaddressbookuid-canonical-property"></a>Propriété canonique PidTagContactAddressBookUid
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571058"
   
 Contient l’UID qui identifie cette session du carnet d’adresses du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_UID  <br/> |
 |Identificateur :  <br/> |0x6601  <br/> |

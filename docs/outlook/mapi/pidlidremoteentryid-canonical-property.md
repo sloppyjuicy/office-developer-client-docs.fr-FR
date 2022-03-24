@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3330ce33-fec5-472b-bb28-16b1410b0eab
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7744a85fdb1669a259de622979f3c99118e8f00f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique l’ID d’entrée d’un élément distant pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 0a3d3605fb64534890afd351777c60ca53b2df87
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604487"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741526"
 ---
 # <a name="pidlidremoteentryid-canonical-property"></a>Propriété canonique PidLidRemoteEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604487"
   
 Indique l’ID d’entrée d’un élément distant.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRemoteEID  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Remote  <br/> |

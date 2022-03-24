@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 65aed75f-7e4e-4de9-b219-64dde8891a79
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bb29bb8c147920dab65e262c7c2e69d47a138188
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique l’heure à laquelle un rappel de message a été initié pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 6e4fcb2662345f6f9d505c1f49a9a8fa2678d12d
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591758"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762948"
 ---
 # <a name="pidlidrecalltime-canonical-property"></a>Propriété canonique PidLidRecallTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591758"
   
 Indique l’heure à laquelle un rappel de message a été initié.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRecallTime  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ede1a35-4acc-4b8f-a1bd-027f35798a37
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5c76e5d6fbad814ac8132860718c2bcf621d1e8e
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Appelle une fonction interne pour vérifier les paramètres que les applications clientes ont transmis aux fournisseurs de services.
+ms.openlocfilehash: 4593e0e0aff7cf85169c3dd9d21e83b1750b4442
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63368593"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763262"
 ---
 # <a name="validateparms"></a>ValidateParms
 
@@ -25,7 +25,7 @@ ms.locfileid: "63368593"
   
 Appelle une fonction interne pour vérifier les paramètres que les applications clientes ont transmis aux fournisseurs de services.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

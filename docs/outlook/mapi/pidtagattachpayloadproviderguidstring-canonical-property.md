@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c9d4b561-53b3-492b-9324-9376dd7abddf
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 40f503912b1674d647696e274fc4bbe7d40c2029
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la valeur d’un champ d’en-tête MIME X-Payload-Provider-Guid. Les clients MIME doivent écrire un champ d’en-tête X-Payload-Provider-Guid dans une entité MIME.
+ms.openlocfilehash: bc3cc466a2d09f3ee339741b82cdc62a8e89ddca
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600448"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763543"
 ---
 # <a name="pidtagattachpayloadproviderguidstring-canonical-property"></a>Propriété canonique PidTagAttachPayloadProviderGuidString
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600448"
   
 Contient la valeur d’un champ d’en-tête MIME X-Payload-Provider-Guid.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_PAYLOAD_PROV_GUID_STR, PR_ATTACH_PAYLOAD_PROV_GUID_STR_A, PR_ATTACH_PAYLOAD_PROV_GUID_STR_W  <br/> |
 |Identificateur :  <br/> |0x3719  <br/> |
@@ -38,7 +38,7 @@ Contient la valeur d’un champ d’en-tête MIME X-Payload-Provider-Guid.
 
 Pour définir la valeur de ces propriétés, les clients MIME doivent écrire un champ d’en-tête X-Payload-Provider-Guid dans une entité MIME qui sera analysée en tant que pièce jointe.
   
-Les lecteurs MIME doivent copier cette valeur de champ d’en-tête sur la valeur de la propriété correspondante. Les lecteurs MIME doivent ignorer ce champ d’en-tête lorsqu’il apparaît sur une entité MIME analysée sous forme de message ou de corps de message, plutôt que sous forme de pièce jointe.
+Les lecteurs MIME doivent copier cette valeur de champ d’en-tête sur la valeur de la propriété correspondante. Les lecteurs MIME doivent ignorer ce champ d’en-tête lorsqu’il apparaît sur une entité MIME analysée en tant que message ou corps de message, plutôt qu’en tant que pièce jointe.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Les lecteurs MIME doivent copier cette valeur de champ d’en-tête sur la valeu
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f9652a6f-5081-4472-830b-9f611bbbb1fa
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 91af3d8cb975a703bdaad232c8476e405389b732
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d7acbe9c5dad0ad8b299c25a639d88c9512d44de
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561088"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721603"
 ---
 # <a name="pidlidcontactuserfield1-canonical-property"></a>Propriété canonique PidLidContactUserField1
 
@@ -27,7 +27,7 @@ ms.locfileid: "59561088"
   
 Spécifie le premier champ du contact destiné à un usage divers pour le contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidContactUserField1  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

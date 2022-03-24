@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 1cf5b314-39fa-996f-fd88-00380ffbc4de
 description: Spécifie l’endstamp de compte secondaire pour le message.
-ms.openlocfilehash: 4acc8639be3b09a2a12fc402c7fc5bc2463af4db
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3e41fc03f70cb26c01d7664c5844be367dba42eb
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557112"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63716396"
 ---
 # <a name="pidtagnextsendacct"></a>PidTagNextSendAcct
 
@@ -20,7 +20,7 @@ Spécifie le cachet « envoyer » du compte secondaire pour le message.
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_NEXT_SEND_ACCT  <br/> |
 |Identificateur :  <br/> |0x0E29  <br/> |

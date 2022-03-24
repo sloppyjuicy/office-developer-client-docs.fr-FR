@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd182589-afea-4967-92f5-ba1914e4db3f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6bf09278a1d80c9dc493db96fe04c82341a48fb9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée de l’expéditeur de la première version d’un message, c’est-à-dire le message avant d’être transmis ou de répondre.
+ms.openlocfilehash: 5bf67a7e4087c436631e2edbc237f318ab050ac7
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619833"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741907"
 ---
 # <a name="pidtagoriginalsenderentryid-canonical-property"></a>Propriété canonique PidTagOriginalSenderEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59619833"
   
 Contient l’identificateur d’entrée de l’expéditeur de la première version d’un message, c’est-à-dire le message avant d’être transmis ou de répondre.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_SENDER_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x005B  <br/> |
@@ -44,7 +44,7 @@ Cette propriété est l’une des propriétés d’adresse de l’expéditeur d�
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

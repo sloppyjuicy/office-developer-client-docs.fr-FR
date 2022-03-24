@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9f7e91f5-63a8-4529-9fb4-6275027af145
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ae90f6d189972d8df399c7ea175b862acd846c85
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: aa9b9aefb557ed480d66ba385e0cd3cc23e49599
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595391"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725093"
 ---
 # <a name="pidnameapplicationname-canonical-property"></a>Propriété canonique PidNameApplicationName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595391"
   
 Spécifie l’application qui peut ouvrir le fichier joint au document.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |

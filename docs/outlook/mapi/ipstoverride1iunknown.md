@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d26cee81-45ea-4fd3-8a54-5f35264b5d6a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 963749b9921a8e441c4655c238b58765b7e69d12
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: bf83b0a75ebf3e5e8bc6b1275881563e55a1c7e1
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774824"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721706"
 ---
 # <a name="ipstoverride1--iunknown"></a>IPSTOVERRIDE1 : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62774824"
   
 Permet à un fournisseur de magasins de fichiers de dossiers personnels (PST) de remplacer la stratégie PSTDisableGrow.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Hérite de :  <br/> |IUnknown  <br/> |
 |Implémenté par :  <br/> |Fournisseur de magasin PST  <br/> |
@@ -36,7 +36,7 @@ Permet à un fournisseur de magasins de fichiers de dossiers personnels (PST) de
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[IPSTOVERRIDE1::GetPersistedRegistrations](ipstoverride1-getpersistedregistrations.md) <br/> |Extrait la liste des inscriptions pour le fichier de dossiers personnels (.pst). |
 |[IPSTOVERRIDE1::SetPersistedRegistrations](ipstoverride1-setpersistedregistrations.md) <br/> |Enregistre les fichiers dossiers personnels pour le déverrouillage automatique, en évitant d’autres appels à HrTrustedPSTOverrideHandlerCallback. |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2c7af147-f7eb-41ef-8403-93584a2041ba
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8f9728986ef5b083091367d33a93013374e1b8a9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 635ca7c9959839da030fe2b894b5d5d108ae3d1b
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591863"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722583"
 ---
 # <a name="pidlidbusinesscardcardpicture-canonical-property"></a>Propriété canonique PidLidBusinessCardCardPicture
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591863"
   
 Contient l’image à utiliser sur une carte de visite.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidBCCardPicture  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

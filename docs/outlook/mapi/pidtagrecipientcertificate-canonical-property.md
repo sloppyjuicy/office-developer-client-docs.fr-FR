@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7c5c749e-5463-4935-85b5-32219d06f782
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 88a3b93229f2a2f405da8467225eeabfc1441c5a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a46e76f3fc23a8b50cea824387a024bed1964f19
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624663"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63716145"
 ---
 # <a name="pidtagrecipientcertificate-canonical-property"></a>Propriété canonique PidTagRecipientCertificate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624663"
   
 Contient le certificat ASN.1 d’un destinataire de message à utiliser dans un état.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECIPIENT_CERTIFICATE  <br/> |
 |Identificateur :  <br/> |0x0C13  <br/> |
@@ -36,7 +36,7 @@ Contient le certificat ASN.1 d’un destinataire de message à utiliser dans un 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une copie de la propriété PR_USER_CERTIFICATE **(** [PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) du destinataire à utiliser dans un état. Elle peut être utilisée pour prouver à l’auteur que le destinataire a réellement reçu le message, ce qu’une note de remise n’indique pas nécessairement.
+Cette propriété est une copie de la propriété **PR_USER_CERTIFICATE (**[PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) du destinataire à utiliser dans un état. Elle peut être utilisée pour prouver à l’auteur que le destinataire a réellement reçu le message, ce qu’une note de remise n’indique pas nécessairement.
   
 ## <a name="related-resources"></a>Ressources connexes
 

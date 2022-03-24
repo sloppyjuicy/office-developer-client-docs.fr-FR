@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1f5ce6e0-b79a-4da2-b014-8c00cd72912e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 90a359c5be8ec36565a09f8227d04e058be346ac
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ba6c7d4c7223ba2bcc4667f1a64486a4754dca21
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62789185"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722326"
 ---
 # <a name="iabcontainer--imapicontainer"></a>IABContainer : IMAPIContainer
 
@@ -25,7 +25,7 @@ ms.locfileid: "62789185"
   
 Permet d’accéder aux conteneurs de carnet d’adresses. MAPI et les applications clientes appellent les méthodes de **IABContainer** pour effectuer la résolution de noms et pour créer, copier et supprimer des destinataires. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Objets conteneur de carnet d’adresses  <br/> |
@@ -37,7 +37,7 @@ Permet d’accéder aux conteneurs de carnet d’adresses. MAPI et les applicati
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[CreateEntry](iabcontainer-createentry.md) <br/> |Crée une entrée, qui peut être un utilisateur de messagerie, une liste de distribution ou un autre conteneur. |
 |[CopyEntries](iabcontainer-copyentries.md) <br/> |Copie une ou plusieurs entrées, généralement des utilisateurs de messagerie ou des listes de distribution. |

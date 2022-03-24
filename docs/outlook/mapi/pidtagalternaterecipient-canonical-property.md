@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: df787b60-2f53-42ac-89b5-1b52c906f472
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b45b9d73a59cbb455b4d3818c7e0d00eccd4454c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 50cc76f4f4a783080b7ff8bf922591f99e737d86
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560969"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722268"
 ---
 # <a name="pidtagalternaterecipient-canonical-property"></a>Propriété canonique PidTagAlternateRecipient
 
@@ -27,12 +27,12 @@ ms.locfileid: "59560969"
   
 Contient une liste d’identificateurs d’entrée pour d’autres destinataires désignés par le destinataire d’origine. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ALTERNATE_RECIPIENT  <br/> |
 |Identificateur :  <br/> |0x3A01  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Adresse  <br/> |
+|Domaine :  <br/> |Addresse  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -44,7 +44,7 @@ Cette propriété est utilisée pour les messages transmis automatiquement. Il c
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
@@ -56,7 +56,7 @@ Cette propriété est utilisée pour les messages transmis automatiquement. Il c
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

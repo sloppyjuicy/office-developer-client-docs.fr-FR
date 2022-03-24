@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 99dffcd9-83dc-462e-b0ce-e2101e546cc6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3378f053bb9192030885022d42fb9a1473209977
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’emplacement du destinataire dans un format utile pour l’organisation du destinataire. Ces propriétés sont définies par le destinataire et son organisation.
+ms.openlocfilehash: 5d8b2708cb87bc0834798614356cbdd4c6c71292
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599909"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763760"
 ---
 # <a name="pidtaglocation-canonical-property"></a>Propriété canonique PidTagLocation
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599909"
   
 Contient l’emplacement du destinataire dans un format utile pour l’organisation du destinataire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_LOCATION, PR_LOCATION_A, PR_LOCATION_W  <br/> |
 |Identificateur :  <br/> |0x3A0D  <br/> |
@@ -46,7 +46,7 @@ Le contenu est défini par les besoins de l’organisation du destinataire. Par 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

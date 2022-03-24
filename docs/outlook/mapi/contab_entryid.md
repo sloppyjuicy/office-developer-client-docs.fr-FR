@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 84251222-dac4-4f4d-97b9-aa0e2cd26c44
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0164954c52c07d1c7bf55853f4f0e700642e11c8
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: f4822c78d5aed8b49b2ba16131af7e813938ad9c
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781560"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63713521"
 ---
 # <a name="contab_entryid"></a>CONTAB_ENTRYID
 
@@ -23,7 +23,7 @@ ms.locfileid: "62781560"
   
 Contient l’ID d’entrée du dossier contacts.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |msomapiutil.h  <br/> |
    

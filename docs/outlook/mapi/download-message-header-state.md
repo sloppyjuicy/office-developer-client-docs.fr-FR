@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 03f69592-a5ea-e30b-9674-9cfa895163d8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 27f9290c7a1059d66cfb7eda53bb9a3143c04611
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: de3dc880a78a895b11f22a8432555e8891c3c38a
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630970"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725862"
 ---
 # <a name="download-message-header-state"></a>Télécharger l’état d’en-tête de message
 
@@ -23,7 +23,7 @@ ms.locfileid: "59630970"
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Identificateur d’état :  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |
 |Structure de données associée :  <br/> |**[HDRSYNC](hdrsync.md)** <br/> |

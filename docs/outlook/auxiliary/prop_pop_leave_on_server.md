@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 22d7c1e8-48b9-4768-b4de-9a9f32a3aabb
 description: Spécifie de laisser une copie d’un message sur le serveur pour un compte POP.
-ms.openlocfilehash: 62bdfdb6b1d3141ca5d32fda3af79017ef85a661
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 0dc90def351b08fda71154bd8e6784557c70706e
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788590"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724878"
 ---
 # <a name="prop_pop_leave_on_server"></a>PROP_POP_LEAVE_ON_SERVER
 
@@ -20,7 +20,7 @@ Spécifie de laisser une copie d’un message sur le serveur pour un compte POP.
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Identificateur :  <br/> |0x1000  <br/> |
 |Type de propriété :  <br/> |PT_DWORD  <br/> |

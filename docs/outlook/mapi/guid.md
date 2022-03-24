@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e3608c47-06be-4476-a6ef-060fac252387
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 46df5877dc5a025fd46b17986caa21c4c480af00
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Décrit un identificateur global unique (GUID). Les fournisseurs de magasins de messages et de carnets d’adresses génèrent un GUID à utiliser dans leur structure MAPIUID.
+ms.openlocfilehash: f2fd8b9ab69a1ff1972a7a91c0c7cc2c4292de0d
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63378667"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763389"
 ---
 # <a name="guid"></a>GUID
 
@@ -25,7 +25,7 @@ ms.locfileid: "63378667"
   
 Décrit un identificateur global unique (GUID).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiguid.h  <br/> |
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f21b5e6c-7a63-46bf-acbf-0e042e3519f7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: af523723a4a835ed4585cc9001522d087c5f2cab
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5f17a2ff49b478478137e9c4cc6bebdc678f59ca
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578738"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722106"
 ---
 # <a name="sbinary"></a>SBinary
 
@@ -27,7 +27,7 @@ ms.locfileid: "59578738"
   
 Décrit une propriété de type PT_BINARY.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -44,7 +44,7 @@ typedef struct _SBinary
 
  **cb**
   
-> Nombre d’octets dans le **membre lpb.** 
+> Nombre d’octets dans le **membre lpb** . 
     
  **lpb**
   

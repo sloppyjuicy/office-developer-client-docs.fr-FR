@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 20090114-b183-4767-8971-a304a9aa47e6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b180d1d9e6823a299764475722a547a9c38189c8
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3562e5db273129131a255339b7db6db38302bbe5
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781330"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721730"
 ---
 # <a name="imsgstore--imapiprop"></a>IMsgStore : IMAPIProp
 
@@ -27,7 +27,7 @@ ms.locfileid: "62781330"
   
 Permet d’accéder aux informations de la boutique de messages et aux messages et dossiers.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Objet de magasin de messages  <br/> |
@@ -39,7 +39,7 @@ Permet d’accéder aux informations de la boutique de messages et aux messages 
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[Conseiller](imsgstore-advise.md) <br/> |S’inscrit pour recevoir une notification des événements spécifiés qui affectent la boutique de messages. |
 |[Unadvise](imsgstore-unadvise.md) <br/> |Annule l’envoi de notifications précédemment définies avec un appel à la **méthode IMsgStore::Advise** . |

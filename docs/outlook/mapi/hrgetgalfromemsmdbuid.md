@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 9b824e70-ed9a-490c-b777-8902a793fece
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5af9689bd79745ab6505ce9977229fc61567376b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1f3774b6a103a609df41b20f5ffb35f0e4ce2025
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561648"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721754"
 ---
 # <a name="hrgetgalfromemsmdbuid"></a>HrGetGALFromEmsmdbUID
 
@@ -23,7 +23,7 @@ ms.locfileid: "59561648"
   
 Renvoie l’identificateur d’entrée du carnet d’adresses global pour le service Exchange identifié par _pEmsmdbUID_. L’identificateur d’entrée renvoyé doit être libéré à l’aide [de MAPIFreeBuffer](mapifreebuffer.md).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |abhelp.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -59,6 +59,6 @@ HRESULT HrGetGALFromEmsmdbUID(
     
  _lppeid_
   
-> [out] Pointeur vers l’identificateur d’entrée de la liste d’adresses globale. Cela doit être libéré à [l’aide de MAPIFreeBuffer](mapifreebuffer.md).
+> [out] Pointeur vers l’identificateur d’entrée de la liste d’adresses globale. Il doit être libéré à l’aide [de MAPIFreeBuffer](mapifreebuffer.md).
     
 

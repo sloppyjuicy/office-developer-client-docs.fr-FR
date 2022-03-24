@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6f6cc66f-a08e-4f8e-b33a-d3674319248e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c16f2477d107220408771328f4ad339774a696cf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une structure MAPIUID définie par un fournisseur qui indique le type de la magasin de messages. La valeur est calculée par les fournisseurs sur les objets de la boutique de messages.
+ms.openlocfilehash: b517087d6252237acd85cb393d5b073870f250c5
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599374"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763683"
 ---
 # <a name="pidtagstoreprovider-canonical-property"></a>Propriété canonique PidTagStoreProvider
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599374"
   
 Contient une structure [MAPIUID](mapiuid.md) définie par un fournisseur qui indique le type de la magasin de messages. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MDB_PROVIDER  <br/> |
 |Identificateur :  <br/> |0x3414  <br/> |

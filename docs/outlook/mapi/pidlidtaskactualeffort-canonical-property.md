@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8e9a9432-bf50-4333-82ec-fba19dff8006
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aa81ddf876b547754e153a677ab3a9c2c50983ff
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 912770ba758e0489a7ff3a31b14b8bdfb85b6cc9
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630165"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724525"
 ---
 # <a name="pidlidtaskactualeffort-canonical-property"></a>Propriété canonique PidLidTaskActualEffort
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630165"
   
 Indique le nombre de minutes pendantées par l’utilisateur pour effectuer une tâche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskActualEffort  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

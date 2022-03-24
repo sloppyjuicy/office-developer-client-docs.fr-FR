@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2ec95ed9-4848-43ac-9b17-8092a37055e9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d2dc3669f1d4b1e486f4d62a8174ac2c93d77e6b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 84b7dfcaf8d54ea925cc57ea12efe8866e6b8473
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555621"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63719804"
 ---
 # <a name="pidlidpostrsschannellink-canonical-property"></a>Propriété canonique PidLidPostRssChannelLink
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555621"
   
 Contient l’URL du flux RSS ou Atom à partir duquel le fichier XML est issu.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidPostRssChannelLink  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_PostRss  <br/> |

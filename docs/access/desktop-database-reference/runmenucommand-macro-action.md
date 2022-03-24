@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 405d2d69666f6ebe9065ea6656e3fe1b4192153b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 05edaee651c1d195ad6d0ced4bed2a644e14ae61
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59562243"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723002"
 ---
 # <a name="runmenucommand-macro-action"></a>RunMenuCommand, action de macro
 
@@ -24,14 +24,14 @@ ms.locfileid: "59562243"
 
 Vous pouvez utiliser l’action **ExécuterCommandeMenu** pour exécuter une commande Microsoft Office Access.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **ExécuterCommandeMenu** utilise l’argument d’action suivant :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

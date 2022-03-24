@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 278a77f2-65ec-4281-b406-942cc416a476
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3ad33fa00eef4bf55e997df74a130acced537d4a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la valeur pour le calcul des dates de début et de fin de la plage de données de libre/occupé à publier dans les dossiers publics.
+ms.openlocfilehash: 23301b0e64ff88597fd0bd413350442206a96095
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550616"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762398"
 ---
 # <a name="pidtagfreebusycountmonths-canonical-property"></a>Propriété canonique PidTagFreeBusyCountMonths
 
@@ -27,12 +27,12 @@ ms.locfileid: "59550616"
   
 Contient la valeur pour le calcul des dates de début et de fin de la plage de données de libre/occupé à publier dans les dossiers publics.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FREEBUSY_COUNT_MONTHS  <br/> |
 |Identificateur :  <br/> |0x6869  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Message définissable par la classe de message  <br/> |
+|Domaine :  <br/> |Message défini comme transmettable par la classe  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

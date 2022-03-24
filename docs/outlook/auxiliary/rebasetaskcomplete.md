@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 2de5c77c-3fac-cfb6-3719-68df4013cf11
 description: Signale l’achèvement du rebasage des rendez-vous.
-ms.openlocfilehash: 49061cf21f4a6ffd3218bac2470a1afc6e2ebf81
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 02fffc62bacbc94a3f652044649628149236d0e0
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614331"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63713492"
 ---
 # <a name="rebasetaskcomplete"></a>RebaseTaskComplete
 
@@ -20,7 +20,7 @@ Signale l’achèvement du rebasage des rendez-vous.
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |tzmovelib.h  <br/> |
 |Implémenté par :  <br/> |Applications clientes MAPI  <br/> |

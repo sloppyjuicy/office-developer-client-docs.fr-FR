@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: b03b3541e259cb399ebd3d6a7998948a197ac285
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b459c9027b407bb3bdf33f88d66db42c40b517e6
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615017"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63717375"
 ---
 # <a name="runapplication-macro-action"></a>RunApplication, action de macro
 
@@ -40,14 +40,14 @@ Vous pouvez utiliser l'action **ExécuterApplication** pour exécuter une applic
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **ExécuterApplication** utilise l’argument suivant :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

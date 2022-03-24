@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7b9be1cd-e81e-42f3-b391-036afa2ae1b4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b28542d443bbe1e2ce2c6fa8613da27a242d3bd7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 63dacbc59876fb396820b0ec8c7e8678f1270ac9
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555873"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725205"
 ---
 # <a name="pidlidcontactlinkname-canonical-property"></a>Propriété canonique PidLidContactLinkName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555873"
   
 Contient les éléments de la **propriété dispidContacts** ([PidLidContacts](pidlidcontacts-canonical-property.md)).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidContactLinkName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -49,7 +49,7 @@ Les éléments de la **propriété dispidContactLinkName** sont séparés par un
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

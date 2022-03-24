@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 64faef3c-27b2-49d2-9d0c-8b9d33f1cb71
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2f6226df0b9d7c54ae0e73d706334fa6c78a48d9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5eba1a7877b71220c3dbb055b482b3813630c8a7
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629829"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723417"
 ---
 # <a name="pidtagmemberid-canonical-property"></a>Propriété canonique PidTagMemberId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629829"
   
 Contient l’identificateur d’un membre de table qui dispose des droits décrits sur Microsoft Exchange Server dossier ou boîte aux lettres.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MEMBER_ID  <br/> |
 |Identificateur :  <br/> |0x6671  <br/> |
@@ -44,7 +44,7 @@ Cette propriété renvoie un identificateur propre au tableau. Un identificateur
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   

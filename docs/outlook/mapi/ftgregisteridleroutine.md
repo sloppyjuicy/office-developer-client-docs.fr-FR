@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d9557ba-7919-42c6-9e2f-f10214437d53
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b2f925b3104a71858515394740512ca4dbf094dd
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Ajoute une routine d’inactivité basée sur la fonction FNIDLE au système MAPI. Si FtgRegisterIdleRoutine ne peut pas inscrire la routine inactive, elle renvoie la valeur NULL.
+ms.openlocfilehash: 2836a0f1733d9b9e03ee8f7c16f67fc9a2c76852
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62780075"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762423"
 ---
 # <a name="ftgregisteridleroutine"></a>FtgRegisterIdleRoutine
 
@@ -25,7 +25,7 @@ ms.locfileid: "62780075"
   
 Ajoute une [routine d’inactivité basée sur la fonction FNIDLE](fnidle.md) au système MAPI. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -53,7 +53,7 @@ _pvIdleParam_
     
 _priIdle_
   
-> [in] Priorité initiale de la routine inactive. Les priorités possibles pour les routines définies par l’implémentation sont supérieure ou inférieure à zéro, mais pas à zéro. La priorité zéro est réservée à un événement utilisateur tel qu’un clic de souris ou un WM_PAINT message. Les priorités supérieures à zéro représentent des tâches en arrière-plan dont la priorité est plus élevée que les événements utilisateur et qui sont envoyées dans le cadre de la boucle d’Windows de message standard. Les priorités inférieures à zéro représentent les tâches inactives qui s’exécutent uniquement pendant la période d’inactivité des messages. Voici quelques exemples de priorités : 1 pour l’envoi au premier plan, 2 pour l’insertion de caractères avec modification d’alimentation et 3 pour le téléchargement de nouveaux messages.
+> [in] Priorité initiale de la routine inactive. Les priorités possibles pour les routines définies par l’implémentation sont supérieure ou inférieure à zéro, mais pas à zéro. La priorité zéro est réservée à un événement utilisateur tel qu’un clic de souris ou WM_PAINT message. Les priorités supérieures à zéro représentent des tâches en arrière-plan dont la priorité est plus élevée que les événements utilisateur et qui sont envoyées dans le cadre de la boucle de boucle de boucle Windows de message standard. Les priorités inférieures à zéro représentent les tâches inactives qui s’exécutent uniquement pendant la période d’inactivité des messages. Voici quelques exemples de priorités : 1 pour l’envoi au premier plan, 2 pour l’insertion de caractères avec modification d’alimentation et 3 pour le téléchargement de nouveaux messages.
     
 _csecIdle_
   

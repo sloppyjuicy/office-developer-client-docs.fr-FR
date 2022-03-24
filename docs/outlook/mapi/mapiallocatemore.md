@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 3e48f76a-bc97-4cbc-9082-c07dd674b73e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c0c69d3ed1960e372c9bd73a3822de1bc69b7de5
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: f1ce768cf1fe0b2295d114f889475544f3511f23
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462882"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720172"
 ---
 # <a name="mapiallocatemore"></a>MAPIAllocateMore
 
@@ -27,7 +27,7 @@ ms.locfileid: "62462882"
   
 Alloue une mémoire tampon liée à une autre mémoire tampon précédemment allouée avec la [fonction MAPIAllocateBuffer](mapiallocatebuffer.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 074181a2-3a75-824c-049d-549aabff0f9f
 description: Microsoft InfoPath est un outil hybride qui combine le meilleur d’une expérience d’édition de documents traditionnelle, telle qu’un traitement de texte ou une application de messagerie, avec les fonctionnalités rigoureuses de capture de données d’un package de formulaires. Cet article décrit les problèmes qu'InfoPath est censé résoudre, et détaille les principes de conception et les standards XML que cette solution utilise.
-ms.openlocfilehash: f2d83157199296642cf908dd2cd68c6c16c723a5
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: d2d9c0732144791199419045fabeada0a338ce13
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782828"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723959"
 ---
 # <a name="about-infopath-support-for-xml-technologies"></a>À propos de la prise en charge InfoPath pour les technologies XML
 
@@ -159,7 +159,7 @@ InfoPath s'intègre parfaitement à la souplesse du modèle des services Web, da
   
 ## <a name="terminology"></a>Terminologie
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |**Groupe de champs :** <br/> |Section, section extensible, section facultative ou tableau extensible. Les sections et les tableaux extensibles sont des contrôles de formulaire contenant d’autres contrôles et qui s’étendent en fonction des besoins. Les utilisateurs peuvent insérer plusieurs sections ou lignes lorsqu’ils remplissent le formulaire. |
 |**Arborescence DOM :** <br/> |Structure de la source de données du formulaire. En particulier, la collection de champs et de groupes qui définissent et stockent les données d’un formulaire InfoPath. |

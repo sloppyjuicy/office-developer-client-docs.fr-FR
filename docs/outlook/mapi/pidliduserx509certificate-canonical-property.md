@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f40cd807-7aac-49f4-8e82-b0e5e1634b08
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9245b498527bf3c2316e9ac80df3424347069e7a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient des certificats de sécurité X.509 version 3 pour un utilisateur de messagerie pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 3ef4bf22c47a7a3e055632d19310ba7c35f32642
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610082"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763130"
 ---
 # <a name="pidliduserx509certificate-canonical-property"></a>Propriété canonique PidLidUserX509Certificate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59610082"
   
 Contient des certificats de sécurité X.509 version 3 pour un utilisateur de messagerie.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidEMSAbX509Cert  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

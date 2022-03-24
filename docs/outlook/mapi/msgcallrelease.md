@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 23c08597-41f0-4f48-a63e-79962fa812bc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 648a47a814071911aafad9f1b091a47a2647cc66
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 41176f8f53ed9ea167580d401539e249399f08a2
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595657"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720165"
 ---
 # <a name="msgcallrelease"></a>MSGCALLRELEASE
 
@@ -25,9 +25,9 @@ ms.locfileid: "59595657"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une fonction de rappel qui peut libérer une interface **IStorage** après la version finale d’un objet **IMessage** créé au-dessus avec la fonction [OpenIMsgOnIStg.](openimsgonistg.md) 
+Définit une fonction de rappel qui peut libérer une interface **IStorage** après la version finale d’un objet **IMessage** créé au-dessus avec la fonction [OpenIMsgOnIStg](openimsgonistg.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Imessage.h  <br/> |
 |Fonction définie implémentée par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
@@ -43,7 +43,7 @@ typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
 
  _ulCallerData_
   
-> [in] Contient des informations d’application d’appel sur **l’interface IMessage.** 
+> [in] Contient des informations d’application d’appel sur **l’interface IMessage** . 
     
  _lpMessage_
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f9ebe20-b037-422b-9991-69f85122a706
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 24d12382b5d76552c4fd041b2af819660128a740
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’adresse e-mail de l’utilisateur de messagerie qui reçoit le message. Ces propriétés doivent être définies par le fournisseur de transport entrant.
+ms.openlocfilehash: 272f79b639f0ce2584a48e1dad2285a564d0979f
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624677"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763718"
 ---
 # <a name="pidtagreceivedbyemailaddress-canonical-property"></a>Propriété canonique PidTagReceivedByEmailAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624677"
   
 Contient l’adresse e-mail de l’utilisateur de messagerie qui reçoit le message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECEIVED_BY_EMAIL_ADDRESS, PR_RECEIVED_BY_EMAIL_ADDRESS_A, PR_RECEIVED_BY_EMAIL_ADDRESS_W  <br/> |
 |Identificateur :  <br/> |0x0076  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont des exemples de propriétés d’adresse pour l’utilisat
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
@@ -68,7 +68,7 @@ Ces propriétés sont des exemples de propriétés d’adresse pour l’utilisat
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

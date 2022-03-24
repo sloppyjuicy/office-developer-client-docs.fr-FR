@@ -7,12 +7,12 @@ ms:contentKeyID: 48547940
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 03decdb37e04d760f2807ce51de7fa003114c486
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9fb85f1fd071beb3184cd578db6aa3193ce93eca
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552597"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723585"
 ---
 # <a name="recordset2validationrule-property-dao"></a>Recordset2.ValidationRule, propriété (DAO)
 
@@ -25,7 +25,7 @@ Définit ou renvoie une valeur qui valide les données dans un champ au moment d
 
 *.* ValidationRule
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -37,8 +37,8 @@ For a **Recordset** object, use of the **ValidationRule** property is read-only.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

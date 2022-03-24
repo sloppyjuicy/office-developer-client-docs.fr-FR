@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8cb0e46c-0937-482f-be78-1f2e5261b210
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b06b119f8438c32bcdac3655780dd2c021bea9d3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5ca43a4acc0e73f413dcd669a25c1f8ade02333d
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591639"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720772"
 ---
 # <a name="pidtagrecipientproposed-canonical-property"></a>Propriété canonique PidTagRecipientProposed
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591639"
   
 Indique si un participant à la réunion a répondu.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECIPIENT_PROPOSED  <br/> |
 |Identificateur :  <br/> |0x5FE1  <br/> |
@@ -36,7 +36,7 @@ Indique si un participant à la réunion a répondu.
    
 ## <a name="remarks"></a>Remarques
 
-La valeur TRUE pour cette propriété indique que le participant a proposé une nouvelle date et/ou une nouvelle heure. La valeur FALSE ou l’absence de cette propriété signifie que le participant n’a pas encore répondu ou que la réponse la plus récente du participant n’a pas inclus de nouvelle proposition de date/heure. Cette valeur ne doit pas être TRUE pour les participants d’une série périodique.
+La valeur TRUE pour cette propriété indique que le participant a proposé une nouvelle date et/ou heure. La valeur FALSE ou l’absence de cette propriété signifie que le participant n’a pas encore répondu ou que la réponse la plus récente du participant n’a pas inclus de nouvelle proposition de date/heure. Cette valeur ne doit pas être TRUE pour les participants d’une série périodique.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ La valeur TRUE pour cette propriété indique que le participant a proposé une 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

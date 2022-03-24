@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a1e0e0df-356b-47eb-8572-37b7f3d52887
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e54f2d44c69674b79f6313c3cb7c7a13bc4d779e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la valeur masquée du fichier joint au document pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 8aea27eb4c472ecd8067938208a367ccd278856e
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583631"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741808"
 ---
 # <a name="pidnamehiddencount-canonical-property"></a>Propriété canonique PidNameHiddenCount
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583631"
   
 Spécifie la valeur masquée du fichier joint au document.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |

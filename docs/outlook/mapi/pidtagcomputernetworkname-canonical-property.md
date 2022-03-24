@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 69467594-0d88-43e5-a6ab-9987a24cc846
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 82f65a071caceb75f44c3779b8fae33f0c0ceb05
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bf1623cc83a42b6dbaf39576777c1d585a2b303a
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571079"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724447"
 ---
 # <a name="pidtagcomputernetworkname-canonical-property"></a>Propriété canonique PidTagComputerNetworkName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571079"
   
 Contient le nom du réseau utilisé pour transmettre le message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_COMPUTER_NETWORK_NAME, PR_COMPUTER_NETWORK_NAME_A, PR_COMPUTER_NETWORK_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3A49  <br/> |
@@ -40,7 +40,7 @@ Contient le nom du réseau utilisé pour transmettre le message.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

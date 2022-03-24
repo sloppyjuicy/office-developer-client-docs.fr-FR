@@ -1,5 +1,5 @@
 ---
-title: Propri t canonique PidLidSharingConfigurationUrl
+title: Propriété canonique PidLidSharingConfigurationUrl
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - COM
 ms.assetid: 548b4ded-1610-4fe1-8f19-ee57d5d0f606
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 43c742e2c345e8032e2944ac769a159d18e78611
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bbaf49da468d0361a55bef567906df3b59b4e938
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600518"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725770"
 ---
-# <a name="pidlidsharingconfigurationurl-canonical-property"></a>Propri t canonique PidLidSharingConfigurationUrl
+# <a name="pidlidsharingconfigurationurl-canonical-property"></a>Propriété canonique PidLidSharingConfigurationUrl
 
   
   
@@ -27,7 +27,7 @@ ms.locfileid: "59600518"
   
 Désigne comme propriété d’un message de partage.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingConfigUrl  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |

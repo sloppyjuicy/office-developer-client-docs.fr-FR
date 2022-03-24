@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b20107e3-5e23-4cde-9cd6-670c914ea70a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ef6286738be70ee3e2d91d32df9635f25df0a6c7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Convertit l’identificateur d’entrée interne d’une boutique de messages en un identificateur d’entrée plus utilisable par le système de messagerie.
+ms.openlocfilehash: 5898b621e0971f6cd3cd3a1d9e00cccd1d4a8f1c
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583232"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762556"
 ---
 # <a name="wrapstoreentryid"></a>WrapStoreEntryID
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583232"
   
 Convertit l’identificateur d’entrée interne d’une boutique de messages en un identificateur d’entrée plus utilisable par le système de messagerie. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -60,7 +60,7 @@ MAPI_UNICODE
     
  _cbOrigEntry_
   
-> [in] Taille, en octets, de l’identificateur d’entrée d’origine de la boutique de messages. 
+> [in] Taille, en octets, de l’identificateur d’entrée d’origine pour la boutique de messages. 
     
  _lpOrigEntry_
   
@@ -82,8 +82,8 @@ Aucun.
 
 Un objet de magasin de messages conserve un identificateur d’entrée interne qui n’est significatif que pour les fournisseurs de services coresident avec cette magasin de messages. Pour les autres composants de messagerie, MAPI fournit une version wrapped de l’identificateur d’entrée interne qui la rend reconnaissable car elle appartient à la magasin de messages. Les fournisseurs de services Coresident doivent toujours se faire donner l’identificateur d’entrée de magasin de messages d’origine non enveloppé ; les applications clientes doivent toujours avoir la version wrapped, qui est ensuite utilisable n’importe où dans le domaine de messagerie et dans d’autres domaines. 
   
-Un fournisseur de services peut encapsuler un identificateur d’entrée de magasin de messages à l’aide de la fonction **WrapStoreEntryID** ou de la méthode [IMAPISupport::WrapStoreEntryID,](imapisupport-wrapstoreentryid.md) qui appelle la fonction **WrapStoreEntryID.** Le fournisseur doit encapsuler l’identificateur d’entrée lors de l’exposition de la propriété **PR_ENTRYID (** [PidTagEntryId](pidtagentryid-canonical-property.md)) de la boutique de messages ou de son écriture dans une section de profil, et lors de l’exposition de la propriété **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)). MAPI encapsule un identificateur d’entrée de magasin de messages lors de la réponse à un appel [IMAPISession::OpenMsgStore.](imapisession-openmsgstore.md) 
+Un fournisseur de services peut encapsuler un identificateur d’entrée de magasin de messages à l’aide de la fonction **WrapStoreEntryID** ou de la méthode [IMAPISupport::WrapStoreEntryID](imapisupport-wrapstoreentryid.md) , qui appelle la fonction **WrapStoreEntryID** . Le fournisseur doit encapsuler l’identificateur d’entrée lors de l’exposition de la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la boutique de messages ou de son écriture dans une section de profil, et lors de l’exposition de la propriété **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)). MAPI encapsule un identificateur d’entrée de magasin de messages lors de la réponse à un appel [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) . 
   
-Lorsqu’une application cliente transmet un identificateur d’entrée de magasin de messages enveloppé à MAPI, par exemple dans un appel [IMAPISession::OpenEntry,](imapisession-openentry.md) MAPI démasque l’identificateur d’entrée avant de l’utiliser pour appeler une méthode de fournisseur telle que [IMSProvider::Logon](imsprovider-logon.md) ou [IMSProvider::CompareStoreIDs](imsprovider-comparestoreids.md). 
+Lorsqu’une application cliente transmet un identificateur d’entrée de magasin de messages enveloppé à MAPI, par exemple dans un appel [IMAPISession::OpenEntry](imapisession-openentry.md) , MAPI démasque l’identificateur d’entrée avant de l’utiliser pour appeler une méthode de fournisseur telle que [IMSProvider::Logon](imsprovider-logon.md) ou [IMSProvider::CompareStoreIDs](imsprovider-comparestoreids.md). 
   
 

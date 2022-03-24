@@ -7,13 +7,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b93ab837-3918-4427-b013-bedc6f5276e4
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ab9bfeca1e86bc8017bd091071a36f968b6dfa34
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Le tableau des services de message contient des informations sur les services de message dans le profil actuel. Il existe une table de service de message pour chaque session MAPI.
+ms.openlocfilehash: 6cf7cb698244a73f435d69752246ef2a45d761fb
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551106"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763375"
 ---
 # <a name="message-service-tables"></a>Tables des services de messages
 
@@ -25,11 +25,11 @@ Le tableau des services de message contient des informations sur les services de
   
 La table de service de message est une table statique.
   
-Les clients accèdent à la table de service de message en appelant la méthode [IMsgServiceAdmin::GetMsgServiceTable.](imsgserviceadmin-getmsgservicetable.md) 
+Les clients accèdent à la table de service de message en appelant la méthode [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) . 
   
 Les propriétés suivantes définissent la colonne requise dans la table de service de message :
   
-|||
+|Property |... |
 |:-----|:-----|
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
 |**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md))  <br/> |
@@ -38,15 +38,15 @@ Les propriétés suivantes définissent la colonne requise dans la table de serv
    
  **PR_DISPLAY_NAME** est le nom affichable pour le service de message et la colonne de clé de tri par défaut. 
   
- **PR_INSTANCE_KEY** sert de colonne d’index pour le tableau, identifiant de manière unique une ligne. 
+ **PR_INSTANCE_KEY** sert de colonne d’index pour la table, identifiant de manière unique une ligne. 
   
  **PR_RESOURCE_FLAGS** décrit les fonctionnalités du service de message. 
   
  **PR_SERVICE_DLL_NAME** est le nom de la DLL qui contient l’implémentation du service de message. 
   
- **PR_SERVICE_ENTRY_NAME** est le nom de la fonction de point d’entrée du service de message conforme au prototype [MSGSERVICEENTRY.](msgserviceentry.md) 
+ **PR_SERVICE_ENTRY_NAME** est le nom de la fonction de point d’entrée du service de message conforme au prototype [MSGSERVICEENTRY](msgserviceentry.md) . 
   
- **PR_SERVICE_NAME** est une entrée obligatoire dans la section **[Services]** dans MAPISVC.INF. La valeur de cette propriété ne sera jamais modifiée ou localisée. **PR_SERVICE_NAME** permet d’identifier par programme le service de message. 
+ **PR_SERVICE_NAME** est une entrée obligatoire dans la section **[Services]** de MAPISVC.INF. La valeur de cette propriété ne sera jamais modifiée ni localisée. **PR_SERVICE_NAME** permet d’identifier par programme le service de message. 
   
  **PR_SERVICE_SUPPORT_FILES** liste des fichiers qui doivent être installés avec le service de message. 
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ca8fbac6-b6f1-46ab-90a1-fc16f0d5824c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: db2b937d39dac521caa60e2f1e9f9664384b8a23
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: aed921ece1136995ad41956e75ad1c8b289c7277
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778893"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724060"
 ---
 # <a name="freepadrlist"></a>FreePadrlist
 
@@ -27,7 +27,7 @@ ms.locfileid: "62778893"
   
 Détruit une structure [ADRLIST](adrlist.md) et libère la mémoire associée, y compris la mémoire allouée à tous les tableaux et structures membres. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

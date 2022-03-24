@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bdb4cdca-8dfd-4f90-9467-ec31cea3f518
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4632b1db7b69b50eda6103e7dc1172db326199f6
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ecbc1feabe6a0f8e5495fc6a5b89d0e2a9d64f5a
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62789122"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720196"
 ---
 # <a name="iprovideradmin--iunknown"></a>IProviderAdmin : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62789122"
   
 Fonctionne avec des fournisseurs de services dans un service de messagerie. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Objets d’administration de fournisseur  <br/> |
@@ -38,7 +38,7 @@ Fonctionne avec des fournisseurs de services dans un service de messagerie.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetLastError](iprovideradmin-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite sur l’objet d’administration du fournisseur. |
 |[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Permet d’accéder à la table des fournisseurs du service de messagerie, liste des fournisseurs de services dans le service de messagerie. |

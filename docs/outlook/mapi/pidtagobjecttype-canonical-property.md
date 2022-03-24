@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 37da4ff5-300d-479f-a8b4-6fc36df997d9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e23518b68d204982511ccf492d09d2cd310380ba
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le type d’un objet. L’objet correspond à l’interface principale disponible pour un objet accessible via l’interface OpenEntry.
+ms.openlocfilehash: 6f82179d7e66418173d36ab3c68d79073e9ab33f
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560808"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762248"
 ---
 # <a name="pidtagobjecttype-canonical-property"></a>Propriété canonique PidTagObjectType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59560808"
   
 Contient le type d’un objet. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_OBJECT_TYPE  <br/> |
 |Identificateur :  <br/> |0x0FFE  <br/> |
@@ -36,7 +36,7 @@ Contient le type d’un objet.
    
 ## <a name="remarks"></a>Remarques
 
-Le type d’objet contenu dans cette propriété correspond à l’interface principale disponible pour un objet accessible via l’interface **OpenEntry.** Elle est généralement obtenue en consultant le  _paramètre lpulObjType_ renvoyé par la méthode **OpenEntry** appropriée. Lorsque l’interface est obtenue d’autres manières, appelez [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la valeur de cette propriété. 
+Le type d’objet contenu dans cette propriété correspond à l’interface principale disponible pour un objet accessible via l’interface **OpenEntry** . Elle est généralement obtenue en consultant le  _paramètre lpulObjType_ renvoyé par la méthode **OpenEntry** appropriée. Lorsque l’interface est obtenue d’autres manières, appelez [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la valeur de cette propriété. 
   
 Cette propriété peut avoir exactement l’une des valeurs suivantes :
   
@@ -46,7 +46,7 @@ MAPI_ABCONT
     
 MAPI_ADDRBOOK 
   
-> Objet carnet d’adresses 
+> Objet de carnet d’adresses 
     
 MAPI_ATTACH 
   
@@ -86,7 +86,7 @@ MAPI_STATUS
     
 MAPI_STORE 
   
-> Objet de la boutique de messages
+> Objet de magasin de messages
     
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -94,7 +94,7 @@ MAPI_STORE
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
@@ -118,7 +118,7 @@ MAPI_STORE
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOAB]](https://msdn.microsoft.com/library/b4750386-66ec-4e69-abb6-208dd131c7de%28Office.15%29.aspx)
   
@@ -130,7 +130,7 @@ MAPI_STORE
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations de manipulation d’une configuration de liste de dossiers de recherche.
+> Spécifie les propriétés et les opérations de manipulation d’une configuration de liste de dossiers de recherche.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

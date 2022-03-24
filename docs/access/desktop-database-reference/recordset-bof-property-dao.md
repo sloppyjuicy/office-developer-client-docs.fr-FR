@@ -7,12 +7,12 @@ ms:contentKeyID: 48547603
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a2b47a11ab4c11ab9eb3f0134c9316ac7fbaf98f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 98a057096cb87831aee93c04054a620c04a490a7
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59562362"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720326"
 ---
 # <a name="recordsetbof-property-dao"></a>Recordset.BOF, propriété (DAO)
 
@@ -25,7 +25,7 @@ Renvoie une valeur qui indique si la position d'enregistrement actuelle précèd
 
 *.* BOF
 
-*expression* Variable qui représente un objet **Recordset**.
+*expression* Variable représentant un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -49,11 +49,11 @@ Le tableau suivant répertorie les méthodes Move sont autorisés avec différen
 
 <table>
 <colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -88,8 +88,8 @@ Move &gt; 0</p></th>
 <tr class="odd">
 <td><p>Les deux <strong>vrai</strong></p></td>
 <td><p>Error</p></td>
-<td><p>Erreur</p></td>
-<td><p>Erreur</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 <td><p>Error</p></td>
 </tr>
 <tr class="even">
@@ -117,9 +117,9 @@ Le tableau suivant montre comment déplacer des méthodes qui ne localiser un en
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1a418c76-ebc7-47f2-ac91-797162e6e099
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ea530718b94b7409b6110bfe8935aeda39c888fb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le PR_ENTRYID, exprimé sous la forme d’un format d’ID d’entrée permanent. Cette valeur doit être présente pour tous les objets de carnet d’adresses sur un serveur NSPI.
+ms.openlocfilehash: 3af96c4770d81720f495824f822e19fd2e799526
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609708"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763494"
 ---
 # <a name="pidtagtemplateid-canonical-property"></a>Propriété canonique PidTagTemplateid
 
@@ -25,9 +25,9 @@ ms.locfileid: "59609708"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), exprimé sous la forme d’un format d’ID d’entrée permanent.
+Contient le **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), exprimé sous forme de format d’ID d’entrée permanent.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_TEMPLATEID  <br/> |
 |Identificateur :  <br/> |0x3902  <br/> |
@@ -36,7 +36,7 @@ Contient le **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)
    
 ## <a name="remarks"></a>Remarques
 
-Cette valeur doit être présente pour tous les objets de carnet d’adresses sur un serveur NSPI (Name Service Provider Interface), son nom unique (DN) doit correspondre à la valeur de **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)), et son nom unique doit respecter la spécification de format DN spécifique au type d’objet. 
+Cette valeur doit être présente pour tous les objets de carnet d’adresses sur un serveur NSPI (Name Service Provider Interface), son nom unique (DN) doit correspondre à la valeur de **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) et son nom unique doit respecter la spécification de format DN spécifique au type d’objet. 
   
 Cette propriété n’est pas présente sur les objets d’un carnet d’adresses en mode hors connexion.
   
@@ -46,7 +46,7 @@ Cette propriété n’est pas présente sur les objets d’un carnet d’adresse
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

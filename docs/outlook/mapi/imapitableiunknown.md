@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f25be2b1-0f94-4a0c-b29d-d2201dc70ab7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3f501c71e1e7927f0eb1642984353262f7901a2b
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3f7df6b680ec68b193521428d1dd2012eea5f3da
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777438"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721747"
 ---
 # <a name="imapitable--iunknown"></a>IMAPITable : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62777438"
   
 Fournit une vue en lecture seule d’un tableau. **IMAPITable est utilisé** par les clients et les fournisseurs de services pour manipuler la façon dont une table apparaît. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Objets Table  <br/> |
@@ -38,7 +38,7 @@ Fournit une vue en lecture seule d’un tableau. **IMAPITable est utilisé** par
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetLastError](imapitable-getlasterror.md) <br/> |Renvoie une [structure MAPIERROR](mapierror.md) contenant des informations sur l’erreur précédente sur le tableau. |
 |[Conseiller](imapitable-advise.md) <br/> |S’inscrit pour recevoir une notification des événements spécifiés affectant la table. |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4f9d44f2-4faa-4f16-9e33-22f80c17db85
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 19a777423d97976212f487c2e2624b158d0be352
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la date et l’heure de livraison d’un message. Cette propriété décrit l’heure à partir de l’heure à partir de la dernière fois où le message a été stocké sur le serveur.
+ms.openlocfilehash: 43481fbcc19ec6ee6ffdd88bd8f0344cfe6bbe77
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583365"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63742114"
 ---
 # <a name="pidtagmessagedeliverytime-canonical-property"></a>Propriété canonique PidTagMessageDeliveryTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583365"
   
 Contient la date et l’heure de livraison d’un message. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_DELIVERY_TIME  <br/> |
 |Identificateur :  <br/> |0x0E06  <br/> |

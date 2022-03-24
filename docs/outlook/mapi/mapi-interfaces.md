@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: 34a66cf0-b4e0-4fd5-b937-cd157888961d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5ea5be8b45e34461b92efac15e08b8f8038461e3
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 82267a84bfe912656a657acb3e55b1520a9fe772
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62779825"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720840"
 ---
 # <a name="mapi-interfaces"></a>Interfaces MAPI
 
@@ -25,7 +25,7 @@ ms.locfileid: "62779825"
   
 La documentation de chaque interface se compose d’une section d’introduction qui inclut une brève description de l’objectif de l’interface, suivie d’un tableau contenant les informations suivantes.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Fichier d’en-tête dans lequel l’interface est définie et qui doit être inclus lorsque vous compilez votre code source. |
 |Exposé par :  <br/> |Objet qui expose l’interface. |

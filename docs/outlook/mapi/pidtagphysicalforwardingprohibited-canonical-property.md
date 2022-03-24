@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2651759d-914b-4376-92b2-6d5d4ffb5530
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 36d3d75ac4aa8c04b002d4827b5ebc760ec87ada
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8f74bde11efd9f9ff9cb46095e2c0b31fbbdaafa
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555208"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722735"
 ---
 # <a name="pidtagphysicalforwardingprohibited-canonical-property"></a>Propriété canonique PidTagPhysicalForwardingProhibited
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555208"
   
 Contient TRUE si un expéditeur de message interdit le forwarding de messages physiques pour un destinataire spécifique.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PHYSICAL_FORWARDING_PROHIBITED  <br/> |
 |Identificateur :  <br/> |0x0C0F  <br/> |

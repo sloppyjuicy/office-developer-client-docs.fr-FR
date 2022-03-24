@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 008cadb1-4c8e-4ef7-a072-aa1d75a448cf
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b5362036f56e46adb878b6679dd581f7a2b1afd1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une valeur de champ d’en-tête content-transfer-encoding RFC3282 pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: ae1d97a751d301cb4bb17b7e81c38b697c247d6e
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579277"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762128"
 ---
 # <a name="pidnamecontenttransferencoding-canonical-property"></a>Propriété canonique PidNameContentTransferEncoding
 
@@ -27,9 +27,9 @@ ms.locfileid: "59579277"
   
 Contient une valeur de champ d’en-tête Content-Transfer-Encoding [RFC3282].
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms convivial :  <br/> |Aucune  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nom de la propriété :  <br/> |Content-Transfer-Encoding  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |

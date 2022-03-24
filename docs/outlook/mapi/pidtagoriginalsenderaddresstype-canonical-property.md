@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd777f19-cbb1-4497-8a0b-e05b491c6957
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b0df5e3bb9f770d5cae5cd0e5eed06d980a85549
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le type d’adresse de l’expéditeur de la première version d’un message, c’est-à-dire le message avant d’être transmis ou de répondre.
+ms.openlocfilehash: fd6a99313fae221f3e30a7eed52f8c6431910a8c
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595139"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763069"
 ---
 # <a name="pidtagoriginalsenderaddresstype-canonical-property"></a>Propriété canonique PidTagOriginalSenderAddressType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595139"
   
 Contient le type d’adresse de l’expéditeur de la première version d’un message, c’est-à-dire le message avant d’être transmis ou de répondre.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_SENDER_ADDRTYPE, PR_ORIGINAL_SENDER_ADDRTYPE_A, PR_ORIGINAL_SENDER_ADDRTYPE_W  <br/> |
 |Identificateur :  <br/> |0x0066  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont des exemples des propriétés d’adresse de l’expédite
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

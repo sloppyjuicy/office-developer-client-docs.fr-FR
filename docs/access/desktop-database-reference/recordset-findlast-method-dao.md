@@ -7,12 +7,12 @@ ms:contentKeyID: 48545311
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b5452d0de206080b644203c615b40de0bf7b06fb
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 24ad6e4fc0148fb7581a21e0471f08d42bfc62a0
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63375068"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722038"
 ---
 # <a name="recordsetfindlast-method-dao"></a>Recordset.FindLast, méthode (DAO)
 
@@ -30,10 +30,10 @@ Recherche le dernier enregistrement dans un objet **[Recordset](recordset-object
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -63,9 +63,9 @@ Chacune des méthodes **Find** commence sa recherche à partir de l’emplacemen
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

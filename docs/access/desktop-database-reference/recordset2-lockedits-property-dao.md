@@ -7,12 +7,12 @@ ms:contentKeyID: 48545716
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4f55353eafb38f6d2ef2749da4788c3f288b2cd9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 273232711ac5ad9cfb237fbcf447881f074fbd7c
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572801"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63716138"
 ---
 # <a name="recordset2lockedits-property-dao"></a>Recordset2.LockEdits, propriété (DAO)
 
@@ -24,7 +24,7 @@ Définit ou renvoie une valeur indiquant le type de verrouillage appliqué penda
 
 *.* LockEdits
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -32,8 +32,8 @@ Le paramètre ou la valeur de retour indique le type de verrouillage, comme indi
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -43,11 +43,11 @@ Le paramètre ou la valeur de retour indique le type de verrouillage, comme indi
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Vrai</p></td>
+<td><p>True</p></td>
 <td><p>Par défaut. Le verrouillage pessimiste est activé. La page contenant l’enregistrement que vous modifiez est verrouillée dès que vous invoquez la méthode Edit.</p></td>
 </tr>
 <tr class="even">
-<td><p>Faux</p></td>
+<td><p>False</p></td>
 <td><p>Le verrouillage optimiste est activé pour la modification. La page contenant l’enregistrement n’est pas verrouillée tant que la méthode Update n’est pas exécutée.</p></td>
 </tr>
 </tbody>
@@ -63,7 +63,7 @@ Si vous affectez à la propriété **LockEdits** la valeur **False** et que vous
 Lorsque vous utilisez des sources de données ODBC connectées au moteur de base de données Microsoft Access, la propriété **LockEdits** a toujours la valeur **False** (verrouillage optimiste). Le moteur de base de données Microsoft Access n'a aucun contrôle sur les mécanismes de verrouillage mis en œuvre sur des serveurs de base de données externes.
 
 > [!NOTE]
-> Vous pouvez prédéfiniter la valeur de  **LockEdits** lorsque vous ouvrez le jeu d’enregistrements pour la première fois en fixant l’argument lockedits de la **[méthode OpenRecordset.](connection-openrecordset-method-dao.md)** Le fait de définir l’argument verrouillermodifications sur **dbPessimistic** définit la propriété **LockEdits** sur **True** et le fait de définir verrouillermodifications sur toute autre valeur définit la propriété **LockEdits** sur **False**.
+> Vous pouvez prédéfiniter la valeur de **LockEdits** lorsque vous  ouvrez le jeu d’enregistrements pour la première fois en fixant l’argument lockedits de la **[méthode OpenRecordset](connection-openrecordset-method-dao.md)**. Le fait de définir l’argument verrouillermodifications sur **dbPessimistic** définit la propriété **LockEdits** sur **True** et le fait de définir verrouillermodifications sur toute autre valeur définit la propriété **LockEdits** sur **False**.
 
 ## <a name="example"></a>Exemple
 

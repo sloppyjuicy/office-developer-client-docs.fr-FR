@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01cae79e-5b56-4cd4-83a6-f0956ff539fb
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 033c1f5ce189033dab2a749ccefb5229c8db9379
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette propriété contient un nombre qui indique l’état d’un transfert à distance. Si aucun transfert n’est en cours, cette propriété doit être définie sur 1.
+ms.openlocfilehash: db1dfa082f4aa42837c3904492efe959d2fc27a1
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59594978"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762107"
 ---
 # <a name="pidtagremoteprogress-canonical-property"></a>Propriété canonique PidTagRemoteProgress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59594978"
   
 Cette propriété contient un nombre qui indique l’état d’un transfert à distance.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REMOTE_PROGRESS  <br/> |
 |Identificateur :  <br/> |0x3E0B  <br/> |
@@ -48,7 +48,7 @@ MSGSTATUS_REMOTE_DELETE
     
 MSGSTATUS_REMOTE_DOWNLOAD
   
-> Le transfert des messages est en cours.
+> Le transfert de message est en cours.
     
 ## <a name="related-resources"></a>Ressources connexes
 

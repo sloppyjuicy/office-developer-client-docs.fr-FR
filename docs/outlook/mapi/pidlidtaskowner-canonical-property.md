@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb671826-8c60-4c30-9a9e-ad3184e8a50f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 96176bd530a36969ff74040eb165091063ae02c8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom du propriétaire de la tâche pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 818b5d9a44209b721fb71604f2cb2a957decb50a
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550987"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741978"
 ---
 # <a name="pidlidtaskowner-canonical-property"></a>Propriété canonique PidLidTaskOwner
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550987"
   
 Contient le nom du propriétaire de la tâche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskOwner  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

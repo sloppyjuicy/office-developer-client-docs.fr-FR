@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: e4234ddf-d9dc-4dc9-8eda-dbbee151b5d7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: eccf22a9e2fc39f4232eb194bef204055ec3ba07
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5ea42eac032181312642809e7be430918c111bf6
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583239"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63713479"
 ---
 # <a name="pidtagpstconfigurationflags-canonical-property"></a>Propriété canonique PidTagPstConfigurationFlags
   
@@ -23,7 +23,7 @@ ms.locfileid: "59583239"
   
 Spécifications des indicateurs de configuration pour une table de stockage personnel (fichier .pst).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PST_CONFIG_FLAGS  <br/> |
 |Identificateur :  <br/> |0x6770  <br/> |
@@ -42,7 +42,7 @@ PST_CONFIG_UNICODE
     
 PST_CONFIG_CREATE_NOWARN
   
-> Lorsqu’il est configuré à partir des indicateurs clients vers la méthode [IMsgServiceAdmin::ConfigureMsgService,](imsgserviceadmin-configuremsgservice.md) **configureMsgService** est traité comme un appel [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) et ignore l’avertissement « Ce service d’information n’a pas été configuré ». 
+> Lorsqu’il est configuré à partir des indicateurs clients vers la méthode [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) , **configureMsgService** comme un [appel IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) et ignore l’avertissement « Ce service d’information n’a pas été configuré ». 
     
    `#define PST_CONFIG_CREATE_NOWARN 0x00000001`
     
@@ -70,7 +70,7 @@ OST_CONFIG_CREATE_NEW_DEFAULT
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

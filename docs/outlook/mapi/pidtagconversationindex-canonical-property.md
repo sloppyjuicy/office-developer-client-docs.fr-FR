@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: c65cdda7-9515-4da9-be75-43ebf45a02df
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 496af697274a4c534335040d7ade531d5d5e05c6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 43b09b75cae9ba2e998b12a30a979641ca466de9
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583484"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722247"
 ---
 # <a name="pidtagconversationindex-canonical-property"></a>Propriété canonique PidTagConversationIndex
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583484"
   
 Contient une valeur binaire qui indique la position relative de ce message dans un thread de conversation. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONVERSATION_INDEX  <br/> |
 |Identificateur :  <br/> |0x0071  <br/> |
@@ -40,9 +40,9 @@ Un thread de conversation représente une série de messages et de réponses. Ce
   
 MAPI fournit la [fonction ScCreateConversationIndex](sccreateconversationindex.md) pour créer ou mettre à jour un index de conversation. La fonction prend la valeur d’index actuelle sous la forme d’un tableau d’byte compté et renvoie la valeur d’index avec un horodaté concaté à la fin. Un message représentant une réponse à un autre message doit utiliser **ScCreateConversationIndex** pour mettre à jour cette propriété. 
   
-Un fournisseur de magasins de messages a la possibilité de s’assurer PR_CONVERSATION_INDEX **est** toujours définie sur les messages entrants ou sortants. Pour ce faire, il peut appeler **ScCreateConversationIndex,** soit avec la valeur existante si cette propriété est définie, soit avec null si ce n’est pas le cas. Cette action doit être prise avant [l’appel d’IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
+Un fournisseur de magasins de messages a la possibilité de s’assurer **PR_CONVERSATION_INDEX est toujours** définie sur les messages entrants ou sortants. Il peut le faire en appelant **ScCreateConversationIndex**, soit avec la valeur existante si cette propriété est définie, soit avec null si ce n’est pas le cas. Cette action doit être prise avant [l’appel d’IMAPIProp::SaveChanges](imapiprop-savechanges.md) . 
   
-Tous les messages qui ont la même valeur **PR_CONVERSATION_TOPIC** peuvent être triés sur cette propriété pour révéler la relation hiérarchique des messages. 
+Tous les messages qui ont la même valeur **pour PR_CONVERSATION_TOPIC** peuvent être triés sur cette propriété pour révéler la relation hiérarchique des messages. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -50,7 +50,7 @@ Tous les messages qui ont la même valeur **PR_CONVERSATION_TOPIC** peuvent êtr
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b8c0c871-51d8-4752-ad4b-607463a9f837
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: df39d6619d1507e83709068bd74178f34d92231b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Représente la date et l’heure de début, au Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 5ae0182a94926fd3e0b78e01cf9cd89d5788b4dc
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624873"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762290"
 ---
 # <a name="pidlidlogstart-canonical-property"></a>Propriété canonique PidLidLogStart
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624873"
   
 Représente la date et l’heure de début du message de journal.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidLogStart  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Log  <br/> |

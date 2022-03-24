@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d643bf62-62e5-41c7-ab88-5c4c358e5460
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: acf8edb4895fd82cb2ff2ba41b9d51360606bbf6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c18980d499528fdebe8311e465209386a9cb0b28
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600546"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725777"
 ---
 # <a name="pidlidsendmeetingasical-canonical-property"></a>Propriété canonique PidLidSendMeetingAsIcal
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600546"
   
 Spécifie si une demande de réunion doit être envoyée en tant que message iCal.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSendMtgAsICAL  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

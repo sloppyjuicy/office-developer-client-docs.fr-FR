@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f9506faf-a75a-47a9-b32b-00780e1c5df4
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 15b9cbf82a486701650ba46dcfe882915bc9ecff
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’adresse de forwarding physique d’un destinataire de message et est utilisé uniquement avec les rapports de messages.
+ms.openlocfilehash: 8b98f3f5dcdf37f4f237eedbb6703b5b0555edf8
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583288"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63742088"
 ---
 # <a name="pidtagphysicalforwardingaddress-canonical-property"></a>Propriété canonique PidTagPhysicalForwardingAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583288"
   
 Contient l’adresse de forwarding physique d’un destinataire de message et est utilisé uniquement avec les rapports de messages.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PHYSICAL_FORWARDING_ADDRESS  <br/> |
 |Identificateur :  <br/> |0x0C0D  <br/> |

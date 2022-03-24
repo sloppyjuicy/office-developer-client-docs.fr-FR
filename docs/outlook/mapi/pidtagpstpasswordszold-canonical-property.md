@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: eca2ba85-27bf-445b-8f87-b56ae879a72f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 567d90975ba67e6d3b488d4934a4a478ca8698b2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le mot de passe de la table de stockage personnel (fichier .pst) configurée pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: ac824ade5b4b4e3b783850172b66141cccc39a4e
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595055"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63742126"
 ---
 # <a name="pidtagpstpasswordszold-canonical-property"></a>Propriété canonique PidTagPstPasswordSzOld
 
@@ -25,7 +25,7 @@ ms.locfileid: "59595055"
   
 Contient le mot de passe de la table de stockage personnel (fichier .pst) en cours de configuration.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PST_PW_SZ_OLD, PR_PST_PW_SZ_OLD_A, PR_PST_PW_SZ_OLD_W  <br/> |
 |Identificateur :  <br/> |0x6703  <br/> |
@@ -38,7 +38,7 @@ Contient le mot de passe de la table de stockage personnel (fichier .pst) en cou
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

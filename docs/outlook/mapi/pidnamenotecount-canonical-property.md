@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0c38a59f-597c-4f1b-bdbb-788d4f8b1c9c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d096710905e6c695aba6dd11aa2b1bd917f55e03
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le nombre de notes dans le fichier joint au document pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 832b959a3f63a8df5b5ef88709e8b99d7438c062
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583610"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741854"
 ---
 # <a name="pidnamenotecount-canonical-property"></a>Propriété canonique PidNameNoteCount
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583610"
   
 Spécifie le nombre de notes dans le fichier joint au document.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |

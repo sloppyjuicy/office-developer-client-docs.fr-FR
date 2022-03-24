@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6058c78b-05d4-45a3-988c-1fbf8322125e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: beb61d82ae0fe07355e3501d6b8f4cda3fc7f405
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3e6105d15b21b57582d78a7c1ab718b390e771c8
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588100"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723492"
 ---
 # <a name="dtblbutton"></a>DTBLBUTTON
 
@@ -27,7 +27,7 @@ ms.locfileid: "59588100"
   
 Contient des informations sur un contrôle de bouton pour une boîte de dialogue conçue à partir d’un tableau d’affichage.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Macro associée :  <br/> |[SizedDtblButton](sizeddtblbutton.md) <br/> |
@@ -50,7 +50,7 @@ typedef struct _DTBLBUTTON
     
  **ulFlags**
   
-> Masque de bits d’indicateurs utilisé pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabel.** L’indicateur suivant peut être définie : 
+> Masque de bits d’indicateurs utilisé pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabel** . L’indicateur suivant peut être définie : 
     
 MAPI_UNICODE 
   
@@ -58,17 +58,17 @@ MAPI_UNICODE
     
  **ulPRControl**
   
-> Balise de propriété pour une propriété de type PT_OBJECT qui implémente l’interface [IMAPIControl.](imapicontroliunknown.md) Lorsque vous cliquez sur le bouton, MAPI appelle la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) pour l’implémentation [IMAPIProp](imapipropiunknown.md) de la table d’affichage afin de récupérer cette propriété. 
+> Balise de propriété pour une propriété de type PT_OBJECT qui implémente l’interface [IMAPIControl](imapicontroliunknown.md) . Lorsque vous cliquez sur le bouton, MAPI appelle la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) pour l’implémentation [IMAPIProp](imapipropiunknown.md) de la table d’affichage afin de récupérer cette propriété. 
     
 ## <a name="remarks"></a>Remarques
 
 Une structure **DTBLBUTTON** décrit un bouton d’un contrôle qui, lorsqu’on clique dessus, permet à un utilisateur de commencer une opération. En règle générale, le fait de cliquer sur un bouton entraîne l’affichage d’une boîte de dialogue modale ou l’appel d’une tâche par programme. Les fournisseurs de services peuvent implémenter n’importe quoi par le biais d’un contrôle de bouton. Si le bouton est censé effectuer une tâche basée sur les valeurs d’autres contrôles, ces contrôles doivent avoir DT_SET_IMMEDIATE indicateur. 
   
-Le **membre ulbLpszLabel** est la position dans la mémoire de la chaîne de caractères qui s’affiche sur le bouton. Les fournisseurs de services peuvent ajouter un caractère « eter » () pour indiquer un Windows &amp; dans l’étiquette du bouton. Appuyer sur une touche d’accélérateur a le même effet que de cliquer sur le bouton. 
+Le **membre ulbLpszLabel** est la position dans la mémoire de la chaîne de caractères qui s’affiche sur le bouton. Les fournisseurs de services peuvent ajouter un caractère et un caractère (&amp;) pour indiquer un Windows dans l’étiquette du bouton. Appuyer sur une touche d’accélérateur a le même effet que de cliquer sur le bouton. 
   
-Le **membre ulPRControl** décrit une propriété d’objet qui, lorsqu’elle est ouverte avec la méthode **IMAPIProp::OpenProperty,** renvoie un pointeur vers un objet de contrôle. L’implémentation d’un objet de contrôle qui prend en charge l’interface **IMAPIControl** est un moyen d’étendre l’ensemble de fonctionnalités MAPI et de définir l’opération ou la tâche qui se produit lorsque l’utilisateur clique sur le bouton. **IMAPIControl fournit** deux méthodes de manipulation des boutons : [GetState](imapicontrol-getstate.md) pour désactiver ou activer les boutons et [Activate](imapicontrol-activate.md) pour gérer les clics de bouton. 
+Le **membre ulPRControl** décrit une propriété d’objet qui, lorsqu’elle est ouverte avec la méthode **IMAPIProp::OpenProperty** , renvoie un pointeur vers un objet de contrôle. L’implémentation d’un objet de contrôle qui prend en charge l’interface **IMAPIControl** est un moyen d’étendre l’ensemble de fonctionnalités MAPI et de définir l’opération ou la tâche qui se produit lorsque l’utilisateur clique sur le bouton. **IMAPIControl fournit** deux méthodes de manipulation des boutons : [GetState](imapicontrol-getstate.md) pour désactiver ou activer les boutons et [Activate](imapicontrol-activate.md) pour gérer les clics de bouton. 
   
-Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

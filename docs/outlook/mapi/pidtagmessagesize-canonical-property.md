@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c67fb54b-8cc7-4fbc-8204-36fcddfa6192
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: edebd29dfc8a6ecbc13c2982a290ece0b02e7fc9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la somme, en octets, de la taille de toutes les propriétés d’un objet message. La taille indique le nombre d’octets transférés lors du transfert du message.
+ms.openlocfilehash: 31386f3cca75b490112dc11a943efa71999b6f27
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629752"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762717"
 ---
 # <a name="pidtagmessagesize-canonical-property"></a>Propriété canonique PidTagMessageSize
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629752"
   
 Contient la somme, en octets, de la taille de toutes les propriétés d’un objet message. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_SIZE  <br/> |
 |Identificateur :  <br/> |0x0E08  <br/> |
@@ -36,7 +36,7 @@ Contient la somme, en octets, de la taille de toutes les propriétés d’un obj
    
 ## <a name="remarks"></a>Remarques
 
-Il est recommandé que les objets de message exposent cette propriété. La taille du message indique le nombre approximatif d’octets transférés lorsque le message est déplacé d’une magasin de messages vers une autre. Étant la somme des tailles de toutes les propriétés de l’objet de message, elle est généralement beaucoup plus grande que le texte du message uniquement. 
+Il est recommandé que les objets de message exposent cette propriété. La taille du message indique le nombre approximatif d’octets transférés lorsque le message est déplacé d’une magasin de messages vers une autre. Étant la somme des tailles de toutes les propriétés sur l’objet de message, elle est généralement beaucoup plus grande que le texte du message uniquement. 
   
 La plupart des fournisseurs de magasins de messages calculent cette propriété pour les messages qu’ils gèrent. Toutefois, certains fournisseurs de magasins de messages ne la prise en charge de cette propriété. Dans tous les cas, cette propriété n’est pas disponible tant que la méthode [IMAPIProp::SaveChanges ou](imapiprop-savechanges.md) [IMessage::SubmitMessage](imessage-submitmessage.md) n’a pas été appelée. 
   
@@ -46,11 +46,11 @@ La plupart des fournisseurs de magasins de messages calculent cette propriété 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   

@@ -7,12 +7,12 @@ ms:contentKeyID: 48544893
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 216a15a6152fd1920562ad04b9c0f1a4d150bf86
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d143b5599872afcff94ba4d983e39c483007e123
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568508"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725634"
 ---
 # <a name="recordsetfindnext-method-dao"></a>Recordset.FindNext, méthode (DAO)
 
@@ -30,10 +30,10 @@ Recherche l’enregistrement suivant dans un objet **[Recordset](recordset-objec
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -64,9 +64,9 @@ Chacune des méthodes **Find** commence sa recherche à partir de l’emplacemen
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

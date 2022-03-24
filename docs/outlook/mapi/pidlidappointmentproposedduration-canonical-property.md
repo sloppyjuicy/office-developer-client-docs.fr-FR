@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 37806778-a19a-4905-a845-525d3912bf9e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1e55fbbbda9f49e6f352dcd7e707640fa49ea3a4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 80d9c7372a41e4835a9b0d659659ffdc5a99eaa0
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567073"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725801"
 ---
 # <a name="pidlidappointmentproposedduration-canonical-property"></a>Propriété canonique PidLidAppointmentProposedDuration
 
@@ -25,9 +25,9 @@ ms.locfileid: "59567073"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la valeur proposée pour la propriété **dispidApptDuration** ([PidLidAppointmentDuration](pidlidappointmentduration-canonical-property.md)) pour une proposition de compteur.
+Indique la valeur proposée pour la propriété **dispidApptDuration** ([PidLidAppointmentDuration](pidlidappointmentduration-canonical-property.md)) d’une proposition de compteur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptProposedDuration  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: f2c98a02702409962f20289128b18e53835e071d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 02066ea7b62a8d9325f1687c159b1df78ee8e734
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617495"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724885"
 ---
 # <a name="removealltempvars-macro-action"></a>RemoveAllTempVars, action de macro
 
@@ -26,7 +26,7 @@ ms.locfileid: "59617495"
 
 L’action **SupprimerToutesVarTemp** permet de supprimer toutes les variables temporaires que vous avez créées en utilisant l’action **DéfinirVarTemp**.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **SupprimerToutesVarTemp** ne possède aucun argument.
 
@@ -46,9 +46,9 @@ La macro suivante illustre comment créer une variable temporaire, l'utiliser da
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -61,12 +61,12 @@ La macro suivante illustre comment créer une variable temporaire, l'utiliser da
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>SetTempVar</strong></p></td>
-<td><p><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox( &quot; Enter a non-zero number. &quot; )</p></td>
+<td><p><strong>Name</strong>: <strong>MyVarExpression</strong>: InputBox(&quot;Enter a non-zero number.&quot;)</p></td>
 </tr>
 <tr class="even">
 <td><p>[TempVars]![MaVar] &lt;&gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: = &quot; vous avez entré &quot; &amp; [TempVars]![ MyVar] &amp; &quot; . &quot; <strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></p></td>
+<td><p><strong>Message</strong> : =&quot;Vous avez entré &quot; &amp; [TempVars]![ MyVar] &amp; &quot;.&quot; <strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

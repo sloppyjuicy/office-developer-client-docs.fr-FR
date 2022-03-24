@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e15599c5-f40f-46a6-a726-7359efd09ff8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 949a1763dcea376e26ab246921f9124538989de9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la clé de recherche de l’expéditeur du message. Cette propriété doit être définie par le fournisseur de transport sortant, qui ne doit jamais propager les valeurs précédentes.
+ms.openlocfilehash: 802589a7f8545b7fccd6bbe7f97538246fe8f142
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609809"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762660"
 ---
 # <a name="pidtagsendersearchkey-canonical-property"></a>Propriété canonique PidTagSenderSearchKey
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609809"
   
 Contient la clé de recherche de l’expéditeur du message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SENDER_SEARCH_KEY  <br/> |
 |Identificateur :  <br/> |0x0C1D  <br/> |
@@ -46,7 +46,7 @@ Si aucun fournisseur de transport n’a fourni de propriétés d’adresse d’e
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
@@ -70,7 +70,7 @@ Si aucun fournisseur de transport n’a fourni de propriétés d’adresse d’e
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

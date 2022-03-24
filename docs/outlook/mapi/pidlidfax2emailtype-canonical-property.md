@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: db8c3014-fa17-4b76-8a76-e352a0be8233
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 529c3defaee2a61dc2b3dc94fb4e54c458df9cba
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le type de courrier électronique de l’adresse de télécopie du domicile du contact pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: de40ed7855f8a6fa7699650e55dba739901a3fbb
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600672"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763410"
 ---
 # <a name="pidlidfax2emailtype-canonical-property"></a>Propri t canonique PidLidFax2EmailType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600672"
   
 Spécifie le type de courrier électronique de l’adresse de télécopie du domicile du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax2EmailType  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

@@ -7,12 +7,12 @@ ms:contentKeyID: 48548211
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4b1f6995e2c999bd2ecb03fb2fe50ebc4b297e64
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0529985ac68f6812b49c9fadd29d46ffdebcecf3
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621940"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63716446"
 ---
 # <a name="recordset2move-method-dao"></a>Recordset2.Move, méthode (DAO)
 
@@ -22,18 +22,18 @@ Déplace l’enregistrement actif d’un objet **[Recordset](recordset-object-da
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* Move(***Rows** _, _*_StartBookmark_**)
+*expression* .Move(***Rows** _, _*_StartBookmark_**)
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e5a94968-7e84-4faf-8104-9ea36d35fa1a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 28f405493b919fb1e8a49a39575e0a75767a98be
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9396b2dd067a694d0a0bba583807c720985f6fe5
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604396"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724518"
 ---
 # <a name="pidlidvalidflagstringproof-canonical-property"></a>Propriété canonique PidLidValidFlagStringProof
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604396"
   
 Valide si la valeur de la propriété **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) a été définie par un agent qui connaît la valeur de la propriété **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidValidFlagStringProof  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -37,9 +37,9 @@ Valide si la valeur de la propriété **dispidRequest** ([PidLidFlagRequest](pid
    
 ## <a name="remarks"></a>Remarques
 
-Sur les objets non sendables (objets de courrier et non-courrier reçus), les clients doivent définir cette valeur sur la valeur **de PR_MESSAGE_DELIVERY_TIME** lors de la modification **de dispidRequest**.
+Sur les objets non sendables (objets de courrier et non-courrier reçus), les clients doivent définir cette valeur sur la valeur **PR_MESSAGE_DELIVERY_TIME** lors de la modification **de dispidRequest**.
   
-Étant donné que la valeur de **PR_MESSAGE_DELIVERY_TIME** ne peut pas être prévue par l’expéditeur, si la valeur de cette propriété est égale à la valeur de **PR_MESSAGE_DELIVERY_TIME,** il est raisonnablement certain que la valeur de **dispidRequest** n’a pas été issue de l’expéditeur du message. Un client peut décider comment présenter la valeur de **dispidRequest** à l’utilisateur final en fonction du résultat de cette comparaison conformément à la stratégie de sécurité spécifique du client. Si la valeur de **dispidRequest** est ignorée en raison de la présence d’une valeur pour **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)), cette propriété doit être ignorée.
+Étant donné que la valeur de **PR_MESSAGE_DELIVERY_TIME** ne peut pas être prévue par l’expéditeur, si la valeur de cette propriété est égale à la valeur de **PR_MESSAGE_DELIVERY_TIME**, il est raisonnablement certain que la valeur de **dispidRequest** ne provient pas de l’expéditeur du message. Un client peut décider comment présenter la valeur de **dispidRequest** à l’utilisateur final en fonction du résultat de cette comparaison conformément à la stratégie de sécurité spécifique du client. Si la valeur de **dispidRequest** est ignorée en raison de la présence d’une valeur pour **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)), cette propriété doit être ignorée.
   
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2e027c0c-2370-437a-ad98-2bbb5e41e525
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 34e2d6813367e3fae8fe23009b55fe49edf31718
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la date et l’heure d’envoi d’origine du message dans le rapport. Elle n’est pas modifiée lorsque le message est transmis.
+ms.openlocfilehash: 520bf63640bf0f9691d74c5d3f7f195587d37c76
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587383"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763767"
 ---
 # <a name="pidtagoriginalsubmittime-canonical-property"></a>Propriété canonique PidTagOriginalSubmitTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587383"
   
 Contient la date et l’heure d’envoi d’origine du message dans le rapport.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_SUBMIT_TIME  <br/> |
 |Identificateur :  <br/> |0x004E  <br/> |
@@ -36,7 +36,7 @@ Contient la date et l’heure d’envoi d’origine du message dans le rapport.
    
 ## <a name="remarks"></a>Remarques
 
-Lors de la première soumission d’un message, une application cliente doit définir cette propriété sur la valeur de la propriété **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)). Elle n’est pas modifiée lorsque le message est transmis. Ceci est utilisé uniquement dans les rapports.
+Lors de la première soumission d’un message, une application cliente doit définir cette propriété sur la valeur de la propriété **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)). Elle n’est pas modifiée lorsque le message est transmis. Il est utilisé uniquement dans les rapports.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Lors de la première soumission d’un message, une application cliente doit dé
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

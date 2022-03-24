@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5cf0cf25-d302-44a4-bee8-53f5cff62647
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a64e1dc0f6ce9f15af199a33c20adc258c48b050
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie l’heure à laquelle le destinataire de la demande de partage a envoyé une réponse de partage. Il s’agit d’une propriété d’un message de partage.
+ms.openlocfilehash: 9a0fd413852bc24d3fc03fc444fce7fd0cbbb53f
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620295"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762655"
 ---
 # <a name="pidlidsharingresponsetime-canonical-property"></a>Propriété canonique PidLidSharingResponseTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620295"
   
 Spécifie l’heure à laquelle le destinataire de la demande de partage a envoyé une réponse de partage. Il s’agit d’une propriété d’un message de partage.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingResponseTime  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |

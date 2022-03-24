@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 815dabf3-3cac-40e1-b6ff-51db2ff5096a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 90ca5cef741f69d68f1db06098ca8133720a8130
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3a0fdd83c00f38386a058c520daf7bcc78f30a22
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555348"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63721805"
 ---
 # <a name="pidtagicon-canonical-property"></a>Propriété canonique PidTagIcon
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555348"
   
 Contient une image bitmap d’une icône pleine taille pour un formulaire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ICON  <br/> |
 |Identificateur :  <br/> |0x0FFD  <br/> |
@@ -44,7 +44,7 @@ Cette propriété contient une image de 32 × 32 pixels d’une icône, identiqu
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6aaf4b2c-2e78-47f0-a2df-53738c36cbb9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 17675ffdeaaa2d97013278624c22e6feea426a4d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom complet d’un fournisseur pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: ffe4f0f7e9fc1968d13208b786ca1e9de8afae8c
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574852"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741720"
 ---
 # <a name="pidtagproviderdisplayname-canonical-property"></a>Propriété canonique PidTagProviderDisplayName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59574852"
   
 Contient le nom complet d’un fournisseur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROVIDER_DISPLAY_NAME, PR_PROVIDER_DISPLAY_NAME_A, PR_PROVIDER_DISPLAY_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3418  <br/> |

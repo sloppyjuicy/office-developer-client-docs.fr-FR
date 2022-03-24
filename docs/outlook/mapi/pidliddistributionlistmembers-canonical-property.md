@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 029767ab-de72-4402-9cc3-31b006591042
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 946c8b12a2410b63bfaa22d9e6bde6de16167ff9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 710d71bbe3ed6f98cdb90d9bdd7025c78bc4e7a8
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575182"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725188"
 ---
 # <a name="pidliddistributionlistmembers-canonical-property"></a>Propri t canonique PidLidDistributionListMembers
 
@@ -27,7 +27,7 @@ ms.locfileid: "59575182"
   
 Spécifie la liste des EntryIds des objets qui correspondent aux membres de la liste de distribution personnelle.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidDLMembers  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
@@ -41,9 +41,9 @@ Les membres de la liste de distribution personnelle peuvent être d’autres lis
   
 Lors de la définition de cette propriété, le client ou le serveur doit s’assurer que sa taille totale est inférieure à 15 000 octets.
   
-Cette propriété spécifie la liste des EntryIds one-off qui correspondent aux membres de la liste de distribution personnelle. Ces EntryIds encapsulent les noms d’affichage et les adresses e-mail des membres de la liste de distribution personnelle.
+Cette propriété spécifie la liste des EntryIds qui correspondent aux membres de la liste de distribution personnelle. Ces EntryIds encapsulent les noms d’affichage et les adresses e-mail des membres de la liste de distribution personnelle.
   
-Si le client ou le serveur définisse cette propriété, elle doit être synchronisée avec cette propriété **dispidDLMembers** pour chaque entrée dans la propriété **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)), il doit y avoir une entrée à la même position dans la **dispidDLOneOffMembers**.
+Si le client ou le serveur a définie cette propriété, elle doit être synchronisée avec cette propriété **dispidDLMembers** pour chaque entrée dans la propriété **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)), il doit y avoir une entrée à la même position dans **dispidDLOneOffMembers**.
   
 ## <a name="related-resources"></a>Ressources connexes
 

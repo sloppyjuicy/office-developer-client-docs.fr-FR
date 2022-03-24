@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f686a2bc-aba5-4ea3-9963-76d0e96eab50
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 078c05c0f3355e633ab7edaed577c99b4c2a33b8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 733d50f324d1d27d7b089bc6dbc43835f7d21f67
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595706"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63716353"
 ---
 # <a name="mapstoragescode"></a>MapStorageSCode
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595706"
   
 Cartes valeur de retour SCODE d’un objet de stockage OLE à un type HRESULT. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Imessage.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 011d73d0-8b38-4a4e-a56f-92dec451946a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f96317a5feb607637e3e8c6c689e8ba8ecaf8572
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2a4cff15c2ff25234d00b5b472b0b53fd90ff6d1
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630347"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63715913"
 ---
 # <a name="pidlidreminderdelta-canonical-property"></a>Propriété canonique PidLidReminderDelta
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630347"
   
 Spécifie l’intervalle, en minutes, entre le moment où le rappel est en retard pour la première fois et l’heure de début de l’objet calendrier.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidReminderDelta  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

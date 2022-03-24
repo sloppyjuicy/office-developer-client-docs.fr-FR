@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3e17a528-b5f6-43f6-9e2f-c6a257beff6f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ee60b24c0c12f61de818ea20bab56e563657ddd9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e62ca772542c490850408eedbc278f3f4e74d543
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556880"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723786"
 ---
 # <a name="cbspropproblemarray"></a>CbSPropProblemArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "59556880"
   
 Calcule le nombre d’octets dans une structure [SPropProblemArray](spropproblemarray.md) existante. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**SPropProblemArray** <br/> |

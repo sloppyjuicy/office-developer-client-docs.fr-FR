@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 891851e1-e4a4-4c20-a26c-7223bcca35f7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f41d8859e9ebc2bc2fa65967d8fd234e62dc0e6a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient des informations sur les propriétés nommées contenues dans des conditions de règle étendues.
+ms.openlocfilehash: 173fd8d63844c5b86027532fdd01e00f5b49cc88
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550597"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762521"
 ---
 # <a name="pidtagextendedrulemessagecondition-canonical-property"></a>Propriété canonique PidTagExtendedRuleMessageCondition
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550597"
   
 Contient des informations sur les propriétés nommées contenues dans des conditions de règle étendues.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EXTENDED_RULE_MSG_CONDITION  <br/> |
 |Identificateur :  <br/> |0x0E9A  <br/> |
@@ -46,7 +46,7 @@ Pour plus d’informations sur le format de cette propriété binaire, voir [[MS
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   

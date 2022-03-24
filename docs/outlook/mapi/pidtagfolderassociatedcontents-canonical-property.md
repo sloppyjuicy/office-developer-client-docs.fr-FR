@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d1f3f589-dc2d-4538-a13f-278dad29bcc7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: eb2b059d1cf5fa9fc5b1858eadc4142774fd7b6b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un objet de table des matières incorporé qui fournit des informations sur la table des matières associée.
+ms.openlocfilehash: 242150af278f5cc8b42418721ca6cc5f8f0c8c79
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620190"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762955"
 ---
 # <a name="pidtagfolderassociatedcontents-canonical-property"></a>Propriété canonique PidTagFolderAssociatedContents
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620190"
   
 Contient un objet de table des matières incorporé qui fournit des informations sur la table des matières associée. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FOLDER_ASSOCIATED_CONTENTS  <br/> |
 |Identificateur :  <br/> |0x3610  <br/> |
@@ -38,11 +38,11 @@ Contient un objet de table des matières incorporé qui fournit des informations
 
 La table des matières associée représente un sous-foldeur qui n’apparaît pas dans la table des matières standard. Il contient les messages associés ou masqués du dossier. 
   
-Cette propriété peut être exclue dans les opérations [IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluse dans les opérations [IMAPIProp::CopyProps.](imapiprop-copyprops.md) En tant que propriété de type **PT_OBJECT**, elle ne peut pas être récupérée avec succès par la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) ; Son contenu doit être accessible par la méthode [IMAPIProp::OpenProperty,](imapiprop-openproperty.md) en demandant l’identificateur **IID_IMAPITable’interface.** Les fournisseurs de services doivent le signaler à la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) si elle est définie, mais peuvent éventuellement la signaler ou non si elle n’est pas définie. 
+Cette propriété peut être exclue dans les opérations [IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluse dans les opérations [IMAPIProp::CopyProps](imapiprop-copyprops.md) . En tant que propriété de type **PT_OBJECT**, elle ne peut pas être récupérée avec succès par la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) ; Son contenu doit être accessible par la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) , en demandant **l’identificateur IID_IMAPITable’interface** . Les fournisseurs de services doivent le signaler à la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) si elle est définie, mais peuvent éventuellement la signaler ou non si elle n’est pas définie. 
   
-Pour récupérer le contenu de la table, les applications clientes doivent appeler la méthode [IMAPIContainer::GetContentsTable.](imapicontainer-getcontentstable.md) Pour plus d’informations sur les tables de contenu de dossier, voir Tables des [matières](contents-tables.md) et [Affichage d’une table des matières des dossiers.](displaying-a-folder-contents-table.md) 
+Pour récupérer le contenu de la table, les applications clientes doivent appeler la méthode [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) . Pour plus d’informations sur les tables de contenu de dossier, voir [Tables des matières](contents-tables.md) et [Affichage d’une table des matières des dossiers](displaying-a-folder-contents-table.md). 
   
-Les **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) et cette propriété sont similaires dans l’utilisation. Plusieurs propriétés MAPI permettent d’accéder aux tables : 
+Les **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) et cette propriété sont d’utilisation similaires. Plusieurs propriétés MAPI permettent d’accéder aux tables : 
   
 |**Propriété**|**Table**|
 |:-----|:-----|
@@ -58,7 +58,7 @@ Les **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 65b73d0f-f1f1-4c11-8834-f7c736a30ffc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 532733ad7c96466ef8c1b0a078590e2b2f7cff42
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7a93dd9f3df45939e55424fc5962446ecb841120
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616683"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725763"
 ---
 # <a name="pidlidtasklastupdate-canonical-property"></a>Propriété canonique PidLidTaskLastUpdate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616683"
   
 Indique le temps universel coordonné (UTC) et la date de la dernière modification qui a été apporté à la tâche et indiqué par la propriété **dispidTaskHistory** ([PidLidTaskHistory](pidlidtasklastupdate-canonical-property.md)).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskLastUpdate  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

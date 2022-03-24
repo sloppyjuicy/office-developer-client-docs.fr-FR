@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 23cfd1d0-8e9d-4508-93dd-a88c0ef77c51
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 30569efe44960486940e0b39b44ca43d911a8b76
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fd49ed5ed75875f45319a983a8724dfc582d20ca
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561039"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724238"
 ---
 # <a name="pidtagabproviderid-canonical-property"></a>Propriété canonique PidTagAbProviderId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59561039"
   
 Contient la structure [MAPIUID](mapiuid.md) d’un fournisseur de carnet d’adresses. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_AB_PROVIDER_ID  <br/> |
 |Identificateur :  <br/> |0x3615  <br/> |
@@ -36,9 +36,9 @@ Contient la structure [MAPIUID](mapiuid.md) d’un fournisseur de carnet d’adr
    
 ## <a name="remarks"></a>Remarques
 
-La structure **MAPIUID** identifie le fournisseur de carnet d’adresses qui fournit ce conteneur particulier dans la hiérarchie de conteneurs. La valeur est propre à chaque fournisseur. 
+La structure **MAPIUID** identifie le fournisseur de carnet d’adresses qui fournit ce conteneur particulier dans la hiérarchie des conteneurs. La valeur est propre à chaque fournisseur. 
   
-Un fournisseur de carnet d’adresses peut fournir plusieurs identificateurs. Par exemple, un fournisseur qui fournit  deux conteneurs différents peut publier dans PR_AB_PROVIDER_ID identificateurs uniques pour chaque conteneur. 
+Un fournisseur de carnet d’adresses peut fournir plusieurs identificateurs. Par exemple, un fournisseur qui fournit deux conteneurs différents peut publier dans **PR_AB_PROVIDER_ID identificateurs** uniques pour chaque conteneur. 
   
  **PR_AB_PROVIDER_ID** est analogue à la propriété **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) pour les magasins de messages. Les applications clientes peuvent **utiliser PR_AB_PROVIDER_ID** pour rechercher des lignes associées dans une table de hiérarchie de carnet d’adresses. 
   

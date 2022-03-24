@@ -7,12 +7,12 @@ ms:contentKeyID: 48545357
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 1e74250a968186fbb3c7a3386091a1c1a9a7df96
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 57a119e5ca3c5360d62e6f796191df750140a309
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615031"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723986"
 ---
 # <a name="recordsettypeenum-enumeration-dao"></a>RecordsetTypeEnum, énumération (DAO)
 
@@ -23,9 +23,9 @@ Utilisé avec la propriété **Type** pour spécifier le type d’objet **Record
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -47,7 +47,7 @@ Utilisé avec la propriété **Type** pour spécifier le type d’objet **Record
 </tr>
 <tr class="odd">
 <td><p>dbOpenForwardOnly</p></td>
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>Ouvre un objet Recordset de type transfert uniquement</p></td>
 </tr>
 <tr class="even">
