@@ -1,5 +1,5 @@
 ---
-title: Propri t canonique PidLidClassified
+title: Propriété canonique PidLidClassified
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - COM
 ms.assetid: e869a583-2b8f-4782-8c23-74c20a895d8c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8b7a6cda9652dd1eb962e0664830c665a6f90db3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d3f7845c2bb0823d13d76c91f5d67019d089d4e3
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561102"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726077"
 ---
-# <a name="pidlidclassified-canonical-property"></a>Propri t canonique PidLidClassified
+# <a name="pidlidclassified-canonical-property"></a>Propriété canonique PidLidClassified
 
   
   
@@ -27,7 +27,7 @@ ms.locfileid: "59561102"
   
 Indique qu’un message est classé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidClassified  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 09bd3bdf-28d6-432c-9213-562a9a271adc
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 94a951f06458cd24b50797e24d727b2f3bcaad8d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient du texte facultatif pour un rapport généré par le système de messagerie. En règle générale, le texte n’est pas lui-même transféré via le système de messagerie.
+ms.openlocfilehash: c4a02520ce0502a9ff00a94a89a5f0a1fcc95db3
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591548"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782124"
 ---
 # <a name="pidtagreporttext-canonical-property"></a>Propriété canonique PidTagReportText
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591548"
   
 Contient du texte facultatif pour un rapport généré par le système de messagerie.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORT_TEXT, PR_REPORT_TEXT_A, PR_REPORT_TEXT_W  <br/> |
 |Identificateur :  <br/> |0x1001  <br/> |
@@ -44,7 +44,7 @@ En règle générale, le texte contenu dans ces propriétés est généré en r�
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

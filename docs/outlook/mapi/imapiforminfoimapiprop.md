@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a9fda518-11ba-42aa-85ef-dd2279e0319d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ffa1f13ed008736a823e742fea46358c16a1ee31
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Donne aux applications clientes l’accès aux propriétés qui sont spécifiques à la définition de formulaire. Le fournisseur peut décrire un formulaire sans l’activer.
+ms.openlocfilehash: 4a6e36df62d660fa2abd9b253d38afd24de8d94e
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784117"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406406"
 ---
 # <a name="imapiforminfo--imapiprop"></a>IMAPIFormInfo : IMAPIProp
 
@@ -27,7 +27,7 @@ ms.locfileid: "62784117"
   
 Donne aux applications clientes l’accès aux propriétés qui sont spécifiques à la définition de formulaire. En conservant les informations de formulaire dans un objet distinct, le fournisseur de bibliothèque de formulaires peut décrire un formulaire à un client sans l’activer.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Exposé par :  <br/> |Objets d’informations de formulaire  <br/> |
@@ -39,7 +39,7 @@ Donne aux applications clientes l’accès aux propriétés qui sont spécifique
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[CalcFormPropSet](imapiforminfo-calcformpropset.md) <br/> |Renvoie un pointeur vers l’ensemble complet des propriétés qu’un formulaire utilise. |
 |[CalcVerbSet](imapiforminfo-calcverbset.md) <br/> |Renvoie un pointeur vers l’ensemble complet des verbes qu’un formulaire utilise. |

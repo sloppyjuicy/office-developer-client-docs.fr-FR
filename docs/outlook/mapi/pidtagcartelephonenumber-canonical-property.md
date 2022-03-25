@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2cf1f651-31dd-4f92-8c23-cc83e1989bc2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7a78adb3dd05a24c3f6af8f9cecaec1e6397736d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le numéro de téléphone de voiture du destinataire. Ces propriétés sont définies par le destinataire et l’organisation du destinataire.
+ms.openlocfilehash: e80524946a88aca90e1e29371cf9d822893581eb
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583547"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405978"
 ---
 # <a name="pidtagcartelephonenumber-canonical-property"></a>Propriété canonique PidTagCarTelephoneNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583547"
   
 Contient le numéro de téléphone de voiture du destinataire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CAR_TELEPHONE_NUMBER, PR_CAR_TELEPHONE_NUMBER_A, PR_CAR_TELEPHONE_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A1E  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés fournissent des informations d’identification et d’accès s
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

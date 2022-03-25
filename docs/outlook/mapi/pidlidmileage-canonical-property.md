@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a0c2014a-6112-4c90-9be0-babb2e377402
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: af6a92d73acf4f9de77f10404d87407a6c7a1f2d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient les informations de kilométrage associées à un élément pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 96a5e2d6d84fdce66dcb37d0a7ea7aea99adc656
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604585"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405264"
 ---
 # <a name="pidlidmileage-canonical-property"></a>Propriété canonique PidLidMileage
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604585"
   
 Contient les informations de kilométrage associées à un élément.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidMileage  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

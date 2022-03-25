@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cd9e6a46-2112-4663-891e-5e57b22c0950
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d4d4de75d6d001584ea5cd6d833dc85f12913081
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée du dossier d’affichage commun prédéféré. Le dossier d’affichage commun contient un ensemble prédéféré de  specifieurs d’affichage standard.
+ms.openlocfilehash: b7789c9d59f8869abab9dca73f3ebc069914e233
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600399"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763900"
 ---
 # <a name="pidtagcommonviewsentryid-canonical-property"></a>Propriété canonique PidTagCommonViewsEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600399"
   
 Contient l’identificateur d’entrée du dossier d’affichage commun prédéféré. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_COMMON_VIEWS_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E6  <br/> |
@@ -36,9 +36,9 @@ Contient l’identificateur d’entrée du dossier d’affichage commun prédéf
    
 ## <a name="remarks"></a>Remarques
 
-Le dossier d’affichage commun contient un ensemble prédéféré de specifieurs d’affichage standard, tandis que le dossier d’affichage contient des specifieurs définis par un utilisateur de messagerie. Ces dossiers, qui ne sont pas visibles dans la hiérarchie des messages interpersonnels (IPM), peuvent contenir de nombreux spécifiés d’affichage, chacun étant stocké sous la mesure d’un message. Une application cliente peut choisir de fusionner les deux ensembles de spécifiés et de les rendre disponibles. 
+Le dossier d’affichage commun contient un ensemble prédéféré de  specifieurs d’affichage standard, tandis que le dossier d’affichage contient des  specifieurs définis par un utilisateur de messagerie. Ces dossiers, qui ne sont pas visibles dans la hiérarchie des messages interpersonnels (IPM), peuvent contenir de nombreux  spécifiés d’affichage, chacun étant stocké sous la mesure d’un message. Une application cliente peut choisir de fusionner les deux ensembles de  specifiers et de les rendre disponibles. 
   
-Pour plus d’informations sur les [affichages, voir Afficher les dossiers.](mapi-view-folders.md)
+Pour plus d’informations sur les [affichages, voir Afficher les dossiers](mapi-view-folders.md).
   
 ## <a name="related-resources"></a>Ressources connexes
 

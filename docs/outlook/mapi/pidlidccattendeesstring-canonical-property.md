@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 697d5c93-ec7f-4608-9866-9e249a093dbc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cbb3af7fec768d8b8ed46fe8be308393049c67b7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7768b80634874bfe4297c67e282e80e58ccedfb3
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561123"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783440"
 ---
 # <a name="pidlidccattendeesstring-canonical-property"></a>Propriété canonique PidLidCcAttendeesString
 
@@ -27,7 +27,7 @@ ms.locfileid: "59561123"
   
 Contient une liste de tous les participants à envoyer qui sont également des participants facultatifs.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidCCAttendeesString  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

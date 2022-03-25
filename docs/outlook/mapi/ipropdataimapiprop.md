@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 30b8ae9e-0c0c-4468-b286-29e083696fed
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 14bef23c5ece1116aa545c7b2470be90fc6ce208
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 519d8ad8853a557800f99e31a13696cc843755c6
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776269"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782167"
 ---
 # <a name="ipropdata--imapiprop"></a>IPropData : IMAPIProp
 
@@ -27,7 +27,7 @@ ms.locfileid: "62776269"
   
 Permet de récupérer et de modifier l’accès aux propriétés d’un objet. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Exposé par :  <br/> |Objet de données de propriété  <br/> |
@@ -39,7 +39,7 @@ Permet de récupérer et de modifier l’accès aux propriétés d’un objet.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[HrSetObjAccess](ipropdata-hrsetobjaccess.md) <br/> |D�finit le niveau d'acc�s de l'objet. |
 |[HrSetPropAccess](ipropdata-hrsetpropaccess.md) <br/> |Définit le niveau d’accès et l’état d’une ou de plusieurs propriétés de l’objet. |

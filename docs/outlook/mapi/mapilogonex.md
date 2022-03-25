@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 98091e5b-1abd-4814-9c7a-583b420ee11d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 834160ce52500cbc7093c037ef4e14ff29751a41
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ce5876d344e4e932afafe6cb254c23060f08cfb2
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62789108"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782180"
 ---
 # <a name="mapilogonex"></a>MAPILogonEx
 
@@ -27,7 +27,7 @@ ms.locfileid: "62789108"
   
 Connecte une application cliente à une session avec le système de messagerie. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -87,7 +87,7 @@ MAPI_LOGON_UI
     
 MAPI_NEW_SESSION 
   
-> Une tentative doit être réalisée pour créer une nouvelle session MAPI au lieu d’acquérir la session partagée. Si l MAPI_NEW_SESSION n’est pas définie, MAPILogonEx utilise une session partagée existante, même si le paramètre _lpszprofileName_ n’est pas NULL. 
+> Une tentative doit être réalisée pour créer une nouvelle session MAPI au lieu d’acquérir la session partagée. Si l’MAPI_NEW_SESSION n’est pas définie, MAPILogonEx utilise une session partagée existante, même si le paramètre _lpszprofileName_ n’est pas NULL. 
     
 MAPI_NO_MAIL 
   
@@ -141,7 +141,7 @@ Les applications clientes MAPI appellent la fonction MAPILogonEx pour se connect
   
 Le  _paramètre lpszProfileName_ est ignoré s’il existe une session précédente qui a appelé MapiLogonEx avec l’indicateur MAPI_ALLOW_OTHERS et si l’indicateur MAPI_NEW_SESSION n’est pas définie. Si le paramètre  _lpszProfileName_ a la valeur NULL ou pointe vers une chaîne vide et que le paramètre  _flFlags_ inclut l’indicateur MAPI_LOGON_UI, la fonction MAPILogonEx génère une boîte de dialogue d’accès avec un champ vide pour le nom du profil. 
   
-Lors de la connexion à un profil spécifique, un client doit transmettre l’indicateur MAPI_NEW_SESSION mapiLogonEx en plus du nom du profil. Dans le cas contraire, si un autre client a établi une session partagée en se connectant avec MAPI_ALLOW_OTHERS, le client est connecté à la session partagée au lieu du profil demandé. 
+Lors de la connexion à un profil spécifique, un client doit transmettre l’indicateur MAPI_NEW_SESSION MAPILogonEx en plus du nom du profil. Dans le cas contraire, si un autre client a établi une session partagée en se connectant avec MAPI_ALLOW_OTHERS, le client est connecté à la session partagée au lieu du profil demandé. 
   
 L MAPI_EXPLICIT_PROFILE ne provoque pas l’utilisation du nom de profil par défaut lorsque  _lpszProfileName_ est NULL ou vide, sauf si l’indicateur MAPI_USE_DEFAULT est également présent. 
   

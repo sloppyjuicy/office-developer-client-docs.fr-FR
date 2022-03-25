@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 124b9f05-032d-42f1-a3d3-4f4c9b9f7a06
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c233f0be22fde763c31f536d32dafb5f842a7ac6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un numéro d’ID d’organisation pour le contact, tel qu’un numéro d’ID d’employé. Celles-ci sont facultatives. L’utilisateur ou l’organisation de messagerie déterminent leur utilisation.
+ms.openlocfilehash: 498729e5663e57a42442f8da8ee9a898a517506e
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619875"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405228"
 ---
 # <a name="pidtagorganizationalidnumber-canonical-property"></a>Propriété canonique PidTagOrganizationalIdNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59619875"
   
 Contient un numéro d’ID d’organisation pour le contact, tel qu’un numéro d’ID d’employé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORGANIZATIONAL_ID_NUMBER, PR_ORGANIZATIONAL_ID_NUMBER_A, PR_ORGANIZATIONAL_ID_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A10  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont facultatives. Leur utilisation est déterminée par l’ut
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

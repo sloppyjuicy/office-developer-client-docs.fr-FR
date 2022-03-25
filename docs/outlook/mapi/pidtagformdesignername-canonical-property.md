@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ec2b0c67-18ff-4c3a-ae33-ce5b643b615f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1e59d00d1549bbd447750d7fffc36f0301fa89e0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom complet de l’objet utilisé pour concevoir le formulaire pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: aeb0ddbe2d8d4c09bde18f3e88ab58991224fe11
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620180"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764257"
 ---
 # <a name="pidtagformdesignername-canonical-property"></a>Propriété canonique PidTagFormDesignerName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620180"
   
 Contient le nom complet de l’objet utilisé pour concevoir le formulaire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_DESIGNER_NAME, PR_FORM_DESIGNER_NAME_A, PR_FORM_DESIGNER_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3308  <br/> |

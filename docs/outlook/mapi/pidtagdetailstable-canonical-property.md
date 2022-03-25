@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7a0ccad3-f497-4871-b733-771e6cb8ef6a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 81a8fd91fcc920a7ba2a165c3f4867675e3d9204
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un objet de tableau d’affichage incorporé. MAPI utilise ce tableau pour afficher les feuilles de propriétés d’un objet de carnet d’adresses en réponse à un appel IAddrBook::D etails.
+ms.openlocfilehash: a7083903bff27d58e197ca242abbecd327458d25
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550714"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764194"
 ---
 # <a name="pidtagdetailstable-canonical-property"></a>Propriété canonique PidTagDetailsTable
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550714"
   
 Contient un objet de tableau d’affichage incorporé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DETAILS_TABLE  <br/> |
 |Identificateur :  <br/> |0x3605  <br/> |
@@ -36,7 +36,7 @@ Contient un objet de tableau d’affichage incorporé.
    
 ## <a name="remarks"></a>Remarques
 
-La transmission de cette propriété à la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) pour l’objet renvoie une interface [IMAPITable](imapitableiunknown.md) qui permet la création du tableau d’affichage. MAPI utilise ce tableau pour afficher les feuilles de propriétés d’un objet de carnet d’adresses en réponse à un appel [IAddrBook::D etails.](iaddrbook-details.md) 
+La transmission de cette propriété à la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) pour l’objet renvoie une interface [IMAPITable](imapitableiunknown.md) qui permet la création du tableau d’affichage. MAPI utilise ce tableau pour afficher les feuilles de propriétés d’un objet de carnet d’adresses en réponse à un [appel IAddrBook::D etails](iaddrbook-details.md) . 
   
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 5ada6363-2406-4c0a-8326-a299a8bbefe1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8907ac29ac5b1641aaedfbddf6969fc28c0d2ca5
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 1570116d2607b6cc69a35c2809064daa9e0dee2f
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63379345"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781935"
 ---
 # <a name="nstserviceentry"></a>NSTServiceEntry
 
@@ -23,7 +23,7 @@ Fonction de point d’entrée du service de messagerie pour qu’un fournisseur 
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Implémenté par :  <br/> |Fournisseur MAPI  <br/> |
 |Appelé par :  <br/> |MAPI  <br/> |

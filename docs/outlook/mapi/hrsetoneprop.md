@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 14ae3242-fddf-4199-a9a7-4ab153b31064
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 50335f864001cd5698e93b1f2df50b9a6e2512c6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Définit ou modifie la valeur d’une propriété unique sur une interface de propriétés, c’est-à-dire une interface dérivée d’IMAPIProp.
+ms.openlocfilehash: 57b64fd2e1dc2a1a6a7742326e0c1218d8463058
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561585"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764418"
 ---
 # <a name="hrsetoneprop"></a>HrSetOneProp
 
@@ -27,7 +27,7 @@ ms.locfileid: "59561585"
   
 Définit ou modifie la valeur d’une propriété unique sur une interface de propriétés, c’est-à-dire une interface dérivée [d’IMAPIProp](imapipropiunknown.md). 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -48,7 +48,7 @@ HRESULT HrSetOneProp(
     
  _pprop_
   
-> [in] Pointeur vers la structure [SPropValue](spropvalue.md) définissant la valeur à définir sur la _propriété pmp._ 
+> [in] Pointeur vers la structure [SPropValue](spropvalue.md) définissant la valeur à définir sur la  _propriété pmp_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -56,8 +56,8 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Contrairement à [la méthode IMAPIProp::SetProps,](imapiprop-setprops.md) la fonction **HrSetOneProp** ne renvoie jamais d’avertissement. Comme elle ne définit qu’une seule propriété, elle réussit ou échoue simplement. Pour définir ou modifier plusieurs propriétés, **SetProps** est plus rapide. 
+Contrairement à [la méthode IMAPIProp::SetProps](imapiprop-setprops.md) , la fonction **HrSetOneProp** ne renvoie jamais d’avertissement. Comme elle ne définit qu’une seule propriété, elle réussit ou échoue simplement. Pour définir ou modifier plusieurs propriétés, **SetProps** est plus rapide. 
   
-Vous pouvez récupérer une propriété unique avec [la fonction HrGetOneProp.](hrgetoneprop.md) 
+Vous pouvez récupérer une propriété unique avec [la fonction HrGetOneProp](hrgetoneprop.md) . 
   
 

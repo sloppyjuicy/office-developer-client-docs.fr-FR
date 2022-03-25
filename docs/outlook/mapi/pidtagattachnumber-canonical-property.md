@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 507e0f2c-383c-4e2f-917b-159913f7234d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b594a7cd69b6c75b064e30868f3cce0070519246
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un nombre qui identifie de manière unique la pièce jointe dans son message parent. Les magasins de messages génèrent et conservent cette propriété.
+ms.openlocfilehash: 1d1c2dbe36981b03bd5318b26862f0859d685b12
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550833"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405222"
 ---
 # <a name="pidtagattachnumber-canonical-property"></a>Propriété canonique PidTagAttachNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550833"
   
 Contient un nombre qui identifie de manière unique la pièce jointe dans son message parent. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_NUM  <br/> |
 |Identificateur :  <br/> |0x0E21  <br/> |
@@ -38,9 +38,9 @@ Contient un nombre qui identifie de manière unique la pièce jointe dans son me
 
 Les magasins de messages génèrent et conservent cette propriété. Le numéro de pièce jointe est la clé de tri secondaire, après la position de rendu, dans le tableau des pièces jointes. 
   
- **PR_ATTACH_NUM** permet d’ouvrir la pièce jointe avec la méthode [IMessage::OpenAttach.](imessage-openattach.md) Au sein de la session d’une application cliente, la propriété **PR_ATTACH_NUM** d’une pièce jointe de message reste constante tant que la table de pièces jointes est ouverte. 
+ **PR_ATTACH_NUM** permet d’ouvrir la pièce jointe avec la méthode [IMessage::OpenAttach](imessage-openattach.md) . Dans la session d’une application cliente, la propriété **PR_ATTACH_NUM** d’une pièce jointe de message reste constante tant que la table de pièces jointes est ouverte. 
   
-La magasin de messages propage les modifications apportées à la table à l’aide des méthodes **IMessage::CreateAttach** et **IMessage::D eleteAttach.** À son option, la boutique de messages peut générer des notifications de tableau sur les tables de pièces jointes ouvertes afin que les clients peuvent resynchroniser ces modifications. 
+La magasin de messages propage les modifications apportées à la table à l’aide des méthodes **IMessage::CreateAttach** et **IMessage::D eleteAttach** . À son option, la boutique de messages peut générer des notifications de tableau sur les tables de pièces jointes ouvertes afin que les clients peuvent resynchroniser ces modifications. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ La magasin de messages propage les modifications apportées à la table à l’a
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

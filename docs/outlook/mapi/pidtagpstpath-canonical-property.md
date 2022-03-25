@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a246d1aa-a08c-4687-a24e-168803cfdd6f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 92b184cb832bbcbe0d339cee3ba30bf4eed7f8bb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’emplacement de l’objet dans le magasin de dossiers personnels à créer ou à configurer pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: c43733fa26566ebaba4c84e8aca8caee34f88886
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595048"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764068"
 ---
 # <a name="pidtagpstpath-canonical-property"></a>Propriété canonique PidTagPstPath
 
@@ -25,7 +25,7 @@ ms.locfileid: "59595048"
   
 Contient l’emplacement de l’objet dans le magasin de dossiers personnels à créer ou configurer.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PST_PATH, PR_PST_PATH_A, PR_PST_PATH_W  <br/> |
 |Identificateur :  <br/> |0x6700  <br/> |
@@ -38,7 +38,7 @@ Contient l’emplacement de l’objet dans le magasin de dossiers personnels à 
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

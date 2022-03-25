@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 30d7b5e5-be59-4c04-b4dc-4fb59abac2b6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a84a5b68d74f3fdaa467811c6f439797dddc4ced
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fc2a59b87ccca7b04bfc98bd939b98e9d5fab6ac
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630326"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781620"
 ---
 # <a name="pidlidmeetingworkspaceurl-canonical-property"></a>Propri t canonique PidLidMeetingWorkspaceUrl
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630326"
   
 Spécifie l’URL de l’espace de travail de réunion associé à un objet calendrier.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidMWSURL  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

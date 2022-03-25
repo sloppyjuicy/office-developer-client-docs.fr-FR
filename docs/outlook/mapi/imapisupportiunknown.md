@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 92bfe604-18dd-46a1-9ae8-0b04167606bd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 46485f297e73adb1ee6b0ea97c53848c3c053b67
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: dcd7820e0aab91c0e2ebb23860cc93367f4d552d
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776430"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722875"
 ---
 # <a name="imapisupport--iunknown"></a>IMAPISupport : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62776430"
   
 Fournit des implémentations pour les tâches généralement effectuées par les fournisseurs de services et les fonctions de point d’entrée du service de messagerie. Les fournisseurs de services reçoivent un pointeur vers leur objet de support lorsque MAPI appelle la méthode d’accès de l’objet fournisseur. Les services de message reçoivent leur pointeur d’objet de support dans l’appel à leur fonction de point d’entrée.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
 |Exposé par :  <br/> |Objets de prise en charge  <br/> |
@@ -38,7 +38,7 @@ Fournit des implémentations pour les tâches généralement effectuées par les
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description|
 |:-----|:-----|
 |[GetLastError](imapisupport-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente de l’objet de support. |
 |[GetMemAllocRoutines](imapisupport-getmemallocroutines.md) <br/> |Récupère les adresses des fonctions d’allocation et de désallocation de mémoire MAPI ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md) et [MAPIFreeBuffer](mapifreebuffer.md)). |
@@ -84,7 +84,7 @@ Fournit des implémentations pour les tâches généralement effectuées par les
 
 Les carnets d’adresses, les magasins de messages, les fournisseurs de transport et les services de messagerie ont chacun leurs propres objets de support. Les fournisseurs de services et les services de messagerie appellent les méthodes dans leurs objets de support dans le cadre de leurs implémentations d’autres méthodes d’interface. Chaque objet de support dispose d’implémentations complètes des méthodes qui s’appliquent à son appelant ; les méthodes qui ne sont pas applicables retournent MAPI_E_NO_SUPPORT. Les objets de support du fournisseur de carnet d’adresses ont des implémentations pour les méthodes suivantes :
   
-||||
+|Méthode |... |... |
 |:-----|:-----|:-----|
 |**Address** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
 |**Détails** <br/> |**DoConfigPropsheet** <br/> |**DoProgressDialog** <br/> |
@@ -97,7 +97,7 @@ Les carnets d’adresses, les magasins de messages, les fournisseurs de transpor
    
 Les objets de prise en charge du fournisseur de magasins de messages ont des implémentations pour les méthodes suivantes :
   
-||||
+|Méthode |... |... |
 |:-----|:-----|:-----|
 |**CompareEntryIDs** <br/> |**CompleteMsg** <br/> |**CopyFolder** <br/> |
 |**CopyMessages** <br/> |**CreateOneOff** <br/> |**DoCopyProps** <br/> |
@@ -113,7 +113,7 @@ Les objets de prise en charge du fournisseur de magasins de messages ont des imp
    
 Les objets de prise en charge des fournisseurs de transport ont des implémentations pour les méthodes suivantes :
   
-||||
+|Méthode |... |... |
 |:-----|:-----|:-----|
 |**DoConfigPropsheet** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
 |**GetMemAllocRoutines** <br/> |**GetSvcConfigSupportObj** <br/> |**GetLastError** <br/> |
@@ -125,7 +125,7 @@ Les objets de prise en charge des fournisseurs de transport ont des implémentat
    
 Les objets de support du service de message ont des implémentations pour les méthodes suivantes :
   
-|||
+|Méthode |... |
 |:-----|:-----|
 |**DoConfigPropsheet** <br/> |**GetLastError** <br/> |
 |**GetMemAllocRoutines** <br/> |**GetSvcConfigSupportObj** <br/> |

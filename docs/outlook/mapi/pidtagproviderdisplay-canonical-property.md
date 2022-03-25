@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 62e96db8-4c3e-4f73-b695-99eb4b2396fd
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b26951543a5a566e299fb25bea4ecf3f2d180900
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom complet défini par le fournisseur pour un fournisseur de services. Ces propriétés et PR_PROVIDER_DLL_NAME sont définies uniquement sur les sections de profil des fournisseurs de services.
+ms.openlocfilehash: 4b98ac93fb1336dae2aa2bccd78804bca68ddcae
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591681"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762094"
 ---
 # <a name="pidtagproviderdisplay-canonical-property"></a>Propriété canonique PidTagProviderDisplay
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591681"
   
 Contient le nom complet défini par le fournisseur pour un fournisseur de services.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROVIDER_DISPLAY, PR_PROVIDER_DISPLAY_A, PR_PROVIDER_DISPLAY_W  <br/> |
 |Identificateur :  <br/> |0x3006  <br/> |

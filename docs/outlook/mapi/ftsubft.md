@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6619fc41-5518-44ce-85c1-6b0077ed5cb9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6ae798d8ac99954677b17067292b960e4da505f4
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: e2ec63b1bd22e22cf3cb6c8e3ef72d1bcfc2c86c
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462959"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782873"
 ---
 # <a name="ftsubft"></a>FtSubFt
 
@@ -27,7 +27,7 @@ ms.locfileid: "62462959"
   
 Soustrait un integer 64 bits non signé d’un autre. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

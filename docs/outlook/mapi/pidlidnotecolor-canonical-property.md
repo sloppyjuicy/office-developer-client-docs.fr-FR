@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9d4b8f5f-1789-497c-8010-f83da9ba5966
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0c07460767ab1684fd67dd6e4db8a29912ca6b45
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8325840593c314a44ba5a38ec47eca5d9509c29f
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604578"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782628"
 ---
 # <a name="pidlidnotecolor-canonical-property"></a>Propri t canonique PidLidNoteColor
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604578"
   
 Spécifie la couleur d’arrière-plan suggérée de la note. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidNoteColor  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Note  <br/> |

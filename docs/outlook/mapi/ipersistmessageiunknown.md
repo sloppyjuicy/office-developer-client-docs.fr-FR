@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 40ec6dd4-2206-4e59-aafe-53aaf693f973
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bc717783d932e39b8d6d91b43acca9f12016d07c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e51eb3ef17eef016e82739e09d20a60deec89675
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783998"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781172"
 ---
 # <a name="ipersistmessage--iunknown"></a>IPersistMessage : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62783998"
   
 Permet aux visionneuses de formulaire de gérer le stockage d’un formulaire et de passer des différents états.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Exposé par :  <br/> |Persister les objets de message  <br/> |
@@ -38,7 +38,7 @@ Permet aux visionneuses de formulaire de gérer le stockage d’un formulaire et
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[GetLastError](ipersistmessage-getlasterror.md) <br/> |Renvoie une [structure MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente dans l’objet de formulaire. |
 |[GetClassID](ipersistmessage-getclassid.md) <br/> |Renvoie un identificateur qui représente le serveur de formulaires qui peut gérer le formulaire. |

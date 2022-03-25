@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f14dfe47-a9f8-4475-bb26-7da3411d8c6f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 72d0b7562a729220c936520e72328baea3964c92
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la date et l’heure de réponse du participant Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: ad6b9810d083b361d5d09eec5acfa76b55f0ce3d
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624635"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405810"
 ---
 # <a name="pidtagrecipienttrackstatustime-canonical-property"></a>Propriété canonique PidTagRecipientTrackStatusTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624635"
   
 Contient la date et l’heure à laquelle le participant a répondu.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECIPIENT_TRACKSTATUS_TIME  <br/> |
 |Identificateur :  <br/> |0x5FFB  <br/> |
@@ -44,7 +44,7 @@ La valeur doit être spécifiée en temps universel coordonné (UTC).
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

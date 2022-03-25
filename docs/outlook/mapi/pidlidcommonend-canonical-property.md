@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c89f388a-1585-4bed-91b4-1b0c268292f3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9cb5e50ae8dbc349a7db20a5b001d20346075923
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 48c08d48170caca6d4f1845b3398214b09beef3a
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583890"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781648"
 ---
 # <a name="pidlidcommonend-canonical-property"></a>Propriété canonique PidLidCommonEnd
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583890"
   
 Représente la date et l’heure de fin d’un message.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidCommonEnd  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -39,7 +39,7 @@ Représente la date et l’heure de fin d’un message.
 
 Cette propriété indique l’heure de fin d’un élément. Elle doit être supérieure ou égale à la valeur de la propriété **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)).
   
-Cette valeur doit être l’équivalent UTC (Temps universel coordonné) de la propriété **dispidTaskDueDate** ([PidLidTaskDueDate).](pidlidtaskduedate-canonical-property.md)
+Cette valeur doit être l’équivalent UTC (Temps universel coordonné) de la propriété **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -51,7 +51,7 @@ Cette valeur doit être l’équivalent UTC (Temps universel coordonné) de la p
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   

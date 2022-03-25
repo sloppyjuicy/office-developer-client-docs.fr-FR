@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 2fc3febb-8c69-4315-a112-a28eee98013d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 691df04d46b8f211f6befd367cc63a388298090e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4ee684b8a2cb53c34cf27693fa7b9bfdb9509fd2
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586704"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725930"
 ---
 # <a name="sizedspropproblemarray"></a>SizedSPropProblemArray
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure [nommée SPropProblemArray](spropproblemarray.md) qui contient un nombre spécifié de structures [SPropProblem.](spropproblem.md) 
+Crée une structure [nommée SPropProblemArray](spropproblemarray.md) qui contient un nombre spécifié de structures [SPropProblem](spropproblem.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**SPropProblemArray** <br/> |
@@ -46,7 +46,7 @@ _ _name_
     
 ## <a name="remarks"></a>Remarques
 
-Utilisez la macro **SizedSPropProblemArray** pour créer un tableau de problèmes de propriétés avec des limites explicites. Pour utiliser la nouvelle structure qui résulte de la macro **SizedSPropProblemArray** comme pointeur vers une structure **SPropProblemArray,** effectuez la distribution suivante : 
+Utilisez la macro **SizedSPropProblemArray** pour créer un tableau de problèmes de propriétés avec des limites explicites. Pour utiliser la nouvelle structure qui résulte de la macro **SizedSPropProblemArray** comme pointeur vers une structure **SPropProblemArray** , effectuez la distribution suivante : 
   
 ```cpp
 lpPropProbArray = (LPSPropProblemArray) &SizedSPropProblemArray;

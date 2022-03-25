@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 58f0bae4-0c05-421e-9890-7ac929fe1435
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 819f29e71279d9fcdfbf012e882354fc8ec1c8dd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique le temps de transfert, en secondes, d’un élément distant pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: dc89babdd0b1ca7609fd45469d0e985cf2d835cf
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624817"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763802"
 ---
 # <a name="pidlidremotetransfertime-canonical-property"></a>Propriété canonique PidLidRemoteTransferTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624817"
   
 Indique le temps de transfert, en secondes, d’un élément distant.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRemoteXferTime  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Remote  <br/> |

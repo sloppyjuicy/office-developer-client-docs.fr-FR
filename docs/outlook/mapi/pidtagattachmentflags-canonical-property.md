@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 42981aac-f9e7-45dd-91a2-15d9784f30aa
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a4f1ab8d5d0f68f9573b9f941d5889ab80cb2b4b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique une gestion spéciale pour cet objet Attachment Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: b4eaa6e7aeed38a651a9b246860685d9708ee83e
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575063"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405355"
 ---
 # <a name="pidtagattachmentflags-canonical-property"></a>Propriété canonique PidTagAttachmentFlags
 
@@ -27,7 +27,7 @@ ms.locfileid: "59575063"
   
 Indique une gestion spéciale pour cet objet Attachment.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACHMENT_FLAGS  <br/> |
 |Identificateur :  <br/> |0x7FFD  <br/> |
@@ -44,7 +44,7 @@ Doit être 0x00000000, sauf en cas de non-lieu par d’autres protocoles qui ét
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

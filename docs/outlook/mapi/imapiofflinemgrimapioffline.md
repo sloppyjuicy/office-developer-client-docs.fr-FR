@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3e430308-190c-c9bb-fffc-c26ffecb73a5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 71e22de11e7b97bedaa42567bc95ec30c1f6ae91
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ccb52097769e1311a1abccbdc01b9585fcc9b757
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784124"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781900"
 ---
 # <a name="imapiofflinemgr--imapioffline"></a>IMAPIOfflineMgr : IMAPIOffline
 
@@ -27,7 +27,7 @@ ms.locfileid: "62784124"
   
 Prend en charge l’inscription pour les rappels de notification concernant les changements d’état de connexion d’un compte d’utilisateur.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Exporté par :  <br/> |msmapi32.dll  <br/> |
 |Implémenté par :  <br/> |Outlook  <br/> |
@@ -36,7 +36,7 @@ Prend en charge l’inscription pour les rappels de notification concernant les 
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[Conseiller](imapiofflinemgr-advise.md) <br/> |S’inscrit aux rappels de notification concernant les modifications de connexion. |
 |[Unadvise](imapiofflinemgr-unadvise.md) <br/> |Supprime une inscription donnée pour les rappels de notification. |

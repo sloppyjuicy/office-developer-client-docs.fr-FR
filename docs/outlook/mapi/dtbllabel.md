@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5837facf-acd3-48fe-9610-f88085d99aef
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1f0bf5445404b80021350fa70c9b21c5bbbe73fd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Décrit une étiquette qui sera utilisée dans une boîte de dialogue qui est conçue à partir d’un tableau d’affichage.
+ms.openlocfilehash: 07d86b6e1bd738f30dac616d84e357d8c3adcc34
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601099"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405565"
 ---
 # <a name="dtbllabel"></a>DTBLLABEL
 
@@ -27,7 +27,7 @@ ms.locfileid: "59601099"
   
 Décrit une étiquette qui sera utilisée dans une boîte de dialogue qui est conçue à partir d’un tableau d’affichage.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Macro associée  <br/> |[SizedDtblLabel](sizeddtbllabel.md) <br/> |
@@ -49,7 +49,7 @@ typedef struct _DTBLLABEL
     
  **ulFlags**
   
-> Masque de bits d’indicateurs utilisé pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabelName.** L’indicateur suivant peut être définie : 
+> Masque de bits d’indicateurs utilisé pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabelName** . L’indicateur suivant peut être définie : 
     
 MAPI_UNICODE 
   
@@ -57,15 +57,15 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLLABEL** décrit un texte de contrôle d’étiquette qui est affiché avec un autre type de contrôle pour ajouter une signification à ce contrôle. Par exemple, la plupart des contrôles d’édition sont placés à côté des étiquettes pour informer l’utilisateur du type d’informations à entrer. Certains contrôles, tels que les cases de groupe et les cases d’radio, tiennent leurs propres étiquettes. 
+Une structure **DTBLLABEL** décrit un texte de contrôle d’étiquette qui est affiché avec un autre type de contrôle pour ajouter une signification à ce contrôle. Par exemple, la plupart des contrôles d’édition sont placés à côté des étiquettes pour informer l’utilisateur du type d’informations à entrer. Certains contrôles, tels que les zones de groupe et les cases d’radio, tiennent leurs propres étiquettes. 
   
-L’étiquette peut inclure un accélérateur Windows, identifié comme le caractère suivant l’eterrable ( &amp; ). Le fait d’appuyer sur la touche d’accélérateur met le focus sur le premier contrôle sans étiquette, nonbutton, qui suit cette étiquette dans le tableau d’affichage.
+L’étiquette peut inclure un accélérateur Windows, identifié comme le caractère suivant l’eterrable (&amp;). Le fait d’appuyer sur la touche d’accélérateur met le focus sur le premier contrôle sans étiquette, nonbutton, qui suit cette étiquette dans le tableau d’affichage.
   
 Il n’existe aucune prise en charge des étiquettes multilignes. L’affichage de plusieurs lignes nécessite plusieurs étiquettes.
   
 Il n’est pas possible d’utiliser une étiquette comme contrôle d’édition en lecture seule. La différence est qu’un contrôle d’édition peut être sélectionné et copié alors qu’une étiquette ne le peut pas. 
   
-Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

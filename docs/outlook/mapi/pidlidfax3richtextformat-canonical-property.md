@@ -1,5 +1,5 @@
 ---
-title: Propri t canonique PidLidFax3RichTextFormat
+title: Propriété canonique PidLidFax3RichTextFormat
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - COM
 ms.assetid: 23c260dc-1eb5-4a06-ad1d-c5e34d04e88b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2d4220bc6dd9e0d15bc6c9cfa20f731df53c7f28
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f879eee97bf8b93258e89c795f47158383cb7276
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630375"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781088"
 ---
-# <a name="pidlidfax3richtextformat-canonical-property"></a>Propri t canonique PidLidFax3RichTextFormat
+# <a name="pidlidfax3richtextformat-canonical-property"></a>Propriété canonique PidLidFax3RichTextFormat
 
   
   
@@ -27,7 +27,7 @@ ms.locfileid: "59630375"
   
 Spécifie le format de texte enrichi de l’autre adresse de télécopie du contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax3RTF  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

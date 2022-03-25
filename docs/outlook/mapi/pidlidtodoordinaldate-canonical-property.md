@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b6a500fc-07f4-4788-ae46-d179a96a48e2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f91759f10909190a88a35b8841ee51950cf4c44e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Détermine l’ordre de tri des objets dans une liste de choses à faire consolidée. Lorsqu’un objet est marqué, cette propriété doit être définie sur l’heure actuelle.
+ms.openlocfilehash: 430b001fbaaf0f3258ab5381d9b9bee6aa40f66a
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620288"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782439"
 ---
 # <a name="pidlidtodoordinaldate-canonical-property"></a>Propriété canonique PidLidToDoOrdinalDate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620288"
   
 Détermine l’ordre de tri des objets dans une liste de choses à faire consolidée.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidToDoOrdinalDate  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8b8c8484-0cb4-4842-8b11-de42d97e0140
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 49a4ad1ceb807836e308fd4fbba7885d690e2b5b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique la propriété PR_MESSAGE_CLASS de la réunion à générer à partir de la demande de réunion.
+ms.openlocfilehash: 657a23382d0a0ebbf823d018bb12feadc6ae2f7e
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571338"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781662"
 ---
 # <a name="pidlidappointmentmessageclass-canonical-property"></a>Propriété canonique PidLidAppointmentMessageClass
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571338"
   
 Indique la **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) de la réunion à générer à partir de la demande de réunion.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptMessageClass  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
@@ -37,7 +37,7 @@ Indique la **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonic
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette propriété doit être « IPM ». Rendez-vous » ou être précédé du préfixe « IPM . Rendez-vous. » Cette propriété n’est pas obligatoire.
+La valeur de cette propriété doit être « IPM ». Rendez-vous » ou préfixe « IPM ». Rendez-vous. » Cette propriété n’est pas obligatoire.
   
 ## <a name="related-resources"></a>Ressources connexes
 

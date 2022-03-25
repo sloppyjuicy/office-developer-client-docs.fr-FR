@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0131b4b-9b25-47d3-8eeb-abe29c353ebc
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5827fd6ddc60bd568c7547ba2cc0192a6a600ee2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Calcule le nombre d’octets dans une structure SSortOrderSet existante pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 8b5c8024df60f9922b8a2414df44af390058b23a
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567794"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406161"
 ---
 # <a name="cbssortorderset"></a>CbSSortOrderSet
 
@@ -27,7 +27,7 @@ ms.locfileid: "59567794"
   
 Calcule le nombre d’octets dans une structure [SSortOrderSet](ssortorderset.md) existante. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**SSortOrderSet** <br/> |

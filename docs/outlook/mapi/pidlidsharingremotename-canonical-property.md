@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: be975f74-4b95-45a4-bbee-959fa8e4ad45
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2f3ee3f911e7759bf440f9035e1c3a38239e3c4e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le nom du dossier distant qui est partagé. Il s’agit d’une propriété d’un message de partage.
+ms.openlocfilehash: eb15b0e6e277a8ad73df177b19fa6dd33904ee14
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551036"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405908"
 ---
 # <a name="pidlidsharingremotename-canonical-property"></a>Propriété canonique PidLidSharingRemoteName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59551036"
   
 Spécifie le nom du dossier distant qui est partagé. Il s’agit d’une propriété d’un message de partage.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingRemoteName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |

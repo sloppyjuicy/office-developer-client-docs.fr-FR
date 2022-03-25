@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: dfe66d5d-7b82-46c6-871b-2ce809bbca7e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: af7233cfbb51671532c680b670fbcbe4af5fb82c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique si la personne affectée à la tâche a été demandée pour envoyer une mise à jour de message électronique lorsqu’elle termine la tâche affectée.
+ms.openlocfilehash: 79c47dad0f54fca47f1d86d58663cd449f265127
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591694"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764313"
 ---
 # <a name="pidlidtaskstatusoncomplete-canonical-property"></a>Propriété canonique PidLidTaskStatusOnComplete
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591694"
   
 Indique si la personne affectée à la tâche a été demandée pour envoyer une mise à jour de message électronique lorsqu’elle termine la tâche affectée.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskSOC  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

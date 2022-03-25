@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ab197ace-6e7d-4ec5-9f6d-4a63a1eda11c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 17c227ecf6451cf5c0b5ca6c8c7fa30c05e0f416
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une valeur de champ d’en-tête content-base RFC3282. Pour définir la valeur, les clients MIME doivent écrire la valeur dans un champ d’en-tête Content-Base sur une entité MIME dans le corps du message.
+ms.openlocfilehash: 9ce2ea711293c62374200516c42dc17d6f682a51
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579284"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764684"
 ---
 # <a name="pidnamecontentbase-canonical-property"></a>Propriété canonique PidNameContentBase
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579284"
   
 Contient une valeur de champ d’en-tête Content-Base [RFC3282].
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |BodyContentBase  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |

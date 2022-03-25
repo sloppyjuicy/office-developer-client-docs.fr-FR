@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 38981f07-14b8-47c2-93df-e6aed91896e4
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 536ec8f3922aadcf71eb89f67d4237efc0dfea5b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Représente l’état d’une demande de réunion. Dans Outlook, une demande de réunion est un élément de rendez-vous.
+ms.openlocfilehash: d0460f227fd891e226432938a23576525007275e
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555768"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763788"
 ---
 # <a name="pidlidflagrequest-canonical-property"></a>Propriété canonique PidLidFlagRequest
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555768"
   
 Représente l’état d’une demande de réunion.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRequest  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: b640a5aa-4e36-4983-bf11-9428809e830b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e0133c537ecf572865c0927f0102166fd3f2bca9
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: e43ac877d57afe841201cbb44daa464adcce6eb7
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374452"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781347"
 ---
 # <a name="hropenabentrywithexchangecontext"></a>HrOpenABEntryWithExchangeContext
 
@@ -21,7 +21,7 @@ ms.locfileid: "63374452"
  
 Ouvre **l’entryID à** l’aide Exchange carnet d’adresses identifié **par pEmsmdbUID**. Cette fonction fonctionne de la même manière que [IAddrBook::D etails](iaddrbook-details.md), sauf que l’utilisation de cette fonction garantit que [l’IAddrBook::OpenEntry](iaddrbook-openentry.md) est ouvert à l’aide du fournisseur de carnet d’adresses Exchange attendu.
  
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |abhelp.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

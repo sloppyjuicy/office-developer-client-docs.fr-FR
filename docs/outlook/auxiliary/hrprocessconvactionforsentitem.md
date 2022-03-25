@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 08121e33-7820-4a31-b6da-06a4a54ec43f
 description: Effectue la catégorisation post-envoi sur un élément de courrier en fonction de son PidTagConversationId.
-ms.openlocfilehash: 820bde9aab05fc705c6d63e366d456b101ef8a64
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 9ef10ef63cb78dc8f0b2a58a2ce6289bc8d64568
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777627"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764614"
 ---
 # <a name="hrprocessconvactionforsentitem"></a>HrProcessConvActionForSentItem
 
@@ -20,7 +20,7 @@ Effectue la catégorisation post-envoi sur un élément de courrier en fonction 
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Exporté par :  <br/> |Outlook.exe  <br/> |
 |Appelé par :  <br/> |Client  <br/> |

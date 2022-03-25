@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 0f22ccf2-1004-4731-9d68-f66c01b4588b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 22d308a3b2e8d6aeb21390492330b2f850d073a5
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Détermine la page de code d'Transport-Neutral flux TNEF (Encapsulation Format). Utilisez cette fonction pour lire l’attribut attOemCodepage.
+ms.openlocfilehash: b707127ca2c6279262dc7d36a6ea0d64afd2bd77
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62789199"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406091"
 ---
 # <a name="gettnefstreamcodepage"></a>GetTnefStreamCodepage
 
@@ -23,7 +23,7 @@ ms.locfileid: "62789199"
   
 Détermine la page de code d'Transport-Neutral flux TNEF (Encapsulation Format).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |tnef.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

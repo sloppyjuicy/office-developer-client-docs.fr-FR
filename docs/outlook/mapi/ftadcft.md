@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c1e37da677fa38eb83a22db0c170eb6dd45cb8be
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e7bdfcef0b92802dc61eaac6b8f9e777871eac1a
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561760"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782586"
 ---
 # <a name="ftadcft"></a>FtAdcFt
 
@@ -23,7 +23,7 @@ ms.locfileid: "59561760"
   
 Ajoute un integer 64 bits non signé à un autre, éventuellement à l’aide d’un indicateur de transport.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
@@ -56,7 +56,7 @@ La **fonction FtAdcFt** renvoie une structure **FILETIME** qui contient la somme
   
 ## <a name="remarks"></a>Remarques
 
-La **fonction FtAdcFt** est identique à **FtAddFt** lorsque  _pwCarry a la_ valeur NULL. Si _pwCarry n’a_ pas la valeur NULL et pointe sur 0, **FtAdcFt** renvoie la même valeur **FILETIME** que **ftAddFt.** 
+La **fonction FtAdcFt** est identique à **FtAddFt** lorsque  _pwCarry a la valeur_ NULL. Si  _pwCarry n’a_ pas la valeur NULL et pointe sur 0, **FtAdcFt** renvoie la même valeur **FILETIME** que **ftAddFt** . 
   
 ## <a name="see-also"></a>Voir aussi
 

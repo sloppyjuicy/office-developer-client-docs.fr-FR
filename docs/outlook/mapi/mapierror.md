@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e04c2228-aa0a-4958-b5b2-6467e93ab613
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6712e422ebc036c841e92b63aa526667f11951d0
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: be5261312cd4c660cf50594b41b1c2e12263dfd5
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462325"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783454"
 ---
 # <a name="mapierror"></a>MAPIERROR
 
@@ -27,7 +27,7 @@ ms.locfileid: "62462325"
   
 Fournit des informations détaillées sur une erreur, généralement générée par le système d’exploitation, MAPI ou un fournisseur de services. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -51,11 +51,11 @@ typedef struct _MAPIERROR
     
  **lpszError**
   
-> Pointeur vers une chaîne qui décrit l’erreur. Cette chaîne sera au format Unicode si le paramètre _ulFlags_ de la méthode dans laquelle cette structure est utilisée est définie sur MAPI_UNICODE. 
+> Pointeur vers une chaîne qui décrit l’erreur. Cette chaîne sera au format Unicode si le paramètre _ulFlags_ de la méthode dans laquelle cette structure est utilisée est MAPI_UNICODE. 
     
  **lpszComponent**
   
-> Pointeur vers une chaîne qui décrit le composant qui a généré l’erreur. Cette chaîne sera au format Unicode si le paramètre _ulFlags_ de la méthode dans laquelle cette structure est utilisée est définie sur MAPI_UNICODE. 
+> Pointeur vers une chaîne qui décrit le composant qui a généré l’erreur. Cette chaîne sera au format Unicode si le paramètre _ulFlags_ de la méthode dans laquelle cette structure est utilisée est MAPI_UNICODE. 
     
  **ulLowLevelError**
   

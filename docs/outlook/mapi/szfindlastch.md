@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7c3e5a71-7b78-4328-b8ee-265cc4da4be5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a939a7cf06370d5306d1f6a3bada850909897064
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: Recherche la dernière occurrence d’un caractère dans une chaîne terminée par null. Si le caractère ne se produit pas, une valeur NULL est renvoyée.
+ms.openlocfilehash: 9717d2c5bda48e97e29b6acf676f8f32d23e9c77
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465456"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63742047"
 ---
 # <a name="szfindlastch"></a>SzFindLastCh
 
@@ -27,7 +27,7 @@ ms.locfileid: "62465456"
   
 Recherche la dernière occurrence d’un caractère dans une chaîne terminée par null. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

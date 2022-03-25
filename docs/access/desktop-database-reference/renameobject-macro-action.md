@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: bafbde738154993f3fea0c4f2537a9807009b966
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 606a2ad38c79c2bde5ba498877d502713b640a06
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617453"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723362"
 ---
 # <a name="renameobject-macro-action"></a>RenameObject, action de macro
 
@@ -27,14 +27,14 @@ Vous pouvez utiliser l'action **RenommerObjet** pour renommer un objet de base d
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **RenommerObjet** utilise les arguments suivants :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,7 +55,7 @@ L’action **RenommerObjet** utilise les arguments suivants :
 <td><p><strong>Ancien nom</strong></p></td>
 <td><p>Nom de l’objet à renommer. La zone <strong>Ancien nom</strong> affiche tous les objets dans la base de données dont le type correspond à celui sélectionné par l’argument <strong>Type d’objet</strong>. Si vous laissez l’argument <strong>Type d’objet</strong> vide, laissez cet argument également vide. 
 
-</p><p><strong>REMARQUE</strong>: si vous exécutez une macro contenant <STRONG>l’action</STRONG> Renommer dans une base de données bibliothèque, Microsoft Access recherche d’abord l’objet de ce nom dans la base de données bibliothèque, puis dans la base de données actuelle.</p></td>
+</p><p><strong>REMARQUE</strong> : si vous exécutez une macro contenant <STRONG>l’action</STRONG> Renommer dans une base de données bibliothèque, Microsoft Access recherche d’abord l’objet de ce nom dans la base de données bibliothèque, puis dans la base de données actuelle.</p></td>
 </tr>
 </tbody>
 </table>

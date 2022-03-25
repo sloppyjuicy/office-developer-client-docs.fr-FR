@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9bf68814-2564-433d-b762-3d2c83ca3c60
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ea6cf14f7c1458e7eb3f3473d4bbf6039acfcbc3
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: ebbbc4a23ab2df4208c9fdea7f2ee6ef84c932f3
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63377574"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783132"
 ---
 # <a name="createiprop"></a>CreateIProp
 
@@ -25,7 +25,7 @@ ms.locfileid: "63377574"
   
 Crée un objet de données de propriété, c’est-à-dire un [objet IPropData](ipropdataimapiprop.md) .
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

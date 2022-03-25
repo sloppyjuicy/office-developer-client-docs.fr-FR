@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 886b4fdd-5d97-4b66-8329-052301e637fc
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 14e2bcdb8f9ca847dc1d3e471004c759de21fc4a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: S’il est définie sur un rapport de non-mise à jour, indique le nom de l’utilisateur Send-As échoué pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 562ea40d96d0e679987113c9e0eef048710c607a
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629738"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763991"
 ---
 # <a name="pidtagnondeliveryreportfromname-canonical-property"></a>Propriété canonique PidTagNonDeliveryReportFromName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629738"
   
 S’il est définie sur un rapport nondelivery, indique le nom de l’utilisateur Send-As échec.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_NDR_FROM_NAME  <br/> |
 |Identificateur :  <br/> |0x6905  <br/> |
@@ -40,7 +40,7 @@ S’il est définie sur un rapport nondelivery, indique le nom de l’utilisateu
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

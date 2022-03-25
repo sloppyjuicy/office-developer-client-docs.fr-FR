@@ -1,5 +1,5 @@
 ---
-title: Propri t canonique PidLidVerbStream
+title: Propriété canonique PidLidVerbStream
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - COM
 ms.assetid: e24c183c-8c20-4d9c-a3c6-f26dc0cd0135
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bc259c7d0a41879e1d7a167c7459247bfdee4505
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ce88b1a924c515eabfde17d0257cb4da60203587
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630011"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63716460"
 ---
-# <a name="pidlidverbstream-canonical-property"></a>Propri t canonique PidLidVerbStream
+# <a name="pidlidverbstream-canonical-property"></a>Propriété canonique PidLidVerbStream
 
   
   
@@ -27,7 +27,7 @@ ms.locfileid: "59630011"
   
 Spécifie les réponses de vote que l’utilisateur peut effectuer en réponse au message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidVerbStream  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

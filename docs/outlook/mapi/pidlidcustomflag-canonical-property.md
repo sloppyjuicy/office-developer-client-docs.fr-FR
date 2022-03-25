@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bfb7fd1e-774f-9a2f-fbbe-ba7f68ed8663
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ed5865fe8dfa3a78e91179ac9acbc874ba8f58a6
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: cdf86d38c84383043f42e4cd49869c81f9ddf932
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63375383"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781592"
 ---
 # <a name="pidlidcustomflag-canonical-property"></a>Propriété canonique PidLidCustomFlag
 
@@ -25,7 +25,7 @@ ms.locfileid: "63375383"
   
 Masque de bits qui spécifie la façon dont un message est personnalisé, par exemple, enregistré avec des propriétés personnalisées.
 
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidCustomFlag  <br/> |
 |ID long (LID) :  <br/> |0x00008251  <br/> |

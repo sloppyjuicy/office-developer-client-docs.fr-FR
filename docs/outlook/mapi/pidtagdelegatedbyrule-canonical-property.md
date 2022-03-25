@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 284b5001-5de6-4c4e-8e5c-0593ae1b301f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b20c3da209ac862b32f257020c8f7520a2116702
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique si le message d’un dossier est délégué par une règle pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: e2548a72870c7d715d363bdc6bded982e4e4a02a
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613533"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764096"
 ---
 # <a name="pidtagdelegatedbyrule-canonical-property"></a>Propriété canonique PidTagDelegatedByRule
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613533"
   
 Indique si le message d’un dossier est délégué par une règle.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DELEGATED_BY_RULE  <br/> |
 |Identificateur :  <br/> |0x3FE3  <br/> |

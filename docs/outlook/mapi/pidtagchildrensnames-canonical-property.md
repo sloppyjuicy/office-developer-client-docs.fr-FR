@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 5e09c078-b8e4-46ef-9ee7-e2ba937d53cf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f1113b513946f1a9f927edee49d542c08c6eee32
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b9420a16950ca111b2562ba6ddfc5df73916b865
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563804"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725702"
 ---
 # <a name="pidtagchildrensnames-canonical-property"></a>Propriété canonique PidTagChildrensNames
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563804"
   
 Contient une liste de noms d’enfants
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CHILDRENS_NAMES, PR_CHILDRENS_NAMES_A, PR_CHILDRENS_NAMES_W  <br/> |
 |Identificateur :  <br/> |0x3A58  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

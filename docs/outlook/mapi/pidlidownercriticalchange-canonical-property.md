@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b79aa2b7-b6e0-46dc-89f1-f801a6b5737a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9e5eb704a21bfdf5c5048895a9338c766cc53443
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 13acfd63e2fd5794b000703e062ba6cea474b073
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583736"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782782"
 ---
 # <a name="pidlidownercriticalchange-canonical-property"></a>Propriété canonique PidLidOwnerCriticalChange
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583736"
   
 Spécifie la date et l’heure d’envoi d’une demande de réunion par l’organisateur.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |LID_OWNER_CRITICAL_CHANGE  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |

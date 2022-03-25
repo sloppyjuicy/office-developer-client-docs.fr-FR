@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9f311dd2-853e-46f7-966a-c2ab7a1fb6c5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f2403dae0c484638eaa1954515d2bfb55238f0fb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée de l’expéditeur du message. Cette propriété doit être définie par le fournisseur de transport sortant, qui ne doit jamais propager les valeurs précédentes.
+ms.openlocfilehash: 6de41cea50d9923aa9c24c961eb7131b5b1c6c36
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550441"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763809"
 ---
 # <a name="pidtagsenderentryid-canonical-property"></a>Propriété canonique PidTagSenderEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550441"
   
 Contient l’identificateur d’entrée de l’expéditeur du message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SENDER_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x0C19  <br/> |
@@ -46,7 +46,7 @@ Si aucun fournisseur de transport n’a fourni de propriétés d’adresse d’e
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

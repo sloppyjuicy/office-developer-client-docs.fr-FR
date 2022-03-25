@@ -7,12 +7,12 @@ ms:contentKeyID: 48545208
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 0b49493614de08d65fde0bf58c53562e1c13b85d
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 2a84b05f99dec17d9e2be20cdcb18f090363d656
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461890"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726326"
 ---
 # <a name="schemaenum"></a>SchemaEnum
 
@@ -33,10 +33,10 @@ ADO génère des résultats de type schéma pour les constantes **adSchemaDBInfo
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -427,7 +427,7 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

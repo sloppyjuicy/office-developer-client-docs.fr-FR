@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c7523896-c391-443d-bd4e-cc13f3367f08
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f3feeca82ea6fc9bbd2acc575919c4ccc380deea
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f4d2c862e170e6ed5b30ace3b761dc4cf4957732
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616697"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781032"
 ---
 # <a name="pidlidnonsendablebcc-canonical-property"></a>Propriété canonique PidLidNonSendableBcc
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616697"
   
 Contient une liste de tous les participants nonendables qui sont des ressources.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidNonSendableBCC  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

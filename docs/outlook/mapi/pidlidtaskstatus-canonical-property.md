@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 809776b7-ff00-4a52-84b9-8b5fb5f5c3e3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4ae2972ea62b9e9d93cf8d7ffa09d7ed5396eccd
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Spécifie l’état de la progression de l’utilisateur sur la tâche pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: d8c20e32447c4308258a35f76518c6a99949ba83
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62787673"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782635"
 ---
 # <a name="pidlidtaskstatus-canonical-property"></a>Propriété canonique PidLidTaskStatus
 
@@ -27,7 +27,7 @@ ms.locfileid: "62787673"
   
 Spécifie l’état de la progression de l’utilisateur sur la tâche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskStatus  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

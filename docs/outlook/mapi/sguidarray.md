@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2091e5fc-75c8-4ea4-87e9-a9bf508e9c58
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 156234b52f092c25314603f7f65da2b20bdbbbc5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un tableau de structures GUID utilisées pour décrire une propriété de type PT_MV_CLSID.
+ms.openlocfilehash: a087e4b0d1c1df59a8a0e7aed1ee59ad9dfd107f
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550008"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782621"
 ---
 # <a name="sguidarray"></a>SGuidArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550008"
   
 Contient un tableau de structures [GUID](guid.md) utilisées pour décrire une propriété de type PT_MV_CLSID. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -44,7 +44,7 @@ typedef struct _SGuidArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau pointées par **le membre lpguid.** 
+> Nombre de valeurs dans le tableau pointées par **le membre lpguid** . 
     
  **lpguid**
   
@@ -52,7 +52,7 @@ typedef struct _SGuidArray
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations PT_MV_CLSID, voir [Liste des types de propriétés.](property-types.md)
+Pour plus d’informations sur PT_MV_CLSID, voir [Liste des types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

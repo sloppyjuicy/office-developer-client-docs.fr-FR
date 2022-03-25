@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9ccacbc0-10d5-40f9-a12b-d090a21d0d49
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 10e49875b1a63b58b318c80ce1c9cb2c985c5c88
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 8d9a1240faf5fd0b5a1e4d6e65d934110b3e7d79
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773585"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726275"
 ---
 # <a name="iaddrbook--imapiprop"></a>IAddrBook : IMAPIProp
 
@@ -27,7 +27,7 @@ ms.locfileid: "62773585"
   
 Prend en charge l’accès au carnet d’adresses MAPI et inclut des opérations telles que l’affichage de boîtes de dialogue courantes ; ouverture de conteneurs, d’utilisateurs de messagerie et de listes de distribution ; et d’effectuer une résolution de nom.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
 |Exposé par :  <br/> |Objets de carnet d’adresses  <br/> |
@@ -39,7 +39,7 @@ Prend en charge l’accès au carnet d’adresses MAPI et inclut des opérations
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[OpenEntry](iaddrbook-openentry.md) <br/> |Ouvre une entrée de carnet d’adresses et renvoie un pointeur vers une interface qui peut être utilisée pour accéder à l’entrée. |
 |[CompareEntryIDs](iaddrbook-compareentryids.md) <br/> |Compare deux identificateurs d’entrée appartenant à un fournisseur de carnet d’adresses particulier pour déterminer s’ils font référence au même objet de carnet d’adresses. |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ca1ea5ec-20d5-4b70-95de-c2246a10beae
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b802579962e4e89126b973d5cdc081ec8de289b2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d25aedc9e74927f7937bb905da86874f34875ec7
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555782"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781473"
 ---
 # <a name="pidlidfinvited-canonical-property"></a>Propriété canonique PidLidFInvited
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555782"
   
 Indique si des invitations ont été envoyées pour la réunion représentée par cette réunion.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFInvited  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

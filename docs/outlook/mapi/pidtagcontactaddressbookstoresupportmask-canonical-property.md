@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 34f649c8-29bf-470f-9b05-31b69d069259
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0c736536d5662d76972e2a5cf04f9aee7d38e7bd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la PR_STORE_SUPPORT_MASK de données obtenue à partir de la boutique contenant le dossier Contacts.
+ms.openlocfilehash: fc198a99a296d504c55986eb5f7896ba3930c9b5
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571086"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764642"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmask-canonical-property"></a>Propriété canonique PidTagContactAddressBookStoreSupportMask
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571086"
   
 Contient la **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) obtenue à partir de la boutique qui contient le dossier Contacts.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_STORE_SUPPORT_MASK  <br/> |
 |Identificateur :  <br/> |0x6611  <br/> |

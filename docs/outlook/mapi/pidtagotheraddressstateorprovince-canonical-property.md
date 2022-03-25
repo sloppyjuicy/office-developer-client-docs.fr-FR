@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b2fe06c7-44d6-4cd6-95ad-e296e40cc4b6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0ba872ca484a9a887bd7f9adb7d50acd9f295d82
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b7d4659dbf086dcef609febab83b1e1aecf9a32b
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571051"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723154"
 ---
 # <a name="pidtagotheraddressstateorprovince-canonical-property"></a>Propriété canonique PidTagOtherAddressStateOrProvince
 
@@ -27,12 +27,12 @@ ms.locfileid: "59571051"
   
 Contient le nom du département ou de la province utilisé dans l’autre adresse.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_OTHER_ADDRESS_STATE_OR_PROVINCE, PR_OTHER_ADDRESS_STATE_OR_PROVINCE_A, PR_OTHER_ADDRESS_STATE_OR_PROVINCE_W  <br/> |
 |Identificateur :  <br/> |0x3A62  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Domaine :  <br/> |Adresse  <br/> |
+|Domaine :  <br/> |Addresse  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -44,7 +44,7 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

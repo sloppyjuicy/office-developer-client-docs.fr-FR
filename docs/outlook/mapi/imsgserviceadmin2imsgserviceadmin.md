@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 14654259-e884-46bf-84ff-9e3c1a8cd60d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c14622e7a65886a832797fae8a45c46076ff0ae4
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ad056a9915ed72c0a972c9fa5c7fe6daef617265
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781372"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782600"
 ---
 # <a name="imsgserviceadmin2--imsgserviceadmin"></a>IMsgServiceAdmin2 : IMsgServiceAdmin
 
@@ -27,7 +27,7 @@ ms.locfileid: "62781372"
   
 Modifie un service de message dans un profil.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiaux.h  <br/> |
 |Exposé par :  <br/> |Objets d’administration de service de message  <br/> |
@@ -38,7 +38,7 @@ Modifie un service de message dans un profil.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Ajoute un service de message au profil actuel et renvoie l’UID du service nouvellement ajouté. |
    

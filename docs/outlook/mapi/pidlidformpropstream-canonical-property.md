@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9c4590b2-631e-4a57-a779-eed8268233da
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a0c144fff8b06dcc9e231b6c844af6e885e4a19c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4122b4658b5a722fa93f35dc02d156368bf73506
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566891"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782929"
 ---
 # <a name="pidlidformpropstream-canonical-property"></a>Propriété canonique PidLidFormPropStream
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566891"
   
 Représente les données des propriétés personnalisées enregistrées avec le message.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFormPropStream  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 802321fb-4261-4c3e-9de3-8b4f490dae13
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 18c2a4f3534e3dfabc4401f275a59ba9c270ac00
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique que l’objet qui représente une exception, y compris une instance orpheline.
+ms.openlocfilehash: 7198387b30872eae0da4aba5a103247bafbfa2df
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616704"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783237"
 ---
 # <a name="pidlidisexception-canonical-property"></a>Propriété canonique PidLidIsException
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616704"
   
 Indique que l’objet qui représente une exception (y compris une instance orpheline).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |LID_IS_EXCEPTION  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |

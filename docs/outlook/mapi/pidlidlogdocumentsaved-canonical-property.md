@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3809fa35-76d8-44a5-8ad9-a1ed30f91dc0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6d84b013b3aac04609c764132c006204c1a1cad0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ecbd2b3d4c469b80e85a6f5fb5ed212eefc27bbd
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600588"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781214"
 ---
 # <a name="pidlidlogdocumentsaved-canonical-property"></a>Propriété canonique PidLidLogDocumentSaved
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600588"
   
 Indique si le document a été enregistré lors de la journalation.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidLogDocSaved  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Log  <br/> |

@@ -11,12 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6454c1fa-5216-4934-a908-48c634ac4a07
-ms.openlocfilehash: fa4519090427831b0eafaaa8af57fa875f9cd750
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 29b9fd36e97912ae6e5a978b7f5077d9c6b747a1
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773711"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724614"
 ---
 # <a name="hrvalidateipmsubtree"></a>HrValidateIPMSubtree  
   
@@ -24,7 +24,7 @@ ms.locfileid: "62773711"
   
 Ajoute des dossiers de messages interpersonnels standard à une magasin de messages. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête : |Mapiutil.h |
 |Implémenté par : |MAPI |

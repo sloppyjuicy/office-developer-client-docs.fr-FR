@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: f8fee7b0bba3414816ad6fb6769bf7ddf8d37f7f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b7ea6607f57cef46d340c50f0cfa2553578054a2
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59605926"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726319"
 ---
 # <a name="selectobject-macro-action"></a>SelectObject, action de macro
 
@@ -24,14 +24,14 @@ ms.locfileid: "59605926"
 
 Vous pouvez utiliser l’action **SélectionnerObjet** pour sélectionner un objet de base de données spécifique.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **SélectionnerObjet** accepte les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -46,7 +46,7 @@ L’action **SélectionnerObjet** accepte les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Nom de l’objet</strong></p></td>
-<td><p>Nom de l’objet à sélectionner. La zone <strong>Nom de l’objet</strong> montre tous les objets de la base de données du type sélectionné par l’argument <strong>Type d’objet</strong>. Cet argument est obligatoire sauf si vous attribuez la valeur <strong>Oui</strong> à l’argument Dans le volet de navigation.</p><p><strong>REMARQUE</strong>: les noms d’objets des objets Server <STRONG>View,</STRONG> <STRONG>Diagram</STRONG> <STRONG></STRONG> ou <STRONG>Stored Procedure</STRONG> ne sont pas affichés dans la zone Nom de l’objet d’un projet Access (.adp).</p></td>
+<td><p>Nom de l’objet à sélectionner. La zone <strong>Nom de l’objet</strong> montre tous les objets de la base de données du type sélectionné par l’argument <strong>Type d’objet</strong>. Cet argument est obligatoire sauf si vous attribuez la valeur <strong>Oui</strong> à l’argument Dans le volet de navigation.</p><p><strong>REMARQUE</strong> : les noms d’objets pour les objets <STRONG>d’affichage</STRONG> <STRONG>serveur, de</STRONG> diagramme ou de procédure stockée ne sont <STRONG></STRONG> pas affichés dans la zone Nom de l’objet d’un projet Access (.adp).<STRONG></STRONG></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Dans le volet de navigation</strong></p></td>

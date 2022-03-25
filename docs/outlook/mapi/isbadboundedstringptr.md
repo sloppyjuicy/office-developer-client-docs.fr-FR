@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 888c60e3-7376-4d66-8ee2-ce81abafb185
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b730214167b3acdd56c2b744134b455ec97db6f0
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 66158281661539681bef9d83ed1542565dcf191b
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774810"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783167"
 ---
 # <a name="isbadboundedstringptr"></a>IsBadBoundedStringPtr
 
@@ -23,7 +23,7 @@ ms.locfileid: "62774810"
   
 Vérifie que le processus appelant dispose d’un accès en lecture à la plage de mémoire spécifiée.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |mapiwin.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

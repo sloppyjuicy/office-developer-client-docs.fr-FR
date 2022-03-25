@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0d705667-19f4-4eda-a068-e65ea8f00d9b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e1e56668de79fedb37da8cbe47aca7c2e28e1d59
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée unique de la boutique de messages où réside un objet. Cette propriété permet d’ouvrir une magasin de messages avec la méthode IMAPISession::OpenMsgStore.
+ms.openlocfilehash: 7c783a70b7ecde45feb083014f07c6765ee29bbc
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550336"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406301"
 ---
 # <a name="pidtagstoreentryid-canonical-property"></a>Propriété canonique PidTagStoreEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550336"
   
 Contient l’identificateur d’entrée unique de la boutique de messages où réside un objet.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_STORE_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x0FFB  <br/> |
@@ -36,9 +36,9 @@ Contient l’identificateur d’entrée unique de la boutique de messages où r�
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété permet d’ouvrir une magasin de messages avec la méthode [IMAPISession::OpenMsgStore.](imapisession-openmsgstore.md) Il est également utilisé pour ouvrir tout objet qui appartient à la boutique de messages. 
+Cette propriété permet d’ouvrir une magasin de messages avec la méthode [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) . Il est également utilisé pour ouvrir tout objet qui appartient à la boutique de messages. 
   
-Pour une magasin de messages, cette propriété est identique à la propriété PR_ENTRYID **(** [PidTagEntryId](pidtagentryid-canonical-property.md)). Une application cliente peut comparer les deux propriétés à l’aide de la méthode [IMAPISession::CompareEntryIDs.](imapisession-compareentryids.md) 
+Pour une magasin de messages, cette propriété est identique à la propriété **PR_ENTRYID (**[PidTagEntryId](pidtagentryid-canonical-property.md)) de la boutique. Une application cliente peut comparer les deux propriétés à l’aide de la méthode [IMAPISession::CompareEntryIDs](imapisession-compareentryids.md) . 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,11 +46,11 @@ Pour une magasin de messages, cette propriété est identique à la propriété 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   

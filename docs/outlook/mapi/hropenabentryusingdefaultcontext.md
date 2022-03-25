@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 17cba69b-2b25-4b99-99d9-ec68fb8a35b5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4731e7961244f0c2ab12b6a29e0268bdb2cf7f0f
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Effectue la même fonction que HrOpenABEntryWithExchangeContext, sauf qu’elle utilise l’interface emsmdbUID héritée comme paramètre _pEmsmdbUID_ .
+ms.openlocfilehash: ae7c1c71165a7ead2a821a95d9363d779bc31292
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63382159"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406420"
 ---
 # <a name="hropenabentryusingdefaultcontext"></a>HrOpenABEntryUsingDefaultContext
 
@@ -21,7 +21,7 @@ ms.locfileid: "63382159"
   
 Effectue la même fonction que [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) , sauf qu’elle utilise **l’interface emsmdbUID** héritée comme paramètre _pEmsmdbUID_ . N’utilisez pas cette fonction, sauf si vous ne pouvez pas obtenir le bon **emsmdbUID** pour l’appel à [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |abhelp.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

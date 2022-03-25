@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6a82ee90-10a1-49e0-8f3a-a2cd9f490f99
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: af4f4776a97104f0bcf47681195048fce27687d9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée de la boutique de messages fortement couplée d’un transport pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 6c7627cebdaab923d524af78cd09eb61c9878db4
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574922"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405249"
 ---
 # <a name="pidtagownstoreentryid-canonical-property"></a>Propriété canonique PidTagOwnStoreEntryId
 
@@ -25,9 +25,9 @@ ms.locfileid: "59574922"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur d’entrée de la magasin de messages fortement couplée d’un transport.
+Contient l’identificateur d’entrée de la magasin de messages fortement couplé d’un transport.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_OWN_STORE_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x3E06  <br/> |
@@ -36,7 +36,7 @@ Contient l’identificateur d’entrée de la magasin de messages fortement coup
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie l’identificateur d’entrée pour le magasin étroitement couplé, s’il en existe un. Par exemple, un fournisseur de transport peut spécifier l’identificateur d’entrée du magasin de dossiers privés afin que lepooler MAPI puisse connecter le fournisseur de transport au magasin.
+Cette propriété spécifie l’identificateur d’entrée pour le magasin étroitement couplé, s’il en existe un. Par exemple, un fournisseur de transport peut spécifier l’identificateur d’entrée du magasin de dossiers privés afin que lepooler MAPI puisse connecter le fournisseur de transport à la banque.
   
 ## <a name="related-resources"></a>Ressources connexes
 

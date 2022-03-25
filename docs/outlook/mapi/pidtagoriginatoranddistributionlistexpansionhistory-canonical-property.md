@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b98e648c-e540-4cf4-8dde-e8f88b0fb3b3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d3f84f498c8c3ee0a281dd1472ca6434a267e570
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient des informations sur un message d’origine et un historique d’extension de liste de distribution. Cette propriété est utilisée dans la génération d’état.
+ms.openlocfilehash: 286c4d0d72ae1fed61c4d2d579b23e4431afafa6
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574951"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764621"
 ---
 # <a name="pidtagoriginatoranddistributionlistexpansionhistory-canonical-property"></a>Propriété canonique PidTagOriginatorAndDistributionListExpansionHistory
 
@@ -27,7 +27,7 @@ ms.locfileid: "59574951"
   
 Contient des informations sur un message d’origine et un historique d’extension de liste de distribution.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY  <br/> |
 |Identificateur :  <br/> |0x1002  <br/> |

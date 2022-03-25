@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 274899cc-2894-4d99-84ec-f18121e856a0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a5ef6cdbe95a80ff4f1934ef44304c9c2d25ecaf
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: aa2a46a561f4940ff92b438f010cc1fd01fa3e59
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783935"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781711"
 ---
 # <a name="iprofadmin--iunknown"></a>IProfAdmin : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62783935"
   
 Prend en charge l’administration des profils. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
 |Exposé par :  <br/> |Objet d’administration de profil  <br/> |
@@ -38,7 +38,7 @@ Prend en charge l’administration des profils.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[GetLastError](iprofadmin-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite sur un objet d’administration de profil. |
 |[GetProfileTable](iprofadmin-getprofiletable.md) <br/> |Permet d’accéder à la table de profils, qui contient des informations sur tous les profils disponibles. |

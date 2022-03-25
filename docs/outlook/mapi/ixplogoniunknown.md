@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4d24ecaf-11d0-4362-8207-be3407736d7b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4aa7025d137c4f49ef8e89e7dc8e5432d0ee248a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5b83df9c5ab1a7b08e34e9e09f19408b4f6fbfa3
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770716"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781312"
 ---
 # <a name="ixplogon--iunknown"></a>IXPLogon : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62770716"
   
 Donne aupooler MAPI l’accès à un fournisseur de transport. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
 |Exposé par :  <br/> |Objets d’logo de transport  <br/> |
@@ -38,7 +38,7 @@ Donne aupooler MAPI l’accès à un fournisseur de transport.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[AddressTypes](ixplogon-addresstypes.md) <br/> |Renvoie les types de destinataires gérés par le fournisseur de transport. |
 |**RegisterOptions** <br/> | *Non pris en charge ou documenté.*  <br/> |

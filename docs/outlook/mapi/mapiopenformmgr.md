@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5b624954-d975-4d5e-84d7-74e096ac30af
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 379b55a88b9e395bc696ad76947e3d30fcfd6c27
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: d85030415ce5bc26282c96b257334935a5be82c0
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776241"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782915"
 ---
 # <a name="mapiopenformmgr"></a>MAPIOpenFormMgr
 
@@ -27,7 +27,7 @@ ms.locfileid: "62776241"
   
 Ouvre une interface [IMAPIFormMgr](imapiformmgriunknown.md) sur un objet fournisseur de bibliothèque de formulaires dans le contexte d’une session existante. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

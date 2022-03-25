@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a12fb9a2-799d-4112-b26c-4b2854c47cc2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 14f6627d185a0f0dae169f124a04ca211d979425
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Contient un identificateur unique comparable au binaire pour un objet spécifique. Cette propriété ne peut pas être utilisée pour ouvrir un objet.
+ms.openlocfilehash: 4dfc11a74f0dce6e5f444209c3a6dffee24dd31f
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776191"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63780927"
 ---
 # <a name="pidtagrecordkey-canonical-property"></a>Propriété canonique PidTagRecordKey
 
@@ -27,7 +27,7 @@ ms.locfileid: "62776191"
   
 Contient un identificateur unique comparable au binaire pour un objet spécifique.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECORD_KEY  <br/> |
 |Identificateur :  <br/> |0x0FF9  <br/> |
@@ -73,7 +73,7 @@ Le tableau suivant récapitule les différences importantes entre **PR_ENTRYID,*
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   

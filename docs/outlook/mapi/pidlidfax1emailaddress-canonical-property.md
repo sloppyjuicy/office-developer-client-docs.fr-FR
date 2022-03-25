@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 416c2d27-cf85-45a9-86e8-0b042e327c19
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 679525ab210444d299ca16880875b763f89ff780
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f4125d12ad35c7efbedcaa6d8504e4ff7c8226bf
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583848"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782460"
 ---
 # <a name="pidlidfax1emailaddress-canonical-property"></a>Propriété canonique PidLidFax1EmailAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583848"
   
 Spécifie l’adresse de messagerie de la télécopie professionnelle du contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax1EmailAddress  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

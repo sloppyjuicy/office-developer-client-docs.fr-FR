@@ -5,13 +5,13 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: e39c4198-4913-5e86-900a-32e5ba5d801c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9c055ca15858cc36b4fe1c84f1a62c637c5e59f7
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: " Cette rubrique décrit ce qui se produit pendant l’état de la hiérarchie de chargement de la machine à états de réplication."
+ms.openlocfilehash: de2990260a6b6cf9248439c5941dfb8b1dbc997f
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63378477"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405404"
 ---
 # <a name="upload-hierarchy-state"></a>Télécharger hiérarchie de l’organisation
 
@@ -21,7 +21,7 @@ ms.locfileid: "63378477"
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Identificateur d’état :  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |
 |Structure de données associée :  <br/> |**[UPHIER](uphier.md)** <br/> |

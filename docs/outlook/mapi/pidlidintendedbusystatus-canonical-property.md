@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 84221dd3-de71-4c10-abd7-9f15aefd02ed
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e256504e90ac64c5a6cd32e4c0a5c09378464392
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5f37b8f1e4bb67acbf9cad6182d19f4843618db7
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630304"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63780891"
 ---
 # <a name="pidlidintendedbusystatus-canonical-property"></a>Propriété canonique PidLidIntendedBusyStatus
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630304"
   
 Spécifie la valeur de la propriété **dispidBusyStatus** ([PidLidBusyStatus](pidlidbusystatus-canonical-property.md)) sur la réunion dans le calendrier de l’organisateur lorsque la demande de réunion ou la mise à jour de réunion a été envoyée.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidIntendedBusyStatus  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

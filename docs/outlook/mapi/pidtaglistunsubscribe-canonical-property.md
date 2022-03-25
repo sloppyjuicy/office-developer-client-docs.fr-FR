@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 4e6bfbc7-7586-43cc-9380-daa0fe3d85a5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e63c933ac41886a37dd6dd73275a3b50b698d532
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6105c58433f666bc92e61792acfbcc76d2eb7316
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629861"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725964"
 ---
 # <a name="pidtaglistunsubscribe-canonical-property"></a>Propriété canonique PidTagListUnsubscribe
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629861"
   
 Contient la valeur du champ d’en-tête MIME (Multipurpose Internet Mail Extensions) List-Unsubscribe'en-tête.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_LIST_UNSUBSCRIBE, PR_LIST_UNSUBSCRIBE_A, PR_LIST_UNSUBSCRIBE_W  <br/> |
 |Identificateur :  <br/> |0x1045  <br/> |
@@ -36,7 +36,7 @@ Contient la valeur du champ d’en-tête MIME (Multipurpose Internet Mail Extens
    
 ## <a name="remarks"></a>Remarques
 
-Pour générer un champ List-Unsubscribe'en-tête, les clients doivent définir ces propriétés sur la valeur souhaitée. Les rédacteurs MIME doivent copier la valeur de ces propriétés dans le List-Unsubscribe d’en-tête.
+Pour générer un champ List-Unsubscribe'en-tête, les clients doivent définir ces propriétés sur la valeur souhaitée. Les rédacteurs MIME doivent copier la valeur de ces propriétés dans le List-Unsubscribe'en-tête.
   
 Pour définir la valeur de ces propriétés liées au serveur de liste, les clients MIME doivent écrire les champs d’en-tête comme indiqué dans le tableau suivant.
   
@@ -50,7 +50,7 @@ Pour définir la valeur de ces propriétés liées au serveur de liste, les clie
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   

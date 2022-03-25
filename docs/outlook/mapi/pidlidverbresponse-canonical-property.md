@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6f3db5ac-f1cb-4c55-ab88-c126dd5f48ee
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 77dcaa4cffd5a4fe2f805a57a98c8fc0eca0c831
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 64f3096411076a788d0730824e5bbc7fd10e9c95
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579326"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725739"
 ---
 # <a name="pidlidverbresponse-canonical-property"></a>Propri t canonique PidLidVerbResponse
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579326"
   
 Spécifie l’option de vote sélectionnée par un candidat.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidVerbResponse  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

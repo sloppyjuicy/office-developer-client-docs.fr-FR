@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d16e1adf-c911-427e-9c98-678a303e6791
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6edfe8c24f9763b7caefe198b9d15b5b89172881
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une valeur de champ d’en-tête Xref RFC3282. Pour définir la valeur de cette propriété, les clients MIME doivent écrire la valeur souhaitée dans un champ d’en-tête XRef.
+ms.openlocfilehash: 7ad216610244409309da5435c622c2965607cae2
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561060"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762388"
 ---
 # <a name="pidnamecrossreference-canonical-property"></a>Propriété canonique PidNameCrossReference
 
@@ -27,9 +27,9 @@ ms.locfileid: "59561060"
   
 Contient une valeur de champ d’en-tête Xref [RFC3282].
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms convivial :  <br/> |Aucune  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nom de la propriété :  <br/> |Xref  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |

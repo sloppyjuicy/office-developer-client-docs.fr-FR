@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8373edff-ef3e-4491-8cf3-e6609e1cb9b0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c4028a33e284eb5a063b13708fae4cef0ade6c76
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la valeur de la propriété PR_DISPLAY_NAME pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: e658ed9b31fc4440140e31f0992dcc1b0981882f
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599613"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405103"
 ---
 # <a name="pidtagrecipientdisplayname-canonical-property"></a>Propriété canonique PidTagRecipientDisplayName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599613"
   
 Contient la valeur de la **propriété PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECIPIENT_DISPLAY_NAME, PR_RECIPIENT_DISPLAY_NAME_A, PR_RECIPIENT_DISPLAY_NAME_W  <br/> |
 |Identificateur :  <br/> |0x5FF6  <br/> |
@@ -52,7 +52,7 @@ Contient la valeur de la **propriété PR_DISPLAY_NAME** ([PidTagDisplayName](pi
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a903fd22-a3f2-464f-99b0-c087e211b124
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b38207262fa97a368c8b993877c5694ed4c9d9be
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un tableau de tailles d’identificateurs d’entrée pour les destinataires qui sont à obtenir une réponse. Cette propriété contient une structure et n’est pas une propriété à valeurs multiples.
+ms.openlocfilehash: 5372fb32203d59c8c77cf3eb33a9d4c2a0ac5571
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591611"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783041"
 ---
 # <a name="pidtagreplyrecipiententries-canonical-property"></a>Propriété canonique PidTagReplyRecipientEntries
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591611"
   
 Contient un tableau de tailles d’identificateurs d’entrée pour les destinataires qui sont à obtenir une réponse.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPLY_RECIPIENT_ENTRIES  <br/> |
 |Identificateur :  <br/> |0x004F  <br/> |
@@ -38,7 +38,7 @@ Contient un tableau de tailles d’identificateurs d’entrée pour les destinat
 
 Cette propriété contient une structure [FLATENTRYLIST](flatentrylist.md) et n’est pas une propriété à valeurs multiples. 
   
-Lorsque cette propriété n’est pas présente, une réponse est envoyée uniquement à l’utilisateur identifié par la **propriété PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). Lorsque les propriétés **PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) sont définies, la réponse est envoyée à tous les destinataires identifiés par ces deux propriétés. Un fournisseur de transport utilise ces propriétés pour remplacer la logique de réponse habituelle.
+Lorsque cette propriété n’est pas présente, une réponse est envoyée uniquement à l’utilisateur identifié par la propriété **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). Lorsque les propriétés **PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) sont définies, la réponse est envoyée à tous les destinataires identifiés par ces deux propriétés. Un fournisseur de transport utilise ces propriétés pour remplacer la logique de réponse habituelle.
   
 Si cette propriété ou la **propriété PR_REPLY_RECIPIENT_NAMES** est définie, l’autre propriété doit également être définie. Ces propriétés doivent contenir le même nombre de destinataires et elles doivent les contenir dans le même ordre. Le non-respect de ces exigences peut entraîner des résultats imprévisibles. 
   
@@ -48,7 +48,7 @@ Si cette propriété ou la **propriété PR_REPLY_RECIPIENT_NAMES** est définie
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

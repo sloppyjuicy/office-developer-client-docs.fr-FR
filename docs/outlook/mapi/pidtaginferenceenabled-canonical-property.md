@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: e9356257-4581-44fe-8efa-172964e4c8d4
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7bcfcd43cc5c629e65059e97a53111a932b18c5a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Store property controlling Inference logging for Outlook 2013 or Outlook 2016.
+ms.openlocfilehash: e915b23fc4845c29b125262f0d4025aadb5aa737
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613400"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764082"
 ---
 # <a name="pidtaginferenceenabled-canonical-property"></a>Propriété canonique PidTagInferenceEnabled
 
@@ -23,12 +23,12 @@ ms.locfileid: "59613400"
   
 Propriété Store contrôlant la journalisation des inférences.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INFERENCES_ENABLED  <br/> |
 |Identificateur :  <br/> |0x3439000  <br/> |
-|Type de données :  <br/> |Valeur booléenne  <br/> |
-|Domaine :  <br/> |Magasin de messages  <br/> |
+|Type de données :  <br/> |Boolean  <br/> |
+|Domaine :  <br/> |Message Store  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -36,7 +36,7 @@ Propriété Store contrôlant la journalisation des inférences.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   

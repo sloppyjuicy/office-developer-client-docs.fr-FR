@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d1c3b6d9-75aa-4bc2-9a10-4b9664a8d42e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d712e8cf5d4377b8f4ba52954a91f3391a2bf729
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient les noms d’affichage des magasins associés au carnet d’adresses. Ces propriétés se font dans une section de profil de carnet d’adresses de contact.
+ms.openlocfilehash: b821891ecfd4a42e664b8176f4524d3e87bc01c2
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571107"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764649"
 ---
 # <a name="pidtagcontactaddressbookstorenames-canonical-property"></a>Propriété canonique PidTagContactAddressBookStoreNames
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571107"
   
 Contient les noms d’affichage des magasins associés au carnet d’adresses.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_STORE_NAMES, PR_CONTAB_STORE_NAMES_A, PR_CONTAB_STORE_NAMES_W  <br/> |
 |Identificateur :  <br/> |0x6622  <br/> |

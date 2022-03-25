@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 780ade1c-88d0-04d2-ba7e-251c19c43438
 description: Crée un objet accessible par un client dans un format de caractère préféré.
-ms.openlocfilehash: 4ebf64b1aa0e4ec317becb2a50a9384d3e22ee5b
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: a7d60fe02fa623fdd92c5d4c42ba618874df3dcf
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63369244"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782453"
 ---
 # <a name="hrcreatenewwrappedobject"></a>HrCreateNewWrappedObject
 
@@ -20,7 +20,7 @@ Crée un objet accessible par un client dans un format de caractère préféré.
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Champ|Valeur|
 |:-----|:-----|
 |Exporté par :  <br/> |msmapi32.dll  <br/> |
 |Appelé par :  <br/> |Client  <br/> |

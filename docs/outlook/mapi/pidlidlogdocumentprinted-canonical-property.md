@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e01bf0d9-62cf-4fba-8cec-232a46025feb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 836b2cf09056bfcfcf51224573697ab6d70167aa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 86208aee021b3b17455ae701f589f554565c27fb
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604599"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783034"
 ---
 # <a name="pidlidlogdocumentprinted-canonical-property"></a>Propriété canonique PidLidLogDocumentPrinted
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604599"
   
 Indique si le document a été imprimé lors de la journalation.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidLogDocPrinted  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Log  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9aa0b71e-1ee7-411c-a595-cccc5b7c4b0e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ec249686b09dd15228e48e2f00b7065fe97fb857
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie l’EntryID de l’adresse de télécopie professionnelle du contact pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: d64df67da532a04cff16276731f282ffa07344c2
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595526"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762815"
 ---
 # <a name="pidlidfax1entryid-canonical-property"></a>Propriété canonique PidLidFax1EntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595526"
   
 Spécifie l’EntryID de l’adresse de télécopie professionnelle du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax1EntryID  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

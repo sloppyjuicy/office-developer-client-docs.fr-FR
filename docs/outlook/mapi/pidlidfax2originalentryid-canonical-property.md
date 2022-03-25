@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: da80d72f-9389-463f-8665-f26bb30c0ed2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6f612a047cbf3c3a1e7c80f195ed311a5d4ed6ab
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3af04fe40e8f500802348664dc8c213fe045369a
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600658"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781921"
 ---
 # <a name="pidlidfax2originalentryid-canonical-property"></a>Propriété canonique PidLidFax2OriginalEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600658"
   
 Spécifie l’EntryID d’origine de l’adresse de télécopie du domicile du contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax2OriginalEntryID  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

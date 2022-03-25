@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: af2f776c-1b77-4942-827a-4363eda3924f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7d8ebbc33e183c7d386e2f6eeb11803bb804580b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’en-tête d’emplacement de contenu d’une pièce jointe MIME (Multipurpose Internet Mail Extensions).
+ms.openlocfilehash: 9084e32aafe8958128c052fe5a492a6a0f9d876e
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575070"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781886"
 ---
 # <a name="pidtagattachcontentlocation-canonical-property"></a>Propriété canonique PidTagAttachContentLocation
 
@@ -27,7 +27,7 @@ ms.locfileid: "59575070"
   
 Contient l’en-tête d’emplacement de contenu d’une pièce jointe MIME (Multipurpose Internet Mail Extensions). 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_CONTENT_LOCATION, PR_ATTACH_CONTENT_LOCATION_A, PR_ATTACH_CONTENT_LOCATION_W  <br/> |
 |Identificateur :  <br/> |0x3713  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont utilisées pour la prise en charge MHTML. Ils représenten
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

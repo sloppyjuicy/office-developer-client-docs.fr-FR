@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 655774a6-588c-44c7-903b-4497b7eccbc2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ffce2f21d4dd2cc9ca6c05263beb65d1486b3034
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 8c4e82460bb2c203dcd4a6b9e5d6a4290c714915
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62464441"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781522"
 ---
 # <a name="msgserviceentry"></a>MSGSERVICEENTRY
 
@@ -27,7 +27,7 @@ ms.locfileid: "62464441"
   
 Définit un prototype pour une fonction de point d’entrée de service de message pour prendre en charge la configuration du service de message. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
 |Fonction définie implémentée par :  <br/> |Services de messages  <br/> |
@@ -80,7 +80,7 @@ MSG_SERVICE_UI_READ_ONLY
     
 SERVICE_UI_ALLOWED 
   
-> Permet l’affichage d’une boîte de dialogue de configuration si nécessaire. Lorsque l SERVICE_UI_ALLOWED est définie, la boîte de dialogue ne doit être affichée que si le tableau des valeurs de propriété _lpProps_ est vide ou ne contient pas de configuration valide. Si SERVICE_UI_ALLOWED n’est pas définie, une boîte de dialogue peut toujours s’afficher si l’SERVICE_UI_ALWAYS est définie. 
+> Permet l’affichage d’une boîte de dialogue de configuration si nécessaire. Lorsque l SERVICE_UI_ALLOWED est définie, la boîte de dialogue ne doit s’afficher que si le tableau des valeurs de propriété _lpProps_ est vide ou ne contient pas de configuration valide. Si SERVICE_UI_ALLOWED n’est pas définie, une boîte de dialogue peut toujours s’afficher si l’SERVICE_UI_ALWAYS est définie. 
     
 UI_CURRENT_PROVIDER_FIRST 
   
@@ -170,7 +170,7 @@ MAPI ne place aucune restriction sur le nom de fonction qu’un service de messa
   
 Un service de message peut utiliser la [fonction BuildDisplayTable](builddisplaytable.md) et la méthode [IMAPISupport::D oConfigPropsheet](imapisupport-doconfigpropsheet.md) pour simplifier l’implémentation de la boîte de dialogue de configuration. 
   
-Il est possible pour un utilisateur d’annuler une MSG_SERVICE_UNINSTALL opération. Dans ce cas, la **fonction ServiceEntry** doit vérifier auprès de l’utilisateur que le service ne doit pas être supprimé et retourner MAPI_E_USER_CANCEL si le service reste installé. 
+Il est possible pour un utilisateur d’annuler une MSG_SERVICE_UNINSTALL opération. Dans ce cas, la fonction **ServiceEntry** doit vérifier auprès de l’utilisateur que le service ne doit pas être supprimé et retourner MAPI_E_USER_CANCEL si le service reste installé. 
   
 Une fonction basée sur **le prototype MSGSERVICEENTRY** renvoie l’une des valeurs HRESULT répertoriées. MAPI forwards this value when responding to a client’s call to [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
   

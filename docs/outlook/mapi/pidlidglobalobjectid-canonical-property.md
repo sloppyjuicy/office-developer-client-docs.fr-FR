@@ -1,5 +1,5 @@
 ---
-title: Propri t canonique PidLidGlobalObjectId
+title: Propriété canonique PidLidGlobalObjectId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - COM
 ms.assetid: a4e3f9ab-b7ee-4dff-b7bd-2462c561735c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b502cbb8705483258b8e12514c9e791f45bc51ac
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a4159bb71cc43f381df2009909a53e362f41990b
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595503"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781732"
 ---
-# <a name="pidlidglobalobjectid-canonical-property"></a>Propri t canonique PidLidGlobalObjectId
+# <a name="pidlidglobalobjectid-canonical-property"></a>Propriété canonique PidLidGlobalObjectId
 
   
   
@@ -27,7 +27,7 @@ ms.locfileid: "59595503"
   
 Spécifie l’identificateur unique de l’objet calendrier.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |LID_GLOBAL_OBJID  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |

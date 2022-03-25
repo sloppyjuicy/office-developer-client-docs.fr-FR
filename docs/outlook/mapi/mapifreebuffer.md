@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 9412594f-8acc-4c7e-a668-4ec1da0ad9cf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4b856d673a0d2afd56a920ef7f4fe4d390227ad3
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: ed94655f4d714fff93da71062f6e54a8b493b8cf
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461558"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726084"
 ---
 # <a name="mapifreebuffer"></a>MAPIFreeBuffer
 
@@ -27,7 +27,7 @@ ms.locfileid: "62461558"
   
 Libère une mémoire tampon allouée avec un appel à la [fonction MAPIAllocateBuffer](mapiallocatebuffer.md) ou [MAPIAllocateMore](mapiallocatemore.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

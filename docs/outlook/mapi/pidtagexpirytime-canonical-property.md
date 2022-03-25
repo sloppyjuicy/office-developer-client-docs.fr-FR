@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6e4d4ee9-c6b1-4987-b02e-684c2af3d21c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3dfb428ffa6e62883fcebf09d2f8ab2f9ac4cb33
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la date et l’heure à laquelle le système de messagerie peut invalider le contenu d’un message.
+ms.openlocfilehash: 8646930b271abf61de670c10c37d3acf2583e28a
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555418"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762528"
 ---
 # <a name="pidtagexpirytime-canonical-property"></a>Propriété canonique PidTagExpiryTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555418"
   
 Contient la date et l’heure à laquelle le système de messagerie peut invalider le contenu d’un message. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EXPIRY_TIME  <br/> |
 |Identificateur :  <br/> |0x0015  <br/> |
@@ -44,7 +44,7 @@ Cette propriété est utilisée pour diriger le système de messagerie dans la g
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

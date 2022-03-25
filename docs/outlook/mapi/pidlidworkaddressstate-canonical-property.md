@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 835f805e-5bf3-4ae6-a69e-41eadb76f450
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 43e16f178986f12130cf8d1a6d5daad6d14c1a59
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la partie département ou province de l’adresse postale de travail du contact pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: f2dc98bc11cd3fa388f984933f5442361893b86e
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550910"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783321"
 ---
 # <a name="pidlidworkaddressstate-canonical-property"></a>Propri t canonique PidLidWorkAddressState
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550910"
   
 Spécifie la partie département ou province de l’adresse postale de travail du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidWorkAddressState  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

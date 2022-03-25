@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 2dd95561-ed8f-8a3b-6532-b53556f16666
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 602d9ce178c0d88192d3eaba899b15f6c2445c8d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ccf77e015282da108566a9ee299510131702f7b2
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580173"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782922"
 ---
 # <a name="getdefcachedmodedownloadpubfoldfavs"></a>GetDefCachedModeDownloadPubFoldFavs
 
@@ -21,11 +21,11 @@ ms.locfileid: "59580173"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si le mode Exchange mis en cache pour le dossier Favoris des **dossiers** publics est activé et si cela est appliqué par la stratégie. 
+Indique si le mode Exchange mis en cache pour le dossier Favoris du dossier **public** est activé et s’il est appliqué par la stratégie. 
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Exporté par :  <br/> |msmapi32.dll  <br/> |
 |Appelé par :  <br/> |Client  <br/> |

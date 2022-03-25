@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cb432d52-6c96-45d2-bbde-45b0de3f915c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f320ebf3311e2227a2969086606d3b3e592d6e63
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9bc75182658f14aabbcac3d61af5a295481533f3
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551568"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782377"
 ---
 # <a name="getinstance"></a>GetInstance
 
@@ -27,7 +27,7 @@ ms.locfileid: "59551568"
   
 Copie une valeur dans une propriété à valeurs multiples dans une propriété à valeur unique du même type. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |MAPIUTIL. H  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -53,7 +53,7 @@ VOID GetInstance(
     
  _uliInst_
   
-> [in] Numéro d’instance, c’est-à-dire, l’élément de tableau, de la valeur copiée à partir de la structure indiquée par le _paramètre pvalMv._ 
+> [in] Numéro d’instance, c’est-à-dire, l’élément de tableau, de la valeur copiée à partir de la structure indiquée par le  _paramètre pvalMv_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f85bd23d-c285-4448-a946-7ab4fc0f03be
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a72e0bbb2643ef08c74c92996d8411873de19f70
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Calcule le nombre d’octets dans une structure SMAPIFormPropArray existante qui contient un nombre spécifié de structures SMAPIFormProp.
+ms.openlocfilehash: 21b3ebda60a8b1b3aa110db55b1247ba80e218f3
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576484"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782026"
 ---
 # <a name="cbmapiformproparray"></a>CbMAPIFormPropArray
 
@@ -25,9 +25,9 @@ ms.locfileid: "59576484"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets dans une structure [SMAPIFormPropArray](smapiformproparray.md) existante qui contient un nombre spécifié de structures [SMAPIFormProp.](smapiformprop.md) 
+Calcule le nombre d’octets dans une structure [SMAPIFormPropArray](smapiformproparray.md) existante qui contient un nombre spécifié de structures [SMAPIFormProp](smapiformprop.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Structure connexe :  <br/> |**SMAPIFormPropArray** <br/> |

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: d24cf33bd9b5ced31ec7a71ce67efc70b26b5e02
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 595f36373ccd106aa2202fc0cc9e4814df5b7791
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557791"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724166"
 ---
 # <a name="rundatamacro-macro-action"></a>RunDataMacro, action de macro
 
@@ -24,14 +24,14 @@ ms.locfileid: "59557791"
 
 Vous pouvez utiliser l’action **ExécuterMacroDonnées** pour exécuter une macro de données nommée.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **ExécuterMacroDonnées** utilise l’argument suivant.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -50,17 +50,17 @@ L’action **ExécuterMacroDonnées** utilise l’argument suivant.
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser l’action **ExécuterMacroDonnées** dans les macros, les macros de données nommées et les événements de macro suivants : Événement de **[macro](after-delete-macro-event.md)** Après **[Suppression,](after-insert-macro-event.md)** Après Insertion et Événement de macro Après Mise à **[jour.](after-update-macro-event.md)**
+Vous pouvez utiliser l’action **ExécuterMacroDonnées** dans les macros, les macros de données nommées et les événements de macro suivants : événement de **[macro](after-delete-macro-event.md)** après suppression, événement de **[macro](after-insert-macro-event.md)** Après insertion et événement de macro Après mise à **[jour](after-update-macro-event.md)**.
 
 Le nom de la macro de données doit inclure la table à laquelle elle est attachée (par exemple, **Comments.AddComment**, et pas seulement **AddComment**).
 
-Lorsque vous sélectionnez la macro de données à exécuter dans le concepteur de macros, Access détermine si elle requiert des paramètres. Si la macro de données nécessite des paramètres, les zones de texte s’affichent là où vous pouvez taper les arguments.
+Lorsque vous sélectionnez la macro de données à exécuter dans le concepteur de macros, Access détermine si elle requiert des paramètres. Si la macro de données requiert des paramètres, les zones de texte s’affichent là où vous pouvez taper les arguments.
 
 Lorsque vous exécutez une macro qui contient l'action **ExécuterMacroDonnées** et qu'elle atteint l'action **ExécuterMacroDonnées**, Access exécute la macro de données appelée. Lorsque celle-ci a terminé de s'exécuter, Access retourne à la macro d'origine et exécute l'action suivante.
 
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre comment passer un paramètre à une macro de données nommée. La macro de données dmGetCurrentServiceRequest de la table tblServiceRequests est appelée à l’aide de l’action ExécuterMacroDonnées. Lorsque l’analyse dmGetCurrentServiceRequest est terminée, la variable CurrentServiceRequest retourne le formulaire de la macro de données dans la zone de texte txtCurrentSR.
+L’exemple suivant montre comment passer un paramètre à une macro de données nommée. La macro de données dmGetCurrentServiceRequest de la table tblServiceRequests est appelée à l’aide de l’action ExécuterMacroDonnées. Lorsque l’examen dmGetCurrentServiceRequest est terminé, la variable CurrentServiceRequest retourne le formulaire dans la zone de texte txtCurrentSR.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

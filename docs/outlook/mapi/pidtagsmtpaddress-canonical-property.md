@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0ee2db8-7cea-4af4-9646-c02ac7fdeaa3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 43f835ec726bd856a65880ff5353c9c69603fe95
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’adresse SMTP de l’objet de carnet d’adresses Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: dda9c06df2a482089d6b841761045b58b9a7c65a
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550420"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406350"
 ---
 # <a name="pidtagsmtpaddress-canonical-property"></a>Propriété canonique PidTagSmtpAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550420"
   
 Contient l’adresse SMTP de l’objet de carnet d’adresses.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SMTP_ADDRESS, PR_SMTP_ADDRESS_A, PR_SMTP_ADDRESS_W  <br/> |
 |Identificateur :  <br/> |0x39FE  <br/> |
@@ -40,7 +40,7 @@ Contient l’adresse SMTP de l’objet de carnet d’adresses.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
@@ -56,7 +56,7 @@ Contient l’adresse SMTP de l’objet de carnet d’adresses.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOAB]](https://msdn.microsoft.com/library/b4750386-66ec-4e69-abb6-208dd131c7de%28Office.15%29.aspx)
   

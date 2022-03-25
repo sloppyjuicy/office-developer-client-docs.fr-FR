@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 544c87e5-887d-82ec-bf1a-0d95027fe0ec
-ms.openlocfilehash: 4ee76a767cc3290bbc51e0f7cce900d248b44336
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 35b45865326f7dbf61b39e11b285b330f9fb999e
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784320"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781802"
 ---
 # <a name="iolkaccountmanager"></a>IOlkAccountManager
 
@@ -19,7 +19,7 @@ Gère l’accès aux comptes et définit les notifications concernant les modifi
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Hérite de :  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |Implémenté par :  <br/> |Outlook  <br/> |
@@ -29,7 +29,7 @@ Gère l’accès aux comptes et définit les notifications concernant les modifi
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[Init](iolkaccountmanager-init.md) <br/> |Initialise le gestionnaire de comptes à utiliser. |
 |[DisplayAccountList](iolkaccountmanager-displayaccountlist.md) <br/> |Affiche la boîte **de dialogue Paramètres** compte ou Ajouter **un** nouveau compte. |

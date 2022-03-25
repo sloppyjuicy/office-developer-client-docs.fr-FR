@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b6a5096f-ad27-48b3-b569-f33efc20fa72
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 98cc55d698a82a5749063bac28b87b1bcea943f0
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 103c326d24e833dbdbdb91154d5f1f379dc7a019
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776626"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720233"
 ---
 # <a name="imapiclientshutdown--iunknown"></a>IMAPIClientShutdown : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62776626"
   
 Permet à un client MAPI d’effectuer un arrêt rapide du processus client. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |[Objet IMAPISession](imapisessioniunknown.md)  <br/> |
@@ -38,7 +38,7 @@ Permet à un client MAPI d’effectuer un arrêt rapide du processus client.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) <br/> |Interroge le sous-système MAPI pour obtenir la prise en charge de l’arrêt rapide fourni par les fournisseurs MAPI chargés. |
 |[NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) <br/> |Indique l’intention du client MAPI de poursuivre l’arrêt. |

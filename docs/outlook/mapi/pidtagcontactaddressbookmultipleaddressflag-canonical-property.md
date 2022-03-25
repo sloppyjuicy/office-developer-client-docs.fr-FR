@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: aefc34c5-1beb-44cf-a455-90f466e157ce
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7ade77c6c519e2c58b45ff60c1748b623e723fbd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3479b7218ad09f41cf137bb8d574ad501ebe3533
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571065"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725978"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflag-canonical-property"></a>Propriété canonique PidTagContactAddressBookMultipleAddressFlag
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571065"
   
 Contient un indicateur true lorsque le fournisseur prend en charge plusieurs adresses de messagerie par élément de contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_MULTI_ADDR_FLAG  <br/> |
 |Identificateur :  <br/> |0x6614  <br/> |

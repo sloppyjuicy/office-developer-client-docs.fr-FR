@@ -5,13 +5,13 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 270ff414-514c-b1fc-db48-761bf6de8867
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ad7ea1a71a99a0b70807f3b0dc04a8caa30932a0
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Cette rubrique décrit ce qui se produit pendant l’état de synchronisation de la machine à états de réplication.
+ms.openlocfilehash: a706edfe7fd4c63e368faefd227da038b30acc31
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63368992"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782215"
 ---
 # <a name="synchronize-state"></a>Synchroniser l’état
 
@@ -21,7 +21,7 @@ ms.locfileid: "63368992"
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Identificateur d’état :  <br/> |**LR_SYNC** <br/> |
 |Structure de données associée :  <br/> |**[SYNC](sync.md)** <br/> |

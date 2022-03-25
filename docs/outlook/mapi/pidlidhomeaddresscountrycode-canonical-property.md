@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 048ce01d-f2c2-40d1-88aa-25206be58dd1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7155c0f1814ceded31d2b9a9ad48d0401e995ca2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 91d92bf34ca0e974088ea0e4e7860010e963f411
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620400"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782320"
 ---
 # <a name="pidlidhomeaddresscountrycode-canonical-property"></a>Propri t canonique PidLidHomeAddressCountryCode
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620400"
   
 Spécifie la partie code pays de l’adresse du domicile du contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidHomeAddressCountryCode  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

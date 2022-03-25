@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 480ec0dc-6c04-4284-99da-aa4b26f5d7d0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 14b91e40487acc93a627630ecbebdcd97738142c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom de l’autre localité de l’utilisateur de messagerie, telle que la ville ou la ville. Ces propriétés sont définies par l’utilisateur ou l’organisation de l’utilisateur.
+ms.openlocfilehash: 226b5fb68d581dd9d9f5aa33e02972178d9ac82d
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560759"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764453"
 ---
 # <a name="pidtagotheraddresscity-canonical-property"></a>Propriété canonique PidTagOtherAddressCity
 
@@ -27,7 +27,7 @@ ms.locfileid: "59560759"
   
 Contient le nom de l’autre localité de l’utilisateur de messagerie, telle que la ville ou la ville.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_OTHER_ADDRESS_CITY, PR_OTHER_ADDRESS_CITY_A, PR_OTHER_ADDRESS_CITY_W  <br/> |
 |Identificateur :  <br/> |0x3A5F  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: afccacf1-0b8b-410c-b701-bf1bd8dcca99
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ac7e6d8e9a2dbdf638f674c67a85a34dfe9aa79b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie l’EntryID d’origine de l’autre adresse de télécopie du contact pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: e2e63fa5d60979342ceecf9d4bf404061f05304d
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566933"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405509"
 ---
 # <a name="pidlidfax3originalentryid-canonical-property"></a>Propriété canonique PidLidFax3OriginalEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566933"
   
 Spécifie l’EntryID d’origine de l’autre adresse de télécopie du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax3OriginalEntryID  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

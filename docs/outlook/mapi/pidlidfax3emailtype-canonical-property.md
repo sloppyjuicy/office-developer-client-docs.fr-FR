@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 31076833-363f-4914-ba60-ab6f478d0cf5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7bd0b06f1cb23df8c462178b7593593112d45f2b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le type de courrier électronique de l’autre adresse de télécopie du contact pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 415bede63a9b67a67ea012b6c16a149f207347a5
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583820"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405369"
 ---
 # <a name="pidlidfax3emailtype-canonical-property"></a>Propriété canonique PidLidFax3EmailType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583820"
   
 Spécifie le type d’e-mail de l’autre adresse de télécopie du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax3EmailType  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

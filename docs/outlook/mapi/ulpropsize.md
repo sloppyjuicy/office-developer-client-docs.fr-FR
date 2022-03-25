@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 240f1144-0805-4cd1-9e7d-f2a550a2f160
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: faf7ce0488584168ca0a73c13c835b18c5f89472
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Renvoie la taille d’une valeur de propriété unique. La fonction ignore la taille du reste de la structure SPropValue.
+ms.openlocfilehash: 4015771f3a579d527b268e376a9d151685d4844e
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566254"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406259"
 ---
 # <a name="ulpropsize"></a>UlPropSize
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566254"
   
 Renvoie la taille d’une valeur de propriété unique. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -57,6 +57,6 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Remarques
 
-La **fonction UlPropSize** renvoie la taille, en octets, de la valeur de la propriété spécifiée. Il ignore la taille du reste de la structure **SPropValue.** 
+La **fonction UlPropSize** renvoie la taille, en octets, de la valeur de la propriété spécifiée. Il ignore la taille du reste de la structure **SPropValue** . 
   
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e724af6-5b56-4eb3-a94c-1015ebce197c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 79b22c642007b7ea27792231b3b85109b47f79ba
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Spécifie les options utilisées dans le traitement automatique des messages électroniques. La propriété peut être absente.
+ms.openlocfilehash: 622fb58555ab61d8378f85acc6208e4f827706b4
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778768"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763934"
 ---
 # <a name="pidlidautoprocessstate-canonical-property"></a>Propriété canonique PidLidAutoProcessState
 
@@ -27,7 +27,7 @@ ms.locfileid: "62778768"
   
 Spécifie les options utilisées dans le traitement automatique des messages électroniques.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSniffState  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

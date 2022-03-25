@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: cf400713-3b42-4ee7-9dea-d52b8bf03ac3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7b5e99d5e33887ee7fc102e78fd02afc7d71d09c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’adresse postale du destinataire. Ces propriétés sont définies par le destinataire et l’organisation du destinataire.
+ms.openlocfilehash: d77447598dc40af9ed599066ad2633e641f99176
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599732"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764509"
 ---
 # <a name="pidtagpostaladdress-canonical-property"></a>Propriété canonique PidTagPostalAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599732"
   
 Contient l’adresse postale du destinataire.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_POSTAL_ADDRESS, PR_POSTAL_ADDRESS_A, PR_POSTAL_ADDRESS_W  <br/> |
 |Identificateur :  <br/> |0x3A15  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés fournissent des informations d’identification et d’accès p
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

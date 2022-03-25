@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 27e43acf-8a5e-4ba5-8af0-36d11f071892
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 33bd445a989affdf1223786401b44fced17bd5bc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 20276a92234b98bab8fef18791c36269ae40f908
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624901"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783055"
 ---
 # <a name="pidlidlogdocumentposted-canonical-property"></a>Propri t canonique PidLidLogDocumentPosted
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624901"
   
 Indique si le document a été envoyé par courrier électronique ou publié dans un dossier de serveur lors de la journalation.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidLogDocPosted  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Log  <br/> |

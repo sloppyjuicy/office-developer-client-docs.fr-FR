@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 59c36555-42af-4729-aea7-0332d1da6e3b
 description: Indique si le bouton Remplacer la forme doit être désactivé pour cette page.
-ms.openlocfilehash: 3f1a150f1c032ba87dac04144d4e81bd460eabfa
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 1ee717d0cd23836788c34659675398248fd76c86
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782009"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783139"
 ---
 # <a name="pagelockreplace-cell-page-properties-section"></a>PageLockReplace Cell (Page Properties Section)
 
@@ -27,16 +27,16 @@ Indique si le **bouton Remplacer la** forme doit être désactivé pour cette pa
 
 Pour obtenir une référence à la cellule **PageLockReplace** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Nom de cellule :  <br/> | PageLockReplace  <br/> |
+| **Nom de cellule :**  <br/> | PageLockReplace  <br/> |
    
 Pour obtenir une référence à la **cellule PageLockReplace** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+||Valeur |
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
-| Index de la ligne :  <br/> |**visRowPage** <br/> |
-| Index de la cellule :  <br/> |**visPageLockReplace** <br/> |
+| **Index de la section :**  <br/> |**visSectionObject** <br/> |
+| **Index de la ligne :**  <br/> |**visRowPage** <br/> |
+| **Index de la cellule :**  <br/> |**visPageLockReplace** <br/> |
    
 

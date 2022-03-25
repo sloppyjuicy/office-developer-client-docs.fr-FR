@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 829cc757-c5e3-40ed-846e-2dcaf9e13b92
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e4d9fd9b70a3775499c493fefd56fe03b71de753
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a230f7bb228cf12d398fcb9e3254d6238f62cb8e
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630291"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781368"
 ---
 # <a name="pidlidprivate-canonical-property"></a>Propriété canonique PidLidPrivate
 
@@ -25,9 +25,9 @@ ms.locfileid: "59630291"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si l’utilisateur final souhaite que cet objet message soit masqué aux autres utilisateurs qui ont accès à l’objet de message.
+Indique si l’utilisateur final souhaite que cet objet de message soit masqué aux autres utilisateurs qui ont accès à l’objet message.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidPrivate  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -45,7 +45,7 @@ Indique si l’utilisateur final souhaite que cet objet message soit masqué aux
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

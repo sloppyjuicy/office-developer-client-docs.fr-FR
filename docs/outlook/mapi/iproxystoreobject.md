@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 567bede4-39a3-bfb4-af85-ba678e2cf4a5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f105362eb85f3ec198c35bb023954982e33221cf
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Fournit un objet de magasin IMAP qui a été déballé et qui permet d’accéder aux éléments du fichier Dossiers personnels sans télécharger les éléments.
+ms.openlocfilehash: c93fb0a1ed3f5b92948eb93b449674518d9f149c
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774831"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405782"
 ---
 # <a name="iproxystoreobject"></a>IProxyStoreObject
 
@@ -29,7 +29,7 @@ Fournit un objet de magasin IMAP (Internet Message Access Protocol) qui a été 
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Hérité de :  <br/> |[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) <br/> |
 |Fourni par :  <br/> |Fournisseur de magasin de messages  <br/> |
@@ -37,7 +37,7 @@ Fournit un objet de magasin IMAP (Internet Message Access Protocol) qui a été 
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 |[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |Obtient un pointeur vers un magasin IMAP non enveloppé. |

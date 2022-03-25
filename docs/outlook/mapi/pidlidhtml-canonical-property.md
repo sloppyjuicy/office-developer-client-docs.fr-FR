@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5598cbaf-cb9a-4d3a-b123-9108a7aa7c1c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c6ac6ad0d6fad3e6dfc2f98b04adc4ef1af6b4b2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie l’URL de la page Web professionnelle du contact. La valeur de cette propriété, si elle est présente, doit être identique à la valeur de la PR_BUSINESS_HOME_PAGE propriété.
+ms.openlocfilehash: 3ca75e9e12009e7ee1c81d2c8debb9d971cce83c
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600595"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405495"
 ---
 # <a name="pidlidhtml-canonical-property"></a>Propri t canonique PidLidHtml
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600595"
   
 Spécifie l’URL de la page Web professionnelle du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidHTML  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

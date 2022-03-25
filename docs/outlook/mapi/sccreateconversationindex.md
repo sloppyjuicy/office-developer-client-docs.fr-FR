@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ccfc15d-f3c6-4c7b-b1cc-855af66036de
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9c37bd8613f8dc344fad841309b26fb763639935
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique où appartient un message dans un thread de message pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: c4e844b9e6051bc4c68a4cb00de3a261c303d6ae
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609543"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405152"
 ---
 # <a name="sccreateconversationindex"></a>ScCreateConversationIndex
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609543"
   
 Indique où appartient un message dans un thread de message. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

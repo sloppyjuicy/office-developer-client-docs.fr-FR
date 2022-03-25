@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 19b0b8a5-4907-4d3d-8301-d45591f582c3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ce8af9dcf9324e877f73b59d0b4b070b68ff0683
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le code de pays de l’adresse postale du contact pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 83b27936a7df3dbda042c3ed168a6e741de4d9ef
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583960"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406126"
 ---
 # <a name="pidlidaddresscountrycode-canonical-property"></a>Propri t canonique PidLidAddressCountryCode
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583960"
   
 Spécifie le code de pays de l’adresse postale du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidAddressCountryCode  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7e244d40-595e-432c-aa8c-f9f62ca3c138
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 891deeaf587a5ac30024f4e60c6ef7246d0cacf0
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Gère les messages, les pièces jointes et les destinataires. Les propriétés en lecture seule sont définies par le fournisseur lorsqu’un client appelle la méthode IMAPIProp::SaveChanges d’un message.
+ms.openlocfilehash: 9e279225ce5b79feb560fbd30c0f7a923cc26bf3
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776311"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405551"
 ---
 # <a name="imessage--imapiprop"></a>IMessage : IMAPIProp
 
@@ -27,7 +27,7 @@ ms.locfileid: "62776311"
   
 Gère les messages, les pièces jointes et les destinataires.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Message, objet  <br/> |
@@ -39,7 +39,7 @@ Gère les messages, les pièces jointes et les destinataires.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetAttachmentTable](imessage-getattachmenttable.md) <br/> |Renvoie la table des pièces jointes du message. |
 |[OpenAttach](imessage-openattach.md) <br/> |Ouvre une pièce jointe. |

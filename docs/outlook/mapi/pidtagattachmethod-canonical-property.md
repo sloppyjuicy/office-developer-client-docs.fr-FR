@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 32089213-ef7b-4152-84ab-b44e9911332b
-description: 'Last modified: September 07, 2016'
-ms.openlocfilehash: 57e92895ff5f9295970d409cc81f95b873a13641
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Contient une constante définie par MAPI qui représente la façon dont le contenu d’une pièce jointe est accessible.
+ms.openlocfilehash: eeecc3739dcc22ebc8a5f97a277b75692c429e86
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63375824"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782866"
 ---
 # <a name="pidtagattachmethod-canonical-property"></a>Propriété canonique PidTagAttachMethod
 
@@ -25,7 +25,7 @@ ms.locfileid: "63375824"
   
 Contient une constante définie par MAPI qui représente la façon dont le contenu d’une pièce jointe est accessible.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_METHOD  <br/> |
 |Identificateur :  <br/> |0x3705  <br/> |

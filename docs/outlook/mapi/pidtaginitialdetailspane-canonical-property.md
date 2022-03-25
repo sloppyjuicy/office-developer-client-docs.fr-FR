@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c4712133-6fbd-4c50-a258-5f4317120476
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6b16432fa09cf6fbece569bdf492915f735474c8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique la page d’un modèle d’affichage à afficher en premier. Cette propriété ne doit pas être définie pour les objets d’un carnet d’adresses en mode hors connexion.
+ms.openlocfilehash: 33ffbb93daad18ba008acf94e306704deca86503
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620223"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782523"
 ---
 # <a name="pidtaginitialdetailspane-canonical-property"></a>Propriété canonique PidTagInitialDetailsPane
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620223"
   
 Indique la page d’un modèle d’affichage à afficher en premier.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INITIAL_DETAILS_PANE  <br/> |
 |Identificateur :  <br/> |0x3F08  <br/> |
@@ -44,7 +44,7 @@ Elle doit être présente sur tous les objets de carnet d’adresses sur un serv
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

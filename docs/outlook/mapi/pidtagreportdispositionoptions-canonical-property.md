@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bf37786a-b6bd-48a6-a2ec-6a739a8ba0d7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 36e6e9d6e4ba4a785d2187e725af4a1d247f297f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cartes à l’en-tête Disposition-Options MIME pour les messages qui demandent des reçus. La valeur de cette propriété doit être une chaîne vide.
+ms.openlocfilehash: 5d5ed8e96fbd86a54540f70be4ef88a2ff79adb7
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587187"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405635"
 ---
 # <a name="pidtagreportdispositionoptions-canonical-property"></a>Propriété canonique PidTagReportDispositionOptions
 
@@ -25,7 +25,7 @@ ms.locfileid: "59587187"
   
 Cartes à l’en-tête Disposition-Options MIME pour les messages qui demandent des reçus. La valeur de cette propriété doit être une chaîne vide.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORT_DISPOSITION_OPTIONS, PR_REPORT_DISPOSITION_OPTIONS_A, PR_REPORT_DISPOSITION_OPTIONS_W  <br/> |
 |Identificateur :  <br/> |0x0085  <br/> |
@@ -38,7 +38,7 @@ Cartes à l’en-tête Disposition-Options MIME pour les messages qui demandent 
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

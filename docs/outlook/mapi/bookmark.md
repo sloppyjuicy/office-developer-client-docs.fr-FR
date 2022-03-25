@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 678bdc52-3404-48b2-9154-64ce2a941555
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e0d6ee26ee0b4eaa4dfb76355baeb0b756d56bde
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c3f4e0905bbb23163119620247462fcfa94f0009
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572080"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781326"
 ---
 # <a name="bookmark"></a>BOOKMARK
 
@@ -27,10 +27,10 @@ ms.locfileid: "59572080"
   
 Définit les données de signets pour la mémoire d’une position dans un tableau. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Méthodes associées :  <br/> |[IMAPITable::CreateBookmark](imapitable-createbookmark.md)[IMAPITable::FreeBookmark](imapitable-freebookmark.md) <br/> |
+|Méthodes associées :  <br/> |[IMAPITable::CreateBookmarkIMAPITable](imapitable-createbookmark.md)[::FreeBookmark](imapitable-freebookmark.md) <br/> |
    
 ```cpp
 typedef ULONG_PTR BOOKMARK;

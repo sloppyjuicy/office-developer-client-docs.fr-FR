@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4d385754-5132-4ae3-9e5d-686d58857b5b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6a3ccda8aee3b1ccb2004201e479e3382290f6f0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Représente un nom affichable par l’utilisateur du fournisseur de partage identifié par la propriété dispidSharingProviderGuid.
+ms.openlocfilehash: ba63543a832f106111a79fa3356ea493675886b9
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571275"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763361"
 ---
 # <a name="pidnamexsharingprovidername-canonical-property"></a>Propriété canonique PidNameXSharingProviderName
 
@@ -27,9 +27,9 @@ ms.locfileid: "59571275"
   
 Représente un nom affichable par l’utilisateur du fournisseur de partage identifié par la propriété **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms convivial :  <br/> |Aucune  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nom de la propriété :  <br/> |X-Sharing-Provider-Name  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |

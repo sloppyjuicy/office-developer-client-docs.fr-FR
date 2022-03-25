@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 325b6b47-b6a6-503e-e9bb-65ef7b73d659
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 174320928f94992c010e5c4349ba66e2ec6457cf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 742b59d774166e118ffaa57b78e4ea0d8b9cb1c7
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614163"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63780941"
 ---
 # <a name="getdefcachedmode"></a>GetDefCachedMode
 
@@ -25,7 +25,7 @@ Indique si le mode Exchange mis en cache pour le magasin Exchange privé est act
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Exporté par :  <br/> |msmapi32.dll  <br/> |
 |Appelé par :  <br/> |Client  <br/> |

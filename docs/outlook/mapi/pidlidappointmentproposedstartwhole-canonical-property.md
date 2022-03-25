@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: acc96b0a-bffb-46ef-8c46-b831d165a346
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0cfb7b578e8b85df8ebbae480a603070d6a95332
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la valeur proposée pour dispidApptStartWhole pour une proposition de compteur, spécifiée au UTC.
+ms.openlocfilehash: f6a88da5ef55b9af8716c754777bd20d30a51ee3
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567044"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764229"
 ---
 # <a name="pidlidappointmentproposedstartwhole-canonical-property"></a>Propriété canonique PidLidAppointmentProposedStartWhole
 
@@ -27,7 +27,7 @@ ms.locfileid: "59567044"
   
 Spécifie la valeur proposée pour **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) pour une proposition de compteur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptProposedStartWhole  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

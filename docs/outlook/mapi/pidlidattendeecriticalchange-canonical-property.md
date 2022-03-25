@@ -1,5 +1,5 @@
 ---
-title: Propri t canonique PidLidAttendeeCriticalChange
+title: Propriété canonique PidLidAttendeeCriticalChange
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - COM
 ms.assetid: 2b46966d-c63d-4241-92d4-001d6a674e97
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 08b795fe6555ac593c6240efa4eb3c6827b5aab2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d3b4ab5773dc899a0d588cb2884d10d91ab63e23
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575259"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783335"
 ---
-# <a name="pidlidattendeecriticalchange-canonical-property"></a>Propri t canonique PidLidAttendeeCriticalChange
+# <a name="pidlidattendeecriticalchange-canonical-property"></a>Propriété canonique PidLidAttendeeCriticalChange
 
   
   
@@ -27,7 +27,7 @@ ms.locfileid: "59575259"
   
 Spécifie la date et l’heure d’envoi de l’objet lié à la réunion.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |LID_ATTENDEE_CRITICAL_CHANGE  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |

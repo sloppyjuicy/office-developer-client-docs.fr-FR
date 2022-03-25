@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 90d601d9-5eeb-40b6-885d-ccd8a95ae322
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a4c4a8f6748aa0ef042f3b0fde8a70be440e5193
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Contient des indicateurs qui contrôlent la façon dont un objet message est géré par le client lors de l’intervention de l’utilisateur final.
+ms.openlocfilehash: 7891ecb3867591fc7920c9fe0ea445150c59e7d8
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781239"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763676"
 ---
 # <a name="pidlidsideeffects-canonical-property"></a>Propri t canonique PidLidSideEffects
 
@@ -27,7 +27,7 @@ ms.locfileid: "62781239"
   
 Contrôle la façon dont un objet de message est géré par le client lors de l’intervention de l’utilisateur final.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSideEffects  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f4bd5ddb-f1e7-4e2a-b312-b1884f78cc1a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9f40b1373bc851f4a71c8a5d8748650e6737f7f2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la catégorie d’un formulaire. Le nom de catégorie est défini par une application cliente d’une manière appropriée à l’application.
+ms.openlocfilehash: 3a9a07d7734605ea3f066c34f6d39b44cef48d4a
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550609"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405642"
 ---
 # <a name="pidtagformcategory-canonical-property"></a>Propriété canonique PidTagFormCategory
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550609"
   
 Contient la catégorie d’un formulaire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_CATEGORY, PR_FORM_CATEGORY_A, PR_FORM_CATEGORY_W  <br/> |
 |Identificateur :  <br/> |0x3304  <br/> |

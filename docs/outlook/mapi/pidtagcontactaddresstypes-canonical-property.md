@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8cfd4c89-a74f-4af9-b9c3-5c1a396ee600
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0828b6b9787649de27787fa8896aad5f88811e98
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 274933d46089b03362ffe29a12615f226372f97b
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550762"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725971"
 ---
 # <a name="pidtagcontactaddresstypes-canonical-property"></a>Propriété canonique PidTagContactAddressTypes
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550762"
   
 Contient une liste de types d’adresses pour un contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTACT_ADDRTYPES, PR_CONTACT_ADDRTYPES_A, PR_CONTACT_ADDRTYPES_W  <br/> |
 |Identificateur :  <br/> |0x3A54  <br/> |

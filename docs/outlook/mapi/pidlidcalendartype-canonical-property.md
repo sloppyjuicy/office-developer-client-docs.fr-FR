@@ -1,5 +1,5 @@
 ---
-title: Propri t canonique PidLidCalendarType
+title: Propriété canonique PidLidCalendarType
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - COM
 ms.assetid: 06e066f1-2b7d-4a6b-b88c-85a9bfa83bd3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bd6cd81335d530d2f0077f84d7c6b6d3f86f7db2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d8eb1c23c461289d06662adc183f90c125009a7e
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583897"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783146"
 ---
-# <a name="pidlidcalendartype-canonical-property"></a>Propri t canonique PidLidCalendarType
+# <a name="pidlidcalendartype-canonical-property"></a>Propriété canonique PidLidCalendarType
 
   
   
@@ -27,7 +27,7 @@ ms.locfileid: "59583897"
   
 Spécifie la valeur du champ CalendarType à partir de la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)).
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |LID_CALENDAR_TYPE  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
@@ -37,7 +37,7 @@ Spécifie la valeur du champ CalendarType à partir de la propriété **dispidAp
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque la demande de réunion représente une série périodique ou une exception, il s’agit de la valeur du champ CalendarType de la propriété **dispidApptRecur.** Sinon, cette propriété n’est pas définie et est supposée être 0. 
+Lorsque la demande de réunion représente une série périodique ou une exception, il s’agit de la valeur du champ CalendarType de la propriété **dispidApptRecur** . Sinon, cette propriété n’est pas définie et est supposée être 0. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

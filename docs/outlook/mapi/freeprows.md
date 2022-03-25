@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0f8f9fc4-4940-4c0a-92cc-2a6409b9a13f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8b5aa71e81c8bc73b73d6aa3586ff81466e1e6e3
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Détruit une structure SRowSet et libère la mémoire associée, y compris la mémoire allouée à tous les tableaux et structures membres.
+ms.openlocfilehash: acc84fdae95b2f08fa788237018aed45030480ca
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773774"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405831"
 ---
 # <a name="freeprows"></a>FreeProws
 
@@ -27,7 +27,7 @@ ms.locfileid: "62773774"
   
 Détruit une structure [SRowSet](srowset.md) et libère la mémoire associée, y compris la mémoire allouée à tous les tableaux et structures membres. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

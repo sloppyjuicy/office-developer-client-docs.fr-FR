@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 59c84b1f-13b5-484b-b703-2fb9fcc6c7eb
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4eb349be279196ecbdf30bafa698e2b0773f6a6c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une chaîne Unicode qui spécifie une ou plusieurs icônes personnalisées à afficher pour un fournisseur MAPI dans la barre d’état Outlook dans les états en ligne et hors connexion.
+ms.openlocfilehash: 9e78640142a25925113e03584989914022897d84
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599697"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763907"
 ---
 # <a name="pidtagprovidericon-canonical-property"></a>Propriété canonique PidTagProviderIcon
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599697"
   
 Contient une chaîne Unicode qui spécifie une ou plusieurs icônes personnalisées à afficher pour un fournisseur MAPI dans la barre d’état Microsoft Office Outlook dans les états en ligne et hors connexion.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROVIDER_ICON, PR_PROVIDER_ICON_W  <br/> |
 |Identificateur :  <br/> |0x3417  <br/> |
@@ -38,9 +38,9 @@ Contient une chaîne Unicode qui spécifie une ou plusieurs icônes personnalis�
 
 Ces propriétés spécifient le fichier de ressources qui contient une icône personnalisée qui représente un fournisseur MAPI dans un état en ligne, et éventuellement une autre icône personnalisée en mode hors connexion. Outlook demande toujours ces propriétés dans la représentation Unicode. 
   
-Par exemple, la valeur de propriété suivante indique à Outlook de charger l’ID d’icône 1001 à partir de la mymod32.dll de module et d’utiliser cette icône pour l’état en ligne `mymod32.dll,#1001` : Étant donné qu’il n’existe aucune icône spécifique au fournisseur pour l’état hors connexion, dans ce cas, l’icône Outlook hors connexion standard est utilisée dans la barre d’état. 
+Par exemple, la valeur de propriété suivante indique à Outlook de charger l’ID d’icône 1001 à partir de la mymod32.dll de module et d’utiliser cette icône pour l’état en ligne : `mymod32.dll,#1001` Étant donné qu’il n’existe aucune icône spécifique au fournisseur pour l’état hors connexion, dans ce cas, l’icône Outlook hors connexion standard est utilisée dans la barre d’état. 
   
-La valeur de propriété suivante indique à Outlook de charger l’ID d’icône 1001 à partir de l'mymod32.dll de module et d’utiliser cette icône pour l’état en ligne, ainsi que de charger l’ID d’icône 1002 à partir de ce même module à utiliser pour l’état hors connexion : `mymod32.dll,#1001,#1002` Aucune Outlook’icône n’est utilisée dans la barre d’état. 
+La valeur de propriété suivante indique à Outlook de charger l’ID d’icône 1001 à partir du mymod32.dll de module et d’utiliser cette icône pour l’état en ligne, ainsi que de charger l’ID d’icône 1002 à partir de ce même module `mymod32.dll,#1001,#1002`à utiliser pour l’état hors connexion : Aucune Outlook’icône n’est utilisée dans la barre d’état. 
   
 Par défaut, si aucune icône personnalisée n’est spécifiée, le fournisseur est représenté par les Outlook par défaut pour l’état en ligne et l’état hors connexion. Le fournisseur peut éventuellement spécifier un nom d’affichage à afficher en adjacent à l’icône dans la barre d’état. Pour plus d’informations, **PR_PROVIDER_DISPLAY_NAME_W** ([PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md)).
   

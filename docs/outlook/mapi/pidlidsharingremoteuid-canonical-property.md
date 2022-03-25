@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cfe3b728-317b-4871-adea-e2fdf8441da7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8ed529b77ca64cf1492e0eba94731531c6b33105
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 961899723b9bddbbbce0b370b442dc7636ee9527
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555579"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722319"
 ---
 # <a name="pidlidsharingremoteuid-canonical-property"></a>Propriété canonique PidLidSharingRemoteUid
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555579"
   
 Spécifie l’ID d’entrée du dossier distant partagé. Il s’agit d’une propriété d’un message de partage.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingRemoteUid  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |

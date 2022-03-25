@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d348988d-a84e-4318-8d48-62e4982ebaf1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aa609bce3f6d74e31f47bc18b97b99dd2a1bc30b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la date et l’heure de début de l’événement pour les objets calendrier d’instance unique ou minuit à la date de la première instance d’une série périodique.
+ms.openlocfilehash: 255ba31243ea0e80554da4a921aec025d6665785
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575217"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782236"
 ---
 # <a name="pidlidclipstart-canonical-property"></a>Propriété canonique PidLidClipStart
 
@@ -25,9 +25,9 @@ ms.locfileid: "59575217"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la date et l’heure de début de l’événement en temps universel coordonné (UTC) pour les objets de calendrier d’instance unique, et spécifie minuit à la date de la première instance de l’UTC pour une série périodique.
+Spécifie la date et l’heure de début de l’événement en temps universel coordonné (UTC) pour les objets de calendrier d’instance unique et spécifie minuit à la date de la première instance de l’UTC pour une série périodique.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidClipStart  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

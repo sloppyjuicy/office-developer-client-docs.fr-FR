@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1663f032-4cdc-43ed-8fdc-a91a3a6a84ff
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6c7112415b6c8fda408b794925af23ac922f9e67
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom ou le nom du destinataire. Ces propriétés sont définies par le destinataire et l’organisation du destinataire.
+ms.openlocfilehash: 098c71085d7a4b94ee661de33bfa4201473934bf
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550308"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764075"
 ---
 # <a name="pidtagsurname-canonical-property"></a>Propriété canonique PidTagSurname
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550308"
   
 Contient le nom ou le nom du destinataire.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SURNAME, PR_SURNAME_A, PR_SURNAME_W  <br/> |
 |Identificateur :  <br/> |0x3A11  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés fournissent des informations d’identification et d’accès p
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

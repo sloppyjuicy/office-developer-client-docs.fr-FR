@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3aa4f9d7-8105-435d-af68-424a079e1a84
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7cf6277b0a0c1b2b128f764eda8c6c1e96b89d5e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique la date et l’heure de début de l’exception dans le fuseau horaire local de l’ordinateur lors de la création de l’exception.
+ms.openlocfilehash: 13cf9ebf32fde497dfc49a71f5783eb26fa2ee28
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563594"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406142"
 ---
 # <a name="pidtagexceptionstarttime-canonical-property"></a>Propriété canonique PidTagExceptionStartTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563594"
   
 Indique la date et l’heure de début de l’exception dans le fuseau horaire local de l’ordinateur lors de la création de l’exception.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EXCEPTION_STARTTIME  <br/> |
 |Identificateur :  <br/> |0x7FFB  <br/> |

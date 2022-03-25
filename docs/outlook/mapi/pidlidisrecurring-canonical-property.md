@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1f8ecc22-badc-4278-a3c6-fcd398f5bf24
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f06abd2db992f68b07c2dcbf663f4263c164e073
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6c3b6b48e870064717c5d609532973ac3b5c6e97
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583785"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783405"
 ---
 # <a name="pidlidisrecurring-canonical-property"></a>Propriété canonique PidLidIsRecurring
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583785"
   
 Spécifie si l’objet est associé à une série périodique ou non.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |LID_IS_RECURRING  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
@@ -37,7 +37,7 @@ Spécifie si l’objet est associé à une série périodique ou non.
    
 ## <a name="remarks"></a>Remarques
 
-La valeur TRUE indique que l’objet représente une série périodique ou une exception (y compris une instance orpheline). La valeur FALSE ou l’absence de cette propriété indique que l’objet représente une instance unique. Notez la différence entre cette propriété et la **PR_RECURRING** ([PidLidRecurring](pidlidrecurring-canonical-property.md)).
+La valeur TRUE indique que l’objet représente une série périodique ou une exception (y compris une instance orpheline). La valeur FALSE ou l’absence de cette propriété indique que l’objet représente une instance unique. Notez la différence entre cette propriété et **la PR_RECURRING** ([PidLidRecurring](pidlidrecurring-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 

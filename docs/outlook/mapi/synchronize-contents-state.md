@@ -5,13 +5,13 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 52216bc3-8cbd-3856-ea46-78f7d0dd66ff
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ca85c85ac57222e4d596c772618d723524e15ceb
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Cette rubrique décrit ce qui se produit pendant l’état de synchronisation du contenu de la machine à états de réplication.
+ms.openlocfilehash: b39d2e031dcfcb9b5395104881536d13eb7dd1d8
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63372450"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763851"
 ---
 # <a name="synchronize-contents-state"></a>Synchroniser l’état du contenu
 
@@ -21,7 +21,7 @@ ms.locfileid: "63372450"
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Identificateur d’état :  <br/> |**LR_SYNC_CONTENTS** <br/> |
 |Structure de données associée :  <br/> |**[SYNCCONT](synccont.md)** <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4a10cf99-c5e6-4a24-b531-3aebb7800bfe
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 098fc9b44f694ffbc7e7f2240500fe3bc7f1093a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5caaf1147bd8062661ce0721f38c6074d210d698
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595181"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63713458"
 ---
 # <a name="pidtagoriginalauthorsearchkey-canonical-property"></a>Propriété canonique PidTagOriginalAuthorSearchKey
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595181"
   
 Contient la clé de recherche de l’auteur de la première version d’un message, c’est-à-dire le message avant d’être transmis ou de répondre.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_AUTHOR_SEARCH_KEY  <br/> |
 |Identificateur :  <br/> |0x0056  <br/> |
@@ -36,7 +36,7 @@ Contient la clé de recherche de l’auteur de la première version d’un messa
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est l’une des propriétés d’adresse de l’auteur d’un message. Lors de la première soumission du message, l’application cliente doit définir cette propriété sur la valeur de la **propriété PR_SENDER_SEARCH_KEY**[PidTagSenderSearchKey.](pidtagsendersearchkey-canonical-property.md) Elle n’est jamais modifiée lorsque le message est transmis ou à qui une réponse est répondue. 
+Cette propriété est l’une des propriétés d’adresse de l’auteur d’un message. Lors de la première soumission du message, l’application cliente doit définir cette propriété sur la valeur de la **propriété PR_SENDER_SEARCH_KEY** [PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md). Elle n’est jamais modifiée lorsque le message est transmis ou à qui une réponse est répondue. 
   
 Les propriétés d’auteur d’origine permettent la conservation des informations en dehors du domaine de messagerie local. Lorsqu’un message arrive à partir d’un autre domaine de messagerie, tel qu’Internet, ces propriétés permettent de s’assurer que les informations d’origine ne sont pas perdues.
   

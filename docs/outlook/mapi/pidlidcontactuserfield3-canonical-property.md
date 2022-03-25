@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 22084d78-c606-4ca9-baa7-09438456d547
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1f760bac489c50799276aa031fe77fb68aed427c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1ab3bc52288861471ee8567373654c360dd848e4
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624999"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782992"
 ---
 # <a name="pidlidcontactuserfield3-canonical-property"></a>Propriété canonique PidLidContactUserField3
 
@@ -25,9 +25,9 @@ ms.locfileid: "59624999"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le troisième champ du contact qui est destiné à un usage divers pour le contact.
+Spécifie le troisième champ du contact qui est destiné à une utilisation diverses pour le contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidContactUserField3  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

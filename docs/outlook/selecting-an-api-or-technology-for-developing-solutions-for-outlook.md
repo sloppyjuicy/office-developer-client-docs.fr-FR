@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: Cet article décrit les API et technologies que vous pouvez utiliser pour étendre Outlook 2013 et Outlook 2016. Il vous aide à choisir l’API ou la technologie adaptée à votre scénario.
 ms.localizationpriority: high
-ms.openlocfilehash: afd7bfa887b2adb77168df794c9be810981b3ae9
-ms.sourcegitcommit: 03348dda157b813ea1af1c4643a328fbf532a20b
+ms.openlocfilehash: 2ba8825d33f43a62d240649d67738c5f26c9c0ac
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63661488"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726142"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Sélection d’une API ou d’une technologie pour le développement de solutions pour Outlook
 
@@ -295,7 +295,7 @@ En règle générale, utilisez le modèle objet ou le PIA si votre solution pers
 
 ### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2007"></a>Scénarios pris en charge par le modèle d’objet ou PIA depuis Outlook 2007
 
-En plus des scénarios de référence, si votre solution Outlook prend en charge l’un des scénarios présentés dans la liste suivante et que votre solution est destinée à s’exécuter sur Outlook 2007 ou une version ultérieure, mais pas sur des versions antérieures, vous pouvez utiliser le modèle objet ou le PIA ainsi que. Cette section spécifie les principaux objets ou membres que vous pouvez utiliser dans le modèle d’objet Outlook pour étendre chaque scénario (à l’exception de l’interface [IDTExtensibility2](/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017.md) dans le modèle d’objet Automation de Visual Studio et de l’interface [IRibbonExtensibility](/office/vba/api/Office.IRibbonExtensibility.md) dans le modèle d’objet Office, que vous pouvez intégrer au modèle d’objet Outlook). 
+En plus des scénarios de référence, si votre solution Outlook prend en charge l’un des scénarios présentés dans la liste suivante et que votre solution est destinée à s’exécuter sur Outlook 2007 ou une version ultérieure, mais pas sur des versions antérieures, vous pouvez utiliser le modèle objet ou le PIA ainsi que. Cette section spécifie les principaux objets ou membres que vous pouvez utiliser dans le modèle d’objet Outlook pour étendre chaque scénario (à l’exception de l’interface [IDTExtensibility2](/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017.md&preserve-view=true) dans le modèle d’objet Automation de Visual Studio et de l’interface [IRibbonExtensibility](/office/vba/api/Office.IRibbonExtensibility.md) dans le modèle d’objet Office, que vous pouvez intégrer au modèle d’objet Outlook). 
 
 - [Personnaliser l’interface utilisateur d’Outlook : le ruban Office Fluent, le volet de navigation et le volet des tâches](#OLSelectAPI_CustomizeTheOutlookInterface)1
 - [Personnaliser les formulaires en tant que zones et les déployer à l’aide de compléments](#OLSelectAPI_CustomFormRegions)

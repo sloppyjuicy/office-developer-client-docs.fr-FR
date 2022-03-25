@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: b4e7fed2-88e4-4e14-90b6-913a1b7e338a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 46f95a4ec1b53c4af34069a5e766dd50004c4f4b
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 4da6fea71e0b32633988d583e2c67167281d1032
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465553"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63717274"
 ---
 # <a name="hrdoabdetailswithexchangecontext"></a>HrDoABDetailsWithExchangeContext
 
@@ -23,7 +23,7 @@ ms.locfileid: "62465553"
   
 Garantit que la **méthode OpenEntry** est ouverte par le fournisseur de carnet d’adresses Exchange attendu. Cette fonction fonctionne de la même manière que [IAddrBook::D etails](iaddrbook-details.md), mais ouvre **l’entryID** à l’aide du carnet d’adresses Exchange identifié par le paramètre _pEmsmdbUID_. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |abhelp.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6e82fe94-47bd-4a25-b25b-0ab6fe2db274
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 82d2d52ef2685d520af7996e685d6e894e1e0099
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: Décrit les informations de configuration d’impression de l’objet de formulaire. Les implémentations de IMAPIViewContext::GetPrintSetup remplissent la structure FORMPRINTSETUP et la retournent.
+ms.openlocfilehash: 3f4549a5eb9e3cadc2ed540740e2add47fd0065b
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462367"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781361"
 ---
 # <a name="formprintsetup"></a>FORMPRINTSETUP
 
@@ -27,7 +27,7 @@ ms.locfileid: "62462367"
   
 Décrit les informations de configuration d’impression de l’objet de formulaire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
    

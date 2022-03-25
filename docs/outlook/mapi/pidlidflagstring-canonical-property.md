@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4cf1e08b-c869-4965-a1e4-512a0684700f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c7bb9e3224539012816e8c1343282a79f9af72a3
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 96bd015651d605d3246507a4c8ab8972d524525f
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776248"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63780920"
 ---
 # <a name="pidlidflagstring-canonical-property"></a>Propriété canonique PidLidFlagString
 
@@ -27,7 +27,7 @@ ms.locfileid: "62776248"
   
 Contient un index qui identifie l’un des ensembles de chaînes de texte prédéfinës associées à l’indicateur.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFlagStringEnum  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

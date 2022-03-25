@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ee206c2d-8371-4d19-b42b-78f6479e13ca
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fb9d3b46f742b8940ccaace5ce0a60e1246eafc8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: 'Indique l’heure à quel moment un client souhaite différer l’envoi d’un message. Si la valeur est antérieure à l’heure actuelle, le message est envoyé immédiatement. '
+ms.openlocfilehash: ecfdb343a1085659323db23607afb294be8d6c1f
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600245"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764201"
 ---
 # <a name="pidtagdeferredsendtime-canonical-property"></a>Propriété canonique PidTagDeferredSendTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600245"
   
 Indique l’heure à quel moment un client souhaite différer l’envoi d’un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DEFERRED_SEND_TIME  <br/> |
 |Identificateur :  <br/> |0x3FEF  <br/> |
@@ -38,7 +38,7 @@ Indique l’heure à quel moment un client souhaite différer l’envoi d’un m
 
 Si les propriétés **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) et **PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) sont présentes, la valeur de cette propriété est recompilée à l’aide de la formule suivante et l’ancienne valeur est ignorée.
   
- **PR_DEFERRED_SEND_TIME**  =  **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) + **PR_DEFERRED_SEND_NUMBER** * TimeOf(**PR_DEFERRED_SEND_UNITS**)
+  =  PR_DEFERRED_SEND_TIME **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) + **PR_DEFERRED_SEND_NUMBER** * TimeOf(**PR_DEFERRED_SEND_UNITS**)
   
 Si **PR_DEFERRED_SEND_TIME** est antérieure à l’heure actuelle (en UTC), le message est envoyé immédiatement. 
   

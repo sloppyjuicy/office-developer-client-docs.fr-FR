@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2dcd9ff3-f380-48c7-ae9e-d4c717a9e41f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8803faf3caaa134539420266b885a998938ac57c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique si une ligne de tableau a été lue pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 3e50dc5ddaaf6ecee2081dd930fb84bb03621cf2
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587260"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406385"
 ---
 # <a name="pidtagread-canonical-property"></a>Propriété canonique PidTagRead
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587260"
   
 Indique si une ligne de tableau a été lue.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_READ  <br/> |
 |Identificateur :  <br/> |0x0E69  <br/> |
@@ -40,7 +40,7 @@ Indique si une ligne de tableau a été lue.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   

@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8c88a625-da57-3b1d-9887-0a898b722766
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 06efe58c169d22db8e684be90f8f02824792e123
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Spécifie la version complète et les informations de build sur les Microsoft Exchange Server à laquelle les comptes d’un profil sont connectés.
+ms.openlocfilehash: aa80884203d799dfe5be19341f9df095aa28a11a
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374263"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405656"
 ---
 # <a name="pidtagprofileserverfullversion-canonical-property"></a>Propriété canonique PidTagProfileServerFullVersion
 
@@ -21,7 +21,7 @@ ms.locfileid: "63374263"
   
 Spécifie la version complète et les informations de build sur les Microsoft Exchange Server à laquelle les comptes d’un profil sont connectés.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROFILE_SERVER_FULL_VERSION  <br/> |
 |Identificateur :  <br/> |0x663B  <br/> |

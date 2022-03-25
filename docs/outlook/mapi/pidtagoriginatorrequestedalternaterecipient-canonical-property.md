@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c85b7862-18bc-4e17-94db-9097e0ac4a02
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6f98a7cc97cae1fe548d079af0cad92b5f8e7a78
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un identificateur d’entrée pour un autre destinataire désigné par l’expéditeur. Cette propriété est utilisée dans les messages autoforwarded.
+ms.openlocfilehash: 21221c38b184ff1dd19999f389ae314927ba42b9
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560773"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405824"
 ---
 # <a name="pidtagoriginatorrequestedalternaterecipient-canonical-property"></a>Propriété canonique PidTagOriginatorRequestedAlternateRecipient
 
@@ -27,7 +27,7 @@ ms.locfileid: "59560773"
   
 Contient un identificateur d’entrée pour un autre destinataire désigné par l’expéditeur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINATOR_REQUESTED_ALTERNATE_RECIPIENT  <br/> |
 |Identificateur :  <br/> |0x0C09  <br/> |

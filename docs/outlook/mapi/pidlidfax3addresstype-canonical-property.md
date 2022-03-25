@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidFax3AddressType
+title: Propri t canonique PidLidFax3AddressType
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - COM
 ms.assetid: 77e22ecc-a4fa-4bd2-b0dd-bd58183b7485
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 94132a714e65cbfbdd078ca11425911a4c49c7a7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 204056ff3a391130b7a926baf88cd78e4c7207aa
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604683"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783125"
 ---
-# <a name="pidlidfax3addresstype-canonical-property"></a>Propriété canonique PidLidFax3AddressType
+# <a name="pidlidfax3addresstype-canonical-property"></a>Propri t canonique PidLidFax3AddressType
 
   
   
@@ -27,7 +27,7 @@ ms.locfileid: "59604683"
   
 Spécifie le type d’adresse pour l’adresse de télécopie de l’autre contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax3AddrType  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
@@ -45,7 +45,7 @@ Cette propriété, si elle est présente, doit être définie sur « FAX ».
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

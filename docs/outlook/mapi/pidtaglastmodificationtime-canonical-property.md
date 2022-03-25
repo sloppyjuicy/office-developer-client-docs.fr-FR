@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a64e5300-6865-4588-8e1b-158cfd9c60c2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a51a2c12c1c5609cf02ec4e19ed01dc4ae217328
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: 'Contient la date et l’heure de la dernière modification de l’objet ou du sous-objet. Cette propriété est initialement définie sur la même valeur que la PR_CREATION_TIME propriété. '
+ms.openlocfilehash: 6cb55991f44a1554c11e47e8c53aea32a22e9381
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613393"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405159"
 ---
 # <a name="pidtaglastmodificationtime-canonical-property"></a>Propriété canonique PidTagLastModificationTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613393"
   
 Contient la date et l’heure de la dernière modification de l’objet ou du sous-objet. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_LAST_MODIFICATION_TIME  <br/> |
 |Identificateur :  <br/> |0x3008  <br/> |
@@ -36,7 +36,7 @@ Contient la date et l’heure de la dernière modification de l’objet ou du so
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est initialement définie sur la même valeur que la **propriété PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)). Les sous-objets de pièce jointe peuvent le mettre à jour si nécessaire en copiant l’heure de la dernière modification conservée par le système de fichiers natif. Une application cliente peut définir cette propriété jusqu’au premier appel de la [méthode IMAPIProp::SaveChanges.](imapiprop-savechanges.md) À partir de là, le fournisseur doit mettre PR_LAST_MODIFICATION_TIME jour **pendant** chaque **appel IMAPIProp::SaveChanges.** 
+Cette propriété est initialement définie sur la même valeur que la **propriété PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)). Les sous-objets de pièce jointe peuvent le mettre à jour si nécessaire en copiant l’heure de la dernière modification conservée par le système de fichiers natif. Une application cliente peut définir cette propriété jusqu’au premier appel de la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . À partir de là, le fournisseur doit mettre **PR_LAST_MODIFICATION_TIME jour pendant** chaque **appel IMAPIProp::SaveChanges** . 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Cette propriété est initialement définie sur la même valeur que la **propri�
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

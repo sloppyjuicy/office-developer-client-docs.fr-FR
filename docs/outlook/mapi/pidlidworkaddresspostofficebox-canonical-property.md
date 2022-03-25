@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 98e4d2e3-95fc-4644-8aa8-a9787717de68
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 00c22c641678a8c2a5d88d5e485465eed68500c2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la partie zone de publication du travail du contact pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 6cff901fb2465ab0c807a57ffcade09475b517b8
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550938"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405075"
 ---
 # <a name="pidlidworkaddresspostofficebox-canonical-property"></a>Propriété canonique PidLidWorkAddressPostOfficeBox
 
@@ -25,9 +25,9 @@ ms.locfileid: "59550938"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la partie de la boîte de publication du travail du contact.
+Spécifie la partie zone de publication du travail du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidWorkAddressPostOfficeBox  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

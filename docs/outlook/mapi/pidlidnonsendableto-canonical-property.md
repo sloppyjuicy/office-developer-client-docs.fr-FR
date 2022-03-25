@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 90e14969-652b-422a-9b0a-ee99e58bc8d5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 980650a7f16387c1bb486114180779a69dfaa6e7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: db23731eb57cdd08d72b3e1a3cda9341c555a3b7
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600560"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783411"
 ---
 # <a name="pidlidnonsendableto-canonical-property"></a>Propriété canonique PidLidNonSendableTo
 
@@ -25,9 +25,9 @@ ms.locfileid: "59600560"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste de tous les participants nonendables qui sont également des participants obligatoires.
+Contient la liste de tous les participants nonendables qui sont également des participants obligatoires.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidNonSendableTo  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

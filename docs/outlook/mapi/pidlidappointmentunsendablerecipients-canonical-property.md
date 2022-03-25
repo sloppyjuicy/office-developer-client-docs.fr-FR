@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ba154612-1b0f-4ef3-8d9f-7981b1c61a2c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5f7678f6132d8e1d34748d64db8d7ea53e2cb4c3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 56775f4078547fe79db43e21bd7fae04fa15f8dd
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575280"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782170"
 ---
 # <a name="pidlidappointmentunsendablerecipients-canonical-property"></a>Propriété canonique PidLidAppointmentUnsendableRecipients
 
@@ -27,7 +27,7 @@ ms.locfileid: "59575280"
   
 Contient une liste de participants nonendables.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptUnsendableRecips  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

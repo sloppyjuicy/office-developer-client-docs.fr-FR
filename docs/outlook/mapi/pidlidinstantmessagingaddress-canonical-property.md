@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9ddc0095-cd65-431c-afa9-f2fb5a7ac382
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 15a8ad9953d98d6b054d64d7141ec105d5d1fef2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6555c43efe8a5fd080bd28c35fbe3ec600ccc2f1
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616711"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782859"
 ---
 # <a name="pidlidinstantmessagingaddress-canonical-property"></a>Propriété canonique PidLidInstantMessagingAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616711"
   
 Spécifie l’adresse de messagerie instantanée du contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidInstMsg  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

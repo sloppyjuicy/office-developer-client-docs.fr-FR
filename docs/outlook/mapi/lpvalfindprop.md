@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 67461a38-bb60-467b-901b-39c645e764f7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 558e3f5168ebcc8a17197582c122b6adc9d7779d
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5e3d0b0a8e06dbe87b817084623f4e9e08c4c499
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773235"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783342"
 ---
 # <a name="lpvalfindprop"></a>LpValFindProp
 
@@ -23,7 +23,7 @@ ms.locfileid: "62773235"
   
 Recherche une propriété spécifiée dans un jeu de propriétés.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

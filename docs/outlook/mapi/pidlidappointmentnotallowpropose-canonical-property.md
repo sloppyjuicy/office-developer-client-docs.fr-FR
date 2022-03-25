@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8be9e2aa-2dc1-406d-8864-7f556de22809
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0c5d3da06bb4c3768148a5437efc51e67942399e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique si les participants ne sont pas autorisés à proposer une nouvelle date/heure pour la réunion.
+ms.openlocfilehash: a3a424685c975b684ddbcc0af2d19979b54f81d1
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591961"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405138"
 ---
 # <a name="pidlidappointmentnotallowpropose-canonical-property"></a>Propriété canonique PidLidAppointmentNotAllowPropose
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591961"
   
 Indique si les participants ne sont pas autorisés à proposer une nouvelle date/heure pour la réunion.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptNotAllowPropose  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

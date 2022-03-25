@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 176245d9-724d-44f1-b7a3-eddf652533b2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a70d5d279e12fb793b6f678cced47d06f944f91e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom complet d’origine d’une entrée copiée à partir d’un carnet d’adresses vers un carnet d’adresses personnel ou un autre carnet d’adresses accessible en entrée.
+ms.openlocfilehash: 6b117257f8d50c3ef8e65fda8033b4e0c1bac4d5
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587411"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781186"
 ---
 # <a name="pidtagoriginaldisplayname-canonical-property"></a>Propriété canonique PidTagOriginalDisplayName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587411"
   
 Contient le nom complet d’origine d’une entrée copiée à partir d’un carnet d’adresses vers un carnet d’adresses personnel ou un autre carnet d’adresses accessible en entrée.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_DISPLAY_NAME, PR_ORIGINAL_DISPLAY_NAME_A, PR_ORIGINAL_DISPLAY_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3A13  <br/> |
@@ -40,7 +40,7 @@ Ces propriétés contiennent des informations sur la source d’origine d’une 
   
 Pour un rapport non lu, ces propriétés contiennent une copie du nom complet du destinataire du message d’origine pour lequel le rapport est généré. Lorsque le destinataire d’origine fait partie d’une liste de distribution, le nom complet de la liste de distribution est conservé pour le rapport.
   
-Une application cliente peut utiliser ces propriétés pour empêcher l’altération ou l’usurpation d’entrées, en donnant une copie inchangée du nom complet à comparer.
+Une application cliente peut utiliser ces propriétés pour empêcher l’altération ou l’usurpation d’entrées, en donnant une copie sans modification du nom complet à comparer.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Une application cliente peut utiliser ces propriétés pour empêcher l’altér
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

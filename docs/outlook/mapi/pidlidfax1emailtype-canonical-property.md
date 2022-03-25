@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidFax1EmailType
+title: Propri t canonique PidLidFax1EmailType
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - COM
 ms.assetid: 54436af4-b851-49ab-875a-c52f5da6b776
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 721ea6cb4c412d663af3bd220b67437db3837d07
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ec49cf26c721428f02d0f913e84fe99a1c1c8a0f
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583827"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726173"
 ---
-# <a name="pidlidfax1emailtype-canonical-property"></a>Propriété canonique PidLidFax1EmailType
+# <a name="pidlidfax1emailtype-canonical-property"></a>Propri t canonique PidLidFax1EmailType
 
   
   
@@ -27,7 +27,7 @@ ms.locfileid: "59583827"
   
 Spécifie le type de courrier électronique de l’adresse de télécopie professionnelle du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax1EmailType  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

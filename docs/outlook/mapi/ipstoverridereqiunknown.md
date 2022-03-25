@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 22f497de-4afe-4433-965d-c3b5a66b05da
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: df8a307588e93e108010912ee89e78e6a33fcb96
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Accède aux ressources d’un fournisseur de magasins de fichiers de dossiers personnels (PST).
+ms.openlocfilehash: 27100ed9977b8f1a7ac63e739fdf143bf08ad3f1
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770723"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763949"
 ---
 # <a name="ipstoverridereq--iunknown"></a>IPSTOVERRIDEREQ : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62770723"
   
 Accède aux ressources d’un fournisseur de magasins de fichiers de dossiers personnels (PST).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Hérite de :  <br/> |IUnknown  <br/> |
 |Implémenté par :  <br/> |Fournisseur de magasin PST  <br/> |
@@ -36,7 +36,7 @@ Accède aux ressources d’un fournisseur de magasins de fichiers de dossiers pe
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler](ipstoverridereq-registertrustedpstoverridehandler.md) <br/> |Lance la procédure de déverrouillage pour un fichier de dossiers personnels (.pst). |
    

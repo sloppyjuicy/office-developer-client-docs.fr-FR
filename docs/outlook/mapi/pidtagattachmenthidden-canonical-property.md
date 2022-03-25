@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d92a01e3-9bc4-4985-aeb6-c23636cb8b2e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 80230631ff69f9d19091ef8822d6735b3bc2f8ba
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: df02d1b39c1f52dd86b55400ec44ba1104e0fcee
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571198"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63716268"
 ---
 # <a name="pidtagattachmenthidden-canonical-property"></a>Propriété canonique PidTagAttachmentHidden
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571198"
   
 Indique si une pièce jointe est masquée à l’utilisateur final.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACHMENT_HIDDEN  <br/> |
 |Identificateur :  <br/> |0x7FFE  <br/> |
@@ -40,7 +40,7 @@ Indique si une pièce jointe est masquée à l’utilisateur final.
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

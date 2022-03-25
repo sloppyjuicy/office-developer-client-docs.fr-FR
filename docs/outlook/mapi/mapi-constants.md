@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
 description: Définitions des constantes, déclarations d’interface MAPI et identificateurs de classe et d’interface utilisés par les API MAPI.
-ms.openlocfilehash: f34d2b1c64fa3d272d9ec8a243c6bf07c24bbe68
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 2fa05a31c1bb55e3c7bd74bd527cfc06ec64c0b4
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63373654"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781781"
 ---
 # <a name="mapi-constants"></a>Constantes MAPI
 
@@ -55,7 +55,7 @@ DECLARE_MAPI_INTERFACE_(IAttachmentSecurity, IUnknown)
 
 Cette section contient les définitions des constantes et les identificateurs de classe et d’interface pour l’API de conversion MAPI MIME.
   
-|||
+|Constant|Définition|
 |:-----|:-----|
 |CCSF_SMTP  <br/> |0x0002  <br/> |
 |CCSF_NOHEADERS  <br/> |0x0004  <br/> |
@@ -86,7 +86,7 @@ DEFINE_GUID(IID_IConverterSession, 0x4b401570, 0xb77b, 0x11d0, 0x9d, 0xa5, 0x0, 
 
 Cette section contient les définitions des constantes et les identificateurs de classe et d’interface pour l’API de l’état hors connexion.
   
-|||
+|Constant|Définition|
 |:-----|:-----|
 |E_INVALIDARG  <br/> | *Comme définie dans le fichier d’en-tête winerror.h du kit de développement logiciel Windows (Kit SDK Windows) de Microsoft*  <br/> |
 |E_NOINTERFACE  <br/> | *Comme définie dans le fichier d’en-tête winerror.h du kit de développement logiciel Windows (Kit SDK Windows)*  <br/> |
@@ -225,7 +225,7 @@ Consultez la section Banque MAPI pour obtenir les définitions PSETID.
   
 ### <a name="other-constants"></a>Autres constantes
 
-|||
+|Constant|Définition|
 |:-----|:-----|
 |INSP_ONEOFFFLAGS  <br/> |0xD000000  <br/> |
 |INSP_PROPDEFINITION  <br/> |0x2000000  <br/> |
@@ -250,7 +250,7 @@ const MAPIUID g_muidProvPrvNST =
       0x83, 0xB8, 0x7D, 0xE5, 0x22, 0xAA, 0x49, 0x48 };
 ```
 
-|||
+|Constant|Définition|
 |:-----|:-----|
 |DNH_OK  <br/> |0x00010000  <br/> |
 |DNT_OK  <br/> |0x00010000  <br/> |
@@ -371,7 +371,7 @@ DEFINE_GUID (IID_IMessageNoProvChk, 0xC3505457, 0x7B2E, 0x4c3b, 0xA8, 0xD6, 0x6D
 
 Cette section contient les définitions des constantes et les identificateurs d’interface utilisés par des API qui créent une interface avec une banque MAPI.
   
-||||
+|Constant|Définition|Description|
 |:-----|:-----|:-----|
 |fnevIndexing  <br/> |((ULONG) 0x00010000)  <br/> |Un fournisseur de banques peut indiquer **fnevIndexing** dans le membre **ulEventType** de la structure **[NOTIFICATION](notification.md)** pour informer l’indexeur qu’un objet est prêt pour l’indexation. Le membre **info** de la structure **NOTIFICATION** contient une structure **[EXTENDED_NOTIFICATION](extended_notification.md)**. |
 |FS_NONE  <br/> |0x00  <br/> |Un client peut appeler **[IFolderSupport::GetSupportMask](ifoldersupport-getsupportmask.md)** et rechercher le masque de bits renvoyé. **FS_NONE** indique que le dossier ne prend pas en charge le partage. |
@@ -493,7 +493,7 @@ DEFINE_OLEGUID(IID_IMSCapabilities, 0x00020393, 0, 0)
 
 Cette section contient les définitions des constantes pour le carnet d’adresses MAPI.
   
-||||
+|Constant|Définition|Description|
 |:-----|:-----|:-----|
 |CONTAB_ROOT  <br/> |((ULONG) 0x00000001)  <br/> |Dossier racine d’un objet de carnet d’adresses MAPI. |
 |CONTAB_SUBROOT  <br/> |((ULONG) 0x00000002)  <br/> |Sous-dossier inclus dans le dossier racine de l’objet de carnet d’adresses MAPI. |
@@ -505,7 +505,7 @@ Cette section contient les définitions des constantes pour le carnet d’adress
 
 Cette section contient les définitions des constantes, y compris les codes d’erreur et les identificateurs d’interface utilisés par les API MAPI non exposées et non documentées précédemment.
   
-||||
+|Constant|Définition|Description|
 |:-----|:-----|:-----|
 |DIALOG_MODAL  <br/> |((ULONG) 0x00000001)  <br/> |Lorsqu’un client appelle la méthode [IAddrBook::D etails](iaddrbook-details.md) , il doit définir l’indicateur **DIALOG_MODAL** dans le paramètre *ulFlags* pour afficher la boîte de dialogue modale affichant les détails d’une entrée de carnet d’adresses particulière. Cette constante est définie dans mapidefs.h. |
 |ITEMPROC_FORCE  <br/> |0x00000800  <br/> |Dans Outlook 2007, les archives PST encapsulées traitent les règles et le filtrage du courrier indésirable dans les nouveaux messages avant que les clients MAPI soient avertis de nouveaux messages. Un fournisseur ou un client utilisant la méthode [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) pour créer un message dans les magasins PST doit définir l’indicateur **ITEMPROC_FORCE** dans le paramètre *ulFlags* de la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) pour indiquer au magasin PST que le message est éligible pour le traitement des règles avant que la boutique n’avertisse tout client d’écoute de l’arrivée du nouveau message. Notez que ce type de traitement de règles s’applique uniquement aux nouveaux messages créés sur un serveur qui n’est pas un serveur Microsoft Exchange Server, car le serveur Exchange traite les règles pour les messages contenus sur le serveur. Par conséquent, le fournisseur ou le client à l’origine de la création du message doit valider cet indicateur conjointement à **NON_EMS_XP_SAVE**, qui indique que le serveur n’est pas un serveur Exchange. |
@@ -557,7 +557,7 @@ Les informations suivantes contiennent des définitions de code d’erreur pour 
   
 MAPI d’Outlook prend en charge la reconnexion à un serveur de catalogue global sans reconfiguration spéciale, mais certains autres codes d’erreur peuvent être renvoyés au client.
   
-||||
+|Constant|Définition|Description|
 |:-----|:-----|:-----|
 |MAPI_E_END_OF_SESSION  <br/> |0x80040200  <br/> |Renvoyé si une connexion a été déconnectée. |
 |MAPI_E_RECONNECTED  <br/> |0x80040125  <br/> |Renvoyé lorsque le jeton de connexion d’appel de procédure distante (RPC) est obsolète. Si le jeton de la transaction actuelle est différent du jeton de la connexion qui signifie qu’il **s’est** reconnecté, MAPI_E_RECONNECTED est renvoyé et peut être traité de la même façon que **MAPI_E_END_OF_SESSION**. L’appel doit être retenté. |

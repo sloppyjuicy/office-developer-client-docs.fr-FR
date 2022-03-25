@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 01b6e695-a649-4efd-a893-7586b476467e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3962ba7b523fccea6dff312f45b172914c9a49e3
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5d8009bf023be2a1c2bab434338a41f7219515d0
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62789094"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726244"
 ---
 # <a name="notification"></a>NOTIFICATION
  
@@ -25,7 +25,7 @@ ms.locfileid: "62789094"
   
 Contient des informations sur un événement qui s’est produit et les données qui ont été affectées par l’événement.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -54,7 +54,7 @@ typedef struct
     
  _fnevCriticalError_
   
-> Une erreur globale s’est produite, telle qu’une session en cours d’arrêt. Le **membre d’informations** contient [une structure ERROR_NOTIFICATION’informations](error_notification.md) . 
+> Une erreur globale s’est produite, telle qu’une session en cours d’arrêt. Le **membre d’informations** contient [une structure ERROR_NOTIFICATION](error_notification.md) de données. 
     
  _fnevExtended_
   
@@ -62,35 +62,35 @@ typedef struct
     
  _fnevNewMail_
   
-> Un message a été remis au dossier de réception approprié pour la classe de message et attend d’être traitée. Le **membre d’informations** contient [une structure NEWMAIL_NOTIFICATION](newmail_notification.md) de données. 
+> Un message a été remis au dossier de réception approprié pour la classe de message et attend d’être traitée. Le **membre d’informations** contient [une structure NEWMAIL_NOTIFICATION’informations](newmail_notification.md) . 
     
  _fnevObjectCopied_
   
-> Un objet MAPI a été copié. Le **membre d’informations** contient [OBJECT_NOTIFICATION](object_notification.md) structure. 
+> Un objet MAPI a été copié. Le **membre d’informations** contient [une structure OBJECT_NOTIFICATION](object_notification.md) de données. 
     
  _fnevObjectCreated_
   
-> Un objet MAPI a été créé. Le **membre d’informations** contient **OBJECT_NOTIFICATION** structure. 
+> Un objet MAPI a été créé. Le **membre d’informations** contient **une structure OBJECT_NOTIFICATION** de données. 
     
  _fnevObjectDeleted_
   
-> Un objet MAPI a été supprimé. Le **membre d’informations** contient **OBJECT_NOTIFICATION** structure. 
+> Un objet MAPI a été supprimé. Le **membre d’informations** contient **une structure OBJECT_NOTIFICATION** de données. 
     
  _fnevObjectModified_
   
-> Un objet MAPI a changé. Le **membre d’informations** contient **OBJECT_NOTIFICATION** structure. 
+> Un objet MAPI a changé. Le **membre d’informations** contient **une structure OBJECT_NOTIFICATION** de données. 
     
  _fnevObjectMoved_
   
-> Un objet de magasin de messages ou de carnet d’adresses a été déplacé. Le **membre d’informations** contient **OBJECT_NOTIFICATION** structure. 
+> Un objet de magasin de messages ou de carnet d’adresses a été déplacé. Le **membre d’informations** contient **une structure OBJECT_NOTIFICATION** de données. 
     
  _fnevSearchComplete_
   
-> Une opération de recherche est terminée et les résultats sont disponibles. Le **membre d’informations** contient **OBJECT_NOTIFICATION** structure. 
+> Une opération de recherche est terminée et les résultats sont disponibles. Le **membre d’informations** contient **une structure OBJECT_NOTIFICATION** de données. 
     
  _fnevTableModified_
   
-> Les informations d’un tableau ont changé. Le **membre d’informations** contient [une structure TABLE_NOTIFICATION](table_notification.md) de données. 
+> Les informations d’un tableau ont changé. Le **membre d’informations** contient [une structure TABLE_NOTIFICATION’informations](table_notification.md) . 
     
 **info**
   

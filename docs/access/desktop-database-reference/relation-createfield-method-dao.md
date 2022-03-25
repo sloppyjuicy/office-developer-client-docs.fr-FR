@@ -7,12 +7,12 @@ ms:contentKeyID: 48547411
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: bed31b92222351ef6c74e3cb4f4452c29a1a8907
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b83413a77bdb2522175ad3a55934be73814d7066
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617523"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726118"
 ---
 # <a name="relationcreatefield-method-dao"></a>Relation.CreateField, méthode (DAO)
 
@@ -24,16 +24,16 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft A
 
 *.* CreateField(***Name** _, _*_Type_*_, _*_Size_**)
 
-*expression* Variable qui représente un objet **Relation.**
+*expression* Variable qui représente un objet **Relation** .
 
 ## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -74,9 +74,9 @@ Field
 
 Vous pouvez utiliser la méthode **CreateField** pour créer un champ, spécifier le nom, le type de données et la taille du champ. Si vous omettez une ou plusieurs des parties facultatives lorsque vous utilisez la méthode **CreateField**, vous pouvez utiliser une instruction d’affectation appropriée pour définir ou réinitialiser la propriété correspondante avant d’ajouter le nouvel objet à la collection. Une fois que vous avez ajouté le nouvel objet, vous pouvez modifier une partie de ses paramètres de propriété, mais pas tous. Pour plus d’informations, reportez-vous aux rubriques concernant cette propriété.
 
-Les arguments de type et de taille s’appliquent uniquement aux objets **Field** dans un **objet TableDef.** Les arguments suivants sont ignorés quand un objet **Field** est associé un objet **Index** ou **Relation**.
+Les arguments de type et de taille s’appliquent uniquement aux objets **Field** dans un **objet TableDef** . Les arguments suivants sont ignorés quand un objet **Field** est associé un objet **Index** ou **Relation**.
 
-Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez **[la méthode Append.](fields-append-method-dao.md)**
+Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez **[la méthode Append](fields-append-method-dao.md)** .
 
 Pour supprimer un objet **Field** d’une collection **Fields**, utilisez la méthode **[Delete](fields-delete-method-dao.md)** dans la collection. Vous ne pouvez pas supprimer un objet **Field** dans la collection **Fields** d’un objet **TableDef** une fois que vous avez créé un index qui renvoie à ce champ.
 

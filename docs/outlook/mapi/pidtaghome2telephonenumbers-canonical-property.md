@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5a3cc16a-145f-4a40-bca9-99871a26b0ef
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bd443813f826762b6c1fdf35895f8679eca0fa4e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une liste de numéros de téléphone secondaires au domicile du destinataire pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 235525c108e458012739df360c9da3868db31de6
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583449"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405838"
 ---
 # <a name="pidtaghome2telephonenumbers-canonical-property"></a>Propriété canonique PidTagHome2TelephoneNumbers
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583449"
   
 Contient une liste de numéros de téléphone secondaires au domicile du destinataire.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_HOME2_TELEPHONE_NUMBER_A_MV  <br/> |
 |Identificateur :  <br/> |0x3A2F  <br/> |
@@ -40,7 +40,7 @@ Contient une liste de numéros de téléphone secondaires au domicile du destina
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

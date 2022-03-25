@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: f6a1ca22-cf4c-4e59-8846-6bd937fa8f6e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c978fb3b23955d37c34c8f78f9a9a974245e0d8f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: af1c43af154e80205fb2e2335adc27122eb8de86
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579081"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63719260"
 ---
 # <a name="pidtagexpiryunits-canonical-property"></a>Propriété canonique PidTagExpiryUnits
 
@@ -25,9 +25,9 @@ ms.locfileid: "59579081"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit l’unité de temps pendant **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) multiplie la propriété.
+Décrit l’unité de temps **pendant PR_EXPIRY_NUMBER de** la propriété ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EXPIRY_UNITS  <br/> |
 |Identificateur :  <br/> |0x3FEE  <br/> |
@@ -38,7 +38,7 @@ Décrit l’unité de temps pendant **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](p
 
 Si elle est définie, cette propriété doit avoir l’une des valeurs suivantes :
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |PidTagExpiryUnits  <br/> |Description (TimeOf)  <br/> |
 |0x00000000  <br/> |Minutes, par exemple 60 secondes  <br/> |

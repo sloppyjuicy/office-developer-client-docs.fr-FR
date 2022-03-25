@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6cfcc048-03b9-4e34-bb92-480fe808e910
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 04cbcf1c2f3b6552c4d824120070367d81faab52
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 97fd44b1c5b67cc7992e986cd3fcc2b2a16bec19
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624866"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781487"
 ---
 # <a name="pidlidlogtype-canonical-property"></a>Propri t canonique PidLidLogType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624866"
   
 Contient le nom complet de l’application de journaling (par exemple, « MSWord ») et est généralement un attribut de forme libre d’un message de journal, généralement une chaîne.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidLogType  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Log  <br/> |

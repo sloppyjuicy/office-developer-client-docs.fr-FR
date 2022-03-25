@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 403324b8-c992-4823-aa0f-0414b283debc
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1a67eaac19fb6316825f890207e061d958be791f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la valeur du champ d’en-tête MIME (Multipurpose Internet Mail Extensions) List-Help'en-tête.
+ms.openlocfilehash: 178a691ccc6874128aebfb1b9be00e53a814437a
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613358"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405793"
 ---
 # <a name="pidtaglisthelp-canonical-property"></a>Propriété canonique PidTagListHelp
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613358"
   
 Contient la valeur du champ d’en-tête MIME (Multipurpose Internet Mail Extensions) List-Help'en-tête.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_LIST_HELP, PR_LIST_HELP_A, PR_LIST_HELP_W  <br/> |
 |Identificateur :  <br/> |0x1043  <br/> |
@@ -36,7 +36,7 @@ Contient la valeur du champ d’en-tête MIME (Multipurpose Internet Mail Extens
    
 ## <a name="remarks"></a>Remarques
 
-Pour générer un List-Help d’en-tête, les  clients doivent définir la valeur de PR_LIST_HELP ou une propriété associée sur la valeur souhaitée. Les rédacteurs MIME doivent copier cette valeur dans le champ List-Help'en-tête. 
+Pour générer un champ List-Help'en-tête, les clients doivent définir la valeur de  PR_LIST_HELP ou une propriété associée sur la valeur souhaitée. Les rédacteurs MIME doivent copier cette valeur dans le champ List-Help'en-tête. 
   
 Pour définir la valeur de ces propriétés liées au serveur de liste, les clients MIME doivent écrire les champs d’en-tête comme indiqué dans le tableau suivant :
   
@@ -50,7 +50,7 @@ Pour définir la valeur de ces propriétés liées au serveur de liste, les clie
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   

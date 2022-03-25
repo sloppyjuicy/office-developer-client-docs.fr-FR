@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d1883d22-5eca-4d00-8222-3fc74782c7a9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 889fde8c253e865e8e1bddab1906112976d998de
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le responsable du fichier joint au document pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 701c6f46f9f171b26aa8d15875df24df55806c46
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571261"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406077"
 ---
 # <a name="pidnamemanager-canonical-property"></a>Propriété canonique PidNameManager
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571261"
   
 Spécifie le responsable du fichier joint au document.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |

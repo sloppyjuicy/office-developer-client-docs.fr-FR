@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c8e7acb7-7596-4710-85ba-1feeac464703
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6146b2f4e1973822a93517838b766789d01726a2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Affiche le nom du propriétaire de la boîte aux lettres pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: b69f2e7c38c610b9f5feef0c0c47a6a95fcfc247
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619980"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741990"
 ---
 # <a name="pidtagmailboxownername-canonical-property"></a>Propriété canonique PidTagMailboxOwnerName
 
@@ -27,12 +27,12 @@ ms.locfileid: "59619980"
   
 Affiche le nom du propriétaire de la boîte aux lettres.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MAILBOX_OWNER_NAME, PR_MAILBOX_OWNER_NAME_A, PR_MAILBOX_OWNER_NAME_W  <br/> |
 |Identificateur :  <br/> |0x001F  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Magasin de messages  <br/> |
+|Domaine :  <br/> |Message Store  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -40,7 +40,7 @@ Affiche le nom du propriétaire de la boîte aux lettres.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c32493fa-aa42-485b-9ea4-f93b835906df
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6c6d66aa6c17bde92061eb6a88e0f4542e9647f8
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ed59f371c3dc7d0a1d9b1c33509203f730e3e9bc
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770730"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781095"
 ---
 # <a name="imsgstorefinishedmsg"></a>IMsgStore::FinishedMsg
 
@@ -69,7 +69,7 @@ Dans votre implémentation de **FinishedMsg**, déverrouillez le message identif
   
 Il est possible qu’aucun **PR_DELETE_AFTER_SUBMIT** ou **PR_SENTMAIL_ENTRYID** ne soit définie, que les deux soient définies ou que l’une ou l’autre soit définie. Le tableau suivant décrit l’action que vous devez prendre en fonction des paramètres : 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Si aucune des propriétés n’est définie :  <br/> |Laissez le message dans le dossier à partir duquel il a été envoyé (généralement la boîte d’envoi). |
 |Si les deux propriétés sont définies :  <br/> |Déplacez le message dans le dossier indiqué, si vous le souhaitez, puis supprimez-le. |

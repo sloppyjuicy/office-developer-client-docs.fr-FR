@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: eddca896-9497-4425-9904-87ef3cbae298
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e450b8ae02ac783b03d92e85bcf4a95af3792170
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Fournit des méthodes pour encapsuler les propriétés MAPI qui ne sont pas pris en charge par un système de messagerie dans des flux binaires qui peuvent être joints à des messages.
+ms.openlocfilehash: f8f5c3291c6528f9650a87362e5ada0bcb27484d
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788149"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406280"
 ---
 # <a name="itnef--iunknown"></a>ITnef : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62788149"
   
 Fournit des méthodes pour encapsuler les propriétés MAPI qui ne sont pas pris en charge par un système de messagerie dans des flux binaires qui peuvent être joints à des messages. Le format utilisé pour cette encapsulation est Transport-Neutral format TNEF (Encapsulation Format). Le fournisseur de transport cible ou l’application cliente MAPI peut ensuite, lors de la réception d’un message incluant une pièce jointe TNEF, récupérer les propriétés de la pièce jointe.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Tnef.h  <br/> |
 |Exposé par :  <br/> |Objets TNEF  <br/> |
@@ -38,7 +38,7 @@ Fournit des méthodes pour encapsuler les propriétés MAPI qui ne sont pas pris
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[AddProps](itnef-addprops.md) <br/> |Permet au fournisseur de services d’appel ou à la passerelle d’ajouter des propriétés à l’encapsulation d’un message ou d’une pièce jointe. |
 |[ExtractProps](itnef-extractprops.md) <br/> |Extrait les propriétés d’une encapsulation TNEF. |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c0db4b9e-ab84-4f45-9dbf-9514d306119c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5b36cad53759e518ad1aa1619bdf2361c65d16f8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f60591e6c5054df89a9c6f2867afa5a8d4d1bf15
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583771"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781578"
 ---
 # <a name="pidlidlocation-canonical-property"></a>Propriété canonique PidLidLocation
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583771"
   
 Représente l’emplacement d’un rendez-vous.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidLocation  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

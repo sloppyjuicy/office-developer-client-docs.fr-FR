@@ -7,12 +7,12 @@ ms:contentKeyID: 48546271
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d623d3753b79b325e6d9a663e210c5d106ebf4a3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 51dd8f67f47acefde36c9ee6400bb081750ce9a6
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615045"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726333"
 ---
 # <a name="recordsets-members-dao"></a>Recordsets members (DAO)
 
@@ -25,8 +25,8 @@ Une collection Recordsets contient tous les objets Recordset ouverts, dans un ob
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -47,8 +47,8 @@ Une collection Recordsets contient tous les objets Recordset ouverts, dans un ob
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 020242dc-2bde-459e-a144-111b6cefb1c0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 46998ebb59848b57151e37641c41c41a3905b881
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 601d26b7664a01960691c34a879fbb0e88233ccb
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604620"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781501"
 ---
 # <a name="pidlidfax3displayname-canonical-property"></a>Propriété canonique PidLidFax3DisplayName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604620"
   
 Spécifie le nom complet de l’autre adresse de télécopie du contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax3DisplayName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
@@ -41,7 +41,7 @@ Spécifie le nom complet de l’autre adresse de télécopie du contact.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

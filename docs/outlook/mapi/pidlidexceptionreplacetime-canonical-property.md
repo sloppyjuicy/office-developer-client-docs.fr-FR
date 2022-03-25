@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3aae4f5-7f00-45bf-b007-370041ba360e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b96ca4f5e0aa759b681d3bd60a3db04d14241562
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la date et l’heure, en UTC, dans la modèle de récurrence que l’exception remplacera.
+ms.openlocfilehash: b6764ecb9b1614df570892445641e45224f46199
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566947"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764523"
 ---
 # <a name="pidlidexceptionreplacetime-canonical-property"></a>Propriété canonique PidLidExceptionReplaceTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566947"
   
 Spécifie la date et l’heure dans la modèle de récurrence que l’exception remplacera.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidExceptionReplaceTime  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

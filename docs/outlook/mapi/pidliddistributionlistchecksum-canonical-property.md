@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bd50ab34-caae-4258-8afc-769e3cbc5220
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fba7251a2c93c02d3d1c8ef32c2cec94878f4dc2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ddd524728eb8172d025aa3448a02ef7bb1372020
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561081"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63780885"
 ---
 # <a name="pidliddistributionlistchecksum-canonical-property"></a>Propriété canonique PidLidDistributionListChecksum
 
@@ -25,9 +25,9 @@ ms.locfileid: "59561081"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la vérification de la redondance cyclique 32 bits (CRC-32) de la liste de distribution personnelle.
+Spécifie la vérification de la redondance cyclique 32 bits (CRC-32) pour une liste de distribution personnelle.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidDLChecksum  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
@@ -37,7 +37,7 @@ Spécifie la vérification de la redondance cyclique 32 bits (CRC-32) de la list
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette propriété peut être utilisée pour détecter le moment où la propriété **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) a été mise à jour sans mettre à jour les autres propriétés de membre de la liste de distribution personnelle en calculant le CRC-32 sur la valeur existante de **dispidDLMembers** et en la comparant à la valeur de la propriété **dispidDLChecksum.** 
+La valeur de cette propriété peut être utilisée pour détecter le moment où la propriété **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) a été mise à jour sans mettre à jour les autres propriétés de membre de la liste de distribution personnelle en calculant le CRC-32 sur la valeur existante de **dispidDLMembers** et en la comparant à la valeur de la propriété **dispidDLChecksum** . 
   
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 63eac3ee-e59b-4a06-8bb9-f72764d84bda
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 807d517c2856c52ca47838f0927db44b0b7dda68
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 74205b0d6016f50d395c95e202858f33d6d83781
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579465"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725270"
 ---
 # <a name="mapiuid"></a>MAPIUID
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579465"
   
 Version indépendante d’un ordre d’byte d’une structure [GUID](guid.md) utilisée pour identifier de manière unique un fournisseur de services. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Macro associée :  <br/> |[IsEqualMAPIUID](isequalmapiuid.md) <br/> |
@@ -48,9 +48,9 @@ typedef struct _MAPIUID
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **MAPIUID** est une structure **GUID** mise dans l’ordre ® processeur Intel. 
+Une structure **MAPIUID** est une structure **GUID** mise dans l’ordre d’byte du processeur Intel®. 
   
-MAPI crée des structures **MAPIUID** d’une manière qui rend très rare que deux éléments différents ont le même identificateur. Les structures **MAPIUID** peuvent être stockées en tant que propriétés binaires ou en tant que fichiers, sans prendre en compte l’ordre des bytes de l’ordinateur stockant ou accédant aux informations. 
+MAPI crée des structures **MAPIUID** de manière à ce qu’il soit très rare que deux éléments différents ont le même identificateur. Les structures **MAPIUID** peuvent être stockées en tant que propriétés binaires ou en tant que fichiers, sans prendre en compte l’ordre d’byte de l’ordinateur stockant ou accédant aux informations. 
   
  **Les structures MAPIUID** sont utilisées : 
   
@@ -62,9 +62,9 @@ MAPI crée des structures **MAPIUID** d’une manière qui rend très rare que d
     
 Pour générer un **identificateur MAPIUID** pour une clé de recherche, les fournisseurs de services appellent [IMAPISupport::NewUID](imapisupport-newuid.md).
   
-Lorsqu’un client transmet un message sur un réseau, il doit utiliser un format de protocole ou de transmission qui ne modifie pas l’ordre d’byte des données **MAPIUID.** 
+Lorsqu’un client transmet un message sur un réseau, il doit utiliser un format de protocole ou de transmission qui ne modifie pas l’ordre d’byte des données **MAPIUID** . 
   
-Pour plus d’informations sur l’utilisation des structures **MAPIUID,** consultez les rubriques suivantes : 
+Pour plus d’informations sur l’utilisation des structures **MAPIUID** , consultez les rubriques suivantes : 
   
 [Inscription des identificateurs uniques du fournisseur de services](registering-service-provider-unique-identifiers.md)
   

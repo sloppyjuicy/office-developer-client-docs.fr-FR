@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 17b2aa43-0267-45b6-8c57-11b7a5c67333
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 898b7444688a7e21136852b40530fe66859fc5ab
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Fournit des informations d’état sur le sous-système MAPI, le carnet d’adresses intégré et lepooler MAPI.
+ms.openlocfilehash: 3d333d440b955c0422cc452831c38342a4e454ff
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783984"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782082"
 ---
 # <a name="imapistatus--imapiprop"></a>IMAPIStatus : IMAPIProp
 
@@ -27,7 +27,7 @@ ms.locfileid: "62783984"
   
 Fournit des informations d’état sur le sous-système MAPI, le carnet d’adresses intégré et lepooler MAPI. Un fournisseur de services **implémente IMAPIStatus** pour fournir des informations sur son propre état. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Objets de statut  <br/> |
@@ -39,7 +39,7 @@ Fournit des informations d’état sur le sous-système MAPI, le carnet d’adre
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |[ValidateState](imapistatus-validatestate.md) <br/> |Confirme les informations d’état externe disponibles pour la ressource MAPI ou le fournisseur de services. |
 |[SettingsDialog](imapistatus-settingsdialog.md) <br/> |Affiche une feuille de propriétés qui permet à l’utilisateur de modifier la configuration d’un fournisseur de services. |

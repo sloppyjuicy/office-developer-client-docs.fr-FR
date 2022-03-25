@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: dcbd12b4-4b50-4be6-a201-45e5d4611ce0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0f1751fde87427d87d84b123282491dac53aa733
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un indicateur true lorsque les contacts doivent être triés par Fichier sous et FALSE lorsqu’ils doivent être triés par nom d’affichage.
+ms.openlocfilehash: c6ef60cee0b5420390a2f92cc15c3bf87a0354b5
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600385"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764719"
 ---
 # <a name="pidtagcontactaddressbooksortflag-canonical-property"></a>Propriété canonique PidTagContactAddressBookSortFlag
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600385"
   
 Contient un indicateur true lorsque les contacts doivent être triés par Fichier sous et FALSE lorsqu’ils doivent être triés par nom d’affichage. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_SORT_FLAG  <br/> |
 |Identificateur :  <br/> |0x6602  <br/> |

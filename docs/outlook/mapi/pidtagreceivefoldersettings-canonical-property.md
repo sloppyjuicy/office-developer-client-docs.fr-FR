@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2f0b1679-05b0-4580-b6d2-474fe3f9d012
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 00de2b1cff620f21fe5b8306c9c847785d86325c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une table des paramètres de dossier de réception d’une boutique de messages. Son contenu doit être accessible par la méthode IMAPIProp::OpenProperty.
+ms.openlocfilehash: 2ae334b47fdc761fd6a842ebf4d0d78fb0a84412
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574789"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764635"
 ---
 # <a name="pidtagreceivefoldersettings-canonical-property"></a>Propriété canonique PidTagReceiveFolderSettings
 
@@ -27,7 +27,7 @@ ms.locfileid: "59574789"
   
 Contient une table des paramètres de dossier de réception d’une boutique de messages.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECEIVE_FOLDER_SETTINGS  <br/> |
 |Identificateur :  <br/> |0x3415  <br/> |
@@ -36,9 +36,9 @@ Contient une table des paramètres de dossier de réception d’une boutique de 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut être exclue dans les opérations [IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluse dans les opérations [IMAPIProp::CopyProps.](imapiprop-copyprops.md) En tant que propriété de type PT_OBJECT, elle ne peut pas être récupérée avec succès par la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) ; Son contenu doit être accessible par la méthode [IMAPIProp::OpenProperty,](imapiprop-openproperty.md) demandant l’interface avec l’identificateur IID_IMAPITable. Les fournisseurs de services doivent le signaler à la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) si elle est définie, mais peuvent éventuellement la signaler ou non si elle n’est pas définie. 
+Cette propriété peut être exclue dans les opérations [IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluse dans les opérations [IMAPIProp::CopyProps](imapiprop-copyprops.md) . En tant que propriété de type PT_OBJECT, elle ne peut pas être récupérée avec succès par la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) ; Son contenu doit être accessible par la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) , demandant l’interface avec l’identificateur IID_IMAPITable. Les fournisseurs de services doivent le signaler à la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) si elle est définie, mais peuvent éventuellement la signaler ou non si elle n’est pas définie. 
   
-Pour récupérer le contenu de la table, une application cliente doit appeler la méthode [IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) Pour plus d’informations, voir [Tables des dossiers de réception.](receive-folder-tables.md)
+Pour récupérer le contenu de la table, une application cliente doit appeler la méthode [IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) . Pour plus d’informations, voir [Tables des dossiers de réception](receive-folder-tables.md).
   
 Cette propriété contient une table des mappages des dossiers de réception pour la magasin de messages. Appeler **OpenProperty sur** cette propriété équivaut à appeler **GetReceiveFolderTable** sur la boutique de messages. 
   

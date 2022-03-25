@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 230c66c4-ab04-4fa6-946f-9f4b704f2842
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e37a4006b800bc0a43e1f417fdd89ca22b356f8b
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 22791b916e060f8f31a8b86127d45486090f3261
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63376174"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782579"
 ---
 # <a name="msproviderinit"></a>MSProviderInit
 
@@ -25,7 +25,7 @@ ms.locfileid: "63376174"
   
 Initialise un fournisseur de magasins de messages pour l’opération.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
 |Implémenté par :  <br/> |Fournisseurs de magasins de messages  <br/> |

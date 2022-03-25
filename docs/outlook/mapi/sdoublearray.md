@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b63b26de-faf9-453c-ab8b-fb703ed09ae8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 160fdc7ecc27a2a2a14882090f674441655540f5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un tableau de doubles utilisé pour décrire une propriété de type PT_MV_DOUBLE pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 1fd8c3033c2a82e39fb88360ca633d05d6bc92f2
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609494"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762674"
 ---
 # <a name="sdoublearray"></a>SDoubleArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609494"
   
 Contient un tableau de doubles utilisé pour décrire une propriété de type PT_MV_DOUBLE.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -44,7 +44,7 @@ typedef struct _SDoubleArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau pointées par **le membre lpdbl.** 
+> Nombre de valeurs dans le tableau pointées par **le membre lpdbl** . 
     
  **lpdbl**
   
@@ -52,7 +52,7 @@ typedef struct _SDoubleArray
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations PT_MV_DOUBLE, voir [Liste des types de propriétés.](property-types.md)
+Pour plus d’informations sur PT_MV_DOUBLE, voir [Liste des types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

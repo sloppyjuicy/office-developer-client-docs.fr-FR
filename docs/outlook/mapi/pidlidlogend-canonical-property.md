@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 621459ea-adf5-4420-9f0f-6f31b9b95508
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3c8445e3fcec1c3fe7be91ba16ba4cd7395d526e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a1da257ce585d282c99841df260f1ca23958f24c
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583778"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781459"
 ---
 # <a name="pidlidlogend-canonical-property"></a>Propriété canonique PidLidLogEnd
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583778"
   
 Représente la date et l’heure de fin du message de journal.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidLogEnd  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Log  <br/> |

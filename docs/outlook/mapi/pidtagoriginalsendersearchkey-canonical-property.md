@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 164eb9dd-e553-459e-99c1-3da0284bb01f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e4b988bc5a1ee3c2e6c16cedfe3399d1af683e81
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la clé de recherche de l’expéditeur de la première version d’un message, c’est-à-dire le message avant d’être transmis ou de répondre.
+ms.openlocfilehash: 9caf9c375b4ca98178913048ff9d51a48cd0ec42
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587397"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405971"
 ---
 # <a name="pidtagoriginalsendersearchkey-canonical-property"></a>Propriété canonique PidTagOriginalSenderSearchKey
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587397"
   
 Contient la clé de recherche de l’expéditeur de la première version d’un message, c’est-à-dire le message avant d’être transmis ou de répondre.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_SENDER_SEARCH_KEY  <br/> |
 |Identificateur :  <br/> |0x005C  <br/> |
@@ -44,7 +44,7 @@ Cette propriété est l’une des propriétés d’adresse de l’expéditeur d�
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

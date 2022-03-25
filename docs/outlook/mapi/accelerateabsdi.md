@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: da67dcf4-1411-4fc9-992c-115485019bd3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8a7f324b8dacf5a5290bc219e98ba99dc1cfafc0
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 75229c696c78e30aa336d870212d1c875cd0bb05
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63373248"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722343"
 ---
 # <a name="accelerateabsdi"></a>ACCELERATEABSDI
 
@@ -25,7 +25,7 @@ ms.locfileid: "63373248"
   
 Définit une fonction de rappel pour traiter les touches d’accès rapide dans une boîte de dialogue de carnet d’adresses sans mode.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Fonction définie implémentée par :  <br/> |MAPI  <br/> |

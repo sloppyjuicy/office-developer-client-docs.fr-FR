@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 70739711-ff43-407d-bc8b-6baf7a476fef
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8f94c4b5eac189a672771a91e6b9969462f187ef
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 915ada9eb9f3c4ad037284c11b224dcfb24ad357
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610124"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725808"
 ---
 # <a name="mapiinit_0"></a>MAPIINIT_0
 
@@ -25,9 +25,9 @@ ms.locfileid: "59610124"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Transmet les options à la [fonction MAPIInitialize.](mapiinitialize.md) 
+Transmet les options à la [fonction MAPIInitialize](mapiinitialize.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |MAPIX. H  <br/> |
    
@@ -44,7 +44,7 @@ typedef struct
 
  **ulVersion**
   
-> Valeur entière qui représente le numéro de version de la structure **de MAPIINIT_0.** Le **membre ulVersion** est pour une expansion future et ne représente pas la version de l’interface MAPI. Actuellement, **ulVersion** doit être définie sur MAPI_INIT_VERSION. 
+> Valeur entière qui représente le numéro de version de **l’MAPIINIT_0** structure. Le **membre ulVersion** est pour une expansion future et ne représente pas la version de l’interface MAPI. Actuellement, **ulVersion** doit être définie sur MAPI_INIT_VERSION. 
     
  **ulFlags**
   
@@ -56,15 +56,15 @@ MAPI_MULTITHREAD_NOTIFICATIONS
     
 MAPI_NT_SERVICE 
   
-> L’appelant est en cours d’exécution en tant Windows service. Les appelants qui ne s’exécutent pas en tant que service Windows ne doivent pas définir cet indicateur . les appelants qui s’exécutent en tant que service doivent définir cet indicateur.
+> L’appelant est en cours d’exécution en tant Windows service. Les appelants qui ne s’exécutent pas en tant que service Windows ne doivent pas définir cet indicateur ; les appelants qui s’exécutent en tant que service doivent définir cet indicateur.
     
 MAPI_NO_COINIT
   
-> Définissez l MAPI_NO_COINT de sorte que **MAPIInitialize** n’essaie pas d’initialiser COM avec un appel à [CoInitialize](https://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx). Si une structure MAPIINIT_0 est passée dans **MAPIInitialize** avec _ulFlags_ définie sur MAPI_NO_COINIT, MAPI suppose que COM **a** déjà été initialisé et ignorera l’appel à **CoInitialize**.
+> Définissez l MAPI_NO_COINT de sorte que **MAPIInitialize** n’essaie pas d’initialiser COM avec un appel à [CoInitialize](https://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx). Si une structure MAPIINIT_0 est transmise à **MAPIInitialize** avec _ulFlags_ définie sur MAPI_NO_COINIT, MAPI suppose que COM **a** déjà été initialisé et ignore l’appel à **CoInitialize**.
     
 ## <a name="remarks"></a>Remarques
 
-Les clients multithread doivent définir l’MAPI_MULTITHREAD_NOTIFICATIONS’indicateur. Si l’indicateur n’est pas définie, des notifications sont générées sur le thread utilisé pour effectuer le premier appel à **MAPIInitialize**. 
+Les clients multithread doivent définir l’MAPI_MULTITHREAD_NOTIFICATIONS de lecture. Si l’indicateur n’est pas définie, des notifications sont générées sur le thread utilisé pour effectuer le premier appel à **MAPIInitialize**. 
   
 Pour plus d’informations sur le moment où définir cet indicateur et comment implémenter la sécurité des threads dans un client, voir [Threading dans MAPI](threading-in-mapi.md). 
   

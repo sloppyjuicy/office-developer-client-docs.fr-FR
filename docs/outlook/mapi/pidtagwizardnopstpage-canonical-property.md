@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ac09578-892b-4c72-92f6-c2419ac2efe8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bcf42991c31cfb7313ee1a668b5423db1defbe33
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette propriété contient TRUE si l’Assistant Profil doit supprimer la page de magasin de messages personnels (PST).
+ms.openlocfilehash: 8bde91b403b9e5237cad7d00fb33de3565b9b22a
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586865"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63742172"
 ---
 # <a name="pidtagwizardnopstpage-canonical-property"></a>Propriété canonique PidTagWizardNoPstPage
 
@@ -25,18 +25,18 @@ ms.locfileid: "59586865"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient TRUE si l’Assistant Profil doit supprimer la page de la boutique de messages personnels (PST).
+Cette propriété contient TRUE si l’Assistant Profil doit supprimer la page de magasin de messages personnels (PST).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_WIZARD_NO_PST_PAGE  <br/> |
 |Identificateur :  <br/> |0x6700  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Exchange Administrative  <br/> |
+|Domaine :  <br/> |Exchange administrative  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de services peuvent définir cette propriété lors de l’appel d’une fonction basée sur le prototype de fonction [LAUNCHWIZARDENTRY.](launchwizardentry.md) Cette propriété indique à l’Assistant Profil que le fournisseur ne souhaite pas que la page PST s’affiche pendant la boîte de dialogue utilisateur. 
+Les fournisseurs de services peuvent définir cette propriété lors de l’appel d’une fonction basée sur le prototype de fonction [LAUNCHWIZARDENTRY](launchwizardentry.md) . Cette propriété indique à l’Assistant Profil que le fournisseur ne souhaite pas que la page PST s’affiche pendant la boîte de dialogue utilisateur. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

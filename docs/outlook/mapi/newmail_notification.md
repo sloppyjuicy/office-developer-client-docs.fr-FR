@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 49913050-900a-4b05-84c4-c596a93ce68b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2cc688316055457e815a9a17215e6418a5aea3f4
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 417f3a08503db66198b42da39d89afe85ac32cbb
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776255"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720158"
 ---
 # <a name="newmail_notification"></a>NEWMAIL_NOTIFICATION
 
@@ -27,7 +27,7 @@ ms.locfileid: "62776255"
   
 Décrit les informations liées à l’arrivée d’un nouveau message. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    

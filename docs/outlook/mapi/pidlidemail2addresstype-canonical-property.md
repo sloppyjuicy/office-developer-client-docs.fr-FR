@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 28efecc4-b4a0-4e0b-bad6-a9005c8e5ddb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b8c2e510e26c8810ef66acd9d1a3ec25049f405b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: eeefe56b59ca616f24da642e28b08f620629e4e3
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604676"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726180"
 ---
 # <a name="pidlidemail2addresstype-canonical-property"></a>Propri t canonique PidLidEmail2AddressType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604676"
   
 Spécifie le type d’adresse de la deuxième adresse de messagerie.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidEmail2AddrType  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

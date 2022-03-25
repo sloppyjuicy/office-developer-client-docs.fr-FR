@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5e444b62-d6b6-4cfc-8601-d34aa004c1e6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 43aeba3be0181b4e5f5a203e7d1e4d0a64ec2bbd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 765c49e1cac9601287e9c1dc9e903a638ae0a4a2
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601120"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782187"
 ---
 # <a name="dtblgroupbox"></a>DTBLGROUPBOX
 
@@ -27,7 +27,7 @@ ms.locfileid: "59601120"
   
 Décrit un contrôle de zone de groupe qui sera utilisé dans une boîte de dialogue conçue à partir d’un tableau d’affichage.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Macro associée :  <br/> |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |
@@ -49,7 +49,7 @@ typedef struct _DTBLGROUPBOX
     
  **ulFlags**
   
-> Masque de bits d’indicateurs utilisé pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabel.** L’indicateur suivant peut être définie : 
+> Masque de bits d’indicateurs utilisé pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabel** . L’indicateur suivant peut être définie : 
     
 MAPI_UNICODE 
   
@@ -59,7 +59,7 @@ MAPI_UNICODE
 
 Une structure **DTBLGROUPBOX** décrit un contrôle de zone de groupe utilisé pour associer visuellement d’autres contrôles dans la boîte de dialogue. La technique de mise en surbrillance implique d’entourer les autres contrôles d’une zone. 
   
-Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

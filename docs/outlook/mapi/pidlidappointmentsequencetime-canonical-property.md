@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0170bb9b-f43b-4089-9144-b8652c38f43d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e51b4ce29a37ee6137474f096b726a6739e99a3a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a70d5583742a4d821c4dba777cd567cf710fe8e4
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591919"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781354"
 ---
 # <a name="pidlidappointmentsequencetime-canonical-property"></a>Propriété canonique PidLidAppointmentSequenceTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591919"
   
 Spécifie la date et l’heure de la dernière modification de cette propriété.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptSeqTime  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

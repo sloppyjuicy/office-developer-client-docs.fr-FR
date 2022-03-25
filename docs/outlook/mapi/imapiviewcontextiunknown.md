@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d566ff39-92c1-4a14-85e5-1c406825f805
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 059f24cc5c6d37a8e900b0448c22b0ad8969c451
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Gère un formulaire dans la visionneuse de formulaires d’une application cliente pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 54c18657cc8c4708500a7983573e33f6766d3378
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777389"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405530"
 ---
 # <a name="imapiviewcontext--iunknown"></a>IMAPIViewContext : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62777389"
   
 Gère un formulaire dans la visionneuse de formulaires d’une application cliente. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Exposé par :  <br/> |Afficher les objets de contexte  <br/> |
@@ -38,7 +38,7 @@ Gère un formulaire dans la visionneuse de formulaires d’une application clien
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Gère l’inscription d’un formulaire pour recevoir des notifications sur les modifications apportées à la visionneuse. |
 |[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Active le message suivant ou précédent dans la visionneuse de formulaires. |

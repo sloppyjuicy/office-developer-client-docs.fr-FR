@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8a25719d-7799-4f11-9550-e4cc42be483a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c5df285cee8a345149a0020c67679dc8de60bd49
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie si le client doit lire un son lorsque le rappel est en retard Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 6b444733264f15f05f6204ab66da5bd0c8ae37fc
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583715"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405964"
 ---
 # <a name="pidlidreminderplaysound-canonical-property"></a>Propriété canonique PidLidReminderPlaySound
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583715"
   
 Spécifie si le client doit lire un son lorsque le rappel est en retard.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidReminderPlaySound  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

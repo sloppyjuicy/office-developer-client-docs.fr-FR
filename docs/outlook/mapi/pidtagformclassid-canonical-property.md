@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ca2bbfab-6f4f-4a9a-b3ef-61d7c41e4767
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 96c55c279de1a58ddd9454af48055965143f13e3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur global unique (GUID) OLE (Object Linking and Embedding) 128 bits d’un formulaire.
+ms.openlocfilehash: 9a46a85751ed9c94bbd17dc631a1e2b5d1ef526a
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613526"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406399"
 ---
 # <a name="pidtagformclassid-canonical-property"></a>Propriété canonique PidTagFormClassId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613526"
   
 Contient l’identificateur global unique (GUID) OLE (Object Linking and Embedding) 128 bits d’un formulaire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_CLSID  <br/> |
 |Identificateur :  <br/> |0x3302  <br/> |

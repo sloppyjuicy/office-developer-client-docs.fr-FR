@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidHomeAddress
+title: Propri t canonique PidLidHomeAddress
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - COM
 ms.assetid: 5e9c4258-46de-476e-8a64-be9e35a23a8b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ad4c4579a310a73856ea69ae9f65a153a7f220a2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: aaf05c161b57b92c2ad84dd4a5c9ca955d348296
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591835"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781039"
 ---
-# <a name="pidlidhomeaddress-canonical-property"></a>Propriété canonique PidLidHomeAddress
+# <a name="pidlidhomeaddress-canonical-property"></a>Propri t canonique PidLidHomeAddress
 
   
   
@@ -27,7 +27,7 @@ ms.locfileid: "59591835"
   
 Spécifie l’adresse complète de l’adresse du domicile du contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidHomeAddress  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

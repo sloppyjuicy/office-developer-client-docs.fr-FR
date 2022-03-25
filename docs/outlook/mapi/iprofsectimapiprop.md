@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4e704044-5230-4521-a0d2-b7c2f981c954
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1d2ce9fa5d6a98ec15d8bae3c3fb8c00d137402a
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 26ed3e7daf1e79ec4ee4f2d112a82f38c59a7c18
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62464448"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782999"
 ---
 # <a name="iprofsect--imapiprop"></a>IProfSect : IMAPIProp
 
@@ -27,7 +27,7 @@ ms.locfileid: "62464448"
   
 Fonctionne avec les propriétés des objets de section de profil. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
 |Exposé par :  <br/> |Objets de section de profil  <br/> |
@@ -68,15 +68,15 @@ Pour implémenter une feuille de propriétés à l’aide d’une section de pro
     
 3. Appelez la méthode [IMAPIProp::CopyTo](imapiprop-copyto.md) de la section de profil pour copier les propriétés qui apparaîtront dans la feuille des propriétés de la section profil vers l’objet de données de propriété. 
     
-4. Appelez la méthode [IMAPISupport::D oConfigPropSheet](imapisupport-doconfigpropsheet.md) pour demander au fournisseur de services d’afficher une feuille de propriétés et transmettre un pointeur à l’objet de données de propriété dans le paramètre _lpConfigData_ . 
+4. Appelez la méthode [IMAPISupport::D oConfigPropSheet](imapisupport-doconfigpropsheet.md) pour demander au fournisseur de services d’afficher une feuille de propriétés et transmettre un pointeur vers l’objet de données de propriété dans le paramètre _lpConfigData_ . 
     
 5. Lorsque l’utilisateur enregistre les modifications apportées aux propriétés de configuration dans la feuille des propriétés, appelez la méthode [IMAPIProp::CopyTo](imapiprop-copyto.md) pour copier les propriétés de l’objet de données de propriété dans la section de profil. 
     
-Les sections de profil, contrairement aux autres objets, ne sont pas en charge les propriétés nommées. Les méthodes [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) et [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) retournent MAPI_E_NO_SUPPORT si elles sont appelées sur un objet de section de profil. Si vous utilisez la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) pour définir des identificateurs de propriétés dans la plage ci-dessus 0x8000, le type de PT_ERROR propriété est renvoyé. 
+Les sections de profil, contrairement aux autres objets, ne sont pas en charge les propriétés nommées. Les méthodes [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) et [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) retournent MAPI_E_NO_SUPPORT si elles sont appelées sur un objet de section de profil. Si vous utilisez la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) pour définir les identificateurs de propriété dans la plage ci-dessus 0x8000, le type de PT_ERROR propriété est renvoyé. 
   
 Les sections de profil réservent la plage d'0x67F0 à 0x67FF pour les propriétés sécurisées. Les fournisseurs de services peuvent utiliser cette plage pour stocker les mots de passe et d’autres informations d’identification spécifiques au fournisseur. Les propriétés de cette plage ne sont pas renvoyées dans la liste complète des propriétés lorsque NULL est transmis dans le paramètre _lpPropTag_ de la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) , ni dans le paramètre _lppPropTagArray_ de la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) . Les propriétés sécurisées doivent être demandées spécifiquement par leurs identificateurs. 
   
-MAPI fournit une section de profil avec la constante codée en dur MUID_PROFILE_INSTANCE comme identificateur et **PR_SEARCH_KEY (**[PidTagSearchKey](pidtagsearchkey-canonical-property.md)) comme propriété unique. MAPI garantit que la **valeur PR_SEARCH_KEY** propriété sera unique parmi tous les profils créés. Utilisez **PR_SEARCH_KEY** au lieu de **PR_PROFILE_NAME** lorsque l’unicité est importante, car il est possible qu’un profil supprimé soit suivi d’un autre profil du même nom. 
+MAPI fournit une section de profil avec la constante codée en dur MUID_PROFILE_INSTANCE comme identificateur et **PR_SEARCH_KEY (**[PidTagSearchKey](pidtagsearchkey-canonical-property.md)) comme propriété unique. MAPI garantit que la **valeur PR_SEARCH_KEY** propriété sera unique parmi tous les profils créés. Utilisez **PR_SEARCH_KEY** au lieu de PR_PROFILE_NAME lorsque l’unicité est importante, car il est possible qu’un profil supprimé soit suivi d’un autre profil du même nom. 
   
 Pour plus d’informations sur l’utilisation des sections de profil, voir [Administering Profiles and Message Services](administering-profiles-and-message-services.md).
   

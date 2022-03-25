@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 014ce1aa-30b9-4106-82a1-447c370853cf
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4dc618546a7bb689a4316f32d1da5f16708dcf73
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le préfixe du nom complet (par exemple, Miss, Mr., Mrs.) pour l’utilisateur de messagerie. Le contenu est défini par l’utilisateur et l’organisation de l’utilisateur.
+ms.openlocfilehash: 4ed7d118221d70b90447100ac5275464edfd8f52
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563636"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741946"
 ---
 # <a name="pidtagdisplaynameprefix-canonical-property"></a>Propriété canonique PidTagDisplayNamePrefix
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563636"
   
 Contient le préfixe du nom complet (par exemple, Miss, Mr., Mrs.) pour l’utilisateur de messagerie. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DISPLAY_NAME_PREFIX, PR_DISPLAY_NAME_PREFIX_A, PR_DISPLAY_NAME_PREFIX_W  <br/> |
 |Identificateur :  <br/> |0x3A45  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés fournissent des informations d’identification et d’accès s
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

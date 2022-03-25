@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 74ed968b-c7bb-41a4-a6f1-9ceba8cdc703
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a7287edc022cfbb029f1fd5932fb851b49fe9ef2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Représente la valeur de la propriété dispidSharingRemoteType pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: f12ee511ff2a689534bd5fcb60ee03f5c3ef3013
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583603"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764488"
 ---
 # <a name="pidnamexsharingremotetype-canonical-property"></a>Propriété canonique PidNameXSharingRemoteType
 
@@ -27,9 +27,9 @@ ms.locfileid: "59583603"
   
 Représente la valeur de la propriété **dispidSharingRemoteType** ([PidLidSharingRemoteType](pidlidsharingremotetype-canonical-property.md)).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms convivial :  <br/> |Aucune  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nom de la propriété :  <br/> |X-Sharing-Remote-Type  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |

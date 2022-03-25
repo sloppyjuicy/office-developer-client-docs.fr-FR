@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 28ba9997-72dd-465f-94a7-35a317a361ef
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3118f863399f266dbc86c8978ce74f8fecb394cc
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Fournit des conseils d’optimisation sur les destinataires d’une tâche pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: b3e45aef4169ee8b774fa7630397f4afa546d6b5
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781232"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405418"
 ---
 # <a name="pidlidtaskmultiplerecipients-canonical-property"></a>Propriété canonique PidLidTaskMultipleRecipients
 
@@ -27,7 +27,7 @@ ms.locfileid: "62781232"
   
 Fournit des conseils d’optimisation sur les destinataires d’une tâche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskMultRecips  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

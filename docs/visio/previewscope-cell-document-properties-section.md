@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d03ae1b3-da6c-56d3-4f96-6e131c04e93e
 description: Détermine si le dessin inclut un aperçu. Si c'est le cas, cette cellule détermine également si l'aperçu ne représente que la première page du dessin ou toutes ses pages.
-ms.openlocfilehash: 58b9ac70a853dbf7dccbdf723738b0aeb00608d2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 34f669228ba884c3db864c581279f4e03906586d
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627687"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782740"
 ---
 # <a name="previewscope-cell-document-properties-section"></a>PreviewScope, cellule (section Document Properties)
 
@@ -28,17 +28,17 @@ Détermine si le dessin inclut un aperçu. Si c'est le cas, cette cellule déter
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir  cette valeur sous  l’onglet Résumé dans la boîte de  dialogue Propriétés (cliquez sur le bouton **Office,** sur l’onglet Informations, sur Propriétés du **document,** puis sur Propriétés **avancées).**
+Vous pouvez également définir cette valeur sous l’onglet Résumé dans la  boîte de dialogue Propriétés (cliquez sur le bouton **Office**, sur l’onglet Informations, sur Propriétés du **document**, puis sur Propriétés  **avancées).**
   
 Pour obtenir une référence à la cellule PreviewScope par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
-|||
+|Étiquette|Valeur|
 |:-----|:-----|
 | Nom de la cellule :  <br/> | PreviewScope  <br/> |
    
 Pour obtenir une référence à la cellule PreviewScope à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
-|||
+|Index|Argument|
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowDoc** <br/> |

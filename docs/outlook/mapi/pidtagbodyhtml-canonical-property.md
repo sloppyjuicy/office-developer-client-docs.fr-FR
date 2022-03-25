@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 93b9215a-5900-411c-a0ae-6bba62cd5a1e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ece1ec0de9b619615bbbd77c2c3a3851b6e92476
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la version HTML du texte du message. Ces propriétés contiennent le même texte de message que le PR_BODY_CONTENT_LOCATION, mais au format HTML.
+ms.openlocfilehash: 9ce0db1ecd50bff5a51ea74e7fe249972b614d4e
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579179"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406217"
 ---
 # <a name="pidtagbodyhtml-canonical-property"></a>Propriété canonique PidTagBodyHtml
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579179"
   
 Contient la version HTML (Hypertext Markup Language) du texte du message. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_BODY_HTML, PR_BODY_HTML_A, PR_BODY_HTML_W  <br/> |
 |Identificateur :  <br/> |0x1013  <br/> |
@@ -36,11 +36,11 @@ Contient la version HTML (Hypertext Markup Language) du texte du message.
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés contiennent le même texte de message que **PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)), mais en HTML. 
+Ces propriétés contiennent le même texte de message que **le PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)), mais en HTML. 
   
-Une magasin de messages qui prend en charge le code HTML indique cela en STORE_HTML_OK l’indicateur **PR_STORE_SUPPORT_MASK** **(** [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
+Une magasin de messages qui prend en charge le code HTML indique cela en STORE_HTML_OK l’indicateur **PR_STORE_SUPPORT_MASK** **(**[PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
   
- **Notez** **STORE_HTML_OK** n’est pas défini dans les versions de Mapidefs.h incluses avec Microsoft® Exchange Server 2000 et versions antérieures. Si **STORE_HTML_OK** n’est pas définie, utilisez la valeur 0x00010000 à la place. 
+ **Notez** **STORE_HTML_OK** n’est pas défini dans les versions de Mapidefs.h incluses avec Microsoft® Exchange 2000 Server et versions antérieures. Si **STORE_HTML_OK** n’est pas définie, utilisez la valeur 0x00010000 à la place. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,11 +48,11 @@ Une magasin de messages qui prend en charge le code HTML indique cela en STORE_H
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

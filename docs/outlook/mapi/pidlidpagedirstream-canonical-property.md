@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e94f0daf-fccb-41b6-b38b-5ef4167a6e9d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1d57fe8a500daad44f97a05fb37c80f6c3df7b0c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 51eaf61c9ea2997c666c21dc1489eb8882a07f34
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583743"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782775"
 ---
 # <a name="pidlidpagedirstream-canonical-property"></a>Propriété canonique PidLidPageDirStream
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583743"
   
 Représente des informations sur les pages du formulaire personnalisé associé au message.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidPageDirStream  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

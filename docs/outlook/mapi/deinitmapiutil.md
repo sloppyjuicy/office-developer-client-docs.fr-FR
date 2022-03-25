@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e0b8dc9c-cc46-4d27-9497-7a55a0bfdff5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 70d6365ed2f1b38da7759c4d872c25358dc927d1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: 'Libère les fonctions utilitaires appelées explicitement par la fonction ScInitMapiUtil ou implicitement par la fonction MAPIInitialize. '
+ms.openlocfilehash: 99dc2c80d348f56117ffb5bb15d8afc19dcf60ec
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556811"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764341"
 ---
 # <a name="deinitmapiutil"></a>DeinitMapiUtil
 
@@ -25,9 +25,9 @@ ms.locfileid: "59556811"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Libère les fonctions utilitaires appelées explicitement par la [fonction ScInitMapiUtil](scinitmapiutil.md) ou implicitement par la fonction [MAPIInitialize.](mapiinitialize.md) 
+Libère les fonctions utilitaires appelées explicitement par la [fonction ScInitMapiUtil](scinitmapiutil.md) ou implicitement par la [fonction MAPIInitialize](mapiinitialize.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -43,11 +43,11 @@ Aucun
   
 ## <a name="return-value"></a>Valeur renvoyée
 
-Aucun 
+Aucune 
   
 ## <a name="remarks"></a>Remarques
 
-Fonctions de publication de la fonction **DeinitMapiUtil** initialisées avec [ScInitMapiUtil](scinitmapiutil.md) ou [MAPIInitialize](mapiinitialize.md). 
+Fonctions **de publication de la fonction DeinitMapiUtil** initialisées avec [ScInitMapiUtil](scinitmapiutil.md) ou [MAPIInitialize](mapiinitialize.md). 
   
 Lorsque l’utilisation des fonctions appelées par **ScInitMapiUtil** est terminée, **DeinitMapiUtil** doit être explicitement appelée pour les libérer. En revanche, [MAPIUninitialize](mapiuninitialize.md) appelle implicitement **DeinitMapiUtil**. 
   

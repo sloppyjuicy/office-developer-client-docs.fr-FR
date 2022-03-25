@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cd57a5be-5550-4492-acb9-52255fac9014
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2420df067443ab31b634fa4eee9c5b69cc28b626
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 351e5e54723663863fe797cf2e625cf44af72d75
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567003"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782558"
 ---
 # <a name="pidlidchangehighlight-canonical-property"></a>Propriété canonique PidLidChangeHighlight
 
@@ -25,9 +25,9 @@ ms.locfileid: "59567003"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie un champ de bits qui indique la façon dont l’objet de réunion a changé.
+Spécifie un champ de bits qui indique comment l’objet de réunion a changé.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidChangeHighlight  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
@@ -37,7 +37,7 @@ Spécifie un champ de bits qui indique la façon dont l’objet de réunion a ch
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n’est pas obligatoire. Les indicateurs individuels qui peuvent être définies sont détaillés dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
+Cette propriété n’est pas obligatoire. Les indicateurs individuels qui peuvent être définies sont [détaillés dans [MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 

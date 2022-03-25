@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9c0527ea-e922-4514-b913-d3520350c452
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fc11c47170792e5fef2e87786ff564901f505022
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Spécifie les propriétés d’adresse électronique définies sur le contact. Chaque PT_LONG valeur de cette propriété doit être unique dans la propriété.
+ms.openlocfilehash: 50db3752eb5dde58d20f4f6454a439f5fe752993
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62789087"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405523"
 ---
 # <a name="pidlidaddressbookprovideremaillist-canonical-property"></a>Propriété canonique PidLidAddressBookProviderEmailList
 
@@ -27,7 +27,7 @@ ms.locfileid: "62789087"
   
 Spécifie les propriétés d’adresse électronique définies sur le contact. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidABPEmailList  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

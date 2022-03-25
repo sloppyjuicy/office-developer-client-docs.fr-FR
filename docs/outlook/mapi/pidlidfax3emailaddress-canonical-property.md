@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8b53c307-1a01-4c94-b6db-9fcb840ce390
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c7ec9e0fced3f48204f5eb8455726171cd37dd2e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie l’adresse e-mail de l’autre adresse de télécopie du contact. Cette propriété doit contenir un nom complet, le caractère @ et un numéro de télécopie.
+ms.openlocfilehash: 13c9208e2d9abc9e87cbe2651273b1dd8e975ad8
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600665"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764361"
 ---
 # <a name="pidlidfax3emailaddress-canonical-property"></a>Propriété canonique PidLidFax3EmailAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600665"
   
 Spécifie l’adresse e-mail de l’autre adresse de télécopie du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax3EmailAddress  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

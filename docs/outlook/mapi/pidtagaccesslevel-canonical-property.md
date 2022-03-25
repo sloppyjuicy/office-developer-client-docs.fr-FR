@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8f7119c7-ffc3-47cf-aa1b-b4e56bcc5a24
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ba27e5669deb5fe5433ff69a1f6361965404bba3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique le niveau d’accès du client à l’objet. Cette propriété est en lecture seule pour le client.
+ms.openlocfilehash: b17bfa733783b31f48fbd9485eea176fae78eb89
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595335"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405719"
 ---
 # <a name="pidtagaccesslevel-canonical-property"></a>Propriété canonique PidTagAccessLevel
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595335"
   
 Indique le niveau d’accès du client à l’objet.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ACCESS_LEVEL  <br/> |
 |Identificateur :  <br/> |0x0FF7  <br/> |
@@ -49,11 +49,11 @@ Cette propriété est en lecture seule pour le client. Elle doit avoir l’une d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 788227e9-9bcf-465c-886c-746dbc665230
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 889e433939bb9528fe8c68ecde3203b75917a657
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 29437b8768f95a96555cf7c71a1abee77424be12
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555649"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722508"
 ---
 # <a name="pidlidoldwhenendwhole-canonical-property"></a>Propriété canonique PidLidOldWhenEndWhole
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555649"
   
 Indique la valeur d’origine de la propriété **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) avant une mise à jour de réunion.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidOldWhenEndWhole  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |

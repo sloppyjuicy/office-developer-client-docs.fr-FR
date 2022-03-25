@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 23074402-6ac1-47f1-8a49-b8909f98a26e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1b13b1514bf98f38a23b50c8b649bace6f6e4f25
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Contient le type d’une entrée, par rapport à la façon dont l’entrée doit être affichée dans une ligne d’un tableau pour la liste d’adresses globale.
+ms.openlocfilehash: 90b2c751914a303494f1d39d39f5a69415c15ce0
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770688"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764250"
 ---
 # <a name="pidtagdisplaytypeex-canonical-property"></a>Propriété canonique PidTagDisplayTypeEx
 
@@ -27,7 +27,7 @@ ms.locfileid: "62770688"
   
 Contient le type d’une entrée, par rapport à la façon dont l’entrée doit être affichée dans une ligne d’un tableau pour la liste d’adresses globale. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DISPLAY_TYPE_EX  <br/> |
 |Identificateur :  <br/> |0x3905  <br/> |
@@ -61,9 +61,9 @@ Voici quelques remarques sur l’utilisation de ces macros.
   
 - Pour vérifier si une entrée est une entrée distante dans une autre forêt, appliquez la macro DTE_IS_REMOTE_VALID à la valeur de cette propriété pour vérifier si l’indicateur DTE_FLAG_REMOTE_VALID est définie dans l’entrée. S’il s’agit d’une entrée distante, vous pouvez ensuite connaître le type de l’entrée distante à l’aide de DTE_REMOTE macro. 
     
-- Dans les configurations à forêt unique et entre forêts, lorsque **PR_DISPLAY_TYPE** a la valeur DT_DISTLIST et DTE_IS_REMOTE_VALID est false, l’application de la DTE_LOCAL macro à la valeur de cette propriété peut vous aider à identifier davantage le type de l’objet en tant que DT_DISTLIST (liste de distribution) ou DT_SEC_DISTLIST (liste de distribution de sécurité). 
+- Dans les configurations à forêt unique et entre forêts, lorsque **PR_DISPLAY_TYPE** a la valeur DT_DISTLIST et DTE_IS_REMOTE_VALID est false, l’application de la DTE_LOCAL macro à la valeur de cette propriété peut vous aider à identifier davantage le type de l’objet en tant que DT_DISTLIST (une liste de distribution) ou DT_SEC_DISTLIST (liste de distribution de sécurité). 
     
-- Si vous appliquez la DTE_LOCAL macro à la valeur **de PR_DISPLAY_TYPE_EX** et qu’elle renvoie le type DT_REMOTE_MAILUSER, l’entrée est une entrée distante. 
+- Si vous appliquez la macro DTE_LOCAL à la valeur de **PR_DISPLAY_TYPE_EX** et qu’elle renvoie le type DT_REMOTE_MAILUSER, l’entrée est une entrée distante. 
     
 - Dans une forêt unique ou dans une configuration entre forêts où la réplication est contrôlée par une liste de contrôle d’accès (ACL), vous pouvez utiliser la macro DTE_IS_ACL_CAPABLE pour déterminer si une entrée est un principal de sécurité.
     
@@ -92,7 +92,7 @@ Dans une seule forêt et dans une configuration entre forêts, lorsque **PR_DISP
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

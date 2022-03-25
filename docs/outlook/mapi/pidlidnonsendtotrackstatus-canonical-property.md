@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 50fec332-e7df-4bc6-8c50-59b9ca545f89
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dee78076daff602536de429d73c97ac972405dac
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fe2fa6d4bd28fe55fa4a8193a982668598c8b0d2
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595489"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781340"
 ---
 # <a name="pidlidnonsendtotrackstatus-canonical-property"></a>Propriété canonique PidLidNonSendToTrackStatus
 
@@ -25,9 +25,9 @@ ms.locfileid: "59595489"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur de chaque participant répertorié dans la **propriété dispidNonSendableTo** ([PidLidNonSendableTo](pidlidnonsendableto-canonical-property.md)).
+Contient la valeur de chaque participant répertorié dans la propriété **dispidNonSendableTo** ([PidLidNonSendableTo](pidlidnonsendableto-canonical-property.md)).
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidNonSendToTrackStatus  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -37,7 +37,7 @@ Contient la valeur de chaque participant répertorié dans la **propriété disp
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n’est requise que lorsque la **propriété dispidNonSendableTo** est définie. Le nombre de valeurs dans cette propriété doit être égal au nombre de valeurs dans **dispidNonSendableTo**. Chaque PT_LONG valeur de cette propriété correspond au participant dans la **propriété dispidNonSendableTo** au même index. 
+Cette propriété n’est requise que lorsque la **propriété dispidNonSendableTo** est définie. Le nombre de valeurs de cette propriété doit être égal au nombre de valeurs dans **dispidNonSendableTo**. Chaque PT_LONG valeur de cette propriété correspond au participant dans la propriété **dispidNonSendableTo** au même index. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b21a3aa4-7536-4728-b4a4-273cfb25c57e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f3fb0588fd8358f2c097c050ff50a2badc30625b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d4a4b15a23a1b720598ea45dc0e3c7dabd6c0b52
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604389"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726006"
 ---
 # <a name="pidlidwhere-canonical-property"></a>Propriété canonique PidLidWhere
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604389"
   
 Spécifie l’emplacement d’un événement.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |LID_WHERE  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |

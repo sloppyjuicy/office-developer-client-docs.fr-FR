@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9bbe996b-1cfc-46d7-bb0a-291c760500ef
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 03e1d8f3215b433419d8be94917f3c2ae221ca62
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Contient la largeur d’un contrôle de boîte de dialogue en unités Windows dialogue standard. Il s’agit de l’une des propriétés qui déterminent la position et la taille de la boîte de dialogue.
+ms.openlocfilehash: ca61544db6f2af4f269e3279a2682622403e67a8
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63379121"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764348"
 ---
 # <a name="pidtagdeltax-canonical-property"></a>Propriété canonique PidTagDeltaX
 
@@ -25,7 +25,7 @@ ms.locfileid: "63379121"
   
 Contient la largeur d’un contrôle de boîte de dialogue en unités Windows dialogue standard.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DELTAX  <br/> |
 |Identificateur :  <br/> |0x3F03  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c42f2539-f7d6-464a-a82c-f0ac51823168
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f022d1c3ebb040e1f21679c3db64d430468e0c32
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Valeur utilisée pour déterminer l’ordre dans lequel les règles sont évaluées et exécutées. L’ordre d’évaluation des règles qui ont la même valeur dans cette propriété n’est pas définie.
+ms.openlocfilehash: ab79c93847863b528b5c3e4df9c457b296a22e42
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624537"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764495"
 ---
 # <a name="pidtagrulesequence-canonical-property"></a>Propriété canonique PidTagRuleSequence
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624537"
   
 Valeur utilisée pour déterminer l’ordre dans lequel les règles sont évaluées et exécutées. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RULE_SEQUENCE  <br/> |
 |Identificateur :  <br/> |0x6676  <br/> |
@@ -44,7 +44,7 @@ Les règles sont évaluées dans l’ordre croissant de cette valeur. L’ordre 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   

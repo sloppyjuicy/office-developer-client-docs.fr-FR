@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee929306-8962-494d-bc47-9b4069f01267
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 36f061553e0bb5b28647ee2ae41f169fb0a08049
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c5c60e45b7bb69c538ac8e03be7162769f123b00
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555754"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782719"
 ---
 # <a name="pidlidimapdeleted-canonical-property"></a>Propriété canonique PidLidImapDeleted
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555754"
   
 Indique les éléments IMAP (Internet Mail Access Protocol) marqués pour suppression.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidImapDeleted  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

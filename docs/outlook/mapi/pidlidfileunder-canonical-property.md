@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 55afc4bb-c5fc-4162-a293-7d82644b1965
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: eadb15a979e0db24bb0fae73ce02f325d2d6c231
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2c1d7793f87a60ed04d4e78655c74fbc7fb9249f
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613659"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781634"
 ---
 # <a name="pidlidfileunder-canonical-property"></a>Propriété canonique PidLidFileUnder
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613659"
   
 Spécifie le nom sous lequel le contact est classé lors de l’affichage d’une liste de contacts.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFileUnder  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
@@ -37,7 +37,7 @@ Spécifie le nom sous lequel le contact est classé lors de l’affichage d’un
    
 ## <a name="remarks"></a>Remarques
 
-L’application doit traiter cette propriété comme une PT_UNICODE si elle est absente du contact.
+L’application doit traiter cette propriété comme une PT_UNICODE vide si elle est absente du contact.
   
 ## <a name="related-resources"></a>Ressources connexes
 

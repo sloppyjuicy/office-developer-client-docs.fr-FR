@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d062b54d-7c32-4369-ab69-f7193773a1c0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f7bb9fd61e7df9aa8398bfd7c43890762c5fd954
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: adc0f3fe7b7cafef16cafebd1504ab3a0f43a70d
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599690"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726149"
 ---
 # <a name="pidtagproviderordinal-canonical-property"></a>Propriété canonique PidTagProviderOrdinal
 
@@ -25,9 +25,9 @@ ms.locfileid: "59599690"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’index de base 0 de la position d’un fournisseur de services dans la table fournisseur.
+Contient l’index de base zéro de la position d’un fournisseur de services dans la table fournisseur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROVIDER_ORDINAL  <br/> |
 |Identificateur :  <br/> |0x300D  <br/> |
@@ -38,7 +38,7 @@ Contient l’index de base 0 de la position d’un fournisseur de services dans 
 
 Cette propriété est calculée par MAPI.
   
-Obtenez la table fournisseur en appelant la [méthode IMsgServiceAdmin::GetProviderTable.](imsgserviceadmin-getprovidertable.md) Tez la table des fournisseurs sur cette propriété pour afficher l’ordre de transport. 
+Obtenez la table fournisseur en appelant la [méthode IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) . Tez la table des fournisseurs sur cette propriété pour afficher l’ordre de transport. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

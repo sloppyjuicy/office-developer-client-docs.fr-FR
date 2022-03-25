@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d87093dc-f705-465f-ab3c-944ca0cd3e54
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c61b8a1fbcc009eede20bc0dd4827da017774af4
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Accède aux ressources d’un objet d’ouverture de magasin de messages. L’objet d’ouverture de magasin de messages est la partie d’un fournisseur de magasin de messages ouvert que MAPI appelle directement.
+ms.openlocfilehash: e238be2f71b8f1111bc3f4663cb4f4079d16e2f2
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62789136"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405096"
 ---
 # <a name="imslogon--iunknown"></a>IMSLogon : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62789136"
   
 Accède aux ressources d’un objet d’ouverture de magasin de messages.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
 |Exposé par :  <br/> |Objets d’ouverture de magasin de messages  <br/> |
@@ -38,7 +38,7 @@ Accède aux ressources d’un objet d’ouverture de magasin de messages.
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetLastError](imslogon-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur la dernière erreur qui s’est produite pour l’objet de la boutique de messages. |
 |[Logoff](imslogon-logoff.md) <br/> |Déconnecte un fournisseur de magasins de messages. |

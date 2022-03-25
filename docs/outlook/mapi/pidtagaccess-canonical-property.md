@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8c8a882e-62c1-4c57-8c63-ee5849f656b0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7fb0a4b7ec1ee6d32f30a30a3a319a0ae6c07742
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un masque de bits d’indicateurs indiquant les opérations disponibles pour le client pour l’objet.
+ms.openlocfilehash: 0953ea35782ba243370fee4cd3c6e1c30f8f3c0a
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550847"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405257"
 ---
 # <a name="pidtagaccess-canonical-property"></a>Propriété canonique PidTagAccess
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550847"
   
 Contient un masque de bits d’indicateurs indiquant les opérations disponibles pour le client pour l’objet.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ACCESS  <br/> |
 |Identificateur :  <br/> |0x0FF4  <br/> |
@@ -36,12 +36,12 @@ Contient un masque de bits d’indicateurs indiquant les opérations disponibles
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est en lecture seule pour le client. Il doit s’agit d’un **OR** au niveau du bit de zéro ou de plusieurs valeurs du tableau suivant. 
+Cette propriété est en lecture seule pour le client. Il doit s’agit d’un **OU** au niveau du bit de zéro ou de plusieurs valeurs du tableau suivant. 
   
 |**Name**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|MAPI_ACCESS_MODIFY  <br/> |0x00000001  <br/> |Écriture  <br/> |
-|MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |Lire  <br/> |
+|MAPI_ACCESS_MODIFY  <br/> |0x00000001  <br/> |Write  <br/> |
+|MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |Lecture  <br/> |
 |MAPI_ACCESS_DELETE  <br/> |0x00000004  <br/> |Supprimer  <br/> |
 |MAPI_ACCESS_CREATE_HIERARCHY  <br/> |0x00000008  <br/> |Créer des sous-dossiers dans la hiérarchie de dossiers  <br/> |
 |MAPI_ACCESS_CREATE_CONTENTS  <br/> |0x00000010  <br/> |Créer des messages de contenu  <br/> |
@@ -55,11 +55,11 @@ Les indicateurs MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY et MAPI_ACCESS_READ sont 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

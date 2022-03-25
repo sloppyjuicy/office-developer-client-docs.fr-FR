@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 74c25870-62d9-484a-9a99-4dc35c52479e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1c5485860c6e8efcf7ba768f25c0c13384f0733b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0e4a3dea3eb282173acf84ddefb9fa8d63ff2eb0
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576106"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783188"
 ---
 # <a name="imailuser--imapiprop"></a>IMailUser : IMAPIProp
 
@@ -27,7 +27,7 @@ ms.locfileid: "59576106"
   
 Permet d’accéder aux nombreuses propriétés associées aux utilisateurs de messagerie. **L’interface IMailUser est** implémentée par les objets utilisateur de messagerie. **IMailUser** hérite de l’interface [IMAPIProp : IUnknown](imapipropiunknown.md) et n’a aucune méthode unique propre. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Objets utilisateur de messagerie  <br/> |
@@ -66,11 +66,11 @@ Cinq des propriétés requises sont appelées propriétés d’adresse de base p
     
 - **PR_SEARCH_KEY**
     
-Ces propriétés sont considérées comme spéciales, car de nombreux autres groupes de propriétés similaires reposent sur ce groupe de base. Les autres groupes sont utilisés pour décrire un destinataire dans différents rôles, tels que l’expéditeur d’origine ou l’expéditeur délégué d’un message. Pour plus d’informations sur ces propriétés et leur utilisation, voir [Types d’adresses MAPI.](mapi-address-types.md)
+Ces propriétés sont considérées comme spéciales, car de nombreux autres groupes de propriétés similaires reposent sur ce groupe de base. Les autres groupes sont utilisés pour décrire un destinataire dans différents rôles, tels que l’expéditeur d’origine ou l’expéditeur délégué d’un message. Pour plus d’informations sur ces propriétés et leur utilisation, voir [Types d’adresses MAPI](mapi-address-types.md).
   
-Les utilisateurs de messagerie peuvent afficher une collection de leurs propriétés en PR_DETAILS_TABLE la propriété **(** [PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** est un tableau d’affichage qui décrit la disposition d’une boîte de dialogue détails ou d’une page de propriétés à onglets qui affiche les informations de propriété du destinataire. MAPI crée des boîtes de dialogue de détails lorsqu’un client appelle la méthode [IAddrBook::D etails.](iaddrbook-details.md) 
+Les utilisateurs de messagerie peuvent afficher une collection de leurs propriétés en **PR_DETAILS_TABLE la propriété** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** est un tableau d’affichage qui décrit la disposition d’une boîte de dialogue détails ou d’une page de propriétés à onglets qui affiche les informations de propriété du destinataire. MAPI crée des boîtes de dialogue de détails lorsqu’un client appelle [la méthode IAddrBook::D etails](iaddrbook-details.md) . 
   
-Les objets utilisateur de messagerie peuvent être associés à d’autres propriétés facultatives. MAPI définit de nombreuses propriétés qui fournissent des informations d’adressa ment supplémentaires sur un utilisateur de messagerie. Toutes ces propriétés sont des chaînes de caractères. La liste suivante présente les propriétés les plus couramment utilisées :
+Les objets utilisateur de messagerie peuvent être associés à d’autres propriétés facultatives. MAPI définit de nombreuses propriétés qui fournissent des informations d’adressaie supplémentaires sur un utilisateur de messagerie. Toutes ces propriétés sont des chaînes de caractères. La liste suivante présente les propriétés les plus couramment utilisées :
   
 - **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) 
     

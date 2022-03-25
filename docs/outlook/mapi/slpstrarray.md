@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f570d9b-eb3d-4fc7-bcbe-348a0b8fe9e9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c5bc772a997b71a8adda3c11a1ac43ce1b7cee03
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un tableau de valeurs de chaîne qui sont utilisées pour décrire une propriété de type PT_MV_STRING8.
+ms.openlocfilehash: 76c79896abd5c4098062699dcbe40daf8ad76155
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59549993"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762822"
 ---
 # <a name="slpstrarray"></a>SLPSTRArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "59549993"
   
 Contient un tableau de valeurs de chaîne qui sont utilisées pour décrire une propriété de type PT_MV_STRING8.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -44,7 +44,7 @@ typedef struct _SLPSTRArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau pointées par le **membre lppszA.** 
+> Nombre de valeurs dans le tableau pointées par le **membre lppszA** . 
     
  **lppszA**
   
@@ -52,7 +52,7 @@ typedef struct _SLPSTRArray
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur PT_MV_STRING8, voir [Liste des types de propriétés.](property-types.md)
+Pour plus d’informations sur PT_MV_STRING8, voir [Liste des types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

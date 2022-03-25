@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac31cf65-a2bc-4c8e-91a4-d2903aa98776
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9c7f6dce84d2677fb7e1cdfbc9de4b069d7bc4ba
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: Copie un groupe de notifications d’événement dans un seul bloc de mémoire pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 9441495cf7dc82e57789108fbf959ccdd6c2b597
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62464946"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764369"
 ---
 # <a name="sccopynotifications"></a>ScCopyNotifications
 
@@ -27,7 +27,7 @@ ms.locfileid: "62464946"
   
 Copie un groupe de notifications d’événements dans un seul bloc de mémoire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

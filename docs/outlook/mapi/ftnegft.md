@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 639a408c-aed1-456b-9f75-9d6fb8dcb33b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c812cb081c1e4d86c0b3160066b6d953022560f2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dc78701c7cfbb95455bbd92f101afaf15f08a62e
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614170"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781305"
 ---
 # <a name="ftnegft"></a>FtNegFt
 
@@ -27,7 +27,7 @@ ms.locfileid: "59614170"
   
 Calcule le complément des deux d’un nombre integer 64 bits non signé. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

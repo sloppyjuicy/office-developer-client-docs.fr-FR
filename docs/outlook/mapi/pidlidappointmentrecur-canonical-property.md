@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 56d6240f-d07b-48d1-aef0-bf57078ea6c3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: eb481316d905e9b3c33b181600626e2b9d8bcf39
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a2f5921ae8b37b84b4db18bc4adb52900e1df18c
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571296"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781053"
 ---
 # <a name="pidlidappointmentrecur-canonical-property"></a>Propriété canonique PidLidAppointmentRecur
 
@@ -25,9 +25,9 @@ ms.locfileid: "59571296"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie les dates et heures de la série périodique en utilisant l’une des plages et modèles de récurrence spécifiés dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
+Spécifie les dates et heures de la série périodique à l’aide de l’une des plages et des modèles de récurrence spécifiés dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptRecur  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
@@ -37,7 +37,7 @@ Spécifie les dates et heures de la série périodique en utilisant l’une des 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie les dates et heures de la série périodique à l’aide de l’une des plages et modèles de récurrence détaillés dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx). La valeur de cette propriété contient également des informations sur les exceptions modifiées et supprimées ; telles que les dates, l’objet, l’emplacement et plusieurs autres propriétés d’exceptions. Les données binaires de cette propriété pour les éléments de calendrier périodiques sont stockées en tant que structure **AppointmentRecurrencePattern.** Cette propriété ne doit pas exister sur les éléments de calendrier d’instance unique. 
+Cette propriété spécifie les dates et heures de la série périodique en utilisant l’une des plages et modèles de récurrence détaillés dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx). La valeur de cette propriété contient également des informations sur les exceptions modifiées et supprimées ; telles que les dates, l’objet, l’emplacement et plusieurs autres propriétés d’exceptions. Les données binaires de cette propriété pour les éléments de calendrier périodiques sont stockées en tant que structure **AppointmentRecurrencePattern** . Cette propriété ne doit pas exister sur les éléments de calendrier d’instance unique. 
   
 Il existe certaines limitations aux récurrences :
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e4db6cae-4730-45d0-8b8a-9bd484c8bd3f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1a39cabe8393c1f7127ee4127dd844de823d7516
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique que la valeur de la propriété dispidLocation est définie sur la propriété PR_DISPLAY_NAME du RecipientRow qui représente une ressource.
+ms.openlocfilehash: ddfa212af68a5d72b9d3a8ce224041f1c2250273
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561151"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781222"
 ---
 # <a name="pidlidautofilllocation-canonical-property"></a>Propriété canonique PidLidAutoFillLocation
 
@@ -27,7 +27,7 @@ ms.locfileid: "59561151"
   
 Indique que la valeur de la propriété **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) est définie sur la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) du RecipientRow qui représente une ressource.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidAutoFillLocation  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
@@ -37,7 +37,7 @@ Indique que la valeur de la propriété **dispidLocation** ([PidLidLocation](pid
    
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur RecipientRow, consultez le protocole Message et Attachment Object, tel que spécifié dans [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
+Pour plus d’informations sur RecipientRow, voir le protocole Message et Attachment Object comme spécifié dans [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3174d931-e045-44db-a203-a27c9c00f4fc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0c46478ba531742d0df96878993df77e2bb033f0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c785b88b6be42d27dab5f9ef7e8304d1d4922767
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624894"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781445"
 ---
 # <a name="pidlidlogflags-canonical-property"></a>Propriété canonique PidLidLogFlags
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624894"
   
 Contient des métadonnées sur le journal.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidLogFlags  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Log  <br/> |

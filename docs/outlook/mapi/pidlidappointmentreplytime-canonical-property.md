@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 80a2608b-fc44-455a-86be-d6235caba99e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bfdae539669ec7bb1191639268a3b96eba81ca88
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bf8421cbf0e819b2d3691503d0a7f1a99891ffa8
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595608"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781046"
 ---
 # <a name="pidlidappointmentreplytime-canonical-property"></a>Propriété canonique PidLidAppointmentReplyTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595608"
   
 Spécifie la date et l’heure à laquelle le participant a répondu à une demande de réunion reçue ou à une mise à jour de réunion.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptReplyTime  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

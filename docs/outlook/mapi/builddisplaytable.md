@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0846415b-6fe1-4504-8620-108af6719015
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bae9c0371343f1c1908fd7edeff4a275e953fd9d
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Crée un tableau d’affichage à partir des données de page de propriétés contenues dans une ou plusieurs structures DTPAGE.
+ms.openlocfilehash: 7ecfaaaa3150f136e8a8b0d46f3f7f25f145f6f1
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63378113"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764208"
 ---
 # <a name="builddisplaytable"></a>BuildDisplayTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "63378113"
   
 Crée un tableau d’affichage à partir des données de page de propriétés contenues dans une ou plusieurs structures [DTPAGE](dtpage.md) .
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -94,7 +94,7 @@ MAPI_UNICODE
 
 ## <a name="return-value"></a>Valeur renvoyée
 
-Aucun
+Aucune
   
 ## <a name="remarks"></a>Remarques
 

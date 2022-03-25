@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: bbaf7df4-2de0-4da3-9125-eb24dfa94cd8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 44852bbdbbd3d742e8cc81082765fe4320b81c46
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique la précision de la propriété dispidTaskOwner pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 2cb4ca78679931f4095e8e6b16913edd9faa78a2
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595461"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762275"
 ---
 # <a name="pidlidtaskffixoffline-canonical-property"></a>Propriété canonique PidLidTaskFFixOffline
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595461"
   
 Indique la précision de la **propriété dispidTaskOwner** ([PidLidTaskOwner](pidlidtaskowner-canonical-property.md)).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskFFixOffline  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

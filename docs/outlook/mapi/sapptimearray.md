@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5a1ff95a-9862-4165-8a70-bd2eeb7fe683
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ebb7366dbbc49cfe38a95383f64b1195ef401fd9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un tableau de valeurs d’heure. La structure SAppTimeArray permet de définir des propriétés de type PT_MV_APPTIME.
+ms.openlocfilehash: 0ffbb4544281c73fbaa28c69ff4a56d2fa4e7916
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550147"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406378"
 ---
 # <a name="sapptimearray"></a>SAppTimeArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550147"
   
 Contient un tableau de valeurs d’heure.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -44,7 +44,7 @@ typedef struct _SAppTimeArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau pointées par **le membre lpat.** 
+> Nombre de valeurs dans le tableau pointées par **le membre lpat** . 
     
  **lpat**
   
@@ -52,7 +52,7 @@ typedef struct _SAppTimeArray
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SAppTimeArray est** utilisée pour définir des propriétés de type PT_MV_APPTIME. Pour plus d’informations PT_MV_APPTIME, voir [Liste des types de propriétés.](property-types.md)
+La structure **SAppTimeArray permet** de définir des propriétés de type PT_MV_APPTIME. Pour plus d’informations sur PT_MV_APPTIME, voir [Liste des types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

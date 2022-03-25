@@ -6,12 +6,13 @@ ms.topic: overview
 ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
 description: Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation d’Excel.
 ms.localizationpriority: high
-ms.openlocfilehash: 445c228f9bf4df5a2017f50e7f72e930b1caee24
-ms.sourcegitcommit: 03348dda157b813ea1af1c4643a328fbf532a20b
+adobe-target: true
+ms.openlocfilehash: 2a204a80f30a46c06ff4c491c03942ff69f8f1c2
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63661453"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726091"
 ---
 # <a name="develop-solutions-and-customize-excel"></a>Développer des solutions et personnaliser Excel
 
@@ -41,7 +42,7 @@ Recherchez des procédures, des exemples de code, de la documentation sur les Ki
 - [Référence de la bibliothèque d’objets VBA Office](/office/vba/api/overview/library-reference.md)  
 - [Référence de langage VBA pour Office](/office/vba/api/overview/language-reference.md)  
 - [Open XML SDK](/office/open-xml/open-xml-sdk.md)  
-- [Compléments VSTO pour Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
+- [Compléments VSTO pour Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017&preserve-view=true)
   
 ### <a name="support"></a>Support
   

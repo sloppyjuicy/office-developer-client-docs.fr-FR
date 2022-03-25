@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e9059739-51b4-4574-bd0f-709eb5144ae7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5775fbe67f52f0dd7beda99fab6cbe18c0298d83
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: c4a6c65ee60a3ec3d74dc94848f111a7c1605814
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788541"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723283"
 ---
 # <a name="imapiform--iunknown"></a>IMAPIForm : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62788541"
   
 Permet aux visionneuses de formulaires de fonctionner avec des contextes d’affichage de formulaire et des notifications de formulaire, d’exécuter des verbes de formulaire et d’arrêter des formulaires.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Exposé par :  <br/> |Objets de formulaires  <br/> |
@@ -38,7 +38,7 @@ Permet aux visionneuses de formulaires de fonctionner avec des contextes d’aff
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[SetViewContext](imapiform-setviewcontext.md) <br/> |Établit un contexte d’affichage pour le formulaire. |
 |[GetViewContext](imapiform-getviewcontext.md) <br/> |Renvoie le contexte d’affichage actuel du formulaire. |

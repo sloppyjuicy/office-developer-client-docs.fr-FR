@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 30fdfb20-1e12-442a-bfa0-8c18c15fa5c3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5b909930f473266c32f893126bfdb7547683cc9e
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 4b96cd64984af0cf930546161c4d59f554871aff
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774768"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726166"
 ---
 # <a name="pidlidpostaladdressid-canonical-property"></a>Propriété canonique PidLidPostalAddressId
 
@@ -27,7 +27,7 @@ ms.locfileid: "62774768"
   
 Spécifie l’adresse physique qui est l’adresse postale du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidPostalAddressId  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

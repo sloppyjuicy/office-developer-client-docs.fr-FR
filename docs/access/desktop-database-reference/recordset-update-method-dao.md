@@ -7,12 +7,12 @@ ms:contentKeyID: 48546961
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 738df3357538ea7daf9a227f8a0c380b0dff0af7
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 155900ad415a8754eb9768b8b93de869def94ff9
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62464837"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723077"
 ---
 # <a name="recordsetupdate-method-dao"></a>Recordset.Update, méthode (DAO)
 
@@ -28,10 +28,10 @@ ms.locfileid: "62464837"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

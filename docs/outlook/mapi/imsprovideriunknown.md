@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0f17aa44-abcb-4732-b013-d91652847cf6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 30acfdb2221a3853264066b9eaed494b9ef19088
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: e1e3675006bb805a7e5a599d95c9043c3965455a
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63373423"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782705"
 ---
 # <a name="imsprovider--iunknown"></a>IMSProvider : IUnknown
 
@@ -25,7 +25,7 @@ ms.locfileid: "63373423"
   
 Permet d’accéder à un fournisseur de magasins de messages via un objet fournisseur de magasin de messages. Cet objet fournisseur de magasin de messages est renvoyé à l’ouverture de connecté du fournisseur par la fonction de point d’entrée [MSProviderInit](msproviderinit.md) du fournisseur de magasins de messages. L’objet fournisseur de magasin de messages est principalement utilisé par les applications clientes et lepooler MAPI pour ouvrir les magasins de messages.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
 |Exposé par :  <br/> |Objets du fournisseur de banques de messages  <br/> |
@@ -36,7 +36,7 @@ Permet d’accéder à un fournisseur de magasins de messages via un objet fourn
 
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[Arrêt](imsprovider-shutdown.md) <br/> |Ferme un fournisseur de magasins de messages de manière ordonnée. |
 |[Logon](imsprovider-logon.md) <br/> |Connecte MAPI à une instance d’un fournisseur de magasins de messages. |

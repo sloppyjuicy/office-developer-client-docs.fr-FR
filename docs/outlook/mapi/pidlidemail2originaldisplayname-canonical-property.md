@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0b648ef6-86ed-40ee-b068-8fcde7e0fe75
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3e3c71d8eafb077e70535bd8515521eb0734556b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le deuxième nom complet qui correspond à l’adresse de messagerie spécifiée pour le contact.
+ms.openlocfilehash: 390d66294fbd14467f95d4eaa1de0b0ede1b011f
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566968"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781641"
 ---
 # <a name="pidlidemail2originaldisplayname-canonical-property"></a>Propriété canonique PidLidEmail2OriginalDisplayName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566968"
   
 Spécifie le deuxième nom complet qui correspond à l’adresse de messagerie spécifiée pour le contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidEmail2OriginalDisplayName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
@@ -37,7 +37,7 @@ Spécifie le deuxième nom complet qui correspond à l’adresse de messagerie s
    
 ## <a name="remarks"></a>Remarques
 
-Si la valeur de la propriété **dispidEmail2AddrType** ([PidLidEmail2AddressType](pidlidemail2addresstype-canonical-property.md)) est « SMTP », la valeur de la propriété **PidLidEmail2OriginalDisplayName respective** doit être égale à la valeur de la propriété **dispidEmail2EmailAddress** ([PidLidEmail2EmailAddress](pidlidemail2emailaddress-canonical-property.md)) respective. L’objectif de cette propriété est d’afficher une adresse conviviale de remplacement équivalente à celle de **dispidEmail2EmailAddress**.
+Si la valeur de la propriété **dispidEmail2AddrType** ([PidLidEmail2AddressType](pidlidemail2addresstype-canonical-property.md)) est « SMTP », la valeur de la propriété **PidLidEmail2OriginalDisplayName** respective doit être égale à la valeur de la propriété **dispidEmail2EmailAddress** ([PidLidEmail2EmailAddress](pidlidemail2emailaddress-canonical-property.md)) respective. L’objectif de cette propriété est d’afficher une adresse conviviale de remplacement équivalente à celle de **dispidEmail2EmailAddress**.
   
 ## <a name="related-resources"></a>Ressources connexes
 

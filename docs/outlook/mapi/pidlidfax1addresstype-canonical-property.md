@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 57b59e5c-fae7-48da-bb4d-90e4482a6e70
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 66721184ab74e50adaa6556d58fe9e7502633e1d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le type d’adresse pour l’adresse de télécopie professionnelle d’un contact. Cette propriété, si elle est présente, doit être définie sur FAX.
+ms.openlocfilehash: 4ac5e2b3d882a8776d42240af6b6ad0af5e2a00a
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624964"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764089"
 ---
 # <a name="pidlidfax1addresstype-canonical-property"></a>Propri t canonique PidLidFax1AddressType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624964"
   
 Spécifie le type d’adresse pour l’adresse de télécopie professionnelle d’un contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax1AddrType  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

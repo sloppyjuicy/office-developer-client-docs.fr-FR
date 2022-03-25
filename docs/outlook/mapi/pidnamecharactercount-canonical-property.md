@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6c7960a9-ccfa-4872-9729-e707bfd9b68e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a2805838572627e23f4a985cb72128eb5f6d7971
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le nombre de caractères du fichier joint au document pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 4226c16eb4ed212dc2f6b7b351735410e198a942
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595370"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405894"
 ---
 # <a name="pidnamecharactercount-canonical-property"></a>Propriété canonique PidNameCharacterCount
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595370"
   
 Spécifie le nombre de caractères du fichier joint au document.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |

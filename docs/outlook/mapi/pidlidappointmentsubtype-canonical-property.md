@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2e00af3-1fb3-4314-936a-f480674d3d83
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8b9b1b4615893418374b98403e7d519d3f632d07
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie si l’événement s’est ouvert toute la journée, comme spécifié par l’utilisateur.
+ms.openlocfilehash: e0d412cf681cfe3fd132d98468aeb3c38cf176da
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591891"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764740"
 ---
 # <a name="pidlidappointmentsubtype-canonical-property"></a>Propriété canonique PidLidAppointmentSubType
 
@@ -25,9 +25,9 @@ ms.locfileid: "59591891"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie si l’événement s’agit de la journée.
+Spécifie si l’événement est de la journée.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptSubType  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cbc4585d-f970-4b22-ac08-d7fc91bff3d3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a233a1541b244ddfdf90b395f0230af123b919ec
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient des informations de mise en forme sur une pièce jointe MIME. Ces propriétés sont copiées à partir du paramètre Content-type de l’en-tête MIME entrant.
+ms.openlocfilehash: 8b8463413411c05ae71bf94c31ea9f40c453603d
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613652"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406273"
 ---
 # <a name="pidtagattachmimetag-canonical-property"></a>Propriété canonique PidTagAttachMimeTag
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613652"
   
 Contient des informations de mise en forme sur une pièce jointe MIME (Multipurpose Internet Mail Extensions). 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_MIME_TAG, PR_ATTACH_MIME_TAG_A, PR_ATTACH_MIME_TAG_W  <br/> |
 |Identificateur :  <br/> |0x370E  <br/> |
@@ -36,7 +36,7 @@ Contient des informations de mise en forme sur une pièce jointe MIME (Multipurp
    
 ## <a name="remarks"></a>Remarques
 
-Si **la propriété PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contient la valeur **OID_MIMETAG**, le fournisseur de transport doit examiner ces propriétés pour déterminer comment la pièce jointe est mise en forme. 
+Si la **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contient la valeur **OID_MIMETAG**, le fournisseur de transport doit examiner ces propriétés pour déterminer la mise en forme de la pièce jointe. 
   
 Ces propriétés sont copiées à partir du paramètre Content-type de l’en-tête MIME entrant. La composition de la chaîne est définie dans le document RFC 1521. Le format est type/sous-type, par exemple application/binaire ou texte/simple. 
   
@@ -46,7 +46,7 @@ Ces propriétés sont copiées à partir du paramètre Content-type de l’en-t�
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   

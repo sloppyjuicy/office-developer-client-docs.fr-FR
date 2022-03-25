@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6b7ff0c-19a0-4cad-8868-c05397fcebf4
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 74cb85228ef64c2b6dfe1c31ddfb6efb43ec2814
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un identificateur pour l’agent de transfert de messages (MTA) à l’origine du message. Cette propriété est disponible pour les messages envoyés dans le dossier Éléments envoyés.
+ms.openlocfilehash: 66f242a41db71fcb1b4417e5f49e7917367e3330
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574993"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783300"
 ---
 # <a name="pidtagoriginatingmtacertificate-canonical-property"></a>Propriété canonique PidTagOriginatingMtaCertificate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59574993"
   
 Contient un identificateur pour l’agent de transfert de messages (MTA) à l’origine du message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINATING_MTA_CERTIFICATE  <br/> |
 |Identificateur :  <br/> |0x0E25  <br/> |
@@ -36,7 +36,7 @@ Contient un identificateur pour l’agent de transfert de messages (MTA) à l’
    
 ## <a name="remarks"></a>Remarques
 
-Si elle est définie, cette propriété est disponible pour les messages envoyés dans le dossier Éléments envoyés.
+Cette propriété, si elle est définie, est disponible pour les messages envoyés dans le dossier Éléments envoyés.
   
 Cette propriété correspond à l’attribut de rapport X.400 par message.
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 33c00752-cdc1-4cbe-8fca-6b06c78bd362
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 92d31420f1aacf9c0d7f2e280e97d5779b4e09dd
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 24894e0e3d7ccf576666f5f53c9472a252143fc3
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465653"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782432"
 ---
 # <a name="fpropexists"></a>FPropExists
 
@@ -27,7 +27,7 @@ ms.locfileid: "62465653"
   
 Recherche une balise de propriété donnée dans une interface [IMAPIProp](imapipropiunknown.md) ou une interface dérivée **d’IMAPIProp**, telle que [IMessage](imessageimapiprop.md) ou [IMAPIFolder](imapifolderimapicontainer.md). 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e0c04f98-3d66-4ab5-ba05-69f9df539fcf
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 02b8ae5dbcdf7ec32bb04b7920a7e67ef4af7252
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Contient des indicateurs étendus sur un dossier. Cette propriété est un flux binaire qui contient des sous-propriétés codées pour le dossier.
+ms.openlocfilehash: 3bd32e47c9dc90909410e3b98ddd183df9f958ca
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773158"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405396"
 ---
 # <a name="pidtagextendedfolderflags-canonical-property"></a>Propriété canonique PidTagExtendedFolderFlags
  
@@ -25,7 +25,7 @@ ms.locfileid: "62773158"
   
 Contient des indicateurs étendus sur un dossier.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EXTENDED_FOLDER_FLAGS  <br/> |
 |Identificateur :  <br/> |0x36DA  <br/> |
@@ -58,7 +58,7 @@ Les éléments réservés peuvent être ignorés, mais les valeurs existantes do
     
 - SearchFolderID
     
-   Le champ de données est un champ de 16 byte. Lorsque l’application crée un dossier de recherche persistant, elle doit définir ce champ sur le dossier sur la même valeur que la propriété binaire **PR_WB_SF_TAG** ([PidTagSearchFolderId)](pidtagsearchfolderid-canonical-property.md) sur le message de dossier de recherche.
+   Le champ de données est un champ de 16 byte. Lorsque l’application crée un dossier de recherche persistant, elle doit définir ce champ sur le dossier sur la même valeur que la propriété binaire **PR_WB_SF_TAG** ([PidTagSearchFolderId)](pidtagsearchfolderid-canonical-property.md) dans le message de dossier de recherche.
     
 - ToDoFolderVersion
     
@@ -70,7 +70,7 @@ Les éléments réservés peuvent être ignorés, mais les valeurs existantes do
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   

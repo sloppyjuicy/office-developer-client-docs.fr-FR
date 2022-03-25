@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb7bd25e-5938-4abd-ba2c-c1ad86c75922
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6317e66706ae9f9dff413c42a77961d018853ce9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le nombre de paragraphes dans le fichier joint au document pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: e2b681b589d6244878ba16302a5b64b151a279e4
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629983"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763823"
 ---
 # <a name="pidnameparagraphcount-canonical-property"></a>Propriété canonique PidNameParagraphCount
 
@@ -27,9 +27,9 @@ ms.locfileid: "59629983"
   
 Spécifie le nombre de paragraphes du fichier joint au document.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms convivial :  <br/> |Aucune  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |ParCount  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 43da5b59-7691-49aa-b83c-753d43bfd8fd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 14743cb13b958cb95fb50c781423f3560f9aa1d2
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: a8c5ef13513e12776a787890c23fd766ce60e7b9
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462072"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783426"
 ---
 # <a name="fpropcontainsprop"></a>FPropContainsProp
 
@@ -25,7 +25,7 @@ ms.locfileid: "62462072"
   
 Compare deux valeurs de propriété, généralement des chaînes ou des tableaux binaires, pour voir si l’une contient l’autre. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -67,7 +67,7 @@ _ulFuzzyLevel_
         
     - FL_IGNORENONSPACE : la comparaison doit ignorer les caractères non définis par Unicode, tels que les signes diacritiques. 
         
-    - FL_LOOSE : la comparaison doit indiquer une correspondance dans la mesure du possible, en ignorant la sensibilité de la cas et les caractères non espacement.
+    - FL_LOOSE : la comparaison doit indiquer une correspondance chaque fois que possible, en ignorant la sensibilité de la cas et les caractères non espacement.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

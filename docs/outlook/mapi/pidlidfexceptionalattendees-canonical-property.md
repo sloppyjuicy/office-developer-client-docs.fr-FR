@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f1f489a3-e83a-4e96-bf9a-d98bc17d29f5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2922b4864d07e53f2a51ae6ac298f1509bc66e01
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3291e9fb78cf379086d6fdc26e1d6bba15927ba7
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620414"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781179"
 ---
 # <a name="pidlidfexceptionalattendees-canonical-property"></a>Propriété canonique PidLidFExceptionalAttendees
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620414"
   
 Indique si cette propriété est un objet calendrier périodique avec une ou plusieurs exceptions, et qu’au moins l’une des exceptions incorporées a au moins un RecipientRow.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFExceptionalAttendees  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

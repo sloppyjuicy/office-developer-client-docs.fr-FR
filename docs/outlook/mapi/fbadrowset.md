@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3890dd50-e6ca-4859-bada-f6752ab61d41
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 241441c1aa516b366fdecd6c17f5d12cf12a2206
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f3bd0f79d0bac8c6b738a95bdcf7eeb63b50f5a4
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630928"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63723290"
 ---
 # <a name="fbadrowset"></a>FBadRowSet
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630928"
   
 Valide toutes les lignes de tableau incluses dans un ensemble de lignes de tableau.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

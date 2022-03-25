@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: fc2972da-80e9-50e2-10b3-585eb63e9103
-ms.openlocfilehash: 0d532dfa8ab319b2ea3c107434ca8e9d69fe9868
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 1e2d87edd465e2c733bb52810acd2589aab763ee
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781603"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782474"
 ---
 # <a name="iolkaccounthelper"></a>IOlkAccountHelper
 
@@ -19,7 +19,7 @@ Fournit des fonctionnalités d’aide dans la session MAPI actuelle pour gérer 
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Hérite de :  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Fourni par :  <br/> |Client  <br/> |
@@ -27,7 +27,7 @@ Fournit des fonctionnalités d’aide dans la session MAPI actuelle pour gérer 
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[Placeholder1](iolkaccounthelper-placeholder1.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
 |[GetIdentity](iolkaccounthelper-getidentity.md) <br/> |Obtient le nom de profil d’un compte. |

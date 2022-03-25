@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5036638-8350-464f-ab44-19c4a1bf50b3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 11530eb5a16122a6b8543d8f76119a2de4477ac9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette propriété contient une preuve DE REMISE ASN.1 pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: bbb9e8c5feffcd035a18a82eb2d1bca5ac1c15d6
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574894"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405705"
 ---
 # <a name="pidtagproofofdelivery-canonical-property"></a>Propriété canonique PidTagProofOfDelivery
 
@@ -27,7 +27,7 @@ ms.locfileid: "59574894"
   
 Cette propriété contient une preuve ASN.1 de la valeur de remise.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROOF_OF_DELIVERY  <br/> |
 |Identificateur :  <br/> |0x0C11  <br/> |

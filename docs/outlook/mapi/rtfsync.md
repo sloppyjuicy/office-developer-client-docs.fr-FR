@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a081357e518ea7d0ac0653d0a61dd9859e649a15
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: S’assure que le texte du message RTF correspond à la version en texte simple. Appelez cette fonction avant de lire la version RTF et après avoir modifié la version RTF.
+ms.openlocfilehash: ce64b47886618e7f96e875d6cce3cada4aaba110
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465597"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406287"
 ---
 # <a name="rtfsync"></a>RTFSync
 
@@ -25,7 +25,7 @@ ms.locfileid: "62465597"
   
 Permet de s’assurer que le texte du message rtf (Rich Text Format) correspond à la version en texte simple. Il est nécessaire d’appeler cette fonction avant de lire la version RTF et après avoir modifié la version RTF. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -71,7 +71,7 @@ Si la propriété **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonica
   
 Si l’indicateur STORE_RTF_OK n’est pas définie dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)), cette fonction doit être appelée avec l’indicateur RTF_SYNC_RTF_CHANGED définie après la modification **PR_RTF_COMPRESSED.** 
   
-Si les **deux PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) et **PR_RTF_COMPRESSED** ont été modifiés, la fonction **RTFSync** doit être appelée avec les deux indicateurs. 
+Si les **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) et **PR_RTF_COMPRESSED** ont été modifiés, la fonction **RTFSync** doit être appelée avec les deux indicateurs. 
   
 Si la valeur du paramètre  _lpfMessageUpdated_ est définie sur TRUE, la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) doit être appelée pour le message. Si **SaveChanges n’est** pas appelé, les modifications ne seront pas enregistrées dans le message. 
   

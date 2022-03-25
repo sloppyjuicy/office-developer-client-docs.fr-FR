@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9b91fd85f790b7afaca47d958a4433c3d0bff14f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Fournit des méthodes de synchronisation. Cette interface récupère les informations nécessaires pour répliquer les modifications locales apportées au serveur et au magasin local.
+ms.openlocfilehash: 70be66ceff9f405af0c674b4d42d7054c143bd29
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778866"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405502"
 ---
 # <a name="iostx--iunknown"></a>IOSTX : IUnknown
 
@@ -27,14 +27,14 @@ ms.locfileid: "62778866"
   
 Fournit des méthodes de synchronisation. Cette interface récupère les informations nécessaires pour répliquer les modifications locales apportées au serveur et au magasin local.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fourni par :  <br/> |[IPSTX::GetSyncObject](iostx-setsyncresult.md) <br/> |
 |Identificateur d’interface :  <br/> |IID_IOSTX  <br/> |
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |[GetLastError](iostx-getlasterror.md) <br/> |Obtient des informations étendues sur la dernière erreur. |
 |[InitSync](iostx-initsync.md) <br/> |Informe le magasin local que la synchronisation est sur le point de démarrer. |

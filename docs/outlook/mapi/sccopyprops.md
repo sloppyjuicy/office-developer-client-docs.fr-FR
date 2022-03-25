@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 08bc256c-9706-4f3e-9a12-3e9cca5e4caa
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 95805c6460669e80a81c31f4ba766047821f0365
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: Copie les propriétés définies par un tableau de structures SPropValue vers une nouvelle destination.  ScCopyProps conserve l’ordre des propriétés d’origine pour le tableau de propriétés copiées.
+ms.openlocfilehash: 805784f51fc0ed3b461152bc644579a9da8b7202
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62458791"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762087"
 ---
 # <a name="sccopyprops"></a>ScCopyProps
 
@@ -27,7 +27,7 @@ ms.locfileid: "62458791"
   
 Copie les propriétés définies par un tableau de structures [SPropValue](spropvalue.md) vers une nouvelle destination. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3c9e4e05-cd3a-4b56-9dff-879e33ff6fd5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 479f953d76ae71189a31c6e39445535c3421886c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: afb2279ffb128dbb4202821cceaded7a257ad283
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777480"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783160"
 ---
 # <a name="imapiprop--iunknown"></a>IMAPIProp : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62777480"
   
 Permet aux clients, aux fournisseurs de services et à MAPI d’fonctionner avec les propriétés. Tous les objets qui la prise en charge des propriétés implémentent cette interface.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Aucun objet n’expose cette interface directement. |
@@ -39,7 +39,7 @@ Permet aux clients, aux fournisseurs de services et à MAPI d’fonctionner avec
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[GetLastError](imapiprop-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente. |
 |[SaveChanges](imapiprop-savechanges.md) <br/> |Rend permanentes les modifications apportées à un objet depuis la dernière opération d’enregistrer. |

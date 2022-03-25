@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 861e6425ec7ab0da4f701fa7140c287ad24167d0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: eecd768df1a1387d0e9e4608ab3e85ba14761f52
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614954"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722663"
 ---
 # <a name="runmacro-macro-action"></a>RunMacro, action de macro
 
@@ -32,14 +32,14 @@ Vous pouvez utiliser cette action dans les cas suivants :
 
 - Pour attacher une macro à une commande de menu personnalisée.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **ExécuterMacro** accepte les arguments suivants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -50,7 +50,7 @@ L’action **ExécuterMacro** accepte les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom macro</strong></p></td>
-<td><p>Nom de la macro à exécuter. La <strong>zone Nom de</strong> macro de la section Arguments de l’action du volet Générateur de macro affiche toutes les macros (et groupes de macros) dans la base de données actuelle. <strong></strong> Si la macro se trouve dans un groupe de macros, elle est répertoriée sous le nom du groupe de macros dans la liste en tant que <em>nom de groupe de macros.</em> <em>nom_macro</em>. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>ExécuterMacro</strong> dans une base de données bibliothèque, Microsoft Access recherche la macro portant ce nom dans la base de données bibliothèque, et non pas dans la base de données active.</p></td>
+<td><p>Nom de la macro à exécuter. La <strong>zone Nom de</strong> macro de la section <strong>Arguments de l’action</strong> du volet Générateur de macro affiche toutes les macros (et groupes de macros) de la base de données actuelle. Si la macro se trouve dans un groupe de macros, elle est répertoriée sous le nom du groupe de macros dans la liste en tant que <em>nom de groupe de macros</em>. <em>nom_macro</em>. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>ExécuterMacro</strong> dans une base de données bibliothèque, Microsoft Access recherche la macro portant ce nom dans la base de données bibliothèque, et non pas dans la base de données active.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombre de répétitions</strong></p></td>

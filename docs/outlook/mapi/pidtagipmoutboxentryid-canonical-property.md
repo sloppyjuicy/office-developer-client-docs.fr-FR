@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fa03d819-2621-4990-80ae-4140b83a8a85
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b6d5aa773dbcabddf01547495c5df6e7826abbc7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée du dossier de boîte d’envoi du message interpersonnel standard (IPM). Les messages sortants sont généralement créés dans le dossier Boîte d’envoi.
+ms.openlocfilehash: fdd2887bc113b574c32d9425ac9bf24150249b0d
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599958"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782481"
 ---
 # <a name="pidtagipmoutboxentryid-canonical-property"></a>Propriété canonique PidTagIpmOutboxEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599958"
   
 Contient l’identificateur d’entrée du dossier de boîte d’envoi du message interpersonnel standard (IPM). 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IPM_OUTBOX_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E2  <br/> |
@@ -36,7 +36,7 @@ Contient l’identificateur d’entrée du dossier de boîte d’envoi du messag
    
 ## <a name="remarks"></a>Remarques
 
-Les messages sortants sont généralement créés dans le dossier Boîte d’envoi. Les messages interpersonnels doivent être placés dans ce dossier pour l’envoi. 
+Les messages sortants sont généralement créés dans le dossier Boîte d’envoi. Les messages interpersonnels doivent être placés dans ce dossier pour envoi. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

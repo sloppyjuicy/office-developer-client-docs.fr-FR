@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f3fa392a-c3b1-46dd-bf9b-5ce310719542
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 81930bbe6dd4a097c888bea2d083300cd13a609e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ff20288a6665644e073d4de500742d393f143155
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630394"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783419"
 ---
 # <a name="pidlidemail3originaldisplayname-canonical-property"></a>Propriété canonique PidLidEmail3OriginalDisplayName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630394"
   
 Spécifie le troisième nom complet qui correspond à l’adresse de messagerie spécifiée pour le contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidEmail3OriginalDisplayName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
@@ -37,7 +37,7 @@ Spécifie le troisième nom complet qui correspond à l’adresse de messagerie 
    
 ## <a name="remarks"></a>Remarques
 
-Si la valeur de la propriété **dispidEmail3AddrType** ([PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)) est « SMTP », la valeur de la propriété **dispidEmail3OriginalDisplayName** respective doit être égale à la valeur de l’adresse **dispidEmail3EmailAddress** respective ([PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)). L’objectif de cette propriété est d’afficher une adresse conviviale de remplacement équivalente à celle de **dispidEmail3EmailAddress**.
+Si la valeur de la propriété **dispidEmail3AddrType** ([PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)) est « SMTP », la valeur de la propriété **dispidEmail3OriginalDisplayName** respective doit être égale à la valeur de la propriété **dispidEmail3EmailAddress** ([PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)). L’objectif de cette propriété est d’afficher une adresse conviviale de remplacement équivalente à celle de **dispidEmail3EmailAddress**.
   
 ## <a name="related-resources"></a>Ressources connexes
 

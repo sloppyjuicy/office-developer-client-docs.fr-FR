@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a6082162-2a74-4850-a0df-4bdbc67b41d8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 438c770e9c004973e6635d575b7a8134891ee964
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un masque de bits d’indicateurs que les applications clientes doivent interroger pour déterminer les caractéristiques d’une magasin de messages.
+ms.openlocfilehash: 4c6feeb0e65f187d8a951bc496d809bd3d9c79ef
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629703"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405945"
 ---
 # <a name="pidtagstoreunicodemask-canonical-property"></a>Propriété canonique PidTagStoreUnicodeMask
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629703"
   
 Contient un masque de bits d’indicateurs que les applications clientes doivent interroger pour déterminer les caractéristiques d’une magasin de messages.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_STORE_UNICODE_MASK  <br/> |
 |Identificateur :  <br/> |0x340F  <br/> |
@@ -36,7 +36,7 @@ Contient un masque de bits d’indicateurs que les applications clientes doivent
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété révèle les fonctionnalités d’une boutique de messages aux applications clientes qui prévoient de lui envoyer un message. Les indicateurs peuvent faciliter les décisions prises par un client ou un autre magasin, par exemple s’il faut envoyer **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) ou uniquement **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). Un client ne doit jamais définir cette propriété. Une tentative renvoie **MAPI_E_COMPUTED**. 
+Cette propriété révèle les fonctionnalités d’un magasin de messages aux applications clientes qui prévoient de lui envoyer un message. Les indicateurs peuvent faciliter les décisions prises par un client ou un autre magasin, par exemple s’il faut envoyer **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) ou uniquement **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). Un client ne doit jamais définir cette propriété. Une tentative renvoie **MAPI_E_COMPUTED**. 
   
 Un ou plusieurs des indicateurs suivants peuvent être définies pour cette propriété : 
   
@@ -58,15 +58,15 @@ STORE_CREATE_OK
     
 STORE_ENTRYID_UNIQUE 
   
-> (1, 0x00000001) Les identificateurs d’entrée pour les objets de la boutique de messages sont uniques, c’est-à-dire qu’ils ne sont jamais réutilisés pendant la durée de vie de la boutique. 
+> (1, 0x00000001) Les identificateurs d’entrée pour les objets de la boutique de messages sont uniques, c’est-à-dire qu’ils ne sont jamais réutilisés pendant la durée de vie du magasin. 
     
 STORE_HTML_OK 
   
-> (65536, 0x00010000) La magasin de messages prend en charge les messages HTML, stockés dans la **PR_BODY_HTML** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)). Notez que **STORE_HTML_OK** n’est pas défini dans les versions de MAPIDEFS. H inclus dans Microsoft Exchange 2000 Server et les antérieures. Si votre environnement de développement utilise un MAPIDEFS. Fichier H qui n’inclut **pas STORE_HTML_OK**, utilisez la valeur « 0x00010000 » à la place. 
+> (65536, 0x00010000) La magasin de messages prend en charge les messages HTML, stockés dans **PR_BODY_HTML propriété (**[PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)). Notez que **STORE_HTML_OK** n’est pas défini dans les versions de MAPIDEFS. H inclus dans Microsoft Exchange 2000 Server et les antérieures. Si votre environnement de développement utilise un MAPIDEFS. Fichier H qui n’inclut **pas STORE_HTML_OK**, utilisez la valeur « 0x00010000 » à la place. 
     
 STORE_ITEMPROC
   
-> (2097152, 0x00200000) Dans un magasin PST wrapped, indique que lorsqu’un nouveau message arrive dans la boutique, la boutique traite les règles et le filtrage du courrier indésirable sur le message séparément. La boutique appelle [IMAPISupport::Notify](imapisupport-notify.md), la définition **de fnevNewMail** dans la structure [notification](notification.md) transmise en tant que paramètre, puis transmet les détails du nouveau message au client d’écoute. Par la suite, lorsque le client à l’écoute reçoit la notification, il ne traite pas de règles dans le message. 
+> (2097152, 0x00200000) Dans un magasin PST  enveloppé, indique qu’à l’arrivée d’un nouveau message dans la boutique, celle-ci traite séparément les règles et le filtrage du courrier indésirable sur le message. La boutique appelle [IMAPISupport::Notify](imapisupport-notify.md), en paramétré **fnevNewMail** dans la structure [notification](notification.md) transmise en tant que paramètre, puis transmet les détails du nouveau message au client d’écoute. Par la suite, lorsque le client à l’écoute reçoit la notification, il ne traite pas de règles dans le message. 
     
 STORE_LOCALSTORE
   
@@ -86,7 +86,7 @@ STORE_NOTIFY_OK
     
 STORE_OLE_OK 
   
-> (64, 0x00000040) La magasin de messages prend en charge les pièces jointes OLE. Les données OLE sont accessibles via une interface **IStorage,** telle que celle disponible via la propriété **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). 
+> (64, 0x00000040) La magasin de messages prend en charge les pièces jointes OLE. Les données OLE sont accessibles via une interface **IStorage** , telle que celle disponible via la propriété **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). 
     
 STORE_PUBLIC_FOLDERS 
   
@@ -98,15 +98,15 @@ STORE_PUSHER_OK
     
 STORE_READONLY 
   
-> (2, 0x00000002) Toutes les interfaces de la boutique de messages ont un niveau d’accès en lecture seule. 
+> (2, 0x00000002) Toutes les interfaces de la magasin de messages ont un niveau d’accès en lecture seule. 
     
 STORE_RESTRICTION_OK 
   
-> (4096, 0x00001000) La boutique de messages prend en charge les restrictions. 
+> (4096, 0x00001000) La magasin de messages prend en charge les restrictions. 
     
 STORE_RTF_OK 
   
-> (2048, 0x00000800) La magasin de messages prend en charge les messages au format RTF (Rich Text Format), généralement compressés, et la boutique elle-même PR_BODY **et** **PR_RTF_COMPRESSED** synchronisées. 
+> (2048, 0x00000800) La magasin de messages prend en charge les messages au format RTF (Rich Text Format), généralement compressés, et la boutique elle-même **PR_BODY et** **PR_RTF_COMPRESSED** synchronisées. 
     
 STORE_SEARCH_OK 
   
@@ -128,7 +128,7 @@ STORE_UNICODE_OK
   
 > (262144, 0x00040000) La banque de messages prend en charge les propriétés contenant des caractères Unicode.
     
-Une version RTF d’un message peut toujours être stockée, même si la boutique de messages n’est pas sensible au RTF. Si le bit STORE_RTF_OK n’est pas définie pour un magasin particulier, un client conservant les versions RTF doit lui-même appeler la fonction [RTFSync](rtfsync.md) pour que les versions **PR_BODY** et **PR_RTF_COMPRESSED** restent synchronisées pour le contenu de texte. RtF est toujours stocké dans PR_RTF_COMPRESSED **,** qu’il soit en réalité compressé ou non. 
+Une version RTF d’un message peut toujours être stockée, même si la boutique de messages n’est pas sensible au RTF. Si le bit STORE_RTF_OK n’est pas définie pour un magasin particulier, un client conservant des versions RTF doit lui-même appeler la fonction [RTFSync](rtfsync.md) pour que les versions **PR_BODY** et **PR_RTF_COMPRESSED** restent synchronisées pour le contenu texte. RtF est toujours stocké dans **PR_RTF_COMPRESSED,** qu’il soit compressé ou non. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

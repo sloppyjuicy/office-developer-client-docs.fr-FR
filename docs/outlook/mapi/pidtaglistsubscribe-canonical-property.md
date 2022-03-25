@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 97387a82-8e40-4c76-818c-2229fac12e01
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c1bc4b7b968bd375e041666725842ec8d4e95519
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la valeur du champ d’en-tête MIME (Multipurpose Internet Mail Extensions) List-Subscribe'en-tête.
+ms.openlocfilehash: 7b82fd5788b6fbe2544d998c6ab5992122eca1a4
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583393"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763928"
 ---
 # <a name="pidtaglistsubscribe-canonical-property"></a>Propriété canonique PidTagListSubscribe
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583393"
   
 Contient la valeur du champ d’en-tête MIME (Multipurpose Internet Mail Extensions) List-Subscribe'en-tête.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_LIST_SUBSCRIBE, PR_LIST_SUBSCRIBE_A, PR_LIST_SUBSCRIBE_W  <br/> |
 |Identificateur :  <br/> |0x1044  <br/> |
@@ -36,7 +36,7 @@ Contient la valeur du champ d’en-tête MIME (Multipurpose Internet Mail Extens
    
 ## <a name="remarks"></a>Remarques
 
-Pour générer un champ List-Subscribe'en-tête, les clients doivent définir la valeur de ces propriétés sur la valeur souhaitée. Les rédacteurs MIME doivent copier la valeur de ces propriétés dans le List-Subscribe d’en-tête.
+Pour générer un champ List-Subscribe'en-tête, les clients doivent définir la valeur de ces propriétés sur la valeur souhaitée. Les rédacteurs MIME doivent copier la valeur de ces propriétés dans le List-Subscribe'en-tête.
   
 Pour définir la valeur de propriétés liées au serveur comme celles-ci, les clients MIME doivent écrire les champs d’en-tête comme indiqué dans le tableau suivant.
   
@@ -50,7 +50,7 @@ Pour définir la valeur de propriétés liées au serveur comme celles-ci, les c
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   

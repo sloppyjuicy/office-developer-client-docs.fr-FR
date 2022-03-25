@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e4071307-6205-4079-ab65-7499d14f145c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ead7acc202025d8a9381fbf1cf3593afbb60c1aa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Représente la dernière fois que le dossier a été accédé, au format du nombre de minutes depuis le 1er janvier 1601 à minuit UTC.
+ms.openlocfilehash: 7cfa052e7354db605e90419a540abac44c8c36f0
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586984"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63742122"
 ---
 # <a name="pidtagsearchfolderlastused-canonical-property"></a>Propriété canonique PidTagSearchFolderLastUsed
 
@@ -27,7 +27,7 @@ ms.locfileid: "59586984"
   
 Représente la dernière fois que le dossier a été accédé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_WB_SF_LAST_USED  <br/> |
 |Identificateur :  <br/> |0x6834  <br/> |
@@ -44,11 +44,11 @@ Cette propriété doit être mise en forme comme le nombre de minutes depuis le 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations de manipulation d’une configuration de liste de dossiers de recherche.
+> Spécifie les propriétés et les opérations de manipulation d’une configuration de liste de dossiers de recherche.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

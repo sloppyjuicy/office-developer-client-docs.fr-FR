@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 413d302b-e973-4cb8-acc9-47da8959881c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 971ba4ca65ec0c45a0881893a799e09cbbb24155
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le nom complet de l’adresse de télécopie du domicile du contact pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 8aed0ac8bf4cc735b174ebb6947aa67db329af53
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600679"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405768"
 ---
 # <a name="pidlidfax2displayname-canonical-property"></a>Propri t canonique PidLidFax2DisplayName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600679"
   
 Spécifie le nom complet de l’adresse de télécopie du domicile du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax2DisplayName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

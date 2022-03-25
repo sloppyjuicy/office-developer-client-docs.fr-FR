@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 604f8859-469f-4745-b4b5-8f69737867a3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f93dc11803a0ab1a4a77f09d723ee329f3978f65
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 71a8e933ec415db88b927c038c247a76f214f371
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591821"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782145"
 ---
 # <a name="pidlidlogdocumentrouted-canonical-property"></a>Propriété canonique PidLidLogDocumentRouted
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591821"
   
 Indique si le document a été envoyé à un destinataire de routage lors de la journalation.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidLogDocRouted  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Log  <br/> |

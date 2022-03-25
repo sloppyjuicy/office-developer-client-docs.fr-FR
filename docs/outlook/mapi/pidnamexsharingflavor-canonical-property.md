@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7757fde1-564b-4f3a-9b9e-f80a143690ea
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 01995bf25695145ca02bd8b893385b0305f238cf
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 18b0eca13fc10ce2ca46fb542bf3a27dbdb8bb7b
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62789073"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724300"
 ---
 # <a name="pidnamexsharingflavor-canonical-property"></a>Propriété canonique PidNameXSharingFlavor
 
@@ -27,9 +27,9 @@ ms.locfileid: "62789073"
   
 Représente la valeur de la **propriété dispidSharingFlavor** ([PidLidSharingFlavor](pidlidsharingflavor-canonical-property.md)).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucune  <br/> |
+|Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nom de la propriété :  <br/> |X-Sharing-Flavor  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |

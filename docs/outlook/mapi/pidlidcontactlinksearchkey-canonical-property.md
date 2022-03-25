@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 82d21d38-a6c6-4e12-85b1-8158b2f5cce7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c455687a44b0f35a237638eb0c951042a1346932
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bb4375c8567313c75394524177e1494b8c2d31c6
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583883"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781200"
 ---
 # <a name="pidlidcontactlinksearchkey-canonical-property"></a>Propriété canonique PidLidContactLinkSearchKey
 
@@ -25,7 +25,7 @@ ms.locfileid: "59583883"
   
 Contient la liste **de SearchKeys pour** le contact lié par cet objet de message. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidContactLinkSearchKey  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -35,9 +35,9 @@ Contient la liste **de SearchKeys pour** le contact lié par cet objet de messag
    
 ## <a name="remarks"></a>Remarques
 
-|**Longueur en octets**|**Description**|**Remarques**|
+|**Longueur en octets**|**Description**|**Notes**|
 |:-----|:-----|:-----|
-|2  <br/> |ContactEntryCount  <br/> |Aucun  <br/> |
+|2  <br/> |ContactEntryCount  <br/> |Aucune  <br/> |
 |variable  <br/> |Données SearchKey  <br/> |Répète les heures ContactEntryCount  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
@@ -50,7 +50,7 @@ Contient la liste **de SearchKeys pour** le contact lié par cet objet de messag
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

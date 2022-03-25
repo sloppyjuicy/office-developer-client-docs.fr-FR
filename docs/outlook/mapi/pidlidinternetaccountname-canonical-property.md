@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 29bedadf-903d-419d-804d-dc8bd92b745d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8ed743e4309caef8376fa86587967ee3d24a3264
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 75e887e043b92964836109aa83d4d50fdcd2b472
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630311"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781760"
 ---
 # <a name="pidlidinternetaccountname-canonical-property"></a>Propriété canonique PidLidInternetAccountName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630311"
   
 Spécifie le nom du compte de messagerie visible par l’utilisateur par le biais duquel le message électronique est envoyé.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidInetAcctName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

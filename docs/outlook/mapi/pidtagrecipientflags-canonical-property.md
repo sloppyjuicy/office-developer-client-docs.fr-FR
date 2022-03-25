@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9fbe537f-b5fe-48a2-803c-653c50c82efd
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f69b62d57883e84d97cf1e29b45c679a97eee582
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Spécifie un champ de bits qui décrit l’état du destinataire. Cette propriété n’est pas obligatoire.
+ms.openlocfilehash: 02272de12404309af1dfa353cfbf8fa33449fa77
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62779741"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405957"
 ---
 # <a name="pidtagrecipientflags-canonical-property"></a>Propriété canonique PidTagRecipientFlags
 
@@ -27,7 +27,7 @@ ms.locfileid: "62779741"
   
 Spécifie un champ de bits qui décrit l’état du destinataire.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECIPIENT_FLAGS  <br/> |
 |Identificateur :  <br/> |0x5FFD  <br/> |
@@ -55,7 +55,7 @@ Cette propriété n’est pas obligatoire. Voici les indicateurs individuels qui
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

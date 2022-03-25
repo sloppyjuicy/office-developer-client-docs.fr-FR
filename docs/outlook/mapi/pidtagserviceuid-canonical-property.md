@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9d99a3b6-d0b4-4e8a-8f08-f46fdeb6b3e7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 87cd61590895231b57e3eb835f2898901ebea0a3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la structure d’un service de message. Cette propriété est calculée par MAPI sur les objets de section de profil. MAPI l’utilise pour grouper des fournisseurs.
+ms.openlocfilehash: 0964f93dcc5caed278c385dcc3644fea428b36b9
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550427"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405082"
 ---
 # <a name="pidtagserviceuid-canonical-property"></a>Propriété canonique PidTagServiceUid
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550427"
   
 Contient la structure [MAPIUID](mapiuid.md) pour un service de message. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SERVICE_UID  <br/> |
 |Identificateur :  <br/> |0x3D0C  <br/> |
@@ -36,7 +36,7 @@ Contient la structure [MAPIUID](mapiuid.md) pour un service de message.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est calculée par MAPI sur les objets de section de profil. MAPI l’utilise pour grouper tous les fournisseurs qui appartiennent au même service de messagerie. Cette propriété est fournie en tant que paramètre pour la plupart des méthodes [IMsgServiceAdmin.](imsgserviceadminiunknown.md) Elle ne doit pas apparaître dans Mapisvc.inf. 
+Cette propriété est calculée par MAPI sur les objets de section de profil. MAPI l’utilise pour grouper tous les fournisseurs qui appartiennent au même service de messagerie. Cette propriété est fournie en tant que paramètre pour la plupart des méthodes [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Elle ne doit pas apparaître dans Mapisvc.inf. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

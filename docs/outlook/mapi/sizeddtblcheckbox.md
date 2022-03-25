@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9d04a124-54d4-43ac-967f-ea8e7a09b1d0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9282562032279ab11a36d0ed1687ccd1d1ae8365
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Crée une structure nommée qui inclut une structure DTBLCHECKBOX pour décrire un contrôle case à cocher et une étiquette d’une longueur spécifiée.
+ms.openlocfilehash: 14b2de2030a1f23765bab157932543d249a88824
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586725"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405278"
 ---
 # <a name="sizeddtblcheckbox"></a>SizedDtblCheckBox
  
@@ -25,7 +25,7 @@ ms.locfileid: "59586725"
   
 Crée une structure nommée qui inclut une structure [DTBLCHECKBOX](dtblcheckbox.md) pour décrire un contrôle case à cocher et une étiquette d’une longueur spécifiée. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**DTBLCHECKBOX** <br/> |
@@ -53,7 +53,7 @@ DTBLCHECKBOX dtblcheckbox;
 TCHAR lpszLabel[n];
 ```
 
-Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblCheckBox** en tant que pointeur de structure **DTBLCHECKBOX,** effectuez la distribution suivante : 
+Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblCheckBox** en tant que pointeur de structure **DTBLCHECKBOX** , effectuez la distribution suivante : 
   
 ```cpp
 lpDtblCheckBox = (LPDTBLCHECKBOX) &SizedDtblCheckBox;

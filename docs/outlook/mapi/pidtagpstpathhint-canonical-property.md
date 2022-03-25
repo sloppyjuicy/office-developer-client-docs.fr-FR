@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9cb4af50-3735-4029-a608-a6e7927019dd
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e2407a9efdf43a7a83418e1ab77e1054ac3b954b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Fournit le nom de la table de stockage personnel (fichier .pst), que l’utilisateur peut modifier, pour la boîte de dialogue de configuration.
+ms.openlocfilehash: d69d10d1b643a26454c83b634796d620ea2fab28
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574796"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405649"
 ---
 # <a name="pidtagpstpathhint-canonical-property"></a>Propriété canonique PidTagPstPathHint
 
@@ -25,7 +25,7 @@ ms.locfileid: "59574796"
   
 Fournit le nom de la table de stockage personnel (fichier .pst), que l’utilisateur peut modifier, pour la boîte de dialogue de configuration. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PST_PATH_HINT, PR_PST_PATH_HINT_A, PR_PST_PATH_HINT_W  <br/> |
 |Identificateur :  <br/> |0x6771  <br/> |
@@ -42,7 +42,7 @@ Si la **propriété PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-prope
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a84d8143-5fe7-4a33-bce4-aebf7a824d5f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b45b318925486c4aca9ee57315f00e4cd9ba508c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie une liste de valeurs possibles pour la propriété dispidFileUnderId. Chaque valeur de la propriété à valeurs multiples doit être l’une des valeurs autorisées pour dispidFileUnderId.
+ms.openlocfilehash: ae62d8fbe713475a747a46b56ae113606a27ae2c
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583799"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764481"
 ---
 # <a name="pidlidfileunderlist-canonical-property"></a>Propriété canonique PidLidFileUnderList
 
@@ -25,9 +25,9 @@ ms.locfileid: "59583799"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie une liste de valeurs possibles pour la **propriété dispidFileUnderId** ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)).
+Spécifie une liste de valeurs possibles pour la propriété **dispidFileUnderId** ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFileUnderList  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

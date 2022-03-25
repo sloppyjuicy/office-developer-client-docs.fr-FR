@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 912d7799-53ce-42a7-9fbd-f9a6a3a56047
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bcda2b9445fca40ba2f67e25b3d6ae7a949ceb52
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e00aadf043a7b2153836c449df484643ba2b118c
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571380"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63780913"
 ---
 # <a name="opentnefstream"></a>OpenTnefStream
 
@@ -25,7 +25,7 @@ ms.locfileid: "59571380"
   
 Appelé par un fournisseur de transport pour lancer une session TNEF (Transport Neutral Encapsulation Format) MAPI. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Tnef.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -55,7 +55,7 @@ _lpStream_
     
 _lpszStreamName_
   
-> [in] Pointeur vers le nom du flux de données utilisé par l’objet TNEF. Si l’appelant a définie l’indicateur TNEF_ENCODE (paramètre _ulFlags)_ dans son appel à **OpenTnefStream,** le paramètre  _lpszName_ doit spécifier un pointeur non null vers une chaîne non null constituée de tous les caractères considérés comme valides pour nommer un fichier. MAPI n’autorise pas les noms de chaînes, y compris les caractères « [ », « ] » ou « : », même si le système de fichiers autorise leur utilisation. La taille de la chaîne transmise pour  _lpszName_ ne doit pas dépasser la valeur de MAX_PATH, la longueur maximale d’une chaîne qui contient un nom de chemin d’accès. 
+> [in] Pointeur vers le nom du flux de données utilisé par l’objet TNEF. Si l’appelant a définie l’indicateur TNEF_ENCODE (paramètre _ulFlags_ ) dans son appel à **OpenTnefStream**, le paramètre  _lpszName_ doit spécifier un pointeur non null vers une chaîne non null constituée de tous les caractères considérés comme valides pour nommer un fichier. MAPI n’autorise pas les noms de chaînes, y compris les caractères « [ », « ] » ou « : », même si le système de fichiers autorise leur utilisation. La taille de la chaîne transmise pour  _lpszName_ ne doit pas dépasser la valeur de MAX_PATH, la longueur maximale d’une chaîne qui contient un nom de chemin d’accès. 
     
 _ulFlags_
   
@@ -67,14 +67,14 @@ TNEF_BEST_DATA
     
 TNEF_COMPATIBILITY 
   
-> Fournit une compatibilité ascendante avec les anciennes applications clientes. Les flux TNEF codés avec cet indicateur maient toutes les propriétés possibles dans leur attribut de bas niveau correspondant. Ce mode entraîne également la mise en valeur par défaut de certaines propriétés qui sont requises par les clients de bas niveau. 
+> Fournit une compatibilité ascendante avec les anciennes applications clientes. Les flux TNEF codés avec cet indicateur map fourniront toutes les propriétés possibles dans leur attribut de bas niveau correspondant. Ce mode entraîne également la valeur par défaut de certaines propriétés qui sont requises par les clients de bas niveau. 
     
   > [!CAUTION]
   > Cet indicateur est obsolète et ne doit pas être utilisé. 
   
 TNEF_DECODE 
   
-> L’objet TNEF sur le flux indiqué est ouvert avec un accès en lecture seule. Le fournisseur de transport doit définir cet indicateur s’il souhaite que la fonction initialise l’objet pour un décodage ultérieur.
+> L’objet TNEF sur le flux indiqué est ouvert avec un accès en lecture seule. Le fournisseur de transport doit définir cet indicateur s’il souhaite que la fonction initialise l’objet pour le décodage suivant.
     
 TNEF_ENCODE 
   
@@ -108,7 +108,7 @@ Un objet TNEF créé par la fonction **OpenTnefStream** appelle ultérieurement 
   
 **OpenTnefStream** alloue et initialise une interface **ITnef** d’objet TNEF pour le fournisseur à utiliser dans le codage d’une interface **IMessage** de message MAPI dans un message de flux TNEF. Sinon, la fonction peut configurer l’objet que le fournisseur utilisera dans les appels ultérieurs à [ITnef::ExtractProps](itnef-extractprops.md) pour décoder un message de flux TNEF dans un message MAPI. Pour libérer l’objet TNEF et fermer la session, le fournisseur de transport doit appeler la méthode **IUnknown::Release** héritée sur l’objet. 
   
-Cette fonction est le point d’entrée d’origine pour l’accès TNEF et a été remplacée par [OpenTnefStreamEx,](opentnefstreamex.md) mais elle est toujours utilisée pour la compatibilité pour les utilisateurs qui utilisent déjà le TNEF. 
+Cette fonction est le point d’entrée d’origine pour l’accès TNEF et a été remplacée par [OpenTnefStreamEx](opentnefstreamex.md) , mais elle est toujours utilisée pour la compatibilité pour les utilisateurs qui utilisent déjà le TNEF. 
   
 ## <a name="see-also"></a>Voir aussi
 

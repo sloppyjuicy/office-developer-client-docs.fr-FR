@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8668ba4f-3236-4a87-a5aa-9cf7eea3d87b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 781821b26f5b6d73e9b9678a0f305ba2e45c77e4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’objet d’un message d’origine à utiliser dans un rapport sur le message.
+ms.openlocfilehash: fcae835d1786ca72fb1eb11c352eac03b7783d95
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599746"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405215"
 ---
 # <a name="pidtagoriginalsubject-canonical-property"></a>Propriété canonique PidTagOriginalSubject
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599746"
   
 Contient l’objet d’un message d’origine à utiliser dans un rapport sur le message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_SUBJECT, PR_ORIGINAL_SUBJECT_A, PR_ORIGINAL_SUBJECT_W  <br/> |
 |Identificateur :  <br/> |0x0049  <br/> |
@@ -38,7 +38,7 @@ Contient l’objet d’un message d’origine à utiliser dans un rapport sur le
 
 Ces propriétés sont initialement définies sur la même valeur que la **propriété PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
   
-Les propriétés de l’objet sont généralement de petites chaînes de moins de 256 caractères, et un fournisseur de magasins de messages n’est pas obligé de prendre en charge l’interface **IStream** OLE (Object Linking and Embedding) sur ces derniers. Le client doit toujours essayer d’accéder en premier via l’interface **IMAPIProp** et recourir à **IStream** uniquement si MAPI_E_NOT_ENOUGH_MEMORY **est** renvoyé. 
+Les propriétés de l’objet sont généralement de petites chaînes de moins de 256 caractères, et un fournisseur de magasins de messages n’est pas obligé de prendre en charge l’interface **IStream** OLE (Object Linking and Embedding) sur ces derniers. Le client doit toujours essayer d’accéder en premier via l’interface **IMAPIProp** et recourir à **IStream** uniquement si **MAPI_E_NOT_ENOUGH_MEMORY est renvoyé** . 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Les propriétés de l’objet sont généralement de petites chaînes de moins d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

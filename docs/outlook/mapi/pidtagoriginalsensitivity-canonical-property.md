@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70a87cf8-2011-4669-90fd-2711c3352e30
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 187bdd2a3255b740cf32487d3d59a7ddaa5cec6e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la valeur de sensibilité attribuée par l’expéditeur de la première version d’un message, c’est-à-dire, le message avant d’être transmis ou de répondre.
+ms.openlocfilehash: 69f2b1a48eca64f87920a62f67b3f3e2a86127ee
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624761"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405946"
 ---
 # <a name="pidtagoriginalsensitivity-canonical-property"></a>Propriété canonique PidTagOriginalSensitivity
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624761"
   
 Contient la valeur de sensibilité attribuée par l’expéditeur de la première version d’un message, c’est-à-dire, le message avant d’être transmis ou de répondre.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_SENSITIVITY  <br/> |
 |Identificateur :  <br/> |0x002E  <br/> |
@@ -38,7 +38,7 @@ Contient la valeur de sensibilité attribuée par l’expéditeur de la premièr
 
 Une application cliente doit définir cette propriété sur la même valeur que la propriété **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) lorsque le message est envoyé pour la première fois. Elle ne doit jamais être modifiée par la suite.
   
-Cette propriété est utilisée par le fournisseur de transport pour protéger la sensibilité sur les entrées copiées. Elle permet, par exemple, de bloquer la modification du texte du message d’origine dans un avant ou d’une réponse à un message qui a été initialement marqué **comme SENSITIVITY_PRIVATE**.
+Cette propriété est utilisée par le fournisseur de transport pour protéger la sensibilité sur les entrées copiées. Il permet, par exemple, de bloquer la modification du texte du message d’origine dans un avant ou une réponse à un message qui a été marqué à l’origine **SENSITIVITY_PRIVATE**.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Cette propriété est utilisée par le fournisseur de transport pour protéger l
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

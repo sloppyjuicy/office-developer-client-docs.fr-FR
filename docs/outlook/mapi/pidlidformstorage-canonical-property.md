@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4f6847f3-157d-4ff0-abab-90d73a893ecf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 028210ba441597023020b95c67e77768aa8f9eba
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 73f23cfc6b7c4541e9e710b0f6e8faf17da2c803
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583806"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783062"
 ---
 # <a name="pidlidformstorage-canonical-property"></a>Propriété canonique PidLidFormStorage
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583806"
   
 Représente les propriétés du formulaire associé au message.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFormStorage  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

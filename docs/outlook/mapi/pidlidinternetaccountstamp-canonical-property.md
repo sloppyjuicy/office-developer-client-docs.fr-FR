@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 819179fe-e58e-415c-abc7-1949036745ee
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3576ccf750fa1124f24527dd1f09ea0094c2dda6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie l’ID de compte de messagerie via lequel le message électronique est envoyé. Cette propriété peut être utilisée par le client pour déterminer le serveur vers lequel diriger le courrier.
+ms.openlocfilehash: eaf741410500c0cb02bd25d18d9eca72e44599ef
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555740"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405544"
 ---
 # <a name="pidlidinternetaccountstamp-canonical-property"></a>Propriété canonique PidLidInternetAccountStamp
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555740"
   
 Spécifie l’ID de compte de messagerie via lequel le message électronique est envoyé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidInetAcctStamp  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

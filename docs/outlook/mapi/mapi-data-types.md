@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: 3d314d4e-553b-4767-a64a-b9cf1839de52
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 54fba33f229f3b68bd40aea85c695ec624e36644
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cab477d54a8364ca8b59ab1bde1e08ee6dea1137
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567264"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781102"
 ---
 # <a name="mapi-data-types"></a>Types de données MAPI
 
@@ -25,7 +25,7 @@ ms.locfileid: "59567264"
   
 Les entrées alphabétisées suivantes contiennent de la documentation pour les types de données utilisés dans les méthodes, fonctions et structures MAPI. 
   
-||
+|Types de données|
 |:-----|
 |[SIGNET](bookmark.md) <br/> |
 |[DNHIER](dnhier.md) <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 47e6c576-bd99-4410-8e41-7dd3159b23b7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 021336f54d6ca7b00ee6ccb434edc91067075a15
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5375b891684f3ed600449239267d261034946f71
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596462"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726302"
 ---
 # <a name="fbinfromhex"></a>FBinFromHex
 
@@ -27,7 +27,7 @@ ms.locfileid: "59596462"
   
 Convertit une représentation sous forme de chaîne d’un nombre hexadécimal en données binaires. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

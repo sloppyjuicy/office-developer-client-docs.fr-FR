@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 58f6432e-6e88-420b-959f-7f365899f7eb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7ece764ca503f0d850510c93aecf05704d2f4bed
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bd12427c5f5990ef9a5944a90bcae4f122cdc3ff
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620386"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63719213"
 ---
 # <a name="pidlidremindersignaltime-canonical-property"></a>Propriété canonique PidLidReminderSignalTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620386"
   
 Spécifie le moment où un rappel passe de l’attente à l’attente.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidReminderNextTime  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

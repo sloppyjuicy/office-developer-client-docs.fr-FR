@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 60b7a411-a884-4836-8aca-a205bd503fef
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 902d031aebc7586c86f00ed67427be05a237679e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e4d35fce87424656ab4b3f12541bd4e41371de24
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575238"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722772"
 ---
 # <a name="pidlidautolog-canonical-property"></a>Propriété canonique PidLidAutoLog
 
@@ -27,7 +27,7 @@ ms.locfileid: "59575238"
   
 Spécifie s’il faut créer un journal pour chaque action associée à ce contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidAutoLog  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

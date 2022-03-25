@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac7ae09f-ce19-45cf-8963-fad5bba75452
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2218b3d0140c99e1a8028c060b9883b1aec25709
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Fournit des méthodes utilitaires pour travailler avec des tableaux. MAPI fournit des objets qui implémentent ITableData pour aider les fournisseurs de services à effectuer la maintenance de table.
+ms.openlocfilehash: 4d4a2aa282d2564d2548daf17b7713d2cf82e5a5
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783942"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764712"
 ---
 # <a name="itabledata--iunknown"></a>ITableData : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62783942"
   
 Fournit des méthodes utilitaires pour travailler avec des tableaux. MAPI fournit des objets de données de table ou des objets qui implémentent **ITableData** pour aider les fournisseurs de services à effectuer la maintenance de table. Pour obtenir un objet de données de table, les fournisseurs de services appellent [la fonction CreateTable](createtable.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Exposé par :  <br/> |Objets de données de tableau  <br/> |
@@ -38,7 +38,7 @@ Fournit des méthodes utilitaires pour travailler avec des tableaux. MAPI fourni
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[HrGetView](itabledata-hrgetview.md) <br/> |Crée une vue de tableau, renvoyant un pointeur vers une [implémentation IMAPITable](imapitableiunknown.md) . |
 |[HrModifyRow](itabledata-hrmodifyrow.md) <br/> |Insère une nouvelle ligne de tableau, éventuellement en remplaçant une ligne existante. |

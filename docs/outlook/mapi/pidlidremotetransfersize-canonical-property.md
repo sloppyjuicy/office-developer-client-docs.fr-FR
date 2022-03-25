@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 853e8d91-b599-45bb-8ac7-f7a85e8a8419
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0464943061e01978cfe2ba6ad49058b09e9912e6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique la taille de transfert, en octets, d’un élément distant pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 5972be5ce60c525df8ad3be9d8b596562c86ba85
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555613"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406413"
 ---
 # <a name="pidlidremotetransfersize-canonical-property"></a>Propriété canonique PidLidRemoteTransferSize
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555613"
   
 Indique la taille de transfert, en octets, d’un élément distant.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRemoteXferSize  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Remote  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e675bfdd-7598-45f3-a5aa-23b4734670dc
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: de3f6f60ab781011124cb4118e265f1a8d747dd0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une structure RecurrencePattern qui fournit des informations sur les tâches périodiques Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 956ec8ae7e4199a87afeb10cbf866bbd902ea55c
+ms.sourcegitcommit: c68b7b7f98b3ff9e6de37ee5877adcad2e5e71d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583652"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63741726"
 ---
 # <a name="pidlidtaskrecurrence-canonical-property"></a>Propriété canonique PidLidTaskRecurrence
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583652"
   
 Contient une structure RecurrencePattern qui fournit des informations sur les tâches périodiques.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskRecur  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
@@ -37,7 +37,7 @@ Contient une structure RecurrencePattern qui fournit des informations sur les t�
    
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur la création et la spécification d’une structure RecurrencePattern, voir Créer un élément de tâche [récurrente simple.](how-to-create-a-simple-recurrent-task-item.md)
+Pour plus d’informations sur la création et la spécification d’une structure RecurrencePattern, voir [Create a Simple Recurrence Task Item](how-to-create-a-simple-recurrent-task-item.md).
   
 ## <a name="related-resources"></a>Ressources connexes
 

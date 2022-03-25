@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb5936a2-6f78-428e-8900-dc7f2f1d67b0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a335d6252274e903149b1f6bcc2649593c27ae12
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la valeur TRUE si l’élément n’est pas automatiquement archivé pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 6d14faabca47422990db7a25503a3b1b922bd303
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625111"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405922"
 ---
 # <a name="pidlidagingdontageme-canonical-property"></a>Propriété canonique PidLidAgingDontAgeMe
 
@@ -27,7 +27,7 @@ ms.locfileid: "59625111"
   
 Spécifie la valeur TRUE si l’élément n’est pas automatiquement archivé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidAgingDontAgeMe  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -53,7 +53,7 @@ Spécifie la valeur TRUE si l’élément n’est pas automatiquement archivé.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

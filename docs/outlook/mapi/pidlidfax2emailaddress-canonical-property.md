@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 119c00cf-b7df-4354-aef8-575429e5ab3c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 61b50412437fe69b0d703760ed7601ee2c635f86
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 25e7f1b161425a72afd4ec0e3ebb7c1c05dd31c3
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566954"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781942"
 ---
 # <a name="pidlidfax2emailaddress-canonical-property"></a>Propriété canonique PidLidFax2EmailAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566954"
   
 Spécifie l’adresse e-mail de l’adresse de télécopie du domicile du contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax2EmailAddress  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b08fadcf-cdf3-48b7-9489-d7f745266482
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d51e6251a52e79d8a459256e14cd949cf310c739
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: Récupère toutes les lignes d’un tableau. Une application cliente ou un fournisseur de services n’a aucun contrôle sur le nombre de lignes qu’il tente de récupérer.
+ms.openlocfilehash: 22fc2af302b134ea9167909818c263d08ae9c795
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62464052"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764551"
 ---
 # <a name="hrqueryallrows"></a>HrQueryAllRows
 
@@ -27,7 +27,7 @@ ms.locfileid: "62464052"
   
 Récupère toutes les lignes d’un tableau. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -86,6 +86,6 @@ Une application cliente ou un fournisseur de services n’a aucun contrôle sur 
   
 Les tables généralement de petite taille, telles qu’une table de magasins de messages ou une table de fournisseurs, peuvent généralement être récupérées en toute sécurité avec **HrQueryAllRows**. Les tables à risque d’être très grandes, telles qu’une table des matières ou même une table des destinataires, doivent être parcourues dans des sous-sections à l’aide de la méthode [IMAPITable::QueryRows](imapitable-queryrows.md) . 
   
-Si des propriétés de table ne sont pas définies lors de l’appel de **HrQueryAllRows** , elles sont renvoyées avec le type de propriété PT_NULL et l’identificateur de propriété PROP_ID_NULL 
+Si des propriétés de table ne sont pas définies lors de l’appel de **HrQueryAllRows** , elles sont renvoyées avec le type de propriété PT_NULL et l’identificateur de PROP_ID_NULL 
   
 

@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8636774b-1fff-4b29-bc12-4d0bd63fcba2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b3badd32eb0cf99e512754635b55fc40d08192b8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie si l’ajout de destinataires supplémentaires, lors du forwarding du message, est interdit pour le message électronique.
+ms.openlocfilehash: c1763b00c88675cd1f9c89e8dd6500075e3dc2af
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624656"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783272"
 ---
 # <a name="pidtagrecipientreassignmentprohibited-canonical-property"></a>Propriété canonique PidTagRecipientReassignmentProhibited
 
@@ -25,7 +25,7 @@ ms.locfileid: "59624656"
   
 Spécifie si l’ajout de destinataires supplémentaires, lors du forwarding du message, est interdit pour le message électronique.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECIPIENT_REASSIGNMENT_PROHIBITED  <br/> |
 |Identificateur :  <br/> |0x002B  <br/> |
@@ -34,7 +34,7 @@ Spécifie si l’ajout de destinataires supplémentaires, lors du forwarding du 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est définie en fonction  de la valeur PR_SENSITIVITY[(PidTagSensitivity)](pidtagsensitivity-canonical-property.md)du message électronique. Si **PR_SENSITIVITY** est définie sur « 0x00000000 » (normal) ou « 0x00000003 » (confidentiel), cette propriété doit être définie sur « 0x00 » ou ne signifie pas que l’ajout de destinataires supplémentaires ou différents au message électronique est autorisé. Si **l’PR_SENSITIVITY** de l’objet de messagerie est définie sur « 0x00000001 » (personnel) ou « 0x00000002 » (privé), cette propriété doit être définie sur « 0x01 » pour empêcher l’ajout de destinataires supplémentaires ou différents de ce message électronique par le biais du forwarding. 
+Cette propriété est définie en fonction de la valeur **PR_SENSITIVITY (**[PidTagSensitivity](pidtagsensitivity-canonical-property.md)) du message électronique. Si **PR_SENSITIVITY** est définie sur « 0x00000000 » (normal) ou « 0x00000003 » (confidentiel), cette propriété doit être définie sur « 0x00 » ou ne signifie pas que l’ajout de destinataires supplémentaires ou différents au message électronique est autorisé. Si **l’PR_SENSITIVITY** de l’objet de messagerie est définie sur « 0x00000001 » (personnel) ou « 0x00000002 » (privé), cette propriété doit être définie sur « 0x01 » pour empêcher l’ajout de destinataires supplémentaires ou différents de ce message électronique par le biais du forwarding. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -42,7 +42,7 @@ Cette propriété est définie en fonction  de la valeur PR_SENSITIVITY[(PidTagS
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

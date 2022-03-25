@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3429fc9f-25fe-4a73-9a95-469a92645e39
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6d79c2f92994a8b524babbb0a6851757f3af03a9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e4732c6a6c3bf753b9309939163fc268d77eba75
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604718"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781508"
 ---
 # <a name="pidlidemail1displayname-canonical-property"></a>Propriété canonique PidLidEmail1DisplayName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604718"
   
 Spécifie le nom complet lisible par l’utilisateur pour la première adresse de messagerie.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidEmail1DisplayName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

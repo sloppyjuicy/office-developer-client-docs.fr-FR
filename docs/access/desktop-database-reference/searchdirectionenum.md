@@ -7,12 +7,12 @@ ms:contentKeyID: 48547943
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7ddb9777ebf1aae914d17e24aa1176513790072b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7c0ce48cc245cd54eb088d0b5fcf3138f52a891e
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557777"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725321"
 ---
 # <a name="searchdirectionenum"></a>SearchDirectionEnum
 
@@ -23,9 +23,9 @@ Spécifie le sens d’une recherche d’enregistrement dans un [Recordset](recor
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,11 +55,11 @@ Module : **com.ms.wfc.data**
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

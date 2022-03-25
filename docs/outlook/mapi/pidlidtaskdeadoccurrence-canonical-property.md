@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e78287ff-f8cc-45ea-8da8-e7a7359e651c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8bbcf259518de950e945b049cddfaf3a48206841
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique si de nouvelles occurrences doivent être générées. Lorsque l’instance finale d’un modèle se trouve dans le passé ou après un certain nombre d’instances, elle n’est plus en vigueur.
+ms.openlocfilehash: 72056c0d93ea59bf69fa6914a06a7f79392e7acc
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604480"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782698"
 ---
 # <a name="pidlidtaskdeadoccurrence-canonical-property"></a>Propriété canonique PidLidTaskDeadOccurrence
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604480"
   
 Indique si de nouvelles occurrences doivent être générées.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskDeadOccur  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

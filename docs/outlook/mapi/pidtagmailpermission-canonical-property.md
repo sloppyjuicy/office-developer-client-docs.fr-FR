@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f8270ef2-56d4-4b47-bdda-a39c966bbcba
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b53a39736df63d77d7582f88b12cb41ef104ff06
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si l’utilisateur de messagerie est autorisé à envoyer et recevoir des messages. Utilisez FALSE dans un annuaire d’entreprise où certaines entrées ne sont pas activées pour la messagerie.
+ms.openlocfilehash: 3e022b036594a4ce4902a12f8e0ffc0b804891da
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587565"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405285"
 ---
 # <a name="pidtagmailpermission-canonical-property"></a>Propriété canonique PidTagMailPermission
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587565"
   
 Contient TRUE si l’utilisateur de messagerie est autorisé à envoyer et recevoir des messages. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MAIL_PERMISSION  <br/> |
 |Identificateur :  <br/> |0x3A0E  <br/> |
@@ -38,7 +38,7 @@ Contient TRUE si l’utilisateur de messagerie est autorisé à envoyer et recev
 
 Si cette propriété n’est pas définie, MAPI la traite comme ayant une valeur TRUE. 
   
-Définissez cette propriété sur FALSE dans un annuaire d’entreprise où certaines entrées ne sont pas à messagerie. 
+Définissez cette propriété sur FALSE dans un annuaire d’entreprise où certaines entrées ne sont pas activées pour la messagerie. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

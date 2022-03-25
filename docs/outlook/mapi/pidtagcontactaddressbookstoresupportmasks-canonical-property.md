@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 68f5aac1-714c-48fc-a0cf-a0c0401a6070
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c52a08479e223ef15194bc4fc1a53ddc746f89c7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient des indicateurs indiquant les fonctionnalités du magasin pris en charge. Cette propriété est obtenue à partir des magasins qui contiennent les dossiers Contacts.
+ms.openlocfilehash: a76e18d24064e38705b20075ca263668b2be7a2e
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575049"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764131"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmasks-canonical-property"></a>Propriété canonique PidTagContactAddressBookStoreSupportMasks
 
@@ -27,7 +27,7 @@ ms.locfileid: "59575049"
   
 Contient des indicateurs indiquant les fonctionnalités du magasin pris en charge.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_STORE_SUPPORT_MASKS  <br/> |
 |Identificateur :  <br/> |0x6621  <br/> |

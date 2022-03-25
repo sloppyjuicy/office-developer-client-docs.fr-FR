@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: fd86c8a5-f251-46c3-ace9-515e94e504ac
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9fd1b8de13a4a92e8215de3f120cdee4c6baf4b1
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Permet au sous-système MAPI d’informer un fournisseur MAPI de l’arrêt rapide d’un client MAPI, afin que le fournisseur MAPI puisse répondre à l’arrêt.
+ms.openlocfilehash: 2c37d1289a2239ab9aaab2f13582b444a7514bdb
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784082"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764334"
 ---
 # <a name="imapiprovidershutdown--iunknown"></a>IMAPIProviderShutdown : IUnknown
 
@@ -27,7 +27,7 @@ ms.locfileid: "62784082"
   
 Permet au sous-système MAPI d’informer un fournisseur MAPI de l’arrêt rapide d’un client MAPI, afin que le fournisseur MAPI puisse répondre à l’arrêt.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Objets fournisseur : [IXPProvider](ixpprovideriunknown.md), [IABProvider](iabprovideriunknown.md) ou [IMSProvider](imsprovideriunknown.md) <br/> |
@@ -38,7 +38,7 @@ Permet au sous-système MAPI d’informer un fournisseur MAPI de l’arrêt rapi
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |[QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) <br/> |Interroge le fournisseur MAPI pour obtenir une prise en charge de l’arrêt rapide. |
 |[NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md) <br/> |Indique au fournisseur MAPI qu’un client MAPI va faire un arrêt rapide, afin que le fournisseur puisse prendre des mesures pour empêcher la perte de données. |
@@ -52,7 +52,7 @@ Un fournisseur MAPI qui doit prendre en charge l’arrêt rapide du client doit 
   
 Les fournisseurs MAPI qui n’ont pas besoin de prendre en charge l’arrêt rapide du client doivent toujours implémenter l’interface **IMAPIProviderShutdown** et faire en retour la méthode **IMAPIProviderShutdown::QueryFastShutdown** MAPI_E_NO_SUPPORT. Pour Outlook client MAPI, cela entraîne Outlook attendre que toutes les références externes soient libérées avant de se quitter. 
   
-Selon le paramètre de Registre Windows de l’utilisateur pour un arrêt rapide, le fait de ne pas implémenter l’interface **IMAPIProviderShutdown** n’empêche pas nécessairement un arrêt rapide du client. 
+Selon le paramètre de Registre Windows de l’utilisateur pour l’arrêt rapide, le fait de ne pas implémenter l’interface **IMAPIProviderShutdown** n’empêche pas nécessairement un arrêt rapide du client. 
   
 Pour plus d’informations sur le processus d’arrêt rapide, voir [Vue d’ensemble de l’arrêt rapide](fast-shutdown-overview.md). Pour plus d’informations sur la réalisation d’un arrêt rapide, voir [Best Practices for Fast Shutdown](best-practices-for-fast-shutdown.md).
   

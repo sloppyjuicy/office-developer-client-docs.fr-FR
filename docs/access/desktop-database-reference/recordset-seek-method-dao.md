@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 15bbc8ca7a214ba4f178ca792a73648178fd4ee8
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 8e48c5633fc0115db316ad3e09f30c13227a6072
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374795"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726125"
 ---
 # <a name="recordsetseek-method-dao"></a>Méthode Recordset.Seek (DAO)
 
@@ -34,10 +34,10 @@ Localise l’enregistrement dans un objet **Recordset** de type table indexé qu
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

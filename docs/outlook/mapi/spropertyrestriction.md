@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2bbf13e9-05b3-4498-8e08-d9e07505190d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f56bd259a9933fa67f37dea09f1196ef8d0c8989
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Décrit une restriction de propriété utilisée pour faire correspondre une constante à la valeur d’une propriété.
+ms.openlocfilehash: d10374138119fb39ae91afe7978327f12bffca7c
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63379583"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406100"
 ---
 # <a name="spropertyrestriction"></a>SPropertyRestriction
 
@@ -25,7 +25,7 @@ ms.locfileid: "63379583"
   
 Décrit une restriction de propriété utilisée pour faire correspondre une constante à la valeur d’une propriété.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 

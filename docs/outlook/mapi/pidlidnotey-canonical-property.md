@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ad6a7dc2-506e-4e22-b2a6-9dd6d0a5dd9f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1f0e65910afcbaacb39c3e4d84ee7ebf345f1daa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6d84b93fe4de65db5658c75bb4b0a66f4bb19c02
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555719"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782593"
 ---
 # <a name="pidlidnotey-canonical-property"></a>Propriété canonique PidLidNoteY
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555719"
   
 Spécifie la distance, en pixels, entre le bord supérieur de l’écran où une interface utilisateur affiche une note.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidNoteY  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Note  <br/> |

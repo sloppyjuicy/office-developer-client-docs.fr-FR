@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: cee1a940-fe01-d364-5d7c-c9e9dfeb8979
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 89b9f53c6677b61c9e61ae6cb77fe6451e786e85
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: edd2b6610ddc0aa83b59608f077966b3639ed3dd
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610782"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63720257"
 ---
 # <a name="hropenofflineobj"></a>HrOpenOfflineObj
 
@@ -29,7 +29,7 @@ Ouvre un objet hors connexion basé sur un profil donné.
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Exporté par :  <br/> |msmapi32.dll  <br/> |
 |Appelé par :  <br/> |Client  <br/> |
@@ -79,11 +79,11 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Remarques
 
-Il s’agit du premier appel qu’un client effectue lorsque celui-ci souhaite être averti des changements d’état de connexion pour un profil donné. Lors de **l’appel de HrOpenOfflineObj,** le client obtient un objet hors connexion qui prend en charge **IMAPIOfflineMgr**. Le client peut vérifier les types de rappels pris en charge par l’objet (à l’aide de [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)), puis configurer les rappels pour celui-ci (à l’aide de [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).
+Il s’agit du premier appel qu’un client effectue lorsqu’il souhaite être averti des changements d’état de connexion pour un profil donné. Lors de **l’appel de HrOpenOfflineObj**, le client obtient un objet hors connexion qui prend en charge **IMAPIOfflineMgr**. Le client peut vérifier les types de rappels pris en charge par l’objet (à l’aide de [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)), puis configurer les rappels pour celui-ci (à l’aide [d’IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).
   
 Lorsque vous [utilisez GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx) pour rechercher l’adresse de cette fonction dans msmapi32.dll, spécifiez **HrOpenOfflineObj@20** comme nom de procédure. 
   
- **HrOpenOfflineObj** fonctionne uniquement pour les clients qui sont des fournisseurs MAPI, des compl?ments COM et des extensions client Exchange en cours d’exécution dans le processus de Outlook. Dans le **cas contraire, HrOpenOfflineObj** renvoie **MAPI_E_NOT_FOUND**. 
+ **HrOpenOfflineObj** fonctionne uniquement pour les clients qui sont des fournisseurs MAPI, des compl?ments COM et des extensions client Exchange en cours d’exécution dans le processus Outlook. Dans le cas **contraire, HrOpenOfflineObj** renvoie **MAPI_E_NOT_FOUND**. 
   
 ## <a name="see-also"></a>Voir aussi
 

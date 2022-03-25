@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c59a6ce9-6b1f-4395-961e-c3af2945f05e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 297846a44e255ee519d04e42b2a5b05cf70a9d91
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si le message nécessite un prétraitment. N’utilisez pas cette propriété. Il est réservé à une utilisation par MAPI.
+ms.openlocfilehash: 3ac0e9c748c8e73bb9069b38ad4dbaf8396ae5ff
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587295"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405740"
 ---
 # <a name="pidtagpreprocess-canonical-property"></a>Propriété canonique PidTagPreprocess
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587295"
   
 Contient TRUE si le message nécessite un prétraitment.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PREPROCESS  <br/> |
 |Identificateur :  <br/> |0x0E22  <br/> |

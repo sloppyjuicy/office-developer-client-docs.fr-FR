@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a9e1579-bebe-4a51-8ced-6dba9c3bcb63
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dd6d8f44b3de487750c28ba5919ab5adda0020b5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un tableau de balises de propriétés. Une balise de propriété est un nombre d’éléments non signés 32 bits composé de deux parties.
+ms.openlocfilehash: 949a5a4b375a1915ff465b36c3b903a52e097731
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566548"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782425"
 ---
 # <a name="sproptagarray"></a>SPropTagArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566548"
   
 Contient un tableau de balises de propriétés. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Macros associées :  <br/> |[CbNewSPropTagArray](cbnewsproptagarray.md), [CbSPropTagArray](cbsproptagarray.md), [SizedSPropTagArray](sizedsproptagarray.md) <br/> |
@@ -45,7 +45,7 @@ typedef struct _SPropTagArray
 
  **cValues**
   
-> Nombre de balises de propriété dans le tableau indiqué par le **membre aulPropTag.** 
+> Nombre de balises de propriété dans le tableau indiqué par le **membre aulPropTag** . 
     
  **aulPropTag**
   
@@ -71,7 +71,7 @@ Pour plus d’informations sur les balises de propriété et leurs composants, c
   
 [Vue d’ensemble du type de propriété MAPI](mapi-property-type-overview.md)
   
-Pour obtenir la liste complète des types de propriétés à valeur unique et à valeurs multiples, voir l’annexe, Identificateurs de [propriétés et Types.](property-identifiers-and-types.md) 
+Pour obtenir la liste complète des types de propriétés à valeur unique et à valeurs multiples, voir l’annexe, [Identificateurs de propriétés et Types](property-identifiers-and-types.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

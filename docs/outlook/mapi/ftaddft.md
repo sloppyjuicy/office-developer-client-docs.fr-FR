@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 341ad06b-1caa-49bb-b859-cb512f6fb55d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 36b5a8754d1cf111a84e9b0e442ca5ab3c4afcf6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Ajoute un integer 64 bits non signé à un autre pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: b7223d8536237e82b7041dcb8536648e63044c4c
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576246"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764047"
 ---
 # <a name="ftaddft"></a>FtAddFt
 
@@ -27,7 +27,7 @@ ms.locfileid: "59576246"
   
 Ajoute un integer 64 bits non signé à un autre.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

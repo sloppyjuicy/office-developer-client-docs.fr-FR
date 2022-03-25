@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1009f0ea-6f35-484d-b04d-5b6e844c14dd
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 77812cb4ef573c89882b361084db7e77e9782ac3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le nom de fichier du son qu’un client doit lire lorsque le rappel de cet objet est en retard.
+ms.openlocfilehash: 693d02427f2d080a24a3671ba1035cae6bcb76cc
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630333"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764220"
 ---
 # <a name="pidlidreminderfileparameter-canonical-property"></a>Propriété canonique PidLidReminderFileParameter
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630333"
   
 Spécifie le nom de fichier du son qu’un client doit lire lorsque le rappel de cet objet est en retard.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidReminderFileParam  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48d5ab42-ee70-4f6e-9184-18d22b08ea1b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8e2cf26b2e4388fac1432308df82ded911cf7501
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Décrit une restriction existante utilisée pour tester si une propriété particulière existe en tant que colonne dans le tableau.
+ms.openlocfilehash: 78b33525ada48e7776edf4df297d791ab98d429e
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550035"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405411"
 ---
 # <a name="sexistrestriction"></a>SExistRestriction
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550035"
   
 Décrit une restriction existante utilisée pour tester si une propriété particulière existe en tant que colonne dans le tableau. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -61,7 +61,7 @@ La restriction existante est utilisée pour garantir des résultats significatif
   
 Les restrictions existantes ne peuvent pas être utilisées avec les propriétés de sous-objet qui ont des PT_OBJECT. 
   
-Pour plus d’informations sur la structure **SExistRestriction,** voir [À propos des restrictions.](about-restrictions.md) 
+Pour plus d’informations sur **la structure SExistRestriction** , voir [À propos des restrictions](about-restrictions.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

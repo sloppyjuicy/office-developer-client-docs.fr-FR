@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1c53170f-03a6-4a05-913e-de8eeadea692
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dae69558f461a611293a2090037dfee94be19b25
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 24395544e2628b3399f0757f05ecec5c9fdd9c99
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62779804"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63780934"
 ---
 # <a name="mapiopenlocalformcontainer"></a>MAPIOpenLocalFormContainer
 
@@ -27,7 +27,7 @@ ms.locfileid: "62779804"
   
 Renvoie un pointeur d’interface vers la bibliothèque de formulaires locale. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: fb9050c9-5797-44f0-8bf5-6264f4e6d7c3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1a1736001faee62e498784c8a28d24b40f43b781
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Appelle une fonction interne pour vérifier les paramètres que les applications clientes ont transmis aux fournisseurs de services et MAPI.
+ms.openlocfilehash: 4afd966d47eb36e54d70416a973f7f76c17edf34
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623998"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762808"
 ---
 # <a name="ulvalidateparameters"></a>UlValidateParameters
 
@@ -27,7 +27,7 @@ ms.locfileid: "59623998"
   
 Appelle une fonction interne pour vérifier les paramètres que les applications clientes ont transmis aux fournisseurs de services et MAPI. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -62,6 +62,6 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Remarques
 
-La macro **UlValidateParameters** a été recalée par la macro [UlValidateParms.](ulvalidateparms.md) **UlValidateParameters** ne fonctionne pas correctement sur les plateformes RISC et n’est plus en mesure de les compiler. Il est toujours compilé et fonctionne correctement sur les plateformes Intel, mais **UlValidateParms** est recommandé sur toutes les plateformes. 
+La macro **UlValidateParameters** a été reprise par la macro [UlValidateParms](ulvalidateparms.md) . **UlValidateParameters ne** fonctionne pas correctement sur les plateformes RISC et n’est plus en mesure de les compiler. Il est toujours compilé et fonctionne correctement sur les plateformes Intel, mais **UlValidateParms** est recommandé sur toutes les plateformes. 
   
 

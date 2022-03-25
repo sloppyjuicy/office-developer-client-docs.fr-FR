@@ -4,17 +4,17 @@ TOCTitle: SELECT statement (Microsoft Access SQL)
 ms:assetid: a5c9da94-5f9e-0fc0-767a-4117f38a5ef3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821148(v=office.15)
 ms:contentKeyID: 48546837
-ms.date: 10/18/2018
+ms.date: 03/22/2022
 mtps_version: v=office.15
 dev_langs:
 - sql
 ms.localizationpriority: high
-ms.openlocfilehash: 326c42c5893c8241e0f13ba3b865eb54354f6454
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 09740230325798dd8e3a93c0638153c116387d09
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62465510"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63722377"
 ---
 # <a name="select-statement-microsoft-access-sql"></a>SELECT, instruction (Microsoft Access SQL)
 
@@ -28,49 +28,15 @@ SELECT \[*predicate*\] { \* | *table*.\* | \[*table*.\]*field1* \[AS *alias1*\] 
 
 L'instruction SELECT est composée des arguments suivants :
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Élément</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><em>prédicat</em></p></td>
-<td><p>Un des prédicats suivants : <a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL, DISTINCT, DISTINCTROW ou TOP</a>. Les prédicats permettent de limiter le nombre d’enregistrements renvoyés. Si aucun n’est précisé, ALL est choisi par défaut.</p></td>
-</tr>
-<tr class="even">
-<td><p><em>*</em></p></td>
-<td><p>Indique que tous les champs de la ou des tables spécifiées sont sélectionnés.</p></td>
-</tr>
-<tr class="odd">
-<td><p><em>table</em></p></td>
-<td><p>Nom de la table contenant les champs dans lesquels les enregistrements sont sélectionnés.</p></td>
-</tr>
-<tr class="even">
-<td><p><em>champ1</em>, <em>champ2</em></p></td>
-<td><p>Noms des champs contenant les données à extraire. Si vous incluez plusieurs champs, les données seront extraites dans l'ordre indiqué.</p></td>
-</tr>
-<tr class="odd">
-<td><p><em>alias1</em>, <em>alias2</em></p></td>
-<td><p>Noms à utiliser comme en-têtes de colonne à la place des noms de colonnes d'origine d'une <em>table</em>.</p></td>
-</tr>
-<tr class="even">
-<td><p><em>expressiontable</em></p></td>
-<td><p>Nom de la ou des tables contenant les données à extraire</p></td>
-</tr>
-<tr class="odd">
-<td><p><em>basededonnéesexterne</em></p></td>
-<td><p>Nom de la base de données contenant les tables spécifiées par l'argument <em>expressiontable</em> si elles ne se trouvent pas dans la base de données actuelle.</p></td>
-</tr>
-</tbody>
-</table>
-
+|**Argument**|**Description**|
+|:-----------|:-----------|
+| *prédicat* | L’un des prédicats suivants : [ALL, DISTINCT, DISTINCTROW ou TOP](/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql.md). Utilisez le prédicat pour limiter le nombre d’enregistrements retournés. Si aucun n’est spécifié, la valeur par défaut est ALL.</br>|
+| * | Indique que tous les champs de la ou des tables spécifiées sont sélectionnés.</br>|
+| *table* | Nom de la table contenant les champs dans lesquels les enregistrements sont sélectionnés.</br>|
+| *champ1, champ2* |Noms des champs contenant les données à extraire. Si vous incluez plusieurs champs, les données seront extraites dans l'ordre indiqué.</br>|
+| *alias1, alias2* |Noms à utiliser comme en-têtes de colonne à la place des noms de colonnes d'origine d'une *table*.</br>|
+| *expressiontable* | Nom de la ou des tables contenant les données à extraire</br>|
+| *basededonnéesexterne* | Nom de la base de données contenant les tables spécifiées par l'argument *expressiontable* si elles ne se trouvent pas dans la base de données actuelle.</br>|
 
 ## <a name="remarks"></a>Remarques
 
@@ -84,7 +50,7 @@ La syntaxe minimale d'une instruction SELECT est la suivante :
 
 SELECT *champs* FROM *table*
 
-Vous pouvez utiliser un astérisque (*) pour sélectionner tous les champs d'une table. Dans l'exemple suivant, tous les champs de la table Employees sont sélectionnés :
+Vous pouvez utiliser un astérisque (\*) pour sélectionner tous les champs d'une table. Dans l'exemple suivant, tous les champs de la table Employees sont sélectionnés.
 
 ```sql
 SELECT * FROM Employees;
@@ -152,7 +118,6 @@ Dans cet exemple, un objet **Recordset** de type feuille dynamique basé sur une
     End Sub
 ```
 
-
 Dans cet exemple, le nombre d'enregistrements comportant une entrée dans le champ PostalCode est calculé et le champ renvoyé est nommé Tally.
 
 ```sql
@@ -180,7 +145,6 @@ Dans cet exemple, le nombre d'enregistrements comportant une entrée dans le cha
      
     End Sub 
 ```
-
 
 Dans cet exemple, le nombre d'employés est indiqué ainsi que les salaires maximal et moyen.
 
@@ -212,7 +176,6 @@ Dans cet exemple, le nombre d'employés est indiqué ainsi que les salaires maxi
      
     End Sub 
 ```
-
 
 §LSA La procédure **Sub** EnumFields bénéficie d’un objet **Recordset** à partir de la procédure appelante. La procédure met en forme et imprime les champs de l’objet **Recordset** dans la fenêtre **Débogage**. La variable est la largeur de champ imprimé voulue. Certains champs peuvent être tronqués.
 
@@ -287,7 +250,3 @@ Dans cet exemple, le nombre d'employés est indiqué ainsi que les salaires maxi
      
     End Sub 
 ```
-
-
-
-

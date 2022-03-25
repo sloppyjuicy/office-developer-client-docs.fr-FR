@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 055bdcaf-5002-44a6-b2b6-87244b2bea93
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2e1d9b7f3a87c8c4fbc6614921640eb2cf11acfe
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique que la demande de réunion représente une exception à une série périodique et qu’elle a été transmise au lieu d’être une invitation envoyée par l’organisateur.
+ms.openlocfilehash: 7a919669a8c2434050bf15caab3dc217827a180d
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630368"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783279"
 ---
 # <a name="pidlidforwardinstance-canonical-property"></a>Propriété canonique PidLidForwardInstance
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630368"
   
 Indique que la demande de réunion représente une exception à une série périodique et qu’elle a été transmise (même lorsqu’elle a été transmise par l’organisateur) au lieu d’être une invitation envoyée par l’organisateur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFwrdInstance  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
@@ -37,7 +37,7 @@ Indique que la demande de réunion représente une exception à une série péri
    
 ## <a name="remarks"></a>Remarques
 
-La valeur FALSE pour cette propriété indique que la demande de réunion n’est pas une instance de forwarded. Cette propriété n’est pas obligatoire.
+La valeur FALSE pour cette propriété indique que la demande de réunion n’est pas une instance de demande de réunion. Cette propriété n’est pas obligatoire.
   
 ## <a name="related-resources"></a>Ressources connexes
 

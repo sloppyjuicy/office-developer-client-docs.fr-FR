@@ -8,20 +8,20 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 9124fa30-d58b-8354-91e9-8d2237a8251d
 description: 'Spécifie les conditions météorologiques futures d’au moins trois jours à l’avance, y compris aujourd’hui : Aujourd’hui, Demain, Jour après Demain.'
-ms.openlocfilehash: b58ae440db15561815953845d6c9089a78f1fe90
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: bab9849c797e35b21013c20b09d980bf4d1fd6ac
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62787512"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406210"
 ---
 # <a name="forecast-element-weathertype-complextype-outlook-weather-information-schema"></a>forecast, élément (weatherType complexType) (Outlook Weather Information Schema)
 
 Spécifie les conditions météorologiques futures d’au moins trois jours à l’avance, y compris aujourd’hui : Aujourd’hui, Demain, Jour après Demain.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+||Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[forecastType](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |

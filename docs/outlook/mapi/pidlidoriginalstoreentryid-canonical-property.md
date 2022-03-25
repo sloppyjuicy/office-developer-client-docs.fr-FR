@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1b1fc008-9cd5-49f6-9f91-b59e305a1e82
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ef00c2e8fb49ced3ad71b8f58430b30b38b7580d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 48fc579d1304bc0414b1adfad9daed8d47f9eced
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555628"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63726013"
 ---
 # <a name="pidlidoriginalstoreentryid-canonical-property"></a>Propriété canonique PidLidOriginalStoreEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555628"
   
 Spécifie l’ID d’entrée du magasin du délégant.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidOrigStoreEid  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

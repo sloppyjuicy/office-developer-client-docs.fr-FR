@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: daad8735-a3da-4a0b-9329-6eb253c281fd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2533e5cec51e28238e3b43038600261918fae2d2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a3400871b2bce5696a33163bf34d0996ccc220ad
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600581"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782285"
 ---
 # <a name="pidlidnonsendablebcctrackstatus-canonical-property"></a>Propriété canonique PidLidNonSendableBccTrackStatus
 
@@ -25,9 +25,9 @@ ms.locfileid: "59600581"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur de chaque participant répertorié dans la propriété **dispidNonSendableBCC** ([PidLidNonSendableBcc).](pidlidnonsendablebcc-canonical-property.md)
+Contient la valeur de chaque participant répertorié dans la propriété **dispidNonSendableBCC** ([PidLidNonSendableBcc](pidlidnonsendablebcc-canonical-property.md)).
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidNonSendBccTrackStatus  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -37,7 +37,7 @@ Contient la valeur de chaque participant répertorié dans la propriété **disp
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est requise uniquement lorsque la **propriété dispidNonSendableBCC** est définie. Le nombre de valeurs dans cette propriété doit être égal au nombre de valeurs dans le **dispidNonSendableBCC**. Chaque valeur de cette propriété correspond au participant dans la propriété **dispidNonSendableBCC** au même index. 
+Cette propriété n’est requise que lorsque la **propriété dispidNonSendableBCC** est définie. Le nombre de valeurs de cette propriété doit être égal au nombre de valeurs dans le **dispidNonSendableBCC**. Chaque valeur de cette propriété correspond au participant dans la propriété **dispidNonSendableBCC** au même index. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

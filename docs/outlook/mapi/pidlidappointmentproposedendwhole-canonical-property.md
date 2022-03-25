@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6749e7b1-7a66-4aca-92b0-9a23a87fc121
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e03ed764797c32bae95ac337f44c5cf78f221be5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la valeur proposée pour la propriété dispidApptEndWhole pour une proposition de compteur. Cette valeur doit être spécifiée en UTC.
+ms.openlocfilehash: 84dd70561738de9533db3d8cc4821e2be30987c3
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555887"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764670"
 ---
 # <a name="pidlidappointmentproposedendwhole-canonical-property"></a>Propriété canonique PidLidAppointmentProposedEndWhole
 
@@ -25,9 +25,9 @@ ms.locfileid: "59555887"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la valeur proposée pour la propriété **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) pour une proposition de compteur.
+Spécifie la valeur proposée pour la propriété **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) d’une proposition de compteur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptProposedEndWhole  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

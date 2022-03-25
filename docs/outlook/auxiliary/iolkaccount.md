@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 7b7cb295-fc77-a8b9-aac9-e548f3b4afcb
-ms.openlocfilehash: c36db2d700d5c36804f771218376c403c6eadc6c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 4362cce88ef77b4a8148041ee4bcd4fcbbdd744f
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784369"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762122"
 ---
 # <a name="iolkaccount"></a>IOlkAccount
 
@@ -19,7 +19,7 @@ Prend en charge l’obtention et la définition de propriétés et d’autres in
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Hérite de :  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |Implémenté par :  <br/> |Outlook  <br/> |
@@ -29,7 +29,7 @@ Prend en charge l’obtention et la définition de propriétés et d’autres in
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
-|||
+|Member |Description |
 |:-----|:-----|
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
@@ -49,7 +49,7 @@ Prend en charge l’obtention et la définition de propriétés et d’autres in
    
 ## <a name="properties"></a>Propriétés
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |[PROP_ACCT_DELIVERY_FOLDER](prop_acct_delivery_folder.md) <br/> |Représente l’ID d’entrée du dossier de remise par défaut du compte. |
 |[PROP_ACCT_DELIVERY_STORE](prop_acct_delivery_store.md) <br/> |Représente l’ID d’entrée de la banque de remise par défaut pour le compte. |

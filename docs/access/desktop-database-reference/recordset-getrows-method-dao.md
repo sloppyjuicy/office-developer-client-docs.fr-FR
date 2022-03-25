@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 37714f7581631a1cb095c3d2c8564d9a4f8afa6c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 80a81c629c71cb7a216365eadcc525135cdbb1b6
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606281"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63724933"
 ---
 # <a name="recordsetgetrows-method-dao"></a>Recordset.GetRows, méthode (DAO)
 
@@ -34,10 +34,10 @@ Récupère plusieurs lignes à partir d’un objet **[Recordset](recordset-objec
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

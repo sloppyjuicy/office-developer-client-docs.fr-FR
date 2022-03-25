@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5894b98c-7d42-416d-b1b7-fb9a18abaaa3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c459dc908bdbba42740606e96a7fd8e865afa38f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 373e59e6c8f14203a1a7fa81bf37b4658e3f8bbd
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630410"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783013"
 ---
 # <a name="pidlidcurrentversion-canonical-property"></a>Propriété canonique PidLidCurrentVersion
 
@@ -25,9 +25,9 @@ ms.locfileid: "59630410"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un long qui représente le numéro de build de l’application Outlook pour un élément.
+Contient un long qui représente le numéro de build de l’application Outlook’un élément.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidCurrentVersion  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -53,7 +53,7 @@ Contient un long qui représente le numéro de build de l’application Outlook 
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

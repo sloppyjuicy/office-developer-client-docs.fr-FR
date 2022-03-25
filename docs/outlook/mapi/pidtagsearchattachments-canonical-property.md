@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 534c3881-e12f-f228-7760-788fe2b72ae8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3b60e4bf7bbeb593194feb7ff63af70016e47ddd
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Contient une chaîne Unicode en cours d’interrogation dans le contenu des pièces jointes de la banque Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: ba34f8f1eeceaf5946f2fdacbfcaa994d085ec1e
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380437"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783433"
 ---
 # <a name="pidtagsearchattachments-canonical-property"></a>Propriété canonique PidTagSearchAttachments
 
@@ -21,12 +21,12 @@ ms.locfileid: "63380437"
   
 Contient une chaîne Unicode en cours d’interrogation dans le contenu des pièces jointes de la banque.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SEARCH_ATTACHMENTS_W  <br/> |
 |Identificateur :  <br/> |0x0EA5  <br/> |
 |Type de propriété :  <br/> |PT_UNICODE  <br/> |
-|Domaine :  <br/> |Rechercher  <br/> |
+|Domaine :  <br/> |Recherche  <br/> |
 
 ## <a name="related-resources"></a>Ressources connexes
 

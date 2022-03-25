@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c410a34a-f71e-4fe7-815b-13bb6433a7fa
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 857050978bfd9e048616f81e5d71cc5313c583f7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le nombre de diapositives dans le fichier joint au document pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 8a09a975f39033b811920f091e56818ea0acf44d
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620178"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762983"
 ---
 # <a name="pidnameslidecount-canonical-property"></a>Propriété canonique PidNameSlideCount
 
@@ -27,9 +27,9 @@ ms.locfileid: "59620178"
   
 Spécifie le nombre de diapositives dans le fichier joint au document.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms convivial :  <br/> |Aucune  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |SlideCount  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |

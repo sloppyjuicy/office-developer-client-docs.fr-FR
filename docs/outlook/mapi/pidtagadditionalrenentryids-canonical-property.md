@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8c6e7ca2-1824-4cca-bf69-3c1ea52727de
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6f9b49eb8173bd5bc1420b76df2b4ead6de4e4a1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient les ID d’entrée de certains dossiers spéciaux pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 4ab2b624c6cc8f5571b8aef11281d1d35ec12571
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609956"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405236"
 ---
 # <a name="pidtagadditionalrenentryids-canonical-property"></a>Propriété canonique PidTagAdditionalRenEntryIds
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609956"
   
 Contient les ID d’entrée de certains dossiers spéciaux. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ADDITIONAL_REN_ENTRYIDS  <br/> |
 |Identificateur :  <br/> |0x36D8  <br/> |
@@ -54,7 +54,7 @@ Les cinq premières entrées de cette propriété à valeurs multiples s’appli
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
@@ -66,7 +66,7 @@ Les cinq premières entrées de cette propriété à valeurs multiples s’appli
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

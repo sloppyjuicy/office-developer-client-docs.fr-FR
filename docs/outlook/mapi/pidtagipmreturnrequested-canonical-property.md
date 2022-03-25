@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9c97df9f-08d7-4223-864f-47286f674e11
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c17ea64c5f021382cda093664bb5655ea102dda2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si ce message doit être renvoyé avec un rapport pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 907a4e2043fe1034ea10a83d95dc0161ff6bb018
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629868"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764061"
 ---
 # <a name="pidtagipmreturnrequested-canonical-property"></a>Propriété canonique PidTagIpmReturnRequested
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629868"
   
 Contient TRUE si ce message doit être renvoyé avec un rapport.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IPM_RETURN_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0C02  <br/> |

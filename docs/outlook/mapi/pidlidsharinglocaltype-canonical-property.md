@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6ac438a1-d36f-424f-b4b4-d6f2d26fd350
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5a176b20f1c865df49a9d73e5d09ae250ca9649c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la valeur de la propriété PR_CONTAINER_CLASS du dossier partagé. Il s’agit d’une propriété d’un message de partage.
+ms.openlocfilehash: 73314c3e760e166444887474295272d82c06960f
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604473"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405915"
 ---
 # <a name="pidlidsharinglocaltype-canonical-property"></a>Propriété canonique PidLidSharingLocalType
 
@@ -25,9 +25,9 @@ ms.locfileid: "59604473"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la valeur de la **propriété PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) du dossier partagé. Il s’agit d’une propriété d’un message de partage.
+Spécifie la valeur de la propriété **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) du dossier partagé. Il s’agit d’une propriété d’un message de partage.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingLocalType  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |

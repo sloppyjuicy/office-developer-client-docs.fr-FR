@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb7ccb45-ce08-4d22-9259-db15cd267e34
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2c39ff11d5d0de578b0b3940ba56d3b555aa250c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Représente la condition To-Do'un élément marqué pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 3a3b37eb34e11d96310ae29ea2eaf0c655091bf9
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62789080"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763963"
 ---
 # <a name="pidtagtodoitemflags-canonical-property"></a>Propriété canonique PidTagToDoItemFlags
 
@@ -27,7 +27,7 @@ ms.locfileid: "62789080"
   
 Représente la condition To-Do d’un élément.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_TODO_ITEM_FLAGS  <br/> |
 |Identificateur :  <br/> |0x0E2B  <br/> |
@@ -38,10 +38,9 @@ Représente la condition To-Do d’un élément.
 
 Cette propriété est un champ de bits dans lequel chaque bit doit être définie sur 1 si la condition associée dans le tableau suivant s’applique, sinon 0.
   
-||||
-|:-----|:-----|:-----|
 |Valeur numérique  <br/> |Nom  <br/> |Description  <br/> |
-|Non présent  <br/> |N/A  <br/> |Non retardé  <br/> |
+|:-----|:-----|:-----|
+|Non présent  <br/> |S/O  <br/> |Non retardé  <br/> |
 |1  <br/> |todoTimeFlagged  <br/> |L’objet est marqué à l’heure  <br/> |
 |8   <br/> |todoRecipientFlagged  <br/> |Ne doit être définie que sur un objet de brouillon de message, ce qui signifie que l’objet est marqué pour les destinataires. |
    
@@ -53,7 +52,7 @@ Tous les bits qui ne sont pas spécifiés dans le tableau sont réservés. Elles
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   

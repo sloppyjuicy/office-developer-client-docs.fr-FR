@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 69b308dd-d3f5-44fe-8976-e4ed9a433ad8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f5e685090d7f945988715fa91b281d843781f44a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0544a655a64aa8359686d942f2a55d63214f2397
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620407"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782159"
 ---
 # <a name="pidlidheaderitem-canonical-property"></a>Propriété canonique PidLidHeaderItem
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620407"
   
 Spécifie si Microsoft Outlook a téléchargé sur l’ordinateur client uniquement l’en-tête d’un message, ou à la fois l’en-tête et le corps du message, lorsque Outlook est configuré en mode Exchange mis en cache.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidHeaderItem  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

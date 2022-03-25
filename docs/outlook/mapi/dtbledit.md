@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ec3566a0-75ad-466d-a61e-f7d61ccb946d
 description: Décrit un contrôle d’édition qui sera utilisé dans une boîte de dialogue conçue à partir d’un tableau d’affichage.
-ms.openlocfilehash: ff678e2d4a3db0e12011fa50084a05e601be2a49
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: a685b1befde345f9aaae7b4d5f91b612e2d65a18
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63377189"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781788"
 ---
 # <a name="dtbledi"></a>DTBLEDI
   
@@ -25,7 +25,7 @@ ms.locfileid: "63377189"
   
 Décrit un contrôle d’édition qui sera utilisé dans une boîte de dialogue conçue à partir d’un tableau d’affichage.
 
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête : |Mapidefs.h |
 |Macro associée : |[SizedDtblEdit](sizeddtbledit.md) |

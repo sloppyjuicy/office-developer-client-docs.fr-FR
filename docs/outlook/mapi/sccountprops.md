@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 76e4cc52-e1a0-4e0b-a2a6-a17644f6b2e7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 61501afc8c3e8ff2c64f151d3edeed3b34e38787
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: 'Détermine la taille, en octets, d’un tableau de valeurs de propriétés et valide la mémoire associée au tableau. '
+ms.openlocfilehash: 4758db12b682ba49afbb6f64e06d0183b5083b2d
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62459129"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764187"
 ---
 # <a name="sccountprops"></a>ScCountProps
 
@@ -27,7 +27,7 @@ ms.locfileid: "62459129"
   
 Détermine la taille, en octets, d’un tableau de valeurs de propriétés et valide la mémoire associée au tableau. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

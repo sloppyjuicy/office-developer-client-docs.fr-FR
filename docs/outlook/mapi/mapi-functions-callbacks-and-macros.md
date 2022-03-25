@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2e5dcbb4-1ae6-4082-ba8f-c677e3265d59
-description: 'Last modified: April 27, 2021'
-ms.openlocfilehash: 1f9d7dd886791e8d185350b8a5de94ca7d180ca7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Les entrées alphabétiques suivantes contiennent de la documentation pour les fonctions MAPI, les rappels et les macros.
+ms.openlocfilehash: f9cbf4682a9c1366f3b6ce3db7b528f7d9d49736
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567185"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405390"
 ---
 # <a name="mapi-functions-callbacks-and-macros"></a>Fonctions, rappels et macros MAPI
 
@@ -25,7 +25,7 @@ ms.locfileid: "59567185"
   
 Les entrées alphabétiques suivantes contiennent de la documentation pour les fonctions MAPI, les rappels et les macros. 
   
-|||
+|Entrée |... |
 |:-----|:-----|
 |[ABProviderInit](abproviderinit.md) <br/> |[ACCELERATEABSDI](accelerateabsdi.md) <br/> |
 |[BuildDisplayTable](builddisplaytable.md) <br/> |[CALLERRELEASE](callerrelease.md) <br/> |

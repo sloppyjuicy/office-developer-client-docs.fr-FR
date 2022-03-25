@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e35216e0-c23f-70f2-0d5f-1ac5dc00fd8c
 description: Spécifie si Microsoft Office Outlook doit analyser les dossiers d’une boutique et les archiver automatiquement.
-ms.openlocfilehash: 08d7c0bcc3f84027b937b7cb60be22ae6d487cd9
-ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
+ms.openlocfilehash: e36c6fc178ceeccba50068d009f897ca0370b6d1
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63507686"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782054"
 ---
 # <a name="archivesourcesupportmask"></a>ArchiveSourceSupportMask
 
@@ -27,7 +27,7 @@ Spécifie si Microsoft Office Outlook doit analyser les dossiers d’une boutiqu
   
 ## <a name="quick-info"></a>Informations rapides
 
-|**Valeur**|**Description**|
+|Valeur|Description|
 |:-----|:-----|
 |Exposé sur :  <br/> |[IMsgStore : objet IMAPIProp](imsgstoreimapiprop.md)  <br/> |
 |Créé par :  <br/> |Fournisseur du Store  <br/> |
@@ -41,7 +41,7 @@ Pour fournir l’une des fonctionnalités du magasin, le fournisseur de magasin 
   
 Pour récupérer la valeur de cette propriété, le client doit d’abord utiliser [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir la balise de propriété, puis spécifier cette balise de propriété dans [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la valeur. Lorsque vous appelez [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), spécifiez les valeurs suivantes pour la structure [MAPINAMEID](mapinameid.md) pointée par le paramètre d’entrée _lppPropNames_ :
   
-|**Valeur**|**Description**|
+|Valeur|Description|
 |:-----|:-----|
 |lpGuid:  <br/> |PSETID_Common  <br/> |
 |ulKind :  <br/> |MNID_STRING  <br/> |

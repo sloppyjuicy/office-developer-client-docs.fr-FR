@@ -7,12 +7,12 @@ ms:contentKeyID: 48544266
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 3abc44a6b2b682350cfc89d563882c280aa591a0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a072c1131d9411c0d76d3a05e247d3b61b160a38
+ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552562"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63725413"
 ---
 # <a name="recordsetoptionenum-enumeration-dao"></a>RecordsetOptionEnum, énumération (DAO)
 
@@ -23,9 +23,9 @@ Utilisée avec la **OpenRecordset** méthode permettant de spécifier les caract
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -37,7 +37,7 @@ Utilisée avec la **OpenRecordset** méthode permettant de spécifier les caract
 <tbody>
 <tr class="odd">
 <td><p>dbAppendOnly</p></td>
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>Permet à utilisateur d’ajouter de nouveaux enregistrements à la feuille de réponse dynamique, mais empêche l’utilisateur de lire les enregistrements existants.</p></td>
 </tr>
 <tr class="even">

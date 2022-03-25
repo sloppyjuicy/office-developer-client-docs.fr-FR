@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6fd33d6-04fb-4801-a004-fb80a14ca79d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6f0817a02f3a6661032e5e0c67be151d322a036c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Représente la date et l’heure de fin d’un rendez-vous. Cette propriété correspond à la propriété dispidApptEndWhole du rendez-vous dans Outlook modèle objet.
+ms.openlocfilehash: 45a71164eede0e9ab215507fb5b12fee0ae6916d
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625104"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63763669"
 ---
 # <a name="pidlidappointmentendwhole-canonical-property"></a>Propriété canonique PidLidAppointmentEndWhole
 
@@ -27,7 +27,7 @@ ms.locfileid: "59625104"
   
 Représente la date et l’heure de fin d’un rendez-vous.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptEndWhole  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

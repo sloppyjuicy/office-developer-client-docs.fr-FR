@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee69f0c4-b552-4cfd-8a39-a822d414549e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5f1cc0330c8360616af8c47af30652e6b7d570b1
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: f001618ac09c533f512a593af8158be4e8e33377
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62783837"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782327"
 ---
 # <a name="pidlidofflinestatus-canonical-property"></a>Propriété canonique PidLidOfflineStatus
 
@@ -27,7 +27,7 @@ ms.locfileid: "62783837"
   
 Détermine l’état d’un fichier de document sur un serveur qui implémente [MS-LISTSWS].
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées  <br/> |dispidOfflineStatus  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

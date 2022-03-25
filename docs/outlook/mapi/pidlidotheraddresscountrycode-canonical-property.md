@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c5358432-dbd3-4216-af0f-4fd01eacec69
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 668e6127e9256e90647f22f210e458b9b80bc125
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la partie code pays de l’autre adresse du contact pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 0fdeb11a452dbf1ea781760495efd2355ad0fc31
+ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583750"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63764733"
 ---
 # <a name="pidlidotheraddresscountrycode-canonical-property"></a>Propriété canonique PidLidOtherAddressCountryCode
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583750"
   
 Spécifie la partie code pays de l’autre adresse du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidOtherAddressCountryCode  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

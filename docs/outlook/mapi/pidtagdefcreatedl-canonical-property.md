@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 172dc15b-7bda-403f-a93a-446b2f9ff1d3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 16b9af522adfba01e76a97aeb228c4414b48b79c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée de modèle pour une liste de distribution par défaut. Les applications clientes utilisent cette propriété pour créer une liste de distribution dans un conteneur.
+ms.openlocfilehash: 36f474e8b0e23df64eee80f98d4a18cdd7c174e1
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550728"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64405803"
 ---
 # <a name="pidtagdefcreatedl-canonical-property"></a>Propriété canonique PidTagDefCreateDl
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550728"
   
 Contient l’identificateur d’entrée de modèle pour une liste de distribution par défaut. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DEF_CREATE_DL  <br/> |
 |Identificateur :  <br/> |0x3611  <br/> |
@@ -38,7 +38,7 @@ Contient l’identificateur d’entrée de modèle pour une liste de distributio
 
 Les applications clientes utilisent cette propriété pour créer une liste de distribution dans un conteneur. La prise en charge de la création d’entrées est facultative pour les conteneurs de carnet d’adresses . ceux qui ne la prisent pas en charge ne sont pas obligés d’exposer cette propriété. 
   
-Cette propriété spécifie une entrée qui peut apparaître dans la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) pour les listes de distribution. Une fois l’identificateur obtenu, le client l’utilise dans un appel à la méthode [IABContainer::CreateEntry.](iabcontainer-createentry.md) L’entrée représente le modèle de la liste de distribution par défaut. 
+Cette propriété spécifie une entrée qui peut apparaître dans la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) pour les listes de distribution. Une fois l’identificateur obtenu, le client l’utilise dans un appel à la méthode [IABContainer::CreateEntry](iabcontainer-createentry.md) . L’entrée représente le modèle de la liste de distribution par défaut. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

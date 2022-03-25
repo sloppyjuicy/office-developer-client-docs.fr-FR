@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 17cb53c4-7154-4a4e-b4ec-de720fa055cb
 description: Compare deux valeurs de propriété à l’aide d’un opérateur relationnel spécifié.
-ms.openlocfilehash: f94cad0854c496773837da5b3b4f06cb22532557
-ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
+ms.openlocfilehash: e233fb0b3d0144d1f4433199ce0ee719c0a01cfc
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63507870"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63780948"
 ---
 # <a name="fpropcompareprop"></a>FPropCompareProp
 
@@ -25,7 +25,7 @@ ms.locfileid: "63507870"
   
 Compare deux valeurs de propriété à l’aide d’un opérateur relationnel spécifié.
   
-|**Valeur**|**Description**|
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

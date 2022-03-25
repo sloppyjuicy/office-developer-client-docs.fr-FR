@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 39ccc69a-0226-4dd7-9068-53b496b50e0f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2201707cc658964b13922532a46f443ae0c24abf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e833a84417a3bded83104c0bbdf6f5022969c8a9
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620393"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783202"
 ---
 # <a name="pidlidlogtypedesc-canonical-property"></a>Propriété canonique PidLidLogTypeDesc
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620393"
   
 Décrit l’activité enregistrée.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidLogTypeDesc  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Log  <br/> |

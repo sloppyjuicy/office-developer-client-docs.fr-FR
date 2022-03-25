@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee735ae8-e527-4538-a633-c3f57a36f0a1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 937f31b681a956c5c31a80646fef6a417a70fe35
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6ffe0f187c4346a875bf8e87e477987c58850c70
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591828"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782033"
 ---
 # <a name="pidlidlinkedtaskitems-canonical-property"></a>Propriété canonique PidLidLinkedTaskItems
 
@@ -25,9 +25,9 @@ ms.locfileid: "59591828"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie une liste de la **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) des tâches liées au calendrier. 
+Spécifie une liste de la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) des tâches liées au calendrier. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidLinkedTaskItems  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5004dc1f-6bd3-4764-b83c-d04d83161dba
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3b84d43c4653c10f8120e77aa98cc68eed3bf545
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une raison pour laquelle un agent de transfert de messages (MTA) a ignoré un message à utiliser dans un rapport nondelivery pour le message.
+ms.openlocfilehash: cce5b5b88a0d4e8f41c098441383f431de212470
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600189"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63782467"
 ---
 # <a name="pidtagdiscardreason-canonical-property"></a>Propriété canonique PidTagDiscardReason
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600189"
   
 Contient une raison pour laquelle un agent de transfert de messages (MTA) a ignoré un message. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DISCARD_REASON  <br/> |
 |Identificateur :  <br/> |0x0011  <br/> |

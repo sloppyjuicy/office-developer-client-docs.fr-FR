@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a658d027-03a2-4cde-bf99-563e8521cb31
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 22ff75605b9ab7911f0a270a17631f8261b54ffc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Crée une structure nommée qui inclut une structure DTBLEDIT pour décrire un contrôle d’édition et le nombre de caractères qui peuvent être entrés dans le contrôle.
+ms.openlocfilehash: 38ced2bfd3b08104c49c91d170425749e3a8ad08
+ms.sourcegitcommit: 138c9e15adc07c6ecd740257872aaee6a1a1a7fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566681"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64406364"
 ---
 # <a name="sizeddtbledit"></a>SizedDtblEdit
 
@@ -25,7 +25,7 @@ ms.locfileid: "59566681"
   
 Crée une structure nommée qui inclut une structure [DTBLEDIT](dtbledit.md) pour décrire un contrôle d’édition et le nombre maximal de caractères qui peuvent être entrés dans le contrôle. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**DTBLEDIT** <br/> |
@@ -54,7 +54,7 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblEdit** en tant que pointeur de structure **DTBLEDIT,** effectuez la distribution suivante : 
+Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblEdit** en tant que pointeur de structure **DTBLEDIT** , effectuez la distribution suivante : 
   
 ```cpp
 lpDtblEdit = (LPDTBLEDIT) &SizedDtblEdit;

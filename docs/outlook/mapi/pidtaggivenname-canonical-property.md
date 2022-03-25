@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 27b7cbfc-4a76-4ae9-830a-6475dfa18459
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7391e6a1023aaad4d28bdcf5a0ad21286beaf4f0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le prénom ou le nom donné du destinataire. Ces propriétés sont définies par le destinataire et son organisation.
+ms.openlocfilehash: 2c846c22bcfad32cb3b48e96b3ae320d510f455d
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600070"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783006"
 ---
 # <a name="pidtaggivenname-canonical-property"></a>Propriété canonique PidTagGivenName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600070"
   
 Contient le prénom ou le nom donné du destinataire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_GIVEN_NAME, PR_GIVEN_NAME_A, PR_GIVEN_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3A06  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés fournissent des informations d’identification et d’accès s
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 170afe1f-1223-4689-825c-d21ab14b213b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ea52b172e959d6c71f52e57798095e567b434b50
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f91ba025ebb66eda2a8bbbcd61e76616d157e5fd
+ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600574"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63781613"
 ---
 # <a name="pidlidnonsendablecc-canonical-property"></a>Propriété canonique PidLidNonSendableCc
 
@@ -25,9 +25,9 @@ ms.locfileid: "59600574"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste de tous les participants qui ne peuvent pas être invités et qui sont également des participants facultatifs.
+Contient la liste de tous les participants qui ne peuvent pas être invités et qui sont également des participants facultatifs.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidNonSendableCC  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
