@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 66dbe65a-b9fd-41d5-946f-ec8888363043
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8471cbf985a758b07a4481942b2876b29ebb4c2c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6b5cd2c7f627b514ffd36856c7bf92d130422468
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575035"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455341"
 ---
 # <a name="pidtagcontainercontents-canonical-property"></a>Propriété canonique PidTagContainerContents
 
@@ -25,9 +25,9 @@ ms.locfileid: "59575035"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un objet de table de contenu incorporé qui fournit des informations sur un conteneur.
+Contient un objet de table des matières incorporé qui fournit des informations sur un conteneur.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAINER_CONTENTS  <br/> |
 |Identificateur :  <br/> |0x360F  <br/> |
@@ -36,13 +36,13 @@ Contient un objet de table de contenu incorporé qui fournit des informations su
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut être exclue dans les opérations [IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluse dans les opérations [IMAPIProp::CopyProps.](imapiprop-copyprops.md) En tant que propriété de type PT_OBJECT, elle ne peut pas être récupérée avec succès par la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) ; Son contenu doit être accessible par la méthode [IMAPIProp::OpenProperty,](imapiprop-openproperty.md) en demandant l’identificateur IID_IMAPITable’interface. Les fournisseurs de services doivent le signaler à la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) si elle est définie, mais peuvent éventuellement la signaler ou non si elle n’est pas définie. 
+Cette propriété peut être exclue dans les opérations [IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluse dans les opérations [IMAPIProp::CopyProps](imapiprop-copyprops.md) . En tant que propriété de type PT_OBJECT, elle ne peut pas être récupérée avec succès par la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) ; Son contenu doit être accessible par la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) , en demandant l’identificateur IID_IMAPITable’interface. Les fournisseurs de services doivent le signaler à la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) si elle est définie, mais peuvent éventuellement la signaler ou non si elle n’est pas définie. 
   
-Pour récupérer le contenu de la table, une application cliente doit appeler la méthode [IMAPIContainer::GetContentsTable.](imapicontainer-getcontentstable.md) For more information, see [Tables des mati�res](contents-tables.md). 
+Pour récupérer le contenu de la table, une application cliente doit appeler la méthode [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) . For more information, see [Tables des mati�res](contents-tables.md). 
   
-Cette propriété, **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) et **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) sont similaires dans l’utilisation. Plusieurs propriétés MAPI permettent d’accéder aux tables : 
+Cette propriété, **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) et **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents) sont similaires](pidtagfolderassociatedcontents-canonical-property.md) dans l’utilisation. Plusieurs propriétés MAPI permettent d’accéder aux tables : 
   
-|**Propriété**|**Table**|
+|**Propriété**|**Tableau**|
 |:-----|:-----|
 |PidTagContainerContents  <br/> |Table Contents  <br/> |
 |**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Table Hierarchy  <br/> |
@@ -56,7 +56,7 @@ Cette propriété, **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtag
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

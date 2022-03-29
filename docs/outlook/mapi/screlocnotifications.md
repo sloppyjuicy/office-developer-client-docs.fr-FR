@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 22de5d38-7be6-48b3-90a7-bc553dcdb042
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 03ea2aba27b9ea19daa3ea48f6ae0373f48d49ce
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Ajuste un pointeur dans un tableau de notifications d’événements spécifié pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 2ac94addbfa6a5d3c5b9fd5a4fff4eff8c5c7337
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591205"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456286"
 ---
 # <a name="screlocnotifications"></a>ScRelocNotifications
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591205"
   
 Ajuste un pointeur dans un tableau de notifications d’événements spécifié. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -47,7 +47,7 @@ SCODE ScRelocNotifications(
 
  _cntf_
   
-> [in] Nombre de structures [NOTIFICATION](notification.md) dans le tableau indiqué par le _paramètre rgntf._ 
+> [in] Nombre de structures [DE NOTIFICATION](notification.md) dans le tableau indiqué par le  _paramètre rgntf_ . 
     
  _rgntf_
   
@@ -55,15 +55,15 @@ SCODE ScRelocNotifications(
     
  _pvBaseOld_
   
-> [in] Pointeur vers l’adresse de base d’origine du tableau indiquée par le _paramètre rgntf._ 
+> [in] Pointeur vers l’adresse de base d’origine du tableau indiquée par le  _paramètre rgntf_ . 
     
  _pvBaseNew_
   
-> [in] Emplacement auquel **ScRelocNotifications** écrit la nouvelle adresse de base du tableau indiqué par le _paramètre rgntf._ 
+> [in] Emplacement auquel **ScRelocNotifications** écrit la nouvelle adresse de base du tableau indiqué par le  _paramètre rgntf_ . 
     
  _pcb_
   
-> [out] Pointeur vers la taille, en octets, du tableau indiqué par le _paramètre pvBaseNew._ 
+> [out] Pointeur vers la taille, en octets, du tableau indiqué par le  _paramètre pvBaseNew_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

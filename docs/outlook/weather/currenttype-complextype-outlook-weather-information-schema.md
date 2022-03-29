@@ -1,5 +1,5 @@
 ---
-title: currentType complexType (Outlook Weather Information Schema)
+title: complexType currentType (Outlook Weather Information Schema)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,20 +8,20 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 9f4663ac-13d3-6c46-f839-ba6bca4047a3
 description: Définit les paramètres sur les conditions météorologiques actuelles d’un emplacement.
-ms.openlocfilehash: 8c49d732a6589ca1e4a69a43128cdd545c8b057b
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 82a2ce5e711428c5b5d7bae8a4db87f581e8d40f
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778691"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455180"
 ---
-# <a name="currenttype-complextype-outlook-weather-information-schema"></a>currentType complexType (Outlook Weather Information Schema)
+# <a name="currenttype-complextype-outlook-weather-information-schema"></a>complexType currentType (Outlook Weather Information Schema)
 
 Définit les paramètres sur les conditions météorologiques actuelles d’un emplacement.
   
 ## <a name="type-information"></a>Informations sur le type
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Fichier de schéma** <br/> |getweatherinfo.xsd  <br/> |

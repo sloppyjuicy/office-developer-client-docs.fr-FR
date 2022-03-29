@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: f89fd4ab-61b1-4405-89de-dfe599117a24
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 635b1392df936e8c89173287c999164f7bf9b585
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 303b8cd29a36570082aee18f597e6cddd9c8534b
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600063"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455271"
 ---
 # <a name="pidtaghomeaddresspostalcode-canonical-property"></a>Propriété canonique PidTagHomeAddressPostalCode
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600063"
   
 Contient le code postal de l’adresse postale de l’utilisateur.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_HOME_ADDRESS_POSTAL_CODE, PR_HOME_ADDRESS_POSTAL_CODE_A, PR_HOME_ADDRESS_POSTAL_CODE_W  <br/> |
 |Identificateur :  <br/> |0x3A5B  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

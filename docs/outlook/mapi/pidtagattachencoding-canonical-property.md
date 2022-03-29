@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 3b30cec6-da1e-4ef1-8c17-24b66f31cf0a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9716af43b65b8bbc9b1d2c3b8b0b3d549b635afd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f1582afd0c6d714eb2693cfafbf296cc1f62a625
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583582"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454473"
 ---
 # <a name="pidtagattachencoding-canonical-property"></a>Propriété canonique PidTagAttachEncoding
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583582"
   
 Contient un identificateur d’objet ASN.1 qui spécifie le codage d’une pièce jointe. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_ENCODING  <br/> |
 |Identificateur :  <br/> |0x3702  <br/> |
@@ -50,7 +50,7 @@ Pour plus d’informations sur ces identificateurs d’objets, voir la documenta
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

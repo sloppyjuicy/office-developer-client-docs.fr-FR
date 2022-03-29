@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2f5b6961-69c0-4103-bac7-cc0b22ab2c4f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: afef78cf82969adcf8245d936b1eba05669ddda6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0840fd2770751a69f81d242b8775d3e7550479f2
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550868"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454018"
 ---
 # <a name="pidnamepagecount-canonical-property"></a>Propriété canonique PidNamePageCount
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550868"
   
 Spécifie le nombre de pages du fichier joint au document.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: b5e896e7-c0c6-4ad1-bf91-9daba3a1e4d4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5640cafb5d9fd0b6ef1a5e838da425d868ba3379
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 781648edf242c2f883f18e58dc1ef81a67e1ba9e
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62787694"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454634"
 ---
 # <a name="pidtagadditionalrenentryidsex-canonical-property"></a>Propriété canonique PidTagAdditionalRenEntryIdsEx
 
@@ -27,7 +27,7 @@ ms.locfileid: "62787694"
   
 Contient des ID d’entrée de dossier spéciaux pour un objet store. Chaque entrée de cette propriété à valeurs multiples peut être mappée sur un ou plusieurs ID d’entrée, c’est-à-dire qu’il existe une relation un-à-plusieurs entre une entrée et ses ID d’entrée associés.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ADDITIONAL_REN_ENTRYIDS_EX  <br/> |
 |Identificateur :  <br/> |0x36D9  <br/> |
@@ -40,7 +40,7 @@ Si cette propriété est utilisée, elle contient un tableau de blocs qui spéci
   
 **Bloc PersistData**
 
-|**Name**|**Type (Type)**|**Taille**|**Description**|
+|**Nom**|**Type**|**Size**|**Description**|
 |:-----|:-----|:-----|:-----|
 |**PersistID** <br/> |WORD  <br/> |2  <br/> |Valeur d’identificateur de type **pour cette entrée PersistData** . Consultez le tableau « Valeurs PersistBlockType » pour obtenir la liste des valeurs valides. |
 |**DataElementsSize** <br/> |WORD  <br/> |2  <br/> |Taille, en octets, du **champ DataElements** . |
@@ -48,7 +48,7 @@ Si cette propriété est utilisée, elle contient un tableau de blocs qui spéci
    
 **Valeurs PersistBlockType**
 
-|**Name**|**Valeur**|**Description**|
+|**Nom**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |PERSIST_SENTINEL  <br/> |0x0000  <br/> |Indique qu’aucun autre **bloc PersistData** ne sera traitée. |
 |RSF_PID_RSS_SUBSCRIPTION  <br/> |0x8001  <br/> |Indique que ce bloc contient des données pour le dossier Abonnements RSS. |
@@ -65,7 +65,7 @@ Si la valeur **PersistBlockType** n’est pas l’une des valeurs définies ici,
   
 **PersistElementBlock**
 
-|**Name**|**Type (Type)**|**Taille**|**Description**|
+|**Nom**|**Type**|**Size**|**Description**|
 |:-----|:-----|:-----|:-----|
 |**ElementID** <br/> |WORD  <br/> |2  <br/> |Spécifie la valeur de l’identificateur de type pour ce **bloc PersistElement** . Consultez le tableau « Valeurs PersistElementType » pour obtenir la liste des valeurs valides. |
 |**ElementDataSize** <br/> |WORD  <br/> |2  <br/> |Spécifie la taille, en octets, du **champ ElementData** . |
@@ -73,7 +73,7 @@ Si la valeur **PersistBlockType** n’est pas l’une des valeurs définies ici,
    
 **Valeurs PersistElementType**
 
-|**Name**|**Valeur**|**Valeur de ElementDataSize**|**Description**|
+|**Nom**|**Valeur**|**Valeur de ElementDataSize**|**Description**|
 |:-----|:-----|:-----|:-----|
 |RSF_ELID_HEADER  <br/> |0x0002  <br/> |0x0004  <br/> |Indique que le champ **ElementData** de ce bloc contient une valeur d’en-tête DWORD. L’interprétation de cette valeur dépend du type **PersistID du** bloc. Pour tous **les types PersistID** [spécifiés dans [MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb.aspx), cette valeur est zéro. |
 |RSF_ELID_ENTRYID  <br/> |0x0001  <br/> |variable  <br/> |Indique que ce bloc contient **l’EntryID** du dossier spécifié par **PersistID**. |
@@ -87,7 +87,7 @@ Si la valeur **PersistElementType** n’est pas l’une des valeurs définies ic
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   

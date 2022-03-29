@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 47e01131-f399-43cb-9815-aba69638c3fb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5e5a8820161cb675f07b792e0ddafeabdfb07fb1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 222780d2bd02b969304e9104631c89cd53ad28d8
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563860"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455152"
 ---
 # <a name="pidtagattachflags-canonical-property"></a>Propriété canonique PidTagAttachFlags
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563860"
   
 Contient un masque de bits d’indicateurs pour une pièce jointe. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_FLAGS  <br/> |
 |Identificateur :  <br/> |0x3714  <br/> |
@@ -38,7 +38,7 @@ Contient un masque de bits d’indicateurs pour une pièce jointe.
 
 Cette propriété est utilisée pour la prise en charge MHTML. 
   
-Un ou plusieurs des indicateurs suivants peuvent être définies pour PR_ATTACH_FLAGS **masque** de bits : 
+Un ou plusieurs des indicateurs suivants peuvent être définies pour **PR_ATTACH_FLAGS masque de** bits : 
   
 ATT_INVISIBLE_IN_HTML 
   
@@ -56,7 +56,7 @@ Si la **PR_ATTACH_FLAGS** est zéro ou absente, la pièce jointe doit être trai
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

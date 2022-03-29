@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8bc40ebf-76f2-49dd-af4b-4095bc07c639
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 132b4979a7be99ee4a1635383a8ae1700e92fe89
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d9fb6c7da4008263819d80eda062172ca8144997
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583477"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455285"
 ---
 # <a name="pidtagfreebusyentryids-canonical-property"></a>Propriété canonique PidTagFreeBusyEntryIds
 
@@ -25,9 +25,9 @@ ms.locfileid: "59583477"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les **EntryIDs** du message d’informations de délégué, le message de libre/occupé de l’utilisateur connecté et le dossier dont la **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) est égale à « FreeBusy Data ».
+Contient les **EntryIDs** du message d’informations du délégué, le message de libre/occupé de l’utilisateur connecté et le dossier dont la **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) est égale à « FreeBusy Data ».
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FREEBUSY_ENTRYIDS  <br/> |
 |Identificateur :  <br/> |0x36E4  <br/> |
@@ -40,7 +40,7 @@ Contient les **EntryIDs** du message d’informations de délégué, le message 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   

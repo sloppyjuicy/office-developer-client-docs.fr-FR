@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bcc0cda0-02bc-49a5-9fb9-850b4c2867c1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9e97670402aa98e03f784aa31f93758eae989def
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1f10369c0aa866cffbbdfd305118e53d63ecd18d
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571282"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454501"
 ---
 # <a name="pidnamekeywords-canonical-property"></a>Propriété canonique PidNameKeywords
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571282"
   
 Contient des mots clés ou des catégories pour l’objet message.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
@@ -37,7 +37,7 @@ Contient des mots clés ou des catégories pour l’objet message.
    
 ## <a name="remarks"></a>Remarques
 
-Une valeur à chaînes multiples qui spécifie les catégories d’un objet message, la longueur de chaque chaîne au sein de cette chaîne à valeurs multiples de propriété, doit être inférieure à 256.
+Une valeur à chaînes multiples qui spécifie les catégories d’un objet message, la longueur de chaque chaîne au sein de cette chaîne à valeurs multiples, doit être inférieure à 256.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -49,7 +49,7 @@ Une valeur à chaînes multiples qui spécifie les catégories d’un objet mess
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 694d40e9-cff2-435e-ad90-446044c306d2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9ea204f2f1cf324b4276563005c2cd90ac53e0c0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cartes valeur d’un nom complet pour cette valeur pour les Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 97a2e45f639ebb26bb59e5efa299f6b0d88c85a6
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59549909"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455509"
 ---
 # <a name="smapiformpropenumval"></a>SMAPIFormPropEnumVal
 
@@ -25,9 +25,9 @@ ms.locfileid: "59549909"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cartes une valeur d’un nom complet pour cette valeur. 
+Cartes valeur d’un nom complet pour cette valeur. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
    
@@ -44,11 +44,11 @@ typedef struct _SMAPIFormPropEnumVal
 
  **pszDisplayName**
   
-> Chaîne qui contient le nom complet de la valeur spécifiée dans le membre **nVal.** 
+> Chaîne qui contient le nom complet de la valeur spécifiée dans le membre **nVal** . 
     
  **nVal**
   
-> Valeur d’éumération pour le nom complet pointé par le membre **pszDisplayName.** 
+> Valeur d’éumération pour le nom complet pointé par le membre **pszDisplayName** . 
     
 ## <a name="remarks"></a>Remarques
 

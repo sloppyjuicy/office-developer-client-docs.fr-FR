@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bc9b00b6-6337-411b-9219-067dd6c1add3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e38673495daf7bdb2bb4583cc8e328d36373da38
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6513601b8ed26188e9c28b2124cd2e8bee38379e
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604347"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454116"
 ---
 # <a name="pidnamecomments-canonical-property"></a>Propriété canonique PidNameComments
 
@@ -27,11 +27,11 @@ ms.locfileid: "59604347"
   
 Spécifie les commentaires du fichier joint au document.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nom de la propriété :  <br/> |Commentaires  <br/> |
+|Nom de la propriété :  <br/> |Comments  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Courant  <br/> |
    

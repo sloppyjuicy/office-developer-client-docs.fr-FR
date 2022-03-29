@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7ca01bf7-5185-41cc-907e-01f256345997
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1a9f5b2d26c4cfaa0232193e1a75ca3a7edca7a7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Crée une structure nommée qui inclut une structure DTBLGROUPBOX pour décrire un contrôle de zone de groupe et une étiquette d’une longueur spécifiée.
+ms.openlocfilehash: ca66c050b7be7846178da49fd3912ce51433ea6e
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566674"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455236"
 ---
 # <a name="sizeddtblgroupbox"></a>SizedDtblGroupBox
 
@@ -25,7 +25,7 @@ ms.locfileid: "59566674"
   
 Crée une structure nommée qui inclut une structure [DTBLGROUPBOX](dtblgroupbox.md) pour décrire un contrôle de zone de groupe et une étiquette d’une longueur spécifiée. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**DTBLGROUPBOX** <br/> |
@@ -54,7 +54,7 @@ TCHAR lpszLabel[n];
 
 ```
 
-Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblGroupBox** en tant que pointeur de structure **DTBLGROUPBOX,** effectuez la distribution suivante : 
+Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblGroupBox** en tant que pointeur de structure **DTBLGROUPBOX** , effectuez la distribution suivante : 
   
 ```cpp
 lpDtblGroupBox = (LPDTBLGROUPBOX) &SizedDtblGroupBox;

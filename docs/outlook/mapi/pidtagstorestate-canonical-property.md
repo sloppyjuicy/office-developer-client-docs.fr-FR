@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 36e49cf5-1411-42c5-9112-09958243996d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c1607fd14527f64f68673396a2e77639d21b770b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un indicateur qui décrit l’état de la boutique de messages. Cette propriété est dynamique et peut changer en fonction des actions de l’utilisateur.
+ms.openlocfilehash: 0d0fb5b5e9454272106bd496c38f21f4fc013a8a
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578941"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455565"
 ---
 # <a name="pidtagstorestate-canonical-property"></a>Propriété canonique PidTagStoreState
 
@@ -27,7 +27,7 @@ ms.locfileid: "59578941"
   
 Contient un indicateur qui décrit l’état de la boutique de messages. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_STORE_STATE  <br/> |
 |Identificateur :  <br/> |0x340E  <br/> |
@@ -36,7 +36,7 @@ Contient un indicateur qui décrit l’état de la boutique de messages.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est dynamique et peut changer en fonction des actions de l’utilisateur, contrairement à la **propriété PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
+Cette propriété est dynamique et peut changer en fonction des actions de l’utilisateur, contrairement à la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
   
 La valeur suivante peut être définie :
   
@@ -50,7 +50,7 @@ STORE_HAS_SEARCHES
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   

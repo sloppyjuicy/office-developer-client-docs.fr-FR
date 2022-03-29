@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 86b3eab2-2594-4204-aedf-8ce2ee3b81ce
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4084dd8930746ce5027c6a4069ca61eff8513b5f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 017f31970f12407f221088a6ebdac5fd3a59b1c9
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777333"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456160"
 ---
 # <a name="pidlidsharingcapabilities-canonical-property"></a>Propriété canonique PidLidSharingCapabilities
 
@@ -27,7 +27,7 @@ ms.locfileid: "62777333"
   
 Désigne comme propriété d’un message de partage.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingCaps  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |

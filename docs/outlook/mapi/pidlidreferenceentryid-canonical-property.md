@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 42e7c3ac-1a04-4e3f-bf99-ef3f8fc45892
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e033455e2f939136132dcd4c0e9c5480a24bae55
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 72b95927f4abfbd68f0ac879770d6e47ac00b3b0
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583722"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454984"
 ---
 # <a name="pidlidreferenceentryid-canonical-property"></a>Propriété canonique PidLidReferenceEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583722"
   
 Spécifie la référence [ENTRYID](entryid.md) pour le contact. 
   
-|||
+|Property|valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidReferenceEID  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

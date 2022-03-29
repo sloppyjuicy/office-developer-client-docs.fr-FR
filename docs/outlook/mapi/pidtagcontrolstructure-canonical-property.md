@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 02910389-b346-431c-a282-dedbc9f7dfc6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c5317bd7b7c423b69333f1ee35a5086c0d7b3646
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ec365abdce339f2e1c1aa34c6ee01527cfce3d25
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563727"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455138"
 ---
 # <a name="pidtagcontrolstructure-canonical-property"></a>Propriété canonique PidTagControlStructure
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563727"
   
 Contient un pointeur vers une structure pour un contrôle utilisé dans une boîte de dialogue. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTROL_STRUCTURE  <br/> |
 |Identificateur :  <br/> |0x3F01  <br/> |
@@ -38,7 +38,7 @@ Contient un pointeur vers une structure pour un contrôle utilisé dans une boî
 
 Cette propriété représente un pointeur long qui est casté vers l’une des structures de contrôle. Les structures de contrôle sont les suivantes :
   
-|||
+|Structure des contrôles|Structure du contrôle (suite)|
 |:-----|:-----|
 |[DTBLBUTTON](dtblbutton.md) <br/> |[DTBLCHECKBOX](dtblcheckbox.md) <br/> |
 |[DTBLCOMBOBOX](dtblcombobox.md) <br/> |[DTBLDDLBX](dtblddlbx.md) <br/> |

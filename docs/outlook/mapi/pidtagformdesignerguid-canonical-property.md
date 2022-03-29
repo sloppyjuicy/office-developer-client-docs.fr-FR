@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8d7f5789-610c-47f6-a109-5513d677ef60
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bbb798ce69dc0a4f66a6c6364e8e691908cee5f1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d069a940dd211e9445f950e4f0f1e8d51be6ee47
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550590"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64452191"
 ---
 # <a name="pidtagformdesignerguid-canonical-property"></a>Propriété canonique PidTagFormDesignerGuid
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550590"
   
 Contient l’identificateur unique de l’objet utilisé pour concevoir un formulaire.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_DESIGNER_GUID  <br/> |
 |Identificateur :  <br/> |0x3309  <br/> |

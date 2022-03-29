@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a63d647-7504-42fc-b317-6b02b89070eb
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 390a298753c0e98635c55da11a4ae28588735b4e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom d’un service de message tel que définie par l’utilisateur dans le fichier MapiSvc.inf. Le nom contenu dans ces propriétés est spécifique au service de message.
+ms.openlocfilehash: d6a6bfe13ebfd481b61473ca083bd241bb61b82b
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591415"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456020"
 ---
 # <a name="pidtagservicename-canonical-property"></a>Propriété canonique PidTagServiceName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591415"
   
 Contient le nom d’un service de message tel que définie par l’utilisateur dans le fichier MapiSvc.inf.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SERVICE_NAME, PR_SERVICE_NAME_A, PR_SERVICE_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3D09  <br/> |

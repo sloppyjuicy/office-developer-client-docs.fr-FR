@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 644e8d3d-1792-4417-95a1-e978d0e6cd8e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 35b02523f8535bddc021af5445f4b8b1f748c464
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fc3e6479ac0de6d174fd102a9ee5130d376c43d2
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579088"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456048"
 ---
 # <a name="pidtagexpirynumber-canonical-property"></a>Propriété canonique PidTagExpiryNumber
 
@@ -25,9 +25,9 @@ ms.locfileid: "59579088"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit l’heure d’envoi d’expiration conjointement avec **la propriété PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)).
+Définit l’heure d’envoi d’expiration en association **PR_EXPIRY_UNITS propriété (**[PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)).
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EXPIRY_NUMBER  <br/> |
 |Identificateur :  <br/> |0x3FED  <br/> |

@@ -8,20 +8,20 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: de3c35ef-84a3-b991-7c98-3eca720c9ba0
 description: Spécifie les conditions météorologiques d’un emplacement.
-ms.openlocfilehash: 404357c29a5b9467b1f77691a73b0846dec2b13d
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 8bb9ed8c835e1357c5bd572a6ffa3b8604fe4eb3
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770639"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455894"
 ---
 # <a name="weather-element-weatherdata-element-outlook-weather-information-schema"></a>élément météo (élément weatherdata) (Outlook Weather Information Schema)
 
 Spécifie les conditions météorologiques d’un emplacement.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
@@ -41,13 +41,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[weatherdata](weatherdata-element-outlook-weather-information-schema.md) <br/> ||Définit l’élément météo. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[current](current-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[currentType](currenttype-complextype-outlook-weather-information-schema.md) <br/> |Spécifie les conditions météorologiques actuelles. |
 |[forecast](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[forecastType](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |Spécifie les conditions météorologiques futures d’au moins trois jours à l’avance, y compris aujourd’hui : Aujourd’hui, Demain, Jour après Demain. |

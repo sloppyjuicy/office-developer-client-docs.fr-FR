@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e29190c5-52c3-4ef7-98db-699487c54325
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fcd890f9fa7055abfd4eb6765434992e758ecb32
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un masque de bits d’indicateurs qui indiquent l’état actuel d’une ressource de session. Le code d’état doit apparaître dans le fichier Mapisvc.inf pour tous les fournisseurs.
+ms.openlocfilehash: feb7511c87d499888fad1451cffcf6c113423caf
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599395"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454753"
 ---
 # <a name="pidtagstatuscode-canonical-property"></a>Propriété canonique PidTagStatusCode
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599395"
   
 Contient un masque de bits d’indicateurs qui indiquent l’état actuel d’une ressource de session. Tous les fournisseurs de services définissent des codes d’état, de même que MAPI pour signaler l’état du sous-système, dupooler MAPI et du carnet d’adresses intégré.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_STATUS_CODE  <br/> |
 |Identificateur :  <br/> |0x3E04  <br/> |
@@ -52,7 +52,7 @@ STATUS_OFFLINE
   
 > Indique que seuls les services ou données locaux sont disponibles.
     
-Les fournisseurs de transport peuvent également définir les propriétés d’PR_STATUS_CODE **de** leurs objets d’état sur les valeurs suivantes : 
+Les fournisseurs de transport peuvent également définir les propriétés de **PR_STATUS_CODE de leurs** objets d’état sur les valeurs suivantes : 
   
 STATUS_INBOUND_ACTIVE 
   

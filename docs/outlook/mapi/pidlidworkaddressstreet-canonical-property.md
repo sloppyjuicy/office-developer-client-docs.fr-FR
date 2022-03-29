@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 97000013-1950-4e15-8e58-35d793a5faca
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5ffc73d7c33656318b4533a2a7ad0ebf57c93a7e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 83d427c5d376d6124b6827eaa646e387129838a8
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604361"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454970"
 ---
 # <a name="pidlidworkaddressstreet-canonical-property"></a>Propriété canonique PidLidWorkAddressStreet
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604361"
   
 Spécifie la partie rue de l’adresse postale de travail du contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidWorkAddressStreet  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

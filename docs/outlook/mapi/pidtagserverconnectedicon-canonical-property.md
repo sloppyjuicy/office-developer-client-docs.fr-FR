@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8adbc29b-8fb1-474f-b128-b8fc58283b92
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 699977f32d63ace1693b526b7e4f9e01f828f812
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie l’icône affichée dans la barre d’état Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: b113f082921e60a235d784103a889246cf35cb04
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613232"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456363"
 ---
 # <a name="pidtagserverconnectedicon-canonical-property"></a>Propriété canonique PidTagServerConnectedIcon
 
@@ -23,7 +23,7 @@ ms.locfileid: "59613232"
   
 Spécifie l’icône affichée dans la barre d’état.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SERVER_CONNECTED_ICON  <br/> |
 |Identificateur :  <br/> |0x341E  <br/> |

@@ -1,19 +1,19 @@
 ---
-title: Télécharger État du message
+title: Télécharger message
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 7fdc1494-4f40-38bd-d363-144ca70e5906
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f8ab2d0326e8948cb27f67376238caff50935ba2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette rubrique décrit ce qui se produit pendant le chargement de l’état du message de la machine à états de réplication.
+ms.openlocfilehash: 6da06208f4a64f03173990f97788de7fd11781a9
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578409"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455194"
 ---
-# <a name="upload-message-state"></a>Télécharger État du message
+# <a name="upload-message-state"></a>Télécharger message
 
   
   
@@ -23,7 +23,7 @@ ms.locfileid: "59578409"
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Identificateur d’état :  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |
 |Structure de données associée :  <br/> |**[UPMSG](upmsg.md)** <br/> |
@@ -35,13 +35,13 @@ ms.locfileid: "59578409"
   
 ## <a name="description"></a>Description
 
-Cet état lance le téléchargement d’un élément Outlook (courrier, calendrier, contact, tâche, note ou journal) qui est nouveau ou qui a été déplacé vers le dossier actuel ou qui a été modifié. Outlook initialise la structure de données **UPMSG** corrélée avec les informations appropriées pour l’élément comme étant ajouté, déplacé ou modifié. 
+Cet état lance le téléchargement d’un élément Outlook (courrier, calendrier, contact, tâche, note ou journal) qui est nouveau ou qui a été déplacé vers le dossier actuel ou qui a été modifié. Outlook initialise la structure de données **UPMSG** corrélée avec les informations appropriées pour l’élément comme ajouté, déplacé ou modifié. 
   
 Si l’élément a été ajouté ou déplacé, le client ajoute ou met à jour correctement l’élément sur le serveur. 
   
 Si l’élément a été modifié, Outlook spécifie dans la structure de données **UPMSG** si les modifications sont dans un en-tête de message (auquel cas l’élément est l’en-tête du message), dans les propriétés de l’élément ou dans l’élément lui-même nécessitant une résolution de conflit. Le client met ensuite à jour l’élément sur le serveur. 
   
-Lorsque le chargement de l’élément se termine, Outlook remarque que le message a été téléchargé, afin qu’il ne soit pas traitée dans un téléchargement ultérieur. La boutique locale revient à l’état de la table de chargement.
+Lorsque le chargement de l’élément se termine, Outlook remarque que le message a été téléchargé, afin qu’il ne soit pas traitée lors d’un téléchargement ultérieur. La boutique locale revient à l’état de la table de chargement.
   
 ## <a name="see-also"></a>Voir aussi
 

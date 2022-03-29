@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: edb0782c-6671-4e98-9028-a2f9ad547c1d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 08898fc49d7a0f83d346534c6de5482d44b2af4e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c077ef0908b5db56b49333c99a21d30897d8b533
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575077"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456111"
 ---
 # <a name="pidtagassistanttelephonenumber-canonical-property"></a>Propriété canonique PidTagAssistantTelephoneNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59575077"
   
 Contient le numéro de téléphone de l’assistant administratif du destinataire. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ASSISTANT_TELEPHONE_NUMBER, PR_ASSISTANT_TELEPHONE_NUMBER_A, PR_ASSISTANT_TELEPHONE_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A2E  <br/> |
@@ -46,7 +46,7 @@ Le numéro de téléphone est pour l’assistant spécifié dans la **propriét�
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

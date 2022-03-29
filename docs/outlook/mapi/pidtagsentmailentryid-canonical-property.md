@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f14dc15-d7d7-4894-b6a8-0d589f576c42
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 50e80e5d9ae84b9e319fe19276e285cd1cb3ed8a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée du dossier dans lequel le message doit être déplacé après l’envoi.
+ms.openlocfilehash: d5e9f6b2709343c490239c22a02eaa83f4154943
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550434"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456034"
 ---
 # <a name="pidtagsentmailentryid-canonical-property"></a>Propriété canonique PidTagSentMailEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550434"
   
 Contient l’identificateur d’entrée du dossier dans lequel le message doit être déplacé après l’envoi.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SENTMAIL_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x0E0A  <br/> |
@@ -36,9 +36,9 @@ Contient l’identificateur d’entrée du dossier dans lequel le message doit �
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est souvent copiée à partir de **la propriété PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)), le dossier Éléments envoyés standard de l’application cliente.
+Cette propriété est souvent copiée à partir de la propriété **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)), le dossier Éléments envoyés standard de l’application cliente.
   
-L’application cliente utilise cette propriété **avec la propriété PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) pour contrôler ce qu’il advient d’un message après qu’il a été envoyé. L’une ou l’autre doit être définie, mais pas les deux.
+L’application cliente utilise cette propriété avec la **propriété PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) pour contrôler ce qu’il advient d’un message après qu’il a été envoyé. L’une ou l’autre doit être définie, mais pas les deux.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ L’application cliente utilise cette propriété **avec la propriété PR_DELET
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

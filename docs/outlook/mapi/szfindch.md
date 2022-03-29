@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3406d060-bfea-4cea-8253-2a9aeb9e8147
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ec1e2510b11f5162a8bfc7f2467c4b5213288a53
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: Recherche la première occurrence d’un caractère dans une chaîne terminée par null. Les recherches dans les formats Unicode et DBCS sont pris en charge.
+ms.openlocfilehash: 5594aaa3d514cd8e7bd1a4940cc21e42ee01b2fe
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461721"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456230"
 ---
 # <a name="szfindch"></a>SzFindCh
  
@@ -25,7 +25,7 @@ ms.locfileid: "62461721"
   
 Recherche la première occurrence d’un caractère dans une chaîne terminée par null. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

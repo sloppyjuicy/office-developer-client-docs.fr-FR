@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a18b560a-e054-45b3-946d-6504465db5b7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 86105f1adb1fa464e2577229db936f1be4d7427e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 861662d1746101bf7f28b25b6dbd1e1bd7b23ccf
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566807"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454424"
 ---
 # <a name="pidtagconversionwithlossprohibited-canonical-property"></a>Propriété canonique PidTagConversionWithLossProhibited
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566807"
   
 Contient TRUE si un agent de transfert de messages (MTA) ne peut pas effectuer de conversions de texte de message qui perdent des informations. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONVERSION_WITH_LOSS_PROHIBITED  <br/> |
 |Identificateur :  <br/> |0x000D  <br/> |
@@ -36,7 +36,7 @@ Contient TRUE si un agent de transfert de messages (MTA) ne peut pas effectuer d
    
 ## <a name="remarks"></a>Remarques
 
-Un exemple du type de conversion interdit est le mappage « perte » d’Unicode (deux octets par caractère) en un jeu de caractères à un octet. 
+Un exemple du type de conversion interdit est le mappage « perte » d’Unicode (deux octets par caractère) en un jeu de caractères sur un octet. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

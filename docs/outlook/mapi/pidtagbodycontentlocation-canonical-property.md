@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a66d1c64-5c5a-4980-9acd-72448108fd2c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6e33aebdc567c8d9897c2ed532aed97ffa81e53b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 96e73152b037b73501a925f0b45252111733a5c6
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616571"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454900"
 ---
 # <a name="pidtagbodycontentlocation-canonical-property"></a>Propriété canonique PidTagBodyContentLocation
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616571"
   
 Contient la valeur d’un champ d’en-tête d’emplacement de contenu MIME.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_BODY_CONTENT_LOCATION, PR_BODY_CONTENT_LOCATION_A, PR_BODY_CONTENT_LOCATION_W  <br/> |
 |Identificateur :  <br/> |0x1014  <br/> |
@@ -46,7 +46,7 @@ Les lecteurs MIME doivent copier la valeur d’un champ d’en-tête Content-Loc
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   

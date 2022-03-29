@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6a0dff65-1055-487c-9d15-4cfe336f2ad7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: af16c7ab02a2cc5dbc72f828d29e292547051d95
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un tableau de valeurs d’heure utilisées pour décrire une propriété de type PT_MV_SYSTIME pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 067b218891d1e3cf65cd1414c882880c069e4ddd
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578689"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454711"
 ---
 # <a name="sdatetimearray"></a>SDateTimeArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "59578689"
   
 Contient un tableau de valeurs d’heure utilisées pour décrire une propriété de type PT_MV_SYSTIME.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -44,7 +44,7 @@ typedef struct _SDateTimeArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau pointées par **le membre lpft.** 
+> Nombre de valeurs dans le tableau pointées par **le membre lpft** . 
     
  **lpft**
   
@@ -52,7 +52,7 @@ typedef struct _SDateTimeArray
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations PT_MV_SYSTIME, voir [Liste des types de propriétés.](property-types.md)
+Pour plus d’informations sur PT_MV_SYSTIME, voir [Liste des types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

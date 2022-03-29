@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0949e066-aa28-4ede-ac88-b2dccd5098e8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3930b69acc0d9710470e55661f80d180f02753d1
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: Crée un flux de texte au format Texte enrichi non compressé à partir du format compressé utilisé dans PR_RTF_COMPRESSED propriété.
+ms.openlocfilehash: e7910880ace856899a9c2bb19de40c407edc8640
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62463148"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455474"
 ---
 # <a name="wrapcompressedrtfstream"></a>WrapCompressedRTFStream
 
@@ -27,7 +27,7 @@ ms.locfileid: "62463148"
   
 Crée un flux de texte au format RTF (Rich Text Format) non compressé à partir du format compressé utilisé dans la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

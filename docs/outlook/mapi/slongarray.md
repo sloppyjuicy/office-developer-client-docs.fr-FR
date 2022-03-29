@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 57435634-202d-4998-9931-4562f1a66f5f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d1f987f87fb07912115057aed82c0e592e0695c5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un tableau de types de valeur LONG utilisés pour décrire une propriété de type PT_MV_LONG.
+ms.openlocfilehash: e5598ce83cade0df1337596e1add17d65e0b77a6
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619735"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455222"
 ---
 # <a name="slongarray"></a>SLongArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "59619735"
   
 Contient un tableau de types de valeur LONG utilisés pour décrire une propriété de type PT_MV_LONG. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -44,7 +44,7 @@ typedef struct _SLongArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau pointées par le **membre lpl.** 
+> Nombre de valeurs dans le tableau pointées par le **membre lpl** . 
     
  **lpl**
   
@@ -52,7 +52,7 @@ typedef struct _SLongArray
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur PT_MV_LONG, voir [Liste des types de propriétés.](property-types.md)
+Pour plus d’informations sur PT_MV_LONG, voir [Liste des types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

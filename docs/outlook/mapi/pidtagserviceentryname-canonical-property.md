@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 783f08aa-fb5a-432d-b8bd-48d69f0e5c38
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 139820a451c17f285bab384a6455ec233b8988b9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom de la fonction de point d’entrée pour la configuration d’un service de message pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: fcec671c7a602eeada804431b3754d5ee11dd2d3
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599416"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454592"
 ---
 # <a name="pidtagserviceentryname-canonical-property"></a>Propriété canonique PidTagServiceEntryName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599416"
   
 Contient le nom de la fonction de point d’entrée pour la configuration d’un service de message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SERVICE_ENTRY_NAME  <br/> |
 |Identificateur :  <br/> |0x3D0B  <br/> |
@@ -38,9 +38,9 @@ Contient le nom de la fonction de point d’entrée pour la configuration d’un
 
 Il est recommandé que les implémenteurs de service de message fournissent un point d’entrée de service de message, mais le point d’entrée n’est pas obligatoire. Toutefois, le point d’entrée doit être fourni uniquement si les propriétés de configuration associées existent. Si ces propriétés n’existent pas, MAPI suppose qu’aucun point d’entrée n’est fourni.
   
-La bibliothèque de liens dynamiques (DLL) dans laquelle la fonction de point d’entrée apparaît est nommée par la **propriété PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)).
+La bibliothèque de liens dynamiques (DLL) dans laquelle la fonction de point d’entrée apparaît est nommée par la propriété **PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)).
   
-Pour plus d’informations sur les points d’entrée de service de message, voir [Implementing a Service Provider Entry Point Function](implementing-a-service-provider-entry-point-function.md).
+Pour plus d’informations sur les points d’entrée du service de messagerie, voir [Implementing a Service Provider Entry Point Function](implementing-a-service-provider-entry-point-function.md).
   
 ## <a name="related-resources"></a>Ressources connexes
 

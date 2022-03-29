@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: fd236d74-2868-46a8-bb3d-17f8365931b6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 95bad8593130ed66868b4b0bffc3c87caf46c1c7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a449ac4cad4d8dc4139619d12342993390caffbb
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563496"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454809"
 ---
 # <a name="pidtaghasattachments-canonical-property"></a>Propriété canonique PidTagHasAttachments
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563496"
   
 Contient TRUE si un message contient au moins une pièce jointe. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_HASATTACH  <br/> |
 |Identificateur :  <br/> |0x0E1B  <br/> |
@@ -36,9 +36,9 @@ Contient TRUE si un message contient au moins une pièce jointe.
    
 ## <a name="remarks"></a>Remarques
 
-La boutique de messages copie cette propriété à partir **de l MSGFLAG_HASATTACH** de la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). Une application cliente peut ensuite **utiliser** PR_HASATTACH pour trier les pièces jointes des messages dans une visionneuse de messages. 
+La boutique de messages copie cette propriété à partir **de l MSGFLAG_HASATTACH** de la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). Une application cliente peut **ensuite utiliser PR_HASATTACH** pour trier les pièces jointes des messages dans une visionneuse de messages. 
   
-La valeur de cette propriété est mise à jour avec la [méthode IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
+La valeur de cette propriété est mise à jour avec la [méthode IMAPIProp::SaveChanges](imapiprop-savechanges.md) . 
   
 ## <a name="related-resources"></a>Ressources connexes
 

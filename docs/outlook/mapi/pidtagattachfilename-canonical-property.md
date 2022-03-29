@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: cbf34dd6-7733-47f6-9c41-9d82656ca9dc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fd3796c6c05055fd29953c01f1a6495e88342b5c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cea12e3ee178f8ba59e353abc40f88a6dbc64eb4
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563874"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456104"
 ---
 # <a name="pidtagattachfilename-canonical-property"></a>Propriété canonique PidTagAttachFilename
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563874"
   
 Contient le nom et l’extension du fichier de base d’une pièce jointe, à l’exclusion du chemin d’accès.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_FILENAME, PR_ATTACH_FILENAME_A, PR_ATTACH_FILENAME_W  <br/> |
 |Identificateur :  <br/> |0x3704  <br/> |
@@ -36,7 +36,7 @@ Contient le nom et l’extension du fichier de base d’une pièce jointe, à l�
    
 ## <a name="remarks"></a>Remarques
 
-Il est recommandé que les objets de pièce jointe exposent ces propriétés qui se rapportent aux valeurs **ATTACH_BY_VALUE**, **ATTACH_BY_REFERENCE,** **ATTACH_BY_REF_RESOLVE** et **ATTACH_BY_REF_ONLY** de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)). **PR_ATTACH_FILENAME** propriétés associées sont requises lorsque l’une de ces valeurs est utilisée. 
+Il est recommandé que les objets en pièce jointe exposent ces propriétés qui se rapportent aux valeurs **ATTACH_BY_VALUE**, **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE** et **ATTACH_BY_REF_ONLY** de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)). **PR_ATTACH_FILENAME** propriétés associées sont requises lorsque l’une de ces valeurs est utilisée. 
   
 Ces propriétés peuvent être utilisées comme nom de fichier suggéré pour l’enregistrement de la pièce jointe et pour fournir l’extension de nom de fichier si la propriété **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) n’est pas fournie. 
   
@@ -50,7 +50,7 @@ MAPI fonctionne uniquement avec les noms de fichiers et les autres chaînes qui 
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
@@ -66,7 +66,7 @@ MAPI fonctionne uniquement avec les noms de fichiers et les autres chaînes qui 
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

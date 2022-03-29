@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56288f55-b3ba-42df-9c90-f9b5857f19a1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e9d462cb25c4af82a6c9afb7cf9c186100b74ca0
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Contient l’ID du modèle utilisé pour la recherche. Cette propriété du message définit le dossier de recherche qui identifie son modèle correspondant.
+ms.openlocfilehash: e8f6659d02780913c46b478ce8dc0622d9b59e4b
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63381116"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455110"
 ---
 # <a name="pidtagsearchfoldertemplateid-canonical-property"></a>Propriété canonique PidTagSearchFolderTemplateId
 
@@ -25,12 +25,12 @@ ms.locfileid: "63381116"
   
 Contient l’ID du modèle utilisé pour la recherche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_WB_SF_TEMPLATE_ID  <br/> |
 |Identificateur :  <br/> |0x6841  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Rechercher  <br/> |
+|Domaine :  <br/> |Recherche  <br/> |
 
 ## <a name="remarks"></a>Remarques
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 762020d1-4bc8-d60d-0f66-3929aae24bfb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 987ff9ddb4d68bb117da0b1259d852f8c4f311f8
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 00ca50f31298c3ab10011d44866a527512ece7e4
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63382299"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454627"
 ---
 # <a name="pidtagagingperiod-canonical-property"></a>Propriété canonique PidTagAgingPeriod
 
@@ -25,7 +25,7 @@ ms.locfileid: "63382299"
   
 Représente le nombre d’unités de temps utilisées pour déterminer la durée pendant combien de temps un élément reste dans un dossier avant l’archivage de l’élément.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_AGING_PERIOD  <br/> |
 |Identificateur :  <br/> |0x36EC  <br/> |
@@ -38,7 +38,7 @@ La durée pendante pendant qui reste un élément dans un dossier avant d’êtr
   
 Les valeurs possibles **pour PR_AGING_GRANULARITY** peuvent être l’une des valeurs suivantes.
   
-|**Name**|**Description**|
+|**Nom**|**Description**|
 |:-----|:-----|
 |**AG_MONTHS** <br/> |**PR_AGING_PERIOD** est défini en nombre de mois. |
 |**AG_WEEKS** <br/> |**PR_AGING_PERIOD** est défini en nombre de semaines. |

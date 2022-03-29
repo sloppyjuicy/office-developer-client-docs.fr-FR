@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 231c288f-547b-4463-9442-1499661b925e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bb813792b864fa414a9bd9b6f7160df6dbd2ae23
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 03d94735645080d10de2e7615823cb853cbd3fa5
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583491"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454872"
 ---
 # <a name="pidtagdefaultpostmessageclass-canonical-property"></a>Propriété canonique PidTagDefaultPostMessageClass
 
@@ -25,9 +25,9 @@ ms.locfileid: "59583491"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom d’une classe de message de formulaire personnalisé.
+Contient le nom d’une classe message de formulaire personnalisée.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DEF_POST_MSGCLASS  <br/> |
 |Identificateur :  <br/> |0x36E5  <br/> |
@@ -36,7 +36,7 @@ Contient le nom d’une classe de message de formulaire personnalisé.
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété est définie sur un dossier, la valeur doit contenir exactement la classe de message de base (par exemple, « IPM ». Contact » pour un dossier de contacts ou « IPM ». Rendez-vous » pour un dossier de calendrier) ou commencez par la classe de message de base (par exemple, « IPM. Contact.MyContact »).
+Si cette propriété est définie sur un dossier, la valeur doit contenir exactement la classe de message de base (par exemple, « IPM ». Contact » pour un dossier de contacts ou « IPM ». Rendez-vous » pour un dossier de calendrier) ou commencez par la classe de message de base (par exemple, « IPM ». Contact.MyContact »).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Si cette propriété est définie sur un dossier, la valeur doit contenir exacte
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 45abee1c-d7fb-b0f9-522d-8ba34caf1094
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 21b5ca366ffbd3bfeca99285a880f41723cc344c
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Décompresse le corps d’un message électronique au format RTF compressé, ce qui indique le format du flux et renvoie le flux natif décompressé ou converti.
+ms.openlocfilehash: 636a1a3f9c4d7108481ed09645b4ab98f869748a
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63377028"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454529"
 ---
 # <a name="wrapcompressedrtfstreamex"></a>WrapCompressedRTFStreamEx
 
@@ -23,7 +23,7 @@ Décompresse le corps d’un message électronique au format RTF (Compressed Ric
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Exporté par :  <br/> |msmapi32.dll  <br/> |
 |Appelé par :  <br/> |Client  <br/> |

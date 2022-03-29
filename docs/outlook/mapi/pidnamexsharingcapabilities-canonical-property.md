@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 62319e45-b627-4e5a-b76d-2517bf515956
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b360065d4c5e816f14cb886460fed8d1460fc475
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 043b06d49eb6dd23c3d01b2f2388d68cd4b540f0
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571268"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455369"
 ---
 # <a name="pidnamexsharingcapabilities-canonical-property"></a>Propriété canonique PidNameXSharingCapabilities
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571268"
   
 Contient une valeur qui indique les fonctionnalités de partage de l’élément.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |

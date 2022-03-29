@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f7047e4e-0fb3-476b-9568-8f1135e6d970
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0c93afbd8634b0c6c5653f447593e089f569625b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f455b0b7a29abda568ae2c7336eab3c8b11dc017
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555558"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455873"
 ---
 # <a name="pidlidtaskassigner-canonical-property"></a>Propriété canonique PidLidTaskAssigner
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555558"
   
  Nomme l’utilisateur qui a été affecté pour la dernière fois à la tâche. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskDelegator  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
@@ -37,7 +37,7 @@ ms.locfileid: "59555558"
    
 ## <a name="remarks"></a>Remarques
 
-Si la tâche n’a pas été affectée, cette propriété n’est pas affectée. Étant donné que le client définit cette propriété une fois que la personne à la tâche a reçu une demande de tâche, la propriété n’est pas définie sur la copie de la tâche de l’assigneur de la tâche. Lorsque le client ajoute ou supprime un assigneur de tâches de la liste des personnes qui affectent la tâche dans la propriété **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)), la propriété **dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) doit être définie sur l’assigneur de tâche ajouté ou supprimé.
+Si la tâche n’a pas été affectée, cette propriété n’est pas affectée. Étant donné que le client définit cette propriété une fois que la personne à la tâche a reçu une demande de tâche, la propriété n’est pas définie sur la copie de la tâche de l’affectation de la tâche. Lorsque le client ajoute ou supprime un assigneur de tâches de la liste des personnes qui affectent des tâches dans la propriété **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)), la propriété **dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) doit être définie sur l’assigneur de tâche ajouté ou supprimé.
   
 ## <a name="related-resources"></a>Ressources connexes
 

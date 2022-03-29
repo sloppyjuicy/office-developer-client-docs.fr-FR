@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 13e80bdc-cb59-47a5-8de0-404e22f87f82
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 221da299083d18e2a1e135549fe5ad58e7b9dfb9
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: Détermine la taille, en octets, d’un tableau de notifications d’événements et valide la mémoire associée au tableau.
+ms.openlocfilehash: 21254c4ef62b4530e7f8deec7e12367675abf872
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62463155"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455264"
 ---
 # <a name="sccountnotifications"></a>ScCountNotifications
 
@@ -27,7 +27,7 @@ ms.locfileid: "62463155"
   
 Détermine la taille, en octets, d’un tableau de notifications d’événements et valide la mémoire associée au tableau.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

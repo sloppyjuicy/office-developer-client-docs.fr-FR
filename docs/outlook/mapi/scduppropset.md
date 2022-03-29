@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 165ffbd0-54aa-4692-8bd1-09e6ff3762df
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4da98b19f394e68f801104926b04e52068a1c145
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Duplique un tableau de valeurs de propriétés dans un seul bloc de mémoire MAPI combinant les opérations des fonctions ScCopyProps et ScCountProps.
+ms.openlocfilehash: 8df9869e52edcce44aa908ff59991788edd1f3fa
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591233"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456293"
 ---
 # <a name="scduppropset"></a>ScDupPropset
 
@@ -25,9 +25,9 @@ ms.locfileid: "59591233"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Duplique un tableau de valeurs de propriétés dans un seul bloc de mémoire MAPI combinant les opérations des fonctions [ScCopyProps](sccopyprops.md) et [ScCountProps.](sccountprops.md) 
+Duplique un tableau de valeurs de propriétés dans un seul bloc de mémoire MAPI combinant les opérations des fonctions [ScCopyProps](sccopyprops.md) et [ScCountProps](sccountprops.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -46,7 +46,7 @@ SCODE ScDupPropset(
 
  _cprop_
   
-> [in] Nombre de valeurs de propriété dans le tableau indiqué par le _paramètre rgprop._ 
+> [in] Nombre de valeurs de propriété dans le tableau indiqué par le  _paramètre rgprop_ . 
     
  _rgprop_
   
@@ -54,7 +54,7 @@ SCODE ScDupPropset(
     
  _lpAllocateBuffer_
   
-> [in] Pointeur vers la [fonction MAPIAllocateBuffer,](mapiallocatebuffer.md) à utiliser pour allouer de la mémoire pour le tableau dupliqué. 
+> [in] Pointeur vers la [fonction MAPIAllocateBuffer](mapiallocatebuffer.md) , à utiliser pour allouer de la mémoire pour le tableau dupliqué. 
     
  _prgprop_
   

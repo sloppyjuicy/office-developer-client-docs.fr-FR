@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 768b3215-dd9f-4aa0-b52c-178ca81a7b07
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4954ab76923e1d6fd9cabb055b74e305b1dec6d9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dcfc419aad08fd0511b0ea83b6d9f81afe02f282
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600434"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455145"
 ---
 # <a name="pidtagattachsize-canonical-property"></a>Propriété canonique PidTagAttachSize
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600434"
   
 Contient la somme, en octets, de la taille de toutes les propriétés d’une pièce jointe. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_SIZE  <br/> |
 |Identificateur :  <br/> |0x0E20  <br/> |
@@ -46,7 +46,7 @@ Cette propriété permet de vérifier la taille approximative de la pièce joint
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

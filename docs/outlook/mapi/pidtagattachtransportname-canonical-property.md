@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 701fca52-0f96-4019-80cd-c0ccd059ff9b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: caf42a8d83442e40ee03b0ecbff9a4759b802793
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 90b09870e137631825c3b6c02322d5bf745780cd
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600441"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454921"
 ---
 # <a name="pidtagattachtransportname-canonical-property"></a>Propriété canonique PidTagAttachTransportName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600441"
   
 Contient le nom d’un fichier de pièce jointe modifié afin qu’il puisse être associé à des messages TNEF. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_TRANSPORT_NAME, PR_ATTACH_TRANSPORT_NAME_A, PR_ATTACH_TRANSPORT_NAME_W  <br/> |
 |Identificateur :  <br/> |0x370C  <br/> |
@@ -46,7 +46,7 @@ Ces propriétés sont couramment utilisées par TNEF lorsque le système de mess
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

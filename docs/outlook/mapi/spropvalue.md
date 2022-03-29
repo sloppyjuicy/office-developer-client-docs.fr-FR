@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: faf795a2-84db-432d-a05f-082f25a5cab5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f0b26c5d0ef2906945becbfe4dd121d10831ca05
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Décrit une propriété MAPI pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 3506247641161bb0c0e42db62e314c5fab565981
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566527"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454683"
 ---
 # <a name="spropvalue"></a>SPropValue
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566527"
   
 Décrit une propriété MAPI.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Macros associées :  <br/> |[CHANGE_PROP_TYPE](change_prop_type.md), [MVI_PROP](mvi_prop.md), [PROP_ID](prop_id.md), [PROP_TAG](prop_tag.md), [PROP_TYPE](prop_type.md) <br/> |
@@ -100,11 +100,11 @@ L’identificateur est une valeur numérique dans une plage particulière. MAPI 
   
 Le type indique le format de la valeur de la propriété. MAPI définit des constantes pour chacun des types de propriétés qu’il prend en charge dans le fichier d’en-tête Mapidefs.h. 
   
-Pour obtenir la liste complète des plages de propriétés valides pour les identificateurs et les types de propriétés, voir l’annexe Identificateurs et [types de](property-identifiers-and-types.md) propriétés. 
+Pour obtenir la liste complète des plages de propriétés valides pour les identificateurs et les types de propriétés, voir l’annexe [Identificateurs et types de](property-identifiers-and-types.md) propriétés. 
   
-Le **membre dwAlignPad** est utilisé comme remplissage pour assurer un alignement correct sur les ordinateurs qui nécessitent un alignement de 8 byte pour les valeurs de 8 byte. Les développeurs qui écrivent du code sur ces ordinateurs doivent utiliser des routines d’allocation de mémoire qui allouent les tableaux **SPropValue** aux limites de 8 byte. 
+Le **membre dwAlignPad** est utilisé comme remplissage pour s’assurer d’un alignement correct sur les ordinateurs qui nécessitent un alignement de 8 byte pour des valeurs de 8 byte. Les développeurs qui écrivent du code sur ces ordinateurs doivent utiliser des routines d’allocation de mémoire qui allouent les tableaux **SPropValue** aux limites de 8 byte. 
   
-Pour plus d’informations, voir [Vue d’ensemble](mapi-property-type-overview.md) du type de propriété MAPI et [mise à jour des propriétés MAPI.](updating-mapi-properties.md) 
+Pour plus d’informations, voir [Vue d’ensemble du type de propriété MAPI](mapi-property-type-overview.md) et [mise à jour des propriétés MAPI](updating-mapi-properties.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

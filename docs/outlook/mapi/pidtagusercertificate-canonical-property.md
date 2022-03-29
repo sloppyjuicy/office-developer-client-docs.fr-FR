@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2ac14c43-36c1-4f2f-97b0-2462f2360575
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cfb0d2ec07b146004fe2f86f22e832c901faa8b7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un certificat d’authentification ASN.1 pour un utilisateur de messagerie pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 0c7cf93cf57c3cba061a7282784abd2e8a2cec83
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629668"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455670"
 ---
 # <a name="pidtagusercertificate-canonical-property"></a>Propriété canonique PidTagUserCertificate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629668"
   
 Contient un certificat d’authentification ASN.1 pour un utilisateur de messagerie. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_USER_CERTIFICATE  <br/> |
 |Identificateur :  <br/> |0x3A22  <br/> |
@@ -44,7 +44,7 @@ Un certificat d’authentification est similaire à une signature numérique. Pl
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

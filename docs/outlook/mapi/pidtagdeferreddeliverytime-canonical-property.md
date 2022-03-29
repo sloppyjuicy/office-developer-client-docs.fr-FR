@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 263ac923-692f-40d4-bdd5-116dc5c49766
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 60516448fac38a01e33e91c96d1b29e67c0a3400
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bf3b00da7b9fe4963ece774c603a0f06331d8754
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613610"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455782"
 ---
 # <a name="pidtagdeferreddeliverytime-canonical-property"></a>Propriété canonique PidTagDeferredDeliveryTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613610"
   
 Contient la date et l’heure à laquelle un expéditeur de message souhaite remettre un message. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DEFERRED_DELIVERY_TIME  <br/> |
 |Identificateur :  <br/> |0x000F  <br/> |
@@ -44,7 +44,7 @@ MAPI n’effectue pas la remise différée ; il s’agit d’une option du syst�
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

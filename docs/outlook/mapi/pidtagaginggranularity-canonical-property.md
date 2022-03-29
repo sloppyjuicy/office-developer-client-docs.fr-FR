@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: b79ec87d-d97c-4e6c-899b-78ebf1b485a7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c233aa48643368194ba3dcdd9adf780cdb89b950
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 09ddb7a6abbf3c5e2116220e8a139e69de3cea2e
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62779727"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456132"
 ---
 # <a name="pidtagaginggranularity-canonical-property"></a>Propriété canonique PidTagAgingGranularity
 
@@ -27,7 +27,7 @@ ms.locfileid: "62779727"
   
 Représente l’unité de temps utilisée pour déterminer la durée pendant qu’un élément reste dans un dossier avant l’archivage de l’élément.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_AGING_GRANULARITY  <br/> |
 |Identificateur :  <br/> |0x36EE  <br/> |
@@ -38,7 +38,7 @@ Représente l’unité de temps utilisée pour déterminer la durée pendant qu�
 
 Les valeurs possibles **pour PR_AGING_GRANULARITY** peuvent être l’une des valeurs suivantes. 
   
-|**Name**|**Valeur**|**Description**|
+|**Nom**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**AG_MONTHS** <br/> |0  <br/> |**PR_AGING_PERIOD** est défini en nombre de mois. |
 |**AG_WEEKS** <br/> |1  <br/> |**PR_AGING_PERIOD** est défini en nombre de semaines. |
@@ -52,7 +52,7 @@ La durée pendante pendant qui reste un élément dans un dossier avant d’êtr
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

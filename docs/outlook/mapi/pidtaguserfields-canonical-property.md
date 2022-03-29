@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: db3a6947-f640-43e8-a2df-71e96560fd81
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f2b06d1e4144335a483a08feedd75210f40f3823
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom, le type de données et d’autres informations sur un champ défini par l’utilisateur pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: bd7dd08f48edf385acd4266afaa1e76555adf53a
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591352"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456321"
 ---
 # <a name="pidtaguserfields-canonical-property"></a>Propriété canonique PidTagUserFields
 
@@ -23,7 +23,7 @@ ms.locfileid: "59591352"
   
 Contient le nom, le type de données et d’autres informations sur un champ défini par l’utilisateur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_USERFIELDS  <br/> |
 |Identificateur :  <br/> |0x36E3  <br/> |
@@ -32,14 +32,14 @@ Contient le nom, le type de données et d’autres informations sur un champ dé
    
 ## <a name="remarks"></a>Remarques
 
-Pour chaque élément, Outlook stocke les définitions de tous les champs définis par l’utilisateur dans la propriété [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) de l’objet **IMessage** correspondant. La **propriété PidLidPropertyDefinitionStream** contient un flux binaire appelé [PropertyDefinition](propertydefinition-stream-structure.md), qui contient les définitions de champ. Pour plus d’informations sur les structures de flux pour les définitions de champ, voir [Stream Structures](stream-structures.md).
+Pour chaque élément, Outlook stocke les définitions de tous les champs définis par l’utilisateur dans la propriété [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) de l’objet **IMessage** correspondant. La **propriété PidLidPropertyDefinitionStream** contient un flux binaire appelé [PropertyDefinition](propertydefinition-stream-structure.md), qui contient les définitions de champ. Pour plus d’informations sur les structures de flux pour les définitions de champ, voir [Structures de flux](stream-structures.md).
   
-Pour chaque dossier, Outlook stocke les définitions de tous les champs définis par l’utilisateur dans ce dossier dans la propriété **PidTagUserFields** d’un message associé de la classe de message IPC.MS. REN. USERFIELDS : chaque dossier supposé ne contenir qu’un seul message de cette classe dans la table des matières associée. 
+Pour chaque dossier, Outlook stocke les définitions de tous les champs définis par l’utilisateur dans ce dossier dans la **propriété PidTagUserFields** d’un message associé de la classe de message IPC.MS. REN. USERFIELDS : chaque dossier supposé ne contenir qu’un seul message de cette classe dans la table des matières associée. 
   
 > [!NOTE]
 > L’ensemble des champs définis par l’utilisateur dans un dossier peut ne pas nécessairement correspondre aux ensembles de champs définis par l’utilisateur dans chacun de ses éléments. 
   
-L’ensemble des champs définis par l’utilisateur dans un dossier est affiché à différents endroits dans l’interface utilisateur Outlook, tels que le s’il s’agit du s’il s’agit du dossier. La propriété **PidTagUserFields du** message contient un flux binaire, **FolderUserFields**, qui contient les définitions de champ de dossier. Pour plus d’informations sur les structures de flux pour les définitions de champ de dossier, voir [Structures](folder-fields-stream-structures.md) de flux de champs de dossier et exemple de flux [FolderUserFields.](folderuserfields-stream-sample.md)
+L’ensemble des champs définis par l’utilisateur dans un dossier est affiché à différents endroits dans l’interface utilisateur Outlook, tels que le s’il s’agit du s’il s’agit du dossier. La propriété **PidTagUserFields du** message contient un flux binaire, **FolderUserFields**, qui contient les définitions de champ de dossier. Pour plus d’informations sur les structures de flux pour les définitions de champ de dossier, voir [Structures](folder-fields-stream-structures.md) de flux de champs de dossier et exemple de flux [FolderUserFields](folderuserfields-stream-sample.md).
   
 ## <a name="section-heading"></a>Titre de section
 
@@ -59,9 +59,9 @@ Mapidefs.h
 
 
 
-[Outlook Éléments et champs](outlook-items-and-fields.md)
+[Outlook et champs](outlook-items-and-fields.md)
   
-[Ajouter une définition pour un nouveau champ User-Defined de recherche](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Ajouter une définition pour un nouveau User-Defined de recherche](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [Exemple de flux PropertyDefinition](propertydefinition-stream-sample.md)
   

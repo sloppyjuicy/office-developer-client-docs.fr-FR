@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48e478c4-6e9a-40ab-a7bb-e6219b743b08
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 61213105305a4268965201701cf3d6d800ae78c7
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Décrit une ligne d’un tableau qui a été affectée par un type d’événement, tel qu’une modification ou une erreur. Une notification de tableau est alors générée.
+ms.openlocfilehash: c793ad7e40a58b919e67af87985f5b28c5526012
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771841"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456216"
 ---
 # <a name="table_notification"></a>TABLE_NOTIFICATION
 
@@ -25,7 +25,7 @@ ms.locfileid: "62771841"
   
 Décrit une ligne d’un tableau qui a été affectée par un type d’événement, tel qu’une modification ou une erreur. Une notification de tableau est alors générée. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -83,7 +83,7 @@ TABLE_ROW_MODIFIED
   
 > Une ligne a été modifiée. Le **membre de** ligne contient les propriétés affectées de la ligne. Plusieurs TABLE_ROW_MODIFIED sont envoyés dans l’ordre dans l’affichage Tableau. 
     
-  TABLE_ROW_MODIFIED événements sont envoyés une fois que les modifications apportées à l’objet correspondant ont été engagés avec un appel à la méthode **IMAPIProp::SaveChanges** . Si la ligne modifiée est maintenant la première ligne du tableau, la valeur de la balise de propriété dans le membre **propPrior** **est PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)).
+  TABLE_ROW_MODIFIED événements sont envoyés une fois que les modifications apportées à l’objet correspondant ont été engagés avec un appel à la **méthode IMAPIProp::SaveChanges** . Si la ligne modifiée est maintenant la première ligne du tableau, la valeur de la balise de propriété dans le membre **propPrior** **est PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)).
     
 TABLE_SETCOL_DONE 
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f7012f7-060d-4f2d-bcff-2aa9f6980e71
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 98c104001408f36b0b236cff301e958337f1ae66
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Décrit une restriction de sous-objet utilisée pour filtrer les lignes de la table des destinataires ou des pièces jointes d’un message.
+ms.openlocfilehash: f869c4441bd49e4a511f42bef50d22b775871aed
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63373045"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455922"
 ---
 # <a name="ssubrestriction"></a>SSubRestriction
 
@@ -25,7 +25,7 @@ ms.locfileid: "63373045"
   
 Décrit une restriction de sous-objet utilisée pour filtrer les lignes de la table des destinataires ou des pièces jointes d’un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 

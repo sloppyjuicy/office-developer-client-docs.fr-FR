@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42f4655d-b411-42be-aff6-4521a5b5290b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2cfb738ce70f81edeee0d3445ba5277f5dbfe0a7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une liste d’identificateurs de fournisseurs de transport dans le profil actuel. N’utilisez pas cette propriété. Il est réservé à une utilisation par MAPI.
+ms.openlocfilehash: 045090caa3fd94d93569e0b9ae00e03f8cce9740
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578927"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455068"
 ---
 # <a name="pidtagtransportproviders-canonical-property"></a>Propriété canonique PidTagTransportProviders
 
@@ -27,7 +27,7 @@ ms.locfileid: "59578927"
   
 Contient une liste d’identificateurs de fournisseurs de transport dans le profil actuel.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_TRANSPORT_PROVIDERS  <br/> |
 |Identificateur :  <br/> |0x3D02  <br/> |

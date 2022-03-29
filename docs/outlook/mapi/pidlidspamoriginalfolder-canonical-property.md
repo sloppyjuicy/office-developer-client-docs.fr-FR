@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 45846fe3-7ab3-4019-98bb-fe615889c31c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3410291b1fa449f00f240cca4bf53bb61624d835
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6526f71a6ec12ada02162318376b70cb072bfcec
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630174"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454655"
 ---
 # <a name="pidlidspamoriginalfolder-canonical-property"></a>Propriété canonique PidLidSpamOriginalFolder
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630174"
   
 Indique le dossier dans lequel se trouvait un message avant d’être filtré dans le dossier courrier indésirable.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSpamOriginalFolder  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -49,7 +49,7 @@ La valeur de cette propriété est **l’EntryID** du dossier qui contenait le m
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

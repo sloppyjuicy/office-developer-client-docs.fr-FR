@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5b678475-f2a8-4831-ad68-11654e09c821
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7b1de5f524a62c1684c8554a537827b80cabb205
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une valeur qui indique l’avis de l’expéditeur du message sur la sensibilité d’un message pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: dac4dc07b39eabed312c862c834791d7f0285eb2
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613337"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454606"
 ---
 # <a name="pidtagsensitivity-canonical-property"></a>Propriété canonique PidTagSensitivity
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613337"
   
 Contient une valeur qui indique l’avis de l’expéditeur du message sur la sensibilité d’un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SENSITIVITY  <br/> |
 |Identificateur :  <br/> |0x0036  <br/> |
@@ -62,11 +62,11 @@ SENSITIVITY_COMPANY_CONFIDENTIAL
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

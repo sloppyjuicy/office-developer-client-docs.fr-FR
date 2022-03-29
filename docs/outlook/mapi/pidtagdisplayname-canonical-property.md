@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: bd094e00-5c60-4bb3-9a45-b943fab52876
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0c98d30e60bc88f11f3549ed7b76980677fea5f1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b93808814bca9f9acc25a49d17b7cbb68d2033c0
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555439"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456055"
 ---
 # <a name="pidtagdisplayname-canonical-property"></a>Propriété canonique PidTagDisplayName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555439"
   
 Contient le nom complet d’un objet MAPI donné. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DISPLAY_NAME, PR_DISPLAY_NAME_A, PR_DISPLAY_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3001  <br/> |
@@ -57,11 +57,11 @@ Pour les objets d’état, ces propriétés contiennent le nom du composant qui 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   

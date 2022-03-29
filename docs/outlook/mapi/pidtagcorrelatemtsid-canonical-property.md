@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d0fc4e91-ed90-4d27-bd23-f01e99728e2d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 113fcb076d730ab63e7fbe6874a5cb4f77fb6565
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a7b08f57c0c968bf538f310b9c7b2026efff4628
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616529"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455313"
 ---
 # <a name="pidtagcorrelatemtsid-canonical-property"></a>Propriété canonique PidTagCorrelateMtsid
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616529"
   
 Contient l’identificateur du système de transfert de messages (MTS) utilisé dans la corrélation de rapports avec des messages envoyés.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CORRELATE_MTSID  <br/> |
 |Identificateur :  <br/> |0x0E0D  <br/> |

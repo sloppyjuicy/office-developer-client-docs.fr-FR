@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e2d5190-e67a-470d-8177-0f0ba20c7b82
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 455e1ee9e64938f0595177888334753400f21623
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: Fonction de rappel invoquée par l’Assistant Profil pour qu’un fournisseur de services réagisse aux événements utilisateur lorsque les pages ou les feuilles de propriétés du fournisseur sont affichées.
+ms.openlocfilehash: 7566f3a349a46978e0fe4d5e019364b0b7a469b3
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461103"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456279"
 ---
 # <a name="servicewizarddlgproc"></a>SERVICEWIZARDDLGPROC
  
@@ -25,7 +25,7 @@ ms.locfileid: "62461103"
   
 Définit une fonction de rappel invoquée par l’Assistant Profil pour permettre à un fournisseur de services de réagir aux événements utilisateur lorsque les feuilles de propriétés ou les pages du fournisseur sont affichées. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiwz.h  <br/> |
 |Fonction définie implémentée par :  <br/> |Fournisseurs de services  <br/> |

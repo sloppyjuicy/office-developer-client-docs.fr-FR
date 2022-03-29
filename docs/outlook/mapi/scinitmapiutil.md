@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d83b8ea8-a3b8-4038-a226-de1869c5d722
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6dbc027dfc3dfb2a0b4cf3a0096c5d33e5b4d4a0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Remplace MAPIInitialize lorsque seules certaines fonctions utilitaires sont utilisées pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 5396032e1ee1070f0ef57c46ad83f31ab76e0221
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591212"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455257"
 ---
 # <a name="scinitmapiutil"></a>ScInitMapiUtil
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591212"
   
 Remplace [MAPIInitialize lorsque](mapiinitialize.md) seules certaines fonctions utilitaires sont utilisées. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -53,7 +53,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les fonctions **ScInitMapiUtil** et [DeinitMapiUtil](deinitmapiutil.md) collaborent pour appeler et libérer des fonctions utilitaires de sélection, par opposition à [MAPIInitialize](mapiinitialize.md), qui appelle core ainsi que des fonctions utilitaires. Lorsque **ScInitMapiUtil** appelle des fonctions utilitaires, il initialise également la mémoire nécessaire. 
+Les **fonctions ScInitMapiUtil** et [DeinitMapiUtil](deinitmapiutil.md) collaborent pour appeler et libérer des fonctions utilitaires sélectionnées, par opposition à [MAPIInitialize](mapiinitialize.md), qui appelle core ainsi que des fonctions utilitaires. Lorsque **ScInitMapiUtil** appelle des fonctions utilitaires, il initialise également la mémoire nécessaire. 
   
 Lorsque l’utilisation des fonctions appelées par **ScInitMapiUtil** est terminée, **DeinitMapiUtil** doit être explicitement appelée pour les libérer. En revanche, **MAPIInitialize** appelle implicitement **DeinitMapiUtil**. 
   

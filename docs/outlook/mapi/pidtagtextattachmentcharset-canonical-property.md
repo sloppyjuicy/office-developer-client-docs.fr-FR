@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d347c949-d0c3-4a36-8447-3fa01111cdc1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 98552506558ced5012dbfd07d707bc567d9ce06b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la valeur du jeu de caractères d’une pièce jointe de message. Les données de cette propriété sont dérivées d’un champ d’en-tête MIME content-type qui commence par « text/ ».
+ms.openlocfilehash: d4193ac2e662219b27f19c5854ee9e448ea067bd
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591345"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456328"
 ---
 # <a name="pidtagtextattachmentcharset-canonical-property"></a>Propriété canonique PidTagTextAttachmentCharset
 
@@ -25,9 +25,9 @@ ms.locfileid: "59591345"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur du jeu de caractères d’une pièce jointe d’un message.
+Contient la valeur du jeu de caractères d’une pièce jointe de message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |Aucun  <br/> |
 |Identificateur :  <br/> |0x371B  <br/> |

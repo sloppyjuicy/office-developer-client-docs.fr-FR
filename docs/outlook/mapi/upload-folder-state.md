@@ -5,13 +5,13 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 270b1df0-c5cd-0d0f-7b57-2726dee978ab
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7b14aef46ed5542b4789a9dd7226d4b98a6e9a9a
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Cette rubrique décrit ce qui se produit pendant l’état du dossier de chargement de la machine à états de réplication.
+ms.openlocfilehash: dbee437b1e3e8b1e32684355c72c76f10d2bb2ce
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63378512"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456209"
 ---
 # <a name="upload-folder-state"></a>Télécharger dossier
 
@@ -21,7 +21,7 @@ ms.locfileid: "63378512"
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Identificateur d’état :  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |
 |Structure de données associée :  <br/> |**[UPFLD](upfld.md)** <br/> |

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 83b69e8f-0b5a-4992-b5b8-160d3bdfa22a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 00d1ce393958389e757d1729c0c8c4cdc96aff81
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f34f0eac42920864c6a08a3c43cfaa1f84ade445
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560934"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64453997"
 ---
 # <a name="pidtagattachlongfilename-canonical-property"></a>Propriété canonique PidTagAttachLongFilename
 
@@ -25,9 +25,9 @@ ms.locfileid: "59560934"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom de fichier long et l’extension d’une pièce jointe, à l’exclusion du chemin d’accès. 
+Contient le nom de fichier et l’extension longs d’une pièce jointe, à l’exclusion du chemin d’accès. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_LONG_FILENAME, PR_ATTACH_LONG_FILENAME_A, PR_ATTACH_LONG_FILENAME_W  <br/> |
 |Identificateur :  <br/> |0x3707  <br/> |
@@ -36,7 +36,7 @@ Contient le nom de fichier long et l’extension d’une pièce jointe, à l’e
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés se rapportent aux valeurs ATTACH_BY_VALUE, ATTACH_BY_REFERENCE, ATTACH_BY_REF_RESOLVE et ATTACH_BY_REF_ONLY de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)). Les plateformes qui prendre en charge les noms de fichiers longs doivent définir les propriétés **PR_ATTACH_LONG_FILENAME** et **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) lors de l’envoi, et doivent d’abord vérifier **PR_ATTACH_LONG_FILENAME** lors de la réception. 
+Ces propriétés concernent les valeurs ATTACH_BY_VALUE, ATTACH_BY_REFERENCE, ATTACH_BY_REF_RESOLVE et ATTACH_BY_REF_ONLY de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)). Les plateformes qui prendre en charge les noms de fichiers longs doivent définir les propriétés **PR_ATTACH_LONG_FILENAME** et **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) lors de l’envoi, et doivent d’abord vérifier **PR_ATTACH_LONG_FILENAME** lors de la réception. 
   
 L’application cliente doit définir cette propriété sur un nom de fichier long suggéré à utiliser si l’ordinateur hôte recevant un message prend en charge les noms de fichiers longs. **PR_ATTACH_LONG_FILENAME** peut être utilisé comme nom de fichier pour l’enregistrement de la pièce jointe et pour fournir l’extension de nom de fichier si la propriété **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) n’est pas fournie. 
   
@@ -50,7 +50,7 @@ MAPI fonctionne uniquement avec les noms de fichiers dans le jeu de caractères 
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 26bc1842-0736-4bcd-9251-86bf222ece2a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 12af72e380cc69144a94061d88968083d6dcf204
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a4d8943bac1619d5e6ba0d37eba9ef3f6f20a010
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563664"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455124"
 ---
 # <a name="pidtagdeltay-canonical-property"></a>Propriété canonique PidTagDeltaY
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563664"
   
 Contient la hauteur d’un contrôle de boîte de dialogue en unités Windows dialogue standard. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DELTAY  <br/> |
 |Identificateur :  <br/> |0x3F04  <br/> |
@@ -36,7 +36,7 @@ Contient la hauteur d’un contrôle de boîte de dialogue en unités Windows di
    
 ## <a name="remarks"></a>Remarques
 
-Le **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)), et cette propriété contrôle la position et la taille du contrôle de boîte de dialogue. 
+Les **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) et cette propriété contrôlent la position et la taille du contrôle de boîte de dialogue. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

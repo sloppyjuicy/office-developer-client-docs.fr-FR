@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 201ceb76-41bc-4d7b-835d-5196bf3dc234
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 99d2cfb9b4d460ed6a86235a011f9bf244aac0a2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un tableau de valeurs d’un nombre integer non signé qui sont utilisées pour décrire une propriété de type PT_MV_SHORT.
+ms.openlocfilehash: cce5e5b870f3eb275bc1ea64885d262069ce9ae8
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566464"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455488"
 ---
 # <a name="sshortarray"></a>SShortArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566464"
   
 Contient un tableau de valeurs d’un nombre integer non signé qui sont utilisées pour décrire une propriété de type PT_MV_SHORT.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -44,7 +44,7 @@ typedef struct _SShortArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau pointées par le **membre lpi.** 
+> Nombre de valeurs dans le tableau pointées par **le membre lpi** . 
     
  **lpi**
   
@@ -52,7 +52,7 @@ typedef struct _SShortArray
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur PT_MV_SHORT types de propriétés et d’autres types de propriétés, voir [Types de propriétés.](property-types.md) 
+Pour plus d’informations sur PT_MV_SHORT types de propriétés et d’autres types de propriétés, voir [Types de propriétés](property-types.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

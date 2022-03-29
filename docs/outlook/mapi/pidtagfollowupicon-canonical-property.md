@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 374cef41-141a-491b-8dd1-eaf1a2044204
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8fb1a570f2bad075c69a9328427de53e86fab938
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3bf368e83d99017f493256ac028661c790093880
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563552"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64452240"
 ---
 # <a name="pidtagfollowupicon-canonical-property"></a>Propriété canonique PidTagFollowupIcon
 
@@ -27,24 +27,24 @@ ms.locfileid: "59563552"
   
 Spécifie la couleur d’indicateur de l’objet message.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FOLLOWUP_ICON  <br/> |
 |Identificateur :  <br/> |0x1095  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Renommer le dossier des messages  <br/> |
+|Domaine :  <br/> |Renommer le dossier de messages  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Cette propriété ne doit pas exister, sauf si la valeur de la propriété **PR_FLAG_STATUS** ([PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) est définie sur « followupFlagged » ou si l’objet message est un objet lié à la réunion. Cette propriété ne doit pas exister sur un objet de tâche. Lorsqu’elle est définie sur d’autres objets de message, cette propriété doit être définie sur l’une des valeurs suivantes.
   
-|**Valeur numérique**|**Name**|**Description**|
+|**Valeur numérique**|**Nom**|**Description**|
 |:-----|:-----|:-----|
-|Non présent  <br/> |N/A  <br/> |Aucune couleur  <br/> |
+|Non présent  <br/> |N/D  <br/> |Aucune couleur  <br/> |
 |1  <br/> |followupIcon1  <br/> |Indicateur violet  <br/> |
 |2  <br/> |followupIcon2  <br/> |Indicateur orange  <br/> |
 |3  <br/> |followupIcon3  <br/> |Indicateur vert  <br/> |
-|4   <br/> |followupIcon4  <br/> |Indicateur jaune  <br/> |
+|4  <br/> |followupIcon4  <br/> |Indicateur jaune  <br/> |
 |5  <br/> |followupIcon5  <br/> |Indicateur bleu  <br/> |
 |6   <br/> |followupIcon6  <br/> |Indicateur rouge  <br/> |
    
@@ -54,7 +54,7 @@ Cette propriété ne doit pas exister, sauf si la valeur de la propriété **PR_
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   

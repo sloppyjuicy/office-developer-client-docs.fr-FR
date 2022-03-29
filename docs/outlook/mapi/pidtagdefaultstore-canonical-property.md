@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 6314d91c-4948-4fd1-bacc-932d4bb2c22f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4198b6f244c09045225bdd5e8392241edc9a45d8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5fa452e5cd6c1db6d1ecec1b80f7ead1d3531526
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563685"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454858"
 ---
 # <a name="pidtagdefaultstore-canonical-property"></a>Propriété canonique PidTagDefaultStore
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563685"
   
 Contient TRUE si une magasin de messages est la magasin de messages par défaut dans la table de la boutique de messages. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DEFAULT_STORE  <br/> |
 |Identificateur :  <br/> |0x3400  <br/> |
@@ -44,7 +44,7 @@ Cette propriété apparaît en tant que colonne dans la table de la boutique de 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bfee6c5e-d4c6-442e-af71-23156569fed5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c2b84201bfbf3d508098ea9ea574e561b360528a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom complet de l’utilisateur de messagerie représenté par l’expéditeur pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 74b6c7261a3e7d7acb3c18f66e6dcbd6ddaa03b6
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613267"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455103"
 ---
 # <a name="pidtagsentrepresentingname-canonical-property"></a>Propriété canonique PidTagSentRepresentingName
 
@@ -25,7 +25,7 @@ ms.locfileid: "59613267"
   
 Contient le nom complet de l’utilisateur de messagerie représenté par l’expéditeur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SENT_REPRESENTING_NAME, PR_SENT_REPRESENTING_NAME_A, PR_SENT_REPRESENTING_NAME_W  <br/> |
 |Identificateur :  <br/> |0x0042  <br/> |
@@ -34,7 +34,7 @@ Contient le nom complet de l’utilisateur de messagerie représenté par l’ex
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont des exemples de propriétés d’adresse pour l’utilisateur de messagerie représenté par l’expéditeur. Lorsqu’une application cliente envoie un message pour le compte d’un autre client, elle doit définir toutes les propriétés d’expéditeur représentées sur les valeurs de ce client. Un utilisateur de messagerie envoyant en son propre nom laisse généralement les propriétés de l’expéditeur représenté non jeu.
+Ces propriétés sont des exemples de propriétés d’adresse pour l’utilisateur de messagerie représenté par l’expéditeur. Lorsqu’une application cliente envoie un message pour le compte d’un autre client, elle doit définir toutes les propriétés d’expéditeur représentées sur les valeurs de ce client. Un utilisateur de messagerie qui envoie en son propre nom laisse généralement les propriétés de l’expéditeur représenté non jeu.
   
 Le fournisseur de transport sortant doit toujours laisser cette propriété inchangée si elle a été définie par le client d’envoi. Si elle n’est pas définie, le fournisseur de transport doit la définir sur **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) sur la copie sortante du message et la laisser non définie sur la copie locale.
   
@@ -44,7 +44,7 @@ Le fournisseur de transport sortant doit toujours laisser cette propriété inch
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/cc433482%28EXCHG.80%29.aspx)
   
@@ -72,7 +72,7 @@ Le fournisseur de transport sortant doit toujours laisser cette propriété inch
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Spécifie l’emplacement et les propriétés des données de configuration client et serveur, telles que les listes de catégories partagées et les heures de travail.
+> Spécifie l’emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
@@ -88,7 +88,7 @@ Le fournisseur de transport sortant doit toujours laisser cette propriété inch
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

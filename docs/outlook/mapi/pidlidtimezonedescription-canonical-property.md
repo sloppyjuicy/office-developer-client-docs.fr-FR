@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 24cb6429-1276-45f1-be0e-6c9d2ff6ce19
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dfc272e57fbaf23ade58847552b4ed7190299c5f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 357d2dc4bdaac1e5dbc78770fa3de8ff793a6cba
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604454"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455852"
 ---
 # <a name="pidlidtimezonedescription-canonical-property"></a>Propriété canonique PidLidTimeZoneDescription
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604454"
   
 Spécifie une description de chaîne du fuseau horaire.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTimeZoneDesc  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
@@ -37,7 +37,7 @@ Spécifie une description de chaîne du fuseau horaire.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie une description lisible par l’utilisateur du fuseau horaire qui est représenté par les données dans la propriété **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)).
+Cette propriété spécifie une description lisible du fuseau horaire représenté par les données de la propriété **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 

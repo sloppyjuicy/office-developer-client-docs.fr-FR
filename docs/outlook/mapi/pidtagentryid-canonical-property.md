@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: ca02e873-c2d2-4d58-8df8-c05fbcdc8fba
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b4131b6ca41b96f64a81904af4daaa0c0c63948a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5a4ba688bda327aca06c7d597623ba29bd8bc55f
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781253"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64452212"
 ---
 # <a name="pidtagentryid-canonical-property"></a>Propriété canonique PidTagEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "62781253"
   
 Contient un identificateur d’entrée MAPI utilisé pour ouvrir et modifier les propriétés d’un objet MAPI particulier. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x0FFF  <br/> |
@@ -65,7 +65,7 @@ Le tableau suivant récapitule les différences importantes entre cette proprié
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   

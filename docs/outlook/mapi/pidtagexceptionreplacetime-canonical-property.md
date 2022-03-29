@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: bd4d1311-15e4-4275-a967-c6d11d2e48d2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d8e0120969700974bdf387e65cafe5adc5b96783
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 680c4180be67d52ae5cb8976dfb12de1bbef3f11
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563601"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455775"
 ---
 # <a name="pidtagexceptionreplacetime-canonical-property"></a>Propriété canonique PidTagExceptionReplaceTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563601"
   
 Indique la date et l’heure d’origine où l’instance dans la récurrence se serait produite s’il ne s’agit pas d’une exception.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EXCEPTION_REPLACETIME  <br/> |
 |Identificateur :  <br/> |0x7FF9  <br/> |

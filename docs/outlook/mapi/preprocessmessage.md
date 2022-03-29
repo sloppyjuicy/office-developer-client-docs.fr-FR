@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: dda50325-74b3-445e-986e-115f6536561f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4bd1a0f34a64fbf5de6d92b5020de11d5176ee5d
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Définit une fonction qui prétraite le contenu du message ou le format d’un message pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 94a38547eff841f3a9310bdfa51f6501e14b78e0
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63379100"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454375"
 ---
 # <a name="preprocessmessage"></a>PreprocessMessage
 
@@ -25,7 +25,7 @@ ms.locfileid: "63379100"
   
 Définit une fonction qui prétraite le contenu du message ou le format d’un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
 |Fonction définie implémentée par :  <br/> |Fournisseurs de transport  <br/> |

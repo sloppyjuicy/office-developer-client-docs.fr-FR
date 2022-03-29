@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ae408b4f-dee3-484b-a19c-f472cfa95996
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 92bfef3b339649b18b755cfa231954ebec84d4fe
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un masque de bits de préférences d’encodage. Définissez cette propriété pour indiquer les options de codage utilisées.
+ms.openlocfilehash: 798aadc50667064f34ca6d33787e743ce4026b4e
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586970"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455936"
 ---
 # <a name="pidtagsendinternetencoding-canonical-property"></a>Propriété canonique PidTagSendInternetEncoding
 
@@ -25,9 +25,9 @@ ms.locfileid: "59586970"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque de bits des préférences d’encodage. 
+Contient un masque de bits de préférences d’encodage. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SEND_INTERNET_ENCODING  <br/> |
 |Identificateur :  <br/> |0x3A71  <br/> |
@@ -74,7 +74,7 @@ MAC_ATTACH_ENCODING_UUENCODE
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
@@ -86,7 +86,7 @@ MAC_ATTACH_ENCODING_UUENCODE
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4fb7d91d-4c51-41c1-9cb6-7b837dd12f11
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cab2e1537d9f261fdb936dad7b90172f2028bee1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dcbaa54b4bc565ad205ea79f7689d556a5ea551d
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630192"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455453"
 ---
 # <a name="pidlidsharinginitiatorsmtp-canonical-property"></a>Propriété canonique PidLidSharingInitiatorSmtp
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630192"
   
 Spécifie l’adresse SMTP de l’utilisateur qui a initié le message de partage. Il s’agit d’une propriété d’un message de partage. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingInitiatorSmtp  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 9b94b8f6-4a40-4467-a115-4467daf782b9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 131ca7c72ad8cd480e8a243b59926217a0749e34
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c902b4a9b2c0e7edff448ea731d28a8a58d746cd
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613491"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454382"
 ---
 # <a name="pidtaghomeaddresscity-canonical-property"></a>Propriété canonique PidTagHomeAddressCity
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613491"
   
 Contient la ville de l’adresse du domicile du destinataire.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_HOME_ADDRESS_CITY, PR_HOME_ADDRESS_CITY_A, PR_HOME_ADDRESS_CITY_W  <br/> |
 |Identificateur :  <br/> |0x3A59  <br/> |
@@ -40,7 +40,7 @@ Contient la ville de l’adresse du domicile du destinataire.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

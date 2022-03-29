@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4b1a087-0986-467a-aaa9-fc643f7c56fc
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4393509eb21ae71e2c80217ee47b932ee91ee095
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une valeur binaire qui est copiée à partir du message pour lequel un rapport est généré. Cette propriété peut corréler un état avec le message d’origine.
+ms.openlocfilehash: 287ea99ac7377f8d300aecc0cee4fa7ae39dc70b
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609739"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456335"
 ---
 # <a name="pidtagsubjectmessageid-canonical-property"></a>Propriété canonique PidTagSubjectMessageId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609739"
   
 Contient une valeur binaire qui est copiée à partir du message pour lequel un rapport est généré. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SUBJECT_IPM  <br/> |
 |Identificateur :  <br/> |0x0038  <br/> |

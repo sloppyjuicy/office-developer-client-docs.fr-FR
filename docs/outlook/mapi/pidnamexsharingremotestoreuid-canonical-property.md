@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c820571b-0ef3-4ab3-af81-cc8cbba0d840
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 91af20ba1dc0b9a3466e971dccf5e7d627f0562b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 64ebb9e97d1f82d4082900347eff30f08d6d4e6d
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629962"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454494"
 ---
 # <a name="pidnamexsharingremotestoreuid-canonical-property"></a>Propriété canonique PidNameXSharingRemoteStoreUid
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629962"
   
 Représente la valeur de la propriété **dispidSharingRemoteStoreUid** ([PidLidSharingRemoteStoreUid](pidlidsharingremotestoreuid-canonical-property.md)).
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |

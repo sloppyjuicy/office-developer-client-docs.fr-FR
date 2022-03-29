@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: dfb7ce1b-8e2f-4360-a7d3-876ff5163c34
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 43cc95e002f5ed36b8b7d0012a3677450dbf39c7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 02167cd62e8b97ad798608b180b48ea409e2b635
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583589"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454949"
 ---
 # <a name="pidtagabsearchpath-canonical-property"></a>Propriété canonique PidTagAbSearchPath
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583589"
   
 Contient une liste d’identificateurs d’entrée pour les conteneurs de carnet d’adresses à rechercher pour résoudre les noms. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_AB_SEARCH_PATH  <br/> |
 |Identificateur :  <br/> |0x3D05  <br/> |

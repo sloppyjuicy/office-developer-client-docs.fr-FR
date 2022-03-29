@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a651af84-1711-449e-ba7e-5ce09cafa02b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f01b9396e10d374ed2ddc152d3dadf3e8e5a3120
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom de fichier de la DLL contenant la fonction de point d’entrée du fournisseur de services de messages à appeler pour la configuration.
+ms.openlocfilehash: e65bad8346fb6f95030e44f490c83d0ead45a1f6
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604123"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455579"
 ---
 # <a name="pidtagservicedllname-canonical-property"></a>Propriété canonique PidTagServiceDllName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604123"
   
 Contient le nom de fichier de la DLL contenant la fonction de point d’entrée du fournisseur de services de messages à appeler pour la configuration.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SERVICE_DLL_NAME, PR_SERVICE_DLL_NAME_A, PR_SERVICE_DLL_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3D0A  <br/> |

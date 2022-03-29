@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a67faa2-8c2e-49a7-8c92-690a0a65c8f7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 49f921ddd26fc78cea9b9b1e5ad99e248f4409ac
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Convertit une chaîne de chiffres décimales terminée par null en un nombre non signé. Si la chaîne ne commence pas par au moins un chiffre décimal, zéro est renvoyé.
+ms.openlocfilehash: 2e4af01a13b21cb7cbfb14f6ef227337e48f09c7
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609249"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454676"
 ---
 # <a name="ufromsz"></a>UFromSz
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609249"
   
 Convertit une chaîne de chiffres décimales terminée par null en un nombre non signé. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

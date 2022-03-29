@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 569106ff-440b-4376-9608-afc8d4dba3e4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a2749ff4221ff6ee97f186240dda1b19783237ed
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 279fb9249b28c81970949159ece601f6c6f02c57
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566814"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456069"
 ---
 # <a name="pidtagconvertedeits-canonical-property"></a>Propriété canonique PidTagConvertedEits
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566814"
   
 Contient un identificateur pour les types de texte dans un message après la conversion.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONVERTED_EITS  <br/> |
 |Identificateur :  <br/> |0x000E  <br/> |

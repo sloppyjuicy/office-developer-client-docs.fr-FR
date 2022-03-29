@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: e92db38a-9ae9-4d75-b768-674453c19fe3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 312c5fedd3184fac1efb7d7209f5e7eefe6a83c0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 219eb5e1197c415f16f163f381b1654060ed4e26
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613477"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454802"
 ---
 # <a name="pidtaghomeaddressstateorprovince-canonical-property"></a>Propriété canonique PidTagHomeAddressStateOrProvince
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613477"
   
 Contient la partie département ou province de l’adresse d’un utilisateur.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_HOME_ADDRESS_STATE_OR_PROVINCE, PR_HOME_ADDRESS_STATE_OR_PROVINCE_A, PR_HOME_ADDRESS_STATE_OR_PROVINCE_W  <br/> |
 |Identificateur :  <br/> |0x3A5C  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

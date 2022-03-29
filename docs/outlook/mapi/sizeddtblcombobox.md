@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e5ea9f2-1029-4584-845a-890d3e956036
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 463c8e82ab99d3b58f2f506438bd423a44224c65
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Crée une structure nommée qui inclut DTBLCOMBOBOX en tant que contrôle de zone de liste déroulante et le nombre maximal de caractères qui peuvent être entrés dans le contrôle d’édition.
+ms.openlocfilehash: ee3a6bdb86e7be89d3ac79d2dfb855df69491b00
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591121"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455026"
 ---
 # <a name="sizeddtblcombobox"></a>SizedDtblComboBox
  
@@ -25,7 +25,7 @@ ms.locfileid: "59591121"
   
 Crée une structure nommée qui inclut une structure [DTBLCOMBOBOX](dtblcombobox.md) pour décrire un contrôle de zone de liste déroulante et le nombre maximal de caractères qui peuvent être entrés dans le contrôle d’édition associé. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**DTBLCOMBOBOX** <br/> |
@@ -54,7 +54,7 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblComboBox** en tant que pointeur de structure **DTBLCOMBOBOX,** effectuez la distribution suivante : 
+Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblComboBox** en tant que pointeur de structure **DTBLCOMBOBOX** , effectuez la distribution suivante : 
   
 ```cpp
 lpDtblComboBox = (LPDTBLCOMBOBOX) &SizedDtblComboBox;

@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: fb4837d1-b8b9-4773-84f1-3a10cda616da
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 00329b75632e6772ea787f0ed462939532d88528
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie l’icône affichée dans le s picker de compte pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 534c9ec5d6ca36112adb72569e9cc4de53eb8b28
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613246"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456370"
 ---
 # <a name="pidtagserveraccounticon-canonical-property"></a>Propriété canonique PidTagServerAccountIcon
 
@@ -21,9 +21,9 @@ ms.locfileid: "59613246"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l’icône affichée dans le s **picker de compte.**
+Spécifie l’icône affichée dans le s **picker de compte**.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SERVER_ACCOUNT_ICON  <br/> |
 |Identificateur :  <br/> |0x341F  <br/> |

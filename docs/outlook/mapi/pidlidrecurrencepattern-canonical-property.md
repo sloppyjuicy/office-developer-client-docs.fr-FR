@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ac21ba98-f16b-4365-9134-bca7748189ee
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c481722955f9e6a48236209beaf6ba25aabe977b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 65edaecb2d8bd7f1afd55c111a46ca7e3c379417
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555607"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456195"
 ---
 # <a name="pidlidrecurrencepattern-canonical-property"></a>Propriété canonique PidLidRecurrencePattern
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555607"
   
 Spécifie une description de la récurrence de l’objet calendrier.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRecurPattern  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
@@ -37,7 +37,7 @@ Spécifie une description de la récurrence de l’objet calendrier.
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété est définie, elle doit être définie sur une description de la périodence spécifiée par la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)).
+Si cette propriété est définie, elle doit être définie sur une description de la périodisation spécifiée par la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 

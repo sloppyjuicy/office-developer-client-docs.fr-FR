@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e7f9be6a-92e7-44a8-93ee-b087713a31df
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e65635a8e5ea51bfb3c8a083160ed346cf7dcfc2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Définit une collection de clés de tri pour un tableau utilisé pour le tri standard ou catégorisé.
+ms.openlocfilehash: 43a137efaf0790a2e2d072941443c55db227b88a
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566408"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455019"
 ---
 # <a name="ssortorderset"></a>SSortOrderSet
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566408"
   
 Définit une collection de clés de tri pour un tableau utilisé pour le tri standard ou catégorisé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Macros associées :  <br/> |[CbNewSSortOrderSet](cbnewssortorderset.md), [CbSSortOrderSet](cbssortorderset.md), [SizedSSortOrderSet](sizedssortorderset.md) <br/> |
@@ -47,31 +47,31 @@ typedef struct _SSortOrderSet
 
  **cSorts**
   
-> Nombre de structures [SSortOrder](ssortorder.md) incluses dans le **membre aSort.** 
+> Nombre de structures [SSortOrder](ssortorder.md) incluses dans le **membre aSort** . 
     
  **cCategories**
   
-> Nombre de colonnes désignées comme colonnes de catégorie. Les valeurs possibles vont de zéro, ce qui indique un tri non catégorisé ou standard, au nombre indiqué par le membre **cSorts.** 
+> Nombre de colonnes désignées comme colonnes de catégorie. Les valeurs possibles vont de zéro, ce qui indique un tri non catégorisé ou standard, au nombre indiqué par le membre **cSorts** . 
     
  **cExpanded**
   
-> Nombre de catégories qui commencent par un état développé, où toutes les lignes qui s’appliquent à la catégorie sont visibles dans l’affichage Tableau. Les valeurs possibles vont de 0 au nombre indiqué par **cCategories**.
+> Nombre de catégories qui commencent dans un état développé, où toutes les lignes qui s’appliquent à la catégorie sont visibles dans l’affichage Tableau. Les valeurs possibles vont de 0 au nombre indiqué par **cCategories**.
     
  **aSort**
   
-> Tableau de structures **SSortOrder,** chacune définissant un ordre de tri. 
+> Tableau de structures **SSortOrder** , chacune définissant un ordre de tri. 
     
 ## <a name="remarks"></a>Remarques
 
 Une structure **SSortOrderSet** est utilisée pour définir plusieurs ordres de tri pour le tri standard et catégorisé. 
   
-Chaque structure **SSortOrderSet** contient au moins une structure **SSortOrder** définissant la direction du tri et la colonne qui sera utilisée comme clé de tri. Pour le tri catégorisé, cette colonne est utilisée comme catégorie. Lorsque la valeur du membre **cSorts** dépasse la valeur du membre **cCategories,** il y a plus de clés de tri que de catégories, et les catégories sont créées à partir des colonnes qui apparaissent en premier dans le tableau **SSortOrder.** 
+Chaque structure **SSortOrderSet** contient au moins une structure **SSortOrder** définissant la direction du tri et la colonne qui sera utilisée comme clé de tri. Pour le tri catégorisé, cette colonne est utilisée comme catégorie. Lorsque la valeur du membre **cSorts** dépasse la valeur du membre **cCategories** , il y a plus de clés de tri que de catégories, et les catégories sont créées à partir des colonnes qui apparaissent en premier dans le tableau **SSortOrder** . 
   
 Par exemple, si **cSorts** est définie sur 3 et **cCategories** est définie sur 2, les colonnes décrites par le membre **ulPropTag** des deux premières entrées dans le tableau **SSortOrder** sont utilisées comme colonnes de catégorie. La première entrée sert de regroupement de catégories de niveau supérieur ; deuxième entrée en tant que regroupement secondaire. Toutes les lignes qui correspondent aux deux colonnes de catégorie sont triées à l’aide de la clé de tri définie dans la troisième entrée. 
   
-Le **membre cExpanded** spécifie le nombre de catégories qui sont d’abord étendues. Lorsqu’il existe plusieurs catégories, l’implémentation de tableau commence par la première colonne à désigner en tant que catégorie et continue dans l’ordre séquentiel avec les colonnes de catégorie suivantes jusqu’à ce que le nombre de **catégories** ait été dépassé. S’il y a plus de colonnes de catégorie que de colonnes étendues, les colonnes de catégorie sont réduire. Si **cExpanded est** égal à zéro, seule la ligne de titre de niveau supérieur est disponible pour l’affichage de l’utilisateur du tableau. Si **cExpanded** est égal à une de moins que le nombre de catégories, toutes les lignes de titre et aucune ligne de feuille ne sont disponibles. Si **cExpanded est** égal au nombre de catégories, le tableau est entièrement développé. 
+Le **membre cExpanded** spécifie le nombre de catégories qui sont d’abord étendues. Lorsqu’il existe plusieurs catégories, l’implémentation de tableau commence par la première colonne à désigner en tant que catégorie et continue dans l’ordre séquentiel avec les colonnes de catégorie suivantes jusqu’à ce que le nombre de **catégories** ait été dépassé. S’il y a plus de colonnes de catégorie que de colonnes étendues, les colonnes de catégorie sont réduire. Si **cExpanded est** égal à zéro, seule la ligne de titre de niveau supérieur est disponible pour l’affichage de l’utilisateur du tableau. Si **cExpanded** est égal à une de moins que le nombre de catégories, toutes les lignes de titre et aucune ligne de feuille ne sont disponibles. Si **cExpanded** est égal au nombre de catégories, le tableau est entièrement développé. 
   
-Pour plus d’informations sur le tri standard et catégorisé, voir [Tri et catégorisation.](sorting-and-categorization.md)
+Pour plus d’informations sur le tri standard et catégorisé, voir [Tri et catégorisation](sorting-and-categorization.md).
   
 ## <a name="see-also"></a>Voir aussi
 

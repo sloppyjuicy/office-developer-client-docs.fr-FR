@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f4068ff0-2aa2-4332-be7d-ecebda30dfff
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3f60b025307e26158ffbe5d6bacc0f8a5e29c5fd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0855b937a071dd1ed8a159dc96551dfd7d8de481
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600539"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456181"
 ---
 # <a name="pidlidremindertime-canonical-property"></a>Propriété canonique PidLidReminderTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600539"
   
 Spécifie l’heure du signal initial pour un rappel.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidReminderTime  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

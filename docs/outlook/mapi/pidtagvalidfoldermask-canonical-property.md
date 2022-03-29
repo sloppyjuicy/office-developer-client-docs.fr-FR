@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83a44aee-5269-42a8-8078-4bc063bb6e29
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d8f501d4692e1e4ef735355f723ad8201e8a001d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un masque de bits d’indicateurs qui indique la validité des identificateurs d’entrée des dossiers d’une magasin de messages.
+ms.openlocfilehash: 0a9368eb1d1c5fd32fddb5a59b88e1db732b7bb9
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599255"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455978"
 ---
 # <a name="pidtagvalidfoldermask-canonical-property"></a>Propriété canonique PidTagValidFolderMask
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599255"
   
 Contient un masque de bits d’indicateurs qui indique la validité des identificateurs d’entrée des dossiers d’une magasin de messages.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_VALID_FOLDER_MASK  <br/> |
 |Identificateur :  <br/> |0x35DF  <br/> |

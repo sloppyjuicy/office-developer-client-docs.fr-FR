@@ -8,20 +8,20 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: d592a396-f935-c44c-409f-b849c327cfbd
 description: Spécifie les conditions météorologiques actuelles.
-ms.openlocfilehash: 92f758afac3e87db0189bb45bec9256cc4bf10fb
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ee64fa709bd86fff024d6b6f2ab67f5e9c974971
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62787504"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64452254"
 ---
 # <a name="current-element-weathertype-complextype-outlook-weather-information-schema"></a>élément actuel (weatherType complexType) (Outlook Weather Information Schema)
 
 Spécifie les conditions météorologiques actuelles.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> |[currentType](currenttype-complextype-outlook-weather-information-schema.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
@@ -41,7 +41,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[météo](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Spécifie les conditions météorologiques d’un emplacement. |
    

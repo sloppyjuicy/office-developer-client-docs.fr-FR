@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: ee2bc6ca-3769-4b56-a77d-81418d28f768
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1e48d31ade72639adfa5ea5f9d4d2e87a201b302
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 555906386b60c106fbed6d123155574ca3106b23
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550700"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455607"
 ---
 # <a name="pidtagdisplaytype-canonical-property"></a>Propriété canonique PidTagDisplayType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550700"
   
 Contient une valeur utilisée pour associer une icône à une ligne particulière d’un tableau. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DISPLAY_TYPE  <br/> |
 |Identificateur :  <br/> |0x3900  <br/> |
@@ -88,7 +88,7 @@ DT_NOT_SPECIFIC
     
 DT_ORGANIZATION 
   
-> Alias spécial défini pour un grand groupe, tel que le coordinateur de service d’aide, de comptabilité ou de disque dur.
+> Alias spécial défini pour un grand groupe, tel que le service d’aide, la comptabilité ou le coordinateur de lecteur de sang.
     
 DT_PRIVATE_DISTLIST 
   
@@ -102,7 +102,7 @@ DT_WAN
   
 > Un carnet d’adresses réseau large.
     
-Les tables de contenu de carnet d’adresses utilisent les valeurs DT_AGENT, DT_DISTLIST, DT_FORUM, DT_MAILUSER, DT_ORGANIZATION, DT_PRIVATE_DISTLIST et DT_REMOTE_MAILUSER de carnet d’adresses. Les tables de hiérarchie de carnet d’adresses et les tables DT_GLOBAL, DT_LOCAL, DT_MODIFIABLE, DT_NOT_SPECIFIC et DT_WAN de carnet d’adresses. Les tables de hiérarchie de dossiers utilisent les valeurs DT_FOLDER, DT_FOLDER_LINK et DT_FOLDER_SPECIAL de dossiers. 
+Les tables de contenu de carnet d’adresses utilisent les valeurs DT_AGENT, DT_DISTLIST, DT_FORUM, DT_MAILUSER, DT_ORGANIZATION, DT_PRIVATE_DISTLIST et DT_REMOTE_MAILUSER de carnet d’adresses. Les tables de hiérarchie de carnet d’adresses et les tables DT_GLOBAL, DT_LOCAL, DT_MODIFIABLE, DT_NOT_SPECIFIC et DT_WAN de carnet d’adresses. Les tables de hiérarchie de dossiers utilisent DT_FOLDER, DT_FOLDER_LINK et DT_FOLDER_SPECIAL valeurs. 
   
 Si cette propriété n’est pas définie, le client doit supposer le type par défaut approprié pour la table, généralement DT_FOLDER, DT_LOCAL ou DT_MAILUSER. 
   
@@ -114,11 +114,11 @@ Si cette propriété n’est pas définie, le client doit supposer le type par d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

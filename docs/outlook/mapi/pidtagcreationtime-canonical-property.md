@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 13122af2-06c8-4342-983d-e38178743d8f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3ffc21f6e6bbd3f10ecec73e34863a3e9924e0b8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 04a0b5193cd0e9bb16c89e838a673d32373321a1
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563692"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455789"
 ---
 # <a name="pidtagcreationtime-canonical-property"></a>Propriété canonique PidTagCreationTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563692"
   
 Contient la date et l’heure de création d’un message. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CREATION_TIME  <br/> |
 |Identificateur :  <br/> |0x3007  <br/> |
@@ -44,7 +44,7 @@ Une magasin de messages définit cette propriété pour chaque message qu’elle
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

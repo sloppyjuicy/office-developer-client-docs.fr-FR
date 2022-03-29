@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 9bd67185-9449-4db2-b3ee-93ea513e10e2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f300d00c6f5ec3ed835aa3895b283f757d9bb6ef
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1118e3c4de1d6c9f196cae1b239a0442fb6c8525
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555467"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64452219"
 ---
 # <a name="pidtagconversionprohibited-canonical-property"></a>Propriété canonique PidTagConversionProhibited
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555467"
   
 Contient TRUE si les conversions de messages sont interdites par défaut pour l’utilisateur de messagerie associé.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONVERSION_PROHIBITED  <br/> |
 |Identificateur :  <br/> |0x3A03  <br/> |

@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f5de77c3-5912-f7bc-8e8c-3a053545c359
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ff0cb87183756f78240231adaf0d9d6c991a2319
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Contient une chaîne Unicode en cours d’interrogation dans les adresses e-mail ou affiche les noms des destinataires adressés dans la ligne À des messages.
+ms.openlocfilehash: 186fc24a71b4e8ffebbd078872581d2bd0ca75b6
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380409"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454788"
 ---
 # <a name="pidtagsearchrecipientemailto-canonical-property"></a>Propriété canonique PidTagSearchRecipientEmailTo
 
@@ -21,12 +21,12 @@ ms.locfileid: "63380409"
   
 Contient une chaîne Unicode en cours d’interrogation dans la liste des adresses de messagerie ou affiche les noms des destinataires adressés dans la ligne **À** des messages de la banque.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SEARCH_RECIP_EMAIL_TO_W  <br/> |
 |Identificateur :  <br/> |0x0EA6  <br/> |
 |Type de propriété :  <br/> |PT_UNICODE  <br/> |
-|Domaine :  <br/> |Rechercher  <br/> |
+|Domaine :  <br/> |Recherche  <br/> |
 
 ## <a name="related-resources"></a>Ressources connexes
 

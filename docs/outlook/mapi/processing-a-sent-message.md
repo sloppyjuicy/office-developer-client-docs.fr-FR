@@ -7,13 +7,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 55b3e692-753d-45e9-a40d-22adc81b75da
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c6cdb9fc5ba86b862e89e4ce0f3f93907484ac42
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Les messages sortants, une fois envoyés, peuvent être laissés dans le dossier Boîte d’envoi, déplacés vers un dossier désigné pour contenir les messages envoyés ou supprimés.
+ms.openlocfilehash: 426618c926cc4592b418bc65485d5d699bdbf011
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773123"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454368"
 ---
 # <a name="processing-a-sent-message"></a>Traitement d’un message envoyé
 
@@ -33,7 +33,7 @@ L’une ou l’autre, ou aucune de ces propriétés ne doit être définie, mais
   
 Le tableau suivant décrit comment ces propriétés affectent ce que vous faites avec les messages envoyés.
   
-|||
+|Property |Description |
 |:-----|:-----|
 |Si aucune des propriétés n’est définie :  <br/> |Laissez le message dans le dossier à partir duquel il a été envoyé (généralement la boîte d’envoi). |
 |Si **PR_SENTMAIL_ENTRYID** est définie :  <br/> |Déplacez le message vers le dossier indiqué. |

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a79a139a-6813-49f6-b622-bb66d62c4462
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 13c43774a7ed5428451e860e263f7feaf0522e19
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 2c2340cf2c733d19a361ceb095720c4c07f23d62
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777270"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454816"
 ---
 # <a name="pidtaggender-canonical-property"></a>Propriété canonique PidTagGender
 
@@ -27,7 +27,7 @@ ms.locfileid: "62777270"
   
 Contient le sexe de l’utilisateur de messagerie.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_GENDER  <br/> |
 |Identificateur :  <br/> |0x3A4D  <br/> |
@@ -52,7 +52,7 @@ Les valeurs possibles pour cette propriété sont définies dans l’éumératio
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

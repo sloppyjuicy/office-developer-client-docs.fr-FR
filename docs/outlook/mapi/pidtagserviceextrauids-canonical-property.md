@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4838a9af-7818-49aa-ace8-cb94dda8471f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 411adc200d4b337eaaa6b51e47269c0f02d9b899
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une liste de structures MAPIUID qui identifient des sections de profil supplémentaires pour le service de message.
+ms.openlocfilehash: a3cee332655e1183d6c26d22846ba4b7a5d24312
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624495"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456027"
 ---
 # <a name="pidtagserviceextrauids-canonical-property"></a>Propriété canonique PidTagServiceExtraUids
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624495"
   
 Contient une liste de structures [MAPIUID](mapiuid.md) qui identifient des sections de profil supplémentaires pour le service de message. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SERVICE_EXTRA_UIDS  <br/> |
 |Identificateur :  <br/> |0x3D0D  <br/> |

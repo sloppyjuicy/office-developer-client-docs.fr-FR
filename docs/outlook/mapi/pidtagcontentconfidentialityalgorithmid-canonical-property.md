@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 18324a5d-aedc-4456-b2f0-6bc42b6ab882
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d71d97219ea0aec8040c712164cdef83dd5fad79
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 10ea8cb0b659c4adc48f7dbab263a391a32d97f4
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616550"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64452205"
 ---
 # <a name="pidtagcontentconfidentialityalgorithmid-canonical-property"></a>Propriété canonique PidTagContentConfidentialityAlgorithmId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616550"
   
 Contient un identificateur pour l’algorithme utilisé pour confirmer la confidentialité du contenu des messages.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID  <br/> |
 |Identificateur :  <br/> |0x0006  <br/> |

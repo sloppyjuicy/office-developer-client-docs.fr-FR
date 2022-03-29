@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c8959592-53f3-48cf-b623-91d199df0629
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cc291c768e5e0117fc474ed382300ccd2ed0a43d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette propriété contient le type de contenu d’un message envoyé pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 584bb5b70772ff9bde0cae1efdb5e4500667fa1b
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586858"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455971"
 ---
 # <a name="pidtagx400contenttype-canonical-property"></a>Propriété canonique PidTagX400ContentType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59586858"
   
 Cette propriété contient le type de contenu pour un message envoyé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_X400_CONTENT_TYPE  <br/> |
 |Identificateur :  <br/> |0x003C  <br/> |

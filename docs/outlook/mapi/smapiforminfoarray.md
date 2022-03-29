@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f5eeb75d-debb-4ac1-b239-e8e852460ce0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c6a68c4f1d2861dee4d111ee2a193ba0c7aa8cd6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un tableau de pointeurs pour former des objets d’informations Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 8a970df61eb18c84d7eea63d1ada5f19ab69fe8a
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59549916"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455516"
 ---
 # <a name="smapiforminfoarray"></a>SMAPIFormInfoArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "59549916"
   
 Contient un tableau de pointeurs vers des objets d’informations de formulaire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Macro associée :  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
@@ -45,7 +45,7 @@ typedef struct
 
  **cForms**
   
-> Nombre de pointeurs dans le tableau pointés par le **membre aFormInfo.** 
+> Nombre de pointeurs dans le tableau pointés par le **membre aFormInfo** . 
     
  **aFormInfo**
   

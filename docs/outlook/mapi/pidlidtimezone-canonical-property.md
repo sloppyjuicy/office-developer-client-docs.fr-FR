@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ffbab371-1a1d-4aa4-ad31-17549a74513c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 24ada0ccc7844fc259cc85a33ed3bfe441f4b26a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2f6014751075358ca43acad7c502f3477a5abc21
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571289"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455859"
 ---
 # <a name="pidlidtimezone-canonical-property"></a>Propriété canonique PidLidTimeZone
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571289"
   
 Spécifie des informations sur le fuseau horaire d’une réunion périodique.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |LID_TIME_ZONE  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
@@ -37,7 +37,7 @@ Spécifie des informations sur le fuseau horaire d’une réunion périodique.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est lue uniquement si la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) n’est pas définie, mais si la propriété **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) est TRUE et la propriété **LID_IS_EXCEPTION** ([PidLidIsException](pidlidisexception-canonical-property.md)) est FALSE. Word inférieur spécifie un index dans un tableau qui contient des informations de fuseau horaire. Dans la partie supérieure de WORD, seul le bit le plus élevé est lu. Si ce bit est définie, le fuseau horaire référencé n’observera pas l’heure d’été , sinon les dates d’été détaillées dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) seront suivies. 
+Cette propriété est lue uniquement si la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) n’est pas définie, mais si la propriété **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) a la valeur TRUE et si la propriété **LID_IS_EXCEPTION** ([PidLidIsException](pidlidisexception-canonical-property.md)) a la valeur FALSE. Word inférieur spécifie un index dans un tableau qui contient des informations de fuseau horaire. Dans la partie supérieure de WORD, seul le bit le plus élevé est lu. Si ce bit est définie, le fuseau horaire référencé n’observera pas l’heure d’été , sinon les dates d’été détaillées dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) seront suivies. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

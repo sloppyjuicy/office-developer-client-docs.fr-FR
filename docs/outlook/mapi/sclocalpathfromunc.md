@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef5eb5c6-251e-4a3a-8855-7c28804a29ab
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7a2638408cad376e2ed9c8f25263a3bf9fa8634b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Recherche un chemin d’accès local équivalent au chemin d’accès UNC (Universal Naming Convention) donné pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: dc0b34b951d0c121954fa9c50be2826270644e9d
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599017"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455523"
 ---
 # <a name="sclocalpathfromunc"></a>ScLocalPathFromUNC
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599017"
   
 Recherche un chemin d’accès local équivalent au chemin d’accès UNC (Universal Naming Convention) donné. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -45,11 +45,11 @@ SCODE ScLocalPathFromUNC(
 
  _szUNC_
   
-> [in] Un chemin d’accès au format \\ [ _serveur_] \[ _partage_] \[ _chemin_] d’un fichier ou d’un répertoire.
+> [in] Chemin d’accès au format \\[_serveur_]\[ _partage_]\[ d’un fichier ou d’un répertoire.
     
  _szLocal_
   
-> [out] Chemin d’accès au format [ _lecteur :_] chemin ] du même fichier ou répertoire que pour le \[ paramètre _szUNC._ 
+> [out] Chemin d’accès au format [ _lecteur:_]\[ _du_ même fichier ou répertoire que pour le paramètre  _szUNC_ . 
     
  _cchLocal_
   

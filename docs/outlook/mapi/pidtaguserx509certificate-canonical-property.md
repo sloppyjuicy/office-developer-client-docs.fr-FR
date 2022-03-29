@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 278bb9e4-3ff6-4bef-b208-7924f7a5e9b1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 48b3a895c13ec2838994972e17ccabc29bed1d1c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient des certificats de sécurité X.509 version 3 pour un utilisateur de messagerie. Cette propriété est utilisée par les applications qui utilisent la sécurité à clé publique.
+ms.openlocfilehash: 15f629a4a63c929becf7eb5f286708e23ea42253
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578913"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455992"
 ---
 # <a name="pidtaguserx509certificate-canonical-property"></a>Propriété canonique PidTagUserX509Certificate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59578913"
   
 Contient des certificats de sécurité X.509 version 3 pour un utilisateur de messagerie. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_USER_X509_CERTIFICATE  <br/> |
 |Identificateur :  <br/> |0x3A70  <br/> |
@@ -46,7 +46,7 @@ Diverses applications et clients peuvent utiliser cette propriété pour leurs p
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

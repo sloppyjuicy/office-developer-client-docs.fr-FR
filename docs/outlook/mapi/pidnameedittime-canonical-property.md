@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3f079f46-dd6e-422d-9490-20be39a1dfca
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8cf9fc23faf625e720db9304db956a182aa40368
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bc6b0e4c28784194aadcb73a6f6e683f50ac69cd
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609991"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455166"
 ---
 # <a name="pidnameedittime-canonical-property"></a>Propriété canonique PidNameEditTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609991"
   
 Spécifie l’heure de la dernière modification du fichier.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |

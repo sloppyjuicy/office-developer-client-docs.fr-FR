@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 87186764-fb58-4cdf-804d-bb13c5a8cb65
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 380fbaf02cbbe4eeac463cedbe6f893cc5f5b54c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 45fb5356705907e138e6292e87225bf76357f7b8
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563580"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454837"
 ---
 # <a name="pidtagextendedrulesizelimit-canonical-property"></a>Propriété canonique PidTagExtendedRuleSizeLimit
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563580"
   
 Contient la taille maximale, en octets, que l’utilisateur est autorisé à cumuler pour une seule règle « étendue ».
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EXTENDED_RULE_SIZE_LIMIT  <br/> |
 |Identificateur :  <br/> |0x0E9B  <br/> |
@@ -46,7 +46,7 @@ Pour plus d’informations sur les règles [étendues, voir [MS-OXORULE]](https:
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   

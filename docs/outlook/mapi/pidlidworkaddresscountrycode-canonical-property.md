@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 70080200-a9ad-47c5-8cde-7310e1c4d324
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: acf84671cd79b75119cb9c79e695c8b2bbb746e7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5d6bd27a44d2d876448060c0e4cd465df631c12c
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550973"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455383"
 ---
 # <a name="pidlidworkaddresscountrycode-canonical-property"></a>Propriété canonique PidLidWorkAddressCountryCode
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550973"
   
 Spécifie la partie code pays de l’adresse de travail du contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidWorkAddressCountryCode  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

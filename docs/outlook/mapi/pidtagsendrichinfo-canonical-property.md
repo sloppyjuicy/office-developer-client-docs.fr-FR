@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e85fc766-197a-484f-b600-68cd28a052a2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: faec040c8ea944f9280015c8a4430cdecb0a1493
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: Contient TRUE si le destinataire peut recevoir tout le contenu du message, y compris les objets RTF (Rich Text Format) et OLE (Object Linking and Embedding).
+ms.openlocfilehash: 60822c9fa919b9ecf1d10b3205a45492079eb9d2
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461833"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454781"
 ---
 # <a name="pidtagsendrichinfo-canonical-property"></a>Propriété canonique PidTagSendRichInfo
 
@@ -27,7 +27,7 @@ ms.locfileid: "62461833"
   
 Contient TRUE si le destinataire peut recevoir tout le contenu du message, y compris les objets RTF (Rich Text Format) et OLE (Object Linking and Embedding). 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SEND_RICH_INFO  <br/> |
 |Identificateur :  <br/> |0x3A40  <br/> |
@@ -61,7 +61,7 @@ Lors des appels à la méthode [IAddrBook::ResolveName](iaddrbook-resolvename.md
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9b1bea60-1946-48ea-8312-c85fcbe944a8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 061635ba447aa38344d5d22f771f79dfccb86dff
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le numéro de téléphone TTYTDD (Telecommunications Device for the Deaf) de l’utilisateur de messagerie. Le contenu est défini par l’utilisateur de messagerie et l’organisation de l’utilisateur de messagerie.
+ms.openlocfilehash: c85c72f8e4a76db68f1162b25fcc6030617f462d
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599269"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455677"
 ---
 # <a name="pidtagtelecommunicationsdevicefordeaftelephonenumber-canonical-property"></a>Propriété canonique PidTagTelecommunicationsDeviceForDeafTelephoneNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599269"
   
 Contient le numéro de téléphone TTYTDD (Telecommunications Device for the Deaf) de l’utilisateur de messagerie.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_TTYTDD_PHONE_NUMBER, PR_TTYTDD_PHONE_NUMBER_A, PR_TTYTDD_PHONE_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A4B  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés fournissent des informations d’identification et d’accès s
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

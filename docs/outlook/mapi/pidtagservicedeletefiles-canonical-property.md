@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ec80a93-9e8f-46be-a1d4-7648aae47fec
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bd1806de1e4077a8057a0ae14b3a07bae87bc6b2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une liste de noms de fichiers qui doivent être supprimés lorsque le service de message est désinstallé. MAPI fonctionne uniquement avec les noms de fichiers dans le jeu de caractères ANSI.
+ms.openlocfilehash: b16bea119b929112400c42124407fb1d01c10394
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591436"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454760"
 ---
 # <a name="pidtagservicedeletefiles-canonical-property"></a>Propriété canonique PidTagServiceDeleteFiles
 
@@ -25,9 +25,9 @@ ms.locfileid: "59591436"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste des noms de fichiers à supprimer lorsque le service de message est désinstallé.
+Contient une liste de noms de fichiers qui doivent être supprimés lorsque le service de message est désinstallé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SERVICE_DELETE_FILES, PR_SERVICE_DELETE_FILES_A, PR_SERVICE_DELETE_FILES_W  <br/> |
 |Identificateur :  <br/> |0x3D10  <br/> |
@@ -36,7 +36,7 @@ Contient une liste des noms de fichiers à supprimer lorsque le service de messa
    
 ## <a name="remarks"></a>Remarques
 
-Les noms de fichiers de la liste contenue dans ces propriétés sont supprimés de l’ordinateur lors de l’utilisation du panneau de contrôle pour désinstaller le service de message. N’incluez dans la liste aucune DLL qui prend en charge plusieurs services de message, ou des services de message supplémentaires pourraient être supprimés par inadvertance.
+Les noms de fichiers de la liste contenue dans ces propriétés sont supprimés de l’ordinateur lors de l’utilisation du panneau de contrôle pour désinstaller le service de message. N’incluez dans la liste aucune DLL qui prend en charge plusieurs services de message, ou des services de message supplémentaires peuvent être supprimés par inadvertance.
   
 MAPI fonctionne uniquement avec les noms de fichiers et les autres chaînes qui lui sont passées, dans le jeu de caractères ANSI. Les applications qui utilisent des noms de fichiers dans un jeu de caractères OEM doivent les convertir en ANSI avant d’appeler MAPI.
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e3bc15ef-155e-49fd-88e5-64713df9b939
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7add56dc1953e06a9842a6412f103c073bc75da8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6cd166695fea74b90de1040d823ca2786d428ba8
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579340"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455425"
 ---
 # <a name="pidlidtodosubordinal-canonical-property"></a>Propriété canonique PidLidToDoSubOrdinal
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579340"
   
 Agit comme un breakeur d’égalité lorsque la propriété **dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) trie les objets et le résultat dans une égalité.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidToDoSubOrdinal  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |

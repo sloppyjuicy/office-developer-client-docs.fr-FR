@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ac299846-da85-4ef2-97eb-ee157273ccc3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: abe7f633cb218ce27147b4eee358d8b786e70c0d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 638891931f46ec87b4f263d85c05f60564ee928b
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630018"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454963"
 ---
 # <a name="pidlidyomicompanyname-canonical-property"></a>Propri t canonique PidLidYomiCompanyName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630018"
   
 Spécifie la prononciation phonétique du nom de la société du contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidYomiCompanyName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 45066528-2447-4178-aaa3-7513ed0b3ba4
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 68c77f60abdb00a9df4aed4afd60401bad239756
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Décrit un verbe MAPI pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: c89bcbb8d8b486c7ceac283e56001c8697329798
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629563"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455215"
 ---
 # <a name="smapiverb"></a>SMAPIVerb
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629563"
   
 Décrit un verbe MAPI.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
    

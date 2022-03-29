@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9cec22cd-798d-41f6-9ebd-c7354f2162c2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f66afac0d76705eb2a7910310626097cd2c5e2ad
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette propriété contient TRUE si l’Assistant Profil doit supprimer la page du carnet d’adresses personnel.
+ms.openlocfilehash: b93a19c87b085396e3a25c98c9e0be47b1212de8
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599262"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455061"
 ---
 # <a name="pidtagwizardnopabpage-canonical-property"></a>Propriété canonique PidTagWizardNoPabPage
 
@@ -27,16 +27,16 @@ ms.locfileid: "59599262"
   
 Cette propriété contient TRUE si l’Assistant Profil doit supprimer la page du carnet d’adresses personnel.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_WIZARD_NO_PAB_PAGE  <br/> |
 |Identificateur :  <br/> |0x6701  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Exchange Administrative  <br/> |
+|Domaine :  <br/> |Exchange administrative  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de services peuvent définir cette propriété lors de l’appel d’une fonction basée sur le prototype de fonction [LAUNCHWIZARDENTRY.](launchwizardentry.md) Cette propriété indique à l’Assistant Profil que le fournisseur ne souhaite pas que la page du PAB s’affiche pendant la boîte de dialogue utilisateur. 
+Les fournisseurs de services peuvent définir cette propriété lors de l’appel d’une fonction basée sur le prototype de fonction [LAUNCHWIZARDENTRY](launchwizardentry.md) . Cette propriété indique à l’Assistant Profil que le fournisseur ne souhaite pas que la page du PAB s’affiche pendant la boîte de dialogue utilisateur. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

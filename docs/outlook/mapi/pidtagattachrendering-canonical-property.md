@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 1f31f7f4-fbda-4337-95e5-5474dd1bf84a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0571d7726c17334867138346f92e99deccf9f259
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1f64946484f343949e541f3cb88f3b078a16b40b
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600455"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456384"
 ---
 # <a name="pidtagattachrendering-canonical-property"></a>Propriété canonique PidTagAttachRendering
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600455"
   
 Contient un métafichier Microsoft Windows avec les informations de rendu d’une pièce jointe. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_RENDERING  <br/> |
 |Identificateur :  <br/> |0x3709  <br/> |
@@ -42,11 +42,11 @@ Pour un fichier joint, cette propriété offre généralement une icône pour le
   
 Pour un message joint, cette propriété n’est généralement pas définie. Une application cliente qui doit restituer un message joint doit obtenir sa propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), appeler [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) pour un pointeur vers l’objet d’informations de formulaire correspondant, ouvrir l’interface [IMAPIFormInfo](imapiforminfoimapiprop.md) sur cet objet et utiliser **GetProps** pour récupérer la propriété **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) ou **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
   
-Pour un objet OLE statique incorporé, cette propriété contient un métafichier Microsoft Windows qui peut être utilisé pour dessiner la représentation de pièce jointe dans une fenêtre. 
+Pour un objet OLE statique incorporé, cette propriété contient un métafichier Microsoft Windows qui peut être utilisé pour dessiner la représentation des pièces jointes dans une fenêtre. 
   
 Pour un objet OLE dynamique incorporé, le client doit utiliser les données OLE pour générer les informations de rendu. 
   
-Dans tous les cas, l’application cliente doit savoir que cette propriété a généralement une taille de plusieurs centaines d’octets et est soumise à la troncation dans la table des pièces jointes. Si un client souhaite restituer la pièce jointe à partir de cette propriété sans ouvrir la pièce jointe elle-même, elle doit fonctionner dans la règle de troncation de table. Pour plus d’informations, [voir Working with Large Columns](working-with-large-columns.md). 
+Dans tous les cas, l’application cliente doit savoir que cette propriété a généralement une taille de plusieurs centaines d’octets et est soumise à la troncation dans la table des pièces jointes. Si un client souhaite restituer la pièce jointe à partir de cette propriété sans ouvrir la pièce jointe elle-même, elle doit fonctionner dans la règle de troncation de table. Pour plus d’informations, voir [Working with Large Columns](working-with-large-columns.md). 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ Dans tous les cas, l’application cliente doit savoir que cette propriété a g
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

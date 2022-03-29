@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 48667fda-ddc4-42ac-9231-761db0a4c1a9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 494a767f08d6ba473ef3260daff5fc122d2926a9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3de650b5a9e566778dc8e82b18d5b278da2a56ef
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563965"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454641"
 ---
 # <a name="pidtagaccesscontrollisttable-canonical-property"></a>Propriété canonique PidTagAccessControlListTable
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563965"
   
 Contient un tableau qui se compose de toutes les listes de contrôle d’accès système (SACL) appliquées à un dossier.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ACL_TABLE  <br/> |
 |Identificateur :  <br/> |0x3FE0  <br/> |

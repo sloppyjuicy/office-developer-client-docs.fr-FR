@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 46f31089-3b66-41a2-8094-e3db52464b9f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 049eaab7c1ec8289a9b553ecdc8000a08cbde942
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 643cdfa0887055493f0115a86e1a90937dce5226
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575084"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456097"
 ---
 # <a name="pidtagattachcontentid-canonical-property"></a>Propriété canonique PidTagAttachContentId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59575084"
   
 Contient l’en-tête d’identification de contenu d’une pièce jointe MIME (Multipurpose Internet Mail Extensions). 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_CONTENT_ID, PR_ATTACH_CONTENT_ID_A, PR_ATTACH_CONTENT_ID_W  <br/> |
 |Identificateur :  <br/> |0x3712  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont utilisées pour la prise en charge MHTML. Ils représenten
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ## <a name="header-files"></a>Fichiers d’en-tête
 

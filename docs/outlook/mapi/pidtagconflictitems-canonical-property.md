@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 0d147827-f0e2-dcc1-4427-c4a2f48ca801
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f872f91388e29637c68401c063d0546f70f0f17a
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 6a7b9229d4e3f635f7f20ee5a0532e171105de36
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63376566"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456076"
 ---
 # <a name="pidtagconflictitems-canonical-property"></a>Propriété canonique PidTagConflictItems
 
@@ -25,7 +25,7 @@ ms.locfileid: "63376566"
   
 Contient un ou plusieurs ID d’entrée d’éléments impliqués dans une résolution automatique de conflit.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONFLICT_ITEMS  <br/> |
 |Identificateur :  <br/> |0x1098  <br/> |

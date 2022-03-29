@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: dcd786e2-5b93-4a4c-933a-df305abe4bcb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b25edf59033138cb1b6542e6d9be517ed25abef0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d0dc4f8cf209675ab0e53cf8527a39fabaccc2dc
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604494"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455460"
 ---
 # <a name="pidlidremoteattachment-canonical-property"></a>Propriété canonique PidLidRemoteAttachment
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604494"
   
 Indique si une pièce jointe est associée à un élément distant.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRemoteAttachment  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Remote  <br/> |

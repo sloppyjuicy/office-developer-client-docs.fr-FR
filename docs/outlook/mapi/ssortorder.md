@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: fe181b9a-5903-4cc0-bcd5-2061b440b5b1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7d2a487d2657d5d2b8ba0803b62bd5e9b8b5f2f3
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Définit le mode de tri des lignes d’un tableau, la colonne à utiliser comme clé de tri et le sens du tri.
+ms.openlocfilehash: 198dbf7f5f999e48ce4d0f49803dc8d7e8370b91
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63369293"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456244"
 ---
 # <a name="ssortorder"></a>SSortOrder
 
@@ -25,7 +25,7 @@ ms.locfileid: "63369293"
   
 Définit le mode de tri des lignes d’un tableau, la colonne à utiliser comme clé de tri et le sens du tri.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 

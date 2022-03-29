@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d217ab33-d697-4d27-a962-08d551d301f0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3d00fd8d13311e1a390056a9cef5a915086eb972
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7cdcfb12ce48af5ce3ebae8816ad50017627346a
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630176"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455880"
 ---
 # <a name="pidlidsharingproviderurl-canonical-property"></a>Propriété canonique PidLidSharingProviderUrl
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630176"
   
 Spécifie l’URL liée au fournisseur de partage et identifiée par la propriété **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)). Il s’agit d’une propriété d’un message de partage.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingProviderUrl  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |

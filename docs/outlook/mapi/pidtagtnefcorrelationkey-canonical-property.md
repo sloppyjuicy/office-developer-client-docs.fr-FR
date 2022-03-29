@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a7f05c8c-59b4-4d5b-8e70-ebcde5f2ed45
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d086dda301bf527f42279d50be2f15f26f3213a2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une valeur qui met en corrélation une pièce jointe TNEF (Transport Neutral Encapsulation Format) avec un message.
+ms.openlocfilehash: 0995f8b012a0d5f40858c67994a6ddb72812857a
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599297"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454578"
 ---
 # <a name="pidtagtnefcorrelationkey-canonical-property"></a>Propriété canonique PidTagTnefCorrelationKey
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599297"
   
 Contient une valeur qui met en corrélation une pièce jointe TNEF (Transport Neutral Encapsulation Format) avec un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_TNEF_CORRELATION_KEY  <br/> |
 |Identificateur :  <br/> |0x007F  <br/> |
@@ -48,7 +48,7 @@ Sur un message entrant, le fournisseur de transport doit appeler la méthode [IT
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
@@ -60,7 +60,7 @@ Sur un message entrant, le fournisseur de transport doit appeler la méthode [IT
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

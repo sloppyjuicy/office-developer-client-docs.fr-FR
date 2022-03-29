@@ -7,13 +7,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 19a42794-a3a2-4336-af2a-473f24431252
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1f64cdd537a2cb4a453d8e9e9635f8408ef510dc
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: L’une des colonnes requises dans la plupart des tableaux est un identificateur d’entrée qui peut être utilisé pour ouvrir l’objet qui représente la ligne.
+ms.openlocfilehash: 257eda59b4ffbf5fc42e25c6d0de6f9fe1474300
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62779748"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454557"
 ---
 # <a name="retrieving-data-from-table-rows"></a>Extraction de données à partir de lignes de tableau
 
@@ -31,7 +31,7 @@ L’une des colonnes requises dans la plupart des tableaux est un identificateur
   
 Les clients et les fournisseurs de services peuvent effectuer l’un des appels suivants pour récupérer des lignes :
   
-|||
+|Appel |Description |
 |:-----|:-----|
 |[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Extrait un nombre spécifié de lignes commençant par la ligne en cours dans un sens avant ou arrière. |
 |[HrQueryAllRows](hrqueryallrows.md) <br/> |Extrait toutes les lignes d’un tableau. |

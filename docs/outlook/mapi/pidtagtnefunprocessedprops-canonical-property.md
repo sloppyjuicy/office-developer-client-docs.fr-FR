@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: df9cd614-1198-44a2-9bf5-36c57179a9a9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a544e108be195edaf3bce3ebd6be6440db2b5d6a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Sérialise les propriétés lors du filtrage du format TNEF (Transport Neutral Encapsulation Format). Utilisé pour enregistrer le TNEF d’origine s’il contient des propriétés nommées non créées dans le magasin.
+ms.openlocfilehash: fda05cd026d703f42ae0957f4ea5764e8e71b3c5
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609697"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455082"
 ---
 # <a name="pidtagtnefunprocessedprops-canonical-property"></a>Propriété canonique PidTagTnefUnprocessedProps
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609697"
   
 Sérialise les propriétés lors du filtrage du format TNEF (Transport Neutral Encapsulation Format).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_TNEF_UNPROCESSED_PROPS  <br/> |
 |Identificateur :  <br/> |0x0E9C  <br/> |

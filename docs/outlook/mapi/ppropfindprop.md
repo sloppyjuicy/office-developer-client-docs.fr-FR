@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f23dd6f4-915b-4fe8-ab3f-6d625c7d6061
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 32b7f70f2d3e976d38e638fda7ee0feb2af4e8b1
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Recherche une propriété spécifiée dans un jeu de propriétés pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 47ac34e1d28673f33cd818ae86551fd581263742
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62787645"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455544"
 ---
 # <a name="ppropfindprop"></a>PpropFindProp
 
@@ -27,7 +27,7 @@ ms.locfileid: "62787645"
   
 Recherche une propriété spécifiée dans un jeu de propriétés.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

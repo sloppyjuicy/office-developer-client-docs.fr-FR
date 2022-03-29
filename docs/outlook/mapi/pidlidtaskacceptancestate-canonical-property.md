@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7012f524-bc66-48ea-85b5-163e05029d35
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aa1527e65884e182e502900158482bc683a3a04d
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e9644da8b74b80de0daebfe904d2a3c59c07ba5d
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777326"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454977"
 ---
 # <a name="pidlidtaskacceptancestate-canonical-property"></a>Propriété canonique PidLidTaskAcceptanceState
 
@@ -27,7 +27,7 @@ ms.locfileid: "62777326"
   
 Indique l’état d’acceptation de la tâche.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskDelegValue  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

@@ -5,13 +5,13 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: dee566ad-b46d-1015-4b0b-6c3313060142
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c9cec86c61bdefe1940c4e13180c6e8a9a464775
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Cette rubrique décrit ce qui se produit lors de l’état de suppression de téléchargement de la machine à états de réplication.
+ms.openlocfilehash: ffcdbb44f2053278bc43c40403ef6cb2ec8665a7
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63379324"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455481"
 ---
 # <a name="upload-delete-status-state"></a>Télécharger Supprimer l’état
 
@@ -21,7 +21,7 @@ ms.locfileid: "63379324"
   
 ## <a name="quick-info"></a>Informations rapides
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Identificateur d’état :  <br/> |**LR_SYNC_UPLOAD_MESSAGE_DEL** <br/> |
 |Structure de données associée :  <br/> |**[UPDEL](updel.md)** <br/> |

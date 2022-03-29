@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 69ed3d48-3741-4a9a-8f98-51382b850c27
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f163fbd80ebe6cf60c50929585995053473d377b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e1712ede283dc4f1ec7996102f6033d647c18e8b
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555516"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455397"
 ---
 # <a name="pidlidtaskduedate-canonical-property"></a>Propriété canonique PidLidTaskDueDate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555516"
   
 Représente la date à laquelle l’utilisateur s’attend à effectuer la tâche.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskDueDate  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

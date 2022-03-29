@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2d4231b5-4096-4c0d-b694-65e2d04172b8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0806f6c51ef215b2b839cd136a20a9f8be28272f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient des informations supplémentaires à utiliser dans un rapport. La propriété est utilisée pour la remise ou le texte de rapport non remise à partir du système de messagerie sous-jacent.
+ms.openlocfilehash: d981b9d30dcb0ab7770bdebefdfc5004b14756ce
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609746"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455684"
 ---
 # <a name="pidtagsupplementaryinfo-canonical-property"></a>Propriété canonique PidTagSupplementaryInfo
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609746"
   
 Contient des informations supplémentaires à utiliser dans un rapport.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SUPPLEMENTARY_INFO, PR_SUPPLEMENTARY_INFO_A, PR_SUPPLEMENTARY_INFO_W  <br/> |
 |Identificateur :  <br/> |0x0C1B  <br/> |

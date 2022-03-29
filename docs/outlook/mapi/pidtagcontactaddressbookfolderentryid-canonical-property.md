@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 54361b61-de14-4409-b120-7a01a401be49
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2831abf91500bfaa32057bf93c5732d3f04be8a1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 636b7a94e2774de4fe01948aaa667c0fc6e23fbf
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616557"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455810"
 ---
 # <a name="pidtagcontactaddressbookfolderentryid-canonical-property"></a>Propriété canonique PidTagContactAddressBookFolderEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616557"
   
 Contient un identificateur pour le dossier Contacts dans la magasin de messages où les utilisateurs de messagerie sont conservés. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_FOLDER_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x6610  <br/> |

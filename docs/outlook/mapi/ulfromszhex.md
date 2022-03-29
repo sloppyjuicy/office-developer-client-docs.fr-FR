@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2d6b6bf-f96d-460c-859a-21961ac9237c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7d545e93d9ebd746d50c1e5d4db55f2114551ca1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Convertit une chaîne de chiffres hexadécimals terminée par null en un nombre long non signé.
+ms.openlocfilehash: bcc0367f9c45fada5fdbc595e755a229cdbc41bc
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623991"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454998"
 ---
 # <a name="ulfromszhex"></a>UlFromSzHex
 
@@ -25,9 +25,9 @@ ms.locfileid: "59623991"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Convertit une chaîne terminée par null de chiffres hexadécimals en un nombre long non signé. 
+Convertit une chaîne de chiffres hexadécimals terminée par null en un nombre long non signé. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -53,6 +53,6 @@ LPCSTR lpsz
 
 La **fonction UlFromSzHex** cesse de se convertir lorsqu’elle atteint le premier caractère de la chaîne qui n’est pas un chiffre hexadécimal. Par exemple, étant donné la chaîne « 5a », **UlFromSzHex** renvoie la valeur d’ensemble 90. Étant donné la chaîne « 5g5h », la fonction renvoie la valeur d’ensemble 5. Étant donné la chaîne « g5h5 », **UlFromSzHex** renvoie zéro. 
   
- **UlFromSzHex** est sensible aux différences diacritiques, mais autorise à la fois « a » et « f » et « A » à « F » pour les chiffres hexadécimals. Les chaînes aux formats Unicode et DBCS sont pris en charge. La limite de longueur sur  _lpsz est_ en caractères, pas nécessairement en octets. 
+ **UlFromSzHex** est sensible aux différences diacritiques, mais permet à la fois « a » à « f » et « A » à « F » pour les chiffres hexadécimals. Les chaînes aux formats Unicode et DBCS sont pris en charge. La limite de longueur sur  _lpsz est_ en caractères, pas nécessairement en octets. 
   
 

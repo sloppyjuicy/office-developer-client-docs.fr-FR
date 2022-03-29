@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: f57f20d5-5a63-42d1-be59-9880456bb05c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d1333990dd471221d28bf60f93f5bf55ff035dd0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 28c8e9c23637762d42dc759a6f5af1bb8f597458
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563615"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455768"
 ---
 # <a name="pidtagexceptionendtime-canonical-property"></a>Propriété canonique PidTagExceptionEndTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563615"
   
 Indique la date et l’heure de fin de l’exception dans le fuseau horaire local de l’ordinateur lors de la création de l’exception.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EXCEPTION_ENDTIME  <br/> |
 |Identificateur :  <br/> |0x7FFC  <br/> |

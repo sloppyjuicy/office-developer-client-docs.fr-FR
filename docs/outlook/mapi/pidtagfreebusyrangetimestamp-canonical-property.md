@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 142d955f-f92d-485a-80c9-9c72e82af0f2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bdac4563953e2cf2377e83dd69d468713976a49e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5547fd1b7a6ebe4b6d46f2a51a962b8119079fbc
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555376"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454830"
 ---
 # <a name="pidtagfreebusyrangetimestamp-canonical-property"></a>Propriété canonique PidTagFreeBusyRangeTimestamp
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555376"
   
 Contient l’heure de publication des données.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FREEBUSY_RANGE_TIMESTAMP  <br/> |
 |Identificateur :  <br/> |0x6868  <br/> |
@@ -44,7 +44,7 @@ Cette propriété est le nombre de minutes depuis le 1er janvier 1601 à minuit 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   

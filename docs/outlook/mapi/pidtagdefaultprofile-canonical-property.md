@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 47f745a4-5a9c-42af-b076-a72548ef4d31
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e6c3f957b349e226c2dde2f0afff59e4861f3581
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 032d260b42a47ce8fc65720f3b0b82695f6c3e0d
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555460"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454865"
 ---
 # <a name="pidtagdefaultprofile-canonical-property"></a>Propriété canonique PidTagDefaultProfile
 
@@ -25,9 +25,9 @@ ms.locfileid: "59555460"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient TRUE si un profil utilisateur de messagerie est le profil mapi par défaut.
+Contient TRUE si un profil utilisateur de messagerie est le profil MAPI par défaut.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DEFAULT_PROFILE  <br/> |
 |Identificateur :  <br/> |0x3D04  <br/> |

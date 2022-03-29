@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d2a84f24-b4a5-4e16-9219-7a579a31a8f8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d85e13b6b8217bbe0d77304525b740a96e2816fe
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 36b4f855e35a25d8b6a9b8fe6424019a05a54018
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563853"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455362"
 ---
 # <a name="pidtagattachmimesequence-canonical-property"></a>Propriété canonique PidTagAttachMimeSequence
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563853"
   
 Contient le numéro de séquence MIME d’une pièce jointe de message MIME.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_MIME_SEQUENCE  <br/> |
 |Identificateur :  <br/> |0x3710  <br/> |
@@ -36,7 +36,7 @@ Contient le numéro de séquence MIME d’une pièce jointe de message MIME.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée pour la prise en charge MHTML. Il représente le numéro de séquence de la pièce jointe dans la partie du corps en plusieurs parties MIME parent du message MIME.
+Cette propriété est utilisée pour la prise en charge MHTML. Il représente le numéro de séquence de la pièce jointe dans la partie du corps miME parent du message MIME.
   
 ## <a name="related-resources"></a>Ressources connexes
 

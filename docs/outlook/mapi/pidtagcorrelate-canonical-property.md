@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: be34993e-ffcc-47f5-b2d4-95ffa707bc5c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4f1b039de0d61c4adbeea25b1d85a073c1a6370b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 547e9aba156b2904c0379025b37d11da9219aa24
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600273"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454417"
 ---
 # <a name="pidtagcorrelate-canonical-property"></a>Propriété canonique PidTagCorrelate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600273"
   
 Contient TRUE si l’expéditeur d’un message demande la fonctionnalité de corrélation du système de messagerie.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CORRELATE  <br/> |
 |Identificateur :  <br/> |0x0E0C  <br/> |

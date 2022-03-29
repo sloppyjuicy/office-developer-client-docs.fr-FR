@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a067455f-c67e-4434-83bf-5acc320865d0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f69085d7e21564ad811e9daaf5c9450d77ea77a1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une liste d’identificateurs de services de message dans le profil actuel. N’utilisez pas cette propriété. Il est réservé à une utilisation par MAPI.
+ms.openlocfilehash: db304cae8e0ea2a9eadabe769e5297fde6784502
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586928"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454585"
 ---
 # <a name="pidtagservices-canonical-property"></a>Propriété canonique PidTagServices
 
@@ -27,7 +27,7 @@ ms.locfileid: "59586928"
   
 Contient une liste d’identificateurs de services de message dans le profil actuel.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SERVICES  <br/> |
 |Identificateur :  <br/> |0x3D0E  <br/> |

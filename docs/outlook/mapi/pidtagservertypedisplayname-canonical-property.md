@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 7b1ebf5c-3355-4691-bf7b-164d0c411d0c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 231d5571c2dbac8ee81e9922f065db4ad7cdb7b3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie la chaîne Unicode à afficher dans la barre d’état avec cette propriété pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: fc432db7b984b855ab917551797ff08884179fee
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609732"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455096"
 ---
 # <a name="pidtagservertypedisplayname-canonical-property"></a>Propriété canonique PidTagServerTypeDisplayName
 
@@ -23,7 +23,7 @@ ms.locfileid: "59609732"
   
 Spécifie la chaîne Unicode à afficher dans la barre d’état avec cette propriété.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SERVER_TYPE_DISPLAY_NAME  <br/> |
 |Identificateur :  <br/> |0x341D  <br/> |

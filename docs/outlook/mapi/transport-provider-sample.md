@@ -7,13 +7,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ec6eb6c0-bfe3-4989-9071-89a14c0e7bdd
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 541069ef4b9d53a99321a1c05969389c8e2b84ab
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Cet exemple utilise des fichiers et des répertoires pour transmettre et recevoir des messages. Il implémente un préprocesseur simple qui ajoute une ligne de texte à chaque message sortant.
+ms.openlocfilehash: 90e9967e5def5366a40dcede0329de7b221e7712
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63375355"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455901"
 ---
 # <a name="transport-provider-sample"></a>Exemple de fournisseur de transport
 
@@ -23,7 +23,7 @@ Cet exemple utilise des fichiers et des répertoires pour transmettre et recevoi
   
 Vous pouvez télécharger cet exemple à partir [Outlook exemples de code MAPI (Messaging API](https://go.microsoft.com/fwlink/?LinkId=129740)).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Exécutable :  <br/> |mrxp32.dll  <br/> |
 |Répertoire de code source :  <br/> |SampleTransportProvider\MRXP  <br/> |

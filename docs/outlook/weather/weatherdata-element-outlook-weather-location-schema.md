@@ -8,20 +8,20 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 14e0c469-31dc-fbe2-0d45-da602df04f13
 description: Définit l’élément météo.
-ms.openlocfilehash: dd7132a1c857d91f83040822a4df7f33753bf910
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: b2f11e522437fae2bef72fc14f644ebb1529e940
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778669"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455173"
 ---
 # <a name="weatherdata-element-outlook-weather-location-schema"></a>élément weatherdata (Outlook Weather Location Schema)
 
 Définit l’élément météo.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> ||
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
@@ -55,7 +55,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[météo](weather-element-weatherdata-elementoutlook-weather-location-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-location-schema.md) <br/> |Spécifie l’emplacement où signaler la météo. |
    

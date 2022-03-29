@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2872130d-a36b-46ea-bfd1-4700fe3dd41b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 346af7cd97889d0585b30654cffdc52f8a03e328
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Décrit un objet d’état qui a été affecté par une modification.
+ms.openlocfilehash: 35beb296d94d1db640ce3b94d78001cd91b0b263
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773081"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454697"
 ---
 # <a name="status_object_notification"></a>STATUS_OBJECT_NOTIFICATION
 
@@ -25,9 +25,9 @@ ms.locfileid: "62773081"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit un objet d’état qui a été affecté par une modification. 
+Décrit un objet d’état qui a été affecté par une modification Outlook 2013 et Outlook 2016. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -62,7 +62,7 @@ typedef struct
     
 ## <a name="remarks"></a>Remarques
 
-La **STATUS_OBJECT_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION](notification.md) . La **STATUS_OBJECT_NOTIFICATION** structure est incluse avec une notification d’objet d’état pour un événement de type  _fnevStatusObjectModified_. La notification d’objet d’état est une notification MAPI interne ; les clients et les fournisseurs de services ne peuvent pas s’y inscrire et les fournisseurs de services ne peuvent pas le générer.
+La **STATUS_OBJECT_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION](notification.md) . La **structure STATUS_OBJECT_NOTIFICATION** est incluse avec une notification d’objet d’état pour un événement de type  _fnevStatusObjectModified_. La notification d’objet d’état est une notification MAPI interne ; les clients et les fournisseurs de services ne peuvent pas s’y inscrire et les fournisseurs de services ne peuvent pas le générer.
   
 Pour plus d’informations sur la notification, voir les rubriques décrites dans le tableau suivant.
   

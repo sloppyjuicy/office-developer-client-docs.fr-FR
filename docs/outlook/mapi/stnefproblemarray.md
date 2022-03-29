@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 115d845b-4168-4d49-b880-219ee28baa9a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d15fca75372aa8fea074e5259506ddb6acf40c2f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un tableau de structures STnefProblem décrivant un ou plusieurs problèmes de traitement qui se sont produits lors du codage ou du décodage d’un flux TNEF.
+ms.openlocfilehash: 700b822e3c38cbaf41a12aa150bd0bce15ac4b51
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591051"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455005"
 ---
 # <a name="stnefproblemarray"></a>STnefProblemArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591051"
   
 Contient un tableau de structures **STnefProblem** décrivant un ou plusieurs problèmes de traitement qui se sont produits lors du codage ou du décodage d’un flux TNEF (Transport Neutral Encapsulation Format). 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Tnef.h  <br/> |
    
@@ -44,11 +44,11 @@ typedef struct _STnefProblemArray
 
  **cProblem**
   
-> Nombre d’éléments dans le tableau spécifié dans le **membre aProblem.** 
+> Nombre d’éléments dans le tableau spécifié dans le **membre aProblem** . 
     
  **aProblem**
   
-> Tableau de structures [STnefProblem.](stnefproblem.md) Chaque structure contient des informations sur un problème de traitement de propriété ou d’attribut. 
+> Tableau de structures [STnefProblem](stnefproblem.md) . Chaque structure contient des informations sur un problème de traitement de propriété ou d’attribut. 
     
 ## <a name="remarks"></a>Remarques
 

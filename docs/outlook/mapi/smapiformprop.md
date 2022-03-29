@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 80f1c2e0-3567-4b16-86cb-d5e6ac95c2ee
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 69bf149f4d70c34212ecea4c0ea4c55f25d0fc2a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Décrit une propriété nommée utilisée avec un formulaire pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 1583e318c8dcc42ce0363b8859d4255f036cb918
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578591"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454536"
 ---
 # <a name="smapiformprop"></a>SMAPIFormProp
 
@@ -27,7 +27,7 @@ ms.locfileid: "59578591"
   
 Décrit une propriété nommée utilisée avec un formulaire. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
    
@@ -56,7 +56,7 @@ typedef struct _SMAPIFormProp
 
  **ulFlags**
   
-> Indicateurs utilisés pour distinguer le format des chaînes dans la structure **SMAPIFormProp.** L’indicateur suivant peut être définie : 
+> Indicateurs utilisés pour distinguer le format des chaînes dans la structure **SMAPIFormProp** . L’indicateur suivant peut être définie : 
     
 MAPI_UNICODE 
   
@@ -76,7 +76,7 @@ MAPI_UNICODE
     
  **nSpecialType**
   
-> Valeur décrivant le type de données incluses dans le **membre u.** Les valeurs possibles sont les suivantes : 
+> Valeur décrivant le type de données incluses dans le **membre u** . Les valeurs possibles sont les suivantes : 
     
 FPST_VANILLA 
   
@@ -96,15 +96,15 @@ FPST_ENUM_PROP
     
  **cfpevAvailable**
   
-> Nombre de structures [SMAPIFormPropEnumVal](smapiformpropenumval.md) dans le tableau pointés par **le membre pfpevAvailable.** 
+> Nombre de structures [SMAPIFormPropEnumVal](smapiformpropenumval.md) dans le tableau pointés par **le membre pfpevAvailable** . 
     
  **pfpevAvailable**
   
-> Pointeur vers un tableau de structures **SMAPIFormPropEnumVal,** chacune d’elles contient une valeur pour la propriété nommée. 
+> Pointeur vers un tableau de structures **SMAPIFormPropEnumVal** , chacune d’elles contient une valeur pour la propriété nommée. 
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SMAPIFormProp** contient des informations sur une propriété de formulaire utilisée dans le cadre des définitions de l’interface [IMAPIFormInfo](imapiforminfoimapiprop.md) ; **nSpecialType contient** une balise qui s’applique à l’union **u** qui fait partie de **SMAPIFormProp**.
+La structure **SMAPIFormProp** contient des informations sur une propriété de formulaire utilisée dans le cadre des définitions de l’interface [IMAPIFormInfo](imapiforminfoimapiprop.md) ; **nSpecialType** contient une balise qui s’applique à l’union **u** qui fait partie de **SMAPIFormProp**.
   
 ## <a name="see-also"></a>Voir aussi
 

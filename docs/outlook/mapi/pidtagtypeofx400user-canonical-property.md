@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1351ec3c-984d-4b3e-8009-7c39f18d71a5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8f4213da79e80e919d4fa9c56c4e9fdcaddef3b3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette propriété contient le type d’un destinataire de message à utiliser dans un état pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 33d97214d88e6e6fbf122d09d94ba80e2423b2d7
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629689"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454571"
 ---
 # <a name="pidtagtypeofx400user-canonical-property"></a>Propriété canonique PidTagTypeOfX400User
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629689"
   
 Cette propriété contient le type d’un destinataire de message à utiliser dans un état.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_TYPE_OF_MTS_USER  <br/> |
 |Identificateur :  <br/> |0x0C1C  <br/> |

@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 84b16927-964e-24be-feaa-e0c11cf062f3
-description: Définit l’élément météo.
-ms.openlocfilehash: cdd806d291b6afdf0b56f0ed48485c49d160c977
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Définit un élément météo.
+ms.openlocfilehash: 38dc8b0f0fb674ece89129b245e1acb820804ffc
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774691"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455887"
 ---
 # <a name="weatherdata-element-outlook-weather-information-schema"></a>élément weatherdata (Outlook Weather Information Schema)
 
 Définit l’élément météo.
   
-## <a name="element-information"></a>Informations sur l’élément
+## <a name="element-information"></a>Informations sur l'élément
 
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |**Type d’élément** <br/> ||
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
@@ -54,7 +54,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[météo](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Spécifie les conditions météorologiques d’un emplacement. |
    

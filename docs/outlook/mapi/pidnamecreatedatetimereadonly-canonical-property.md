@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bb48743f-1f7f-47fb-b339-223d9bbf7072
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7061aac264040069856f12834874b04a76001d16
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1a0702afd74a76c1316c5af06104b88ec42b1629
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579235"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454508"
 ---
 # <a name="pidnamecreatedatetimereadonly-canonical-property"></a>Propriété canonique PidNameCreateDateTimeReadOnly
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579235"
   
 Spécifie l’heure de création du fichier.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a07c0ee3-f6f9-4ae3-81c0-accc939ca99a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 72072d77c00051c8b83340c377c338c4a92ecd34
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a1b64187f4747b0d138da5a39d22ab43f8c31a74
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600427"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454907"
 ---
 # <a name="pidtagautoforwardcomment-canonical-property"></a>Propriété canonique PidTagAutoForwardComment
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600427"
   
 Contient un commentaire ajouté par l’agent de forwarding automatique.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_AUTO_FORWARD_COMMENT, PR_AUTO_FORWARD_COMMENT_A, PR_AUTO_FORWARD_COMMENT_W  <br/> |
 |Identificateur :  <br/> |0x0004  <br/> |

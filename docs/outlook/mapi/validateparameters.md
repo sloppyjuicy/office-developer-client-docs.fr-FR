@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 80aadd11-5409-4636-8fad-fa2206336671
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e2df45a2955182639cf0e551d914d95476762e41
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Appelle une fonction interne pour vérifier les paramètres que les applications clientes ont transmis aux fournisseurs de services pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: ea9a9c84dbc89c6f040c8a5926ff9cb0c1c0550e
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629451"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456202"
 ---
 # <a name="validateparameters"></a>ValidateParameters
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629451"
   
 Appelle une fonction interne pour vérifier les paramètres que les applications clientes ont transmis aux fournisseurs de services. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -62,6 +62,6 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Remarques
 
-La macro **ValidateParameters** a été recalée par la macro [ValidateParms.](validateparms.md) **ValidateParameters ne** fonctionne pas correctement sur les plateformes RISC et n’est plus en mesure de les compiler. Il est toujours compilé et fonctionne correctement sur les plateformes Intel, mais **ValidateParms** est recommandé sur toutes les plateformes. 
+La macro **ValidateParameters** a été recalée par la macro [ValidateParms](validateparms.md) . **ValidateParameters ne** fonctionne pas correctement sur les plateformes RISC et n’est plus en mesure de les compiler. Il est toujours compilé et fonctionne correctement sur les plateformes Intel, mais **ValidateParms** est recommandé sur toutes les plateformes. 
   
 

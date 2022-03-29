@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5c64d74a-83a7-4122-b1d1-fcca0f4a6cdb
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7b4bbc92c1e7784053773d70c49d204a39e1967f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Définit une structure ADRLIST avec le nom spécifié qui contient un nombre spécifié de structures ADRENTRY.
+ms.openlocfilehash: 64ef4c9ae16d5a25e073a410ac7aed71a8c47158
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550013"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455033"
 ---
 # <a name="sizedadrlist"></a>SizedADRLIST
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une structure [ADRLIST](adrlist.md) avec le nom spécifié qui contient un nombre spécifié de structures [ADRENTRY.](adrentry.md) 
+Définit une structure [ADRLIST](adrlist.md) avec le nom spécifié qui contient un nombre spécifié de structures [ADRENTRY](adrentry.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**ADRLIST** <br/> |
@@ -38,11 +38,11 @@ SizedADRLIST (_centries,_name)
 
 _ _centries_
   
-> Nombre de structures **ADRENTRY** à inclure dans la nouvelle structure **ADRLIST.** 
+> Nombre de structures **ADRENTRY** à inclure dans la nouvelle structure **ADRLIST** . 
     
 _ _name_
   
-> Nom de la nouvelle structure **ADRLIST.** 
+> Nom de la nouvelle structure **ADRLIST** . 
     
 ## <a name="remarks"></a>Remarques
 

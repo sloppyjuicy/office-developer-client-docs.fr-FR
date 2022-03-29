@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4b202bc1-f718-446a-950f-634ffee47baf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3e1f03e7834a4a67ce7ea61b2e4eaac6ea02a597
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dc60f56894759d857cd51f710f37663b0e636475
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579319"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455838"
 ---
 # <a name="pidnameacceptlanguage-canonical-property"></a>Propriété canonique PidNameAcceptLanguage
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579319"
   
 Contient une valeur de champ d’en-Accept-Language [RFC3282].
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Noms convivial :  <br/> |AcceptLanguage  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |

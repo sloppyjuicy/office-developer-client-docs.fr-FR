@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3c5182a7-7d7a-48e8-b9cb-5abd7739f0fd
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fcc9dae766bdb9d8eb839fd2d2fab619c316201a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une liste délimitée par des points-virgules d’adresses e-mail et de domaines qui comprennent des expéditeurs bloqués.
+ms.openlocfilehash: 3e4289bc52f44a2b6a9409f713ba6a16b248376a
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550406"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455089"
 ---
 # <a name="pidtagspamjunksenders-canonical-property"></a>Propriété canonique PidTagSpamJunkSenders
 
@@ -23,7 +23,7 @@ ms.locfileid: "59550406"
   
 Contient une liste délimitée par des points-virgules d’adresses e-mail et de domaines qui comprennent des expéditeurs bloqués.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SPAM_JUNK_SENDERS_W  <br/> |
 |ID long (LID) :  <br/> |0x041A  <br/> |
@@ -40,7 +40,7 @@ Contient une liste délimitée par des points-virgules d’adresses e-mail et de
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

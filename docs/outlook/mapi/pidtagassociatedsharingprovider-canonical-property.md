@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 88a3356c-0b53-4401-8fcc-64071723c226
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4e15e7d79bd1103fa2238dffb7105c15db6df425
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 927812400ad917fdc620b344eeba66e5749a059c
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563909"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454620"
 ---
 # <a name="pidtagassociatedsharingprovider-canonical-property"></a>Propriété canonique PidTagAssociatedSharingProvider
 
@@ -21,9 +21,9 @@ ms.locfileid: "59563909"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Détermine si un fournisseur de magasins de fichiers de dossiers personnels (PST) est configuré en tant que fournisseur microsoft SharePoint 2010 PST.
+Détermine si un fournisseur de magasins de dossiers personnels (PST) est configuré en tant que fournisseur microsoft SharePoint 2010 PST.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ASSOCIATED_SHARING_PROVIDER  <br/> |
 |Identificateur :  <br/> |0x0EA00048  <br/> |

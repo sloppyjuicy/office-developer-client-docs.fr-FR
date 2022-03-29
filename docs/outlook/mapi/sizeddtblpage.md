@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 47b2a69d-e902-429f-8b31-166b51aeaf7f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 344403fa1dd4301ab6dee0118d30d23df8c3b1bb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Crée une structure nommée qui inclut DTBLPAGE pour décrire un contrôle de page à onglets, une étiquette et une entrée de fichier d’aide d’une longueur spécifiée.
+ms.openlocfilehash: 455275ca2115b06e2dfa610ad670bb31d6c50de4
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566625"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455229"
 ---
 # <a name="sizeddtblpage"></a>SizedDtblPage
 
@@ -25,7 +25,7 @@ ms.locfileid: "59566625"
   
 Crée une structure nommée qui inclut une structure [DTBLPAGE](dtblpage.md) pour décrire un contrôle de page à onglets, une étiquette d’une longueur spécifiée et une entrée de fichier d’aide d’une longueur spécifiée. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**DTBLPAGE** <br/> |
@@ -50,7 +50,7 @@ _u_
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedDtblPage** vous permet de définir un contrôle de page à onglets lorsque le nombre de caractères dans l’étiquette associée et l’entrée du fichier d’aide est connu. La nouvelle structure est créée avec les membres suivants : 
+La macro **SizedDtblPage** vous permet de définir un contrôle de page à onglets lorsque le nombre de caractères dans l’étiquette associée et l’entrée du fichier d’aide sont connus. La nouvelle structure est créée avec les membres suivants : 
   
 ```cpp
 DTBLPAGE dtblpage;
@@ -58,7 +58,7 @@ TCHAR lpszLabel[n];
 TCHAR lpszComponent[n1];
 ```
 
-Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblPage** en tant que pointeur de structure **DTBLPAGE,** effectuez la distribution suivante : 
+Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblPage** en tant que pointeur de structure **DTBLPAGE** , effectuez la distribution suivante : 
   
 ```cpp
 lpDtblPage = (LPDTBLPAGE) &SizedDtblPage;

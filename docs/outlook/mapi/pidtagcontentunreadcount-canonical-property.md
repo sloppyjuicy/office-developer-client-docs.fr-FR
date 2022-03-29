@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 4fe207e9-a77f-46b9-b51d-d989847a9d02
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 61958cba1b73b98e161979984d97c47c54f38017
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 29340eb318cb9c3c489fc420715374a18580e500
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566828"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455957"
 ---
 # <a name="pidtagcontentunreadcount-canonical-property"></a>Propriété canonique PidTagContentUnreadCount
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566828"
   
 Contient le nombre de messages non lus dans un dossier, tel que calculé par la boutique de messages. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTENT_UNREAD  <br/> |
 |Identificateur :  <br/> |0x3603  <br/> |
@@ -36,11 +36,11 @@ Contient le nombre de messages non lus dans un dossier, tel que calculé par la 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété calculée par la boutique de messages est utilisée à deux fins différentes, bien qu’associées. Sur un objet de dossier MAPI, il contient le nombre de messages dans un dossier. Dans une ligne de titre des tableaux MAPI classés, il contient le nombre de messages non associés non lus dans la catégorie correspondant à cette ligne de titre.
+Cette propriété calculée par la magasin de messages est utilisée à deux fins différentes, bien qu’associées. Sur un objet de dossier MAPI, il contient le nombre de messages dans un dossier. Dans une ligne de titre des tableaux MAPI classés, elle contient le nombre de messages non associés non lus dans la catégorie correspondant à cette ligne de titre.
   
 Cette propriété contient le nombre de messages dans la table de contenu du dossier pour lesquels l’indicateur MSGFLAG_READ n’est pas définie dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). La **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md)) contient le nombre total de messages pour le dossier. Les **PR_CONTENT_COUNT** et cette propriété sont en lecture seule pour les clients. 
   
-Certaines applications clientes affichent la ligne de titre d’une catégorie différemment en fonction de la valeur de cette propriété. Par exemple, un client peut afficher une catégorie qui inclut des messages non lus en gras. Cette propriété ne peut pas être utilisée en tant que catégorie et si vous tentez de le faire, la valeur MAPI_E_INVALID_PARAMETER est renvoyée à partir de la méthode [IMAPITable::SortTable.](imapitable-sorttable.md) 
+Certaines applications clientes affichent la ligne de titre d’une catégorie différemment en fonction de la valeur de cette propriété. Par exemple, un client peut afficher une catégorie qui inclut des messages non lus en gras. Cette propriété ne peut pas être utilisée en tant que catégorie et si vous essayez de le faire, la valeur MAPI_E_INVALID_PARAMETER est renvoyée à partir de la méthode [IMAPITable::SortTable](imapitable-sorttable.md) . 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Certaines applications clientes affichent la ligne de titre d’une catégorie d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Microsoft Exchange Server protocole.
+> Fournit des références aux spécifications Microsoft Exchange Server de protocole.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   

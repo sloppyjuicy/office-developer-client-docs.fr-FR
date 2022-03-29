@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e807c6b5-06cd-4ade-9d9e-69ba6abd1614
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a7b237821c2e989e9ef2b9bfdee4668c2d583827
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: Définit une fonction de point d’entrée de fournisseur de services que l’Assistant Profil appelle pour récupérer des informations afin d’afficher les feuilles de propriétés de configuration du fournisseur.
+ms.openlocfilehash: 8715ad870d90409753179ef129389a8f19aad1d9
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462805"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455187"
 ---
 # <a name="wizardentry"></a>WIZARDENTRY
 
@@ -27,7 +27,7 @@ ms.locfileid: "62462805"
   
 Définit une fonction de point d’entrée de fournisseur de services que l’Assistant Profil appelle pour récupérer suffisamment d’informations pour afficher les feuilles de propriétés de configuration du fournisseur. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiwz.h  <br/> |
 |Fonction définie implémentée par :  <br/> |Fournisseurs de services  <br/> |

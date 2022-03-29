@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4aafb254-6074-4a7c-b915-d3d33304ac38
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6ae3ab19e96aa4c80d6b39bda3ccddc3bcbc01af
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: Ajuste les pointeurs dans un tableau SPropValue une fois que le tableau et ses données ont été copiés ou déplacés vers un nouvel emplacement.
+ms.openlocfilehash: df06c61a1d4b8e011aa535e82b712c1e73dc08ba
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462233"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455047"
 ---
 # <a name="screlocprops"></a>ScRelocProps
 
@@ -27,7 +27,7 @@ ms.locfileid: "62462233"
   
 Ajuste les pointeurs dans un tableau [SPropValue](spropvalue.md) une fois que le tableau et ses données ont été copiés ou déplacés vers un nouvel emplacement. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

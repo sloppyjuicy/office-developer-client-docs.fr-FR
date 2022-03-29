@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c46656d5-2cb1-45eb-9f66-9c2b6e3315cf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8058ee4c4a1467052df51809ba2f1f75d8b53bbb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 02063d0c208549ea847f5a44ec7c34c3fa76159f
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616606"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454515"
 ---
 # <a name="pidnameattachmentmacinfo-canonical-property"></a>Propriété canonique PidNameAttachmentMacInfo
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616606"
   
 Contient une valeur de pièce jointe [RFC3282] composée des données d’en-tête et de bifurcation de ressources appropriées utilisées par les clients de messagerie Macintosh.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Attachment  <br/> |

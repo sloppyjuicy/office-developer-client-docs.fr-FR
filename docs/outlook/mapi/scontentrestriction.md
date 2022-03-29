@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 784c8a5a-493e-48e6-8784-ba8122c76e3d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c007d2ea61810aa93685a2d91836afdc4209d623
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Décrit une restriction de contenu, qui est utilisée pour limiter un affichage tableau aux seules lignes qui incluent une colonne dont le contenu correspond à une chaîne de recherche.
+ms.openlocfilehash: 9294b9b4ce8c356d4908da975b68d68f5c43a9d5
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624278"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455250"
 ---
 # <a name="scontentrestriction"></a>SContentRestriction
  
@@ -25,7 +25,7 @@ ms.locfileid: "59624278"
   
 Décrit une restriction de contenu, qui est utilisée pour limiter un affichage tableau aux seules lignes qui incluent une colonne dont le contenu correspond à une chaîne de recherche. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -47,11 +47,11 @@ typedef struct _SContentRestriction
     
    Les **16 bits inférieurs** du membre **ulFuzzyLevel** s’appliquent aux propriétés de type PT_BINARY et PT_STRING8 et doivent être définies sur l’une des valeurs suivantes : 
     
-   - FL_FULLSTRING : pour correspondre, la chaîne de **recherche lpProp** doit être contenue dans la propriété identifiée par **ulPropTag**.
+   - FL_FULLSTRING : pour correspondre, la chaîne de recherche **lpProp** doit être contenue dans la propriété identifiée par **ulPropTag**.
         
    - FL_PREFIX : pour correspondre, la chaîne de **recherche lpProp** doit apparaître au début de la propriété identifiée par **ulPropTag**. Les deux chaînes doivent être comparées uniquement jusqu’à la longueur de la chaîne de recherche indiquée par **lpProp**. 
         
-   - FL_SUBSTRING : pour correspondre, la chaîne de **recherche lpProp** doit être contenue n’importe où dans la propriété identifiée par **ulPropTag**. 
+   - FL_SUBSTRING : pour correspondre, la chaîne de recherche **lpProp** doit être contenue n’importe où dans la propriété identifiée par **ulPropTag**. 
         
    Les **16 bits supérieurs** du membre **ulFuzzyLevel** s’appliquent uniquement aux propriétés de type PT_STRING8 et peuvent être définies sur les valeurs suivantes dans n’importe quelle combinaison : 
         
@@ -77,9 +77,9 @@ Les valeurs FL_FULLSTRING, FL_PREFIX et FL_SUBSTRING s’excluent mutuellement. 
   
 Les valeurs FL_IGNORECASE, FL_IGNORENONSPACE et FL_LOOSE sont indépendantes. N’importe où entre zéro et les trois peuvent être définies. Leurs définitions sont fournies à titre indicatif uniquement et le fournisseur est libre d’implémenter sa propre signification spécifique de chaque indicateur. Le fournisseur ne doit pas renvoyer d’indication d’erreur s’il n’a pas d’implémentation d’un indicateur spécifié. 
   
-Le résultat d’une restriction de contenu imposée à une propriété n’est pas définie lorsque la propriété n’existe pas. Lorsqu’un client requiert un comportement bien défini pour une telle restriction et qu’il n’est pas sûr que la propriété existe, par exemple, il ne s’agit pas d’une colonne obligatoire d’une table, il doit créer une restriction **AND** pour joindre la restriction de contenu avec une restriction existante. Utilisez une structure [SExistRestriction](sexistrestriction.md) pour définir la restriction existante et une structure [SAndRestriction](sandrestriction.md) pour définir la restriction **AND.** 
+Le résultat d’une restriction de contenu imposée à une propriété n’est pas définie lorsque la propriété n’existe pas. Lorsqu’un client requiert un comportement bien défini pour une telle restriction et qu’il n’est pas sûr que la propriété existe, par exemple, il ne s’agit pas d’une colonne obligatoire d’une table qu’il doit créer une restriction **AND** pour joindre la restriction de contenu avec une restriction existante. Utilisez une structure [SExistRestriction](sexistrestriction.md) pour définir la restriction existante et une structure [SAndRestriction](sandrestriction.md) pour définir la restriction **AND** . 
   
-Pour plus d’informations sur la structure et les restrictions **SContentRestriction** en général, voir [à propos des restrictions](about-restrictions.md).
+Pour plus d’informations sur la structure et les restrictions **de SContentRestriction** en général, voir [À propos des restrictions](about-restrictions.md).
   
 ## <a name="see-also"></a>Voir aussi
 

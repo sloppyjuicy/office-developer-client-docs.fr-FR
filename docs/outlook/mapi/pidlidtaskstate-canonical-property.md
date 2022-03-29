@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 06d1f8a3-53e1-4c9a-9703-75de7a11a772
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cc10e8552133947f3e48912cf10fd9888ba01a45
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: dcfa904b6efebf4184b4c03662b17f3b74772d2b
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62787680"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455621"
 ---
 # <a name="pidlidtaskstate-canonical-property"></a>Propriété canonique PidLidTaskState
 
@@ -27,7 +27,7 @@ ms.locfileid: "62787680"
   
 Indique l’état d’affectation actuel de la tâche.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskState  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

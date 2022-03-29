@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2acf0036-2f3e-4f90-8614-7aa667860f74
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2b7d2e0b7487743edcab993a00607144c36327ee
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a4dcb58b48342e54ae7c1b8fb28dbd05814805ad
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579354"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455439"
 ---
 # <a name="pidlidtimezonestruct-canonical-property"></a>Propriété canonique PidLidTimeZoneStruct
 
@@ -25,9 +25,9 @@ ms.locfileid: "59579354"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un flux qui masgue le format persistant d’une structure [TZREG,](https://msdn.microsoft.com/library/bb820983%28v=office.12%29.aspx) qui décrit le fuseau horaire à utiliser pour l’heure de début et de fin d’un rendez-vous périodique ou d’une demande de réunion. 
+Contient un flux qui ma visite le format persistant d’une structure [TZREG](https://msdn.microsoft.com/library/bb820983%28v=office.12%29.aspx) , qui décrit le fuseau horaire à utiliser pour l’heure de début et de fin d’un rendez-vous périodique ou d’une demande de réunion. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTimeZoneStruct  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
@@ -37,9 +37,9 @@ Contient un flux qui masgue le format persistant d’une structure [TZREG,](http
    
 ## <a name="remarks"></a>Remarques
 
-Microsoft Office Outlook 2003, les versions antérieures de Outlook et les applications basées sur CDO (Collaboration Data Objects) 1.21 dont les utilisateurs n’ont pas exécuté l’outil de mise à jour du calendrier fourni par Outlook ou Exchange Server stockent l’heure de début et l’heure de fin d’un rendez-vous périodique ou d’une demande de réunion comme heure relative, et st ore the time zone where the appointment or meeting request is created in **dispidTimeZoneStruct**. Toutefois, ce schéma ignore qu’au fil du temps, les règles de fuseau horaire peuvent changer, ce qui entraîne des rendez-vous et des réunions que les utilisateurs ont programmés avant que les règles ne changent et se produisent à des moments incorrects. Les utilisateurs et les administrateurs qui n’exécutent pas Windows Vista ou qui n’ont pas de mise à jour automatique doivent utiliser les outils de rebasing de calendrier fournis par Outlook ou Exchange Server pour ajuster l’heure de ces rendez-vous et demandes de réunion. Pour plus d’informations sur ces outils de rebasing de calendrier et les API qui rebasent les calendriers, voir à propos de [la rebasing](https://msdn.microsoft.com/library/38b342d9-ab10-04b6-5490-9a45f847a60f%28Office.15%29.aspx) de calendriers par programme pour l’heure d’été
+Microsoft Office Outlook 2003, les versions antérieures de Outlook et les applications basées sur CDO (Collaboration Data Objects) 1.21 dont les utilisateurs n’ont pas exécuté l’outil de mise à jour du calendrier fourni par Outlook ou Exchange Server  stockez l’heure de début et l’heure de fin d’un rendez-vous périodique ou d’une demande de réunion en tant qu’heure relative, et stockez le fuseau horaire où le rendez-vous ou la demande de réunion est créé dans **dispidTimeZoneStruct**. Toutefois, ce schéma ignore qu’au fil du temps, les règles de fuseau horaire peuvent changer, ce qui entraîne certains rendez-vous et réunions que les utilisateurs ont programmés avant que les règles ne changent et se produisent à des moments incorrects. Les utilisateurs et les administrateurs qui n’exécutent pas Windows Vista ou qui n’ont pas de mise à jour automatique doivent utiliser les outils de rebasing de calendrier fournis par Outlook ou Exchange Server pour ajuster l’heure de ces rendez-vous et demandes de réunion. Pour plus d’informations sur ces outils de rebasing de calendrier et les API qui rebasent les calendriers, voir à propos de [la rebase des calendriers](https://msdn.microsoft.com/library/38b342d9-ab10-04b6-5490-9a45f847a60f%28Office.15%29.aspx) par programme pour l’heure d’été
   
-Utilisez le format little-endian suivant lors de l’utilisation d’un flux obtenu à partir de **dispidTimeZoneStruct** ou lors de la persistance de la structure **TZREG** dans un flux à valider dans la propriété binaire **dispidTimeZoneStruct.** 
+Utilisez le format little-endian suivant lors de l’utilisation d’un flux obtenu à partir de **dispidTimeZoneStruct**, ou lors de la persistance de la structure **TZREG** dans un flux à valider dans la propriété binaire **dispidTimeZoneStruct** . 
   
 ```cpp
 long        lBias;           // offset from GMT

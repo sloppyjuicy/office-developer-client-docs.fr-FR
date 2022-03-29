@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 59f43316-3ff6-4ed0-bc29-b31039192b08
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 572102d59dcebdaf92b1c1960014a7dca864fa71
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une liste délimitée par des points-virgules d’adresses e-mail et de domaines qui représentent les destinataires fiables.
+ms.openlocfilehash: cba25bd0729ea61f13692479d77d449b73961bb4
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550343"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456356"
 ---
 # <a name="pidtagspamtrustedrecipients-canonical-property"></a>Propriété canonique PidTagSpamTrustedRecipients
  
@@ -21,7 +21,7 @@ ms.locfileid: "59550343"
   
 Contient une liste délimitée par des points-virgules d’adresses e-mail et de domaines qui représentent les destinataires fiables.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SPAM_TRUSTED_RECIPIENTS_W  <br/> |
 |ID long (LID) :  <br/> |0x0419  <br/> |
@@ -38,7 +38,7 @@ Contient une liste délimitée par des points-virgules d’adresses e-mail et de
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

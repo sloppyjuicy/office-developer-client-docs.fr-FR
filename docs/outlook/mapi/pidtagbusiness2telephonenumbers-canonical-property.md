@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 2973ff42-213f-43ce-a358-159b6c5381ef
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 40d35ec69a881ac98b6c6464b9d2b0e04c19c810
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2dfcecc673b920b1f30d3c46b45c49c97b7bc1e5
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550791"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456083"
 ---
 # <a name="pidtagbusiness2telephonenumbers-canonical-property"></a>Propriété canonique PidTagBusiness2TelephoneNumbers
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550791"
   
 Contient une liste de numéros de téléphone pour une entreprise.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_BUSINESS2_TELEPHONE_NUMBER_A_MV  <br/> |
 |Identificateur :  <br/> |0x3A1B  <br/> |
@@ -44,7 +44,7 @@ Cette propriété peut être utilisée pour lister d’autres numéros de télé
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

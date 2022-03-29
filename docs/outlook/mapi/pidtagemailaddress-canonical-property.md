@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: bbd1e187-172e-4612-9efe-7c8e52967dfe
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 942ecbc8fcfe78fd1163fe5eb650557105353d44
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5802105195e3b569e4ca176b75249d6a98b5797b
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550686"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455747"
 ---
 # <a name="pidtagemailaddress-canonical-property"></a>Propriété canonique PidTagEmailAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550686"
   
 Contient l’adresse e-mail de l’utilisateur de messagerie. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EMAIL_ADDRESS, PR_EMAIL_ADDRESS_A, PR_EMAIL_ADDRESS_W  <br/> |
 |Identificateur :  <br/> |0x3003  <br/> |
@@ -55,7 +55,7 @@ Bruce@XYZZY.COM
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

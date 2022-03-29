@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8350a37c-6f42-4bef-82e0-35aa12b09fcf
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3ef38395a37be6b1bedab0eb6ef032ae6717f20c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée du dossier Affichages définis par l’utilisateur pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 7c9f26760c3a002cb3b56cf1f37e49618b63e7a3
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591324"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456314"
 ---
 # <a name="pidtagviewsentryid-canonical-property"></a>Propriété canonique PidTagViewsEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591324"
   
 Contient l’identificateur d’entrée du dossier Affichages définis par l’utilisateur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_VIEWS_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E5  <br/> |
@@ -36,7 +36,7 @@ Contient l’identificateur d’entrée du dossier Affichages définis par l’u
    
 ## <a name="remarks"></a>Remarques
 
-Le dossier d’affichage commun contient un ensemble prédéféré de specifieurs d’affichage standard, tandis que le dossier d’affichage contient des specifieurs définis par un utilisateur de messagerie. Ces dossiers, qui ne sont pas visibles dans la hiérarchie des messages interpersonnels (IPM), peuvent contenir de nombreux spécifiés d’affichage, chacun étant stocké sous la mesure d’un message. L’application cliente peut choisir de fusionner les deux ensembles de specifiers et de les rendre disponibles.
+Le dossier d’affichage commun contient un ensemble prédéféré de  specifieurs d’affichage standard, tandis que le dossier d’affichage contient des  specifieurs définis par un utilisateur de messagerie. Ces dossiers, qui ne sont pas visibles dans la hiérarchie des messages interpersonnels (IPM), peuvent contenir de nombreux  spécifiés d’affichage, chacun étant stocké sous la mesure d’un message. L’application cliente peut choisir de fusionner les deux ensembles de  specifiers et de les rendre disponibles.
   
 ## <a name="related-resources"></a>Ressources connexes
 

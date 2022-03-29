@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fc3c0ab3-6920-4e82-bc69-6c083159628f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: edf11e9cd418ec79392796f4881bd2509d436d70
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4c742bc863fbb3bc5446da42f664582ee8af2211
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616662"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455845"
 ---
 # <a name="pidlidworkaddress-canonical-property"></a>Propriété canonique PidLidWorkAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616662"
   
 Spécifie l’adresse de travail complète du contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidWorkAddress  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |

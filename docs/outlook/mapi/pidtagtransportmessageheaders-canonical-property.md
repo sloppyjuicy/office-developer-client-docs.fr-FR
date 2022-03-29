@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9f8e3f20-6454-4dfd-9b35-e0401abac6b3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7e37035729c81301c6b43fe40e500a407f4750f4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient des informations d’enveloppe de message spécifiques au transport. Le client peut choisir d’afficher ou non les informations.
+ms.openlocfilehash: 7624b0a8d207d8b91a43acad3fedd2a0be518968
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550294"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455075"
 ---
 # <a name="pidtagtransportmessageheaders-canonical-property"></a>Propriété canonique PidTagTransportMessageHeaders
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550294"
   
 Contient des informations d’enveloppe de message spécifiques au transport.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_TRANSPORT_MESSAGE_HEADERS, PR_TRANSPORT_MESSAGE_HEADERS_A, PR_TRANSPORT_MESSAGE_HEADERS_W  <br/> |
 |Identificateur :  <br/> |0x007D  <br/> |
@@ -46,7 +46,7 @@ Ces propriétés offrent une alternative au rejet des informations d’en-tête 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

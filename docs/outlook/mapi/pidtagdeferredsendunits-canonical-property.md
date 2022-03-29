@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 2386be9f-18c9-4949-a2aa-efc8e212801c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5e7cbc5729d2545b0d342913dcd16921b9d8bd94
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 05fe447b78a0ef4e5e836324a4a8e37124bf5647
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600203"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455306"
 ---
 # <a name="pidtagdeferredsendunits-canonical-property"></a>Propriété canonique PidTagDeferredSendUnits
 
@@ -25,9 +25,9 @@ ms.locfileid: "59600203"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l’unité de temps à laquelle la valeur de PR_DEFERRED_SEND_NUMBER **(** [PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) doit être multipliée.
+Spécifie l’unité de temps à laquelle la valeur **PR_DEFERRED_SEND_NUMBER propriété (**[PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) doit être multipliée.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DEFERRED_SEND_UNITS  <br/> |
 |Identificateur :  <br/> |0x3FEC  <br/> |
@@ -38,9 +38,8 @@ Spécifie l’unité de temps à laquelle la valeur de PR_DEFERRED_SEND_NUMBER *
 
 Si elle est définie, cette propriété doit avoir l’une des valeurs suivantes :
   
-|||
-|:-----|:-----|
 |**PidTagDeferredSendUnits** <br/> |Description  <br/> |
+|:-----|:-----|
 |0  <br/> |Minutes, par exemple 60 secondes  <br/> |
 |1  <br/> |Heures, par exemple 60 x 60 secondes  <br/> |
 |2  <br/> |Jour, par exemple 24 x 60 x 60 secondes  <br/> |

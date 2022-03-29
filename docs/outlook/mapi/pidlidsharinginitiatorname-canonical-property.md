@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f2b126fc-41fa-4dc4-9f13-07bc4f621d0b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cbfb1b67765319ae08fc15c93bea1a1d59d071da
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5aa0bd6d40e29cfee6d8e6142e5fbeba255ca49b
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620316"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455404"
 ---
 # <a name="pidlidsharinginitiatorname-canonical-property"></a>Propriété canonique PidLidSharingInitiatorName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620316"
   
 Désigne comme propriété d’un message de partage.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingInitiatorName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |
@@ -37,7 +37,7 @@ Désigne comme propriété d’un message de partage.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit être définie sur la valeur **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) à partir du carnet d’adresses identifié par **dispidSharingInitiatorEid** ([PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md)) et doit être ignorée. 
+Cette propriété doit être définie sur la valeur **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) du carnet d’adresses identifié par **dispidSharingInitiatorEid** ([PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md)) et doit être ignorée. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

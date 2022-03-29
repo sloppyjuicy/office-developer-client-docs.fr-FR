@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 75f092f2-ee3f-45c2-a46f-e1dff2e22b2e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d49e6663aa77fba9c2940ed614af4314e6fca6af
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b61a649343c62d1da4e3ad0c9a99c4170d6d3bdb
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616578"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454613"
 ---
 # <a name="pidtagattachadditionalinformation-canonical-property"></a>Propriété canonique PidTagAttachAdditionalInformation
 
@@ -25,9 +25,9 @@ ms.locfileid: "59616578"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit des informations de type de fichier pour une pièce jointe Windows non jointe.
+Fournit des informations sur le type de fichier pour une pièce jointe Windows non jointe.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACH_ADDITIONAL_INFO  <br/> |
 |Identificateur :  <br/> |0x370F  <br/> |
@@ -44,7 +44,7 @@ Cette propriété fournit des métadonnées sur une pièce jointe particulière 
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

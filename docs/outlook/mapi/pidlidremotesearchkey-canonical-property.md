@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 299627fe-8fbc-43e9-95aa-daf5c6e31ffb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: efbdfd8e5ab13783ff716a7b26491de332d6f880
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a55881cf39a7de81b9dc6ad66c342af8565cb2bb
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620351"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456174"
 ---
 # <a name="pidlidremotesearchkey-canonical-property"></a>Propriété canonique PidLidRemoteSearchKey
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620351"
   
 Indique la clé de recherche d’un élément distant.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRemoteSearchKey  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Remote  <br/> |

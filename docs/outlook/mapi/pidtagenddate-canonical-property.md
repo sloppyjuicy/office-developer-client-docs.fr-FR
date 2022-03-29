@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d7ec5c79-1287-4364-b5e5-5d1d6f0ea0f1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 300ca55b6d26e0ba46ab268f601db7e6f9ec5120
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ee2118d3fbadcff9939dfa638da1b372b1885a6d
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613498"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454403"
 ---
 # <a name="pidtagenddate-canonical-property"></a>Propriété canonique PidTagEndDate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613498"
   
 Contient la date et l’heure de fin d’un rendez-vous géré par une application de planification. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_END_DATE  <br/> |
 |Identificateur :  <br/> |0x0061  <br/> |
@@ -44,7 +44,7 @@ Les applications de planification doivent définir le **PR_START_DATE** ([PidTag
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

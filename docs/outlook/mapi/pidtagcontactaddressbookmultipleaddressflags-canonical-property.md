@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: ed3bc585-13f6-46a5-9e71-9c8513ddfc0a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 72cf1ee919ce9bc49792712f9e0b441d23f1ae01
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7ab2b050c50370788b32a7d866a906609a74a283
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566842"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455348"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflags-canonical-property"></a>Propriété canonique PidTagContactAddressBookMultipleAddressFlags
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566842"
   
 Contient des indicateurs qui indiquent si les fournisseurs vont prendre en charge plusieurs adresses de messagerie par élément de contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_MULTI_ADDR_FLAGS  <br/> |
 |Identificateur :  <br/> |0x6625  <br/> |
@@ -36,7 +36,7 @@ Contient des indicateurs qui indiquent si les fournisseurs vont prendre en charg
    
 ## <a name="remarks"></a>Remarques
 
-Si les indicateurs de cette propriété sont TRUE, le fournisseur n’inclut pas les contacts sans adresse de messagerie. Seule l’adresse de messagerie principale sera honorée. Il s’agit d’une propriété d’une section de profil de carnet d’adresses de contact.
+Si les indicateurs de cette propriété sont TRUE, le fournisseur n’inclut pas les contacts sans adresses e-mail. Seule l’adresse de messagerie principale sera honorée. Il s’agit d’une propriété d’une section de profil de carnet d’adresses de contact.
   
 ## <a name="related-resources"></a>Ressources connexes
 

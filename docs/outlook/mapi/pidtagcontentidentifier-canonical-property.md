@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 33bf8251-37d5-47d0-88d2-5088bfaa147a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7a93200a6a507bf222e309d9f8e3deadf8f71a22
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c9081ff3206b1a8a2f42cd1d3dd332a44cfe5573
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600280"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455803"
 ---
 # <a name="pidtagcontentidentifier-canonical-property"></a>Propriété canonique PidTagContentIdentifier
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600280"
   
 Contient une valeur clé qui permet au destinataire du message d’identifier son contenu.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTENT_IDENTIFIER, PR_CONTENT_IDENTIFIER_A, PR_CONTENT_IDENTIFIER_W  <br/> |
 |Identificateur :  <br/> |0x0008  <br/> |

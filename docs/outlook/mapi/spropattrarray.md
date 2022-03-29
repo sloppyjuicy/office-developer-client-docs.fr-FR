@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30dd19d9-0840-49e9-aec6-ec8d19b1f91d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1b5ee60cdf48484f1f8c7119535036e1d3e1b577
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+description: Contient une liste d’attributs pour les propriétés d’un objet. La structure SPropAttrArray est utilisée par les objets de données de propriété qui implémentent l’interface IPropData:IMAPIProp.
+ms.openlocfilehash: 6453a70d02769962df806c1ca9d395becb3be7e0
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63522470"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456258"
 ---
 # <a name="spropattrarray"></a>SPropAttrArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "63522470"
   
 Contient une liste d’attributs pour les propriétés d’un objet. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Imessage.h  <br/> |
 |Macros associées :  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md) <br/> |

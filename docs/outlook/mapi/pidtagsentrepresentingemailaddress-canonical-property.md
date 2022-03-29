@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5fa4edde-475c-4568-946b-73eb08f97a61
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 740cf8acfedadd101c4221f9a69ac21b5f446f25
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’adresse de messagerie de l’utilisateur de messagerie représenté par l’expéditeur pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 12110d836ab88c4db0497f5ced5552e3389b5b15
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613316"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455116"
 ---
 # <a name="pidtagsentrepresentingemailaddress-canonical-property"></a>Propriété canonique PidTagSentRepresentingEmailAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613316"
   
 Contient l’adresse de messagerie de l’utilisateur de messagerie représenté par l’expéditeur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SENT_REPRESENTING_EMAIL_ADDRESS, PR_SENT_REPRESENTING_EMAIL_ADDRESS_A, PR_SENT_REPRESENTING_EMAIL_ADDRESS_W  <br/> |
 |Identificateur :  <br/> |0x0065  <br/> |
@@ -36,7 +36,7 @@ Contient l’adresse de messagerie de l’utilisateur de messagerie représenté
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont des exemples de propriétés d’adresse pour l’utilisateur de messagerie représenté par l’expéditeur. Lorsqu’une application cliente envoie un message pour le compte d’un autre client, elle doit définir toutes les propriétés d’expéditeur représentées sur les valeurs de ce client. Un utilisateur de messagerie envoyant en son propre nom laisse généralement les propriétés de l’expéditeur représenté non jeu.
+Ces propriétés sont des exemples de propriétés d’adresse pour l’utilisateur de messagerie représenté par l’expéditeur. Lorsqu’une application cliente envoie un message pour le compte d’un autre client, elle doit définir toutes les propriétés d’expéditeur représentées sur les valeurs de ce client. Un utilisateur de messagerie qui envoie en son propre nom laisse généralement les propriétés de l’expéditeur représenté non jeu.
   
 Le fournisseur de transport sortant doit toujours laisser ces propriétés inchangées si elles ont été définies par le client d’envoi. S’il n’est pas définie, le fournisseur de transport doit la définir sur la propriété **PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)) sur la copie sortante du message et la laisser non définie sur la copie locale.
   
@@ -46,7 +46,7 @@ Le fournisseur de transport sortant doit toujours laisser ces propriétés incha
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
@@ -74,7 +74,7 @@ Le fournisseur de transport sortant doit toujours laisser ces propriétés incha
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

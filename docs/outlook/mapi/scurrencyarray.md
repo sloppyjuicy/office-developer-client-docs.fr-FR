@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d28852ab-b542-40e1-b2ec-85d20a2eddfd
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 37847a0c2d5f4dcea96e7b3a7af6094e94a78791
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un tableau de valeurs monétaires utilisées pour décrire une propriété de type PT_MV_CURRENCY.
+ms.openlocfilehash: 2b835e542285cab41feaaada44f79958068d7fd4
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586753"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454718"
 ---
 # <a name="scurrencyarray"></a>SCurrencyArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "59586753"
   
 Contient un tableau de valeurs monétaires utilisées pour décrire une propriété de type PT_MV_CURRENCY. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -44,7 +44,7 @@ typedef struct _SCurrencyArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau pointées par **le membre lpcur.** 
+> Nombre de valeurs dans le tableau pointées par **le membre lpcur** . 
     
  **lpcur**
   
@@ -52,7 +52,7 @@ typedef struct _SCurrencyArray
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations PT_MV_CURRENCY, voir [Liste des types de propriétés.](property-types.md) 
+Pour plus d’informations PT_MV_CURRENCY, voir [Liste des types de propriétés](property-types.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

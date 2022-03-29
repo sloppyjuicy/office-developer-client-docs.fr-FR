@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: c7f10b8a-6b20-44cf-bde6-8d2b711c1c14
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3a627e39b3502fcba0d9657d6562b6745e06077f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bb4a50aa24b4a0921ee640554bbedff3cad3917f
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555481"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454893"
 ---
 # <a name="pidtagcontentintegritycheck-canonical-property"></a>Propriété canonique PidTagContentIntegrityCheck
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555481"
   
 Contient une valeur de vérification de l’intégrité du contenu ASN.1 qui permet à un expéditeur de message de protéger le contenu du message contre la divulgation à des destinataires non autorisés.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTENT_INTEGRITY_CHECK  <br/> |
 |Identificateur :  <br/> |0x0C00  <br/> |

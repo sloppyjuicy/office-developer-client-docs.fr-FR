@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: ea5b77b7-8440-4e54-abd2-c475138c8f63
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 15d2bf5b724a2bccf4b7e29ef141ebf603b270dc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fceb7b3286421d2e6843a748194de38b2cf9b88e
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560913"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454459"
 ---
 # <a name="pidtagattachmentcontactphoto-canonical-property"></a>Propriété canonique PidTagAttachmentContactPhoto
 
@@ -25,9 +25,9 @@ ms.locfileid: "59560913"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique l’existence d’une pièce jointe photo pour un contact.
+Indique l’existence d’une pièce jointe pour un contact.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ATTACHMENT_CONTACTPHOTO  <br/> |
 |Identificateur :  <br/> |0x7FFF  <br/> |

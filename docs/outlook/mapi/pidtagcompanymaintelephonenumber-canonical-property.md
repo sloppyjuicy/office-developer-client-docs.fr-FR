@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 6b0baa18-135d-4cf3-b265-ad873131f036
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2a4ec187bb0a62c3f02df9dd941e2637c6263669
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 51c702ba0a665e5b43a05350c6f7421c95dac509
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563769"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455355"
 ---
 # <a name="pidtagcompanymaintelephonenumber-canonical-property"></a>Propriété canonique PidTagCompanyMainTelephoneNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563769"
   
 Contient le numéro de téléphone principal d’une société
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_COMPANY_MAIN_PHONE_NUMBER, PR_COMPANY_MAIN_PHONE_NUMBER_A, PR_COMPANY_MAIN_PHONE_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A57  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

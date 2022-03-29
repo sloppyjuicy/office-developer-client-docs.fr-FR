@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a10d86fc-3a73-49dc-b974-ed852ec715e9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 473f2745a6c3019db4994192fa4b138f1298b6cf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’état du message en fonction des informations disponibles pour lepooler MAPI. Cette propriété est calculée par MAPI sur les objets de message.
+ms.openlocfilehash: 24b362a25bc88a9162c6a30a2a8c4e58ee46574e
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591408"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456349"
 ---
 # <a name="pidtagspoolerstatus-canonical-property"></a>Propriété canonique PidTagSpoolerStatus
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591408"
   
 Contient l’état du message en fonction des informations disponibles pour lepooler MAPI.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SPOOLER_STATUS  <br/> |
 |Identificateur :  <br/> |0x0E10  <br/> |
@@ -42,7 +42,7 @@ Cette propriété apparaît uniquement sur les messages entrants et est réserv�
   
 Les applications clientes ne doivent jamais définir cette propriété. Pour un message entrant, un client ou un fournisseur de services peut appeler [IMAPIProp::GetProps](imapiprop-getprops.md) sur cette propriété pour déterminer l’état du message. La valeur S_OK indique que le message a été correctement remis à la boutique de messages. La valeur MAPI_E_OBJECT_DELETED indique que le message a été supprimé et n’a jamais été engagé dans la boutique. 
   
-Les fournisseurs de magasins de messages doivent prendre en charge cette propriété dans les messages, les tables des destinataires et la table des files d’attente sortantes. Les clients et les fournisseurs doivent être en mesure de définir des colonnes dans la table de files d’attente sortantes et de restreindre en fonction de cette propriété.
+Les fournisseurs de magasins de messages doivent prendre en charge cette propriété dans les messages, les tables des destinataires et la table des files d’attente sortantes. Les clients et fournisseurs doivent être en mesure de définir des colonnes dans la table des files d’attente sortantes et de restreindre en fonction de cette propriété.
   
 ## <a name="related-resources"></a>Ressources connexes
 

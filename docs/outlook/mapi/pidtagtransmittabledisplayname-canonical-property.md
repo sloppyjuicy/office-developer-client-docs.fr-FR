@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: aadd9086-b936-4067-bf7d-f54fc50e3c83
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d4baeb6d47c0f57385ae01a4abe5382d3c3e4d07
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom complet d’un destinataire dans un formulaire sécurisé qui ne peut pas être modifié. Une application cliente peut utiliser cette propriété pour empêcher l’altération des entrées.
+ms.openlocfilehash: 98488fc862ba6e979c009ac99bbda3c205e1d11a
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550301"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455985"
 ---
 # <a name="pidtagtransmittabledisplayname-canonical-property"></a>Propriété canonique PidTagTransmittableDisplayName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550301"
   
 Contient le nom complet d’un destinataire dans un formulaire sécurisé qui ne peut pas être modifié.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_TRANSMITABLE_DISPLAY_NAME, PR_TRANSMITABLE_DISPLAY_NAME_A, PR_TRANSMITABLE_DISPLAY_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3A20  <br/> |
@@ -46,7 +46,7 @@ Une application cliente peut utiliser cette propriété pour empêcher l’alté
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
@@ -62,7 +62,7 @@ Une application cliente peut utiliser cette propriété pour empêcher l’alté
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

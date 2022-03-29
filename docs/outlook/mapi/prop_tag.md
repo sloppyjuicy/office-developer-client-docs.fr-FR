@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d8c9d18c-4043-41f3-8501-8be8e3a2c9ac
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e1d1f759989ae7c241317b7488ce0d8f53180e9f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Renvoie une balise de propriété créée en combinant un type de propriété spécifié et un identificateur pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 3d82f00c92ed750ea5c1189890d2be6e85524c5f
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609634"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456300"
 ---
 # <a name="prop_tag"></a>PROP_TAG
 
@@ -25,7 +25,7 @@ ms.locfileid: "59609634"
   
 Renvoie une balise de propriété créée en combinant un type de propriété et un identificateur spécifiés. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |[SPropValue](spropvalue.md) <br/> |
@@ -46,7 +46,7 @@ _ulPropID_
     
 ## <a name="remarks"></a>Remarques
 
-La macro **\_ PROP TAG** crée une balise de propriété pour une propriété de type  _ulPropType_ et l’identificateur spécifié dans  _ulPropID_. Par exemple, une balise de propriété pour un identificateur d’entrée peut être créée à l’aide de la macro **PROP_TAG** comme suit : 
+La macro **PROPTAG\_** crée une balise de propriété pour une propriété de type _ulPropType_ et l’identificateur spécifié dans _ulPropID_. Par exemple, une balise de propriété pour un identificateur d’entrée peut être créée à l’aide de **la macro PROP_TAG** comme suit : 
   
 ```cpp
 PROP_TAG( PT_BINARY, 0x0FFF)

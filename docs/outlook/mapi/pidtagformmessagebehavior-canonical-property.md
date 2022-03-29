@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8fd82432-9fd9-49ed-aa52-72109db04dc9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9cb0e19e5460649f5450bf99c5bbf73f619155f8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9bfd0e90657a517da85b0ab43610ce0f3a4bc6b2
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620203"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455292"
 ---
 # <a name="pidtagformmessagebehavior-canonical-property"></a>Propriété canonique PidTagFormMessageBehavior
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620203"
   
 Contient TRUE si un message doit être composé dans le dossier actuel. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_MESSAGE_BEHAVIOR  <br/> |
 |Identificateur :  <br/> |0x330A  <br/> |
@@ -36,7 +36,7 @@ Contient TRUE si un message doit être composé dans le dossier actuel.
    
 ## <a name="remarks"></a>Remarques
 
-La valeur FALSE indique que le message doit être composé comme tout autre message interpersonnel, c’est-à-dire dans le dossier Boîte d’envoi. 
+La valeur FALSE indique que le message doit être composé comme tout autre message interpersonnel, c’est-à-dire, dans le dossier Boîte d’envoi. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

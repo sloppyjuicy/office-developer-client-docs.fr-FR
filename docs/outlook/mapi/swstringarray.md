@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1ae24ad-1bbb-4dee-b414-b5226593b6fa
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 68a90d4bcc0b52cfa312fcaa60add644ea835ce0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un tableau de chaînes de caractères qui sont utilisées pour décrire une propriété de type PT_MV_UNICODE.
+ms.openlocfilehash: ca6e2d0dd616b005768973759875a94fdb3a2bd1
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609486"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456237"
 ---
 # <a name="swstringarray"></a>SWStringArray
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609486"
   
 Contient un tableau de chaînes de caractères qui sont utilisées pour décrire une propriété de type PT_MV_UNICODE. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -44,7 +44,7 @@ typedef struct _SWStringArray
 
  **cValues**
   
-> Nombre de chaînes dans le tableau pointées par **le membre lppszW.** 
+> Nombre de chaînes dans le tableau pointées par **le membre lppszW** . 
     
  **lppszW**
   
@@ -52,7 +52,7 @@ typedef struct _SWStringArray
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur PT_MV_UNICODE, voir [Types de propriétés.](property-types.md)
+Pour plus d’informations sur PT_MV_UNICODE, voir [Types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

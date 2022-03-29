@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d2530009-5de3-4872-a0a5-be1389c4206e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0dea422ab72449272b8940ecc16c22d513bd75eb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9ddd3124f43dac4f8cd0798f34a4af9dbc56cecd
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563706"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454879"
 ---
 # <a name="pidtagcreatetemplates-canonical-property"></a>Propriété canonique PidTagCreateTemplates
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563706"
   
 Contient un objet table incorporé qui contient des identificateurs d’entrée de modèle de boîte de dialogue. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CREATE_TEMPLATES  <br/> |
 |Identificateur :  <br/> |0x3604  <br/> |
@@ -36,7 +36,7 @@ Contient un objet table incorporé qui contient des identificateurs d’entrée 
    
 ## <a name="remarks"></a>Remarques
 
-Pour savoir quels objets modèle peuvent être créés à l’intérieur d’un conteneur, appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur cette propriété. L’objet résultant est le tableau unique qui fournit les identificateurs d’entrée pour tous les modèles que vous pouvez créer à l’intérieur du conteneur. 
+Pour savoir quels objets modèles peuvent être créés à l’intérieur d’un conteneur, appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur cette propriété. L’objet résultant est le tableau unique qui fournit les identificateurs d’entrée pour tous les modèles que vous pouvez créer à l’intérieur du conteneur. 
   
 Pour créer les objets de modèle, appelez la méthode **CreateEntry** de l’objet conteneur sur les valeurs de colonne **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la table unique.
   

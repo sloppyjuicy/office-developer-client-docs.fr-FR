@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4e7340d1-3cb9-4276-b83f-1c8f94acb909
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1d96ab1a4bb8e56bd055af05054f5a8f16448a96
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Décrit une restriction de taille utilisée pour tester la taille d’une valeur de propriété pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 108659ebcf80d90a408a4d7fbf0543a9fde578af
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566450"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455642"
 ---
 # <a name="ssizerestriction"></a>SSizeRestriction
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566450"
   
 Décrit une restriction de taille utilisée pour tester la taille d’une valeur de propriété. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -85,7 +85,7 @@ RELOP_EQ
     
 ## <a name="remarks"></a>Remarques
 
-Pour une discussion générale sur le fonctionnement des restrictions, voir [à propos des restrictions.](about-restrictions.md) 
+Pour une discussion générale sur le fonctionnement des restrictions, voir [À propos des restrictions](about-restrictions.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

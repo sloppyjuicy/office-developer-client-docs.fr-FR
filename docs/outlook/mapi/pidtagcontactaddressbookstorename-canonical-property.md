@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 84c1b0cb-91aa-4238-ac74-a129a6e2cdd6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6faf42fa27fa9fb1f9b7384ba1321753d53df4ad
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1a16bc2f08f6a63d86baa7228699f59cbfc159ca
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571113"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64452198"
 ---
 # <a name="pidtagcontactaddressbookstorename-canonical-property"></a>Propriété canonique PidTagContactAddressBookStoreName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571113"
   
 Contient le nom complet du magasin associé au fournisseur de carnet d’adresses. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_STORE_NAME, PR_CONTAB_STORE_NAME_A, PR_CONTAB_STORE_NAME_W  <br/> |
 |Identificateur :  <br/> |0x6612  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f6da69ff-a913-4a65-bb07-8ad3c5685e5e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d2b07e58f7311913f7885ce2b8f80ce06adc6cd7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a381888be8b7b242aaba15414eab29345d566505
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555488"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454228"
 ---
 # <a name="pidlidtaskresetreminder-canonical-property"></a>Propriété canonique PidLidTaskResetReminder
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555488"
   
 Indique si les instances futures de tâches périodiques doivent être rappelées, même si **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) est FALSE.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskResetReminder  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
@@ -39,7 +39,7 @@ Indique si les instances futures de tâches périodiques doivent être rappelée
 
 Cette valeur est définie sur TRUE lorsque le rappel de la tâche est rejeté et sur FALSE dans le cas contraire. S’il n’est pas jeu, la valeur par défaut FALSE est supposée.
   
-Comme spécifié dans [[MS-OXORMDR],](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)la propriété **dispidReminderSet** indique si un rappel est définie sur la tâche. Toutefois, cette propriété indique uniquement la présence d’un rappel sur une seule tâche. Il ne peut pas être utilisé seul pour déterminer si une instance future d’une tâche périodique nécessite un rappel. 
+Comme spécifié dans [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), la propriété **dispidReminderSet** indique si un rappel est définie sur la tâche. Toutefois, cette propriété indique uniquement la présence d’un rappel sur une seule tâche. Il ne peut pas être utilisé seul pour déterminer si une instance future d’une tâche périodique nécessite un rappel. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

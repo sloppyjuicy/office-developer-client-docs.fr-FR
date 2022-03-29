@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 1b4e82ed-c207-4828-8a5b-0ef312962355
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: da4384846eb139246b62f7beaae75066288ceb9f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fd3ba94c6d7d9aa1ed1029e0f95cc5ebf5e7f1af
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600266"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455943"
 ---
 # <a name="pidtagdefaultviewentryid-canonical-property"></a>Propriété canonique PidTagDefaultViewEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600266"
   
 Contient l’identificateur d’entrée de l’affichage par défaut d’un dossier.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DEFAULT_VIEW_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x3616  <br/> |
@@ -36,9 +36,9 @@ Contient l’identificateur d’entrée de l’affichage par défaut d’un doss
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est l’identificateur d’entrée de l’affichage dossier qui doit être définie comme affichage initial. La propriété ne doit pas être définie si l’affichage « Normal » doit être utilisé comme affichage initial.
+Cette propriété est l’identificateur d’entrée de l’affichage dossier qui doit être définie en tant qu’affichage initial. La propriété ne doit pas être définie si l’affichage « Normal » doit être utilisé comme affichage initial.
   
-Une application cliente peut obtenir cette propriété au moment où elle ouvre le dossier et réalise des gains de performances significatifs. Cette propriété peut être utilisée comme raccourci pour obtenir l’affichage par défaut, au lieu d’ouvrir la table des matières associée et d’envoyer une restriction.
+Une application cliente peut obtenir cette propriété au moment où elle ouvre le dossier et réalise des gains de performances significatifs. Cette propriété peut servir de raccourci pour obtenir l’affichage par défaut, au lieu d’ouvrir la table des matières associée et d’envoyer une restriction.
   
 Une implémentation de fournisseur de services de la méthode [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) peut copier cette propriété lorsqu’elle copie des dossiers. 
   

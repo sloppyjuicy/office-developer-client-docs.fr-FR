@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 81ad2e8a-661f-4fc7-bee4-848db3285e31
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 300d32a73ef0a7bee3dec6bdbdb40704ad024d3d
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 90b5e5170401ba6e2d41d3729862d4949fe8b20c
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782632"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454991"
 ---
 # <a name="pidlidrecurrencetype-canonical-property"></a>Propriété canonique PidLidRecurrenceType
 
@@ -27,7 +27,7 @@ ms.locfileid: "62782632"
   
 Spécifie le type de récurrence de la série périodique.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRecurType  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |

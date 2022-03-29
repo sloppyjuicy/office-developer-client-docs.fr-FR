@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7a49b944-cef1-4642-9208-b137fd61171a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3e7c2397e44127f49d3fc707362c6d6ab12f8e68
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la clé de recherche de l’utilisateur de messagerie représenté par l’expéditeur pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 2dec1d984e2e5bf415fbe48bb7b03aa6fe596d44
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613253"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454774"
 ---
 # <a name="pidtagsentrepresentingsearchkey-canonical-property"></a>Propriété canonique PidTagSentRepresentingSearchKey
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613253"
   
 Contient la clé de recherche de l’utilisateur de messagerie représenté par l’expéditeur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SENT_REPRESENTING_SEARCH_KEY  <br/> |
 |Identificateur :  <br/> |0x003B  <br/> |
@@ -36,7 +36,7 @@ Contient la clé de recherche de l’utilisateur de messagerie représenté par 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est l’une des propriétés d’adresse de l’utilisateur de messagerie représenté par l’expéditeur. Lorsqu’une application cliente envoie un message pour le compte d’un autre client, elle doit définir toutes les propriétés d’expéditeur représentées sur les valeurs de ce client. Un utilisateur de messagerie envoyant en son propre nom laisse généralement les propriétés de l’expéditeur représenté non jeu.
+Cette propriété est l’une des propriétés d’adresse de l’utilisateur de messagerie représenté par l’expéditeur. Lorsqu’une application cliente envoie un message pour le compte d’un autre client, elle doit définir toutes les propriétés d’expéditeur représentées sur les valeurs de ce client. Un utilisateur de messagerie qui envoie en son propre nom laisse généralement les propriétés de l’expéditeur représenté non jeu.
   
 Le fournisseur de transport sortant doit toujours laisser cette propriété inchangée si elle a été définie par le client d’envoi. Si elle n’est pas définie, le fournisseur de transport doit la définir sur **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) sur la copie sortante du message et la laisser non définie sur la copie locale.
   
@@ -46,7 +46,7 @@ Le fournisseur de transport sortant doit toujours laisser cette propriété inch
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

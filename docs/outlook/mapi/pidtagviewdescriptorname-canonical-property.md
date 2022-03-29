@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e689ee4-9e89-4328-beb9-05c80a6544a0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7cb5f25e9e9c4dc26998d164b0450ea5443f61bf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom d’un descripteur d’affichage. Ces propriétés doivent être définies sur une chaîne non vide pour un message FAI qui contient des définitions d’affichage.
+ms.openlocfilehash: 7889e280ebbefa026f4d6fb681b0abd189f56774
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550280"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455663"
 ---
 # <a name="pidtagviewdescriptorname-canonical-property"></a>Propriété canonique PidTagViewDescriptorName
 
@@ -27,12 +27,12 @@ ms.locfileid: "59550280"
   
 Contient le nom d’un descripteur d’affichage.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_VD_NAME, PR_VD_NAME_A, PR_VD_NAME_W  <br/> |
 |Identificateur :  <br/> |0x7006  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Message définissable par la classe de message  <br/> |
+|Domaine :  <br/> |Message défini comme transmettable par la classe  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -44,7 +44,7 @@ Ces propriétés doivent être définies sur une chaîne non vide pour un messag
 
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Spécifie l’emplacement et les propriétés des données de configuration client et serveur, telles que les listes de catégories partagées et les heures de travail.
+> Spécifie l’emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

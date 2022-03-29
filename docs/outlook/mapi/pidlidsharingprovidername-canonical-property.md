@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 67e6497c-e053-4b2d-a81c-c6cf6017f8bd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a4891535e9fb9d3a15b27cf1da396bf1be9aa326
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1a015b12746a567c055437ff3e9bd1762035bb3b
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630207"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455446"
 ---
 # <a name="pidlidsharingprovidername-canonical-property"></a>Propriété canonique PidLidSharingProviderName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630207"
   
 Spécifie le nom affichable par l’utilisateur du fournisseur de partage identifié par **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)). Il s’agit d’une propriété d’un message de partage.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingProviderName  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |

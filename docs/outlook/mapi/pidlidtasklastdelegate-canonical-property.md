@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5eb8c1ce-063f-4273-acba-e6f9c994e7d3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 210a7bbdb6f6a56a9b8771052a6015785a4bb6e6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8b65f04d6824b7ac39c14531951a359fd1b2c505
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610075"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455390"
 ---
 # <a name="pidlidtasklastdelegate-canonical-property"></a>Propriété canonique PidLidTaskLastDelegate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59610075"
   
  Nomme l’utilisateur qui a été le plus récemment affecté ou qui a été affecté à la tâche. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskLastDelegate  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

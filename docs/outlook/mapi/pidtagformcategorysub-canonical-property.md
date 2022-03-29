@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 0e654152-c850-417a-8877-29d47cf85db5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e74216a46466441d0fc71e0b6e3673b0606de820
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 15f786668ff54498a25e5a5ceec9e1005724eb3a
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613519"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456041"
 ---
 # <a name="pidtagformcategorysub-canonical-property"></a>Propriété canonique PidTagFormCategorySub
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613519"
   
 Contient la sous-catégorie d’un formulaire, telle que définie par une application cliente. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_CATEGORY_SUB, PR_FORM_CATEGORY_SUB_A, PR_FORM_CATEGORY_SUB_W  <br/> |
 |Identificateur :  <br/> |0x3305  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 281bc3e0-7c69-461b-bf09-4281abbb5e1b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 163a7e88bdb6f6c22a608af2b5a0af961f033779
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 70e9604df3aa273e6ada2db30721f133772f3b2a
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583506"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455320"
 ---
 # <a name="pidtagcontrolid-canonical-property"></a>Propriété canonique PidTagControlId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583506"
   
 Contient un identificateur unique pour un contrôle utilisé dans une boîte de dialogue. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTROL_ID  <br/> |
 |Identificateur :  <br/> |0x3F07  <br/> |

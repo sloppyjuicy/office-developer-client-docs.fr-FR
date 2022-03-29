@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 683d0d00-1b93-445d-86ff-180a3e6d2323
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4119bf2b0bd0c08a88048868fbc0fd24f6961a13
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+description: Définit ou modifie les attributs des propriétés d’un objet IMessage fourni par la fonction OpenIMsgOnIStg.
+ms.openlocfilehash: 9d00a593b984637bd90e340e637008d0a22185cb
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62464851"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455243"
 ---
 # <a name="setattribimsgonistg"></a>SetAttribIMsgOnIStg
 
@@ -27,7 +27,7 @@ ms.locfileid: "62464851"
   
 Définit ou modifie les attributs des propriétés d’un objet [IMessage](imessageimapiprop.md) fourni par la fonction [OpenIMsgOnIStg](openimsgonistg.md) . 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Imessage.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |

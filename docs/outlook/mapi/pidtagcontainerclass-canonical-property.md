@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: db249e9e-f1f0-4b95-8cd9-daa7c53ddb32
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 423e5d5cbb2cd66f4bd47c76ef93998420072593
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 35f041840d355b5e9032e83920b39c752f30e81e
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571100"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454886"
 ---
 # <a name="pidtagcontainerclass-canonical-property"></a>Propriété canonique PidTagContainerClass
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571100"
   
 Contient une chaîne de texte décrivant le type d’un dossier. Bien que cette propriété soit généralement ignorée, les versions de Microsoft® Exchange Server antérieures à Exchange Server 2003 Mailbox Manager s’attendent à ce que cette propriété soit présente.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAINER_CLASS, PR_CONTAINER_CLASS_A, PR_CONTAINER_CLASS_W  <br/> |
 |Identificateur :  <br/> |0x3613  <br/> |
@@ -36,7 +36,7 @@ Contient une chaîne de texte décrivant le type d’un dossier. Bien que cette 
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés ne sont généralement pas utilisées par les Exchange Server. Toutefois, Microsoft Office Outlook® les joint à des dossiers de boîte aux lettres. En outre, les versions de Exchange Server antérieures à Exchange Server 2003 Mailbox Manager peuvent gérer de manière incorrecte les dossiers qui n’ont pas ces propriétés.
+Ces propriétés ne sont normalement pas utilisées par les Exchange Server. Toutefois, Microsoft Office Outlook ® les joint à des dossiers de boîte aux lettres. En outre, les versions de Exchange Server antérieures à Exchange Server 2003 Mailbox Manager peuvent gérer de manière incorrecte les dossiers qui n’ont pas ces propriétés.
   
 Ces propriétés peuvent être affectées aux valeurs de chaîne dans le tableau suivant.
   
@@ -44,7 +44,7 @@ Ces propriétés peuvent être affectées aux valeurs de chaîne dans le tableau
 |:-----|:-----|
 |IPF. Rendez-vous  <br/> |Rendez-vous  <br/> |
 |IPF. Contact  <br/> |Contacts  <br/> |
-|IPF. Journal  <br/> |Outlook Entrées de journal  <br/> |
+|IPF. Journal  <br/> |Outlook journal  <br/> |
 |IPF. Remarque  <br/> |Messages électroniques et notes  <br/> |
 |IPF. StickyNote  <br/> |Outlook Pense-bêtes  <br/> |
 |IPF. Tâche  <br/> |Tâches Outlook  <br/> |
@@ -57,7 +57,7 @@ Pour les dossiers qui contiennent des messages électroniques, ces propriétés 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   

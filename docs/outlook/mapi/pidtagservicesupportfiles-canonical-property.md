@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: df4be986-62a8-49d6-8eca-25b55c74f830
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dd735eccd7dcfc9d9dd86c3af31aa00a899b561d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une liste des fichiers qui appartiennent au service de message. MAPI fonctionne uniquement avec les noms de fichiers et les autres chaînes qui lui sont passées, dans le jeu de caractères ANSI.
+ms.openlocfilehash: fb1efaa09f823c4bb717c10661c106d8e7b33bc4
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586893"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455572"
 ---
 # <a name="pidtagservicesupportfiles-canonical-property"></a>Propriété canonique PidTagServiceSupportFiles
 
@@ -27,7 +27,7 @@ ms.locfileid: "59586893"
   
 Contient une liste des fichiers qui appartiennent au service de message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SERVICE_SUPPORT_FILES, PR_SERVICE_SUPPORT_FILES_A, PR_SERVICE_SUPPORT_FILES_W  <br/> |
 |Identificateur :  <br/> |0x3D0F  <br/> |

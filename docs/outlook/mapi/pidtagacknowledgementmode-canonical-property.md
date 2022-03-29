@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 23329ca3-89f9-4e5a-9c8a-6262f2a2d26f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7121d28d03f4228cab9c4288fc2369f7e19f05c9
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 411ecaa78f16bbf7779aa4d98a7fd6beb2ab0be8
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782625"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455824"
 ---
 # <a name="pidtagacknowledgementmode-canonical-property"></a>Propriété canonique PidTagAcknowledgementMode
 
@@ -27,7 +27,7 @@ ms.locfileid: "62782625"
   
 Contient l’identificateur du mode pour l’accusé de réception du message.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ACKNOWLEDGEMENT_MODE  <br/> |
 |Identificateur :  <br/> |0x0001  <br/> |

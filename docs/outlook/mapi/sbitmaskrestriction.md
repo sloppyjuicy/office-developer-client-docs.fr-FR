@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ddd42180-6e4f-410c-9f78-d868a91452dc
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8459e21becc85e3bee0603d5d8ade7f44ddee712
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Décrit une restriction de masque de bits, qui est utilisée pour effectuer une opération AND au bits et tester le résultat.
+ms.openlocfilehash: b021ffb3e0f1b6abe414219f5ec2d9dfc2addce2
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550133"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455530"
 ---
 # <a name="sbitmaskrestriction"></a>SBitMaskRestriction
 
@@ -25,9 +25,9 @@ ms.locfileid: "59550133"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une restriction de masque de bits, qui permet d’effectuer une opération **AND** au bits et de tester le résultat. 
+Décrit une restriction de masque de bits, qui est utilisée pour effectuer une opération **AND** au bits et tester le résultat. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
@@ -65,9 +65,9 @@ BMR_NEZ
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SBitMaskRestriction** effectue une opération **AND** au bits à l’aide du masque de bits décrit dans le membre **ulMask** et de la valeur de la propriété décrite par le membre **ulPropTag.** Si le résultat est zéro, BMR_EQZ est satisfait. Si elle n’est pas zéro, c’est-à-dire, si la valeur de la propriété a au moins l’un des mêmes bits que **ulMask,** BMR_NEZ est satisfait.
+La structure **SBitMaskRestriction** effectue une opération **AND** au bits à l’aide du masque de bits décrit dans le membre **ulMask** et de la valeur de la propriété décrite par le membre **ulPropTag** . Si le résultat est zéro, BMR_EQZ est satisfait. Si elle n’est pas zéro, c’est-à-dire si la valeur de la propriété a au moins l’un des mêmes bits que **ulMask**, BMR_NEZ est satisfait.
   
-Pour plus d’informations sur la structure et les restrictions **SBitMaskRestriction** en général, voir [à propos des restrictions.](about-restrictions.md)
+Pour plus d’informations sur la structure et les restrictions **SBitMaskRestriction** en général, voir [À propos des restrictions](about-restrictions.md).
   
 ## <a name="see-also"></a>Voir aussi
 

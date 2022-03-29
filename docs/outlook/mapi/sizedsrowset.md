@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 419e2c6d-ac3b-46c6-9a12-33f51f6d7f12
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 19f607e1dcf705ea57abee43c49c989fea3f21e2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Crée une structure SRowSet nommée qui contient un nombre spécifié de lignes pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: b2aea56f39eee8d37b565efc38db70e7b248c85a
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619742"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456272"
 ---
 # <a name="sizedsrowset"></a>SizedSRowSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "59619742"
   
 Crée une structure [SRowSet nommée](srowset.md) qui contient un nombre spécifié de lignes. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Structure connexe :  <br/> |**SRowSet** <br/> |
@@ -36,7 +36,7 @@ SizedSRowSet (_crow, _name)
 
 ## <a name="parameters"></a>Paramètres
 
-_
+_ _sous_
   
 > Nombre de lignes à inclure dans la nouvelle structure.
     
@@ -46,7 +46,7 @@ _ _name_
     
 ## <a name="remarks"></a>Remarques
 
-Pour utiliser la nouvelle structure qui résulte de la macro **SizedSRowSet** comme pointeur vers une structure **SRowSet,** effectuez la distribution suivante : 
+Pour utiliser la nouvelle structure qui résulte de la macro **SizedSRowSet** comme pointeur vers une structure **SRowSet** , effectuez la distribution suivante : 
   
 ```cpp
 lpSRowSet = (LPSRowSet) &SizedSRowSet;

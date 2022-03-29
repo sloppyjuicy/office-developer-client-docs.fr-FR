@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: ab5bcd67-d54e-46e9-b94e-a652aac3e81c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d1ae9f1a45e315f2e16a2d6d501534cd1bdae01e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d2f8e60b9352dda04924246f84a62cfd0f232dfe
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566709"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454851"
 ---
 # <a name="pidtagdisplaybcc-canonical-property"></a>Propriété canonique PidTagDisplayBcc
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566709"
   
 Contient une liste ASCII des noms d’affichage des destinataires de message en copie carbone non voyante (Bc), séparés par des points-virgules (;).
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DISPLAY_BCC, PR_DISPLAY_BCC_A, PR_DISPLAY_BCC_W  <br/> |
 |Identificateur :  <br/> |0x0E02  <br/> |
@@ -36,11 +36,11 @@ Contient une liste ASCII des noms d’affichage des destinataires de message en 
    
 ## <a name="remarks"></a>Remarques
 
-La magasin de messages calcule ces propriétés sur les objets de message à l’aide de la méthode [IMessage::ModifyRecipients.](imessage-modifyrecipients.md) La magasin de messages conserve également ces propriétés afin qu’elle reflète toujours le dernier état enregistré d’un message. La valeur est synchronisée au moment de chaque appel à la méthode [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
+La magasin de messages calcule ces propriétés sur les objets de message à l’aide de la méthode [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . La magasin de messages conserve également ces propriétés afin qu’elles reflètent toujours le dernier état enregistré d’un message. La valeur est synchronisée au moment de chaque appel à la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . 
   
-Si un message ne possède aucun destinataire en copie carbone non voyante, la boutique de messages doit répondre à un appel [IMAPIProp::GetProps](imapiprop-getprops.md) avec une valeur de retour de S_OK et une chaîne vide pour **PR_DISPLAY_BCC**. 
+Si un message ne possède aucun destinataire en copie carbone non voyante, la boutique de messages doit répondre à un appel [IMAPIProp::GetProps](imapiprop-getprops.md) avec une valeur de retour de S_OK et une chaîne vide pour **PR_DISPLAY_BCC.** 
   
-En raison de la nécessité possible de la localisation, MAPI fournit les instructions suivantes pour tous les noms de destinataires :
+En raison de la nécessité possible de localisation, MAPI fournit ces instructions pour tous les noms de destinataires :
   
 - Tous les noms doivent pouvoir être localisées. 
     
@@ -48,7 +48,7 @@ En raison de la nécessité possible de la localisation, MAPI fournit les instru
     
 - Les clients doivent traduire chaque point-virgule rencontré dans cette propriété en caractère séparateur traduit avant de rendre les informations de propriété visibles dans l’interface utilisateur. 
     
-- Lors du forwarding de messages, les clients n’ont pas besoin de traduire les caractères de séparation sur la ligne de destinataire en copie carbone non voyante. 
+- Lors du forwarding de messages, les clients n’ont pas besoin de traduire les caractères de séparation sur la ligne de destinataire de copie carbone non voyante. 
     
 ## <a name="related-resources"></a>Ressources connexes
 

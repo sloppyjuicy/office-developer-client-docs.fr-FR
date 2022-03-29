@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f176308d-efb9-460c-8379-8a12d4f8e017
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 52dcdcb96808691b9ae61eefae57c7d1574dc7a1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la coordonnée y de la position de départ (coin supérieur gauche) d’un contrôle de boîte de dialogue, en unités Windows dialogue standard.
+ms.openlocfilehash: bfae55c209668e760127718b17d008d9980ac2b7
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629612"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454564"
 ---
 # <a name="pidtagycoordinate-canonical-property"></a>Propriété canonique PidTagYCoordinate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629612"
   
 Contient la coordonnée y de la position de départ (coin supérieur gauche) d’un contrôle de boîte de dialogue, en unités Windows dialogue standard.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_YPOS  <br/> |
 |Identificateur :  <br/> |0x3F06  <br/> |

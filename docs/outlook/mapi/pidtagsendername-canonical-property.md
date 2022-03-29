@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 33fb53a8-4c7b-4418-8849-b6f9a1580172
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aacb2e71481c2a885dc3b1388dd26e874abcdc1c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom complet de l’expéditeur du message. Cette propriété doit être définie par le fournisseur de transport sortant, qui ne doit jamais propager les valeurs existantes.
+ms.openlocfilehash: b00f3c760a3e4549037ee419e6cb5f225be20cc9
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586998"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455712"
 ---
 # <a name="pidtagsendername-canonical-property"></a>Propriété canonique PidTagSenderName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59586998"
   
 Contient le nom complet de l’expéditeur du message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SENDER_NAME, PR_SENDER_NAME_A, PR_SENDER_NAME_W  <br/> |
 |Identificateur :  <br/> |0x0C1A  <br/> |
@@ -46,7 +46,7 @@ Si aucun fournisseur de transport n’a fourni de propriétés d’adresse d’e
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
@@ -74,7 +74,7 @@ Si aucun fournisseur de transport n’a fourni de propriétés d’adresse d’e
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

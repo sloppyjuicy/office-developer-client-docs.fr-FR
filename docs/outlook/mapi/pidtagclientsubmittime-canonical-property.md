@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d46e1063-6421-410d-a445-7477fea42089
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0bbfe2f62ede0dff340871a9e4e555146a04f58d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b767c2ac6e21ef34191074cbf8bacd9ce7475f89
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563797"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454452"
 ---
 # <a name="pidtagclientsubmittime-canonical-property"></a>Propriété canonique PidTagClientSubmitTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563797"
   
 Contient la date et l’heure à laquelle l’expéditeur du message a envoyé un message. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CLIENT_SUBMIT_TIME  <br/> |
 |Identificateur :  <br/> |0x0039  <br/> |
@@ -44,7 +44,7 @@ Le fournisseur de la **PR_CLIENT_SUBMIT_TIME** définit l’heure à l’heure �
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

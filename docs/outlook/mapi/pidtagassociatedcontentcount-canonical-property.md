@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 79bbdd84-a3a7-4472-9447-8b0ddbf163ef
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a27754bc62a87ce8c6601c3d774bd2135b4f58ec
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d7d0c49b9ba4af9f01e6e6a7f05db6b3af8648ac
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571205"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454480"
 ---
 # <a name="pidtagassociatedcontentcount-canonical-property"></a>Propriété canonique PidTagAssociatedContentCount
 
@@ -27,7 +27,7 @@ ms.locfileid: "59571205"
   
 Contient le nombre d’éléments dans la table des matières associée du dossier.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ASSOC_CONTENT_COUNT  <br/> |
 |Identificateur :  <br/> |0x3617  <br/> |

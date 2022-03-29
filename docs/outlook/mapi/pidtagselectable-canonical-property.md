@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: eeecd957-dd50-4849-9698-8bc7106301e9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 74dfc2b0976f8a27f892caa45de05ff660c5b94b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si l’entrée du tableau one-off peut être sélectionnée. Cette propriété est principalement utilisée pour la mise en forme visuelle d’un tableau one-off.
+ms.openlocfilehash: e6c3a4049e65b4ce20450d752ff1f11f284600d6
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624502"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455593"
 ---
 # <a name="pidtagselectable-canonical-property"></a>Propriété canonique PidTagSelectable
 
@@ -25,9 +25,9 @@ ms.locfileid: "59624502"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient TRUE si l’entrée de la table un-off peut être sélectionnée. 
+Contient TRUE si l’entrée du tableau one-off peut être sélectionnée. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SELECTABLE  <br/> |
 |Identificateur :  <br/> |0x3609  <br/> |
@@ -40,7 +40,7 @@ Cette propriété est principalement utilisée pour la mise en forme visuelle d�
   
 Cette propriété s’applique uniquement à une table unique, et non à une table de hiérarchie de carnet d’adresses. 
   
-MAPI permet à un fournisseur de carnet d’adresses de grouper visuellement les éléments par deux moyens. Tout d’abord, certaines lignes peuvent fonctionner en tant qu’en-tête en étant désélectionnables. Ensuite, les éléments sélectionnables peuvent être en retrait par rapport à leurs titres à l’aide de la **propriété PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)). Cette propriété est utilisée dans ce regroupement pour indiquer si cet élément peut être sélectionné dans une liste pour créer une adresse unique. Par exemple, si un client possède plusieurs modèles pour la création d’adresses de télécopie, il peut les afficher comme suit : 
+MAPI permet à un fournisseur de carnet d’adresses de grouper visuellement les éléments par deux moyens. Tout d’abord, certaines lignes peuvent fonctionner en tant qu’en-tête en étant désélectionnables. Ensuite, les éléments sélectionnables peuvent être en retrait par rapport à leurs titres à l’aide de la propriété **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)). Cette propriété est utilisée dans ce regroupement pour indiquer si cet élément peut être sélectionné dans une liste pour créer une adresse unique. Par exemple, si un client possède plusieurs modèles de création d’adresses de télécopie, il peut les afficher comme suit : 
   
 Modèles FAX (profondeur 0, sélectionnable)
   
@@ -54,7 +54,7 @@ Modèles FAX (profondeur 0, sélectionnable)
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABKT]](https://msdn.microsoft.com/library/cd5a3e78-1eeb-4a75-88eb-e82c8c96ff31%28Office.15%29.aspx)
   

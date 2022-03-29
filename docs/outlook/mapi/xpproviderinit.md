@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: df6eacf4-1cf9-4c25-806f-f87c38dad597
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cbb877479022fcd5e333044f71fe0e82aeb92a6d
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Initialise un fournisseur de transport pour l’opération. XPProviderInit est appelé une fois pour chaque fournisseur de transport spécifié dans le profil du client.
+ms.openlocfilehash: b08a2bf85ed0a2968cb76dbb37e529b88d022031
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63370588"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454662"
 ---
 # <a name="xpproviderinit"></a>XPProviderInit
 
@@ -25,7 +25,7 @@ ms.locfileid: "63370588"
   
 Initialise un fournisseur de transport pour l’opération.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
 |Implémenté par :  <br/> |Fournisseurs de transport  <br/> |

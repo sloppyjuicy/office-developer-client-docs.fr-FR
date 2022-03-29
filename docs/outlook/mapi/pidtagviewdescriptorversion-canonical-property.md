@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: aaf48f2b-8c57-473c-8be4-f93619255eb8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f2f41baefa5fc6defff1672ed3d9fe0084971b48
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique la version d’un descripteur d’affichage pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 702fb70fa47693da10445cdf53ffaa6fd35a7bf0
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629605"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456307"
 ---
 # <a name="pidtagviewdescriptorversion-canonical-property"></a>Propriété canonique PidTagViewDescriptorVersion
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629605"
   
 Indique la version d’un descripteur d’affichage.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_VD_VERSION  <br/> |
 |Identificateur :  <br/> |0x7007  <br/> |
@@ -44,11 +44,11 @@ La valeur de cette propriété doit être 8.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Spécifie l’emplacement et les propriétés des données de configuration client et serveur, telles que les listes de catégories partagées et les heures de travail.
+> Spécifie l’emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

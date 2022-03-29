@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8e31f893-b639-43da-a535-662153c82d82
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 45f745eb32e6b52b271d05cf3a89f2e645b9feb6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 612df7e68ba3d60b59d44dcc2a99526a80ed1029
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630200"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456146"
 ---
 # <a name="pidlidtaskaccepted-canonical-property"></a>Propriété canonique PidLidTaskAccepted
 
@@ -27,7 +27,7 @@ ms.locfileid: "59630200"
   
 Indique si une personne à la tâche a répondu à une demande de tâche.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskAccepted  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |

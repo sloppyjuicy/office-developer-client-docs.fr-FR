@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: d9561d13-8d52-500c-5369-15a2cf5c92c3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 10d94c0c3dec354bb60dbbb84e043e6b9ee34d11
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Contient une chaîne Unicode en cours d’interrogation dans les adresses e-mail ou affiche les noms des destinataires adressés dans la ligne de messages  BcC.
+ms.openlocfilehash: 96b8e9600d76c7fcd00a3b7019f2686cb037c821
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63373080"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455600"
 ---
 # <a name="pidtagsearchrecipientemailbcc-canonical-property"></a>Propriété canonique PidTagSearchRecipientEmailBcc
 
@@ -21,12 +21,12 @@ ms.locfileid: "63373080"
   
 Contient une chaîne Unicode en cours d’interrogation dans la liste des adresses de messagerie ou affiche les noms des destinataires adressés dans la ligne **BcC** des messages non envoyés dans la banque.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SEARCH_RECIP_EMAIL_BCC_W  <br/> |
 |Identificateur :  <br/> |0x0EA8  <br/> |
 |Type de propriété :  <br/> |PT_UNICODE  <br/> |
-|Accès :  <br/> |Rechercher  <br/> |
+|Accès :  <br/> |Recherche  <br/> |
 
 ## <a name="remarks"></a>Remarques
 

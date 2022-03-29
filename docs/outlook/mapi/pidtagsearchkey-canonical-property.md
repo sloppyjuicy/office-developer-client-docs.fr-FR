@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: fcab369a-a1f4-4425-a272-e35046914a4d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d4c99fe94c840bfa35f9aad8a20a42e89cb66ce4
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Contient une clé comparable au binaire qui identifie les objets corrélés pour une recherche. Cette propriété fournit un suivi pour les objets associés, tels que les copies de messages.
+ms.openlocfilehash: 813c9c66dfd06642be51b7cb477ad80fe820bfce
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773144"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64454795"
 ---
 # <a name="pidtagsearchkey-canonical-property"></a>Propriété canonique PidTagSearchKey
 
@@ -25,7 +25,7 @@ ms.locfileid: "62773144"
   
 Contient une clé comparable au binaire qui identifie les objets corrélés pour une recherche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SEARCH_KEY  <br/> |
 |Identificateur :  <br/> |0x300B  <br/> |
@@ -63,7 +63,7 @@ Le tableau suivant récapitule les différences importantes entre les **PR_ENTRY
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   

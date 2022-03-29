@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 66b8d333-227e-464d-8cf9-cd8a5ff15efb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8816d3cbb4c34330cdc970f1d197aeda415f9ed2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 82c074fcbb1498228b716664eec12f4ce390f4b6
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600371"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64455334"
 ---
 # <a name="pidtagcontainerflags-canonical-property"></a>Propriété canonique PidTagContainerFlags
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600371"
   
 Contient un masque de bits d’indicateurs décrivant les fonctionnalités d’un conteneur de carnet d’adresses. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAINER_FLAGS  <br/> |
 |Identificateur :  <br/> |0x3600  <br/> |
@@ -44,7 +44,7 @@ AB_FIND_ON_OPEN
     
 AB_MODIFIABLE 
   
-> Les entrées peuvent être ajoutées au conteneur et supprimées. Cet indicateur n’indique pas si des entrées dans le conteneur peuvent être modifiées.
+> Les entrées peuvent être ajoutées au conteneur et supprimées. Cet indicateur n’indique pas si des entrées du conteneur peuvent être modifiées.
     
 AB_RECIPIENTS 
   
@@ -56,13 +56,13 @@ AB_SUBCONTAINERS
     
 AB_UNMODIFIABLE 
   
-> Les entrées ne peuvent pas être ajoutées ou supprimées du conteneur. Cet indicateur n’indique pas si des entrées dans le conteneur peuvent être modifiées. 
+> Les entrées ne peuvent pas être ajoutées ou supprimées du conteneur. Cet indicateur n’indique pas si des entrées du conteneur peuvent être modifiées. 
     
-L AB_FIND_ON_OPEN est vivement recommandé pour les conteneurs utilisés avec des services en ligne ou avec des connexions lentes aux serveurs. Lorsqu’un conteneur est ouvert et AB_FIND_ON_OPEN,  une boîte de dialogue Rechercher est présentée à l’utilisateur pour restreindre les utilisateurs de messagerie affichés. Même une spécification partielle limitant les utilisateurs de messagerie peut accélérer considérablement l’affichage du contenu. 
+L AB_FIND_ON_OPEN est vivement recommandé pour les conteneurs utilisés avec des services en ligne ou avec des connexions lentes aux serveurs. Lorsqu’un conteneur est ouvert et AB_FIND_ON_OPEN, une boîte de dialogue Rechercher est  présentée à l’utilisateur pour restreindre les utilisateurs de messagerie affichés. Même une spécification partielle limitant les utilisateurs de messagerie peut accélérer considérablement l’affichage du contenu. 
   
 L’AB_MODIFIABLE ou AB_UNMODIFIABLE’indicateur doit être définie. Les deux indicateurs peuvent être définies pour indiquer que le conteneur ne sait pas s’il peut être modifié ou non, par exemple si la modification dépend des droits d’accès de l’utilisateur. Dans ce cas, une application cliente doit tenter un appel et examiner le code de retour pour déterminer les fonctionnalités du conteneur. Un client commence généralement par examiner AB_MODIFIABLE. Si elle est définie, le client effectue un appel qui tente de modifier le conteneur et vérifie la valeur de retour. 
   
-L AB_MODIFIABLE n’indique pas les types d’entrées qui peuvent être ajoutés au conteneur. Pour le déterminer, le client doit utiliser la méthode [OpenProperty](imapiprop-openproperty.md) appropriée pour ouvrir la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). **L PR_CREATE_TEMPLATES** entraîne le retour de la table unas du conteneur, répertoriant les types d’entrées qui peuvent être créées dans le conteneur. 
+L AB_MODIFIABLE n’indique pas les types d’entrées qui peuvent être ajoutés au conteneur. Pour ce faire, le client doit utiliser la méthode [OpenProperty](imapiprop-openproperty.md) appropriée pour ouvrir la propriété **PR_CREATE_TEMPLATES (**[PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) du conteneur. L **PR_CREATE_TEMPLATES** entraîne le retour de la table unas du conteneur, répertoriant les types d’entrées qui peuvent être créées dans le conteneur. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -70,7 +70,7 @@ L AB_MODIFIABLE n’indique pas les types d’entrées qui peuvent être ajouté
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

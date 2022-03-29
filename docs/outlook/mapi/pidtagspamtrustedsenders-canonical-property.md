@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8e3f0094-e64b-4828-ba8f-5eed35f85366
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1e31627e2fa36b26d4efa8f1ab12087f21da450a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une liste délimitée par des points-virgules d’adresses e-mail et de domaines composés d’expéditeurs fiables.
+ms.openlocfilehash: f4bc3ee8e0cfb388fdc55c15f9e43823eddabea7
+ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599423"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456013"
 ---
 # <a name="pidtagspamtrustedsenders-canonical-property"></a>Propriété canonique PidTagSpamTrustedSenders
 
@@ -23,7 +23,7 @@ ms.locfileid: "59599423"
   
 Contient une liste délimitée par des points-virgules d’adresses e-mail et de domaines composés d’expéditeurs fiables.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SPAM_TRUSTED_SENDERS_W  <br/> |
 |ID long (LID) :  <br/> |0x0418  <br/> |
@@ -40,7 +40,7 @@ Contient une liste délimitée par des points-virgules d’adresses e-mail et de
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
