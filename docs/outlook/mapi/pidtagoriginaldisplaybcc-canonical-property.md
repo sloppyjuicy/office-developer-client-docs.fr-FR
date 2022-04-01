@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7bf66f0c-3095-4b4a-a32e-db278e1adc5a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 58057b0c4c204329797fbb11d68f2be8896108a2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient les noms d’affichage des destinataires Bc du message d’origine. Elles sont fournies par MAPI et sont copiées directement à partir PR_DISPLAY_BCC.
+ms.openlocfilehash: 32108ad88d8b936890abfd3b1dbbcf52f1a7410c
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629710"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523941"
 ---
 # <a name="pidtagoriginaldisplaybcc-canonical-property"></a>Propriété canonique PidTagOriginalDisplayBcc
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629710"
   
 Contient les noms d’affichage des destinataires en copie carbone non voyante (Bc) du message d’origine.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_DISPLAY_BCC, PR_ORIGINAL_DISPLAY_BCC_A, PR_ORIGINAL_DISPLAY_BCC_W  <br/> |
 |Identificateur :  <br/> |0x0072  <br/> |
@@ -36,7 +36,7 @@ Contient les noms d’affichage des destinataires en copie carbone non voyante (
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés contiennent une liste séparée par des points-virgules. Ils sont fournis par MAPI et sont copiés directement à partir de **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) lorsqu’un rapport de remise ou non remise ou un rapport en lecture ou non lu est généré. Ces propriétés peuvent être présentes sur d’autres messages tels que définis par leurs classes de messages.
+Ces propriétés contiennent une liste séparée par des points-virgules. Elles sont fournies par MAPI et sont copiées directement à partir de **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) lorsqu’un rapport de remise ou non remise ou un rapport en lecture ou non lu est généré. Ces propriétés peuvent être présentes sur d’autres messages tels que définis par leurs classes de messages.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Ces propriétés contiennent une liste séparée par des points-virgules. Ils so
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

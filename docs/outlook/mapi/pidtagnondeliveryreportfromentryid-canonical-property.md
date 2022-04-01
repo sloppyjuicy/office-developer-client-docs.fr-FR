@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 38cbf1bf-ac7c-4459-af3e-919b77818b25
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b6119949afe935fb4e7d83889c7ee22c914bdd2d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: S’il est définie sur un rapport non fourni, indique l’ID d’entrée de l’utilisateur Send-As échoué pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: d7a9562fcafebefb7b97427d2d286fa929339671
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578997"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523720"
 ---
 # <a name="pidtagnondeliveryreportfromentryid-canonical-property"></a>Propriété canonique PidTagNonDeliveryReportFromEntryId
 
@@ -25,9 +25,9 @@ ms.locfileid: "59578997"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-S’il est définie sur un rapport de non-mise en échec, indique l’ID d’entrée de l’utilisateur Send-As échec.
+S’il est définie sur un rapport non fourni, indique l’ID d’entrée de l’utilisateur Send-As échec.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_NDR_FROM_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x6904  <br/> |
@@ -40,7 +40,7 @@ S’il est définie sur un rapport de non-mise en échec, indique l’ID d’ent
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

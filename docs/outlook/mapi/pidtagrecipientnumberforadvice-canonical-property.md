@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 636c1e75-3024-43ca-a7dd-1bb480dfbb5b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 402ef59d4645dd5abaf959188c155902e5bd8eee
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette propriété contient le numéro de téléphone d’un destinataire du message à appeler pour informer de la remise physique d’un message.
+ms.openlocfilehash: 7d785296cb0501e4075847a3da9043a9a9ff5b9e
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59594992"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523459"
 ---
 # <a name="pidtagrecipientnumberforadvice-canonical-property"></a>Propriété canonique PidTagRecipientNumberForAdvice
 
@@ -27,7 +27,7 @@ ms.locfileid: "59594992"
   
 Cette propriété contient le numéro de téléphone d’un destinataire du message à appeler pour informer de la remise physique d’un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECIPIENT_NUMBER_FOR_ADVICE, PR_RECIPIENT_NUMBER_FOR_ADVICE_A, PR_RECIPIENT_NUMBER_FOR_ADVICE_W  <br/> |
 |Identificateur :  <br/> |0x0C14  <br/> |

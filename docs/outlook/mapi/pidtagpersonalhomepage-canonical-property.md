@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ce4cb8b-b1f7-420a-b0b2-322c70e4b0f3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9d1a5bd81d29975b7a6d748c8c46a43c4befca9d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’URL de la page d’accueil personnelle d’un utilisateur. Ces propriétés sont définies par l’utilisateur ou l’organisation de l’utilisateur.
+ms.openlocfilehash: fea90d955108db205c8ada94a681da1e259cd200
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566695"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524429"
 ---
 # <a name="pidtagpersonalhomepage-canonical-property"></a>Propriété canonique PidTagPersonalHomePage
 
@@ -27,7 +27,7 @@ ms.locfileid: "59566695"
   
 Contient l’URL de la page d’accueil personnelle d’un utilisateur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PERSONAL_HOME_PAGE, PR_PERSONAL_HOME_PAGE_A, PR_PERSONAL_HOME_PAGE_W  <br/> |
 |Identificateur :  <br/> |0x3A50  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

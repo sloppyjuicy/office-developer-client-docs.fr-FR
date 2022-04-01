@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 204f8ef2-c7ec-41c5-ab7d-6ef7a864dcb9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8016ac306575bb4ab8c71fb476e566ee2c18fe5e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si un expéditeur de message demande une réponse à un destinataire pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 1bca14bc1174014abb4f8e11e0c8d40c998235bd
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591597"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523370"
 ---
 # <a name="pidtagreplyrequested-canonical-property"></a>Propriété canonique PidTagReplyRequested
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591597"
   
 Contient TRUE si un expéditeur de message demande une réponse à un destinataire.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPLY_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0C17  <br/> |
@@ -40,7 +40,7 @@ Contient TRUE si un expéditeur de message demande une réponse à un destinatai
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

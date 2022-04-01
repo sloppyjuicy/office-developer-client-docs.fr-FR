@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 3e526b93-1f64-41ea-b43c-5b03fe1c56ed
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b2adbd44107b07ac73e04bb7dbe2b3d87fae4bbf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a51ec0e84231515f694294b89e5f342ad92111ef
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595202"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524257"
 ---
 # <a name="pidtagmemberrights-canonical-property"></a>Propriété canonique PidTagMemberRights
 
@@ -25,9 +25,9 @@ ms.locfileid: "59595202"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un ensemble de bits qui indique les droits de ce membre sur un dossier ou une boîte aux lettres.
+Contient un ensemble de bits qui indiquent les droits de ce membre sur un dossier ou une boîte aux lettres.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MEMBER_RIGHTS  <br/> |
 |Identificateur :  <br/> |0x6673  <br/> |
@@ -100,7 +100,7 @@ rightsAll
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   

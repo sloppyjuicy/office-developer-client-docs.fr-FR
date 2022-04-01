@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7b5d013a-15ac-469a-98c8-3ed1e80f6faf
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0ed016dca8ceea6c9d8d7f21244ec8b05da8ecd0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient les heures pendant lesquelles l’état gratuit est Outlook 2013 ou 2013 Outlook 2016.
+ms.openlocfilehash: 1fe8b5541bfb3c060d640fe86c24eddd20b4ff8b
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624523"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524354"
 ---
 # <a name="pidtagscheduleinfofreebusyaway-canonical-property"></a>Propriété canonique PidTagScheduleInfoFreeBusyAway
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624523"
   
 Contient les heures pour lesquelles l’état de la libre/occupé est définie sur Absence du travail.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_FREEBUSY_OOF  <br/> |
 |Identificateur :  <br/> |0x6856  <br/> |
@@ -36,7 +36,7 @@ Contient les heures pour lesquelles l’état de la libre/occupé est définie s
    
 ## <a name="remarks"></a>Remarques
 
-Le format, le calcul et les contraintes de cette propriété sont identiques à ceux de **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), mais font référence aux rendez-vous qui sont marqués comme étant des absences du calendrier sur le calendrier associé.
+Le format, le calcul et les contraintes de cette propriété sont identiques à ceux de **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), mais font référence aux rendez-vous marqués comme étant des absences du calendrier dans le calendrier associé.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Le format, le calcul et les contraintes de cette propriété sont identiques à 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: fadbf1af-32c2-43ea-8475-15b31b2a9e68
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d69ff57fd02a6f25e97c24360519f3c215b731e1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie un identificateur pour un dossier ou un élément dans une boutique. Les fournisseurs du Store utilisent cette propriété pour identifier les résultats de recherche renvoyés par un moteur de recherche.
+ms.openlocfilehash: f489576188d9ec5be7158743a22ad171d4dbe485
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574859"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523830"
 ---
 # <a name="pidtagprovideritemid-canonical-property"></a>Propriété canonique PidTagProviderItemId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59574859"
   
 Spécifie un identificateur pour un dossier ou un élément dans une boutique.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROVIDER_ITEMID  <br/> |
 |Identificateur :  <br/> |0x0EA3  <br/> |

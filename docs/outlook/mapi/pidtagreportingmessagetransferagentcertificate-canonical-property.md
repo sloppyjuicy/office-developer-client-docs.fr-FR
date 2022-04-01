@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 02e18d97-25d2-49a3-a63d-26a70895e21c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 352107c8efcbb72d5c21eca8ac12b6844fb16e02
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un identificateur pour l’agent de transfert de messages qui a généré un rapport. Cette propriété correspond à un attribut de rapport X.400 par message.
+ms.openlocfilehash: 26c27aa379af90e735ee465acc79261fec2cba72
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563384"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524552"
 ---
 # <a name="pidtagreportingmessagetransferagentcertificate-canonical-property"></a>Propriété canonique PidTagReportingMessageTransferAgentCertificate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563384"
   
 Contient un identificateur pour l’agent de transfert de messages qui a généré un rapport.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORTING_MTA_CERTIFICATE  <br/> |
 |Identificateur :  <br/> |0x1004  <br/> |

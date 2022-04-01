@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: c8b30768-cf83-450d-9fe2-567a5e0c2f57
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1760a24e1e4a8b742934ec0ffd3a0d7a570baa67
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Contient les paramètres d’un profil utilisé par Outlook pour se connecter à Microsoft Exchange Server à l’aide d’un RPC sur HTTP.
+ms.openlocfilehash: 199424bf1edebee9a283e98db23de738f0ec2447
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62787687"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523667"
 ---
 # <a name="pidtagrpcoverhttpflags-canonical-property"></a>Propriété canonique PidTagRpcOverHttpFlags
 
@@ -21,9 +21,9 @@ ms.locfileid: "62787687"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les paramètres d’un profil utilisé par Microsoft Office Outlook pour se connecter à Microsoft Exchange Server à l’aide d’un appel de procédure distante (RPC) sur HTTP (Hypertext Transfer Protocol).
+Contient les paramètres d’un profil utilisé par Microsoft Office Outlook pour se connecter à Microsoft Exchange Server à l’aide d’un appel de procédure distante (RPC) sur http (Hypertext Transfer Protocol).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ROH_FLAGS  <br/> |
 |Identificateur :  <br/> |0x6623  <br/> |
@@ -36,7 +36,7 @@ La **PR_ROH_FLAGS** est stockée dans la section Profil global d’un profil MAP
   
 |**Name**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Connecter au Exchange Server l’aide de RPC sur HTTP. |
+|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Connecter à l’Exchange Server à l’aide de RPC sur HTTP. |
 |**ROHFLAGS_SSL_ONLY** <br/> |0x2  <br/> |Connecter au Exchange Server à l’aide du SSL (Secure Socket Layer) uniquement. |
 |**ROHFLAGS_MUTUAL_AUTH** <br/> |0x4  <br/> |Authentifier mutuellement la session lors de la connexion à l’aide de SSL. |
 |**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0x8  <br/> |Sur les réseaux rapides, connectez-vous d’abord à l’aide du protocole HTTP. Ensuite, connectez-vous à l’aide de TCP/IP. |
@@ -50,7 +50,7 @@ Par exemple, pour définir la propriété **PR_ROH_FLAGS** pour activer RPC sur 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

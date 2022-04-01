@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: cc55089b-e389-405e-8174-f5b5ec352f78
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b7ba30b299d76f3a19464d5cba1a791ad115dc7e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette propriété contient un tableau binaire de méthodes de remise (fournisseurs de services), dans l’ordre des préférences de l’expéditeur d’un message.
+ms.openlocfilehash: 2d8fc284b4c6f12069e512331424e477a337ea48
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570888"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523861"
 ---
 # <a name="pidtagrequesteddeliverymethod-canonical-property"></a>Propriété canonique PidTagRequestedDeliveryMethod
 
@@ -27,7 +27,7 @@ ms.locfileid: "59570888"
   
 Cette propriété contient un tableau binaire de méthodes de remise (fournisseurs de services), dans l’ordre des préférences de l’expéditeur d’un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REQUESTED_DELIVERY_METHOD  <br/> |
 |Identificateur :  <br/> |0x0C18  <br/> |

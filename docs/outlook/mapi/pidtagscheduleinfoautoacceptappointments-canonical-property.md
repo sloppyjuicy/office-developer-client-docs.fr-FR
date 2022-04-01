@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 79505b29-2706-472b-b084-ab74be7b3405
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 38a19ef2c722b0446e9071b9bbec414f6af99c3c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si un client ou un serveur doit répondre automatiquement à toutes les demandes de réunion pour le participant ou la ressource.
+ms.openlocfilehash: 279cfe86e5e12b24053514c1b0421dbd1e704785
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604193"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524542"
 ---
 # <a name="pidtagscheduleinfoautoacceptappointments-canonical-property"></a>Propriété canonique PidTagScheduleInfoAutoAcceptAppointments
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604193"
   
 Contient TRUE si un client ou un serveur doit répondre automatiquement à toutes les demandes de réunion pour le participant ou la ressource.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_AUTO_ACCEPT_APPTS  <br/> |
 |Identificateur :  <br/> |0x686D  <br/> |
@@ -44,7 +44,7 @@ Lorsque vous répondez, la réponse doit être acceptée, sauf si une contrainte
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9c6cd2f4-e769-4786-b9cc-c02641fecc4f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5ca1561704ee79f762b0143065b98be59db9563b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la date et l’heure à laquelle une rapport de remise est généré. Cette propriété est définie par le fournisseur de magasin de messages qui reçoit le message et génère le rapport.
+ms.openlocfilehash: c6805d4b9f9cd6a9cb2ecb1786fb722e24b5d3ad
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616403"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524126"
 ---
 # <a name="pidtagreceipttime-canonical-property"></a>Propriété canonique PidTagReceiptTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59616403"
   
 Contient la date et l’heure à laquelle une rapport de remise est généré.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECEIPT_TIME  <br/> |
 |Identificateur :  <br/> |0x002A  <br/> |

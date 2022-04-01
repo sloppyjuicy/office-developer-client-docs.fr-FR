@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: ec8b7486-b547-4a4e-96e5-1fc825b23f3d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 91b22cff3b0fae1e7a6115a658f801d465c73fa7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4128941ab0f17523bf6f46a6ed4ca3e39abd8bcd
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620029"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524527"
 ---
 # <a name="pidtagipmtaskentryid-canonical-property"></a>Propriété canonique PidTagIpmTaskEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620029"
   
 Contient **l’EntryID** du dossier Outlook tâches. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IPM_TASK_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x36D4  <br/> |
@@ -44,7 +44,7 @@ Cette propriété est lue ou écrite à l’aide du protocole Property et Stream
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   

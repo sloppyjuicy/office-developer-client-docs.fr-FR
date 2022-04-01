@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e6413cb9-2633-44a0-b408-b5688c47433e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5173e5a69d5299ceffe95b42fba769ac841be2b3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une version de l’PR_MESSAGE_SIZE 64 bits pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: fdcf28b49f0cc5ce42890df0ee59dfa7bce4ca9d
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579003"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523913"
 ---
 # <a name="pidtagmessagesizeextended-canonical-property"></a>Propriété canonique PidTagMessageSizeExtended
 
@@ -25,9 +25,9 @@ ms.locfileid: "59579003"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une version d’PR_MESSAGE_SIZE **64** bits ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)).
+Contient une version d’PR_MESSAGE_SIZE 64 bits **de la** propriété ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_SIZE_EXTENDED  <br/> |
 |Identificateur :  <br/> |0x0E08  <br/> |
@@ -40,11 +40,11 @@ Contient une version d’PR_MESSAGE_SIZE **64** bits ([PidTagMessageSize](pidtag
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 03ad4bd7-3c0f-4355-9a19-51c99e6c6f7d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0405555ba9d8f68565d2b309fe4c87eb8d6dc7d7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Affiche l’ID d’entrée du dossier NON_IPM_SUBTREE dans une Exchange dossiers publics pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 26173e27ba38df2a31f134fb4a874d2e2c451782
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555292"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523710"
 ---
 # <a name="pidtagnonipmsubtreeentryid-canonical-property"></a>Propriété canonique PidTagNonIpmSubtreeEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555292"
   
 Affiche l’ID d’entrée **du dossier NON_IPM_SUBTREE** dans une Exchange dossiers publics. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_NON_IPM_SUBTREE_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x6620  <br/> |

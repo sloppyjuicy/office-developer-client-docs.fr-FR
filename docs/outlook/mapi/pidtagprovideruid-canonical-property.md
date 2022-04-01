@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 993f5bca-58a6-455d-8a25-6e08b441ad31
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 95d42bd6889ca2c8630e2240767a241142aa92d6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une structure MAPIUID du fournisseur de services qui gère un message. Cette propriété est calculée par tous les fournisseurs de services.
+ms.openlocfilehash: 449f57c64436168c582a7d6ebe128b54119796dd
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583246"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523552"
 ---
 # <a name="pidtagprovideruid-canonical-property"></a>Propriété canonique PidTagProviderUid
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583246"
   
 Contient une structure **MAPIUID** du fournisseur de services qui gère un message. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROVIDER_UID  <br/> |
 |Identificateur :  <br/> |0x300C  <br/> |

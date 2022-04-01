@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2f8eff88-848c-4ad4-a6be-b1744a0ce4ce
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 594754f145db02393d651bd636c201a0f47682d9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Détermine s’il faut mémoriser le mot de passe dans le profil Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 2bbcdd02f617774d3ba27f0f7fea5d1938449a7f
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624698"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524470"
 ---
 # <a name="pidtagpstrememberpassword-canonical-property"></a>Propriété canonique PidTagPstRememberPassword
 
@@ -25,7 +25,7 @@ ms.locfileid: "59624698"
   
 Détermine s’il faut mémoriser le mot de passe dans le profil.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PST_REMEMBER_PW  <br/> |
 |Identificateur :  <br/> |0x6701  <br/> |
@@ -38,7 +38,7 @@ Détermine s’il faut mémoriser le mot de passe dans le profil.
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

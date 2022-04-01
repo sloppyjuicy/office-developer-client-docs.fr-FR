@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 1e704023-1992-4b43-857e-0a7da7bc8e87
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ff0ea195552fbb6bd5b0ec4c204d6b25a84f62c5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 079b469b9a9061509265d3347fe46200c55f1520
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619973"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524597"
 ---
 # <a name="pidtagmessageclass-canonical-property"></a>Propriété canonique PidTagMessageClass
 
@@ -27,7 +27,7 @@ ms.locfileid: "59619973"
   
 Contient une chaîne de caractères qui identifie la classe de message définie par l’expéditeur, telle qu’une note IPM. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_CLASS, PR_MESSAGE_CLASS_A, PR_MESSAGE_CLASS_W  <br/> |
 |Identificateur :  <br/> |0x001A  <br/> |
@@ -42,7 +42,7 @@ Ces propriétés contiennent des chaînes concatenées avec des périodes. Chaqu
   
 Ces propriétés doivent se composer des caractères ASCII 32 à 127 et ne doivent pas se terminer par un point (ASCII 46). Les opérations de tri et de comparaison doivent la traiter comme une chaîne qui ne respectera pas la cas. La longueur maximale possible est de 255 caractères, mais pour permettre à l’espace MAPI d’y appendre des qualificateurs, il est recommandé de conserver la longueur d’origine sous 128 caractères. 
   
-Chaque message est requis pour fournir ces propriétés. Normalement, l’application cliente qui crée un message le définit dès que le message [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) est correctement envoyé. Toutefois, si la propriété n’a pas été définie lorsque le client appelle [IMAPIProp::SaveChanges,](imapiprop-savechanges.md)la magasin de messages doit la définir sur IPM. 
+Chaque message est requis pour fournir ces propriétés. Normalement, l’application cliente qui crée un message le définit dès que [le message IMAPIFolder::CreateMessage](imapifolder-createmessage.md) est correctement envoyé. Toutefois, si la propriété n’a pas été définie lorsque le client appelle [IMAPIProp::SaveChanges](imapiprop-savechanges.md), la magasin de messages doit la définir sur IPM. 
   
 Les valeurs définies par MAPI sont : 
   
@@ -55,11 +55,11 @@ REPORT.<subject message class>.IPNNRN for a nonread report
  
 ```
 
-Les IPM et IPC sont destinés à être des superclasses uniquement, et un message doit avoir au moins un qualificateur de sous-classe ajouté avant d’être stocké ou envoyé. Pour plus d’informations sur l’utilisation des classes de message, voir [Classes de message.](mapi-message-classes.md) Pour obtenir des listes de propriétés obligatoires et facultatives pour les classes de message, voir les sous-options de [About Message Properties](message-properties-overview.md).
+Les IPM et IPC sont conçus pour être des superclasses uniquement, et un message doit avoir au moins un qualificateur de sous-classe ajouté avant d’être stocké ou envoyé. Pour plus d’informations sur l’utilisation des classes de message, voir [Classes de message](mapi-message-classes.md). Pour obtenir la liste des propriétés obligatoires et facultatives pour les classes de message, voir les sous-options de [About Message Properties](message-properties-overview.md).
   
-Une classe de message personnalisée peut définir des propriétés dans une plage réservée à utiliser uniquement avec cette classe de message. Pour plus d’informations, voir [à propos des identificateurs de propriété.](mapi-property-identifier-overview.md) 
+Une classe de message personnalisée peut définir des propriétés dans une plage réservée à utiliser uniquement avec cette classe de message. Pour plus d’informations, voir [à propos des identificateurs de propriété](mapi-property-identifier-overview.md). 
   
-Les classes de message contrôlent le dossier de réception dans lequel un message entrant est stocké. Pour plus d’informations, voir la méthode [IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) 
+Les classes de message contrôlent le dossier de réception dans lequel un message entrant est stocké. Pour plus d’informations, [voir la méthode IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) . 
   
 Pour plus d’informations sur l’utilisation de classes de message avec des formulaires et des serveurs de formulaires, voir [Choosing a Message Class](choosing-a-message-class.md). 
   
@@ -69,11 +69,11 @@ Pour plus d’informations sur l’utilisation de classes de message avec des fo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

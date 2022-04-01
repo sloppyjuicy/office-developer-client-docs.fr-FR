@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 55e08ace-493c-4246-8ebf-c304f4abc56a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e772be857f86e6e28a7c790d1f47002223bbd5ae
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée du dossier qui contient un dossier ou un message. Cette propriété est calculée par les magasins de messages pour tous les dossiers et messages.
+ms.openlocfilehash: 721887417b759f394d02b9706702190170f14ce3
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583309"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524156"
 ---
 # <a name="pidtagparententryid-canonical-property"></a>Propriété canonique PidTagParentEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583309"
   
 Contient l’identificateur d’entrée du dossier qui contient un dossier ou un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PARENT_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x0E09  <br/> |
@@ -48,7 +48,7 @@ Pour un dossier racine de la boutique de messages, cette propriété contient le
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCDATA]](https://msdn.microsoft.com/library/ 1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
@@ -64,7 +64,7 @@ Pour un dossier racine de la boutique de messages, cette propriété contient le
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 98597495-7761-4eda-ae75-1ccefa6abb81
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d228fe6f317d362fee83885fcfa37def7fa4b7ee
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un masque de bits d’indicateurs qui définissent le mode de remise physique d’un message désigné pour un destinataire spécifique.
+ms.openlocfilehash: 8bcc70408b6395065a010078df3cbde6762217e2
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574930"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524515"
 ---
 # <a name="pidtagphysicaldeliverymode-canonical-property"></a>Propriété canonique PidTagPhysicalDeliveryMode
 
@@ -27,7 +27,7 @@ ms.locfileid: "59574930"
   
 Contient un masque de bits d’indicateurs qui définissent le mode de remise physique (par exemple, remise spéciale) d’un message désigné pour un destinataire spécifique.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PHYSICAL_DELIVERY_MODE  <br/> |
 |Identificateur :  <br/> |0x0C0B  <br/> |

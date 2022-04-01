@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b1a30543-250d-4afb-87f2-448d90ee7cf9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: be7103f2d38948afe73fcc15cf571d55749e9756
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le niveau de sortie d’une règle pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: e079726152e42354378668c6671209d51e456235
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587124"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524021"
 ---
 # <a name="pidtagrulelevel-canonical-property"></a>Propriété canonique PidTagRuleLevel
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587124"
   
 Contient le niveau de sortie d’une règle.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RULE_LEVEL  <br/> |
 |Identificateur :  <br/> |0x6683  <br/> |
@@ -44,7 +44,7 @@ Si vous définir cette propriété, le client doit transmettre 0x00000000.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   

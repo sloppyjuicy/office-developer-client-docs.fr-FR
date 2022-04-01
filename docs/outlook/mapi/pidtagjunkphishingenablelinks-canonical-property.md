@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 6b885c36-6e27-4f74-95c3-ce1cdc8a808a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 699e4e5f3801b0921ab0a7e5cfc9ef0ee74c832a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 47bb31cefd282a3e04e1c8769e2e0fce6fc28cff
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555341"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523752"
 ---
 # <a name="pidtagjunkphishingenablelinks-canonical-property"></a>Propriété canonique PidTagJunkPhishingEnableLinks
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555341"
   
 Signifie, si true, que le cachet de hameçonnage sur le message doit être ignoré.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_JUNK_PHISHING_ENABLE_LINKS  <br/> |
 |Identificateur :  <br/> |0x6107  <br/> |
@@ -40,11 +40,11 @@ Signifie, si true, que le cachet de hameçonnage sur le message doit être ignor
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
 [[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: bfbbbb76-796a-4ee8-8410-0d17edb349b5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 29e17560437c483effbd507a4bc5b1295e6b0173
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 69156fe448a9b5b54066c838b49fb45067e0a386
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579046"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523693"
 ---
 # <a name="pidtaginternetlines-canonical-property"></a>Propriété canonique PidTagInternetLines
 
@@ -27,7 +27,7 @@ ms.locfileid: "59579046"
   
 Cartes à l’en-tête lignes MIME.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INTERNET_LINES  <br/> |
 |Identificateur :  <br/> |0x1034  <br/> |
@@ -40,7 +40,7 @@ Cartes à l’en-tête lignes MIME.
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

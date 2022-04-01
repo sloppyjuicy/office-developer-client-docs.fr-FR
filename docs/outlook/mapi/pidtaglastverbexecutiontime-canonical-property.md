@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: e4fc8bd9-2ec4-462e-b6cb-e533b323bd05
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2df32b73b76f3470da1271f51226f8d0456e48d6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b29d7bf11e17b5720d7851246435d76a776a313c
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613372"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523848"
 ---
 # <a name="pidtaglastverbexecutiontime-canonical-property"></a>Propriété canonique PidTagLastVerbExecutionTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613372"
   
 Contient l’heure à quel moment le dernier verbe a été exécuté.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_LAST_VERB_EXECUTION_TIME  <br/> |
 |Identificateur :  <br/> |0x1082  <br/> |
@@ -40,7 +40,7 @@ Contient l’heure à quel moment le dernier verbe a été exécuté.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   

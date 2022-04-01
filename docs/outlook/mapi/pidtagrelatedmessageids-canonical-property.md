@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 51f0eb8a-0a16-4b45-9380-28caddecf955
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 501b5e6acc83a5da27af3ef6024ecc9e049893cd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une liste d’identificateurs pour les messages avec lesquels un message est lié. Les identificateurs utilisent les mêmes règles de construction que pour PR_SEARCH_KEY propriété.
+ms.openlocfilehash: b1a59155c21f65442366a059573c94c9b92cf097
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624621"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523485"
 ---
 # <a name="pidtagrelatedmessageids-canonical-property"></a>Propriété canonique PidTagRelatedMessageIds
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624621"
   
 Contient une liste d’identificateurs pour les messages avec lesquels un message est lié.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RELATED_IPMS  <br/> |
 |Identificateur :  <br/> |0x002D  <br/> |

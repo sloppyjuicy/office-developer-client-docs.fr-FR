@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f699782-8a82-4834-bc55-a0b3cf18a117
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f2418b08730f3cdff8c43f144acae0843cd32943
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom complet de l’utilisateur de messagerie représenté par l’utilisateur de réception. Cette propriété est définie par le fournisseur de transport entrant.
+ms.openlocfilehash: 5302566842740ed75cd30b7df79b4e23cf2ac9c4
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599655"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523996"
 ---
 # <a name="pidtagreceivedrepresentingname-canonical-property"></a>Propriété canonique PidTagReceivedRepresentingName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599655"
   
 Contient le nom complet de l’utilisateur de messagerie représenté par l’utilisateur de réception.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RCVD_REPRESENTING_NAME, PR_RCVD_REPRESENTING_NAME_A, PR_RCVD_REPRESENTING_NAME_W  <br/> |
 |Identificateur :  <br/> |0x0044  <br/> |
@@ -46,7 +46,7 @@ Une application cliente répondant à un message reçu pour le compte d’un aut
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
@@ -66,7 +66,7 @@ Une application cliente répondant à un message reçu pour le compte d’un aut
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c178a4e4-6f4c-409c-9db3-f6338bd4f40f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c48b82168ade185ef1fa0ee6aab6173ba6d6d21c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient les EntryIDs des délégués. Chaque entrée doit contenir la valeur de la propriété PR_ENTRYID de l’entrée du carnet d’adresses de chaque délégué.
+ms.openlocfilehash: aab031240620c4981b5c780ec52d468c22f1c1e8
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587068"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523543"
 ---
 # <a name="pidtagscheduleinfodelegateentryids-canonical-property"></a>Propriété canonique PidTagScheduleInfoDelegateEntryIds
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587068"
   
 Contient les **EntryIDs** des délégués. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_DELEGATE_ENTRYIDS  <br/> |
 |Identificateur :  <br/> |0x6845  <br/> |
@@ -36,7 +36,7 @@ Contient les **EntryIDs** des délégués.
    
 ## <a name="remarks"></a>Remarques
 
-Chaque entrée doit contenir la valeur de la **propriété PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de l’entrée de carnet d’adresses de chaque délégué. Cette propriété doit être définie dans l’objet d’informations du délégué.
+Chaque entrée doit contenir la valeur de la **propriété PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de l’entrée du carnet d’adresses de chaque délégué. Cette propriété doit être définie dans l’objet d’informations du délégué.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Chaque entrée doit contenir la valeur de la **propriété PR_ENTRYID** ([PidTag
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   

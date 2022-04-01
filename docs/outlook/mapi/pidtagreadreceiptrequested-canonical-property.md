@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7db0645b-f3ab-4fc4-b865-68c952aeb359
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e0f107129cceb415ecff9ca752cf5c5fc72db995
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si un expéditeur de message souhaite que le système de messagerie génère un rapport de lecture lorsque le destinataire a lu un message.
+ms.openlocfilehash: 51d7cfc25b0e83e4c44d9234c988a98937b14649
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595041"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523897"
 ---
 # <a name="pidtagreadreceiptrequested-canonical-property"></a>Propriété canonique PidTagReadReceiptRequested
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595041"
   
 Contient TRUE si un expéditeur de message souhaite que le système de messagerie génère un rapport de lecture lorsque le destinataire a lu un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_READ_RECEIPT_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0029  <br/> |
@@ -46,7 +46,7 @@ Si un message avec **PR_READ_RECEIPT_REQUESTED** est supprimé ou expire avant q
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

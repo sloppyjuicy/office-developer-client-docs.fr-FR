@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a1b4d27d-d1ef-4462-bbe8-5ec965883a6e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7bcfe70e08bc1488543e205cadf055ad11871f42
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ef05109c8c6394706515e1d7caaf5d0db7323617
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583428"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524616"
 ---
 # <a name="pidtaginternetdistribution-canonical-property"></a>Propriété canonique PidTagInternetDistribution
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583428"
   
 Cartes à l’en-tête DE DISTRIBUTION MIME.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INTERNET_DISTRIBUTION, PR_INTERNET_DISTRIBUTION_A, PR_INTERNET_DISTRIBUTION_W  <br/> |
 |Identificateur :  <br/> |0x1032  <br/> |
@@ -40,7 +40,7 @@ Cartes à l’en-tête DE DISTRIBUTION MIME.
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

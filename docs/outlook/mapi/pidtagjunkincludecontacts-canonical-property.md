@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 25368f6c-4fba-4381-840c-ca122bd31b5f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: df31fbcfd5f238c99e4b5a82771cea1bccf0403f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 14e59806e4d1b8718e6f53d06cc388744994ab58
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595230"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523814"
 ---
 # <a name="pidtagjunkincludecontacts-canonical-property"></a>Propriété canonique PidTagJunkIncludeContacts
 
@@ -25,9 +25,9 @@ ms.locfileid: "59595230"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si les adresses e-mail des contacts dans le dossier Contacts sont traitées spécialement en ce qui concerne le filtre de courrier indésirable.
+Indique si les adresses e-mail des contacts dans le dossier Contacts sont traitées spécialement par rapport au filtre de courrier indésirable.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_JUNK_INCLUDE_CONTACTS  <br/> |
 |Identificateur :  <br/> |0x6100  <br/> |
@@ -46,11 +46,11 @@ Si cette propriété est présente avec la valeur « 0x00000001 » et si le cont
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

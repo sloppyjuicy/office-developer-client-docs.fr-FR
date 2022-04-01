@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: fc288a7a-1927-484e-b860-9cc118672ed2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7cfc47b62c9058d36a81daf24468b80c234c85ae
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée du destinataire initialement prévu d’un message transmis automatiquement. Cette propriété correspond à l’attribut d’état X.400 par destinataire.
+ms.openlocfilehash: 6fc3849712e8f99bbf6b7f83bf8626ba86bb1708
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575000"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524160"
 ---
 # <a name="pidtagoriginallyintendedrecipentryid-canonical-property"></a>Propriété canonique PidTagOriginallyIntendedRecipEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59575000"
   
 Contient l’identificateur d’entrée du destinataire initialement prévu d’un message transmis automatiquement.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINALLY_INTENDED_RECIP_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x1012  <br/> |
@@ -38,7 +38,7 @@ Contient l’identificateur d’entrée du destinataire initialement prévu d’
 
 Cette propriété est l’une des propriétés d’adresse du destinataire du message initialement prévu. Elle doit être définie par l’agent automatique qui a transmis le message.
   
-Cette propriété correspond à l’attribut de rapport X.400 par destinataire.
+Cette propriété correspond à l’attribut d’état X.400 par destinataire.
   
 ## <a name="related-resources"></a>Ressources connexes
 

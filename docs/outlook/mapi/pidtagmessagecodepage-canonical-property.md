@@ -11,23 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: eef73e34-470c-4c37-94ce-ea95fe83bc10
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 328309349e2aa38ebfbeeaa78d861268e13b6a29
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: La propriété canonique PidTagMessageCodepage contient la page de code utilisée pour le message.
+ms.openlocfilehash: a4b147d91f17fde4821e7624f0cc5fb06575eca2
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560892"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524221"
 ---
 # <a name="pidtagmessagecodepage-canonical-property"></a>Propriété canonique PidTagMessageCodepage
-
-  
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la page de code utilisée pour le message.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_CODEPAGE  <br/> |
 |Identificateur :  <br/> |0x3FFD  <br/> |
@@ -44,11 +42,11 @@ La page de code d’objet de dossier est utilisée si cette propriété est déf
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXPFOAB]](https://msdn.microsoft.com/library/258a07a7-34a7-4373-87c1-cddf51447d00%28Office.15%29.aspx)
   

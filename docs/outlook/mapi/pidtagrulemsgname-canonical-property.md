@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: eefbcdd4-9841-4742-b976-e85c8e686dda
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 23e3a0ac15dfdb14cbde9f4145e35e834cd38748
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom d’une règle étendue pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: b0da1fe273151857da97ffc8b9c71daf15b256a5
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555068"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524264"
 ---
 # <a name="pidtagrulemsgname-canonical-property"></a>Propriété canonique PidTagRuleMsgName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555068"
   
 Contient le nom d’une règle étendue.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RULE_MSG_NAME  <br/> |
 |Identificateur :  <br/> |0x65EC  <br/> |
@@ -40,7 +40,7 @@ Contient le nom d’une règle étendue.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   

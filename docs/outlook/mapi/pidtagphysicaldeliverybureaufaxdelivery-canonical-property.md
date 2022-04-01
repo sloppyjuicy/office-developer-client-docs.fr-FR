@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c20e4ff2-ef55-4455-86ab-3bd47ddfefb2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: acb758bdebcd6a743f19f16389ac8a7dc49587bf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si le système de messagerie doit utiliser un bureau de télécopie pour la remise physique de ce message.
+ms.openlocfilehash: 62b4c4ca5863a6ee0d2e9a4815b5446da9d4cef6
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595104"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524135"
 ---
 # <a name="pidtagphysicaldeliverybureaufaxdelivery-canonical-property"></a>Propriété canonique PidTagPhysicalDeliveryBureauFaxDelivery
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595104"
   
 Contient TRUE si le système de messagerie doit utiliser un bureau de télécopie pour la remise physique de ce message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY  <br/> |
 |Identificateur :  <br/> |0x0C0A  <br/> |

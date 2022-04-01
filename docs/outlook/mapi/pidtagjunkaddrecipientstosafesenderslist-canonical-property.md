@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 78543caa-e6ec-4ac7-bfdd-70c56f8fd955
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9bad8ceba8bc964fcb1d3c531ccb8a4e9d63d386
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5c9520595e1bacafb5e4ddd4920f82021e3ba0ee
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587530"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523774"
 ---
 # <a name="pidtagjunkaddrecipientstosafesenderslist-canonical-property"></a>Propriété canonique PidTagJunkAddRecipientsToSafeSendersList
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587530"
   
 Indique si les destinataires de messagerie doivent être ajoutés à la liste des expéditeurs sûrs.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_JUNK_ADD_RECIPS_TO_SSL  <br/> |
 |Identificateur :  <br/> |0x6103  <br/> |
@@ -46,11 +46,11 @@ Si cette propriété est présente avec la valeur 1, les adresses SMTP des desti
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

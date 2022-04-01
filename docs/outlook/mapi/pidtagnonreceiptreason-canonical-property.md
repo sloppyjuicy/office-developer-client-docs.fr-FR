@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 39fd9df4-4fb8-412e-a610-d450051516ed
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 64286788e4992a196810a74fbf77bb4594353ea1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient les raisons pour lesquelles un message n’a pas été reçu et qui fait partie d’une non-remise pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 98df0f833abcee3383238b4efa2e110af21bd82a
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619882"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523398"
 ---
 # <a name="pidtagnonreceiptreason-canonical-property"></a>Propriété canonique PidTagNonReceiptReason
 
@@ -27,7 +27,7 @@ ms.locfileid: "59619882"
   
 Contient les raisons pour lesquelles un message n’a pas été reçu et qui fait partie d’une non-remise.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_NON_RECEIPT_REASON  <br/> |
 |Identificateur :  <br/> |0x003E  <br/> |

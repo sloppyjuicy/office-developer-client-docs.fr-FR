@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ffc71a7-d281-4f17-87ec-4d7ea53be77f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6556de95e7582179a1e5e94e19ae1ea308b14a90
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom de la référence de l’utilisateur de messagerie Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 3572a528d08602490b93a3bf311d24ace85e9bfe
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563412"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523881"
 ---
 # <a name="pidtagreferredbyname-canonical-property"></a>Propriété canonique PidTagReferredByName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563412"
   
 Contient le nom de la référence de l’utilisateur de messagerie.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REFERRED_BY_NAME, PR_REFERRED_BY_NAME_A, PR_REFERRED_BY_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3A47  <br/> |
@@ -40,7 +40,7 @@ Contient le nom de la référence de l’utilisateur de messagerie.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 5763fc78-5192-4162-be27-4aadc7ed65bc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9a68227c61abe65f785739e42a2d09a01ba6ef3c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cbc6d31cdb063bf99fe1ba4dd7a53bd83af877c8
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583400"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523533"
 ---
 # <a name="pidtagipmsubtreeentryid-canonical-property"></a>Propriété canonique PidTagIpmSubtreeEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583400"
   
 Contient l’identificateur d’entrée de la racine de la sous-arborescence du dossier de message interpersonnel (IPM) dans l’arborescence de dossiers de la magasin de messages. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IPM_SUBTREE_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E0  <br/> |

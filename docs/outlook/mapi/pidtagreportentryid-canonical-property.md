@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ea2bcc06-0089-4999-b115-06a14de4a0f1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a259fdbfdae96da868233fb1984ff1bdc33cfcdf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée du destinataire qui doit recevoir des rapports pour ce message. Une application cliente doit définir cette propriété au moment de la soumission.
+ms.openlocfilehash: ad67d3161b6969def419bf6698a1048bc614e410
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599592"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524460"
 ---
 # <a name="pidtagreportentryid-canonical-property"></a>Propriété canonique PidTagReportEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599592"
   
 Contient l’identificateur d’entrée du destinataire qui doit recevoir des rapports pour ce message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORT_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x0045  <br/> |
@@ -46,7 +46,7 @@ Une application cliente qui doit router des rapports vers un autre utilisateur d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

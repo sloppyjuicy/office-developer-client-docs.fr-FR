@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: e83c05c6-a7c0-486c-a112-58a39255767a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ecac5736c405f04a92e43230b42ddeeb648b14d6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d4641c72b70b7891cdb1cc8d1d3436fce1b1f168
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620197"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523579"
 ---
 # <a name="pidtaginconflict-canonical-property"></a>Propriété canonique PidTagInConflict
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620197"
   
 Contient TRUE lorsque la pièce jointe représente un autre réplica.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IN_CONFLICT  <br/> |
 |Identificateur :  <br/> |0x666C  <br/> |
@@ -48,7 +48,7 @@ Le client et le serveur de messagerie doivent générer un message de résolutio
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

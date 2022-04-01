@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 16d4e92d-d48e-4e06-9886-2d21f3d10640
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0365be70a4cdd5707973225e743e8e82ec7a004c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b64d80f14ca45d98c59d95cf7fe18d6e63a40a64
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629843"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523596"
 ---
 # <a name="pidtaglanguages-canonical-property"></a>Propriété canonique PidTagLanguages
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629843"
   
 Contient une liste ASCII des langues incorporées dans un message. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_LANGUAGES, PR_LANGUAGES_A, PR_LANGUAGES_W  <br/> |
 |Identificateur :  <br/> |0x002F  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 564c01fa-a0df-4095-8e87-e75a409c67eb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8a7d6237424c5744338a798a657ea5f0c7050077
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0bb5e55b1c377cd414e084c5e82a74c5b0d43886
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595244"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524305"
 ---
 # <a name="pidtagmanagername-canonical-property"></a>Propriété canonique PidTagManagerName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595244"
   
 Contient le nom du responsable du destinataire. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MANAGER_NAME, PR_MANAGER_NAME_A, PR_MANAGER_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3A4E  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés fournissent des informations d’identification et d’accès p
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

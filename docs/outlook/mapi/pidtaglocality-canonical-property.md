@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a918b596-a335-47a0-9d1c-109a0b0812a2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 36815111b78faf732a69a7251a0c6644a225aadf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 168840b6f676dc225e5b0c4053b01e95292f8aa0
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620015"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523573"
 ---
 # <a name="pidtaglocality-canonical-property"></a>Propriété canonique PidTagLocality
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620015"
   
 Contient le nom de la localité du destinataire, par exemple la ville ou la ville. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_LOCALITY, PR_LOCALITY_A, PR_LOCALITY_W, PR_BUSINESS_ADDRESS_LOCALITY, PR_BUSINESS_ADDRESS_LOCALITY_A, PR_BUSINESS_ADDRESS_LOCALITY_W  <br/> |
 |Identificateur :  <br/> |0x3A27  <br/> |
@@ -36,7 +36,7 @@ Contient le nom de la localité du destinataire, par exemple la ville ou la vill
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés fournissent des informations d’identification et d’accès pour un destinataire. Elles sont définies par le destinataire et son organisation.
+Ces propriétés fournissent des informations d’identification et d’accès pour un destinataire. Elles sont définies par le destinataire et leur organisation.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Ces propriétés fournissent des informations d’identification et d’accès p
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

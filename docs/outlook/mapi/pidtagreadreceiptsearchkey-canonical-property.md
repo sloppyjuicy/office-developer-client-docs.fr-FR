@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a0ea5628-1393-4ab8-bc34-a58cf130db51
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b971fba1c977557d1079cf71fff8e1873a8f2d29
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une clé de recherche pour l’utilisateur de messagerie vers lequel le système de messagerie doit diriger un rapport de lecture pour un message.
+ms.openlocfilehash: 7137af24aa28ba27a1ef42ee012f51a77757fd4d
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570960"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523465"
 ---
 # <a name="pidtagreadreceiptsearchkey-canonical-property"></a>Propriété canonique PidTagReadReceiptSearchKey
 
@@ -27,7 +27,7 @@ ms.locfileid: "59570960"
   
 Contient une clé de recherche pour l’utilisateur de messagerie vers lequel le système de messagerie doit diriger un rapport de lecture pour un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_READ_RECEIPT_SEARCH_KEY  <br/> |
 |Identificateur :  <br/> |0x0053  <br/> |
@@ -36,7 +36,7 @@ Contient une clé de recherche pour l’utilisateur de messagerie vers lequel le
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est ignorée, sauf si **la propriété PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) est définie sur TRUE.
+Cette propriété est ignorée, sauf si la **propriété PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) est définie sur TRUE.
   
 Si une application cliente souhaite recevoir elle-même des rapports de lecture, elle peut laisser cette propriété non définie ou la définir sur la clé de recherche contenue dans la propriété **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) au moment de l’envoi du message.
   
@@ -46,7 +46,7 @@ Si une application cliente souhaite recevoir elle-même des rapports de lecture,
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

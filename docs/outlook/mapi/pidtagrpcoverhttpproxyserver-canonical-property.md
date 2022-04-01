@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 25787ee0-0cd3-e448-a54e-a6aa03b8b718
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d7a9e62ceaae7a70a80c227d74d68eec4ae58070
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Contient l’URL du serveur proxy utilisé pour connecter Outlook à Exchange Server sans le protocole HTTP ou HTTPS qui se trouve avant l’URL.
+ms.openlocfilehash: 1fa06f3050c522d22ce4dca21fe98d177bd466a5
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63376139"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524118"
 ---
 # <a name="pidtagrpcoverhttpproxyserver-canonical-property"></a>Propriété canonique PidTagRpcOverHttpProxyServer
 
@@ -21,7 +21,7 @@ ms.locfileid: "63376139"
   
 Contient l’URL du serveur proxy utilisé pour connecter Microsoft Outlook à Microsoft Exchange Server sans le protocole HTTP ou le protocole HTTPS (Hypertext Transfer Protocol Secure) qui se trouve avant l’URL.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ROH_PROXY_SERVER  <br/> |
 |Identificateur :  <br/> |0x6622  <br/> |

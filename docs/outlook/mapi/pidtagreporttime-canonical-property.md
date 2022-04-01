@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b3646505-a9f0-4a72-8277-b238c909f66f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e425d001c6699329f371c575da8a6701b5201298
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la date et l’heure à laquelle le système de messagerie a généré un rapport pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 541ac7309ab592646ef6996d37d79d3e0c1af79b
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570924"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524510"
 ---
 # <a name="pidtagreporttime-canonical-property"></a>Propriété canonique PidTagReportTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59570924"
   
 Contient la date et l’heure à laquelle le système de messagerie a généré un rapport.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORT_TIME  <br/> |
 |Identificateur :  <br/> |0x0032  <br/> |
@@ -44,7 +44,7 @@ Cette propriété représente une propriété par destinataire sur les rapports 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
@@ -52,7 +52,7 @@ Cette propriété représente une propriété par destinataire sur les rapports 
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

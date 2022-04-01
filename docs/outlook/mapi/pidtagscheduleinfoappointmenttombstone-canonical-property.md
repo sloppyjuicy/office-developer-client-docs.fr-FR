@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6b82e2ee-992f-4cbe-bdcb-e7465e556640
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9f1052f4a7baedd116af0583980cc4071cdf995a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Contient une liste de blocs de données qui représentent des réunions qui ont été refusées pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: a32c6f331fe759ce15564621cd740b59dae398e4
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776199"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64521852"
 ---
 # <a name="pidtagscheduleinfoappointmenttombstone-canonical-property"></a>Propriété canonique PidTagScheduleInfoAppointmentTombstone
 
@@ -27,7 +27,7 @@ ms.locfileid: "62776199"
   
 Contient une liste de blocs de données qui représentent les réunions qui ont été refusées.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_APPT_TOMBSTONE  <br/> |
 |Identificateur :  <br/> |0x686A  <br/> |
@@ -53,7 +53,7 @@ L’en-tête est suivi des **entrées RecordsCount** de valeurs 32 bits définie
 |StartTime  <br/> |Heure de début de l’objet de réunion en minutes depuis le 1er janvier 1601 à minuit(UTC). |
 |EndTime  <br/> |Heure de fin de l’objet de réunion en minutes depuis le 1er janvier 1601 à minuit(UTC). |
 |GlobalObjectIdSize  <br/> |Taille, en octets, du champ GlobalObjectId. |
-|GlobalObjectId  <br/> |Valeur de la **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la réunion représentée par cet enregistrement. |
+|GlobalObjectId  <br/> |Valeur de la **propriété LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la réunion représentée par cet enregistrement. |
 |UserName  <br/> |Les deux premiers octets sont la longueur de la chaîne PT_STRING8 suivante. |
    
 ## <a name="related-resources"></a>Ressources connexes
@@ -62,7 +62,7 @@ L’en-tête est suivi des **entrées RecordsCount** de valeurs 32 bits définie
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69be9ad3-006a-459e-9cd4-eb3f609d71ad
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f2e9100993b02f165c58f60b81307b6b5d04c647
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un masque de bits d’indicateurs pour les services et fournisseurs de messages. Cette propriété décrit les caractéristiques d’un service de messagerie, d’un fournisseur de services ou d’un objet d’état.
+ms.openlocfilehash: f504b67209fc999871ed7b60aec3be7dfbd527ba
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563356"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524505"
 ---
 # <a name="pidtagresourceflags-canonical-property"></a>Propriété canonique PidTagResourceFlags
 
@@ -25,9 +25,9 @@ ms.locfileid: "59563356"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque de bits d’indicateurs pour les fournisseurs et les services de messagerie.
+Contient un masque de bits d’indicateurs pour les services et fournisseurs de messages.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RESOURCE_FLAGS  <br/> |
 |Identificateur :  <br/> |0x3009  <br/> |
@@ -36,7 +36,7 @@ Contient un masque de bits d’indicateurs pour les fournisseurs et les services
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété décrit les caractéristiques d’un service de messagerie, d’un fournisseur de services ou d’un objet d’état. Les indicateurs qui sont définies pour cette propriété dépendent de son contexte. Par exemple, certains indicateurs sont valides uniquement pour les objets d’état et d’autres indicateurs uniquement pour les colonnes dans la table de service de message. 
+Cette propriété décrit les caractéristiques d’un service de messagerie, d’un fournisseur de services ou d’un objet d’état. Les indicateurs qui sont définies pour cette propriété dépendent de son contexte. Par exemple, certains indicateurs sont valides uniquement pour les objets d’état et d’autres indicateurs uniquement pour les colonnes de la table de service de message. 
   
 Les indicateurs sont de trois classes : statique, modifiable et dynamique. Les indicateurs statiques sont définies par MAPI à partir de données dans MAPISVC. INF et jamais modifié. Les indicateurs modifiables sont définies par MAPI à partir de MAPISVC. INF, mais peut être modifié par la suite. Les indicateurs dynamiques peuvent être définies et réinitialisées par les méthodes MAPI.
   
@@ -60,9 +60,9 @@ SERVICE_PRIMARY_IDENTITY
     
 SERVICE_SINGLE_COPY 
   
-> Statique. Toute tentative de création ou de copie de ce service de message dans un profil où le service existe déjà échouera. Pour créer un service de message à copie **unique, ajoutez la propriété PR_RESOURCE_FLAGS** à la section du service dans MAPISVC. INF et définissez cet indicateur. 
+> Statique. Toute tentative de création ou de copie de ce service de message dans un profil où le service existe déjà échouera. Pour créer un service de message à copie unique **, ajoutez la PR_RESOURCE_FLAGS** à la section du service dans MAPISVC. INF et définissez cet indicateur. 
     
-Pour un fournisseur de services, un ou plusieurs des indicateurs suivants peuvent être PR_RESOURCE_FLAGS **:**
+Pour un fournisseur de services, un ou plusieurs des indicateurs suivants peuvent être **PR_RESOURCE_FLAGS :**
   
 HOOK_INBOUND 
   

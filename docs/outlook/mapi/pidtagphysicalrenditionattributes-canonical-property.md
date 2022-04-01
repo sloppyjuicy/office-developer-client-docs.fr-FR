@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6cef620b-e3b7-47b9-9727-8e609465c268
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3d636d743ed4dcd689b0e6574d2bca0089ffcdfe
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un identificateur d’objet ASN.1 utilisé pour le rendu des pièces jointes des messages.
+ms.openlocfilehash: 6860682a0743f67563d78ebe76dbff18774a9417
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587348"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523936"
 ---
 # <a name="pidtagphysicalrenditionattributes-canonical-property"></a>Propriété canonique PidTagPhysicalRenditionAttributes
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587348"
   
 Contient un identificateur d’objet ASN.1 utilisé pour le rendu des pièces jointes des messages.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PHYSICAL_RENDITION_ATTRIBUTES  <br/> |
 |Identificateur :  <br/> |0x0C10  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b7267be4-8d5c-4dc7-86b2-651e03e84f9b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cc56dffeb1be879333b98c8469a3c16a11489148
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nombre de caractères significatifs du texte du message. Ces propriétés ne sont pas destinées à être utilisées directement par les applications clientes.
+ms.openlocfilehash: 5e6d2344368067f3ca36fe24446968b668f3fe23
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604206"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524546"
 ---
 # <a name="pidtagrtfsyncbodycount-canonical-property"></a>Propriété canonique PidTagRtfSyncBodyCount
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604206"
   
 Contient le nombre de caractères significatifs du texte du message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RTF_SYNC_BODY_COUNT  <br/> |
 |Identificateur :  <br/> |0x1007  <br/> |
@@ -46,11 +46,11 @@ Cette propriété est une propriété auxiliaire rtf (Rich Text Format). Ces pro
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

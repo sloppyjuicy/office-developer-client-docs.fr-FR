@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e479e863-a8de-4f7e-9eae-3f721cd16e9a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 11abc17f25324b230dafc2ba1a53be78c54153b2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Définit l’état d’un message dans une table des matières. Un message peut exister dans une table des matières et des tables de résultats de recherche, et chacun avec un état différent.
+ms.openlocfilehash: 68a115c8a712a308df12508c9399e4610b7d036c
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555320"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523911"
 ---
 # <a name="pidtagmessagestatus-canonical-property"></a>Propriété canonique PidTagMessageStatus
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555320"
   
 Contient un masque de bits 32 bits d’indicateurs qui définit l’état d’un message dans une table des matières. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MSG_STATUS  <br/> |
 |Identificateur :  <br/> |0x0E17  <br/> |
@@ -62,7 +62,7 @@ MSGSTATUS_HIGHLIGHTED
     
 MSGSTATUS_REMOTE_DELETE 
   
-> Le message a été marqué pour suppression dans la boutique de messages distante sans téléchargement vers le client local. 
+> Le message a été marqué pour suppression dans la boutique de messages distante sans téléchargement sur le client local. 
     
 MSGSTATUS_REMOTE_DOWNLOAD 
   
@@ -72,13 +72,13 @@ MSGSTATUS_TAGGED
   
 > Le message a été marqué à des fins définies par le client.
     
-Les **MSGSTATUS_DELMARKED,** **MSGSTATUS_HIDDEN,** **MSGSTATUS_HIGHLIGHTED** et **MSGSTATUS_TAGGED** sont définis par le client. Les fournisseurs de transport et de magasin passent ces bits sans aucune action. 
+Les **MSGSTATUS_DELMARKED**, **MSGSTATUS_HIDDEN**, **MSGSTATUS_HIGHLIGHTED** et **MSGSTATUS_TAGGED** sont définis par le client. Les fournisseurs de transport et de magasin passent ces bits sans aucune action. 
   
 Les clients peuvent interpréter ces valeurs de n’importe quelle manière appropriée pour leurs applications. L’une des façons dont de nombreux clients utilisent cette propriété consiste à afficher les messages marqués pour suppression avec une icône représentative. 
   
-Un client de visionneuse distante peut définir des MSGSTATUS_REMOTE_DELETE **ou** **des MSGSTATUS_REMOTE_DOWNLOAD** sur les messages dans le dossier d’en-tête qui lui est présenté par le fournisseur de transport distant. L’application cliente peut examiner chaque en-tête de message dans ce dossier pour déterminer si le message doit être téléchargé ou supprimé dans la boutique de messages distante. Il utilise ensuite la [méthode IMAPIFolder::SetMessageStatus](imapifolder-setmessagestatus.md) pour définir l’indicateur approprié. **SetMessageStatus est** le seul moyen de définir l’un des indicateurs de cette propriété . La [méthode IMAPIProp::SetProps ne](imapiprop-setprops.md) peut pas être utilisée. Pour récupérer cette propriété, les clients appellent [IMAPIFolder::GetMessageStatus](imapifolder-getmessagestatus.md) plutôt que [IMAPIProp::GetProps](imapiprop-getprops.md).
+Un client de visionneuse distante peut définir des **MSGSTATUS_REMOTE_DELETE ou** **des MSGSTATUS_REMOTE_DOWNLOAD** sur les messages dans le dossier d’en-tête qui lui est présenté par le fournisseur de transport distant. L’application cliente peut examiner chaque en-tête de message dans ce dossier pour déterminer si le message doit être téléchargé ou supprimé dans la boutique de messages distante. Il utilise ensuite [la méthode IMAPIFolder::SetMessageStatus](imapifolder-setmessagestatus.md) pour définir l’indicateur approprié. **SetMessageStatus est** le seul moyen de définir l’un des indicateurs de cette propriété . La [méthode IMAPIProp::SetProps ne](imapiprop-setprops.md) peut pas être utilisée. Pour récupérer cette propriété, les clients appellent [IMAPIFolder::GetMessageStatus](imapifolder-getmessagestatus.md) plutôt que [IMAPIProp::GetProps](imapiprop-getprops.md).
   
-Les bits 16 à 31 (0x10000 à 0x80000000) de cette propriété peuvent être utilisés par l’application cliente de message interpersonnel (IPM). Tous les autres bits sont réservés à l’utilisation par MAPI ; Celles qui ne sont pas définies dans le tableau précédent doivent être initialement définies sur zéro et ne pas être modifiées par la suite. 
+Les bits 16 à 31 (0x10000 à 0x80000000) de cette propriété peuvent être utilisés par l’application cliente de message interpersonnel (IPM). Tous les autres bits sont réservés pour être utilisés par MAPI ; Celles qui ne sont pas définies dans le tableau précédent doivent être initialement définies sur zéro et ne pas être modifiées par la suite. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -86,7 +86,7 @@ Les bits 16 à 31 (0x10000 à 0x80000000) de cette propriété peuvent être uti
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

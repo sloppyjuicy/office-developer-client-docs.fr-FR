@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4ec3100f-7cf1-4702-b326-e6da586a7bb2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d6f5608aaf6a48680f61156463892eb9831333b0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom complet du destinataire qui doit obtenir des rapports pour ce message. Une application cliente doit définir cette propriété au moment de la soumission.
+ms.openlocfilehash: bc5aa1e419ae38ff6483a9a6f53143293a3ff365
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591555"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523284"
 ---
 # <a name="pidtagreportname-canonical-property"></a>Propriété canonique PidTagReportName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591555"
   
 Contient le nom complet du destinataire qui doit obtenir des rapports pour ce message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORT_NAME, PR_REPORT_NAME_A, PR_REPORT_NAME_W  <br/> |
 |Identificateur :  <br/> |0x003A  <br/> |
@@ -38,7 +38,7 @@ Contient le nom complet du destinataire qui doit obtenir des rapports pour ce me
 
 Ces propriétés sont des exemples de propriétés d’adresse pour le destinataire que l’expéditeur a délégué pour recevoir tous les rapports générés pour ce message.
   
-Une application cliente qui doit router des rapports vers un autre utilisateur doit définir ces propriétés au moment de l’envoi du message. S’ils ne sont pas définies, les rapports sont envoyés à l’expéditeur du message.
+Une application cliente qui doit router les rapports vers un autre utilisateur doit définir ces propriétés au moment de l’envoi du message. S’ils ne sont pas définies, les rapports sont envoyés à l’expéditeur du message.
   
 ## <a name="related-resources"></a>Ressources connexes
 

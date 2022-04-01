@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 088ffc58-d456-471b-af2f-7961e9c701f3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3e6a95138d0f4bcb497a4cdbe0a7b1bc7cc9ebb5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le surnom du contact. Ces propriétés sont facultatives. Leur contenu est défini par l’utilisateur.
+ms.openlocfilehash: 6dd18098a76e685352c3eba753ed87b929d767fb
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619903"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524086"
 ---
 # <a name="pidtagnickname-canonical-property"></a>Propriété canonique PidTagNickname
 
@@ -27,7 +27,7 @@ ms.locfileid: "59619903"
   
 Contient le surnom du contact.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_NICKNAME, PR_NICKNAME_A, PR_NICKNAME_W  <br/> |
 |Identificateur :  <br/> |0x3A4F  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont facultatives. Leur contenu est défini par l’utilisateur
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

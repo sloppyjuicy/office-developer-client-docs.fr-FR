@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30511e6e-aba2-4f47-bdc7-1256b23382c5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 37d2b3eec8f79636d29deb158d4cfc237627c891
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette propriété contient TRUE si un expéditeur de message demande la preuve que le système de transfert de messages a envoyé un message pour remise au destinataire prévu.
+ms.openlocfilehash: c30f8d7ec2a660a714e782dd32a3ddc2108f14d9
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560710"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524208"
 ---
 # <a name="pidtagproofofsubmission-canonical-property"></a>Propriété canonique PidTagProofOfSubmission
 
@@ -27,7 +27,7 @@ ms.locfileid: "59560710"
   
 Cette propriété contient TRUE si un expéditeur de message demande la preuve que le système de transfert de messages a envoyé un message pour remise au destinataire initialement prévu.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROOF_OF_SUBMISSION  <br/> |
 |Identificateur :  <br/> |0x0E26  <br/> |

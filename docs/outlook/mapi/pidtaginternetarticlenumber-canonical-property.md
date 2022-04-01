@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a9eaacc9-bade-472a-9932-4dccec2471ae
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0b3158343600173b42af0dfb1607b2fd1596602f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a2c4f289f6aabe8c23b729b1994c1365125b1329
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587628"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524625"
 ---
 # <a name="pidtaginternetarticlenumber-canonical-property"></a>Propriété canonique PidTagInternetArticleNumber
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587628"
   
 Nombre associé à un élément dans une magasin de messages.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INTERNET_ARTICLE_NUMBER  <br/> |
 |Identificateur :  <br/> |0x0E23  <br/> |
@@ -44,7 +44,7 @@ Dans les magasins de messages IMAPI, cette propriété correspond à l’UID IMA
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

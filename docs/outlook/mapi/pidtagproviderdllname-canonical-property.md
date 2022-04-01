@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ddb38eb-9a32-4dbe-b42c-6ea9db98acd2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fe496be8f9acf31b4926983f2ba8fe9d194e805c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom de fichier de base de la bibliothèque de liens dynamiques (DLL) du fournisseur de services MAPI. Ces propriétés doivent spécifier le nom de base.
+ms.openlocfilehash: 0d74b8795c5a8d6fd561a164d60eed7a9cecd8f8
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599704"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64521859"
 ---
 # <a name="pidtagproviderdllname-canonical-property"></a>Propriété canonique PidTagProviderDllName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599704"
   
 Contient le nom de fichier de base de la bibliothèque de liens dynamiques (DLL) du fournisseur de services MAPI.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROVIDER_DLL_NAME, PR_PROVIDER_DLL_NAME_A, PR_PROVIDER_DLL_NAME_W  <br/> |
 |Identificateur :  <br/> |0x300A  <br/> |

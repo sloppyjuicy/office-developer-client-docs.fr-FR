@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 502f0261-697f-41bf-8530-75e1d0f503e5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4e5e13f54cf33542ac8a73a28e5cfb948e484dba
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5c8b8fa91612a7f3e5a3211e169e7866bb0e5bba
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587537"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523772"
 ---
 # <a name="pidtaglastverbexecuted-canonical-property"></a>Propriété canonique PidTagLastVerbExecuted
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587537"
   
 Contient le dernier verbe exécuté.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_LAST_VERB_EXECUTED  <br/> |
 |Identificateur :  <br/> |0x1081  <br/> |
@@ -41,7 +41,7 @@ Cette propriété peut avoir l’une des valeurs suivantes :
 |**Verb**|**Valeur de la propriété**|
 |:-----|:-----|
 |Publication  <br/> |0x00000001  <br/> |
-|Autres  <br/> |0x00000003  <br/> |
+|Autre  <br/> |0x00000003  <br/> |
 |Lire le courrier électronique  <br/> |0x00000100  <br/> |
 |Courrier non lu  <br/> |0x00000101  <br/> |
 |Courrier envoyé  <br/> |0x00000102  <br/> |
@@ -63,7 +63,7 @@ Cette propriété peut avoir l’une des valeurs suivantes :
 |Contact  <br/> |0x00000200  <br/> |
 |Liste de distribution  <br/> |0x00000201  <br/> |
 |Note rouge, Bleu  <br/> |0x00000300  <br/> |
-|Note sticky, vert  <br/> |0x00000301  <br/> |
+|Note rouge, vert  <br/> |0x00000301  <br/> |
 |Note ressoyante, rose  <br/> |0x00000302  <br/> |
 |Note rouge, jaune  <br/> |0x00000303  <br/> |
 |Note rouge, blanc  <br/> |0x00000304  <br/> |
@@ -78,7 +78,7 @@ Cette propriété peut avoir l’une des valeurs suivantes :
 |Annulation  <br/> |0x00000408  <br/> |
 |Mise à jour d’informations  <br/> |0x00000409  <br/> |
 |Mise à jour de tâche/tâche  <br/> |0x00000500  <br/> |
-|Tâche périodique non assignée  <br/> |0x00000501  <br/> |
+|Tâche périodique non résignée  <br/> |0x00000501  <br/> |
 |Tâche de l’affectation  <br/> |0x00000502  <br/> |
 |Tâche de l’assigneur  <br/> |0x00000503  <br/> |
 |Demande de tâche  <br/> |0x00000504  <br/> |
@@ -111,7 +111,7 @@ Cette propriété peut avoir l’une des valeurs suivantes :
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   

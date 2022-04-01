@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a5e9f807-12a9-4bc9-a6a5-17579e747ffa
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3f3f1ca6d0160a13cab0f49b88c893c6b4647e0b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e961cf883b628a9f644124f15c0916c188fabbd7
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609865"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524347"
 ---
 # <a name="pidtagmappingsignature-canonical-property"></a>Propriété canonique PidTagMappingSignature
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609865"
   
 Contient la signature de mappage pour les propriétés nommées d’un objet MAPI particulier. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MAPPING_SIGNATURE  <br/> |
 |Identificateur :  <br/> |0x0FF8  <br/> |
@@ -40,9 +40,9 @@ Il est recommandé que les objets ayant des propriétés nommées exposent cette
   
 Si cette propriété n’existe pas pour un objet MAPI donné, l’objet possède son propre mappage unique de noms et d’identificateurs. Dans ce cas, le client doit appeler la méthode [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) sur l’objet source, puis la méthode [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) sur l’objet de destination. 
   
-Lorsque deux objets ont la même valeur **PR_MAPPING_SIGNATURE,** le client n’a pas besoin de traduire le nom en identificateur et identificateur en nom. Le client peut simplement appeler la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) sur la source, puis la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) sur la destination. Cela est pratique pour les clients qui effectuent une copie personnalisée des propriétés nommées et pour les fournisseurs implémentant les méthodes [IMAPIProp::CopyTo](imapiprop-copyto.md) et [IMAPIProp::CopyProps.](imapiprop-copyprops.md) 
+Lorsque deux objets ont la même valeur **PR_MAPPING_SIGNATURE** , le client n’a pas besoin de traduire le nom en identificateur et identificateur en nom. Le client peut simplement appeler la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) sur la source, puis la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) sur la destination. Cela est pratique pour les clients qui effectuent une copie personnalisée des propriétés nommées et pour les fournisseurs implémentant les méthodes [IMAPIProp::CopyTo](imapiprop-copyto.md) et [IMAPIProp::CopyProps](imapiprop-copyprops.md) . 
   
-Pour plus d’informations sur les propriétés nommées et le mappage des noms et des identificateurs, voir [MAPI Named Properties](mapi-named-properties.md). 
+Pour plus d’informations sur les propriétés nommées et le mappage des noms et des identificateurs, voir [PROPRIÉTÉS nommées MAPI](mapi-named-properties.md). 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -50,7 +50,7 @@ Pour plus d’informations sur les propriétés nommées et le mappage des noms 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

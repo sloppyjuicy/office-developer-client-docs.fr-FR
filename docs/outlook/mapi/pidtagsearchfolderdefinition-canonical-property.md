@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a61056e7-365c-4972-abf7-26e2ab07105d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f35af0a2bf061ffd575d21b48d6c3785eb7e7933
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient des données qui spécifient les critères de recherche pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 8963cd8022938d8ecde513f4e5a94e0bf33e7eac
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550454"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524235"
 ---
 # <a name="pidtagsearchfolderdefinition-canonical-property"></a>Propriété canonique PidTagSearchFolderDefinition
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550454"
   
 Contient des données qui spécifient les critères de recherche.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_WB_SF_DEFINITION  <br/> |
 |Identificateur :  <br/> |0x6845  <br/> |
@@ -36,7 +36,7 @@ Contient des données qui spécifient les critères de recherche.
    
 ## <a name="remarks"></a>Remarques
 
-Le contenu spécifique de chaque champ de l’objet BLOB (Binary Large Object) contenu dans cette propriété dépend de l’ID de modèle spécifié dans la propriété **PidTagSearchFolderTemplateId** ([PidTagSearchFolderTemplateId).](pidtagsearchfoldertemplateid-canonical-property.md) Pour plus d’informations sur la structure BLOB et les modèles de recherche, voir [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). 
+Le contenu spécifique de chaque champ de l’objet BLOB (Binary Large Object) contenu dans cette propriété dépend de l’ID de modèle spécifié dans la propriété **PidTagSearchFolderTemplateId** ([PidTagSearchFolderTemplateId](pidtagsearchfoldertemplateid-canonical-property.md)). Pour plus d’informations sur la structure BLOB et les modèles de recherche, voir [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,11 +44,11 @@ Le contenu spécifique de chaque champ de l’objet BLOB (Binary Large Object) c
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations de manipulation d’une configuration de liste de dossiers de recherche.
+> Spécifie les propriétés et les opérations de manipulation d’une configuration de liste de dossiers de recherche.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

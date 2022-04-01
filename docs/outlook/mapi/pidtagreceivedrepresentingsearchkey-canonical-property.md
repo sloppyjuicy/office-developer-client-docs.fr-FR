@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 234c797c-4a3c-4e05-be22-2a2fa377871f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1cb30ed719b752a0d5942c2f14ee516b0eb5b124
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la clé de recherche de l’utilisateur de messagerie représenté par l’utilisateur de réception. Cette propriété est définie par le fournisseur de transport entrant.
+ms.openlocfilehash: 1e173ef339634ec95448056e32db5e23d0b2c7ab
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574782"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524299"
 ---
 # <a name="pidtagreceivedrepresentingsearchkey-canonical-property"></a>Propriété canonique PidTagReceivedRepresentingSearchKey
 
@@ -27,7 +27,7 @@ ms.locfileid: "59574782"
   
 Contient la clé de recherche de l’utilisateur de messagerie représenté par l’utilisateur de réception.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RCVD_REPRESENTING_SEARCH_KEY  <br/> |
 |Identificateur :  <br/> |0x0052  <br/> |
@@ -46,7 +46,7 @@ Une application cliente répondant à un message reçu pour le compte d’un aut
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
@@ -66,7 +66,7 @@ Une application cliente répondant à un message reçu pour le compte d’un aut
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

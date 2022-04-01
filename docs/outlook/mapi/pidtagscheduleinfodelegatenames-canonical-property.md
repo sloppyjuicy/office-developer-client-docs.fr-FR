@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 592d9c78-4487-4c68-8ae7-4cd3d6265685
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 54dd777d2fd10d133cf46b94f8af02f4ac608970
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient les noms des délégués pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 1eea2f71c2ded593065b561fa19c2dfe53179a05
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604179"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523709"
 ---
 # <a name="pidtagscheduleinfodelegatenames-canonical-property"></a>Propriété canonique PidTagScheduleInfoDelegateNames
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604179"
   
 Contient les noms des délégués.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_DELEGATE_NAMES, PR_SCHDINFO_DELEGATE_NAMES_A, PR_SCHDINFO_DELEGATE_NAMES_W  <br/> |
 |Identificateur :  <br/> |0x6844  <br/> |
@@ -44,7 +44,7 @@ Chaque entrée de ces propriétés doit contenir la valeur de la propriété **P
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   

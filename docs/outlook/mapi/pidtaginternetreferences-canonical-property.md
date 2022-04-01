@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 645fe61d-414a-455e-b034-db3cfd003b9d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fc5b78f30ebf12a74fe1bd702fd1c7da2487cfe5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fc17295f3cbacde6807835397c6b52dc344e0876
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595237"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523301"
 ---
 # <a name="pidtaginternetreferences-canonical-property"></a>Propriété canonique PidTagInternetReferences
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595237"
   
 Contient la valeur du champ d’en-tête Références d’un message MIME (Multipurpose Internet Mail Extensions).
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INTERNET_REFERENCES, PR_INTERNET_REFERENCES_A, PR_INTERNET_REFERENCES_W  <br/> |
 |Identificateur :  <br/> |0x1039  <br/> |
@@ -46,7 +46,7 @@ Pour définir la valeur de ces propriétés, les clients MIME doivent écrire la
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 34654660-b003-42f5-9fcd-24ebaccd735d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3e3daf06c5d7e7d647003774a8f284097cfcc5be
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée de l’auteur de la première version d’un message, qui est le message avant d’être transmis ou auquel il a été répondu.
+ms.openlocfilehash: 65c5d3bf91ce1ab63ab3dfdbea459c246f8b3d2a
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629719"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523294"
 ---
 # <a name="pidtagoriginalauthorentryid-canonical-property"></a>Propriété canonique PidTagOriginalAuthorEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59629719"
   
 Contient l’identificateur d’entrée de l’auteur de la première version d’un message, c’est-à-dire le message avant d’être transmis ou de répondre.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_AUTHOR_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x004C  <br/> |

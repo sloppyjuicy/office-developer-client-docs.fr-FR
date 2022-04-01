@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: dd8e04b3-8959-4df4-ba2c-f6371180929b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c819c16f90818218df046a0778aec2d654e0e08e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: 'Contient le code postal de l’adresse postale du destinataire. Ces propriétés sont définies par le destinataire et son organisation. '
+ms.openlocfilehash: 3d6de230146d91b47d8f5d56b3ae3fe8c0647746
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587334"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523477"
 ---
 # <a name="pidtagpostalcode-canonical-property"></a>Propriété canonique PidTagPostalCode
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587334"
   
 Contient le code postal de l’adresse postale du destinataire.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_POSTAL_CODE, PR_POSTAL_CODE_A, PR_POSTAL_CODE_W, PR_BUSINESS_ADDRESS_POSTAL_CODE, PR_BUSINESS_ADDRESS_POSTAL_CODE_A, PR_BUSINESS_ADDRESS_POSTAL_CODE_W  <br/> |
 |Identificateur :  <br/> |0x3A2A  <br/> |
@@ -38,7 +38,7 @@ Contient le code postal de l’adresse postale du destinataire.
 
 Ces propriétés fournissent des informations d’identification et d’accès pour un destinataire. Elles sont définies par le destinataire et leur organisation. 
   
-Le code postal est spécifique au pays/à la région du destinataire. Aux États-Unis d’Amérique, cette propriété contient le code POSTAL.
+Le code postal est spécifique au pays/à la région du destinataire. Dans la États-Unis’Amérique, cette propriété contient le code POSTAL.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Le code postal est spécifique au pays/à la région du destinataire. Aux États
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a1929ab8-4813-468b-9768-cdf7f848cfce
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 695e6c62cff797d62ee59063c1ce9aaba6027234
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un objet conteneur utilisé pour les recherches avancées pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: abf8f519994157feaa18d5232017d5a6225b0636
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591457"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524534"
 ---
 # <a name="pidtagsearch-canonical-property"></a>Propriété canonique PidTagSearch
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591457"
   
 Contient un objet conteneur utilisé pour les recherches avancées.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SEARCH  <br/> |
 |Identificateur :  <br/> |0x3607  <br/> |

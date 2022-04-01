@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f9dd58c7-4119-90db-54f3-e1dd8e48451e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6fc0e783827106c9d6ae9553628c7c6d282963d3
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Contient le nom principal du serveur proxy utilisé par les Outlook pour se connecter à Exchange Server à l’aide d’un RPC sur HTTP.
+ms.openlocfilehash: 88c2a2683a946c05cb73a6c1e15f163d2602db6c
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63381725"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524200"
 ---
 # <a name="pidtagrpcoverhttpproxyprincipalname-canonical-property"></a>Propriété canonique PidTagRpcOverHttpProxyPrincipalName
 
@@ -21,7 +21,7 @@ ms.locfileid: "63381725"
   
 Contient le nom principal du serveur proxy utilisé par Microsoft Outlook pour se connecter à Microsoft Exchange Server à l’aide d’un appel de procédure distante (RPC) sur HTTP (Hypertext Transfer Protocol).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ROH_PROXY_PRINCIPAL_NAME  <br/> |
 |Identificateur :  <br/> |0x6625  <br/> |

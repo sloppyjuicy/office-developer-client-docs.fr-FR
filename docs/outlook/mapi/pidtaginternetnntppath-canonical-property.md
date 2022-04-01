@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8673bb7d-d6dc-4087-95d6-9479b0a59fc4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 18764327224157b5992128054a133f2aac1daeae
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6f8e6dfff2a8d254539d6e576a50b82b48fc8529
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587621"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523960"
 ---
 # <a name="pidtaginternetnntppath-canonical-property"></a>Propriété canonique PidTagInternetNntpPath
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587621"
   
 Cartes à l’en-tête chemin MIME.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INTERNET_NNTP_PATH, PR_INTERNET_NNTP_PATH_A, PR_INTERNET_NNTP_PATH_W  <br/> |
 |Identificateur :  <br/> |0x1038  <br/> |
@@ -40,7 +40,7 @@ Cartes à l’en-tête chemin MIME.
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

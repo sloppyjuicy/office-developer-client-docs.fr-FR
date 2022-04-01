@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f75f2a21-a17c-4d8b-9055-c51d4c1888d0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e1077b4e074cb337d456e2ef689a9229345a0ded
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette propriété contient le type d’inscription utilisé pour la remise physique d’un message.
+ms.openlocfilehash: 838dc0246f9f49abe084234212c8f7391d842a6f
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624642"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523630"
 ---
 # <a name="pidtagregisteredmailtype-canonical-property"></a>Propriété canonique PidTagRegisteredMailType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59624642"
   
 Cette propriété contient le type d’inscription utilisé pour la remise physique d’un message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REGISTERED_MAIL_TYPE  <br/> |
 |Identificateur :  <br/> |0x0C16  <br/> |

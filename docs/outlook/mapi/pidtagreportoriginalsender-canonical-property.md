@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 429811c4-73fe-4a05-9c42-e5ac8e974f29
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1e708466bc7fef20aedb9a7beb1f6d9e1143831d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique l’expéditeur d’origine du message pour les messages qui demandent des reçus Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 4e2d407d99cc0cf4d2281359106c73f12bc33d4b
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570907"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524583"
 ---
 # <a name="pidtagreportoriginalsender-canonical-property"></a>Propriété canonique PidTagReportOriginalSender
 
@@ -25,7 +25,7 @@ ms.locfileid: "59570907"
   
 Indique l’expéditeur d’origine du message pour les messages qui demandent des reçus.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORT_ORIGINAL_SENDER, PR_REPORT_ORIGINAL_SENDER_A, PR_REPORT_ORIGINAL_SENDER_W  <br/> |
 |Identificateur :  <br/> |0x0082  <br/> |
@@ -38,7 +38,7 @@ Indique l’expéditeur d’origine du message pour les messages qui demandent d
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

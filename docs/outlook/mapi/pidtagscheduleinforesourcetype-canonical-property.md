@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9f253378-0a2d-47e3-82d3-8055b5f776dd
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a61d81c5c966ecccd9f1fecdff7c9004535f3c4e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une valeur qui doit être définie sur zéro (0) pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 0bfacb08326c377c05d2ccb4b3d9daf885a50e36
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609823"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523440"
 ---
 # <a name="pidtagscheduleinforesourcetype-canonical-property"></a>Propriété canonique PidTagScheduleInfoResourceType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609823"
   
 Contient une valeur qui doit être définie sur zéro (0).
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_RESOURCE_TYPE  <br/> |
 |Identificateur :  <br/> |0x6841  <br/> |
@@ -44,7 +44,7 @@ Cette propriété doit être définie sur zéro (0) lorsqu’elle est envoyée e
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   

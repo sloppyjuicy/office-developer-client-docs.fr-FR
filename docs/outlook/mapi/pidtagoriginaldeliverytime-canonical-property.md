@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 700ccfc9-493a-483b-aca0-aa2d7f6bb229
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c498fa94a4e45a23e7f52d6953731286b8add312
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une copie de la date et de l’heure de remise du message d’origine dans un thread Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 49617214c6e797abdef3dd182cdf2c4fdccc28c7
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587418"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524561"
 ---
 # <a name="pidtagoriginaldeliverytime-canonical-property"></a>Propriété canonique PidTagOriginalDeliveryTime
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587418"
   
 Contient une copie de la date et de l’heure de remise du message d’origine dans un thread. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_DELIVERY_TIME  <br/> |
 |Identificateur :  <br/> |0x0055  <br/> |
@@ -44,7 +44,7 @@ Cette propriété est copiée à partir de la propriété **PR_MESSAGE_DELIVERY_
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

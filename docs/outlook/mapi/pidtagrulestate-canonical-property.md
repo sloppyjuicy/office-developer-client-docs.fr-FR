@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f62f3055-b855-4203-aa5c-6ba28b58c6f7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c28c4af9117ca0aee1b19ecef812c2636860c45c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Valeur interprétée comme une combinaison de masques de bits d’indicateurs spécifiant l’état de la règle pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: a772973eecd3babd6fc72a073c46fb539f013218
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599493"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523446"
 ---
 # <a name="pidtagrulestate-canonical-property"></a>Propriété canonique PidTagRuleState
 
@@ -25,9 +25,9 @@ ms.locfileid: "59599493"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Valeur interprétée comme une combinaison de masques de bits d’indicateurs spécifiant l’état de la règle.
+Valeur interprétée comme une combinaison de masque de bits d’indicateurs spécifiant l’état de la règle.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RULE_STATE  <br/> |
 |Identificateur :  <br/> |0x6677  <br/> |
@@ -44,7 +44,7 @@ EN (ST_ENABLED, masque de bits 0x00000001)
     
 ER (ST_ERROR, masque de bits 0x00000002)
   
-> Le serveur a rencontré une erreur lors du traitement de la règle.
+> Le serveur a rencontré une erreur de traitement de la règle.
     
 OF (ST_ONLY_WHEN_OOF, masque de bits 0x00000004)
   
@@ -72,11 +72,11 @@ X
     
 Notez l’interaction entre ST_ONLY_WHEN_OOF et ST_EXIT_LEVEL indicateurs : 
   
-Lorsque l’état « Hors Office » est définie sur la boîte aux lettres et qu’une condition de règle est évaluée à TRUE, 
+Lorsque l’état « Office » est définie sur la boîte aux lettres et qu’une condition de règle est évaluée à TRUE, 
   
 ET :
   
-- La règle possède l’indicateur ST_EXIT_LEVEL et n’a pas d’indicateur ST_ONLY_WHEN_OOF définie. Ensuite, le serveur ne doit pas évaluer les règles suivantes qui n’ont pas d’indicateur ST_ONLY_WHEN_OOF, et doit évaluer les règles suivantes qui ont ST_ONLY_WHEN_OOF d’indicateur.
+- La règle possède l’indicateur ST_EXIT_LEVEL et n’a pas d’ST_ONLY_WHEN_OOF’indicateur. Ensuite, le serveur ne doit pas évaluer les règles suivantes qui n’ont pas d’indicateur ST_ONLY_WHEN_OOF, et doit évaluer les règles suivantes qui ont ST_ONLY_WHEN_OOF d’indicateur.
     
 OU :
   
@@ -88,7 +88,7 @@ OU :
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   

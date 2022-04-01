@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: db9e0115-99fb-4fa7-8726-0be991505506
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f336a9734a08aab2e733290a584475859ef689a7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ec6a69befefdbd1a01ebd786b1ce80a0e2816528
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620217"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523974"
 ---
 # <a name="pidtaginitials-canonical-property"></a>Propriété canonique PidTagInitials
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620217"
   
 Contient les initiales des parties du nom complet du destinataire. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INITIALS, PR_INITIALS_A, PR_INITIALS_W  <br/> |
 |Identificateur :  <br/> |0x3A0A  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés fournissent des informations d’identification et d’accès p
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

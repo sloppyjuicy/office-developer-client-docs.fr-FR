@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7cdedb1a-e441-469b-be50-2f18203eb30d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 53d70d0b8fb17a2e2e7aa77e3087b6f58a12c78c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le type d’adresse de l’auteur de la première version d’un message, c’est-à-dire le message avant d’être transmis ou de répondre.
+ms.openlocfilehash: 3045d5356d7782baf4d70fca2c8c58ddaa0a0f83
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578962"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524051"
 ---
 # <a name="pidtagoriginalauthoraddresstype-canonical-property"></a>Propriété canonique PidTagOriginalAuthorAddressType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59578962"
   
 Contient le type d’adresse de l’auteur de la première version d’un message, c’est-à-dire le message avant d’être transmis ou de répondre.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_AUTHOR_ADDRTYPE, PR_ORIGINAL_AUTHOR_ADDRTYPE_A, PR_ORIGINAL_AUTHOR_ADDRTYPE_W  <br/> |
 |Identificateur :  <br/> |0x0079  <br/> |

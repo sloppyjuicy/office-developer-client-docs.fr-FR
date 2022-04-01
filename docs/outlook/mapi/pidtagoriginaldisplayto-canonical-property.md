@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8c1cf14c-0339-4ced-8f68-4bfaa1e4d3e9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9948062ea3835f8177fa50d676c6e8094bdb0706
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient les noms d’affichage des destinataires principaux (À) du message d’origine. Il est fourni par MAPI et est copié directement à partir PR_DISPLAY_TO.
+ms.openlocfilehash: 281f8ddd6a4176d0d66de90301d79b5f7e31ea21
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575028"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524039"
 ---
 # <a name="pidtagoriginaldisplayto-canonical-property"></a>Propriété canonique PidTagOriginalDisplayTo
 
@@ -27,7 +27,7 @@ ms.locfileid: "59575028"
   
 Contient les noms d’affichage des destinataires principaux (À) du message d’origine.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_DISPLAY_TO, PR_ORIGINAL_DISPLAY_TO_A, PR_ORIGINAL_DISPLAY_TO_W  <br/> |
 |Identificateur :  <br/> |0x0074  <br/> |
@@ -36,7 +36,7 @@ Contient les noms d’affichage des destinataires principaux (À) du message d�
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés contiennent une liste ASCII séparée par des points-virgules. Il est fourni par MAPI et est copié directement à partir de **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)) lorsqu’un rapport de remise ou non remise ou un rapport lu ou non lu est généré. Cette propriété peut être présente sur d’autres messages tels que définis par leurs classes de messages.
+Ces propriétés contiennent une liste ASCII séparée par des points-virgules. Il est fourni par MAPI et copié directement à partir de **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)) lorsqu’un rapport de remise ou non remise ou un rapport lu ou non lu est généré. Cette propriété peut être présente sur d’autres messages tels que définis par leurs classes de messages.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Ces propriétés contiennent une liste ASCII séparée par des points-virgules. 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

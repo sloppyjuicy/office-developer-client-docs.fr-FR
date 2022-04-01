@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 13ca726d-ae7a-4da9-9c8e-3db3c479f839
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 65c2f1491be5205b3dadeb6c32d59e77be9bfda2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom du profil. Les fournisseurs de services calculent ces propriétés. La fonction ServiceEntry peut utiliser ces propriétés pour découvrir le nom du profil.
+ms.openlocfilehash: ed4af94faeb059fb9a514ac7c07ac587654def49
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591689"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524144"
 ---
 # <a name="pidtagprofilename-canonical-property"></a>Propriété canonique PidTagProfileName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591689"
   
 Contient le nom du profil.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROFILE_NAME, PR_PROFILE_NAME_A, PR_PROFILE_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3D12  <br/> |
@@ -40,7 +40,7 @@ Ces propriétés sont calculées par les fournisseurs de services. L’implémen
   
 Les applications clientes peuvent utiliser ces propriétés comme alternative pratique à l’obtention du nom du profil en examinant la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) dans la ligne de table d’état du sous-système MAPI.
   
-Ces propriétés peuvent ne pas être uniques dans le temps, par exemple lorsqu’un profil est supprimé et recréé ultérieurement avec le même nom. MAPI fournit une propriété PR_SEARCH_KEY **unique** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) dans une section de profil codée en dur appelée **MUID_PROFILE_INSTANCE.**
+Ces propriétés peuvent ne pas être uniques dans le temps, par exemple lorsqu’un profil est supprimé et recréé ultérieurement avec le même nom. MAPI fournit une propriété **PR_SEARCH_KEY unique (**[PidTagSearchKey](pidtagsearchkey-canonical-property.md)) dans une section de profil codée en dur appelée **MUID_PROFILE_INSTANCE.**
   
 ## <a name="related-resources"></a>Ressources connexes
 

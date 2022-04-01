@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 5fe55ba7-4ecd-4a43-ab5b-2ef595c2cdd9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7f57192e5233e27b43e89f92fc2f3ed2d5a48349
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 31dde40eeb2a94bfbcf05fb8cb291b6ac0d8c087
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555334"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523818"
 ---
 # <a name="pidtagidentitysearchkey-canonical-property"></a>Propriété canonique PidTagIdentitySearchKey
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555334"
   
 Contient la clé de recherche pour l’identité d’un fournisseur de services telle que définie dans un système de messagerie. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IDENTITY_SEARCH_KEY  <br/> |
 |Identificateur :  <br/> |0x3E05  <br/> |

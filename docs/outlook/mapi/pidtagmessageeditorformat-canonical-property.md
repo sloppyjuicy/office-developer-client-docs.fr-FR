@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 197b21ed-9f2f-425f-a6ed-cae1208fa2ca
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 468dcea196a1902c2c8ec08e022e322f24daef90
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 41383a7ab36c2b020997b5167519889594853338
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777277"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524404"
 ---
 # <a name="pidtagmessageeditorformat-canonical-property"></a>Propriété canonique PidTagMessageEditorFormat
 
@@ -27,7 +27,7 @@ ms.locfileid: "62777277"
   
 Spécifie le format d’un éditeur à utiliser pour afficher un message.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MSG_EDITOR_FORMAT  <br/> |
 |Identificateur :  <br/> |0x5909  <br/> |
@@ -59,7 +59,7 @@ Il existe deux autres façons d’appliquer l’utilisation du TNEF lors de l’
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d619b5e7-2867-44fc-9b42-123bb1bf7bde
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ca1972c0ac3635df8c9885e394688d19faffb4bc
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Indique l’état de réponse renvoyé par le participant. Si cette valeur n’est pas définie, elle doit être supposée être respNone.
+ms.openlocfilehash: b65832dfe6dd0fc2c6a6555c13a2ae8883fced63
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776205"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523985"
 ---
 # <a name="pidtagrecipienttrackstatus-canonical-property"></a>Propriété canonique PidTagRecipientTrackStatus
 
@@ -27,7 +27,7 @@ ms.locfileid: "62776205"
   
 Indique l’état de réponse renvoyé par le participant.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECIPIENT_TRACKSTATUS  <br/> |
 |Identificateur :  <br/> |0x5FFF  <br/> |
@@ -51,7 +51,7 @@ Si cette valeur n’est pas définie, elle doit être supposée être respNone. 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

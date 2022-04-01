@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 67cda756-ba71-4f29-a601-55359e44d93b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 670ebb8a50de98eaa9310bc3632cbb2b3e14e33e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’adresse e-mail de l’auteur de la première version d’un message, qui est le message avant d’être transmis ou auquel il a été répondu.
+ms.openlocfilehash: c8e15ddf7f508b1335df711e5b2456084a324c1c
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599923"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523426"
 ---
 # <a name="pidtagoriginalauthoremailaddress-canonical-property"></a>Propriété canonique PidTagOriginalAuthorEmailAddress
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599923"
   
 Contient l’adresse e-mail de l’auteur de la première version d’un message, c’est-à-dire le message avant d’être transmis ou d’y répondre.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS, PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS_A, PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS_W  <br/> |
 |Identificateur :  <br/> |0x007A  <br/> |

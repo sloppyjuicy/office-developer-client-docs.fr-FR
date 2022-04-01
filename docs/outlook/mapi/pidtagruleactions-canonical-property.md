@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ec4259a-8fe9-46c3-82b8-42c6907b8515
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2d9cd8dcde2db136935bf7291b9c8f99d15e733f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Contient l’ensemble d’actions associées à la règle pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 76962461ebccaf4e45b51140d060eec05ae33c47
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62787659"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523383"
 ---
 # <a name="pidtagruleactions-canonical-property"></a>Propriété canonique PidTagRuleActions
 
@@ -27,7 +27,7 @@ ms.locfileid: "62787659"
   
 Contient l’ensemble des actions associées à la règle. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RULE_ACTIONS  <br/> |
 |Identificateur :  <br/> |0x6680  <br/> |
@@ -52,7 +52,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   

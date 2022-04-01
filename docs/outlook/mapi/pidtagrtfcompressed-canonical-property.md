@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: fd0ccb88-55ce-4d7c-9573-6e5d6239b6a8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b762ca668ecc52b2a9a354bbde2a5e8abb923906
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la version RTF (Rich Text Format) du texte du message, généralement sous forme compressée pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 616dc0d8250815a99dcdafe8cda58e1c7d21b85c
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555096"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524075"
 ---
 # <a name="pidtagrtfcompressed-canonical-property"></a>Propriété canonique PidTagRtfCompressed
 
@@ -27,7 +27,7 @@ ms.locfileid: "59555096"
   
 Contient la version RTF (Rich Text Format) du texte du message, généralement sous forme compressée. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RTF_COMPRESSED  <br/> |
 |Identificateur :  <br/> |0x1009  <br/> |
@@ -36,13 +36,13 @@ Contient la version RTF (Rich Text Format) du texte du message, généralement s
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient le même texte de message que **la propriété PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), mais en RTF. 
+Cette propriété contient le même texte de message que **la propriété PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), mais au niveau rtf. 
   
-Le texte du message au niveau rtf est normalement stocké sous forme compressée. Toutefois, certains systèmes ne compressent pas le texte formaté. Pour les prendre en charge, MAPI fournit la valeur dwMagicUncompressedRTF pour un en-tête de flux afin d’identifier le RTF non compressé et l’indicateur **STORE_UNCOMPRESSED_RTF** dans **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) pour la magasin de messages afin d’indiquer qu’elle peut stocker le RTF non compressé. 
+Le texte du message au niveau rtf est normalement stocké sous forme compressée. Toutefois, certains systèmes ne compressent pas le texte formaté. Pour les prendre en charge, MAPI fournit la valeur dwMagicUncompressedRTF pour un en-tête de flux afin d’identifier le RTF non compressé et l’indicateur **STORE_UNCOMPRESSED_RTF** dans **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) pour la magasin de messages pour indiquer qu’il peut stocker un RTF non compressé. 
   
-Pour obtenir le contenu de cette propriété, appelez **OpenProperty,** puis appelez [WrapCompressedRTFStream](wrapcompressedrtfstream.md) avec l’MAPI_READ’indicateur.  Pour écrire dans cette propriété, ouvrez-la avec MAPI_MODIFY **et** **MAPI_CREATE** indicateurs. Cela garantit que les nouvelles données remplacent complètement les anciennes données et que les écritures sont effectuées à l’aide du nombre minimal de mises à jour de la boutique. 
+Pour obtenir le contenu de cette propriété, appelez **OpenProperty**, puis appelez [WrapCompressedRTFStream](wrapcompressedrtfstream.md) avec **l’MAPI_READ’indicateur** . Pour écrire dans cette propriété, ouvrez-la avec **MAPI_MODIFY et** **MAPI_CREATE** indicateurs. Cela garantit que les nouvelles données remplacent complètement les anciennes données et que les écritures sont effectuées à l’aide du nombre minimal de mises à jour de la boutique. 
   
-Les magasins de messages qui la prise en charge rtf ignorent les modifications apportées aux espaces dans le texte du message. Lorsque **PR_BODY** est stocké pour la première fois, la boutique de messages génère et stocke également cette propriété. Si la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) est appelée et **que PR_BODY a** été modifié, la boutique de messages appelle la fonction [RTFSync](rtfsync.md) pour garantir la synchronisation avec la version RTF. Si seuls des espaces ont été modifiés, les propriétés restent inchangées. Cela permet de conserver toute mise en forme RTF nontrivial lorsque le message passe par des clients et des systèmes de messagerie non RTF. 
+Les magasins de messages qui la prise en charge rtf ignorent les modifications apportées aux espaces dans le texte du message. Lorsque **PR_BODY** est stocké pour la première fois, la boutique de messages génère et stocke également cette propriété. Si la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) est appelée et que **PR_BODY a** été modifié, la boutique de messages appelle la fonction [RTFSync](rtfsync.md) pour garantir la synchronisation avec la version RTF. Si seuls des espaces ont été modifiés, les propriétés restent inchangées. Cela permet de conserver toute mise en forme RTF nontrivial lorsque le message passe par des clients et des systèmes de messagerie non RTF. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -50,11 +50,11 @@ Les magasins de messages qui la prise en charge rtf ignorent les modifications a
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXRTFCP]](https://msdn.microsoft.com/library/65dfe2df-1b69-43fc-8ebd-21819a7463fb%28Office.15%29.aspx)
   

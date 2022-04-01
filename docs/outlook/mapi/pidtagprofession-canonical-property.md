@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ee0070b-11ac-4add-9c19-4558a1f88577
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 375ac973bf36f9a0c282b610f3b20116818ac627
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient la profession de l’utilisateur. Ces propriétés sont définies par l’utilisateur ou l’organisation de l’utilisateur.
+ms.openlocfilehash: 3816ee338f59259319eb5b809987db03cd4c48df
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587275"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524610"
 ---
 # <a name="pidtagprofession-canonical-property"></a>Propriété canonique PidTagProfession
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587275"
   
 Contient la profession de l’utilisateur.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROFESSION, PR_PROFESSION_A, PR_PROFESSION_W  <br/> |
 |Identificateur :  <br/> |0x3A46  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

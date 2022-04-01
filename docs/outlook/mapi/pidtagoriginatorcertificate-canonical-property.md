@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 65f890d8-9d25-408e-ab29-89991278b92d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 28c3c0b1f9da2c456f1d76c1471ea11d8ae85426
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un certificat ASN.1 pour l’auteur du message Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 07c8e1377add3e228ee62f99c1d76e5879109760
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574937"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523903"
 ---
 # <a name="pidtagoriginatorcertificate-canonical-property"></a>Propriété canonique PidTagOriginatorCertificate
 
@@ -27,7 +27,7 @@ ms.locfileid: "59574937"
   
 Contient un certificat ASN.1 pour l’auteur du message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINATOR_CERTIFICATE  <br/> |
 |Identificateur :  <br/> |0x0022  <br/> |
@@ -36,7 +36,7 @@ Contient un certificat ASN.1 pour l’auteur du message.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une copie de la propriété PR_USER_CERTIFICATE **(** [PidTagUserCertificate](pidtagusercertificate-canonical-property.md)).
+Cette propriété est une copie de la propriété **PR_USER_CERTIFICATE (**[PidTagUserCertificate](pidtagusercertificate-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 

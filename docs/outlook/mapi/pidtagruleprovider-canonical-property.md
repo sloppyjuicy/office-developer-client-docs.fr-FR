@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 64f80a03-9ba4-495a-9666-b3a909335cb6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 32a0e900c959b17dd7b1e61bdaa9c80a6f5d4966
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom de l’application qui définit une règle. Les actions différées ont besoin de ces propriétés pour identifier le code qui doit interpréter et exécuter l’action de règle.
+ms.openlocfilehash: dc849ba3e00b8dd929afbc383613dc9c24d04003
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591478"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523366"
 ---
 # <a name="pidtagruleprovider-canonical-property"></a>Propriété canonique PidTagRuleProvider
 
@@ -27,7 +27,7 @@ ms.locfileid: "59591478"
   
 Contient le nom de l’application qui définit une règle.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RULE_PROVIDER, PR_RULE_PROVIDER_A, PR_RULE_PROVIDER_W  <br/> |
 |Identificateur :  <br/> |0x6681  <br/> |
@@ -38,7 +38,7 @@ Contient le nom de l’application qui définit une règle.
 
 Les actions différées ont besoin de ces propriétés pour identifier le code qui doit interpréter et exécuter l’action de règle.
   
-Les règles stockées dans les boîtes aux lettres et les dossiers sont associées à l’application qui les détient par une chaîne de fournisseur de règles. Un fournisseur de règles définit et gère les règles dans une table de règles. Il fournit également un moyen de gérer les actions différées si de telles règles sont définies. Les actions différées sont créées implicitement par la boutique d’informations. Pour les opérations de déplacement ou de copie dans un autre magasin, si un fournisseur définit une règle d’action différée, il doit fournir un responsable pour effectuer l’action lorsque la règle est déclenché et qu’une action différée est créée.
+Les règles stockées dans les boîtes aux lettres et les dossiers sont associées à l’application qui les possède par une chaîne de fournisseur de règles. Un fournisseur de règles définit et gère les règles dans une table de règles. Il fournit également un moyen de gérer les actions différées si de telles règles sont définies. Les actions différées sont créées implicitement par la magasin d’informations. Pour les opérations de déplacement ou de copie dans un autre magasin, si un fournisseur définit une règle d’action différée, il doit fournir un responsable pour effectuer l’action lorsque la règle est déclenché et qu’une action différée est créée.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Les règles stockées dans les boîtes aux lettres et les dossiers sont associé
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   

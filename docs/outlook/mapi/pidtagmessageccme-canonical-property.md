@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 7310a0f2-a109-40a4-99bf-e963d754a067
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9c9eae5a17b1533d0159dd07bf3224ff1efdacab
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 43cd3a0d3f4086c2304bfbe69e6753aed86ddca8
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609844"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523953"
 ---
 # <a name="pidtagmessageccme-canonical-property"></a>Propriété canonique PidTagMessageCcMe
 
@@ -27,7 +27,7 @@ ms.locfileid: "59609844"
   
 Contient TRUE si cet utilisateur de messagerie est spécifiquement nommé en tant que destinataire de copie carbone (CC) de ce message et ne fait pas partie d’une liste de distribution. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_CC_ME  <br/> |
 |Identificateur :  <br/> |0x0058  <br/> |
@@ -42,7 +42,7 @@ Cette propriété permet également la gestion automatisée des messages reçus 
   
 La remise des messages résultant de l’extension de la liste de distribution ou d’une désignation de copie carbone non voyante n’entraîne pas la mise en place de cette propriété. Le destinataire doit être nommé explicitement. 
   
-Les messages non envoyés ne définissent généralement pas cette propriété, **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)) ou **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md)). S’ils sont présents dans des messages accessibles par l’utilisateur dans des magasins de messages publics, dans des magasins privés d’autres utilisateurs, dans des fichiers sur disque ou incorporés à d’autres messages reçus, ils contiennent généralement les valeurs pour lesquelles ils ont été définies la dernière fois qu’un fournisseur de transport a remis le message. 
+Les messages non envoyés ne définissent généralement pas cette propriété, **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)) ou **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md)). S’ils sont présents dans des messages accessibles par l’utilisateur dans des magasins de messages publics, dans des magasins privés d’autres utilisateurs, dans des fichiers sur disque ou incorporés à d’autres messages reçus, ils contiennent généralement les valeurs à laquelle ils ont été fixés la dernière fois qu’un fournisseur de transport a remis le message. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -50,7 +50,7 @@ Les messages non envoyés ne définissent généralement pas cette propriété, 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8197d2c7-8665-41b8-bd3a-e9c1c2e642e9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3616ea045d1d9119d8027c78e4c0926d7ba49895
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’identificateur d’entrée d’origine d’une entrée copiée à partir d’un carnet d’adresses vers un carnet d’adresses personnel ou un autre carnet d’adresses accessible en écriture.
+ms.openlocfilehash: 6c5e65980650da1aa7ada2b2df0063e233410a1d
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619847"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523311"
 ---
 # <a name="pidtagoriginalentryid-canonical-property"></a>Propriété canonique PidTagOriginalEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59619847"
   
 Contient l’identificateur d’entrée d’origine d’une entrée copiée à partir d’un carnet d’adresses vers un carnet d’adresses personnel ou un autre carnet d’adresses accessible en écriture.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x3A12  <br/> |
@@ -46,7 +46,7 @@ Pour un état non lu, cette propriété contient une copie de l’identificateur
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

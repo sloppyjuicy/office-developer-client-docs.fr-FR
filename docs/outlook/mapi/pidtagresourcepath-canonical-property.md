@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac49538e-6ee8-4ab4-9d79-88a83c7d0149
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 04ecec1e220af4afcf40fe37fe5e3d90cf943720
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un chemin d’accès au serveur du fournisseur de services. La définition de ces propriétés est spécifique au fournisseur.
+ms.openlocfilehash: 0f703c1d9bce2d11cad81944a4b050a9e132a8c1
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599599"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524491"
 ---
 # <a name="pidtagresourcepath-canonical-property"></a>Propriété canonique PidTagResourcePath
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599599"
   
 Contient un chemin d’accès au serveur du fournisseur de services.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RESOURCE_PATH, PR_RESOURCE_PATH_A, PR_RESOURCE_PATH_W  <br/> |
 |Identificateur :  <br/> |0x3E07  <br/> |

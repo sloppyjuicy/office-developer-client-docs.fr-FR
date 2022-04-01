@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5746090-c850-4e95-b1e7-a07e42c87179
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8f6117427ff1c2470f360b4fca2c38b30cf55b16
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’heure à laquelle le conteneur de dossiers de recherche est obsolète et doit être mis à jour ou recréé.
+ms.openlocfilehash: 7757aaa28397bbda1af9f9e87341fecd02cda20e
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587012"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524437"
 ---
 # <a name="pidtagsearchfolderexpiration-canonical-property"></a>Propriété canonique PidTagSearchFolderExpiration
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587012"
   
 Contient l’heure à laquelle le conteneur de dossiers de recherche est obsolète et doit être mis à jour ou recréé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_WB_SF_EXPIRATION  <br/> |
 |Identificateur :  <br/> |0x683A  <br/> |
@@ -44,11 +44,11 @@ Cette propriété doit être mise en forme comme le nombre de minutes depuis le 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations de manipulation d’une configuration de liste de dossiers de recherche.
+> Spécifie les propriétés et les opérations de manipulation d’une configuration de liste de dossiers de recherche.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

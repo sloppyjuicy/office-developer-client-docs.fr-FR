@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8a11e846-c62f-4c06-876f-94623d50cc3b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 89cd9195a386de39b699333ba14be1c09feafbaf
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Condition utilisée lorsque vous évaluez la règle. La condition est exprimée sous la forme d’une restriction et la mémoire tampon PropertyValue contient la structure restriction.
+ms.openlocfilehash: 5318db43b3aad865c9e289fa1bd07dd76abff37e
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778747"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524568"
 ---
 # <a name="pidtagrulecondition-canonical-property"></a>Propriété canonique PidTagRuleCondition
 
@@ -27,7 +27,7 @@ ms.locfileid: "62778747"
   
 Condition utilisée lorsque vous évaluez la règle.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RULE_CONDITION  <br/> |
 |Identificateur :  <br/> |0x6679  <br/> |
@@ -52,7 +52,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   

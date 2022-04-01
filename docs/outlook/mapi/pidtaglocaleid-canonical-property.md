@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 9e4d1554-a47f-461c-8f79-0604d5542e8d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c5c4e2c4b728245a60108e6466a5d40410876801
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a76871f446725779e58c4a22b00a8ca891b29675
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587551"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524315"
 ---
 # <a name="pidtaglocaleid-canonical-property"></a>Propriété canonique PidTagLocaleId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587551"
   
 Établit les paramètres régionaux de langue pour la traduction des messages générés par le système, tels que les rapports de remise.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_LOCALE_ID  <br/> |
 |Identificateur :  <br/> |0x66A1  <br/> |
@@ -44,7 +44,7 @@ Cette propriété est disponible sur une adresse de boîte aux lettres privée.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   

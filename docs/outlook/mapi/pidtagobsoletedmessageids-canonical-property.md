@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bc979398-f1ad-4496-b982-428b95719369
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c750c01dcbb5453a126c1d19f80e03275e4ad617
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient les identificateurs des messages que ce message a la place. Les identificateurs sont des clés de recherche standard utilisant le format de PR_SEARCH_KEY propriété.
+ms.openlocfilehash: 0fc594cbba41d9eb308ef662a45533b7d0466676
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560794"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524056"
 ---
 # <a name="pidtagobsoletedmessageids-canonical-property"></a>Propriété canonique PidTagObsoletedMessageIds
 
@@ -27,7 +27,7 @@ ms.locfileid: "59560794"
   
 Contient les identificateurs des messages que ce message a la place.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_OBSOLETED_IPMS  <br/> |
 |Identificateur :  <br/> |0x001F  <br/> |

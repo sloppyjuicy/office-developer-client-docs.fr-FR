@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56c406fb-8778-4f85-bbdc-4cabfa140248
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7d7e44c4a8633826c93ba66c07f650f9394f4693
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom codé du destinataire initialement prévu d’un message autoforwarded pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 54ac08e41c8a8db1e30d46afa0efff460ac371ba
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595174"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523682"
 ---
 # <a name="pidtagoriginallyintendedrecipientname-canonical-property"></a>Propriété canonique PidTagOriginallyIntendedRecipientName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595174"
   
 Contient le nom codé du destinataire initialement prévu d’un message auto-envoyé.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINALLY_INTENDED_RECIPIENT_NAME  <br/> |
 |Identificateur :  <br/> |0x0020  <br/> |

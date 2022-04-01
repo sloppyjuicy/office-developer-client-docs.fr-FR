@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 192cdab8-c615-47b9-9f04-a1414eaf0c77
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c823a9a9ffe17bd466e166ede13d7f7ede25e1e5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Représente une valeur null ou un paramètre d’une propriété ou réserve de l’espace de tableau. Cela permet de remplir les propriétés calculées de manière peu coûteuse.
+ms.openlocfilehash: b2c7a0ae5228016e24c9396e48c09372feb18b86
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583323"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523505"
 ---
 # <a name="pidtagnull-canonical-property"></a>Propriété canonique PidTagNull
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583323"
   
 Représente une valeur null ou un paramètre d’une propriété ou réserve de l’espace de tableau.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_NULL  <br/> |
 |Identificateur :  <br/> |0x0000  <br/> |
@@ -36,9 +36,9 @@ Représente une valeur null ou un paramètre d’une propriété ou réserve de 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété permet de réserver de l’espace dans des tableaux de structures [SPropValue.](spropvalue.md) Il est utilisé dans un tableau de structures [SPropTagArray](sproptagarray.md) pour indiquer à la méthode de réserver de l’espace dans le tableau renvoyé de structures **SPropValue.** Cela permet de remplir les propriétés calculées de manière peu coûteuse. 
+Cette propriété permet de réserver de l’espace dans des tableaux de structures [SPropValue](spropvalue.md) . Il est utilisé dans un tableau de structures [SPropTagArray](sproptagarray.md) pour indiquer à la méthode de réserver de l’espace dans le tableau renvoyé de structures **SPropValue** . Cela permet de remplir les propriétés calculées de manière peu coûteuse. 
   
-Pour plus d’informations, voir [Vue d’ensemble du type de propriété MAPI.](mapi-property-type-overview.md)
+Pour plus d’informations, voir [Vue d’ensemble du type de propriété MAPI](mapi-property-type-overview.md).
   
 ## <a name="related-resources"></a>Ressources connexes
 

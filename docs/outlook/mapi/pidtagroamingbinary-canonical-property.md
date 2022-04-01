@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f06bf063-fc95-46f9-b5fa-3f127a59ebda
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3e948b4085e002832df9657d61c87962af9b9fdb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un flux de message associé à une sous-classe de l’IPM. Classe de configuration. Le format du flux dépend de la classe de message.
+ms.openlocfilehash: e0676b9c88c438491baf2868c4969c2ef5857343
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555152"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64521890"
 ---
 # <a name="pidtagroamingbinary-canonical-property"></a>Propriété canonique PidTagRoamingBinary
 
@@ -23,7 +23,7 @@ ms.locfileid: "59555152"
   
 Contient un flux de message associé à une sous-classe de **l’IPM. Classe de** configuration. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ROAMING_BINARYSTREAM  <br/> |
 |Identificateur :  <br/> |0x7C09  <br/> |
@@ -32,7 +32,7 @@ Contient un flux de message associé à une sous-classe de **l’IPM. Classe de*
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient le flux de données associé à un **IPM. Message de classe** de message de configuration. Le format du flux dépend de la classe de message. Par exemple, un message de type **classe IPM. Configuration.Autocomplete** serait formaté en tant que [flux de mise encomplet automatique.](autocomplete-stream.md)
+Cette propriété contient le flux de données associé à un **IPM. Message de classe** de message de configuration. Le format du flux dépend de la classe de message. Par exemple, un message de type **classe IPM. Configuration.Autocomplete** serait formaté en tant que [flux de mise encomplet automatique](autocomplete-stream.md).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -40,11 +40,11 @@ Cette propriété contient le flux de données associé à un **IPM. Message de 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Microsoft Exchange Server protocole.
+> Fournit des références aux spécifications Microsoft Exchange Server de protocole.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Spécifie l’emplacement et les propriétés des données de configuration client et serveur, telles que les listes de catégories partagées et les heures de travail.
+> Spécifie l’emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

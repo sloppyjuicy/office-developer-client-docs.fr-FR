@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b7429c2e-0d9d-4921-9f56-9ecad817f8cb
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1d76fde1bed2f0eb593b7a5c2d1aaff03df62849
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Spécifie le serveur qu’un client tente actuellement d’utiliser pour envoyer des messages électroniques. Le format de cette propriété dépend de l’implémentation.
+ms.openlocfilehash: f5e77a650810224c1bc097ad3c43ed9111c968a3
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560815"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523731"
 ---
 # <a name="pidtagnextsendacct-canonical-property"></a>Propriété canonique PidTagNextSendAcct
 
@@ -27,7 +27,7 @@ ms.locfileid: "59560815"
   
 Spécifie le serveur qu’un client tente actuellement d’utiliser pour envoyer des messages électroniques.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_NEXT_SEND_ACCT  <br/> |
 |Identificateur :  <br/> |0x0E29  <br/> |
@@ -44,7 +44,7 @@ Le format de cette propriété dépend de l’implémentation. Cette propriété
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   

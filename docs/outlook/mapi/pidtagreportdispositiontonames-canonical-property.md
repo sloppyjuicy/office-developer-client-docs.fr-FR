@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 322b915f-d5b8-40cb-b41a-62d08f3d08f9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7a5aa1945eb4835f29312197206ad9fd97b655d7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique les noms des destinataires du rapport pour les messages qui demandent des reçus pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: d20da713756d2ec865a3deca37379fcf8eafbed2
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550553"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523874"
 ---
 # <a name="pidtagreportdispositiontonames-canonical-property"></a>Propriété canonique PidTagReportDispositionToNames
 
@@ -25,7 +25,7 @@ ms.locfileid: "59550553"
   
 Indique les noms des destinataires du rapport pour les messages qui demandent des reçus.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORT_DISPOSITION_TO_NAMES, PR_REPORT_DISPOSITION_TO_NAMES_A, PR_REPORT_DISPOSITION_TO_NAMES_W  <br/> |
 |Identificateur :  <br/> |0x0083  <br/> |
@@ -38,7 +38,7 @@ Indique les noms des destinataires du rapport pour les messages qui demandent de
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

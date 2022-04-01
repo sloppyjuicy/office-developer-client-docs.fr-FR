@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: c6cb5a86-0105-4743-9f8e-b832e898da52
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e0983b6bcf2818699023420c4d864724db6cc9d2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f90377b4d848a150fae5c70c02bb4924c6325822
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563454"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524186"
 ---
 # <a name="pidtagimplicitconversionprohibited-canonical-property"></a>Propriété canonique PidTagImplicitConversionProhibited
 
@@ -25,9 +25,9 @@ ms.locfileid: "59563454"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient TRUE si un agent de transfert de messages (MTA) n’est pas en train d’effectuer des conversions implicites de texte de message.
+Contient TRUE si un agent de transfert de messages (MTA) ne peut pas effectuer de conversions implicites de texte de message.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IMPLICIT_CONVERSION_PROHIBITED  <br/> |
 |Identificateur :  <br/> |0x0016  <br/> |
@@ -36,7 +36,7 @@ Contient TRUE si un agent de transfert de messages (MTA) n’est pas en train d�
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété a la valeur TRUE, le système de messagerie ne doit effectuer aucune conversion de contenu sur le message, sauf si elle est explicitement demandée par destinataire avec la propriété **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
+Si cette propriété a la valeur TRUE, le système de messagerie ne doit effectuer aucune conversion de contenu sur le message, sauf si elle est demandée explicitement par destinataire avec la propriété **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 

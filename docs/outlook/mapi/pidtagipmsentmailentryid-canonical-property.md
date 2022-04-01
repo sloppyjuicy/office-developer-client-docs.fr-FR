@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: f6877435-6b26-4060-924f-a65591ad9538
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0efc6ede87caad5f6ac3b3374d23da9219967f90
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 085b3f1a133cd564ea25f035735ea7a77b3af1a3
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599944"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524478"
 ---
 # <a name="pidtagipmsentmailentryid-canonical-property"></a>Propriété canonique PidTagIpmSentMailEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599944"
   
 Contient l’identificateur d’entrée du dossier Éléments envoyés du message interpersonnel standard (IPM). 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IPM_SENTMAIL_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E4  <br/> |

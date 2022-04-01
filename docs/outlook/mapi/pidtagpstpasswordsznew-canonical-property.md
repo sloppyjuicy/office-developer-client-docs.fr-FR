@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e4c5ca77-328c-4f5a-bf94-b9e90e837557
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 78c3d2f61f74176bb7d5a109fbb97e6d2a4a03c9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nouveau mot de passe à utiliser pour un accès futur au magasin de dossiers personnels pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 51abb5aa6e73d756a075fb9f32e89e5e55508afc
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595062"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524399"
 ---
 # <a name="pidtagpstpasswordsznew-canonical-property"></a>Propriété canonique PidTagPstPasswordSzNew
 
@@ -25,7 +25,7 @@ ms.locfileid: "59595062"
   
 Contient le nouveau mot de passe à utiliser pour un accès futur au magasin de dossiers personnels.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PST_PW_SZ_NEW, PR_PST_PW_SZ_NEW_A, PR_PST_PW_SZ_NEW_W  <br/> |
 |Identificateur :  <br/> |0x6704  <br/> |
@@ -38,7 +38,7 @@ Contient le nouveau mot de passe à utiliser pour un accès futur au magasin de 
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

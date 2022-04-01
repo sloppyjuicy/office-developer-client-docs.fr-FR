@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4d752d3f-bf36-4711-b1d4-68cd575a062f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c5c07fa039cc15bff95a470d96886c6a516b4065
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette propriété contient true si un expéditeur de message demande une preuve de remise pour un destinataire particulier.
+ms.openlocfilehash: 1cd64bb5c91db1aa3a368f652ff93b8bf8d0dbaa
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560738"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524168"
 ---
 # <a name="pidtagproofofdeliveryrequested-canonical-property"></a>Propriété canonique PidTagProofOfDeliveryRequested
 
@@ -25,9 +25,9 @@ ms.locfileid: "59560738"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient TRUE si un expéditeur de message demande une preuve de remise pour un destinataire particulier.
+Cette propriété contient true si un expéditeur de message demande une preuve de remise pour un destinataire particulier.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROOF_OF_DELIVERY_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0C12  <br/> |

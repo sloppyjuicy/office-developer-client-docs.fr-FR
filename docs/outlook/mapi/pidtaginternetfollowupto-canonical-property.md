@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 15a91ba5-f317-4f62-826b-4d6f9b41cd4a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 96ce252e60affabbd34a95645fd11e4b9c553630
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0cec616fc54bb20db10c47102ea48deff88e4ec6
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583421"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523697"
 ---
 # <a name="pidtaginternetfollowupto-canonical-property"></a>Propriété canonique PidTagInternetFollowupTo
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583421"
   
 Cartes à l’en-tête Followup-To MIME.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INTERNET_FOLLOWUP_TO, PR_INTERNET_FOLLOWUP_TO_A, PR_INTERNET_FOLLOWUP_TO_W  <br/> |
 |Identificateur :  <br/> |0x1033  <br/> |
@@ -40,7 +40,7 @@ Cartes à l’en-tête Followup-To MIME.
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

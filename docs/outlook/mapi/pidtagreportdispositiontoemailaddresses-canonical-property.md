@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e5014abf-eabc-4691-844c-f317a503c41b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0da0e103b1ca1338ab8be7455cd2d3faf6016f0f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Indique les adresses de messagerie des destinataires du rapport pour les messages qui demandent des reçus pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: fb50e79634e27b33a2119869c77c803766a204b1
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591583"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523793"
 ---
 # <a name="pidtagreportdispositiontoemailaddresses-canonical-property"></a>Propriété canonique PidTagReportDispositionToEmailAddresses
 
@@ -25,7 +25,7 @@ ms.locfileid: "59591583"
   
 Indique les adresses de messagerie des destinataires du rapport pour les messages qui demandent des reçus.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES, PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES_A, PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES_W  <br/> |
 |Identificateur :  <br/> |0x0084  <br/> |
@@ -38,7 +38,7 @@ Indique les adresses de messagerie des destinataires du rapport pour les message
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

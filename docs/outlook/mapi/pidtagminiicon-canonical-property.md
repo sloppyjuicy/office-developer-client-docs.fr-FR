@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a436b590-63f3-413c-a9c2-7664567e0ff0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 96d477576f0d5fc8f94ec9e8d7e3f2fd3879aad1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une image bitmap d’une icône à demi-taille pour un formulaire. Seul le coin supérieur gauche de 16 × 16 pixels est considéré comme significatif.
+ms.openlocfilehash: b1830c6fb3683236a8ebc7808467824f782f465d
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595195"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523750"
 ---
 # <a name="pidtagminiicon-canonical-property"></a>Propriété canonique PidTagMiniIcon
 
@@ -27,7 +27,7 @@ ms.locfileid: "59595195"
   
 Contient une image bitmap d’une icône à demi-taille pour un formulaire.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MINI_ICON  <br/> |
 |Identificateur :  <br/> |0x0FFC  <br/> |

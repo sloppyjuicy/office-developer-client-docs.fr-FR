@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a39c0f54-bdca-498f-a75c-dd8702e5385a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ed0196f88ca5295dba109743d60c1e59c33c53b3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un code de diagnostic qui fait partie d’un rapport de non-Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 0ac5560fa111cc4f0707bc0f46a0dee9e212a4ea
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583337"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523727"
 ---
 # <a name="pidtagnondeliveryreportdiagcode-canonical-property"></a>Propriété canonique PidTagNonDeliveryReportDiagCode
 
@@ -27,7 +27,7 @@ ms.locfileid: "59583337"
   
 Contient un code de diagnostic qui fait partie d’un rapport nondelivery.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_NDR_DIAG_CODE  <br/> |
 |Identificateur :  <br/> |0x0C05  <br/> |

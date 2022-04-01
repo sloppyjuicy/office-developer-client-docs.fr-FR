@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: fc520720-8190-4dff-8f6c-1bebf7080b57
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b7309a6c8a7b936f3526df9fad6be5615727df23
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une table avec toutes les règles appliquées à un dossier. Cette propriété est présente sur tous les objets de dossier sur une Exchange Server qui ont des règles.
+ms.openlocfilehash: 5d7fec71abdb2b97e4326c136164f1a5ea8d1aad
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604200"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523783"
 ---
 # <a name="pidtagrulestable-canonical-property"></a>Propriété canonique PidTagRulesTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "59604200"
   
 Contient une table avec toutes les règles appliquées à un dossier.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RULES_TABLE  <br/> |
 |Identificateur :  <br/> |0x3FE1  <br/> |

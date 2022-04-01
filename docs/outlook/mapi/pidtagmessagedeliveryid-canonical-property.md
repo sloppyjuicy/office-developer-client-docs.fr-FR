@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 0483a239-d820-4d9d-b6ca-e438acfbc4ed
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 76e8e6166e57b06d3c7bc362de38f3c73f7536b1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f8cfe83ec1e85319d5669af5dab1ee68a4691f46
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560899"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524591"
 ---
 # <a name="pidtagmessagedeliveryid-canonical-property"></a>Propriété canonique PidTagMessageDeliveryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59560899"
   
 Contient un identificateur de système de transfert de messages (MTS) pour un message remis à une application cliente.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_DELIVERY_ID  <br/> |
 |Identificateur :  <br/> |0x001B  <br/> |

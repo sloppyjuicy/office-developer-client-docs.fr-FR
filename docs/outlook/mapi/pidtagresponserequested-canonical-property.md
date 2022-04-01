@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e52bb48c-7107-4ac4-b030-885409759ee7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7be1bfa255dfb2d12d702d664aece4c619550278
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si l’expéditeur du message souhaite une réponse à une demande de réunion. L’application cliente de réception doit demander à l’utilisateur d’accepter ou de refuser la demande, puis de renvoyer cette réponse à l’expéditeur.
+ms.openlocfilehash: 3397726c249876a2d1ee131794a118f288edab8a
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550546"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524395"
 ---
 # <a name="pidtagresponserequested-canonical-property"></a>Propriété canonique PidTagResponseRequested
 
@@ -27,7 +27,7 @@ ms.locfileid: "59550546"
   
 Contient TRUE si l’expéditeur du message souhaite une réponse à une demande de réunion.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RESPONSE_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0063  <br/> |
@@ -44,7 +44,7 @@ Cette propriété est utilisée pour les demandes de réunion. L’application c
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

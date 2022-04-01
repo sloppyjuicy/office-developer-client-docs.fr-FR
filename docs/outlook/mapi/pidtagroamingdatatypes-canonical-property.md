@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a3336b61-01b6-47a7-9498-0a03878e91cb
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a7338ee87876c14497e9d9f1519e27ef13fec4fd
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: Contient un masque de bits qui indique quelles propriétés de flux existent sur le message pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 841370b5b9c6eb2f9f27234c64255be20e936391
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62787701"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523826"
 ---
 # <a name="pidtagroamingdatatypes-canonical-property"></a>Propriété canonique PidTagRoamingDatatypes
 
@@ -27,7 +27,7 @@ ms.locfileid: "62787701"
   
 Contient un masque de bits qui indique quelles propriétés de flux existent sur le message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ROAMING_DATATYPES  <br/> |
 |Identificateur :  <br/> |0x7C06  <br/> |
@@ -49,7 +49,7 @@ Cette propriété doit être définie sur une ou plusieurs des valeurs suivantes
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 4ba2b0a8-9f87-4a5e-ada2-e8c2399a9d94
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c8d87dcf7852a74a2d9b038a6d8681e014d9ce5b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7b50d95a8606ada9a768d5a933642c2eca1ea741
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560857"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523925"
 ---
 # <a name="pidtagmessagelocaleid-canonical-property"></a>Propriété canonique PidTagMessageLocaleId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59560857"
   
 Contient le Windows LCID de l’utilisateur final qui a créé ce message.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_LOCALE_ID  <br/> |
 |Identificateur :  <br/> |0x3FF1  <br/> |
@@ -40,11 +40,11 @@ Contient le Windows LCID de l’utilisateur final qui a créé ce message.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

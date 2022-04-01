@@ -9,13 +9,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 1f0f13e2-7554-41fc-a7a9-a90c34181c96
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f68df73ab071e1fb0108d54f518dbc34ce7f5c1c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si le message d’origine est renvoyé avec un rapport non lu. Un fournisseur de transport X.400 définit cette propriété dans le rapport non lu.
+ms.openlocfilehash: 9d6996ee333657e073f43a51d70b8f68c1a45b25
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599564"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523456"
 ---
 # <a name="pidtagreturnedmessageid-canonical-property"></a>Propriété canonique PidTagReturnedMessageid
 
@@ -25,7 +25,7 @@ ms.locfileid: "59599564"
   
 Contient TRUE si le message d’origine est renvoyé avec un rapport non lu.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RETURNED_IPM  <br/> |
 |Identificateur :  <br/> |0x0033  <br/> |

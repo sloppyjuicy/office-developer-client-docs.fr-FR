@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8759d873-d141-4b4a-9302-0dd11aa45de8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7a570199ca5888692706a4c366f6f401fdec3311
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d204aeb201350314399378cf83e45f5abf467f8d
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583414"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523856"
 ---
 # <a name="pidtaginternetorganization-canonical-property"></a>Propriété canonique PidTagInternetOrganization
 
@@ -25,9 +25,9 @@ ms.locfileid: "59583414"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cartes’en-tête de l’organisation MIME.
+Cartes à l’en-tête d’organisation MIME.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INTERNET_ORGANIZATION, PR_INTERNET_ORGANIZATION_A, PR_INTERNET_ORGANIZATION_W  <br/> |
 |Identificateur :  <br/> |0x1037  <br/> |
@@ -40,7 +40,7 @@ Cartes’en-tête de l’organisation MIME.
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

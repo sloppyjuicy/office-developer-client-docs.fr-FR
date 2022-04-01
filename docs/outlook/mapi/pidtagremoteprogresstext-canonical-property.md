@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b74d4350-4ad6-4c3f-8326-bd28537dfa0f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ce09d3c570828ecc438b98f7f7b5e46fe24e3515
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette propriété contient une chaîne qui indique l’état d’un transfert à distance. Un code numérique associé à ce texte est transmis dans la PR_REMOTE_PROGRESS de texte.
+ms.openlocfilehash: 309acb231ca604e73009cd7a237166bd797db23b
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59594950"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523672"
 ---
 # <a name="pidtagremoteprogresstext-canonical-property"></a>Propriété canonique PidTagRemoteProgressText
 
@@ -27,7 +27,7 @@ ms.locfileid: "59594950"
   
 Cette propriété contient une chaîne qui indique l’état d’un transfert à distance.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REMOTE_PROGRESS_TEXT, PR_REMOTE_PROGRESS_TEXT_A, PR_REMOTE_PROGRESS_TEXT_W  <br/> |
 |Identificateur :  <br/> |0x3E0C  <br/> |

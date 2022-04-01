@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 141d49c8-87cf-4d80-a33b-ccbf3eeae19e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e0987f6cdbfcaf53c703ceab4009f4e9386573c6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un identificateur d’entrée pour l’utilisateur de messagerie où le système de messagerie doit diriger un rapport de lecture pour ce message.
+ms.openlocfilehash: 55f883df1d7d5100bf6c5afdae2d906ebc19cb06
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587259"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524143"
 ---
 # <a name="pidtagreadreceiptentryid-canonical-property"></a>Propriété canonique PidTagReadReceiptEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587259"
   
 Contient un identificateur d’entrée pour l’utilisateur de messagerie où le système de messagerie doit diriger un rapport de lecture pour ce message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_READ_RECEIPT_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x0046  <br/> |
@@ -36,9 +36,9 @@ Contient un identificateur d’entrée pour l’utilisateur de messagerie où le
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est ignorée, sauf si **la propriété PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) est définie sur TRUE.
+Cette propriété est ignorée, sauf si la **propriété PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) est définie sur TRUE.
   
-Si une application cliente souhaite recevoir des rapports de lecture elle-même, elle peut laisser cette propriété non définie ou la définir sur l’identificateur d’entrée contenu dans la propriété **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) au moment de la soumission du message.
+Si une application cliente souhaite recevoir elle-même des rapports de lecture, elle peut laisser cette propriété non définie ou la définir sur l’identificateur d’entrée contenu dans la propriété **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) au moment de l’envoi du message.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Si une application cliente souhaite recevoir des rapports de lecture elle-même,
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

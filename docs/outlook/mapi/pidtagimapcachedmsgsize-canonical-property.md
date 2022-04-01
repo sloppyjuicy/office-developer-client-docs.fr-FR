@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: fe2e511b-e2f4-4784-a178-f7f5bc3579dd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ceb3fb36d1ae0b6a2866f9eff71e8e3604060071
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e436f4ab3b4b9168a4fc86f966e70f1866eb9bd8
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563461"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524632"
 ---
 # <a name="pidtagimapcachedmsgsize-canonical-property"></a>Propriété canonique PidTagImapCachedMsgsize
 
@@ -27,12 +27,12 @@ ms.locfileid: "59563461"
   
 Contient la taille du message du protocole d’accès aux messages Internet mis en cache.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |Aucun  <br/> |
 |Identificateur :  <br/> |0x10F0  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Renommer le dossier des messages  <br/> |
+|Domaine :  <br/> |Renommer le dossier de messages  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -40,11 +40,11 @@ Contient la taille du message du protocole d’accès aux messages Internet mis 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

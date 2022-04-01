@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 40b50181-f88c-40ee-b3d0-a36dd36c158e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a2f3e4638ac87bef8c692933739711a444d90ba8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un document XML qui décrit le dictionnaire itinérant. Cette propriété contient un document XML UNICODE qui utilise le codage UTF8.
+ms.openlocfilehash: f02c1d75e31b5045f36884321c0fc7c83a058e99
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550504"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523932"
 ---
 # <a name="pidtagroamingdictionary-canonical-property"></a>Propriété canonique PidTagRoamingDictionary
 
@@ -25,7 +25,7 @@ ms.locfileid: "59550504"
   
 Contient un document XML qui décrit le dictionnaire itinérant.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ROAMING_DICTIONARY  <br/> |
 |Identificateur :  <br/> |0x7C07  <br/> |
@@ -70,11 +70,11 @@ Voici un exemple de document XML stocké dans cette propriété dans un message 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Spécifie l’emplacement et les propriétés des données de configuration client et serveur, telles que les listes de catégories partagées et les heures de travail.
+> Spécifie l’emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

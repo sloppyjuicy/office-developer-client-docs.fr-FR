@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 27978a09-daf7-4a50-927a-96d9c4a97d02
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e4b6ef47d1f7416b6a91fff79c62547e911bc361
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si les rendez-vous qui se chevauchent ne sont pasallés. Cette propriété n’est significative que lorsque la valeur de PR_SCHDINFO_AUTO_ACCEPT_APPTS est TRUE.
+ms.openlocfilehash: ba4dc4a9356e2124b9d8126fcaa614dec6e5eed5
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570820"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524381"
 ---
 # <a name="pidtagscheduleinfodisallowoverlappingappts-canonical-property"></a>Propriété canonique PidTagScheduleInfoDisallowOverlappingAppts
 
@@ -27,7 +27,7 @@ ms.locfileid: "59570820"
   
 Contient TRUE si les rendez-vous qui se chevauchent ne sont pasallés.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS  <br/> |
 |Identificateur :  <br/> |0x686F  <br/> |
@@ -36,7 +36,7 @@ Contient TRUE si les rendez-vous qui se chevauchent ne sont pasallés.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n’est significative que si la valeur de la **propriété PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) est TRUE. La valeur TRUE indique que lorsque vous répondez automatiquement aux demandes de réunion, un client ou un serveur doit refuser les instances qui chevauchent les événements précédemment programmés. La valeur FALSE ou l’absence de cette propriété indique que les instances qui se chevauchent doivent être acceptées. Il ne s’agit pas d’une propriété obligatoire.
+Cette propriété n’est significative que lorsque la valeur de la **propriété PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) est TRUE. La valeur TRUE indique que lorsque vous répondez automatiquement aux demandes de réunion, un client ou un serveur doit refuser les instances qui chevauchent les événements précédemment programmés. La valeur FALSE ou l’absence de cette propriété indique que les instances qui se chevauchent doivent être acceptées. Il ne s’agit pas d’une propriété obligatoire.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Cette propriété n’est significative que si la valeur de la **propriété PR_
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

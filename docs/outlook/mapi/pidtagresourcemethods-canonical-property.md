@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 60ebbcd5-b758-4c96-b8ec-089e0aae1a5f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: df8b1b855206a88044114c0d86bda3dd9b609aa1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient un masque de bits d’indicateurs qui indiquent les méthodes dans l’interface IMAPIStatus qui sont pris en charge par l’objet d’état.
+ms.openlocfilehash: aac27ed6a6569c79110efde04f299ecd176b455d
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604256"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524497"
 ---
 # <a name="pidtagresourcemethods-canonical-property"></a>Propriété canonique PidTagResourceMethods
 
@@ -27,7 +27,7 @@ ms.locfileid: "59604256"
   
 Contient un masque de bits d’indicateurs qui indiquent les méthodes dans l’interface **IMAPIStatus** qui sont pris en charge par l’objet d’état. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RESOURCE_METHODS  <br/> |
 |Identificateur :  <br/> |0x3E02  <br/> |
@@ -38,7 +38,7 @@ Contient un masque de bits d’indicateurs qui indiquent les méthodes dans l’
 
 Cette propriété indique quelles méthodes de l’implémentation **d’IMAPIStatus** d’un objet d’état sont pris en charge. Les objets d’état sont autorisés à renvoyer MAPI_E_NO_SUPPORT des méthodes non pris en MAPI_E_NO_SUPPORT' 
   
-Les clients utilisent  la propriété PR_RESOURCE_METHODS d’un objet d’état pour éviter d’appeler des méthodes non pris en compte. Si l’indicateur qui correspond à une méthode particulière est définie, la méthode existe et peut être appelée. Si cet indicateur est clair, la méthode ne doit pas être appelée. 
+Les clients utilisent la propriété **PR_RESOURCE_METHODS d’un** objet d’état pour éviter d’effectuer des appels à des méthodes non pris en compte. Si l’indicateur qui correspond à une méthode particulière est définie, la méthode existe et peut être appelée. Si cet indicateur est clair, la méthode ne doit pas être appelée. 
   
 Les objets d’état implémentés par MAPI prise en charge les méthodes suivantes :
   
@@ -48,7 +48,7 @@ Les objets d’état implémentés par MAPI prise en charge les méthodes suivan
 |Carnet d’adresses MAPI  <br/> |**ValidateState** uniquement  <br/> |
 |Pooler MAPI  <br/> |**ValidateState** et **FlushQueues** <br/> |
    
-Un ou plusieurs des indicateurs suivants peuvent être PR_RESOURCE_METHODS **:**
+Un ou plusieurs des indicateurs suivants peuvent être **PR_RESOURCE_METHODS :**
   
 STATUS_CHANGE_PASSWORD 
   

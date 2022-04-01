@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 319be396-89fe-48a6-a229-c62ad48b1692
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ecc1bb58c4d5662c4adc916643843fbb93d4aeb8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 18e45bda79bb45ffc82398817d1c5370a5288b45
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595314"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524640"
 ---
 # <a name="pidtaginternetapproved-canonical-property"></a>Propriété canonique PidTagInternetApproved
 
@@ -25,9 +25,9 @@ ms.locfileid: "59595314"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cartes’en-tête APPROUVÉ MIME.
+Cartes à l’en-tête APPROUVÉ MIME.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INTERNET_APPROVED, PR_INTERNET_APPROVED_A, PR_INTERNET_APPROVED_W  <br/> |
 |Identificateur :  <br/> |0x1030  <br/> |
@@ -40,7 +40,7 @@ Cartes’en-tête APPROUVÉ MIME.
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

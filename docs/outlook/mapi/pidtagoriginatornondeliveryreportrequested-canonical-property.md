@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0a19ba44-abb0-4868-9d7d-75184058d4c0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e303e9c887779e2da98209ee6fe021a2f0730a49
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si un expéditeur de message demande un rapport de non-destinataire pour un destinataire particulier pour Outlook 2013 et Outlook 2016.
+ms.openlocfilehash: 4122b359a03b929ad11a062e611755c89c201527
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619811"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523841"
 ---
 # <a name="pidtagoriginatornondeliveryreportrequested-canonical-property"></a>Propriété canonique PidTagOriginatorNonDeliveryReportRequested
 
@@ -27,7 +27,7 @@ ms.locfileid: "59619811"
   
 Contient TRUE si un expéditeur de message demande un rapport de non-delivery pour un destinataire particulier.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0C08  <br/> |
@@ -36,7 +36,7 @@ Contient TRUE si un expéditeur de message demande un rapport de non-delivery po
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée pour diriger le système de messagerie dans la gestion des messages non reçus. Dans ce cas, le message doit également fournir la **propriété PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) définie sur FALSE.
+Cette propriété est utilisée pour diriger le système de messagerie dans la gestion des messages non envoyés. Dans ce cas, le message doit également fournir la **propriété PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) définie sur FALSE.
   
 ## <a name="related-resources"></a>Ressources connexes
 

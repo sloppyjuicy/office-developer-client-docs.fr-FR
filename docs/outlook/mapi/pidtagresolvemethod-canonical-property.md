@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30d23c19-e0da-4511-9361-761153259216
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c01d8a2e9646ef4fc9270f44a1021da583dfa6eb
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: 'Contient la valeur de résolution de conflit d’un dossier pour Outlook 2013 ou Outlook 2016. Cette propriété n’est pas obligatoire. '
+ms.openlocfilehash: ff487a105e22b68b3c638d2f79f4b74296cc9aef
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771866"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524600"
 ---
 # <a name="pidtagresolvemethod-canonical-property"></a>Propriété canonique PidTagResolveMethod
 
@@ -27,7 +27,7 @@ ms.locfileid: "62771866"
   
 Contient la valeur de résolution de conflit d’un dossier.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RESOLVE_METHOD  <br/> |
 |Identificateur :  <br/> |0x3FE7  <br/> |
@@ -38,13 +38,13 @@ Contient la valeur de résolution de conflit d’un dossier.
 
 Cette propriété du dossier contenant le message de résolution de conflit indique comment résoudre le conflit. Cette propriété n’est pas obligatoire. Toutefois, si elle est définie, les indicateurs autres que les indicateurs suivants ne doivent pas être présents :
   
-|||
+|Flag |Description |
 |:-----|:-----|
 |RESOLVE_METHOD_DEFAULT (0x00000000)  <br/> |Un message de résolution de conflit doit être généré. |
 |RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)  <br/> |Overwrite target message with current changes being applied. |
 |RESOLVE_NO_CONFLICT_NOTIFICATION (0x00000002)  <br/> |N’envoyez pas de message de notification de conflit lors de la génération d’un message de résolution de conflit dans un dossier public. |
    
-Un client ou un serveur ne doit pas générer de message de résolution de conflit pour les messages associés. Ces messages doivent être résolus à l’aide **RESOLVE_METHOD_LAST_WRITER_WINS sémantique** . 
+Un client ou un serveur ne doit pas générer de message de résolution de conflit pour les messages associés. Ces messages doivent être résolus à l’aide **RESOLVE_METHOD_LAST_WRITER_WINS** sémantique. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

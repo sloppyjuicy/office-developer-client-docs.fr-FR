@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c5dfb21f-b35e-4521-bf2b-e3d03d98d75d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 771c57ff08aa2f30c464258ac7192ccf67c93ed1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette propriété est définie par le client pour l’utilisation exclusive du client. Le serveur doit conserver la valeur de cette propriété si elle a été définie par le client.
+ms.openlocfilehash: 30193a52ab3834b17b57f348d54bcb5409a4982b
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587103"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524067"
 ---
 # <a name="pidtagruleuserflags-canonical-property"></a>Propriété canonique PidTagRuleUserFlags
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587103"
   
 Cette propriété est définie par le client pour l’utilisation exclusive du client. 
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RULE_USER_FLAGS  <br/> |
 |Identificateur :  <br/> |0x6678  <br/> |
@@ -44,7 +44,7 @@ Le serveur doit conserver la valeur de cette propriété si elle a été défini
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   

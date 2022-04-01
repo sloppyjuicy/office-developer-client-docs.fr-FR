@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d57ce5c8-1f60-4709-b86a-4468c4208dfe
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6722d02f549979381e20a5179b573c027773e72b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une valeur qui indique le type d’une ligne dans un tableau pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: cf7611dbff54a06daba6020e9f3b03b03ab05128
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599557"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524088"
 ---
 # <a name="pidtagrowtype-canonical-property"></a>Propriété canonique PidTagRowType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599557"
   
 Contient une valeur qui indique le type d’une ligne dans un tableau.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ROW_TYPE  <br/> |
 |Identificateur :  <br/> |0x0FF5  <br/> |
@@ -36,7 +36,7 @@ Contient une valeur qui indique le type d’une ligne dans un tableau.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété apparaît uniquement sur les tables des matières. Une catégorie n’existe que lorsqu’elle possède des éléments.
+Cette propriété apparaît uniquement dans les tables des matières. Une catégorie n’existe que lorsqu’elle possède des éléments.
   
 Cette propriété peut avoir exactement l’une des valeurs suivantes :
   
@@ -50,7 +50,7 @@ TBL_EMPTY_CATEGORY
     
 TBL_EXPANDED_CATEGORY 
   
-> La catégorie est étendue . l’interface utilisateur l’affiche généralement avec le signe moins ( - ) à côté de celle-ci.
+> La catégorie est étendue . L’interface utilisateur l’affiche généralement avec le signe moins ( - ) en face de celle-ci.
     
 TBL_COLLAPSED_CATEGORY 
   

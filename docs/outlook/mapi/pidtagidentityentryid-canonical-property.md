@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 61a9d403-e0e5-45c3-8d18-4d53207ab927
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5f019d7175896095ff2ec3be75d1fd573a93fee4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 34bc10d16a75377b19831a08acfd45b67bdb03de
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600042"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524297"
 ---
 # <a name="pidtagidentityentryid-canonical-property"></a>Propriété canonique PidTagIdentityEntryId
 
@@ -27,7 +27,7 @@ ms.locfileid: "59600042"
   
 Contient l’identificateur d’entrée pour l’identité d’un fournisseur de services telle que définie dans un système de messagerie. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IDENTITY_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x3E01  <br/> |

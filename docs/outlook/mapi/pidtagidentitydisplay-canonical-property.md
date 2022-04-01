@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: ad9756c1-c1f9-4ab3-a58a-31e574dd9530
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2244cf0a5be83bce3fa428e29cc43990fca32efc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f2dc19888bc6a5ce2189251aac78ef697eefa59f
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620211"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523654"
 ---
 # <a name="pidtagidentitydisplay-canonical-property"></a>Propriété canonique PidTagIdentityDisplay
 
@@ -27,7 +27,7 @@ ms.locfileid: "59620211"
   
 Contient le nom complet de l’identité d’un fournisseur de services telle que définie dans un système de messagerie. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IDENTITY_DISPLAY, PR_IDENTITY_DISPLAY_A, PR_IDENTITY_DISPLAY_W  <br/> |
 |Identificateur :  <br/> |0x3E00  <br/> |

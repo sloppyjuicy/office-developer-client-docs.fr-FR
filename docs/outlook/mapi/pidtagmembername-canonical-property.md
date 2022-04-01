@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: e19129bf-d07c-4d2e-9d4d-edbfda088ea7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e23769d89931519767fb88177c79cd22e013920b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 00f1c74743535d1f5c08387f60e8650453e37c9d
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613365"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523323"
 ---
 # <a name="pidtagmembername-canonical-property"></a>Propriété canonique PidTagMemberName
 
@@ -27,7 +27,7 @@ ms.locfileid: "59613365"
   
 Contient le nom complet d’un membre de la table de liste de contrôle d’accès.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MEMBER_NAME, PR_MEMBER_NAME_A, PR_MEMBER_NAME_W  <br/> |
 |Identificateur :  <br/> |0x6672  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont utilisées par l’interface [IExchangeModifyTable : IUnkn
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   

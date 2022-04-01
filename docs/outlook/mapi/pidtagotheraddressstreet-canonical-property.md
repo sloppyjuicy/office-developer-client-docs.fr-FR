@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f440905-8690-489c-ae96-2bc391524de9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: da6de8e0dac93fc8dd95e45568de495e47a297a1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient l’autre adresse postale de l’utilisateur de messagerie. Ces propriétés sont définies par l’utilisateur ou l’organisation de l’utilisateur.
+ms.openlocfilehash: 7aa81f5060345d9ffb3c8f8c10de0a1ff447c7e1
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619763"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524577"
 ---
 # <a name="pidtagotheraddressstreet-canonical-property"></a>Propriété canonique PidTagOtherAddressStreet
 
@@ -27,7 +27,7 @@ ms.locfileid: "59619763"
   
 Contient l’autre adresse postale de l’utilisateur de messagerie.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_OTHER_ADDRESS_STREET, PR_OTHER_ADDRESS_STREET_A, PR_OTHER_ADDRESS_STREET_W  <br/> |
 |Identificateur :  <br/> |0x3A63  <br/> |
@@ -44,7 +44,7 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

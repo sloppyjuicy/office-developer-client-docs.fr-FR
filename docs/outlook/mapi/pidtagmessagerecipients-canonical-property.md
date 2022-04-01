@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 7f8b0d96-99d6-4f1c-8ac4-4dbb83626382
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3de07cb20d760a335f90ecacbea3bcc8b0a39512
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9656af44d07f59b11d69b35b0c1b22bd8cdae349
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619952"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524282"
 ---
 # <a name="pidtagmessagerecipients-canonical-property"></a>Propriété canonique PidTagMessageRecipients
 
@@ -25,9 +25,9 @@ ms.locfileid: "59619952"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une table des restrictions qui peut être appliquée à une table des matières pour rechercher tous les messages qui contiennent des sous-objets destinataire qui répondent aux restrictions. 
+Contient une table des restrictions qui peuvent être appliquées à une table des matières pour rechercher tous les messages qui contiennent des sous-objets de destinataire qui répondent aux restrictions. 
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_RECIPIENTS  <br/> |
 |Identificateur :  <br/> |0x0E12  <br/> |
@@ -36,17 +36,17 @@ Contient une table des restrictions qui peut être appliquée à une table des m
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut être exclue dans les opérations [IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluse dans les opérations [IMAPIProp::CopyProps.](imapiprop-copyprops.md) En tant que propriété de type **PT_OBJECT**, elle ne peut pas être récupérée avec succès par la méthode [IMAPIProp::GetProps.](imapiprop-getprops.md) Son contenu doit être accessible par la méthode [IMAPIProp::OpenProperty,](imapiprop-openproperty.md) en demandant l’identificateur **IID_IMAPITable’interface.** Les fournisseurs de services doivent le signaler à la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) si elle est définie, mais peuvent éventuellement la signaler ou non si elle n’est pas définie. 
+Cette propriété peut être exclue dans les opérations [IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluse dans les opérations [IMAPIProp::CopyProps](imapiprop-copyprops.md) . En tant que propriété de type **PT_OBJECT**, elle ne peut pas être récupérée avec succès par la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) . Son contenu doit être accessible par la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) , demandant l’identificateur **IID_IMAPITable’interface** . Les fournisseurs de services doivent le signaler à la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) si elle est définie, mais peuvent éventuellement la signaler ou non si elle n’est pas définie. 
   
-Pour récupérer le contenu de la table, une application cliente doit appeler la méthode [IMessage::GetRecipientTable.](imessage-getrecipienttable.md) 
+Pour récupérer le contenu de la table, une application cliente doit appeler la [méthode IMessage::GetRecipientTable](imessage-getrecipienttable.md) . 
   
-Cette propriété peut être utilisée pour la restriction de sous-objet en la spécifiant dans la structure [SSubRestriction.](ssubrestriction.md) Cela permet à un client de limiter l’affichage d’un conteneur aux messages dont les destinataires réunionnt des critères donnés. Un message peut être affiché si au moins une ligne de la table des destinataires, c’est-à-dire qu’un destinataire satisfait à la restriction de sous-objet. 
+Cette propriété peut être utilisée pour la restriction de sous-objet en la spécifiant dans la structure [SSubRestriction](ssubrestriction.md) . Cela permet à un client de limiter l’affichage d’un conteneur aux messages dont les destinataires réunionnt des critères donnés. Un message est éligible pour l’affichage si au moins une ligne dans la table des destinataires, c’est-à-dire qu’un destinataire satisfait à la restriction de sous-objet. 
   
  **Remarque** L’utilisation des résultats de restriction de sous-objet est l’équivalent d’un appel [IMAPISession::OpenEntry](imapisession-openentry.md) sur chaque message de la table. Selon l’application cliente et le nombre de messages à rechercher, cela peut affecter les performances. 
   
 La **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) et cette propriété sont similaires dans l’utilisation. Plusieurs propriétés MAPI permettent d’accéder aux tables : 
   
-|**Propriété**|**Table**|
+|**Propriété**|**Tableau**|
 |:-----|:-----|
 |**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Table Contents  <br/> |
 |**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Table Hierarchy  <br/> |
@@ -60,7 +60,7 @@ La **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachmen
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
@@ -72,11 +72,11 @@ La **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachmen
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e932966e-cb7a-4d8b-8f06-6406fce1b3e6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e3d0a89456f721bcd1697116fa702c4d0881e3dd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient TRUE si le délégué ne souhaite pas recevoir de mises à jour. Cette propriété doit être définie dans l’objet d’informations du délégué.
+ms.openlocfilehash: 2e7a9a6198908f07bd6a57654aa4314ab6961d72
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587033"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524372"
 ---
 # <a name="pidtagscheduleinfodontmaildelegates-canonical-property"></a>Propriété canonique PidTagScheduleInfoDontMailDelegates
 
@@ -27,7 +27,7 @@ ms.locfileid: "59587033"
   
 Contient TRUE si le délégué ne souhaite pas recevoir de mises à jour.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_DONT_MAIL_DELEGATES  <br/> |
 |Identificateur :  <br/> |0x6843  <br/> |
@@ -44,7 +44,7 @@ Cette propriété doit être définie dans l’objet d’informations du délég
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   

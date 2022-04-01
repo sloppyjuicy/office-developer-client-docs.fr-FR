@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48b634d7-deea-422b-8944-a8d929d83838
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 86e6d78387a2b8c16ce4ce3ac54e4ae0e77840e0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient une valeur qui indique le type de fournisseur de services pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: c22bdc88fd7d69c6e24afa5e0d64c1ee2a5976e8
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563349"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524029"
 ---
 # <a name="pidtagresourcetype-canonical-property"></a>Propriété canonique PidTagResourceType
 
@@ -27,7 +27,7 @@ ms.locfileid: "59563349"
   
 Contient une valeur qui indique le type de fournisseur de services.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RESOURCE_TYPE  <br/> |
 |Identificateur :  <br/> |0x3E03  <br/> |

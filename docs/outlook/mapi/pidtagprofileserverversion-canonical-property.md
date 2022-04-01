@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 5d41a536-81ff-733c-2fd7-460798e057c8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7eadb8068b1fd63972c84b4d4fe4e3ea1aefe1ba
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: Spécifie la version d’Exchange Server à laquelle les comptes d’un Outlook sont connectés. Un profil peut spécifier des comptes qui se connectent à un Exchange Server.
+ms.openlocfilehash: 56ad82cb32c4b563a66c88dadd302f7e64afa742
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63375558"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523350"
 ---
 # <a name="pidtagprofileserverversion-canonical-property"></a>Propriété canonique PidTagProfileServerVersion
 
@@ -21,7 +21,7 @@ ms.locfileid: "63375558"
   
 Spécifie des informations sur la version de Microsoft Exchange Server les comptes d’un profil microsoft Outlook sont connectés.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROFILE_SERVER_VERSION  <br/> |
 |Identificateur :  <br/> |0x661B  <br/> |

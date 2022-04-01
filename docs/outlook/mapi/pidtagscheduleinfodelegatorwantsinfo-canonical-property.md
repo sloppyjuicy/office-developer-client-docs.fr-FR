@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9d88b5b0-cb61-4714-8cef-9916c6e85854
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 671f341084e8ca5b2fbf9330cab081288cea2876
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le délégant qui souhaite recevoir des mises à jour d’informations pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 59e2ddeb253b7627dec6add45f036a51fdbec70d
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599486"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64524246"
 ---
 # <a name="pidtagscheduleinfodelegatorwantsinfo-canonical-property"></a>Propriété canonique PidTagScheduleInfoDelegatorWantsInfo
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599486"
   
 Contient le délégant qui souhaite recevoir des mises à jour d’informations.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_BOSS_WANTS_INFO  <br/> |
 |Identificateur :  <br/> |0x684B  <br/> |
@@ -40,7 +40,7 @@ Contient le délégant qui souhaite recevoir des mises à jour d’informations.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d097ed0f-cd41-4f11-9195-56e936308087
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 996a5072c7774da3841ab44ba0a61ca2fb66587a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Représente le numéro de destinataire d’un destinataire du message pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 5e1836daaf9b329fcab4d03f288478899c1a1a28
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570897"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64523345"
 ---
 # <a name="pidtagrecipientnumber-canonical-property"></a>Propriété canonique PidTagRecipientNumber
 
@@ -27,12 +27,12 @@ ms.locfileid: "59570897"
   
 Représente le numéro de destinataire d’un destinataire du message.
   
-|||
+|Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECIPIENT_NUMBER  <br/> |
 |Identificateur :  <br/> |0x6662  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Exchange Message en lecture-écriture  <br/> |
+|Domaine :  <br/> |Exchange message en lecture-écriture  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -40,7 +40,7 @@ Représente le numéro de destinataire d’un destinataire du message.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

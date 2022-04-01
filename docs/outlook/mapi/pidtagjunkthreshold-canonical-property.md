@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8067e2b5-02df-4b96-8f66-509f5a48c8aa
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 82fe1f1d12e37e9eb1cc1dbddc7e14da54feb058
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8a9ddf1d50081b9fa76f2d55af59aa29ed8809bc
+ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59599951"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64521870"
 ---
 # <a name="pidtagjunkthreshold-canonical-property"></a>Propriété canonique PidTagJunkThreshold
 
@@ -27,7 +27,7 @@ ms.locfileid: "59599951"
   
 Indique la façon dont le courrier entrant doit être envoyé de manière agressive au dossier Courrier indésirable.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_JUNK_THRESHOLD  <br/> |
 |Identificateur :  <br/> |0x6101  <br/> |
@@ -36,7 +36,7 @@ Indique la façon dont le courrier entrant doit être envoyé de manière agress
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété correspond au paramètre de filtre élevé/faible/aucun. La valeur « 0xFFFFFFFF » indique que le filtrage du courrier indésirable ne doit pas être appliqué, mais que les listes d’adresses bloqués doivent toujours être appliquées. La valeur « 0x80000000 » indique que tous les messages sont du courrier indésirable à l’exception des messages provenant d’expéditeurs de la liste des expéditeurs fiables ou envoyés à des destinataires de la liste des destinataires fiables. Les valeurs sont les suivantes :
+Cette propriété correspond au paramètre de filtre élevé/faible/aucun. La valeur « 0xFFFFFFFF » indique que le filtrage du courrier indésirable ne doit pas être appliqué, mais que les listes d’adresses bloqués doivent toujours être appliquées. La valeur « 0x80000000 » indique que tous les messages sont du courrier indésirable, à l’exception des messages provenant d’expéditeurs de la liste des expéditeurs fiables ou envoyés à des destinataires de la liste des destinataires fiables. Les valeurs sont les suivantes :
   
 |**Valeur**|**Description**|
 |:-----|:-----|
@@ -51,11 +51,11 @@ Cette propriété correspond au paramètre de filtre élevé/faible/aucun. La va
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications Exchange Server protocole associés.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
