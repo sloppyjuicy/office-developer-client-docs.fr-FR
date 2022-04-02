@@ -6,12 +6,12 @@ ms.audience: ITPro
 ms.localizationpriority: medium
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: Découvrez comment intégrer le programme d Microsoft 365 Apps d’installation « En un clic » à une solution de gestion des logiciels.
-ms.openlocfilehash: 776c3f2eca5fd93a915d4511e7e624b3d8fd2431
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 9b5a952cfb7e108aaf978caeb14ce919c5323da8
+ms.sourcegitcommit: 18ca8c459d19bbdb51fe136a1d219d91617b5ad6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63723101"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64612382"
 ---
 # <a name="integrating-manageability-applications-with-microsoft-365-apps-click-to-run-installer"></a>Intégration d’applications de gestion Microsoft 365 Apps programme d’installation « Exécuter en un clic
 
@@ -27,7 +27,7 @@ Le Microsoft 365 Apps installer « En un clic » fournit une interface COM qui p
 Pour utiliser cette interface, une application de gestion appelle l’interface COM et appelle les API exposées qui communiquent directement avec le service d’installation « En un clic ».
   
 > [!NOTE]
-> Le programme d’installation Office « Exécuter en un clic » peut être exécuté à partir de la ligne de commande avec des paramètres qui peuvent contrôler le comportement, comme documenté dans Office [Deployment Tool for Click-to-Run](/DeployOffice/overview-office-deployment-tool.md).
+> Le programme d’installation Office « Exécuter en un clic » peut être exécuté à partir de la ligne de commande avec des paramètres qui peuvent contrôler le comportement, comme documenté dans Office [Deployment Tool for Click-to-Run](/DeployOffice/overview-office-deployment-tool).
   
 **Voici un diagramme conceptuel de l’interface COM**
 
@@ -117,7 +117,7 @@ Dans la documentation de référence de l’API suivante :
 
 - Les paramètres ne sont pas sensibles à la cas.
 
-- Pour plus d’informations, voir Les informations Office installations « Exécuter en un clic » et [sur les applications anti-programme malveillant associées](/office/troubleshoot/office-suite-issues/office-click-to-run-installation.md).
+- Pour plus d’informations, voir Les informations Office installations « Exécuter en un clic » et [sur les applications anti-programme malveillant associées](/office/troubleshoot/office-suite-issues/office-click-to-run-installation).
 
 - Le résumé de l’interface IUpdateNotify2 est désormais inclus.
 

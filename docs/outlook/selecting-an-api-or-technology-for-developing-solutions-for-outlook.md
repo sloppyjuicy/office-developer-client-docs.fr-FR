@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: Cet article décrit les API et technologies que vous pouvez utiliser pour étendre Outlook 2013 et Outlook 2016. Il vous aide à choisir l’API ou la technologie adaptée à votre scénario.
 ms.localizationpriority: high
-ms.openlocfilehash: 2ba8825d33f43a62d240649d67738c5f26c9c0ac
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 799877d8a3937701837d5e7312e3e81fbfd7beab
+ms.sourcegitcommit: 18ca8c459d19bbdb51fe136a1d219d91617b5ad6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63726142"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64612396"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Sélection d’une API ou d’une technologie pour le développement de solutions pour Outlook
 
@@ -281,7 +281,7 @@ Pour plus d'informations sur les scénarios pris en charge par le modèle objet 
 En règle générale, utilisez le modèle objet ou le PIA si votre solution personnalise l'interface utilisateur Outlook ou dépend de la logique métier d'Outlook. Les éléments suivants présentent les principaux scénarios de référence dans lesquels les solutions Outlook utilisent le modèle objet ou le PIA. 
   
 - [Personnaliser l’interface utilisateur d’Outlook](#OLSelectAPI_CustomizeTheOutlookInterface)
-- [Ajouter, supprimer, lire, écrire, filtrer, rechercher ou trier des éléments Outlook](/office/vba/outlook/how-to/items-folders-and-stores/outlook-item-objects.md)
+- [Ajouter, supprimer, lire, écrire, filtrer, rechercher ou trier des éléments Outlook](/office/vba/outlook/how-to/items-folders-and-stores/outlook-item-objects)
 - [Personnaliser les propriétés d’élément, les champs et les formulaires](#OLSelectAPI_ItemPropFieldsForms)
 - [Traiter les événements Outlook tels que le changement de dossier ou l’ouverture d’un élément](#OLSelectAPI_Events)
 - [Automatiser Outlook et l’intégrer à d’autres applications Office](#OLSelectAPI_AutomateOutlook)
