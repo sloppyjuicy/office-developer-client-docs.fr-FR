@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
 ms.localizationpriority: high
-ms.openlocfilehash: 5dacbeaf662aec4f8623e1c00e4d16a890b467e8
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: ee73632ed5bc3db60699f9a4206f6ddaae43122e
+ms.sourcegitcommit: 109f087abda339e9696d644dee54f69e9153e906
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180501"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "64698961"
 ---
 # <a name="create-and-customize-a-web-app-in-access"></a>Création et personnalisation d’une application web dans Access
 
@@ -27,7 +27,7 @@ Pour suivre les étapes de cet exemple, vous avez besoin des éléments suivants
 - Access
 - Un environnement de développement SharePoint
 
-Pour plus d'informations sur la configuration de votre environnement de développement SharePoint, consultez [Configurer un environnement de développement général pour SharePoint](/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint.md).
+Pour plus d'informations sur la configuration de votre environnement de développement SharePoint, consultez [Configurer un environnement de développement général pour SharePoint](/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint).
   
 Pour plus d'informations sur l'obtention d’Access et SharePoint, consultez [Téléchargements](https://msdn.microsoft.com/office/apps/fp123627).
 
