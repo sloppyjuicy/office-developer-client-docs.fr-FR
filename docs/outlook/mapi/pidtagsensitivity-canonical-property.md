@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5b678475-f2a8-4831-ad68-11654e09c821
-description: Contient une valeur qui indique l’avis de l’expéditeur du message sur la sensibilité d’un message pour Outlook 2013 ou Outlook 2016.
-ms.openlocfilehash: dac4dc07b39eabed312c862c834791d7f0285eb2
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+description: Contient une valeur qui indique l’opinion de l’expéditeur du message sur la sensibilité d’un message pour Outlook 2013 ou Outlook 2016.
+ms.openlocfilehash: 133dd0a5de1b11be2746b7cbed1bdb99fcb67f71
+ms.sourcegitcommit: 06224e0d198beda57d2e6d76b34f8897afbfd84d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454606"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65132586"
 ---
 # <a name="pidtagsensitivity-canonical-property"></a>Propriété canonique PidTagSensitivity
 
@@ -25,7 +25,7 @@ ms.locfileid: "64454606"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur qui indique l’avis de l’expéditeur du message sur la sensibilité d’un message.
+Contient une valeur qui indique l’opinion de l’expéditeur du message sur la sensibilité d’un message.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -37,6 +37,8 @@ Contient une valeur qui indique l’avis de l’expéditeur du message sur la se
 ## <a name="remarks"></a>Remarques
 
 Il est recommandé que les objets de message exposent cette propriété.
+  
+Les remarques de [SPropertyRestriction](spropertyrestriction.md) spécifient que les programmes MAPI doivent utiliser une SExistRestriction supplémentaire pour éviter les résultats non définis. Outlook (au moins 16.0.15028.20204 (v2203)) ne parvient pas à suivre ces instructions mêmes lorsqu’elle récupère la table de contenu d’un dossier. Par conséquent, Outlook affiche des résultats non définis lorsqu’un objet message ne dispose pas de la propriété PR_SENSITIVITY.
   
 Cette propriété peut avoir exactement l’une des valeurs suivantes :
   
@@ -62,7 +64,7 @@ SENSITIVITY_COMPANY_CONFIDENTIAL
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -76,7 +78,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -88,5 +90,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 
