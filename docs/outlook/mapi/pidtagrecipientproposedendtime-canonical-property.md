@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagRecipientProposedEndTime
+description: Décrit la propriété canonique PidTagRecipientProposedEndTime, qui indique une heure de fin proposée d’une réunion.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 08dc1f81-964b-4059-9167-e517391b26e9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 90453d04514bb22335e8b08d50d09226279e9888
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 5b0b0dccffe91609c7d64e461a22f10292e1bf10
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63713486"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752378"
 ---
 # <a name="pidtagrecipientproposedendtime-canonical-property"></a>Propriété canonique PidTagRecipientProposedEndTime
 
@@ -25,18 +25,18 @@ ms.locfileid: "63713486"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique l’heure de fin proposée d’une réunion.
+Indique une heure de fin proposée d’une réunion.
   
 |Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECIPIENT_PROPOSEDENDTIME  <br/> |
 |Identificateur :  <br/> |0x5FE4  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Domaine :  <br/> |Destinataire de transport  <br/> |
+|Domaine :  <br/> |Destinataire du transport  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque la valeur de la propriété **PR_RECIPIENT_PROPOSED** ([PidTagRecipientProposed](pidtagrecipientproposed-canonical-property.md)) est définie sur TRUE, la valeur de cette propriété indique la valeur demandée par le participant à définir comme valeur de la propriété **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) pour l’objet de réunion ou d’exception d’instance unique.
+Lorsque la valeur de la propriété **PR_RECIPIENT_PROPOSED** ([PidTagRecipientProposed](pidtagrecipientproposed-canonical-property.md)) est définie sur TRUE, la valeur de cette propriété indique la valeur demandée par le participant à définir comme valeur de la propriété **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) pour l’objet de réunion d’instance unique ou l’objet exception.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Lorsque la valeur de la propriété **PR_RECIPIENT_PROPOSED** ([PidTagRecipientP
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -58,7 +58,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

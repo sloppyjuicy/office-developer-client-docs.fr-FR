@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagOriginalSentRepresentingAddressType
+description: Décrit la propriété canonique PidTagOriginalSentRepresentingAddressType, qui est utilisée dans un thread de conversation.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 93f40161-d4e5-4ef9-a55f-cee62529fc04
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f5e603269c3cbb39c21e70bbbf7357bd0f898ab2
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: a1e555dd7438a7cdc0a5b9f0de65f8ba658ceee3
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63721798"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752399"
 ---
 # <a name="pidtagoriginalsentrepresentingaddresstype-canonical-property"></a>Propriété canonique PidTagOriginalSentRepresentingAddressType
 
@@ -25,7 +25,7 @@ ms.locfileid: "63721798"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le type d’adresse de l’utilisateur de messagerie au nom de qui le message d’origine a été envoyé.
+Contient le type d’adresse de l’utilisateur de messagerie sur lequel le message d’origine a été envoyé.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -38,7 +38,7 @@ Contient le type d’adresse de l’utilisateur de messagerie au nom de qui le m
 
 Ces propriétés sont le type de l’expéditeur représenté d’origine d’un message. Ils sont utilisés dans un thread de conversation.
   
-Une application cliente envoyant un message pour le compte d’un autre client doit définir ces propriétés sur la valeur de la propriété **PR_SENT_REPRESENTING_ADDRTYPE** ([PidTagSentRepresentingAddressType](pidtagsentrepresentingaddresstype-canonical-property.md)) lors de la première soumission du message. Une fois définie, elle ne doit jamais être modifiée.
+Une application cliente qui envoie un message pour le compte d’un autre client doit définir ces propriétés sur la valeur de la propriété **PR_SENT_REPRESENTING_ADDRTYPE** ([PidTagSentRepresentingAddressType](pidtagsentrepresentingaddresstype-canonical-property.md)) lors de la première soumission du message. Une fois défini, il ne doit jamais être modifié.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,11 +46,11 @@ Une application cliente envoyant un message pour le compte d’un autre client d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées sur les objets de message électronique.
+> Spécifie les propriétés et les opérations autorisées sur les objets de courrier électronique.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -60,7 +60,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -72,5 +72,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

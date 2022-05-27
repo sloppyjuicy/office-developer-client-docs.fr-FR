@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagProviderOrdinal
+description: Décrit la propriété canonique PidTagProviderOrdinal, qui contient l’index de base zéro de la position d’un fournisseur de services dans la table du fournisseur.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: d062b54d-7c32-4369-ab69-f7193773a1c0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: adc0f3fe7b7cafef16cafebd1504ab3a0f43a70d
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 18ff563c46c54b5d1a2068ae1006cce92c27e40a
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63726149"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752455"
 ---
 # <a name="pidtagproviderordinal-canonical-property"></a>Propriété canonique PidTagProviderOrdinal
 
@@ -25,20 +25,20 @@ ms.locfileid: "63726149"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’index de base zéro de la position d’un fournisseur de services dans la table fournisseur.
+Contient l’index de base zéro de la position d’un fournisseur de services dans la table du fournisseur.
   
 |Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROVIDER_ORDINAL  <br/> |
 |Identificateur :  <br/> |0x300D  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |MAPI courant  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Cette propriété est calculée par MAPI.
   
-Obtenez la table fournisseur en appelant la [méthode IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) . Tez la table des fournisseurs sur cette propriété pour afficher l’ordre de transport. 
+Obtenez la table du fournisseur en appelant la méthode [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) . Triez la table du fournisseur sur cette propriété pour afficher l’ordre de transport. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -50,7 +50,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -62,5 +62,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

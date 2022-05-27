@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagInstanceKey
+description: Cet article décrit la propriété canonique PidTagInstanceKey, qui contient une valeur qui identifie de façon unique une ligne dans une table.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 14fc5571-acc0-4d75-8598-964aee5ba01c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6596fe30591962e5a2cc36fc2d3c9ba58589e143
-ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
+ms.openlocfilehash: 5361ae0e08d6d023d3a49e0785ae52556a2def94
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "64523651"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752357"
 ---
 # <a name="pidtaginstancekey-canonical-property"></a>Propriété canonique PidTagInstanceKey
 
@@ -25,7 +25,7 @@ ms.locfileid: "64523651"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur qui identifie de manière unique une ligne dans un tableau. 
+Contient une valeur qui identifie de façon unique une ligne dans une table. 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une valeur qui identifie de manière unique une ligne dans un tableau.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une valeur binaire qui identifie de manière unique une ligne dans un affichage Tableau. Il s’agit d’une colonne obligatoire dans la plupart des tableaux. Si une ligne est incluse dans deux affichages, il existe deux clés d’instance différentes. La clé d’instance d’une ligne peut différer à chaque ouverture de la table, mais reste constante pendant l’ouverture de la table. Les lignes ajoutées lors de l’utilisation d’une table ne réutilisent pas une clé d’instance précédemment utilisée. 
+Cette propriété est une valeur binaire qui identifie de façon unique une ligne dans une vue de table. Il s’agit d’une colonne obligatoire dans la plupart des tables. Si une ligne est incluse dans deux vues, il existe deux clés d’instance différentes. La clé d’instance d’une ligne peut différer chaque fois que la table est ouverte, mais reste constante pendant l’ouverture de la table. Les lignes ajoutées pendant l’utilisation d’une table ne réutilisent pas une clé d’instance précédemment utilisée. 
   
-Utilisez les **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) ou **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) pour corréler toutes les lignes d’une expansion. Utilisez **PR_INSTANCE_KEY** pour localiser une instance particulière dans l’extension. 
+Utilisez les propriétés **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) ou **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) pour mettre en corrélation toutes les lignes d’une expansion. Utilisez **PR_INSTANCE_KEY** pour localiser une instance particulière dans l’extension. 
   
-Lorsqu’une propriété à valeurs multiples est étendue dans un tableau, une ligne est créée pour chaque instance de l’extension, c’est-à-dire pour chaque valeur de cette propriété. Chaque ligne a une valeur unique pour la **propriété PR_INSTANCE_KEY** , tandis que toutes les autres colonnes conservent leurs valeurs d’origine tout au long de l’extension. 
+Lorsqu’une propriété à valeurs multiples est développée dans une table, une ligne est créée pour chaque instance de l’extension, c’est-à-dire pour chaque valeur de cette propriété. Chaque ligne a une valeur unique pour la propriété **PR_INSTANCE_KEY** , tandis que toutes les autres colonnes conservent leurs valeurs d’origine tout au long de l’expansion. 
   
-Dans un tri catégorisé d’un tableau, les lignes qui ne correspondent pas aux données réelles peuvent être ajoutées au résultat du tri. Chacune de ces lignes, comme toutes les lignes de tous les tableaux, possède sa propre clé d’instance unique. 
+Dans un type catégorisé d’une table, les lignes qui ne correspondent pas aux données réelles peuvent être ajoutées au résultat du tri. Chaque ligne de ce type, comme toutes les lignes de toutes les tables, a sa propre clé d’instance unique. 
   
- **PR_INSTANCE_KEY** est également utilisé dans les notifications d’événements de table. Les **membres propIndex** et **propPrior** de la structure [TABLE_NOTIFICATION](table_notification.md) sont des structures [SPropValue](spropvalue.md) qui **PR_INSTANCE_KEY valeurs** . Le **membre propIndex** indique la ligne qui a été ajoutée ou modifiée. Le **membre propPrior** indique la ligne avant la ligne ajoutée ou modifiée (**PR_NULL** indique une modification de la première ligne). 
+ **PR_INSTANCE_KEY** est également utilisé dans les notifications d’événements de table. Les membres **propIndex** et **propPrior** de la structure [TABLE_NOTIFICATION](table_notification.md) sont des structures [SPropValue](spropvalue.md) contenant des valeurs **PR_INSTANCE_KEY** . Le **membre propIndex** indique la ligne qui a été ajoutée ou modifiée. Le membre **propPrior** indique la ligne avant la ligne ajoutée ou modifiée (**PR_NULL** indique une modification de la première ligne). 
   
-Cette valeur n’est pas copiée dans le cadre du tableau d’affichage. 
+Cette valeur n’est pas copiée dans le cadre de la table d’affichage. 
   
- **PR_INSTANCE_KEY** est une structure [MAPIUID](mapiuid.md) . Toutes les clés d’instance peuvent être comparées directement en tant que valeurs binaires. 
+ **PR_INSTANCE_KEY** est une structure [MAPIUID](mapiuid.md) . Toutes les clés d’instance peuvent être directement comparées en tant que valeurs binaires. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -56,11 +56,11 @@ Cette valeur n’est pas copiée dans le cadre du tableau d’affichage.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations pour les listes d’utilisateurs, de contacts, de groupes et de ressources.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -70,7 +70,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -82,5 +82,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

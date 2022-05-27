@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagIpmWastebasketEntryId
+description: Décrit la propriété canonique PidTagIpmWastebasketEntryId, qui contient l’identificateur d’entrée du dossier éléments supprimés IPM standard.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0f8dd043-66f0-4193-9b95-853bc3827f73
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 99cf17cae8b3e5df9211d26c8b7cae5e97881935
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 38ce7ff5d131ab5df0cf8e994b4d9fc1ae25781e
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63723214"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752231"
 ---
 # <a name="pidtagipmwastebasketentryid-canonical-property"></a>Propriété canonique PidTagIpmWastebasketEntryId
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagMessageCcMe
+description: Décrit la propriété canonique PidTagMessageCcMe, qui est un moyen pratique de déterminer si le nom d’utilisateur apparaît explicitement dans la liste des destinataires CC.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7310a0f2-a109-40a4-99bf-e963d754a067
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 43cd3a0d3f4086c2304bfbe69e6753aed86ddca8
-ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
+ms.openlocfilehash: 46e825f499ffebc08c3173de9499014f055969bf
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "64523953"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752742"
 ---
 # <a name="pidtagmessageccme-canonical-property"></a>Propriété canonique PidTagMessageCcMe
 
@@ -36,13 +36,13 @@ Contient TRUE si cet utilisateur de messagerie est spécifiquement nommé en tan
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété offre un moyen pratique de déterminer si le nom d’utilisateur apparaît explicitement dans la liste des destinataires en copie carbone, sans examiner toutes les entrées de la liste. 
+Cette propriété fournit un moyen pratique de déterminer si le nom d’utilisateur apparaît explicitement dans la liste des destinataires de copie carbone, sans examiner toutes les entrées de la liste. 
   
-Cette propriété permet également la gestion automatisée des messages reçus au moment de la réception. À l’option du fournisseur de transport, cette propriété contient false ou n’est pas définie si l’utilisateur de messagerie n’est pas répertorié directement dans la table des destinataires. 
+Cette propriété facilite également la gestion automatisée des messages reçus au moment de la réception. À l’option du fournisseur de transport, cette propriété contient FALSE ou n’est pas définie si l’utilisateur de messagerie n’est pas répertorié directement dans la table des destinataires. 
   
-La remise des messages résultant de l’extension de la liste de distribution ou d’une désignation de copie carbone non voyante n’entraîne pas la mise en place de cette propriété. Le destinataire doit être nommé explicitement. 
+La remise des messages résultant de l’expansion de la liste de distribution ou d’une désignation de copie carbone aveugle n’entraîne pas la définition de cette propriété. Le destinataire doit être nommé explicitement. 
   
-Les messages non envoyés ne définissent généralement pas cette propriété, **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)) ou **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md)). S’ils sont présents dans des messages accessibles par l’utilisateur dans des magasins de messages publics, dans des magasins privés d’autres utilisateurs, dans des fichiers sur disque ou incorporés à d’autres messages reçus, ils contiennent généralement les valeurs à laquelle ils ont été fixés la dernière fois qu’un fournisseur de transport a remis le message. 
+Les messages non envoyés ne définissent généralement pas cette propriété, **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)) ou **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md)). S’ils sont présents dans les messages auxquels l’utilisateur peut accéder dans les magasins de messages publics, dans les magasins privés d’autres utilisateurs, dans les fichiers sur disque ou incorporés dans d’autres messages reçus, ils contiennent généralement les valeurs auxquelles ils ont été définis la dernière fois qu’un fournisseur de transport a remis le message. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -50,11 +50,11 @@ Les messages non envoyés ne définissent généralement pas cette propriété, 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées sur les objets de message électronique.
+> Spécifie les propriétés et les opérations autorisées sur les objets de courrier électronique.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -64,7 +64,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -76,5 +76,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

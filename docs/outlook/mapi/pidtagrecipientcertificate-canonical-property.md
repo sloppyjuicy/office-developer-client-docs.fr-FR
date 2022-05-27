@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagRecipientCertificate
+description: Décrit la propriété canonique PidTagRecipientCertificate, qui contient le certificat ASN.1 d’un destinataire de message à utiliser dans un rapport.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7c5c749e-5463-4935-85b5-32219d06f782
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a46e76f3fc23a8b50cea824387a024bed1964f19
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 47f49c1fb4cfbb63b0c92611724fd9a6868d0a57
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63716145"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752525"
 ---
 # <a name="pidtagrecipientcertificate-canonical-property"></a>Propriété canonique PidTagRecipientCertificate
 
@@ -25,7 +25,7 @@ ms.locfileid: "63716145"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le certificat ASN.1 d’un destinataire de message à utiliser dans un état.
+Contient le certificat ASN.1 d’un destinataire de message à utiliser dans un rapport.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient le certificat ASN.1 d’un destinataire de message à utiliser dans un 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une copie de la propriété **PR_USER_CERTIFICATE (**[PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) du destinataire à utiliser dans un état. Elle peut être utilisée pour prouver à l’auteur que le destinataire a réellement reçu le message, ce qu’une note de remise n’indique pas nécessairement.
+Cette propriété est une copie de la propriété **PR_USER_CERTIFICATE** du destinataire ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) à utiliser dans un rapport. Il peut être utilisé pour prouver à l’expéditeur que le destinataire a effectivement reçu le message, ce qu’un rapport de remise n’indique pas nécessairement.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagInternetOrganization
+description: Cet article décrit la propriété canonique PidTagInternetOrganization, qui est mappée à l’en-tête de l’organisation MIME.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8759d873-d141-4b4a-9302-0dd11aa45de8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d204aeb201350314399378cf83e45f5abf467f8d
-ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
+ms.openlocfilehash: c712070280d1a59cc5695e805f6ffcf7a77c005a
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "64523856"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752658"
 ---
 # <a name="pidtaginternetorganization-canonical-property"></a>Propriété canonique PidTagInternetOrganization
 
@@ -25,7 +25,7 @@ ms.locfileid: "64523856"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cartes à l’en-tête d’organisation MIME.
+Cartes à l’en-tête de l’organisation MIME.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -40,7 +40,7 @@ Cartes à l’en-tête d’organisation MIME.
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -50,7 +50,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -62,5 +62,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

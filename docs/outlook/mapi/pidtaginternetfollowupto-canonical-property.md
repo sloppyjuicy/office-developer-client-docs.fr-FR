@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidTagInternetFollowupTo
+title: PidTagInternetFollowupTo Canonical, propriété
+description: Cet article décrit la propriété canonique PidTagInternetFollowupTo, qui correspond à l’en-tête MIME Followup-To.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,15 +12,14 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 15a91ba5-f317-4f62-826b-4d6f9b41cd4a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0cec616fc54bb20db10c47102ea48deff88e4ec6
-ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
+ms.openlocfilehash: cd2559a081b359f0807a4e23fbdca0e6e8bc0093
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "64523697"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752693"
 ---
-# <a name="pidtaginternetfollowupto-canonical-property"></a>Propriété canonique PidTagInternetFollowupTo
+# <a name="pidtaginternetfollowupto-canonical-property"></a>PidTagInternetFollowupTo Canonical, propriété
 
   
   
@@ -40,7 +40,7 @@ Cartes à l’en-tête Followup-To MIME.
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -50,7 +50,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -62,5 +62,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

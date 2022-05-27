@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagProofOfSubmissionRequested
+description: Décrit la propriété canonique PidTagProofOfSubmissionRequested, qui contient une preuve de valeur de soumission ASN.1.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c7b21c90-7fdc-48e4-8197-7675978c5d3b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5da11b3c6f585d7fdb8aa4a95fbc49e9df8ab490
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: b10ec583d35f523f3a11adc6ecb56839c15f9f7d
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63716152"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752756"
 ---
 # <a name="pidtagproofofsubmissionrequested-canonical-property"></a>Propriété canonique PidTagProofOfSubmissionRequested
 
@@ -36,7 +36,7 @@ Contient une preuve ASN.1 de la valeur de soumission.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété correspond à une enveloppe d’envoi X.400 par attribut de message.
+Cette propriété correspond à un attribut d’enveloppe de soumission X.400 par message.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagOriginallyIntendedRecipEmailAddress
+description: Décrit la propriété canonique PidTagOriginallyIntendedRecipEmailAddress, qui contient l’adresse e-mail du destinataire prévu d’un message renvoyé automatiquement.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6a85b695-731a-4401-9c9c-fda6bc308558
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fe7dff1566553cffc75c60b8bfb5dc6b311f3c38
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 8c5a6d1dd961ffc00e73ec2532977700897851b8
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725396"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752637"
 ---
 # <a name="pidtagoriginallyintendedrecipemailaddress-canonical-property"></a>Propriété canonique PidTagOriginallyIntendedRecipEmailAddress
 
@@ -25,7 +25,7 @@ ms.locfileid: "63725396"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’adresse e-mail du destinataire initialement prévu d’un message autoforwarded.
+Contient l’adresse e-mail du destinataire initialement prévu d’un message renvoyé automatiquement.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient l’adresse e-mail du destinataire initialement prévu d’un message a
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont des exemples de propriétés d’adresse pour le destinataire du message initialement prévu. Elles doivent être définies par l’agent automatique qui a transmis le message.
+Ces propriétés sont des exemples de propriétés d’adresse pour le destinataire du message initialement prévu. Ils doivent être définis par l’agent automatique qui a transféré le message.
   
 Ces propriétés correspondent à l’attribut de rapport X.400 par destinataire.
   
@@ -50,7 +50,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -62,5 +62,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

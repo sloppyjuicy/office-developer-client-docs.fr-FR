@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidTagImportance
+title: PidTagImportance Canonical, propriété
+description: Décrit la propriété canonique PidTagImportance, qui contient une valeur qui indique l’opinion de l’expéditeur du message sur l’importance d’un message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,21 +12,20 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 274dd444-a863-4b53-bdbc-3763c375c43c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 376f3cfb6c39720be5efd46c87265f5348529350
-ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
+ms.openlocfilehash: 139f229e1f80ec0aee4d3c45ea772e3ae00bff50
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "64524455"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752266"
 ---
-# <a name="pidtagimportance-canonical-property"></a>Propriété canonique PidTagImportance
+# <a name="pidtagimportance-canonical-property"></a>PidTagImportance Canonical, propriété
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur qui indique l’avis de l’expéditeur du message sur l’importance d’un message. 
+Contient une valeur qui indique l’opinion de l’expéditeur du message sur l’importance d’un message. 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient une valeur qui indique l’avis de l’expéditeur du message sur l’i
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété et la **propriété PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md)) ne doivent pas être confondues. Importance indique une valeur pour les utilisateurs, tandis que la priorité indique l’ordre ou la vitesse d’envoi du message par le logiciel système de messagerie. Une priorité plus élevée indique généralement un coût plus élevé. Une importance plus élevée est généralement associée à un affichage différent par l’interface utilisateur. 
+Cette propriété et la propriété **PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md)) ne doivent pas être confondues. L’importance indique une valeur pour les utilisateurs, tandis que la priorité indique l’ordre ou la vitesse à laquelle le message doit être envoyé par le logiciel du système de messagerie. Une priorité plus élevée indique généralement un coût plus élevé. Une importance plus élevée est généralement associée à un affichage différent par l’interface utilisateur. 
   
 Cette propriété peut avoir exactement l’une des valeurs suivantes :
   
@@ -46,7 +46,7 @@ IMPORTANCE_LOW
     
 IMPORTANCE_HIGH 
   
-> Le message a une importance particulière.
+> Le message a une importance élevée.
     
 IMPORTANCE_NORMAL 
   
@@ -58,7 +58,7 @@ IMPORTANCE_NORMAL
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -72,7 +72,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -84,5 +84,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

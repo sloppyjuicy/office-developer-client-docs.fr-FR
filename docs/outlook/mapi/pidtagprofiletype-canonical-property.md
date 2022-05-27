@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagProfileType
+description: Décrit la propriété canonique PidTagProfileType, qui contient le type de magasin d’informations.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9cc1a1fa-62a7-411b-9b2b-c49d24a38a61
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 82fdfdb7465996cc82bff8655cadd777dd252f51
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 918c4e7897e7d9351169eca0b92802abf644127b
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63716247"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752336"
 ---
 # <a name="pidtagprofiletype-canonical-property"></a>Propriété canonique PidTagProfileType
 
@@ -32,7 +32,7 @@ Contient le type de magasin d’informations.
 |Propriétés associées :  <br/> |PR_PROFILE_TYPE  <br/> |
 |Identificateur :  <br/> |0x660A  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Configuration de profil MAPI  <br/> |
+|Domaine :  <br/> |Configuration du profil MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -68,5 +68,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

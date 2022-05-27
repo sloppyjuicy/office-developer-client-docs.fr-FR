@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagRuleProviderData
+description: Décrit la propriété canonique PidTagRuleProviderData, qui est une propriété opaque que le client définit pour l’utilisation exclusive du client.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: b04a277c-b483-4f54-b360-311034b9a7ee
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3780e77f84f96215f761e1b39732c46c86295331
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 22bf6044edbea1d0827c1b85fddbc938ef3ef42e
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63723647"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752413"
 ---
 # <a name="pidtagruleproviderdata-canonical-property"></a>Propriété canonique PidTagRuleProviderData
 
@@ -44,7 +44,7 @@ Le serveur doit conserver la valeur de cette propriété si elle a été défini
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
@@ -58,7 +58,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées. 
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées. 
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -73,5 +73,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

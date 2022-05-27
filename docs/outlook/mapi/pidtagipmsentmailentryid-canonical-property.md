@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagIpmSentMailEntryId
+description: Décrit la propriété canonique PidTagIpmSentMailEntryId, qui contient l’identificateur d’entrée du dossier Messages interpersonnels standard (IPM) Éléments envoyés.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f6877435-6b26-4060-924f-a65591ad9538
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 085b3f1a133cd564ea25f035735ea7a77b3af1a3
-ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
+ms.openlocfilehash: 1d877c2d3bed2f8b6a3b54d8030a5ec3dceb13b7
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "64524478"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752602"
 ---
 # <a name="pidtagipmsentmailentryid-canonical-property"></a>Propriété canonique PidTagIpmSentMailEntryId
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

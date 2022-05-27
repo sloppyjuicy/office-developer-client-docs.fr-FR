@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagRadioTelephoneNumber
+description: Décrit la propriété canonique PidTagRadioTelephoneNumber, qui contient le numéro de téléphone radio du destinataire.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: d6c9b30c-1eb3-45e8-b50a-e664610bc346
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5e126e9eeec65fa0260ea036cbf18caa5a0bfbc0
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 7f93b1e260845153fcf8584a38ffca2f71267937
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63724399"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752777"
 ---
 # <a name="pidtagradiotelephonenumber-canonical-property"></a>Propriété canonique PidTagRadioTelephoneNumber
 
@@ -44,15 +44,15 @@ Ces propriétés fournissent des informations d’identification et d’accès p
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations pour les listes d’utilisateurs, de contacts, de groupes et de ressources.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -62,7 +62,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagPhysicalForwardingProhibited
+description: Décrit la propriété canonique PidTagPhysicalForwardingProhibited, qui s’applique à Outlook 2013 et Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2651759d-914b-4376-92b2-6d5d4ffb5530
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8f74bde11efd9f9ff9cb46095e2c0b31fbbdaafa
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 1f23d055487bc7c1f61ba7e459add7cefeb336d0
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63722735"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752434"
 ---
 # <a name="pidtagphysicalforwardingprohibited-canonical-property"></a>Propriété canonique PidTagPhysicalForwardingProhibited
 
@@ -25,7 +25,7 @@ ms.locfileid: "63722735"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient TRUE si un expéditeur de message interdit le forwarding de messages physiques pour un destinataire spécifique.
+Contient TRUE si un expéditeur de message interdit le transfert de messages physiques pour un destinataire spécifique.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -44,7 +44,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -56,5 +56,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidTagScheduleInfoFreeBusyBusy
+title: PidTagScheduleInfoFreeBusyBusy Canonical, propriété
+description: Décrit la propriété canonique PidTagScheduleInfoFreeBusyBusy, qui contient les blocs de temps pour lesquels l’état est occupé.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,15 +12,14 @@ api_name:
 api_type:
 - COM
 ms.assetid: 84d9c5b5-e734-4c07-b4cc-1d7b13c1ed19
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 204cbe8f4817b48ff19e4a433209fd143354cb1d
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: f3cc74d219b922d2967124cade76da8dc5cbe2a1
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725021"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752763"
 ---
-# <a name="pidtagscheduleinfofreebusybusy-canonical-property"></a>Propriété canonique PidTagScheduleInfoFreeBusyBusy
+# <a name="pidtagscheduleinfofreebusybusy-canonical-property"></a>PidTagScheduleInfoFreeBusyBusy Canonical, propriété
 
   
   
@@ -32,11 +32,11 @@ Contient les blocs de temps pour lesquels l’état est occupé.
 |Propriétés associées :  <br/> |PR_SCHDINFO_FREEBUSY_BUSY  <br/> |
 |Identificateur :  <br/> |0x6854  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
-|Domaine :  <br/> |Libre/Occupé  <br/> |
+|Domaine :  <br/> |Libre/occupé  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le format, le calcul et les contraintes de cette propriété sont identiques à ceux de **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), mais font référence aux rendez-vous qui sont marqués comme occupés sur l’objet calendrier associé.
+Le format, le calcul et les contraintes de cette propriété sont les mêmes que ceux de **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), mais font référence aux rendez-vous marqués comme occupés sur l’objet calendrier associé.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Le format, le calcul et les contraintes de cette propriété sont identiques à 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
@@ -58,7 +58,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

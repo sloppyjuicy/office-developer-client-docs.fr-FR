@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagOtherAddressCountry
+description: Décrit la propriété canonique PidTagOtherAddressCountry, qui contient l’autre pays/région de l’utilisateur de messagerie.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4178fdf6-af0e-4833-9751-402f86d18206
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0ac0739f344d115ec2d23f5a85d5ff5211c0a06a
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 4b24417c23533e0edca02eb4cc3ffae8f73e5776
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725038"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752546"
 ---
 # <a name="pidtagotheraddresscountry-canonical-property"></a>Propriété canonique PidTagOtherAddressCountry
 
@@ -44,15 +44,15 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations pour les listes d’utilisateurs, de contacts, de groupes et de ressources.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -62,7 +62,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

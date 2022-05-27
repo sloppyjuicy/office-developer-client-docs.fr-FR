@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagMessageHandlingSystemCommonName
+description: Décrit la propriété canonique PidTagMessageHandlingSystemCommonName, qui contient le nom commun du système de gestion des messages.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c6ba2fe9-c183-4d26-854c-f3ac893e75cc
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8b574238af4bd253a6a5fe0d37d6bab7f081f274
-ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
+ms.openlocfilehash: a4fa0fc815cb8c7878f3bd974a0f95fb9ab7e1b5
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "64523523"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752483"
 ---
 # <a name="pidtagmessagehandlingsystemcommonname-canonical-property"></a>Propriété canonique PidTagMessageHandlingSystemCommonName
 
@@ -44,11 +44,11 @@ Ces propriétés contiennent le nom commun du système de gestion des messages.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations pour les listes d’utilisateurs, de contacts, de groupes et de ressources.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -58,7 +58,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

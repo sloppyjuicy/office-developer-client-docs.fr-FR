@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagItemTemporaryflags
+description: Décrit la propriété canonique PidTagItemTemporaryflags, qui contient un indicateur qui indique qu’un message a été lu, mais pas marqué comme lu.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8066de8e-2b77-4bac-8df3-e64b03ee42b9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cde0495ac555a919874f188ad1e58557ff2133fe
-ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
+ms.openlocfilehash: d6dae99d539c804b57d24df5b4fff8f7cd64cca3
+ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "64523765"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65752224"
 ---
 # <a name="pidtagitemtemporaryflags-canonical-property"></a>Propriété canonique PidTagItemTemporaryflags
 
@@ -36,7 +36,7 @@ Contient un indicateur qui indique qu’un message a été lu, mais pas marqué 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée dans le dossier de recherche Messages non lus de Outlook pour effectuer le suivi des messages qui ont été lus sans les marquer comme lus, ce qui les supprimerait du dossier. Lorsque l’affichage change, cette propriété est supprimée et l’élément est marqué comme lu. Cette propriété ne sera pas synchronisée avec le Exchange Server.
+Cette propriété est utilisée dans le dossier de recherche Messages non lus de Outlook pour effectuer le suivi des messages qui ont été lus sans les marquer comme lus, ce qui les supprimerait du dossier. Lorsque la vue change, cette propriété est supprimée et l’élément est marqué comme lu. Cette propriété ne sera pas synchronisée avec le Exchange Server.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Cette propriété est utilisée dans le dossier de recherche Messages non lus de
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -58,7 +58,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 
