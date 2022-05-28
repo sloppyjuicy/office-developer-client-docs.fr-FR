@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagContactAddressBookMultipleAddressFlags
+description: Décrit la propriété canonique PidTagContactAddressBookMultipleAddressFlags, qui s’applique à Outlook 2013 et Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ed3bc585-13f6-46a5-9e71-9c8513ddfc0a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7ab2b050c50370788b32a7d866a906609a74a283
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 7d08e5fd38237cc763dceeb3c28ed9e290ae4406
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455348"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770116"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflags-canonical-property"></a>Propriété canonique PidTagContactAddressBookMultipleAddressFlags
 
@@ -25,7 +25,7 @@ ms.locfileid: "64455348"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient des indicateurs qui indiquent si les fournisseurs vont prendre en charge plusieurs adresses de messagerie par élément de contact.
+Contient des indicateurs indiquant si les fournisseurs prendront en charge plusieurs adresses e-mail par élément de contact.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient des indicateurs qui indiquent si les fournisseurs vont prendre en charg
    
 ## <a name="remarks"></a>Remarques
 
-Si les indicateurs de cette propriété sont TRUE, le fournisseur n’inclut pas les contacts sans adresses e-mail. Seule l’adresse de messagerie principale sera honorée. Il s’agit d’une propriété d’une section de profil de carnet d’adresses de contact.
+Si les indicateurs de cette propriété sont TRUE, le fournisseur n’inclut pas de contacts sans adresse e-mail. Seule l’adresse e-mail principale sera honorée. Il s’agit d’une propriété dans une section profil de carnet d’adresses de contact.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

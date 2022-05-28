@@ -1,5 +1,6 @@
 ---
 title: CbFLATENTRY
+description: CbFLATENTRY calcule le nombre d’octets dans une structure FLATENTRY existante.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 655b66e8-8642-43ad-8392-048578f96820
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7cc0da5ad532563367f69b628e6aa18e1a41a769
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 59e2edeb8bacdf2c7dc3a9a16d4ca107cc056cb4
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63626387"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770144"
 ---
 # <a name="cbflatentry"></a>CbFLATENTRY
 
@@ -30,7 +30,7 @@ Calcule le nombre d’octets dans une structure [FLATENTRY](flatentry.md) exista
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**FLATENTRY** <br/> |
+|Structure associée :  <br/> |**FLATENTRY** <br/> |
    
 ```cpp
 CbFLATENTRY (_lpentry)
@@ -42,7 +42,7 @@ CbFLATENTRY (_lpentry)
   
 > Pointeur vers la structure **FLATENTRY** existante. 
     
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 

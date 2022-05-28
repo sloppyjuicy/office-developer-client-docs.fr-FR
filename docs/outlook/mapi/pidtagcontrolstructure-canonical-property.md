@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagControlStructure
+description: Décrit la propriété canonique PidTagControlStructure, qui contient un pointeur vers une structure pour un contrôle utilisé dans une boîte de dialogue.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 02910389-b346-431c-a282-dedbc9f7dfc6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ec365abdce339f2e1c1aa34c6ee01527cfce3d25
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 28eb23ac3605eb860e488d0c6db90b287688e139
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455138"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769423"
 ---
 # <a name="pidtagcontrolstructure-canonical-property"></a>Propriété canonique PidTagControlStructure
 
@@ -32,13 +32,13 @@ Contient un pointeur vers une structure pour un contrôle utilisé dans une boî
 |Propriétés associées :  <br/> |PR_CONTROL_STRUCTURE  <br/> |
 |Identificateur :  <br/> |0x3F01  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Tableau d’affichage MAPI  <br/> |
+|Domaine :  <br/> |Table d’affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété représente un pointeur long qui est casté vers l’une des structures de contrôle. Les structures de contrôle sont les suivantes :
+Cette propriété représente un pointeur long qui est converti en une des structures de contrôle. Les structures de contrôle sont les suivantes :
   
-|Structure des contrôles|Structure du contrôle (suite)|
+|Structure de contrôle|Structure de contrôle (suite)|
 |:-----|:-----|
 |[DTBLBUTTON](dtblbutton.md) <br/> |[DTBLCHECKBOX](dtblcheckbox.md) <br/> |
 |[DTBLCOMBOBOX](dtblcombobox.md) <br/> |[DTBLDDLBX](dtblddlbx.md) <br/> |
@@ -57,7 +57,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -69,5 +69,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

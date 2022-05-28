@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagControlType
+description: Décrit la propriété canonique PidTagControlType, qui contient une valeur indiquant un type de contrôle pour un contrôle utilisé dans une boîte de dialogue.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7728fa2f-4a59-4e86-90f1-4384824598aa
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c7102add613b362ad24507ae7a74520c9bb72a28
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 335c70e389801bc98ef1cfb7d4b8f2ef87f52184
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725685"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769430"
 ---
 # <a name="pidtagcontroltype-canonical-property"></a>Propriété canonique PidTagControlType
 
@@ -32,7 +32,7 @@ Contient une valeur indiquant un type de contrôle pour un contrôle utilisé da
 |Propriétés associées :  <br/> |PR_CONTROL_TYPE  <br/> |
 |Identificateur :  <br/> |0x3F02  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Tableau d’affichage MAPI  <br/> |
+|Domaine :  <br/> |Table d’affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -44,23 +44,23 @@ DTCT_LABEL (0x00000000)
    
 DTCT_EDIT (0x00000001)
   
-> Boîte de dialogue de modification de texte.
+> Boîte de dialogue modifier le texte.
 
 DTCT_LBX (0x00000002)
   
-> Boîte de dialogue.
+> Boîte de dialogue de liste.
     
 DTCT_COMBOBOX (0x00000003)
   
-> Zone de liste déroulante de boîte de dialogue.
+> Boîte de dialogue déroulante.
 
 DTCT_DDLBX (0x00000004)
   
-> Boîte de dialogue de liste.
+> Boîte de dialogue de liste déroulante.
 
 DTCT_CHECKBOX (0x00000005)
   
-> Une case à cocher de boîte de dialogue.
+> Case à cocher de boîte de dialogue.
 
 DTCT_GROUPBOX (0x00000006)
   
@@ -76,7 +76,7 @@ DTCT_PAGE (0x00000008)
     
 DTCT_RADIOBUTTON (0x00000009)
   
-> Une boîte de dialogue.
+> Une case d’option de boîte de dialogue.
     
 DTCT_MVLISTBOX (0x0000000B)
   
@@ -84,7 +84,7 @@ DTCT_MVLISTBOX (0x0000000B)
     
 DTCT_MVDDLBX (0x0000000C)
   
-> Zone de listes listes à valeurs multiples remplie par une propriété à valeurs multiples de type chaîne.
+> Zone de liste déroulante à valeurs multiples remplie par une propriété à valeurs multiples de chaîne de type.
     
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -96,7 +96,7 @@ Mapidefs.h
     
 mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -108,5 +108,5 @@ mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

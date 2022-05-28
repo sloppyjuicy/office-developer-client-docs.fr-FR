@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagCreateTemplates
+description: Décrit la propriété canonique PidTagCreateTemplates, qui contient un objet table incorporé qui contient les identificateurs d’entrée de modèle de boîte de dialogue.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d2530009-5de3-4872-a0a5-be1389c4206e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9ddd3124f43dac4f8cd0798f34a4af9dbc56cecd
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 36986eab25f3b2f417df12fcd814215d83d70c4c
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454879"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769885"
 ---
 # <a name="pidtagcreatetemplates-canonical-property"></a>Propriété canonique PidTagCreateTemplates
 
@@ -36,7 +36,7 @@ Contient un objet table incorporé qui contient des identificateurs d’entrée 
    
 ## <a name="remarks"></a>Remarques
 
-Pour savoir quels objets modèles peuvent être créés à l’intérieur d’un conteneur, appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur cette propriété. L’objet résultant est le tableau unique qui fournit les identificateurs d’entrée pour tous les modèles que vous pouvez créer à l’intérieur du conteneur. 
+Pour savoir quels objets de modèle peuvent être créés à l’intérieur d’un conteneur, appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur cette propriété. L’objet résultant est la table unique qui donne les identificateurs d’entrée pour tous les modèles que vous pouvez créer à l’intérieur du conteneur. 
   
 Pour créer les objets de modèle, appelez la méthode **CreateEntry** de l’objet conteneur sur les valeurs de colonne **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la table unique.
   
@@ -50,7 +50,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -65,5 +65,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

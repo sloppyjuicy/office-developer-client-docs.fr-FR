@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidTagFollowupIcon
+title: PidTagFollowupIcon Canonical, propriété
+description: Décrit la propriété canonique PidTagFollowupIcon, qui spécifie la couleur d’indicateur de l’objet message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,15 +12,14 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 374cef41-141a-491b-8dd1-eaf1a2044204
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3bf368e83d99017f493256ac028661c790093880
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: b141145c9539f639ce7ed281b8a7fa75a2eb88dd
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64452240"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770977"
 ---
-# <a name="pidtagfollowupicon-canonical-property"></a>Propriété canonique PidTagFollowupIcon
+# <a name="pidtagfollowupicon-canonical-property"></a>PidTagFollowupIcon Canonical, propriété
 
   
   
@@ -38,9 +38,9 @@ Spécifie la couleur d’indicateur de l’objet message.
 
 Cette propriété ne doit pas exister, sauf si la valeur de la propriété **PR_FLAG_STATUS** ([PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) est définie sur « followupFlagged » ou si l’objet message est un objet lié à la réunion. Cette propriété ne doit pas exister sur un objet de tâche. Lorsqu’elle est définie sur d’autres objets de message, cette propriété doit être définie sur l’une des valeurs suivantes.
   
-|**Valeur numérique**|**Nom**|**Description**|
+|**Valeur numérique**|**Name**|**Description**|
 |:-----|:-----|:-----|
-|Non présent  <br/> |N/D  <br/> |Aucune couleur  <br/> |
+|Non présent  <br/> |S/O  <br/> |Aucune couleur  <br/> |
 |1  <br/> |followupIcon1  <br/> |Indicateur violet  <br/> |
 |2  <br/> |followupIcon2  <br/> |Indicateur orange  <br/> |
 |3  <br/> |followupIcon3  <br/> |Indicateur vert  <br/> |
@@ -54,7 +54,7 @@ Cette propriété ne doit pas exister, sauf si la valeur de la propriété **PR_
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
@@ -68,7 +68,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -80,5 +80,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

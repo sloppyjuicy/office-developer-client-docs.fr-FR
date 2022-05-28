@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagControlId
+description: Décrit la propriété canonique PidTagControlId, qui contient un identificateur unique pour un contrôle utilisé dans une boîte de dialogue.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 281bc3e0-7c69-461b-bf09-4281abbb5e1b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 70e9604df3aa273e6ada2db30721f133772f3b2a
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 58f2729d09c724e75ca0260c66ddd2558111449d
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455320"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770522"
 ---
 # <a name="pidtagcontrolid-canonical-property"></a>Propriété canonique PidTagControlId
 
@@ -32,13 +32,13 @@ Contient un identificateur unique pour un contrôle utilisé dans une boîte de 
 |Propriétés associées :  <br/> |PR_CONTROL_ID  <br/> |
 |Identificateur :  <br/> |0x3F07  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Tableau d’affichage MAPI  <br/> |
+|Domaine :  <br/> |Table d’affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient un identificateur unique pour le contrôle. Cet identificateur doit contenir une structure [GUID](guid.md) et une valeur binaire de type **LONG**. Tous les contrôles de la boîte de dialogue doivent utiliser le même **GUID** pour identifier le fournisseur de services, et chaque contrôle doit utiliser une valeur **LONG** unique pour s’assurer que les contrôles ne sont pas en conflit. 
+Cette propriété contient un identificateur unique pour le contrôle. Cet identificateur doit contenir une structure [GUID](guid.md) et une valeur binaire de type **LONG**. Tous les contrôles de la boîte de dialogue doivent utiliser le même **GUID** pour identifier le fournisseur de services, et chaque contrôle doit utiliser une valeur **LONG** unique pour s’assurer que les contrôles ne se heurtent pas. 
   
-Cette propriété est utilisée dans les notifications. Par exemple, les notifications envoyées sur le tableau d’affichage doivent définir cette propriété pour identifier de manière unique le contrôle à mettre à jour. 
+Cette propriété est utilisée dans les notifications. Par exemple, les notifications envoyées sur la table d’affichage doivent définir cette propriété pour identifier de manière unique le contrôle à mettre à jour. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -50,7 +50,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -62,5 +62,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

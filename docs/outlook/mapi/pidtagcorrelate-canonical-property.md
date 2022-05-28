@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagCorrelate
+description: Décrit la propriété canonique PidTagCorrelate, qui est utilisée pour demander la corrélation des rapports entrants avec le message envoyé d’origine.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: be34993e-ffcc-47f5-b2d4-95ffa707bc5c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 547e9aba156b2904c0379025b37d11da9219aa24
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 7d92ca78b05599297e6023d068e80ed85d3a6cda
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454417"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769752"
 ---
 # <a name="pidtagcorrelate-canonical-property"></a>Propriété canonique PidTagCorrelate
 
@@ -36,9 +36,9 @@ Contient TRUE si l’expéditeur d’un message demande la fonctionnalité de co
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée pour demander la corrélation des rapports entrants avec le message envoyé d’origine. Lorsqu’un fournisseur de transport rencontre un message envoyé avec **PR_CORRELATE** définie sur TRUE, il définit la propriété **PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) sur l’identificateur MTS (Message Transfer System) pour ce message.
+Cette propriété est utilisée pour demander la corrélation des rapports entrants avec le message envoyé d’origine. Lorsqu’un fournisseur de transport rencontre un message envoyé avec **PR_CORRELATE** défini sur TRUE, il définit la propriété **PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) sur l’identificateur du système de transfert de messages (MTS) pour ce message.
   
- **PR_CORRELATE** doit être utilisé avec les systèmes de messagerie qui supportent la corrélation par l’identificateur MTS, tel que X.400. 
+ **PR_CORRELATE** doit être utilisé avec les systèmes de messagerie qui prennent en charge la corrélation par identificateur MTS, tel que X.400. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -50,7 +50,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -62,5 +62,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

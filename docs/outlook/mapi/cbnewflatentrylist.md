@@ -1,5 +1,6 @@
 ---
 title: CbNewFLATENTRYLIST
+description: CbNewFLATENTRYLIST calcule le nombre d’octets qui doivent être alloués pour une nouvelle structure FLATENTRYLIST qui contient plusieurs structures FLATENTRY d’une taille spécifiée.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: f7182631-7f0e-4f4a-995d-22c0bedd7b6a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6fbd533771542794a1fff9cb9424117e64f63df4
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 100af27a4751dcdbc7dd7df1190c029140d48ba8
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63634645"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65771236"
 ---
 # <a name="cbnewflatentrylist"></a>CbNewFLATENTRYLIST
 
@@ -25,12 +25,12 @@ ms.locfileid: "63634645"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets qui doivent être alloués à une nouvelle structure [FLATENTRYLIST](flatentrylist.md) qui contient plusieurs structures [FLATENTRY](flatentry.md) d’une taille spécifiée. 
+Calcule le nombre d’octets qui doivent être alloués pour une nouvelle structure [FLATENTRYLIST](flatentrylist.md) qui contient plusieurs structures [FLATENTRY](flatentry.md) d’une taille spécifiée. 
   
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**FLATENTRYLIST** <br/> |
+|Structure associée :  <br/> |**FLATENTRYLIST** <br/> |
    
 ```cpp
 CbNewFLATENTRY (_cb)
@@ -40,9 +40,9 @@ CbNewFLATENTRY (_cb)
 
  _ _cb_
   
-> Nombre d’octets dans **les structures FLATENTRY** à inclure dans la nouvelle structure **FLATENTRYLIST** . 
+> Nombre d’octets dans les structures **FLATENTRY** à inclure dans la nouvelle structure **FLATENTRYLIST** . 
     
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 

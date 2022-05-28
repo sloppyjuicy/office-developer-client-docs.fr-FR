@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidTagContentIdentifier
+title: PidTagContentIdentifier, propriété canonique
+description: Décrit la propriété canonique PidTagContentIdentifier, qui contient une valeur de clé qui permet au destinataire du message d’identifier son contenu.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,21 +12,20 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 33bf8251-37d5-47d0-88d2-5088bfaa147a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c9081ff3206b1a8a2f42cd1d3dd332a44cfe5573
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 17ba7bfa6e6da55d1d9b21281e842ba5fccafd56
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455803"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769829"
 ---
-# <a name="pidtagcontentidentifier-canonical-property"></a>Propriété canonique PidTagContentIdentifier
+# <a name="pidtagcontentidentifier-canonical-property"></a>PidTagContentIdentifier, propriété canonique
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur clé qui permet au destinataire du message d’identifier son contenu.
+Contient une valeur de clé qui permet au destinataire du message d’identifier son contenu.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -44,7 +44,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -56,5 +56,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: CbMAPIFormInfoArray
+description: CbMAPIFormInfoArray calcule le nombre d’octets dans une structure SMAPIFormInfoArray existante qui contient un nombre spécifié d’objets d’informations de formulaire.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 449a94d3-6610-4434-a705-4a739339053d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 630130dce4032a572103678c87e50907cf32f30e
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: bb91f44f516fb5da573e92967ef1661452245ece
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63722933"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769570"
 ---
 # <a name="cbmapiforminfoarray"></a>CbMAPIFormInfoArray
 
@@ -30,7 +30,7 @@ Calcule le nombre d’octets dans une structure [SMAPIFormInfoArray](smapiformin
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
-|Structure connexe :  <br/> |**SMAPIFormInfoArray** <br/> |
+|Structure associée :  <br/> |**SMAPIFormInfoArray** <br/> |
    
 ```cpp
 CbMAPIFormInfoArray (_c)

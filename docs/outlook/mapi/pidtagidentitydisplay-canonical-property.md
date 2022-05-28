@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagIdentityDisplay
+description: Décrit la propriété canonique PidTagIdentityDisplay, qui contient le nom complet de l’identité d’un fournisseur de services tel qu’il est défini dans un système de messagerie.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ad9756c1-c1f9-4ab3-a58a-31e574dd9530
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f2dc19888bc6a5ce2189251aac78ef697eefa59f
-ms.sourcegitcommit: 1f8a789204b2498101d24fb5136e8ed6ad026c13
+ms.openlocfilehash: 368a49e4dc26317be72410e05747755d0d558158
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "64523654"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769409"
 ---
 # <a name="pidtagidentitydisplay-canonical-property"></a>Propriété canonique PidTagIdentityDisplay
 
@@ -25,7 +25,7 @@ ms.locfileid: "64523654"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom complet de l’identité d’un fournisseur de services telle que définie dans un système de messagerie. 
+Contient le nom complet de l’identité d’un fournisseur de services tel qu’il est défini dans un système de messagerie. 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contient le nom complet de l’identité d’un fournisseur de services telle qu
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés n’apparaissent pas en tant que propriétés sur un objet, mais uniquement en tant que colonnes dans un tableau d’état. Elle fait partie de l’identité du fournisseur de services qui expose la ligne de table d’état. L’identité du fournisseur fait généralement référence à son compte sur le serveur, mais peut faire référence à n’importe quelle représentation définie par le fournisseur dans le système de messagerie. 
+Ces propriétés n’apparaissent pas en tant que propriétés sur un objet, mais uniquement en tant que colonne dans une table d’état. Il fait partie de l’identité du fournisseur de services exposant la ligne de la table d’état. L’identité du fournisseur fait généralement référence à son compte sur le serveur, mais peut faire référence à n’importe quelle représentation définie par le fournisseur dans le système de messagerie. 
   
-Un fournisseur de services qui fournit l’une des propriétés d’identité doit toutes les fournir. Les fournisseurs qui appartiennent au même service de messagerie doivent exposer les mêmes valeurs pour les propriétés d’identité. 
+Un fournisseur de services fournissant l’une des propriétés d’identité doit tous les fournir. Les fournisseurs qui appartiennent au même service de message doivent exposer les mêmes valeurs pour les propriétés d’identité. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -50,7 +50,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -65,5 +65,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

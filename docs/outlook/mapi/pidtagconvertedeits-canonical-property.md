@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagConvertedEits
+description: Décrit la propriété canonique PidTagConvertedEits, qui contient un identificateur pour les types de texte dans un message après la conversion.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 569106ff-440b-4376-9608-afc8d4dba3e4
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 279fb9249b28c81970949159ece601f6c6f02c57
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: a7f0e633bf6a7dff03aca87c8e75bae4191381ef
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456069"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770984"
 ---
 # <a name="pidtagconvertedeits-canonical-property"></a>Propriété canonique PidTagConvertedEits
 
@@ -36,7 +36,7 @@ Contient un identificateur pour les types de texte dans un message après la con
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété indique les types d’informations codés (EIT) utilisés pour convertir les composants de texte du message.
+Cette propriété indique quels types d’informations encodés (EIT) ont été utilisés pour convertir les composants de texte du message.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

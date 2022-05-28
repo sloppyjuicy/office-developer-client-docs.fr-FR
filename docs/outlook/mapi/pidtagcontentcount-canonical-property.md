@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagContentCount
+description: Décrit la propriété canonique PidTagContentCount, qui contient le nombre de messages dans un dossier, tel qu’il est calculé par le magasin de messages.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 27c75031-a968-4636-98a6-4a5b7422f57c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 415b0ed99f99c511227b0af2c022c6e790070457
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 49954ff53bc9c95022e00675d36e501d4ad63539
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725069"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770109"
 ---
 # <a name="pidtagcontentcount-canonical-property"></a>Propriété canonique PidTagContentCount
 
@@ -25,7 +25,7 @@ ms.locfileid: "63725069"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nombre de messages dans un dossier, tel que calculé par la boutique de messages.
+Contient le nombre de messages dans un dossier, tel qu’il est calculé par le magasin de messages.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contient le nombre de messages dans un dossier, tel que calculé par la boutique
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété calculée par la magasin de messages est utilisée à deux fins différentes, bien qu’associées. Sur un objet MapiFolder, il contient le nombre de messages dans un dossier. Dans une ligne de titre des tableaux MAPI classés, elle contient le nombre de messages non associés dans la catégorie correspondant à cette ligne de titre.
+Cette propriété calculée par le magasin de messages est utilisée à deux fins différentes, bien que liées. Sur un objet MapiFolder, il contient le nombre de messages dans un dossier. Dans une ligne de titre dans des tables MAPI classées, elle contient le nombre de messages non associés dans la catégorie correspondant à cette ligne de titre.
   
-Le numéro contenu dans cette propriété n’inclut pas les entrées associées dans le dossier. **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)) contient le nombre de messages non lus pour le dossier. Une application cliente peut lire, mais ne peut pas modifier cette **propriété et PR_CONTENT_UNREAD**. 
+Le nombre contenu dans cette propriété n’inclut pas les entrées associées dans le dossier. **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)) contient le nombre de messages non lus pour le dossier. Une application cliente peut lire cette propriété et **PR_CONTENT_UNREAD**, mais pas la modifier. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Le numéro contenu dans cette propriété n’inclut pas les entrées associées
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Microsoft Exchange Server de protocole.
+> Fournit des références aux spécifications de protocole Microsoft Exchange Server associées.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -54,7 +54,7 @@ Le numéro contenu dans cette propriété n’inclut pas les entrées associées
     
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Inclut les opérations autorisées pour les objets de table principale.
+> Inclut les opérations autorisées pour les objets de table de base.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -64,7 +64,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -76,5 +76,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

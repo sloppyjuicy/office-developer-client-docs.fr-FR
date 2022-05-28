@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagFormHostMap
+description: Cet article décrit la propriété canonique PidTagFormHostMap, qui contient une carte hôte des formulaires disponibles.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 92742747-cce0-4c54-9ece-1fcf652ac498
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2c4ba7a909e4ae0a0703e367a463694fb4df900b
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 9ecac587bb5d7326a3ef26235d45aa744ff7750a
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63723434"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65771124"
 ---
 # <a name="pidtagformhostmap-canonical-property"></a>Propriété canonique PidTagFormHostMap
 
@@ -32,7 +32,7 @@ Contient une carte hôte des formulaires disponibles.
 |Propriétés associées :  <br/> |PR_FORM_HOST_MAP  <br/> |
 |Identificateur :  <br/> |0x3306  <br/> |
 |Type de données :  <br/> |PT_MV_LONG  <br/> |
-|Domaine :  <br/> |MAPI courant  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

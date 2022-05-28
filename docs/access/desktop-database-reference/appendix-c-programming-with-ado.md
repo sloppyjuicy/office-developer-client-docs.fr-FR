@@ -7,20 +7,20 @@ ms:contentKeyID: 48547024
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 039e7bbfdc454dbcdbc905d7de812d9cc7a73a97
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e8e8e64f3b22ee8c75563d052e5daf4cbad3f8b7
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558925"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769444"
 ---
 # <a name="appendix-c-programming-with-ado"></a>Annexe C : Programmation avec ADO
 
 **S’applique à** : Access 2013, Office 2013
 
-ADO est un composant d'interface d'automation COM qui peut être utilisé avec de nombreux langages de programmation, notamment Microsoft Visual Basic, VBScript, JScript, Visual C++ et Visual J++. Une version d'ADO est installée avec chacun de ces outils et avec d'autres applications, telles que Microsoft Office et Microsoft SQL Server. Visitez le [Centre Accès aux Données et Stockage](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017) pour plus d'informations.
+ADO est un composant d'interface d'automation COM qui peut être utilisé avec de nombreux langages de programmation, notamment Microsoft Visual Basic, VBScript, JScript, Visual C++ et Visual J++. Une version d'ADO est installée avec chacun de ces outils et avec d'autres applications, telles que Microsoft Office et Microsoft SQL Server. Visitez le [Centre Accès aux Données et Stockage](/sql/connect/sql-data-developer?view=sql-server-2017&preserve-view=true) pour plus d'informations.
 
-La bibliothèque d'ADO est msado15.dll et le préfixe de l'ID de programme (ProgID) est « ADODB ». Par exemple, pour faire explicitement référence à un [recordset](recordset-object-ado.md)ADO, utilisez .
+La bibliothèque d'ADO est msado15.dll et le préfixe de l'ID de programme (ProgID) est « ADODB ». Par exemple, pour faire explicitement référence à un jeu [d’enregistrements](recordset-object-ado.md) ADO, utilisez .
 
 Pour plus d'informations sur la programmation avec ADO dans divers environnements de développement, consultez les rubriques suivantes :
 

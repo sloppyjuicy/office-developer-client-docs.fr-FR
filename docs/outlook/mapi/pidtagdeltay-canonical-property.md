@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidTagDeltaY
+title: Propriété canonique PidTagDeltay
+description: Décrit la propriété canonique PidTagDeltaY, qui contient la hauteur d’un contrôle de boîte de dialogue dans les unités de dialogue Windows standard.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,28 +12,27 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 26bc1842-0736-4bcd-9251-86bf222ece2a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a4d8943bac1619d5e6ba0d37eba9ef3f6f20a010
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 56b25eee762411ba20c14f851de5a3c8f94a007b
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455124"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769738"
 ---
-# <a name="pidtagdeltay-canonical-property"></a>Propriété canonique PidTagDeltaY
+# <a name="pidtagdeltay-canonical-property"></a>Propriété canonique PidTagDeltay
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la hauteur d’un contrôle de boîte de dialogue en unités Windows dialogue standard. 
+Contient la hauteur d’un contrôle de boîte de dialogue dans les unités de dialogue Windows standard. 
   
 |Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DELTAY  <br/> |
 |Identificateur :  <br/> |0x3F04  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Tableau d’affichage MAPI  <br/> |
+|Domaine :  <br/> |Table d’affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

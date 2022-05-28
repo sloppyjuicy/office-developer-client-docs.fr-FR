@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagDefaultProfile
+description: Décrit la propriété canonique PidTagDefaultProfile, qui contient TRUE si un profil utilisateur de messagerie est le profil mapi par défaut.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 47f745a4-5a9c-42af-b076-a72548ef4d31
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 032d260b42a47ce8fc65720f3b0b82695f6c3e0d
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: fdc68d7cd1edc64db59719921879d93802b2b7ff
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454865"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65771145"
 ---
 # <a name="pidtagdefaultprofile-canonical-property"></a>Propriété canonique PidTagDefaultProfile
 
@@ -36,7 +36,7 @@ Contient TRUE si un profil utilisateur de messagerie est le profil MAPI par déf
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n’apparaît pas en tant que propriété d’un objet, mais uniquement en tant que colonne dans une table de profils. Une application cliente peut utiliser [la méthode IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md) pour désigner le profil par défaut. 
+Cette propriété n’apparaît pas comme une propriété d’un objet, mais uniquement comme une colonne dans une table de profils. Une application cliente peut utiliser la méthode [IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md) pour désigner le profil par défaut. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -63,5 +63,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: CbNewFLATENTRY
+description: CbNewFLATENTRY calcule le nombre d’octets qui doivent être alloués pour une nouvelle structure FLATENTRY qui contient un identificateur d’entrée d’une taille d’octet spécifiée.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 500437a4-e0bc-4368-b572-8aecded2621d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cf7c40f2279c20800e6a80b5066e214ed417e2b6
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: ff25bc4b032e503918ae67a5adfdc19d8f506773
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63634638"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770830"
 ---
 # <a name="cbnewflatentry"></a>CbNewFLATENTRY
 
@@ -25,12 +25,12 @@ ms.locfileid: "63634638"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets qui doivent être alloués à une nouvelle structure [FLATENTRY](flatentry.md) qui contient un identificateur d’entrée d’une taille d’octet spécifiée. 
+Calcule le nombre d’octets qui doivent être alloués pour une nouvelle structure [FLATENTRY](flatentry.md) qui contient un identificateur d’entrée d’une taille d’octet spécifiée. 
   
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**FLATENTRY** <br/> |
+|Structure associée :  <br/> |**FLATENTRY** <br/> |
    
 ```cpp
 CbNewFLATENTRY (_cb)
@@ -42,7 +42,7 @@ CbNewFLATENTRY (_cb)
   
 > Nombre d’octets dans l’identificateur d’entrée à inclure dans la nouvelle structure **FLATENTRY** . 
     
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 

@@ -7,12 +7,12 @@ ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5ca67d9b6915aa7b145b6001ec2d0b4d8516d04e
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: d7e5706c7603d766f5858f76463aa3b24fab95e2
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63630916"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769472"
 ---
 # <a name="appendix-a-providers"></a>Annexe A : Fournisseurs
 
@@ -100,9 +100,9 @@ Pour utiliser un fournisseur de services, vous devez fournir un mot clé. Vous d
 
 Le composant de services [Service de curseur pour OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) complète les fonctions de prise en charge du curseur des fournisseurs de données. Il exige également l'utilisation d'un mot clé et possède des propriétés dynamiques.
 
-Pour plus d'informations sur les fournisseurs, consultez la documentation relative à Microsoft OLE DB dans le kit de développement logiciel (SDK) des composants Microsoft Data Access ou visitez le [Centre Accès aux Données et Stockage](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
+Pour plus d'informations sur les fournisseurs, consultez la documentation relative à Microsoft OLE DB dans le kit de développement logiciel (SDK) des composants Microsoft Data Access ou visitez le [Centre Accès aux Données et Stockage](/sql/connect/sql-data-developer?view=sql-server-2017&preserve-view=true).
 
-## <a name="provider-commands"></a>Commandes de fournisseur
+## <a name="provider-commands"></a>Commandes du fournisseur
 
-Pour chaque fournisseur répertorié ici, si vos applications permettent aux utilisateurs d’entrer des instructions SQL en tant que commandes de fournisseur, vous devez toujours valider l’entrée utilisateur et être vigilant contre les attaques de pirates informatiques à l’aide d’instructions SQL potentiellement dangereuses, telles que, dans le cadre de l’entrée utilisateur.
+Pour chaque fournisseur répertorié ici, si vos applications permettent aux utilisateurs d’entrer SQL instructions en tant que commandes du fournisseur, vous devez toujours valider l’entrée utilisateur et être vigilant contre les attaques de pirates potentiellement dangereuses à l’aide d’une instruction SQL potentiellement dangereuse, telle que, dans le cadre de l’entrée utilisateur.
 

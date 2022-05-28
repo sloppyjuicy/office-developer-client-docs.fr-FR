@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagEndDate
+description: Décrit la propriété canonique PidTagEndDate, qui contient la date et l’heure de fin d’un rendez-vous gérés par une application de planification.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d7ec5c79-1287-4364-b5e5-5d1d6f0ea0f1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ee2118d3fbadcff9939dfa638da1b372b1885a6d
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 04bad45bcd1b0080d591e1d20f2a26c75b5c582b
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454403"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65771229"
 ---
 # <a name="pidtagenddate-canonical-property"></a>Propriété canonique PidTagEndDate
 
@@ -25,7 +25,7 @@ ms.locfileid: "64454403"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la date et l’heure de fin d’un rendez-vous géré par une application de planification. 
+Contient la date et l’heure de fin d’un rendez-vous gérés par une application de planification. 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient la date et l’heure de fin d’un rendez-vous géré par une applicati
    
 ## <a name="remarks"></a>Remarques
 
-Les applications de planification doivent définir le **PR_START_DATE** ([PidTagStartDate](pidtagstartdate-canonical-property.md)) et cette propriété lors de l’envoi de demandes de réunion. 
+Les applications de planification doivent définir les **PR_START_DATE** ([PidTagStartDate](pidtagstartdate-canonical-property.md)) et cette propriété lors de l’envoi de demandes de réunion. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Les applications de planification doivent définir le **PR_START_DATE** ([PidTag
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -58,7 +58,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

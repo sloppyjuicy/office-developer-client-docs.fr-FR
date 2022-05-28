@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidTagExpiryNumber
+title: PidTagExpiryNumber, propriété canonique
+description: Décrit la propriété canonique PidTagExpiryNumber, qui définit l’heure d’envoi d’expiration conjointement avec la propriété PR_EXPIRY_UNITS.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,21 +12,20 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 644e8d3d-1792-4417-95a1-e978d0e6cd8e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fc3e6479ac0de6d174fd102a9ee5130d376c43d2
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 7035af38b36972ebab353d0b43d0219bf0f023d2
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456048"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769416"
 ---
-# <a name="pidtagexpirynumber-canonical-property"></a>Propriété canonique PidTagExpiryNumber
+# <a name="pidtagexpirynumber-canonical-property"></a>PidTagExpiryNumber, propriété canonique
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit l’heure d’envoi d’expiration en association **PR_EXPIRY_UNITS propriété (**[PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)).
+Définit l’heure d’envoi d’expiration conjointement avec la propriété **PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)).
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,7 +36,7 @@ Définit l’heure d’envoi d’expiration en association **PR_EXPIRY_UNITS pro
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette propriété doit être définie entre 0 et 999 inclus, si elle est présente.
+La valeur de cette propriété doit être comprise entre 0 et 999 inclus, si elle est présente.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ La valeur de cette propriété doit être définie entre 0 et 999 inclus, si ell
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les objets de message électronique.
+> Spécifie les propriétés et les opérations autorisées pour les objets de courrier électronique.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -54,7 +54,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -66,5 +66,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

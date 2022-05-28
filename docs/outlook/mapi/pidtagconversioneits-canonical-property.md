@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagConversionEits
+description: Décrit la propriété canonique PidTagConversionEits, qui contient les types d’informations encodés (EIT).
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f75ea086-9d65-4396-a2e3-1751351e56d3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8255ef639b55f408818546cdf72abceb6b36720f
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: c1a357bb738dcb722bb12ce59c26fdd547c420d7
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455796"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770788"
 ---
 # <a name="pidtagconversioneits-canonical-property"></a>Propriété canonique PidTagConversionEits
 
@@ -25,7 +25,7 @@ ms.locfileid: "64455796"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les types d’informations codés (EIT) qui sont appliqués à un message en transit pour décrire les conversions.
+Contient les types d’informations encodés (EIT) qui sont appliqués à un message en transit pour décrire les conversions.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

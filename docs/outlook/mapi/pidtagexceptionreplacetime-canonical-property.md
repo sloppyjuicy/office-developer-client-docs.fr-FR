@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagExceptionReplaceTime
+description: Décrit la propriété canonique PidTagExceptionReplaceTime, qui s’applique à Outlook 2013 et Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bd4d1311-15e4-4275-a967-c6d11d2e48d2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 680c4180be67d52ae5cb8976dfb12de1bbef3f11
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 9173cfe26f5c3de8dc4c50b66caee42be880a1f9
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455775"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65771138"
 ---
 # <a name="pidtagexceptionreplacetime-canonical-property"></a>Propriété canonique PidTagExceptionReplaceTime
 
@@ -25,14 +25,14 @@ ms.locfileid: "64455775"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la date et l’heure d’origine où l’instance dans la récurrence se serait produite s’il ne s’agit pas d’une exception.
+Indique la date et l’heure d’origine de l’instance dans le modèle de périodicité si elle n’était pas une exception.
   
 |Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EXCEPTION_REPLACETIME  <br/> |
 |Identificateur :  <br/> |0x7FF9  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Domaine :  <br/> |Message non transmissable par une classe de message  <br/> |
+|Domaine :  <br/> |Message non transmissible défini par la classe  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -66,5 +66,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

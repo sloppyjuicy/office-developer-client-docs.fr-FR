@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagContentConfidentialityAlgorithmId
+description: Décrit la propriété canonique PidTagContentConfidentialityAlgorithmId, qui contient un identificateur utilisé pour confirmer la confidentialité du contenu du message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 18324a5d-aedc-4456-b2f0-6bc42b6ab882
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 10ea8cb0b659c4adc48f7dbab263a391a32d97f4
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: cf0375155d8489e13918e415bf504e25736a2922
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64452205"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65771194"
 ---
 # <a name="pidtagcontentconfidentialityalgorithmid-canonical-property"></a>Propriété canonique PidTagContentConfidentialityAlgorithmId
 
@@ -25,7 +25,7 @@ ms.locfileid: "64452205"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur pour l’algorithme utilisé pour confirmer la confidentialité du contenu des messages.
+Contient un identificateur pour l’algorithme utilisé pour confirmer la confidentialité du contenu du message.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -44,7 +44,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -56,5 +56,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,17 +1,17 @@
 ---
 title: � propos des propri�t�s nomm�es utilis�es par Outlook
+description: Décrit les propriétés nommées dans Outlook, qui sont identifiées par un nom et un identificateur global unique (GUID) pour un jeu de propriétés.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 8c245ec2-bb18-ecf0-b4ad-8c164c5924cf
-description: 'Dernière modification : 25 juin 2012'
-ms.openlocfilehash: a41f564094bd274dd1c1558700a0773ece0b0762
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a60a747e3fe4d6b9c12eebc4893177f66308bb95
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551918"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770290"
 ---
 # <a name="about-named-properties-used-by-outlook"></a>À propos des propriétés nommées utilisées par Outlook
 

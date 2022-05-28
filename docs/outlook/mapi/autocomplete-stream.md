@@ -1,17 +1,17 @@
 ---
 title: Flux de saisie semi-automatique
+description: Décrit le flux de saisie semi-automatique, qui est un ensemble de lignes de propriété de destinataire qui sont enregistrées en tant que flux binaire avec certaines métadonnées de comptabilité utilisées uniquement par certaines versions de Microsoft Outlook.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: af9e3a4d4eea0dea637e21d7878d9b7791f697cd
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3c4627d6f3c6d950417ff7a7f9c40987f9fc4b8b
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770821"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65771117"
 ---
 # <a name="autocomplete-stream"></a>Flux de saisie semi-automatique
 

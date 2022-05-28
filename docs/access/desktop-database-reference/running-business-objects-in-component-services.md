@@ -7,12 +7,12 @@ ms:contentKeyID: 48543328
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c3b3b189f97cfc7aa338614d06c75437eb3b24df
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0829fbddd421bce2ddeefc1f21259ff45bdf8d08
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601834"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770816"
 ---
 # <a name="running-business-objects-in-component-services"></a>Exécution des objets métiers dans les services de composants
 
@@ -26,11 +26,11 @@ Les objets métier peuvent représenter des fichiers exécutables (.exe) ou des 
 
 
 > [!NOTE]
-> Lorsque les objets métier du niveau intermédiaire sont implémentés en tant que composants des services de composants (à l’aide de **GetObjectContext,** **SetComplete** et **SetAbort),** ils peuvent utiliser des objets de contexte Component Services (ou MTS, si vous utilisez Windows NT) pour maintenir leur état dans plusieurs appels clients. Ce cas de figure, généralement implémenté entre des clients et des serveurs de confiance (dans un intranet), est possible grâce à DCOM. 
+> Lorsque les objets métier du niveau intermédiaire sont implémentés en tant que composants Component Services (à l’aide de **GetObjectContext**, **SetComplete** et **SetAbort**), ils peuvent utiliser les services de composants (ou MTS) si vous utilisez des objets de contexte Windows NT pour maintenir leur état sur plusieurs appels clients. Ce cas de figure, généralement implémenté entre des clients et des serveurs de confiance (dans un intranet), est possible grâce à DCOM. 
 >
 > L'objet [RDS.DataSpace](dataspace-object-rds.md) et la méthode [CreateObject](createobject-method-rds.md) sur le client sont remplacés par l'objet de contexte de transaction et la méthode **CreateInstance** (fournie par l'interface **ITransactionContext** ) est implémentée par les services de composants.
 
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Exécution des objets métier dans les services de composants (SQL Server)](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)
+- [Exécution d’objets métier dans les services de composants (SQL Server)](/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017&preserve-view=true)

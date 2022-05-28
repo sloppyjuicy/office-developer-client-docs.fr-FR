@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagControlFlags
+description: Décrit la propriété canonique PidTagControlFlags, qui contient un masque de bits d’indicateurs régissant le comportement d’un contrôle.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b97a9e72-fbb7-49ab-a19d-5e9bd1b8a80d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fa73181a75d4fddd4920f904b2c4bf642f0fa18a
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: c64cb251132e6767b162020567a1f466c8b2465f
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455327"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770571"
 ---
 # <a name="pidtagcontrolflags-canonical-property"></a>Propriété canonique PidTagControlFlags
 
@@ -25,69 +25,69 @@ ms.locfileid: "64455327"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque de bits d’indicateurs régissant le comportement d’un contrôle utilisé dans une boîte de dialogue conçue à partir d’un tableau d’affichage.
+Contient un masque de bits des indicateurs qui régissent le comportement d’un contrôle utilisé dans une boîte de dialogue créée à partir d’une table d’affichage.
   
 |Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTROL_FLAGS  <br/> |
 |Identificateur :  <br/> |0x3F00  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Tableau d’affichage MAPI  <br/> |
+|Domaine :  <br/> |Table d’affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Un ou plusieurs des indicateurs suivants peuvent être définies pour cette propriété :
+Un ou plusieurs des indicateurs suivants peuvent être définis pour cette propriété :
   
 DT_ACCEPT_DBCS 
   
-> Le contrôle peut être Double-Byte de jeu de caractères (DBCS). Cet indicateur est utilisé avec les contrôles d’édition. Il autorise les jeux de caractères à plusieurs caractères.
+> Le contrôle peut contenir Double-Byte caractères DBCS (Character Set). Cet indicateur est utilisé avec les contrôles de modification. Il autorise les jeux de caractères sur plusieurs octets.
     
 DT_EDITABLE 
   
-> Le contrôle peut être modifié . la valeur associée au contrôle peut être modifiée. Lorsque cet indicateur n’est pas définie, le contrôle est en lecture seule. Cette valeur est ignorée sur les contrôles d’étiquette, de zone de groupe, de bouton push standard, de zone de liste liste et de zone de liste à valeurs multiples.
+> Le contrôle peut être modifié ; la valeur associée au contrôle peut être modifiée. Lorsque cet indicateur n’est pas défini, le contrôle est en lecture seule. Cette valeur est ignorée sur les contrôles d’étiquette, de zone de groupe, de bouton Push standard, de zone de liste déroulante à valeurs multiples et de zone de liste.
     
 DT_MULTILINE 
   
-> Le contrôle d’édition peut contenir plusieurs lignes. Cela signifie qu’un caractère de retour peut être entré dans le contrôle. Cet indicateur est valide pour les contrôles d’édition uniquement.
+> Le contrôle d’édition peut contenir plusieurs lignes. Cela signifie qu’un caractère de retour peut être entré dans le contrôle. Cet indicateur est valide uniquement pour les contrôles de modification.
     
 DT_PASSWORD_EDIT 
   
-> S’applique aux contrôles d’édition. Le contrôle d’édition est traité comme un mot de passe. La valeur est affichée à l’aide d’astérisques au lieu d’un écho des caractères entrés.
+> S’applique aux contrôles de modification. Le contrôle d’édition est traité comme un mot de passe. La valeur s’affiche à l’aide d’astérisques au lieu de faire écho aux caractères entrés.
     
 DT_REQUIRED 
   
-> Si le contrôle autorise les modifications (DT_EDITABLE), il doit avoir une valeur avant d’appeler [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . 
+> Si le contrôle autorise les modifications (DT_EDITABLE), il doit avoir une valeur avant [l’appel d’IMAPIProp::SaveChanges](imapiprop-savechanges.md) . 
     
 DT_SET_IMMEDIATE 
   
-> Active la définition immédiate d’une valeur ; Dès qu’une valeur du contrôle change, MAPI appelle la méthode **SetProps** pour la propriété associée à ce contrôle. Lorsque cet indicateur n’est pas définie, les valeurs sont définies lorsque la boîte de dialogue est rejetée. 
+> Active le paramètre immédiat d’une valeur ; dès qu’une valeur du contrôle change, MAPI appelle la méthode **SetProps** pour la propriété associée à ce contrôle. Lorsque cet indicateur n’est pas défini, les valeurs sont définies lorsque la boîte de dialogue est ignorée. 
     
 DT_SET_SELECTION 
   
-> Lorsqu’une sélection est réalisée dans la zone de liste, la colonne d’index de cette zone de liste est définie en tant que propriété. Toujours utilisé avec les DT_SET_IMMEDIATE.
+> Lorsqu’une sélection est effectuée dans la zone de liste, la colonne d’index de cette zone de liste est définie en tant que propriété. Toujours utilisé avec DT_SET_IMMEDIATE.
     
-Cette propriété est stockée dans le membre ulCtlFlags de la structure [DTCTL](dtctl.md) d’un contrôle. La plupart des indicateurs de contrôle s’appliquent à tous les contrôles qui autorisent l’entrée utilisateur ; Quelques-unes s’appliquent uniquement au contrôle d’édition. Les contrôles qui n’autorisent pas l’entrée utilisateur, tels qu’un bouton ou une étiquette, définissent 0 pour leurs indicateurs de contrôle. 
+Cette propriété est stockée dans le membre ulCtlFlags de la structure [DTCTL](dtctl.md) d’un contrôle. La plupart des indicateurs de contrôle s’appliquent à tous les contrôles qui autorisent l’entrée utilisateur ; quelques-uns s’appliquent uniquement au contrôle d’édition. Les contrôles qui n’autorisent pas l’entrée utilisateur, par exemple un bouton ou une étiquette, définissent 0 pour leurs indicateurs de contrôle. 
   
-La plupart des valeurs d’indicateur sont explicites. Par exemple, lorsque DT_REQUIRED est définie pour un contrôle, elle doit contenir une valeur avant que la boîte de dialogue ne soit autorisée à être rejetée. Le fournisseur de services peut fournir une valeur via son **implémentation IMAPIProp** ou l’utilisateur peut en entrer une. DT_EDITABLE indique que la valeur du contrôle peut être modifiée. DT_MULTILINE permet à la valeur d’un contrôle d’édition de s’étendre sur plusieurs lignes. 
+La plupart des valeurs d’indicateur sont explicites. Par exemple, lorsque DT_REQUIRED est défini pour un contrôle, il doit contenir une valeur avant que la boîte de dialogue ne soit autorisée à être ignorée. Soit le fournisseur de services peut fournir une valeur par le biais de son implémentation **IMAPIProp** , soit l’utilisateur peut en entrer une. DT_EDITABLE indique que la valeur du contrôle peut être modifiée. DT_MULTILINE permet à un contrôle d’édition de s’étendre sur plusieurs lignes. 
   
-Certains indicateurs de contrôle ne sont pas aussi évidents à comprendre. Lorsqu’un contrôle définit l’DT_SET_IMMEDIATE, toute modification apportée à sa valeur est répercuté dès que l’utilisateur passe à un nouveau contrôle. MAPI effectue un appel unique à la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) de l’interface de propriétés pour la propriété du contrôle. Ce comportement est différent du comportement par défaut, qui consiste à reporter l’application des modifications apportées aux valeurs de contrôle jusqu’à ce que l’utilisateur sélectionne le bouton **OK** ou qu’il a fait disparaître la boîte de dialogue. L’DT_SET_IMMEDIATE est souvent utilisé en combinaison avec les notifications de tableau d’affichage. 
+Certains indicateurs de contrôle ne sont pas si évidents dans leur signification. Lorsqu’un contrôle définit l’indicateur DT_SET_IMMEDIATE, les modifications apportées à sa valeur affectent dès que l’utilisateur passe à un nouveau contrôle. MAPI effectue un appel unique à la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) de l’interface de propriété pour la propriété du contrôle. Ce comportement est différent du comportement par défaut, qui consiste à reporter l’effet des modifications apportées aux valeurs de contrôle jusqu’à ce que l’utilisateur sélectionne le bouton **OK** ou ferme la boîte de dialogue. L’indicateur DT_SET_IMMEDIATE est souvent utilisé en combinaison avec les notifications de table d’affichage. 
   
 Le tableau suivant répertorie les types de contrôles et toutes les valeurs d’indicateur qui peuvent être définies pour chaque type.
   
 |**Contrôle**|**Valeurs valides pour cette propriété**|
 |:-----|:-----|
-|Bouton  <br/> |Doit être zéro  <br/> |
+|Bouton  <br/> |Doit être égal à zéro  <br/> |
 |Case à cocher  <br/> |DT_EDITABLE, DT_SET_IMMEDIATE  <br/> |
 |Zone de liste modifiable  <br/> |DT_EDITABLE, DT_REQUIRED, DT_SET_IMMEDIATE  <br/> |
-|Zone de liste liste  <br/> |DT_EDITABLE, DT_SET_IMMEDIATE  <br/> |
+|Zone de liste déroulante  <br/> |DT_EDITABLE, DT_SET_IMMEDIATE  <br/> |
 |Modifier  <br/> |DT_ACCEPT_DBCS, DT_MULTILINE, DT_EDITABLE, DT_PASSWORD_EDIT, DT_REQUIRED, DT_SET_IMMEDIATE  <br/> |
-|Zone de groupe  <br/> |Doit être zéro  <br/> |
-|Étiquette  <br/> |Doit être zéro  <br/> |
-|Zone de liste  <br/> |Doit être zéro  <br/> |
-|Zone de liste rouge à valeurs multiples  <br/> |Doit être zéro  <br/> |
-|Zone de liste à valeurs multiples  <br/> |Doit être zéro  <br/> |
-|Page à onglets  <br/> |Doit être zéro  <br/> |
-|Bouton d’radio  <br/> |Doit être zéro  <br/> |
+|Zone de groupe  <br/> |Doit être égal à zéro  <br/> |
+|Étiquette  <br/> |Doit être égal à zéro  <br/> |
+|Zone de liste  <br/> |Doit être égal à zéro  <br/> |
+|Zone de liste déroulante à valeurs multiples  <br/> |Doit être égal à zéro  <br/> |
+|Zone de liste à valeurs multiples  <br/> |Doit être égal à zéro  <br/> |
+|Page à onglets  <br/> |Doit être égal à zéro  <br/> |
+|Case d’option  <br/> |Doit être égal à zéro  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -99,7 +99,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -111,5 +111,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

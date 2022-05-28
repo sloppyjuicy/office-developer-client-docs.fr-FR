@@ -1,17 +1,17 @@
 ---
 title: � propos de la d�finition de l'ordre de r�solution des listes d'adresses dans Outlook
+description: Décrit comment définir l’ordre de résolution des listes d’adresses par lesquelles les destinataires des messages électroniques et les participants aux demandes de réunion sont résolus dans Microsoft Outlook.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: e1589568-cb49-86dd-5d16-b08c8117bd17
-description: 'Dernière modification : 05 juillet 2012'
-ms.openlocfilehash: d5c4a771417e8556e499e50f3476b08d50157e79
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c07d683eeff38b5168637b9cf5430c3e560ea0dd
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556993"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770809"
 ---
 # <a name="about-setting-the-resolution-order-for-address-lists-in-outlook"></a>À propos de la définition de l’ordre de résolution pour les listes d’adresses dans Outlook
 

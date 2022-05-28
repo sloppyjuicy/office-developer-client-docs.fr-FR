@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagContainerClass
+description: Décrit la propriété canonique PidTagContainerClass, qui contient une chaîne de texte décrivant le type d’un dossier.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: db249e9e-f1f0-4b95-8cd9-daa7c53ddb32
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 35f041840d355b5e9032e83920b39c752f30e81e
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 0d3709d97974002c4c2aa4383eca3bf214c98bd9
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454886"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769304"
 ---
 # <a name="pidtagcontainerclass-canonical-property"></a>Propriété canonique PidTagContainerClass
 
@@ -36,20 +36,20 @@ Contient une chaîne de texte décrivant le type d’un dossier. Bien que cette 
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés ne sont normalement pas utilisées par les Exchange Server. Toutefois, Microsoft Office Outlook ® les joint à des dossiers de boîte aux lettres. En outre, les versions de Exchange Server antérieures à Exchange Server 2003 Mailbox Manager peuvent gérer de manière incorrecte les dossiers qui n’ont pas ces propriétés.
+Ces propriétés ne sont normalement pas utilisées par Exchange Server. Toutefois, Microsoft Office Outlook ® les attache aux dossiers de boîte aux lettres. En outre, les versions de Exchange Server antérieures à Exchange Server Gestionnaire de boîtes aux lettres 2003 peuvent gérer de manière incorrecte les dossiers qui n’ont pas ces propriétés.
   
 Ces propriétés peuvent être affectées aux valeurs de chaîne dans le tableau suivant.
   
 |**Valeur**|**Contenu du dossier**|
 |:-----|:-----|
-|IPF. Rendez-vous  <br/> |Rendez-vous  <br/> |
-|IPF. Contact  <br/> |Contacts  <br/> |
-|IPF. Journal  <br/> |Outlook journal  <br/> |
-|IPF. Remarque  <br/> |Messages électroniques et notes  <br/> |
-|IPF. StickyNote  <br/> |Outlook Pense-bêtes  <br/> |
-|IPF. Tâche  <br/> |Tâches Outlook  <br/> |
+|GIF. Nomination  <br/> |Rendez-vous  <br/> |
+|GIF. Contact  <br/> |Contacts  <br/> |
+|GIF. Journal  <br/> |entrées du journal Outlook  <br/> |
+|GIF. Note  <br/> |Messages électroniques et notes  <br/> |
+|GIF. StickyNote  <br/> |Outlook Pense-bêtes  <br/> |
+|GIF. Tâche  <br/> |Tâches Outlook  <br/> |
    
-Pour les dossiers qui contiennent des messages électroniques, ces propriétés doivent être définies sur IPF. Remarque.
+Pour les dossiers contenant des messages électroniques, ces propriétés doivent être définies sur IPF. Note.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -57,11 +57,11 @@ Pour les dossiers qui contiennent des messages électroniques, ces propriétés 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations permettant de créer et de localiser les dossiers spéciaux dans une boîte aux lettres.
+> Spécifie les propriétés et les opérations de création et de localisation des dossiers spéciaux dans une boîte aux lettres.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -69,7 +69,7 @@ Pour les dossiers qui contiennent des messages électroniques, ces propriétés 
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les objets de liste de distribution personnelle et de contact.
+> Spécifie les propriétés et les opérations autorisées pour les objets de liste de distribution de contacts et personnels.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -79,7 +79,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -91,5 +91,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

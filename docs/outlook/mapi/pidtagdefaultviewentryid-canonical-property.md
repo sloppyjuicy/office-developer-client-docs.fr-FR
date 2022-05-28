@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagDefaultViewEntryId
+description: Décrit la propriété canonique PidTagDefaultViewEntryId, qui contient l’identificateur d’entrée de la vue par défaut d’un dossier.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1b4e82ed-c207-4828-8a5b-0ef312962355
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fd3ba94c6d7d9aa1ed1029e0f95cc5ebf5e7f1af
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 45fd4080992835b31095374447f5d9bb8e826765
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455943"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769311"
 ---
 # <a name="pidtagdefaultviewentryid-canonical-property"></a>Propriété canonique PidTagDefaultViewEntryId
 
@@ -25,7 +25,7 @@ ms.locfileid: "64455943"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur d’entrée de l’affichage par défaut d’un dossier.
+Contient l’identificateur d’entrée de la vue par défaut d’un dossier.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contient l’identificateur d’entrée de l’affichage par défaut d’un doss
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est l’identificateur d’entrée de l’affichage dossier qui doit être définie en tant qu’affichage initial. La propriété ne doit pas être définie si l’affichage « Normal » doit être utilisé comme affichage initial.
+Cette propriété est l’identificateur d’entrée de l’affichage dossier qui doit être défini comme vue initiale. La propriété n’a pas besoin d’être définie si la vue « Normal » doit être utilisée comme vue initiale.
   
-Une application cliente peut obtenir cette propriété au moment où elle ouvre le dossier et réalise des gains de performances significatifs. Cette propriété peut servir de raccourci pour obtenir l’affichage par défaut, au lieu d’ouvrir la table des matières associée et d’envoyer une restriction.
+Une application cliente peut obtenir cette propriété au moment où elle ouvre le dossier et réaliser des gains de performances significatifs. Cette propriété peut être utilisée comme raccourci pour obtenir l’affichage par défaut, au lieu d’ouvrir la table des matières associée et d’envoyer une restriction.
   
 Une implémentation de fournisseur de services de la méthode [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) peut copier cette propriété lorsqu’elle copie des dossiers. 
   
@@ -58,7 +58,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

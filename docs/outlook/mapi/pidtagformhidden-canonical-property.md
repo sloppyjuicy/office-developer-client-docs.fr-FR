@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagFormHidden
+description: Décrit la propriété canonique PidTagFormHidden, qui contient TRUE si un formulaire doit être supprimé de l’affichage par des menus de composition et des boîtes de dialogue.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 79cb1fa5-9a32-4872-9806-ecd664022234
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e57e0f1715e4403bd2971ced073aedd1aa6a8249
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 16cb1d9192b7f1bf5fa91634837345a80fcd85eb
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63716254"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770256"
 ---
 # <a name="pidtagformhidden-canonical-property"></a>Propriété canonique PidTagFormHidden
 
@@ -25,18 +25,18 @@ ms.locfileid: "63716254"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient TRUE si un formulaire doit être supprimé de l’affichage par les menus de composition et les boîtes de dialogue. 
+Contient TRUE si un formulaire doit être supprimé de l’affichage par des menus de composition et des boîtes de dialogue. 
   
 |Propriété |Valeur |
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_HIDDEN  <br/> |
 |Identificateur :  <br/> |0x3307  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |MAPI courant  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les propriétés liées aux formulaires sont en lecture seule. 
+Les propriétés liées au formulaire sont en lecture seule. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

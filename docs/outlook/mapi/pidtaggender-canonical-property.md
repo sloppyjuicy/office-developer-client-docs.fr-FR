@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidTagGender
+title: PidTagGender Canonical, propriété
+description: Cet article décrit la propriété canonique PidTagGender, qui contient le sexe de l’utilisateur de messagerie.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,15 +12,14 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a79a139a-6813-49f6-b622-bb66d62c4462
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2c2340cf2c733d19a361ceb095720c4c07f23d62
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 57432592edbbb1a7598b286217db259e68363481
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454816"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769283"
 ---
-# <a name="pidtaggender-canonical-property"></a>Propriété canonique PidTagGender
+# <a name="pidtaggender-canonical-property"></a>PidTagGender Canonical, propriété
 
   
   
@@ -38,13 +38,13 @@ Contient le sexe de l’utilisateur de messagerie.
 
 Cette propriété fournit des informations d’identification et d’accès sur un utilisateur de messagerie et le contenu. Le contenu est défini par l’utilisateur de messagerie et l’organisation de l’utilisateur de messagerie. 
   
-Les valeurs possibles pour cette propriété sont définies dans l’éumération du sexe. Elles sont répertoriées comme suit :
+Les valeurs possibles pour cette propriété sont définies dans l’énumération de genre. Elles sont répertoriées comme suit :
   
-|**Gender, éumeration**|**Valeur**|**Description**|
+|**Énumération de genre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |genderUnspecified  <br/> |0x0000  <br/> |Le sexe du contact n’est pas spécifié. |
-|genderFemale  <br/> |0x0001  <br/> |Le contact est une femme. |
-|genderMale  <br/> |0x0002  <br/> |Le contact est un homme. |
+|genderFemale  <br/> |0x0001  <br/> |Le contact est féminin. |
+|genderMale  <br/> |0x0002  <br/> |Le contact est masculin. |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -52,15 +52,15 @@ Les valeurs possibles pour cette propriété sont définies dans l’éumératio
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations pour les listes d’utilisateurs, de contacts, de groupes et de ressources.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -70,7 +70,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -82,5 +82,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

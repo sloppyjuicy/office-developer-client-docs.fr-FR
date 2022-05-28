@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagContactAddressTypes
+description: Décrit la propriété canonique PidTagContactAddressTypes, qui contient une liste de types d’adresses pour un contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8cfd4c89-a74f-4af9-b9c3-5c1a396ee600
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 274933d46089b03362ffe29a12615f226372f97b
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: eddda68be2392519f79c910c9a46c29148322049
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725971"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770578"
 ---
 # <a name="pidtagcontactaddresstypes-canonical-property"></a>Propriété canonique PidTagContactAddressTypes
 
@@ -44,7 +44,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -56,5 +56,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

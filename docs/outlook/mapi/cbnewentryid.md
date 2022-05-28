@@ -1,5 +1,6 @@
 ---
 title: CbNewENTRYID
+description: CbNewENTRYID calcule le nombre d’octets qui doivent être alloués pour une nouvelle structure ENTRYID d’une taille spécifiée.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69cb8e0b-4da0-46ef-b1c0-df5e3a791b08
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a19655edae412088768bb58f3d3a6ec6321e61ee
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 234e725e92a1e89833cf040dd3edb874c744f152
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63630412"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770963"
 ---
 # <a name="cbnewentryid"></a>CbNewENTRYID
 
@@ -25,12 +25,12 @@ ms.locfileid: "63630412"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets qui doivent être alloués à une nouvelle structure [ENTRYID](entryid.md) d’une taille spécifiée. 
+Calcule le nombre d’octets qui doivent être alloués pour une nouvelle structure [ENTRYID](entryid.md) d’une taille spécifiée. 
   
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**ENTRYID** <br/> |
+|Structure associée :  <br/> |**ENTRYID** <br/> |
    
 ```cpp
 CbNewENTRYID (_cb)
@@ -42,7 +42,7 @@ CbNewENTRYID (_cb)
   
 > Nombre d’octets dans l’identificateur d’entrée à stocker dans la nouvelle structure **ENTRYID** . 
     
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 

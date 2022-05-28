@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagContentCorrelator
+description: Décrit la propriété canonique PidTagContentCorrelator, qui contient une valeur que l’expéditeur du message peut utiliser pour faire correspondre un rapport au message d’origine.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0bf78879-2f9f-4c29-b1f4-2f4882d8464d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 140f12157dca386ed21e895a68651dcea456a82a
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 64baf12505cbfe42dd40e6f50a9d01fd8b2a1c68
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63716261"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769563"
 ---
 # <a name="pidtagcontentcorrelator-canonical-property"></a>Propriété canonique PidTagContentCorrelator
 
@@ -25,7 +25,7 @@ ms.locfileid: "63716261"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur que l’expéditeur du message peut utiliser pour faire correspondre un état au message d’origine.
+Contient une valeur que l’expéditeur du message peut utiliser pour faire correspondre un rapport au message d’origine.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient une valeur que l’expéditeur du message peut utiliser pour faire corr
    
 ## <a name="remarks"></a>Remarques
 
-Le contenu de la chaîne binaire est défini par l’auteur du message. Si elle est définie sur un message sortant, cette propriété doit être copiée dans tous les états générés en réponse au message.
+Le contenu de la chaîne binaire est défini par l’expéditeur du message. Si elle est définie sur un message sortant, cette propriété doit être copiée sur tous les rapports générés en réponse au message.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

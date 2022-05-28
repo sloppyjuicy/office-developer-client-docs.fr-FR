@@ -1,17 +1,17 @@
 ---
 title: À propos de l’API de magasin
+description: L’API Store fournit diverses fonctionnalités de magasin pour les fournisseurs de stockage. Cet article décrit les définitions, types de données, propriétés et interfaces associés.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 166a8e60-e09d-7473-b61b-35d78a863192
-description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: deba8ea99e53d3bc20267d4beb92952af14adfaa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6e66323a3c00ec32e37d99a51da6c1441423f6f3
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592742"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770025"
 ---
 # <a name="about-the-store-api"></a>À propos de l’API de magasin
 
@@ -19,11 +19,11 @@ ms.locfileid: "59592742"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L’API du Store fournit diverses fonctionnalités du Store aux fournisseurs de magasins. Il fournit les définitions, types de données, propriétés et interfaces suivants.
+L’API Store fournit diverses fonctionnalités de magasin pour les fournisseurs de stockage. Il fournit les définitions, types de données, propriétés et interfaces suivants.
   
 Définitions :
   
-- [Constantes de l’API du Store](mapi-constants.md)
+- [Constantes pour l’API Store](mapi-constants.md)
     
 Types de données :
   
@@ -37,16 +37,16 @@ Propriétés nommées :
     
 - **[CrawlSourceSupportMask](crawlsourcesupportmask.md)**
     
-- **[Afficher les tailles des dossiers serveur](display-server-folder-sizes-property.md)**
+- **[Afficher les tailles des dossiers du serveur](display-server-folder-sizes-property.md)**
     
-- **[Masquer l’option de mise à jour de réunion](hide-meeting-update-option-property.md)**
+- **[Masquer l’option De mise à jour de réunion](hide-meeting-update-option-property.md)**
     
-- **[Rendre privé le type de magasin](make-store-type-private-property.md)**
+- **[Rendre le type de magasin privé](make-store-type-private-property.md)**
     
 - **[NoFolderScan](nofolderscan.md)**
     
 > [!NOTE]
-> Les fournisseurs de magasins qui ne nécessitent aucune des fonctionnalités offertes par ces propriétés nommées peuvent simplement les ignorer et ne pas implémenter la prise en charge dans l’interface **IMAPIProp.** Étant donné que ces propriétés sont fournies à partir de Microsoft Outlook 2003 Service Pack 1, leur ajout à un magasin dans une version antérieure de Microsoft Outlook n’a aucun effet. Ils sont ignorés s’ils n’existent pas ou si leur valeur est **false**. 
+> Les fournisseurs de magasins qui ne nécessitent aucune des fonctionnalités offertes par ces propriétés nommées peuvent simplement les ignorer et ne pas implémenter la prise en charge dans l’interface **IMAPIProp** . Étant donné que ces propriétés sont fournies à partir de Microsoft Outlook Service Pack 1 2003, leur ajout à un magasin dans une version antérieure de Microsoft Outlook n’a aucun effet. Ils sont ignorés s’ils n’existent pas ou si leur valeur est **false**. 
   
 Propriétés :
   
@@ -68,10 +68,10 @@ Interfaces :
     
 ## <a name="registering-stores-for-indexing"></a>Inscription de magasins pour l’indexation
 
-Le handler de protocole MAPI vérifie la Windows registre pour les magasins qu’il doit indexer à des fins de recherche. Les fournisseurs du Windows Store qui souhaitent être indexés doivent être inscrits dans Windows registre. Pour plus d’informations sur l’inscription des fournisseurs de magasins pour l’indexation dans Outlook 2013 ou Outlook 2010, voir À propos de l’inscription des magasins pour [l’indexation.](about-registering-stores-for-indexing.md)
+Le gestionnaire de protocole MAPI vérifie le registre Windows pour les magasins qu’il doit indexer à des fins de recherche. Les fournisseurs de magasins qui souhaitent être indexés doivent être inscrits dans le registre Windows. Pour plus d’informations sur l’inscription des fournisseurs de magasins pour l’indexation dans Outlook 2013 ou Outlook 2010, consultez [À propos de l’inscription des magasins pour l’indexation](about-registering-stores-for-indexing.md).
   
 ## <a name="indexing-stores"></a>Magasins d’indexation
 
-Les fournisseurs de magasins MAPI peuvent choisir d’autoriser le handler de protocole MAPI à analyser et indexer des messages dans la boutique, ou d’envoyer des notifications à l’indexeur uniquement lorsqu’il existe des messages à indexer. Pour plus d’informations sur l’indexation basée sur les notifications, voir à propos [Notification-Based'indexation du Store.](about-notification-based-store-indexing.md)
+Les fournisseurs de magasin MAPI peuvent choisir d’autoriser le gestionnaire de protocole MAPI à analyser et à indexer les messages dans le magasin, ou d’envoyer des notifications à l’indexeur uniquement quand des messages doivent être indexés. Pour plus d’informations sur l’indexation basée sur les notifications, consultez [About Notification-Based Store Indexing](about-notification-based-store-indexing.md).
   
 

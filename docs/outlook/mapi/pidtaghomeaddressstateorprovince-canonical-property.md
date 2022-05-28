@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagHomeAddressStateOrProvince
+description: Décrit la propriété canonique PidTagHomeAddressStateOrProvince, qui contient la partie état ou province de l’adresse d’un utilisateur.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e92db38a-9ae9-4d75-b768-674453c19fe3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 219eb5e1197c415f16f163f381b1654060ed4e26
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 5f0b156f0ac46c99f8b9987a5c5e737e66617b91
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454802"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769878"
 ---
 # <a name="pidtaghomeaddressstateorprovince-canonical-property"></a>Propriété canonique PidTagHomeAddressStateOrProvince
 
@@ -25,7 +25,7 @@ ms.locfileid: "64454802"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la partie département ou province de l’adresse d’un utilisateur.
+Contient la partie État ou province de l’adresse d’un utilisateur.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -44,11 +44,11 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -58,7 +58,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

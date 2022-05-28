@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagDisplayType
+description: Décrit la propriété canonique PidTagDisplayType, qui contient une valeur utilisée pour associer une icône à une ligne particulière d’une table.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ee2bc6ca-3769-4b56-a77d-81418d28f768
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 555906386b60c106fbed6d123155574ca3106b23
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: b34908a2b3b62132442fc107a8f674b0cbdb5bad
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455607"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769724"
 ---
 # <a name="pidtagdisplaytype-canonical-property"></a>Propriété canonique PidTagDisplayType
 
@@ -25,7 +25,7 @@ ms.locfileid: "64455607"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur utilisée pour associer une icône à une ligne particulière d’un tableau. 
+Contient une valeur utilisée pour associer une icône à une ligne particulière d’une table. 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,15 +36,15 @@ Contient une valeur utilisée pour associer une icône à une ligne particulièr
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient un nombre long qui facilite un traitement spécial de l’entrée de table en fonction de son type. Ce traitement spécial consiste généralement à afficher une icône ou un autre élément d’affichage associé au type d’affichage. 
+Cette propriété contient un entier long qui facilite le traitement spécial de l’entrée de table en fonction de son type. Ce traitement spécial consiste généralement à afficher une icône ou un autre élément d’affichage associé au type d’affichage. 
   
-Cette propriété n’est pas utilisée dans les tables de contenu de dossier. Les applications clientes doivent utiliser la propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) d’un message et l’interface [IMAPIFormInfo](imapiforminfoimapiprop.md) appropriée pour obtenir les propriétés **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) et **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) pour ce message. 
+Cette propriété n’est pas utilisée dans les tables de contenu de dossier. Les applications clientes doivent utiliser la propriété **PR_MESSAGE_CLASS** d’un message ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) et l’interface [IMAPIFormInfo](imapiforminfoimapiprop.md) appropriée pour obtenir les propriétés **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) et **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) pour ce message. 
   
 Cette propriété peut avoir exactement l’une des valeurs suivantes :
   
 DT_AGENT 
   
-> Un agent automatisé, tel qu’un guillemet du jour ou un affichage de graphique météo.
+> Agent automatisé, tel que Quote-Of-The-The-Day ou affichage d’un graphique météo.
     
 DT_DISTLIST 
   
@@ -52,11 +52,11 @@ DT_DISTLIST
     
 DT_FOLDER 
   
-> Affiche l’icône de dossier par défaut en adjacent au dossier.
+> Afficher l’icône de dossier par défaut adjacente au dossier.
     
 DT_FOLDER_LINK 
   
-> Affiche l’icône de lien de dossier par défaut adjacente au dossier plutôt que l’icône de dossier par défaut.
+> Affichez l’icône de lien de dossier par défaut adjacente au dossier plutôt que l’icône de dossier par défaut.
     
 DT_FOLDER_SPECIAL 
   
@@ -64,11 +64,11 @@ DT_FOLDER_SPECIAL
     
 DT_FORUM 
   
-> Forum, tel qu’un service de forum ou un dossier public ou partagé.
+> Un forum, tel qu’un service de tableau d’affichage ou un dossier public ou partagé.
     
 DT_GLOBAL 
   
-> Un carnet d’adresses global.
+> Carnet d’adresses global.
     
 DT_LOCAL 
   
@@ -76,11 +76,11 @@ DT_LOCAL
     
 DT_MAILUSER 
   
-> Un utilisateur de messagerie classique.
+> Utilisateur de messagerie classique.
     
 DT_MODIFIABLE 
   
-> Modifiable ; le conteneur doit être noté comme modifiable dans l’interface utilisateur.
+> Modifiable; le conteneur doit être indiqué comme modifiable dans l’interface utilisateur.
     
 DT_NOT_SPECIFIC 
   
@@ -88,25 +88,25 @@ DT_NOT_SPECIFIC
     
 DT_ORGANIZATION 
   
-> Alias spécial défini pour un grand groupe, tel que le service d’aide, la comptabilité ou le coordinateur de lecteur de sang.
+> Alias spécial défini pour un grand groupe, tel que le support technique, la comptabilité ou le coordinateur de la prise de sang.
     
 DT_PRIVATE_DISTLIST 
   
-> Liste de distribution privée, gérée par des personnes.
+> Liste de distribution privée, administrée personnellement.
     
 DT_REMOTE_MAILUSER 
   
-> Destinataire connu d’un système de messagerie étranger ou distant.
+> Destinataire connu pour être issu d’un système de messagerie étranger ou distant.
     
 DT_WAN 
   
-> Un carnet d’adresses réseau large.
+> Carnet d’adresses réseau étendu.
     
-Les tables de contenu de carnet d’adresses utilisent les valeurs DT_AGENT, DT_DISTLIST, DT_FORUM, DT_MAILUSER, DT_ORGANIZATION, DT_PRIVATE_DISTLIST et DT_REMOTE_MAILUSER de carnet d’adresses. Les tables de hiérarchie de carnet d’adresses et les tables DT_GLOBAL, DT_LOCAL, DT_MODIFIABLE, DT_NOT_SPECIFIC et DT_WAN de carnet d’adresses. Les tables de hiérarchie de dossiers utilisent DT_FOLDER, DT_FOLDER_LINK et DT_FOLDER_SPECIAL valeurs. 
+Les tables de contenu du carnet d’adresses utilisent les valeurs DT_AGENT, DT_DISTLIST, DT_FORUM, DT_MAILUSER, DT_ORGANIZATION, DT_PRIVATE_DISTLIST et DT_REMOTE_MAILUSER. Les tables de hiérarchie de carnet d’adresses et les tables uniques utilisent les valeurs DT_GLOBAL, DT_LOCAL, DT_MODIFIABLE, DT_NOT_SPECIFIC et DT_WAN. Les tables de hiérarchie de dossiers utilisent les valeurs DT_FOLDER, DT_FOLDER_LINK et DT_FOLDER_SPECIAL. 
   
 Si cette propriété n’est pas définie, le client doit supposer le type par défaut approprié pour la table, généralement DT_FOLDER, DT_LOCAL ou DT_MAILUSER. 
   
- **Remarque** Toutes les valeurs non documentées sont réservées à MAPI. Les applications clientes ne doivent pas définir de nouvelles valeurs et doivent être prêtes à traiter une valeur nondocumentée. 
+ **Note** Toutes les valeurs non documentées sont réservées à MAPI. Les applications clientes ne doivent pas définir de nouvelles valeurs et doivent être prêtes à traiter une valeur non documentée. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -114,7 +114,7 @@ Si cette propriété n’est pas définie, le client doit supposer le type par d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -122,11 +122,11 @@ Si cette propriété n’est pas définie, le client doit supposer le type par d
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les modèles de carnet d’adresses.
+> Spécifie les propriétés et les opérations autorisées pour les modèles de carnet d’adresses.
     
 [[MS-OXLDAP]](https://msdn.microsoft.com/library/727c090a-f05c-4eed-94aa-565724cfc550%28Office.15%29.aspx)
   
-> Active l’accès à l’annuaire.
+> Active l’accès au répertoire.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -136,7 +136,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -148,5 +148,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

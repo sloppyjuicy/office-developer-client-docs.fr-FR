@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagExtendedRuleMessageActions
+description: Décrit la propriété canonique PidTagExtendedRuleMessageActions, qui contient des informations supplémentaires sur les propriétés nommées utilisées dans un message FAI.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1cf277d4-76ec-4902-9e54-f1780cee49bf
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6845172ac0c17c9ed707ba4886474ed78712bb3e
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 2839ecb2d455d23b8d336d7639fc68e5be5e01b4
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454844"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65771131"
 ---
 # <a name="pidtagextendedrulemessageactions-canonical-property"></a>Propriété canonique PidTagExtendedRuleMessageActions
 
@@ -25,7 +25,7 @@ ms.locfileid: "64454844"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient des informations supplémentaires sur les propriétés nommées utilisées dans un message FAI (Folder Associated Information).
+Contient des informations supplémentaires sur les propriétés nommées utilisées dans un message d’informations associées au dossier (FAI).
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contient des informations supplémentaires sur les propriétés nommées utilis�
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit être définie sur un message FAI. Cette propriété a le même objectif que **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)), mais contient des informations supplémentaires sur la version de la règle et les propriétés nommées stockées dans l’action de règle, ainsi que des informations sur les actions à effectuer par cette règle. Toutes les valeurs de chaîne contenues dans n’importe quelle partie de la mémoire tampon d’action utilisée pour contenir des actions doivent être au format Unicode.
+Cette propriété doit être définie sur un message FAI. Cette propriété sert le même objectif que **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)), mais contient des informations supplémentaires sur la version de la règle et les propriétés nommées stockées dans l’action de règle, ainsi que des informations sur les actions à effectuer par cette règle. Toutes les valeurs de chaîne contenues dans n’importe quelle partie de la mémoire tampon d’action utilisée pour contenir des actions doivent être au format Unicode.
   
-Pour plus d’informations sur le format de cette propriété binaire, voir [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
+Pour plus d’informations sur le format de cette propriété binaire, consultez [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Pour plus d’informations sur le format de cette propriété binaire, voir [[MS
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
@@ -60,7 +60,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -72,5 +72,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

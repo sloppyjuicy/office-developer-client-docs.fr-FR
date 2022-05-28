@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidTagHomeAddressCity
+title: PidTagHomeAddressCity Canonical, propriété
+description: Décrit la propriété canonique PidTagHomeAddressCity, qui contient la ville de l’adresse de domicile du destinataire.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,21 +12,20 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9b94b8f6-4a40-4467-a115-4467daf782b9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c902b4a9b2c0e7edff448ea731d28a8a58d746cd
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 8a4583f26cccf260889bc37913d37bb0ecc18e21
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454382"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769857"
 ---
-# <a name="pidtaghomeaddresscity-canonical-property"></a>Propriété canonique PidTagHomeAddressCity
+# <a name="pidtaghomeaddresscity-canonical-property"></a>PidTagHomeAddressCity Canonical, propriété
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la ville de l’adresse du domicile du destinataire.
+Contient la ville de l’adresse de domicile du destinataire.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -40,11 +40,11 @@ Contient la ville de l’adresse du domicile du destinataire.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -54,7 +54,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -66,5 +66,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

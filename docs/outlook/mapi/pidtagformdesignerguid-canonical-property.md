@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagFormDesignerGuid
+description: Décrit la propriété canonique PidTagFormDesignerGuid, qui contient l’identificateur unique de l’objet utilisé pour concevoir un formulaire.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8d7f5789-610c-47f6-a109-5513d677ef60
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d069a940dd211e9445f950e4f0f1e8d51be6ee47
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: f63e9bc79a7bd0eed18c003508bb505532db48cb
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64452191"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770543"
 ---
 # <a name="pidtagformdesignerguid-canonical-property"></a>Propriété canonique PidTagFormDesignerGuid
 
@@ -32,7 +32,7 @@ Contient l’identificateur unique de l’objet utilisé pour concevoir un formu
 |Propriétés associées :  <br/> |PR_FORM_DESIGNER_GUID  <br/> |
 |Identificateur :  <br/> |0x3309  <br/> |
 |Type de données :  <br/> |PT_GUID  <br/> |
-|Domaine :  <br/> |MAPI courant  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -50,7 +50,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -62,5 +62,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

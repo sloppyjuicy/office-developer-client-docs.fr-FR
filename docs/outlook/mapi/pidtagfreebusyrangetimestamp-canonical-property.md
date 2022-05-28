@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagFreeBusyRangeTimestamp
+description: Décrit la propriété canonique PidTagFreeBusyRangeTimestamp, qui contient l’heure à laquelle les données ont été publiées.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 142d955f-f92d-485a-80c9-9c72e82af0f2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5547fd1b7a6ebe4b6d46f2a51a962b8119079fbc
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 33ad811114c7661b0560f8c0c552dc384fcde5ea
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454830"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769269"
 ---
 # <a name="pidtagfreebusyrangetimestamp-canonical-property"></a>Propriété canonique PidTagFreeBusyRangeTimestamp
 
@@ -25,18 +25,18 @@ ms.locfileid: "64454830"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’heure de publication des données.
+Contient l’heure à laquelle les données ont été publiées.
   
 |Propriété|Valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FREEBUSY_RANGE_TIMESTAMP  <br/> |
 |Identificateur :  <br/> |0x6868  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Domaine :  <br/> |Libre/Occupé  <br/> |
+|Domaine :  <br/> |Libre/occupé  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est le nombre de minutes depuis le 1er janvier 1601 à minuit en temps universel coordonné (UTC).
+Cette propriété correspond au nombre de minutes depuis le 1er janvier 1601 à minuit en temps universel coordonné (UTC).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Cette propriété est le nombre de minutes depuis le 1er janvier 1601 à minuit 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
@@ -58,7 +58,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

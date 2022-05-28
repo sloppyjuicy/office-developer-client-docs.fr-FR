@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagDeferredSendUnits
+description: Décrit la propriété canonique PidTagDeferredSendUnits, qui spécifie l’unité de temps par laquelle la valeur PR_DEFERRED_SEND_NUMBER doit être multipliée.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2386be9f-18c9-4949-a2aa-efc8e212801c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 05fe447b78a0ef4e5e836324a4a8e37124bf5647
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: f502cfa71524a0cf88ae40c83199e533a64b4704
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455306"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770389"
 ---
 # <a name="pidtagdeferredsendunits-canonical-property"></a>Propriété canonique PidTagDeferredSendUnits
 
@@ -25,7 +25,7 @@ ms.locfileid: "64455306"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l’unité de temps à laquelle la valeur **PR_DEFERRED_SEND_NUMBER propriété (**[PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) doit être multipliée.
+Spécifie l’unité de temps par laquelle la valeur de propriété **PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) doit être multipliée.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -51,7 +51,7 @@ Si elle est définie, cette propriété doit avoir l’une des valeurs suivantes
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les objets de message électronique.
+> Spécifie les propriétés et les opérations autorisées pour les objets de courrier électronique.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -61,7 +61,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -73,5 +73,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

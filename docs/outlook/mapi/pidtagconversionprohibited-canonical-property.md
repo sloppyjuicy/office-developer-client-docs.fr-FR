@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagConversionProhibited
+description: Décrit la propriété canonique PidTagConversionProhibited, qui contient TRUE si les conversions de messages sont interdites par défaut.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9bd67185-9449-4db2-b3ee-93ea513e10e2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1118e3c4de1d6c9f196cae1b239a0442fb6c8525
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 263da16db4996c8dce7c5db034775ee6b7b48cfa
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64452219"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770557"
 ---
 # <a name="pidtagconversionprohibited-canonical-property"></a>Propriété canonique PidTagConversionProhibited
 
@@ -44,7 +44,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -56,5 +56,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

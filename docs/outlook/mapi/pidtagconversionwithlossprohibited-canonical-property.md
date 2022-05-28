@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagConversionWithLossProhibited
+description: Décrit la propriété canonique PidTagConversionWithLossProhibited, qui contient TRUE si un MTA n’est pas autorisé à effectuer des conversions de texte de message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a18b560a-e054-45b3-946d-6504465db5b7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 861662d1746101bf7f28b25b6dbd1e1bd7b23ccf
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 6fa206d434a5bc8b4a547ff86d9566cfc0eaad51
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454424"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65771257"
 ---
 # <a name="pidtagconversionwithlossprohibited-canonical-property"></a>Propriété canonique PidTagConversionWithLossProhibited
 
@@ -25,7 +25,7 @@ ms.locfileid: "64454424"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient TRUE si un agent de transfert de messages (MTA) ne peut pas effectuer de conversions de texte de message qui perdent des informations. 
+Contient TRUE si un agent de transfert de messages (MTA) n’est pas autorisé à effectuer des conversions de texte de message qui perdent des informations. 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient TRUE si un agent de transfert de messages (MTA) ne peut pas effectuer d
    
 ## <a name="remarks"></a>Remarques
 
-Un exemple du type de conversion interdit est le mappage « perte » d’Unicode (deux octets par caractère) en un jeu de caractères sur un octet. 
+Un exemple de type de conversion interdit est le mappage « lossy » d’Unicode (deux octets par caractère) vers un jeu de caractères à un octet. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

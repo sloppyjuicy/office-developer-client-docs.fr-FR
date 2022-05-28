@@ -7,12 +7,12 @@ ms:contentKeyID: 48547602
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 43ca74db3d3c918322fbbad121cd936d4cfff1ef
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 3eec982507b42f1da080563deab4d89342970564
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63632748"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770312"
 ---
 # <a name="microsoft-ole-db-provider-for-odbc"></a>Fournisseur Microsoft OLE DB pour ODBC
 
@@ -57,7 +57,7 @@ La chaîne est composée des mots clé suivants :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Keyword</p></th>
+<th><p>Mot clé</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -106,7 +106,7 @@ Plutôt que de définir un **DSN**, vous pouvez choisir de spécifier le pilote 
 
 Vous pouvez aussi spécifier un nom de compte utilisateur (**UID=**) et le mot de passe de ce compte (**PWD=**) dans les paramètres spécifiques à ODBC ou dans les paramètres ADO standard *utilisateur* et *mot de passe*.
 
-Bien **qu’une définition de DSN** spécifie déjà une base de données  , vous pouvez spécifier un paramètre de base de données en plus d’un **DSN** pour se connecter à une autre base de données. Il est bon d’inclure toujours le *paramètre* de *base de données* lorsque vous utilisez un **DSN**. Vous serez ainsi certain de vous connecter à la bonne base de données même si un autre utilisateur a modifié le paramètre de base de données par défaut depuis votre dernière vérification de la définition du **DSN**.
+Bien qu’une définition **DSN** spécifie déjà une base de données, vous pouvez spécifier *un* paramètre *de base de données* en plus d’un **DSN** pour vous connecter à une autre base de données. Il est judicieux d’inclure toujours *le* paramètre *de base de données* lorsque vous utilisez un **DSN**. Vous serez ainsi certain de vous connecter à la bonne base de données même si un autre utilisateur a modifié le paramètre de base de données par défaut depuis votre dernière vérification de la définition du **DSN**.
 
 ## <a name="provider-specific-connection-properties"></a>Propriétés de connexion spécifiques au fournisseur
 
@@ -160,27 +160,27 @@ Le fournisseur OLE DB pour ODBC ajoute plusieurs propriétés à la collection [
 <td><p>Indique si le pilote prend en charge la définition et l'utilisation du caractère d'échappement pour le caractère de pourcentage (%) et le caractère de soulignement (_) dans le prédicat LIKE d'une clause WHERE.</p></td>
 </tr>
 <tr class="even">
-<td><p>Colonnes max dans Group By<br />
+<td><p>Nombre maximal de colonnes dans grouper par<br />
 (KAGPROP_MAXCOLUMNSINGROUPBY)</p></td>
 <td><p>Indique le nombre maximal de colonnes qui peuvent être répertoriées dans la clause GROUP BY d'une instruction SELECT.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre de colonnes max dans l’index<br />
+<td><p>Nombre maximal de colonnes dans l’index<br />
 (KAGPROP_MAXCOLUMNSININDEX)</p></td>
 <td><p>Indique le nombre maximal de colonnes qui peuvent être incluses dans un index.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre de colonnes max dans l’ordre par<br />
+<td><p>Nombre maximal de colonnes dans l’ordre par<br />
 (KAGPROP_MAXCOLUMNSINORDERBY)</p></td>
 <td><p>Indique le nombre maximal de colonnes qui peuvent être répertoriées dans la clause ORDER BY d'une instruction SELECT.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre de colonnes max dans Select<br />
+<td><p>Nombre maximal de colonnes dans Select<br />
 (KAGPROP_MAXCOLUMNSINSELECT)</p></td>
 <td><p>Indique le nombre maximal de colonnes qui peuvent être répertoriées dans la partie SELECT d'une instruction SELECT.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre de colonnes max dans le tableau<br />
+<td><p>Nombre maximal de colonnes dans la table<br />
 (KAGPROP_MAXCOLUMNSINTABLE)</p></td>
 <td><p>Indique le nombre maximal de colonnes autorisé dans une table.</p></td>
 </tr>
@@ -192,12 +192,12 @@ Le fournisseur OLE DB pour ODBC ajoute plusieurs propriétés à la collection [
 Pour obtenir le listing des noms de fonctions et des valeurs associées utilisés dans ce masque de bits, consultez la rubrique sur les fonctions scalaires dans l'Annexe E de la documentation ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p>Fonctionnalités de joints externes<br />
+<td><p>Fonctionnalités de jointure externe<br />
 (KAGPROP_OJCAPABILITY)</p></td>
 <td><p>Indique les types de jointures externes (OUTER JOIN) prises en charge par le fournisseur.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jointeurs externes<br />
+<td><p>Jointures externes<br />
 (KAGPROP_OUTERJOINS)</p></td>
 <td><p>Indique si le fournisseur prend en charge les jointures externes (OUTER JOIN).</p></td>
 </tr>
@@ -222,12 +222,12 @@ Pour obtenir le listing des noms de fonctions et des valeurs associées utilisé
 <td><p>Indique les fonctions système prises en charge par le pilote ODBC. Pour obtenir le listing des noms de fonctions et des valeurs associées utilisés dans ce masque de bits, consultez la rubrique sur les fonctions scalaires dans l'Annexe E de la documentation ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p>Fonctions Heure/Date<br />
+<td><p>Fonctions d’heure/date<br />
 (KAGPROP_TIMEDATEFUNCTIONS)</p></td>
 <td><p>Indique les fonctions de date et heure prises en charge par le pilote ODBC. Pour obtenir le listing des noms de fonctions et des valeurs associées utilisés dans ce masque de bits, consultez la rubrique sur les fonctions scalaires dans l'Annexe E de la documentation ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p>SQL grammar support<br />
+<td><p>Prise en charge de la grammaire SQL<br />
 (KAGPROP_ODBCSQLCONFORMANCE)</p></td>
 <td><p>Indique la grammaire SQL prise en charge par le pilote ODBC.</p></td>
 </tr>
@@ -257,12 +257,12 @@ Le fournisseur OLE DB pour ODBC ajoute plusieurs propriétés à la collection *
 <td><p>Indique s'il est possible d'utiliser des requêtes SQL pour effectuer des mises à jour, des suppressions ou des insertions.</p></td>
 </tr>
 <tr class="even">
-<td><p>Type de récurrence ODBC<br />
+<td><p>Type d’accès concurrentiel ODBC<br />
 (KAGPROP_CONCURRENCY)</p></td>
 <td><p>Indique la méthode utilisée pour réduire les problèmes susceptibles de se produire si deux utilisateurs tentent d'accéder simultanément aux mêmes données de la source de données.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Accessibilité BLOB sur Forward-Only curseur<br />
+<td><p>Accessibilité blob sur Forward-Only curseur<br />
 (KAGPROP_BLOBSONFOCURSOR)</p></td>
 <td><p>Indique si les <strong>champs</strong> BLOB sont accessibles avec un curseur de type avant uniquement.</p></td>
 </tr>
@@ -272,7 +272,7 @@ Le fournisseur OLE DB pour ODBC ajoute plusieurs propriétés à la collection *
 <td><p>Indique si les valeurs SQL_FLOAT, SQL_DOUBLE et SQL_REAL peuvent être incluses dans une clause QBU WHERE.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Position sur la dernière ligne après insertion<br />
+<td><p>Position sur la dernière ligne après l’insertion<br />
 (KAGPROP_POSITIONONNEWROW)</p></td>
 <td><p>Indique qu'après insertion d'un nouvel enregistrement dans une table, la dernière ligne de la table est activée.</p></td>
 </tr>
@@ -287,7 +287,7 @@ Le fournisseur OLE DB pour ODBC ajoute plusieurs propriétés à la collection *
 <td><p>Indique le type de curseur utilisé par le <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Générer un rowset qui peut être marshalé<br />
+<td><p>Générer un ensemble de lignes pouvant être marshalé<br />
 (KAGPROP_MARSHALLABLE)</p></td>
 <td><p>Indique que le pilote ODBC génère un jeu d'enregistrements qui peut être marshalé.</p></td>
 </tr>
@@ -303,7 +303,7 @@ ODBC fournit une syntaxe spécifique pour appeler les procédures stockées. Pou
 
 `"{ [ ? = ] call procedure [ ( ? [, ? [ ,  ]] ) ] }"`
 
-Chaque **?** fait référence à un objet de la collection [Parameters](parameters-collection-ado.md). Le premier **?** fait référence à l’objet **Parameters** (0), le **?** suivant fait référence à l’objet **Parameters** (1) et ainsi de suite.
+Chaque **?** fait référence à un objet de la collection [Parameters](parameters-collection-ado.md). Le premier **?** **references Parameters**(0), le suivant **?** **references Parameters**(1), et ainsi de suite.
 
 Les références aux paramètres sont facultatives et dépendent de la structure de la procédure stockée. Si vous voulez appeler une procédure stockée qui ne définisse aucun paramètre, votre chaîne doit présenter la syntaxe suivante :
 
@@ -411,7 +411,7 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 <td><p>lecture seule</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtre</a></p></td>
 <td><p>lecture/écriture</p></td>
 <td><p>lecture/écriture</p></td>
 <td><p>lecture/écriture</p></td>
@@ -549,7 +549,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Supprimer</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
@@ -563,7 +563,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="move-method-ado.md">Move</a></p></td>
+<td><p><a href="move-method-ado.md">Déplacer</a></p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
@@ -612,7 +612,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="requery-method-ado.md">Actualiser</a></p></td>
+<td><p><a href="requery-method-ado.md">Requery</a></p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
@@ -626,7 +626,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="supports-method-ado.md">Prend en charge</a></p></td>
+<td><p><a href="supports-method-ado.md">Soutient</a></p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
@@ -1446,7 +1446,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 </table>
 
 
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
-Pour plus [d’informations sur l’implémentation](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85)) spécifique et des informations fonctionnelles sur le fournisseur Microsoft OLE DB pour ODBC, consultez le Guide du programmeur OLE DB ou visitez le Centre de développement de plateforme de [données](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
+Pour plus d’informations sur l’implémentation et les informations fonctionnelles spécifiques sur le fournisseur Microsoft OLE DB pour ODBC, consultez le [Guide du programmeur OLE DB](/previous-versions/windows/desktop/ms713643(v=vs.85)) ou visitez le Centre de développement de plateforme de [données](/sql/connect/sql-data-developer?view=sql-server-2017&preserve-view=true).
 

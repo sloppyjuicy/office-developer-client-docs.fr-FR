@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagHomeTelephoneNumber
+description: Décrit la propriété canonique PidTagHomeTelephoneNumber, qui contient le numéro de téléphone principal de la maison du destinataire.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2c7506c4-82f6-49e2-81c8-3ca316831d93
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0c0ff9b1af5b6001b0f335479fdc61782d395fb7
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: c60c4697d42c3a5fcce35664ad4ea369fb18617f
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63722151"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65771264"
 ---
 # <a name="pidtaghometelephonenumber-canonical-property"></a>Propriété canonique PidTagHomeTelephoneNumber
 
@@ -25,7 +25,7 @@ ms.locfileid: "63722151"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le numéro de téléphone principal du domicile du destinataire. 
+Contient le numéro de téléphone principal de la maison du destinataire. 
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient le numéro de téléphone principal du domicile du destinataire.
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés permettent d’identifier et d’accéder à un destinataire. Elles sont définies par le destinataire et leur organisation. 
+Ces propriétés fournissent l’identification et l’accès d’un destinataire. Elles sont définies par le destinataire et son organisation. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,15 +44,15 @@ Ces propriétés permettent d’identifier et d’accéder à un destinataire. E
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations pour les listes d’utilisateurs, de contacts, de groupes et de ressources.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -62,7 +62,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidTagFlagStatus
+title: PidTagFlagStatus, propriété canonique
+description: Décrit la propriété canonique PidTagFlagStatus, qui spécifie l’état d’indicateur de l’objet message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,15 +12,14 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b5117360-0939-4535-83fe-3b4a240b5217
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f3103b60564dd99529b7432ab85d6528c6e0cd7d
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 83e5d784cc043bde420eca820986b68dc8704eb3
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454823"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65770697"
 ---
-# <a name="pidtagflagstatus-canonical-property"></a>Propriété canonique PidTagFlagStatus
+# <a name="pidtagflagstatus-canonical-property"></a>PidTagFlagStatus, propriété canonique
 
   
   
@@ -36,11 +36,11 @@ Spécifie l’état d’indicateur de l’objet message.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété ne doit pas exister sur un objet lié à la réunion et elle ne doit pas exister sur un objet de tâche. Lorsqu’elle est définie sur d’autres objets de message, cette propriété doit être définie sur l’une des valeurs suivantes :
+Cette propriété ne doit pas exister sur un objet lié à une réunion et n’existe pas sur un objet de tâche. Lorsqu’elle est définie sur d’autres objets de message, cette propriété doit être définie sur l’une des valeurs suivantes :
   
-|**Valeur numérique**|**Nom**|**Description**|
+|**Valeur numérique**|**Name**|**Description**|
 |:-----|:-----|:-----|
-|Non présent  <br/> |N/D  <br/> |Non retardé  <br/> |
+|Non présent  <br/> |S/O  <br/> |Sans balises  <br/> |
 |0x00000001  <br/> |followupComplete  <br/> |Marqué comme terminé  <br/> |
 |0x00000002  <br/> |followupFlagged  <br/> |Marqué d’un indicateur  <br/> |
    
@@ -50,7 +50,7 @@ Cette propriété ne doit pas exister sur un objet lié à la réunion et elle n
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
@@ -64,7 +64,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -76,5 +76,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

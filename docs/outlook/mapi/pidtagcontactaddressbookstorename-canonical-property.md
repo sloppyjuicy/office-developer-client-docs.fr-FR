@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagContactAddressBookStoreName
+description: Décrit la propriété canonique PidTagContactAddressBookStoreName, qui contient le nom complet du magasin associé au fournisseur de carnet d’adresses.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 84c1b0cb-91aa-4238-ac74-a129a6e2cdd6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1a16bc2f08f6a63d86baa7228699f59cbfc159ca
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: b4b8181c03689c667c57be476f9402367d2fd86e
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64452198"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769262"
 ---
 # <a name="pidtagcontactaddressbookstorename-canonical-property"></a>Propriété canonique PidTagContactAddressBookStoreName
 
@@ -36,7 +36,7 @@ Contient le nom complet du magasin associé au fournisseur de carnet d’adresse
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés se font sur un conteneur de carnet d’adresses de contact et dans une colonne de la table des conteneurs de carnet d’adresses de contact.
+Ces propriétés se trouvent sur un conteneur de carnets d’adresses de contact et une colonne dans la table des conteneurs de carnets d’adresses de contact.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

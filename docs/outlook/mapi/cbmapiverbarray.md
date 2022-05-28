@@ -1,5 +1,6 @@
 ---
 title: CbMAPIVerbArray
+description: CbMAPIVerbArray calcule le nombre d’octets dans une structure SMAPIVerbArray existante qui contient un nombre spécifié de structures SMAPIVerb.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1b746e6-c9df-4e92-a8b8-7a00b2de53e7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ab641f387174db0f8fca8ae9cae10ba843cb3dea
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: e3cdb24b113bbb553470e58fcb0f5ba507abcb6c
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63720298"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65771096"
 ---
 # <a name="cbmapiverbarray"></a>CbMAPIVerbArray
 
@@ -30,7 +30,7 @@ Calcule le nombre d’octets dans une structure [SMAPIVerbArray](smapiverbarray.
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
-|Structure connexe :  <br/> |**SMAPIVerbArray** <br/> |
+|Structure associée :  <br/> |**SMAPIVerbArray** <br/> |
    
 ```cpp
 int CbMAPIVerbArray (_c)

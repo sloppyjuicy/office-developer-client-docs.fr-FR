@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidTagHtml
+title: PidTagHtml Canonical, propriété
+description: Cet article décrit la propriété canonique PidTagHtml, qui contient le texte du corps du message au format HTML.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,21 +12,20 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bde195cd-ca24-4715-8db7-04ab83ba8a3c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 38288e8b3c00fd87f634be79a10cc526093ed777
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 1827972b5cf02a2e51c69f29e6ca88c462acf464
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725658"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769551"
 ---
-# <a name="pidtaghtml-canonical-property"></a>Propriété canonique PidTagHtml
+# <a name="pidtaghtml-canonical-property"></a>PidTagHtml Canonical, propriété
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le corps du message au format HTML.
+Contient le texte du corps du message au format HTML.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -48,19 +48,19 @@ Contient le corps du message au format HTML.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convertit des conventions de messagerie standard Internet en objets de message.
+> Convertit des conventions e-mail standard Internet en objets de message.
     
 [[MS-OXOPOST]](https://msdn.microsoft.com/library/9b18fdab-aacd-4d73-9534-be9b6ba2f115%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées sur les objets post.
+> Spécifie les propriétés et les opérations autorisées sur les objets post.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Spécifie les propriétés des messages codés gérés par des droits.
+> Spécifie les propriétés des messages encodés gérés par des droits.
     
 [[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui représentent des éléments RSS.
+> Spécifie les propriétés et les opérations qui représentent les éléments RSS.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -70,7 +70,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -82,5 +82,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 
