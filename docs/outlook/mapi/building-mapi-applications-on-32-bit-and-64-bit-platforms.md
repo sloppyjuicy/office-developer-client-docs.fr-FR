@@ -1,19 +1,19 @@
 ---
 title: Création d’applications MAPI sur les plateformes 32 bits et 64 bits
+description: Décrit les actions que les développeurs MAPI doivent effectuer pour modifier et reconstruire les applications MAPI 32 bits à exécuter sur une plate-forme 64 bits et les applications 64 bits à exécuter sur une plate-forme 32 bits.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 api_type:
 - COM
 ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
-description: Dernière modification le 9 mars 2015
 ms.localizationpriority: high
-ms.openlocfilehash: 1478de37d8a5b713bcc74e47b0cf0f0fb661c152
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: c5efab333a360332a7a6a022c58246954d7920cc
+ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784327"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "65769983"
 ---
 # <a name="building-mapi-applications-on-32-bit-and-64-bit-platforms"></a>Création d’applications MAPI sur les plateformes 32 bits et 64 bits
 
