@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidNameXSharingRemoteUid
+description: Décrit la propriété canonique PidNameXSharingRemoteUid, qui représente la valeur de la propriété dispidSharingRemoteUid.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: a99bc2f3-03ff-4997-9d00-28be0a75b7f6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c1ecbc529ef0d964840698b29eb0486d45daefc2
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: d88e6cf22d162455116ef73f6b6dda8d0f2aad3b
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454487"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65811640"
 ---
 # <a name="pidnamexsharingremoteuid-canonical-property"></a>Propriété canonique PidNameXSharingRemoteUid
 
@@ -29,7 +29,7 @@ Représente la valeur de la propriété **dispidSharingRemoteUid** ([PidLidShari
   
 |Propriété|Valeur|
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms conviviaux :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nom de la propriété :  <br/> |X-Sharing-Remote-Uid  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
@@ -41,11 +41,11 @@ Représente la valeur de la propriété **dispidSharingRemoteUid** ([PidLidShari
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Partage des dossiers de boîte aux lettres entre clients.
+> Partage des dossiers de boîte aux lettres entre les clients.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

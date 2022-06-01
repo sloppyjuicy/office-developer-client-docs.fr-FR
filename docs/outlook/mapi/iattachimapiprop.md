@@ -1,5 +1,6 @@
 ---
 title: IAttach IMAPIProp
+description: Cet article décrit IAttach IMAPIProp fournissant l’accès aux propriétés des pièces jointes dans les messages.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: f47e20e1-2a30-4c9e-8ca6-e8c5e72f44a1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 756578d1b6a1018447633c2080c18f76f5b8357f
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: d81fe90d161ed2817a5c7d7e544c06a29e645085
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63720250"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65812326"
 ---
 # <a name="iattach--imapiprop"></a>IAttach : IMAPIProp
 
@@ -25,7 +25,7 @@ ms.locfileid: "63720250"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Maintient et fournit l’accès aux propriétés des pièces jointes dans les messages. **L’interface IAttach** n’a aucune méthode unique. Pour plus d’informations sur l’utilisation des pièces jointes, voir [MapI Attachments](mapi-attachments.md) and [Attachment Tables](attachment-tables.md). 
+Conserve et fournit l’accès aux propriétés des pièces jointes dans les messages. **L’interface IAttach** n’a pas de méthode unique. Pour plus d’informations sur l’utilisation des pièces jointes, consultez [Les pièces jointes MAPI et les](mapi-attachments.md) [tables de pièces jointes](attachment-tables.md). 
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -35,11 +35,11 @@ Maintient et fournit l’accès aux propriétés des pièces jointes dans les me
 |Appelé par :  <br/> |Applications clientes  <br/> |
 |Identificateur d’interface :  <br/> |IID_IAttachment  <br/> |
 |Type de pointeur :  <br/> |LPATTACH  <br/> |
-|Modèle de transaction :  <br/> |Transacted  <br/> |
+|Modèle de transaction :  <br/> |Traitées  <br/> |
    
-## <a name="vtable-order"></a>Ordre des vtables
+## <a name="vtable-order"></a>Ordre des tables virtuelles
 
-Cette interface n’a pas de méthode unique.
+Cette interface n’a pas de méthodes uniques.
   
 |**Propriétés requises**|**Access**|
 |:-----|:-----|

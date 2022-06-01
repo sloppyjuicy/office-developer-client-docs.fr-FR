@@ -1,5 +1,6 @@
 ---
 title: IAddrBookDetails
+description: La fonction IAddrBookDetails affiche une boîte de dialogue qui affiche des détails sur une entrée de carnet d’adresses particulière.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4eee4382-98c3-4714-8920-8d72edef00b8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d52027195ee898cadd63ca686d944eb792873755
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 17005b0ad74a23f185ce9ba868708bd81b6ecf07
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380822"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816401"
 ---
 # <a name="iaddrbookdetails"></a>IAddrBook::Details
 
@@ -47,51 +47,51 @@ HRESULT Details(
 
  _lpfnDismiss_
  
-> [in] Pointeur vers une fonction basée sur le prototype [DISMISSMODELESS](dismissmodeless.md) ou NULL. Ce membre s’applique uniquement à la version sans mode de la boîte de dialogue, comme indiqué par l’indicateur DIALOG_SDI en cours de mise en place. MAPI appelle la **fonction DISMISSMODELESS** lorsque l’utilisateur fait disparaître la boîte de dialogue d’adresses sans mode, informant un client qui appelle **Details** que la boîte de dialogue n’est plus active.
+> [in] Pointeur vers une fonction basée sur le prototype [DISMISSMODELESS](dismissmodeless.md) , ou NULL. Ce membre s’applique uniquement à la version sans mode de la boîte de dialogue, comme indiqué par l’indicateur DIALOG_SDI en cours de définition. MAPI appelle la fonction **DISMISSMODELESS** lorsque l’utilisateur ignore la boîte de dialogue d’adresse sans mode, informant un client qui appelle **Details** que la boîte de dialogue n’est plus active.
 
  _lpvDismissContext_
  
-> [in] Pointeur vers les informations de contexte à transmettre à la **fonction DISMISSMODELESS** pointée par  _le paramètre lpfnDismiss_ . Ce paramètre s’applique uniquement à la version sans mode de la boîte de dialogue, en incluant l’indicateur DIALOG_SDI dans le _paramètre ulFlags_ .
+> [in] Pointeur vers les informations de contexte à passer à la fonction **DISMISSMODELESS** pointée par le paramètre  _lpfnDismiss_ . Ce paramètre s’applique uniquement à la version sans mode de la boîte de dialogue, en incluant l’indicateur DIALOG_SDI dans le paramètre _ulFlags_ .
 
  _cbEntryID_
  
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ .
+> [in] Nombre d’octets dans l’identificateur d’entrée pointé par le paramètre  _lpEntryID_ .
 
  _lpEntryID_
  
-> [in] Pointeur vers l’identificateur d’entrée pour lequel les détails sont affichés.
+> [in] Pointeur vers l’identificateur d’entrée de l’entrée pour laquelle les détails sont affichés.
 
  _lpfButtonCallback_
  
-> [in] Pointeur vers une fonction basée sur le prototype [de fonction LPFNBUTTON](lpfnbutton.md) . Une **fonction LPFNBUTTON** ajoute un bouton à la boîte de dialogue Détails.
+> [in] Pointeur vers une fonction basée sur le prototype de fonction [LPFNBUTTON](lpfnbutton.md) . Une fonction **LPFNBUTTON** ajoute un bouton à la boîte de dialogue détails.
 
  _lpvButtonContext_
 
-> [in] Pointeur vers des données qui a été utilisé comme paramètre pour la fonction spécifiée par _le paramètre lpfButtonCallback_ .
+> [in] Pointeur vers les données utilisées comme paramètre pour la fonction spécifiée par le paramètre _lpfButtonCallback_ .
 
  _lpszButtonText_
 
-> [in] Pointeur vers une chaîne qui contient du texte à appliquer au bouton ajouté, si ce bouton est extensible. Le _paramètre lpszButtonText_ doit être NULL si vous n’avez pas besoin d’un bouton extensible.
+> [in] Pointeur vers une chaîne qui contient du texte à appliquer au bouton ajouté, si ce bouton est extensible. Le paramètre _lpszButtonText_ doit être NULL si vous n’avez pas besoin d’un bouton extensible.
 
  _ulFlags_
 
-> [in] Masque de bits d’indicateurs qui contrôle le type du texte pour le _paramètre lpszButtonText_ . Les indicateurs suivants peuvent être définies :
+> [in] Masque de bits des indicateurs qui contrôle le type du texte pour le paramètre _lpszButtonText_ . Les indicateurs suivants peuvent être définis :
 
 AB_TELL_DETAILS_CHANGE
 
-> Indique que **les détails renvoient** S_OK si des modifications sont réellement apportées à l’adresse ; Dans le **cas contraire, les détails** renvoient S_FALSE.
+> Indique que **Details** retourne S_OK si des modifications sont réellement apportées à l’adresse ; sinon, **Details** retourne S_FALSE.
 
 DIALOG_MODAL
 
-> Affichez la version modale de la boîte de dialogue d’adresses commune, qui est toujours affichée dans les clients Outlook non privés. Cet indicateur s’exclue mutuellement avec DIALOG_SDI.
+> Affichez la version modale de la boîte de dialogue d’adresse commune, qui est toujours affichée dans les clients non Outlook. Cet indicateur s’exclue mutuellement de DIALOG_SDI.
 
 DIALOG_SDI
 
-> Affiche la version non modée de la boîte de dialogue d’adresse commune. Cet indicateur est ignoré pour les clients non Outlook client.
+> Affichez la version sans mode de la boîte de dialogue d’adresse commune. Cet indicateur est ignoré pour les clients non Outlook.
 
 MAPI_UNICODE
 
-> Les chaînes transmises sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
+> Les chaînes passées sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas défini, les chaînes sont au format ANSI.
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -101,9 +101,9 @@ S_OK
 
 ## <a name="remarks"></a>Remarques
 
-Les applications clientes **appellent la méthode Details** pour afficher une boîte de dialogue qui fournit des détails sur une entrée particulière dans le carnet d’adresses. Vous pouvez utiliser les paramètres _lpfButtonCallback_, _lpvButtonContext_ et _lpszButtonText_ pour ajouter un bouton défini par le client à la boîte de dialogue. Lorsque vous cliquez sur le bouton, MAPI appelle la fonction de rappel pointée par _lpfButtonCallback_, en passant l’identificateur d’entrée du bouton et les données dans _lpvButtonContext_. Si vous n’avez pas besoin d’un bouton extensible, _lpszButtonText_ doit être NULL.
+Les applications clientes appellent la méthode **Details** pour afficher une boîte de dialogue qui fournit des détails sur une entrée particulière dans le carnet d’adresses. Vous pouvez utiliser les paramètres _lpfButtonCallback_, _lpvButtonContext_ et _lpszButtonText_ pour ajouter un bouton défini par le client à la boîte de dialogue. Lorsque vous cliquez sur le bouton, MAPI appelle la fonction de rappel pointée par _lpfButtonCallback_, en passant à la fois l’identificateur d’entrée du bouton et les données dans _lpvButtonContext_. Si vous n’avez pas besoin d’un bouton extensible, _lpszButtonText_ doit avoir la valeur NULL.
   
- **Les détails prend** en charge les chaînes de caractères Unicode ; Les chaînes Unicode sont converties au format de chaîne de caractères multioctets (MBCS) avant d’être affichées dans la boîte de dialogue d’informations.
+ **Details** prend en charge les chaînes de caractères Unicode ; Les chaînes Unicode sont converties au format de chaîne de caractères multioctets (MBCS) avant d’être affichées dans la boîte de dialogue de détails.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

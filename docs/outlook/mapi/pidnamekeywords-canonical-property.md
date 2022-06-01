@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidNameKeywords
+description: Décrit la propriété canonique PidNameKeywords, qui contient des mots clés ou des catégories pour l’objet message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: bcc0cda0-02bc-49a5-9fb9-850b4c2867c1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1f10369c0aa866cffbbdfd305118e53d63ecd18d
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: aae6323c65c49ae9eb19d3204d3cc7d4676284ea
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454501"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65812607"
 ---
 # <a name="pidnamekeywords-canonical-property"></a>Propriété canonique PidNameKeywords
 
@@ -29,7 +29,7 @@ Contient des mots clés ou des catégories pour l’objet message.
   
 |Propriété|Valeur|
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms conviviaux :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |Mots clés  <br/> |
 |Type de données :  <br/> |PT_MV_UNICODE  <br/> |
@@ -37,7 +37,7 @@ Contient des mots clés ou des catégories pour l’objet message.
    
 ## <a name="remarks"></a>Remarques
 
-Une valeur à chaînes multiples qui spécifie les catégories d’un objet message, la longueur de chaque chaîne au sein de cette chaîne à valeurs multiples, doit être inférieure à 256.
+Valeur à plusieurs chaînes qui spécifie les catégories d’un objet de message, la longueur de chaque chaîne dans cette chaîne à valeurs multiples de propriété, doit être inférieure à 256.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,7 +45,7 @@ Une valeur à chaînes multiples qui spécifie les catégories d’un objet mess
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -53,7 +53,7 @@ Une valeur à chaînes multiples qui spécifie les catégories d’un objet mess
     
 [[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées sur les documents.
+> Spécifie les propriétés et les opérations autorisées sur les documents.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -71,5 +71,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

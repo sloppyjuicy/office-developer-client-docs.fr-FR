@@ -1,5 +1,6 @@
 ---
 title: FtMulDwDw
+description: Décrit FtMulDwDw et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8c1a342c-d7ae-4e26-b327-a63cdd3c3ee6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 597f1d8fbcbd32f85b382ba575f17150796a88d7
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 59a64013eea08d54c53806103fd08717d24ca77e
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461138"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816443"
 ---
 # <a name="ftmuldwdw"></a>FtMulDwDw
 
@@ -25,9 +25,9 @@ ms.locfileid: "62461138"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Multiplie un nombre integer 32 bits non signé par un autre.
+Multiplie un entier 32 bits non signé par un autre.
   
-|||
+|Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -44,14 +44,14 @@ FILETIME FtMulDwDw(
 
  _Multiplicand_
   
-> [in] Mot double qui contient l’integer 32 bits non signé à multiplier par la valeur du paramètre _Multiplicateur_ . 
+> [in] Mot double qui contient l’entier 32 bits non signé à multiplier par la valeur du paramètre _Multiplicateur_ . 
     
  _Multiplicateur_
   
-> [in] Mot double qui contient le multiplicateur d’nombres integer 32 bits non signé.
+> [in] Mot double qui contient le multiplicateur entier 32 bits non signé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La **fonction FtMulDwDw** renvoie une structure [FILETIME](filetime.md) qui contient le produit des deux nombres entières. Les deux paramètres d’entrée restent inchangés. 
+La fonction **FtMulDwDw** retourne une structure [FILETIME](filetime.md) qui contient le produit des deux entiers. Les deux paramètres d’entrée restent inchangés. 
   
 

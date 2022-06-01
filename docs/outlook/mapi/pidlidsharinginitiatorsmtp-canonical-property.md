@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidSharingInitiatorSmtp
+description: Décrit la propriété canonique PidLidSharingInitiatorSmtp, qui spécifie l’adresse SMTP de l’utilisateur qui a lancé le message de partage.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4fb7d91d-4c51-41c1-9cb6-7b837dd12f11
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dcbaa54b4bc565ad205ea79f7689d556a5ea551d
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: f4d18a31449d7f79638659d3f00bd28623827ed0
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455453"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65812642"
 ---
 # <a name="pidlidsharinginitiatorsmtp-canonical-property"></a>Propriété canonique PidLidSharingInitiatorSmtp
 
@@ -25,7 +25,7 @@ ms.locfileid: "64455453"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l’adresse SMTP de l’utilisateur qui a initié le message de partage. Il s’agit d’une propriété d’un message de partage. 
+Spécifie l’adresse SMTP de l’utilisateur qui a lancé le message de partage. Il s’agit d’une propriété d’un message de partage. 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Spécifie l’adresse SMTP de l’utilisateur qui a initié le message de partag
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit être définie sur la valeur de la propriété **PR_SMTP_ADDRESS** ([PidTagSmtpAddress](pidtagsmtpaddress-canonical-property.md)) à partir du carnet d’adresses identifié par la propriété **dispidSharingInitiatorEid** ([PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md)) et doit être ignorée.
+Cette propriété doit être définie sur la valeur de la propriété **PR_SMTP_ADDRESS** ([PidTagSmtpAddress](pidtagsmtpaddress-canonical-property.md)) du carnet d’adresses identifié par la propriété **dispidSharingInitiatorEid** ([PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md)) et doit être ignorée.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ Cette propriété doit être définie sur la valeur de la propriété **PR_SMTP_
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Partage des dossiers de boîte aux lettres entre clients.
+> Partage des dossiers de boîte aux lettres entre les clients.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

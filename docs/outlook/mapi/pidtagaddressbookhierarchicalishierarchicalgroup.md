@@ -1,5 +1,6 @@
 ---
 title: PidTagAddressBookHierarchicalIsHierarchicalGroup
+description: Décrit la propriété canonique PidTagAddressBookHierarchicalIsHierarchicalGroup, qui contient TRUE si la liste de distribution est également un groupe départemental.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d5d289b2-d4d6-49ab-bf8b-945cb35272fc
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: eda5feef53e8b5a8aeaaa2754f26dea19b4f013e
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 024998e1f7aae4c230750ead3f1ab3b864e062b5
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454935"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816982"
 ---
 # <a name="pidtagaddressbookhierarchicalishierarchicalgroup"></a>PidTagAddressBookHierarchicalIsHierarchicalGroup
 
@@ -25,7 +25,7 @@ ms.locfileid: "64454935"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient TRUE si la liste de distribution est également un groupe de service. Cette propriété est disponible uniquement sur les listes de distribution.
+Contient TRUE si la liste de distribution est également un groupe départemental. Cette propriété est disponible uniquement sur les listes de distribution.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -33,7 +33,7 @@ Contient TRUE si la liste de distribution est également un groupe de service. C
 |Jeu de propriétés :  <br/> |Carnet d’adresses  <br/> |
 |ID long (LID) :  <br/> |0x8CDD  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Exchange carnet d’adresses  <br/> |
+|Domaine :  <br/> |carnet d’adresses Exchange  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -41,11 +41,11 @@ Contient TRUE si la liste de distribution est également un groupe de service. C
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Microsoft Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Microsoft Exchange Server associées.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/cc433489%28v=exchg.80%29)
   
-> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations pour les listes d’utilisateurs, de contacts, de groupes et de ressources.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

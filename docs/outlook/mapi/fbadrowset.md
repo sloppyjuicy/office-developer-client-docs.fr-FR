@@ -1,5 +1,6 @@
 ---
 title: FBadRowSet
+description: Décrit FBadRowSet et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3890dd50-e6ca-4859-bada-f6752ab61d41
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f3bd0f79d0bac8c6b738a95bdcf7eeb63b50f5a4
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 3b69f40db2da19455ef2880e4be41c7facaffb28
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63723290"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815848"
 ---
 # <a name="fbadrowset"></a>FBadRowSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "63723290"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Valide toutes les lignes de tableau incluses dans un ensemble de lignes de tableau.
+Valide toutes les lignes de table incluses dans un ensemble de lignes de table.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -43,17 +43,17 @@ BOOL FBadRowSet(
 
  _lpRowSet_
   
-> [in] Pointeur vers une structure [SRowSet](srowset.md) identifiant le jeu de lignes à valider. Si le pointeur est NULL, la structure n’est pas valide. 
+> [in] Pointeur vers une structure [SRowSet](srowset.md) identifiant le jeu de lignes à valider. Si le pointeur a la valeur NULL, la structure n’est pas valide. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> Une ligne du jeu de lignes spécifié n’est pas valide ou le jeu de lignes lui-même n’est pas valide. 
+> Une ligne du jeu de lignes spécifié n’est pas valide ou l’ensemble de lignes lui-même n’est pas valide. 
     
 FALSE 
   
-> Les lignes du jeu de lignes spécifié et du jeu de lignes lui-même sont toutes valides.
+> Les lignes du jeu de lignes spécifié et le jeu de lignes lui-même sont toutes valides.
     
 ## <a name="see-also"></a>Voir aussi
 

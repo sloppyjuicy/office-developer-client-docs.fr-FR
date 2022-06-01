@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagAttachExtension
+description: Décrit la propriété canonique PidTagAttachExtension, qui contient une extension de nom de fichier qui indique le type de document d’une pièce jointe.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 667da30b-e11c-4040-aecf-bb35eed23722
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2c40bf5492e760a8950e4f8026cdcc8867896e53
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 51ad7a02d1e1b44f18e45e8e57b8be2de09ae906
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454466"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65811903"
 ---
 # <a name="pidtagattachextension-canonical-property"></a>Propriété canonique PidTagAttachExtension
 
@@ -38,7 +38,7 @@ Contient une extension de nom de fichier qui indique le type de document d’une
 
 Ces propriétés sont définies par l’application cliente au moment de la soumission. 
   
-Le système de messagerie **utilise PR_ATTACH_EXTENSION lors** de la conversion de pièces jointes de messages (conversion sur route) ou du lancement d’applications basées sur des pièces jointes dans les messages reçus. Si le client d’envoi ne fournit pas de valeur pour ces propriétés, la boutique de messages qui gère la pièce jointe n’est pas tenue de la générer. Le client de réception doit d’abord vérifier la PR_ATTACH_EXTENSION **et, si** elle n’est pas fournie, doit l’parer à partir de la propriété **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) ou **PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) de la pièce jointe. 
+Le système de messagerie utilise **PR_ATTACH_EXTENSION** lors de la conversion de pièces jointes de message (conversion en route) ou du lancement d’applications en fonction des pièces jointes dans les messages reçus. Si le client d’envoi ne fournit pas de valeur pour ces propriétés, le magasin de messages qui gère la pièce jointe n’est pas obligé de la générer. Le client de réception doit d’abord rechercher **PR_ATTACH_EXTENSION** et, s’il n’est pas fourni, analyser l’extension de nom de fichier à partir de la propriété **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) ou **PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) de la pièce jointe. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -68,5 +68,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

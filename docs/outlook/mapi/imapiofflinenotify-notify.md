@@ -1,5 +1,6 @@
 ---
 title: IMAPIOfflineNotifyNotify
+description: Décrit la syntaxe, les paramètres et les remarques pour IMAPIOfflineNotifyNotify, qui envoie des notifications au client concernant les modifications apportées à l’état de la connexion.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 10c7cb9d-2e9d-72eb-6b07-31eed892e646
-description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: 42c31247ad9c6445ddbe465539a2f35c6c601ea1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b474caeb6a2f27d44dd17f803699a62418400426
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575896"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65812094"
 ---
 # <a name="imapiofflinenotifynotify"></a>IMAPIOfflineNotify::Notify
 
@@ -25,7 +25,7 @@ ms.locfileid: "59575896"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Envoie des notifications au client concernant les modifications apportées à l’état de connexion.
+Envoie des notifications au client concernant les modifications apportées à l’état de la connexion.
   
 ```cpp
 void STDMETHODCALLTYPE Notify(  
@@ -37,15 +37,15 @@ void STDMETHODCALLTYPE Notify(
 
  _pNotifyInfo_
   
-> [in] Notification Outlook au client. La notification indique la partie de l’état de connexion qui a changé, l’ancien état de connexion et le nouvel état de connexion.
+> [in] Notification que Outlook envoie au client. La notification indique la partie de l’état de connexion qui a changé, l’ancien état de connexion et le nouvel état de connexion.
     
 ## <a name="remarks"></a>Remarques
 
-Outlook utilise cette méthode pour envoyer des rappels de notification à un client. Pour rendre cette interface disponible pour Microsoft Outlook 2010 ou Microsoft Outlook 2013, le client doit implémenter cette interface et lui transmettre un pointeur en tant que membre dans **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** lors de la configuration des rappels à l’aide **[d’IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. 
+Outlook utilise cette méthode pour envoyer des rappels de notification à un client. Pour rendre cette interface disponible pour Microsoft Outlook 2010 ou Microsoft Outlook 2013, le client doit implémenter cette interface et lui transmettre un pointeur en tant que membre dans **[MAPIOFFLINE_ADVISEINFO lors de](mapioffline_adviseinfo.md)** la configuration des rappels à l’aide **[d’IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. 
   
-Le client passe également à **MAPIOFFLINE_ADVISEINFO** un jeton client que Outlook 2010 ou Outlook 2013 utilise dans **IMAPIOfflineNotify::Notify** pour identifier le client inscrit pour le rappel de notification. 
+Le client passe également à **MAPIOFFLINE_ADVISEINFO** un jeton client qui Outlook 2010 ou Outlook 2013 utilise dans **IMAPIOfflineNotify::Notify** pour identifier le client inscrit pour le rappel de notification. 
   
-En règle générale, Outlook 2010 et Outlook 2013 peuvent notifier un client de modifications en ligne/hors connexion et d’autres modifications d’état de connexion, mais l’API d’état hors connexion prend en charge uniquement les notifications pour les modifications en ligne/hors connexion. Le client doit ignorer toutes les autres notifications.
+En général, Outlook 2010 et Outlook 2013 peuvent informer un client des modifications en ligne/hors connexion et d’autres changements d’état de connexion, mais l’API d’état hors connexion prend uniquement en charge les notifications pour les modifications en ligne/hors connexion. Le client doit ignorer toutes les autres notifications.
   
 ## <a name="see-also"></a>Voir aussi
 

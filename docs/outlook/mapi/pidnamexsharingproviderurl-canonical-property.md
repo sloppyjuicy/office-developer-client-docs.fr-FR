@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidNameXSharingProviderUrl
+description: Décrit la propriété canonique PidNameXSharingProviderUrl, qui représente la valeur de la propriété dispidSharingProviderUrl.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: f44acaa6-1747-4b74-bf48-bb6f72b258ed
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a82601b7f727b60de7719706ae78001ef6545bdd
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: d77d6ce1e1878ecf5b49d2944385ab1e227f4e11
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455831"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65811934"
 ---
 # <a name="pidnamexsharingproviderurl-canonical-property"></a>Propriété canonique PidNameXSharingProviderUrl
 
@@ -29,9 +29,9 @@ Représente la valeur de la propriété **dispidSharingProviderUrl** ([PidLidSha
   
 |Propriété|Valeur|
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms conviviaux :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
-|Nom de la propriété :  <br/> |X-Sharing-Provider-Url  <br/> |
+|Nom de la propriété :  <br/> |X-Sharing-Provider-URL  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Partage  <br/> |
    
@@ -41,11 +41,11 @@ Représente la valeur de la propriété **dispidSharingProviderUrl** ([PidLidSha
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Partage des dossiers de boîte aux lettres entre clients.
+> Partage des dossiers de boîte aux lettres entre les clients.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

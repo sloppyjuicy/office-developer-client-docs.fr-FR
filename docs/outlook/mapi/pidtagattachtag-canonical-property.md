@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidTagAttachTag
+title: PidTagAttachTag Canonical, propriété
+description: Décrit la propriété canonique PidTagAttachTag, qui contient un identificateur d’objet ASN.1 spécifiant l’application qui a fourni une pièce jointe.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,15 +12,14 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3d223809-b697-47c6-bc3c-2206aff7ad33
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 412c075ec414cf903125482dd83cf15f0307d909
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 4f6184e59ba6c0140373c713866926b04278746f
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63719767"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815281"
 ---
-# <a name="pidtagattachtag-canonical-property"></a>Propriété canonique PidTagAttachTag
+# <a name="pidtagattachtag-canonical-property"></a>PidTagAttachTag Canonical, propriété
 
   
   
@@ -38,11 +38,11 @@ Contient un identificateur d’objet ASN.1 spécifiant l’application qui a fou
 
 Cette propriété identifie l’application qui a généré la pièce jointe à l’origine.
   
- **Remarque** Les **propriétés PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) **et PR_ATTACH_TAG** ne doivent pas être confondues. Elles ne sont ni associées ni associées. **PR_ATTACH_ENCODING** identifie l’algorithme utilisé pour transformer les données dans une pièce jointe. « Object » a une signification beaucoup plus générale dans l’identificateur d’objet de terme et dans l’utilisation X.400 que dans la programmation orientée objet. 
+ **Note** Les propriétés **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) et **PR_ATTACH_TAG** ne doivent pas être confondues. Ils ne sont pas associés ou associés. **PR_ATTACH_ENCODING** identifie l’algorithme utilisé pour transformer les données dans une pièce jointe. « Object » a une signification beaucoup plus générale dans l’identificateur d’objet de terme et dans l’utilisation de X.400, que dans la programmation orientée objet. 
   
-La syntaxe de l’identificateur d’objet et les exemples d’identificateurs d’objet sont définis dans MAPIOID. Fichier d’en-tête H. Les **valeurs PR_ATTACH_TAG** ne sont pas limitées à celles définies dans MAPIOID.H. 
+La syntaxe de l’identificateur d’objet et les exemples d’identificateurs d’objet sont définis dans le MAPIOID. Fichier d’en-tête H. Les valeurs de **PR_ATTACH_TAG** ne sont pas limitées à celles définies dans MAPIOID.H. 
   
-Pour plus d’informations sur ces identificateurs d’objets, voir la documentation sur ASN.1, X.208 et X.209. L’identificateur d’objet se trouve dans l’élément de référence d’application de l’environnement FTBP (File Transfer Body Part). 
+Pour obtenir des informations complètes sur ces identificateurs d’objet, consultez la documentation sur ASN.1, X.208 et X.209. L’identificateur d’objet se trouve dans l’élément de référence d’application de l’environnement FTBP (File Transfer Body Part). 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -60,7 +60,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -75,5 +75,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

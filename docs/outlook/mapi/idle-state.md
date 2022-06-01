@@ -1,25 +1,25 @@
 ---
-title: État inactif
+title: État d’inactivité
+description: Cette rubrique décrit ce qui se passe pendant l’état d’inactivité de la machine d’état de réplication. Les propriétés associées et leurs valeurs correspondantes sont fournies.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 46976bea-c6bb-2e37-2e67-4cbccaa03aec
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2e86efdc8d0e742a1c78cefbc9f9903886f8bf1d
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 2a194dbec606b6dcb27cad350de9d31f8ef14f6b
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63782012"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815750"
 ---
-# <a name="idle-state"></a>État inactif
+# <a name="idle-state"></a>État d’inactivité
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit ce qui se produit pendant l’état inactif de la machine à états de réplication. 
+ Cette rubrique décrit ce qui se passe pendant l’état d’inactivité de la machine d’état de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -31,11 +31,11 @@ ms.locfileid: "63782012"
 |À cet état :  <br/> |[Synchronisation de l’état](synchronize-state.md) <br/> |
    
 > [!NOTE]
-> La machine à états de réplication est une machine à états déterministe. Un client s’écartant d’un état à un autre doit finalement revenir au premier à partir du second. 
+> L’ordinateur d’état de réplication est un ordinateur d’état déterministe. Un client qui part d’un état à un autre doit finalement revenir au premier d’un autre état. 
   
 ## <a name="description"></a>Description
 
-Rien ne se passe dans cet état. Un magasin local est dans cet état avant le début de la réplication et une fois la réplication terminée.
+Rien ne se passe dans cet état. Un magasin local est dans cet état avant le lancement de la réplication et une fois la réplication terminée.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagContactAddressBookMultipleAddressFlag
+description: Décrit la propriété canonique PidTagContactAddressBookMultipleAddressFlag, qui est TRUE si le fournisseur n’autorise pas les contacts sans adresse e-mail.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: aefc34c5-1beb-44cf-a455-90f466e157ce
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3479b7218ad09f41cf137bb8d574ad501ebe3533
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: dc480ec6b42afe6313ab7b79fbed7268635cd840
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725978"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65811815"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflag-canonical-property"></a>Propriété canonique PidTagContactAddressBookMultipleAddressFlag
 
@@ -25,7 +25,7 @@ ms.locfileid: "63725978"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un indicateur true lorsque le fournisseur prend en charge plusieurs adresses de messagerie par élément de contact.
+Contient un indicateur true lorsque le fournisseur prend en charge plusieurs adresses e-mail par élément de contact.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient un indicateur true lorsque le fournisseur prend en charge plusieurs adr
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété a la valeur TRUE, le fournisseur n’autorise pas les contacts sans adresse de messagerie. Si la false, le fournisseur indique à tous les contacts s’ils ont ou non une adresse de messagerie principale. Seule l’adresse de messagerie principale sera honorée. Il s’agit d’une propriété d’un conteneur de carnet d’adresses de contact et d’une colonne dans la table des conteneurs de carnet d’adresses de contact.
+Si cette propriété est TRUE, le fournisseur n’autorise pas les contacts sans adresse e-mail. Si la valeur est FALSE, le fournisseur affiche tous les contacts, qu’ils aient ou non une adresse e-mail principale. Seule l’adresse e-mail principale sera honorée. Il s’agit d’une propriété sur un conteneur de carnets d’adresses de contact et d’une colonne dans la table des conteneurs de carnets d’adresses de contact.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

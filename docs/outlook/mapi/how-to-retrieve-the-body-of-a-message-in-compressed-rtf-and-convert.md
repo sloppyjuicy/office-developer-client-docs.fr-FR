@@ -1,23 +1,23 @@
 ---
-title: Récupérer le corps du message au format RTF compressé et le convertir dans son format natif
+title: Récupérer le corps du message dans un format RTF compressé et le convertir au format natif
+description: Cet article explique comment récupérer le corps d’un message en RTF compressé et comment le convertir en son format natif.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 9408da71-4abf-60cf-5412-58c5ceeb2205
-description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: 30879323c81f51e80c8e1f66da5c1b424a882c98
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 76887599bdf36b33266da2c42bbe62c6f0f96e17
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564266"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816926"
 ---
-# <a name="retrieve-body-of-message-in-compressed-rtf-and-convert-to-its-native-format"></a>Récupérer le corps du message au format RTF compressé et le convertir dans son format natif
+# <a name="retrieve-body-of-message-in-compressed-rtf-and-convert-to-its-native-format"></a>Récupérer le corps du message dans un format RTF compressé et le convertir au format natif
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cet exemple de code en Microsoft C++ vous montre comment utiliser la fonction Microsoft Outlook 2010 ou Microsoft Outlook 2013 [exportée WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) pour accéder au corps d’un message encapsulé dans un format RTF compressé et obtenir le corps dans son format natif. 
+Cet exemple de code dans Microsoft C++ vous montre comment utiliser la fonction Microsoft Outlook 2010 exportée ou Microsoft Outlook 2013 [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) pour accéder au corps d’un message encapsulé dans rtF compressé et obtenir le corps dans son format natif. 
   
 ```cpp
 //These are definitions for the WrapCompressedRTFStreamEx function. 

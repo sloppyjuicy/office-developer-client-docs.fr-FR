@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidSharingResponseType
+description: Décrit la propriété canonique PidLidSharingResponseType, qui spécifie le type de réponse auquel le destinataire de la demande de partage a répondu.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c27b1239-3612-4bb3-9f22-4b89ee9900cd
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4d1022623d49981d80f27b87fe4289ff741fbf7e
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 2c3c7ba1eb1bcfbd615687f52f35c62247f92af8
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63724539"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816072"
 ---
 # <a name="pidlidsharingresponsetype-canonical-property"></a>Propriété canonique PidLidSharingResponseType
 
@@ -51,11 +51,11 @@ La valeur de cette propriété doit être définie sur l’une des valeurs suiva
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Partage des dossiers de boîte aux lettres entre clients.
+> Partage des dossiers de boîte aux lettres entre les clients.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -73,5 +73,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

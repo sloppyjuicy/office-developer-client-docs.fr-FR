@@ -1,5 +1,6 @@
 ---
 title: CURRENCY
+description: CURRENCY contient un entier 64 bits signé représentant une valeur monétaire. Cet article décrit ses membres et remarques.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: cffc05a0-95e4-4b9f-bf8f-c4272a75afa8
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 488134524e9b0b4e4812148424c4899e576bfe2b
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: dabdd170201225cae144f4a00a01dd57370bb9cf
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63633189"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815904"
 ---
 # <a name="currency"></a>CURRENCY
 
@@ -25,7 +25,7 @@ ms.locfileid: "63633189"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un integer signé 64 bits représentant une valeur monétaire. 
+Contient un entier 64 bits signé représentant une valeur monétaire. 
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -44,19 +44,19 @@ typedef struct tagCY
 
  **Lo**
   
-> 32 bits de bas ordre de la valeur monétaire. 
+> Ordre faible 32 bits de la valeur monétaire. 
     
  **Salut**
   
-> 32 bits de haut ordre de la valeur monétaire.
+> Ordre élevé 32 bits de la valeur monétaire.
     
 ## <a name="remarks"></a>Remarques
 
-La structure **CURRENCY** est une représentation entière à l’échelle d’un nombre décimal à quatre chiffres à droite de la virgule décimale. Par exemple, une valeur stockée de 327 500 doit être interprétée comme représentant une valeur monétaire de 32,7500. 
+La structure **CURRENCY** est une représentation entière mise à l’échelle d’un nombre décimal avec quatre chiffres à droite de la virgule décimale. Par exemple, une valeur stockée de 327500 doit être interprétée comme représentant une valeur monétaire de 32,7500. 
   
-La structure **CURRENCY** est utilisée pour décrire une propriété de type PT_CURRENCY. Pour plus d’informations sur les types de propriétés, voir [MAPI Property Type Overview](mapi-property-type-overview.md).
+La structure **CURRENCY** est utilisée pour décrire une propriété de type PT_CURRENCY. Pour plus d’informations sur les types de propriétés, consultez [vue d’ensemble du type de propriété MAPI](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 

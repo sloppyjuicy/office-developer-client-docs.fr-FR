@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagConflictEntryId
+description: Décrit la propriété canonique PidTagConflictEntryId, qui contient l’EntryID du message de résolution de conflit.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 69d56a0e-4cac-4fef-81fb-2cc5874ec799
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f4a1fe170a2d2675252aa65ebe67fffb12f3f591
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: a64e8bc9dfca973d2b3b494382778745514376fc
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63720360"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65811892"
 ---
 # <a name="pidtagconflictentryid-canonical-property"></a>Propriété canonique PidTagConflictEntryId
 
@@ -32,7 +32,7 @@ Contient l’EntryID du message de résolution de conflit.
 |Propriétés associées :  <br/> |PR_CONFLICT_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x3FF0  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Synchronisation incrémentielle des changements (ICS)  <br/> |
+|Domaine :  <br/> |Synchronisation des modifications incrémentielles (ICS)  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -66,5 +66,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

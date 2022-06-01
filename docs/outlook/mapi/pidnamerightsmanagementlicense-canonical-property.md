@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidNameRightsManagementLicense
+description: Décrit la propriété canonique PidNameRightsManagementLicense, qui met en cache la licence d’utilisation pour le message électronique géré par les droits.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: ca3c9317-7873-4f37-b78f-b35467c81c29
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f61b1dc468e22b7793fa86c3d2869046d8151ef4
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 4c57f96c0fa194e4fe3e61093335c6c9ca8493e8
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63629474"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65812600"
 ---
 # <a name="pidnamerightsmanagementlicense-canonical-property"></a>Propriété canonique PidNameRightsManagementLicense
 
@@ -29,7 +29,7 @@ Met en cache la licence d’utilisation pour le message électronique géré par
   
 |Propriété |Valeur |
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms conviviaux :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |DRMLicense  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
@@ -37,7 +37,7 @@ Met en cache la licence d’utilisation pour le message électronique géré par
    
 ## <a name="remarks"></a>Remarques
 
-Si la propriété est présente dans un message électronique géré par des droits, la première valeur de cette propriété binaire multiple doit contenir la licence d’utilisation compressée ZLIB (comme spécifié dans [RFC1950]) pour le message électronique géré par des droits.
+Si la propriété est présente sur un message électronique géré par des droits, la première valeur de cette propriété binaire multiple doit contenir la licence d’utilisation compressée ZLIB (comme spécifié dans [RFC1950]) pour le message électronique géré par les droits.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ Si la propriété est présente dans un message électronique géré par des dro
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Spécifie les propriétés des messages codés gérés par des droits.
+> Spécifie les propriétés des messages encodés gérés par des droits.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

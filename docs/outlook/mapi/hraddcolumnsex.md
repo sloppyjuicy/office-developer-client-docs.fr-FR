@@ -1,5 +1,6 @@
 ---
 title: HrAddColumnsEx
+description: Cet article décrit la fonction HrAddColumnsEx et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0a65d2b-a9b8-4477-a1c7-18c8478126f6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: df5b1a9d92d2eb0ebefe050a3ca88718695a2537
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: a42cf6466fd2c74c07859b040bc3c3dfd59e0649
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63634561"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815820"
 ---
 # <a name="hraddcolumnsex"></a>HrAddColumnsEx
 
@@ -25,9 +25,9 @@ ms.locfileid: "63634561"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ajoute ou déplace des colonnes au début d’un tableau existant. 
+Ajoute ou déplace des colonnes au début d’une table existante. 
   
-||Valeur |
+|Propriété|Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
@@ -52,23 +52,23 @@ HRESULT HrAddColumnsEx(
     
  _lpproptagColumnsNew_
   
-> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriétés pour les propriétés à ajouter ou déplacer au début du tableau. 
+> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété pour les propriétés à ajouter ou à déplacer au début de la table. 
     
  _lpAllocateBuffer_
   
-> [in] Pointeur vers la [fonction MAPIAllocateBuffer](mapiallocatebuffer.md) , à utiliser pour allouer de la mémoire. 
+> [in] Pointeur vers la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) , à utiliser pour allouer de la mémoire. 
     
  _lpFreeBuffer_
   
-> [in] Pointeur vers la [fonction MAPIFreeBuffer](mapifreebuffer.md) , à utiliser pour libérer de la mémoire. 
+> [in] Pointeur vers la fonction [MAPIFreeBuffer](mapifreebuffer.md) , à utiliser pour libérer de la mémoire. 
     
  _lpfnFilterColumns_
   
-> [in] Pointeur vers une fonction de rappel fournie par l’appelant. Si le  _paramètre lpfnFilterColumns_ a la valeur NULL, aucun rappel n’est effectué. 
+> [in] Pointeur vers une fonction de rappel fournie par l’appelant. Si le paramètre  _lpfnFilterColumns_ a la valeur NULL, aucun rappel n’est effectué. 
     
  _ptaga_
   
-> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient le tableau des balises de propriétés qui existent déjà dans le tableau avant que les propriétés ne soient ajoutées ou déplacées au début. **HrAddColumnsEx** passe ce pointeur comme paramètre à la fonction de rappel pointée par  _lpfnFilterColumns_.
+> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient le tableau de balises de propriétés existant déjà dans la table avant que les propriétés ne soient ajoutées ou déplacées au début. **HrAddColumnsEx** transmet ce pointeur en tant que paramètre à la fonction de rappel pointée par  _lpfnFilterColumns_.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -78,19 +78,19 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les propriétés **transmises à HrAddColumnsEx** à l’aide du paramètre  _lpproptagColumnsNew deviennent les premières propriétés exposées_ lors des appels ultérieurs à la méthode [IMAPITable::QueryRows](imapitable-queryrows.md) . Toutes les propriétés précédemment dans le tableau qui n’ont pas été spécifiées dans le _paramètre lpproptagColumnsNew sont exposées_ après toutes les propriétés ajoutées et déplacées. 
+Les propriétés passées à **HrAddColumnsEx** à l’aide du paramètre  _lpproptagColumnsNew_ deviennent les premières propriétés exposées lors des appels suivants à la méthode [IMAPITable::QueryRows](imapitable-queryrows.md) . Toutes les propriétés précédemment présentes dans la table qui n’étaient pas spécifiées dans le paramètre _lpproptagColumnsNew sont exposées_ après toutes les propriétés ajoutées et déplacées. 
   
-Si des propriétés de table ne sont pas définies lors de l’appel de **QueryRows** , elles sont renvoyées avec le type de propriété PT_NULL et l’identificateur de PROP_ID_NULL. 
+Si des propriétés de table ne sont pas **définies lors de l’appel de QueryRows** , elles sont retournées avec le type de propriété PT_NULL et l’identificateur de propriété PROP_ID_NULL. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La fonction **HrAddColumnsEx** permet à l’appelant de fournir une fonction de rappel pour filtrer les colonnes qui seraient déjà dans le tableau, par exemple pour convertir des chaînes du type de propriété PT_UNICODE en PT_STRING8. **HrAddColumnsEx** passe un pointeur vers le jeu de colonnes existant précédemment en tant que paramètre de la fonction de rappel. La fonction de rappel peut modifier les données dans le tableau de balises de propriétés, mais ne peut pas ajouter de nouvelles balises. 
+La fonction **HrAddColumnsEx** permet à l’appelant de fournir une fonction de rappel pour filtrer les colonnes qui se trouvaient déjà dans la table, par exemple pour convertir des chaînes du type de propriété PT_UNICODE en PT_STRING8. **HrAddColumnsEx** passe un pointeur vers le jeu de colonnes existant précédemment en tant que paramètre à la fonction de rappel. La fonction de rappel peut modifier les données dans le tableau de balises de propriétés, mais ne peut pas ajouter de nouvelles balises. 
   
- **HrAddColumnsEx** appelle d’abord la fonction de rappel s’il en existe une, ajoute ou déplace les colonnes spécifiées, puis appelle [IMAPITable::SetColumns](imapitable-setcolumns.md). 
+ **HrAddColumnsEx** appelle d’abord la fonction de rappel si elle est fournie, puis ajoute ou déplace les colonnes spécifiées, puis appelle [IMAPITable::SetColumns](imapitable-setcolumns.md). 
   
-Les paramètres d’entrée  _lpAllocateBuffer_ et  _lpFreeBuffer_ pointent respectivement vers les fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIFreeBuffer](mapifreebuffer.md) . Les valeurs exactes des pointeurs transmis à **HrAddColumnsEx** varient selon que l’appelant est une application cliente ou un fournisseur de services. Un client transmet les pointeurs vers les fonctions MAPI avec les noms spécifiés. Un fournisseur de services transmet les pointeurs qu’il a reçus dans son appel d’initialisation ou récupérés en appelant la méthode [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) . 
+Les paramètres d’entrée  _lpAllocateBuffer_ et  _lpFreeBuffer_ pointent vers les fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIFreeBuffer](mapifreebuffer.md) , respectivement. Les valeurs exactes des pointeurs passés à **HrAddColumnsEx** varient selon que l’appelant est une application cliente ou un fournisseur de services. Un client transmet des pointeurs aux fonctions MAPI avec les noms spécifiés. Un fournisseur de services transmet les pointeurs qu’il a reçus dans son appel d’initialisation ou récupérés en appelant la méthode [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) . 
   
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 

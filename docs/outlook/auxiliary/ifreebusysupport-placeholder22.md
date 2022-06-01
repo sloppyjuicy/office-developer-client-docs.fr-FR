@@ -6,13 +6,13 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 7675aae8-05b5-6361-c20f-c0ae3fd32576
-description: Ce membre est un espace réservé et n’est pas pris en charge.
-ms.openlocfilehash: c8c4b1d40ee77440851de80648ff498b30ce59c1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Décrit IFreeBusySupportPlaceholder22 et fournit la syntaxe, la valeur de retour et des remarques supplémentaires. Ce membre est un espace réservé et n’est pas pris en charge.
+ms.openlocfilehash: 245ccd8062d30458c2c4ed994ba11c6819bf9f83
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625713"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815939"
 ---
 # <a name="ifreebusysupportplaceholder22"></a>IFreeBusySupport::Placeholder22
 
@@ -32,10 +32,10 @@ Toujours S_OK, car ce membre est un espace réservé et n’est pas pris en char
   
 ## <a name="remarks"></a>Remarques
 
-Ce membre doit renvoyer S_OK.
+Ce membre doit retourner S_OK.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Constantes (API de libre/occupé)](constants-free-busy-api.md) 
+- [Constantes (API libre/occupée)](constants-free-busy-api.md) 
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

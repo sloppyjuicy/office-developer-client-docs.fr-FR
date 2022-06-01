@@ -1,5 +1,6 @@
 ---
 title: FBadPropTag
+description: FBadPropTag valide une balise de propriété spécifiée. Cet article décrit sa syntaxe, ses paramètres, sa valeur de retour et ses remarques.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 143bd3c6-5a55-4122-8522-9c48473aa781
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c7cd82dec7affe7f0f4668150875914865ccf08f
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: de816aa473bc848fdc358a0013de544d59acf782
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63626373"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815862"
 ---
 # <a name="fbadproptag"></a>FBadPropTag
 
@@ -57,9 +57,9 @@ FALSE
     
 ## <a name="remarks"></a>Remarques
 
-La **fonction FBadPropTag** valide la balise de propriété spécifiée en fonction des définitions MAPI. Il s’assure que le type de propriété est l’un des types définis par MAPI et que l’identificateur de propriété est défini comme étant de ce type. 
+La fonction **FBadPropTag** valide la balise de propriété spécifiée en fonction des définitions MAPI. Il vérifie que le type de propriété est l’un des types définis par MAPI et que l’identificateur de propriété est défini comme étant de ce type. 
   
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 

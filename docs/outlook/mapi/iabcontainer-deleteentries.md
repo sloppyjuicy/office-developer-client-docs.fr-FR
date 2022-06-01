@@ -1,5 +1,6 @@
 ---
 title: IABContainerDeleteEntries
+description: Cet article décrit la fonction IABContainerDeleteEntries et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70a24811-0c41-4b44-8c63-7ef807bc9051
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3256f602576e389a8c7e6103622984870652d2fa
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3882b02f41da2b13abbcb05ebbccd94757617018
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772216"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816212"
 ---
 # <a name="iabcontainerdeleteentries"></a>IABContainer::DeleteEntries
 
@@ -52,7 +52,7 @@ S_OK
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> L’appel a réussi, mais une ou plusieurs des entrées n’ont pas pu être supprimées. Lorsque cette valeur est renvoyée, l’appel doit être géré comme réussi. Pour tester cette valeur, utilisez la macro **HR_FAILED** macro. Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md).
+> L’appel a réussi, mais une ou plusieurs des entrées n’ont pas pu être supprimées. Lorsque cette valeur est retournée, l’appel doit être géré comme ayant réussi. Pour tester cette valeur, utilisez la macro **HR_FAILED** . Pour plus d’informations, consultez [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -60,7 +60,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|Abdlg.cpp  <br/> |CabDlg::OnDeleteSelectedItem  <br/> |MFCMAPI utilise la **méthode DeleteEntries** pour supprimer une entrée spécifique d’un conteneur de carnet d’adresses. |
+|Abdlg.cpp  <br/> |CabDlg::OnDeleteSelectedItem  <br/> |MFCMAPI utilise la méthode **DeleteEntries** pour supprimer une entrée spécifique d’un conteneur de carnet d’adresses. |
    
 ## <a name="see-also"></a>Voir aussi
 

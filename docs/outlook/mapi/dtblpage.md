@@ -1,5 +1,6 @@
 ---
 title: DTBLPAGE
+description: DTBLPAGE décrit une page à onglets qui sera utilisée dans une boîte de dialogue générée à partir d’une table d’affichage.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: f899f434-a5d7-4b4f-98f9-c14c9f21b24b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 32cfa5fb38e0499ab4614bdb4bd0ea7d813391e2
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: aa1929f6b518899ac02c613e8b5a935817515e97
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63631182"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815673"
 ---
 # <a name="dtblpage"></a>DTBLPAGE
 
@@ -25,7 +25,7 @@ ms.locfileid: "63631182"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une page à onglets qui sera utilisée dans une boîte de dialogue qui est conçue à partir d’un tableau d’affichage. 
+Décrit une page à onglets qui sera utilisée dans une boîte de dialogue créée à partir d’une table d’affichage. 
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -51,29 +51,29 @@ typedef struct _DTBLPAGE
     
  **ulFlags**
   
-> Masque de bits d’indicateurs utilisé pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabelName** . L’indicateur suivant peut être définie : 
+> Masque de bits des indicateurs utilisés pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabelName** . L’indicateur suivant peut être défini : 
     
 MAPI_UNICODE 
   
-> L’étiquette est au format Unicode. Si l’MAPI_UNICODE n’est pas définie, l’étiquette est au format ANSI.
+> L’étiquette est au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas défini, l’étiquette est au format ANSI.
     
  **ulbLpszComponent**
   
-> Position en mémoire d’une chaîne de caractères identifiant la section **[Mappages des fichiers d’aide]** dans MAPISVC. Fichier de configuration INF ou 0. Nom du fichier qui apparaît dans MAPISVC. La section INF peut être utilisée par un utilisateur pour accéder à l’aide étendue de la page à onglets  en cliquant sur le bouton Aide de la boîte de dialogue. Pour plus d’informations sur les entrées dans MAPISVC. INF, voir [Format de fichier de MAPISVC. INF](file-format-of-mapisvc-inf.md).
+> Position en mémoire d’une chaîne de caractères identifiant la section **[Mappages de fichiers d’aide]** dans MAPISVC. Fichier de configuration INF ou 0. Nom de fichier qui s’affiche dans MAPISVC. La section INF peut être utilisée par un utilisateur pour accéder à l’aide étendue pour la page à onglets en cliquant sur le bouton **Aide** dans la boîte de dialogue. Pour plus d’informations sur les entrées dans MAPISVC. INF, voir [Format de fichier de MAPISVC. INF](file-format-of-mapisvc-inf.md).
     
  **ulContext**
   
-> Identificateur unique de la page à onglets dans la chaîne définie par le membre **ulbLpszComponent** . Le **membre ulbLpszComponent** et le membre **ulContext** doivent tous deux être non zéro pour que  le bouton Aide fonctionne. Si cet identificateur est zéro et que la chaîne du composant est NULL, aucune aide n’est associée à la page. 
+> Identificateur unique de la page à onglets dans la chaîne définie par le membre **ulbLpszComponent** . Le membre **ulbLpszComponent** et le membre **ulContext** doivent tous deux être différent de zéro pour que le bouton **d’aide** fonctionne. Si cet identificateur est égal à zéro et que la chaîne de composant est NULL, aucune aide n’est associée à la page. 
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLPAGE** décrit une page à onglets, un contrôle utilisé pour séparer plusieurs boîtes de dialogue associées. En règle générale, ces boîtes de dialogue sont des feuilles de propriétés pour l’affichage des options de configuration, de message ou de destinataire. En cliquant sur l’onglet, l’utilisateur peut passer d’une feuille à une autre. 
+Une structure **DTBLPAGE** décrit une page à onglets, un contrôle utilisé pour séparer plusieurs boîtes de dialogue associées. En règle générale, ces boîtes de dialogue sont des feuilles de propriétés permettant d’afficher les options de configuration, de message ou de destinataire. En cliquant sur l’onglet, l’utilisateur peut passer d’une feuille à une autre. 
   
-La chaîne de composant et l’identificateur de contexte fournissent des informations pour savoir si l’aide étendue est disponible pour la page à onglets. Si une aide étendue est disponible, la chaîne de composant et l’identificateur de contexte fournissent des informations sur la façon d’y accéder. La chaîne de composant est m m filée vers le fichier d’aide . l’identificateur de contexte est map pour la rubrique d’aide initiale. Si l’identificateur de contexte est zéro et que la chaîne du composant est NULL, l’aide étendue n’est pas disponible.
+La chaîne de composant et l’identificateur de contexte fournissent des informations sur la disponibilité de l’aide étendue pour la page à onglets. Si l’aide étendue est disponible, la chaîne de composant et l’identificateur de contexte fournissent des informations sur la façon d’y accéder. La chaîne de composant est mappée au fichier d’aide ; l’identificateur de contexte correspond à la rubrique d’aide initiale. Si l’identificateur de contexte est égal à zéro et que la chaîne de composant est NULL, l’aide étendue n’est pas disponible.
   
-Pour une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour obtenir une vue d’ensemble des tables d’affichage, consultez [Tables d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’une table d’affichage, consultez [Implémentation d’une table d’affichage](display-table-implementation.md).
   
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 

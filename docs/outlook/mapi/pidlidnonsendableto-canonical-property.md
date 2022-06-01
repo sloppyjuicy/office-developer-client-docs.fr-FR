@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidNonSendableTo
+description: Décrit la propriété canonique PidLidNonSendableTo, qui contient une liste de tous les participants non modifiables qui sont également des participants obligatoires.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 90e14969-652b-422a-9b0a-ee99e58bc8d5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: db23731eb57cdd08d72b3e1a3cda9341c555a3b7
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: e657bdd0d5afff6cdd4606f5fb4b3bd95b59a4fe
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783411"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65811766"
 ---
 # <a name="pidlidnonsendableto-canonical-property"></a>Propriété canonique PidLidNonSendableTo
 
@@ -25,7 +25,7 @@ ms.locfileid: "63783411"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la liste de tous les participants nonendables qui sont également des participants obligatoires.
+Contient la liste de tous les participants non modifiables qui sont également des participants obligatoires.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Contient la liste de tous les participants nonendables qui sont également des p
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de chaque participant est **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) du carnet d’adresses du participant. Les entrées distinctes doivent être délimitées par un point-virgule suivi d’un espace. Cette propriété n’est pas obligatoire.
+La valeur de chaque participant est la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) du carnet d’adresses du participant. Les entrées distinctes doivent être délimitées par un point-virgule suivi d’un espace. Cette propriété n’est pas obligatoire.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,7 +45,7 @@ La valeur de chaque participant est **PR_DISPLAY_NAME** ([PidTagDisplayName](pid
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: DNTBL
+description: DNTBL fournit des informations pour télécharger le contenu d’un dossier à partir du serveur pendant l’état de la table de téléchargement, dans le cadre d’une synchronisation complète du contenu sur un magasin.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,13 +8,12 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 77835b48-43aa-8518-9712-754e84f1e713
-description: 'Dernière modification : 05 juillet 2012'
-ms.openlocfilehash: 743e7eb8ce3cc84ebb52c529f0b0fca778603395
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 202612749e5cb87372555a6f3d8076d799889a12
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63375684"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815890"
 ---
 # <a name="dntbl"></a>DNTBL
  
@@ -103,7 +103,7 @@ _uintReserved_
 
 _rgte_
   
-> [sortant] Modifications pour les éléments normaux (ou non masqués) et les éléments associés (ou masqués). *rgte[0] est* pour les éléments normaux et *rgte[1]* pour les éléments associés. Outlook renseigne ce membre pendant le téléchargement lors de l’utilisation de la synchronisation des modifications incrémentielle (ICS). Pour plus d’informations sur ICS, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+> [sortant] Modifications pour les éléments normaux (ou non masqués) et les éléments associés (ou masqués). *rgte[0]* est pour les éléments normaux et *rgte[1]* pour les éléments associés. Outlook renseigne ce membre pendant le téléchargement lors de l’utilisation de la synchronisation des modifications incrémentielle (ICS). Pour plus d’informations sur ICS, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
 
 _lpsrReserved_
   

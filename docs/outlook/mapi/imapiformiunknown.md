@@ -1,5 +1,6 @@
 ---
 title: IMAPIForm IUnknown
+description: IMAPIFormIUnknown permet aux visionneuses de formulaires de travailler avec des contextes d’affichage de formulaires et des notifications de formulaire, d’effectuer des verbes de formulaire et d’arrêter les formulaires.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: e9059739-51b4-4574-bd0f-709eb5144ae7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c4a6c65ee60a3ec3d74dc94848f111a7c1605814
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 46e8c45adeb0a9048b2c493fd02e5ca0d38939db
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63723283"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816338"
 ---
 # <a name="imapiform--iunknown"></a>IMAPIForm : IUnknown
 
@@ -25,7 +25,7 @@ ms.locfileid: "63723283"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet aux visionneuses de formulaires de fonctionner avec des contextes d’affichage de formulaire et des notifications de formulaire, d’exécuter des verbes de formulaire et d’arrêter des formulaires.
+Permet aux visionneuses de formulaires de travailler avec des contextes d’affichage de formulaire et une notification de formulaire, d’effectuer des verbes de formulaire et d’arrêter les formulaires.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -36,17 +36,17 @@ Permet aux visionneuses de formulaires de fonctionner avec des contextes d’aff
 |Identificateur d’interface :  <br/> |IID_IMAPIForm  <br/> |
 |Type de pointeur :  <br/> |LPMAPIFORM  <br/> |
    
-## <a name="vtable-order"></a>Ordre des vtables
+## <a name="vtable-order"></a>Ordre des tables virtuelles
 
 |Member |Description |
 |:-----|:-----|
 |[SetViewContext](imapiform-setviewcontext.md) <br/> |Établit un contexte d’affichage pour le formulaire. |
-|[GetViewContext](imapiform-getviewcontext.md) <br/> |Renvoie le contexte d’affichage actuel du formulaire. |
+|[GetViewContext](imapiform-getviewcontext.md) <br/> |Retourne le contexte d’affichage actuel du formulaire. |
 |[ShutdownForm](imapiform-shutdownform.md) <br/> |Ferme le formulaire. |
-|[DoVerb](imapiform-doverb.md) <br/> |Demande au formulaire d’effectuer toutes les tâches qu’il associe à un verbe spécifique. |
+|[DoVerb](imapiform-doverb.md) <br/> |Demande que le formulaire effectue toutes les tâches associées à un verbe spécifique. |
 |[Conseiller](imapiform-advise.md) <br/> |Inscrit une visionneuse de formulaires pour les notifications sur les événements qui affectent le formulaire. |
-|[Unadvise](imapiform-unadvise.md) <br/> |Annule l’inscription des notifications auprès d’une visionneuse de formulaires précédemment établie en appelant **Advise**. |
-|[GetLastError](imapiform-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite sur l’objet de formulaire. |
+|[Non-surveillance](imapiform-unadvise.md) <br/> |Annule une inscription pour les notifications avec une visionneuse de formulaires précédemment établie en appelant **Conseiller**. |
+|[Getlasterror](imapiform-getlasterror.md) <br/> |Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite dans l’objet de formulaire. |
    
 ## <a name="see-also"></a>Voir aussi
 

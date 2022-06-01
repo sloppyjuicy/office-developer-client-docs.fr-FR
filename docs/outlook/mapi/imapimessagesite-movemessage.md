@@ -1,5 +1,6 @@
 ---
 title: IMAPIMessageSiteMoveMessage
+description: Décrit la syntaxe, les paramètres et la valeur de retour d’IMAPIMessageSiteMoveMessage, qui déplace le message actuel vers un dossier.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: cd4d7b11-fad0-4f05-a99e-9567abcab45c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fd936d0c5cf2d35a11bb8c701451238ffcde5182
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: d4dd5512862a280e52d994fcb41ee6b7ac4ce353
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773431"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816142"
 ---
 # <a name="imapimessagesitemovemessage"></a>IMAPIMessageSite::MoveMessage
 
@@ -61,17 +61,17 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Remarques
 
-Les objets form appellent la méthode **IMAPIMessageSite::MoveMessage** pour déplacer le message actuel vers un nouveau dossier. 
+Les objets de formulaire appellent la méthode **IMAPIMessageSite::MoveMessage** pour déplacer le message actuel vers un nouveau dossier. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-L’implémentation de **MoveMessage** d’une visionneuse de formulaire doit appeler la méthode [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) , en passant l’indicateur VCDIR_MOVE, avant de déplacer réellement le message vers un nouveau dossier. Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez Windows [fonction GetWindowRect](https://msdn.microsoft.com/library/ms633519). 
+L’implémentation de **MoveMessage** par une visionneuse de formulaires doit appeler la méthode [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) , en passant l’indicateur VCDIR_MOVE, avant de déplacer réellement le message vers un nouveau dossier. Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez la Windows fonction [GetWindowRect](https://msdn.microsoft.com/library/ms633519). 
   
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [INTERFACES DE FORMULAIRE MAPI](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, consultez [Interfaces de formulaire MAPI](mapi-form-interfaces.md).
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Après le renvoi de **MoveMessage, les formulaires** doivent vérifier la recherche d’un message actuel, puis se fermer s’il n’en existe aucun. 
+Après le retour de **MoveMessage, les formulaires** doivent rechercher un message actif, puis les ignorer s’ils n’existent pas. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

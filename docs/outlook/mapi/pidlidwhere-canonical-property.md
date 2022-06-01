@@ -1,6 +1,6 @@
 ---
-title: Propriété canonique PidLidWhere
-manager: soliver
+title: PidLidWhere Canonical, propriété
+description: Décrit la propriété canonique PidLidWhere, qui spécifie l’emplacement d’un événement et s’applique à Outlook 2013 et Outlook 2016.
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
@@ -11,15 +11,14 @@ api_name:
 api_type:
 - COM
 ms.assetid: b21a3aa4-7536-4728-b4a4-273cfb25c57e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d4a4b15a23a1b720598ea45dc0e3c7dabd6c0b52
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: cc1293c005be57fa2bdc62ebacf47165ecb0d4c8
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63726006"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816051"
 ---
-# <a name="pidlidwhere-canonical-property"></a>Propriété canonique PidLidWhere
+# <a name="pidlidwhere-canonical-property"></a>PidLidWhere Canonical, propriété
 
   
   
@@ -45,7 +44,7 @@ La valeur de cette propriété doit être identique à la valeur de la propriét
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -67,5 +66,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidNameComments
+description: Décrit la propriété canonique PidNameComments, qui spécifie les commentaires du fichier attaché au document.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: bc9b00b6-6337-411b-9219-067dd6c1add3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6513601b8ed26188e9c28b2124cd2e8bee38379e
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 75ac046879bb19a4003b3112e212d642bb534c91
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454116"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816044"
 ---
 # <a name="pidnamecomments-canonical-property"></a>Propriété canonique PidNameComments
 
@@ -25,13 +25,13 @@ ms.locfileid: "64454116"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie les commentaires du fichier joint au document.
+Spécifie les commentaires du fichier attaché au document.
   
 |Propriété|Valeur|
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms conviviaux :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nom de la propriété :  <br/> |Comments  <br/> |
+|Nom de la propriété :  <br/> |Commentaires  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Courant  <br/> |
    
@@ -41,11 +41,11 @@ Spécifie les commentaires du fichier joint au document.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées sur les documents.
+> Spécifie les propriétés et les opérations autorisées sur les documents.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

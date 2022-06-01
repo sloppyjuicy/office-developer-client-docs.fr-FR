@@ -1,23 +1,23 @@
 ---
 title: Procédure pour déterminer si Outlook a uniquement téléchargé l’en-tête d’un message
+description: Cette rubrique montre un exemple de code dans Visual C++ pour déterminer si Outlook est téléchargé uniquement dans l’en-tête d’un message.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: acc96bb9-1592-c480-53ee-1325f65297e1
-description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: 04770b2838941239219637a75435fcdd586dca55
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 527b50d39ded8e37d8a4e653bcf132395cb2e554
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551435"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816429"
 ---
 # <a name="determine-if-outlook-downloaded-only-the-header-of-a-message"></a>Procédure pour déterminer si Outlook a uniquement téléchargé l’en-tête d’un message
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique présente un exemple de code en Visual C++ qui utilise la propriété canonique [PidLidHeaderItem](pidlidheaderitem-canonical-property.md) nommée pour déterminer si Microsoft Outlook 2013 a téléchargé uniquement l’en-tête d’un message ou l’en-tête et le corps d’un message. 
+Cette rubrique montre un exemple de code dans Visual C++ qui utilise la [propriété canonique PidLidHeaderItem](pidlidheaderitem-canonical-property.md) nommée pour déterminer si Microsoft Outlook 2013 a téléchargé uniquement l’en-tête d’un message ou l’en-tête et le corps d’un message. 
   
 ```cpp
 BOOL bIsHeader(LPMESSAGE lpMessage) 

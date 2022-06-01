@@ -1,5 +1,6 @@
 ---
 title: DTBLRADIOBUTTON
+description: DTBLRADIOBUTTON décrit une case d’option qui fera partie d’un groupe de boutons d’option, qui sera utilisée dans une boîte de dialogue générée à partir d’une table d’affichage.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 64cef938-ef6f-43bb-8f6e-d4cd4d6c9888
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dd4fd9909e61c296ddf6158b1ce1aa7ec442afdb
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 9b3b2c90287c2390793e4c58df8fbcaf76a754d2
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63634869"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815876"
 ---
 # <a name="dtblradiobutton"></a>DTBLRADIOBUTTON
 
@@ -25,7 +25,7 @@ ms.locfileid: "63634869"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une seule bouton d’radio qui fera partie d’un groupe de boutons d’radio. Le groupe de case d’affichage sera utilisé dans une boîte de dialogue qui est conçue à partir d’une table d’affichage.
+Décrit une case d’option qui fera partie d’un groupe de cases d’option. Le groupe de cases d’option est utilisé dans une boîte de dialogue créée à partir d’une table d’affichage.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -47,23 +47,23 @@ typedef struct _DTBLRADIOBUTTON
 
  **ulbLpszLabel**
   
-> Position en mémoire de l’étiquette de chaîne de caractères de la bouton d’radio.
+> Position en mémoire de l’étiquette de chaîne de caractères pour la case d’option.
     
  **ulFlags**
   
-> Masque de bits d’indicateurs utilisé pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabel** . L’indicateur suivant peut être définie : 
+> Masque de bits des indicateurs utilisés pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabel** . L’indicateur suivant peut être défini : 
     
 MAPI_UNICODE 
   
-> L’étiquette est au format Unicode. Si l’MAPI_UNICODE n’est pas définie, l’étiquette est au format ANSI.
+> L’étiquette est au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas défini, l’étiquette est au format ANSI.
     
  **ulcButtons**
   
-> Nombre de boutons dans le groupe de boutons d’radio. Les structures **DTBLRADIOBUTTON pour** les autres boutons du groupe doivent être contenues dans des lignes successives du tableau d’affichage. Chacune de ces lignes doit contenir la même valeur pour le **membre ulcButtons** . 
+> Nombre de boutons dans le groupe de cases d’option. Les structures **DTBLRADIOBUTTON** des autres boutons du groupe doivent être contenues dans les lignes successives de la table d’affichage. Chacune de ces lignes doit contenir la même valeur pour le membre **ulcButtons** . 
     
  **ulPropTag**
   
-> Balise de propriété pour une propriété de type PT_LONG. La sélection initiale dans le groupe de boutons d’radio est basée sur la valeur initiale de cette propriété. Chaque bouton du groupe doit avoir **ulPropTag** définie sur la même propriété. 
+> Balise de propriété pour une propriété de type PT_LONG. La sélection initiale dans le groupe de cases d’option est basée sur la valeur initiale de cette propriété. **UlPropTag** doit être défini sur la même propriété pour chaque bouton du groupe. 
     
  **lReturnValue**
   
@@ -71,13 +71,13 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLRADIOBUTTON** décrit une bouton d’radio un contrôle de bouton associé à un groupe de boutons. Un seul bouton du groupe peut être vérifié . la définition d’un bouton entraîne l’insé« unset » des autres boutons du groupe. 
+Une structure **DTBLRADIOBUTTON** décrit une case d’option d’un contrôle de bouton associé à un groupe de boutons. Un seul bouton du groupe peut être vérifié ; si vous définissez un bouton, les autres boutons du groupe ne sont pas définis. 
   
-Le nombre de boutons est le nombre de boutons d’radio dans le groupe. Les structures des autres boutons d’radio du groupe doivent se trouver dans les lignes suivantes du tableau d’affichage. Chacune de ces structures doit avoir la même valeur pour son nombre de boutons.
+Le nombre de boutons est le nombre de cases d’option dans le groupe. Les structures des autres cases d’option du groupe doivent se trouver dans les lignes suivantes de la table d’affichage. Chacune de ces structures doit avoir la même valeur pour son nombre de boutons.
   
-Pour une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour obtenir une vue d’ensemble des tables d’affichage, consultez [Tables d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’une table d’affichage, consultez [Implémentation d’une table d’affichage](display-table-implementation.md).
   
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 

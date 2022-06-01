@@ -1,5 +1,6 @@
 ---
 title: HrAllocAdviseSink
+description: Cet article décrit la fonction HrAllocAdviseSink et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1dd460e6-ce95-4fef-bb5e-8d778c9716d5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 34c2e6895c1bdb6a3a887baaadd0f09e0b6f41a0
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 6077859e39ff29299ad666d947783fd71d73bd5c
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63629075"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816919"
 ---
 # <a name="hrallocadvisesink"></a>HrAllocAdviseSink
 
@@ -25,7 +25,7 @@ ms.locfileid: "63629075"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée un objet de réception de notification, en fonction d’un contexte spécifié par l’implémentation d’appel et d’une fonction de rappel à déclencher par une notification d’événement. 
+Crée un objet récepteur de conseils, en fonction d’un contexte spécifié par l’implémentation appelante et d’une fonction de rappel à déclencher par une notification d’événement. 
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -45,15 +45,15 @@ STDAPI HrAllocAdviseSink(
 
  _lpfnCallback_
   
-> [in] Pointeur vers une fonction de rappel basée sur le prototype [NOTIFCALLBACK](notifcallback.md) que MAPI doit appeler lorsqu’un événement de notification se produit pour le nouveau réception de notification. 
+> [in] Pointeur vers une fonction de rappel basée sur le prototype [NOTIFCALLBACK](notifcallback.md) que MAPI doit appeler lorsqu’un événement de notification se produit pour le récepteur de conseils nouvellement créé. 
     
  _lpvContext_
   
-> [in] Pointeur vers les données de l’appelant transmises à la fonction de rappel lorsque MAPI l’appelle. Les données de l’appelant peuvent représenter une adresse significative pour le client ou le fournisseur. En règle générale, pour le code C++,  _le paramètre lpvContext_ représente un pointeur vers l’adresse d’un objet. 
+> [in] Pointeur vers les données de l’appelant transmises à la fonction de rappel lorsque MAPI les appelle. Les données de l’appelant peuvent représenter une adresse d’importance pour le client ou le fournisseur. En règle générale, pour le code C++, le paramètre  _lpvContext_ représente un pointeur vers l’adresse d’un objet. 
     
  _lppAdviseSink_
   
-> [out] Pointeur vers un pointeur vers un objet de sink de conseil.
+> [out] Pointeur vers un pointeur vers un objet récepteur conseiller.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,11 +61,11 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Pour utiliser la fonction **HrAllocAdviseSink** , une application cliente ou un fournisseur de services crée un objet pour recevoir des notifications, crée une fonction de rappel de notification basée sur le prototype de fonction [NOTIFCALLBACK](notifcallback.md) qui va avec cet objet et transmet un pointeur vers l’objet dans la fonction **HrAllocAdviseSink** en tant que valeur  _lpvContext_ . Cela permet d’effectuer une notification . et dans le cadre du processus de notification, MAPI appelle la fonction de rappel avec le pointeur d’objet comme contexte. 
+Pour utiliser la fonction **HrAllocAdviseSink** , une application cliente ou un fournisseur de services crée un objet pour recevoir des notifications, crée une fonction de rappel de notification basée sur le prototype de fonction [NOTIFCALLBACK](notifcallback.md) qui va avec cet objet et transmet un pointeur à l’objet dans la fonction **HrAllocAdviseSink** comme valeur  _lpvContext_ . Cette opération effectue une notification ; et dans le cadre du processus de notification, MAPI appelle la fonction de rappel avec le pointeur d’objet comme contexte. 
   
-MAPI implémente son moteur de notification de manière asynchrone. En C++, le rappel de notification peut être une méthode objet. Si l’objet générant la notification n’est pas présent, le client ou le fournisseur qui demande la notification doit conserver un nombre de références distinct pour cet objet pour le sink de notification de l’objet. 
+MAPI implémente son moteur de notification de manière asynchrone. En C++, le rappel de notification peut être une méthode objet. Si l’objet qui génère la notification n’est pas présent, le client ou le fournisseur qui demande la notification doit conserver un nombre de références distinct pour cet objet pour le récepteur de conseils de l’objet. 
   
 > [!CAUTION]
-> **HrAllocAdviseSink** doit être utilisé avec parcimonie ; il est plus sûr pour les clients de créer leurs propres sinks de conseil. 
+> **HrAllocAdviseSink** doit être utilisé avec parcimonie ; il est plus sûr pour les clients de créer leurs propres récepteurs de conseils. 
   
 

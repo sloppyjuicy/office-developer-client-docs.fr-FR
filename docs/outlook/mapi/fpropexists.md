@@ -1,5 +1,6 @@
 ---
 title: FPropExists
+description: Décrit FPropExists et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 33c00752-cdc1-4cbe-8fca-6b06c78bd362
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 24894e0e3d7ccf576666f5f53c9472a252143fc3
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 4e153cc2081e0787ab319fb9c596512d5182ef32
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63782432"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815225"
 ---
 # <a name="fpropexists"></a>FPropExists
 
@@ -25,7 +25,7 @@ ms.locfileid: "63782432"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Recherche une balise de propriété donnée dans une interface [IMAPIProp](imapipropiunknown.md) ou une interface dérivée **d’IMAPIProp**, telle que [IMessage](imessageimapiprop.md) ou [IMAPIFolder](imapifolderimapicontainer.md). 
+Recherche une balise de propriété donnée dans une interface [IMAPIProp](imapipropiunknown.md) ou une interface dérivée **d’IMAPIProp**, comme [IMessage](imessageimapiprop.md) ou [IMAPIFolder](imapifolderimapicontainer.md). 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -54,14 +54,14 @@ BOOL FPropExists(
 
 TRUE 
   
-> Une correspondance a été trouvée pour la balise de propriété donnée. 
+> Une correspondance pour la balise de propriété donnée a été trouvée. 
     
 FALSE 
   
-> Une correspondance pour la balise de propriété donnée n’a pas été trouvée.
+> Une correspondance pour la balise de propriété donnée est introuvable.
     
 ## <a name="remarks"></a>Remarques
 
-Si la balise de propriété dans le paramètre _ulPropTag_ possède un type PT_UNSPECIFIED, la fonction **FPropExists** recherche une correspondance basée uniquement sur l’identificateur de propriété. Sinon, la correspondance correspond à l’ensemble de la balise de propriété, y compris le type. 
+Si la balise de propriété dans le paramètre _ulPropTag_ a un type PT_UNSPECIFIED, la fonction **FPropExists** recherche une correspondance basée uniquement sur l’identificateur de propriété. Sinon, la correspondance concerne l’ensemble de la balise de propriété, y compris le type. 
   
 

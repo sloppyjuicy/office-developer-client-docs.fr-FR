@@ -1,5 +1,6 @@
 ---
 title: FBinFromHex
+description: Décrit FBinFromHex et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 47e6c576-bd99-4410-8e41-7dd3159b23b7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5375b891684f3ed600449239267d261034946f71
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 121521e7c1b4487150ef416ae1d9124462035f39
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63726302"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815841"
 ---
 # <a name="fbinfromhex"></a>FBinFromHex
 
@@ -42,19 +42,19 @@ BOOL FBinFromHex(
 
 ## <a name="parameters"></a>Paramètres
 
- _sz_
+ _Sz_
   
-> [in] Pointeur vers la chaîne ASCII terminée par null à convertir. Il ne s’agit pas d’une chaîne Unicode. Les caractères valides incluent les caractères hexadécimals de zéro à neuf, ainsi que les caractères en minuscules et en minuscules A à F.
+> [in] Pointeur vers la chaîne ASCII terminée par la valeur Null à convertir. Il ne s’agit pas d’une chaîne Unicode. Les caractères valides incluent les caractères hexadécimals de zéro à neuf et les caractères majuscules et minuscules A à F.
     
  _pb_
   
-> [out] Pointeur vers le nombre binaire renvoyé.
+> [out] Pointeur vers le nombre binaire retourné.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> La chaîne a été convertie en nombre binaire. 
+> La chaîne a été correctement convertie en nombre binaire. 
     
 FALSE 
   

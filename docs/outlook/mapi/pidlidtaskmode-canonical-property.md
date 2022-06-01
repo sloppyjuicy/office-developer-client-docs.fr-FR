@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidTaskMode
+description: Décrit la propriété canonique PidLidTaskMode, qui spécifie l’état d’affectation de la tâche et s’applique à Outlook 2013 et Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 185db683-301a-4d91-a583-6959853fa1ad
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 05bebb000a3670d592f88a8c516ce7dcdd796c3a
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: ca99511223c753fa9ded00233358d97c5dc1c9ef
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454522"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816065"
 ---
 # <a name="pidlidtaskmode-canonical-property"></a>Propriété canonique PidLidTaskMode
 
@@ -43,10 +43,10 @@ La valeur doit être l’une des suivantes.
 |:-----|:-----|
 |0x00000000  <br/> |La tâche n’est pas affectée. |
 |0x00000001  <br/> |La tâche est incorporée dans une demande de tâche. |
-|0x00000002  <br/> |La tâche a été acceptée par la personne à qui la tâche a été assignée. |
-|0x00000003  <br/> |La tâche a été rejetée par la personne à qui la tâche a été assignée. |
+|0x00000002  <br/> |La tâche a été acceptée par l’assignateur de tâche. |
+|0x00000003  <br/> |La tâche a été rejetée par l’assignateur de tâche. |
 |0x00000004  <br/> |La tâche est incorporée dans une mise à jour de tâche. |
-|0x00000005  <br/> |La tâche a été affectée à l’assigneur de la tâche. |
+|0x00000005  <br/> |La tâche a été affectée à l’assignateur de tâches. |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,11 +54,11 @@ La valeur doit être l’une des suivantes.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
+> Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour des tâches.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -76,5 +76,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

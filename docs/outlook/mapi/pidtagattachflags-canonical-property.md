@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagAttachFlags
+description: Décrit la propriété canonique PidTagAttachFlags, qui contient un masque de bits d’indicateurs pour une pièce jointe.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 47e01131-f399-43cb-9815-aba69638c3fb
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 222780d2bd02b969304e9104631c89cd53ad28d8
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 6230c645fbce6aa8318fdc94af22def8dc3cac25
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455152"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65812487"
 ---
 # <a name="pidtagattachflags-canonical-property"></a>Propriété canonique PidTagAttachFlags
 
@@ -36,19 +36,19 @@ Contient un masque de bits d’indicateurs pour une pièce jointe.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée pour la prise en charge MHTML. 
+Cette propriété est utilisée pour la prise en charge de MHTML. 
   
-Un ou plusieurs des indicateurs suivants peuvent être définies pour **PR_ATTACH_FLAGS masque de** bits : 
+Un ou plusieurs des indicateurs suivants peuvent être définis pour le **masque** de bits PR_ATTACH_FLAGS : 
   
 ATT_INVISIBLE_IN_HTML 
   
-> Indique que cette pièce jointe n’est pas disponible pour les applications de rendu HTML et qu’elle doit être ignorée dans le traitement MIME (Multipurpose Internet Mail Extensions). 
+> Indique que cette pièce jointe n’est pas disponible pour les applications de rendu HTML et doit être ignorée dans le traitement miME (Multipurpose Internet Mail Extensions). 
     
 ATT_INVISIBLE_IN_RTF 
   
-> Indique que cette pièce jointe n’est pas disponible pour les applications de rendu au format RTF (Rich Text Format) et qu’elle doit être ignorée par MAPI.
+> Indique que cette pièce jointe n’est pas disponible pour le rendu des applications au format RTF (Rich Text Format) et doit être ignorée par MAPI.
     
-Si la **PR_ATTACH_FLAGS** est zéro ou absente, la pièce jointe doit être traitée par toutes les applications. 
+Si la propriété **PR_ATTACH_FLAGS** est zéro ou absente, la pièce jointe doit être traitée par toutes les applications. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -66,7 +66,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -78,5 +78,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

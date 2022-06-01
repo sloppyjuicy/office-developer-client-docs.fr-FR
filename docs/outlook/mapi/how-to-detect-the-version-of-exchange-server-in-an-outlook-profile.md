@@ -1,27 +1,27 @@
 ---
 title: Détection de la version d’Exchange Server dans un profil Outlook
+description: Cette rubrique inclut un exemple de code en C++ qui montre comment détecter la version de Exchange Server dans un profil Outlook.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: e2d8d8a9-7e8f-9cf0-56a8-d8a6281ad589
-description: 'Last modified: July 03, 2012'
-ms.openlocfilehash: 942803d9a8ef0aebe8f30fe8bd4fdc802c6652a4
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: a51439c7fa49988bb6bf30b9c3edd7f008ae1124
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63372310"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65812859"
 ---
 # <a name="detect-the-version-of-exchange-server-in-an-outlook-profile"></a>Détection de la version d’Exchange Server dans un profil Outlook
 
 **S’applique à** : Outlook 2013 | Outlook 2016
   
-Cette rubrique inclut un exemple de code en C++ qui montre comment utiliser la propriété **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** et la propriété **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)** pour obtenir les informations de version du Microsoft Exchange Server à qui le compte actif est connecté.
+Cette rubrique inclut un exemple de code en C++ qui montre comment utiliser la propriété **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** et la propriété **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)** pour obtenir les informations de version du Microsoft Exchange Server auquel le compte actif est connecté.
   
-La `GetProfileServiceVersion` fonction dans l’exemple de code accepte un profil comme paramètre d’entrée. Selon que la propriété **PR_PROFILE_SERVER_VERSION** et la propriété **PR_PROFILE_SERVER_FULL_VERSION** existent dans le profil donné, la fonction obtient chaque propriété et renvoie les informations de version appropriées en tant que paramètres de sortie.
+La `GetProfileServiceVersion` fonction dans l’exemple de code accepte un profil comme paramètre d’entrée. Selon que la propriété **PR_PROFILE_SERVER_VERSION** et la propriété **PR_PROFILE_SERVER_FULL_VERSION** existent dans le profil donné, la fonction obtient chaque propriété et retourne les informations de version appropriées en tant que paramètres de sortie.
   
-`GetProfileServiceVersion` appelle **[d’abord la fonction MAPIAdminProfiles pour](mapiadminprofiles.md)** créer un objet d’administration de profil. Il utilise ensuite l’objet d’administration de profil pour appeler **[IProfAdmin::AdminServices](iprofadmin-adminservices.md)** pour obtenir un objet d’administration de service de message. À l’aide de l’objet d’administration du service de message, il appelle **[IMsgServiceAdmin::OpenProfileSection](imsgserviceadmin-openprofilesection.md)** pour obtenir une section du profil actuel, puis appelle **[HrGetOneProp](hrgetoneprop.md)** pour vérifier si chacune des deux propriétés existe dans cette section du profil et, si c’est le cas, définit les informations de version dans les paramètres de sortie appropriés.
+`GetProfileServiceVersion` appelle d’abord la fonction **[MAPIAdminProfiles](mapiadminprofiles.md)** pour créer un objet d’administration de profil. Il utilise ensuite l’objet d’administration de profil pour appeler **[IProfAdmin::AdminServices](iprofadmin-adminservices.md)** afin d’obtenir un objet d’administration de service de message. À l’aide de l’objet d’administration du service de message, il appelle **[IMsgServiceAdmin::OpenProfileSection](imsgserviceadmin-openprofilesection.md)** pour obtenir une section du profil actuel, puis appelle **[HrGetOneProp](hrgetoneprop.md)** pour vérifier si chacune des deux propriétés existe dans cette section du profil et, le cas échéant, définit les informations de version dans les paramètres de sortie appropriés.
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 

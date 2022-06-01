@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidRecurring
+description: Décrit la propriété canonique PidLidRecurring, qui spécifie si un message de rendez-vous est récurrent.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3d39a053-277f-4d59-ab2e-cee81710f2ab
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e0a03c4209d354d6fcbffae0690a4cd8a406d870
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 6f608efd9e15b732a01fe6d2e69585b5923b7e71
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63721595"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816100"
 ---
 # <a name="pidlidrecurring-canonical-property"></a>Propriété canonique PidLidRecurring
 
@@ -37,9 +37,9 @@ Spécifie si un message de rendez-vous est récurrent.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété a la valeur TRUE si le rendez-vous est un rendez-vous périodique et false si elle n’est pas périodique.
+Cette propriété est TRUE si le rendez-vous est un rendez-vous périodique et false si elle n’est pas périodique.
   
-Cette propriété spécifie si l’objet représente ou non une série périodique. La valeur TRUE indique que l’objet représente une série périodique. La valeur FALSE ou l’absence de cette propriété indique que l’objet représente une instance unique ou une exception (y compris une instance orpheline). Notez la différence entre cette propriété et **la LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)).
+Cette propriété spécifie si l’objet représente ou non une série périodique. La valeur TRUE indique que l’objet représente une série périodique. La valeur FALSE, ou l’absence de cette propriété, indique que l’objet représente une instance unique ou une exception (y compris une instance orpheline). Notez la différence entre cette propriété et la propriété **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -47,7 +47,7 @@ Cette propriété spécifie si l’objet représente ou non une série périodiq
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -69,5 +69,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

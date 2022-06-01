@@ -1,5 +1,6 @@
 ---
 title: HrDispatchNotifications
+description: Cet article décrit la fonction HrDispatchNotifications et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42ec4266-67b9-416e-8b9b-163c95011626
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4e94593aac222a746a6662d53a1d806db30d7c6c
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 968fd16c3c4438fe62cb11d545df708b18055425
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63634001"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65812768"
 ---
 # <a name="hrdispatchnotifications"></a>HrDispatchNotifications
 
@@ -49,11 +49,11 @@ HRESULT HrDispatchNotifications(
 
 S_OK
   
-> Toutes les notifications en file d’attente ont été envoyées.
+> Toutes les notifications en file d’attente ont été distribuées.
     
 MAPI_E_USER_CANCEL
   
-> WM_QUIT, WM_QUERYENDSESSION ou WM_ENDSESSION reçu.
+> WM_QUIT, WM_QUERYENDSESSION ou WM_ENDSESSION a été reçu.
     
 MAPI_E_NOT_INITIALIZED
   
@@ -61,10 +61,10 @@ MAPI_E_NOT_INITIALIZED
     
 ## <a name="remarks"></a>Remarques
 
-La **fonction HrDispatchNotifications** fait en sorte que MAPI envoie toutes les notifications actuellement en file d’attente dans le moteur de notification MAPI sans attendre une distribution de message. Cela peut avoir un effet bénéfique sur l’utilisation de la mémoire. Pour plus d’informations, voir [Forcer une notification](forcing-a-notification.md). 
+La fonction **HrDispatchNotifications** entraîne l’envoi par MAPI de toutes les notifications actuellement mises en file d’attente dans le moteur de notification MAPI sans attendre la répartition des messages. Cela peut avoir un effet bénéfique sur l’utilisation de la mémoire. Pour plus d’informations, consultez [Forcer une notification](forcing-a-notification.md). 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Certaines applications attendent un message de notification dans une boucle de délai d’attente à l’aide Windows [fonctions PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx) et [DispatchMessage](https://msdn.microsoft.com/library/ms644934.aspx). Sur toutes les plateformes, sauf sur les plateformes les plus rapides, ces applications peuvent faire l’expérience de performances médiocres ou même d’un blocage des notifications. **L’utilisation de HrDispatchNotifications réduit** non seulement le code, mais améliore les performances. 
+Certaines applications attendent un message de notification dans une boucle de délai d’expiration à l’aide des fonctions Windows [PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx) et [DispatchMessage](https://msdn.microsoft.com/library/ms644934.aspx). Sur toutes les plateformes sauf les plus rapides, ces applications peuvent rencontrer des performances médiocres, voire un blocage des notifications. L’utilisation de **HrDispatchNotifications** réduit non seulement le code, mais améliore également les performances. 
   
 

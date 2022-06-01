@@ -1,5 +1,6 @@
 ---
 title: Types de données MAPI
+description: Fournit des liens alphabétiques vers la documentation pour les types de données utilisés dans les méthodes, les fonctions et les structures MAPI.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,13 +10,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3d314d4e-553b-4767-a64a-b9cf1839de52
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cab477d54a8364ca8b59ab1bde1e08ee6dea1137
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 9827e923c6e4aac2521f92024254012ff1002984
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781102"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815624"
 ---
 # <a name="mapi-data-types"></a>Types de données MAPI
 
@@ -23,7 +23,7 @@ ms.locfileid: "63781102"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les entrées alphabétisées suivantes contiennent de la documentation pour les types de données utilisés dans les méthodes, fonctions et structures MAPI. 
+Les entrées alphabétiques suivantes contiennent de la documentation pour les types de données utilisés dans les méthodes, fonctions et structures MAPI. 
   
 |Types de données|
 |:-----|
@@ -48,7 +48,7 @@ Les entrées alphabétisées suivantes contiennent de la documentation pour les 
 |[OlFlagIcon](olflagicon.md) <br/> |
 |[SCODE](scode.md) <br/> |
 |[SKEY](skey.md) <br/> |
-|[SYNC](sync.md) <br/> |
+|[SYNCHRONISATION](sync.md) <br/> |
 |[SYNCCONT](synccont.md) <br/> |
 |[SYNCSTATE](syncstate.md) <br/> |
 |[TCHAR](tchar.md) <br/> |

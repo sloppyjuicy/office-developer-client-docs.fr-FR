@@ -1,5 +1,6 @@
 ---
 title: CheckParameters
+description: CheckParameters appelle une fonction interne pour valider les paramètres de débogage sur les méthodes de fournisseur de services appelées par MAPI.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: ba33866a-c9c4-454a-9549-72455c61ee97
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b7745a7815ac24a865226cd08829e8d8fa5d8cd7
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: c1e63e37b993dcef4602e0ed67e4acf4752ac273
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63631189"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816247"
 ---
 # <a name="checkparameters"></a>CheckParameters
 
@@ -44,7 +44,7 @@ HRESULT CheckParameters(
 
  _eMethod_
   
-> [in] Spécifie, par l’éumération, la méthode à valider. 
+> [in] Spécifie, par énumération, la méthode à valider. 
     
  _First_
   
@@ -58,6 +58,6 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La macro **CheckParameters** a été recalée par la macro [CheckParms](checkparms.md) . **CheckParms est** recommandé sur toutes les plateformes. 
+La macro **CheckParameters** a été remplacée par la macro [CheckParms](checkparms.md) . **CheckParms** est recommandé sur toutes les plateformes. 
   
 

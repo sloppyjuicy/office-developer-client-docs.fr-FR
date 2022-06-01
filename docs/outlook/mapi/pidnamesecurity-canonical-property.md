@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidNameSecurity
+description: Décrit la propriété canonique PidNameSecurity, qui spécifie le niveau de sécurité du fichier attaché au document.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6e42163-494d-4787-ad83-54452d26b815
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9a3f3c8e3da7341aaa574e598661ec991d115cb9
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 508a1026bf491bc17327276318b6826afc4a4a1a
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63720377"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65811633"
 ---
 # <a name="pidnamesecurity-canonical-property"></a>Propriété canonique PidNameSecurity
 
@@ -25,11 +25,11 @@ ms.locfileid: "63720377"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le niveau de sécurité du fichier joint au document.
+Spécifie le niveau de sécurité du fichier attaché au document.
   
 |Propriété |Valeur |
 |:-----|:-----|
-|Noms convivial :  <br/> |Aucun  <br/> |
+|Noms conviviaux :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |Sécurité  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
@@ -41,11 +41,11 @@ Spécifie le niveau de sécurité du fichier joint au document.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées sur les documents.
+> Spécifie les propriétés et les opérations autorisées sur les documents.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

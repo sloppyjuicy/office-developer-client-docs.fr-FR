@@ -1,5 +1,6 @@
 ---
 title: IConverterSessionSetCharSet
+description: IConverterSessionSetCharSet spécifie un jeu de caractères facultatif que le convertisseur MAPI en MIME utilise lors de la conversion d’un message MAPI en flux MIME.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 25af3683-3a65-2d39-6f6e-76c8d36f866d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 441d9915ee0e3f5832125dfd6677a0f7b0823b74
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 73464dcc7772b14b2390fb032fbdda27a0b7194f
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772160"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815764"
 ---
 # <a name="iconvertersessionsetcharset"></a>IConverterSession::SetCharSet
 
@@ -42,17 +42,17 @@ HRESULT SetCharset(
     
  _hcharset_
   
-> [in] Handle vers un jeu de caractères défini dans mimeole.h de Windows Mail. **Spécifiez null** pour spécifier que vous ne souhaitez pas appliquer de jeu de caractères spécifique. Pour les valeurs **non null** , utilisez une fonction telle que [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) pour obtenir un handle pour le jeu de caractères. 
+> [in] Handle d’un jeu de caractères tel que défini dans mimeole.h de Courrier Windows. Spécifiez **null** pour spécifier que vous ne souhaitez pas appliquer de jeu de caractères spécifique. Pour les valeurs non **Null** , utilisez une fonction telle que [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) pour obtenir un handle pour le jeu de caractères. 
     
  _csetapplytype_
   
-> [in] Indique comment appliquer un jeu de caractères pour convertir un message, tel que défini dans mimeole.h de Windows Mail.
+> [in] Indique comment appliquer un jeu de caractères pour convertir un message, comme défini dans mimeole.h de Courrier Windows.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> L’appel de fonction a réussi.
+> L’appel de fonction réussit.
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

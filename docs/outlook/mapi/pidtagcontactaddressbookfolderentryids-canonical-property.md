@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagContactAddressBookFolderEntryIds
+description: Décrit la propriété canonique PidTagContactAddressBookFolderEntryIds, qui est une propriété dans une section de profil de carnet d’adresses de contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bb95b639-e5de-44f8-82f2-dff3b00dd3d1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f9171d4e3118aae6181a42ab69a493cfc022e5b8
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 30eed02a6e6579085871a3e38852357ab9c562be
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454445"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815239"
 ---
 # <a name="pidtagcontactaddressbookfolderentryids-canonical-property"></a>Propriété canonique PidTagContactAddressBookFolderEntryIds
 
@@ -36,7 +36,7 @@ Contient des identificateurs pour les dossiers Contacts dans les magasins de mes
    
 ## <a name="remarks"></a>Remarques
 
-Il s’agit d’une propriété d’une section de profil de carnet d’adresses de contact.
+Il s’agit d’une propriété dans une section profil de carnet d’adresses de contact.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: DNHIER
+description: DNHIER fournit des informations pour télécharger une hiérarchie à partir du serveur pendant l’état de la hiérarchie de téléchargement, qui fait partie d’une synchronisation de hiérarchie complète.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,13 +8,12 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3953dc9d-0146-3689-63f0-c6ba78566b8b
-description: 'Dernière modification : 05 juillet 2012'
-ms.openlocfilehash: 7e9ded850ee8555a14697cf07a173d57e7ec5115
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 8e9bb1e2fa03b7de627c182efb13412b5ea6648c
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63376650"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815680"
 ---
 # <a name="dnhier"></a>DNHIER
 

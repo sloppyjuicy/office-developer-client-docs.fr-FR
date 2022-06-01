@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidSharingProviderUrl
+description: Décrit la propriété canonique PidLidSharingProviderUrl, qui spécifie l’URL liée au fournisseur de partage.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: d217ab33-d697-4d27-a962-08d551d301f0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7cdcfb12ce48af5ce3ebae8816ad50017627346a
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: e0dd71d0301a59fa18424dd39e865622672506d6
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455880"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65812623"
 ---
 # <a name="pidlidsharingproviderurl-canonical-property"></a>Propriété canonique PidLidSharingProviderUrl
 
@@ -37,7 +37,7 @@ Spécifie l’URL liée au fournisseur de partage et identifiée par la proprié
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est généralement utilisée pour fournir plus d’informations sur le fournisseur de partage, mais elle doit être ignorée.
+Cette propriété est généralement utilisée pour fournir plus d’informations sur le fournisseur de partage, mais doit être ignorée.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ Cette propriété est généralement utilisée pour fournir plus d’information
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Partage des dossiers de boîte aux lettres entre clients.
+> Partage des dossiers de boîte aux lettres entre les clients.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: IMAPIFormMgrOpenFormContainer
+description: Décrit la syntaxe, les paramètres et la valeur de retour d’IMAPIFormMgrOpenFormContainer, qui ouvre une interface IMAPIFormContainer pour un conteneur de formulaires spécifique.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: df02bdc5-903a-4ce2-9f43-5f4513ea19b3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5d2f2511f9c86382ce6d88d84abeec25e5bc6c76
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 612a0d2859a6ac76eb90ff5cf0523e96556b700e
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773508"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65812179"
 ---
 # <a name="imapiformmgropenformcontainer"></a>IMAPIFormMgr::OpenFormContainer
 
@@ -25,7 +25,7 @@ ms.locfileid: "62773508"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre une interface [IMAPIFormContainer](imapiformcontaineriunknown.md) pour un conteneur de formulaire spécifique. 
+Ouvre une interface [IMAPIFormContainer](imapiformcontaineriunknown.md) pour un conteneur de formulaires spécifique. 
   
 ```cpp
 HRESULT OpenFormContainer(
@@ -39,11 +39,11 @@ HRESULT OpenFormContainer(
 
  _hfrmreg_
   
-> [in] Une éumération HFRMREG qui indique la bibliothèque de formulaires à ouvrir (autrement dit, le conteneur de formulaire à ouvrir). Une éumération HFRMREG est une éumération spécifique à un fournisseur de bibliothèque de formulaires. Les valeurs HFRMREG possibles sont les suivantes :
+> [in] Énumération HFRMREG qui indique la bibliothèque de formulaires à ouvrir (autrement dit, le conteneur de formulaires à ouvrir). Une énumération HFRMREG est une énumération spécifique à un fournisseur de bibliothèque de formulaires. Les valeurs HFRMREG possibles sont les suivantes :
     
 HFRMREG_DEFAULT 
   
-> Conteneur de formulaires pratique.
+> Un conteneur de formulaires pratique.
     
 HFRMREG_FOLDER 
   
@@ -51,19 +51,19 @@ HFRMREG_FOLDER
     
 HFRMREG_PERSONAL 
   
-> Conteneur de la magasin de messages par défaut. 
+> Conteneur du magasin de messages par défaut. 
     
 HFRMREG_LOCAL 
   
-> Conteneur de formulaire local. 
+> Conteneur de formulaires local. 
     
  _lpunk_
   
-> [in] Pointeur vers l’objet pour lequel l’interface est ouverte. Le  _paramètre lpunk_ doit être **null** , sauf si la valeur du paramètre  _hfrmreg_ nécessite un pointeur d’objet. 
+> [in] Pointeur vers l’objet pour lequel l’interface est ouverte. Le paramètre  _lpunk_ doit être **null** , sauf si la valeur du paramètre  _hfrmreg_ nécessite un pointeur d’objet. 
     
  _lppfcnt_
   
-> [out] Pointeur vers un pointeur vers l’objet conteneur de formulaire renvoyé.
+> [out] Pointeur vers un pointeur vers l’objet conteneur de formulaire retourné.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -73,17 +73,17 @@ S_OK
     
 MAPI_E_NO_INTERFACE 
   
-> L’objet pointé par  _lpunk_ ne prend pas en charge l’interface requise. 
+> L’objet pointé par  _l lui_ ne prend pas en charge l’interface requise. 
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::OpenFormContainer** pour ouvrir une interface **IMAPIFormContainer** pour un conteneur de formulaire spécifique. Cette interface peut ensuite être utilisée pour installer et supprimer des formulaires dans un conteneur de formulaires. 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::OpenFormContainer** pour ouvrir une interface **IMAPIFormContainer** pour un conteneur de formulaire spécifique. Cette interface peut ensuite être utilisée pour installer et supprimer des formulaires d’un conteneur de formulaires. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si la valeur dans  _hfrmreg_ est HFRMREG_FOLDER, l’identificateur d’interface utilisé dans  _lpunk_ doit être **non null et** autoriser les appels de méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) à une interface [IMAPIFolder](imapifolderimapicontainer.md) . 
+Si la valeur dans  _hfrmreg_ est HFRMREG_FOLDER, l’identificateur d’interface utilisé dans  _lmv_ doit être non **null** et doit autoriser les appels de méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) à une interface [IMAPIFolder](imapifolderimapicontainer.md) . 
   
-Pour ouvrir le conteneur de formulaires local, vous devez utiliser un appel à la méthode **OpenFormContainer** ou à la [fonction MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md) ; vous ne pouvez pas utiliser [la méthode IMAPIFormMgr::SelectFormContainer](imapiformmgr-selectformcontainer.md) pour permettre à l’utilisateur de sélectionner le conteneur de formulaire local. 
+Pour ouvrir le conteneur de formulaires local, vous devez utiliser un appel à la méthode **OpenFormContainer** ou à la fonction [MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md) ; vous ne pouvez pas utiliser la méthode [IMAPIFormMgr::SelectFormContainer](imapiformmgr-selectformcontainer.md) pour permettre à l’utilisateur de sélectionner le conteneur de formulaires local. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -91,8 +91,8 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenFormContainer  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::OpenFormContainer** pour récupérer un conteneur de formulaire afin que le contenu du conteneur puisse être rendu. |
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnOpenFormContainer  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::OpenFormContainer** pour récupérer un conteneur de formulaire pour un dossier afin que le contenu du conteneur puisse être rendu. |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenFormContainer  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::OpenFormContainer** pour récupérer un conteneur de formulaires afin que le contenu du conteneur puisse être affiché. |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnOpenFormContainer  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::OpenFormContainer** pour récupérer un conteneur de formulaires pour un dossier afin que le contenu du conteneur puisse être affiché. |
    
 ## <a name="see-also"></a>Voir aussi
 

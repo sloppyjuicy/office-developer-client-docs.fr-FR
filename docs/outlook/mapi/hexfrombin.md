@@ -1,5 +1,6 @@
 ---
 title: HexFromBin
+description: La fonction HexFromBin convertit un nombre binaire en une représentation sous forme de chaîne d’un nombre hexadécimal.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 12b95657-1926-4a24-be63-40305ea6f990
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 70ec38c8ce100c0ba89c1b37d46b9e94f731dca1
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: ce4eff171dcb1295d91507f70390ed1a9ba8b7c1
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63628067"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815169"
 ---
 # <a name="hexfrombin"></a>HexFromBin
 
@@ -49,11 +49,11 @@ void HexFromBin(
     
  _cb_
   
-> [in] Taille, en octets, des données binaires pointées par le  _paramètre pb_ . 
+> [in] Taille, en octets, des données binaires pointées par le paramètre  _pb_ . 
     
- _sz_
+ _Sz_
   
-> [out] Pointeur vers une chaîne ASCII terminée par null représentant les données binaires en chiffres hexadécimals.
+> [out] Pointeur vers une chaîne ASCII terminée par une valeur Null représentant les données binaires en chiffres hexadécimals.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,6 +61,6 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-La **fonction HexFromBin** prend un pointeur vers une unité de données binaires dont la taille est indiquée par le  _paramètre cb_ . Elle renvoie dans la chaîne _sz_ , dans (2*  _cb_)+1 octets de mémoire, une représentation de ces informations binaires en nombres hexadécimals. Si la valeur d’octet est décimale 10, par exemple, la chaîne hexadécimale sera 0A, de sorte qu’un octet est converti en deux octets dans la chaîne. 
+La fonction **HexFromBin** prend un pointeur vers une unité de données binaires dont la taille est indiquée par le paramètre  _cb_ . Elle retourne dans la chaîne _sz_ , dans (2*  _cb_)+1 octets de mémoire, une représentation de ces informations binaires en nombres hexadécimals. Si la valeur d’octet est décimale 10, par exemple, la chaîne hexadécimale est 0A, un octet est converti en deux octets dans la chaîne. 
   
 

@@ -1,5 +1,6 @@
 ---
 title: IMAPIOfflineNotify IUnknown
+description: IMAPIOfflineNotifyIUnknown prend en charge Microsoft Outlook 2010 et Microsoft Outlook 2013 en envoyant des rappels de notification à un client.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: a593d2a1-29f8-7e23-85bf-02fa3cfebe1b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 697623d4ac20f7f5f4eeac3a0269249345430271
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: de11d8d0e9aedb9317f4c2f788e22b412dd91f5e
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63782278"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816135"
 ---
 # <a name="imapiofflinenotify--iunknown"></a>IMAPIOfflineNotify : IUnknown
 
@@ -25,18 +25,18 @@ ms.locfileid: "63782278"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Prend en charge Microsoft Outlook 2010 et Microsoft Outlook 2013 l’envoi de rappels de notification à un client.
+Prend en charge Microsoft Outlook 2010 et Microsoft Outlook 2013 lors de l’envoi de rappels de notification à un client.
   
-|Property|Descrption|
+|Propriété|Déscrption|
 |:-----|:-----|
 |Fourni par :  <br/> |Client  <br/> |
 |Identificateur d’interface :  <br/> |IID_IMAPIOfflineNotify  <br/> |
    
-## <a name="vtable-order"></a>Ordre des vtables
+## <a name="vtable-order"></a>Ordre des tables virtuelles
 
 |Member|Description|
 |:-----|:-----|
-|[Notification](imapiofflinenotify-notify.md) <br/> |Envoie des notifications à un client concernant les modifications apportées à l’état de connexion. |
+|[Notification](imapiofflinenotify-notify.md) <br/> |Envoie des notifications à un client concernant les modifications apportées à l’état de la connexion. |
    
 ## <a name="remarks"></a>Remarques
 

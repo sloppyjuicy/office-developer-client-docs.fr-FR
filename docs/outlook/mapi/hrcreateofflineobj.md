@@ -1,5 +1,6 @@
 ---
 title: HrCreateOfflineObj
+description: Crée un objet mapi hors connexion qui est utilisé par le fournisseur et le magasin afin d’avertir MAPI lorsque l’objet est mis en ligne et hors connexion.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +8,18 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 04d57c1d-ce91-42ce-9f0f-00563092f6f4
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 93c3dd93bf2d4c234eec091da55584e6bee16549
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 5b0d487cbabe158be37bb08401b373b6e84168ad
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63626359"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816898"
 ---
 # <a name="hrcreateofflineobj"></a>HrCreateOfflineObj
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Crée un objet MAPI hors connexion qui est utilisé par le fournisseur et le magasin afin d’avertir MAPI lorsque l’objet est en ligne et hors connexion, 
+ Crée un objet mapi hors connexion qui est utilisé par le fournisseur et le magasin afin de notifier MAPI lorsque l’objet est mis en ligne et hors connexion, 
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -39,11 +39,11 @@ IMAPIOfflineMgr** ppOffline
 
 _ulFlags_
   
-> [in] Elle doit être 0.
+> [in] Il doit être 0.
     
 _pCreateInfo_
   
-> [in] Pointeur vers une structure **MAPIOFFLINE_CREATEINFO** qui contient les informations nécessaires pour créer l’objet hors connexion. 
+> [in] Pointeur vers une structure **MAPIOFFLINE_CREATEINFO** qui contient les informations nécessaires à la création de l’objet hors connexion. 
     
 _ppOffline_
   

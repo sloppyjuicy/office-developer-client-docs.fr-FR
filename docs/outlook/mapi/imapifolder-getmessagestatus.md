@@ -1,5 +1,6 @@
 ---
 title: IMAPIFolderGetMessageStatus
+description: IMAPIFolderGetMessageStatus obtient l’état associé à un message dans un dossier particulier (par exemple, si ce message est marqué pour suppression).
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ddbb129-5d6b-4eca-aba0-3620609ed0c1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 70f2c219d466fb8b7f674937573717db1a528d85
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 6006284a52eb0ee3bd0a6d4c9f44e43e2d10337e
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773592"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816177"
 ---
 # <a name="imapifoldergetmessagestatus"></a>IMAPIFolder::GetMessageStatus
 
@@ -40,7 +40,7 @@ HRESULT GetMessageStatus(
 
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
+> [in] Nombre d’octets dans l’identificateur d’entrée pointé par le paramètre  _lpEntryID_ . 
     
  _lpEntryID_
   
@@ -52,7 +52,7 @@ HRESULT GetMessageStatus(
     
  _lpulMessageStatus_
   
-> [out] Pointeur vers un pointeur vers un masque de bits d’indicateurs qui indiquent l’état du message. Les bits 0 à 15 sont réservés et doivent être zéro ; Les bits 16 à 31 sont disponibles pour une utilisation spécifique à l’implémentation. Les indicateurs suivants peuvent être définies :
+> [out] Pointeur vers un pointeur vers un masque de bits d’indicateurs qui indiquent l’état du message. Les bits 0 à 15 sont réservés et doivent être nuls ; Les bits 16 à 31 sont disponibles pour une utilisation spécifique à l’implémentation. Les indicateurs suivants peuvent être définis :
     
 MSGSTATUS_DELMARKED 
   
@@ -64,15 +64,15 @@ MSGSTATUS_HIDDEN
     
 MSGSTATUS_HIGHLIGHTED 
   
-> Le message doit être affiché en surbrillant.
+> Le message doit être affiché en surbrillance.
     
 MSGSTATUS_REMOTE_DELETE 
   
-> Le message a été marqué pour suppression dans la boutique de messages distante sans téléchargement sur le client local.
+> Le message a été marqué pour suppression dans le magasin de messages distants sans téléchargement sur le client local.
     
 MSGSTATUS_REMOTE_DOWNLOAD 
   
-> Le message a été marqué pour téléchargement à partir de la boutique de messages distante vers le client local.
+> Le message a été marqué pour téléchargement à partir du magasin de messages distant vers le client local.
     
 MSGSTATUS_TAGGED 
   
@@ -86,11 +86,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPIFolder::GetMessageStatus** renvoie l’état d’un message. L’état du message est stocké dans la propriété **PR_MSG_STATUS (**[PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)). 
+La méthode **IMAPIFolder::GetMessageStatus** retourne l’état d’un message. L’état du message est stocké dans la propriété **PR_MSG_STATUS** du message ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)). 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-La façon dont les bits d’état de message sont définies, effacées et utilisées dépend entièrement de votre implémentation, sauf que les bits 0 à 15 sont réservés et doivent être zéro. Si vous stockez des messages dans la sous-arbre IPM, MAPI réserve les bits 16 à 31 pour une utilisation par les clients IPM. Si vous stockez des messages dans d’autres sous-arbre, vous pouvez utiliser les bits 16 à 31 à vos propres fins.
+La façon dont les bits d’état du message sont définis, effacés et utilisés dépend entièrement de votre implémentation, sauf que les bits 0 à 15 sont réservés et doivent être zéro. Si vous stockez des messages dans la sous-arborescence IPM, MAPI réserve les bits 16 à 31 pour une utilisation par les clients IPM. Si vous stockez des messages dans d’autres sous-arborescences, vous pouvez utiliser les bits 16 à 31 à vos propres fins.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -99,7 +99,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetNextMessage  <br/> |MFCMAPI utilise la méthode **IMAPIFolder::GetMessageStatus** pour obtenir l’état du message suivant à afficher. |
-|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal et OpenMessageModal  <br/> |MFCMAPI utilise la méthode **IMAPIFolder::GetMessageStatus** pour obtenir l’état du message à afficher à transmettre à la visionneuse de formulaires, c’est-à-dire CMyMAPIFormViewer ou [IMAPISession::ShowForm](imapisession-showform.md). |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal et OpenMessageModal  <br/> |MFCMAPI utilise la méthode **IMAPIFolder::GetMessageStatus** pour obtenir l’état du message à afficher pour passer à la visionneuse de formulaires, c’est-à-dire CMyMAPIFormViewer ou [IMAPISession::ShowForm](imapisession-showform.md). |
    
 ## <a name="see-also"></a>Voir aussi
 

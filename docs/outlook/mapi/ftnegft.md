@@ -1,5 +1,6 @@
 ---
 title: FtNegFt
+description: Décrit FtNegFt et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 639a408c-aed1-456b-9f75-9d6fb8dcb33b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dc78701c7cfbb95455bbd92f101afaf15f08a62e
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 2344e31520fa07058b70473af78e8d433d1a7147
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781305"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816954"
 ---
 # <a name="ftnegft"></a>FtNegFt
 
@@ -25,7 +25,7 @@ ms.locfileid: "63781305"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le complément des deux d’un nombre integer 64 bits non signé. 
+Calcule le complément d’un entier 64 bits non signé. 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -41,12 +41,12 @@ FILETIME FtNegFt(
 
 ## <a name="parameters"></a>Paramètres
 
- _ft_
+ _Ft_
   
-> [in] Structure [FILETIME](filetime.md) qui contient l’ensemble non signé 64 bits pour lequel calculer le complément des deux. 
+> [in] Structure [FILETIME](filetime.md) qui contient l’entier 64 bits non signé pour lequel calculer le complément des deux. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La **fonction FtNegFt** renvoie une structure **FILETIME** qui contient le complément de l’ensemble des deux. Le paramètre d’entrée reste inchangé. 
+La fonction **FtNegFt** retourne une structure **FILETIME** qui contient le complément de l’entier des deux. Le paramètre d’entrée reste inchangé. 
   
 

@@ -1,5 +1,6 @@
 ---
 title: IMAPIMessageSiteNewMessage
+description: Décrit la syntaxe, les paramètres et la valeur de retour d’IMAPIMessageSiteNewMessage, qui crée un message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: ce6b6e6c-7f22-43c2-8182-90cf6db93844
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 898c5fd237d9a9654d3ac3a100ac2bbaf298b20c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 5ff06a0c1d96fe284f2f57c1c015f888706cac9f
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773424"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815638"
 ---
 # <a name="imapimessagesitenewmessage"></a>IMAPIMessageSite::NewMessage
 
@@ -42,7 +42,7 @@ HRESULT NewMessage(
 
  _fComposeInFolder_
   
-> [in] Indique dans quel dossier le message doit être composé. Si la variable est FALSE, le paramètre  _pFolderFocus_ est ignoré et la visionneuse de formulaires peut composer le message dans n’importe quel dossier. Si la variable est TRUE et que null est transmis dans le paramètre _pFolderFocus_ , le message est composé dans le dossier actuel. Si la variable est TRUE et qu’une valeur non NULL est transmise dans  _pFolderFocus_, le message est composé dans le dossier pointé par  _pFolderFocus_.
+> [in] Indique dans quel dossier le message doit être composé. Si la variable est FALSE, le paramètre  _pFolderFocus_ est ignoré et la visionneuse de formulaires peut composer le message dans n’importe quel dossier. Si la variable est TRUE et null est passée dans le paramètre _pFolderFocus_ , le message est composé dans le dossier actif. Si la variable a la valeur TRUE et qu’une valeur non NULL est passée dans  _pFolderFocus_, le message est composé dans le dossier pointé par  _pFolderFocus_.
     
  _pFolderFocus_
   
@@ -62,7 +62,7 @@ HRESULT NewMessage(
     
  _ppViewContext_
   
-> [out] Pointeur vers un pointeur vers un contexte d’affichage approprié pour la transmission vers un nouveau formulaire avec le nouveau message. Si le formulaire implémente son propre contexte d’affichage, NULL peut être transmis dans le _paramètre ppViewContext_ . 
+> [out] Pointeur vers un pointeur vers un contexte d’affichage approprié pour passer à un nouveau formulaire avec le nouveau message. Si le formulaire implémente son propre contexte d’affichage, null peut être passé dans le paramètre _ppViewContext_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -72,11 +72,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les objets form appellent **la méthode IMAPIMessageSite::NewMessage** pour créer un message. Le formulaire utilise **NewMessage pour** obtenir un nouveau message et le site de message associé à partir de son affichage. Il peut ensuite modifier le nouveau message. 
+Les objets form appellent la méthode **IMAPIMessageSite::NewMessage** pour créer un message. Le formulaire utilise **NewMessage** pour obtenir un nouveau message et le site de message associé à partir de sa vue. Il peut ensuite modifier le nouveau message. 
   
-Vous pouvez également obtenir un contexte d’affichage associé en passant une valeur non NULL dans le _paramètre ppViewContext_ . Ce contexte d’affichage peut être utilisé directement, ou il peut être agrégé et transmis au nouveau message. Si une implémentation complète est requise, passez NULL dans  _ppViewContext_.
+Vous pouvez également obtenir un contexte d’affichage associé en passant une valeur non NULL dans le paramètre _ppViewContext_ . Ce contexte d’affichage peut être utilisé directement, ou il peut être agrégé et transmis au nouveau message. Si une implémentation complète est requise, transmettez NULL dans  _ppViewContext_.
   
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [INTERFACES DE FORMULAIRE MAPI](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, consultez [Interfaces de formulaire MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -84,7 +84,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::NewMessage  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite::NewMessage** pour créer un message, inssérer une nouvelle visionneuse de formulaires et appeler **SetPersist** pour définir le message sur la visionneuse de formulaires. Enfin, elle renvoie la visionneuse de formulaires en tant que site de message. |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::NewMessage  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite::NewMessage** pour créer un message, instancier une nouvelle visionneuse de formulaires et appeler **SetPersist** pour définir le message sur la visionneuse de formulaires. Enfin, il retourne la visionneuse de formulaires en tant que site de message. |
    
 ## <a name="see-also"></a>Voir aussi
 

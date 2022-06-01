@@ -1,5 +1,6 @@
 ---
 title: IConverterSessionSetEncoding
+description: IConverterSessionSetEncoding initialise l’encodage à utiliser pendant la conversion. Cet article décrit sa syntaxe, ses paramètres, sa valeur de retour et ses remarques.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +12,18 @@ api_name:
 api_type:
 - COM
 ms.assetid: a9624d3f-a636-0267-5cbd-de0db42f9c22
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5ac552dad59efb54bf66426e1c6e2c5571930838
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 15337b8364d2bb1824ee5a35f415ce34945421f7
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781477"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816198"
 ---
 # <a name="iconvertersessionsetencoding"></a>IConverterSession::SetEncoding
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Initialise le codage à utiliser lors de la conversion.
+Initialise l’encodage à utiliser lors de la conversion.
   
 ```cpp
 HRESULT IConverterSession:: SetEncoding ( 
@@ -35,7 +35,7 @@ HRESULT IConverterSession:: SetEncoding (
 
 _et_
   
-> Valeur [ENCODINGTYPE](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx) . Seules les valeurs suivantes sont pris en charge : 
+> Valeur [ENCODINGTYPE](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx) . Seules les valeurs suivantes sont prises en charge : 
     
    - IET_BASE64
    - IET_UUENCODE
@@ -47,13 +47,13 @@ _et_
 
 E_INVALIDARG
   
-> Le type d’encodage transmis n’était pas valide.
+> Le type d’encodage passé n’était pas valide.
     
 ## <a name="remarks"></a>Remarques
 
-**Appelez SetEncoding** avant [d’utiliser IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) pour effectuer la conversion. 
+Appelez **SetEncoding** avant d’utiliser [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) pour effectuer la conversion. 
   
-Utilisez **SetEncoding pour** définir le codage uniquement pour le corps de message le plus à l’extérieur d’un élément de courrier. Microsoft Outlook 2010 et Microsoft Outlook 2013 choisir le codage de toutes les pièces jointes individuelles. 
+Utilisez **SetEncoding** pour définir l’encodage uniquement pour le corps de message le plus à l’extérieur d’un élément de messagerie. Microsoft Outlook 2010 et Microsoft Outlook 2013 choisissez l’encodage des pièces jointes individuelles. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

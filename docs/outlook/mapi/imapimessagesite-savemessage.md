@@ -1,5 +1,6 @@
 ---
 title: IMAPIMessageSiteSaveMessage
+description: Décrit la syntaxe, les paramètres et la valeur de retour d’IMAPIMessageSiteSaveMessage, qui demande que le message actuel soit enregistré.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 94c44952-d297-4705-9778-90373dfa5ad6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f5d7c8031dfcf6a0142603205eb9a334806a1067
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: bf92686358abccbce8e3e8f88ee9f83d58e1b77e
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773403"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65812102"
 ---
 # <a name="imapimessagesitesavemessage"></a>IMAPIMessageSite::SaveMessage
 
@@ -43,9 +43,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les formulaires **appellent la méthode IMAPIMessageSite::SaveMessage** pour demander qu’un message soit enregistré. 
+Les formulaires appellent la méthode **IMAPIMessageSite::SaveMessage** pour demander l’enregistrement d’un message. 
   
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [INTERFACES DE FORMULAIRE MAPI](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, consultez [Interfaces de formulaire MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -53,7 +53,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SaveMessage  <br/> |MFCMAPI utilise la **méthode IMAPIMessageSite::SaveMessage** pour enregistrer le message. |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SaveMessage  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite::SaveMessage** pour enregistrer le message. |
    
 ## <a name="see-also"></a>Voir aussi
 

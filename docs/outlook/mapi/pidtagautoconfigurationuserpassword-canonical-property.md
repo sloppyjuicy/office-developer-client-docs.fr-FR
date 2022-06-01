@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagAutoConfigurationUserPassword
+description: Décrit la propriété canonique PidTagAutoConfigurationUserPassword, qui représente le mot de passe de l’utilisateur.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d33e7c45-55d8-4dc1-ade9-605542d87e61
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 25cf66efd9573acd2436d28612d6e370b74b3bd9
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 2dea8d08477cc5efc3ea46a2107e183fb1e2e4eb
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454914"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815267"
 ---
 # <a name="pidtagautoconfigurationuserpassword-canonical-property"></a>Propriété canonique PidTagAutoConfigurationUserPassword
 

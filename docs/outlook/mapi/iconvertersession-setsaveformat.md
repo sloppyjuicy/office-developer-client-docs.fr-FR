@@ -1,5 +1,6 @@
 ---
 title: IConverterSessionSetSaveFormat
+description: IConverterSessionSetSaveFormat définit le format dans lequel le convertisseur retourne un flux MIME dans IConverterSession::MAPIToMIMEStm.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +12,18 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5308a94-5191-2109-a881-b4f4a7ff1c61
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2a259e6ec196690ec70d17d5376569f03531d9fb
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 1aeb3d4f4eab125498857656c152fc27dbc23316
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784208"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815757"
 ---
 # <a name="iconvertersessionsetsaveformat"></a>IConverterSession::SetSaveFormat
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit le format dans lequel le convertisseur retournera un flux MIME dans [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
+Définit le format dans lequel le convertisseur retourne un flux MIME dans [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
 ```cpp
 HRESULT IConverterSession::SetSaveFormat ( 
@@ -35,7 +35,7 @@ HRESULT IConverterSession::SetSaveFormat (
 
 _mstSaveFormat_
   
-> [in] Format d’enregistrer à utiliser pour un flux MIME. Pour plus d’informations, voir le type d’enum [MIMESAVETYPE](https://msdn.microsoft.com/library/ms715128%28VS.85%29.aspx).
+> [in] Format d’enregistrement à utiliser pour un flux MIME. Pour plus d’informations, consultez le type d’énumération [MIMESAVETYPE](https://msdn.microsoft.com/library/ms715128%28VS.85%29.aspx).
     
   - **SAVE_RFC1521** : utilisez MIME, qui est la valeur par défaut.      
   - **SAVE_RFC822** : utilisez uuencode.

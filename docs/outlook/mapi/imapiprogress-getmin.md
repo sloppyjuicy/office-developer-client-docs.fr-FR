@@ -1,5 +1,6 @@
 ---
 title: IMAPIProgressGetMin
+description: IMAPIProgressGetMin retourne la valeur minimale dans la méthode IMAPIProgressSetLimits pour laquelle les informations de progression sont affichées.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: caceddf1-0f7c-47b5-97bf-17ffe3440a6c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 96ac7f174dc21e4fd099e0923112df9acb209e71
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 706ea4681b3fe60dbbc40f34586ba46533fc63ba
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776521"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816296"
 ---
 # <a name="imapiprogressgetmin"></a>IMAPIProgress::GetMin
 

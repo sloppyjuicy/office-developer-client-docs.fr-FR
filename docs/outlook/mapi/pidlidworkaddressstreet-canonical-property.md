@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidLidWorkAddressStreet
+title: PidLidWorkAddressStreet Canonical, propriété
+description: Décrit la propriété canonique PidLidWorkAddressStreet, qui spécifie la partie rue de l’adresse de messagerie professionnelle du contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,21 +12,20 @@ api_name:
 api_type:
 - COM
 ms.assetid: 97000013-1950-4e15-8e58-35d793a5faca
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 83d427c5d376d6124b6827eaa646e387129838a8
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 8e0a6a5cd706cc464dff530de1338437fa1356ec
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454970"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65811675"
 ---
-# <a name="pidlidworkaddressstreet-canonical-property"></a>Propriété canonique PidLidWorkAddressStreet
+# <a name="pidlidworkaddressstreet-canonical-property"></a>PidLidWorkAddressStreet Canonical, propriété
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la partie rue de l’adresse postale de travail du contact.
+Spécifie la partie rue de l’adresse de messagerie professionnelle du contact.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -41,11 +41,11 @@ Spécifie la partie rue de l’adresse postale de travail du contact.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

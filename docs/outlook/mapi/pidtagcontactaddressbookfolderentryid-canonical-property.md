@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagContactAddressBookFolderEntryId
+description: Décrit la propriété canonique PidTagContactAddressBookFolderEntryId, qui est une propriété sur un conteneur de carnet d’adresses de contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 54361b61-de14-4409-b120-7a01a401be49
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 636b7a94e2774de4fe01948aaa667c0fc6e23fbf
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 9a38d20b1f19279addcb12f0a7c0272e1d9aae68
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455810"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65811913"
 ---
 # <a name="pidtagcontactaddressbookfolderentryid-canonical-property"></a>Propriété canonique PidTagContactAddressBookFolderEntryId
 
@@ -25,7 +25,7 @@ ms.locfileid: "64455810"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur pour le dossier Contacts dans la magasin de messages où les utilisateurs de messagerie sont conservés. 
+Contient un identificateur pour le dossier Contacts dans le magasin de messages où les utilisateurs de messagerie sont conservés. 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient un identificateur pour le dossier Contacts dans la magasin de messages 
    
 ## <a name="remarks"></a>Remarques
 
-Il s’agit d’une propriété d’un conteneur de carnet d’adresses de contact et d’une colonne dans la table des conteneurs de carnet d’adresses de contact.
+Il s’agit d’une propriété sur un conteneur de carnets d’adresses de contact et d’une colonne dans la table des conteneurs de carnets d’adresses de contact.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

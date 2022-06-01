@@ -1,5 +1,6 @@
 ---
 title: CbNewSPropTagArray
+description: CbNewSPropTagArray calcule le nombre d’octets à allouer pour une nouvelle structure SPropTagArray qui contient un nombre spécifié de balises de propriété.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: cd15d220-1f3d-440d-8699-0c934518b4a7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e7ed51163897b83201e4f01da93f86b6125ed0e8
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 9f436b1da91d6ddc88473337e1b00fdfc95e8514
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63634608"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815925"
 ---
 # <a name="cbnewsproptagarray"></a>CbNewSPropTagArray
 
@@ -30,7 +30,7 @@ Calcule le nombre d’octets à allouer pour une nouvelle structure [SPropTagArr
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**SPropTagArray** <br/> |
+|Structure associée :  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
 CbNewSPropTagArray (_ctag)
@@ -42,7 +42,7 @@ CbNewSPropTagArray (_ctag)
   
 > Nombre de balises de propriété à inclure dans la nouvelle structure **SPropTagArray** . 
     
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 

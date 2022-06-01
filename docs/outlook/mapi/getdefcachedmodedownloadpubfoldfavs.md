@@ -1,5 +1,6 @@
 ---
 title: GetDefCachedModeDownloadPubFoldFavs
+description: Décrit GetDefCachedModeDownloadPubFoldFavs et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +8,12 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 2dd95561-ed8f-8a3b-6532-b53556f16666
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ccf77e015282da108566a9ee299510131702f7b2
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 0e237581f1a6c0bc63c887b9341bf31da89304c8
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63782922"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815834"
 ---
 # <a name="getdefcachedmodedownloadpubfoldfavs"></a>GetDefCachedModeDownloadPubFoldFavs
 
@@ -21,7 +21,7 @@ ms.locfileid: "63782922"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si le mode Exchange mis en cache pour le dossier Favoris du dossier **public** est activé et s’il est appliqué par la stratégie. 
+Indique si le mode Exchange mis en cache pour le dossier **Favoris du dossier public** est activé et si cette option est appliquée par la stratégie. 
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -44,11 +44,11 @@ BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy);
     
 ## <a name="return-values"></a>Valeurs de retour
 
- **true**
+ **Vrai**
   
 - La mise en cache est activée.
     
- **false**
+ **Faux**
   
 - La mise en cache est désactivée.
     

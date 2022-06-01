@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagAttachTransportName
+description: Décrit la propriété canonique PidTagAttachTransportName, qui contient le nom d’un fichier pièce jointe modifié afin qu’il puisse être associé aux messages TNEF.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 701fca52-0f96-4019-80cd-c0ccd059ff9b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 90b09870e137631825c3b6c02322d5bf745780cd
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: c5ebdaf2d5155b271ab7eb829cab4dcbeeac59b3
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454921"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65812494"
 ---
 # <a name="pidtagattachtransportname-canonical-property"></a>Propriété canonique PidTagAttachTransportName
 
@@ -25,7 +25,7 @@ ms.locfileid: "64454921"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom d’un fichier de pièce jointe modifié afin qu’il puisse être associé à des messages TNEF. 
+Contient le nom d’un fichier pièce jointe modifié afin qu’il puisse être associé aux messages TNEF. 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contient le nom d’un fichier de pièce jointe modifié afin qu’il puisse êt
    
 ## <a name="remarks"></a>Remarques
 
-Le TNEF et le fournisseur de transport utilisent ces propriétés. Elles ne sont généralement pas disponibles pour les applications clientes. 
+TNEF et le fournisseur de transport utilisent ces propriétés. Elles ne sont généralement pas disponibles pour les applications clientes. 
   
-Ces propriétés sont couramment utilisées par TNEF lorsque le système de messagerie sous-jacent ne prend pas en charge les noms de fichiers fournis. Par exemple, ils sont utilisés lorsque l’utilisateur joint plusieurs fichiers portant le même nom, tels que cinq fichiers nommés CONFIG.SYS. Le fournisseur de transport doit modifier les noms pour s’assurer qu’ils sont uniques. Chaque nom modifié apparaît dans le nom de la pièce jointe et **PR_ATTACH_TRANSPORT_NAME** propriétés associées. 
+Ces propriétés sont couramment utilisées par TNEF lorsque le système de messagerie sous-jacent ne prend pas en charge les noms de fichiers fournis. Par exemple, ils sont utilisés lorsque l’utilisateur attache plusieurs fichiers portant le même nom, tels que cinq fichiers nommés CONFIG.SYS. Le fournisseur de transport doit modifier les noms pour s’assurer qu’ils sont uniques. Chaque nom modifié apparaît dans le **PR_ATTACH_TRANSPORT_NAME** de sa pièce jointe et les propriétés associées. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -68,5 +68,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

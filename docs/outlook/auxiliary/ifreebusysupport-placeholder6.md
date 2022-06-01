@@ -6,13 +6,13 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: ff2911bd-9615-fc7d-eb03-0502debaa645
-description: Ce membre est un espace réservé et n’est pas pris en charge.
-ms.openlocfilehash: bd74c65ba5d71ad3e7bf592eaefa67542796a0e4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Décrit IFreeBusySupportPlaceholder6 et fournit la syntaxe, la valeur de retour et des remarques supplémentaires. Ce membre est un espace réservé et n’est pas pris en charge.
+ms.openlocfilehash: 3e571f012407ea72e84e35ad74b86148db53369e
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580327"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815694"
 ---
 # <a name="ifreebusysupportplaceholder6"></a>IFreeBusySupport::Placeholder6
 
@@ -34,10 +34,10 @@ Toujours E_NOTIMPL, car ce membre est un espace réservé et n’est pas pris en
   
 ## <a name="remarks"></a>Remarques
 
-Ce membre doit renvoyer E_NOTIMPL.
+Ce membre doit retourner E_NOTIMPL.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Constantes (API de libre/occupé)](constants-free-busy-api.md) 
+- [Constantes (API libre/occupée)](constants-free-busy-api.md) 
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

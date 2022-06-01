@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagAttachContentId
+description: Décrit la propriété canonique PidTagAttachContentId, qui contient l’en-tête d’identification de contenu d’une pièce jointe de message MIME.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 46f31089-3b66-41a2-8094-e3db52464b9f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 643cdfa0887055493f0115a86e1a90937dce5226
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 33dcafb5ad04a379555879b99af2276018115428
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456097"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65812515"
 ---
 # <a name="pidtagattachcontentid-canonical-property"></a>Propriété canonique PidTagAttachContentId
 
@@ -25,7 +25,7 @@ ms.locfileid: "64456097"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’en-tête d’identification de contenu d’une pièce jointe MIME (Multipurpose Internet Mail Extensions). 
+Contient l’en-tête d’identification de contenu d’une pièce jointe miME (Multipurpose Internet Mail Extensions). 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient l’en-tête d’identification de contenu d’une pièce jointe MIME (
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont utilisées pour la prise en charge MHTML. Ils représentent l’en-tête d’identification de contenu pour le corps MIME approprié. 
+Ces propriétés sont utilisées pour la prise en charge de MHTML. Ils représentent l’en-tête d’identification de contenu pour la partie de corps MIME appropriée. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -66,5 +66,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

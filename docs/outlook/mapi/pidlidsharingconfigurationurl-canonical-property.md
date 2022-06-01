@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidSharingConfigurationUrl
+description: Décrit la propriété canonique PidLidSharingConfigurationUrl, qui désigne comme propriété d’un message de partage.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 548b4ded-1610-4fe1-8f19-ee57d5d0f606
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bbaf49da468d0361a55bef567906df3b59b4e938
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: c6199cbf8f0d1418545829463d0b5349da32c872
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725770"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816093"
 ---
 # <a name="pidlidsharingconfigurationurl-canonical-property"></a>Propriété canonique PidLidSharingConfigurationUrl
 
@@ -37,7 +37,7 @@ Désigne comme propriété d’un message de partage.
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette propriété doit être une chaîne nulle. 
+La valeur de cette propriété doit être une chaîne de longueur nulle. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ La valeur de cette propriété doit être une chaîne nulle.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Partage des dossiers de boîte aux lettres entre clients.
+> Partage des dossiers de boîte aux lettres entre les clients.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

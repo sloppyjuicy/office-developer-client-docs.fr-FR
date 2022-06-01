@@ -1,5 +1,6 @@
 ---
 title: DTBLCHECKBOX
+description: DTBLCHECKBOX contient des informations sur une case à cocher qui sera utilisée dans une boîte de dialogue créée à partir d’une table d’affichage.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0dd12990-5431-4768-9d64-27d4ef6b7b20
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2b28f86c9d45c8882e512e9dcd4963dea3789aaf
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 7bf12b2dac83c43359267a753119a796bef66ba4
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63628515"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65811787"
 ---
 # <a name="dtblcheckbox"></a>DTBLCHECKBOX
 
@@ -25,7 +25,7 @@ ms.locfileid: "63628515"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient des informations sur une case à cocher qui sera utilisée dans une boîte de dialogue conçue à partir d’un tableau d’affichage. 
+Contient des informations sur une case à cocher qui sera utilisée dans une boîte de dialogue créée à partir d’une table d’affichage. 
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -50,11 +50,11 @@ typedef struct _DTBLCHECKBOX
     
  **ulFlags**
   
-> Masque de bits d’indicateurs utilisés pour désigner le format de l’étiquette de case à cocher. L’indicateur suivant peut être définie :
+> Masque de bits des indicateurs utilisés pour désigner le format de l’étiquette de case à cocher. L’indicateur suivant peut être défini :
     
 MAPI_UNICODE 
   
-> L’étiquette est au format Unicode. Si l’MAPI_UNICODE n’est pas définie, l’étiquette est au format ANSI.
+> L’étiquette est au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas défini, l’étiquette est au format ANSI.
     
  **ulPRPropertyName**
   
@@ -62,17 +62,17 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLCHECKBOX** décrit une case à cocher qui reflète l’un des deux états : activé (case à cocher) ou désactivé (case vide). 
+Une structure **DTBLCHECKBOX** décrit une case à cocher d’un contrôle qui reflète l’un des deux états suivants : activé (une case à cocher) ou désactivé (une case vide). 
   
-Le **membre ulPRPropertyName** décrit une propriété Boolean dont la valeur est manipulée en modifiant l’état de la case à cocher. Lorsque la case à cocher est affichée pour la première fois, MAPI appelle la méthode **GetProps** de l’implémentation **IMAPIProp** associée à la table d’affichage pour récupérer un ensemble de propriétés par défaut. Si l’une des propriétés est m moire à la balise de propriété dans la structure **DTBLCHECKBOX** , la valeur de cette propriété est affichée en tant que valeur initiale de la case à cocher. 
+Le membre **ulPRPropertyName** décrit une propriété booléenne dont la valeur est manipulée en modifiant l’état de la case à cocher. Lorsque la case à cocher s’affiche pour la première fois, MAPI appelle la méthode **GetProps** de l’implémentation **IMAPIProp** associée à la table d’affichage pour récupérer un ensemble de propriétés par défaut. Si l’une des propriétés est mappée à la balise de propriété dans la structure **DTBLCHECKBOX** , la valeur de cette propriété s’affiche comme valeur initiale de la case à cocher. 
   
-Les contrôles de case à cocher peuvent être modifiables. Cela permet à un utilisateur de changer d’état. Les cases à cocher modifiables définissent l’indicateur DT_EDITABLE dans le membre **ulCtlFlags** de leur structure [DTCTL](dtctl.md) et dans leur propriété **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)). Lorsqu’une case à cocher change d’état, MAPI appelle [IMAPIProp::SetProps](imapiprop-setprops.md) pour définir la propriété identifiée dans le membre de balise de propriété de la structure **DTBLCHECKBOX** sur le nouvel état. 
+Les contrôles de case à cocher peuvent être modifiables. Cela permet à un utilisateur de modifier son état. Les cases à cocher modifiables définissent l’indicateur DT_EDITABLE dans le membre **ulCtlFlags** de leur structure [DTCTL](dtctl.md) et dans leur **propriété PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)). Lorsqu’une case à cocher change d’état, MAPI appelle [IMAPIProp::SetProps](imapiprop-setprops.md) pour définir la propriété identifiée dans le membre de balise de propriété de la structure **DTBLCHECKBOX** sur le nouvel état. 
   
-Par exemple, un fournisseur de carnet d’adresses peut inclure un contrôle de case à cocher modifiable dans sa boîte de dialogue de configuration pour ajuster le paramètre de la propriété **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) d’un destinataire. Lorsque l’utilisateur sélectionne la case à cocher, MAPI définit cette propriété sur TRUE. Lorsque la case à cocher n’est pas cocher, la propriété est définie sur FALSE.
+Par exemple, un fournisseur de carnet d’adresses peut inclure un contrôle de case à cocher modifiable dans sa boîte de dialogue de configuration pour ajuster le paramètre de la propriété **PR_SEND_RICH_INFO** d’un destinataire ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)). Lorsque l’utilisateur active la case à cocher, MAPI définit cette propriété sur TRUE. Lorsque la case à cocher n’est pas sélectionnée, la propriété est définie sur FALSE.
   
-Pour une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md). Pour plus d’informations sur les types de propriétés, voir [MAPI Property Type Overview](mapi-property-type-overview.md).
+Pour obtenir une vue d’ensemble des tables d’affichage, consultez [Tables d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’une table d’affichage, consultez [Implémentation d’une table d’affichage](display-table-implementation.md). Pour plus d’informations sur les types de propriétés, consultez [vue d’ensemble du type de propriété MAPI](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 

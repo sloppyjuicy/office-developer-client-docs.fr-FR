@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidPageDirStream
+description: Décrit la propriété canonique PidLidPageDirStream, qui représente des informations sur les pages du formulaire personnalisé associé au message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: e94f0daf-fccb-41b6-b38b-5ef4167a6e9d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 51eaf61c9ea2997c666c21dc1489eb8882a07f34
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 1b7df6a546cfaeed2d1498e49daa0ddc3c8ba4d9
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63782775"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816114"
 ---
 # <a name="pidlidpagedirstream-canonical-property"></a>Propriété canonique PidLidPageDirStream
 
@@ -33,7 +33,7 @@ Représente des informations sur les pages du formulaire personnalisé associé 
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID long (LID) :  <br/> |0x00008513  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Configuration au moment de l’exécuter  <br/> |
+|Domaine :  <br/> |Configuration au moment de l’exécution  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -41,7 +41,7 @@ Représente des informations sur les pages du formulaire personnalisé associé 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -59,5 +59,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

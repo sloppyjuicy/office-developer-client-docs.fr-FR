@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidTagComment
+title: PidTagComment Canonical, propriété
+description: Décrit la propriété canonique PidTagComment, qui contient un commentaire sur l’objectif ou le contenu d’un objet.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,15 +12,14 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5750cf95-8581-43a7-a465-f4114b2939f2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 71e70d6843e521931c8d6cbcf36e3f240d4f4523
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 8a989d6a006d11462b411734d49b9e40e5cfff54
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63721873"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65815967"
 ---
-# <a name="pidtagcomment-canonical-property"></a>Propriété canonique PidTagComment
+# <a name="pidtagcomment-canonical-property"></a>PidTagComment Canonical, propriété
 
   
   
@@ -44,7 +44,7 @@ Le contenu de la chaîne est défini par l’utilisateur de messagerie.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -52,11 +52,11 @@ Le contenu de la chaîne est défini par l’utilisateur de messagerie.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
-> Spécifie les opérations autorisées pour les objets principaux de la boutique de messages.
+> Spécifie les opérations autorisées pour les objets principaux du magasin de messages.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations pour les listes d’utilisateurs, de contacts, de groupes et de ressources.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -66,7 +66,7 @@ Mapidef.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -78,5 +78,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

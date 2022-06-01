@@ -1,17 +1,17 @@
 ---
 title: Vérification de la version d’Outlook
+description: Cette rubrique fournit un exemple de code qui vérifie les informations de version des versions installées de Microsoft Outlook.
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 672fc380-a29b-4e99-9211-949fd5065723
-description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: 9e5a4794fd7f778c5588965a4338bd96a880fe5f
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 8cd9ab4335e1d0b724ed1c4a50ea98fb04fea243
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374158"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816436"
 ---
 # <a name="check-the-version-of-outlook"></a>Vérification de la version d’Outlook
 
@@ -19,7 +19,7 @@ ms.locfileid: "63374158"
   
 Cette rubrique fournit un exemple de code qui v�rifie les informations de version de versions install�es de Microsoft�Outlook si la version install�e est Microsoft�Outlook�2013, Microsoft�Outlook�2010, Microsoft Office Outlook�2007 ou Microsoft Outlook 2003. Il est parfois n�cessaire pour s'assurer que MAPI application appels API �l�ments a pris en charge par la version en cours d'ex�cution de Outlook de v�rification de la version de Outlook.
 
-L’exemple de code suivant obtient `PrintOutlookVersionString`des chaînes de version complète à l’aide des fonctions **MsiProvideQualifiedComponent** et **MsiGetFileVersion**, telles que déclarées dans le fichier Msi.h du Kit de développement logiciel (SDK) Microsoft Windows. `PrintOutlookVersionString` retourne �galement un pointeur vers une variable de type Boolean qui indique si une version 64 bits de Outlook est install�e. Pour plus d'informations sur les valeurs pr�vues pour les diff�rentes parties d'une cha�ne de version pour certaines versions pr�c�dentes d'Outlook, voir [Comment faire pour d�terminer les informations de version Outlook](https://support.microsoft.com/kb/870929).
+L’exemple de code suivant, `PrintOutlookVersionString`obtient des chaînes de version complètes à l’aide **des fonctions MsiProvideQualifiedComponent** et **MsiGetFileVersion**, comme déclaré dans le fichier Msi.h dans le Kit de développement logiciel (SDK) Microsoft Windows. `PrintOutlookVersionString` retourne �galement un pointeur vers une variable de type Boolean qui indique si une version 64 bits de Outlook est install�e. Pour plus d'informations sur les valeurs pr�vues pour les diff�rentes parties d'une cha�ne de version pour certaines versions pr�c�dentes d'Outlook, voir [Comment faire pour d�terminer les informations de version Outlook](https://support.microsoft.com/kb/870929).
   
 ```cpp
 void PrintOutlookVersionString()

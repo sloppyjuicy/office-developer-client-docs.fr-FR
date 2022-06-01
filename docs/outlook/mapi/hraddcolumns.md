@@ -1,5 +1,6 @@
 ---
 title: HrAddColumns
+description: Cet article décrit la fonction HrAddColumns et fournit la syntaxe, les paramètres, la valeur de retour et des remarques supplémentaires.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +8,12 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8c980257-9372-4478-b635-bd91d0a66af9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e25b313f4bd86ca03b05392a4a5a3118cd891345
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: e33fc99f569a5ac0eba72747cbd5fb692308d8b9
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63720627"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816422"
 ---
 # <a name="hraddcolumns"></a>HrAddColumns
 
@@ -21,7 +21,7 @@ ms.locfileid: "63720627"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ajoute ou déplace des colonnes au début d’un tableau existant.
+Ajoute ou déplace des colonnes au début d’une table existante.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -46,15 +46,15 @@ HRESULT HrAddColumns(
     
  _lpproptagColumnsNew_
   
-> [in] Pointeur vers une structure **SPropTagArray** qui contient un tableau de balises de propriétés pour les propriétés à ajouter ou déplacer au début du tableau. 
+> [in] Pointeur vers une structure **SPropTagArray** qui contient un tableau de balises de propriété pour les propriétés à ajouter ou à déplacer au début de la table. 
     
  _lpAllocateBuffer_
   
-> [in] Pointeur vers la **fonction MAPIAllocateBuffer** . Utilisé pour allouer de la mémoire. 
+> [in] Pointeur vers la fonction **MAPIAllocateBuffer** . Utilisé pour allouer de la mémoire. 
     
  _lpFreeBuffer_
   
-> [in] Pointeur vers la **fonction MAPIFreeBuffer** . Utilisé pour libérer de la mémoire. 
+> [in] Pointeur vers la fonction **MAPIFreeBuffer** . Utilisé pour libérer de la mémoire. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -64,7 +64,7 @@ HRESULT HrAddColumns(
     
 ## <a name="remarks"></a>Remarques
 
-La **fonction HrAddColumns équivaut** à utiliser **HrAddColumnsEx** avec  _lpfnFilterColumns_ définie sur NULL. 
+La fonction **HrAddColumns** équivaut à utiliser **HrAddColumnsEx** avec  _lpfnFilterColumns_ défini sur NULL. 
   
 ## <a name="see-also"></a>Voir aussi
 
