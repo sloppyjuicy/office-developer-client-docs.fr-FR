@@ -1,19 +1,19 @@
 ---
 title: Options utilisateur en cas d’arrêt rapide
+description: Cette rubrique décrit les trois paramètres de Registre Windows disponibles dans Microsoft Outlook 2010 et 2013, pour l’arrêt rapide des clients MAPI d’un utilisateur.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 api_type:
 - COM
 ms.assetid: 220aeab5-20f6-4520-96c9-8aaa0e8ea15b
-description: 'Dernière modification : 26 juin 2012'
 ms.localizationpriority: high
-ms.openlocfilehash: 4ce30dc1f81b0cce9cf51c7a05bb4ca2c4346db7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3666312188d12c50451b4e5371221bdef48a1b75
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588069"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817101"
 ---
 # <a name="fast-shutdown-user-options"></a>Options utilisateur en cas d’arrêt rapide
 
