@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidTagBusiness2TelephoneNumbers
+title: PidTagBusiness2TelephoneNumbers Canonical, propriété
+description: Décrit la propriété canonique PidTagBusiness2TelephoneNumbers, qui contient une liste de numéros de téléphone pour une entreprise.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,15 +12,14 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2973ff42-213f-43ce-a358-159b6c5381ef
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2dfcecc673b920b1f30d3c46b45c49c97b7bc1e5
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 0f2735f191efa42dd1bf34e61b7a7bcda82c8c0a
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456083"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817997"
 ---
-# <a name="pidtagbusiness2telephonenumbers-canonical-property"></a>Propriété canonique PidTagBusiness2TelephoneNumbers
+# <a name="pidtagbusiness2telephonenumbers-canonical-property"></a>PidTagBusiness2TelephoneNumbers Canonical, propriété
 
   
   
@@ -36,7 +36,7 @@ Contient une liste de numéros de téléphone pour une entreprise.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut être utilisée pour lister d’autres numéros de téléphone ou une liste de numéros de poste pour une entreprise.
+Cette propriété peut être utilisée pour répertorier d’autres numéros de téléphone ou une liste d’extensions pour une entreprise.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,11 +44,11 @@ Cette propriété peut être utilisée pour lister d’autres numéros de télé
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations pour les listes d’utilisateurs, de contacts, de groupes et de ressources.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -58,7 +58,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

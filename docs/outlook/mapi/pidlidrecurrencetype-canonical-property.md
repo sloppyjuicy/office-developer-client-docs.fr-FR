@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidRecurrenceType
+description: Décrit la propriété canonique PidLidRecurrenceType, qui spécifie le type de périodicité de la série périodique.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 81ad2e8a-661f-4fc7-bee4-848db3285e31
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 90b5e5170401ba6e2d41d3729862d4949fe8b20c
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: f5346679dd3112b348323ab8ff7462d5a19e7d4c
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454991"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817430"
 ---
 # <a name="pidlidrecurrencetype-canonical-property"></a>Propriété canonique PidLidRecurrenceType
 
@@ -25,7 +25,7 @@ ms.locfileid: "64454991"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le type de récurrence de la série périodique.
+Spécifie le type de périodicité de la série périodique.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,15 +37,15 @@ Spécifie le type de récurrence de la série périodique.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie le type de récurrence de la série périodique à l’aide de l’une des valeurs répertoriées ci-dessous.
+Cette propriété spécifie le type de périodicité de la série périodique à l’aide de l’une des valeurs répertoriées ci-dessous.
   
 |**État**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|rectypeNone  <br/> |0  <br/> |Rendez-vous d’instance unique. |
-|rectypeDaily  <br/> |1  <br/> |Une récurrence quotidienne. |
-|rectypeWeekly  <br/> |2  <br/> |Une récurrence hebdomadaire. |
-|rectypeMonthly  <br/> |3  <br/> |Une récurrence mensuelle. |
-|rectypeYearly  <br/> |4  <br/> |Une récurrence annuel. |
+|rectypeNone  <br/> |0  <br/> |Un rendez-vous d’instance unique. |
+|rectypeDaily  <br/> |1  <br/> |Périodicité quotidienne. |
+|rectypeWeekly  <br/> |2  <br/> |Modèle de périodicité hebdomadaire. |
+|rectypeMonthly  <br/> |3  <br/> |Modèle de périodicité mensuelle. |
+|rectypeYearly  <br/> |4  <br/> |Périodicité annuelle. |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -53,7 +53,7 @@ Cette propriété spécifie le type de récurrence de la série périodique à l
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -75,5 +75,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

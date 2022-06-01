@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidPrivate
+description: Décrit la propriété canonique PidLidPrivate, qui indique si l’utilisateur final souhaite que l’objet message soit masqué par d’autres utilisateurs qui y ont accès.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 829cc757-c5e3-40ed-846e-2dcaf9e13b92
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a230f7bb228cf12d398fcb9e3254d6238f62cb8e
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: bf9053b242435bbb6a217f4b7c77492df22c0ba7
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781368"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816562"
 ---
 # <a name="pidlidprivate-canonical-property"></a>Propriété canonique PidLidPrivate
 
@@ -25,7 +25,7 @@ ms.locfileid: "63781368"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si l’utilisateur final souhaite que cet objet de message soit masqué aux autres utilisateurs qui ont accès à l’objet message.
+Indique si l’utilisateur final souhaite que cet objet de message soit masqué aux autres utilisateurs qui ont accès à l’objet de message.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -41,7 +41,7 @@ Indique si l’utilisateur final souhaite que cet objet de message soit masqué 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit une définition de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

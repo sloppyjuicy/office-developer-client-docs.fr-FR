@@ -1,5 +1,6 @@
 ---
 title: FLATENTRY
+description: Décrit FLATENTRY et fournit une syntaxe, des membres et des remarques supplémentaires.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 03e53e08-9113-4101-84c9-ccf6d43127f6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 640bb92009b43a08412da2e22a3c2bb3918f71bf
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 941012fc5ef56e2890f22c465720a7cc9072181b
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781599"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816653"
 ---
 # <a name="flatentry"></a>FLATENTRY
 
@@ -25,7 +25,7 @@ ms.locfileid: "63781599"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Structure [ENTRYID](entryid.md) plus un nombre d’byte qui spécifie la taille de la structure **ENTRYID** . 
+Structure [ENTRYID](entryid.md) plus un nombre d’octets qui spécifie la taille de la structure **ENTRYID** . 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -45,7 +45,7 @@ typedef struct
 
  **cb**
   
-> Nombre d’octets dans le **membre abEntry** . 
+> Nombre d’octets dans le membre **abEntry** . 
     
  **abEntry**
   
@@ -53,15 +53,15 @@ typedef struct
     
 ## <a name="remarks"></a>Remarques
 
-Une **structure FLATENTRY** ressemble à une structure [ENTRYID](entryid.md) . Toutefois, il existe certaines différences : 
+Une structure **FLATENTRY** ressemble à une structure [ENTRYID](entryid.md) . Toutefois, il existe quelques différences : 
   
-- Une structure **FLATENTRY** stocke la taille de l’identificateur d’entrée ; **ENTRYID ne** le fait pas. 
+- Une structure **FLATENTRY** stocke la taille de l’identificateur d’entrée ; **ENTRYID** ne le fait pas. 
     
-- Une structure **FLATENTRY stocke** les données d’indicateur avec le reste de l’identificateur d’entrée ; **ENTRYID les** stocke séparément. 
+- Une structure **FLATENTRY** stocke les données d’indicateur avec le reste de l’identificateur d’entrée ; **ENTRYID** les stocke séparément. 
     
-- Une structure **FLATENTRY** permet de stocker un identificateur d’entrée dans un fichier ou de le transmettre dans un flux d’octets, tandis qu’une structure **ENTRYID** est utilisée par les méthodes d’interface [IMAPIProp](imapipropiunknown.md) et par les méthodes **OpenEntry** suivantes : [IABLogon::OpenEntry](iablogon-openentry.md), [IAddrBook::OpenEntry](iaddrbook-openentry.md), [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), [IMAPISupport::OpenEntry](imapisupport-openentry.md), [IMsgStore::OpenEntry](imsgstore-openentry.md), [IMSLogon::OpenEntry](imslogon-openentry.md)
+- Une structure **FLATENTRY** est utilisée pour stocker un identificateur d’entrée dans un fichier ou le transmettre dans un flux d’octets, tandis qu’une structure **ENTRYID** est utilisée par les méthodes d’interface [IMAPIProp](imapipropiunknown.md) et par les méthodes **OpenEntry** suivantes : [IABLogon::OpenEntry](iablogon-openentry.md), [IAddrBook::OpenEntry](iaddrbook-openentry.md), [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), [IMAPISupport::OpenEntry](imapisupport-openentry.md), [IMsgStore::OpenEntry](imsgstore-openentry.md), [IMSLogon::OpenEntry](imslogon-openentry.md)
     
-- Une structure **FLATENTRY** permet de stocker un identificateur d’entrée dans un fichier ou de le transmettre dans un flux d’octets. Une structure **ENTRYID** est utilisée pour stocker un identificateur d’entrée sur le disque. 
+- Une structure **FLATENTRY** est utilisée pour stocker un identificateur d’entrée dans un fichier ou le transmettre dans un flux d’octets. Une structure **ENTRYID** est utilisée pour stocker un identificateur d’entrée sur le disque. 
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,6 @@
 ---
 title: IMAPISessionCompareEntryIDs
+description: IMAPISessionCompareEntryIDs compare deux identificateurs d’entrée pour déterminer s’ils font référence au même objet.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 319f10e9-db8d-4d16-aa1f-6cf5fef493eb
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ea9e7a1579f56e27e7d8905861f92d0c92b40166
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 218d79092489c1d8d0c21e0c324c99c2fc8818ba
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777486"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817703"
 ---
 # <a name="imapisessioncompareentryids"></a>IMAPISession::CompareEntryIDs
 
@@ -42,7 +42,7 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID1_ . 
+> [in] Nombre d’octets dans l’identificateur d’entrée pointé par le paramètre  _lpEntryID1_ . 
     
  _lpEntryID1_
   
@@ -50,7 +50,7 @@ HRESULT CompareEntryIDs(
     
  _cbEntryID2_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID2_ . 
+> [in] Nombre d’octets dans l’identificateur d’entrée pointé par le paramètre  _lpEntryID2_ . 
     
  _lpEntryID2_
   
@@ -72,17 +72,17 @@ S_OK
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L’un ou les deux identificateurs d’entrée spécifiés en tant que paramètres ne font pas référence à des objets, car ces objets sont actuellement non ouvert et indisponibles.
+> Un ou les deux identificateurs d’entrée spécifiés en tant que paramètres ne font pas référence à des objets, peut-être parce que ces objets sont actuellement non ouverts et indisponibles.
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISession::CompareEntryIDs** compare deux identificateurs d’entrée appartenant à un seul fournisseur de services pour déterminer s’ils font référence au même objet. MAPI extrait la partie [MAPIUID](mapiuid.md) des identificateurs d’entrée pour déterminer le fournisseur de services responsable des objets, puis appelle la méthode **CompareEntryIDs** de son objet d’inscription pour effectuer la comparaison. 
+La méthode **IMAPISession::CompareEntryIDs** compare deux identificateurs d’entrée qui appartiennent à un seul fournisseur de services pour déterminer s’ils font référence au même objet. MAPI extrait la partie [MAPIUID](mapiuid.md) des identificateurs d’entrée pour déterminer le fournisseur de services responsable des objets, puis appelle la méthode **CompareEntryIDs** de son objet d’ouverture de session pour effectuer la comparaison. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La **méthode CompareEntryIDs est** utile car un objet peut avoir plusieurs identificateurs d’entrée valides. Cette situation peut se produire, par exemple, après l’installation d’une nouvelle version d’un fournisseur de services. 
+La méthode **CompareEntryIDs** est utile, car un objet peut avoir plusieurs identificateurs d’entrée valides. Cette situation peut se produire, par exemple, après l’installation d’une nouvelle version d’un fournisseur de services. 
   
-Si **CompareEntryIDs** renvoie une erreur, ne pas prendre d’action en fonction du résultat de la comparaison. Au lieu de cela, prenez l’approche la plus prudent possible. **CompareEntryIDs** peut échouer si, par exemple, l’un des identificateurs d’entrée ou les deux contiennent un **MAPIUID non valide**. 
+Si **CompareEntryIDs** retourne une erreur, n’effectuez aucune action en fonction du résultat de la comparaison. Au lieu de cela, adopter l’approche la plus conservatrice possible. **CompareEntryIDs** peut échouer si, par exemple, un ou les deux identificateurs d’entrée contiennent un **MAPIUID** non valide. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

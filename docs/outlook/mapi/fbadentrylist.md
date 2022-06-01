@@ -1,5 +1,6 @@
 ---
 title: FBadEntryList
+description: FBadEntryList valide une liste d’identificateurs d’entrée MAPI. Cet article décrit sa syntaxe, ses paramètres, sa valeur de retour et ses remarques.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 270c47c3-ae68-4995-b304-27f861b350d6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 03cf96536c41062d5c158a45a7295e85dec8a964
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 93bd79751cb95d206080214d5cd45a5ddb7df1e4
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63631770"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817094"
 ---
 # <a name="fbadentrylist"></a>FBadEntryList
 
@@ -49,7 +49,7 @@ BOOL FBadEntryList(
 
 TRUE 
   
-> Un ou plusieurs identificateurs d’entrée répertoriés ne sont pas valides. 
+> Un ou plusieurs des identificateurs d’entrée répertoriés ne sont pas valides. 
     
 FALSE 
   
@@ -57,6 +57,6 @@ FALSE
     
 ## <a name="remarks"></a>Remarques
 
-La **fonction FBadEntryList** détermine si la liste d’identificateurs d’entrée a été correctement générée. Un exemple d’identificateur non valide est un identificateur pour lequel la mémoire a été allouée de manière incorrecte ou un identificateur de taille incorrecte. 
+La fonction **FBadEntryList** détermine si la liste d’identificateurs d’entrée a été correctement générée. Un exemple d’identificateur non valide est celui pour lequel la mémoire a été allouée de manière incorrecte ou un identificateur d’une taille incorrecte. 
   
 

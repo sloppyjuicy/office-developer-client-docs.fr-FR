@@ -1,5 +1,6 @@
 ---
 title: GetInstance
+description: Décrit GetInstance et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: cb432d52-6c96-45d2-bbde-45b0de3f915c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9bc75182658f14aabbcac3d61af5a295481533f3
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 4fcdf88518f4a0e3301a5970852573cf80928208
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63782377"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817080"
 ---
 # <a name="getinstance"></a>GetInstance
 
@@ -25,7 +25,7 @@ ms.locfileid: "63782377"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Copie une valeur dans une propriété à valeurs multiples dans une propriété à valeur unique du même type. 
+Copie une valeur dans une propriété à valeurs multiples vers une propriété à valeur unique du même type. 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -53,7 +53,7 @@ VOID GetInstance(
     
  _uliInst_
   
-> [in] Numéro d’instance, c’est-à-dire, l’élément de tableau, de la valeur copiée à partir de la structure indiquée par le  _paramètre pvalMv_ . 
+> [in] Numéro d’instance, c’est-à-dire l’élément de tableau, de la valeur copiée à partir de la structure indiquée par le paramètre  _pvalMv_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,6 +61,6 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Si la valeur copiée est trop importante pour la mémoire allouée, la fonction **GetInstance** copie uniquement les pointeurs au lieu d’allouer une nouvelle mémoire. 
+Si la valeur copiée est trop grande pour la mémoire allouée, la fonction **GetInstance** copie uniquement les pointeurs au lieu d’allouer de la nouvelle mémoire. 
   
 

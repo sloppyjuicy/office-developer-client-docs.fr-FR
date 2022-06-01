@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidLidTaskAssigner
+title: PidLidTaskAssigner, propriété canonique
+description: Décrit la propriété canonique, qui nomme l’utilisateur à qui la tâche a été attribuée pour la dernière fois et s’applique à Outlook 2013 et Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,21 +12,20 @@ api_name:
 api_type:
 - COM
 ms.assetid: f7047e4e-0fb3-476b-9568-8f1135e6d970
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f455b0b7a29abda568ae2c7336eab3c8b11dc017
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: d57c4412d397df2b37fa732d016fa99724b39e0d
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455873"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65818074"
 ---
-# <a name="pidlidtaskassigner-canonical-property"></a>Propriété canonique PidLidTaskAssigner
+# <a name="pidlidtaskassigner-canonical-property"></a>PidLidTaskAssigner, propriété canonique
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Nomme l’utilisateur qui a été affecté pour la dernière fois à la tâche. 
+ Nomme l’utilisateur à qui la tâche a été attribuée pour la dernière fois. 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,7 +37,7 @@ ms.locfileid: "64455873"
    
 ## <a name="remarks"></a>Remarques
 
-Si la tâche n’a pas été affectée, cette propriété n’est pas affectée. Étant donné que le client définit cette propriété une fois que la personne à la tâche a reçu une demande de tâche, la propriété n’est pas définie sur la copie de la tâche de l’affectation de la tâche. Lorsque le client ajoute ou supprime un assigneur de tâches de la liste des personnes qui affectent des tâches dans la propriété **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)), la propriété **dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) doit être définie sur l’assigneur de tâche ajouté ou supprimé.
+Si la tâche n’a pas été affectée, cette propriété n’est pas affectée. Étant donné que le client définit cette propriété une fois que l’assignateur de tâche reçoit une demande de tâche, la propriété ne sera pas définie sur la copie de la tâche par l’assignateur de tâches. Lorsque le client ajoute ou supprime un assigneur de tâches dans la liste des assigneurs de tâches dans la propriété **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)), la propriété **dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) doit être définie sur l’assigneur de tâche ajouté ou supprimé.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ Si la tâche n’a pas été affectée, cette propriété n’est pas affectée.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
+> Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour des tâches.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

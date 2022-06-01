@@ -6,13 +6,13 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: dfb3bca5-5f51-9868-e4f6-e4a94006585d
-description: Ce membre est un espace réservé et n’est pas pris en charge.
-ms.openlocfilehash: 6e7e91b7bc3a376179c73e9175e817d38246bf9e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Décrit IFreeBusySupportPlaceholder1 et fournit la syntaxe, la valeur de retour et des remarques supplémentaires. Ce membre est un espace réservé et n’est pas pris en charge.
+ms.openlocfilehash: 2607c73bc48afe8d6fb848ced18644005c1514b7
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567969"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816737"
 ---
 # <a name="ifreebusysupportplaceholder1"></a>IFreeBusySupport::Placeholder1
 
@@ -37,6 +37,6 @@ S_OK
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Constantes (API de libre/occupé)](constants-free-busy-api.md)
+- [Constantes (API libre/occupée)](constants-free-busy-api.md)
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

@@ -1,5 +1,6 @@
 ---
 title: IMAPIPropSetProps
+description: Décrit la syntaxe, les paramètres et la valeur de retour d’IMAPIPropSetProps, qui met à jour une ou plusieurs propriétés.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 49f007c9-42e5-4391-8b83-988c9b0ebdba
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2f8c0d742fd0c3bdd46750124d13f8114fc8a01e
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3f6eaa32b85dafa40177d23b137b372a10c177de
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62770786"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817835"
 ---
 # <a name="imapipropsetprops"></a>IMAPIProp::SetProps
 
@@ -39,7 +39,7 @@ HRESULT SetProps(
 
  _cValues_
   
-> [in] Nombre de valeurs de propriétés pointées par  _le paramètre lpPropArray_ . Le  _paramètre cValues_ ne doit pas être 0. 
+> [in] Nombre de valeurs de propriété pointées par le paramètre  _lpPropArray_ . Le paramètre  _cValues_ ne doit pas être 0. 
     
  _lpPropArray_
   
@@ -47,7 +47,7 @@ HRESULT SetProps(
     
  _lppProblems_
   
-> [in, out] Lors de l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; Dans le cas contraire, NULL, indiquant qu’il n’est pas nécessaire d’obtenir des informations sur l’erreur. Si  _lppProblems est_ un pointeur valide sur l’entrée, **SetProps** renvoie des informations détaillées sur les erreurs de mise à jour d’une ou plusieurs propriétés. 
+> [in, out] Lors de l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; sinon, NULL, indiquant qu’aucune information d’erreur n’est nécessaire. Si  _lppProblems_ est un pointeur valide sur l’entrée, **SetProps** retourne des informations détaillées sur les erreurs de mise à jour d’une ou plusieurs propriétés. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -55,11 +55,11 @@ S_OK
   
 > Les propriétés ont été correctement mises à jour.
     
-Les valeurs suivantes peuvent être renvoyées dans la structure **SPropProblemArray** , mais pas en tant que valeurs de retour **pour SetProps** :
+Les valeurs suivantes peuvent être retournées dans la structure **SPropProblemArray** , mais pas en tant que valeurs de retour pour **SetProps** :
   
 MAPI_E_BAD_CHARWIDTH 
   
-> L’indicateur MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
+> Soit l’indicateur MAPI_UNICODE a été défini et l’implémentation ne prend pas en charge Unicode, soit MAPI_UNICODE n’a pas été défini et l’implémentation prend uniquement en charge Unicode.
     
 MAPI_E_COMPUTED 
   
@@ -71,37 +71,37 @@ MAPI_E_INVALID_TYPE
     
 MAPI_E_NO_ACCESS 
   
-> Une tentative de modification d’un objet en lecture seule ou d’accès à un objet pour lequel l’utilisateur dispose d’autorisations insuffisantes a été tentée.
+> Une tentative de modification d’un objet en lecture seule ou d’accès à un objet pour lequel l’utilisateur dispose d’autorisations insuffisantes a été effectuée.
     
 MAPI_E_NOT_ENOUGH_MEMORY 
   
-> La propriété ne peut pas être mise à jour car elle est supérieure à la taille de la mémoire tampon d’appel de procédure distante (RPC).
+> La propriété ne peut pas être mise à jour, car elle est supérieure à la taille de la mémoire tampon d’appel de procédure distante (RPC).
     
 MAPI_E_UNEXPECTED_TYPE 
   
-> Le type de propriété n’est pas le type attendu par l’implémentation d’appel.
+> Le type de propriété n’est pas le type attendu par l’implémentation appelante.
     
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Ignorez **la PR_NULL** de propriété ([PidTagNull](pidtagnull-canonical-property.md)) et toutes les propriétés avec un type de **PT_ERROR**. Ne pas apporter de modifications ni signaler de problèmes dans la structure **SPropProblemArray** . 
+Ignorez la balise de propriété **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) et toutes les propriétés avec un type de **PT_ERROR**. N’apportez pas de modifications ou ne signalez pas de problèmes dans la structure **SPropProblemArray** . 
   
-Renvoyer MAPI_E_INVALID_PARAMETER si une propriété de type **PT_OBJECT** est incluse dans le tableau de valeurs de propriété. Renvoyer également cette erreur si une propriété à valeurs multiples est incluse dans le tableau et que son membre **cValues** est définie sur 0. 
+Retournez MAPI_E_INVALID_PARAMETER si une propriété de type **PT_OBJECT** est incluse dans le tableau de valeurs de propriétés. Retournez également cette erreur si une propriété à valeurs multiples est incluse dans le tableau et que son membre **cValues** est défini sur 0. 
   
-Si l’appel réussit globalement mais qu’il y a des problèmes avec la définition de certaines propriétés, renvoyez S_OK et placez des informations sur les problèmes dans l’entrée appropriée de la structure **SPropProblemArray** vers qui pointe le paramètre  _lppProblems_ . 
+Si l’appel réussit dans l’ensemble, mais qu’il existe des problèmes lors de la définition de certaines des propriétés, retournez S_OK et placez des informations sur les problèmes dans l’entrée appropriée de la structure **SPropProblemArray** vers laquelle pointe le paramètre  _lppProblems_ . 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Selon le fournisseur de services, vous pouvez également modifier le type de propriété en passant une balise de propriété qui contient un type différent de celui précédemment utilisé avec un identificateur de propriété donné.
+Selon le fournisseur de services, vous pouvez également modifier le type de propriété en passant une balise de propriété qui contient un type différent de celui utilisé précédemment avec un identificateur de propriété donné.
   
-Si vous incluez une balise de propriété pour une propriété qui n’est pas pris en compte par l’objet et que l’implémentation de **SetProps** permet la création de nouvelles propriétés, la propriété est ajoutée à l’objet. Toute valeur précédente stockée avec l’identificateur de propriété utilisé pour la nouvelle propriété est ignorée. 
+Si vous incluez une balise de propriété pour une propriété qui n’est pas prise en charge par l’objet et que l’implémentation de **SetProps** permet la création de nouvelles propriétés, la propriété est ajoutée à l’objet. Toute valeur précédente stockée avec l’identificateur de propriété utilisé pour la nouvelle propriété est ignorée. 
   
-Notez que la S_OK valeur de retour ne garantit pas que toutes les propriétés ont été correctement mises à jour. Certains fournisseurs cachent les appels **SetProps** jusqu’à ce qu’ils reçoivent un appel nécessitant une intervention du fournisseur, tel que [IMAPIProp::SaveChanges](imapiprop-savechanges.md) ou [IMAPIProp::GetProps](imapiprop-getprops.md). Par conséquent, il est possible de recevoir des valeurs d’erreur liées à l’appel **SetProps** avec les appels ultérieurs. 
+Notez que la valeur de retour S_OK ne garantit pas que toutes les propriétés ont été correctement mises à jour. Certains fournisseurs mettent en cache les appels **SetProps** jusqu’à ce qu’ils reçoivent un appel nécessitant une intervention du fournisseur, comme [IMAPIProp::SaveChanges](imapiprop-savechanges.md) ou [IMAPIProp::GetProps](imapiprop-getprops.md). Par conséquent, il est possible de recevoir des valeurs d’erreur liées à l’appel **SetProps** avec les appels ultérieurs. 
   
-Si **SetProps renvoie** S_OK, vérifiez la structure **SPropProblemArray** pointée par  _lppProblems_ pour les problèmes de mise à jour des propriétés individuelles. Si **SetProps renvoie** une erreur, ne vérifiez pas le tableau des problèmes de propriété. Appelez plutôt la méthode [IMAPIProp::GetLastError](imapiprop-getlasterror.md) de l’objet. 
+Si **SetProps** retourne S_OK, vérifiez la structure **SPropProblemArray** pointée par  _lppProblems_ pour les problèmes de mise à jour des propriétés individuelles. Si **SetProps** retourne une erreur, ne vérifiez pas le tableau des problèmes de propriétés. Appelez plutôt la méthode [IMAPIProp::GetLastError de l’objet](imapiprop-getlasterror.md) . 
   
-Lors de la mise à jour de propriétés de grande taille, **SetProps** peut échouer et renvoyer des MAPI_E_NOT_ENOUGH_MEMORY. Il n’existe aucune taille maximale pour les propriétés, et différents objets peuvent avoir des limites différentes. Si vous traitez des propriétés potentiellement importantes, soyez prêt à appeler la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) avec IID_IStream comme identificateur d’interface si **SetProps** renvoie cette valeur d’erreur. 
+Lors de la mise à jour de propriétés volumineuses, **SetProps** peut échouer et retourner MAPI_E_NOT_ENOUGH_MEMORY. Il n’existe aucune taille maximale pour les propriétés, et différents objets peuvent avoir des limites différentes. Si vous traitez des propriétés potentiellement volumineuses, préparez-vous à appeler la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) avec IID_IStream comme identificateur d’interface si **SetProps** retourne cette valeur d’erreur. 
   
-Appelez la [fonction MAPIFreeBuffer](mapifreebuffer.md) pour libérer la structure **SPropProblemArray** . 
+Appelez la fonction [MAPIFreeBuffer](mapifreebuffer.md) pour libérer la structure **SPropProblemArray** . 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

@@ -1,5 +1,6 @@
 ---
 title: MAPIERROR
+description: Décrit la fonction MAPIERROR et fournit une syntaxe, des membres, des remarques supplémentaires et des liens vers des ressources supplémentaires.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: e04c2228-aa0a-4958-b5b2-6467e93ab613
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: be5261312cd4c660cf50594b41b1c2e12263dfd5
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: db379f013b2317aa037d1a8451add12c0c06773e
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783454"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65818116"
 ---
 # <a name="mapierror"></a>MAPIERROR
 
@@ -47,15 +47,15 @@ typedef struct _MAPIERROR
 
  **ulVersion**
   
-> Numéro de version de la structure. Le **membre ulVersion** est utilisé pour l’expansion future et doit être défini sur MAPI_ERROR_VERSION, qui est actuellement défini sur zéro. 
+> Numéro de version de la structure. Le membre **ulVersion** est utilisé pour l’extension future et doit être défini sur MAPI_ERROR_VERSION, qui est actuellement défini comme zéro. 
     
  **lpszError**
   
-> Pointeur vers une chaîne qui décrit l’erreur. Cette chaîne sera au format Unicode si le paramètre _ulFlags_ de la méthode dans laquelle cette structure est utilisée est MAPI_UNICODE. 
+> Pointeur vers une chaîne qui décrit l’erreur. Cette chaîne est au format Unicode si le paramètre _ulFlags_ de la méthode dans laquelle cette structure est utilisée est défini sur MAPI_UNICODE. 
     
  **lpszComponent**
   
-> Pointeur vers une chaîne qui décrit le composant qui a généré l’erreur. Cette chaîne sera au format Unicode si le paramètre _ulFlags_ de la méthode dans laquelle cette structure est utilisée est MAPI_UNICODE. 
+> Pointeur vers une chaîne qui décrit le composant qui a généré l’erreur. Cette chaîne est au format Unicode si le paramètre _ulFlags_ de la méthode dans laquelle cette structure est utilisée est défini sur MAPI_UNICODE. 
     
  **ulLowLevelError**
   
@@ -63,17 +63,17 @@ typedef struct _MAPIERROR
     
  **ulContext**
   
-> Valeur qui représente l’emplacement dans le composant pointé par le membre **lpszComponent** qui identifie où l’erreur s’est produite. 
+> Valeur qui représente l’emplacement dans le composant pointé par le membre **lpszComponent** qui identifie l’endroit où l’erreur s’est produite. 
     
 ## <a name="remarks"></a>Remarques
 
-La structure **MAPIERROR** est utilisée pour décrire les informations d’erreur. Les clients et les fournisseurs de services passent un pointeur vers une structure **MAPIERROR** dans le paramètre _lppMAPIError_ de la méthode [IMAPIProp::GetLastError](imapiprop-getlasterror.md) . **GetLastError renvoie des** informations sur l’erreur précédente qui s’est produite sur un objet. Les appelants **de GetLastError** libèrent la mémoire de la structure **MAPIERROR** en appelant [MAPIFreeBuffer](mapifreebuffer.md).
+La structure **MAPIERROR** est utilisée pour décrire les informations d’erreur. Les clients et les fournisseurs de services passent un pointeur vers une structure **MAPIERROR** dans le paramètre _lppMAPIError_ de la méthode [IMAPIProp::GetLastError](imapiprop-getlasterror.md) . **GetLastError** retourne des informations sur l’erreur précédente qui s’est produite dans un objet. Les appelants de **GetLastError libèrent** la mémoire de la structure **MAPIERROR** en appelant [MAPIFreeBuffer](mapifreebuffer.md).
   
-Le **membre lpszComponent** peut être utilisé pour macalculer le fichier d’aide du composant, s’il en existe un. Les fournisseurs de services doivent limiter la taille de la chaîne de composant à 30 caractères afin qu’elle puisse s’afficher facilement dans une boîte de dialogue. Le **membre ulContext** peut également être utilisé pour faire référence à une rubrique d’aide en ligne pour les erreurs courantes. 
+Le membre **lpszComponent** peut être utilisé pour mapper le fichier d’aide du composant, le cas échéant. Les fournisseurs de services doivent limiter la taille de la chaîne de composant à 30 caractères afin qu’elle puisse être facilement affichée dans une boîte de dialogue. Le membre **ulContext** peut également être utilisé pour faire référence à une rubrique d’aide en ligne pour les erreurs courantes. 
   
-Étant donné que les fournisseurs de services ne sont pas tenus de fournir des informations détaillées sur les erreurs, les clients ne doivent pas s’attendre à ce que les membres de la structure **MAPIERROR** retournés contiennent des données valides. Toutefois, MAPI recommande vivement aux fournisseurs de spécifier des informations dans les membres **lpszComponent** et **ulContext** . 
+Étant donné que les fournisseurs de services ne sont pas tenus de fournir des informations détaillées sur les erreurs, les clients ne doivent s’attendre à aucun des membres de la structure **MAPIERROR** renvoyés pour contenir des données valides. Toutefois, au minimum MAPI recommande vivement aux fournisseurs de spécifier des informations dans les membres **lpszComponent** et **ulContext** . 
   
-Pour plus d’informations sur la gestion des erreurs dans MAPI, voir [Gestion des erreurs](error-handling-in-mapi.md).
+Pour plus d’informations sur la gestion des erreurs dans MAPI, consultez [Gestion des erreurs](error-handling-in-mapi.md).
   
 ## <a name="see-also"></a>Voir aussi
 

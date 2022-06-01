@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagAttachmentHidden
+description: Décrit la propriété canonique PidTagAttachmentHidden, qui indique si une pièce jointe est masquée par l’utilisateur final.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d92a01e3-9bc4-4985-aeb6-c23636cb8b2e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: df02d1b39c1f52dd86b55400ec44ba1104e0fcee
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: e8afa727b0536c1d642692d60b885eb684260b8b
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63716268"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816534"
 ---
 # <a name="pidtagattachmenthidden-canonical-property"></a>Propriété canonique PidTagAttachmentHidden
 
@@ -25,7 +25,7 @@ ms.locfileid: "63716268"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si une pièce jointe est masquée à l’utilisateur final.
+Indique si une pièce jointe est masquée par l’utilisateur final.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -44,7 +44,7 @@ Indique si une pièce jointe est masquée à l’utilisateur final.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Définit les structures de données de base utilisées dans les opérations distantes.
+> Définit les structures de données de base utilisées dans les opérations à distance.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -54,7 +54,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -66,5 +66,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

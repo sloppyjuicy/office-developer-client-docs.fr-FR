@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidOriginalStoreEntryId
+description: Décrit la propriété canonique PidLidOriginalStoreEntryId, qui spécifie l’ID d’entrée du magasin du delegator.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1b1fc008-9cd5-49f6-9f91-b59e305a1e82
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 48fc579d1304bc0414b1adfad9daed8d47f9eced
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 3fcdc17fa419097a458a219c240ce5c9b96a76e2
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63726013"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817451"
 ---
 # <a name="pidlidoriginalstoreentryid-canonical-property"></a>Propriété canonique PidLidOriginalStoreEntryId
 
@@ -25,7 +25,7 @@ ms.locfileid: "63726013"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l’ID d’entrée du magasin du délégant.
+Spécifie l’ID d’entrée du magasin du delegator.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -45,7 +45,7 @@ Cette propriété doit être définie sur les objets de réunion qui ont été c
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

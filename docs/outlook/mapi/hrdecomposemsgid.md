@@ -1,5 +1,6 @@
 ---
 title: HrDecomposeMsgID
+description: Cet article décrit la fonction HrDecomposeMsgID et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +12,18 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e6a9f3e-79be-4ffd-9d42-3a14cabb1435
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1efb8ab359343cc054445d6b34b72e101df6f770
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 41a7d279515ac2be6f97cd40107ebefef7ffd783
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63629522"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816891"
 ---
 # <a name="hrdecomposemsgid"></a>HrDecomposeMsgID
 
 **S’applique à** : Outlook 2013 | Outlook 2016
 
-Sépare la représentation ASCII de l’identificateur d’entrée composé d’un objet, généralement un message dans une magasin de messages, dans l’identificateur d’entrée de cet objet dans la boutique et dans l’identificateur d’entrée de la boutique.
+Sépare la représentation ASCII de l’identificateur d’entrée composé d’un objet, généralement un message dans un magasin de messages, dans l’identificateur d’entrée de cet objet dans le magasin et l’identificateur d’entrée du magasin.
 
 |Propriété |Valeur |
 |:-----|:-----|
@@ -46,7 +46,7 @@ HrDecomposeMsgID(
 
  _psession_
 
-> [in] Pointeur vers la session en cours d’utilisation par l’application cliente.
+> [in] Pointeur vers la session utilisée par l’application cliente.
 
  _szMsgID_
 
@@ -54,19 +54,19 @@ HrDecomposeMsgID(
 
  _pcbStoreEID_
 
-> [out] Pointeur vers la taille renvoyée, en octets, de l’identificateur d’entrée de la boutique de messages qui contient l’objet. Si le _paramètre szMsgID_ pointe vers une chaîne d’identificateur d’entrée non saisie, le paramètre _pcbStoreEID_ pointe sur zéro.
+> [out] Pointeur vers la taille retournée, en octets, de l’identificateur d’entrée du magasin de messages qui contient l’objet. Si le paramètre _szMsgID_ pointe vers une chaîne d’identificateur d’entrée noncompound, le paramètre _pcbStoreEID_ pointe vers zéro.
 
  _ppStoreEID_
 
-> [out] Pointeur vers un pointeur vers l’identificateur d’entrée renvoyé de la magasin de messages qui contient l’objet. Si le _paramètre szMsgID_ pointe vers un identificateur d’entrée non fourni, NULL est renvoyé dans le paramètre _ppStoreEID_ .
+> [out] Pointeur vers un pointeur vers l’identificateur d’entrée retourné du magasin de messages qui contient l’objet. Si le paramètre _szMsgID_ pointe vers un identificateur d’entrée noncompound, NULL est retourné dans le paramètre _ppStoreEID_ .
 
  _pcbMsgEID_
 
-> [out] Pointeur vers la taille renvoyée, en octets, de l’identificateur d’entrée de l’objet dans son magasin. Si le paramètre _szMsgID_ pointe vers une chaîne d’identificateur d’entrée non saisie, le paramètre  _pcbMsgEID_ est égal à la valeur du paramètre _cbEID_ .
+> [out] Pointeur vers la taille retournée, en octets, de l’identificateur d’entrée de l’objet dans son magasin. Si le paramètre _szMsgID_ pointe vers une chaîne d’identificateur d’entrée noncompound, le paramètre  _pcbMsgEID_ est égal à la valeur du paramètre _cbEID_ .
 
  _ppMsgEID_
 
-> [out] Pointeur vers un pointeur vers la chaîne d’identificateur d’entrée renvoyée de l’objet dans son magasin. Si le paramètre _szMsgID_ pointe vers un identificateur d’entrée non saisie, _ppMsgEID_ pointe vers un pointeur vers une copie convertie de l’identificateur d’entrée non saisie.
+> [out] Pointeur vers un pointeur vers la chaîne d’identificateur d’entrée retournée de l’objet dans son magasin. Si le paramètre _szMsgID_ pointe vers un identificateur d’entrée noncompound, _ppMsgEID_ pointe vers un pointeur vers une copie convertie de l’identificateur d’entrée noncompound.
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -74,6 +74,6 @@ Aucun.
 
 ## <a name="remarks"></a>Remarques
 
-Si l’identificateur spécifié par le paramètre _szMsgID_ est composé, il est converti à partir d’ASCII et divisé en identificateur d’entrée de l’objet au sein de sa magasin de messages et de l’identificateur d’entrée de la boutique. Les chaînes d’identificateur d’entrée non saisie sont simplement converties et copiées. La chaîne d’identificateur composée à séparer est généralement une chaîne créée par [la fonction HrComposeMsgID](hrcomposemsgid.md) .
+Si l’identificateur spécifié par le paramètre _szMsgID_ est composé, il est converti à partir d’ASCII et divisé en identificateur d’entrée de l’objet dans son magasin de messages et l’identificateur d’entrée du magasin. Les chaînes d’identificateur d’entrée noncompound sont simplement converties et copiées. La chaîne d’identificateur composé à séparer est généralement créée par la fonction [HrComposeMsgID](hrcomposemsgid.md) .
 
-Appeler la **fonction HrDecomposeMsgID** équivaut à appeler la fonction [HrEntryIDFromSz](hrentryidfromsz.md) , puis la fonction [HrDecomposeEID](hrdecomposeeid.md) .
+L’appel de la fonction **HrDecomposeMsgID** équivaut à appeler la fonction [HrEntryIDFromSz](hrentryidfromsz.md) , puis la fonction [HrDecomposeEID](hrdecomposeeid.md) .

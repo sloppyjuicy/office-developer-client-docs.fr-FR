@@ -1,5 +1,6 @@
 ---
 title: IABLogon IUnknown
+description: Cet article décrit IABLogon IUnknown et fournit des méthodes, des propriétés et des remarques supplémentaires.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: fe340182-f41e-42e7-b8e8-cc005b1e9a5f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0b09543147b567281ebbac8f9d2261c55d8dd706
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: cfcee38191fd18942e6219f467cbbd29c16ec725
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63632587"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817269"
 ---
 # <a name="iablogon--iunknown"></a>IABLogon : IUnknown
 
@@ -25,37 +25,37 @@ ms.locfileid: "63632587"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Accède aux ressources dans un fournisseur de carnet d’adresses.
+Accède aux ressources d’un fournisseur de carnet d’adresses.
   
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
-|Exposé par :  <br/> |Objets d’logo de carnet d’adresses  <br/> |
+|Exposé par :  <br/> |Objets d’ouverture de session du carnet d’adresses  <br/> |
 |Implémenté par :  <br/> |Fournisseurs de carnets d’adresses  <br/> |
 |Appelé par :  <br/> |MAPI  <br/> |
 |Identificateur d’interface :  <br/> |IID_IABLogon  <br/> |
 |Type de pointeur :  <br/> |LPABLOGON  <br/> |
    
-## <a name="vtable-order"></a>Ordre des vtables
+## <a name="vtable-order"></a>Ordre des tables virtuelles
 
 |Member | Description |
 |:-----|:-----|
-|[GetLastError](iablogon-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur de fournisseur de carnet d’adresses précédente. |
-|[Logoff](iablogon-logoff.md) <br/> |Lance le processus de ffage de logo. |
-|[OpenEntry](iablogon-openentry.md) <br/> |Ouvre un conteneur, un utilisateur de messagerie ou une liste de distribution et renvoie un pointeur vers une implémentation d’interface pour fournir un accès supplémentaire. |
+|[Getlasterror](iablogon-getlasterror.md) <br/> |Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente du fournisseur de carnet d’adresses. |
+|[Logoff](iablogon-logoff.md) <br/> |Lance le processus de fermeture de session. |
+|[OpenEntry](iablogon-openentry.md) <br/> |Ouvre un conteneur, un utilisateur de messagerie ou une liste de distribution et retourne un pointeur vers une implémentation d’interface pour fournir un accès supplémentaire. |
 |[CompareEntryIDs](iablogon-compareentryids.md) <br/> |Compare deux identificateurs d’entrée pour déterminer s’ils font référence au même objet. |
 |[Conseiller](iablogon-advise.md) <br/> |Inscrit l’appelant pour recevoir une notification des événements spécifiés qui affectent un conteneur, un utilisateur de messagerie ou une liste de distribution. |
-|[Unadvise](iablogon-unadvise.md) <br/> |Annule les notifications précédemment définies avec un appel à la **méthode Advise** . |
+|[Non-surveillance](iablogon-unadvise.md) <br/> |Annule les notifications précédemment configurées avec un appel à la méthode **Advise** . |
 |[OpenStatusEntry](iablogon-openstatusentry.md) <br/> |Ouvre l’objet d’état du fournisseur. |
-|[OpenTemplateID](iablogon-opentemplateid.md) <br/> |Ouvre une entrée de destinataire dont les données résident dans un fournisseur de carnet d’adresses hôte. |
-|[GetOneOffTable](iablogon-getoneofftable.md) <br/> |Renvoie une table de modèles unique pour la création de destinataires à ajouter à la liste des destinataires d’un message sortant. |
+|[OpenTemplateID](iablogon-opentemplateid.md) <br/> |Ouvre une entrée de destinataire qui contient des données résidant dans un fournisseur de carnet d’adresses hôte. |
+|[GetOneOffTable](iablogon-getoneofftable.md) <br/> |Retourne une table de modèles uniques pour la création de destinataires à ajouter à la liste des destinataires d’un message sortant. |
 |[PrepareRecips](iablogon-preparerecips.md) <br/> |Prépare une liste de destinataires pour une utilisation ultérieure par le système de messagerie. |
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir des informations générales sur les méthodes de l’interface **IABLogon** , voir [Implementing Service Provider Logon](implementing-service-provider-logon.md).
+Pour obtenir des informations générales sur les méthodes de l’interface **IABLogon** , consultez Implémentation de l’ouverture [de session du fournisseur de services](implementing-service-provider-logon.md).
   
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 

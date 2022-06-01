@@ -1,5 +1,6 @@
 ---
 title: IExchangeModifyTableModifyTable
+description: IExchangeModifyTableModifyTable met à jour un objet de table MAPI. Cet article décrit sa syntaxe, ses paramètres et fournit un exemple de code.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: b9a745cc-260d-4a1c-896e-6a038ab3cfb9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 52bc33f0316703d2bbcc2a9b25b82e56ef5b4d46
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 87ffed62272372221e462df5c2f1741a829a031a
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788555"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816373"
 ---
 # <a name="iexchangemodifytablemodifytable"></a>IExchangeModifyTable::ModifyTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "62788555"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Met à jour un objet table MAPI.
+Met à jour un objet de table MAPI.
   
 ```cpp
 HRESULT ModifyTable( 
@@ -43,7 +43,7 @@ HRESULT ModifyTable(
     
 0 (zéro)
   
-> Utilisez la valeur du **membre ulRowFlags** de la structure [ROWENTRY](rowentry.md) . 
+> Utilisez la valeur du membre **ulRowFlags** de la structure [ROWENTRY](rowentry.md) . 
     
 ACLTABLE_FREEBUSY
   
@@ -51,11 +51,11 @@ ACLTABLE_FREEBUSY
     
 frightsFreeBusyDetailed
   
-> Lorsque ACLTABLE_FREEBUSY est passé, fournit un affichage détaillé des nouveaux droits de libre/occupé.
+> Lorsque ACLTABLE_FREEBUSY est passé, fournit un affichage détaillé des nouveaux droits de disponibilité.
     
 frightsFreeBusySimple
   
-> Lorsque ACLTABLE_FREEBUSY est passé, fournit un affichage simple des nouveaux droits de libre/occupé.
+> Lorsque ACLTABLE_FREEBUSY est passé, fournit un affichage simple des nouveaux droits de disponibilité.
     
 ROWLIST_REPLACE
   
@@ -71,7 +71,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnModifySelectedItem  <br/> |MFCMAPI utilise la méthode **IExchangeModifyTable::ModifyTable** pour écrire une règle modifiée dans la table des règles. |
+|RulesDlg.cpp  <br/> |CRulesDlg::OnModifySelectedItem  <br/> |MFCMAPI utilise la méthode **IExchangeModifyTable::ModifyTable** pour réécrire une règle modifiée dans la table des règles. |
    
 ## <a name="see-also"></a>Voir aussi
 

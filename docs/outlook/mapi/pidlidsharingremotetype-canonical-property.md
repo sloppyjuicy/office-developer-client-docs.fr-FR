@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidSharingRemoteType
+description: Décrit la propriété canonique PidLidSharingRemoteType, qui spécifie le type du dossier partagé distant. Il s’agit d’une propriété d’un message de partage.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: e9bc7c7c-86df-45d8-922b-76e3b076144a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ba561313e295482c833d74b113e157ab1b863254
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 0de9e43ec9de0f65e97e1239dfbe7cdd7b1f3e5c
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63627115"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817619"
 ---
 # <a name="pidlidsharingremotetype-canonical-property"></a>Propriété canonique PidLidSharingRemoteType
 
@@ -45,11 +45,11 @@ Cette propriété doit être définie sur la même valeur que la propriété **d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Partage des dossiers de boîte aux lettres entre clients.
+> Partage des dossiers de boîte aux lettres entre les clients.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

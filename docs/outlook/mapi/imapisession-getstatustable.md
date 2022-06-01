@@ -1,5 +1,6 @@
 ---
 title: IMAPISessionGetStatusTable
+description: IMAPISessionGetStatusTable permet d’accéder à la table d’état, une table qui contient des informations sur toutes les ressources MAPI de la session.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 53428f8d-4838-46d1-a0ab-cafb194f4cc3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d1e9b2fdf7423c56ae908be3df703212ab6e025f
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 79048fbf8c2b4e39ff01825ebdf7e3237ad13b62
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788513"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817241"
 ---
 # <a name="imapisessiongetstatustable"></a>IMAPISession::GetStatusTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "62788513"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d’accéder à la table d’état, une table qui contient des informations sur toutes les ressources MAPI de la session.
+Fournit l’accès à la table d’état, une table qui contient des informations sur toutes les ressources MAPI de la session.
   
 ```cpp
 HRESULT GetStatusTable(
@@ -38,29 +38,29 @@ HRESULT GetStatusTable(
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui détermine le format des colonnes qui sont des chaînes de caractères. L’indicateur suivant peut être définie :
+> [in] Masque de bits des indicateurs qui détermine le format des colonnes qui sont des chaînes de caractères. L’indicateur suivant peut être défini :
     
 MAPI_UNICODE 
   
-> Les colonnes de chaîne sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les colonnes de chaîne sont au format ANSI.
+> Les colonnes de chaîne sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas défini, les colonnes de chaîne sont au format ANSI.
     
  _lppTable_
   
-> [out] Pointeur vers un pointeur vers le tableau d’état.
+> [out] Pointeur vers un pointeur vers la table d’état.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La table a été renvoyée avec succès.
+> La table a été retournée avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISession::GetStatusTable** permet d’accéder à la table d’état qui contient des informations sur toutes les ressources MAPI de la session. Le tableau comprend une ligne pour obtenir des informations sur le sous-système MAPI, une ligne pour lepooler MAPI, une ligne pour le carnet d’adresses intégré et une ligne pour chaque fournisseur de services dans le profil. 
+La méthode **IMAPISession::GetStatusTable** permet d’accéder à la table d’état qui contient des informations sur toutes les ressources MAPI de la session. La table contient une ligne pour plus d’informations sur le sous-système MAPI, une ligne pour le spouleur MAPI, une ligne pour le carnet d’adresses intégré et une ligne pour chaque fournisseur de services dans le profil. 
   
-Pour obtenir la liste complète des colonnes obligatoires et facultatives dans le tableau d’état, voir [Tableaux d’état](status-tables.md). 
+Pour obtenir la liste complète des colonnes obligatoires et facultatives dans la table d’état, consultez [Tables d’état](status-tables.md). 
   
-La définition de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes renvoyées par les méthodes [IMAPITable::QueryColumns](imapitable-querycolumns.md) et [IMAPITable::QueryRows](imapitable-queryrows.md) . Cet indicateur contrôle également les types de propriétés dans l’ordre de tri renvoyé par la méthode [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) . 
+La définition de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes retournées à partir des méthodes [IMAPITable::QueryColumns](imapitable-querycolumns.md) et [IMAPITable::QueryRows](imapitable-queryrows.md) . Cet indicateur contrôle également les types de propriétés dans l’ordre de tri retourné par la méthode [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) . 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -68,7 +68,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnStatusTable  <br/> |MFCMAPI utilise la méthode **IMAPISession::GetStatusTable** pour obtenir la table d’état à restituer. |
+|MainDlg.cpp  <br/> |CMainDlg::OnStatusTable  <br/> |MFCMAPI utilise la méthode **IMAPISession::GetStatusTable** pour obtenir la table d’état à afficher. |
    
 ## <a name="see-also"></a>Voir aussi
 

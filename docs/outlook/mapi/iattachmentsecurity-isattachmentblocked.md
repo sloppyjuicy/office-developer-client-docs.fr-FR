@@ -1,5 +1,6 @@
 ---
 title: IAttachmentSecurityIsAttachmentBlocked
+description: Vérifie si une pièce jointe spécifiée est bloquée par Microsoft Outlook 2010 ou Microsoft Outlook 2013 pour l’affichage et l’indexation.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6986d27a-9602-e44a-0797-4c47f2184ef7
-description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: e84b1c992f4b2c743f54194092cf190e4eb4aeed
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: bf5cdf9ce325d033b43f4c1fed446cf4f6d4eb1a
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63382390"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65818207"
 ---
 # <a name="iattachmentsecurityisattachmentblocked"></a>IAttachmentSecurity::IsAttachmentBlocked
 

@@ -1,5 +1,6 @@
 ---
 title: Carnet d'adresses MAPI
+description: Le carnet d'adresses sont accessibles par programmation, sans l'intervention de l'utilisateur, ou de mani�re interactive � l'aide des bo�tes de dialogue courantes.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +8,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 6703ba3f-54a5-4059-b10a-1d42a9e81be1
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b66300cc347de0c32ea25a272602059a2c06c110
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: e7e9b7143feefa1134600f73ac095012ab8c3381
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62778887"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817479"
 ---
 # <a name="mapi-address-book"></a>Carnet d'adresses MAPI
 

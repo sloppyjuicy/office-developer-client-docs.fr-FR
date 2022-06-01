@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagAssociatedContentCount
+description: Décrit la propriété canonique PidTagAssociatedContentCount, qui contient le nombre d’éléments dans la table des matières associée du dossier.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 79bbdd84-a3a7-4472-9447-8b0ddbf163ef
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d7d0c49b9ba4af9f01e6e6a7f05db6b3af8648ac
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: ca0e5479feca147c5967198c3f15c4f341b6b71e
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454480"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816548"
 ---
 # <a name="pidtagassociatedcontentcount-canonical-property"></a>Propriété canonique PidTagAssociatedContentCount
 
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidTaskAcceptanceState
+description: Décrit la propriété canonique PidLidTaskAcceptanceState, qui indique l’état d’acceptation de la tâche.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7012f524-bc66-48ea-85b5-163e05029d35
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e9644da8b74b80de0daebfe904d2a3c59c07ba5d
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: eb210af71b8406032b28c3f8da61a704ac2f1a01
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454977"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817234"
 ---
 # <a name="pidlidtaskacceptancestate-canonical-property"></a>Propriété canonique PidLidTaskAcceptanceState
 
@@ -37,14 +37,14 @@ Indique l’état d’acceptation de la tâche.
    
 ## <a name="remarks"></a>Remarques
 
-Le tableau suivant indique les valeurs possibles pour cette propriété.
+Le tableau suivant présente les valeurs possibles pour cette propriété.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0x00000000  <br/> |La tâche n’est pas affectée. |
 |0x00000001  <br/> |L’état d’acceptation de la tâche est inconnu. |
-|0x00000002  <br/> |La personne à qui la tâche a été assignée a accepté la tâche. Cette valeur est définie lorsque le client traite une acceptation de tâche. |
-|0x00000003  <br/> |L’affectation de la tâche a rejeté la tâche. Cette valeur est définie lorsque le client traite un rejet de tâche. |
+|0x00000002  <br/> |L’assignateur de tâche a accepté la tâche. Cette valeur est définie lorsque le client traite une acceptation de tâche. |
+|0x00000003  <br/> |L’assignateur de tâche a rejeté la tâche. Cette valeur est définie lorsque le client traite un rejet de tâche. |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -52,11 +52,11 @@ Le tableau suivant indique les valeurs possibles pour cette propriété.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
+> Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour des tâches.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -74,5 +74,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

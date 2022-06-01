@@ -1,5 +1,6 @@
 ---
 title: GetDefCachedMode
+description: Décrit GetDefCachedMode et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +8,12 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 325b6b47-b6a6-503e-e9bb-65ef7b73d659
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 742b59d774166e118ffaa57b78e4ea0d8b9cb1c7
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: b3b6709483796edc3e4a569b89e5abe9343ec7f3
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63780941"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816632"
 ---
 # <a name="getdefcachedmode"></a>GetDefCachedMode
 
@@ -21,7 +21,7 @@ ms.locfileid: "63780941"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si le mode Exchange mis en cache pour le magasin Exchange privé est activé et s’il est appliqué par la stratégie.
+Indique si le mode de Exchange mis en cache pour le magasin de Exchange privé est activé et s’il est appliqué par la stratégie.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -44,11 +44,11 @@ BOOL GetDefCachedMode(BOOL *pfPolicy);
     
 ## <a name="return-values"></a>Valeurs de retour
 
- **true**
+ **Vrai**
   
 - La mise en cache est activée.
     
- **false**
+ **Faux**
   
 - La mise en cache est désactivée.
     

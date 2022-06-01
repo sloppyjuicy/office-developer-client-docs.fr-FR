@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagAcknowledgementMode
+description: Décrit la propriété canonique PidTagAcknowledgementMode, qui contient l’identificateur du mode pour l’accusé de réception de message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 23329ca3-89f9-4e5a-9c8a-6262f2a2d26f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 411ecaa78f16bbf7779aa4d98a7fd6beb2ab0be8
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: ecafa2041551f4fc203ad30adf78537d4cef1264
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455824"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65818011"
 ---
 # <a name="pidtagacknowledgementmode-canonical-property"></a>Propriété canonique PidTagAcknowledgementMode
 
@@ -25,7 +25,7 @@ ms.locfileid: "64455824"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur du mode pour l’accusé de réception du message.
+Contient l’identificateur du mode pour l’accusé de réception de message.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -53,7 +53,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -65,5 +65,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

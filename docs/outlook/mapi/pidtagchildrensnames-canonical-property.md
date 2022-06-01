@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagChildrensNames
+description: Décrit la propriété canonique PidTagChildrensNames, qui contient une liste de noms d’enfants.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5e09c078-b8e4-46ef-9ee7-e2ba937d53cf
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b9420a16950ca111b2562ba6ddfc5df73916b865
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 6487d5f298d1367fc3d004c7405067a53a966209
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725702"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817990"
 ---
 # <a name="pidtagchildrensnames-canonical-property"></a>Propriété canonique PidTagChildrensNames
 
@@ -44,11 +44,11 @@ Ces propriétés sont définies par l’utilisateur ou l’organisation de l’u
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server protocole associés.
+> Fournit des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les objets de liste de distribution personnelle et de contact.
+> Spécifie les propriétés et les opérations autorisées pour les objets de liste de distribution de contacts et personnels.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -58,7 +58,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

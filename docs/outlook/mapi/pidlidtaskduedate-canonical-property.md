@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidTaskDueDate
+description: Décrit la propriété canonique PidLidTaskDueDate, qui représente la date à laquelle l’utilisateur s’attend à terminer la tâche.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69ed3d48-3741-4a9a-8f98-51382b850c27
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e1712ede283dc4f1ec7996102f6033d647c18e8b
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 0497ed168ad5e53823393b3dba833c4eac2e5310
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455397"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817605"
 ---
 # <a name="pidlidtaskduedate-canonical-property"></a>Propriété canonique PidLidTaskDueDate
 
@@ -25,7 +25,7 @@ ms.locfileid: "64455397"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Représente la date à laquelle l’utilisateur s’attend à effectuer la tâche.
+Représente la date à laquelle l’utilisateur s’attend à terminer la tâche.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Représente la date à laquelle l’utilisateur s’attend à effectuer la tâch
    
 ## <a name="remarks"></a>Remarques
 
-La tâche n’a aucune date d’échéance si cette propriété n’est pas définie ou définie sur 0x5AE980E0 (1 525 252 320). Toutefois, une date d’échéance n’est facultative que si aucune date de début n’est indiquée dans la propriété **dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)). Si la tâche a une date d’échéance, la valeur doit avoir un composant d’heure de minuit et la propriété **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) doit également être définie. Si **dispidTaskStartDate** a une date de début, la valeur de la propriété **dispidTaskDueDate** doit être supérieure ou égale à la valeur de **dispidTaskStartDate**.
+La tâche n’a aucune date d’échéance si cette propriété n’est pas définie ou définie sur 0x5AE980E0 (1 525 252 320). Toutefois, une date d’échéance n’est facultative que si aucune date de début n’est indiquée dans la propriété **dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)). Si la tâche a une date d’échéance, la valeur doit avoir un composant d’heure de minuit, et la propriété **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) doit également être définie. Si **dispidTaskStartDate** a une date de début, la valeur de la propriété **dispidTaskDueDate** doit être supérieure ou égale à la valeur de **dispidTaskStartDate**.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,15 +45,15 @@ La tâche n’a aucune date d’échéance si cette propriété n’est pas déf
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
+> Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour des tâches.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Spécifie les propriétés et le modèle d’interaction pour les messages électroniques et autres rappels d’objets.
+> Spécifie les propriétés et le modèle d’interaction pour les rappels d’e-mail et d’autres objets.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -71,5 +71,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

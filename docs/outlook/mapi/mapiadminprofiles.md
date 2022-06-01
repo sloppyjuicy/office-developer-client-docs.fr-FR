@@ -1,5 +1,6 @@
 ---
 title: MAPIAdminProfiles
+description: Décrit la fonction MAPIAdminProfiles et fournit la syntaxe, les paramètres, la valeur de retour et les références MFCMAPI.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 82a9e379-39e4-4257-8cba-a6758f431cdc
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ed260a5e1c167463a0b4e9c39ea428fc647a3864
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: e61c16fa4bd0142c317cbfd27cd96592a1e65dac
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63713472"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817696"
 ---
 # <a name="mapiadminprofiles"></a>MAPIAdminProfiles
 
@@ -44,7 +44,7 @@ HRESULT MAPIAdminProfiles(
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs indiquant les options de la fonction d’entrée de service. 
+> [in] Masque de bits des indicateurs indiquant les options de la fonction d’entrée de service. 
     
  _lppProfAdmin_
   
@@ -62,7 +62,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::GetProfAdmin  <br/> |MFCMAPI utilise la **méthode MAPIAdminProfiles** pour obtenir l’objet d’administration de profil. |
+|MAPIObjects.cpp  <br/> |CMapiObjects::GetProfAdmin  <br/> |MFCMAPI utilise la méthode **MAPIAdminProfiles** pour obtenir l’objet d’administration de profil. |
    
 ## <a name="see-also"></a>Voir aussi
 

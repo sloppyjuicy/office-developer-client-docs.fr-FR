@@ -1,5 +1,6 @@
 ---
 title: CbSPropProblemArray
+description: CbSPropProblemArray calcule le nombre d’octets dans une structure SPropProblemArray existante. Cet article décrit sa syntaxe et ses paramètres.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e17a528-b5f6-43f6-9e2f-c6a257beff6f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e62ca772542c490850408eedbc278f3f4e74d543
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: a7a6ff73201b0522a5871d0fbbb02a2ad2d5a528
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63723786"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816695"
 ---
 # <a name="cbspropproblemarray"></a>CbSPropProblemArray
 
@@ -30,7 +30,7 @@ Calcule le nombre d’octets dans une structure [SPropProblemArray](spropproblem
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**SPropProblemArray** <br/> |
+|Structure associée :  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 CbSPropProblemArray (_lparray)

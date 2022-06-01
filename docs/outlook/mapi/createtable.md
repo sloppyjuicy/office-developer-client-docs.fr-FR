@@ -1,5 +1,6 @@
 ---
 title: CreateTable
+description: CreateTable crée des structures et un handle d’objet pour un objet ITableData qui peut être utilisé pour créer le contenu de la table.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +12,18 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 106ce3d8-d0bf-4a0e-9a15-dc8988d0eb58
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 68b8f5a580b883afc8dcf8a4e1a44d81497369ae
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: e3b2c50fec74aa7a3ccf946af7b8da632307f7b1
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63629082"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817325"
 ---
 # <a name="createtable"></a>CreateTable
 
 **S’applique à** : Outlook 2013 | Outlook 2016
   
-Crée des structures et un handle d’objet pour un objet [ITableData](itabledataiunknown.md) qui peut être utilisé pour créer le contenu d’une table.
+Crée des structures et un handle d’objet pour un objet [ITableData](itabledataiunknown.md) qui peut être utilisé pour créer le contenu de la table.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -49,19 +49,19 @@ SCODE CreateTable(
 
  _lpInterface_
   
-> [in] Pointeur vers un identificateur d’interface (IID) pour l’objet de données de table. L’identificateur d’interface valide est IID_IMAPITableData. La transmission de la valeur NULL dans le paramètre _lpInterface_ entraîne également le cast de l’objet de données de table renvoyé dans le paramètre _lppTableData_ vers l’interface standard d’un objet de données de table.
+> [in] Pointeur vers un identificateur d’interface (IID) pour l’objet de données de table. L’identificateur d’interface valide est IID_IMAPITableData. Le passage de NULL dans le paramètre _lpInterface_ entraîne également le cast de l’objet de données de table retourné dans le paramètre _lppTableData_ vers l’interface standard d’un objet de données de table.
 
  _lpAllocateBuffer_
   
-> [in] Pointeur vers la [fonction MAPIAllocateBuffer](mapiallocatebuffer.md) , à utiliser pour allouer de la mémoire.
+> [in] Pointeur vers la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) , à utiliser pour allouer de la mémoire.
 
  _lpAllocateMore_
   
-> [in] Pointeur vers la [fonction MAPIAllocateMore](mapiallocatemore.md) , à utiliser pour allouer de la mémoire supplémentaire.
+> [in] Pointeur vers la fonction [MAPIAllocateMore](mapiallocatemore.md) , à utiliser pour allouer de la mémoire supplémentaire.
 
  _lpFreeBuffer_
   
-> [in] Pointeur vers la [fonction MAPIFreeBuffer](mapifreebuffer.md) , à utiliser pour libérer de la mémoire.
+> [in] Pointeur vers la fonction [MAPIFreeBuffer](mapifreebuffer.md) , à utiliser pour libérer de la mémoire.
 
  _lpvReserved_
   
@@ -69,7 +69,7 @@ SCODE CreateTable(
 
  _ulTableType_
   
-> [in] Un type de table qui est disponible pour une application cliente ou un fournisseur de services dans le cadre de [l’IMAPITable::GetStatus](imapitable-getstatus.md) retourne des données sur ses vues de table. Les valeurs possibles sont les suivantes :
+> [in] Type de table disponible pour une application cliente ou un fournisseur de services dans le cadre de [l’IMAPITable::GetStatus retourne des](imapitable-getstatus.md) données sur ses vues de table. Les valeurs possibles sont les suivantes :
 
 TBLTYPE_DYNAMIC
   
@@ -77,7 +77,7 @@ TBLTYPE_DYNAMIC
 
 TBLTYPE_KEYSET
   
-> Les lignes du tableau sont fixes, mais les valeurs de ces lignes sont dynamiques et peuvent changer à mesure que les données sous-jacentes changent.
+> Les lignes de la table sont fixes, mais les valeurs de ces lignes sont dynamiques et peuvent changer à mesure que les données sous-jacentes changent.
 
 TBLTYPE_SNAPSHOT
   
@@ -89,11 +89,11 @@ TBLTYPE_SNAPSHOT
 
  _lpSPropTagArrayColumns_
   
-> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété indiquant les propriétés requises dans la table pour laquelle l’objet contient des données.
+> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau d’étiquettes de propriétés indiquant les propriétés requises dans la table pour laquelle l’objet contient des données.
 
  _lppTableData_
   
-> [out] Pointeur vers un pointeur vers l’objet de données de table renvoyé.
+> [out] Pointeur vers un pointeur vers l’objet de données de table retourné.
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -103,8 +103,8 @@ S_OK
 
 ## <a name="remarks"></a>Remarques
 
-Les paramètres d’entrée _lpAllocateBuffer_, _lpAllocateMore_ et _lpFreeBuffer_ pointent respectivement vers les fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md) et [MAPIFreeBuffer](mapifreebuffer.md) . Une application cliente appelant **CreateTable** transmet des pointeurs vers les fonctions MAPI nommées ; un fournisseur de services transmet les pointeurs vers ces fonctions qu’il a reçues dans son appel d’initialisation ou récupérées avec un appel à la méthode [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) .
+Les paramètres d’entrée _lpAllocateBuffer_, _lpAllocateMore_ et _lpFreeBuffer_ pointent vers les fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md) et [MAPIFreeBuffer](mapifreebuffer.md) , respectivement. Une application cliente appelant **CreateTable** transmet des pointeurs aux fonctions MAPI qui viennent d’être nommées ; un fournisseur de services transmet les pointeurs à ces fonctions qu’il a reçues dans son appel d’initialisation ou récupérées avec un appel à la méthode [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) .
   
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 [IMAPITable : IUnknown](imapitableiunknown.md)

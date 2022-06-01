@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidNonSendableBccTrackStatus
+description: Décrit la propriété canonique PidLidNonSendableBccTrackStatus, qui contient la valeur de chaque participant répertoriée dans la propriété dispidNonSendableBCC.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: daad8735-a3da-4a0b-9329-6eb253c281fd
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a3400871b2bce5696a33163bf34d0996ccc220ad
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: dbf6e4a9f993d5418b94be86590d8be88d2814e0
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63782285"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817465"
 ---
 # <a name="pidlidnonsendablebcctrackstatus-canonical-property"></a>Propriété canonique PidLidNonSendableBccTrackStatus
 
@@ -25,7 +25,7 @@ ms.locfileid: "63782285"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur de chaque participant répertorié dans la propriété **dispidNonSendableBCC** ([PidLidNonSendableBcc](pidlidnonsendablebcc-canonical-property.md)).
+Contient la valeur de chaque participant répertoriée dans la propriété **dispidNonSendableBCC** ([PidLidNonSendableBcc](pidlidnonsendablebcc-canonical-property.md)).
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Contient la valeur de chaque participant répertorié dans la propriété **disp
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n’est requise que lorsque la **propriété dispidNonSendableBCC** est définie. Le nombre de valeurs de cette propriété doit être égal au nombre de valeurs dans le **dispidNonSendableBCC**. Chaque valeur de cette propriété correspond au participant dans la propriété **dispidNonSendableBCC** au même index. 
+Cette propriété est requise uniquement lorsque la propriété **dispidNonSendableBCC** est définie. Le nombre de valeurs dans cette propriété doit être égal au nombre de valeurs dans **dispidNonSendableBCC**. Chaque valeur de cette propriété correspond au participant de la propriété **dispidNonSendableBCC** au même index. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,7 +45,7 @@ Cette propriété n’est requise que lorsque la **propriété dispidNonSendable
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

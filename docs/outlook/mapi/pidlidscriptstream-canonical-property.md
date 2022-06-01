@@ -1,5 +1,6 @@
 ---
-title: Propri t canonique PidLidScriptStream
+title: Propriété canonique PidLidScriptStream
+description: Décrit la propriété canonique PidLidScriptStream, qui représente le code écrit en VBScript derrière le formulaire personnalisé associé au message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,15 +12,14 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9d54f937-c8de-4789-b134-56835f21aec2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6f6fc12c4842ad4010b641219b3ad037394a3f27
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 5ea9b02781e53bf633b0ab839f7dacb29b6a456d
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63722501"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816786"
 ---
-# <a name="pidlidscriptstream-canonical-property"></a>Propri t canonique PidLidScriptStream
+# <a name="pidlidscriptstream-canonical-property"></a>Propriété canonique PidLidScriptStream
 
   
   
@@ -33,7 +33,7 @@ Représente le code écrit dans Visual Basic Scripting Edition (VBScript) derri�
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID long (LID) :  <br/> |0x00008541  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Configuration au moment de l’exécuter  <br/> |
+|Domaine :  <br/> |Configuration au moment de l’exécution  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -41,7 +41,7 @@ Représente le code écrit dans Visual Basic Scripting Edition (VBScript) derri�
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -59,5 +59,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

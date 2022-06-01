@@ -1,5 +1,6 @@
 ---
 title: IMAPIFormContainerGetDisplay
+description: IMAPIFormContainerGetDisplay retourne le nom complet d’un conteneur de formulaires. Cet article décrit sa syntaxe, ses paramètres et sa valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6829e273-4a75-4278-b58a-ae7543e075ac
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1abe89956b8c33189257a3c3696f75672d14dc19
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 03e27237c0b058df755f41ca89769451310e7766
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773605"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817731"
 ---
 # <a name="imapiformcontainergetdisplay"></a>IMAPIFormContainer::GetDisplay
 
@@ -25,7 +25,7 @@ ms.locfileid: "62773605"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie le nom complet d’un conteneur de formulaires.
+Retourne le nom complet d’un conteneur de formulaires.
   
 ```cpp
 HRESULT GetDisplay(
@@ -38,11 +38,11 @@ HRESULT GetDisplay(
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le type de la chaîne renvoyée. L’indicateur suivant peut être définie :
+> [in] Masque de bits des indicateurs qui contrôle le type de la chaîne retournée. L’indicateur suivant peut être défini :
     
 MAPI_UNICODE 
   
-> La chaîne renvoyée est au format Unicode. Si l MAPI_UNICODE n’est pas définie, la chaîne est au format ANSI.
+> La chaîne retournée est au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas défini, la chaîne est au format ANSI.
     
  _pszDisplayName_
   
@@ -60,7 +60,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::CFormContainerDlg  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer::GetDisplay** pour obtenir le nom du conteneur de formulaires lors du rendu de CFormContainerDlg. |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::CFormContainerDlg  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer::GetDisplay** pour obtenir le nom du conteneur de formulaires lorsqu’il affiche CFormContainerDlg. |
    
 ## <a name="see-also"></a>Voir aussi
 

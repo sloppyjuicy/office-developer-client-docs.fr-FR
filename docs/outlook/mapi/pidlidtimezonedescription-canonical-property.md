@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidTimeZoneDescription
+description: Décrit la propriété canonique PidLidTimeZoneDescription, qui spécifie une description de chaîne du fuseau horaire.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 24cb6429-1276-45f1-be0e-6c9d2ff6ce19
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 357d2dc4bdaac1e5dbc78770fa3de8ff793a6cba
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 7c3fea94a2c12f1eeb8274c79efc5f550d9f0794
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455852"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817395"
 ---
 # <a name="pidlidtimezonedescription-canonical-property"></a>Propriété canonique PidLidTimeZoneDescription
 
@@ -37,7 +37,7 @@ Spécifie une description de chaîne du fuseau horaire.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie une description lisible du fuseau horaire représenté par les données de la propriété **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)).
+Cette propriété spécifie une description lisible par l’homme du fuseau horaire représenté par les données de la propriété **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,7 +45,7 @@ Cette propriété spécifie une description lisible du fuseau horaire représent
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

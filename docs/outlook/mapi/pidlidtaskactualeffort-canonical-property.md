@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidTaskActualEffort
+description: Décrit la propriété canonique PidLidTaskActualEffort, qui indique le nombre de minutes pendant lesquelles l’utilisateur a effectué une tâche.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8e9a9432-bf50-4333-82ec-fba19dff8006
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 912770ba758e0489a7ff3a31b14b8bdfb85b6cc9
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: cdc1dcebf305a9e3b9bda7fe777f95b48c1069c4
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63724525"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817409"
 ---
 # <a name="pidlidtaskactualeffort-canonical-property"></a>Propriété canonique PidLidTaskActualEffort
 
@@ -25,7 +25,7 @@ ms.locfileid: "63724525"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique le nombre de minutes pendantées par l’utilisateur pour effectuer une tâche.
+Indique le nombre de minutes pendant lesquelles l’utilisateur a effectué une tâche.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -37,7 +37,7 @@ Indique le nombre de minutes pendantées par l’utilisateur pour effectuer une 
    
 ## <a name="remarks"></a>Remarques
 
-La valeur doit être supérieure ou égale à 0 et inférieure à 0x5AE980DF (1 525 252 319), où 480 minutes sont égales à un jour et 2 400 minutes à une semaine (huit heures dans une journée de travail et cinq jours dans une semaine de travail).
+La valeur doit être supérieure ou égale à 0 et inférieure à 0x5AE980DF (1 525 252 319), où 480 minutes correspondent à un jour et 2 400 minutes à une semaine (huit heures par jour de travail et cinq jours par semaine).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ La valeur doit être supérieure ou égale à 0 et inférieure à 0x5AE980DF (1 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les objets de liste de distribution personnelle et de contact.
+> Spécifie les propriétés et les opérations autorisées pour les objets de liste de distribution de contacts et personnels.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

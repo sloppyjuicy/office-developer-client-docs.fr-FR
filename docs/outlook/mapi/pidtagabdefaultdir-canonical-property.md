@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagAbDefaultDir
+description: Décrit la propriété canonique PidTagAbDefaultDir, qui contient l’identificateur d’entrée du conteneur de carnet d’adresses à afficher en premier.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c7092375-c945-4f2a-94e0-6d969c6edd27
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f3877a32f435cd99c8a384e6a6b1bfdfbf49e32c
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: cecad2bfeb72110b678c76021de479a6a55db430
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725076"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817185"
 ---
 # <a name="pidtagabdefaultdir-canonical-property"></a>Propriété canonique PidTagAbDefaultDir
 
@@ -36,7 +36,7 @@ Contient l’identificateur d’entrée du conteneur de carnet d’adresses à a
    
 ## <a name="remarks"></a>Remarques
 
-N’utilisez pas cette propriété. Il est réservé à une utilisation par MAPI.
+N’utilisez pas cette propriété. Il est réservé à l’utilisation par MAPI.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ N’utilisez pas cette propriété. Il est réservé à une utilisation par MAPI
 
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 Mapidefs.h
   
@@ -61,5 +61,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

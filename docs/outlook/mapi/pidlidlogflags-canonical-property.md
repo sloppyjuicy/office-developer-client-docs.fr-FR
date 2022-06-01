@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidLogFlags
+description: Décrit la propriété canonique PidLidLogFlags, qui contient des métadonnées sur le journal et s’applique à Outlook 2013 et Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3174d931-e045-44db-a203-a27c9c00f4fc
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c785b88b6be42d27dab5f9ef7e8304d1d4922767
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 94855f0dc5a28c7a858a700434f9c55555e8805d
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781445"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65818102"
 ---
 # <a name="pidlidlogflags-canonical-property"></a>Propriété canonique PidLidLogFlags
 
@@ -37,7 +37,7 @@ Contient des métadonnées sur le journal.
    
 ## <a name="remarks"></a>Remarques
 
-Le champ de bits qui contient les métadonnées sur le journal doit être zéro ou « 0x40000000 ».
+Le champ de bits qui contient des métadonnées sur le journal doit être égal à zéro ou « 0x40000000 ».
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ Le champ de bits qui contient les métadonnées sur le journal doit être zéro 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les journaux.
+> Spécifie les propriétés et les opérations autorisées pour les journaux.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidTaskAccepted
+description: Décrit la propriété canonique PidLidTaskAccepted, qui indique si un affecté de tâche a répondu à une demande de tâche.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8e31f893-b639-43da-a535-662153c82d82
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 612df7e68ba3d60b59d44dcc2a99526a80ed1029
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 715a7c75434f5cf4fdf9c3092a7102ae720d6ab2
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456146"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817612"
 ---
 # <a name="pidlidtaskaccepted-canonical-property"></a>Propriété canonique PidLidTaskAccepted
 
@@ -25,7 +25,7 @@ ms.locfileid: "64456146"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si une personne à la tâche a répondu à une demande de tâche.
+Indique si un affecté de tâche a répondu à une demande de tâche.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Indique si une personne à la tâche a répondu à une demande de tâche.
    
 ## <a name="remarks"></a>Remarques
 
-Le client définit cette propriété sur FALSE pour une nouvelle tâche ou sur TRUE lorsqu’une tâche est acceptée ou rejetée. Si la propriété n’est pas jeu, la valeur FALSE est supposée.
+Le client affecte la valeur FALSE à cette propriété pour une nouvelle tâche, ou cette propriété a la valeur TRUE lorsqu’une tâche est acceptée ou rejetée. Si la propriété n’est pas spécifiée, la valeur FALSE est supposée.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ Le client définit cette propriété sur FALSE pour une nouvelle tâche ou sur T
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidTaskLastUpdate
+description: Décrit la propriété canonique PidLidTaskLastUpdate, qui indique l’UTC et la date de la modification la plus récente apportée à la tâche.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 65b73d0f-f1f1-4c11-8834-f7c736a30ffc
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7a93dd9f3df45939e55424fc5962446ecb841120
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 73aca0c46ba4564cec0a5b6273d64abc1dc38393
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725763"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816772"
 ---
 # <a name="pidlidtasklastupdate-canonical-property"></a>Propriété canonique PidLidTaskLastUpdate
 
@@ -25,7 +25,7 @@ ms.locfileid: "63725763"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique le temps universel coordonné (UTC) et la date de la dernière modification qui a été apporté à la tâche et indiqué par la propriété **dispidTaskHistory** ([PidLidTaskHistory](pidlidtasklastupdate-canonical-property.md)).
+Indique le temps universel coordonné (UTC) et la date de la modification la plus récente apportée à la tâche et indiquée par la propriété **dispidTaskHistory** ([PidLidTaskHistory](pidlidtasklastupdate-canonical-property.md)).
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -41,11 +41,11 @@ Indique le temps universel coordonné (UTC) et la date de la dernière modificat
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
+> Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour des tâches.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidLidSharingRemoteStoreUid
+title: PidLidSharingRemoteStoreUid Canonical, propriété
+description: Décrit la propriété canonique PidLidSharingRemoteStoreUid, qui est une propriété d’un message de partage.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,15 +12,14 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6773bba-45ef-4aef-90da-acad8ff64615
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b5cbe877a85f8a2c03f03207d24a66e6273e3d20
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 6a067611a79a42f75c5055345c11e66093592fea
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456153"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817808"
 ---
-# <a name="pidlidsharingremotestoreuid-canonical-property"></a>Propriété canonique PidLidSharingRemoteStoreUid
+# <a name="pidlidsharingremotestoreuid-canonical-property"></a>PidLidSharingRemoteStoreUid Canonical, propriété
 
   
   
@@ -41,11 +41,11 @@ Spécifie la représentation de chaîne hexadécimale de la valeur de la propri�
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Partage des dossiers de boîte aux lettres entre clients.
+> Partage des dossiers de boîte aux lettres entre les clients.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

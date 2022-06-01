@@ -1,5 +1,6 @@
 ---
 title: LPFNBUTTON
+description: Décrit la fonction LPFNBUTTON et fournit la syntaxe, les paramètres, la valeur de retour et des remarques supplémentaires.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +12,18 @@ api_name:
 api_type:
 - COM
 ms.assetid: cb91ae1d-1ea8-4f02-a1f1-f2a356a71477
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 568c04d7b47bbf233a26f672996911f2e659ed57
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: cd8cc6da66a7ab54a3ac6b4385e7d68b84e1fc50
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63633924"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65818158"
 ---
 # <a name="lpfnbutton"></a>LPFNBUTTON
 
 **S’applique à** : Outlook 2013 | Outlook 2016
   
-Définit une fonction de rappel que MAPI appelle pour activer un contrôle de bouton facultatif dans une boîte de dialogue de carnet d’adresses. Ce bouton est généralement un **bouton Détails** .
+Définit une fonction de rappel que MAPI appelle pour activer un contrôle de bouton facultatif dans une boîte de dialogue carnet d’adresses. Ce bouton est généralement un bouton **Détails** .
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -45,15 +45,15 @@ SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
 
  _ulUIParam_
   
-> [in] Handle of the parent windows for any dialog boxes or windows this function displays.
+> [in] Handle des fenêtres parentes pour toutes les boîtes de dialogue ou fenêtres affichées par cette fonction.
 
  _lpvContext_
   
-> [in] Pointeur vers une valeur arbitraire transmise à la fonction de rappel lorsque MAPI l’appelle. Cette valeur peut représenter une adresse significative pour l’application cliente. En règle générale, pour le code C++, _lpvContext_ représente un pointeur vers un objet C++.
+> [in] Pointeur vers une valeur arbitraire transmise à la fonction de rappel lorsque MAPI l’appelle. Cette valeur peut représenter une adresse d’importance pour l’application cliente. En règle générale, pour le code C++, _lpvContext_ représente un pointeur vers un objet C++.
 
  _cbEntryID_
   
-> [in] Taille, en octets, de l’identificateur d’entrée pointé par  _le paramètre lpSelection_ .
+> [in] Taille, en octets, de l’identificateur d’entrée pointé par le paramètre  _lpSelection_ .
 
  _lpSelection_
   
@@ -71,12 +71,12 @@ S_OK
 
 ## <a name="remarks"></a>Remarques
 
-Les applications clientes appellent une fonction de rappel basée sur **le prototype LPFNBUTTON** pour définir un bouton dans une boîte de dialogue de détails. Le client transmet un pointeur vers la fonction de rappel dans les appels à la méthode [IAddrBook::D etails](iaddrbook-details.md) .
+Les applications clientes appellent une fonction de rappel basée sur le prototype **LPFNBUTTON** pour définir un bouton dans une boîte de dialogue de détails. Le client transmet un pointeur à la fonction de rappel dans les appels à la méthode [IAddrBook::D etails](iaddrbook-details.md) .
   
-Les fournisseurs de services appellent une fonction hook basée sur **le prototype LPFNBUTTON** pour définir un bouton dans une boîte de dialogue de détails. Le fournisseur transmet un pointeur vers cette fonction hook dans les appels à la méthode [IMAPISupport::D etails](imapisupport-details.md) .
+Les fournisseurs de services appellent une fonction hook basée sur le prototype **LPFNBUTTON** pour définir un bouton dans une boîte de dialogue détails. Le fournisseur passe un pointeur vers cette fonction hook dans les appels à la méthode [IMAPISupport::D etails](imapisupport-details.md).
   
 Dans les deux cas, lorsque la boîte de dialogue s’affiche et que l’utilisateur choisit le bouton défini, MAPI appelle **LPFNBUTTON**.
   
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 [BuildDisplayTable](builddisplaytable.md)

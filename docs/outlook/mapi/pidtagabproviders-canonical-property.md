@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagAbProviders
+description: Décrit la propriété canonique PidTagAbProviders, qui contient une liste d’identificateurs pour les fournisseurs de carnets d’adresses dans le profil actuel.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 26195406-dcef-4504-bb74-d0705d952897
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7d9b4e75b8ef98b4df5f364c4df9c40e8b5e577f
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 99cf9de6643716dc7d1ef4a8a2eb150052b0088d
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63724474"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816996"
 ---
 # <a name="pidtagabproviders-canonical-property"></a>Propriété canonique PidTagAbProviders
 
@@ -25,7 +25,7 @@ ms.locfileid: "63724474"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d’identificateurs pour les fournisseurs de carnet d’adresses dans le profil actuel. 
+Contient une liste d’identificateurs pour les fournisseurs de carnets d’adresses dans le profil actuel. 
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient une liste d’identificateurs pour les fournisseurs de carnet d’adres
    
 ## <a name="remarks"></a>Remarques
 
-N’utilisez pas cette propriété. Il est réservé à une utilisation par MAPI.
+N’utilisez pas cette propriété. Il est réservé à l’utilisation par MAPI.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ N’utilisez pas cette propriété. Il est réservé à une utilisation par MAPI
 
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 Mapidefs.h
   
@@ -58,5 +58,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

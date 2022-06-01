@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidRecurrencePattern
+description: Décrit la propriété canonique PidLidRecurrencePattern, qui spécifie une description du modèle de périodicité de l’objet calendar.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac21ba98-f16b-4365-9134-bca7748189ee
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 65edaecb2d8bd7f1afd55c111a46ca7e3c379417
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 1c862b284bb20cda67c8b52b49f1f71ebaea554a
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456195"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817437"
 ---
 # <a name="pidlidrecurrencepattern-canonical-property"></a>Propriété canonique PidLidRecurrencePattern
 
@@ -25,7 +25,7 @@ ms.locfileid: "64456195"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie une description de la récurrence de l’objet calendrier.
+Spécifie une description du modèle de périodicité de l’objet calendar.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Spécifie une description de la récurrence de l’objet calendrier.
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété est définie, elle doit être définie sur une description de la périodisation spécifiée par la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)).
+Si cette propriété est définie, elle doit être définie sur une description de la périodicité spécifiée par la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,7 +45,7 @@ Si cette propriété est définie, elle doit être définie sur une description 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

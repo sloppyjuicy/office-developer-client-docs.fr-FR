@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidPropertyDefinitionStream
+description: Décrit la propriété canonique PidLidPropertyDefinitionStream, qui est enregistrée dans le cadre de la définition de formulaire personnalisée pour le message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: ead35049-e60e-4b46-bf12-f73d77cd36b2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 40f7f7171037a62e8f5b4c7dc2be9e34af733c74
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 1a50d12b0d455cce2be92c14b4b1be7c2ce2df00
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63724032"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817661"
 ---
 # <a name="pidlidpropertydefinitionstream-canonical-property"></a>Propriété canonique PidLidPropertyDefinitionStream
 
@@ -25,7 +25,7 @@ ms.locfileid: "63724032"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Représente les définitions des champs définis par l’utilisateur et les paramètres de liaison de données des champs intégrés d’un message.
+Représente les définitions de champs définis par l’utilisateur et les paramètres de liaison de données des champs intégrés d’un message.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -33,13 +33,13 @@ Représente les définitions des champs définis par l’utilisateur et les para
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID long (LID) :  <br/> |0x00008540  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Configuration au moment de l’exécuter  <br/> |
+|Domaine :  <br/> |Configuration au moment de l’exécution  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de la **propriété PidLidPropertyDefinitionStream** est enregistrée dans le cadre de la définition de formulaire personnalisée du message. 
+La valeur de la propriété **PidLidPropertyDefinitionStream** est enregistrée dans le cadre de la définition de formulaire personnalisée pour le message. 
   
-La valeur de cette propriété est un flux binaire. Pour plus d’informations sur la structure de ce flux, voir [PropertyDefinition Stream Structure](propertydefinition-stream-structure.md). 
+La valeur de cette propriété est un flux binaire. Pour plus d’informations sur la structure de ce flux, consultez [PropertyDefinition Stream Structure](propertydefinition-stream-structure.md). 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -47,7 +47,7 @@ La valeur de cette propriété est un flux binaire. Pour plus d’informations s
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -59,11 +59,11 @@ Mapidefs.h
 
 
 
-[Outlook et champs](outlook-items-and-fields.md)
+[Outlook éléments et champs](outlook-items-and-fields.md)
   
-[Ajouter une définition pour un nouveau User-Defined de recherche](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Ajouter une définition pour un nouveau champ User-Defined](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
-[Exemple de flux PropertyDefinition](propertydefinition-stream-sample.md)
+[PropertyDefinition Stream Sample](propertydefinition-stream-sample.md)
   
 [Propriétés MAPI](mapi-properties.md)
   
@@ -71,5 +71,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

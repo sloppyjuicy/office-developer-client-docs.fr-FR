@@ -1,5 +1,6 @@
 ---
 title: MAPIOpenFormMgr
+description: Décrit la fonction MAPIOpenFormMgr et fournit la syntaxe, les paramètres, la valeur de retour, les remarques et la référence MFCMAPI.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5b624954-d975-4d5e-84d7-74e096ac30af
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d85030415ce5bc26282c96b257334935a5be82c0
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 1299a28802845ae24cbb5f7de3c1dd6ab95081be
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63782915"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817472"
 ---
 # <a name="mapiopenformmgr"></a>MAPIOpenFormMgr
 
@@ -44,11 +44,11 @@ MAPIOpenFormMgr(
 
  _pSession_
   
-> [in] Pointeur vers la session en cours d’utilisation par l’application cliente.
+> [in] Pointeur vers la session utilisée par l’application cliente.
     
  _ppmgr_
   
-> [out] Pointeur vers l’interface **IMAPIFormMgr** renvoyée. 
+> [out] Pointeur vers l’interface **IMAPIFormMgr** retournée. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -56,7 +56,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Après qu’une application cliente a appelé la fonction **MAPIOpenFormMgr** , la plupart des interactions ultérieures liées aux formulaires ont lieu via le fournisseur de bibliothèque de formulaires ou une interface renvoyée par le fournisseur de bibliothèque de formulaires. **L’interface IMAPIFormMgr** permet au client d’utiliser des handlers de messages et d’effectuer des résolutions entre les classes de messages et les bibliothèques de formulaires. 
+Une fois qu’une application cliente a appelé la fonction **MAPIOpenFormMgr** , la plupart des interactions suivantes liées aux formulaires ont lieu via le fournisseur de bibliothèque de formulaires ou une interface retournée par le fournisseur de bibliothèque de formulaires. **L’interface IMAPIFormMgr** permet au client d’utiliser des gestionnaires de messages et d’effectuer des résolutions entre les classes de messages et les bibliothèques de formulaires. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -64,7 +64,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg.cpp ouvre le gestionnaire de formulaires afin qu’un formulaire puisse être sélectionné. |CMainDlg::OnSelectForm  <br/> |MFCMAPI utilise la **méthode MAPIOpenFormMgr** pour ouvrir le gestionnaire de formulaire afin qu’un formulaire puisse être sélectionné. |
+|MainDlg.cpp ouvre le gestionnaire de formulaires afin qu’un formulaire puisse être sélectionné. |CMainDlg::OnSelectForm  <br/> |MFCMAPI utilise la méthode **MAPIOpenFormMgr** pour ouvrir le gestionnaire de formulaires afin qu’un formulaire puisse être sélectionné. |
    
 ## <a name="see-also"></a>Voir aussi
 

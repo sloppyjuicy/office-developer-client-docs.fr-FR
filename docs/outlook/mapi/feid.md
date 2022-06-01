@@ -1,5 +1,6 @@
 ---
 title: FEID
+description: Décrit FEID et fournit la syntaxe et les membres.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,13 +8,12 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 2dde7eec-df3d-723c-db08-7ff0b6107a0b
-description: 'Last modified: July 02, 2012'
-ms.openlocfilehash: 0196291f739d66bdab7369d0eccb53f273398792
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3e2a7f79bd1d7035379755d4acf43853787d1fb8
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630914"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817934"
 ---
 # <a name="feid"></a>FEID
 
@@ -39,13 +39,13 @@ struct FEID
 
  _abFlags_
   
-> Identificateur d’entrée de 4 byte pour le dossier. Pour plus d’informations sur les identificateurs d’entrée MAPI, voir **[ENTRYID](entryid.md)**. 
+> Identificateur d’entrée de 4 octets pour le dossier. Pour plus d’informations sur les identificateurs d’entrée MAPI, consultez **[ENTRYID](entryid.md)**. 
     
  _muid_
   
-> GUID qui identifie le fournisseur du magasin. Voir mapidefs.h pour la définition de type **de MAPIUID**. 
+> GUID qui identifie le fournisseur du magasin. Consultez mapidefs.h pour connaître la définition de type **mapIUID**. 
     
- _espace réservé_
+ _Espace réservé_
   
 > Ce membre est réservé à l’utilisation interne de Outlook et n’est pas pris en charge.
     
@@ -65,5 +65,5 @@ struct FEID
   
 [UPFLD](upfld.md)
   
-[SYNC](sync.md)
+[SYNCHRONISATION](sync.md)
 

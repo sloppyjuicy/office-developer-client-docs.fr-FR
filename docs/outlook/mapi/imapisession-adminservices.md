@@ -1,5 +1,6 @@
 ---
 title: IMAPISessionAdminServices
+description: IMAPISessionAdminServices retourne un pointeur IMsgServiceAdmin pour apporter des modifications aux services de messages.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 487fab39-5c2c-4e1a-9f90-4da64f5e198b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4d7fe66f58e84e689b082c90898c60b98453f6af
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 4c5c7b254305ce356cf2eb7b5cc3b66ec36e917d
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62784054"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817710"
 ---
 # <a name="imapisessionadminservices"></a>IMAPISession::AdminServices
 
@@ -25,7 +25,7 @@ ms.locfileid: "62784054"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie un [pointeur IMsgServiceAdmin](imsgserviceadminiunknown.md) pour apporter des modifications aux services de message. 
+Retourne un pointeur [IMsgServiceAdmin](imsgserviceadminiunknown.md) pour apporter des modifications aux services de messages. 
   
 ```cpp
 HRESULT AdminServices(
@@ -48,11 +48,11 @@ HRESULT AdminServices(
 
 S_OK 
   
-> Un pointeur vers un objet d’administration de service de message a été renvoyé avec succès.
+> Un pointeur vers un objet d’administration de service de message a été retourné avec succès.
     
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La **méthode IMAPISession::AdminServices** crée un objet d’administration de service de message, un objet qui prend en charge l’interface **IMsgServiceAdmin** et renvoie un pointeur. À l’aide de ce pointeur, vous pouvez appeler des méthodes **IMsgServiceAdmin** pour modifier les services de message dans le profil de session. N’ignorez pas que ces modifications ne prennent effet qu’après la session suivante . la session en cours n’est pas affectée. 
+La méthode **IMAPISession::AdminServices** crée un objet d’administration de service de message, un objet qui prend en charge l’interface **IMsgServiceAdmin** et retourne un pointeur. À l’aide de ce pointeur, vous pouvez appeler **des méthodes IMsgServiceAdmin** pour modifier l’un des services de message dans le profil de session. Sachez que ces modifications ne prennent effet qu’à la session suivante; la session active n’est pas affectée. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

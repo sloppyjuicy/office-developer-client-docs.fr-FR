@@ -1,5 +1,6 @@
 ---
 title: Macros liées aux structures
+description: Les rubriques de cette section décrivent les macros liées aux structures MAPI et fournissent des liens vers des ressources supplémentaires.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,13 +10,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e58c4954-e6b5-469d-898b-cef0a8fd612c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 47e6254be2d1b9828d119deef18affa74e10df5b
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 9be8a65b90e370c21f426b872ed4a3871ae6e43b
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63634876"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65818151"
 ---
 # <a name="macros-related-to-structures"></a>Macros liées aux structures
 
@@ -52,7 +52,7 @@ Le tableau suivant répertorie les macros liées aux structures MAPI :
 |[SizedSPropProblemArray](sizedspropproblemarray.md) <br/> |[SizedSPropTagArray](sizedsproptagarray.md) <br/> |
 |[SizedSRowSet](sizedsrowset.md) <br/> |[SizedSSortOrderSet](sizedssortorderset.md) <br/> |
    
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 

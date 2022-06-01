@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidReferenceEntryId
+description: Décrit la propriété canonique PidLidReferenceEntryId, qui spécifie l’ENTRYID de référence pour le contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42e7c3ac-1a04-4e3f-bf99-ef3f8fc45892
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 72b95927f4abfbd68f0ac879770d6e47ac00b3b0
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 4369b6a6dcc2c06755232925a62c7c7ce68a5310
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454984"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817654"
 ---
 # <a name="pidlidreferenceentryid-canonical-property"></a>Propriété canonique PidLidReferenceEntryId
 
@@ -25,9 +25,9 @@ ms.locfileid: "64454984"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la référence [ENTRYID](entryid.md) pour le contact. 
+Spécifie [l’ENTRYID](entryid.md) de référence pour le contact. 
   
-|Property|valeur|
+|Propriété|valeur|
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidReferenceEID  <br/> |
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
@@ -37,7 +37,7 @@ Spécifie la référence [ENTRYID](entryid.md) pour le contact.
    
 ## <a name="remarks"></a>Remarques
 
-Si elle est présente, cette propriété doit être égale à la valeur **du EntryId** du contact. 
+Si elle est présente, cette propriété doit être égale à la valeur de **l’EntryId** du contact. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ Si elle est présente, cette propriété doit être égale à la valeur **du Ent
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit une définition de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

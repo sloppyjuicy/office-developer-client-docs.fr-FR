@@ -1,5 +1,6 @@
 ---
 title: IConverterSessionSetTextWrapping
+description: IConverterSessionSetTextWrapping définit la largeur d’habillage du texte pour un flux MIME que le convertisseur retournera dans IConverterSessionMAPIToMIMEStm.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8674b288-43a3-6376-35ca-9dbaa3a1851e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 701b2480b98074a58d5a9484ccc5d60239e697a9
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 0b8e4fffebbf5178b7549496f505188b00a264f6
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788562"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817885"
 ---
 # <a name="iconvertersessionsettextwrapping"></a>IConverterSession::SetTextWrapping
 
@@ -25,7 +25,7 @@ ms.locfileid: "62788562"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit la largeur du retour à la ligne pour un flux MIME que le convertisseur retournera dans [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
+Définit la largeur d’habillage du texte pour un flux MIME que le convertisseur retournera dans [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
 ```cpp
 HRESULT IConverterSession::SetTextWrapping ( 
@@ -38,11 +38,11 @@ HRESULT IConverterSession::SetTextWrapping (
 
  *fWrapText* 
   
-> [in] S’il faut encapsuler le texte ou non.
+> [in] Indique s’il faut encapsuler du texte ou non.
     
  *ulWrapWidth* 
   
-> [in] Largeur du habillage de texte à utiliser.
+> [in] Largeur d’habillage de texte à utiliser.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

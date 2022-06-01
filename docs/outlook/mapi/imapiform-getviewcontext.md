@@ -1,5 +1,6 @@
 ---
 title: IMAPIFormGetViewContext
+description: Décrit la syntaxe, les paramètres, la valeur de retour et les remarques pour IMAPIFormGetViewContext, qui retourne le contexte d’affichage actuel du formulaire.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c6938986-a9f9-4ef4-9655-ded55b7357db
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d961579126b01db147dd2367508a59ecad10fe1c
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: bbaba7ef07b9fc20a4deb5d8941292395751130e
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781428"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816359"
 ---
 # <a name="imapiformgetviewcontext"></a>IMAPIForm::GetViewContext
 
@@ -25,7 +25,7 @@ ms.locfileid: "62781428"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie le contexte d’affichage actuel du formulaire. 
+Retourne le contexte d’affichage actuel du formulaire. 
   
 ```cpp
 HRESULT GetViewContext(
@@ -43,7 +43,7 @@ HRESULT GetViewContext(
 
 S_OK 
   
-> Le contexte d’affichage actuel du formulaire a été renvoyé avec succès. 
+> Le contexte d’affichage actuel du formulaire a été retourné avec succès. 
     
 S_FALSE 
   
@@ -51,11 +51,11 @@ S_FALSE
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires **appellent GetViewContext** pour obtenir un pointeur vers le contexte d’affichage établi dans un appel précédent à [IMAPIForm::SetViewContext](imapiform-setviewcontext.md). Si aucun appel préalable n’a été effectué à **SetViewContext**, **GetViewContext** définit  _ppViewContext_ sur NULL. 
+Les visionneuses de formulaire appellent **GetViewContext** pour obtenir un pointeur vers le contexte d’affichage établi dans un appel précédent à [IMAPIForm::SetViewContext](imapiform-setviewcontext.md). Si aucun appel précédent n’a été passé à **SetViewContext**, **GetViewContext** définit  _ppViewContext_ sur NULL. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Copiez le pointeur de contexte d’affichage de votre formulaire dans le pointeur transmis par la visionneuse de formulaire appelant dans le _paramètre ppViewContext_ . Si le formulaire ne comporte pas de contexte d’affichage, définissez  _ppViewContext_ sur NULL. 
+Copiez le pointeur de contexte d’affichage de votre formulaire dans le pointeur transmis par la visionneuse de formulaires appelant dans le paramètre _ppViewContext_ . Si le formulaire n’a pas de contexte d’affichage,  _définissez ppViewContext_ sur NULL. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -63,7 +63,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI utilise la **méthode IMAPIForm::GetViewContext** pour vérifier si un formulaire possède un contexte d’affichage. |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI utilise la méthode **IMAPIForm::GetViewContext** pour vérifier si un formulaire a un contexte d’affichage. |
    
 ## <a name="see-also"></a>Voir aussi
 

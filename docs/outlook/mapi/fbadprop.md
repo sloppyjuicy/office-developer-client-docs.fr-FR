@@ -1,5 +1,6 @@
 ---
 title: FBadProp
+description: FBadProp valide une propriété spécifiée. Cet article décrit sa syntaxe, ses paramètres, sa valeur de retour et ses remarques.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 929330c8-e6f2-4adf-a36e-fba18fa055d4
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7b48c35963c822c54ccc4f37010101f8540984f8
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 88d6d3e4dfa25a31a9cf38bb4cccaf1c40fa8f56
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63626380"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816674"
 ---
 # <a name="fbadprop"></a>FBadProp
 

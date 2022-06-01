@@ -1,5 +1,6 @@
 ---
 title: HrOpenABEntryWithResolvedRow
+description: HrOpenABEntryWithResolvedRow obtient automatiquement l’emsabpUID à partir de la ligne résolue et ouvre l’entryID.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +8,18 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: ce3a583c-16a9-4268-9476-926d2780eae5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 033fc75ca8785f27a1fbd81405bb215e9c932e3f
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 884cea0f3d073dcd4f815ea1447b6bf5273fe117
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63716360"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65818221"
 ---
 # <a name="hropenabentrywithresolvedrow"></a>HrOpenABEntryWithResolvedRow
 
 **S’applique à** : Outlook 2013 | Outlook 2016
   
-Effectue la même fonction que [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) , sauf qu’il obtient automatiquement **l’emsabpUID** à partir de la ligne résolue et ouvre **l’entryID**.
+Exécute la même fonction que [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) , sauf qu’il obtient automatiquement **l’emsabpUID** à partir de la ligne résolue et ouvre **l’entryID**.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -44,15 +44,15 @@ HRESULT HrOpenABEntryWithResolvedRow(
 
  _prwResolved_
   
-> [in] Pointeur vers la ligne résolue utilisée pour obtenir **emsabpUID** et ouvrir **l’entryID**.
+> [in] Pointeur vers la ligne résolue utilisée pour obtenir **l’emsabpUID** et ouvrir **l’entryID**.
 
  _pAddrBook_
   
-> [in] Carnet d’adresses utilisé pour ouvrir l’identificateur d’entrée. Elle ne peut pas être NULL.
+> [in] Carnet d’adresses utilisé pour ouvrir l’identificateur d’entrée. Il ne peut pas être NULL.
 
  _cbEntryID_
   
-> [in] Nombre d’bytes de l’identificateur d’entrée spécifié par _le paramètre lpEntryID_ .
+> [in] Nombre d’octets de l’identificateur d’entrée spécifié par le paramètre _lpEntryID_ .
 
  _lpEntryID_
   
@@ -60,35 +60,35 @@ HRESULT HrOpenABEntryWithResolvedRow(
 
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) de l’interface utilisée pour accéder à l’entrée ouverte. La transmission NULL renvoie l’interface standard de l’objet. Pour les utilisateurs de messagerie, l’interface standard [est IMailUser : IMAPIProp](imailuserimapiprop.md). Pour les listes de distribution, il s’agit de [IDistList : IMAPIContainerand](idistlistimapicontainer.md) pour les conteneurs, [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md). Les appelants peuvent définir _lpInterface_ sur l’interface standard appropriée ou une interface dans la hiérarchie d’héritage.
+> [in] Pointeur vers l’identificateur d’interface (IID) de l’interface utilisée pour accéder à l’entrée ouverte. Le passage de NULL retourne l’interface standard de l’objet. Pour les utilisateurs de messagerie, l’interface standard est [IMailUser : IMAPIProp](imailuserimapiprop.md). Pour les listes de distribution, il s’agit [d’IDistList : IMAPIContainer](idistlistimapicontainer.md)et pour les conteneurs, il s’agit [d’IABContainer : IMAPIContainer](iabcontainerimapicontainer.md). Les appelants peuvent définir _lpInterface_ sur l’interface standard appropriée ou une interface dans la hiérarchie d’héritage.
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’entrée est ouverte. Les indicateurs suivants peuvent être définies :
+> [in] Masque de bits des indicateurs qui contrôle la façon dont l’entrée est ouverte. Les indicateurs suivants peuvent être définis :
 
 MAPI_BEST_ACCESS
   
-> Demande l’ouverture de l’entrée avec le nombre maximal d’autorisations réseau et client autorisées. Par exemple, si le client dispose d’autorisations de lecture et d’écriture, le fournisseur de carnet d’adresses tente d’ouvrir l’entrée avec des autorisations de lecture et d’écriture. Le client peut récupérer le niveau d’accès accordé en appelant la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) de l’entrée ouverte et en récupérant la propriété PR_ACCESS_LEVEL (PidTagAccessLevel).
+> Demande que l’entrée soit ouverte avec les autorisations maximales autorisées sur le réseau et le client. Par exemple, si le client dispose d’autorisations de lecture et d’écriture, le fournisseur de carnet d’adresses tente d’ouvrir l’entrée avec l’autorisation de lecture et d’écriture. Le client peut récupérer le niveau d’accès qui a été accordé en appelant la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) de l’entrée ouverte et en récupérant la propriété PR_ACCESS_LEVEL (PidTagAccessLevel).
 
 MAPI_CACHE_ONLY
   
-> Utilise uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur Exchange carnet d’adresses.
+> Utilise uniquement le carnet d’adresses hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (GAL) en mode d’échange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur de carnets d’adresses Exchange.
 
 MAPI_DEFERRED_ERRORS
   
-> Permet à l’appel de réussir, potentiellement avant que l’entrée soit entièrement ouverte et disponible, ce qui signifie que les appels ultérieurs à l’entrée peuvent renvoyer une erreur.
+> Permet à l’appel de réussir, potentiellement avant que l’entrée soit entièrement ouverte et disponible, ce qui implique que les appels suivants à l’entrée peuvent retourner une erreur.
 
 MAPI_GAL_ONLY
   
-> Utilise uniquement la LA GAL pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le fournisseur Exchange carnet d’adresses.
+> Utilise uniquement la gal pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le fournisseur de carnets d’adresses Exchange.
 
 MAPI_MODIFY
   
-> Demande l’ouverture de l’entrée avec une autorisation de lecture et d’écriture. Étant donné que les entrées sont ouvertes avec un accès en lecture seule par défaut, les clients ne doivent pas supposer que les autorisations de lecture et d’écriture ont été accordées, qu’MAPI_MODIFY soit définie ou non.
+> Demande que l’entrée soit ouverte avec l’autorisation de lecture et d’écriture. Étant donné que les entrées sont ouvertes avec un accès en lecture seule par défaut, les clients ne doivent pas supposer que l’autorisation de lecture et d’écriture a été accordée, que MAPI_MODIFY soit défini ou non.
 
 MAPI_NO_CACHE
   
-> N’utilise pas le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le fournisseur Exchange carnet d’adresses.
+> N’utilise pas le carnet d’adresses hors connexion pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le fournisseur de carnets d’adresses Exchange.
 
  _lpulObjType_
   

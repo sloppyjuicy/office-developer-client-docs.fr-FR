@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidResendTime
+description: Décrit la propriété canonique PidLidResendTime, qui, si elle est définie sur un rapport non remis, indique l’heure à laquelle le message a été renvoyé.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac58c0b4-9497-40ec-918e-58bd81144fd6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0a7dcb2c3881c02eea04b4fe1bac5ff9adb0a162
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 019f94f81970915cc0f6f0151e35fe067bc98090
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456167"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817633"
 ---
 # <a name="pidlidresendtime-canonical-property"></a>Propriété canonique PidLidResendTime
 
@@ -25,7 +25,7 @@ ms.locfileid: "64456167"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-S’il est définie sur un rapport nondelivery, indique l’heure à l’heure de la nouvelle fois que le message a été envoyé.
+S’il est défini sur un rapport non remis, indique l’heure à laquelle le message a été renvoyé.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -41,7 +41,7 @@ S’il est définie sur un rapport nondelivery, indique l’heure à l’heure d
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -59,5 +59,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

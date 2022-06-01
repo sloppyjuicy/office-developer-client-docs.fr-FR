@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidRemoteSearchKey
+description: Décrit la propriété canonique PidLidRemoteSearchKey, qui indique la clé de recherche d’un élément distant.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 299627fe-8fbc-43e9-95aa-daf5c6e31ffb
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a55881cf39a7de81b9dc6ad66c342af8565cb2bb
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: d4c3837fc96fa849d86ba23516e48e36ec289b96
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456174"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65818081"
 ---
 # <a name="pidlidremotesearchkey-canonical-property"></a>Propriété canonique PidLidRemoteSearchKey
 
@@ -41,7 +41,7 @@ Indique la clé de recherche d’un élément distant.
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -59,5 +59,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagAttachSize
+description: Décrit la propriété canonique PidTagAttachSize, qui contient la somme, en octets, des tailles de toutes les propriétés sur une pièce jointe.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 768b3215-dd9f-4aa0-b52c-178ca81a7b07
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dcfc419aad08fd0511b0ea83b6d9f81afe02f282
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: b3970dc8c70f30809ca1bd02b9805c51ca2dc45a
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455145"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816527"
 ---
 # <a name="pidtagattachsize-canonical-property"></a>Propriété canonique PidTagAttachSize
 
@@ -25,7 +25,7 @@ ms.locfileid: "64455145"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la somme, en octets, de la taille de toutes les propriétés d’une pièce jointe. 
+Contient la somme, en octets, des tailles de toutes les propriétés d’une pièce jointe. 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contient la somme, en octets, de la taille de toutes les propriétés d’une pi
    
 ## <a name="remarks"></a>Remarques
 
-Il est recommandé que les sous-objets de pièce jointe exposent **PR_ATTACH_SIZE** propriété. La somme contenue dans **PR_ATTACH_SIZE** inclut la taille de la propriété **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) ou **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). Par conséquent, **PR_ATTACH_SIZE** est généralement plus grand que le contenu de la pièce jointe uniquement. 
+Il est recommandé que les sous-objets de pièce jointe exposent la propriété **PR_ATTACH_SIZE** . La somme contenue dans **PR_ATTACH_SIZE** inclut la taille de la propriété **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) ou **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). Par conséquent, **PR_ATTACH_SIZE** est généralement plus grand que le contenu de la pièce jointe seule. 
   
-Cette propriété permet de vérifier la taille approximative de la pièce jointe avant d’effectuer un transfert à distance par modem et d’afficher des indicateurs de progression lors de l’enregistrement de la pièce jointe sur le disque. Il est particulièrement utile avec les objets OLE attachés. 
+Cette propriété peut être utilisée pour vérifier la taille approximative de la pièce jointe avant d’effectuer un transfert à distance par modem et pour afficher les indicateurs de progression lors de l’enregistrement de la pièce jointe sur le disque. Il est particulièrement utile avec les objets OLE attachés. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -56,7 +56,7 @@ Mapidefs.h
     
 mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -71,5 +71,5 @@ mapitags.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

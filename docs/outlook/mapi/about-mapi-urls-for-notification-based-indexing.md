@@ -1,23 +1,23 @@
 ---
-title: À propos des URL MAPI pour lNotification-Based indexation
+title: À propos des URL MAPI pour l’indexation Notification-Based
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
-description: 'Last modified: November 08, 2011'
-ms.openlocfilehash: f51ddada87a68a13322641b21acda317a8ce5442
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cet article fournit une description détaillée des URL MAPI pour l’indexation basée sur les notifications.
+ms.openlocfilehash: d6ce6145f82a54952d9217cd7fe330f99c817d8d
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588286"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817577"
 ---
-# <a name="about-mapi-urls-for-notification-based-indexing"></a>À propos des URL MAPI pour lNotification-Based indexation
+# <a name="about-mapi-urls-for-notification-based-indexing"></a>À propos des URL MAPI pour l’indexation Notification-Based
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsqu’un fournisseur de magasin avertit un indexeur qu’un objet est prêt pour l’indexation, il génère une URL MAPI qui identifie de manière unique l’objet dans le handler de protocole MAPI. Les URL MAPI sont codées en Unicode et ont le format suivant : 
+Lorsqu’un fournisseur de magasin avertit un indexeur qu’un objet est prêt pour l’indexation, il génère une URL MAPI qui identifie de façon unique l’objet au gestionnaire de protocole MAPI. Les URL MAPI sont encodées dans Unicode et ont le format suivant : 
   
 `Mapi://SID/StoreDisplayName ($HashNumber)/StoreType/FolderNameA/…/FolderNameN/[EntryIDEncoded[/at=AttachIDEncoded:FileName]]`
 
@@ -26,13 +26,13 @@ Le tableau suivant décrit les différentes parties d’une URL classique.
 |Élément | Description|
 |:----|:-----------|  
 |*SID* |Identificateur de sécurité de l’utilisateur actuel.| 
-|*StoreDisplayName* |Chaîne qui spécifie le nom complet de l’utilisateur sur ce magasin.|
-|*HashNumber* |Valeur **DWORD dans** une représentation hexadécimale calculée en fonction de l’ID d’entrée de la boutique ou de la signature de mappage de la boutique. Cette valeur est stockée dans le Registre et sera utilisée ultérieurement pour identifier le magasin dans le handler de protocole MAPI.<br/><br/>Ce nombre doit être calculé de manière à minimiser les collisions avec d’autres magasins. Pour l’algorithme que Microsoft Outlook utilise pour calculer le numéro de hachage, voir [Algorithm to Calculate the Store Hash Number](algorithm-to-calculate-the-store-hash-number.md).|
-|*StoreType* |Nombre qui identifie le type de la boutique qui contient l’objet à indexer. Les valeurs possibles sont les suivantes :<br/>- 0 - Magasin par défaut.<br/><br/>- 1 - Magasin de délégués, utilisé pour les éléments délégués mis en cache localement.<br/><br/>- 2 - Dossiers publics, utilisés pour les favoris des dossiers publics.<br/><br/>**REMARQUE**: si la boutique est en cours d’analyse au lieu d’être poussée, la valeur utilisée est le caractère *X*.| 
-|*FolderNameA/.../FolderNameN* |Chemin d’accès de la racine du IPM_SUBTREE au dossier ou au message. Par exemple, un message dans  le dossier **Famille** sous Boîte de réception a Boîte **de réception/Famille** pour ce paramètre. |
-|*EntryIDEncoded* |ID d’entrée MAPI pour l’élément codé en tant que chaîne Unicode. Consultez la section suivante « Caractères spéciaux » pour plus d’informations sur la façon dont certains caractères spéciaux sont codés. Pour plus d’informations sur l’algorithme permettant de coder l’ID d’entrée, voir [Algorithm to Encode Entry IDs and Attachment IDs](algorithm-to-encode-entry-ids-and-attachment-ids.md).<br/><br/>**REMARQUE**: lorsqu’il est considéré comme du texte, cet ID d’entrée codée apparaît sous forme de caractères ou de zones hangul aléatoires conformes à l’algorithme, en fonction des polices disponibles.  |
-|*AttachIDEncoded* |ID de pièce jointe codé en tant que chaîne Unicode. Consultez la section suivante « Caractères spéciaux » pour plus d’informations sur la façon dont certains caractères spéciaux sont codés. Pour plus d’informations sur l’algorithme permettant de coder l’ID d’entrée, voir [Algorithm to Encode Entry IDs and Attachment IDs](algorithm-to-encode-entry-ids-and-attachment-ids.md).<br/><br/>**REMARQUE**: lorsqu’il est considéré comme du texte, cet ID d’entrée codée apparaît sous forme de caractères ou de zones hangul aléatoires conformes à l’algorithme, en fonction des polices disponibles. |
-|*FileName* |Nom du fichier joint tel qu’il apparaît dans le message.|
+|*StoreDisplayName* |Chaîne qui spécifie le nom d’affichage de l’utilisateur sur ce magasin.|
+|*HashNumber* |**DWORD** dans une représentation hexadécimale calculée en fonction de l’ID d’entrée de magasin ou de la signature de mappage de magasin. Cette valeur est stockée dans le Registre et sera utilisée ultérieurement pour identifier le magasin dans le gestionnaire de protocole MAPI.<br/><br/>Ce nombre doit être calculé de manière à réduire les collisions avec d’autres magasins. Pour l’algorithme que Microsoft Outlook utilise pour calculer le numéro de hachage, consultez [l’algorithme pour calculer le numéro de hachage du Magasin](algorithm-to-calculate-the-store-hash-number.md).|
+|*StoreType* |Nombre qui identifie le type du magasin qui contient l’objet à indexer. Les valeurs possibles sont les suivantes :<br/>- 0 - Magasin par défaut.<br/><br/>- 1 - Magasin délégué, utilisé pour les éléments délégués mis en cache localement.<br/><br/>- 2 - Dossiers publics, utilisés pour les favoris des dossiers publics.<br/><br/>**REMARQUE** : si le magasin est analysé au lieu d’être poussé, la valeur utilisée est le caractère *X*.| 
+|*FolderNameA/.../FolderNameN* |Chemin d’accès de la racine de l’IPM_SUBTREE au dossier ou au message. Par exemple, un message dans le dossier **Famille** sous **Boîte de réception** contient **la boîte de réception/la famille** pour ce paramètre. |
+|*EntryIDEncoded* |ID d’entrée MAPI pour l’élément encodé sous forme de chaîne Unicode. Consultez la section suivante « Caractères spéciaux » pour plus d’informations sur la façon dont certains caractères spéciaux sont encodés. Pour plus d’informations sur l’algorithme permettant d’encoder l’ID d’entrée, consultez [Algorithme pour encoder les ID d’entrée et les ID de pièce jointe](algorithm-to-encode-entry-ids-and-attachment-ids.md).<br/><br/>**REMARQUE** : Lorsqu’il est affiché sous forme de texte, cet ID d’entrée encodé apparaît sous forme de caractères hangûl aléatoires ou de zones conformes à l’algorithme, en fonction des polices disponibles.  |
+|*AttachIDEncoded* |ID de pièce jointe encodé sous la forme d’une chaîne Unicode. Consultez la section suivante « Caractères spéciaux » pour plus d’informations sur la façon dont certains caractères spéciaux sont encodés. Pour plus d’informations sur l’algorithme permettant d’encoder l’ID d’entrée, consultez [Algorithme pour encoder les ID d’entrée et les ID de pièce jointe](algorithm-to-encode-entry-ids-and-attachment-ids.md).<br/><br/>**REMARQUE** : Lorsqu’il est affiché sous forme de texte, cet ID d’entrée encodé apparaît sous forme de caractères hangûl aléatoires ou de zones conformes à l’algorithme, en fonction des polices disponibles. |
+|*FileName* |Nom du fichier pièce jointe, tel qu’il apparaît dans le message.|
     
 ## <a name="examples-of-mapi-urls"></a>Exemples d’URL MAPI
 
@@ -52,7 +52,7 @@ Voici quelques exemples d’URL MAPI.
     
 ## <a name="special-characters"></a>Caractères spéciaux
 
-Certains caractères sont codés s’ils apparaissent dans le message ou la pièce jointe. L’exemple suivant montre les caractères codés dans une URL MAPI :
+Certains caractères sont encodés s’ils apparaissent dans le message ou la pièce jointe. Les éléments suivants indiquent quels caractères sont encodés dans une URL MAPI :
   
 - % > %25
     
@@ -64,9 +64,9 @@ Certains caractères sont codés s’ils apparaissent dans le message ou la piè
     
 - ? > %3F 
     
-## <a name="blob-associated-with-each-mapi-url"></a>Blob associé à chaque URL MAPI
+## <a name="blob-associated-with-each-mapi-url"></a>Objet blob associé à chaque URL MAPI
 
-Lors de la poussée d’une URL MAPI pour un objet à indexer, un fournisseur de magasins crée également un objet BLOB (Binary Large Object) qui contient certaines informations pour le handleur de protocole MAPI. Le fournisseur de magasin associe ce BLOB à chaque URL MAPI et l’envoie lors de l’envoi de l’URL MAPI à l’indexeur. Le format du BLOB est le suivant : 
+Lors de l’envoi (push) d’une URL MAPI pour un objet à indexer, un fournisseur de magasin crée également un objet blob (binary large object) qui contient certaines informations pour le gestionnaire de protocole MAPI. Le fournisseur de magasin associe cet OBJET BLOB à chaque URL MAPI et l’envoie lors de l’envoi de l’URL MAPI à l’indexeur. Le format de l’OBJET BLOB est le suivant : 
   
 ```cpp
 DWORD  dwVersion
@@ -77,19 +77,19 @@ ULONG  cbProviderItemID
 WCHAR  wszProviderItemID
 ```
 
-Le fournisseur de magasin doit écrire ces valeurs dans le BLOB dans l’ordre indiqué. Le tableau suivant décrit chaque champ de l’objet BLOB.
+Le fournisseur du magasin doit écrire ces valeurs dans l’objet BLOB dans l’ordre indiqué. Le tableau suivant décrit chaque champ de l’OBJET BLOB.
 
 |Élément | Description|
 |:----|:-----------|  
 |*dwVersion* |Il s’agit de la version des données envoyées. Actuellement, cette valeur est 1.|
 |*dwFlags* |Réservé à une utilisation future. Actuellement, cette valeur doit être 0.|
-|*cbProfileName* |Taille du nom du profil, en octets. Ces informations sont utiles pour que le responsable du protocole MAPI sache quel profil utiliser lors de l’indexation de l’élément.|
-|*wszProfileName* |Chaîne Unicode terminée par null qui contient le nom du profil.|
-|*cbProviderItemID* |Taille de l’ID de l’élément fournisseur, en octets. Le fournisseur de magasins doit envoyer uniquement l’ID d’élément de fournisseur pour les dossiers, afin d’empêcher l’ouverture de dossiers supplémentaires pour obtenir ces informations.|
-|*wszProviderItemID* |Chaîne Unicode terminée par null avec l’ID d’élément fournisseur qui identifie de manière unique l’élément dans la banque.|
+|*cbProfileName* |Taille du nom du profil, en octets. Ces informations sont utiles pour que le gestionnaire de protocole MAPI sache quel profil utiliser lors de l’indexation de l’élément.|
+|*wszProfileName* |Chaîne Unicode terminée par une valeur Null qui contient le nom du profil.|
+|*cbProviderItemID* |Taille de l’ID d’élément du fournisseur, en octets. Le fournisseur du magasin doit envoyer uniquement l’ID d’élément du fournisseur pour les dossiers, afin d’empêcher l’ouverture de dossiers supplémentaires pour obtenir ces informations.|
+|*wszProviderItemID* |Chaîne Unicode terminée par une valeur Null avec l’ID d’élément de fournisseur qui identifie de façon unique l’élément dans le magasin.|
     
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos Notification-Based'indexation du Store](about-notification-based-store-indexing.md)
+- [À propos de Notification-Based l’indexation du Store](about-notification-based-store-indexing.md)
 - [Constantes MAPI](mapi-constants.md)
 

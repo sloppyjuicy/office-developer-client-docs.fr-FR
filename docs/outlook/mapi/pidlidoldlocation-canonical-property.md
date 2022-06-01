@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidOldLocation
+description: Décrit la propriété canonique PidLidOldLocation, qui indique la valeur d’origine de la propriété dispidLocation avant une mise à jour de réunion.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5d31791b-c30d-4a97-b2d3-18cbe0e98792
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 09edf5615e12e001c0319125b8b13d0b3902c441
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 529b1d2e603be997882a7b86154be46e546146fc
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63631119"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816807"
 ---
 # <a name="pidlidoldlocation-canonical-property"></a>Propriété canonique PidLidOldLocation
 
@@ -25,7 +25,7 @@ ms.locfileid: "63631119"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la valeur d’origine de la **propriété dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) avant une mise à jour de réunion.
+Indique la valeur d’origine de la propriété **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) avant une mise à jour de réunion.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -45,7 +45,7 @@ Cette propriété n’est pas obligatoire.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

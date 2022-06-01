@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidRemoteMessageClass
+description: Décrit la propriété canonique PidLidRemoteMessageClass, qui indique la classe de message d’un élément distant.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: bdc3d9a1-c29c-4fbe-893e-0bc7aaa25edc
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f7a12c292064ac6fe44f9ccac1cf6c40e09369bd
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 12620f4d850e01f03cfd55fc009558f2f9e1eb0b
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63721568"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816793"
 ---
 # <a name="pidlidremotemessageclass-canonical-property"></a>Propriété canonique PidLidRemoteMessageClass
 
@@ -41,7 +41,7 @@ Indique la classe de message d’un élément distant.
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -59,5 +59,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

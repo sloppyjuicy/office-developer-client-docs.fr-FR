@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidSmartNoAttach
+description: Décrit la propriété canonique PidLidSmartNoAttach, qui indique si les pièces jointes d’un message sont considérées comme masquées.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 60299c1b-1b46-4c3a-8fb9-a2b4d3383aac
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7e6a736229a4e8b19886c41a68f89a8cc4ad1acf
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 41b349ec222b17a5591bfababf6556179dd88764
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63724532"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817416"
 ---
 # <a name="pidlidsmartnoattach-canonical-property"></a>Propriété canonique PidLidSmartNoAttach
 
@@ -25,7 +25,7 @@ ms.locfileid: "63724532"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Représente si les pièces jointes d’un message sont considérées comme masquées.
+Indique si les pièces jointes d’un message sont considérées comme masquées.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -33,13 +33,13 @@ Représente si les pièces jointes d’un message sont considérées comme masqu
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID long (LID) :  <br/> |0x00008514  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Configuration au moment de l’exécuter  <br/> |
+|Domaine :  <br/> |Configuration au moment de l’exécution  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété a la valeur TRUE si les pièces jointes du message sont considérées comme masquées.
+Cette propriété est TRUE si les pièces jointes du message sont considérées comme masquées.
   
-Il indique si l’objet message ne possède pas de pièces jointes visibles par l’utilisateur final. Cette propriété peut être non jeu ; si c’est le cas, une valeur par défaut de FALSE est supposée.
+Il indique si l’objet message n’a pas de pièces jointes visibles par l’utilisateur final. Cette propriété peut ne pas êtreset; Si c’est le cas, la valeur par défaut FALSE est supposée.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -47,7 +47,7 @@ Il indique si l’objet message ne possède pas de pièces jointes visibles par 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit une définition de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -69,5 +69,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

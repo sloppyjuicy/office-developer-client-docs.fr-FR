@@ -1,5 +1,6 @@
 ---
 title: FEqualNames
+description: Décrit FEqualNames et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4dd58b0b-dc39-4782-a9ec-05e353c90927
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4bb6295ce75c0036aaa8d13cdd8c66acf8cd4c35
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: ad3fdeec1e881471d7484813a2721041e7421ef9
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63629516"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817528"
 ---
 # <a name="fequalnames"></a>FEqualNames
 
@@ -58,12 +58,12 @@ TRUE
     
 FALSE 
   
-> Les deux noms de propriété ne sont pas égaux.
+> Les deux noms de propriétés ne sont pas égaux.
     
 ## <a name="remarks"></a>Remarques
 
-La **fonction FEqualNames est** utile, car la structure **MAPINAMEID** contient un [GUID](guid.md) et peut représenter le nom de la propriété elle-même de plusieurs manières. Cela signifie que les deux structures ne peuvent pas être comparées par des méthodes binaires simples. 
+La fonction **FEqualNames** est utile, car la structure **MAPINAMEID** contient un [GUID](guid.md) et peut représenter le nom de la propriété elle-même de plusieurs façons. Cela signifie que les deux structures ne peuvent pas être comparées par des méthodes binaires simples. 
   
-Le processus de test est sensible à la cas pour les chaînes de nom de propriété. 
+Le processus de test respecte la casse pour les chaînes de nom de propriété. 
   
 

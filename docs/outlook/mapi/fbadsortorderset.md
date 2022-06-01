@@ -1,5 +1,6 @@
 ---
 title: FBadSortOrderSet
+description: Décrit FBadSortOrderSet et fournit la syntaxe, les paramètres et la valeur de retour.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: b7f80e0a-8ddd-4b24-ab63-2078a8152058
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6434c17a88e76736378b3108b5eecd61b9cba027
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: cdc522d9b00f141cc4b07b064186739296bbfa6c
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63626394"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816667"
 ---
 # <a name="fbadsortorderset"></a>FBadSortOrderSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "63626394"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Valide un ordre de tri en vérifiant son allocation de mémoire. 
+Valide un ensemble d’ordres de tri en vérifiant son allocation de mémoire. 
   
 |Clé|Valeur |
 |:-----|:-----|
@@ -43,20 +43,20 @@ ULONG FBadSortOrderSet(
 
  _lpsos_
   
-> [in] Pointeur vers une structure [SSortOrderSet](ssortorderset.md) identifiant l’ordre de tri à valider. 
+> [in] Pointeur vers une structure [SSortOrderSet](ssortorderset.md) identifiant le jeu d’ordres de tri à valider. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> Le jeu d’ordre de tri spécifié n’est pas valide. 
+> Le jeu d’ordres de tri spécifié n’est pas valide. 
     
 FALSE 
   
-> Le jeu d’ordre de tri spécifié est valide.
+> Le jeu d’ordres de tri spécifié est valide.
     
 ## <a name="remarks"></a>Remarques
 
-La **fonction FBadSortOrderSet** peut être utilisée pour préparer un appel à une méthode de tri telle que la méthode [IMAPITable::SortTable](imapitable-sorttable.md) . 
+La fonction **FBadSortOrderSet** peut être utilisée pour préparer un appel à une méthode de tri telle que la méthode [IMAPITable::SortTable](imapitable-sorttable.md) . 
   
 

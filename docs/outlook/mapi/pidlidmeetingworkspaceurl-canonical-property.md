@@ -1,5 +1,6 @@
 ---
-title: Propri t canonique PidLidMeetingWorkspaceUrl
+title: Propriété canonique PidLidMeetingWorkspaceUrl
+description: Décrit la propriété canonique PidLidMeetingWorkspaceUrl, qui spécifie l’URL de l’espace de travail de réunion associé à un objet calendrier.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,15 +12,14 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30d7b5e5-be59-4c04-b4dc-4fb59abac2b6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fc2a59b87ccca7b04bfc98bd939b98e9d5fab6ac
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 3d16565fd7bc80d3d5000cebdea56ff1c8fed199
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781620"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816583"
 ---
-# <a name="pidlidmeetingworkspaceurl-canonical-property"></a>Propri t canonique PidLidMeetingWorkspaceUrl
+# <a name="pidlidmeetingworkspaceurl-canonical-property"></a>Propriété canonique PidLidMeetingWorkspaceUrl
 
   
   
@@ -45,7 +45,7 @@ Cette propriété n’est pas obligatoire.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

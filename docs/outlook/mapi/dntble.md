@@ -1,5 +1,6 @@
 ---
 title: DNTBLE
+description: DNTBLE fournit des informations pour télécharger le contenu d’un dossier à partir du serveur pendant l’état de la table de téléchargement.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,13 +8,12 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 10fb1650-6c3e-f467-91cd-48e5ddd82827
-description: 'Dernière modification : 05 juillet 2012'
-ms.openlocfilehash: edf83bd47785f273679a79cce8156dfabda39809
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e5b870afc11e70002b103ce7b4858ae2cd8e6094
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588125"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817318"
 ---
 # <a name="dntble"></a>DNTBLE
 

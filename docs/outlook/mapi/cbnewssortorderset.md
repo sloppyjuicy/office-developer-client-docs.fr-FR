@@ -1,5 +1,6 @@
 ---
 title: CbNewSSortOrderSet
+description: CbNewSSortOrderSet calcule le nombre d’octets pour une nouvelle structure SizedSSortOrderSet qui contient un nombre spécifié d’ordres de tri.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: a2fb67e0-ccdb-4eb0-9f8c-75213442159f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d5a289fb7a2868aa90c52ad443100f08386e8f83
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 148aefe33a797f8a8e9b7b83a5fb61f1055f2a8d
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63723887"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816513"
 ---
 # <a name="cbnewssortorderset"></a>CbNewSSortOrderSet
 
@@ -25,12 +25,12 @@ ms.locfileid: "63723887"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets à allouer pour une nouvelle structure [SizedSSortOrderSet](sizedssortorderset.md) qui contient un nombre spécifié d’ordres de tri représentés par les structures [SSortOrder](ssortorder.md) . 
+Calcule le nombre d’octets à allouer pour une nouvelle structure [SizedSSortOrderSet](sizedssortorderset.md) qui contient un nombre spécifié d’ordres de tri représentés par [les structures SSortOrder](ssortorder.md) . 
   
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**SSortOrderSet** <br/> |
+|Structure associée :  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
 CbNewSSortOrderSet (_csort)

@@ -1,5 +1,6 @@
 ---
 title: FBadColumnSet
+description: FBadColumnSet teste la validité d’un jeu de colonnes de table à utiliser par un fournisseur de services dans un appel ultérieur à la méthode IMAPITableSetColumns.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 15be5a8c-4299-4434-b521-c901215b9dda
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 021d50956f985f125455bbcc7c8364b450e0b65c
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 66b2f726a105ad146767c894e92d31fca50f0d9e
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63720644"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817535"
 ---
 # <a name="fbadcolumnset"></a>FBadColumnSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "63720644"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Teste la validité d’un ensemble de colonnes de tableau à utiliser par un fournisseur de services dans un appel ultérieur à la méthode [IMAPITable::SetColumns](imapitable-setcolumns.md) . 
+Teste la validité d’un jeu de colonnes de table à utiliser par un fournisseur de services dans un appel ultérieur à la méthode [IMAPITable::SetColumns](imapitable-setcolumns.md) . 
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -43,20 +43,20 @@ ULONG FBadColumnSet(
 
  _lpptaCols_
   
-> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété définissant les colonnes de tableau à valider. 
+> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété définissant les colonnes de table à valider. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> Le jeu de colonnes spécifié n’est pas valide. 
+> L’ensemble de colonnes spécifié n’est pas valide. 
     
 FALSE 
   
-> Le jeu de colonnes spécifié est valide.
+> L’ensemble de colonnes spécifié est valide.
     
 ## <a name="remarks"></a>Remarques
 
-La **fonction FBadColumnSet** traite les colonnes de type PT_ERROR comme non valides et les colonnes de type PT_NULL comme valides. 
+La fonction **FBadColumnSet** traite les colonnes de type PT_ERROR comme non valides et les colonnes de type PT_NULL comme valides. 
   
 

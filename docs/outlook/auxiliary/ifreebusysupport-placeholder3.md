@@ -6,13 +6,13 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 5b050392-46b5-4f3a-dc67-714c32e6f8fd
-description: Ce membre est un espace réservé et n’est pas pris en charge.
-ms.openlocfilehash: 572a0c10ec515b3c7886979a16e2338abab1c87b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Décrit IFreeBusySupportPlaceholder3 et fournit la syntaxe, la valeur de retour et des remarques supplémentaires. Ce membre est un espace réservé et n’est pas pris en charge.
+ms.openlocfilehash: 1bb175d9a2c3c872e983954b190d6464a7c39e9d
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564525"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817136"
 ---
 # <a name="ifreebusysupportplaceholder3"></a>IFreeBusySupport::Placeholder3
 
@@ -32,6 +32,6 @@ Toujours S_OK, car ce membre est un espace réservé et n’est pas pris en char
   
 ## <a name="remarks"></a>Remarques
 
-Ce membre doit renvoyer S_OK.
+Ce membre doit retourner S_OK.
   
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidSendMeetingAsIcal
+description: Décrit la propriété canonique PidLidSendMeetingAsIcal, qui spécifie si une demande de réunion doit être envoyée en tant que message iCal.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: d643bf62-62e5-41c7-ab88-5c4c358e5460
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c18980d499528fdebe8311e465209386a9cb0b28
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 1e0ebc558b6a6e875f10a736a9ee77f34f20687c
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725777"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816779"
 ---
 # <a name="pidlidsendmeetingasical-canonical-property"></a>Propriété canonique PidLidSendMeetingAsIcal
 
@@ -45,7 +45,7 @@ Spécifie si une demande de réunion doit être envoyée en tant que message iCa
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Convertit les objets RFC2445, RFC2446 et RFC2447 de l’IETF, ainsi que les objets de rendez-vous et de réunion.
+> Convertit entre les objets IETF RFC2445, RFC2446 et RFC2447, ainsi que les objets de rendez-vous et de réunion.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

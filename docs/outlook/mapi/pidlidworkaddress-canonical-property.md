@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidLidWorkAddress
+title: PidLidWorkAddress, propriété canonique
+description: Décrit la propriété canonique PidLidWorkAddress, qui spécifie l’adresse de travail complète du contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,15 +12,14 @@ api_name:
 api_type:
 - COM
 ms.assetid: fc3c0ab3-6920-4e82-bc69-6c083159628f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4c742bc863fbb3bc5446da42f664582ee8af2211
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: a9a1fc8afa0ed7dafb61680648e8edee1b500436
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455845"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817374"
 ---
-# <a name="pidlidworkaddress-canonical-property"></a>Propriété canonique PidLidWorkAddress
+# <a name="pidlidworkaddress-canonical-property"></a>PidLidWorkAddress, propriété canonique
 
   
   
@@ -45,11 +45,11 @@ Cette propriété doit être une combinaison d’autres propriétés d’adresse
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit une définition de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

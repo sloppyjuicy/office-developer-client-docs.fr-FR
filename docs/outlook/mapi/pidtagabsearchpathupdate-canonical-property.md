@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidTagAbSearchPathUpdate
+description: Décrit la propriété canonique PidTagAbSearchPathUpdate, qui contient une liste d’identificateurs d’entrée pour les conteneurs de carnet d’adresses configurés par l’utilisateur.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5ea20b49-8b57-4ad0-a70d-6547a01c8344
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 15a54be47802e87cb6bea122f75cece1973c65e7
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 38e63facd8e03dadc0b7a12b5a55b4868a02838f
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454942"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65818018"
 ---
 # <a name="pidtagabsearchpathupdate-canonical-property"></a>Propriété canonique PidTagAbSearchPathUpdate
 
@@ -25,7 +25,7 @@ ms.locfileid: "64454942"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d’identificateurs d’entrée pour les conteneurs de carnet d’adresses configurés explicitement par l’utilisateur. 
+Contient une liste d’identificateurs d’entrée pour les conteneurs de carnets d’adresses configurés explicitement par l’utilisateur. 
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient une liste d’identificateurs d’entrée pour les conteneurs de carnet
    
 ## <a name="remarks"></a>Remarques
 
-N’utilisez pas cette propriété. Il est réservé à une utilisation par MAPI.
+N’utilisez pas cette propriété. Il est réservé à l’utilisation par MAPI.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ N’utilisez pas cette propriété. Il est réservé à une utilisation par MAPI
 
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient des définitions de propriétés répertoriées en tant que propriétés associées.
     
 Mapidefs.h
   
@@ -58,5 +58,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

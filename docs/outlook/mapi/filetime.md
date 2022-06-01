@@ -1,5 +1,6 @@
 ---
 title: FILETIME
+description: Décrit FILETIME et fournit une syntaxe, des membres et des remarques supplémentaires.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4af8e79a-697e-44a1-8576-fdc57726e9ef
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7dfec802ae869371a99c2f2354231c8d05211bb5
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 432f96666db939e4f215e56c85fb6633fa10749e
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63631763"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816660"
 ---
 # <a name="filetime"></a>FILETIME
 
@@ -44,19 +44,19 @@ typedef struct _FILETIME
 
  **dwLowDateTime**
   
-> 32 bits de bas ordre de la valeur de temps du fichier. 
+> Ordre faible de 32 bits de la valeur d’heure du fichier. 
     
  **dwHighDateTime**
   
-> Ordre élevé de 32 bits de la valeur de temps du fichier.
+> Ordre élevé de 32 bits de la valeur d’heure du fichier.
     
 ## <a name="remarks"></a>Remarques
 
-Une propriété de type PT_SYSTIME a une structure **FILETIME** pour sa valeur. Une telle propriété possède un type **de données FILETIME** pour le membre **Value** dans sa définition dans une structure [SPropValue](spropvalue.md) . 
+Une propriété de type PT_SYSTIME a une structure **FILETIME** pour sa valeur. Cette propriété a un type de données **FILETIME** pour le membre **Value** dans sa définition dans une structure [SPropValue](spropvalue.md) . 
   
-La définition de la structure **FILETIME** se trouve dans la référence du programmeur _Win32_ et dans le fichier d’en-tête MAPI Mapidefs.h. MAPI définit la structure de manière conditionnelle pour s’assurer qu’elle est définie lorsque la définition Win32 n’est pas disponible. 
+La définition de la structure **FILETIME** se trouve dans la _référence du programmeur Win32_ et dans le fichier d’en-tête MAPI Mapidefs.h. MAPI définit la structure de manière conditionnelle pour s’assurer qu’elle est définie lorsque la définition Win32 n’est pas disponible. 
   
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidToDoSubOrdinal
+description: Décrit la propriété canonique PidLidToDoSubOrdinal, qui joue le rôle de disjoncteur lorsque la propriété dispidToDoOrdinalDate trie les objets et le résultat dans une égalité.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: e3bc15ef-155e-49fd-88e5-64713df9b939
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6cd166695fea74b90de1040d823ca2786d428ba8
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: e106d0da5f3c7d415a0ee3964db8dec7a07208c2
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64455425"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817381"
 ---
 # <a name="pidlidtodosubordinal-canonical-property"></a>Propriété canonique PidLidToDoSubOrdinal
 
@@ -25,7 +25,7 @@ ms.locfileid: "64455425"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Agit comme un breakeur d’égalité lorsque la propriété **dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) trie les objets et le résultat dans une égalité.
+Agit en tant que **dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) lorsque la propriété trie les objets et génère un lien.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Agit comme un breakeur d’égalité lorsque la propriété **dispidToDoOrdinalD
    
 ## <a name="remarks"></a>Remarques
 
-Si elle est utilisée, cette propriété doit être triée de manière lexique. Les caractères composants de la chaîne doivent uniquement se composer des chiffres de zéro à neuf. Cette propriété doit être initialement définie sur « 5555555 ». La longueur de cette propriété ne doit pas dépasser 254 caractères (à l’exception du caractère NULL de fin).
+Si elle est utilisée, cette propriété doit être triée lexicographiquement. Les caractères de composant de la chaîne doivent être constitués uniquement des chiffres de zéro à neuf. Cette propriété doit être initialement définie sur « 5555555 ». La longueur de cette propriété ne doit pas dépasser 254 caractères (à l’exception du caractère NULL de fin).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,7 +45,7 @@ Si elle est utilisée, cette propriété doit être triée de manière lexique. 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
@@ -70,5 +70,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

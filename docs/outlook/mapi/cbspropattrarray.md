@@ -1,5 +1,6 @@
 ---
 title: CbSPropAttrArray
+description: CbSPropAttrArray calcule le nombre d’octets dans une structure SPropAttrArray existante. Cet article décrit sa syntaxe et ses paramètres.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5c64258f-6828-43d7-be69-b294b0773717
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9a0b787148a1d1050731e206dde3720f4adb6c82
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 806c8d6ba3b2fbcc226e41b21070d344951fb453
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63723880"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65816499"
 ---
 # <a name="cbspropattrarray"></a>CbSPropAttrArray
 
@@ -30,7 +30,7 @@ Calcule le nombre d’octets dans une structure [SPropAttrArray](spropattrarray.
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Imessage.h  <br/> |
-|Structure connexe :  <br/> |**SPropAttrArray** <br/> |
+|Structure associée :  <br/> |**SPropAttrArray** <br/> |
    
 ```cpp
 CbSPropAttrArray (_lparray)

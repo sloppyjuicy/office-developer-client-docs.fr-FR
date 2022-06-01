@@ -1,5 +1,6 @@
 ---
 title: CbNewSPropProblemArray
+description: CbNewSPropProblemArray calcule le nombre d’octets pour une nouvelle structure SPropProblemArray qui contient un nombre spécifié de structures SPropProblem.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: ce018fb0-4e23-4451-a31a-52bd0977a061
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 902d814218e86568d5db8bff8e78b42e09eb9cd4
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 2c9b82ec5c835b061f605d122dd7d9d78afebb1d
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63720996"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817976"
 ---
 # <a name="cbnewspropproblemarray"></a>CbNewSPropProblemArray
 
@@ -30,7 +30,7 @@ Calcule le nombre d’octets à allouer pour une nouvelle structure [SPropProble
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**SPropProblemArray** <br/> |
+|Structure associée :  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 CbNewSPropProblemArray (_cprob)

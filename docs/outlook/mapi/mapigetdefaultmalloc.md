@@ -1,5 +1,6 @@
 ---
 title: MAPIGetDefaultMalloc
+description: La fonction MAPIGetDefaultMalloc récupère l’adresse de la fonction d’allocation de mémoire MAPI par défaut.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 148695dd-d886-4a06-9cfe-749059ae91ed
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 80e0e0439259788e745d491959c18628718ef5bb
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 66f8c681180d0d2db388d2fe226e2f67abacd632
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63717267"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817059"
 ---
 # <a name="mapigetdefaultmalloc"></a>MAPIGetDefaultMalloc
 
@@ -43,6 +43,6 @@ Aucun.
   
 ## <a name="return-value"></a>Valeur renvoyée
 
-La **fonction MAPIGetDefaultMalloc** renvoie un pointeur vers la fonction d’allocation de mémoire MAPI par défaut. 
+La fonction **MAPIGetDefaultMalloc** retourne un pointeur vers la fonction d’allocation de mémoire MAPI par défaut. 
   
 

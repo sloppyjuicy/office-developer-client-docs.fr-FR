@@ -1,5 +1,6 @@
 ---
 title: CheckParms
+description: CheckParms appelle une fonction interne pour valider les paramètres de débogage sur les méthodes de fournisseur de services appelées par MAPI.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 328f12f0-e4e7-407f-8eb8-0d4bf543962d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 623bdebfbd6ea5bcfce7dd2cdafdbb777d20d1a8
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 8a8fd55abff39b944d163bf481dbdd0fb076db53
+ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63630384"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65817570"
 ---
 # <a name="checkparms"></a>CheckParms
 
@@ -44,7 +44,7 @@ HRESULT CheckParms(
 
  _eMethod_
   
-> [in] Spécifie, par l’éumération, la méthode à valider. 
+> [in] Spécifie, par énumération, la méthode à valider. 
     
  _First_
   
@@ -58,6 +58,6 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Contrairement aux [macros ValidateParms](validateparms.md) et [UlValidateParms](ulvalidateparms.md) , la macro **CheckParms** n’effectue pas de validation de paramètre complète. Les paramètres transmis entre MAPI et les fournisseurs de services sont supposés être corrects, de sorte que **CheckParms** effectue une validation de débogage uniquement. 
+Contrairement aux [macros ValidateParms](validateparms.md) et [UlValidateParms](ulvalidateparms.md) , la macro **CheckParms** n’effectue pas de validation de paramètre complète. Les paramètres passés entre MAPI et les fournisseurs de services étant supposés corrects, **CheckParms** effectue une validation de débogage uniquement. 
   
 
