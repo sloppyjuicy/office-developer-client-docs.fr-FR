@@ -1,5 +1,6 @@
 ---
 title: IMsgStoreOpenEntry
+description: IMsgStoreOpenEntry ouvre un dossier ou un message et retourne un pointeur d’interface pour un accès supplémentaire.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: a63c42cf-36af-466b-b41e-d6b53ce1c9fb
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e8a3c1338e7452f18d54cc5a862c84eb838ed278
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 14bc327a0783cd1517aa4c3684c5cd3378ce8b01
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774880"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65827743"
 ---
 # <a name="imsgstoreopenentry"></a>IMsgStore::OpenEntry
 
@@ -25,7 +25,7 @@ ms.locfileid: "62774880"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre un dossier ou un message et renvoie un pointeur d’interface pour un accès supplémentaire. 
+Ouvre un dossier ou un message et retourne un pointeur d’interface pour un accès supplémentaire. 
   
 ```cpp
 HRESULT OpenEntry(
@@ -42,31 +42,31 @@ HRESULT OpenEntry(
 
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_  _._
+> [in] Nombre d’octets dans l’identificateur d’entrée pointé par le paramètre  _lpEntryID_  _._
     
  _lpEntryID_
   
-> [in] Pointeur vers l’identificateur d’entrée de l’objet à ouvrir, ou NULL. Si  _lpEntryID_ est définie sur NULL, **OpenEntry** ouvre le dossier racine de la magasin de messages. 
+> [in] Pointeur vers l’identificateur d’entrée de l’objet à ouvrir, ou NULL. Si  _lpEntryID_ est défini sur NULL, **OpenEntry** ouvre le dossier racine du magasin de messages. 
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’objet ouvert. La transmission DE NULL entraîne le retour de l’interface standard de l’objet ([IMAPIFolder](imapifolderimapicontainer.md) pour les dossiers et [IMessage](imessageimapiprop.md) pour les messages). 
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’objet ouvert. La transmission de la valeur NULL entraîne le retour de l’interface standard de l’objet ([IMAPIFolder](imapifolderimapicontainer.md) pour les dossiers et [IMessage](imessageimapiprop.md) pour les messages). 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet est ouvert. Les indicateurs suivants peuvent être utilisés :
+> [in] Masque de bits des indicateurs qui contrôle la façon dont l’objet est ouvert. Les indicateurs suivants peuvent être utilisés :
     
 MAPI_BEST_ACCESS 
   
-> Demande l’ouverture de l’objet à l’aide des autorisations réseau maximales autorisées pour l’utilisateur et de l’accès maximal à l’application cliente. Par exemple, si le client dispose d’une autorisation de lecture/écriture, l’objet doit être ouvert à l’aide d’une autorisation de lecture/écriture . Si le client dispose d’une autorisation en lecture seule, l’objet doit être ouvert à l’aide d’une autorisation en lecture seule. 
+> Demande que l’objet soit ouvert à l’aide des autorisations réseau maximales autorisées pour l’utilisateur et de l’accès maximal à l’application cliente. Par exemple, si le client dispose d’une autorisation de lecture/écriture, l’objet doit être ouvert à l’aide de l’autorisation de lecture/écriture ; si le client dispose d’une autorisation en lecture seule, l’objet doit être ouvert à l’aide de l’autorisation en lecture seule. 
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet à **OpenEntry** de renvoyer correctement, éventuellement avant que l’objet soit entièrement disponible pour le client appelant. Si l’objet n’est pas disponible, effectuer un appel d’objet ultérieur peut occasioner une erreur. 
+> Permet à **OpenEntry** de retourner correctement, éventuellement avant que l’objet soit entièrement disponible pour le client appelant. Si l’objet n’est pas disponible, l’exécution d’un appel d’objet suivant peut générer une erreur. 
     
 MAPI_MODIFY 
   
-> Demande une autorisation de lecture/écriture. Par défaut, les objets sont ouverts avec une autorisation en lecture seule et les clients ne doivent pas travailler sur l’hypothèse que l’autorisation lecture/écriture est accordée. 
+> Demande l’autorisation de lecture/écriture. Par défaut, les objets sont ouverts avec une autorisation en lecture seule, et les clients ne doivent pas fonctionner en partant du principe que l’autorisation de lecture/écriture est accordée. 
     
  _lpulObjType_
   
@@ -84,26 +84,26 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> Une tentative de modification d’un objet en lecture seule ou d’accès à un objet pour lequel l’utilisateur dispose d’autorisations insuffisantes a été tentée.
+> Une tentative de modification d’un objet en lecture seule ou d’accès à un objet pour lequel l’utilisateur dispose d’autorisations insuffisantes a été effectuée.
     
 MAPI_NO_CACHE
   
-> Lorsqu’une boutique est ouverte en mode mis en cache, un client ou un fournisseur de services peut appeler **IMsgStore::OpenEntry**, en paradant l’indicateur MAPI_NO_CACHE pour ouvrir un élément ou un dossier sur la boutique distante. Si vous ouvrez la magasin de messages avec l’indicateur MDB_ONLINE sur le serveur distant, vous n’avez pas besoin d’utiliser l’MAPI_NO_CACHE de messagerie.
+> Lorsqu’un magasin est ouvert en mode mis en cache, un client ou un fournisseur de services peut appeler **IMsgStore::OpenEntry**, en définissant l’indicateur MAPI_NO_CACHE pour ouvrir un élément ou un dossier sur le magasin distant. Si vous ouvrez le magasin de messages avec l’indicateur MDB_ONLINE sur le serveur distant, vous n’avez pas besoin d’utiliser l’indicateur MAPI_NO_CACHE.
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMsgStore::OpenEntry** ouvre un dossier ou un message et renvoie un pointeur vers une interface qui peut être utilisée pour un accès supplémentaire. 
+La méthode **IMsgStore::OpenEntry** ouvre un dossier ou un message et retourne un pointeur vers une interface qui peut être utilisée pour un accès supplémentaire. 
   
 > [!IMPORTANT]
-> Lors de l’ouverture d’entrées de dossiers dans une boutique publique, telles que des dossiers et des messages, utilisez **IMsgStore::OpenEntry** au lieu [d’IMAPISession::OpenEntry](imapisession-openentry.md). Cela garantit que les dossiers publics fonctionnent correctement lorsque plusieurs Exchange sont définis dans un profil. 
+> Lorsque vous ouvrez des entrées de dossier sur un magasin public, comme des dossiers et des messages, utilisez **IMsgStore::OpenEntry** au lieu [d’IMAPISession::OpenEntry](imapisession-openentry.md). Cela garantit que les dossiers publics fonctionnent correctement lorsque plusieurs comptes Exchange sont définis dans un profil. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Les dossiers et messages sont automatiquement ouverts avec une autorisation de lecture seule, sauf si vous définissez l’indicateur MAPI_MODIFY ou MAPI_BEST_ACCESS dans le paramètre _ulFlags_ . La définition de l’un de ces indicateurs ne garantit pas un type d’autorisation particulier ; Les autorisations qui vous sont accordées dépendent du fournisseur de la boutique de messages, de votre niveau d’accès et de l’objet. Pour déterminer le niveau d’accès de l’objet ouvert, récupérez **PR_ACCESS_LEVEL propriété (**[PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
+Les dossiers et les messages sont ouverts automatiquement avec une autorisation en lecture seule, sauf si vous définissez l’indicateur MAPI_MODIFY ou MAPI_BEST_ACCESS dans le paramètre _ulFlags_ . La définition de l’un de ces indicateurs ne garantit pas un type particulier d’autorisation ; les autorisations qui vous sont accordées dépendent du fournisseur du magasin de messages, de votre niveau d’accès et de l’objet. Pour déterminer le niveau d’accès de l’objet ouvert, récupérez sa propriété **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
   
-Bien que **IMsgStore::OpenEntry** puisse être utilisé pour ouvrir n’importe quel dossier ou message, il est généralement plus rapide d’utiliser la méthode [IMAPIContainer::OpenEntry](imapicontainer-openentry.md) si vous avez accès au dossier parent du dossier ou du message à ouvrir. 
+Bien **qu’IMsgStore::OpenEntry** puisse être utilisé pour ouvrir un dossier ou un message, il est généralement plus rapide d’utiliser la méthode [IMAPIContainer::OpenEntry](imapicontainer-openentry.md) si vous avez accès au dossier parent du dossier ou du message à ouvrir. 
   
-Vérifiez la valeur renvoyée dans le _paramètre lpulObjType_ pour déterminer si le type d’objet renvoyé est ce que vous attendiez. Si le type d’objet n’est pas le type attendu, cast le pointeur du paramètre  _lppUnk_ vers un pointeur du type approprié. Par exemple, si vous ouvrent un dossier, cast  _lppUnk_ vers un pointeur de type **LPMAPIFOLDER**.
+Vérifiez la valeur retournée dans le paramètre _lpulObjType_ pour déterminer si le type d’objet retourné correspond à ce que vous attendiez. Si le type d’objet n’est pas le type attendu, castez le pointeur du paramètre  _lppUnk_ en pointeur du type approprié. Par exemple, si vous ouvrez un dossier, cast  _lppUnk_ en pointeur de type **LPMAPIFOLDER**.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

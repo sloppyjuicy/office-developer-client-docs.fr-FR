@@ -1,5 +1,6 @@
 ---
 title: IMsgStoreGetReceiveFolder
+description: IMsgStore GetReceiveFolder obtient le dossier qui a été établi comme destination pour les messages entrants d’une classe de message spécifiée.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +12,18 @@ api_name:
 api_type:
 - COM
 ms.assetid: ccd9d623-a3cb-4e66-9649-78c3887cb726
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d03c5399bcb99d28069fb503f2e76b9e2bf2eaaf
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 8bc282b7e96fd7f8a45fc5a38348720d4b67af6e
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63376790"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828310"
 ---
 # <a name="imsgstoregetreceivefolder"></a>IMsgStore::GetReceiveFolder
 
 **S’applique à** : Outlook 2013 | Outlook 2016
   
-Obtient le dossier qui a été établi comme destination pour les messages entrants d’une classe de message spécifiée ou comme dossier de réception par défaut pour la magasin de messages.
+Obtient le dossier qui a été établi comme destination pour les messages entrants d’une classe de message spécifiée ou comme dossier de réception par défaut pour le magasin de messages.
   
 ```cpp
 HRESULT GetReceiveFolder(
@@ -39,19 +39,19 @@ HRESULT GetReceiveFolder(
 
  _lpszMessageClass_
   
-> [in] Pointeur vers une classe de message associée à un dossier de réception. Si le _paramètre lpszMessageClass_ a la valeur NULL ou une chaîne vide, **GetReceiveFolder** renvoie le dossier de réception par défaut pour la magasin de messages.
+> [in] Pointeur vers une classe de message associée à un dossier de réception. Si le paramètre _lpszMessageClass_ a la valeur NULL ou une chaîne vide, **GetReceiveFolder** renvoie le dossier de réception par défaut pour le magasin de messages.
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le type des chaînes transmises et renvoyées. L’indicateur suivant peut être définie :
+> [in] Masque de bits des indicateurs qui contrôle le type des chaînes passées et retournées. L’indicateur suivant peut être défini :
 
 MAPI_UNICODE
   
-> La chaîne de classe de message est au format Unicode. Si l’MAPI_UNICODE n’est pas définie, la chaîne de classe de message est au format ANSI.
+> La chaîne de classe de message est au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas défini, la chaîne de classe de message est au format ANSI.
 
  _lpcbEntryID_
   
-> [out] Pointeur vers le nombre d’byte dans l’identificateur d’entrée pointé par _le paramètre lppEntryID_ .
+> [out] Pointeur vers le nombre d’octets dans l’identificateur d’entrée pointé par le paramètre _lppEntryID_ .
 
  _lppEntryID_
   
@@ -59,29 +59,29 @@ MAPI_UNICODE
 
  _lppszExplicitClass_
   
-> [out] Pointeur vers un pointeur vers la classe de message qui définit explicitement comme dossier de réception le dossier pointé par _lppEntryID_. Cette classe de message doit être la même que la classe dans le paramètre _lpszMessageClass_ ou une classe de base de cette classe. La transmission de la valeur NULL indique que le dossier pointé par _lppEntryID_ est le dossier de réception par défaut pour la magasin de messages.
+> [out] Pointeur vers un pointeur vers la classe de message qui définit explicitement comme dossier de réception le dossier vers lequel _pointe lppEntryID_. Cette classe de message doit être identique à la classe dans le paramètre _lpszMessageClass_ ou à une classe de base de cette classe. La transmission de la valeur NULL indique que le dossier pointé par _lppEntryID_ est le dossier de réception par défaut pour le magasin de messages.
 
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> Le dossier de réception a été renvoyé avec succès.
+> Le dossier de réception a été retourné avec succès.
 
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMsgStore::GetReceiveFolder** obtient l’identificateur d’entrée d’un dossier de réception, un dossier désigné pour recevoir les messages entrants d’une classe de message particulière. Les appelants peuvent spécifier une classe de message ou null dans _le paramètre lpszMessageClass_ . Si _lpszMessageClass a_ la valeur NULL, **GetReceiveFolder** renvoie les valeurs suivantes :
+La méthode **IMsgStore::GetReceiveFolder** obtient l’identificateur d’entrée d’un dossier de réception, un dossier désigné pour recevoir les messages entrants d’une classe de message particulière. Les appelants peuvent spécifier une classe de message ou null dans le paramètre _lpszMessageClass_ . Si _lpszMessageClass_ a la valeur NULL, **GetReceiveFolder** retourne les valeurs suivantes :
   
-- Dans _lppszExplicitClass_, le nom de la première classe de base de la classe de message pointée par _lpszMessageClass_ qui définisse explicitement un dossier de réception.
+- Dans _lppszExplicitClass_, nom de la première classe de base de la classe de message pointée par _lpszMessageClass_ qui définit explicitement un dossier de réception.
 
-- Dans _lppEntryID_, l’identificateur d’entrée du dossier de réception pour la classe de base pointée par le paramètre _lppszExplicitClass_ .
+- Dans _lppEntryID_, identificateur d’entrée du dossier de réception pour la classe de base pointé par le paramètre _lppszExplicitClass_ .
 
-Par exemple, supposons que le dossier de réception de la classe **de message IPM. Note** has been set to the entry identifier of the Inbox and **GetReceiveFolder** is called with the contents of _lpszMessageClass_ set to **IPM. Remarque. Téléphone**. Si **IPM. Remarque. Téléphone** n’a pas de dossier de réception explicite, **GetReceiveFolder** renvoie l’identificateur d’entrée de la boîte de réception dans _lppEntryID_ et **IPM. Remarque** dans _lppszExplicitClass_.
+Par exemple, supposons que le dossier de réception de la classe de message **IPM. La note** a été définie sur l’identificateur d’entrée de la boîte de réception et **GetReceiveFolder** est appelé avec le contenu de _lpszMessageClass_ défini sur **IPM. Note. Téléphone**. Si **IPM. Note. Téléphone** n’a pas de dossier de réception explicite, **GetReceiveFolder** retourne l’identificateur d’entrée de la boîte de réception dans _lppEntryID_ et **IPM. Remarque** dans _lppszExplicitClass_.
   
-Si le client appelle **GetReceiveFolder** pour une classe de message et n’a pas de dossier de réception pour cette classe de message, _lppszExplicitClass_ est une chaîne de longueur nulle, une chaîne au format Unicode ou une chaîne au format ANSI selon que le client a ou non définie l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ .
+Si le client appelle **GetReceiveFolder** pour une classe de message et n’a pas défini de dossier de réception pour cette classe de message, _lppszExplicitClass_ est soit une chaîne de longueur nulle, une chaîne au format Unicode, soit une chaîne au format ANSI, selon que le client a défini l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ .
   
-Un dossier de réception par défaut, obtenu en passant la valeur NULL dans le paramètre _lpszMessageClass_ , existe toujours pour chaque magasin de messages.
+Un dossier de réception par défaut, obtenu en passant null dans le paramètre _lpszMessageClass_ , existe toujours pour chaque magasin de messages.
   
-Un client doit appeler la [fonction MAPIFreeBuffer](mapifreebuffer.md) lorsqu’elle est effectuée avec l’identificateur d’entrée renvoyé dans _lppEntryID_ pour libérer la mémoire qui contient cet identificateur d’entrée. Il doit également appeler **MAPIFreeBuffer** lorsqu’il est terminé avec la chaîne de classe de message renvoyée dans _lppszExplicitClass_ pour libérer la mémoire qui contient cette chaîne.
+Un client doit appeler la fonction [MAPIFreeBuffer](mapifreebuffer.md) lorsqu’elle est terminée avec l’identificateur d’entrée retourné dans _lppEntryID_ pour libérer la mémoire qui contient cet identificateur d’entrée. Il doit également appeler **MAPIFreeBuffer** quand il est terminé avec la chaîne de classe de message retournée dans _lppszExplicitClass_ pour libérer la mémoire qui contient cette chaîne.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -89,7 +89,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetInbox  <br/> |MFCMAPI utilise la **méthode IMsgStore::GetReceiveFolder** pour localiser le dossier Boîte de réception. |
+|MAPIFunctions.cpp  <br/> |GetInbox  <br/> |MFCMAPI utilise la méthode **IMsgStore::GetReceiveFolder** pour localiser le dossier De boîte de réception. |
 
 ## <a name="see-also"></a>Voir aussi
 

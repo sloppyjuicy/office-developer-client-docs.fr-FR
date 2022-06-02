@@ -1,5 +1,6 @@
 ---
 title: IMsgServiceAdminAdminProviders
+description: IMsgServiceAdminAdminProviders retourne un pointeur qui fournit l’accès à un objet d’administration de fournisseur.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0d605e2c-10db-46e1-95d5-12fabd524baa
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bfaab75bde84dc0f402e640c8636de354e2f9c8a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 3cf379afc3d8bc2c07b03bc8957c7a18205d251f
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774936"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828379"
 ---
 # <a name="imsgserviceadminadminproviders"></a>IMsgServiceAdmin::AdminProviders
 
@@ -25,7 +25,7 @@ ms.locfileid: "62774936"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie un pointeur qui donne accès à un objet d’administration de fournisseur.
+Retourne un pointeur qui fournit l’accès à un objet d’administration de fournisseur.
   
 ```cpp
 HRESULT AdminProviders(
@@ -53,29 +53,29 @@ HRESULT AdminProviders(
 
 S_OK 
   
-> L’objet d’administration du fournisseur a été renvoyé avec succès.
+> L’objet d’administration du fournisseur a été retourné avec succès.
     
 MAPI_E_NOT_FOUND 
   
-> Le **MAPIUID pointé** par  _lpUID_ n’existe pas. 
+> Le **MAPIUID** pointé par  _lpUID_ n’existe pas. 
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMsgServiceAdmin::AdminProviders** permet d’accéder à un objet d’administration de fournisseur. L’administration d’un fournisseur est un objet qui prend en charge l’interface [IProviderAdmin](iprovideradminiunknown.md) et permet aux clients de : 
+La méthode **IMsgServiceAdmin::AdminProviders** fournit l’accès à un objet d’administration de fournisseur. Une administration de fournisseur est un objet qui prend en charge l’interface [IProviderAdmin](iprovideradminiunknown.md) et permet aux clients d’effectuer les opérations suivantes : 
   
-- Ajouter des fournisseurs de services à un service de messagerie.
+- Ajoutez des fournisseurs de services à un service de message.
     
-- Supprimer des fournisseurs de services d’un service de messagerie.
+- Supprimez les fournisseurs de services d’un service de message.
     
-- Ouvrir des sections de profil.
+- Ouvrez les sections de profil.
     
-- Accéder à la table des fournisseurs de services de messagerie.
+- Accédez à la table du fournisseur de services de message.
     
-Les types de modifications qui peuvent réellement être apportées à un service de message pendant que le profil est en cours d’utilisation dépendent du service de message. Toutefois, la plupart des services de messagerie ne supportent pas les modifications telles que l’ajout et la suppression de fournisseurs pendant l’utilisation du profil.
+Les types de modifications qui peuvent être apportées à un service de message pendant l’utilisation du profil dépendent du service de message. Toutefois, la plupart des services de messages ne prennent pas en charge les modifications telles que l’ajout et la suppression de fournisseurs pendant l’utilisation du profil.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour récupérer la structure **MAPIUID** du service de message à administrer, récupérez la colonne de propriété **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) à partir de la ligne du service de message dans la table de service de message. Pour plus d’informations, voir la procédure décrite dans la méthode [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
+Pour récupérer la structure **MAPIUID** du service de message à administrer, récupérez la colonne de **propriétés PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) à partir de la ligne du service de message dans la table du service de messages. Pour plus d’informations, consultez la procédure décrite dans la méthode [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

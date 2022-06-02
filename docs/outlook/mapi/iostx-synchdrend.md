@@ -1,5 +1,6 @@
 ---
 title: IOSTXSyncHdrEnd
+description: Décrit la syntaxe, les paramètres et les remarques pour IOSTX SyncHdrEnd, qui met fin à la synchronisation d’un en-tête de message.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: a0beb6eb-7978-c64e-dba1-89f0caf2090e
-description: 'Last modified: July 03, 2012'
-ms.openlocfilehash: bda01071c44795b4f521443930b9eee8ee5b8cc9
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: ab314a0808a29596a2f8f948639aab1616ef4370
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63381473"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828538"
 ---
 # <a name="iostxsynchdrend"></a>IOSTX::SyncHdrEnd
 
@@ -35,13 +35,13 @@ HRESULT SyncHdrEnd(
 
  _pprog_
   
-> [in] **[Interface IMAPIProgress pour](imapiprogressiunknown.md)** la synchronisation des messages déplacés ou copiés. Voir mapidefs.h pour la définition de type **de LPMAPIPROGRESS**.
+> [in] **[Interface IMAPIProgress](imapiprogressiunknown.md)** pour la synchronisation des messages déplacés ou copiés. Consultez mapidefs.h pour connaître la définition de type de **LPMAPIPROGRESS**.
 
 ## <a name="remarks"></a>Remarques
 
-Sur **[IOSTX::SyncBeg](iostx-syncbeg.md)**, la boutique locale entre dans l’état d’en-tête [du message de téléchargement](download-message-header-state.md). Le client télécharge un élément de message complet (comme _pmsgFull_ dans **[HDRSYNC](hdrsync.md)** ). Si cela réussit, le client définit également _ulFlags_ dans **HDRSYNC** comme **HSF_OK**. Sur **IOSTX::SyncHdrEnd**, Outlook vérifie le résultat dans **HDRSYNC** et utilise _pprog_ et les informations dans **HDRSYNC** pour mettre à jour l’en-tête de message local.
+Sur **[IOSTX::SyncBeg](iostx-syncbeg.md)**, le magasin local entre dans [l’état d’en-tête du message de téléchargement](download-message-header-state.md). Le client télécharge un élément de message complet (sous la forme _pmsgFull_ dans **[HDRSYNC](hdrsync.md)** ). Si cette opération réussit, le client définit également _ulFlags_ dans **HDRSYNC** comme **HSF_OK**. Sur **IOSTX::SyncHdrEnd**, Outlook vérifie le résultat dans **HDRSYNC** et utilise _pprog_ et les informations dans **HDRSYNC** pour mettre à jour l’en-tête de message local.
   
-Le magasin local revient à l’état dans le précédent **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)**.
+Le magasin local revient à l’état dans lequel il se trouvait avant **[l’IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)** précédent.
   
 ## <a name="see-also"></a>Voir aussi
 

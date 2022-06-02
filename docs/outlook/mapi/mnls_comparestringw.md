@@ -1,5 +1,6 @@
 ---
 title: MNLS_CompareStringW
+description: Décrit la syntaxe, les paramètres, la valeur de retour et les remarques pour MNLS_CompareStringW, qui compare deux chaînes Unicode.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,13 +8,12 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f8d0b7b9-2798-4d29-99e4-17da99039361
-description: 'Last modified: February 20, 2012'
-ms.openlocfilehash: 5f77c8457563212335255ec5bd9b76e689ffe757
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7316ff699ac9983a6c1c81b89cbe95ae09d5e13b
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620428"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828184"
 ---
 # <a name="mnls_comparestringw"></a>MNLS_CompareStringW
 
@@ -37,11 +37,11 @@ int MNLS_CompareStringW (
 
  _lcid_
   
-> [in] Identificateur de paramètres régionaux. Pour obtenir des définitions détaillées, voir le paramètre  _Locale_ de [CompareString](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
+> [in] Identificateur de paramètres régionaux. Pour obtenir des définitions détaillées, consultez le paramètre  _Paramètres régionaux_ de [CompareString](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
     
  _dwFlags_
   
-> [in] Indicateurs pour ignorer la case et les signes diacritiques. Pour obtenir des définitions détaillées, voir le  _paramètre dwCmpFlags_ de [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
+> [in] Indicateurs pour ignorer la casse et les signes diacritiques. Pour obtenir des définitions détaillées, consultez le paramètre  _dwCmpFlags_ de [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
     
  _pstr1_
   
@@ -49,7 +49,7 @@ int MNLS_CompareStringW (
     
  _cch1_
   
-> [in] Longueur en caractères de la première chaîne Unicode, à l’exclusion du caractère null de fin. L’application peut fournir une valeur négative si la chaîne est terminée par null. Dans ce cas, la **fonction MNLS_CompareStringW** détermine automatiquement la longueur. 
+> [in] Longueur en caractères de la première chaîne Unicode, à l’exception du caractère null de fin. L’application peut fournir une valeur négative si la chaîne est terminée par une valeur Null. Dans ce cas, la fonction **MNLS_CompareStringW** détermine automatiquement la longueur. 
     
  _pstr2_
   
@@ -57,15 +57,15 @@ int MNLS_CompareStringW (
     
  _cch2_
   
-> [in] Longueur en caractères de la deuxième chaîne Unicode, à l’exclusion du caractère null de fin. L’application peut fournir une valeur négative si la chaîne est terminée par null. Dans ce cas, la fonction détermine automatiquement la longueur.
+> [in] Longueur en caractères de la deuxième chaîne Unicode, à l’exception du caractère null de fin. L’application peut fournir une valeur négative si la chaîne est terminée par une valeur Null. Dans ce cas, la fonction détermine automatiquement la longueur.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-Renvoie les valeurs décrites [pour CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
+Retourne les valeurs décrites pour [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction [encapsule CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** prend les mêmes paramètres et a le même comportement que [CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
+Cette fonction encapsule [CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** prend les mêmes paramètres et a le même comportement que [CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
   
 ## <a name="see-also"></a>Voir aussi
 

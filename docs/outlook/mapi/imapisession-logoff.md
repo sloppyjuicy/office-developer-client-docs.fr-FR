@@ -1,5 +1,6 @@
 ---
 title: IMAPISessionLogoff
+description: Décrit la syntaxe, les paramètres, la valeur de retour et les remarques pour IMAPISessionLogoff, qui termine une session MAPI.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 93e38f6c-4b67-4f2d-bc94-631efec86852
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b94addbd90f4c71f379c0fc646bba58208af8d2a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: bf777c211b0761e90bd0b692276e10ac1d80a65f
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776528"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65827967"
 ---
 # <a name="imapisessionlogoff"></a>IMAPISession::Logoff
 
@@ -39,19 +39,19 @@ HRESULT Logoff(
 
  _ulUIParam_
   
-> [in] Poignée vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres à afficher. Ce paramètre est ignoré si l’MAPI_LOGOFF_UI n’est pas définie.
+> [in] Handle vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres à afficher. Ce paramètre est ignoré si l’indicateur de MAPI_LOGOFF_UI n’est pas défini.
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôlent l’opération de ffage de logo. Les indicateurs suivants peuvent être définies :
+> [in] Masque de bits des indicateurs qui contrôlent l’opération de fermeture de session. Les indicateurs suivants peuvent être définis :
     
 MAPI_LOGOFF_SHARED 
   
-> Si cette session est partagée, tous les clients qui se sont connectés à l’aide de la session partagée doivent être avertis de la ouverture de session en cours. Les clients doivent se déconnecter. Tout client qui utilise la session partagée peut définir cet indicateur. MAPI_LOGOFF_SHARED est ignoré si la session en cours n’est pas partagée.
+> Si cette session est partagée, tous les clients qui se sont connectés à l’aide de la session partagée doivent être avertis de la fermeture de session en cours. Les clients doivent se déconnecter. Tout client qui utilise la session partagée peut définir cet indicateur. MAPI_LOGOFF_SHARED est ignoré si la session active n’est pas partagée.
     
 MAPI_LOGOFF_UI 
   
-> **La ff** de logo peut afficher une boîte de dialogue pendant l’opération, éventuellement en insurant à l’utilisateur une confirmation. 
+> **La fermeture de session** peut afficher une boîte de dialogue pendant l’opération, ce qui peut demander confirmation à l’utilisateur. 
     
  _ulReserved_
   
@@ -61,17 +61,17 @@ MAPI_LOGOFF_UI
 
 S_OK 
   
-> L’opération de ffage de logo a réussi.
+> L’opération de fermeture de session a réussi.
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISession::Logoff** met fin à une session MAPI. Lorsque **la méthode Logoff** est de retour, aucune des méthodes à l’exception de [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) ne peut être appelée. 
+La méthode **IMAPISession::Logoff** met fin à une session MAPI. Lorsque **Logoff** retourne, aucune des méthodes, à l’exception de [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) , ne peut être appelée. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsque **la méthode Logoff est** de retour, relâchez l’objet de session en appelant sa méthode **IUnknown::Release** . 
+Lorsque **Logoff** retourne, relâchez l’objet de session en appelant sa méthode **IUnknown::Release** . 
   
-Pour plus d’informations sur la fin d’une session, voir [Fin d’une session MAPI](ending-a-mapi-session.md).
+Pour plus d’informations sur la fin d’une session, consultez [Fin d’une session MAPI](ending-a-mapi-session.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -82,7 +82,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 |MAPIObjects.cpp  <br/> |CMapiObjects::Logoff  <br/> |MFCMAPI utilise la méthode **IMAPISession::Logoff** pour se déconnecter de la session avant de la libérer. |
    
 > [!NOTE]
-> En raison du comportement d’arrêt rapide introduit dans Microsoft Office Outlook 2007 Service Pack 2, Microsoft Outlook 2010 et Microsoft Outlook 2013, les clients ne doivent jamais transmettre le paramètre **MAPI_LOGOFF_SHARED** à [IMAPISession::Logoff](imapisession-logoff.md). Le **MAPI_LOGOFF_SHARED** entraîne l’arrêt de tous les clients MAPI et un comportement inattendu se produit. 
+> En raison du comportement d’arrêt rapide introduit dans Microsoft Office Outlook Service Pack 2, Microsoft Outlook 2010 et Microsoft Outlook 2013 2007, les clients ne doivent jamais passer le paramètre **MAPI_LOGOFF_SHARED** à [IMAPISession::Logoff](imapisession-logoff.md). Le passage **de MAPI_LOGOFF_SHARED** entraîne l’arrêt de tous les clients MAPI et un comportement inattendu se produit. 
   
 ## <a name="see-also"></a>Voir aussi
 

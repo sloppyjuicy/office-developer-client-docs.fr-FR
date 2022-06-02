@@ -1,5 +1,6 @@
 ---
 title: IMAPITableCollapseRow
+description: IMAPITableCollapseRow réduit une catégorie de table développée, en supprimant les en-têtes de niveau inférieur et les lignes de feuille appartenant à la catégorie de la vue de table.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1a23e555-be26-43fb-a715-cfc4ffa623cd
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a7220e4767094547826d008891f19b5469727c54
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ea6693e341f9d3df60a0bfae59ab911f09b65910
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62772034"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65827862"
 ---
 # <a name="imapitablecollapserow"></a>IMAPITable::CollapseRow
 
@@ -25,7 +25,7 @@ ms.locfileid: "62772034"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Réduit une catégorie de tableau étendu, en supprimant les en-tête de niveau inférieur et les lignes de feuille appartenant à la catégorie de l’affichage Tableau.
+Réduit une catégorie de tableau développée, en supprimant les en-têtes de niveau inférieur et les lignes de feuille appartenant à la catégorie de la vue de table.
   
 ```cpp
 HRESULT CollapseRow(
@@ -40,43 +40,43 @@ ULONG FAR * lpulRowCount
 
  _cbInstanceKey_
   
-> [in] Nombre d’octets dans la propriété PR_INSTANCE_KEY pointant vers le  _paramètre pbInstanceKey_ . 
+> [in] Nombre d’octets dans la propriété PR_INSTANCE_KEY pointée par le paramètre  _pbInstanceKey_ . 
     
  _pbInstanceKey_
   
-> [in] Pointeur vers la **propriété PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) qui identifie la ligne de titre de la catégorie. 
+> [in] Pointeur vers la propriété **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) qui identifie la ligne de titre de la catégorie. 
     
  _ulFlags_
   
-> Réservé ; doit être zéro.
+> Réservé; doit être égal à zéro.
     
  _lpulRowCount_
   
-> [out] Pointeur vers le nombre total de lignes supprimées de l’affichage Tableau.
+> [out] Pointeur vers le nombre total de lignes qui sont supprimées de la vue table.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’opération de réduire a réussi.
+> L’opération d’effondrement a réussi.
     
 MAPI_E_NOT_FOUND 
   
-> La ligne identifiée par le  _paramètre pbInstanceKey_ n’existe pas. 
+> La ligne identifiée par le paramètre  _pbInstanceKey_ n’existe pas. 
     
 MAPI_E_INVALID_ENTRYID 
   
-> La ligne identifiée par le  _paramètre pbInstanceKey_ n’existe pas. Cette erreur est une alternative à la MAPI_E_NOT_FOUND ; les fournisseurs de services peuvent renvoyer l’un ou l’autre. 
+> La ligne identifiée par le paramètre  _pbInstanceKey_ n’existe pas. Cette erreur est une alternative à MAPI_E_NOT_FOUND; les fournisseurs de services peuvent retourner l’un ou l’autre. 
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPITable::CollapseRow** permet de réduire une catégorie de tableau et de la supprimer de l’affichage Tableau. Les lignes sont réduire à partir de la ligne identifiée par la **propriété PR_INSTANCE_KEY** pointée par le  _paramètre pbInstanceKey_ . Le nombre de lignes supprimées de l’affichage est renvoyé dans le contenu du  _paramètre lpulRowCount_ . 
+La méthode **IMAPITable::CollapseRow** réduit une catégorie de table et la supprime de la vue table. Les lignes sont réduites à partir de la ligne identifiée par la propriété **PR_INSTANCE_KEY** pointée par le paramètre  _pbInstanceKey_ . Le nombre de lignes supprimées de la vue est retourné dans le contenu du paramètre  _lpulRowCount_ . 
   
-Les notifications ne sont jamais générées pour les lignes de tableau qui sont supprimées d’un affichage suite à une opération de réduire. 
+Les notifications ne sont jamais générées pour les lignes de table qui sont supprimées d’une vue à la suite d’une opération d’effondrement. 
   
-Lorsqu’une ligne définie par un signet est en dehors de l’affichage, le signet est déplacé pour pointer vers la ligne visible suivante. 
+Lorsqu’une ligne définie par un signet est réduite hors vue, le signet est déplacé pour pointer vers la ligne visible suivante. 
   
-Pour plus d’informations sur les tableaux classés, voir [Tri et catégorisation](sorting-and-categorization.md).
+Pour plus d’informations sur les tables catégorisées, consultez [Tri et catégorisation](sorting-and-categorization.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -84,7 +84,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI utilise la **méthode IMAPITable::CollapseRow** pour réduire une catégorie de tableau. |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI utilise la méthode **IMAPITable::CollapseRow** pour réduire une catégorie de table. |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,6 @@
 ---
 title: IsEqualMAPIUID
+description: Décrit la syntaxe, les paramètres et les remarques pour IsEqualMAPIUID, qui teste deux structures MAPIUID pour déterminer si elles contiennent le même identificateur.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 85d71b73-0630-4c5d-b0e3-b48d27a300d0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0b82cf455d23b63501e5ac4fad18eb528a700e7e
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: bdedcf64cb8d150783f11b362c88ada69d277089
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783286"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828212"
 ---
 # <a name="isequalmapiuid"></a>IsEqualMAPIUID
 
@@ -25,12 +25,12 @@ ms.locfileid: "63783286"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Teste [deux structures MAPIUID](mapiuid.md) pour déterminer si elles contiennent le même identificateur. 
+Teste deux structures [MAPIUID](mapiuid.md) pour déterminer si elles contiennent le même identificateur. 
   
 |Propriété|Valeur|
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**MAPIUID** <br/> |
+|Structure associée :  <br/> |**MAPIUID** <br/> |
    
 ```cpp
 IsEqualMAPIUID(lpuid1, lpuid2)
@@ -48,9 +48,9 @@ IsEqualMAPIUID(lpuid1, lpuid2)
     
 ## <a name="remarks"></a>Remarques
 
-La macro **IsEqualMAPIUID** renvoie true si les deux structures **MAPIUID** contiennent le même identificateur et FALSE si ce n’est pas le cas. 
+La macro **IsEqualMAPIUID** retourne TRUE si les deux structures **MAPIUID** contiennent le même identificateur et FALSE si ce n’est pas le cas. 
   
-La macro **IsEqualMAPIUID nécessite** que le fichier d’en-tête Memory.h soit inclus. 
+La macro **IsEqualMAPIUID** nécessite que le fichier d’en-tête Memory.h soit inclus. 
   
 ## <a name="see-also"></a>Voir aussi
 

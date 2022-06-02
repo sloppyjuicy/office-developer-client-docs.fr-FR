@@ -1,5 +1,6 @@
 ---
 title: IMAPISync SynchronizeInBackground
+description: IMAPISync SynchronizeInBackground lance une synchronisation. Il est appelé par Microsoft Outlook 2010 et 2013 et implémenté par les fournisseurs de magasins de messages.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c4aaca65-d553-476c-8c6d-5f880b6efdc1
-description: 'Dernière modification : 26 juin 2012'
-ms.openlocfilehash: 579df1e0dd3b027e8bd4dea832154a4be46f7569
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5e27a4f02fe711dd8e479d58162e641bf856d201
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575756"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65827869"
 ---
 # <a name="imapisync--synchronizeinbackground"></a>IMAPISync : SynchronizeInBackground
 
@@ -25,7 +25,7 @@ ms.locfileid: "59575756"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Lance une synchronisation. Cette méthode est appelée par les Microsoft Outlook 2010 et Microsoft Outlook 2013 et implémentée par les fournisseurs de magasins de messages. 
+ Lance une synchronisation. Cette méthode est appelée par Microsoft Outlook 2010 et Microsoft Outlook 2013 et implémentée par les fournisseurs de magasins de messages. 
   
 ```cpp
 HRESULT SynchronizeInBackground (
@@ -37,7 +37,7 @@ HRESULT SynchronizeInBackground (
 
  _psibpb_
   
-> Informe le fournisseur de ce qui sera synchronisé et donne accès aux interfaces qui peuvent être utilisées pendant la synchronisation. Il s’agit [d’une structure MAPISIB.](mapisib.md) 
+> Informe le fournisseur de ce qui sera synchronisé et donne accès aux interfaces qui peuvent être utilisées pendant la synchronisation. Il s’agit d’une structure [MAPISIB](mapisib.md) . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

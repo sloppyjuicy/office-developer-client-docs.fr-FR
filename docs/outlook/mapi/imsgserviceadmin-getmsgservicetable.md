@@ -1,5 +1,6 @@
 ---
 title: IMsgServiceAdminGetMsgServiceTable
+description: IMsgServiceAdmin GetMsgServiceTable fournit l’accès à la table du service de messages, une liste des services de messages dans le profil.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 064dd5ca-0108-4045-b17b-0bb29cb93346
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 26a48d2cb85ec10b6a130c08028aec614a4aae6a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 186afe7abdeb148aa3cb43464a9383008b187872
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62771999"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65827750"
 ---
 # <a name="imsgserviceadmingetmsgservicetable"></a>IMsgServiceAdmin::GetMsgServiceTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "62771999"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d’accéder à la table des services de message, liste des services de message dans le profil.
+Fournit l’accès à la table du service de messages, une liste des services de messages dans le profil.
   
 ```cpp
 HRESULT GetMsgServiceTable(
@@ -42,19 +42,19 @@ HRESULT GetMsgServiceTable(
     
  _lppTable_
   
-> [out] Pointeur vers un pointeur vers le tableau du service de message.
+> [out] Pointeur vers un pointeur vers la table du service de message.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La table de service de message a été renvoyée avec succès.
+> La table du service de message a été retournée avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgServiceAdmin::GetMsgServiceTable** permet d’accéder à la table de service de message, une table que MAPI tient à jour et qui répertorie les services de message actuellement installés dans le profil de session. Pour obtenir la liste complète des colonnes du tableau des services de messages, consultez la [table Message Service Table](message-service-tables.md).
+La méthode **IMsgServiceAdmin::GetMsgServiceTable** fournit l’accès à la table du service de messages, une table que MAPI gère qui répertorie les services de messages actuellement installés dans le profil de session. Pour obtenir la liste complète des colonnes de la table de service de message, consultez [La table du service de](message-service-tables.md) message.
   
-La table de service de message est statique. Une fois qu’un client a été autorisé à y accéder, les ajouts ou suppressions de service de message suivants ne l’affecteront pas. S’il n’existe aucun service de message dans le profil actuel, **GetMsgServiceTable renvoie** un tableau avec zéro ligne. 
+La table du service de message est statique. Une fois qu’un client a reçu l’accès à celui-ci, les ajouts ou suppressions de service de message suivants ne l’affecteront pas. S’il n’existe aucun service de message dans le profil actuel, **GetMsgServiceTable** retourne une table avec zéro ligne. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -62,7 +62,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnRefreshView  <br/> |MFCMAPI utilise la méthode **IMsgServiceAdmin::GetMsgServiceTable** pour charger la table des services dans un profil à afficher dans l’affichage. |
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnRefreshView  <br/> |MFCMAPI utilise la méthode **IMsgServiceAdmin::GetMsgServiceTable** pour charger la table des services dans un profil à afficher dans la vue. |
    
 ## <a name="see-also"></a>Voir aussi
 

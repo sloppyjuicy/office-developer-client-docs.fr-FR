@@ -1,5 +1,6 @@
 ---
 title: Propriétés MAPI
+description: Cette section contient des propriétés canoniques prises en charge par MAPI, chacune correspondant à une ou plusieurs propriétés MAPI associées.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +9,13 @@ ms.prod: office-online-server
 api_type:
 - COM
 ms.assetid: 3b980217-b65b-442b-8c18-b8b9f3ff487a
-description: Dernière modification le 12 mars 2013
 ms.localizationpriority: high
-ms.openlocfilehash: 37a9461fd7f22aa51c127795a4226ff039d9e93d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0613dda3bc4465ca6228430e3c70fabf1449e2d3
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584114"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65826917"
 ---
 # <a name="mapi-properties"></a>Propriétés MAPI
 

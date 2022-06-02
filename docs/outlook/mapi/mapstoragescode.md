@@ -1,5 +1,6 @@
 ---
 title: MapStorageSCode
+description: Décrit la syntaxe, les paramètres et la valeur de retour de MapStorageSCode, qui mappe une valeur de retour SCODE d’un objet de stockage OLE à un type HRESULT.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: f686a2bc-aba5-4ea3-9963-76d0e96eab50
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 733d50f324d1d27d7b089bc6dbc43835f7d21f67
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: c836b699a0afe63e2beaf8feb962d6e14cceacf4
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63716353"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828510"
 ---
 # <a name="mapstoragescode"></a>MapStorageSCode
 
@@ -25,7 +25,7 @@ ms.locfileid: "63716353"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cartes valeur de retour SCODE d’un objet de stockage OLE à un type HRESULT. 
+Cartes une valeur de retour SCODE d’un objet de stockage OLE vers un type HRESULT. 
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -43,22 +43,22 @@ SCODE MapStorageSCode(
 
  _StgSCode_
   
-> [in] Valeur de retour MAPI SCODE à partir d’un objet de stockage OLE à ma mappé à une valeur HRESULT.
+> [in] MapI SCODE renvoie la valeur d’un objet de stockage OLE à mapper à une valeur HRESULT.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’appel a réussi et a renvoyé la valeur attendue.
+> L’appel a réussi et retourné la valeur attendue.
     
 MAPI_E_CALL_FAILED 
   
-> La fonction ne peut pas trouver de valeur correspondante.
+> La fonction ne trouve pas de valeur correspondante.
     
 ## <a name="remarks"></a>Remarques
 
-MAPI fournit la **fonction MapStorageSCode** pour l’utilisation interne des composants MAPI qui basent leurs implémentations de message sur la DLL de message. Étant donné que ces composants ouvrent eux-mêmes le stockage OLE, ils doivent être en mesure de maculer les valeurs d’erreur renvoyées pour les problèmes liés au stockage OLE à une valeur HRESULT. 
+MAPI fournit la fonction **MapStorageSCode** pour l’utilisation interne des composants MAPI qui basent leurs implémentations de message sur la DLL de message. Étant donné que ces composants ouvrent eux-mêmes le stockage OLE, ils doivent être en mesure de mapper les valeurs d’erreur retournées pour les problèmes liés au stockage OLE à une valeur HRESULT. 
   
-Pour plus d’informations, voir [Structured Stockage](structured-storage-in-mapi.md). 
+Pour plus d’informations, consultez [Structured Stockage](structured-storage-in-mapi.md). 
   
 
