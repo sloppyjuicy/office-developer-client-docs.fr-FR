@@ -1,5 +1,6 @@
 ---
 title: IPropDataHrSetPropAccess
+description: IPropData HrSetPropAccess définit le niveau d’accès ou l’état d’une ou plusieurs des propriétés de l’objet.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 02365050-5e8b-437c-925f-4eb0df646356
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e9ebe90e27e000e782f2b12905f2c7bb5a70066e
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 73956c95040d78fb4ad8eccf86eeafa30707eae4
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782646"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828135"
 ---
 # <a name="ipropdatahrsetpropaccess"></a>IPropData::HrSetPropAccess
 

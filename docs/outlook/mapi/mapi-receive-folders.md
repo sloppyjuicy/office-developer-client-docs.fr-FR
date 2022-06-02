@@ -1,5 +1,6 @@
 ---
 title: MAPI re�oivent des dossiers
+description: Un dossier de r�ception conserve les messages entrants d'une classe de message particulier. Les associations peuvent être établies par les clients, le fournisseur du magasin de messages ou par MAPI.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +8,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2e1287a3-0f15-4d9a-b7ee-738fce9cd51f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 87a6f35812c895d2520dade1c628b13b709ff1cd
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 039e20e69e53d6171867e147083f9204fb090bdc
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781323"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828268"
 ---
 # <a name="mapi-receive-folders"></a>MAPI re�oivent des dossiers
 
@@ -56,8 +56,8 @@ Le tableau suivant montre comment les messages avec plusieurs classes doivent �
 |**Classe de message entrant**|**Dossier de r�ception**|
 |:-----|:-----|
 |**IPM. Note.Sample.Simple** <br/> |Dossier d'exemples  <br/> |
-|**IPM. Remarque** <br/> |Dossier bo�te de r�ception  <br/> |
-|**IPM. Timecard** <br/> |Dossier bo�te de r�ception  <br/> |
+|**IPM. Note** <br/> |Dossier bo�te de r�ception  <br/> |
+|**IPM. Carte de temps** <br/> |Dossier bo�te de r�ception  <br/> |
 |**IPM. Note.Sample.Simple.Totally** <br/> |Dossier d'exemples  <br/> |
    
 Clients appellent la m�thode **SetReceiveFolder** pour �mettre une association entre une classe de message particuli�re explicite et recevoir des dossiers. Lorsqu'un message est remis � une classe de message vide, MAPI place le message dans le dossier de r�ception n'est d�fini pour un pr�fixe de la classe vide. Par exemple, si votre client dispose d'un dossier de r�ception �tabli pour les messages avec la classe **IPM** et la remise d'un message avec la classe **IPM.Note.Test**, ce message sera plac� dans le dossier de r�ception pour la classe de message **IPM**. 

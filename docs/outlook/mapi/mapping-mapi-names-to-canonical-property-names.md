@@ -1,5 +1,6 @@
 ---
-title: Mappage des noms MAPI aux noms de propriétés canoniques
+title: Mappage de noms MAPI à des noms de propriétés canoniques
+description: Cette rubrique contient trois tables qui mappent chaque propriété MAPI au nom de propriété canonique correspondant.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,27 +8,26 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 38376abb-60de-40f1-9bc9-d8c4f9e3368b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bc60b74510f7ed22f8353767b9f89f70a5b805f5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: aec9cae5ea241e02bcc3df0bd82c0d71efcd29eb
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564070"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828254"
 ---
-# <a name="mapping-mapi-names-to-canonical-property-names"></a>Mappage des noms MAPI aux noms de propriétés canoniques
+# <a name="mapping-mapi-names-to-canonical-property-names"></a>Mappage de noms MAPI à des noms de propriétés canoniques
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique maie chaque propriété MAPI au nom de la propriété canonique correspondante. La rubrique contient trois tableaux : un tableau pour les propriétés nommées avec des identificateurs numériques, un deuxième tableau pour les propriétés nommées avec des identificateurs de chaîne et un troisième tableau pour les propriétés marquées.
+Cette rubrique mappe chaque propriété MAPI au nom de propriété canonique correspondant. La rubrique contient trois tables : une table pour les propriétés nommées avec des identificateurs numériques, une deuxième table pour les propriétés nommées avec des identificateurs de chaîne et une troisième table pour les propriétés marquées.
   
-Pour plus d’informations sur la relation entre les propriétés canoniques et les propriétés MAPI, voir [propriétés canoniques MAPI.](mapi-canonical-properties.md)
+Pour plus d’informations sur la relation entre les propriétés canoniques et les propriétés MAPI, consultez [Propriétés canoniques MAPI](mapi-canonical-properties.md).
   
 ## <a name="named-properties-with-numerical-identifiers"></a>Propriétés nommées avec identificateurs numériques
 
-|**Propriété nommée réelle**|**Nom de la propriété canonique**|
+|**Actual Named, propriété**|**Nom de la propriété canonique**|
 |:-----|:-----|
 |dispidABPArrayType  <br/> |[PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md) <br/> |
 |dispidABPEmailList  <br/> |[PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md) <br/> |
@@ -306,19 +306,19 @@ Pour plus d’informations sur la relation entre les propriétés canoniques et 
    
 ## <a name="named-properties-with-string-identifiers"></a>Propriétés nommées avec identificateurs de chaîne
 
-|**Propriété nommée réelle**|**Nom de la propriété canonique**|
+|**Actual Named, propriété**|**Nom de la propriété canonique**|
 |:-----|:-----|
 |Accept-Language  <br/> |[PidNameAcceptLanguage](pidnameacceptlanguage-canonical-property.md) <br/> |
 |AppName  <br/> |[PidNameApplicationName](pidnameapplicationname-canonical-property.md) <br/> |
 |AttachmentMacContentType  <br/> |[PidNameAttachmentMacContentType](pidnameattachmentmaccontenttype-canonical-property.md) <br/> |
 |AttachmentMacInfo  <br/> |[PidNameAttachmentMacInfo](pidnameattachmentmacinfo-canonical-property.md) <br/> |
 |Auteur  <br/> |[PidNameAuthor](pidnameauthor-canonical-property.md) <br/> |
-|ByteCount  <br/> |[PidNameByteCount](pidnamebytecount-canonical-property.md) <br/> |
+|Bytecount  <br/> |[PidNameByteCount](pidnamebytecount-canonical-property.md) <br/> |
 |Catégorie  <br/> |[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |
 |CharCount  <br/> |[PidNameCharacterCount](pidnamecharactercount-canonical-property.md) <br/> |
 |Commentaires  <br/> |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |
-|Company  <br/> |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |
-|Content-Base  <br/> |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |
+|Société  <br/> |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |
+|Base de contenu  <br/> |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |
 |Content-Class  <br/> |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |
 |Content-Transfer-Encoding  <br/> |[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |
 |Content-Type  <br/> |[PidNameContentType](pidnamecontenttype-canonical-property.md) <br/> |
@@ -347,18 +347,18 @@ Pour plus d’informations sur la relation entre les propriétés canoniques et 
 |Titre  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
 |UMAudioNotes  <br/> |[PidNameAudioNotes](pidnameaudionotes-canonical-property.md) <br/> |
 |WordCount  <br/> |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |
-|X-Sharing-Capabilities  <br/> |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |
-|X-Sharing-Config-Url  <br/> |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |
+|Fonctionnalités de partage X  <br/> |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |
+|X-Sharing-Config-URL  <br/> |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |
 |X-Sharing-Flavor  <br/> |[PidNameXSharingFlavor](pidnamexsharingflavor-canonical-property.md) <br/> |
 |X-Sharing-Local-Type  <br/> |[PidNameXSharingLocalType](pidnamexsharinglocaltype-canonical-property.md) <br/> |
 |X-Sharing-Provider-Guid  <br/> |[PidNameXSharingProviderGuid](pidnamexsharingproviderguid-canonical-property.md) <br/> |
 |X-Sharing-Provider-Name  <br/> |[PidNameXSharingProviderName](pidnamexsharingprovidername-canonical-property.md) <br/> |
-|X-Sharing-Provider-Url  <br/> |[PidNameXSharingProviderUrl](pidnamexsharingproviderurl-canonical-property.md) <br/> |
+|X-Sharing-Provider-URL  <br/> |[PidNameXSharingProviderUrl](pidnamexsharingproviderurl-canonical-property.md) <br/> |
 |X-Sharing-Remote-Name  <br/> |[PidNameXSharingRemoteName](pidnamexsharingremotename-canonical-property.md) <br/> |
 |X-Sharing-Remote-Store-Uid  <br/> |[PidNameXSharingRemoteStoreUid](pidnamexsharingremotestoreuid-canonical-property.md) <br/> |
 |X-Sharing-Remote-Type  <br/> |[PidNameXSharingRemoteType](pidnamexsharingremotetype-canonical-property.md) <br/> |
 |X-Sharing-Remote-Uid  <br/> |[PidNameXSharingRemoteUid](pidnamexsharingremoteuid-canonical-property.md) <br/> |
-|Xref  <br/> |[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |
+|Xréf  <br/> |[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |
    
 ## <a name="tagged-properties"></a>Propriétés marquées
 

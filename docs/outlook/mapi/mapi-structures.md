@@ -1,5 +1,6 @@
 ---
 title: Structures MAPI
+description: Fournit des entrées alphabétiques qui décrivent les structures MAPI. Des références croisées à d’autres publications ou à d’autres rubriques de cette documentation sont également incluses.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,13 +10,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f84c6e70-e74e-4ca2-961c-0260ea277b00
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aa5a5d72efcd58d0e249e24594b4ffe331e1f855
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 95c0ef27be2aaeefae4c10c4fccc24988b494843
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63722000"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828107"
 ---
 # <a name="mapi-structures"></a>Structures MAPI
 
@@ -23,9 +23,9 @@ ms.locfileid: "63722000"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les entrées alphabétisées suivantes décrivent les structures MAPI. Pour plus d’informations, des références croisées à d’autres publications ou à d’autres rubriques de cette documentation sont également incluses.
+Les entrées alphabétiques suivantes décrivent les structures MAPI. Pour plus d’informations, des références croisées à d’autres publications ou à d’autres rubriques de cette documentation sont également incluses.
   
-|MAPI Structure |... |
+|MapI, structure |... |
 |:-----|:-----|
 |[ADRENTRY](adrentry.md) <br/> |[ADRLIST](adrlist.md) <br/> |
 |[ADRPARM](adrparm.md) <br/> |[CURRENCY](currency.md) <br/> |

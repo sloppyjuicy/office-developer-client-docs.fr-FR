@@ -1,5 +1,6 @@
 ---
 title: MNLS_lstrcmpW
+description: Décrit la syntaxe, les paramètres, la valeur de retour et les remarques pour MNLS_lstrcmpW, qui compare deux chaînes Unicode.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,13 +8,12 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: d26c59d7-c839-426f-8693-727fc6bef67e
-description: 'Last modified: June 18, 2012'
-ms.openlocfilehash: da855762a601fdf28544cd75d50610f7964761c7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 04b0ae87c3bd8694d9d7e4ff065362357a489b8d
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575434"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828177"
 ---
 # <a name="mnls_lstrcmpw"></a>MNLS_lstrcmpW
 
@@ -41,7 +41,7 @@ int MNLS_lstrcmpW(
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-Renvoie les valeurs décrites pour un appel équivalent **à MNLS_CompareStringW** à l’exception de CSTR_EQUAL. 
+Retourne les valeurs décrites pour un appel équivalent à **MNLS_CompareStringW** à l’exception de CSTR_EQUAL. 
   
 ## <a name="remarks"></a>Remarques
 

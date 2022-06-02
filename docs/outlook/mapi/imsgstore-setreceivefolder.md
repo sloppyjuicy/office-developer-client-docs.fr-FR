@@ -1,5 +1,6 @@
 ---
 title: IMsgStoreSetReceiveFolder
+description: IMsgStore SetReceiveFolder établit un dossier comme destination pour les messages entrants d’une classe de message particulière.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 469f0412-1343-47ce-b6e8-e0d5e56c29bb
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d1211ee2e096e59b92d4e05c22a7abc29ccdc8f9
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a7d9c19db08394574c5266b6696c748fd4de7b5b
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62777396"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828296"
 ---
 # <a name="imsgstoresetreceivefolder"></a>IMsgStore::SetReceiveFolder
 
@@ -40,23 +40,23 @@ HRESULT SetReceiveFolder(
 
  _lpszMessageClass_
   
-> [in] Pointeur vers la classe de message à associer au nouveau dossier de réception. Si le  _paramètre lpszMessageClass_ a la valeur NULL ou une chaîne vide, **SetReceiveFolder** définit le dossier de réception par défaut pour la magasin de messages. 
+> [in] Pointeur vers la classe de message qui doit être associée au nouveau dossier de réception. Si le paramètre  _lpszMessageClass_ a la valeur NULL ou une chaîne vide, **SetReceiveFolder** définit le dossier de réception par défaut pour le magasin de messages. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le type du texte dans les chaînes transmises. L’indicateur suivant peut être définie :
+> [in] Masque de bits des indicateurs qui contrôle le type du texte dans les chaînes passées. L’indicateur suivant peut être défini :
     
 MAPI_UNICODE 
   
-> La chaîne de classe de message est au format Unicode. Si l’MAPI_UNICODE n’est pas définie, la chaîne de classe de message est au format ANSI.
+> La chaîne de classe de message est au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas défini, la chaîne de classe de message est au format ANSI.
     
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
+> [in] Nombre d’octets dans l’identificateur d’entrée pointé par le paramètre  _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Pointeur vers l’identificateur d’entrée du dossier à établir en tant que dossier de réception. Si le  _paramètre lpEntryID_ est définie sur NULL, **SetReceiveFolder** remplace le dossier de réception actuel par la valeur par défaut de la boutique de messages. 
+> [in] Pointeur vers l’identificateur d’entrée du dossier à établir en tant que dossier de réception. Si le paramètre  _lpEntryID_ est défini sur NULL, **SetReceiveFolder** remplace le dossier de réception actuel par la valeur par défaut du magasin de messages. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -66,11 +66,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMsgStore::SetReceiveFolder** définit ou modifie le dossier de réception d’une classe de message particulière. Avec **SetReceiveFolder**, un client peut, à l’aide d’appels successifs, spécifier un dossier de réception différent pour chaque classe de message définie ou spécifier que les messages entrants pour plusieurs classes de messages sont tous placés dans le même dossier. Par exemple, un client peut avoir sa propre classe de messages arrive dans son propre dossier. Une application de télécopie peut désigner un dossier dans lequel le fournisseur de magasins place les télécopies entrantes et un autre dossier dans lequel le fournisseur place les télécopies sortantes.
+La méthode **IMsgStore::SetReceiveFolder** définit ou modifie le dossier de réception pour une classe de message particulière. Avec **SetReceiveFolder**, un client peut, à l’aide d’appels successifs, spécifier un dossier de réception différent pour chaque classe de message définie ou spécifier que les messages entrants pour plusieurs classes de messages sont tous placés dans le même dossier. Par exemple, un client peut avoir sa propre classe de messages arrivant dans son propre dossier. Une application de télécopie peut désigner un dossier dans lequel le fournisseur du magasin place les télécopies entrantes et un autre dossier dans lequel le fournisseur place les télécopies sortantes.
   
-Si une erreur se produit pendant l’appel de **SetReceiveFolder**, le paramètre du dossier de réception reste inchangé. 
+Si une erreur se produit pendant l’appel à **SetReceiveFolder**, le paramètre du dossier de réception reste inchangé. 
   
-Si **SetReceiveFolder** modifie le paramètre du dossier de réception avec  _lpEntryID_ définie sur NULL, indiquant que le dossier de réception par défaut doit être définie, **SetReceiveFolder** renvoie S_OK même s’il n’y avait aucun paramètre existant pour la classe de message indiquée. 
+Si **SetReceiveFolder** modifie le paramètre de dossier de réception avec  _lpEntryID_ défini sur NULL, indiquant que le dossier de réception par défaut doit être défini, **SetReceiveFolder** retourne S_OK même s’il n’existe aucun paramètre existant pour la classe de message indiquée. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

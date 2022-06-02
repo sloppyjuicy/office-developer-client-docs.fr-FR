@@ -1,5 +1,6 @@
 ---
 title: IPropDataHrGetPropAccess
+description: IPropData HrGetPropAccess récupère le niveau d’accès et l’état d’une ou plusieurs des propriétés de l’objet.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0101d291-00ca-4f66-b857-75d74b9f91a1
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 91233da24d99249eaa78b236ddcbf6703f6545fd
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: a722168a6b8ef171deb9f3eab612286024e08694
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62774852"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65826896"
 ---
 # <a name="ipropdatahrgetpropaccess"></a>IPropData::HrGetPropAccess
 

@@ -1,5 +1,6 @@
 ---
 title: IMAPITableQueryRows
+description: IMAPITableQueryRows retourne une ou plusieurs lignes d’une table, en commençant à la position actuelle du curseur.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: f26384f1-467e-4343-92b3-0425da9d2123
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e69b80e1374af96a7db4e8b0a3f73fb4b30b9fa4
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 147010f12a83c946bb38ffa938d38ad1c9f529bb
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62776367"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65827820"
 ---
 # <a name="imapitablequeryrows"></a>IMAPITable::QueryRows
 
@@ -25,7 +25,7 @@ ms.locfileid: "62776367"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie une ou plusieurs lignes d’un tableau, en commençant à la position actuelle du curseur.
+Retourne une ou plusieurs lignes d’une table, en commençant à la position actuelle du curseur.
   
 ```cpp
 HRESULT QueryRows(
@@ -39,77 +39,77 @@ LPSRowSet FAR * lppRows
 
  _lRowCount_
   
-> [in] Nombre maximal de lignes à retourner.
+> [in] Nombre maximal de lignes à renvoyer.
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôlent la façon dont les lignes sont renvoyées. L’indicateur suivant peut être définie :
+> [in] Masque de bits des indicateurs qui contrôlent la façon dont les lignes sont retournées. L’indicateur suivant peut être défini :
     
 TBL_NOADVANCE 
   
-> Empêche le curseur d’avancer suite à la récupération de ligne. Si l TBL_NOADVANCE est définie, le curseur pointe vers la première ligne renvoyée. Si l TBL_NOADVANCE n’est pas définie, le curseur pointe vers la ligne qui suit la dernière ligne renvoyée.
+> Empêche le curseur d’avancer à la suite de la récupération de ligne. Si l’indicateur TBL_NOADVANCE est défini, le curseur pointe vers la première ligne retournée. Si l’indicateur TBL_NOADVANCE n’est pas défini, le curseur pointe vers la ligne qui suit la dernière ligne retournée.
     
  _lppRows_
   
-> [out] Pointeur vers un pointeur vers une structure [SRowSet](srowset.md) qui détient les lignes du tableau. 
+> [out] Pointeur vers un pointeur vers une structure [SRowSet](srowset.md) contenant les lignes de table. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Les lignes ont été renvoyées avec succès.
+> Les lignes ont été retournées avec succès.
     
 MAPI_E_BUSY 
   
-> Une autre opération est en cours qui empêche le démarrage de l’opération de récupération de lignes. L’opération en cours doit être autorisée ou arrêtée.
+> Une autre opération est en cours qui empêche le démarrage de l’opération de récupération de ligne. Soit l’opération en cours doit être autorisée à se terminer, soit elle doit être arrêtée.
     
 MAPI_E_INVALID_PARAMETER 
   
-> Le  _paramètre IRowCount_ est définie sur zéro. 
+> Le paramètre  _IRowCount_ est défini sur zéro. 
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPITable::QueryRows** obtient une ou plusieurs lignes de données d’une table. La valeur du  _paramètre IRowCount_ affecte le point de départ de la récupération. Si  _IRowCount est_ positif, les lignes sont lues dans une direction vers l’avant, en commençant à la position actuelle. Si  _IRowCount est_ négatif, **QueryRows** réinitialise le point de départ en déplaçant le nombre de lignes indiqué vers l’arrière. Une fois le curseur réinitialisé, les lignes sont lues dans l’ordre avant. 
+La méthode **IMAPITable::QueryRows** obtient une ou plusieurs lignes de données d’une table. La valeur du paramètre  _IRowCount_ affecte le point de départ de la récupération. Si  _IRowCount_ est positif, les lignes sont lues dans un sens avant, en commençant à la position actuelle. Si  _IRowCount_ est négatif, **QueryRows** réinitialise le point de départ en descendant le nombre de lignes indiqué. Une fois le curseur réinitialisé, les lignes sont lues dans l’ordre avant. 
   
-Le **membre cRows** dans la structure [SRowSet](srowset.md) pointée par le paramètre  _lppRows_ indique le nombre de lignes renvoyées. Si aucune ligne n’est renvoyée : 
+Le membre **cRows** dans la structure [SRowSet](srowset.md) pointé par le paramètre  _lppRows_ indique le nombre de lignes retournées. Si aucune ligne n’est retournée : 
   
-- Le curseur était déjà positionné au début du tableau et la valeur  _de IRowCount_ est négative. -Or- 
+- Le curseur était déjà positionné au début de la table et la valeur  _d’IRowCount_ est négative. -Ou- 
     
-- Le curseur était déjà positionné à la fin du tableau et la valeur de  _IRowCount_ est positive. 
+- Le curseur était déjà positionné à la fin de la table et la valeur  _d’IRowCount_ est positive. 
     
-Le nombre de colonnes et leur ordre sont les mêmes pour chaque ligne. Si une propriété n’existe pas pour une ligne ou s’il existe une erreur lors de la lecture d’une propriété, la structure **SPropValue** de la propriété de la ligne contient les valeurs suivantes : 
+Le nombre de colonnes et leur ordre sont identiques pour chaque ligne. S’il n’existe pas de propriété pour une ligne ou s’il y a une erreur lors de la lecture d’une propriété, la structure **SPropValue** de la propriété de la ligne contient les valeurs suivantes : 
   
-- PT_ERROR pour le type de propriété dans le **membre ulPropTag** . 
+- PT_ERROR pour le type de propriété dans le membre **ulPropTag** . 
     
-- MAPI_E_NOT_FOUND pour le **membre Valeur** . 
+- MAPI_E_NOT_FOUND pour le membre **Value** . 
     
-La mémoire utilisée pour les structures [SPropValue](spropvalue.md) dans le jeu de lignes pointé par  _le paramètre lppRows_ doit être allouée séparément et libérée pour chaque ligne. Utilisez [MAPIFreeBuffer pour](mapifreebuffer.md) libérer les structures de valeur de propriété et pour libérer le jeu de lignes. Toutefois, lorsqu’un appel **à QueryRows** renvoie zéro, indiquant le début ou la fin de la table, seule la structure **SRowSet** elle-même doit être libérée. Pour plus d’informations sur la façon d’allouer et de libérer de la mémoire dans une structure **SRowSet** , voir [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
+La mémoire utilisée pour les structures [SPropValue](spropvalue.md) dans l’ensemble de lignes pointé par le paramètre  _lppRows_ doit être allouée séparément et libérée pour chaque ligne. Utilisez [MAPIFreeBuffer](mapifreebuffer.md) pour libérer les structures de valeur de propriété et libérer le jeu de lignes. Toutefois, lorsqu’un appel à **QueryRows** retourne zéro, indiquant le début ou la fin de la table, seule la structure **SRowSet** elle-même doit être libérée. Pour plus d’informations sur l’allocation et la libération de mémoire dans une structure **SRowSet** , consultez [Gestion de la mémoire pour les structures ADRLIST et SRowSet](managing-memory-for-adrlist-and-srowset-structures.md).
   
-Les lignes renvoyées et l’ordre dans lequel elles sont renvoyées varient selon que des appels réussis ont été effectués ou non à [IMAPITable::Restrict](imapitable-restrict.md) et [IMAPITable::SortTable](imapitable-sorttable.md). **Limitez** les filtres des lignes de l’affichage, ce qui a pour effet **que QueryRows** ne retourne que les lignes qui correspondent aux critères spécifiés dans la restriction. **SortTable** établit un ordre de tri standard ou catégorisé, affectant la séquence de lignes renvoyée par **QueryRows**. Les lignes renvoyées sont dans l’ordre spécifié dans la structure [SSortOrderSet](ssortorderset.md) transmise **à SortTable**.
+Les lignes retournées et l’ordre dans lequel elles sont retournées dépendent de la réussite ou non des appels à [IMAPITable::Restrict](imapitable-restrict.md) et [IMAPITable::SortTable](imapitable-sorttable.md). **Restreignez** les lignes des filtres de la vue, ce qui fait **que QueryRows** retourne uniquement les lignes qui correspondent aux critères spécifiés dans la restriction. **SortTable** établit un ordre de tri standard ou catégorisé, affectant la séquence de lignes retournées par **QueryRows**. Les lignes retournées sont dans l’ordre spécifié dans la structure [SSortOrderSet](ssortorderset.md) passée à **SortTable**.
   
-Les colonnes renvoyées pour chaque ligne et l’ordre dans lequel elles sont renvoyées varient selon qu’un appel réussi a été effectué ou non à [IMAPITable::SetColumns](imapitable-setcolumns.md). **SetColumns** établit un ensemble de colonnes, en spécifiant les propriétés à inclure dans les colonnes du tableau et l’ordre dans lequel elles doivent être incluses. Si un **appel SetColumns** a été effectué, les colonnes spécifiques de chaque ligne et l’ordre de ces colonnes correspondent à l’ensemble de colonnes spécifié dans l’appel. Si aucun **appel SetColumns n’a** été effectué, la table renvoie son jeu de colonnes par défaut. 
+Les colonnes retournées pour chaque ligne et l’ordre dans lequel elles sont retournées dépendent de la réussite ou non d’un appel à [IMAPITable::SetColumns](imapitable-setcolumns.md). **SetColumns** établit un jeu de colonnes, en spécifiant les propriétés à inclure dans les colonnes de la table et l’ordre dans lequel elles doivent être incluses. Si un appel **SetColumns** a été effectué, les colonnes particulières de chaque ligne et l’ordre de ces colonnes correspondent au jeu de colonnes spécifié dans l’appel. Si aucun appel **SetColumns** n’a été effectué, la table retourne son jeu de colonnes par défaut. 
   
-Si aucun de ces appels n’a été effectué, **QueryRows** renvoie toutes les lignes de la table. Chaque ligne contient la colonne par défaut définie dans l’ordre par défaut. 
+Si aucun de ces appels n’a été effectué, **QueryRows** retourne toutes les lignes de la table. Chaque ligne contient l’ensemble de colonnes par défaut dans l’ordre par défaut. 
   
-Lorsque le jeu de colonnes établi dans un appel à [IMAPITable::SetColumns inclut des colonnes définies](imapitable-setcolumns.md) sur PR_NULL, le tableau [SPropValue](spropvalue.md) dans le jeu de lignes renvoyé dans  _lppRows contient des emplacements_ vides. 
+Lorsque l’ensemble de colonnes établi dans un appel à [IMAPITable::SetColumns inclut des colonnes définies](imapitable-setcolumns.md) sur PR_NULL, le tableau [SPropValue](spropvalue.md) dans l’ensemble de  _lignes retourné dans lppRows contient des_ emplacements vides. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Vous pouvez autoriser un appelant à demander qu’une colonne non pris en compte soit incluse dans le jeu de colonnes. Lorsque cela se produit, placez PT_ERROR dans la partie type de propriété de la balise de propriété et MAPI_E_NOT_FOUND dans la valeur de la propriété pour la colonne non pris en MAPI_E_NOT_FOUND. 
+Vous pouvez autoriser un appelant à demander qu’une colonne non prise en charge soit incluse dans le jeu de colonnes. Dans ce cas, placez PT_ERROR dans la partie type de propriété de la balise de propriété et MAPI_E_NOT_FOUND dans la valeur de propriété de la colonne non prise en charge. 
   
-Traite le nombre de lignes comme une demande plutôt qu’une exigence. Vous pouvez revenir n’importe où de zéro ligne, s’il n’y a aucune ligne dans la direction de la requête, au numéro demandé. 
+Traitez le nombre de lignes comme une requête plutôt qu’une exigence. Vous pouvez retourner n’importe où à partir de zéro ligne, s’il n’y a pas de lignes dans le sens de la requête, au nombre demandé. 
   
-Renvoyer uniquement les lignes que l’utilisateur verra lorsque des lignes sont demandées à partir d’une vue de table classée, ce qui permet à l’appelant d’effectuer des hypothèses valides sur l’étendue des données et d’éviter tout travail supplémentaire. 
+Retourne uniquement les lignes que l’utilisateur verra lorsque des lignes sont demandées à partir d’une vue de table classée, ce qui permet à l’appelant de faire des hypothèses valides sur l’étendue des données et d’éviter un travail supplémentaire. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-En règle générale, vous finirez par avoir autant de lignes que vous l’avez spécifié dans _le paramètre lRowCount_ . Toutefois, lorsque les limites de mémoire ou d’implémentation sont un problème ou lorsque l’opération atteint prématurément le début ou la fin de la table, **QueryRows** retourne moins de lignes que demandé. 
+En règle générale, vous vous retrouvez avec autant de lignes que vous l’avez spécifié dans le paramètre _lRowCount_ . Toutefois, lorsque les limites de mémoire ou d’implémentation sont un problème ou lorsque l’opération atteint le début ou la fin prématurément de la table, **QueryRows** retourne moins de lignes que demandé. 
   
-Si **QueryRows** renvoie MAPI_E_BUSY, appelez la méthode [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md) et réessayez l’appel à **QueryRows** une fois l’opération asynchrone terminée. 
+Si **QueryRows** retourne MAPI_E_BUSY, appelez la méthode [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md) et réessayez l’appel à **QueryRows** lorsque l’opération asynchrone est terminée. 
   
-Lorsque vous appelez **QueryRows**, sachez que le minutage des notifications asynchrones peut potentiellement entraîner le fait que le jeu de lignes que vous obtenez de **QueryRows** ne représente pas précisément les données sous-jacentes. Par exemple, un appel de **QueryRows** à la table des matières d’un dossier après la suppression d’un message mais avant la réception de la notification correspondante entraîne le retour de la ligne supprimée dans le jeu de lignes. Attendez toujours l’arrivée d’une notification avant de mettre à jour la vue des données de l’utilisateur. 
+Lors de **l’appel de QueryRows**, sachez que le minutage des notifications asynchrones peut potentiellement empêcher le jeu de lignes que vous obtenez de **QueryRows** de représenter avec précision les données sous-jacentes. Par exemple, un appel à **QueryRows** à la table de contenu d’un dossier après la suppression d’un message, mais avant la réception de la notification correspondante entraîne le retour de la ligne supprimée dans le jeu de lignes. Attendez toujours qu’une notification arrive avant de mettre à jour l’affichage des données par l’utilisateur. 
   
-Pour plus d’informations sur la récupération de lignes à partir de tables, voir Récupération des données à [partir des lignes de tableau](retrieving-data-from-table-rows.md).
+Pour plus d’informations sur la récupération de lignes à partir de tables, consultez [Récupération de données à partir de lignes de table](retrieving-data-from-table-rows.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -117,7 +117,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI utilise la **méthode IMAPITable::QueryRows** pour récupérer les lignes de la table à charger dans l’affichage. |
+|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI utilise la méthode **IMAPITable::QueryRows** pour récupérer les lignes de la table à charger dans la vue. |
    
 ## <a name="see-also"></a>Voir aussi
 

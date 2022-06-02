@@ -1,5 +1,6 @@
 ---
 title: IPSTOVERRIDE1 IUnknown
+description: IPSTOVERRIDE1 IUnknown permet à un fournisseur de magasin PST (Personal Folders File) de remplacer la stratégie PSTDisableGrow.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: d26cee81-45ea-4fd3-8a54-5f35264b5d6a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bf83b0a75ebf3e5e8bc6b1275881563e55a1c7e1
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 4dcc6e0d2d45cf8799b8d5b8721bb0b8d5aae6fe
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63721706"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828282"
 ---
 # <a name="ipstoverride1--iunknown"></a>IPSTOVERRIDE1 : IUnknown
 
@@ -25,28 +25,28 @@ ms.locfileid: "63721706"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet à un fournisseur de magasins de fichiers de dossiers personnels (PST) de remplacer la stratégie PSTDisableGrow.
+Permet à un fournisseur de magasins PST (Personal Folders File) de remplacer la stratégie PSTDisableGrow.
   
 |Propriété |Valeur |
 |:-----|:-----|
-|Hérite de :  <br/> |IUnknown  <br/> |
+|Hérite de :  <br/> |Iunknown  <br/> |
 |Implémenté par :  <br/> |Fournisseur de magasin PST  <br/> |
 |Appelé par :  <br/> |Client  <br/> |
 |Identificateur d’interface :  <br/> |IID_IPSTOVERRIDE1  <br/> |
    
-## <a name="vtable-order"></a>Ordre des vtables
+## <a name="vtable-order"></a>Ordre des tables virtuelles
 
 |Member |Description |
 |:-----|:-----|
-|[IPSTOVERRIDE1::GetPersistedRegistrations](ipstoverride1-getpersistedregistrations.md) <br/> |Extrait la liste des inscriptions pour le fichier de dossiers personnels (.pst). |
-|[IPSTOVERRIDE1::SetPersistedRegistrations](ipstoverride1-setpersistedregistrations.md) <br/> |Enregistre les fichiers dossiers personnels pour le déverrouillage automatique, en évitant d’autres appels à HrTrustedPSTOverrideHandlerCallback. |
-|[IPSTOVERRIDE1::OverridePSTDisableGrow](ipstoverride1-overridepstdisablegrow.md) <br/> |Déverrouille un fichier dossiers personnels pour la croissance. |
+|[IPSTOVERRIDE1::GetPersistedRegistrations](ipstoverride1-getpersistedregistrations.md) <br/> |Récupère la liste des inscriptions pour le fichier Dossiers personnels (.pst). |
+|[IPSTOVERRIDE1::SetPersistedRegistrations](ipstoverride1-setpersistedregistrations.md) <br/> |Inscrit les fichiers Dossiers personnels pour le déverrouillage automatique, en évitant d’autres appels à HrTrustedPSTOverrideHandlerCallback. |
+|[IPSTOVERRIDE1::OverridePSTDisableGrow](ipstoverride1-overridepstdisablegrow.md) <br/> |Déverrouille un fichier Dossiers personnels pour la croissance. |
    
 ## <a name="remarks"></a>Remarques
 
-Les identificateurs d’interface du handler de remplacement PST peuvent ne pas être définis dans le fichier d’en-tête téléchargeable dont vous disposez actuellement, auquel cas vous les trouverez dans la rubrique [Constantes MAPI](mapi-constants.md) et pourrez les copier et les ajouter à votre code. Utilisez la macro DEFINE_GUID définie dans le fichier d’en-tête guiddef.h du Kit de développement logiciel (SDK) Microsoft Windows pour associer des noms symboliques d’identificateur global unique (GUID) à leurs valeurs. 
+Les identificateurs d’interface du gestionnaire de remplacement PST peuvent ne pas être définis dans le fichier d’en-tête téléchargeable que vous avez actuellement, auquel cas vous les trouverez dans la rubrique [Constantes MAPI](mapi-constants.md) , et vous pouvez les copier et les ajouter à votre code. Utilisez la macro DEFINE_GUID définie dans le fichier guiddef.h du fichier d’en-tête du Kit de développement logiciel (SDK) Microsoft Windows pour associer des noms symboliques d’identificateur global unique (GUID) à leurs valeurs. 
   
-Pour plus d’informations, voir Comment implémenter un handler de remplacement PST pour contourner la stratégie [PSTDisableGrow dans Outlook 2007](https://support.microsoft.com/kb/956070).
+Pour plus d’informations, consultez [Comment implémenter un gestionnaire de remplacement PST pour contourner la stratégie PSTDisableGrow dans Outlook 2007](https://support.microsoft.com/kb/956070).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,6 @@
 ---
 title: IPSTX2 IPSTX
+desciption: IPSTX2 IPSTX provides helper functionality when performing replication through the IOSTX interface.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: f8858fcf-315e-dc62-60ad-f9782676e51d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6dcbf7837cc8baa3e6b015be92ecdec2fc4cee1c
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: b8326cb2ad938bd7f7c31f2bb90bc890860ce5aa
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781872"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828086"
 ---
 # <a name="ipstx2--ipstx"></a>IPSTX2 : IPSTX
 
@@ -25,20 +25,20 @@ ms.locfileid: "63781872"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette interface fournit des fonctionnalités d’aide lors de la réplication via l’interface **[IOSTX](iostxiunknown.md)** . 
+Cette interface fournit des fonctionnalités d’assistance lors de l’exécution de la réplication via l’interface **[IOSTX](iostxiunknown.md)** . 
   
 |Propriété|Valeur|
 |:-----|:-----|
 |Fourni par  <br/> |Requête sur [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Identificateur d’interface :  <br/> |IID_IPSTX2  <br/> |
    
-## <a name="vtable-order"></a>Ordre des vtables
+## <a name="vtable-order"></a>Ordre des tables virtuelles
 
 |Member|Description|
 |:-----|:-----|
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Définit l’état suspendu sur lepooler. |
+|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Définit l’état suspendu sur le spouleur. |
    
 ## <a name="see-also"></a>Voir aussi
 

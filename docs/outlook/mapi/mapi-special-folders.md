@@ -1,5 +1,6 @@
 ---
 title: Dossiers sp�ciaux MAPI
+description: MAPI d�finit quelques dossiers sp�ciaux, car ils traiter les r�les pr�d�finis comme dossiers par d�faut pour certains types de messages.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +8,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f2aa2376-b293-4d05-9104-218cc1fe1758
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ee8bee8667514ea21f384996277085cd21bbf3af
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: b517b754622c6099ffae71486aaf7a407d7c096b
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781302"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65827995"
 ---
 # <a name="mapi-special-folders"></a>Dossiers sp�ciaux MAPI
 
