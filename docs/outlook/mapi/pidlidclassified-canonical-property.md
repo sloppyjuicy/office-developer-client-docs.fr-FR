@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidClassified
+description: Décrit la propriété canonique PidLidClassified, qui indique qu’un message est classifié et s’applique à Outlook 2013 et Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: e869a583-2b8f-4782-8c23-74c20a895d8c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d3f7845c2bb0823d13d76c91f5d67019d089d4e3
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 8013b1494410316487d035145ad0ee14b7450005
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63726077"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65852669"
 ---
 # <a name="pidlidclassified-canonical-property"></a>Propriété canonique PidLidClassified
 
@@ -25,7 +25,7 @@ ms.locfileid: "63726077"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique qu’un message est classé.
+Indique qu’un message est classifié.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -37,7 +37,7 @@ Indique qu’un message est classé.
    
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations, [voir How to Deploy Message Classification for Outlook 2007](https://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx)
+Pour plus d’informations, consultez [Comment déployer la classification des messages pour Outlook 2007](https://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx)
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ Pour plus d’informations, [voir How to Deploy Message Classification for Outlo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit une définition de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convertit des conventions de messagerie standard Internet en objets de message.
+> Convertit des conventions e-mail standard Internet en objets de message.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

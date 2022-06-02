@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidAppointmentProposedDuration
+description: La propriété canonique PidLidAppointmentProposedDuration indique la valeur proposée pour la propriété dispidApptDuration pour une proposition de compteur.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 37806778-a19a-4905-a845-525d3912bf9e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 80d9c7372a41e4835a9b0d659659ffdc5a99eaa0
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 59cbe2f6ef2e53a00a7d6cf50a2b078bdb85352b
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725801"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854055"
 ---
 # <a name="pidlidappointmentproposedduration-canonical-property"></a>Propriété canonique PidLidAppointmentProposedDuration
 
@@ -25,7 +25,7 @@ ms.locfileid: "63725801"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la valeur proposée pour la propriété **dispidApptDuration** ([PidLidAppointmentDuration](pidlidappointmentduration-canonical-property.md)) d’une proposition de compteur.
+Indique la valeur proposée pour la propriété **dispidApptDuration** ([PidLidAppointmentDuration](pidlidappointmentduration-canonical-property.md)) pour une proposition de compteur.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -37,7 +37,7 @@ Indique la valeur proposée pour la propriété **dispidApptDuration** ([PidLidA
    
 ## <a name="remarks"></a>Remarques
 
-S’il est définie, elle doit être égale au nombre de minutes entre les propriétés **dispidApptProposedStartWhole** ([PidLidAppointmentProposedStartWhole](pidlidappointmentproposedstartwhole-canonical-property.md)) et **dispidApptProposedEndWhole** ([PidLidAppointmentProposedEndWhole](pidlidappointmentproposedendwhole-canonical-property.md)).
+S’il est défini, il doit être égal au nombre de minutes entre les propriétés **dispidApptProposedStartWhole** ([PidLidAppointmentProposedStartWhole](pidlidappointmentproposedstartwhole-canonical-property.md)) et **dispidApptProposedEndWhole** ([PidLidAppointmentProposedEndWhole](pidlidappointmentproposedendwhole-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,7 +45,7 @@ S’il est définie, elle doit être égale au nombre de minutes entre les propr
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

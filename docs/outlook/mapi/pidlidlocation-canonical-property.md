@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidLidLocation
+title: PidLidLocation Canonical, propriété
+description: Décrit la propriété canonique PidLidLocation, qui représente l’emplacement d’un rendez-vous et s’applique à Outlook 2013 et Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,15 +12,14 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0db4b9e-ab84-4f45-9dbf-9514d306119c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f60591e6c5054df89a9c6f2867afa5a8d4d1bf15
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 0c7b07736f60fb830f5c838cbee375e09ed18054
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781578"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65852151"
 ---
-# <a name="pidlidlocation-canonical-property"></a>Propriété canonique PidLidLocation
+# <a name="pidlidlocation-canonical-property"></a>PidLidLocation Canonical, propriété
 
   
   
@@ -41,7 +41,7 @@ Représente l’emplacement d’un rendez-vous.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit une définition de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

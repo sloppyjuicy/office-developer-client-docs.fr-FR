@@ -1,5 +1,6 @@
 ---
 title: Mention de droits d'auteur sur la référence du fournisseur Outlook Social Connector 2013
+description: Décrit tous les droits juridiques associés à l’avis de copyright de référence du fournisseur Microsoft Outlook Social Connector 2013.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,13 +8,12 @@ ms.topic: overview
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 1425b9f2-606a-4522-b97c-0875d45eb175
-description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
-ms.openlocfilehash: de42731c3165f40748488a47a0ee2df880b899de
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cbd2b73f6c61f7a0f6d92509a7d0a27db73cbadb
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566156"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853565"
 ---
 # <a name="outlook-social-connector-2013-provider-reference-copyright-notice"></a>Mention de droits d'auteur sur la référence du fournisseur Outlook Social Connector 2013
 

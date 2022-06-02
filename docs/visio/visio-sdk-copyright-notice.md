@@ -1,18 +1,18 @@
 ---
 title: Notice de droit d’auteur du kit de développement Visio
+description: Décrit les informations juridiques relatives à la notification de copyright du Kit de développement logiciel (SDK) Microsoft Visio, y compris toutes les marques associées.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: fb478151-4afc-9a06-42a2-1defa54a3c4a
-description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
-ms.openlocfilehash: 32e1b0020106c96a0bfd0e6444b20d089aef6266
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 86a90b3d6a6558293576d17411703e1e99df75c4
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627134"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65852977"
 ---
 # <a name="visio-sdk-copyright-notice"></a>Notice de droit d’auteur du kit de développement Visio
 

@@ -1,5 +1,6 @@
 ---
 title: Affichage de formules ou de valeurs dans les cellules
+description: Décrit les deux étapes à suivre pour afficher des formules ou des valeurs dans des cellules à l’aide de l’onglet Outils Feuille ShapeSheet dans la fenêtre Feuille ShapeSheet.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +9,12 @@ f1_keywords:
 - Vis_DSS.chm82251813
 ms.localizationpriority: medium
 ms.assetid: 757861ab-7b92-b67a-67ea-8dcbc2ea7573
-description: ''
-ms.openlocfilehash: 5d975b3cfc5cf462fb58d45e9ab43586a3ec5c40
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bf92f00462f2e9db850eb4fe62e854c0a76a6c14
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574390"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65852109"
 ---
 # <a name="display-formulas-or-values-in-cells"></a>Afficher des formules ou des valeurs dans les cellules
 

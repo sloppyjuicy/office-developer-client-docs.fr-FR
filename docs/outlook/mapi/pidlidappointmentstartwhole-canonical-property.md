@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidAppointmentStartWhole
+description: La propriété canonique PidLidAppointmentStartWhole représente la date et l’heure de début d’un rendez-vous.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5e8ed98-57af-40d0-85c4-9d9832626e6b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cc9890610a9f2b86a0759600e96b08a48f92870b
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: b8f158ff47aaa736871bc123ae4d3aec2e518362
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725794"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854510"
 ---
 # <a name="pidlidappointmentstartwhole-canonical-property"></a>Propriété canonique PidLidAppointmentStartWhole
 
@@ -37,7 +37,7 @@ Représente la date et l’heure de début d’un rendez-vous.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie la date et l’heure de début de l’événement. Cette propriété doit être en temps universel coordonné (UTC) et doit être inférieure à la valeur de la propriété **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)). Pour une série périodique, cette propriété est la date et l’heure de début de la première instance en fonction de la récurrence.
+Cette propriété spécifie la date et l’heure de début de l’événement. Cette propriété doit être en temps universel coordonné (UTC) et doit être inférieure à la valeur de la propriété **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)). Pour une série périodique, cette propriété correspond à la date et à l’heure de début de la première instance en fonction du modèle de périodicité.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,7 +45,7 @@ Cette propriété spécifie la date et l’heure de début de l’événement. C
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit une définition de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

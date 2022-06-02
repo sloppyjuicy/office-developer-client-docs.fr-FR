@@ -1,5 +1,6 @@
 ---
-title: Outlook copyright de référence du développeur, Social Connector
+title: Outlook avis de copyright de référence du développeur, Social Connector
+description: Décrit tous les droits juridiques associés à l’avis de copyright de référence microsoft Outlook développeur pour le connecteur social.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,15 +8,14 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3d692894-a0c1-b9dc-1196-07ecaa72afee
-description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
-ms.openlocfilehash: 8007a1ca333f1e58f55159128ef45c08880bd0d5
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+ms.openlocfilehash: 1fd62c00653ee39775d8e5fa9230790526b9f524
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63522218"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854706"
 ---
-# <a name="outlook-developer-reference-copyright-notice-social-connector"></a>Outlook copyright de référence du développeur, Social Connector
+# <a name="outlook-developer-reference-copyright-notice-social-connector"></a>Outlook avis de copyright de référence du développeur, Social Connector
 
 Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation. 
   

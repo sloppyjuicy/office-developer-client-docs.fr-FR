@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidBilling
+description: Décrit la propriété canonique PidLidBilling, qui contient les informations de facturation associées à un élément.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 46c23a39-d607-404b-ac67-6d8b02ab6045
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 73e7a76a3ed34373535dff495a185c5e1c717c10
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 0ced7540f483c1ebaeda2ce0a8a61efcc6802950
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63724597"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854328"
 ---
 # <a name="pidlidbilling-canonical-property"></a>Propriété canonique PidLidBilling
 
@@ -41,7 +41,7 @@ Contient les informations de facturation associées à un élément.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit une définition de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -59,5 +59,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

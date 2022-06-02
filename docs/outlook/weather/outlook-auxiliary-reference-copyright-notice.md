@@ -1,5 +1,6 @@
 ---
-title: Outlook copyright de référence auxiliaire, Météo
+title: Outlook mention de copyright de référence auxiliaire, Météo
+description: Décrit tous les droits juridiques associés à l’avis de copyright de référence auxiliaire Microsoft Outlook pour Weather.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,15 +8,14 @@ ms.topic: overview
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 94e13811-04ec-e381-99ff-cb8f42d4bf1e
-description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
-ms.openlocfilehash: 114ce2915ca6952b547cb60d10ece79791ed1b2b
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+ms.openlocfilehash: 1126d0f06266de57464351027ade499eb79d9ecf
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63523051"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853943"
 ---
-# <a name="outlook-auxiliary-reference-copyright-notice-weather"></a>Outlook copyright de référence auxiliaire, Météo
+# <a name="outlook-auxiliary-reference-copyright-notice-weather"></a>Outlook mention de copyright de référence auxiliaire, Météo
 
 Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation.
   

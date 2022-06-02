@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidAppointmentProposalNumber
+description: La propriété canonique PidLidAppointmentProposalNumber spécifie le nombre de participants qui ont envoyé des propositions de compteur non acceptées ou rejetées par l’organisateur.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: f985aeaf-653f-44cb-ac70-6e784bc6c848
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3d32963628e684e946d73cb3ac986b05598d206e
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 980ac5814b90dfd85a1959abacae0944e45afe30
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725222"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853250"
 ---
 # <a name="pidlidappointmentproposalnumber-canonical-property"></a>Propriété canonique PidLidAppointmentProposalNumber
 
@@ -25,7 +25,7 @@ ms.locfileid: "63725222"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le nombre de participants ayant envoyé des propositions de compteur qui n’ont pas été acceptées ou rejetées par l’organisateur.
+Spécifie le nombre de participants qui ont envoyé des contre-propositions qui n’ont pas été acceptées ou rejetées par l’organisateur.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -41,7 +41,7 @@ Spécifie le nombre de participants ayant envoyé des propositions de compteur q
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

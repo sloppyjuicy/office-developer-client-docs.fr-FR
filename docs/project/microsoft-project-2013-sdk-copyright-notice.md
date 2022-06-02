@@ -1,19 +1,19 @@
 ---
-title: Microsoft Project copyright du SDK 2013
+title: Microsoft Project avis de copyright du SDK 2013
+description: Document qui décrit tous les droits juridiques associés à l’avis de copyright du SDK Microsoft Project 2013.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 6f041970-780b-48b4-a277-20e8289134cd
-description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
-ms.openlocfilehash: 78f75a3f6e77a8d540f681758d9ccb1c23b8d5ed
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 063074eb3ebe18c353e6775045e3f2d17d92ac15
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563125"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854356"
 ---
-# <a name="microsoft-project-2013-sdk-copyright-notice"></a>Microsoft Project copyright du SDK 2013
+# <a name="microsoft-project-2013-sdk-copyright-notice"></a>Microsoft Project avis de copyright du SDK 2013
 
 Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation. 
   

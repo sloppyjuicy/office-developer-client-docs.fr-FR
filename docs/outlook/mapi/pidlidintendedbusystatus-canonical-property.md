@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidIntendedBusyStatus
+description: Décrit la propriété canonique PidLidIntendedBusyStatus, qui spécifie la valeur de la propriété dispidBusyStatus.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 84221dd3-de71-4c10-abd7-9f15aefd02ed
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5f37b8f1e4bb67acbf9cad6182d19f4843618db7
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: e3339a1ddc63e05f37d15efa02f814f3321435f2
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63780891"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853642"
 ---
 # <a name="pidlidintendedbusystatus-canonical-property"></a>Propriété canonique PidLidIntendedBusyStatus
 
@@ -25,7 +25,7 @@ ms.locfileid: "63780891"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la valeur de la propriété **dispidBusyStatus** ([PidLidBusyStatus](pidlidbusystatus-canonical-property.md)) sur la réunion dans le calendrier de l’organisateur lorsque la demande de réunion ou la mise à jour de réunion a été envoyée.
+Spécifie la valeur de la propriété **dispidBusyStatus** ([PidLidBusyStatus](pidlidbusystatus-canonical-property.md)) sur la réunion dans le calendrier de l’organisateur lors de l’envoi de la demande de réunion ou de la mise à jour de la réunion.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Spécifie la valeur de la propriété **dispidBusyStatus** ([PidLidBusyStatus](p
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs permises de cette propriété sont les mêmes que celles de la propriété **dispidBusyStatus**.
+Les valeurs autorisées de cette propriété sont les mêmes que celles de la propriété **dispidBusyStatus**.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,7 +45,7 @@ Les valeurs permises de cette propriété sont les mêmes que celles de la propr
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

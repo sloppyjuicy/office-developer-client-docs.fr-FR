@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidCommonEnd
+description: Décrit la propriété canonique PidLidCommonEnd, qui représente la date et l’heure de fin d’un message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c89f388a-1585-4bed-91b4-1b0c268292f3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 48c08d48170caca6d4f1845b3398214b09beef3a
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 6fb1a82e3dee18d2717a78dd8ee0b403e923eba9
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781648"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853803"
 ---
 # <a name="pidlidcommonend-canonical-property"></a>Propriété canonique PidLidCommonEnd
 
@@ -39,7 +39,7 @@ Représente la date et l’heure de fin d’un message.
 
 Cette propriété indique l’heure de fin d’un élément. Elle doit être supérieure ou égale à la valeur de la propriété **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)).
   
-Cette valeur doit être l’équivalent UTC (Temps universel coordonné) de la propriété **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)).
+Cette valeur doit être l’équivalent UTC (Coordinated Universal Time) de la propriété **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -47,7 +47,7 @@ Cette valeur doit être l’équivalent UTC (Temps universel coordonné) de la p
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -55,7 +55,7 @@ Cette valeur doit être l’équivalent UTC (Temps universel coordonné) de la p
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -73,5 +73,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

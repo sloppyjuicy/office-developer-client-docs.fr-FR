@@ -1,22 +1,22 @@
 ---
 title: Élément SnapSettings (DocumentSettings_Type complexType) (Visio XML)
+description: L’élément SnapSettings (DocumentSettings_Type complexType) (Visio XML) spécifie les objets auxquels les formes s’alignent lorsque l’alignement est actif dans la fenêtre.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6e86e943-bd29-0a7b-3d6a-d91281f98777
-description: Spécifie les objets sur qui les formes s’ancrent lorsque l’a snap est actif dans la fenêtre.
-ms.openlocfilehash: 4833fa7436d08a9cdcb440f620774f2ce2d6c0e0
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+ms.openlocfilehash: 7a6bd9d6abdfef27e21a535337c0305c6a719b72
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63522960"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854090"
 ---
 # <a name="snapsettings-element-documentsettings_type-complextype-visio-xml"></a>Élément SnapSettings (DocumentSettings_Type complexType) (Visio XML)
 
-Spécifie les objets sur qui les formes s’ancrent lorsque l’a snap est actif dans la fenêtre.
+Spécifie les objets auxquels les formes s’alignent lorsque l’alignement est actif dans la fenêtre.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -25,7 +25,7 @@ Spécifie les objets sur qui les formes s’ancrent lorsque l’a snap est actif
 |**Type d’élément** <br/> |[SnapSettings_Type](snapsettings_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Composants de document** <br/> |document.xml  <br/> |
+|**Parties de document** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,13 +36,13 @@ Spécifie les objets sur qui les formes s’ancrent lorsque l’a snap est actif
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **la séquence**, **minOccurs**, **maxOccurs** et **le choix**, consultez la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contient des éléments qui spécifient les paramètres de document. |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contient des éléments qui spécifient des paramètres de document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -59,16 +59,16 @@ La valeur peut être une somme des valeurs du tableau suivant.
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aligne sur rien. |
-|1  <br/> |Aligner sur les sous-sections de règle. |
-|2  <br/> |Aligner sur la grille. |
+|1  <br/> |Ancrer aux subdivisions de règle. |
+|2  <br/> |Ancrer à la grille. |
 |4  <br/> |Aligne sur les repères. |
 |8   <br/> |Aligne sur les poignées de sélection. |
 |16  <br/> |Aligne sur les sommets. |
 |32  <br/> |Aligne sur les points de connexion. |
-|256  <br/> |Aligner sur les bords visibles des formes. |
-|512  <br/> |Aligner sur le cadre d’alignement. |
+|256  <br/> |Ancrer aux bords visibles des formes. |
+|512  <br/> |Ancrer à la zone d’alignement. |
 |1024  <br/> |Aligne sur les options d'extension de forme. |
-|32768  <br/> |Aligner désactivé. |
+|32768  <br/> |Ancrer désactivé. |
 |65536  <br/> |Aligner sur les intersections. |
    
 

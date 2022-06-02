@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidFShouldTNEF
+description: Décrit la propriété canonique PidLidFShouldTNEF, qui indique s’il faut encoder un élément au format TNEF (Transport Neutral Encapsulation Format).
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3cab23b6-f0e3-4703-a83b-12a617537651
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a0f6c068d54f834ed2c680efc5dfec8dadff3a18
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: c72098c0453a012b39f20adcc0b88cc33cfa593d
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63723228"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854629"
 ---
 # <a name="pidlidfshouldtnef-canonical-property"></a>Propriété canonique PidLidFShouldTNEF
 
@@ -33,11 +33,11 @@ Indique s’il faut encoder un élément au format TNEF (Transport Neutral Encap
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID long (LID) :  <br/> |0x000085A5  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Configuration au moment de l’exécuter  <br/> |
+|Domaine :  <br/> |Configuration au moment de l’exécution  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est définie lorsque Microsoft Word est définie en tant qu’éditeur de courrier électronique et envoie un objet OLE incorporé dans un flux RTF (Rich Text Format).
+Cette propriété est définie lorsque Microsoft Word est définie en tant qu’éditeur de courrier électronique et qu’elle envoie un objet OLE incorporé dans un flux RTF (Rich Text Format).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,7 +45,7 @@ Cette propriété est définie lorsque Microsoft Word est définie en tant qu’
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

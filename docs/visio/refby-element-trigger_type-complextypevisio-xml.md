@@ -1,22 +1,22 @@
 ---
 title: Élément RefBy (Trigger_Type complexType) (Visio XML)
+description: Décrit la description et les informations d’élément parent/enfant pour l’élément RefBy (Trigger_Type complexType), qui spécifie une référence à une page dans le dessin.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 09f2430a-184d-eaa2-2cb9-51bb24345c51
-description: Spécifie une référence à une page du dessin.
-ms.openlocfilehash: 1c60c4af734290d3e2ebef00b84de9a57d852211
-ms.sourcegitcommit: b2c5a02b2d0abd2da2542089fc3f83ff07e121e0
+ms.openlocfilehash: 75c6186c1a516762432d35a412040281ac2ca447
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63506845"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65852515"
 ---
 # <a name="refby-element-trigger_type-complextype-visio-xml"></a>Élément RefBy (Trigger_Type complexType) (Visio XML)
 
-Spécifie une référence à une page du dessin.
+Spécifie une référence à une page dans le dessin.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -25,7 +25,7 @@ Spécifie une référence à une page du dessin.
 |**Type d’élément** <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Composants de document** <br/> ||
+|**Parties de document** <br/> ||
    
 ## <a name="definition"></a>Définition
 
@@ -36,13 +36,13 @@ Spécifie une référence à une page du dessin.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **la séquence**, **minOccurs**, **maxOccurs** et **le choix**, consultez la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |Fournit des instructions à Microsoft Visio pour recalculer une relation entre les composants de document dans Visio fichier. |
+|[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |Fournit des instructions à Microsoft Visio pour recalculer une relation entre les parties de document dans un fichier Visio. |
 
    
 ### <a name="child-elements"></a>Éléments enfants

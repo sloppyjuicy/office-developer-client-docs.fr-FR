@@ -1,5 +1,6 @@
 ---
 title: Transparency, cellule (section Image Properties)
+description: Décrit les remarques de la cellule Transparency (section Propriétés de l’image), qui détermine le niveau de transparence d’une couleur de couche.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,13 +9,12 @@ f1_keywords:
 - Vis_DSS.chm51095
 ms.localizationpriority: medium
 ms.assetid: 5b265356-1602-4241-fbe1-4d5a55392a52
-description: Définit le niveau de transparence de la couleur d'un calque.
-ms.openlocfilehash: b32681d07747e4ef630220df1fe3d506816c8f75
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 3e57587a00c421697fcd0eee1a338948690f8d34
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63626940"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65852095"
 ---
 # <a name="transparency-cell-image-properties-section"></a>Transparency, cellule (section Image Properties)
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidAttendeeCriticalChange
+description: Décrit la propriété canonique PidLidAttendeeCriticalChange, qui spécifie la date et l’heure d’envoi de l’objet lié à la réunion.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2b46966d-c63d-4241-92d4-001d6a674e97
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d3b4ab5773dc899a0d588cb2884d10d91ab63e23
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 0362cfbb6cd0aae4242ba24cef0298da59792a0e
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783335"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854484"
 ---
 # <a name="pidlidattendeecriticalchange-canonical-property"></a>Propriété canonique PidLidAttendeeCriticalChange
 
@@ -45,7 +45,7 @@ La valeur doit être spécifiée en temps universel coordonné (UTC).
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

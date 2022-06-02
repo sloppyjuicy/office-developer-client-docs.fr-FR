@@ -1,20 +1,20 @@
 ---
-title: Office de copyright de la documentation 2013, Visio
+title: Office avis de copyright de la documentation 2013, Visio
+description: Décrit tous les droits juridiques associés à l’avis de copyright de la documentation Office 2013 pour Visio.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: a9c2f3d9-cea2-49a3-b709-40dc614b9f86
-description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
-ms.openlocfilehash: 55bdaa5f2f98949302bd4f304cfe0582daefa524
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+ms.openlocfilehash: ca8f9ca39d27f71ee6767b3450167368aa8108e1
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63523506"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65852522"
 ---
-# <a name="office-2013-documentation-copyright-notice-visio"></a>Office de copyright de la documentation 2013, Visio
+# <a name="office-2013-documentation-copyright-notice-visio"></a>Office avis de copyright de la documentation 2013, Visio
 
 Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation. 
   

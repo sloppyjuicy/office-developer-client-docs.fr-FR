@@ -1,5 +1,6 @@
 ---
-title: Propri t canonique PidLidFax1EmailType
+title: Propriété canonique PidLidFax1EmailType
+description: Décrit la propriété canonique PidLidFax1EmailType, qui spécifie le type d’e-mail de l’adresse de télécopie professionnelle du contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,21 +12,20 @@ api_name:
 api_type:
 - COM
 ms.assetid: 54436af4-b851-49ab-875a-c52f5da6b776
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ec49cf26c721428f02d0f913e84fe99a1c1c8a0f
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: c90255173da4f46dbf402dae292a104ce233c968
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63726173"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853488"
 ---
-# <a name="pidlidfax1emailtype-canonical-property"></a>Propri t canonique PidLidFax1EmailType
+# <a name="pidlidfax1emailtype-canonical-property"></a>Propriété canonique PidLidFax1EmailType
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le type de courrier électronique de l’adresse de télécopie professionnelle du contact.
+Spécifie le type d’e-mail de l’adresse de télécopie professionnelle du contact.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -41,11 +41,11 @@ Spécifie le type de courrier électronique de l’adresse de télécopie profes
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit une définition de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

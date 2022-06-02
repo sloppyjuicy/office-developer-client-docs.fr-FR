@@ -1,22 +1,22 @@
 ---
 title: Élément SnapAngles (Window_Type complexType) (Visio XML)
+description: Décrit la définition et les informations d’élément pour l’élément SnapAngles (Window_Type complexType), qui contient une collection d’éléments SnapAngle.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 5997f374-303a-92b6-6dd3-87ef81104af4
-description: Contient une collection d’éléments SnapAngle.
-ms.openlocfilehash: 784ad70118a7296a6ba011ea0c963544a03b8baa
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+ms.openlocfilehash: 8d7706f96fbc78292aba135a014a571e61bea3c1
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63521377"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853530"
 ---
 # <a name="snapangles-element-window_type-complextype-visio-xml"></a>Élément SnapAngles (Window_Type complexType) (Visio XML)
 
-Contient une collection **d’éléments SnapAngle** . 
+Contient une collection d’éléments **SnapAngle** . 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -25,7 +25,7 @@ Contient une collection **d’éléments SnapAngle** .
 |**Type d’élément** <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Composants de document** <br/> |windows.xml  <br/> |
+|**Parties de document** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,19 +36,19 @@ Contient une collection **d’éléments SnapAngle** .
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **la séquence**, **minOccurs**, **maxOccurs** et **le choix**, consultez la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[SnapAngle](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |Contient un nombre à point flottant qui spécifie un angle d’snap en degrés. |
+|[SnapAngle](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |Contient un nombre à virgule flottante qui spécifie un angle d’alignement en degrés. |
    
 ### <a name="attributes"></a>Attributs
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidBusinessCardDisplayDefinition
+description: Décrit la propriété canonique PidLidBusinessCardDisplayDefinition, qui contient les détails de personnalisation de l’utilisateur pour l’affichage d’un contact en tant que carte de visite.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0b956dd-7139-49e3-a32a-d70bfb11e0b1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d6115e7f280ea08f9b2145a8a01c708b3644774b
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 7dcb110b5d992634aa868334ab29409f1531b609
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63721956"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853978"
 ---
 # <a name="pidlidbusinesscarddisplaydefinition-canonical-property"></a>Propriété canonique PidLidBusinessCardDisplayDefinition
 
@@ -25,7 +25,7 @@ ms.locfileid: "63721956"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les détails de personnalisation utilisateur pour l’affichage d’un contact en tant que carte de visite.
+Contient les détails de personnalisation de l’utilisateur pour l’affichage d’un contact en tant que carte de visite.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -37,7 +37,7 @@ Contient les détails de personnalisation utilisateur pour l’affichage d’un 
    
 ## <a name="remarks"></a>Remarques
 
-La disposition d’une carte de visite peut être représentée sous la forme d’une image et de plusieurs champs de texte. L’image peut être une photo de contact ou une image de carte. Les champs de texte se composent d’une valeur d’une autre propriété définie sur le contact et d’une chaîne d’étiquette personnalisée facultative fournie par l’utilisateur. Notez que les valeurs multi-byte sont stockées au format little-endian dans la mémoire tampon.
+La disposition d’une carte de visite peut être représentée sous la forme d’une image et d’un certain nombre de champs de texte. L’image peut être une photo de contact ou une image de carte. Les champs de texte sont constitués d’une valeur d’une autre propriété définie sur le contact et d’une chaîne d’étiquette personnalisée facultative fournie par l’utilisateur. Notez que les valeurs de plusieurs octets sont stockées au format little-endian dans la mémoire tampon.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ La disposition d’une carte de visite peut être représentée sous la forme d�
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

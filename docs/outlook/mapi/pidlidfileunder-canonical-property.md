@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidFileUnder
+description: Décrit la propriété canonique PidLidFileUnder, qui spécifie le nom sous lequel le contact est déposé lors de l’affichage d’une liste de contacts.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 55afc4bb-c5fc-4162-a293-7d82644b1965
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2c1d7793f87a60ed04d4e78655c74fbc7fb9249f
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 0b22e98b64d76a6b205d0df5cb393cef1975c752
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781634"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854209"
 ---
 # <a name="pidlidfileunder-canonical-property"></a>Propriété canonique PidLidFileUnder
 
@@ -25,7 +25,7 @@ ms.locfileid: "63781634"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le nom sous lequel le contact est classé lors de l’affichage d’une liste de contacts.
+Spécifie le nom sous lequel le contact est déposé lors de l’affichage d’une liste de contacts.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Spécifie le nom sous lequel le contact est classé lors de l’affichage d’un
    
 ## <a name="remarks"></a>Remarques
 
-L’application doit traiter cette propriété comme une PT_UNICODE vide si elle est absente du contact.
+L’application doit traiter cette propriété comme une PT_UNICODE vide si elle est manquante dans le contact.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ L’application doit traiter cette propriété comme une PT_UNICODE vide si elle
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

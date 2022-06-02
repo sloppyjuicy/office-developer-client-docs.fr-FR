@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidContactLinkEntry
+description: Décrit la propriété canonique PidLidContactLinkEntry, qui contient la liste des entryID du carnet d’adresses liés par cet objet de message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2de48f49-53a4-4117-b5bd-c1db9b5a4d7d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8f8e02174b39210de7ffbd0e6eb56f43e2928c59
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 93e66acd6034bad869be3e83fea1f446f971cbc5
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63720539"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854258"
 ---
 # <a name="pidlidcontactlinkentry-canonical-property"></a>Propriété canonique PidLidContactLinkEntry
 
@@ -25,7 +25,7 @@ ms.locfileid: "63720539"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la liste des **entrées de carnet d’adresses liées** par cet objet de message. 
+Contient la liste des **entryID** du carnet d’adresses liés par cet objet de message. 
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -41,7 +41,7 @@ Contient la liste des **entrées de carnet d’adresses liées** par cet objet d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

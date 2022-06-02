@@ -1,5 +1,6 @@
 ---
 title: Text Fields, section
+description: La section Champs de texte affiche les fonctions et les formules insérées dans le texte de la forme à l’aide de la boîte de dialogue Champ.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +9,12 @@ f1_keywords:
 - Vis_DSS.chm2155
 ms.localizationpriority: medium
 ms.assetid: f743e4ee-343d-0edd-4a6d-5f104781a524
-description: Affiche les fonctions et formules insérées dans le texte de la forme à l’aide de la boîte de dialogue Champ.
-ms.openlocfilehash: 62133f45f37e753c386924ca7a40b32f5106b341
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 119488516bab8e572ddd4a2c14f459bc3aaac70e
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559415"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853264"
 ---
 # <a name="text-fields-section"></a>Text Fields Section
 

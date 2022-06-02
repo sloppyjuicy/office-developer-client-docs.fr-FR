@@ -1,22 +1,22 @@
 ---
 title: Élément GlueSettings (Window_Type complexType) (Visio XML)
+description: L’élément GlueSettings (Window_Type complexType) (Visio XML) spécifie les objets auxquels les formes collent lorsque la colle est activée dans le document.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: b5292f82-f299-ea96-6101-ebb799bbec9a
-description: Spécifie les objets sur qui les formes collent lorsque le collage est activé dans le document.
-ms.openlocfilehash: acc71c96078fea4f5e43ec5ecc63391512807eec
-ms.sourcegitcommit: f8dc13ccaadfbd6d3783c3b291d998d5255a5f38
+ms.openlocfilehash: 9b97631ea939d2639c71ad3f3c568a3060909ddb
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63402652"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65852795"
 ---
 # <a name="gluesettings-element-window_type-complextype-visio-xml"></a>Élément GlueSettings (Window_Type complexType) (Visio XML)
 
-Spécifie les objets sur qui les formes collent lorsque le collage est activé dans le document.
+Spécifie les objets auxquels les formes collent lorsque la colle est activée dans le document.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -25,7 +25,7 @@ Spécifie les objets sur qui les formes collent lorsque le collage est activé d
 |**Type d’élément** <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Composants de document** <br/> |windows.xml, document.xml  <br/> |
+|**Parties de document** <br/> |windows.xml, document.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,11 +36,11 @@ Spécifie les objets sur qui les formes collent lorsque le collage est activé d
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **la séquence**, **minOccurs**, **maxOccurs** et **le choix**, consultez la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio. |
    

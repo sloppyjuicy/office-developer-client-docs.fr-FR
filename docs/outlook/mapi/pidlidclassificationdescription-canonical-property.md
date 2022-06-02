@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidClassificationDescription
+description: Décrit la propriété canonique PidLidClassificationDescription, qui décrit ce que la classification des messages a l’intention d’atteindre.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: e4b85b92-abf7-4e4f-b612-2e20af3c1611
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 84762c610213e3aa1be990fc77f995b0e21a69bd
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 62ddfcd151b59f22d4f0c033f8fd0dd157e93078
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63726207"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853950"
 ---
 # <a name="pidlidclassificationdescription-canonical-property"></a>Propriété canonique PidLidClassificationDescription
 
@@ -37,7 +37,7 @@ Décrit ce que la classification des messages a l’intention d’atteindre.
    
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations, [voir How to Deploy Message Classification for Outlook 2007](https://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx)
+Pour plus d’informations, consultez [Comment déployer la classification des messages pour Outlook 2007](https://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx)
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ Pour plus d’informations, [voir How to Deploy Message Classification for Outlo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convertit des conventions de messagerie standard Internet en objets de message.
+> Convertit des conventions e-mail standard Internet en objets de message.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

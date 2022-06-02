@@ -1,5 +1,6 @@
 ---
 title: Transparency, cellule (section Layers)
+description: Décrit les remarques de la cellule Transparency (section Layers), qui détermine le niveau de transparence d’une couleur de couche.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,13 +9,12 @@ f1_keywords:
 - vis_sdr.chm50130
 ms.localizationpriority: medium
 ms.assetid: 7382e2aa-5e18-19d2-88d8-c4a19a385106
-description: Définit le niveau de transparence de la couleur d'un calque.
-ms.openlocfilehash: 3c77edb3c2e1457faf0bec04753730be1963eb8a
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+ms.openlocfilehash: bcccd6492373203a8df72f8e914812c756db77a8
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63519719"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854083"
 ---
 # <a name="transparency-cell-layers-section"></a>Transparency, cellule (section Layers)
 

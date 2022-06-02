@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidAppointmentReplyTime
+description: La propriété canonique PidLidAppointmentReplyTime spécifie la date et l’heure auxquelles le participant a répondu à une demande de réunion reçue ou à une mise à jour de réunion.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 80a2608b-fc44-455a-86be-d6235caba99e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bf8421cbf0e819b2d3691503d0a7f1a99891ffa8
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: bccceb6bef0275a051683bb9fcfbcba9d2f66601
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781046"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65852951"
 ---
 # <a name="pidlidappointmentreplytime-canonical-property"></a>Propriété canonique PidLidAppointmentReplyTime
 
@@ -25,7 +25,7 @@ ms.locfileid: "63781046"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la date et l’heure à laquelle le participant a répondu à une demande de réunion reçue ou à une mise à jour de réunion.
+Spécifie la date et l’heure auxquelles le participant a répondu à une demande de réunion reçue ou à une mise à jour de réunion.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -45,7 +45,7 @@ La valeur doit être spécifiée en temps universel coordonné (UTC).
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

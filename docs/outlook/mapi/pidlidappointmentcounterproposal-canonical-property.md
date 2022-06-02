@@ -1,5 +1,6 @@
 ---
-title: Propri t canonique PidLidAppointmentCounterProposal
+title: Propriété canonique PidLidAppointmentCounterProposal
+description: La propriété canonique PidLidAppointmentCounterProposal indique que cette réponse à la réunion est une contre-proposition.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,21 +12,20 @@ api_name:
 api_type:
 - COM
 ms.assetid: f510af2d-92b3-4c98-bdf4-8aca8e8b80d1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fc6c046e8f4afeb6c6aa3c4a26612a7b263a69c3
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: c874d7a5d38bae04023d6560bb31e6fc2acf4ae2
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63722817"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65852368"
 ---
-# <a name="pidlidappointmentcounterproposal-canonical-property"></a>Propri t canonique PidLidAppointmentCounterProposal
+# <a name="pidlidappointmentcounterproposal-canonical-property"></a>Propriété canonique PidLidAppointmentCounterProposal
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique que cette réponse à la réunion est une proposition de compteur.
+Indique que cette réponse à la réunion est une contre-proposition.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -41,7 +41,7 @@ Indique que cette réponse à la réunion est une proposition de compteur.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidContactLinkName
+description: Décrit la propriété canonique PidLidContactLinkName, qui contient les éléments de la propriété dispidContacts.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7b9be1cd-e81e-42f3-b391-036afa2ae1b4
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 63dacbc59876fb396820b0ec8c7e8678f1270ac9
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: ac61d117a7684703b4f8be57a5c06d09b35ba9fd
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725205"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854244"
 ---
 # <a name="pidlidcontactlinkname-canonical-property"></a>Propriété canonique PidLidContactLinkName
 
@@ -25,7 +25,7 @@ ms.locfileid: "63725205"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les éléments de la **propriété dispidContacts** ([PidLidContacts](pidlidcontacts-canonical-property.md)).
+Contient les éléments de la propriété **dispidContacts** ([PidLidContacts](pidlidcontacts-canonical-property.md)).
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -37,7 +37,7 @@ Contient les éléments de la **propriété dispidContacts** ([PidLidContacts](p
    
 ## <a name="remarks"></a>Remarques
 
-Les éléments de la **propriété dispidContactLinkName** sont séparés par un point-virgule et un espace (« ; « ). 
+Les éléments de la propriété **dispidContactLinkName** sont séparés par un point-virgule et un espace (« ; « ). 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,7 +45,7 @@ Les éléments de la **propriété dispidContactLinkName** sont séparés par un
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

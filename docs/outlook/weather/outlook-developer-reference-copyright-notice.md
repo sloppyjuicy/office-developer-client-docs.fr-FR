@@ -1,5 +1,6 @@
 ---
-title: Outlook copyright de référence du développeur, Météo
+title: Outlook avis de copyright de référence du développeur, Météo
+description: Décrit tous les droits juridiques associés à l’avis de copyright de référence microsoft Outlook développeur pour Weather.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,15 +8,14 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3d692894-a0c1-b9dc-1196-07ecaa72afee
-description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
-ms.openlocfilehash: 9774f05a706d89c2508ea4313ec8e35886dcc932
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+ms.openlocfilehash: c4cc2a5b4da2e2278b3cdc4568cab04bddce1d3c
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63520622"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853936"
 ---
-# <a name="outlook-developer-reference-copyright-notice-weather"></a>Outlook copyright de référence du développeur, Météo
+# <a name="outlook-developer-reference-copyright-notice-weather"></a>Outlook avis de copyright de référence du développeur, Météo
 
 Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation. 
   

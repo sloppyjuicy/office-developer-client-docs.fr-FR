@@ -1,5 +1,6 @@
 ---
-title: Propri t canonique PidLidBusyStatus
+title: PidLidBusyStatus, propriété canonique
+description: Décrit la propriété canonique PidLidBusyStatus, qui représente la disponibilité de l’utilisateur pour un rendez-vous.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,15 +12,14 @@ api_name:
 api_type:
 - COM
 ms.assetid: 50c91fe6-2a61-4348-a16d-fd5c501b0715
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 328fb301f0dad103268bc7d6adc1a385013c8647
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 5aa973435e53f81f1e06eebbbd3a0673d0f80357
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63631147"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65852942"
 ---
-# <a name="pidlidbusystatus-canonical-property"></a>Propri t canonique PidLidBusyStatus
+# <a name="pidlidbusystatus-canonical-property"></a>PidLidBusyStatus, propriété canonique
 
   
   
@@ -42,7 +42,7 @@ Cette propriété spécifie la disponibilité d’un utilisateur pour l’évén
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0x00000000  <br/> |L'utilisateur est disponible. |
-|0x00000001  <br/> |Un événement provisoire est prévu pour l’utilisateur. |
+|0x00000001  <br/> |Un événement provisoire est planifié pour l’utilisateur. |
 |0x00000002  <br/> |L'utilisateur est occupé. |
 |0x00000003  <br/> |L'utilisateur est absent du bureau. |
    
@@ -52,7 +52,7 @@ Cette propriété spécifie la disponibilité d’un utilisateur pour l’évén
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -64,7 +64,7 @@ Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 
 
@@ -74,5 +74,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

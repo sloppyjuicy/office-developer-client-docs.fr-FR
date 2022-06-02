@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidAppointmentStateFlags
+description: La propriété canonique PidLidAppointmentStateFlags spécifie un champ de bits qui décrit l’état de l’objet.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e5f0f83-c40b-4b3a-8492-61d1b53b1e3c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fc80b02cd1f8d7cfdc9d0c5cc415f96ef2e8e15a
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: e923879c8179327b8c575ccc7fbcb577ffe2f000
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63722796"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853782"
 ---
 # <a name="pidlidappointmentstateflags-canonical-property"></a>Propriété canonique PidLidAppointmentStateFlags
 
@@ -37,7 +37,7 @@ Spécifie un champ de bits qui décrit l’état de l’objet.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n’est pas obligatoire. Vous trouverez ci-dessous les indicateurs individuels qui peuvent être définies.
+Cette propriété n’est pas obligatoire. Vous trouverez ci-dessous les indicateurs individuels qui peuvent être définis.
   
 M (asfMeeting, 0x00000001)
   
@@ -49,7 +49,7 @@ R (asfReceived, 0x00000002)
     
 C (asfCanceled, 0x00000004)
   
-> Cet indicateur indique que l’objet réunion représenté par l’objet a été annulé.
+> Cet indicateur indique que l’objet de réunion représenté par l’objet a été annulé.
     
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -57,7 +57,7 @@ C (asfCanceled, 0x00000004)
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -79,5 +79,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

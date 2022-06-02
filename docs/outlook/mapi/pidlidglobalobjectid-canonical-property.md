@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidGlobalObjectId
+description: Décrit la propriété canonique PidLidGlobalObjectId, qui spécifie l’identificateur unique de l’objet calendar.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: a4e3f9ab-b7ee-4dff-b7bd-2462c561735c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a4159bb71cc43f381df2009909a53e362f41990b
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 654604f9aaeea7d4486d562aa3c5c4796c316985
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781732"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853649"
 ---
 # <a name="pidlidglobalobjectid-canonical-property"></a>Propriété canonique PidLidGlobalObjectId
 
@@ -25,7 +25,7 @@ ms.locfileid: "63781732"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l’identificateur unique de l’objet calendrier.
+Spécifie l’identificateur unique de l’objet calendar.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Spécifie l’identificateur unique de l’objet calendrier.
    
 ## <a name="remarks"></a>Remarques
 
-Une fois définie pour un objet calendrier, la valeur de cette propriété ne doit pas changer. Une description détaillée du format se trouve dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).
+Une fois définie pour un objet calendrier, la valeur de cette propriété ne doit pas changer. Vous trouverez une description détaillée du format dans [[MS-OXOCAL].](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,7 +45,7 @@ Une fois définie pour un objet calendrier, la valeur de cette propriété ne do
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

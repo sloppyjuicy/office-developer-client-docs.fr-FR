@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidDistributionListOneOffMembers
+description: Décrit la propriété canonique PidLidDistributionListOneOffMembers, qui spécifie une liste d’EntryIds uniques.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0b92e654-9e2d-4c2e-9a63-d5fac603b0c0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 90db78a23a4e8930d957b008b1db18fc87db9f07
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 45010d5d66e7d0048b86563a4e01fdd7fb019da3
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63723262"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853523"
 ---
 # <a name="pidliddistributionlistoneoffmembers-canonical-property"></a>Propriété canonique PidLidDistributionListOneOffMembers
 
@@ -25,7 +25,7 @@ ms.locfileid: "63723262"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la liste des EntryIds qui correspondent aux membres de la liste de distribution personnelle.
+Spécifie la liste des EntryIds uniques qui correspondent aux membres de la liste de distribution personnelle.
   
 |Propriété |Valeur |
 |:-----|:-----|
@@ -37,11 +37,11 @@ Spécifie la liste des EntryIds qui correspondent aux membres de la liste de dis
    
 ## <a name="remarks"></a>Remarques
 
-Ces EntryIds encapsulent les noms d’affichage et les adresses e-mail des membres de la liste de distribution personnelle.
+Ces EntryIds uniques encapsulent les noms d’affichage et les adresses e-mail des membres de la liste de distribution personnelle.
   
-Si le client ou le serveur définisse cette propriété, elle doit être synchronisée avec la propriété **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) : pour chaque entrée de la propriété **dispidDLOneOffMembers** , une entrée doit se trouver à la même position dans la propriété **dispidDLMembers** . 
+Si le client ou le serveur définit cette propriété, elle doit être synchronisée avec la propriété **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) : pour chaque entrée de la propriété **dispidDLOneOffMembers** , il doit y avoir une entrée dans la même position dans la propriété **dispidDLMembers** . 
   
-Lors de la définition de **dispidDLOneOffMembers**, le client ou le serveur doit s’assurer que sa taille totale est inférieure à 15 000 octets.
+Lorsque vous définissez **dispidDLOneOffMembers**, le client ou le serveur doit s’assurer que sa taille totale est inférieure à 15 000 octets.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -49,11 +49,11 @@ Lors de la définition de **dispidDLOneOffMembers**, le client ou le serveur doi
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -71,5 +71,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

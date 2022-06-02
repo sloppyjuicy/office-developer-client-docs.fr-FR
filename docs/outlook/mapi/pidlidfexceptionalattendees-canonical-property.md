@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidFExceptionalAttendees
+description: Décrit la propriété canonique PidLidFExceptionalAttendees, qui indique si cette propriété est un objet calendrier périodique avec une ou plusieurs exceptions.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: f1f489a3-e83a-4e96-bf9a-d98bc17d29f5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3291e9fb78cf379086d6fdc26e1d6bba15927ba7
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 7673156b5c08f39f652abc97e218c9960dfa69d0
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781179"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853656"
 ---
 # <a name="pidlidfexceptionalattendees-canonical-property"></a>Propriété canonique PidLidFExceptionalAttendees
 
@@ -25,7 +25,7 @@ ms.locfileid: "63781179"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si cette propriété est un objet calendrier périodique avec une ou plusieurs exceptions, et qu’au moins l’une des exceptions incorporées a au moins un RecipientRow.
+Indique si cette propriété est un objet de calendrier périodique avec une ou plusieurs exceptions, et au moins un des messages incorporés d’exception a au moins un RecipientRow.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Indique si cette propriété est un objet calendrier périodique avec une ou plu
    
 ## <a name="remarks"></a>Remarques
 
-La valeur FALSE ou l’absence de cette propriété indique que l’objet calendrier n’a pas d’exceptions ou qu’aucun des messages incorporés d’exception n’a RecipientRows.
+La valeur FALSE, ou l’absence de cette propriété, indique que l’objet calendrier n’a pas d’exception ou qu’aucun des messages incorporés d’exception n’a recipientRows.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,7 +45,7 @@ La valeur FALSE ou l’absence de cette propriété indique que l’objet calend
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

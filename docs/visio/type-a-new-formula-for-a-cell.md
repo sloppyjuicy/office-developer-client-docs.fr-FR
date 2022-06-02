@@ -1,5 +1,6 @@
 ---
 title: Saisie d'une nouvelle formule dans une cellule
+description: Décrit les trois étapes à suivre pour taper une nouvelle formule pour une cellule dans Microsoft Visio, notamment comment résoudre une erreur.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,13 +9,12 @@ f1_keywords:
 - Vis_DSS.chm82251810
 ms.localizationpriority: medium
 ms.assetid: 546dfe1d-de4f-cc53-8fb4-de7672adc9bc
-description: ''
-ms.openlocfilehash: c54193d55d867c7e2f17dd79cd13f4354d7fbecf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 029d0d342442b7a6ef41b44072c5b54e8e401652
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553668"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65852088"
 ---
 # <a name="type-a-new-formula-for-a-cell"></a>Taper une nouvelle formule dans une cellule
 
@@ -26,7 +26,7 @@ ms.locfileid: "59553668"
     
     La formule que vous tapez remplace la formule précédente de la cellule.
     
-    Si vous tapez un nombre mais que vous ne fournissez pas d’unités de mesure, Microsoft Visio utilise les unités de la valeur précédente de la cellule s’il en existe une. Sinon, si la cellule nécessite une unité, Visio utilise l’unité par défaut de la cellule.
+    Si vous tapez un nombre, mais que vous ne fournissez pas d’unités de mesure, Microsoft Visio utilise les unités de la valeur précédente de la cellule s’il en existait une. Sinon, si la cellule nécessite une unité, Visio utilise l’unité par défaut de la cellule.
     
 3. Pour accepter la formule, appuyez sur Entrée.
     

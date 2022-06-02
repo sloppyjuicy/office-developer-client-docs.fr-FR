@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidFax2OriginalEntryId
+description: Décrit la propriété canonique PidLidFax2OriginalEntryId, qui spécifie l’entryID d’origine de l’adresse de télécopie du contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: da80d72f-9389-463f-8665-f26bb30c0ed2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3af04fe40e8f500802348664dc8c213fe045369a
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 874ab5b73c338689b272ec37978e747a0497c5f7
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781921"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853222"
 ---
 # <a name="pidlidfax2originalentryid-canonical-property"></a>Propriété canonique PidLidFax2OriginalEntryId
 
@@ -25,7 +25,7 @@ ms.locfileid: "63781921"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l’EntryID d’origine de l’adresse de télécopie du domicile du contact.
+Spécifie l’ID d’entrée d’origine de l’adresse de télécopie du contact.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Spécifie l’EntryID d’origine de l’adresse de télécopie du domicile du c
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété, si elle est présente, doit spécifier l’entryid one-off qui correspond à cette adresse de télécopie.
+Cette propriété, si elle est présente, doit spécifier l’EntryId unique qui correspond à cette adresse de télécopie.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ Cette propriété, si elle est présente, doit spécifier l’entryid one-off qu
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit une définition de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

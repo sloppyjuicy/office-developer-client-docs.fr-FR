@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidDistributionListChecksum
+description: Décrit la propriété canonique PidLidDistributionListChecksum, qui spécifie la somme de contrôle polynomiale CRC-32 pour une liste de distribution personnelle.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd50ab34-caae-4258-8afc-769e3cbc5220
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ddd524728eb8172d025aa3448a02ef7bb1372020
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 9bd916c714db3b8d469354929a1a5f35162ddc39
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63780885"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854216"
 ---
 # <a name="pidliddistributionlistchecksum-canonical-property"></a>Propriété canonique PidLidDistributionListChecksum
 
@@ -25,7 +25,7 @@ ms.locfileid: "63780885"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la vérification de la redondance cyclique 32 bits (CRC-32) pour une liste de distribution personnelle.
+Spécifie la somme de contrôle polynomiale de vérification de la redondance cyclique 32 bits (CRC-32) pour une liste de distribution personnelle.
   
 |Propriété|Valeur|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Spécifie la vérification de la redondance cyclique 32 bits (CRC-32) pour une l
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette propriété peut être utilisée pour détecter le moment où la propriété **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) a été mise à jour sans mettre à jour les autres propriétés de membre de la liste de distribution personnelle en calculant le CRC-32 sur la valeur existante de **dispidDLMembers** et en la comparant à la valeur de la propriété **dispidDLChecksum** . 
+La valeur de cette propriété peut être utilisée pour détecter quand la propriété **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) a été mise à jour sans mettre à jour les autres propriétés membres de liste de distribution personnelles en calculant la CRC-32 sur la valeur existante de **dispidDLMembers et en** la comparant à la valeur de la propriété **dispidDLChecksum** . 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ La valeur de cette propriété peut être utilisée pour détecter le moment où
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

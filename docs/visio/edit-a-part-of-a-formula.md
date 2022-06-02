@@ -1,5 +1,6 @@
 ---
 title: Modification d'une partie d'une formule
+description: Fournit la liste des raccourcis clavier utilisés pour modifier une partie d’une formule dans la barre de formule ou dans la cellule.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,13 +9,12 @@ f1_keywords:
 - Vis_DSS.chm82251811
 ms.localizationpriority: medium
 ms.assetid: 6d1ed913-8329-3bb9-d275-9b76597781ee
-description: ''
-ms.openlocfilehash: beb67708403dd3af93cf529a274c375aa567d322
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: fb710a014f14cb7d33f082dd6033495ed0df93e2
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62782296"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854684"
 ---
 # <a name="edit-a-part-of-a-formula"></a>Modifier une partie de formule
 
@@ -35,6 +35,6 @@ ms.locfileid: "62782296"
 | Sélectionner jusqu'à la fin  <br/> | Appuyez sur Ctrl+Fin. |
 | Sélectionner jusqu'au début  <br/> | Appuyez sur Ctrl+Orig. |
 | Remplacer le texte sélectionné  <br/> | Tapez le nouveau texte. |
-| Supprimer le texte sélectionné  <br/> | Appuyez sur SUPPR. Ou sous **l’onglet Accueil** , cliquez sur **Couper**. |
+| Supprimer le texte sélectionné  <br/> | Appuyez sur SUPPR. Ou sous l’onglet **Accueil** , cliquez sur **Couper**. |
    
 

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidFax3DisplayName
+description: Décrit la propriété canonique PidLidFax3DisplayName, qui spécifie le nom complet de l’autre adresse de télécopie du contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 020242dc-2bde-459e-a144-111b6cefb1c0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 601d26b7664a01960691c34a879fbb0e88233ccb
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 66a9fc2d2c8a13de45c35db118286777de2d8612
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781501"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854195"
 ---
 # <a name="pidlidfax3displayname-canonical-property"></a>Propriété canonique PidLidFax3DisplayName
 
@@ -41,11 +41,11 @@ Spécifie le nom complet de l’autre adresse de télécopie du contact.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de définition de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations autorisées pour les contacts et les listes de distribution personnelles.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

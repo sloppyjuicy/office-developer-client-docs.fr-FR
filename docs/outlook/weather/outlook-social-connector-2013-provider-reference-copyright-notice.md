@@ -1,5 +1,6 @@
 ---
-title: Outlook copyright de référence du fournisseur Social Connector 2013, Météo
+title: Outlook avis de copyright de référence du fournisseur Social Connector 2013, Météo
+description: Décrit tous les droits juridiques associés à l’avis de copyright de référence du fournisseur Microsoft Outlook Social Connector 2013 pour Weather.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,15 +8,14 @@ ms.topic: overview
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 1425b9f2-606a-4522-b97c-0875d45eb175
-description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
-ms.openlocfilehash: c4b14def9f6590534ca7df8c7ed485cff54b45d8
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+ms.openlocfilehash: cb50baaf8a970bc87dfdec96f7ec649503dc6852
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63521525"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854678"
 ---
-# <a name="outlook-social-connector-2013-provider-reference-copyright-notice-weather"></a>Outlook copyright de référence du fournisseur Social Connector 2013, Météo
+# <a name="outlook-social-connector-2013-provider-reference-copyright-notice-weather"></a>Outlook avis de copyright de référence du fournisseur Social Connector 2013, Météo
 
 Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation.
   

@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidAppointmentSequence
+description: La propriété canonique PidLidAppointmentSequence spécifie le numéro de séquence d’un objet Meeting.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4db67ea7-09bd-4bab-809c-7bbd4c92614f
-description: Spécifie le numéro de séquence d’un objet Meeting pour Outlook 2013 ou Outlook 2016.
-ms.openlocfilehash: 8b36991e2af87035ae34804b7819076279c6e01e
-ms.sourcegitcommit: 0a067f44281eddabff15fff565fb80eaa543b660
+ms.openlocfilehash: 8cbb1e2f830b92fee523627ec46097d2c25faae3
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63762101"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854048"
 ---
 # <a name="pidlidappointmentsequence-canonical-property"></a>Propriété canonique PidLidAppointmentSequence
 
@@ -41,7 +41,7 @@ Spécifie le numéro de séquence d’un objet Meeting.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

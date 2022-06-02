@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidAppointmentColor
+description: La propriété canonique PidLidAppointmentColor spécifie la couleur à utiliser lors de l’affichage du calendrier.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 91147e85-f440-4463-850b-efc9bdbd36d1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fd42ffb16179857f588c5892123753e60dfc81d7
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 2066f19b0c539c59d208047b245c58b2233a2c1d
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725229"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65854517"
 ---
 # <a name="pidlidappointmentcolor-canonical-property"></a>Propriété canonique PidLidAppointmentColor
 
@@ -37,11 +37,11 @@ Spécifie la couleur à utiliser lors de l’affichage du calendrier.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie la couleur à utiliser lors de l’affichage du calendrier. Un client ou un serveur doit définir cette valeur pour la compatibilité ascendante avec les clients plus anciens. Il peut à la place afficher le calendrier en fonction de la valeur de la propriété **Keywords** ([PidNameKeywords](pidnamekeywords-canonical-property.md)) comme spécifié dans [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Lorsqu’elle est définie, la valeur doit être l’une des suivantes.
+Cette propriété spécifie la couleur à utiliser lors de l’affichage du calendrier. Un client ou un serveur doit définir cette valeur pour la compatibilité descendante avec les clients plus anciens. Il peut à la place afficher le calendrier en fonction de la valeur de la propriété **Keywords** ([PidNameKeywords](pidnamekeywords-canonical-property.md)) comme spécifié dans [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Lorsqu’elle est définie, la valeur doit être l’une des suivantes.
   
 |**Valeur**|**Color**|
 |:-----|:-----|
-|0x00000000  <br/> |Aucun  <br/> |
+|0x00000000  <br/> |Aucune  <br/> |
 |0x00000001  <br/> |Rouge  <br/> |
 |0x00000002  <br/> |Bleu  <br/> |
 |0x00000003  <br/> |Vert  <br/> |
@@ -59,7 +59,7 @@ Cette propriété spécifie la couleur à utiliser lors de l’affichage du cale
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -81,5 +81,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

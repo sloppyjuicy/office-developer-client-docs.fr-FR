@@ -1,5 +1,6 @@
 ---
-title: Propriété canonique PidLidCustomFlag
+title: PidLidCustomFlag, propriété canonique
+description: Décrit la propriété canonique PidLidCustomFlag, qui est un masque de bits qui spécifie comment un message est personnalisé, par exemple, enregistré avec des propriétés personnalisées.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +12,18 @@ api_name:
 api_type:
 - COM
 ms.assetid: bfb7fd1e-774f-9a2f-fbbe-ba7f68ed8663
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cdf86d38c84383043f42e4cd49869c81f9ddf932
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: ef6502addfd22b7a23005f01b4a9ba60f6b86461
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63781592"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853705"
 ---
-# <a name="pidlidcustomflag-canonical-property"></a>Propriété canonique PidLidCustomFlag
+# <a name="pidlidcustomflag-canonical-property"></a>PidLidCustomFlag, propriété canonique
 
 **S’applique à** : Outlook 2013 | Outlook 2016
   
-Masque de bits qui spécifie la façon dont un message est personnalisé, par exemple, enregistré avec des propriétés personnalisées.
+Masque de bits qui spécifie comment un message est personnalisé, par exemple, enregistré avec des propriétés personnalisées.
 
 |Propriété|Valeur|
 |:-----|:-----|
@@ -33,7 +33,7 @@ Masque de bits qui spécifie la façon dont un message est personnalisé, par ex
 
 ## <a name="remarks"></a>Remarques
 
-Pour récupérer la valeur de cette propriété, utilisez d’abord **[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)** pour obtenir la balise de propriété, puis spécifiez cette balise de propriété dans **[IMAPIProp::GetProps](imapiprop-getprops.md)** pour obtenir la valeur.
+Pour récupérer la valeur de cette propriété, commencez par utiliser **[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)** pour obtenir la balise de propriété, puis spécifiez cette balise de propriété dans **[IMAPIProp::GetProps](imapiprop-getprops.md)** pour obtenir la valeur.
   
 Les indicateurs possibles sont les suivants :
   
@@ -44,13 +44,13 @@ Les indicateurs possibles sont les suivants :
 |INSP_ONEOFFFLAGS  <br/> |0x0D000000  <br/> |
 |INSP_PROPDEFINITION  <br/> |0x02000000  <br/> |
 
-Lorsque vous appelez **IMAPIProp::GetIDsFromNames**, spécifiez les valeurs suivantes pour la structure **[MAPINAMEID](mapinameid.md)** pointée par le paramètre d’entrée *lppPropNames*.
+Lors de l’appel **d’IMAPIProp::GetIDsFromNames**, spécifiez les valeurs suivantes pour la structure **[MAPINAMEID](mapinameid.md)** pointée par le paramètre d’entrée *lppPropNames*.
   
 ****
 
 |**Membre**|**Valeur**|
 |:-----|:-----|
-|lpGuid:  <br/> |PSETID_Common  <br/> |
+|lpGuid :  <br/> |PSETID_Common  <br/> |
 |ulKind :  <br/> |MNID_ID  <br/> |
 |Kind.lID :  <br/> |dispidCustomFlag  <br/> |
 
@@ -70,11 +70,11 @@ Mapidefs.h
 
 Mapitags.h
   
-> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
+> Contient des définitions de propriétés répertoriées en tant que noms secondaires.
 
 ## <a name="see-also"></a>Voir aussi
 
 [Propriétés MAPI](mapi-properties.md)  
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)  
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)  
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)

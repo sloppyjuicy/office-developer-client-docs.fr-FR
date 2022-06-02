@@ -1,5 +1,6 @@
 ---
-title: Outlook copyright de référence auxiliaire
+title: Outlook avis de copyright de référence auxiliaire
+description: Décrit tous les droits juridiques associés à l’avis de copyright de référence auxiliaire Microsoft Outlook.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,15 +8,14 @@ ms.topic: overview
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 94e13811-04ec-e381-99ff-cb8f42d4bf1e
-description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
-ms.openlocfilehash: ee3f1e783c253ff7661b271dfd3e0407768c4c49
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b4be60e821f491c439aaeba193e48dc116c25729
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604066"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65853369"
 ---
-# <a name="outlook-auxiliary-reference-copyright-notice"></a>Outlook copyright de référence auxiliaire
+# <a name="outlook-auxiliary-reference-copyright-notice"></a>Outlook avis de copyright de référence auxiliaire
 
 Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation.
   

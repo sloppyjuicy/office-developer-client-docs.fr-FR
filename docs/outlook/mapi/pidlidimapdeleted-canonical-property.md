@@ -1,5 +1,6 @@
 ---
 title: Propriété canonique PidLidImapDeleted
+description: Décrit la propriété canonique PidLidImapDeleted, qui désigne les éléments IMAP (Internet Mail Access Protocol) marqués pour suppression.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee929306-8962-494d-bc47-9b4069f01267
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c5c60e45b7bb69c538ac8e03be7162769f123b00
-ms.sourcegitcommit: eb9453e5664b01759b602cb5a4cef5b4885128f3
+ms.openlocfilehash: 2fa2c4f978d793e5f1858dff30ce126f32e80172
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63782719"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65852144"
 ---
 # <a name="pidlidimapdeleted-canonical-property"></a>Propriété canonique PidLidImapDeleted
 
@@ -37,7 +37,7 @@ Indique les éléments IMAP (Internet Mail Access Protocol) marqués pour suppre
    
 ## <a name="remarks"></a>Remarques
 
-Si la valeur est définie sur une valeur autre que zéro, l’élément a été marqué pour suppression.
+S’il est défini sur une valeur différente de zéro, l’élément a été marqué pour suppression.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,7 +45,7 @@ Si la valeur est définie sur une valeur autre que zéro, l’élément a été 
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 
