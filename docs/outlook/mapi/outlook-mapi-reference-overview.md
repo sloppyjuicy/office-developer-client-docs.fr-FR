@@ -1,19 +1,19 @@
 ---
 title: Vue d’ensemble de la référence MAPI Outlook
+description: Cette rubrique fournit des informations générales sur la documentation de référence MAPI de Microsoft Outlook 2013.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 api_type:
 - COM
 ms.assetid: 4c126d0c-d7c0-45c0-801c-c9f1e44c9db6
-description: Dernière modification le 1er février 2013
 ms.localizationpriority: high
-ms.openlocfilehash: e0168b6543516969fceb9f63c24483826e9e54aa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b9b070287a1ffa239e94fe6b84b029a4a0dcf154
+ms.sourcegitcommit: 1b44c8f9eac3aedaf7fe7ec70c808fe8ed7d4b99
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59555915"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65852662"
 ---
 # <a name="outlook-mapi-reference-overview"></a>Vue d’ensemble de la référence MAPI Outlook
 
