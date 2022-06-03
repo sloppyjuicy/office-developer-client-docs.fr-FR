@@ -1,19 +1,19 @@
 ---
 title: Installation du sous-système MAPI
+description: Décrit le processus d’installation du sous-système MAPI, y compris la configuration système requise et la récupération des informations de version.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 api_type:
 - COM
 ms.assetid: 29fb4c44-1a59-457e-813b-a982bd72891c
-description: Dernière modification le 9 mars 2015
 ms.localizationpriority: high
-ms.openlocfilehash: ebf78df8a4f00fcd1a264889b5bd2d46abf369e8
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 26604f25de63ab4e5bfaf9a2e8f6df157b17ab67
+ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62779783"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65828156"
 ---
 # <a name="installing-the-mapi-subsystem"></a>Installation du sous-système MAPI
 
