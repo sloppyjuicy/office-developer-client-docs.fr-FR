@@ -1,5 +1,6 @@
 ---
 title: ROWLIST
+description: Décrit comment ROWLIST contient un tableau de structures ROWENTRY représentant des lignes et les opérations effectuées sur ces lignes.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: ce0be0d5-4962-4d53-828f-c93d1c5aae32
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 03b55fd87620eaca1421d4d467b92030aac891e2
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 6ff338ffa30f853d8d187fd757184cc7e2bef3db
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773109"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65893647"
 ---
 # <a name="rowlist"></a>ROWLIST
 
@@ -25,7 +25,7 @@ ms.locfileid: "62773109"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de structures [ROWENTRY](rowentry.md) représentant des lignes et les opérations effectuées sur ces lignes dans un tableau via l’interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
+Contient un tableau de structures [ROWENTRY](rowentry.md) représentant des lignes et les opérations effectuées sur ces lignes dans une table via l’interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
   
 ```cpp
 typedef struct
@@ -40,11 +40,11 @@ typedef struct
 
  **cEntries**
   
-> Nombre d’entrées dans le tableau spécifié par **le membre aEntries** . 
+> Nombre d’entrées dans le tableau spécifié par le membre **aEntries** . 
     
  **aEntries[MAPI_DIM]**
   
-> Tableau de structures **ROWENTRY** qui contient les lignes et les opérations effectuées sur ces lignes dans le tableau. 
+> Tableau de structures **ROWENTRY** qui contient les lignes et les opérations effectuées sur ces lignes dans la table. 
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

@@ -1,5 +1,6 @@
 ---
 title: ROWENTRY
+description: Décrit comment ROWENTRY contient une ligne et l’opération effectuée sur cette ligne dans une table via l’interface IExchangeModifyTable.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +12,18 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd6c0d8e-68cc-4d60-9029-13ed81c816cd
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c4a67513786bfb4a998ab85a90cc2c88f0c83a77
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 4fd41928d911f92cddf617f3b8f10afc77e269ee
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62773116"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894270"
 ---
 # <a name="rowentry"></a>ROWENTRY
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une ligne et l’opération effectuée sur cette ligne dans un tableau via l’interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
+Contient une ligne et l’opération qui est effectuée sur cette ligne dans une table via l’interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
   
 ```cpp
 typedef struct
@@ -40,13 +40,13 @@ typedef struct
   
 > L’une des opérations suivantes à effectuer sur les données : 
     
-  - ROW_ADD : ajoutez les données au tableau en tant que nouvelle ligne.
+  - ROW_ADD : ajoutez les données à la table en tant que nouvelle ligne.
       
-  - ROW_MODIFY : modifiez cette ligne dans le tableau.
+  - ROW_MODIFY : modifiez cette ligne dans la table.
       
-  - ROW_REMOVE : supprimez cette ligne du tableau.
+  - ROW_REMOVE : Supprimez cette ligne de la table.
       
-  - ROW_EMPTY : n’ajoutez pas les données de ligne au tableau. (La ligne est vide.)
+  - ROW_EMPTY : n’ajoutez pas les données de ligne à la table. (La ligne est vide.)
     
 **cValues**
   
@@ -54,7 +54,7 @@ typedef struct
     
 **rgPropVals**
   
-> Tableau de structures [SPropValue](spropvalue.md) représentant les valeurs de colonnes à insérer dans le tableau. 
+> Tableau de structures [SPropValue](spropvalue.md) représentant les valeurs de colonnes à insérer dans la table. 
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

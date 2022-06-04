@@ -7,24 +7,24 @@ ms:contentKeyID: 48544197
 ms.date: 09/18/2021
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4f16c7367350d3728a893ee58e657f41075d0c2f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 49e6a3bf5dadd3971419518b9592026bbc5dcd62
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59607611"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65893808"
 ---
 # <a name="ado-events-model-example-vc"></a>Exemple de modèle d’événements ADO (VC++)
 
 **S’applique à** : Access 2013, Office 2013
 
-La section Visual C++ de la rubrique [Instanciation des événements ADO par langage ](/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado.md) fournit une description générale de la méthode à suivre pour instancier le modèle d'événements ADO. Voici un exemple spécifique d’ins instantiation du modèle d’événement dans l’environnement créé par la directive **\# d’importation.**
+La section Visual C++ de la rubrique [Instanciation des événements ADO par langage ](/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) fournit une description générale de la méthode à suivre pour instancier le modèle d'événements ADO. Voici un exemple spécifique d’instanciation du modèle d’événement dans l’environnement créé par la directive **d’importation\#**.
 
-Cette description utilise **adoint.h** comme référence pour les signatures des méthodes. Toutefois, quelques détails de la description générale changent légèrement suite à l’utilisation de la directive **\# d’importation** :
+Cette description utilise **adoint.h** comme référence pour les signatures des méthodes. Toutefois, quelques détails dans la description générale changent légèrement en raison de l’utilisation de la directive **d’importation\#** :
 
-- La directive **\# d’importation** résout les **types de** données et les modificateurs de signature de type et de signature de méthode en leurs formes fondamentales.
+- La **\#directive d’importation** résout les types de données et modificateurs de signature de **typedef** et de méthode en leurs formes fondamentales.
 
-- Les méthodes virtuelles pures qui doivent être écrasées sont toutes précédées de «**raw \_**».
+- Les méthodes virtuelles pures qui doivent être remplacées sont toutes préfixées par « **raw\_** ».
 
 Une partie du code reflète simplement un style de codage.
 
@@ -34,13 +34,13 @@ Une partie du code reflète simplement un style de codage.
 
 - Il peut s'avérer judicieux de coder des implémentations plus fiables de QueryInterface, AddRef et Release.
 
-- La directive **\_ \_ uuidof()** est largement utilisée pour obtenir des ID d’interface.
+- La **\_\_directive uuidof()** est largement utilisée pour obtenir des ID d’interface.
 
 Enfin, l'exemple contient des parties de code exploitables.
 
 - L'exemple est écrit en tant qu'application console.
 
-- Vous devez insérer votre propre code sous le commentaire « // Faire du travail ».
+- Vous devez insérer votre propre code sous le commentaire « // Effectuer un travail ».
 
 - Par défaut, tous les gestionnaires d'événements ne font rien et annulent toute notification ultérieure. Vous devez insérer le code approprié à votre application et autoriser l'envoi de notifications si besoin est.
 

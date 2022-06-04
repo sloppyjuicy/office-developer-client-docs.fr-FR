@@ -7,12 +7,12 @@ ms:contentKeyID: 55119791
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4e8a22c3b3e231dd77b7179e52a0c40d3336c95c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 63569e8fb96c3a25d55626f7ce83b4158ce57273
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590505"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65893948"
 ---
 # <a name="using-late-binding-if-depending-on-multiple-versions-of-outlook"></a>Utilisation de la liaison tardive en cas de dépendance envers plusieurs versions d’Outlook
 
@@ -22,7 +22,7 @@ Cependant, la liaison anticipée présente l'inconvénient d'introduire une inco
 
 Dans ces cas-là, la **liaison tardive** attend l’exécution pour lier les appels de propriété et de méthode à leurs objets. La liaison tardive peut aider à éviter les complications liées aux types qui diffèrent dans différentes versions d'Outlook, et est particulièrement utile lors de l'écriture de compléments qui dépendent de plusieurs versions d'Outlook.
 
-La liaison tardive implique qu’un complément appelle l’interface [IDispatch](https://docs.microsoft.com/windows/desktop/api/oaidl/nn-oaidl-idispatch) implémentée par Outlook. Pour utiliser la liaison tardive en Visual C\#, utilisez la méthode [System.Type.InvokeMember](https://docs.microsoft.com/dotnet/api/system.type.invokemember?view=netframework-4.7.2). Cette méthode appelle [IDispatch::GetIDsOfNames](https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames) et [IDispatch::Invoke](https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) pour établir une liaison aux méthodes et propriétés d’Outlook. La méthode IDispatch::GetIDsOfNames permet à Visual C\# d’interroger un objet afin de déterminer les méthodes et propriétés qu’il prend en charge et la méthode IDispatch::Invoke permet ensuite à Visual C\# d’appeler ces méthodes et propriétés. 
+La liaison tardive implique qu’un complément appelle l’interface [IDispatch](/windows/desktop/api/oaidl/nn-oaidl-idispatch) implémentée par Outlook. Pour utiliser la liaison tardive en Visual C\#, utilisez la méthode [System.Type.InvokeMember](/dotnet/api/system.type.invokemember). Cette méthode appelle [IDispatch::GetIDsOfNames](/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames) et [IDispatch::Invoke](/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) pour établir une liaison aux méthodes et propriétés d’Outlook. La méthode IDispatch::GetIDsOfNames permet à Visual C\# d’interroger un objet afin de déterminer les méthodes et propriétés qu’il prend en charge et la méthode IDispatch::Invoke permet ensuite à Visual C\# d’appeler ces méthodes et propriétés. 
 
 <!-- PAGES 404 
 For more information about using late binding in C\#, see [KB 302902: Binding for Office Automation Servers with Visual C\# .NET](https://go.microsoft.com/fwlink/?linkid=88971). For more information about using late binding in Visual Basic, see [KB 304661: How to Use Visual Basic .NET for Binding for Office Automation Servers](https://go.microsoft.com/fwlink/?linkid=88972).

@@ -1,5 +1,6 @@
 ---
 title: UPMOV
+description: Décrit les informations relatives au chargement d’éléments qui ont été déplacés. Ces informations sont utilisées pendant l’état de suppression de chargement et l’état de la table de chargement.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +8,18 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 098743a5-f265-639a-8ba6-1412705bee0a
-description: 'Derni�re modification�: jeudi 5 juillet 2012'
-ms.openlocfilehash: 7158dc87eea0403860310338dca636285601fd1c
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 68b5c471f08b6965156f645565645267c76ea799
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63373374"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894088"
 ---
 # <a name="upmov"></a>UPMOV
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour le chargement d’éléments qui ont été déplacés. Ces informations sont utilisées pendant l’état de suppression de [téléchargement et](upload-delete-status-state.md) [l’état de la table de chargement](upload-table-state.md).
+Informations sur le chargement d’éléments qui ont été déplacés. Ces informations sont utilisées pendant [l’état de suppression de chargement](upload-delete-status-state.md) et [l’état de la table de chargement](upload-table-state.md).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -47,7 +47,7 @@ _ulFlags_
     
   - UPV_ERROR
     
-    - [in] Problème d’ouverture du dossier serveur.
+    - [in] Problème lors de l’ouverture du dossier serveur.
     
   - UPV_DIRTY
     
@@ -57,7 +57,7 @@ _ulFlags_
     
     - [in] Valider l’état de chargement.
     
-_pReserved_
+_Conservés_
   
 > [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
@@ -78,17 +78,17 @@ _feid_
     
 _pfld_
   
-> [in] Pointeur vers le dossier du serveur. 
+> [in] Pointeur vers le dossier serveur. 
     
 _pxicc_
   
-> [in] Pointeur vers l’interface de contenu **IExchangeImportContentsChanges** qui prend en charge le chargement des modifications de contenu lors de l’utilisation de la synchronisation incrémentielle des modifications (ICS). Pour plus d’informations **sur IExchangeImportContentsChanges** et ICS, voir Critères [d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+> [in] Pointeur vers l’interface de contenu **IExchangeImportContentsChanges** qui prend en charge le chargement des modifications de contenu lors de l’utilisation de la synchronisation incrémentielle des modifications (ICS). Pour plus d’informations sur **IExchangeImportContentsChanges** et ICS, consultez [critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _dwReserved_
   
 > [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
-_movNext_
+_pupmovNext_
   
 > [out] Contexte de déplacement suivant. 
     

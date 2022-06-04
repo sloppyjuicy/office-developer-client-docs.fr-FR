@@ -7,12 +7,12 @@ ms:contentKeyID: 55119880
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 61d2ece4fcc0ba6301c7642f29a5f2a2f5bb7d86
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2fd9e16a366ceb014d5366a9527c49a0e85d396f
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590774"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894109"
 ---
 # <a name="create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up"></a>Création d’une règle pour classer les éléments de courrier provenant d’un manager et les marquer pour le suivi
 
@@ -34,7 +34,7 @@ Le modèle objet **Rules** ne prend pas en charge toutes les règles que vous po
 Une règle peut s’exécuter sur le serveur Exchange ou sur le client Outlook, à condition que la boîte aux lettres de l’utilisateur actuel soit hébergée sur un serveur Exchange. La propriété [IsLocalRule](https://msdn.microsoft.com/library/bb647386\(v=office.15\)) de l'objet **Rule** retourne **true** pour indiquer que la règle s'exécute sur un client, et Outlook doit être en cours d'exécution pour que la règle s'exécute. Si la règle s'exécute sur le serveur, Outlook ne doit pas être en cours d'exécution pour que les conditions de règle soient évaluées et que les actions de règle soient effectuées.
 
 > [!NOTE]
-> Il n'existe pas de collection distincte représentant les conditions d'exception des règles. Utilisez la propriété [Exceptions](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._rule.exceptions?view=outlook-pia) de l'objet **Rule** pour obtenir une collection [RuleConditions](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.ruleconditions?view=outlook-pia) qui représente les conditions d'exception des règles.
+> Il n'existe pas de collection distincte représentant les conditions d'exception des règles. Utilisez la propriété [Exceptions](/dotnet/api/microsoft.office.interop.outlook._rule.exceptions) de l'objet **Rule** pour obtenir une collection [RuleConditions](/dotnet/api/microsoft.office.interop.outlook.ruleconditions) qui représente les conditions d'exception des règles.
 
 Pour créer des règles via le modèle objet Outlook, procédez selon les étapes suivantes :
 
@@ -58,7 +58,7 @@ Dans l’exemple de code suivant, CreateManagerRule implémente les étapes pré
 
 Enfin, le message est marqué pour un suivi le jour même. CreateManagerRule montre également une gestion appropriée des erreurs pour les conditions susceptibles de générer une exception, par exemple dans le cas où l’utilisateur est hors connexion ou déconnecté en mode Exchange mis en cache. 
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable Outlook lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration Class publique. La ligne de code suivante montre comment effectuer l’importation et l’affectation dans C \#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

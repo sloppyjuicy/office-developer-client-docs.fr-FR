@@ -16,16 +16,16 @@ f1_keywords:
 - PIA [Outlook 2010]
 - reference [Outlook 2010], primary interop assembly
 ms.localizationpriority: medium
-ms.openlocfilehash: c25def17c07a23d7a14205852ffe2de39116d36a
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 290f1890bce136785e5e3d6c45a7562468eb444e
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179633"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894760"
 ---
 # <a name="outlook-primary-interop-assembly-reference"></a>Référence de l’assembly PIA (Primary Interop Assembly) Outlook
 
-La documentation Référence de l’assembly PIA (Primary Interop Assembly) Outlook 2013 fournit une aide au développement d’applications managées pour Outlook 2013. Elle étend la [Référence pour développeurs Outlook 2013](https://docs.microsoft.com/office/vba/api/overview/outlook) de l’environnement COM à l’environnement managé et explique en détail comment utiliser l’assembly PIA. Elle inclut tous les ajouts et les changements apportés au modèle objet dans Outlook 2013 et fournit de nombreux exemples de code en C\# et Visual Basic qui montrent comment exécuter des tâches courantes dans Outlook.
+La documentation Référence de l’assembly PIA (Primary Interop Assembly) Outlook 2013 fournit une aide au développement d’applications managées pour Outlook 2013. Elle étend la [Référence pour développeurs Outlook 2013](/office/vba/api/overview/outlook) de l’environnement COM à l’environnement managé et explique en détail comment utiliser l’assembly PIA. Elle inclut tous les ajouts et les changements apportés au modèle objet dans Outlook 2013 et fournit de nombreux exemples de code en C\# et Visual Basic qui montrent comment exécuter des tâches courantes dans Outlook.
 
 Si vous débutez en tant que développeur de solutions pour Outlook, consultez [Sélection d'une API ou d'une technologie pour développer des solutions pour Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) pour identifier les API et technologies les plus adaptées à vos besoins.
 
@@ -35,9 +35,9 @@ Si vous débutez dans l’écriture de compléments pour Outlook, consultez d’
 
 Si vous avez une connaissance de base du modèle objet Outlook et que vous apprenez à développer des compléments Outlook managés, consultez l’article relatif à la [configuration requise pour utiliser l’assembly PIA Outlook](setting-up-to-use-the-outlook-pia.md). 
 
-Pour en savoir plus sur le développement de solutions Office managées à l’aide des Outils de développement Office pour Visual Studio 2013, consultez l’article [Développement Office dans Visual Studio](https://docs.microsoft.com/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio?view=vs-2017). 
+Pour en savoir plus sur le développement de solutions Office managées à l’aide des Outils de développement Office pour Visual Studio 2013, consultez l’article [Développement Office dans Visual Studio](/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio). 
 
-Pour apprendre à programmer des tâches Outlook de base en Visual Basic et en C\#, reportez-vous à l’article relatif aux [solutions Outlook](https://docs.microsoft.com/visualstudio/vsto/outlook-solutions?view=vs-2017). 
+Pour apprendre à programmer des tâches Outlook de base en Visual Basic et en C\#, reportez-vous à l’article relatif aux [solutions Outlook](/visualstudio/vsto/outlook-solutions). 
 
 Pour obtenir des exemples de code plus sophistiqués, consultez l’article [Comment... (Référence PIA Outlook 2013)](how-do-i-outlook-2013-pia-reference.md) dans cette référence.
 
@@ -54,12 +54,12 @@ Si vous utilisez les Outils de développement Office pour Visual Studio 2013 
 - [Architecture de l’assembly PIA Outlook](architecture-of-the-outlook-pia.md)
 - [Développement de compléments managés Outlook à l’aide de l’assembly PIA Outlook](developing-managed-outlook-add-ins-using-the-outlook-pia.md)
 - [Procédure (Référence PIA Outlook 2013)](how-do-i-outlook-2013-pia-reference.md)
-- [Bibliothèque de classes](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook?view=outlook-pia)
+- [Bibliothèque de classes](/dotnet/api/microsoft.office.interop.outlook)
 
 ## <a name="see-also"></a>Voir aussi
 
 - [Centre pour développeurs Outlook](../outlook-home.md)
 - [Interopérabilité entre COM et .NET](https://www.apress.com/us/book/9781590590119)
-- [Développement Office dans Visual Studio](https://docs.microsoft.com/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio?view=vs-2017)
+- [Développement Office dans Visual Studio](/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio)
 - [Accessibilité des produits Microsoft](https://www.microsoft.com/accessibility/)
 

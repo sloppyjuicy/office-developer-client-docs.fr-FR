@@ -8,12 +8,12 @@ keywords:
 - excel 2007 xll software development kit,add-ins [Excel 2007]
 ms.assetid: abfc9d76-6f22-49b9-ba45-eb7a54b082e0
 ms.localizationpriority: high
-ms.openlocfilehash: ef2c1db0d171f9d7cca289d7e7f895226536f026
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: 617265dbc0f46be544e5bf1bee395543b0c95e43
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198295"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894221"
 ---
 # <a name="welcome-to-the-excel-software-development-kit"></a>Bienvenue dans le Kit de développement logiciel (SDK) Excel
 
@@ -55,7 +55,7 @@ Les sujets suivants ne sont pas traités :
 
 [Centre pour développeurs Excel](https://msdn.microsoft.com/office/aa905411.aspx)
   
-[Centre pour développeurs Microsoft Office](https://msdn.microsoft.com/office/default.aspx)
+[Centre pour développeurs Microsoft Office](/office/developer-program/microsoft-365-developer-program)
   
 [SDK Excel�2010�: kit de d�veloppement logiciel XLL Excel�2010](https://go.microsoft.com/fwlink/?LinkID=186435&amp;clcid=0x409)
   

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.assetid: 550fc235-f0b9-4d8e-805b-ce467821a8c9
 description: Renvoie une valeur mise en forme selon un modèle spécifié.
 ms.localizationpriority: high
-ms.openlocfilehash: 5edae783e466d2d204762f3a0e708819e4be285c
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: eea5d5f20e746b22958b98e2e68953b52fbdf09a
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63375985"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65893682"
 ---
 # <a name="format-function-access-custom-web-app"></a>Fonction de format (application web personnalisée Access)
 
@@ -20,7 +20,7 @@ Renvoie une valeur mise en forme selon un modèle spécifié.
   
 > [!NOTE]
 > La fonctionnalité de stockage dans le cloud décrite dans cet article n'est plus prise en charge dans Office 2013 et Office 2016 et peut entraîner l'erreur suivante : *Désolé, nous avons des problèmes de serveur, donc nous ne pouvons pas ajouter\<service\> en ce moment. Veuillez réessayer plus tard.*
-> Pour le stockage cloud pour Office Online, Office pour iOS et Office pour Android, recherchez notre programme [Office cloud Stockage partenaire.](https://dev.office.com/programs/officecloudstorage)
+> Pour le stockage cloud pour Office Online, Office pour iOS et Office pour Android, recherchez notre programme [Office cloud Stockage partenaire.](/microsoft-365/cloud-storage-partner-program/)
   
 ## <a name="syntax"></a>Syntaxe
 

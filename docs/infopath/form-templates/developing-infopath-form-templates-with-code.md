@@ -8,18 +8,18 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: b43ada73-349d-498f-a8bb-e8fd5020d207
 description: Les rubriques dans cette section fournissent des informations sur la création de modèles de formulaires comportant une logique métier écrite en code managé (Visual Basic ou C#) sur base des membres de l'espace de noms Microsoft.Office.InfoPath .
-ms.openlocfilehash: 38faa7d3b37f79c15d7283aade1184bda41d181a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2cdf8873de0a17cbd7466a2bdb02064ccdd537eb
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564644"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894508"
 ---
 # <a name="developing-infopath-form-templates-with-code"></a>Développement de modèles de formulaire InfoPath avec code
 
 Les rubriques dans cette section fournissent des informations sur la création de modèles de formulaires comportant une logique métier écrite en code managé (Visual Basic ou C#) sur base des membres de l'espace de noms [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) . 
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 [Mise en route du développement de modèles de formulaire à l'aide de code](getting-started-developing-form-templates-with-code.md)
   
@@ -47,7 +47,7 @@ Les rubriques dans cette section fournissent des informations sur la création d
   
 > Contient des liens vers des articles techniques, des exemples de code, des téléchargements et d'autres documents MSDN (Microsoft Developer Network) sur la création de solutions InfoPath personnalisées.
     
-[Centre pour développeurs Office](https://go.microsoft.com/fwlink?LinkID=27128)
+[Centre pour développeurs Office](/office/developer-program/microsoft-365-developer-program)
   
 > Contient des liens vers des articles techniques, des exemples de code, des téléchargements et d'autres documents MSDN (Microsoft Developer Network) sur la création de solutions Office personnalisées.
     

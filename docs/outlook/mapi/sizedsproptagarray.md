@@ -1,5 +1,6 @@
 ---
 title: SizedSPropTagArray
+description: Décrit SizedSPropTagArray, qui crée une structure nommée SPropTagArray qui inclut un nombre spécifié de balises de propriété.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1d2dc6e9-735d-4b5b-af6f-adf6a32a666d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7bf7d23b9478810b036639396b7c29dfad1b412d
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 5b450aa875ba0b44db82ef3e244388aeeca59283
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63713500"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894095"
 ---
 # <a name="sizedsproptagarray"></a>SizedSPropTagArray
 
@@ -28,7 +28,7 @@ Crée une structure [nommée SPropTagArray](sproptagarray.md) qui inclut un nomb
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**SPropTagArray** <br/> |
+|Structure associée :  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
 SizedSPropTagArray (_ctag, _name)
@@ -46,9 +46,9 @@ _ _name_
     
 ## <a name="remarks"></a>Remarques
 
-Utilisez la macro **SizedSPropTagArray pour créer** un tableau de balises de propriétés avec des limites explicites. 
+Utilisez la macro **SizedSPropTagArray** pour créer un tableau de balises de propriétés avec des limites explicites. 
   
-Pour utiliser la nouvelle structure qui résulte de la macro **SizedSPropTagArray** comme pointeur vers une structure **SPropTagArray** , effectuez la distribution suivante : 
+Pour utiliser la nouvelle structure qui résulte de la macro **SizedSPropTagArray** comme pointeur vers une structure **SPropTagArray** , effectuez le cast suivant : 
   
 ```cpp
 lpPropTagArray = (LPPropTagArray) &SizedSPropTagArray;

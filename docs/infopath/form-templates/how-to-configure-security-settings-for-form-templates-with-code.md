@@ -1,5 +1,5 @@
 ---
-title: Configurer l’Paramètres sécurité pour les modèles de formulaires avec code
+title: Configurer les paramètres de sécurité pour les modèles de formulaire avec du code
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,26 +8,26 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 24d1a322-581f-497e-b97b-bd02c4516551
 description: Vous pouvez personnaliser le jeu d'autorisations qui est appliqué à un modèle de formulaire InfoPath avec code managé en utilisant le composant logiciel enfichable Configuration .NET.
-ms.openlocfilehash: a24be54917db7b5f853b8c994b1c511d1a0365d8
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: da0ac6116c2e3ad0a87f5d7a2fc3e8c30872d64d
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63381879"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65893689"
 ---
-# <a name="configure-security-settings-for-form-templates-with-code"></a>Configurer l’Paramètres sécurité pour les modèles de formulaires avec code
+# <a name="configure-security-settings-for-form-templates-with-code"></a>Configurer les paramètres de sécurité pour les modèles de formulaire avec du code
 
 Vous pouvez personnaliser le jeu d'autorisations qui est appliqué à un modèle de formulaire InfoPath avec code managé en utilisant le composant logiciel enfichable Configuration .NET.
   
-Le CLR (Common Language Runtime) hébergé par InfoPath recherche un groupe de codes prédéféré nommé *Modèles de formulaire InfoPath* au niveau de la stratégie ordinateur sous le groupe All_Code. Le CLR applique les jeux d'autorisations définis dans ce groupe au domaine d'application (AppDomain) dans lequel le formulaire s'exécute. Ceci vous permet de personnaliser les jeux d'autorisations qui sont accordés aux modèles de formulaire de code managé InfoPath. Par exemple, vous pouvez accorder à un modèle de formulaire téléchargé depuis <https://MySite> l'autorisation d'accès à Active Directory.
+Le CLR (Common Language Runtime) hébergé par InfoPath recherche un groupe de codes prédéfini nommé *Modèles de formulaire InfoPath* au niveau de la stratégie machine sous le groupe All_Code. Le CLR applique les jeux d'autorisations définis dans ce groupe au domaine d'application (AppDomain) dans lequel le formulaire s'exécute. Ceci vous permet de personnaliser les jeux d'autorisations qui sont accordés aux modèles de formulaire de code managé InfoPath. Par exemple, vous pouvez accorder à un modèle de formulaire téléchargé depuis `https://MySite` l'autorisation d'accès à Active Directory.
   
 Pour que la stratégie de sécurité personnalisée définie à l'aide du composant logiciel enfichable Configuration .NET soit appliquée, elle doit être déployée sur tous les ordinateurs clients sur lesquels le modèle de formulaire sera exécuté.
   
-Pour plus d’informations sur le modèle de sécurité pour les modèles de formulaire InfoPath avec code géré, voir À propos du modèle de sécurité pour les [modèles de formulaires avec code](about-the-security-model-for-form-templates-with-code.md)
+Pour plus d’informations sur le modèle de sécurité pour les modèles de formulaires de code managé InfoPath, consultez [À propos du modèle de sécurité pour les modèles de formulaire avec code](about-the-security-model-for-form-templates-with-code.md)
   
 ## <a name="creating-a-code-group-for-infopath-form-templates"></a>Création d'un groupe de codes pour les modèles de formulaire InfoPath
 
-La procédure suivante crée un groupe de codes qui n’accorde aucune autorisation aux modèles de formulaire InfoPath avec code géré (à l’exception de ceux installés ou enregistrés sur votre ordinateur local) sous lesquels vous pouvez affecter des jeux d’autorisations à des modèles de formulaire InfoPath situés dans des URL ou des UNCs spécifiques. Pour plus d’informations sur la création et l’affectation de jeux d’autorisations à des groupes de code `InfoPath Form Templates` au sein du groupe de code, voir la procédure suivante.
+La procédure suivante crée un groupe de codes qui n’accorde aucune autorisation aux modèles de formulaires de code managé InfoPath (à l’exception de ceux qui sont installés ou inscrits sur votre ordinateur local) sous lequel vous pouvez attribuer des jeux d’autorisations à des modèles de formulaire InfoPath situés dans des URL ou des UNCs spécifiques. Pour plus d’informations sur la création et l’affectation de jeux d’autorisations à des groupes de code au sein du `InfoPath Form Templates` groupe de codes, consultez la procédure suivante.
   
 > [!NOTE]
 > [!REMARQUE] Contrairement à l'outil **Configuration Microsoft .NET Framework 1.1** qui est installé avec Microsoft .NET Framework 1.1 Redistributable Package, **Configuration Microsoft .NET Framework 2.0** est uniquement installé avec le Kit de développement logiciel (SDK) Microsoft .NET Framework 2.0.
@@ -57,7 +57,7 @@ Si vous le souhaitez, vous pouvez gérer le jeu d'autorisations pour tous les mo
 Vous pouvez créer des groupes de codes sous le groupe **Modèles de formulaires InfoPath** pour accorder une autorisation totale à des modèles de formulaires provenant d’une URL ou d’un emplacement UNC spécifique. Ainsi, tous les modèles de formulaires publiés à l’emplacement spécifié s’exécuteront avec une autorisation totale.
   
 > [!NOTE]
-> [!REMARQUE] Un modèle de formulaire chargé depuis l'ordinateur local (groupe de codes de la zone MyComputer) est chargé par InfoPath à l'aide d'une URL aléatoire. De ce fait, vous ne pouvez pas utiliser la procédure qui suit pour accorder le jeu d'autorisations Autorisation totale à un tel modèle de formulaire. Pour accorder à un modèle de formulaire installé localement le jeu d’autorisations Autorisation totale, utilisez l’une des procédures décrites dans la section « Déploiement de modèles de formulaires qui nécessitent une confiance totale » de la rubrique Déployer des [modèles de formulaire InfoPath avec code](how-to-deploy-infopath-form-templates-with-code.md) .
+> [!REMARQUE] Un modèle de formulaire chargé depuis l'ordinateur local (groupe de codes de la zone MyComputer) est chargé par InfoPath à l'aide d'une URL aléatoire. De ce fait, vous ne pouvez pas utiliser la procédure qui suit pour accorder le jeu d'autorisations Autorisation totale à un tel modèle de formulaire. Pour accorder à un modèle de formulaire installé localement le jeu d’autorisations FullTrust, utilisez l’une des procédures décrites dans la section « Déploiement de modèles de formulaire qui nécessitent une confiance totale » de la rubrique [Déployer des modèles de formulaire InfoPath avec code](how-to-deploy-infopath-form-templates-with-code.md) .
   
 ### <a name="to-assign-fulltrust-to-infopath-forms-at-a-specific-url-or-unc-location"></a>Pour affecter une autorisation totale aux formulaires InfoPath situés à un emplacement URL ou UNC spécifique
 
@@ -108,8 +108,8 @@ Après avoir défini une stratégie de sécurité personnalisée pour les modèl
 
 4. Cliquez sur **Terminer** pour créer le package de déploiement.
 
-5. Pour plus d’informations sur l’utilisation de l’outil de configuration .NET Framework, recherchez l’aide de Visual Studio ou le site web MSDN pour « outil de configuration .NET Framework (Mscorcfg.msc) ».
+5. Pour plus d’informations sur l’utilisation de l’outil de configuration .NET Framework, recherchez « .NET Framework Configuration Tool (Mscorcfg.msc) » sur le site web MSDN ou l’aide de Visual Studio.
 
 ## <a name="see-also"></a>Voir aussi
 
-[À propos du modèle de sécurité pour les modèles de formulaires avec code](about-the-security-model-for-form-templates-with-code.md)
+[À propos du modèle de sécurité pour les modèles de formulaire avec code](about-the-security-model-for-form-templates-with-code.md)

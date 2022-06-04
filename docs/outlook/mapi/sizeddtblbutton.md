@@ -1,5 +1,6 @@
 ---
 title: SizedDtblButton
+description: Décrit SizedDtblButton, qui crée une structure nommée qui inclut une structure DTBLBUTTON pour décrire un bouton et une étiquette d’une longueur spécifiée.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee73ced9-14d8-4a30-9b9f-d54ed9c3a454
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 46d955a7685a5a63f582eba7177cf93521addaa5
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 7efb2e686835556b45e4b995f78d86c53488a8a7
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63723640"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894900"
 ---
 # <a name="sizeddtblbutton"></a>SizedDtblButton
 
@@ -25,12 +25,12 @@ ms.locfileid: "63723640"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure nommée qui inclut une structure [DTBLBUTTON](dtblbutton.md) pour décrire un bouton et une étiquette d’une longueur spécifiée. 
+Crée une structure nommée qui [inclut une structure DTBLBUTTON](dtblbutton.md) pour décrire un bouton et une étiquette d’une longueur spécifiée. 
   
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**DTBLBUTTON** <br/> |
+|Structure associée :  <br/> |**DTBLBUTTON** <br/> |
    
 ```cpp
 SizedDtblButton (n, u)
@@ -42,7 +42,7 @@ SizedDtblButton (n, u)
   
 > Longueur de l’étiquette à inclure dans la nouvelle structure.
     
- _u_
+ _U_
   
 > Nom de la nouvelle structure.
     

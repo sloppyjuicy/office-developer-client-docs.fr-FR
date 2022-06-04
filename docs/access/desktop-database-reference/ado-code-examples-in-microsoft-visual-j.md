@@ -7,12 +7,12 @@ ms:contentKeyID: 48547670
 ms.date: 09/14/2021
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: fdfdaca2487d8cde28a4b1a6689042c22d126ffc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fc9ac79f646a573cd12c22af41f5a5f689fd5d38
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602968"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65893822"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-j"></a>Exemples de code ADO en Microsoft Visual J++
 
@@ -25,59 +25,59 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes 
 
 ## <a name="methods"></a>Méthodes
 
-- [AddNew, méthode - Exemple](addnew-method-example-vj.md)
-- [Append et CreateParameter, méthodes - Exemple](append-and-createparameter-methods-example-vj.md)
-- [AppendChunk et GetChunk, méthodes - Exemple](appendchunk-and-getchunk-methods-example-vj.md)
+- [Exemple de méthode AddNew](addnew-method-example-vj.md)
+- [Exemple de méthodes Append et CreateParameter](append-and-createparameter-methods-example-vj.md)
+- [Exemple de méthodes AppendChunk et GetChunk](appendchunk-and-getchunk-methods-example-vj.md)
 - [BeginTrans, CommitTrans et RollbackTrans, méthodes - Exemple](begintrans-committrans-and-rollbacktrans-methods-example-vj.md)
-- [Cancel, méthode - Exemple](cancel-method-example-vj.md)
-- [Clone, méthode - Exemple](clone-method-example-vj.md)
+- [Exemple de méthode Cancel](cancel-method-example-vj.md)
+- [Cloner l’exemple de méthode](clone-method-example-vj.md)
 - [CompareBookmarks, méthode - Exemple](comparebookmarks-method-example-vj.md)
-- [Delete, méthode - Exemple](delete-method-example-vj.md)
-- [Execute, Requery et Clear, méthodes - Exemple](execute-requery-and-clear-methods-example-vj.md)
-- [Find, méthode - Exemple](find-method-example-vj.md)
-- [GetRows, méthode - Exemple](getrows-method-example-vj.md)
+- [Exemple de méthode Delete](delete-method-example-vj.md)
+- [Exemple de méthodes Execute, Requery et Clear](execute-requery-and-clear-methods-example-vj.md)
+- [Exemple de méthode Find](find-method-example-vj.md)
+- [Exemple de méthode GetRows](getrows-method-example-vj.md)
 - [GetString, méthode - Exemple](getstring-method-example-vj.md)
-- [MoveFirst, MoveLast, MoveNext et MovePrevious, méthodes - Exemple](movefirst-movelast-movenext-and-moveprevious-methods-example-vj.md)
-- [NextRecordset, méthode - Exemple](nextrecordset-method-example-vj.md)
-- [Open et Close, méthodes - Exemple](open-and-close-methods-example-vj.md)
-- [OpenSchema, méthode - Exemple](openschema-method-example-vj.md)
-- [Refresh, méthode - Exemple](refresh-method-example-vj.md)
-- [Resync, méthode - Exemple](resync-method-example-vj.md)
-- [Save et Open, méthodes - Exemple](save-and-open-methods-example-vj.md)
-- [Supports, méthode - Exemple](supports-method-example-vj.md)
-- [Update et CancelUpdate, méthodes - Exemple](update-and-cancelupdate-methods-example-vj.md)
+- [Exemple de méthodes MoveFirst, MoveLast, MoveNext et MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-example-vj.md)
+- [Exemple de méthode NextRecordset](nextrecordset-method-example-vj.md)
+- [Exemple de méthodes Open et Close](open-and-close-methods-example-vj.md)
+- [Exemple de méthode OpenSchema](openschema-method-example-vj.md)
+- [Exemple de méthode Refresh](refresh-method-example-vj.md)
+- [Exemple de méthode Resync](resync-method-example-vj.md)
+- [Exemple de méthodes Save et Open](save-and-open-methods-example-vj.md)
+- [Exemple de méthode de prise en charge](supports-method-example-vj.md)
+- [Exemple de méthodes Update et CancelUpdate](update-and-cancelupdate-methods-example-vj.md)
 - [UpdateBatch et CancelBatch, méthodes - Exemple](updatebatch-and-cancelbatch-methods-example-vj.md)
 
 ## <a name="properties"></a>Propriétés
 
 - [AbsolutePage, PageCount et PageSize, propriétés - Exemple](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
 - [AbsolutePosition et CursorLocation, propriétés - Exemple](absoluteposition-and-cursorlocation-properties-example-vj.md)
-- [ActiveCommand, propriété - Exemple](activecommand-property-example-vj.md)
-- [ActiveConnection, CommandText, CommandTimeout, CommandType, Size et Direction, propriétés - Exemple](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
-- [ActualSize et DefinedSize, propriétés - Exemple](actualsize-and-definedsize-properties-example-vj.md)
-- [Attributes et Name, propriétés - Exemple](attributes-and-name-properties-example-vj.md)
-- [BoF, EOF et Bookmark, propriétés - Exemple](bof-eof-and-bookmark-properties-example-vj.md)
+- [Exemple de propriété ActiveCommand](activecommand-property-example-vj.md)
+- [Exemple de propriétés ActiveConnection, CommandText, CommandTimeout, CommandType, Size et Direction](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
+- [Exemple de propriétés ActualSize et DefinedSize](actualsize-and-definedsize-properties-example-vj.md)
+- [Attributs et propriétés name - Exemple](attributes-and-name-properties-example-vj.md)
+- [Exemple de propriétés BOF, EOF et Bookmark](bof-eof-and-bookmark-properties-example-vj.md)
 - [CacheSize, propriété - Exemple](cachesize-property-example-vj.md)
 - [ConnectionString, ConnectionTimeout et State, propriétés - Exemple](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
 - [Count (propriété) – Exemple](count-property-example-vj.md)
 - [CursorType, LockType et EditMode, propriétés - Exemple](cursortype-locktype-and-editmode-properties-example-vj.md)
 - [Description, HelpContext, HelpFile, NativeError, Number, Source et SQLState, propriétés - Exemple](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj.md)
-- [Filter et RecordCount, propriétés - Exemple](filter-and-recordcount-properties-example-vj.md)
+- [Exemple de propriétés Filter et RecordCount](filter-and-recordcount-properties-example-vj.md)
 - [IsolationLevel et Mode, propriétés - Exemple](isolationlevel-and-mode-properties-example-vj.md)
-- [Item, propriété - Exemple](item-property-example-vj.md)
+- [Exemple de propriété d’élément](item-property-example-vj.md)
 - [MarshalOptions, propriété - Exemple](marshaloptions-property-example-vj.md)
-- [MaxRecords, propriété - Exemple](maxrecords-property-example-vj.md)
-- [NumericScale et Precision, propriétés - Exemple](numericscale-and-precision-properties-example-vj.md)
-- [Optimize, propriété - Exemple](optimize-property-example-vj.md)
+- [Exemple de propriété MaxRecords](maxrecords-property-example-vj.md)
+- [Exemple de propriétés NumericScale et Precision](numericscale-and-precision-properties-example-vj.md)
+- [Exemple de propriété Optimize](optimize-property-example-vj.md)
 - [OriginalValue et UnderlyingValue, propriétés - Exemple](originalvalue-and-underlyingvalue-properties-example-vj.md)
-- [Prepared, propriété - Exemple](prepared-property-example-vj.md)
-- [Provider et DefaultDatabase, propriétés - Exemple](provider-and-defaultdatabase-properties-example-vj.md)
-- [Sort, propriété - Exemple](sort-property-example-vj.md)
-- [Source, propriété - Exemple](source-property-example-vj.md)
-- [State, propriété - Exemple](state-property-example-vj.md)
-- [Status, propriété - Exemple](status-property-example-vj.md)
-- [StayInSync, propriété - Exemple](stayinsync-property-example-vj.md)
-- [Type, propriété - Exemple (Fields)](/office/vba/access/concepts/miscellaneous/type-property-example-fieldvj-plus-plus.md)
-- [Type, propriété - Exemple (Propriété)](/office/vba/access/concepts/miscellaneous/type-property-example-propertyvj-plus-plus.md)
+- [Exemple de propriété préparée](prepared-property-example-vj.md)
+- [Exemple de propriétés Provider et DefaultDatabase](provider-and-defaultdatabase-properties-example-vj.md)
+- [Exemple de propriété Sort](sort-property-example-vj.md)
+- [Exemple de propriété source](source-property-example-vj.md)
+- [Exemple de propriété State](state-property-example-vj.md)
+- [Exemple de propriété Status](status-property-example-vj.md)
+- [Exemple de propriété StayInSync](stayinsync-property-example-vj.md)
+- [Type, propriété - Exemple (Champs)](/office/vba/access/concepts/miscellaneous/type-property-example-fieldvj-plus-plus)
+- [Type, propriété - Exemple (Propriété)](/office/vba/access/concepts/miscellaneous/type-property-example-propertyvj-plus-plus)
 - [Value (propriété) – Exemple](value-property-example-vj.md)
-- [Version, propriété - Exemple](version-property-example-vj.md)
+- [Exemple de propriété version](version-property-example-vj.md)

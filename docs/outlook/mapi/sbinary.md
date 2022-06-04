@@ -1,5 +1,6 @@
 ---
 title: SBinary
+description: Décrit SBinary, y compris une description du type de propriété PT_BINARY. Cela s’applique à Outlook 2013 et Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,13 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: f21b5e6c-7a63-46bf-acbf-0e042e3519f7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5f17a2ff49b478478137e9c4cc6bebdc678f59ca
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 751c4afcbe5be6d55fae4400eb3aa01eb4deee43
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63722106"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894102"
 ---
 # <a name="sbinary"></a>SBinary
 
@@ -44,15 +44,15 @@ typedef struct _SBinary
 
  **cb**
   
-> Nombre d’octets dans le **membre lpb** . 
+> Nombre d’octets dans le membre **lpb** . 
     
  **lpb**
   
-> Pointeur vers la valeur PT_BINARY propriété.
+> Pointeur vers la valeur de la propriété PT_BINARY.
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur les types de propriétés, voir [MAPI Property Type Overview](mapi-property-type-overview.md).
+Pour plus d’informations sur les types de propriétés, consultez [vue d’ensemble du type de propriété MAPI](mapi-property-type-overview.md).
   
 ## <a name="see-also"></a>Voir aussi
 

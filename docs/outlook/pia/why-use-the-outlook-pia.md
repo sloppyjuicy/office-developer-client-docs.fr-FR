@@ -7,12 +7,12 @@ ms:contentKeyID: 55119773
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d8b17b49d2ad8f2e197196071c31b66189974ff4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c3fb7578796ba87ebf2c919c2fffb5e2cdbcaee1
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590477"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894347"
 ---
 # <a name="why-use-the-outlook-pia"></a>Pourquoi utiliser Outlook PIA
 
@@ -28,7 +28,7 @@ Les développeurs peuvent créer des solutions Outlook managées en dehors de Vi
 
 Visual Studio 2012 installe les modèles complément pour Office 2010 par défaut. Pour utiliser les outils de développement Office pour Visual Studio dans le but de développer des compléments managés pour Outlook 2013, vous devez [télécharger](https://aka.ms/officedevtoolsforvs2012) les modèles pour Office 2013.
 
-Pour plus d’informations sur les outils de développement Office pour Visual Studio, voir [Configurer un ordinateur pour développer des solutions Office](https://docs.microsoft.com/visualstudio/vsto/how-to-configure-a-computer-to-develop-office-solutions?view=vs-2017). Pour plus d’informations sur la programmation de compléments managés pour Outlook, voir [Débuter dans la programmation de compléments VSTO](https://docs.microsoft.com/visualstudio/vsto/getting-started-programming-vsto-add-ins?view=vs-2017).
+Pour plus d’informations sur les outils de développement Office pour Visual Studio, voir [Configurer un ordinateur pour développer des solutions Office](/visualstudio/vsto/how-to-configure-a-computer-to-develop-office-solutions). Pour plus d’informations sur la programmation de compléments managés pour Outlook, voir [Débuter dans la programmation de compléments VSTO](/visualstudio/vsto/getting-started-programming-vsto-add-ins).
 
 ## <a name="see-also"></a>Voir aussi
 

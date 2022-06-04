@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 3be71b700b670309a021de491c9e2af2e448084d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2436d1f06c673814cef1b6134f17b1eca2a5763b
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586270"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65893773"
 ---
 # <a name="activeconnection-property-ado"></a>ActiveConnection, propriété (ADO)
 
@@ -36,9 +36,9 @@ Utilisez la propriété **ActiveConnection** pour déterminer l'objet **Connecti
 
 Pour les objets **Command**, la propriété **ActiveConnection** est en lecture/écriture.
 
-Si vous tentez d'appeler la méthode [Execute](/office/vba/access/concepts/miscellaneous/execute-method-ado-command.md) sur un objet **Command** avant d'affecter à cette propriété un objet **Connection** ouvert ou une chaîne de connexion valide, une erreur se produit.
+Si vous tentez d'appeler la méthode [Execute](/office/vba/access/concepts/miscellaneous/execute-method-ado-command) sur un objet **Command** avant d'affecter à cette propriété un objet **Connection** ouvert ou une chaîne de connexion valide, une erreur se produit.
 
-**Microsoft Visual Basic**: la définition de la propriété **ActiveConnection** sur *Nothing*  dissocie l’objet **Command** de la connexion actuelle et entraîne le fournisseur à libérer les ressources associées sur la source de données. Vous pouvez alors associer l’objet **Command** au même objet **Connection** ou à un autre. Certains fournisseurs permettent de remplacer l’objet **Connection** défini dans la propriété par un autre, sans devoir préalablement affecter à la propriété la valeur *Nothing*.
+**Microsoft Visual Basic** : la définition de la propriété **ActiveConnection** sur *Nothing* dissocie l’objet **Command** de la **connexion** actuelle et entraîne la libération par le fournisseur des ressources associées sur la source de données. Vous pouvez alors associer l’objet **Command** au même objet **Connection** ou à un autre. Certains fournisseurs permettent de remplacer l’objet **Connection** défini dans la propriété par un autre, sans devoir préalablement affecter à la propriété la valeur *Nothing*.
 
 Si la collection [Parameters](parameters-collection-ado.md) de l’objet **Command** contient les paramètres fournis par le fournisseur, le contenu de la collection est effacé si vous attribuez à la propriété **ActiveConnection** la valeur *Nothing* ou un autre objet **Connection**. Si vous créez manuellement des objets [Parameter](parameter-object-ado.md) et que vous les utilisez pour remplir la collection **Parameters** de l’objet **Command**, l’affectation de la valeur *Nothing* ou d’un autre objet **Connection** à la propriété **ActiveConnection** ne modifie pas la collection **Parameters**.
 
@@ -54,13 +54,13 @@ Si vous utilisez l’argument *ActiveConnection* de la méthode [Open](open-meth
 
 Si vous affectez à la propriété **Source** de l'objet **Recordset** une variable d'objet **Command** valide, la propriété **ActiveConnection** de l'objet **Recordset** hérite du paramètre de la propriété **ActiveConnection** de l'objet **Command**.
 
-**Utilisation** du service de données distant : lorsqu’elle est utilisée sur un objet Recordset côté client, cette propriété peut être définie uniquement sur une chaîne de connexion ou (dans Microsoft Visual Basic ou Visual Basic, Scripting Edition) sur *Nothing*.
+**Utilisation du service de données distante** : lorsqu’elle est utilisée sur un objet Recordset côté client, cette propriété peut être définie uniquement sur une chaîne de connexion ou (dans Microsoft Visual Basic ou Visual Basic, Édition de script) sur *Nothing*.
 
 ### <a name="record"></a>Record
 
 Cette propriété est en lecture/écriture lorsque l'objet **Record** est fermé et peut contenir une chaîne de connexion ou une référence à un objet **Connection** ouvert. Cette propriété est en lecture seule lorsque l'objet **Record** est ouvert et qu'il contient une référence à un objet **Connection** ouvert.
 
-Un objet **Connection** est créé implicitement lorsque l'objet **Record** est ouvert à partir d'une URL. Ouvrez l'objet **Record** à l'aide d'un objet **Connection** existant ouvert en affectant à cette propriété l'objet **Connection** ou en utilisant l'objet **Connection** comme paramètre dans l'appel de la méthode [Open](open-method-ado-record.md). Si **l’enregistrement** est ouvert à partir d’un objet **Record** ou [Recordset](recordset-object-ado.md)existant, il est automatiquement associé à l’objet Connection de cet objet **Record** ou **Recordset.** 
+Un objet **Connection** est créé implicitement lorsque l'objet **Record** est ouvert à partir d'une URL. Ouvrez l'objet **Record** à l'aide d'un objet **Connection** existant ouvert en affectant à cette propriété l'objet **Connection** ou en utilisant l'objet **Connection** comme paramètre dans l'appel de la méthode [Open](open-method-ado-record.md). Si **l’enregistrement** est ouvert à partir d’un **enregistrement** ou d’un [recordset](recordset-object-ado.md) existant, il est automatiquement associé à l’objet **Connection** de cet objet **Record** ou **Recordset**.
 
 > [!NOTE]
-> Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, voir [URL absolues et relatives.](absolute-and-relative-urls.md)
+> Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, consultez [LES URL absolues et relatives](absolute-and-relative-urls.md).

@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 369b30e3-eadf-4086-b023-abbdd8e810b0
 description: Vous pouvez effectuer une intégration à Office pour iOS, Office pour Android, Office Online, Excel, PowerPoint ou Word Mobile à partir de vos applications et expériences web, ce qui permet à vos utilisateurs de passer sans problème aux applications Office à partir de solutions tierces.
 ms.localizationpriority: high
-ms.openlocfilehash: 6ddf61d336351e1929060fece6fda6e0b7040306
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 821dfaf7e41d112c2382dd1677d7ccae89c4a91e
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572269"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894625"
 ---
 # <a name="integrate-with-office"></a>Intégration à Office
 
@@ -41,6 +41,6 @@ Si vous êtes un fournisseur de stockage en nuage, vous pouvez vous inscrire à 
     
 - [Développement Office](https://msdn.microsoft.com/library/7f24db34-c1ad-4a83-a9bd-3c85a39c0bd8%28Office.15%29.aspx)
     
-- [Intégration à Office Online](https://wopi.readthedocs.org/en/latest/)
+- [Intégration à Office Online](/microsoft-365/cloud-storage-partner-program/online/overview)
     
 

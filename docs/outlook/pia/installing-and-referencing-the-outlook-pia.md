@@ -7,16 +7,16 @@ ms:contentKeyID: 55119774
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a18e781e99b29bef464a96d9ae2c7927b7a196ff
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 801bcb967c434a902dba74a8a7d2716b4e62eb84
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583092"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894361"
 ---
 # <a name="installing-and-referencing-the-outlook-pia"></a>Installation et référencement de l’assembly PIA Outlook
 
-Nous vous recommandons d’installer l’assembly PIA (Primary Interop Assembly) Outlook dans le cache GAC (Global Assembly Cache) avant d’incorporer les informations de l’assembly PIA dans un complément managé Outlook. Par défaut, l’assembly PIA est installé automatiquement quand vous installez Office sur l’ordinateur de développement. Toutefois, pour installer l’assembly PIA séparément, consultez l’article [Configurer un ordinateur pour développer des solutions Office](https://docs.microsoft.com/visualstudio/vsto/configuring-a-computer-to-develop-office-solutions?view=vs-2017).
+Nous vous recommandons d’installer l’assembly PIA (Primary Interop Assembly) Outlook dans le cache GAC (Global Assembly Cache) avant d’incorporer les informations de l’assembly PIA dans un complément managé Outlook. Par défaut, l’assembly PIA est installé automatiquement quand vous installez Office sur l’ordinateur de développement. Toutefois, pour installer l’assembly PIA séparément, consultez l’article [Configurer un ordinateur pour développer des solutions Office](/visualstudio/vsto/configuring-a-computer-to-develop-office-solutions).
 
 
 > [!NOTE] 
@@ -26,6 +26,6 @@ Après l’installation, si vous utilisez Visual Studio pour créer le projet m
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Installation des assemblies PIA Office](https://docs.microsoft.com/visualstudio/vsto/how-to-install-office-primary-interop-assemblies?view=vs-2017)
+- [Installation des assemblies PIA Office](/visualstudio/vsto/how-to-install-office-primary-interop-assemblies)
 - [Architecture de l’assembly PIA Outlook](architecture-of-the-outlook-pia.md)
 

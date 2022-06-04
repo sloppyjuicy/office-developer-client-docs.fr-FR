@@ -7,12 +7,12 @@ ms.topic: overview
 ms.assetid: 13aa6de0-3687-4f46-a1b6-a6e3aabf5981
 description: Accédez à des procédures, des articles techniques, des références et des billets de blog pour le développement de solutions et la personnalisation d’InfoPath.
 ms.localizationpriority: high
-ms.openlocfilehash: 9edb5ce42f5a6308196e095db9b9ccd888501537
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 9b3796efbe60653f4b574df97e5b4004b484bf23
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180333"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894529"
 ---
 # <a name="infopath"></a>InfoPath
 
@@ -36,6 +36,6 @@ Accédez à des procédures, des articles techniques, des références et des bi
   
 - [Prise en charge d’InfoPath 2013](https://support.microsoft.com/ph/920)
   
-- [Communauté Microsoft](https://answers.microsoft.com/office/forum/infopath)
+- [Communauté Microsoft](https://answers.microsoft.com/)
   
 

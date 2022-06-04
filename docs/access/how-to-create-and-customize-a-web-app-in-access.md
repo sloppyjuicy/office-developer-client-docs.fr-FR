@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
 ms.localizationpriority: high
-ms.openlocfilehash: ee73632ed5bc3db60699f9a4206f6ddaae43122e
-ms.sourcegitcommit: 109f087abda339e9696d644dee54f69e9153e906
+ms.openlocfilehash: 993b3d1f52e97861f6a661ffffdb30ad02d99b7b
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64698961"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65893955"
 ---
 # <a name="create-and-customize-a-web-app-in-access"></a>Création et personnalisation d’une application web dans Access
 
@@ -198,5 +198,5 @@ L'utilisation d'un des modèles de schéma inclus dans est une bonne manière de
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Nouveautés d’Access 2013 pour les développeurs](/office/vba/access/concepts/miscellaneous/new-in-access-for-developers.md)
+- [Nouveautés d’Access 2013 pour les développeurs](/office/vba/access/concepts/miscellaneous/new-in-access-for-developers)
 - [Référence de l'application web personnalisée Access](access-custom-web-app-reference.md)

@@ -7,16 +7,16 @@ ms:contentKeyID: 55119781
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 8e7529cbd22e7e9bbff0b1fda73c69158f7b54a6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e032f5c01f0ce25b4e90f51490e3bfd41f38f21e
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619406"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894780"
 ---
 # <a name="developing-managed-outlook-add-ins-using-the-outlook-pia"></a>Développement de compléments managés Outlook avec l’assembly PIA Outlook
 
-Les rubriques de cette section décrivent la gestion personnalisée des événements à l'aide de l'assembly PIA (Primary Interop Assembly) Outlook et indiquent différents points à prendre en considération pour éviter les pièges habituels lors de l'écriture de compléments managés Outlook. Pour obtenir des informations élémentaires sur l'écriture d'applications managées pour Office à l'aide d'assemblys PIA, voir [Visual Studio Tools pour Office](https://docs.microsoft.com/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio?view=vs-2017).
+Les rubriques de cette section décrivent la gestion personnalisée des événements à l'aide de l'assembly PIA (Primary Interop Assembly) Outlook et indiquent différents points à prendre en considération pour éviter les pièges habituels lors de l'écriture de compléments managés Outlook. Pour obtenir des informations élémentaires sur l'écriture d'applications managées pour Office à l'aide d'assemblys PIA, voir [Visual Studio Tools pour Office](/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio).
 
 ## <a name="in-this-section"></a>Dans cette section
 

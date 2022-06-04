@@ -1,5 +1,6 @@
 ---
 title: SizedSPropProblemArray
+description: Contours SizedSPropProblemArray, qui crée une structure nommée SPropProblemArray qui contient un nombre spécifié de structures SPropProblem.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,24 +12,23 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2fc3febb-8c69-4315-a112-a28eee98013d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4ee684b8a2cb53c34cf27693fa7b9bfdb9509fd2
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
+ms.openlocfilehash: 25ec7d24eb95d92f9785f3b70cb18ba6c044fbb8
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63725930"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894795"
 ---
 # <a name="sizedspropproblemarray"></a>SizedSPropProblemArray
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure [nommée SPropProblemArray](spropproblemarray.md) qui contient un nombre spécifié de structures [SPropProblem](spropproblem.md) . 
+Crée une structure [SPropProblemArray](spropproblemarray.md) nommée qui contient un nombre spécifié de structures [SPropProblem](spropproblem.md) . 
   
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**SPropProblemArray** <br/> |
+|Structure associée :  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 SizedSPropProblemArray(_cprob, _name)
@@ -46,7 +46,7 @@ _ _name_
     
 ## <a name="remarks"></a>Remarques
 
-Utilisez la macro **SizedSPropProblemArray** pour créer un tableau de problèmes de propriétés avec des limites explicites. Pour utiliser la nouvelle structure qui résulte de la macro **SizedSPropProblemArray** comme pointeur vers une structure **SPropProblemArray** , effectuez la distribution suivante : 
+Utilisez la macro **SizedSPropProblemArray** pour créer un tableau de problèmes de propriétés avec des limites explicites. Pour utiliser la nouvelle structure qui résulte de la macro **SizedSPropProblemArray** comme pointeur vers une structure **SPropProblemArray** , effectuez le cast suivant : 
   
 ```cpp
 lpPropProbArray = (LPSPropProblemArray) &SizedSPropProblemArray;

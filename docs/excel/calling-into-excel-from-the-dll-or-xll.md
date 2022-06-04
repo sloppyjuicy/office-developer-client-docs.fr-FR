@@ -8,12 +8,12 @@ keywords:
 - boîtes de dialogue [excel 2007], invocation des commandes excel, DLL [Excel 2007], appel dans Excel, passage d'arguments aux fonctions de l'API C [Excel 2007], commandes [Excel 2007], invocation avec des boîtes de dialogue, des commandes [Excel 2007], accessible depuis DLL/XLL, fonction Excel4 [Excel 2007],fonction Excel12 [Excel  2007], fonction XLCallVer [Excel 2007], argument operRes [Excel 2007], fonctions [Excel 2007], accessible de DLL/XLL,Excel12v fonction [Excel 2007],seules fonctions DLL [Excel 2007],C API [Excel 2007], passer les arguments, compter les arguments [Excel 2007], commandes [Excel  2007], passer les arguments, compter les arguments [Excel 2007], versions internationales [Excel 2007], appeler des fonctions et des commandes, XLLs [Excel 2007], appel dans Excel, fonction 4v d'Excel [Excel 2007], argument xlfn [Excel 2007], fonctions [Excel  2007], appel dans les versions internationales
 ms.assetid: 616e3def-e4ec-4f3c-bc65-3b92710da1e6
 ms.localizationpriority: high
-ms.openlocfilehash: 59b1eee4c407f99c15556feb97ea149e7c54ff89
-ms.sourcegitcommit: 4164855836af53a068bbbc5b5d126f83ee83e324
+ms.openlocfilehash: 7f917faff283cb55a0ee8d7a5e3b6ea7b459e89d
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63426537"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894004"
 ---
 # <a name="calling-into-excel-from-the-dll-or-xll"></a>Appel dans Excel à partir du fichier DLL ou XLL
 
@@ -49,7 +49,7 @@ Pour que la DLL puisse appeler **Excel4**, **Excel4v**, **Excel12** ou **Excel12
 
 Vous ne pouvez pas appeler l’API C Excel dans les scénarios suivants :
   
-- � partir d�un �v�nement de systéme d�exploitation (par exemple, depuis la fonction [DllMain](/windows/win32/dlls/dllmain.md)).
+- � partir d�un �v�nement de systéme d�exploitation (par exemple, depuis la fonction [DllMain](/windows/win32/dlls/dllmain)).
 
 - À partir d’un thread en arrière-plan créé par votre DLL.
 

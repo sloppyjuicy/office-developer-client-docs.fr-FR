@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: c1d70e9f-b9fc-7bdb-107e-d0cd8191607b
 description: Un modèle de formulaire que vous créez avec Microsoft InfoPath utilise un schéma XML (XSD) pour effectuer une validation de la structure et des données du code XML qui est en entrée, en modification et en sortie d'un formulaire InfoPath. Chaque modèle de formulaire créé dans le concepteur de formulaires InfoPath contient au moins un fichier de schéma XSD (.xsd) qui est utilisé pour la validation lors de l'exécution.
-ms.openlocfilehash: 977a4ab1741f9f5c369623125482409b94b2c8f7
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 9997f204f6ed9205f69099d983a29b717677c803
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63381858"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894907"
 ---
 # <a name="working-with-xml-schemas-in-infopath"></a>Utilisation des schémas XML dans InfoPath
 
@@ -47,7 +47,7 @@ Une occurrence d'un élément générique **xsd:any**, c'est-à-dire une occurre
   
 ## <a name="elements-with-an-abstract-complex-type"></a>Éléments avec un type complexe abstrait
 
-Le mode Création d'InfoPath prend en charge la conception d'un modèle de formulaire basé sur des schémas utilisant des types complexes abstraits. Par exemple, `shippingAddress` si un élément nommé a `shippingAddress` un type `address` complexe abstrait nommé qui a deux dérivations, `USAddress` `CanadianAddress`et , InfoPath traite n’importe quelle instance `shippingAddress` comme un choix entre le type `shippingAddress` `USAddress` et avec le type `CanadianAddress`. Dans cet exemple, si les schémas fournis ne contiennent pas de types qui dérivent de cette adresse, InfoPath demande un schéma supplémentaire qui répond à cette condition requise.
+Le mode Création d'InfoPath prend en charge la conception d'un modèle de formulaire basé sur des schémas utilisant des types complexes abstraits. Par exemple, si un élément nommé `shippingAddress` a un type complexe abstrait nommé `address` qui a deux dérivations et `CanadianAddress`, `USAddress` InfoPath traite n’importe quelle instance comme `shippingAddress` un choix entre `shippingAddress` le type `USAddress` et `shippingAddress` le type `CanadianAddress`. Dans cet exemple, si les schémas fournis ne contiennent pas de types qui dérivent de cette adresse, InfoPath demande un schéma supplémentaire qui répond à cette condition requise.
   
 ## <a name="xsd-constructs-with-reduced-functionality"></a>Constructions XSD avec une fonctionnalité réduite
 
@@ -104,7 +104,7 @@ Le mode Création d'InfoPath prend en charge de telles constructions XSD sans re
   
 ## <a name="optional-sibling-with-same-qualified-name"></a>Frère facultatif avec le même nom qualifié
 
-Le fragment de schéma suivant montre un frère facultatif avec le même nom qualifié (`QName`) :
+Le fragment de schéma suivant montre un frère facultatif portant le même nom qualifié (`QName`) :
   
 ```xml
 <xsd:sequence> 
@@ -151,7 +151,7 @@ De la même façon que dans le cas d'un élément, vous pouvez déclarer un attr
 
 ## <a name="storing-xml-signatures-in-the-data-source"></a>Stockage de signatures XML dans la source de données
 
-Pour permettre aux utilisateurs de signer numériquement un formulaire lors de l'exécution, le schéma de la source de données doit déclarer un élément nommé « signature » pour stocker les informations des signatures numériques XML qui sont créées lorsqu'un utilisateur signe le formulaire. Pour effectuer cette déclaration, utilisez l’élément **xsd:any** avec l’attribut d’espace de noms spécifié en tant qu’espace de noms Signatures XML avec un caractère générique, comme suit : « <https://www.w3c.org/2000/09/xmldsig># »
+Pour permettre aux utilisateurs de signer numériquement un formulaire lors de l'exécution, le schéma de la source de données doit déclarer un élément nommé « signature » pour stocker les informations des signatures numériques XML qui sont créées lorsqu'un utilisateur signe le formulaire. Vous effectuez cette déclaration à l'aide de l'élément **xsd:any** avec l'attribut namespace spécifié en tant qu'espace de noms des signatures XML avec un caractère générique, comme suit : "<https://www.w3.org/TR/2002/REC-xmldsig-core-20020212/xmldsig-core-schema.xsd>"
   
 ```XML
 <xsd:element name="signature"> 
@@ -191,7 +191,7 @@ Si vous chargez des fichiers XSD créés en externe pour créer des modèles de 
 
 De façon similaire à tous les standards W3C, les schémas XML (XSD) ont fait l’objet d’un long processus de révision avant de devenir une recommandation. Il a existé de nombreuses versions de travail et par conséquent, de nombreux fichiers XSD ont été écrits sur la base de ces standards en cours d’évolution. Pendant ce processus, Microsoft a créé un langage de schéma propriétaire appelé XDR (XML-Data Reduced), qui a été inclus dans MSXML 3.0. À partir de MSXML 4.0, Microsoft XML Core Services prend en charge la totalité de la recommandation de XSD. De nombreux programmes de création de schémas n’ont pas attendu que XSD devienne une recommandation complète. Les versions antérieures de ces programmes sont susceptibles de produire des fichiers XSD obsolètes, que l’infrastructure MSXML 5.0, dont dépend InfoPath, ne prend pas en charge.
   
-Pour vous assurer qu’un fichier XSD prend en charge la recommandation XSD complète, il doit contenir la déclaration d’espace de noms XML suivante dans la \<schema\> balise :
+Pour s’assurer qu’un fichier XSD prend en charge la recommandation XSD complète, il doit contenir la déclaration d’espace de noms XML suivante dans la \<schema\> balise :
   
 ```XML
 xmlns:xsd="https://www.w3.org/2001/XMLSchema"
@@ -254,12 +254,12 @@ Pour illustrer pourquoi ce segment XSD est non déterministe, supposons que vous
 
 ```
 
-Dans ce fragment XML,  *\<file_path\>*  il n’est pas clair si l’élément est le nœud requis de la première partie de la déclaration choice ou le nœud facultatif de la deuxième partie de la déclaration choice. Cette distinction est importante pour les raisons suivantes :
+Dans ce fragment XML, il n’est pas clair si l’élément  *\<file_path\>*  est le nœud requis de la première partie de la déclaration de choix ou celui facultatif de la deuxième partie de la déclaration de choix. Cette distinction est importante pour les raisons suivantes :
 
   
 1. Si le fragment XML est validé par rapport à la première partie de la déclaration choice, le code XML est valide par rapport au premier schéma.
 
-2. Si le fragment XML est validé par rapport à la deuxième partie de la déclaration de choix, le schéma n’est pas valide, \<URI\> car le nœud requis est manquant.
+2. Si le fragment XML est validé par rapport à la deuxième partie de la déclaration de choix, le schéma n’est pas valide, car le nœud requis \<URI\> est manquant.
 
 Certains systèmes de validation XSD ne déclenchent pas d'erreur de validation par rapport à ce schéma car il existe un chemin d'accès valide. MSXML est plus strict et déclenche une erreur indiquant que le schéma est non déterministe.
   
@@ -289,7 +289,7 @@ Pour comprendre pourquoi ce segment de schéma est non déterministe, supposons 
 
 ```
 
-Si vous regardez ce fragment, vous pouvez voir pourquoi il n’est pas valide : `<aNode>` `<anotherNode>` il existe deux éléments avant l’élément, lorsqu’un seul est autorisé.
+En examinant ce fragment, vous pouvez voir pourquoi il n’est pas valide : il existe deux `<aNode>` éléments avant l’élément `<anotherNode>` , quand un seul est autorisé.
   
 Supposons maintenant que vous avez l'instance XML suivante à valider :
   
@@ -301,7 +301,7 @@ Supposons maintenant que vous avez l'instance XML suivante à valider :
 
 ```
 
-Le problème est de déterminer si cette instance est valide. Avez-vous deux éléments `<aNode>` où un seul est autorisé, `<aNode>` ou avez-vous un élément où il est autorisé et un autre où il est autorisé ? Le schéma est non déterministe car il n'y a pas de moyen de connaître la réponse.
+Le problème est de déterminer si cette instance est valide. Avez-vous deux `<aNode>` éléments où un seul est autorisé, ou avez-vous un `<aNode>` élément où il est autorisé et un autre où il est autorisé ? Le schéma est non déterministe car il n'y a pas de moyen de connaître la réponse.
   
 De la même manière, les éléments facultatifs déclarés dans un élément **xsd:choice** sont généralement problématiques. Dans l'exemple simplifié suivant, il n'y a pas moyen de déterminer si le choix s'est produit une fois avec l'élément facultatif ou s'il ne s'est jamais produit du tout.
   
@@ -312,7 +312,7 @@ De la même manière, les éléments facultatifs déclarés dans un élément **
 
 ```
 
-La dernière pratique discutable consiste à utiliser un élément **xsd:any** sans définition d’espace de noms, comme dans `<xsd:any namespace="##other"/>` , après un **élément xsd:sequence** . Cette construction est spécialement gênante lorsqu'elle suit un élément facultatif. Si vous reprenez l'exemple précédent et que vous changez simplement le dernier nœud en un élément **xsd:any**, vous pouvez voir que tous les arguments précédents à propos du non-déterminisme s'appliquent encore, comme suit :
+La dernière pratique douteuse consiste à utiliser un **élément xsd:any** sans définition d’espace de noms, comme dans `<xsd:any namespace="##other"/>` , après un élément **xsd:sequence** . Cette construction est spécialement gênante lorsqu'elle suit un élément facultatif. Si vous reprenez l'exemple précédent et que vous changez simplement le dernier nœud en un élément **xsd:any**, vous pouvez voir que tous les arguments précédents à propos du non-déterminisme s'appliquent encore, comme suit :
   
 ```XML
 <xsd:element name="container"> 
@@ -359,7 +359,7 @@ Voici un exemple plus complexe :
 
 Pour comprendre pourquoi cet exemple est non valide, vous devez comprendre comment le type **xsd:NMTOKEN** est défini. La spécification des types de données W3C définit le type **NMTOKEN** comme suit : « Un jeton de nom (NMTOKEN) est tout ensemble de caractères de nom ».
   
-Si vous examinez plus en détail, vous constatez que « & » n’est pas un caractère de nom valide et, par conséquent, « M&Ms » ne valide pas en tant que type **NMTOKEN** .
+Si vous examinez plus en détail, vous constatez que « & » n’est pas un caractère de nom valide, et par conséquent « M&Ms » ne valide pas en tant que type **NMTOKEN** .
   
 ## <a name="empty-sequence-or-choice-elements"></a>Éléments sequence ou choice vides
 
@@ -374,15 +374,15 @@ MSXML déclenche parfois des erreurs à propos de déclarations de schéma conte
 
 ```
 
-La suppression de la balise `<xsd:choice />` vide devrait résoudre ce problème.
+La suppression de la balise vide `<xsd:choice />` doit résoudre ce problème.
   
 ## <a name="regular-expressions"></a>Expressions régulières
 
-MSXML 5.0 peut avoir des problèmes pour valider des modèles d'expressions régulières lors du chargement. Les expressions régulières peuvent être compliquées, et vous devez être attentif lorsque vous les utilisez. Chaque analyseur syntaxique XSD semble avoir des langages flexibles pour les expressions régulières : ils implémentent le langage d'expressions régulières XSD officiel ainsi que des éléments provenant d'autres langages d'expressions régulières. Si le concepteur de formulaires d'InfoPath a des problèmes pour analyser une expression régulière, les exemples de données générés par InfoPath peuvent être non valides ou ne pas être générées du tout. Ceci est acceptable lors de la conception, car InfoPath utilise les exemples de données seulement pour la mise en forme. Cependant, si vous utilisez une expression régulière qui n'est pas prise en charge par MSXML, InfoPath ne peut pas valider une valeur par rapport à cette expression lorsqu'un utilisateur remplit un formulaire. [Schéma XML, partie 0 : Primer Second Edition](https://www.w3.org/TR/xmlschema-0/) attribue ce qui est pris en charge dans les expressions régulières XSD. Pour plus d’informations sur les expressions régulières XSD et les expressions régulières Unicode de niveau 1, voir [Expressions régulières Unicode](https://www.unicode.org/reports/tr18/).
+MSXML 5.0 peut avoir des problèmes pour valider des modèles d'expressions régulières lors du chargement. Les expressions régulières peuvent être compliquées, et vous devez être attentif lorsque vous les utilisez. Chaque analyseur syntaxique XSD semble avoir des langages flexibles pour les expressions régulières : ils implémentent le langage d'expressions régulières XSD officiel ainsi que des éléments provenant d'autres langages d'expressions régulières. Si le concepteur de formulaires d'InfoPath a des problèmes pour analyser une expression régulière, les exemples de données générés par InfoPath peuvent être non valides ou ne pas être générées du tout. Ceci est acceptable lors de la conception, car InfoPath utilise les exemples de données seulement pour la mise en forme. Cependant, si vous utilisez une expression régulière qui n'est pas prise en charge par MSXML, InfoPath ne peut pas valider une valeur par rapport à cette expression lorsqu'un utilisateur remplit un formulaire. [Partie 0 du schéma XML : Primer Second Edition](https://www.w3.org/TR/xmlschema-0/)décrit ce qui est pris en charge dans les expressions régulières XSD. Pour plus d’informations sur les expressions régulières XSD et les expressions régulières Unicode de niveau 1, consultez [Expressions régulières Unicode](https://www.unicode.org/reports/tr18/).
   
 ## <a name="targetnamespace-attribute-issues"></a>Problèmes liés à l’attribut targetNamespace
 
-XSD est intéressant en ce que, par défaut, l’attribut **targetNamespace** fait référence uniquement aux déclarations de niveau supérieur, `attributeFormDefault=qualified` `elementFormDefault=qualified` bien que vous pouvez définir et remplacer ce comportement par défaut. Par exemple, supposons que vous avez le code XSD suivant.
+XSD est intéressant en ce que, par défaut, l’attribut **targetNamespace** fait référence uniquement aux déclarations de niveau supérieur, bien que vous puissiez définir `attributeFormDefault=qualified` et `elementFormDefault=qualified` remplacer ce comportement par défaut. Par exemple, supposons que vous avez le code XSD suivant.
   
 ```XML
 <xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema" targetNamespace="https://ns" > 
@@ -475,9 +475,9 @@ Par contre, cet exemple n'est pas valide.
 
 ```
 
-Cet exemple n’est pas valide, car le système de validation ne peut pas déterminer si deux occurrences `<x/>` de map to the single declaration or to the declaration and another invalid definition. Sur les mêmes lignes, vous ne pouvez pas avoir deux éléments du même nom dans une `<xsd:all>` balise.
+Cet exemple n’est pas valide, car le système de validation ne peut pas déterminer si deux occurrences de mappage `<x/>` à la déclaration unique ou à la déclaration et une autre définition non valide. Sur les mêmes lignes, vous ne pouvez pas avoir deux éléments du même nom dans une `<xsd:all>` balise.
   
-Cet exemple est également intéressant, car `<x/>` `<docs/>` il vous permet d’avoir n’importe quel nombre de nodes à l’intérieur d’un élément contenant dans n’importe quel ordre. Bien que cette construction ne soit pas valide, il existe une solution de contournement. En utilisant l'élément **xsd:choice**, vous pouvez obtenir le même résultat, comme le montre l'exemple suivant.
+Cet exemple est également intéressant, car il vous permet d’avoir un nombre quelconque de nœuds `<docs/>` à l’intérieur d’un `<x/>` élément conteneur dans n’importe quel ordre. Bien que cette construction ne soit pas valide, il existe une solution de contournement. En utilisant l'élément **xsd:choice**, vous pouvez obtenir le même résultat, comme le montre l'exemple suivant.
   
 ```XML
 <xsd:choice minOccurs="0" maxOccurs="unbounded"> 
@@ -493,7 +493,7 @@ Les deux exemples des sections suivantes montrent comment modifier ou créer un 
   
 ## <a name="allowing-user-defined-elements-to-be-inserted-in-the-fields-task-pane"></a>Possibilité d’insérer des éléments définis par l’utilisateur dans le volet Office Champs
 
-Pour permettre à des éléments définis par l'utilisateur d'apparaître sous un élément parent dans le volet Office **Champs**, vous devez insérer un élément **xsd:any** sous l'élément parent. Pour permettre l’insertion `<your_node_name>`d’éléments définis par l’utilisateur à l’intérieur, la déclaration XSD doit ressembler à ce qui suit.
+Pour permettre à des éléments définis par l'utilisateur d'apparaître sous un élément parent dans le volet Office **Champs**, vous devez insérer un élément **xsd:any** sous l'élément parent. Pour permettre l’insertion d’éléments définis par l’utilisateur à l’intérieur `<your_node_name>`, la déclaration XSD doit ressembler à ce qui suit.
   
 ```XML
 <xsd:element name="your_node_name"> 
@@ -507,7 +507,7 @@ Pour permettre à des éléments définis par l'utilisateur d'apparaître sous u
 
 ```
 
-Si vous souhaitez également autoriser les attributs définis par l’utilisateur, vous devez l’ajouter `<xsd:anyAttribute namespace="##any | ##other"/>` à la déclaration d’élément.
+Si vous souhaitez également autoriser les attributs définis par l’utilisateur, vous devez ajouter `<xsd:anyAttribute namespace="##any | ##other"/>` à la déclaration d’élément.
   
 ## <a name="allowing-rich-text-elements-to-be-bound-in-infopath-design-and-edit-modes"></a>Possibilité de liaison d’éléments de texte enrichi dans les modes Création et Édition
 

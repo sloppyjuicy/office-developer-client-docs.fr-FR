@@ -7,12 +7,12 @@ ms:contentKeyID: 55119792
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 160e6fe9607ec2892461c6109d4ff4264f73735e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7e7358d0f776364db659ccd66a349e9970053515
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629423"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65893969"
 ---
 # <a name="how-do-i-outlook-2013-pia-reference"></a>Comment... (Référence PIA Outlook 2013)
 
@@ -20,7 +20,7 @@ Cette section contient des rubriques de tâches procédurales et des exemples de
 
 Pour exécuter ces exemples de code, vous devez avoir installé Outlook 2010 et Visual Studio 2008 ou une version ultérieure de ces produits.
 
-Vous pouvez utiliser les exemples de codes de cette section sans installer les outils de développement Office pour Visual Studio. Si vous avez besoin d’informations supplémentaires sur l’utilisation des outils, n’hésitez pas à consulter le portail [Prise en main du développement Office](https://developer.microsoft.com/office/docs). Par ailleurs, la page [Solutions Outlook](https://docs.microsoft.com/visualstudio/vsto/outlook-solutions?view=vs-2017) propose d’autres tâches procédurales simples, rédigées en code managé.
+Vous pouvez utiliser les exemples de codes de cette section sans installer les outils de développement Office pour Visual Studio. Si vous avez besoin d’informations supplémentaires sur l’utilisation des outils, n’hésitez pas à consulter le portail [Prise en main du développement Office](https://developer.microsoft.com/office/docs). Par ailleurs, la page [Solutions Outlook](/visualstudio/vsto/outlook-solutions) propose d’autres tâches procédurales simples, rédigées en code managé.
 
 Les exemples de code de cette section s’adressent à différents niveaux, du débutant à l’intermédiaire. Certains d’entre eux sont inspirés de l’ouvrage [ Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=utf8%26tag=msmsdn-20%26linkcode=as2%26camp=1789%26creative=9325%26creativeasin=0735622493) (Programmation d’applications pour Microsoft Office Outlook 2007).
 
@@ -63,10 +63,10 @@ L’équipe Documentation du développeur Office vous invite à communiquer vos 
 
 [Pièces jointes](attachments.md)
 
-- [Joindre un fichier à un élément de courrier](https://docs.microsoft.com/office/vba/outlook/How-to/Items-Folders-and-Stores/attach-a-file-to-a-mail-item)
-- [Joindre un élément de Contact Outlook dans un message électronique](https://docs.microsoft.com/office/vba/outlook/Concepts/Attachments/attach-an-outlook-contact-item-to-an-email-message)
-- [Limiter la taille d'une pièce jointe à un message de courrier électronique Outlook](https://docs.microsoft.com/office/vba/outlook/Concepts/Attachments/limit-the-size-of-an-attachment-to-an-outlook-email-message)
-- [Modifier une pièce jointe d’un message électronique Outlook](https://docs.microsoft.com/office/vba/outlook/concepts/attachments/modify-an-attachment-of-an-outlook-email-message)
+- [Joindre un fichier à un élément de courrier](/office/vba/outlook/How-to/Items-Folders-and-Stores/attach-a-file-to-a-mail-item)
+- [Joindre un élément de Contact Outlook dans un message électronique](/office/vba/outlook/Concepts/Attachments/attach-an-outlook-contact-item-to-an-email-message)
+- [Limiter la taille d'une pièce jointe à un message de courrier électronique Outlook](/office/vba/outlook/Concepts/Attachments/limit-the-size-of-an-attachment-to-an-outlook-email-message)
+- [Modifier une pièce jointe d’un message électronique Outlook](/office/vba/outlook/concepts/attachments/modify-an-attachment-of-an-outlook-email-message)
 - [Supprimer par programme les pièces jointes de niveau 2 de sécurité contenues dans les messages et les enregistrer sur le disque](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)
 
 [Calendrier](calendar.md)

@@ -8,12 +8,12 @@ keywords:
 - c api [excel 2007],programming interfaces [Excel 2007],C API [Excel 2007], when to use,C API [Excel 2007], relation to XLM,Excel programming interfaces
 ms.assetid: 142bc0ce-7d16-4b69-9799-ce6558da2def
 ms.localizationpriority: high
-ms.openlocfilehash: 8e48ef5a22fe3458f865e7cb25ad571e11ac0552
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: 3a80be57c0475e67ea72a461591a7cfb738f284c
+ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198337"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65894655"
 ---
 # <a name="programming-with-the-c-api-in-excel"></a>Programmation avec l’API C dans Excel
 
@@ -92,7 +92,7 @@ Le langage de macro Excel (XLM) a �t� le premier environnement de programmat
 Une version limit�e de l�API�C existait dans Excel�3. Toutefois, dans Excel�4, le langage XML a �t� associ� � l�API�C. Depuis lors, les DLL ont pu appeler toutes les fonctions de feuille de calcul, les fonctions d�informations de feuille de macro et les commandes et elles ont pu d�finir des captures d��v�nement. Les DLL ne peuvent pas appeler des fonctions de contr�le de flux XLM � partir de l�API�C. Ces fonctions et fonctions de feuille de macro sont pr�sent�es dans le fichier d�aide XLMacr8.hlp (anciennement nomm� Macrofun.hlp). Pour obtenir ce fichier d�aide, acc�dez au [Centre de t�l�chargement Microsoft](https://download.microsoft.com) et recherchez ��XLMacr8.hlp��. 
   
 > [!NOTE]
-> [!REMARQUE] Windows Vista et Windows�7 ne prennent pas en charge directement les fichiers .hlp, mais vous pouvez y rem�dier en t�l�chargeant le [programme d�aide Windows (WinHlp32.exe) pour Windows Vista](https://go.microsoft.com/fwlink/?LinkID=82148) ou le [programme d�aide Windows (WinHlp32.exe) pour Windows�7](https://www.microsoft.com/download/en/details.aspx?id=91) � partir de Microsoft. 
+> [!REMARQUE] Windows Vista et Windows�7 ne prennent pas en charge directement les fichiers .hlp, mais vous pouvez y rem�dier en t�l�chargeant le [programme d�aide Windows (WinHlp32.exe) pour Windows Vista](https://go.microsoft.com/fwlink/?LinkID=82148) ou le programme d�aide Windows (WinHlp32.exe) pour Windows�7 � partir de Microsoft. 
   
 Les DLL appellent les �quivalents API�C de ces fonctions et commandes � l�aide des fonctions de rappel **Excel4**, **Excel4v**, **Excel12** et **Excel12v** (les deux derni�res ont �t� introduites dans Excel�2007). Les constantes �num�r�es qui correspondent � chaque fonction et commande sont d�finies dans un fichier d�en-t�te et transmises en tant qu�arguments � ces rappels. Par exemple, **GET.CELL** est repr�sent� par **xlfGetCell**, **REGISTER** par **xlfRegister** et **DEFINE.NAME** par **xlcDefineName**.
   
