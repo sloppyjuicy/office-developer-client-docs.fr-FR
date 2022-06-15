@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: Utilisez le Journal de télémétrie pour Office 2013 pour déterminer les problèmes de compatibilité avec Office 2013 et les solutions élaborées pour les précédentes versions d'Office.
 ms.localizationpriority: high
-ms.openlocfilehash: 79c0ca3d827d8b273a24d752985c536e3cd6a180
-ms.sourcegitcommit: 03348dda157b813ea1af1c4643a328fbf532a20b
+ms.openlocfilehash: d15b7d48b402858425f31391fade238b739cbd1b
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63661467"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083982"
 ---
 # <a name="troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log"></a>Dépannage des solutions personnalisées et des fichiers Office avec le journal de télémétrie
 
@@ -25,7 +25,7 @@ Cette prolifération de solutions Office complexifie les mises à niveau des ver
   
 Outil reposant sur Excel 2013, le Journal de télémétrie pour Office 2013 aide les développeurs et les utilisateurs expérimentés à diagnostiquer les problèmes de compatibilité en affichant les événements qui se produisent dans un éventail d'applications Office 2013. Grâce à cet outil, les utilisateurs sont à même de déterminer les problèmes potentiels avec les compléments qu'ils utilisent dans leur environnement de travail, fournissant ainsi aux décideurs d'entreprise les informations dont ils ont besoin pour déterminer si la mise à niveau vers Office 2013 est possible. Le Journal de télémétrie propose également des commentaires détaillés sur des modifications ou des obsolescences spécifiques dans les modèles objet pour les applications Office 2013, ce qui permet aux développeurs d'identifier et de remanier rapidement le code ou les commandes problématiques. Les informaticiens peuvent voir les tendances de fonctionnement des solutions sur différents clients grâce au Tableau de bord de télémétrie pour Office 2013, outil complémentaire du Journal de télémétrie.
   
-Pour plus d'informations, voir [Déployer le Tableau de bord de télémétrie](https://docs.microsoft.com/DeployOffice/compat/deploy-telemetry-dashboard).
+Pour plus d'informations, voir [Déployer le Tableau de bord de télémétrie](/DeployOffice/compat/deploy-telemetry-dashboard).
   
 ## <a name="how-the-telemetry-log-works"></a>Fonctionnement du Journal de télémétrie
 
@@ -149,7 +149,7 @@ Utilisez le Tableau 2 suivant pour interpréter les enregistrements affichés da
 |19  <br/> |Le complément a rencontré une erreur d’exécution  <br/> |Critique  <br/> |L'Complément Office a rencontré un problème qui l'a empêchée de s'exécuter. Pour plus de détails, consultez le journal des alertes de Microsoft Office à l'aide de l'Observateur d'événements Windows sur l'ordinateur sur lequel l'erreur s'est produite. |
 |20  <br/> |Le complément n’a pas pu vérifier la licence  <br/> |Critique  <br/> |Les informations de licence de l'Complément Office n'ont pas pu être vérifiées et la licence a peut-être expiré. Pour plus de détails, consultez le journal des alertes de Microsoft Office à l'aide de l'Observateur d'événements Windows sur l'ordinateur sur lequel l'erreur s'est produite. |
 | 21 <br/>|Une macro a rencontré une erreur de compilation <br/>|Avertissement <br/>| Le fichier contient une macro dont la compilation a échoué et n’a pas pu être exécutée. Pour plus d’informations, consultez le message d’erreur présenté lors de la tentative de compilation de la macro à partir de l’éditeur de macros.<br/>|
-|22 <br/>|Une macro a rencontré une erreur d’exécution<br/>| Avertissement <br/>| Le fichier contient une macro qui a rencontré une erreur d'exécution. Pour plus de détails, consultez le message d'erreur présenté lors de la tentative d'exécution de la macro à partir de l'éditeur de macro et consultez la référence sur les erreurs d'exécution de [VBA](https://docs.microsoft.com/previous-versions/visualstudio/visual-basic-6/aa264975(v=vs.60)).<br/>|
+|22 <br/>|Une macro a rencontré une erreur d’exécution<br/>| Avertissement <br/>| Le fichier contient une macro qui a rencontré une erreur d'exécution. Pour plus de détails, consultez le message d'erreur présenté lors de la tentative d'exécution de la macro à partir de l'éditeur de macro et consultez la référence sur les erreurs d'exécution de [VBA](/previous-versions/visualstudio/visual-basic-6/aa264975(v=vs.60)).<br/>|
 |Divers  <br/> |« Modification du comportement du modèle objet : ... »  <br/> |Informationnel  <br/> |Le code du complément ou du document prenant en charge les macros utilise un objet, un membre, une collection, une énumération ou une constante qui se comporte différemment des versions précédentes d’Office.<br/><br/> Pour plus d'informations, reportez-vous à la section [Problèmes de compatibilité dans Office](compatibility-issues-in-office.md). |
 |Divers  <br/> |« Modèle objet - supprimé : … »  <br/> |Critique  <br/> |Le code du complément ou du document prenant en charge les macros utilise une collection, une énumération, une constante, un objet ou un membre ayant été supprimé du modèle objet.<br/><br/>Pour plus d'informations, reportez-vous à la section [Problèmes de compatibilité dans Office](compatibility-issues-in-office.md). |
 |Divers  <br/> |« Modèle objet - masqué : … »  <br/> |Informationnel  <br/> |Le code du complément ou du document prenant en charge les macros utilise une collection, une énumération, une constante, un objet ou un membre ayant été masqué dans le modèle objet.<br/><br/>Pour plus d'informations, reportez-vous à la section [Problèmes de compatibilité dans Office](compatibility-issues-in-office.md). |
@@ -167,4 +167,4 @@ Le Journal de télémétrie fournit aux grandes entreprises, aux utilisateurs in
 
 - [Centre pour développeurs Office](https://developer.microsoft.com/office)
 - [Problèmes de compatibilité dans Office](compatibility-issues-in-office.md)
-- [Déployer le Tableau de bord de télémétrie Office](https://docs.microsoft.com/DeployOffice/compat/deploy-telemetry-dashboard)
+- [Déployer le Tableau de bord de télémétrie Office](/DeployOffice/compat/deploy-telemetry-dashboard)
