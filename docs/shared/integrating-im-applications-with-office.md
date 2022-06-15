@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: Cet article montre comment configurer une application cliente de message instantanée (MI) afin qu'elle intègre des fonctionnalités sociales dans Office 2013 et version ultérieure, notamment l'affichage de présence et l'envoi de messages instantanés à partir d'une carte de visite.
 ms.localizationpriority: high
-ms.openlocfilehash: 98050f36b4c53fc9b2dff760b5fc5dd46d6c4673
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 76a7e7f7d0e6244e17c90a93ff89b3782a58b381
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63371386"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083491"
 ---
 # <a name="integrating-im-applications-with-office"></a>Intégration des applications de messagerie instantanée à Office
 
@@ -56,7 +56,7 @@ Vous pouvez personnaliser une application cliente de messagerie instantanée afi
 
 ![Fiche d’identité dans Office 2013](media/ocom15_peoplecard.png "Fiche d’identité dans Office 2013")
   
-Pour permettre cette intégration dans Office, l'application cliente de messagerie instantanée doit implémenter un ensemble d'interfaces fournies par Office pour établir une connexion. Les API nécessaires à cette intégration sont incluses dans l'espace de noms [UCCollborationLib](https://docs.microsoft.com/previous-versions/office/communications/ff398475(v=ocs.14)) figurant dans le fichier Microsoft.Office.UC.dll installé avec les versions de Office 2013, comprenant Lync et Skype Entreprise. L'espace de noms **UCCollaborationLib** inclut les interfaces que vous devez implémenter pour intégrer Office.
+Pour permettre cette intégration dans Office, l'application cliente de messagerie instantanée doit implémenter un ensemble d'interfaces fournies par Office pour établir une connexion. Les API nécessaires à cette intégration sont incluses dans l'espace de noms [UCCollborationLib](/previous-versions/office/communications/ff398475(v=ocs.14)) figurant dans le fichier Microsoft.Office.UC.dll installé avec les versions de Office 2013, comprenant Lync et Skype Entreprise. L'espace de noms **UCCollaborationLib** inclut les interfaces que vous devez implémenter pour intégrer Office.
   
 > [!IMPORTANT]
 > La bibliothèque de types pour les interfaces requises est incorporée à Lync 2013/Skype Entreprise. Pour les intégrateurs tiers, cela fonctionne uniquement lorsque Lync 2013 et Skype Entreprise sont installés sur l’ordinateur cible. Si vous intégrez à l'aide d'Office Standard, vous devez extraire la bibliothèque de types et l'installer sur l'ordinateur cible. Le [kit de développement logiciel (SDK) Lync 2013](https://www.microsoft.com/download/details.aspx?id=36824) inclut le fichier Microsoft.Office.UC.dll.

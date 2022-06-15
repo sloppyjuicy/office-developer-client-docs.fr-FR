@@ -8,12 +8,12 @@ ms:contentKeyID: 49106417
 ms.date: 10/16/2018
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 142dc9e933ff11c8ee942ccd2a66145c52eced5b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 91e13bbcf10cf36866842c90b6062ee6bc7f6374
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59562887"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083814"
 ---
 # <a name="changes-in-access"></a>Modifications apportées dans Access
 
@@ -25,7 +25,7 @@ Dans une application Access sur SharePoint Server, lorsque vous créez un tablea
 
 Avec Office 365 et Access, vous pouvez créer des applications directement pour les utilisateurs sans avoir à vous soucier des défis de déploiement, des problèmes d'installation de logiciels ou de la compatibilité avec le système d'exploitation. Créez votre application à un emplacement et partagez-la sur le web avec la puissance de SQL Azure et de SQL Server.
 
-[SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview), la version cloud de SQL Server, ne gère pas les fonctionnalités desquelles dépendent les projets de données Access (ADP) pour fonctionner. Pour prendre en charge les fichiers ADP sur SQL Azure, Access nécessite des modifications importantes.
+[SQL Azure](/azure/azure-sql/database/sql-database-paas-overview), la version cloud de SQL Server, ne gère pas les fonctionnalités desquelles dépendent les projets de données Access (ADP) pour fonctionner. Pour prendre en charge les fichiers ADP sur SQL Azure, Access nécessite des modifications importantes.
 
 Pour ces raisons, Access ne prend pas en charge les ADPs. Les projets ADP sont très utiles pour SQL Server dans un environnement sur site, mais de grands changements ont eu lieu depuis qu'ils ont été introduits dans Access 2000. Désormais, les utilisateurs veulent que leur base de données soit accessible partout.
 
@@ -49,6 +49,4 @@ Access est conçu pour connecter les bases de données au nuage grâce aux techn
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Nouveautés d’Access 2013 pour les développeurs](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/new-in-access-for-developers)
-
-
+- [Nouveautés d’Access 2013 pour les développeurs](/office/vba/access/concepts/miscellaneous/new-in-access-for-developers)

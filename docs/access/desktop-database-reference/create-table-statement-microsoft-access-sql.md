@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: b1be66c4349e7113eaeedce73672b23ba928b995
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 464aaa5bfad722af7b4d21eac770aad8ddb36b11
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63627717"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66084045"
 ---
 # <a name="create-table-statement-microsoft-access-sql"></a>Instruction CREATE TABLE (Microsoft Access SQL)
 
@@ -184,7 +184,7 @@ Cet exemple crée une table appelée `~~Kitsch'n Sync` qui illustre tous les dif
                 & ",[Double]                FLOAT" _
                 & ",[Decimal]               DECIMAL(18,5)" _
                 & ",[Currency]              MONEY" _
-                & ",[ShortText]             CHAR" _
+                & ",[ShortText]             VARCHAR" _
                 & ",[LongText]              MEMO" _
                 & ",[PlaceHolder1]          MEMO" _
                 & ",[DateTime]              DATETIME" _

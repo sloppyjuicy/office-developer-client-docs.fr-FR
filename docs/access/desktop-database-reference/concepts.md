@@ -7,12 +7,12 @@ ms:contentKeyID: 67946324
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 55740a6ad6b080547c95a18ac54a50bb1c6463fa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d2a2416140532cc41a7c63f5eebebae790b061ca
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618475"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083989"
 ---
 # <a name="concepts"></a>Concepts
 
@@ -30,5 +30,4 @@ Si vous visualisez le contenu sur docs.microsoft.com, vous pouvez utiliser la ta
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Référence VBA Access](https://docs.microsoft.com/office/vba/api/overview/access)
-
+- [Référence VBA Access](/office/vba/api/overview/access)

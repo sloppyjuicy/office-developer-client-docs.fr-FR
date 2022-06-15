@@ -42,17 +42,17 @@ keywords:
 ms.assetid: d3c33089-0cbe-48c3-bfc0-0be819ca4d73
 description: Project Server Interface (PSI) est l’API à utiliser pour le développement d’applications qui s’intègre avec Project Server 2013 en local.
 ms.localizationpriority: high
-ms.openlocfilehash: 2aea9fc47ee0ed2f7e0f5c432966c31d97121601
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 1911c983b9e9f40715861413934dafb814ac903b
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63381403"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083996"
 ---
 # <a name="project-psi-reference-overview"></a>Vue d’ensemble de la référence PSI
 
 Project Server Interface (PSI) est l’API à utiliser pour le développement d’applications qui s’intègre avec Project Server 2013 en local.
-Cet article est une vue d’ensemble des assemblages documentés dans l’Explorateur, les espaces de noms et les services dans le programme PSI. La[référence service Project Server 2013 pour la bibliothèque de classe et web](https://docs.microsoft.com/previous-versions/office/project-class/ee767707(v=office.15)) dans le SDK contient l’ensemble de la documentation du code managé pour la PSI et l’espace[Microsoft.ProjectServer.Client](https://docs.microsoft.com/previous-versions/office/dn529530(v=office.15))de noms dans Project Server 2013. Pour développer des applications pour Project Online, vous devez utiliser l’espace **Microsoft.ProjectServer.Client** de noms au lieu de la PSI.
+Cet article est une vue d’ensemble des assemblages documentés dans l’Explorateur, les espaces de noms et les services dans le programme PSI. La[référence service Project Server 2013 pour la bibliothèque de classe et web](/previous-versions/office/project-class/ee767707(v=office.15)) dans le SDK contient l’ensemble de la documentation du code managé pour la PSI et l’espace[Microsoft.ProjectServer.Client](/previous-versions/office/dn529530(v=office.15))de noms dans Project Server 2013. Pour développer des applications pour Project Online, vous devez utiliser l’espace **Microsoft.ProjectServer.Client** de noms au lieu de la PSI.
 
 La PSI dans Project Server 2013 présente une double interface. L'interface ASMX pour les services web est définie par des fichiers de découverte et de langage de description des services web (disco et WSDL) dans le répertoire virtuel `https://ServerName/ProjectServerName/_vti_bin/psi/` (par exemple, Projectdisco.aspx et Projectwsdl.aspx). Vous pouvez accéder à l’interface ASMX uniquement par le biais de l’URL d’une installation locale de Project Web App (par exemple, `https://ServerName/ProjectServerName/_vti_bin/psi/project.asmx?wsdl)`. Pour afficher le service web dans un navigateur, vous devez inclure l’option URL `?wsdl`. Étant donné que l’interface ASMX créé à l’aide de l’infrastructure Windows Communication Foundation (WCF), les fichiers .asmx pour les services web Project Server n’existent pas réellement dans le répertoire PSI virtuel.
 

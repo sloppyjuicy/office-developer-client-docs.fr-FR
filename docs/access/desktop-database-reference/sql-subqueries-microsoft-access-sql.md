@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 9c4a186d172ceee4c7c3841a9a4b2385c4dee800
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: bef5f8fbdc5253c95434bb6ac2a5eca25e78f405
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63631259"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66084080"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>Sous-requêtes SQL (Microsoft Access SQL)
 
@@ -69,7 +69,7 @@ Une sous-requête est composée des arguments suivants :
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser une sous-requête au lieu d'une expression, dans la liste de champs d'une instruction [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) ou dans une clause [HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql). Dans une sous-requête, vous utilisez une instruction SELECT pour fournir un jeu d'une ou plusieurs valeurs spécifiques à évaluer dans l'expression de la clause WHERE ou HAVING.
+Vous pouvez utiliser une sous-requête au lieu d'une expression, dans la liste de champs d'une instruction [WHERE](/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) ou dans une clause [HAVING](/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql). Dans une sous-requête, vous utilisez une instruction SELECT pour fournir un jeu d'une ou plusieurs valeurs spécifiques à évaluer dans l'expression de la clause WHERE ou HAVING.
 
 Utilisez les prédicats ANY ou SOME, qui sont synonymes, pour rechercher par comparaison les enregistrements de la requête principale en correspondance avec n'importe quel enregistrement de la sous-requête. Dans l'exemple suivant, la requête renvoie tous les produits dont le prix unitaire est supérieur au prix de n'importe quel produit vendu avec une remise de 25 pour cent ou davantage :
 
@@ -80,7 +80,7 @@ WHERE UnitPrice > ANY
 WHERE Discount >= .25);
 ```
 
-Utilisez le prédicat [ALL](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql) pour rechercher par comparaison uniquement les enregistrements de la requête principale en correspondance avec n'importe quel enregistrement de la sous-requête. Si dans l'exemple précédent, vous avez remplacé ANY par ALL, la requête ne renvoie que les produits dont le prix unitaire est supérieur aux prix de tous les produits vendus avec une remise de 25 pourcent ou davantage. La recherche est beaucoup plus restrictive.
+Utilisez le prédicat [ALL](/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql) pour rechercher par comparaison uniquement les enregistrements de la requête principale en correspondance avec n'importe quel enregistrement de la sous-requête. Si dans l'exemple précédent, vous avez remplacé ANY par ALL, la requête ne renvoie que les produits dont le prix unitaire est supérieur aux prix de tous les produits vendus avec une remise de 25 pourcent ou davantage. La recherche est beaucoup plus restrictive.
 
 Utilisez le prédicat IN pour rechercher les enregistrements de la requête principale pour lesquels on trouve des enregistrements avec une valeur identique dans la sous-requête. Dans l'exemple suivant, la requête renvoie tous les produits vendus avec une remise de 25 pour cent ou davantage :
 
@@ -95,7 +95,7 @@ WHERE Discount >= .25);
 
 Utilisez le prédicat EXISTS (avec le mot réservé facultatif NOT) dans des comparaisons vrai/faux pour déterminer si la sous-requête renvoie des enregistrements
 
-Vous pouvez également utiliser des alias de nom de table dans une sous-requête pour faire référence à des tables répertoriées dans une clause [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) en dehors de la sous-requête. Dans l'exemple suivant, la requête renvoie le nom des employés dont le salaires est supérieur ou égal au salaire moyen de l'ensemble des employés occupant le même poste. L'alias affecté à la table Employees est « T1 » :
+Vous pouvez également utiliser des alias de nom de table dans une sous-requête pour faire référence à des tables répertoriées dans une clause [FROM](/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) en dehors de la sous-requête. Dans l'exemple suivant, la requête renvoie le nom des employés dont le salaires est supérieur ou égal au salaire moyen de l'ensemble des employés occupant le même poste. L'alias affecté à la table Employees est « T1 » :
 
 ```sql
 SELECT LastName,

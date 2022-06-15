@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 1f1592282635cc27486562ca26c31bcea4f3b4e6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 20808bc3b22e6d8ef1f1a7e2d83246096a0905de
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611692"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083470"
 ---
 # <a name="refreshrecord-macro-action"></a>RefreshRecord, action de macro
 
@@ -33,15 +33,15 @@ Le comportement de cette action de macro varie selon que vous l'appelez dans une
 
 ## <a name="client-database"></a>Base de données cliente
 
-Dans une base de données cliente, vous pouvez utiliser l'action **ActualiserEnregistrement** pour mettre à jour la source d'enregistrement sous-jacente de la feuille de données ou du formulaire actif de façon à refléter les modifications apportées aux données dans le jeu actuel. Les modifications comprennent celles apportées par l'utilisateur actuel ou par d'autres utilisateurs dans un environnement multi-utilisateur. Elle équivaut à la méthode **[Actualiser](https://docs.microsoft.com/office/vba/api/Access.Form.Refresh)**.
+Dans une base de données cliente, vous pouvez utiliser l'action **ActualiserEnregistrement** pour mettre à jour la source d'enregistrement sous-jacente de la feuille de données ou du formulaire actif de façon à refléter les modifications apportées aux données dans le jeu actuel. Les modifications comprennent celles apportées par l'utilisateur actuel ou par d'autres utilisateurs dans un environnement multi-utilisateur. Elle équivaut à la méthode **[Actualiser](/office/vba/api/Access.Form.Refresh)**.
 
 L'action de macro **ActualiserEnregistrement** effectue les opérations suivantes dans une base de données cliente :
 
 1.  Elle met à jour la source d'enregistrement pour la feuille de données ou le formulaire actif de façon à refléter les modifications apportées aux lignes dans le jeu actuel. Pour les tables liées ODBC, elle extrait de la source de données les modifications apportées aux enregistrements dans le jeu actuel.
 
-2.  Elle met à jour le jeu actuel de façon à refléter les modifications apportées. Si une ligne de la source d’enregistrement a été supprimée, elle est modifiée pour afficher \# Supprimé.
+2.  Elle met à jour le jeu actuel de façon à refléter les modifications apportées. Si une ligne de la source d’enregistrement a été supprimée, elle est modifiée pour afficher \#Supprimé.
 
-3.  Actualise la feuille de données ou active pour afficher les enregistrements modifiés et les enregistrements \# supprimés, dans le jeu actif.
+3.  Actualise l’élément actif ou la feuille de données pour afficher les enregistrements modifiés et les \#enregistrements supprimés dans le jeu actuel.
 
 4.  Elle actualise tous les sous-formulaires et sous-états dans la feuille de données ou le formulaire actif.
 
@@ -53,9 +53,8 @@ L'action de macro **ActualiserEnregistrement** effectue les opérations suivante
 
 1.  Elle extrait les modifications à partir du serveur pour les tables de base dans le jeu actuel. Pour les tables liées ODBC, elle extrait de la source de données les modifications apportées aux enregistrements dans le jeu actuel.
 
-2.  Elle met à jour le jeu actuel de façon à refléter les modifications apportées. Si une ligne du jeu actuel a été supprimée, elle est modifiée pour afficher \# Supprimé.
+2.  Elle met à jour le jeu actuel de façon à refléter les modifications apportées. Si une ligne de l’ensemble actuel a été supprimée, elle est modifiée pour s’afficher \#Supprimée.
 
-3.  Actualise le formulaire ou la feuille de données actif pour afficher les enregistrements modifiés et les enregistrements \# supprimés, dans le jeu actif.
+3.  Actualise le formulaire ou la feuille de données actif pour afficher les enregistrements modifiés et les \#enregistrements supprimés, dans le jeu actuel.
 
 4.  Elle actualise tous les sous-formulaires et sous-états dans la feuille de données ou le formulaire actif.
-

@@ -7,12 +7,12 @@ ms:contentKeyID: 52073808
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 0fe67104a669785308cb466dc330aed62fbb5ddc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1431e764e4ea2aa7580191333cff8a995e5fee65
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589413"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083954"
 ---
 # <a name="access-desktop-database-reference"></a>Référence de base de données de bureau Access
 
@@ -26,4 +26,4 @@ ms.locfileid: "59589413"
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Modèle d’objet (référence VBA Access)](https://docs.microsoft.com/office/vba/api/overview/Access/object-model)
+- [Modèle d’objet (référence VBA Access)](/office/vba/api/overview/Access/object-model)

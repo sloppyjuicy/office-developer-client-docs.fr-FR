@@ -7,28 +7,28 @@ ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
 description: Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation d’Excel.
 ms.localizationpriority: high
 adobe-target: true
-ms.openlocfilehash: f5d34e391d8bc58e829a10a6ec4810c1669b6e3f
-ms.sourcegitcommit: 17d8aa6877e91885abcb2c4cb901e4a079363f92
+ms.openlocfilehash: 83881cd3d9882f5e31d7b6dbb85c8ac24e9fdda3
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65611378"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66084024"
 ---
 # <a name="develop-solutions-and-customize-excel"></a>Développer des solutions et personnaliser Excel
 
 Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation d’Excel.
   
 > [!NOTE]
-> Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](/office/dev/add-ins/overview/office-add-in-availability.md) ? Consultez le nouveau [modèle de compléments Excel](/office/dev/add-ins/excel/excel-add-ins-overview.md). 
+> Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](/javascript/api/requirement-sets) ? Consultez le nouveau [modèle de compléments Excel](/office/dev/add-ins/excel/excel-add-ins-overview).
   
 ### <a name="viewed-most"></a>Articles populaires
   
 - [Référence VBA Excel](/office/vba/api/overview/excel)  
-- [Excel 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ee658205(v=office.14))
+- [Excel 2010](/previous-versions/office/developer/office-2010/ee658205(v=office.14))
   
 ### <a name="office-add-ins"></a>Compléments Office
   
-- [Prise en main des compléments Excel](/office/dev/add-ins/excel/excel-add-ins-get-started-overview)  
+- [Prise en main des compléments Excel](/office/dev/add-ins/quickstarts/excel-quickstart-jquery)
 - [Vue d’ensemble de la plateforme](/office/dev/add-ins/overview/office-add-ins)
 - [Fonctions personnalisées JavaScript](/office/dev/add-ins/excel/custom-functions-overview)
   
@@ -43,7 +43,7 @@ Recherchez des procédures, des exemples de code, de la documentation sur les Ki
 - [Référence de la bibliothèque d’objets VBA Office](/office/vba/api/overview/library-reference)  
 - [Référence de langage VBA pour Office](/office/vba/api/overview/language-reference)  
 - [Open XML SDK](/office/open-xml/open-xml-sdk)  
-- [Compléments VSTO pour Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
+- [Compléments VSTO pour Office](/previous-versions/visualstudio/visual-studio-2017/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 ### <a name="support"></a>Support
   

@@ -8,12 +8,12 @@ ms:contentKeyID: 48546659
 ms.date: 10/16/2018
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 8e1f0433ddfb3fca360708cf2d4d1460b8bf3cb9
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 2455f43469d5d7b379b86e87b8844b850636fe0c
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63631476"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66084063"
 ---
 # <a name="apply-a-custom-ribbon-when-starting-access"></a>Appliquer un ruban personnalisé au démarrage d’Access
 
@@ -61,7 +61,7 @@ Le tableau suivant répertorie les paramètres à utiliser lors de la création 
 
 ### <a name="load-ribbon-extensibility-xml-programmatically"></a>Charger extensibilité du ruban XML par programme
 
-Vous pouvez utiliser la méthode **[LoadCustomUI](https://docs.microsoft.com/office/vba/api/Access.Application.LoadCustomUI)** pour charger les personnalisations du ruban de manière programmatique. En général, pour créer et mettre le ruban à la disposition de l'application, vous créez d'abord un module dans la base de données avec une procédure qui appelle la méthode **LoadCustomUI**, en lui transmettant le nom du ruban et le balisage de personnalisation XML.
+Vous pouvez utiliser la méthode **[LoadCustomUI](/office/vba/api/Access.Application.LoadCustomUI)** pour charger les personnalisations du ruban de manière programmatique. En général, pour créer et mettre le ruban à la disposition de l'application, vous créez d'abord un module dans la base de données avec une procédure qui appelle la méthode **LoadCustomUI**, en lui transmettant le nom du ruban et le balisage de personnalisation XML.
 
 Le balisage XML peut provenir d'un objet **Recordset** créé à partir d'une table, d'une source externe à la base de données, telle qu'un fichier XML que vous analysez pour obtenir une chaîne, ou d'un balisage XML intégré directement dans la procédure. Vous pouvez créer différents rubans à l'aide de plusieurs appels à la méthode  **LoadCustomUI**, en transmettant différents balisages XML, à condition que le nom de chaque ruban et l'attribut **id** des onglets qui composent le ruban soient uniques.
 
@@ -82,6 +82,4 @@ Pour appliquer un ruban personnalisé disponible au démarrage de l'application,
 5.  Quittez et redémarrez l’application. L’interface utilisateur que vous avez sélectionnée est affichée.
 
 > [!NOTE]
-> Pour plus d'informations sur l'interface du ruban dans d'autres applications Office, consultez l'article [Vue d'ensemble du ruban Office Fluent](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
-
-
+> Pour plus d'informations sur l'interface du ruban dans d'autres applications Office, consultez l'article [Vue d'ensemble du ruban Office Fluent](/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).

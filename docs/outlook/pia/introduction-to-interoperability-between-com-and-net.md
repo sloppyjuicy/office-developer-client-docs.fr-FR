@@ -7,20 +7,20 @@ ms:contentKeyID: 55119776
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ebc5b7e3246a1e025665647f515ccdd1617b405d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1ddded614f9540caef03f1c4e52276ab626dc195
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623620"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083863"
 ---
 # <a name="introduction-to-interoperability-between-com-and-net"></a>Introduction à l'interopérabilité entre COM et .NET
 
 Le modèle COM (Component Object Model) et la plateforme .NET utilisent des systèmes et des mécanismes de types extrêmement différents pour la gestion de la durée de vie des objets, ainsi que pour la création et l'héritage d'interfaces. 
 
-Par exemple, un type de **variante** dans COM est un type de données **System.Object** dans l’infrastructure .NET. Pour créer un objet, un client COM appelle [CoCreateInstance](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance), alors qu'un client managé peut utiliser des mots clés comme new ou New qui sont intégrés à un langage de programmation managée. 
+Par exemple, un type de **variante** dans COM est un type de données **System.Object** dans l’infrastructure .NET. Pour créer un objet, un client COM appelle [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance), alors qu'un client managé peut utiliser des mots clés comme new ou New qui sont intégrés à un langage de programmation managée. 
 
-Alors que le modèle COM ne prend pas en charge l'héritage classique et qu'un client COM gère un décompte de références interne fourni par [IUnknown (éventuellement en anglais)](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) pour libérer une coclasse, un client managé utilise le récupérateur de mémoire du CLR fourni par .NET Framework pour libérer un objet. 
+Alors que le modèle COM ne prend pas en charge l'héritage classique et qu'un client COM gère un décompte de références interne fourni par [IUnknown (éventuellement en anglais)](/windows/win32/api/unknwn/nn-unknwn-iunknown) pour libérer une coclasse, un client managé utilise le récupérateur de mémoire du CLR fourni par .NET Framework pour libérer un objet. 
 
 Étant donné ces différences entre COM et .NET, le développement d'un client managé sur un modèle objet COM requiert un mécanisme pour résoudre ces différences. Le wrapper RCW (Runtime Callable Wrapper) est un mécanisme qui favorise la communication transparente entre COM et le modèle de programmation managée.
 
@@ -63,4 +63,3 @@ La figure 2 illustre un wrapper RCW qui, au moment de l'exécution, intercepte u
 
 - [Pourquoi utiliser le PIA d’Outlook](why-use-the-outlook-pia.md)
 - [Installation et référencement le PIA Outlook](installing-and-referencing-the-outlook-pia.md)
-

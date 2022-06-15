@@ -11,18 +11,18 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: cf07e10b32dad6c1ef0dba2d2ad14b516ffe1ed5
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 38dfb39825ad5ae301b6c93008c5c4cf29037f5b
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63633553"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083912"
 ---
 # <a name="delete-statement-microsoft-access-sql"></a>DELETE, instruction (Microsoft Access SQL)
 
 **S’applique à** : Access 2013, Office 2013
 
-Crée une requête qui supprime les enregistrements d’une ou de plusieurs tables répertoriées dans la clause [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) qui satisfont à la clause [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql).
+Crée une requête qui supprime les enregistrements d’une ou de plusieurs tables répertoriées dans la clause [FROM](/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) qui satisfont à la clause [WHERE](/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql).
 
 ## <a name="syntax"></a>Syntaxe
 

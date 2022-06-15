@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 511eb8adfbfb10cf261d725f3ef06662077c9f64
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: ae7f4ee2177cd747f010bd86c37c58c751736ad9
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63631943"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083932"
 ---
 # <a name="union-operation-microsoft-access-sql"></a>UNION, opération (Microsoft Access SQL)
 
@@ -70,8 +70,9 @@ Toutes les requêtes dans une opération UNION doivent demander le même nombre 
 Utiliser des alias uniquement dans la première instruction SELECT, car ils sont ignorés dans les autres. Dans la clause ORDER BY, faites référence aux champs par la manière dont ils sont appelés dans la première instruction SELECT.
 
 > [!NOTE]
-> - Vous pouvez utiliser une clause GROUP BY ou HAVING dans chaque argument [requête](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) pour regrouper les données renvoyées.
-> - Vous pouvez utiliser une clause ORDER BY à la fin du dernier argument [requête](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/order-by-clause-microsoft-access-sql) pour afficher les données renvoyées dans un ordre spécifié.
+>
+> - Vous pouvez utiliser une clause GROUP BY ou HAVING dans chaque argument [requête](/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) pour regrouper les données renvoyées.
+> - Vous pouvez utiliser une clause ORDER BY à la fin du dernier argument [requête](/office/vba/access/concepts/structured-query-language/order-by-clause-microsoft-access-sql) pour afficher les données renvoyées dans un ordre spécifié.
 
 ## <a name="example"></a>Exemple
 

@@ -5,28 +5,28 @@ ms.date: 08/10/2016
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 009cd997-c7e5-4078-b495-c40caa29a5fb
-description: Les composants de add-in sont hébergés dans des éléments iframe totalement isolés de la page d’hébergement. Pour obtenir des informations sur le projet actuel à partir d’un élément de module complémentaire sur la page de détails de Project, vous pouvez utiliser la méthode window.postMessage, un lanceur d’événements et un responsable du traitement des événements qui analyse l’ID de projet à partir du message.
-ms.openlocfilehash: 78851a6008157741ed489ce8b3868497823d48d1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Les composants de complément sont hébergés dans des éléments iframe entièrement isolés de la page d’hébergement. Pour obtenir des informations sur le projet actuel à partir d’un composant de complément sur Project Page de détails (PDP), vous pouvez utiliser la méthode window.postMessage, un écouteur d’événements et un gestionnaire d’événements qui analyse l’ID de projet à partir du message.
+ms.openlocfilehash: 723cf5f7797aa61e37f1172fb9e309969a3855c7
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59623557"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083898"
 ---
 # <a name="get-the-project-id-in-an-add-in-part-on-a-project-details-page"></a>Obtenir l’ID du projet dans un composant de complément sur une page de détails du projet
 
-Les composants de add-in sont hébergés dans des **éléments iframe** totalement isolés de la page d’hébergement. Pour obtenir des informations sur le projet actuel à partir d’un élément de module complémentaire sur la page de détails de Project ( PDP), vous pouvez utiliser la méthode **window.postMessage,** un lanceur d’événements et un responsable du traitement des événements qui analyse l’ID de projet à partir du message. 
+Les composants de complément sont hébergés dans des éléments **iframe** entièrement isolés de la page d’hébergement. Pour obtenir des informations sur le projet actuel à partir d’un composant de complément sur Project Page de détails (PDP), vous pouvez utiliser la méthode **window.postMessage**, un écouteur d’événements et un gestionnaire d’événements qui analyse l’ID de projet à partir du message. 
   
-## <a name="prerequisites-for-creating-a-sharepoint-hosted-add-in-part-that-gets-the-project-id"></a>Conditions préalables à la création d’un SharePoint de recherche hébergé par le projet qui obtient l’ID de projet
+## <a name="prerequisites-for-creating-a-sharepoint-hosted-add-in-part-that-gets-the-project-id"></a>Conditions préalables à la création d’un composant de complément hébergé par SharePoint qui obtient l’ID de projet
 <a name="Prereqs"> </a>
 
-Pour utiliser l’exemple de code de cet article, vous aurez besoin de l’une des procédures suivantes :
+Pour utiliser l’exemple de code de cet article, vous avez besoin de l’une des options suivantes :
   
-- SharePoint 2013 et Project Server 2013, configurés pour l’isolation des add-ins. Si vous développez à distance, le serveur doit prendre en charge le chargement indépendant des modules ou vous devez installer le module sur un Site du développeur.
+- SharePoint 2013 et Project Server 2013, configurés pour l’isolation des compléments. Si vous développez à distance, le serveur doit gérer le chargement indépendant des compléments ou vous devez installer le complément sur un site de développeur.
   
-- SharePoint En ligne et Project Online
+- SharePoint Online et Project Online
     
-    - Visual Studio 2013, Visual Studio 2012 avec Office Outils de développement Visual Studio 2013 ou Napa
+    - Visual Studio 2013, Visual Studio 2012 avec Office Developer Tools for Visual Studio 2013 ou Napa
         
     - Autorisations suffisantes pour l'utilisateur connecté :
         
@@ -34,41 +34,41 @@ Pour utiliser l’exemple de code de cet article, vous aurez besoin de l’une d
             
         - Accès en lecture à au moins un projet.
             
-        - Autorisation de modifier des pages sur Project Web App site web.
+        - Autorisation de modifier des pages sur le site Project Web App.
             
-        - Vous devez être connecté en tant que quelqu'un d'autre que le compte système. Le compte système n’est pas autorisé à installer un add-in.
+        - Vous devez être connecté en tant que quelqu'un d'autre que le compte système. Le compte système n’est pas autorisé à installer un complément.
     
-Consultez les conditions préalables à la création d’un Project [Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) pour plus d’informations sur les Project. Voir Configurer un environnement de développement local pour les SharePoint pour obtenir des [instructions](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins) sur l’installation locale (y compris la désactivation de la vérification en boucle, si nécessaire). Si vous développez à distance, voir Développement d’applications [pour SharePoint sur un système distant.](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins)
+Pour plus [d’informations sur les compléments pour Project, consultez les conditions préalables à la création d’un complément pour Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites). Consultez [Configurer un environnement de développement local pour SharePoint compléments](/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins) pour obtenir des conseils sur la configuration locale (notamment la désactivation de la vérification de bouclage, si nécessaire). Si vous développez à distance, consultez [Développer des applications pour SharePoint sur un système distant](/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins).
   
-## <a name="create-the-sharepoint-hosted-add-in-and-client-web-part"></a>Créer le SharePoint de client et le module de recherche hébergés
+## <a name="create-the-sharepoint-hosted-add-in-and-client-web-part"></a>Créer le complément hébergé par SharePoint et le composant WebPart client
 <a name="CreateApp"> </a>
 
-1. Ouvrez Visual Studio et choisissez **Fichier**  >  **nouveau**  >  **Project**.
+1. Ouvrez Visual Studio et choisissez **Fichier** > **nouveau** >  **Project**.
     
 2. Dans la boîte de dialogue **Nouveau projet**, sélectionnez **.NET Framework 4.5** dans la liste déroulante située en haut. 
     
-3. Dans la liste **Modèles,** sélectionnez **Visual C#** Office/SharePoint Pour plus d’SharePoint  >    >    >  **2013.**
+3. Dans la liste **Modèles**, choisissez **Le complément Visual C#** > **Office/SharePoint** >  **Add-ins** > **pour SharePoint 2013**.
     
-4. Nommez le add-in GetProjectIdAddinPart, puis choisissez le **bouton OK.** 
+4. Nommez le complément GetProjectIdAddinPart, puis choisissez le bouton **OK** . 
     
-5. Dans la **boîte** de dialogue Nouveau SharePoint, entrez l’URL du site PWA que vous souhaitez utiliser pour le débogage (par exemple : _https://contoso.com/sites/pwasite/_ ).
+5. Dans la boîte **de dialogue Nouveau complément pour SharePoint**, entrez l’URL du site PWA que vous souhaitez utiliser pour le débogage (par exemple : _https://contoso.com/sites/pwasite/_).
     
-6. Choisissez **l SharePoint l’option** hébergée pour héberger votre add-in, puis choisissez le **bouton** Terminer. 
+6. Choisissez l’option **hébergée par SharePoint** pour héberger votre complément, puis choisissez le bouton **Terminer**. 
     
-7. Dans **l’Explorateur** de solutions, ouvrez le menu raccourci du projet GetProjectIdAddinPart, puis choisissez **Ajouter** un  >  **nouvel élément.**
+7. Dans **Explorateur de solutions**, ouvrez le menu contextuel du projet GetProjectIdAddinPart, puis choisissez **Ajouter** > **un nouvel élément**.
     
-8. Dans la **boîte de dialogue** Ajouter un nouvel élément, choisissez le client web part **(site web hôte)**, nommez le partie Web Part GetProjectId, puis choisissez le **bouton** Ajouter. 
+8. Dans la boîte **de dialogue Ajouter un nouvel élément** , choisissez le **composant WebPart client (Site web hôte),** nommez le composant WebPart GetProjectId, puis **choisissez** le bouton Ajouter. 
     
-9. Dans la boîte de dialogue Créer un **client,** choisissez l’option Créer une page de partie **Web** Client, puis choisissez le **bouton** Terminer. 
+9. Dans la boîte de dialogue **Créer un composant WebPart client** , choisissez l’option **Créer un composant WebPart client** , puis cliquez sur le bouton **Terminer** . 
     
-## <a name="get-the-project-id-in-the-add-in-part"></a>Obtenir l’ID de projet dans le partie de add-in
+## <a name="get-the-project-id-in-the-add-in-part"></a>Obtenir l’ID de projet dans le composant de complément
 <a name="GetProjectId"> </a>
 
-Le partie de l’application GetProjectId définit son code personnalisé dans la page GetProjectId.aspx du client. La logique qui reçoit et gère le message est définie dans l’élément **head** de la page et les contrôles de page sont définis dans l’élément **body** de la page. 
+Le composant de complément GetProjectId définit son code personnalisé dans la page GetProjectId.aspx du composant WebPart client. La logique qui reçoit et gère le message est définie dans l’élément **principal** de la page et les contrôles de page sont définis dans l’élément **corps** de la page. 
   
-1. Ouvrez la page du volet Web GetProjectId.aspx (dans le **dossier Pages).** 
+1. Ouvrez la page du composant WebPart GetProjectId.aspx (dans le dossier **Pages** ). 
     
-2. Dans **l’élément en-tête** de la page, remplacez le code entre les **balises de script** par le code suivant. 
+2. Dans l’élément **principal** de la page, remplacez le code entre les balises de **script** par le code suivant. 
     
    ```js
         'use strict';
@@ -133,36 +133,36 @@ Le partie de l’application GetProjectId définit son code personnalisé dans l
         }
    ```
 
-3. Ajoutez le code suivant dans **l’élément body** de la page. Le code définit un contrôle span qui affiche l’ID de projet. 
+3. Ajoutez le code suivant dans l’élément **de corps** de la page. Le code définit un contrôle d’étendue qui affiche l’ID de projet. 
     
    ```HTML
     <p>The ID for this project is:</p>
     <span id="projectUid"></span>
    ```
 
-4. Dans le Elements.xml, modifiez éventuellement le nom, le titre, la description et la taille par défaut du fichier de recherche. Cet exemple utilise les valeurs par défaut.
+4. Dans le fichier Elements.xml, modifiez éventuellement le nom, le titre, la description et la taille par défaut du composant de complément. Cet exemple utilise les valeurs par défaut.
     
-5. Pour tester le partie de la add-in, dans la barre de menus, choisissez **Déboguer,** **Démarrer le débogage**. Si vous êtes invité à modifier le fichier web.config, cliquez sur le bouton **OK**. 
+5. Pour tester le composant de complément, dans la barre de menus, choisissez **Déboguer**, Démarrer le **débogage**. Si vous êtes invité à modifier le fichier web.config, cliquez sur le bouton **OK**. 
     
-   Pour déboguer le partie de la mise à jour, définissez les points d’arrêt appropriés dans le script que vous avez ajouté.
+   Pour déboguer le composant de complément, définissez les points d’arrêt appropriés dans le script que vous avez ajouté.
     
-6. Accédez à une page PDP et choisissez **Modifier dans** le menu Outils (icône d’engrenage). 
+6. Accédez à une page PDP et choisissez **Modifier la page** dans le menu Outils (icône d’engrenage). 
     
-7. Ajoutez **le partie titre GetProjectId** à un élément Web Part sur la page. L’ID de projet s’affiche dans le contrôle **d’étendue** sur la page de partie Web. 
+7. Ajoutez le composant **GetProjectId Title** à un composant WebPart sur la page. L’ID de projet s’affiche dans le contrôle **d’étendue** sur la page du composant WebPart. 
     
 ## <a name="next-steps"></a>Étapes suivantes
 <a name="NextSteps"> </a>
 
-Dans cet exemple, le partie de la Project n’accède pas aux données serveur SharePoint données. Vous pouvez utiliser l’ID produit pour obtenir des informations sur le projet actuel à l’aide d’une API cliente, telle que le modèle objet JavaScript ou le service REST.
+La partie de complément de cet exemple n’accède pas aux données Project Server ni aux données SharePoint. Vous pouvez utiliser l’ID de produit pour obtenir des informations sur le projet actuel à l’aide d’une API cliente, comme le modèle objet JavaScript ou le service REST.
   
-Dans le AppManifest.xml, spécifiez les autorisations dont votre Project a besoin pour accéder aux SharePoint serveur. 
+Dans le fichier AppManifest.xml, spécifiez les autorisations dont votre complément a besoin pour accéder aux données Project Serveur ou SharePoint données. 
   
-Pour [découvrir comment définir](https://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx) des propriétés personnalisées pour un composant de SharePoint, voir Créer des composants de SharePoint. 
+Consultez [Créer des composants de complément à installer avec votre complément SharePoint](https://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx) pour savoir comment définir des propriétés personnalisées pour un composant de complément. 
   
-## <a name="example-getting-the-project-id-in-an-add-in-part-on-a-pdp-page"></a>Exemple : obtention de l’ID de projet dans un partie de add-in sur une page PDP
+## <a name="example-getting-the-project-id-in-an-add-in-part-on-a-pdp-page"></a>Exemple : Obtention de l’ID de projet dans un composant de complément sur une page PDP
 <a name="CodeExample"> </a>
 
-L’exemple suivant est le code complet de la page GetProjectID.aspx du client. Le code enregistre un listener d’événements et un handler d’événements qui reçoit et parse un message qui contient l’ID de projet.
+L’exemple suivant est le code complet dans la page GetProjectID.aspx du composant WebPart client. Le code inscrit un écouteur d’événements et un gestionnaire d’événements qui reçoit et analyse un message qui contient l’ID de projet.
   
 ```HTML
 <%@ Page language="C#" Inherits="Microsoft.SharePoint.WebPartPages.WebPartPage, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
@@ -254,4 +254,3 @@ L’exemple suivant est le code complet de la page GetProjectID.aspx du client. 
 - [Créer un complément Project Server hébergé sur SharePoint](create-a-sharepoint-hosted-project-server-add-in.md)
 - [Créer des composants de complément à installer avec votre complément SharePoint](https://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)
     
-

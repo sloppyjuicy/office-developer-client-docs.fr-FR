@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 ms.localizationpriority: medium649b5400-8dc5-cc5c-3455-f462e2d31689
 ms.assetid: ''
-description: Identifie un utilisateur qui peut ou non avoir des données de libre/occupé disponibles.
-ms.openlocfilehash: e3c67d8cf4e858fa6b5bdde7bb1714c5caacb484
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Identifie un utilisateur qui peut ou non disposer de données libres/occupées.
+ms.openlocfilehash: d50d912e18b874eff07fb942b077eafb7444db68
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568039"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083435"
 ---
 # <a name="fbuser"></a>FBUser
 
-Identifie un utilisateur qui peut ou non avoir des données de libre/occupé disponibles.
+Identifie un utilisateur qui peut ou non disposer de données libres/occupées.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,22 +35,21 @@ typedef struct tagFBUser
 
 _m_cbEid_
   
-> Longueur de l’ID d’entrée de l’utilisateur de messagerie tel que représenté par l’interface [IMailUser.](https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) 
+> Longueur de l’ID d’entrée de l’utilisateur de messagerie représenté par l’interface [IMailUser](/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) . 
     
 _m_lpEid_
   
-> ID d’entrée de l’utilisateur de messagerie tel que représenté par l’interface **IMailUser.** 
+> ID d’entrée de l’utilisateur de messagerie représenté par l’interface **IMailUser** . 
     
 _m_ulReserved_
   
-> Ce paramètre est réservé à un Outlook interne et n’est pas pris en charge.
+> Ce paramètre est réservé à Outlook’utilisation interne et n’est pas pris en charge.
     
 _m_pwszReserved_
   
-> Ce paramètre est réservé à un Outlook interne et n’est pas pris en charge.
+> Ce paramètre est réservé à Outlook’utilisation interne et n’est pas pris en charge.
     
 ## <a name="see-also"></a>Voir aussi
 
 - [À propos de l’API Disponibilité](about-the-free-busy-api.md)  
 - [IFreeBusySupport](ifreebusysupport.md)
-

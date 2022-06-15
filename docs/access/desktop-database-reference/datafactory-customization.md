@@ -7,12 +7,12 @@ ms:contentKeyID: 48544511
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b69ed36acb84e12927d69fcb7b4df102a792f5d2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 151e7651dfd411953d9a279c1f784e6650d2ec8e
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585871"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083961"
 ---
 # <a name="datafactory-customization"></a>Personnalisation DataFactory
 
@@ -36,5 +36,5 @@ Consultez les rubriques suivantes pour plus d'informations sur la personnalisati
 - [Section SQL du fichier de personnalisation](customization-file-sql-section.md)
 - [Section UserList du fichier de personnalisation](customization-file-userlist-section.md)
 - [Section des journaux du fichier de personnalisation](customization-file-logs-section.md)
-- [Paramètres clients obligatoires](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
-- [Écriture de votre propre handler personnalisé](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)
+- [Paramètres clients obligatoires](/office/vba/access/concepts/miscellaneous/required-client-settings)
+- [Écriture de votre propre gestionnaire personnalisé](/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)

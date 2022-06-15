@@ -22,7 +22,7 @@
     - name: Office Online Server
       href: excel/configure-udfs-in-excel-online-in-office-online-server-preview.md
     - name: Office pour Mac
-      href: 'https://docs.microsoft.com/office/vba/api/overview/office-mac'
+      href: /office/vba/api/overview/office-mac
     - name: Office partagé
       items:
         - name: Vue d’ensemble
@@ -44,13 +44,13 @@
             - name: Problèmes de compatibilité dans Office
               href: shared/compatibility-issues-in-office.md
         - name: Référence de la bibliothèque d’objets VBA Office
-          href: 'https://docs.microsoft.com/office/vba/Library-Reference/Concepts/office-vba-object-library-reference'
+          href: /office/vba/Library-Reference/Concepts/office-vba-object-library-reference
         - name: Référence de langage VBA pour Office
-          href: 'https://docs.microsoft.com/office/vba/api/overview/language-reference'
+          href: /office/vba/api/overview/language-reference
         - name: "Référence de l’assembly\_PIA (Primary\_Interop\_Assembly)\_Office"
-          href: 'https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017'
+          href: /previous-versions/visualstudio/visual-studio-2017/vsto/office-primary-interop-assemblies?view=vs-2017
         - name: "Kit de développement logiciel (SDK) Open XML\_2.5"
-          href: 'https://docs.microsoft.com/office/open-xml/open-xml-sdk'
+          href: /office/open-xml/open-xml-sdk
         - name: Utilisation de CSISyncClient pour contrôler l’ODC
           href: shared/using-csisyncclient-to-control-the-office-document-cache-odc.md
     - name: Access
@@ -58,7 +58,7 @@
         - name: Vue d’ensemble
           href: access/access-home.md
         - name: Référence VBA Access
-          href: 'https://docs.microsoft.com/office/vba/api/overview/access'
+          href: /office/vba/api/overview/access
         - name: Référence de l’application web personnalisée Access
           items:
             - name: Vue d’ensemble
@@ -4012,9 +4012,9 @@
         - name: Vue d’ensemble
           href: excel/excel-home.md
         - name: Référence VBA Excel
-          href: 'https://docs.microsoft.com/office/vba/api/overview/excel'
+          href: /office/vba/api/overview/excel
         - name: "Référence de l’assembly\_PIA (Primary\_Interop\_Assembly)\_Excel"
-          href: 'https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017'
+          href: /previous-versions/visualstudio/visual-studio-2017/vsto/office-primary-interop-assemblies?view=vs-2017
         - name: "Kit de développement logiciel (SDK) Excel\_XLL"
           items:
             - name: Vue d’ensemble
@@ -4276,7 +4276,7 @@
                     - name: ShowOptions
                       href: excel/showoptions.md
         - name: Conseils pour supprimer les limites de performance (VBA)
-          href: 'https://docs.microsoft.com/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions'
+          href: /office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions
     - name: InfoPath
       items:
         - name: Vue d’ensemble
@@ -4474,7 +4474,7 @@
                     - name: Dépannage des modèles de formulaire au moment de la conception
                       href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md
             - name: Référence de bibliothèque de classes de modèles de formulaires InfoPath
-              href: 'https://docs.microsoft.com/previous-versions/office/infopath-form/ee526341(v=office.15)'
+              href: /previous-versions/office/infopath-form/ee526341(v=office.15)
         - name: Référence du développeur InfoPath pour l’automatisation externe
           items:
             - name: Vue d’ensemble
@@ -4498,7 +4498,7 @@
                 - name: Automatisation d’InfoPath à partir d’une application externe
                   href: infopath/external-automation/automating-infopath-from-an-external-application.md
             - name: Informations de référence sur la bibliothèque de classes pour l’automatisation externe d’InfoPath
-              href: 'https://docs.microsoft.com/previous-versions/office/project-class/ee767707(v=office.15)'
+              href: /previous-versions/office/project-class/ee767707(v=office.15)
     - name: OneNote
       items:
         - name: Vue d’ensemble
@@ -4524,7 +4524,7 @@
         - name: Sélection d’une API ou d’une technologie pour le développement de solutions pour Outlook
           href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
         - name: Référence VBA Outlook
-          href: 'https://docs.microsoft.com/office/vba/api/overview/outlook'
+          href: /office/vba/api/overview/outlook
         - name: "Référence de l’assembly\_PIA (Primary\_Interop\_Assembly)\_Outlook"
           items:
             - name: Vue d’ensemble
@@ -4884,7 +4884,7 @@
                 - name: Vue d’ensemble
                   href: outlook/pia/outlook-2013-interop-assembly-class-library.md
                 - name: Espace de noms Microsoft.Office.Interop.Outlook
-                  href: 'https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook?view=outlook-pia'
+                  href: /dotnet/api/microsoft.office.interop.outlook?view=outlook-pia
         - name: "Référence du fournisseur Outlook\_Social\_Connector"
           items:
             - name: Vue d’ensemble
@@ -10402,13 +10402,13 @@
         - name: Vue d’ensemble
           href: powerpoint-home.md
         - name: "Référence\_VBA PowerPoint"
-          href: 'https://docs.microsoft.com/office/vba/api/overview/powerpoint'
+          href: /office/vba/api/overview/powerpoint
     - name: Project
       items:
         - name: Vue d’ensemble
           href: project/project-home.md
         - name: Référence VBA de projet
-          href: 'https://docs.microsoft.com/office/vba/api/overview/project'
+          href: /office/vba/api/overview/project
         - name: Documentation du développeur
           items:
             - name: Vue d’ensemble
@@ -10480,27 +10480,27 @@
                     - name: "Codes d’erreur de Project\_Server"
                       href: project/project-server-error-codes.md
                     - name: ProjectData - Référence du service OData
-                      href: 'https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15)'
+                      href: /previous-versions/office/project-odata/jj163015(v=office.15)
             - name: Référence de service web et de bibliothèque de classes
-              href: 'https://docs.microsoft.com/previous-versions/office/project-class/ee767707(v=office.15)'
+              href: /previous-versions/office/project-class/ee767707(v=office.15)
             - name: Référence d’API JavaScript
-              href: 'https://docs.microsoft.com/previous-versions/office/project-javascript-api/jj712612(v=office.15)'
+              href: /previous-versions/office/project-javascript-api/jj712612(v=office.15)
     - name: Publisher
       items:
         - name: Vue d’ensemble
           href: publisher-home.md
         - name: Référence VBA Publisher
-          href: 'https://docs.microsoft.com/office/vba/api/overview/publisher'
+          href: /office/vba/api/overview/publisher
     - name: Visio
       items:
         - name: Vue d’ensemble
           href: visio/visio-home.md
         - name: Référence VBA Visio
-          href: 'https://docs.microsoft.com/office/vba/api/overview/visio'
+          href: /office/vba/api/overview/visio
         - name: Visio – Enregistrer comme référence web (VBA)
-          href: 'https://docs.microsoft.com/office/vba/api/overview/Visio/visio-save-as-web-reference'
+          href: /office/vba/api/overview/Visio/visio-save-as-web-reference
         - name: Référence de la visionneuse Visio (VBA)
-          href: 'https://docs.microsoft.com/office/vba/api/overview/Visio/visio-viewer-reference'
+          href: /office/vba/api/overview/Visio/visio-viewer-reference
         - name: "Référence de Visio\_ShapeSheet"
           items:
             - name: Vue d’ensemble
@@ -12654,9 +12654,9 @@
         - name: Contrôles de contenu dans Word
           href: word/content-controls-in-word.md
         - name: Référence VBA Word
-          href: 'https://docs.microsoft.com/office/vba/api/overview/word'
+          href: /office/vba/api/overview/word
         - name: "Référence de l’assembly\_PIA (Primary Interop Assembly) Word"
-          href: 'https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017'
+          href: /previous-versions/visualstudio/visual-studio-2017/vsto/office-primary-interop-assemblies?view=vs-2017
     - name: Modèle d’URI Sway
       href: swayuri.md
     - name: Modèles d’URI Office

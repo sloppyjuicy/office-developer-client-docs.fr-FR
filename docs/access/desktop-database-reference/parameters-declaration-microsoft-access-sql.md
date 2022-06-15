@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 5ddc0674ec5bb5ee34ef772906c52dd69896306d
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 9cccfe4f434358405fe8ce54fc4af77233c56074
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63632741"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083940"
 ---
 # <a name="parameters-declaration-microsoft-access-sql"></a>PARAMETERS, déclaration (Microsoft Access SQL)
 
@@ -69,7 +69,7 @@ Si la déclaration implique plusieurs paramètres, séparez-les par des virgules
 PARAMETERS [Low price] Currency, [Beginning date] DateTime;
 ```
 
-Vous pouvez utiliser l’argument *nom* mais pas l’argument *typedonnées* dans une clause [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) ou [HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql). L’exemple suivant attend deux paramètres, puis applique les critères aux enregistrements de la table Orders :
+Vous pouvez utiliser l’argument *nom* mais pas l’argument *typedonnées* dans une clause [WHERE](/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) ou [HAVING](/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql). L’exemple suivant attend deux paramètres, puis applique les critères aux enregistrements de la table Orders :
 
 ```sql
 PARAMETERS [Low price] Currency, 

@@ -11,23 +11,22 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: d50bb27baca6c7f340fbafcc55f44e56ded1dcf1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d8a3a5167960588335767e83aad0ca6b6958a116
+ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59558547"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66083926"
 ---
 # <a name="customizing-windows-registry-settings-for-the-microsoft-access-database-engine"></a>Personnalisation des paramètres du registre Windows pour le moteur de base de données Microsoft Access
 
 **S’applique à** : Access 2013, Office 2013
 
-Si votre application ne fonctionne pas correctement avec les fonctionnalités par défaut du moteur de base de données Microsoft Access, vous de devez peut-être modifier les paramètres du Registre Microsoft Windows en fonction de vos besoins. Le registre Windows peut aussi être utilisé pour ajuster le fonctionnement du pilote ISAM et ODBC pouvant être installé.
+Si votre application ne peut pas fonctionner correctement avec la fonctionnalité par défaut du moteur de base de données Microsoft Access, vous devrez peut-être modifier les paramètres du Registre Microsoft Windows en fonction de vos besoins. Le registre Windows peut aussi être utilisé pour ajuster le fonctionnement du pilote ISAM et ODBC pouvant être installé.
 
 Vous pouvez personnaliser les paramètres du registre Windows de quatre manières différentes :
 
-- [Utilisation Regedit.exe pour réécrire les paramètres par défaut](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-regedit-exe-to-overwrite-the-default-settings)
-- [Création d’une partie dans l’arborescence du Registre de votre application pour gérer les paramètres](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/creating-a-portion-in-your-application-s-registry-tree-to-manage-the-settings)
-- [Utilisation de la méthode SetOption à partir de DAO](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-setoption-method-from-dao)
-- [Utilisation des propriétés Connection dans le fournisseur Microsoft OLE DB pour Access](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)
-
+- [Utilisation de Regedit.exe pour remplacer les paramètres par défaut](/office/vba/access/concepts/miscellaneous/using-regedit-exe-to-overwrite-the-default-settings)
+- [Création d’une partie dans l’arborescence de Registre de votre application pour gérer les paramètres](/office/vba/access/concepts/miscellaneous/creating-a-portion-in-your-application-s-registry-tree-to-manage-the-settings)
+- [Utilisation de la méthode SetOption à partir de DAO](/office/vba/access/concepts/miscellaneous/using-the-setoption-method-from-dao)
+- [Utilisation des propriétés de connexion dans le fournisseur Microsoft OLE DB pour Access](/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)
