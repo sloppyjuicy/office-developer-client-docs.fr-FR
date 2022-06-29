@@ -7,12 +7,12 @@ ms.topic: overview
 ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
 description: Découvrez comment filtrer un affichage dans une application Access à l’aide de l’action de macro RequeryRecords et une macro de données.
 ms.localizationpriority: high
-ms.openlocfilehash: 3a3f79f21dbd5172a029c86ab24f83319b6c8b14
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: f81452acb23a85850b04b89a2e5ebe66e4f2e015
+ms.sourcegitcommit: 1da753936975e64349cbd6954cf1c1732289a0b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380052"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66448629"
 ---
 # <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>Filtrage d’une vue à l’aide d’une macro dans l’application Access
 
@@ -32,7 +32,7 @@ Pour suivre les étapes de cet exemple, vous avez besoin des éléments suivants
 
 > [!NOTE]
 > Pour plus d'informations sur la configuration de votre environnement de développement SharePoint, consultez [Configurer un environnement de développement général pour SharePoint 2013](https://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx).
-> Pour plus d'informations sur l'obtention de Access 2013 et SharePoint 2013, consultez [Téléchargements](https://msdn.microsoft.com/office/apps/fp123627).
+> Pour plus d’informations sur l’obtention d’Access 2013, consultez [Téléchargements](https://www.microsoft.com/en-us/download/details.aspx?id=39358) et SharePoint 2013, voir [Téléchargements](https://www.microsoft.com/en-us/download/details.aspx?id=35488).
   
 ## <a name="create-the-app"></a>Création de l’application
 
