@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: d26cee81-45ea-4fd3-8a54-5f35264b5d6a
-ms.openlocfilehash: 4dcc6e0d2d45cf8799b8d5b8721bb0b8d5aae6fe
-ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
+ms.openlocfilehash: bfce2e91274415007d02495d1a72746cefb208ab
+ms.sourcegitcommit: 1da753936975e64349cbd6954cf1c1732289a0b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65828282"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66448461"
 ---
 # <a name="ipstoverride1--iunknown"></a>IPSTOVERRIDE1 : IUnknown
 
@@ -46,7 +46,7 @@ Permet à un fournisseur de magasins PST (Personal Folders File) de remplacer la
 
 Les identificateurs d’interface du gestionnaire de remplacement PST peuvent ne pas être définis dans le fichier d’en-tête téléchargeable que vous avez actuellement, auquel cas vous les trouverez dans la rubrique [Constantes MAPI](mapi-constants.md) , et vous pouvez les copier et les ajouter à votre code. Utilisez la macro DEFINE_GUID définie dans le fichier guiddef.h du fichier d’en-tête du Kit de développement logiciel (SDK) Microsoft Windows pour associer des noms symboliques d’identificateur global unique (GUID) à leurs valeurs. 
   
-Pour plus d’informations, consultez [Comment implémenter un gestionnaire de remplacement PST pour contourner la stratégie PSTDisableGrow dans Outlook 2007](https://support.microsoft.com/kb/956070).
+<!-- For more information see [How to implement a PST override handler to bypass the PSTDisableGrow policy in Outlook 2007](https://support.microsoft.com/kb/956070). -->
   
 ## <a name="see-also"></a>Voir aussi
 

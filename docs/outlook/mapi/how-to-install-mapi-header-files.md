@@ -7,12 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8aaabe65-b0bc-4481-b00b-16dbe74bd8ae
-ms.openlocfilehash: 9892bc20e06ef2bb9e8f64a3f2bbf85e34737019
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 74edb3b1cd61efa0e484e5ca430c73ac28084f1d
+ms.sourcegitcommit: 1da753936975e64349cbd6954cf1c1732289a0b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63369965"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66448468"
 ---
 # <a name="install-mapi-header-files"></a>Installation des fichiers d’en-tête MAPI
 
@@ -20,7 +20,7 @@ ms.locfileid: "63369965"
   
 Cette rubrique décrit comment obtenir et installer les fichiers d’en-tête MAPI et fichiers de bibliothèque.
 
-Les fichiers en-tête MAPI sont disponibles sous forme de téléchargement dans [Outlook 2010 : fichiers en-tête MAPI](https://www.microsoft.com/download/details.aspx?id=12905). Par défaut, les fichiers d’en-tête MAPI sont installés dans le dossier suivant : C:\Program Files\Microsoft SDKs\Office\14.0\Include.
+<!-- MAPI header files are available as a download at [Outlook 2010: MAPI Header Files](https://www.microsoft.com/download/details.aspx?id=12905). By default, MAPI header files are installed in the following folder: C:\Program Files\Microsoft SDKs\Office\14.0\Include. -->
   
 Pour obtenir la liste des fichiers d’en-tête MAPI, voir [fréquemment utilisé en-tête fichiers](commonly-used-header-files.md).
   

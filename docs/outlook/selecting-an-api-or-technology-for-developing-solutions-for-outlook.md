@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: Cet article décrit les API et technologies que vous pouvez utiliser pour étendre Outlook 2013 et Outlook 2016. Il vous aide à choisir l’API ou la technologie adaptée à votre scénario.
 ms.localizationpriority: high
-ms.openlocfilehash: 01982559ce76bb9e1a825cd3c220d392766376ee
-ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
+ms.openlocfilehash: 6c4e2cabeeaa118f292368e88d06bcad73667994
+ms.sourcegitcommit: 1da753936975e64349cbd6954cf1c1732289a0b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "66083947"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66448489"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Sélection d’une API ou d’une technologie pour le développement de solutions pour Outlook
 
@@ -207,7 +207,7 @@ Les tableaux suivants présentent les critères d'évaluation pour MAPI.
 |Langages et outils  <br/> |Vous pouvez accéder directement à MAPI à l'aide du langage C ou C++. Les autres langages pouvant accéder à la convention d'appel C/C++ peuvent être en mesure d'accéder à MAPI. L'utilisation de langages managés, tels que Visual Basic ou C#, n'est pas prise en charge. Vous devez compiler des solutions MAPI distinctes pour les versions 32 bits et 64 bits d'Outlook. |
 |Implémentation managée  <br/> |MAPI est un composant non managé. L'utilisation de MAPI n'est pas prise en charge dans le cadre de la couche d'interopérabilité COM de Visual Studio et .NET Framework. Pour plus d'informations sur la prise en charge de MAPI pour les composants managés, voir l'article de la base de connaissances n° [266353 : Règles de prise en charge pour le développement de la messagerie côté client](https://go.microsoft.com/fwlink/?LinkId=133254).   |
 |Peut contenir des scripts  <br/> |MAPI ne peut pas être utilisé directement dans des scripts. |
-|Outils de test et de débogage  <br/> |Aucun outil de débogage spécial n'est nécessaire pour déboguer des applications qui utilisent l'interface MAPI. En revanche, vous pouvez utiliser [MFCMAPI](https://mfcmapi.codeplex.com/). MFCMAPI utilise MAPI pour fournir un accès aux banques MAPI par le biais d'une interface utilisateur graphique, et facilite l'analyse de problèmes lors de l'extension d'Outlook à l'aide de MAPI.   |
+|Outils de test et de débogage  <br/> |Aucun outil de débogage spécial n'est nécessaire pour déboguer des applications qui utilisent l'interface MAPI. En revanche, vous pouvez utiliser [MFCMAPI](https://stephenegriffin.github.io/mfcmapi/). MFCMAPI utilise MAPI pour fournir un accès aux banques MAPI par le biais d'une interface utilisateur graphique, et facilite l'analyse de problèmes lors de l'extension d'Outlook à l'aide de MAPI.   |
 |Disponibilité des experts  <br/> |Il peut être difficile de trouver des programmeurs MAPI experts, et la formation à la technologie peut être longue. En plus des communautés Microsoft, seul un petit nombre de sites web tiers de haute qualité fournissent des informations utiles sur le développement de MAPI. |
 |Informations disponibles  <br/> |De la documentation Microsoft et de tiers décrivant la programmation MAPI est disponible. |
 |Gestion des licences de développeur et de déploiement  <br/> |Aucune licence spéciale n'est nécessaire pour développer des applications qui utilisent l'interface MAPI. |
@@ -381,7 +381,7 @@ En règle générale, vous utilisez MAPI pour accéder aux données sur un serve
     
 - Exécuter des tâches sur un thread d'arrière-plan. Par exemple, l'énumération de nombreux éléments dans un dossier et la modification des propriétés des éléments dans un thread d'arrière-plan peuvent optimiser les performances.
     
-Pour plus d'informations et d'exemples de code, voir [Référence MAPI Outlook](https://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx) et [MFCMAPI](https://mfcmapi.codeplex.com/).
+Pour plus d'informations et d'exemples de code, voir [Référence MAPI Outlook](https://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx) et [MFCMAPI](https://stephenegriffin.github.io/mfcmapi/).
   
 En outre, si votre solution est exécutée sur une version antérieure à Outlook 2007, et que des scénarios comme le suivant s'appliquent à votre solution, vous devez utiliser MAPI pour étendre ces scénarios.
   
@@ -917,7 +917,7 @@ Les ressources suivantes fournissent plus d'informations sur les références pr
 - [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)   
 - [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)   
 - [Nouveautés dans les schémas XML pour Outlook 2010](/previous-versions/office/developer/office-2010/ff697175(v=office.14))   
-- [Outlook 2010 : référence pour le schéma XML](https://www.microsoft.com/download/details.aspx?id=22609)   
+- [Outlook 2010 : référence pour le schéma XML](/office/client-developer/outlook/social-connector/outlook-social-connector-provider-xml-schema)   
 - [Développement de solutions Outlook 2010 pour des systèmes 32 bits et 64 bits](/previous-versions/office/developer/office-2010/gg549122(v=office.14))
     
 ### <a name="code-samples"></a>Exemples de code

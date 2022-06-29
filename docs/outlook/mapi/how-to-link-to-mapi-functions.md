@@ -8,12 +8,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
-ms.openlocfilehash: ce3844568980d60160fa576d9bfef83360cd813f
-ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
+ms.openlocfilehash: 99950da416937cb556986f38dad117c43f454cef
+ms.sourcegitcommit: 1da753936975e64349cbd6954cf1c1732289a0b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65812782"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66448503"
 ---
 # <a name="link-to-mapi-functions"></a>Lien vers les fonctions MAPI
 
@@ -23,7 +23,7 @@ Il existe trois méthodes de liaison : la liaison implicite, la liaison explicit
   
 ## <a name="implicit-linking"></a>Liaison implicite
 
-Historiquement, l’appel de fonctions MAPI dans une application de messagerie implique toujours la liaison à la bibliothèque Mapi32.lib. Cela incluait le routage des appels MAPI vers la bibliothèque Windows stub MAPI, Mapi32.dll, qui a ensuite transféré les appels à l’implémentation du client MAPI par défaut au moment de l’exécution. Ce processus d’appel est appelé liaison implicite. Le côté gauche de la figure suivante montre un exemple de liaison implicite utilisée dans un processus d’appel de fonction MAPI. Le processus est initié par une application MAPI et implique la bibliothèque MAPI (Mapi32.lib) et le stub MAPI Windows (Mapi32.dll) et est terminé par l’implémentation Outlook client MAPI du stub MAPI (Msmapi32.dll).
+Historiquement, l’appel de fonctions MAPI dans une application de messagerie implique toujours la liaison à la bibliothèque Mapi32.lib. Cela incluait le routage des appels MAPI vers la bibliothèque stub Windows MAPI, Mapi32.dll, qui a ensuite transféré les appels à l’implémentation du client MAPI par défaut au moment de l’exécution. Ce processus d’appel est appelé liaison implicite. Le côté gauche de la figure suivante montre un exemple de liaison implicite utilisée dans un processus d’appel de fonction MAPI. Le processus est initié par une application MAPI et implique la bibliothèque MAPI (Mapi32.lib) et le stub MapI Windows (Mapi32.dll) et est terminé par l’implémentation du client MAPI Outlook du stub MAPI (Msmapi32.dll).
   
 **Comparaison des liaisons implicites et explicites.**
 
@@ -31,14 +31,14 @@ Historiquement, l’appel de fonctions MAPI dans une application de messagerie i
   
 ## <a name="explicit-linking"></a>Liaison explicite
 
-Étant donné que le client MAPI par défaut prend en charge l’installation à la demande à l’aide du programme d’installation de Windows (MSI), vous pouvez développer des applications de messagerie directement sur le stub MAPI Outlook au lieu d’utiliser la bibliothèque MAPI et Windows stub MAPI. Le côté droit de la figure précédente montre un exemple de processus d’appel de fonction MAPI, en commençant par une application MAPI recherchant le chemin d’accès et le nom de la DLL pour le stub MAPI Outlook (étape 2 dans la section suivante) et en effectuant des appels de fonction dans le Outlook stub MAPI (étape 3 dans la section suivante). La procédure suivante montre comment appeler des fonctions MAPI à l’aide d’une liaison explicite. 
+Étant donné que le client MAPI par défaut prend en charge l’installation à la demande à l’aide de Windows Installer (MSI), vous pouvez développer des applications de messagerie directement sur le stub MAPI Outlook au lieu d’utiliser la bibliothèque MAPI et le stub Windows MAPI. Le côté droit de la figure précédente montre un exemple de processus d’appel de fonction MAPI, en commençant par une application MAPI recherchant le chemin d’accès et le nom DLL du stub MAPI Outlook (étape 2 dans la section suivante) et en effectuant des appels de fonction dans le stub MAPI Outlook (étape 3 dans la section suivante). La procédure suivante montre comment appeler des fonctions MAPI à l’aide d’une liaison explicite. 
   
 > [!NOTE]
-> Ces informations sur la liaison explicite peuvent être superflues à vos besoins avec l’introduction de MAPIStubLibrary.lib décrite dans la section suivante. Comme le modèle implicite, la nouvelle bibliothèque gère tout et implémente la logique de liaison explicite qui charge directement le MAPI de Outlook. 
+> Ces informations sur la liaison explicite peuvent être superflues à vos besoins avec l’introduction de MAPIStubLibrary.lib décrite dans la section suivante. Comme le modèle implicite, la nouvelle bibliothèque gère tout et implémente la logique de liaison explicite qui charge directement MAPI d’Outlook. 
   
 Pour plus d’informations sur la liaison explicite, consultez Liaison explicite.
   
-### <a name="to-call-mapi-api-elements-without-the-mapi-library-and-the-windows-mapi-stub"></a>Pour appeler des éléments d’API MAPI sans la bibliothèque MAPI et le stub Windows MAPI
+### <a name="to-call-mapi-api-elements-without-the-mapi-library-and-the-windows-mapi-stub"></a>Pour appeler des éléments d’API MAPI sans la bibliothèque MAPI et le stub MapI Windows
 
 1. Dans votre fichier programme, créez une liste globale de pointeurs de fonction pour chaque élément d’API MAPI que vous utilisez. 
     
@@ -121,7 +121,7 @@ Voici quelques-unes des nouvelles fonctions liées à cette bibliothèque qui ne
     
 Une autre méthode d’incorporation de la bibliothèque STUB MAPI consiste à copier les fichiers sources, MapiStubLibrary.cpp et StubUtils.cpp, directement dans votre projet et à supprimer toute liaison vers Mapi32.lib et tout code lié explicitement à MAPI.
   
-Pour accéder aux fichiers de la bibliothèque STUB MAPI et pour plus d’informations sur la façon de la générer et de l’intégrer à votre projet, ainsi que des questions sur cette bibliothèque, telles que quand et pourquoi l’utiliser, consultez la [bibliothèque stub MAPI](https://mapistublibrary.codeplex.com/documentation) sur le site CodePlex. 
+Pour accéder aux fichiers de la bibliothèque STUB MAPI et pour plus d’informations sur la façon de la générer et de l’intégrer à votre projet, ainsi que des questions sur cette bibliothèque, telles que quand et pourquoi l’utiliser, consultez la bibliothèque stub MAPI <!--(https://mapistublibrary.codeplex.com/documentation)--> sur le site CodePlex. 
   
 ## <a name="see-also"></a>Voir aussi
 

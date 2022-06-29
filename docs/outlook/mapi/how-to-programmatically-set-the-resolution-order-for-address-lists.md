@@ -6,12 +6,12 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
-ms.openlocfilehash: f8e4f643b5faa7b6d87b97db8a2d65462e337390
-ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
+ms.openlocfilehash: d66fc6224af8901b6dcf4c8a8d8f54652bdf00c4
+ms.sourcegitcommit: 1da753936975e64349cbd6954cf1c1732289a0b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65817297"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66448607"
 ---
 # <a name="programmatically-set-the-resolution-order-for-address-lists"></a>Programmation de l’ordre de résolution des listes d’adresses
 
@@ -19,7 +19,7 @@ ms.locfileid: "65817297"
 
 Cette rubrique contient un exemple de code en C++ qui définit par programmation l’ordre des listes d’adresses par laquelle les destinataires des messages électroniques et les participants aux demandes de réunion sont résolus.
 
-Dans MAPI, chaque profil peut prendre en charge plusieurs listes d’adresses et chaque liste d’adresses réside dans son propre conteneur. MAPI prend en charge la méthode **[SetSearchPath](https://support.microsoft.com/kb/292590)** dans l’interface qui vous permet de définir un nouveau chemin de recherche dans le profil utilisé pour la résolution de noms. Pour utiliser la méthode **IAddrBook::SetSearchPath** , vous devez définir l’ordre de résolution souhaité dans un tableau **[SRowSet](srowset.md)** qui contient les conteneurs des carnets d’adresses appropriés dans l’ordre souhaité, puis spécifier le tableau comme paramètre *lpSearchPath* . La première propriété de chaque entrée du tableau **SRowSet** doit être la propriété **[PR_ENTRYID](pidtagentryid-canonical-property.md)** du carnet d’adresses correspondant.
+Dans MAPI, chaque profil peut prendre en charge plusieurs listes d’adresses et chaque liste d’adresses réside dans son propre conteneur. MAPI prend en charge la méthode **[SetSearchPath](/windows/win32/api/wabiab/nf-wabiab-iaddrbook-setsearchpath)** dans l’interface qui vous permet de définir un nouveau chemin de recherche dans le profil utilisé pour la résolution de noms. Pour utiliser la méthode **IAddrBook::SetSearchPath** , vous devez définir l’ordre de résolution souhaité dans un tableau **[SRowSet](srowset.md)** qui contient les conteneurs des carnets d’adresses appropriés dans l’ordre souhaité, puis spécifier le tableau comme paramètre *lpSearchPath* . La première propriété de chaque entrée du tableau **SRowSet** doit être la propriété **[PR_ENTRYID](pidtagentryid-canonical-property.md)** du carnet d’adresses correspondant.
 
 L’exemple de code définit l’ordre de résolution dans les étapes suivantes :
 
@@ -38,7 +38,7 @@ L’exemple de code définit l’ordre de résolution dans les étapes suivantes
 13. Se déconnecte de MAPI.
 14. Uninitalizes MAPI.
 
-Cet exemple de code utilise des listes d’adresses disponibles dans l’installation par défaut de Microsoft Office Outlook : **Tous les contacts**, **tous les groupes** et **contacts**. Vous devez exécuter l’exemple après le démarrage de Outlook et son exécution sur un profil initialisé. L’exemple fonctionne bien avec les noms qui sont dans une langue (par exemple, tous les noms sont en anglais). Il n’est pas conçu pour fonctionner dans des déploiements multilingues, par exemple le dossier **Contacts** localisé pour un utilisateur exécutant une build Outlook non anglaise.
+Cet exemple de code utilise des listes d’adresses disponibles dans l’installation par défaut de Microsoft Office Outlook : **Tous les contacts**, **tous les groupes** et **contacts**. Vous devez exécuter l’exemple après le démarrage d’Outlook et son exécution sur un profil initialisé. L’exemple fonctionne bien avec les noms qui sont dans une langue (par exemple, tous les noms sont en anglais). Il n’est pas conçu pour fonctionner dans des déploiements multilingues, par exemple le dossier **Contacts** localisé pour un utilisateur exécutant une build Outlook non anglaise.
 
 ```cpp
 #include "stdafx.h" 

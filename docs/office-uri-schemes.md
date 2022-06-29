@@ -5,12 +5,12 @@ ms.date: 01/14/2016
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 1ea99a8f-b005-4b92-b313-923294d20fbf
-ms.openlocfilehash: 0a5d041eb457f38b0f1bb991aacb7702a4ccfabc
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 5d1a8cf7b249bd4ff89cb9df31a6a329584716c4
+ms.sourcegitcommit: 1da753936975e64349cbd6954cf1c1732289a0b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380850"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66448622"
 ---
 # <a name="office-uri-schemes"></a>Modèles d’URI Office
 
@@ -27,37 +27,37 @@ Ces modèles d’URI permettent aux applications de productivité Office d’êt
 
 ### <a name="full-schema"></a>Modèle complet
 
-< *nom du* modèle >:< *nom de* commande >« | » *<'argument-descripteur de* > « | » *<-argument de commande* >
+< *scheme-name* >:< *command-name* >"| » < *command-argument-descriptor* > « | » *<'argument de commande* >
   
-Un URI tel que défini dans ce document peut comporter un ou plusieurs arguments de commande, chacun devant inclure les > *descripteur d’arguments* de commande < et les éléments > *d’argument* de commande < et être délimité par la barre verticale (« | »). Quand l’URI comporte plusieurs arguments de commande, une barre verticale (« | ») doit délimiter chaque argument de commande de l’argument suivant.
+Un URI tel que défini dans ce document peut avoir un ou plusieurs arguments de commande, chacun d’entre eux devant inclure les éléments < *> command-argument-descriptor* et < > *d’argument de commande* et être délimité par le caractère de barre verticale (« | »). Quand l’URI comporte plusieurs arguments de commande, une barre verticale (« | ») doit délimiter chaque argument de commande de l’argument suivant.
   
-Ces modèles ne contiennent pas de composant d’autorité comme défini dans la section 3.2 du RFC 3986. Les commandes spécifiées dans ce document sont appelées quand le système appelle la commande. Par exemple, lorsque l’URI « ms-excel:ofv|u|<https://contoso/Q4/budget.xls> » est appelé à partir d’un ordinateur personnel exécutant Microsoft Windows avec Microsoft Office 2013 installé, le résultat attendu est que l’installation locale de Microsoft Excel sera lancée et transmise à des arguments *https://contoso/Q4/budget.xls* pour ouvrir le fichier en mode lecture seule. Notez que la barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du RFC 3986 qui sont réservés à un usage éventuel comme délimiteurs. Cette opération vise à optimiser le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage.
+Ces modèles ne contiennent pas de composant d’autorité comme défini dans la section 3.2 du RFC 3986. Les commandes spécifiées dans ce document sont appelées quand le système appelle la commande. Par exemple, lorsque l’URI « ms-excel:ofv|u|`<https://contoso/Q4/budget.xls>` » est appelé à partir d’un ordinateur personnel exécutant Microsoft Windows avec Microsoft Office 2013 installé, le résultat attendu est que l’installation locale de Microsoft Excel sera lancée et les arguments passés pour ouvrir le fichier *`https://contoso/Q4/budget.xls`* en mode lecture seule. Notez que la barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du RFC 3986 qui sont réservés à un usage éventuel comme délimiteurs. Cette opération vise à optimiser le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage.
   
 La syntaxe du modèle inclut les éléments suivants :
   
-1. < *nom du* > : il s’agit du type d’application qui doit être appelé. Par exemple, le nom de modèle ms-word: est déposé par Microsoft Word.
+1. < *scheme-name* > : fait référence au type d’application qui doit être appelé. Par exemple, le nom de modèle ms-word: est déposé par Microsoft Word.
 
 2. Délimiteur « : »
 
-3. < *nom de la* > : décrit les actions que l’application doit effectuer. Par exemple, ouvrir un document pour le consulter. La liste des noms de commande figure à la section 1.5.
+3. < *> de nom de commande* : décrit les actions que l’application doit effectuer. Par exemple, ouvrir un document pour le consulter. La liste des noms de commande figure à la section 1.5.
 
 4. Délimiteur « | » (barre verticale)
 
-5. < *argument-descripteur* de > : cet élément fournit plus d’informations sur l’argument de commande.
+5. < *command-argument-descriptor* > : cet élément fournit plus d’informations sur l’objet de l’argument de commande.
 
 6. Délimiteur « | » (barre verticale)
 
-7. < *argument de >* : les arguments varient en fonction de la commande. L’URI vers un document est un argument courant qui utilise généralement le modèle http ou https. Notez que dans < segments *d’argument* de commande > les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’paysage.
+7. < *> d’argument de commande* : les arguments varient en fonction de la commande. L’URI vers un document est un argument courant qui utilise généralement le modèle http ou https. Notez que dans < argument *de commande* > segments les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’échappement.
 
 ### <a name="abbreviated-schema"></a>Modèle abrégé
 
-Une forme abrégée des modèles d’URI Office permet à une demande plus compacte de lancer une application Office spécifiée pour ouvrir la ressource située à un URI donné. Cette forme abrégée implique le nom *de* < commande > « ofv » et le *descripteur d’argument-de-commande* < > « u ». Aucune commande, ni aucun argument de commande, n’est autorisé dans ce schéma.
+Une forme abrégée des modèles d’URI Office permet à une demande plus compacte de lancer une application Office spécifiée pour ouvrir la ressource située à un URI donné. Ce formulaire abrégé implique le *nom de commande* < > « ofv » et le < *command-argument-descriptor* > « u ». Aucune commande, ni aucun argument de commande, n’est autorisé dans ce schéma.
   
-< *scheme-name >* :< *command-argument* >
+< *scheme-name* >:< *command-argument* >
   
-1. < *modèle-nom* > : le type d’application qui doit être appelé. Par exemple, ms-word: pour Microsoft Word.
+1. < *scheme-name* > : type d’application à appeler. Par exemple, ms-word: pour Microsoft Word.
 
-2. < *argument de commande* > : URI de la ressource que l’application doit ouvrir. Actuellement, seuls les URI basés sur le modèle http ou https sont pris en charge.
+2. < *> d’argument de commande* : URI de la ressource que l’application doit ouvrir. Actuellement, seuls les URI basés sur le modèle http ou https sont pris en charge.
 
 ## <a name="14-scheme-names-and-office-application-registrations"></a>1.4 NOM DES MODÈLES ET ENREGISTREMENT DES APPLICATIONS OFFICE
 
@@ -93,7 +93,7 @@ La commande suivante force l’application à ouvrir le document référencé pa
 
 > Argument de commande : URI vers le document, construit sur le modèle http ou https
 
-> Exemple : *ms-excel:ofv|u|<https://contoso/Q4/budget.xls>*
+> Exemple : *ms-excel:ofv|u|`<https://contoso/Q4/budget.xls>`*
 
 ### <a name="edit-document"></a>Modifier le document
 
@@ -122,7 +122,7 @@ La commande suivante entraîne l’ouverture et la création par l’application
 
 > Argument de commande facultatif 2 : URI pour spécifier le dossier d’enregistrement par défaut
 
-> Exemple :  *ms-word:nft|u|<https://cohowinery/templates/elegance.pot|s|https://cohowinery/presentations>*
+> Exemple :  *ms-word:nft|u|`<https://cohowinery/templates/elegance.pot|s|https://cohowinery/presentations>`*
 
 Si l’emplacement d’enregistrement par défaut facultatif est renseigné, il doit pointer vers le même nom d’hôte que le modèle.
   
@@ -146,7 +146,7 @@ Pour les arguments de commande d’URI, la longueur maximale du chemin est de 25
   
 ### <a name="allowed-characters-in-uri-command-arguments"></a>Caractères autorisés dans les arguments de commande des URI
 
-Les  URL autorisées doivent être conformes aux normes proposées dans la norme RFC 3987 - Internationalized Resource Identifiers (IRIs). Les caractères identifiés comme étant réservés dans le RFC 3986 ne doivent pas être codés en pourcentage. . Les noms de fichiers ne peuvent pas contenir les caractères suivants : \ / : ? \< \> | " ou \*.  
+Les URI autorisés doivent être conformes aux normes proposées dans RFC 3987 - Identificateurs de ressources internationalisés (IRIS). Les caractères identifiés comme étant réservés dans le RFC 3986 ne doivent pas être codés en pourcentage. . Les noms de fichiers ne peuvent pas contenir les caractères suivants : \ / : ? \< \> | " ou \*.  
   
 ## <a name="appendix-a---uri-scheme-registration-template-for-ms-word-scheme"></a>ANNEXE A – MODÈLE D’ENREGISTREMENT DES MODÈLES D’URI POUR LE MODÈLE MS-WORD
 
@@ -182,7 +182,7 @@ Le modèle d’URI ms-word est utilisé par Microsoft Office 2013 pour appeler
 
 Notez que la barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du RFC 3986 qui sont réservés à un usage éventuel comme délimiteurs. Cette opération vise à optimiser le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage.
   
-Dans < segments *d’argument* de commande > les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’paysage.
+Dans < argument *de commande* > segments les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’échappement.
   
 ### <a name="a-7-security-considerations"></a>A-7. Considérations relatives à la sécurité
 
@@ -231,7 +231,7 @@ Le modèle d’URI ms-powerpoint est utilisé par Microsoft Office 2013 pour a
 La barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du document RFC 3986 comme réservés pour être potentiellement utilisés comme délimiteurs. Ceci est intentionnel et permet d’optimiser au maximum le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage. 
 
   
-Dans < segments *d’argument* de commande > les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’paysage.
+Dans < argument *de commande* > segments les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’échappement.
   
 ### <a name="b-7-security-considerations"></a>B-7. Considérations relatives à la sécurité
 
@@ -279,7 +279,7 @@ Le modèle d’URI ms-excel est utilisé par Microsoft Office 2013 pour appele
 La barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du document RFC 3986 comme réservés pour être potentiellement utilisés comme délimiteurs. Ceci est intentionnel et permet d’optimiser au maximum le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage. 
 
   
-Dans < segments *d’argument* de commande > les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’paysage.
+Dans < argument *de commande* > segments les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’échappement.
   
 ### <a name="c-7-security-considerations"></a>C-7. Considérations relatives à la sécurité
 
@@ -327,7 +327,7 @@ Le modèle d’URI ms-visio est utilisé par Microsoft Office 2013 pour appele
 La barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du document RFC 3986 comme réservés pour être potentiellement utilisés comme délimiteurs. Ceci est intentionnel et permet d’optimiser au maximum le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage. 
 
   
-Dans < segments *d’argument* de commande > les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’paysage.
+Dans < argument *de commande* > segments les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’échappement.
   
 ### <a name="d-7-security-considerations"></a>D-7. Considérations relatives à la sécurité
 
@@ -371,7 +371,7 @@ Le modèle d’URI ms-access est utilisé par Microsoft Office 2013 pour appel
   
 ### <a name="e-6-interoperability-considerations"></a>E-6. Considérations relatives à l’interopérabilité
 
-Notez que la barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du RFC 3986 qui sont réservés à un usage éventuel comme délimiteurs. Cette opération vise à optimiser le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage. Dans \<command-argument\> les segments, les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteur, et sont donc inclus sans séquence d’paysage.
+Notez que la barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du RFC 3986 qui sont réservés à un usage éventuel comme délimiteurs. Cette opération vise à optimiser le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage. Dans \<command-argument\> les segments, les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’échappement.
   
 ### <a name="e-7-security-considerations"></a>E-7. Considérations relatives à la sécurité
 
@@ -419,7 +419,7 @@ Le modèle d’URI ms-project est utilisé par Microsoft Office 2013 pour appe
 La barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du document RFC 3986 comme réservés pour être potentiellement utilisés comme délimiteurs. Ceci est intentionnel et permet d’optimiser au maximum le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage. 
 
   
-Dans < segments *d’argument* de commande > les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’paysage.
+Dans < argument *de commande* > segments les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’échappement.
   
 ### <a name="f-7-security-considerations"></a>F-7. Considérations relatives à la sécurité
 
@@ -463,7 +463,7 @@ Le modèle d’URI ms-publisher est utilisé par Microsoft Office 2013 pour ap
   
 ### <a name="g-6-interoperability-considerations"></a>G-6. Considérations relatives à l’interopérabilité
 
-Notez que la barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du RFC 3986 qui sont réservés à un usage éventuel comme délimiteurs. Cette opération vise à optimiser le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage. Dans \<command-argument\> les segments, les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteur, et sont donc inclus sans séquence d’paysage.
+Notez que la barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du RFC 3986 qui sont réservés à un usage éventuel comme délimiteurs. Cette opération vise à optimiser le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage. Dans \<command-argument\> les segments, les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’échappement.
   
 ### <a name="g-7-security-considerations"></a>G-7. Considérations relatives à la sécurité
 
@@ -500,7 +500,7 @@ Le modèle d’URI ms-spd est utilisé par Microsoft Office 2013 pour appeler 
 La barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du document RFC 3986 comme réservés pour être potentiellement utilisés comme délimiteurs. Ceci est intentionnel et permet d’optimiser au maximum le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage. 
 
   
-Dans < segments *d’argument* de commande > les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’paysage.
+Dans < argument *de commande* > segments les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’échappement.
   
 ### <a name="h-7-security-considerations"></a>H-7. Considérations relatives à la sécurité
 
@@ -527,7 +527,7 @@ RFC 3987 – International Resource Identifiers (IRIs)  
 
 ### <a name="i-4-uri-scheme-semantics"></a>I-4. Sémantique du modèle d’URI
 
-Le modèle ms-infopath définit une syntaxe d’URI pour l’ouverture ou la création d’un document Microsoft Infopath. Le modèle définit deux commandes qui font office d’instructions concernant les actions à effectuer avec le document référencé. Les commandes sont 1) open-for-edit-cmd (ofe), ce qui indique à InfoPath d’ouvrir le document à l’URI spécifié pour modification ; et 2) commande-ouvrir-pour-affichage (ofv), qui demande à InfoPath d’ouvrir le document à l’URI spécifié en mode lecture seule.
+Le modèle ms-infopath définit une syntaxe d’URI pour l’ouverture ou la création d’un document Microsoft Infopath. Le modèle définit deux commandes qui font office d’instructions concernant les actions à effectuer avec le document référencé. Les commandes sont 1) open-for-edit-cmd (ofe), ce qui indique à InfoPath d’ouvrir le document à l’URI spécifié pour modification ; et 2) open-for-view-cmd (ofv), qui indique à InfoPath d’ouvrir le document à l’URI spécifié en mode lecture seule.
   
 ### <a name="i-5-applicationsprotocols-that-use-the-ms-infopath-uri-scheme"></a>I-5. Applications/Protocoles qui utilisent le modèle d’URI ms-infopath
 
@@ -538,7 +538,7 @@ Le modèle d’URI ms-infopath est utilisé par Microsoft Office 2013 pour app
 La barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du document RFC 3986 comme réservés pour être potentiellement utilisés comme délimiteurs. Ceci est intentionnel et permet d’optimiser au maximum le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage. 
 
   
-Dans < segments *d’argument* de commande > les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’paysage.
+Dans < argument *de commande* > segments les caractères réservés RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’échappement.
   
 ### <a name="i-7-security-considerations"></a>I-7. Considérations relatives à la sécurité
 
