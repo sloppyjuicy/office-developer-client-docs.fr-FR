@@ -12,12 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4ad2f417-be8f-4fc8-9321-82097289074b
-ms.openlocfilehash: 64137dfc6d9527addded5043edd3accdc71a7cfb
-ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
+ms.openlocfilehash: b64fe02383566e8a6f0900913d5662c586774be1
+ms.sourcegitcommit: 600f0dc552b725f98f3354d42feefc39be9c354c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "65769997"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66577329"
 ---
 # <a name="pidtagexchangeprofilesectionid-canonical-property"></a>Propriété canonique PidTagExchangeProfileSectionId
 
@@ -36,11 +36,11 @@ Contient un GUID généré dynamiquement utilisé pour déterminer un compte lor
    
 ## <a name="remarks"></a>Remarques
 
-Microsoft Outlook 2010 et Microsoft Outlook 2013 prennent en charge plusieurs comptes Exchange au lieu d’un seul compte Exchange. Pour prendre en charge plusieurs comptes Exchange, la disposition du profil MAPI a été modifiée. Dans Microsoft Office Outlook 2007 et versions antérieures, les profils contenaient une section de profil fixe dédiée aux paramètres Exchange tels que le nom du serveur, le nom d’utilisateur et le fichier dossier hors connexion (.ost). Emplacement. Ces paramètres ont été identifiés à l’aide d’un identificateur unique, la propriété **pbGlobalProfileSectionGuid** . La section utilisée pour Exchange paramètres est appelée section de profil global Exchange. 
+Microsoft Outlook 2010 et Microsoft Outlook 2013 prennent en charge plusieurs comptes Exchange au lieu d’un seul compte Exchange. Pour prendre en charge plusieurs comptes Exchange, la disposition du profil MAPI a été modifiée. Dans Microsoft Office Outlook 2007 et versions antérieures, les profils contenaient une section de profil fixe dédiée aux paramètres Exchange, comme le nom du serveur, le nom d’utilisateur et le fichier dossier hors connexion (.ost). Emplacement. Ces paramètres ont été identifiés à l’aide d’un identificateur unique, la propriété **pbGlobalProfileSectionGuid** . La section utilisée pour les paramètres Exchange est appelée section Profil global Exchange. 
   
-Un emplacement de section de profil fixe n’est plus suffisant pour prendre en charge plusieurs comptes Exchange. Au lieu de cela, pour chaque compte Exchange dans votre profil, il existe une section dédiée aux paramètres de ce compte. La nouvelle section utilisée pour Exchange paramètres est identifiée par l’identificateur unique **emsmdbUID**.
+Un emplacement de section de profil fixe n’est plus suffisant pour prendre en charge plusieurs comptes Exchange. Au lieu de cela, pour chaque compte Exchange de votre profil, il existe une section dédiée aux paramètres de ce compte. La nouvelle section utilisée pour les paramètres Exchange est identifiée par l’identificateur unique **emsmdbUID**.
   
-Dans la section profil de service de message du compte Exchange, vous pouvez trouver une propriété qui contient un GUID généré dynamiquement au moment de la création du compte. Ce GUID est stocké dans la propriété **PidTagExchangeProfileSectionId** . Les magasins de messages et les conteneurs de carnets d’adresses exposent une propriété pour déterminer Exchange compte auquel ils appartiennent. Accessible dans la table des services de messages, chaque service Exchange expose cette propriété. 
+Dans la section profil de service de message du compte Exchange, vous pouvez trouver une propriété qui contient un GUID généré dynamiquement au moment de la création du compte. Ce GUID est stocké dans la propriété **PidTagExchangeProfileSectionId** . Les magasins de messages et les conteneurs de carnets d’adresses exposent une propriété pour déterminer le compte Exchange auquel ils appartiennent. Accessible dans la table des services de messages, chaque service Exchange expose cette propriété. 
   
 Vous pouvez récupérer cette propriété via un appel à [IMAPIProp::GetProps](imapiprop-getprops.md) sur **PidTagExchangeProfileSectionId** après avoir interrogé l’une des interfaces suivantes : 
   
@@ -57,11 +57,11 @@ Vous pouvez restreindre les conteneurs sur un **PidTagExchangeProfileSectionId**
 > [!NOTE]
 > Dans les exemples de code et les en-têtes de fonction, ce GUID est appelé **emsmdbUID**. 
   
-L’un des comptes Exchange est marqué comme le compte Exchange hérité. En règle générale, il s’agit du premier compte ajouté au profil. Chaque appel pour ouvrir **pbGlobalProfileSectionGuid** est redirigé vers la section Exchange globale du compte hérité. Les appels de modèle objet qui interagissent avec le compte Exchange non hérité interagissent également avec le compte Exchange hérité. 
+L’un des comptes Exchange est marqué comme compte Exchange hérité. En règle générale, il s’agit du premier compte ajouté au profil. Chaque appel pour ouvrir **pbGlobalProfileSectionGuid** est redirigé vers la section globale Exchange du compte hérité. Les appels de modèle objet qui interagissent avec le compte Exchange non hérité interagissent également avec le compte Exchange hérité. 
   
 Le service Exchange hérité a la propriété **PR_EMSMDB_LEGACY** (0x3D18000B), qui est définie sur **true** dans la table des services de messages. 
   
-**L’emsmdbUID** hérité est également marqué dans la section profil global Outlook du profil en tant que **PidTagExchangeProfileSectionId**. Le code écrit pour prendre en charge plusieurs comptes Exchange ne doit pas avoir à récupérer **l’emsmdbUID** hérité, car il doit obtenir **l’emsmdbUID** correct, en fonction du compte avec lequel votre code interagit.
+**L’emsmdbUID** hérité est également marqué dans la section Profil global Outlook du profil en tant que **PidTagExchangeProfileSectionId**. Le code écrit pour prendre en charge plusieurs comptes Exchange ne doit pas avoir à récupérer **l’emsmdbUID** hérité, car il doit obtenir **l’emsmdbUID** correct, en fonction du compte avec lequel votre code interagit.
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,5 +70,5 @@ Le service Exchange hérité a la propriété **PR_EMSMDB_LEGACY** (0x3D18000B),
 [Utilisation de plusieurs comptes Exchange](using-multiple-exchange-accounts.md)
 
 
-[How To Open the Global Profile Section](https://support.microsoft.com/kb/188482)
+[How To Open the Global Profile Section](/learn/paths/configure-user-device-profiles/)
 

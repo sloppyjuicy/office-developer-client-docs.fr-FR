@@ -6,12 +6,12 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 4e1804bf-4c50-4942-a7ab-9a8caf1be7e5
-ms.openlocfilehash: 72e2d10585085f67a544533d74d418ddac53343d
-ms.sourcegitcommit: eb83b72d14a07ac316c71e8208397d1c7046f6df
+ms.openlocfilehash: c1d699ffb842d4139d297fa3f8c3046a5fd9d19f
+ms.sourcegitcommit: 600f0dc552b725f98f3354d42feefc39be9c354c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65894676"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66577315"
 ---
 # <a name="using-multiple-exchange-accounts"></a>Utilisation de plusieurs comptes Exchange
 
@@ -111,5 +111,5 @@ Description de la proc�dure de r�solution de plusieurs comptes Exchange simp
 [Propri�t� canonique PidTagExchangeProfileSectionId](pidtagexchangeprofilesectionid-canonical-property.md)
 
 
-[How To Open the Global Profile Section](https://support.microsoft.com/kb/188482)
+[How To Open the Global Profile Section](/learn/paths/configure-user-device-profiles/)
 

@@ -7,12 +7,12 @@ ms:contentKeyID: 55119889
 ms.date: 09/14/2021
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ebd4c192ff7138e4a843d7065b5d40333559f86f
-ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
+ms.openlocfilehash: 23cca5c5df3da73b8ee968059bb546d42d7cde35
+ms.sourcegitcommit: 600f0dc552b725f98f3354d42feefc39be9c354c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "66083968"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66577350"
 ---
 # <a name="search-attachments-of-items-in-a-folder-for-an-exact-phrase"></a>Recherche d’une expression exacte dans les pièces jointes des éléments d’un dossier
 
@@ -22,7 +22,7 @@ Cet exemple recherche la chaîne de recherche exacte « office » dans les pi�
 
 Cet exemple de code utilise une syntaxe DASL (DAV Searching and Locating) pour spécifier une requête. Pour construire le filtre, l’exemple de code vérifie d’abord si la recherche instantanée est activée dans la banque par défaut pour déterminer s’il faut utiliser le mot clé **ci\_phrasematch** pour trouver une correspondance exacte avec « office » dans toutes les pièces jointes. L’exemple applique ensuite le filtre à la méthode [GetTable](/dotnet/api/microsoft.office.interop.outlook.mapifolder.gettable) sur la Boîte de réception et obtient les résultats dans un objet [Table](/dotnet/api/microsoft.office.interop.outlook.table). L’exemple de code affiche ensuite l’objet de chaque élément renvoyé dans l’objet **Table**.
 
-L’exemple de code spécifie la propriété **Attachments** d’un élément à l’aide d’une représentation d’espace de noms, https://schemas.microsoft.com/mapi/proptag/0x0EA5001E. La syntaxe à employer pour utiliser le mot clé **ci\_phrasematch** est la suivante :
+L’exemple de code spécifie la propriété **Attachments** d’un élément à l’aide d’une représentation d’espace de noms, `https://schemas.microsoft.com/mapi/proptag/0x0EA5001E`. La syntaxe à employer pour utiliser le mot clé **ci\_phrasematch** est la suivante :
 
 `<PropertySchemaName> ci_phrasematch <ComparisonString>`
 

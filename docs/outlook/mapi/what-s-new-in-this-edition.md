@@ -7,107 +7,108 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44
-description: 'Last modified: February 09, 2020'
-ms.openlocfilehash: e8befdb56157d478349659184aaf43abaf52faa9
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Dernière modification : 9 février 2020'
+ms.openlocfilehash: 29e73a520a82ab12eb35bbe9aa4d281ca75a5a7d
+ms.sourcegitcommit: 600f0dc552b725f98f3354d42feefc39be9c354c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63368572"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66577321"
 ---
 # <a name="whats-new-in-this-edition"></a>Nouveautés de cette édition
 
 **S’applique à** : Outlook 2013 | Outlook 2016
   
-La référence MAPI Outlook Microsoft a été mise à jour pour inclure de la documentation pour diverses nouvelles fonctionnalités.
+La référence MAPI Microsoft Outlook a été mise à jour pour inclure la documentation de différentes nouvelles fonctionnalités.
   
 ## <a name="new-content"></a>Nouveau contenu
 
 Le contenu a été ajouté pour les fonctionnalités suivantes :
   
-- La rubrique Getting [Started with the Outlook 2013 MAPI Reference has](getting-started-with-the-outlook-mapi-reference.md) been updated to reference comprehensive information about programming models for your Outlook and MAPI functionality to help you identify the APIs and technologies that are most appropriate for your needs. Les liens vers l’article technique référencé ont également été révisés dans les rubriques suivantes :
+- La rubrique [Prise en main avec la référence MAPI Outlook 2013](getting-started-with-the-outlook-mapi-reference.md) a été mise à jour pour référencer des informations complètes sur les modèles de programmation pour vos fonctionnalités Outlook et MAPI afin de vous aider à identifier les API et technologies les plus adaptées à vos besoins. Les liens vers l’article technique référencé ont également été révisés dans les rubriques suivantes :
 
   - [Référence MAPI Outlook](outlook-mapi-reference.md)
   - [Vue d'ensemble de r�f�rence de MAPI Outlook 2013](outlook-mapi-reference-overview.md)
 
-- **Exemple de fournisseur de** magasins de messages — L’exemple de code de fournisseur de magasins [PST wrapped](message-store-provider-sample.md) a été révisé pour reconnaître et prendre en charge Outlook 2013. Pour plus d’informations, voir Contenu révisé précédemment dans cette rubrique.
+- **Exemple de fournisseur de magasin** de messages : l’exemple de code du [fournisseur du magasin PST encapsulé](message-store-provider-sample.md) a été modifié pour reconnaître et prendre en charge Outlook 2013. Pour plus d’informations, consultez contenu précédemment révisé dans cette rubrique.
 
-- **Flux de** mise à jour automatique — La rubrique cache [de](nickname-cache.md) surnoms, anciennement format de fichier **Nk2**, a été mise à jour pour refléter les modifications apportées à Outlook 2013 et Outlook 2010. Les rubriques suivantes ont été révisées pour fournir des informations sur les instructions pour les développeurs de formats de fichiers .nk2 pour Microsoft Outlook 2003/Microsoft Office Outlook 2007 et l’examen des fichiers binaires. Pour plus d’informations, voir Contenu révisé précédemment dans cette rubrique.
+- **Flux de saisie semi-automatique** : la rubrique du [cache de surnoms](nickname-cache.md) , anciennement le **format de fichier Nk2**, a été mise à jour pour refléter les modifications apportées à Outlook 2013 et Outlook 2010. Les rubriques suivantes ont été révisées pour fournir des informations sur les instructions du développeur de format de fichier .nk2 pour Microsoft Outlook 2003/Microsoft Office Outlook 2007 et l’analyse des fichiers binaires. Pour plus d’informations, consultez contenu précédemment révisé dans cette rubrique.
 
   - [Profils MAPI](mapi-profiles.md)
   - [Cache de surnoms](nickname-cache.md)
-  - [Autocomplete Stream](autocomplete-stream.md)
+  - [Flux de saisie semi-automatique](autocomplete-stream.md)
 
-- **Interfaces-The** [IAddrBook::OpenEntry](iaddrbook-openentry.md) topic documents a method of opening an address book entry and returning a pointer to the interface used to access it. Il contenait auparavant un indicateur dans le paramètre *ulFlags* , **MAPI_GAL_ONLY**, qui pouvait être utilisé uniquement pour ouvrir la liste d’adresses globale (LAG) et a été révisé pour inclure sa définition.
+- **Interfaces-La** rubrique [IAddrBook::OpenEntry](iaddrbook-openentry.md) documente une méthode permettant d’ouvrir une entrée de carnet d’adresses et de renvoyer un pointeur vers l’interface utilisée pour y accéder. Il contenait auparavant un indicateur dans le paramètre *ulFlags* , **MAPI_GAL_ONLY**, qui pouvait être utilisé pour ouvrir la liste d’adresses globale (GAL), uniquement, et a été révisé pour inclure sa définition.
 
-- **Propriétés** : **PR_CONVERSATION_KEY** propriété nommée (propriété canonique [PidTagConversationKey](pidtagconversationkey-canonical-property.md)) a été ajoutée et est liée à **IPM. Messages MessageManager** dans Outlook MAPI uniquement. Les rubriques suivantes qui s’y rapportent et la documentation Transport-Neutral flux TNEF (Encapsulation Format) ont été révisées :
+- **Propriétés** : la rubrique **PR_CONVERSATION_KEY** propriété nommée ([propriété canonique PidTagConversationKey](pidtagconversationkey-canonical-property.md)) a été ajoutée et se rapporte à **IPM. Messages MessageManager** uniquement dans Outlook MAPI. Les rubriques suivantes relatives à celui-ci et à la documentation de flux TNEF (Transport-Neutral Encapsulation Format) ont été révisées :
 
   - [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
-  - [Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+  - [Mappage de noms MAPI à des noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
   - [Mappage des attributs TNEF aux propriétés MAPI](mapping-of-tnef-attributes-to-mapi-properties.md)
   - [attConversationID et attParentID](attconversationid-and-attparentid.md)
   
 ## <a name="mapi-initialization-monitor"></a>Moniteur d’initialisation MAPI  
 
-- Parfois, une application qui utilise MAPI peut vouloir savoir quand l’initialisation est terminée. Par exemple, il a plusieurs threads qui pourraient initialiser MAPI, ou en réponse à l’initialisation de MAPI l’application souhaiterait effectuer un travail, mais ne souhaite pas toujours faire tourner la pile MAPI.  Le moniteur d’initialisation fournit cette fonctionnalité via une fonction (exportée à partir de OLMAPI32.DLL) et quelques interfaces simples décrites ci-dessous.
+- Il arrive qu’une application qui consomme MAPI souhaite savoir quand l’initialisation est terminée. Par exemple, il a plusieurs threads qui pourraient initialiser MAPI, ou en réponse à l’initialisation de MAPI, l’application souhaite effectuer un travail, mais ne veut pas toujours faire tourner la pile MAPI.  Le moniteur d’initialisation fournit cette fonctionnalité via une fonction (exportée à partir de OLMAPI32.DLL) et quelques interfaces simples décrites ci-dessous.
 
 ### <a name="hresult-stdapicalltype-createmapiinitializationmonitorimapiinitmonitor-ppinitmonitor"></a>HRESULT STDAPICALLTYPE CreateMapiInitializationMonitor(IMAPIInitMonitor ppInitMonitor)
 
-- Il s’agit du point d’entrée exporté à partir de OLMAPI32.DLL cela permet à l’appelant de récupérer une interface pour interroger l’état d’initialisation actuel, configurer un rappel pour l’achèvement de l’initialisation ou bloquer le thread actuel jusqu’à ce qu’il soit terminé.  L’objet renvoyé à partir de cette API est réutilisable et thread-safe et peut être appelé à partir de n’importe quel thread, pas seulement du thread qui l’a récupéré.  En outre, contrairement aux autres objets exposés à partir de MAPI, cet objet est valide tant que la DLL est chargée, il peut être ré-utilisé entre les sessions d’initialisation et peut être utilisé avant ou après l’appel de MAPIInitialize. Renvoie le succès ou l’échec via un HRESULT standard COM et affecte un paramètre de sortie à une instance de IMAPIInitMonitor.
+- Il s’agit d’un point d’entrée exporté à partir de OLMAPI32.DLL cela permet à l’appelant de récupérer une interface pour interroger l’état d’initialisation actuel, configurer un rappel pour l’achèvement de l’initialisation ou bloquer le thread actuel jusqu’à ce qu’il soit terminé.  L’objet retourné à partir de cette API est réutilisable et thread-safe et peut être appelé à partir de n’importe quel thread, et pas seulement du thread qui l’a récupéré.  En outre, contrairement à d’autres objets exposés à partir de MAPI, cet objet est valide tant que la DLL est chargée, il peut être réutilisé dans les sessions d’initialisation et peut être consommé avant ou après l’appel de MAPIInitialize. Retourne la réussite ou l’échec par le biais d’un HRESULT standard COM et affecte un paramètre out à une instance d’IMAPIInitMonitor.
 
 ### <a name="interface-imapiinitmonitor"></a>Interface : IMAPIInitMonitor
 
 **IFACEMETHODIMP_(BOOL) IsInitialized()**
 
-- Renvoie l’état actuel de l’initialisation MAPI
+- Retourne l’état actuel de l’initialisation MAPI
 
 **IFACEMETHODIMP Wait(DWORD timeout)**
 
-- Lance un appel BLOCKING sur ce thread, qui retourne soit lorsque le nombre de millisecondes spécifié est écoulé, soit que MAPI a été initialisé.  INFINITE peut être utilisé pour une attente infinie.
+- Lance un appel BLOCKING sur ce thread, qui retourne soit lorsque le nombre spécifié de millisecondes est écoulé, soit que MAPI a été initialisé.  INFINITE peut être utilisé pour une attente infinie.
 
 **IFACEMETHODIMP BeginWait(DWORD timeout, IMAPIWaitResult ppResult)**
 
-- Démarrez une attente pour l’initialisation de MAPI ou le nombre de millisecondes spécifié à s’écoulér.   Cette commande retourne une interface IMAPIWaitResult qui doit avoir appelé « End » afin de commencer l’attente.  Cela permet à l’appelant de contrôler quel thread est bloqué pendant que nous sommes en attente.
+- Démarrez une attente pour l’initialisation MAPI ou le nombre spécifié de millisecondes à s’écouler.   Cette opération retourne une interface IMAPIWaitResult qui doit avoir « End » appelée dans l’ordre de début de l’attente.  Cela permet à l’appelant de contrôler quel thread est bloqué pendant que nous attendons.
 
 ### <a name="interface-imapiwaitresult"></a>Interface IMAPIWaitResult
 
-**IFACEMETHODIMP End() override**
+**Remplacement de IFACEMETHODIMP End()**
 
-- Appelé pour lancer l’attente bloquante sur le thread où il est appelé, il n’est pas nécessaire qu’il s’agit du même thread que celui appelé « BeginWait ».
+- Appelé pour lancer l’attente de blocage sur le thread où il est appelé, n’a pas besoin d’être le même thread que celui appelé « BeginWait ».
 
-## <a name="previously-revised-content"></a>Contenu révisé précédemment
+## <a name="previously-revised-content"></a>Contenu précédemment révisé
 
-Le contenu a été ajouté dans les versions précédentes de Outlook référence MAPI pour les fonctionnalités suivantes :
+Le contenu a été ajouté dans les versions précédentes de la référence MAPI Outlook pour les fonctionnalités suivantes :
   
-- Microsoft Outlook 2013 permet des scénarios de déploiement non traditionnels tels que côte à côte et « Exécuter en un clic ». Ces scénarios peuvent compliquer la logique utilisée pour charger la bibliothèque MAPI appropriée. Les développeurs MAPI ont désormais la possibilité de lier explicitement des fonctions MAPI et peuvent choisir de créer un lien explicite vers le stub MAPI du client MAPI par défaut (par exemple, Msmapi32.dll de Outlook) sans passer par la bibliothèque MAPI et le stub MAPI Windows. Pour plus d’informations sur la liaison explicite par rapport à la liaison implicite, voir [Lien vers les fonctions MAPI](how-to-link-to-mapi-functions.md). La bibliothèque **STUB MAPI**, publiée sur le site web [CodePlex](https://mapistublibrary.codeplex.com/) , fournit un remplacement de mapi32.lib qui prend en charge la création d’applications MAPI 32 bits et 64 bits.
+- Microsoft Outlook 2013 permet des scénarios de déploiement non traditionnels, tels que côte à côte et Démarrer en un clic. Ces scénarios peuvent compliquer la logique utilisée pour charger la bibliothèque MAPI appropriée. Les développeurs MAPI peuvent désormais établir une liaison explicite aux fonctions MAPI et choisir de créer un lien explicite vers le stub MAPI du client MAPI par défaut (par exemple, Msmapi32.dll d’Outlook) sans passer par la bibliothèque MAPI et le stub MapI Windows. Pour plus d’informations sur la liaison explicite par rapport à la liaison implicite, consultez [Lien vers des fonctions MAPI](how-to-link-to-mapi-functions.md).
+<!-- - The **MAPI Stub Library**, posted on the [CodePlex](https://mapistublibrary.codeplex.com/) website, provides a drop-in replacement for Mapi32.lib that supports building both 32-bit and 64-bit MAPI applications. -->
 
-- Prise en charge de **Microsoft Outlook 64 bits** : les rubriques de référence pour les éléments d’API applicables ont été mises à jour pour correspondre aux nouveaux fichiers d’en-tête qui prendre en charge les Outlook 64 bits. Ces fichiers d’en-tête sont disponibles en téléchargement Outlook [2010 : Fichiers d’en-tête MAPI](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Un nouvel exemple de code a été fourni dans Vérifier la [version de Outlook](how-to-check-the-version-of-outlook.md) pour montrer comment vérifier si la version installée de Outlook est en Microsoft Outlook 2010 64 bits et a été révisée pour Outlook 2013. Si votre application MAPI 32 bits existante s’exécute sur un système d’exploitation 64 bits avec des Outlook 64 bits installées, vous devez reconstruire votre application 32 bits en tant qu’application 64 bits. Pour plus d’informations sur la prise en charge de MAPI pour les Outlook 64 [bits, voir Building MAPI Applications on 32-Bit and 64-Bit Platforms](building-mapi-applications-on-32-bit-and-64-bit-platforms.md).
+- **Prise en charge de Microsoft Outlook 64 bits** : les rubriques de référence pour les éléments d’API applicables ont été mises à jour pour correspondre aux nouveaux fichiers d’en-tête qui prennent en charge Outlook 64 bits. Ces fichiers d’en-tête sont disponibles en téléchargement dans [Outlook 2010 : Fichiers d’en-tête MAPI](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Un nouvel exemple de code a été fourni dans [Vérifier la version d’Outlook](how-to-check-the-version-of-outlook.md) pour montrer comment vérifier si la version installée d’Outlook est 64 bits Microsoft Outlook 2010 et a été révisée pour Outlook 2013. Si votre application MAPI 32 bits existante va s’exécuter sur un système d’exploitation 64 bits avec Outlook 64 bits installé, vous devez reconstruire votre application 32 bits en tant qu’application 64 bits. Pour plus d’informations sur la prise en charge de MAPI pour Outlook 64 bits, consultez [Génération d’applications MAPI sur des plateformes 32 bits et 64 bits](building-mapi-applications-on-32-bit-and-64-bit-platforms.md).
 
-- **Exemple de fournisseur de magasin** de messages — L’exemple de fournisseur de magasins [PST Wrapped](message-store-provider-sample.md) a été précédemment mis à jour pour prendre en charge l’architecture 64 bits. La rubrique Initialisation d’un fournisseur de magasins [PST Wrapped a](initializing-a-wrapped-pst-store-provider.md) été étendue pour fournir des informations sur les chemins d’accès PST Wrapped et Unicode.
+- **Exemple de fournisseur de magasin** de messages : l’exemple de [fournisseur de magasin PST encapsulé](message-store-provider-sample.md) avait été précédemment mis à jour pour prendre en charge l’architecture 64 bits. La rubrique Sur [l’initialisation d’un fournisseur de magasin PST encapsulé](initializing-a-wrapped-pst-store-provider.md) a été développée pour fournir des informations sur les chemins PST et Unicode encapsulés.
 
-- **Flux de** mise à jour automatique — La rubrique cache [de](nickname-cache.md) surnoms, anciennement format de fichier **Nk2**, a été mise à jour pour refléter les modifications apportées à Outlook 2013 et Outlook 2010. Les informations telles que la liste de la mise à jour automatique, qui est la liste des noms qui s’affichent dans les  zones d’édition **À**, **Cc** et Cci pendant qu’un utilisateur compose un e-mail, sont désormais enregistrées dans le flux de mise à jour automatique d’un message sur l’ordinateur local au lieu de l’enregistrer dans un fichier comme dans Outlook 2007.[](autocomplete-stream.md)
+- **Flux de saisie semi-automatique** : la rubrique du [cache de surnoms](nickname-cache.md) , anciennement le **format de fichier Nk2**, a été mise à jour pour refléter les modifications apportées à Outlook 2013 et Outlook 2010. Des informations telles que la liste de saisie semi-automatique, qui est la liste des noms qui s’affiche dans les zones d’édition **To**, **Cc** et **Cci** pendant qu’un utilisateur compose un e-mail, sont désormais enregistrées dans le [flux de saisie semi-automatique](autocomplete-stream.md) d’un message sur l’ordinateur local au lieu de l’enregistrer dans un fichier comme dans Outlook 2007.
 
-  - Interaction avec le flux decomplet automatique
+  - Interaction avec le flux de saisie semi-automatique
 
-  - Chargement du flux de la mise àcomplet automatique
+  - Chargement du flux de saisie semi-automatique
 
-  - Enregistrement du flux de la mise àcomplet automatique
+  - Enregistrement du flux de saisie semi-automatique
 
-- Prise en charge de l’arrêt rapide pour les **clients MAPI** : les clients MAPI peuvent désormais lancer un arrêt rapide et faire en cas d’arrêt rapide des fournisseurs chargés par le sous-système MAPI afin de minimiser la perte de données suite à l’arrêt rapide. Des interfaces supplémentaires ont été ajoutées pour le client et le fournisseur afin de prendre en charge l’arrêt rapide. Pour plus d’informations sur l’arrêt rapide, voir [l’arrêt du client dans MAPI](client-shutdown-in-mapi.md).
+- **Prise en charge de l’arrêt rapide pour les clients MAPI** : les clients MAPI peuvent désormais lancer un arrêt rapide et faire en sorte que le sous-système MAPI avertisse les fournisseurs chargés pour réduire la perte de données suite à l’arrêt rapide. Des interfaces supplémentaires ont été ajoutées pour le client et le fournisseur afin de prendre en charge l’arrêt rapide. Pour plus d’informations sur l’arrêt rapide, consultez [Arrêt du client dans MAPI](client-shutdown-in-mapi.md).
 
-- **Structure de flux pour les définitions de champ pour un élément Outlook** : la documentation d’un flux binaire pour la [propriété PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) a été ajoutée. Cette propriété spécifie les définitions de tous les champs personnalisés et les paramètres de liaison de données pour les champs intégrés d’Outlook’élément.
+- **Structure de flux pour les définitions de champ pour un élément Outlook** : la documentation d’un flux binaire pour la propriété [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) a été ajoutée. Cette propriété spécifie les définitions de tous les champs personnalisés et des paramètres de liaison de données pour les champs intégrés d’un élément Outlook.
 
-- **Remplacement de** magasin personnel : les interfaces suivantes et leurs méthodes respectives ont été ajoutées pour prendre en charge le remplacement de la stratégie **PSTDisableGrow** des fournisseurs de magasins de dossiers personnels (PST) :
+- **Remplacement du magasin personnel** : les interfaces suivantes et leurs méthodes respectives ont été ajoutées pour prendre en charge la substitution de la stratégie PST (Personal Folders File) des fournisseurs de **magasins PSTDisableGrow** :
 
-    [IPSTOVERRIDEREQ::IUnknown](ipstoverridereqiunknown.md)
+    [IPSTOVERRIDEQ::IUnknown](ipstoverridereqiunknown.md)
 
     [IPSTOVERRIDE1::IUnknown](ipstoverride1iunknown.md)
 
-- **Utilisation de comptes Exchange plusieurs utilisateurs** : la documentation de l’API de carnet d’adresses [MAPI](using-multiple-exchange-accounts.md) a été ajoutée. Cette API a été améliorée pour prendre en charge plusieurs comptes Exchange dans Microsoft Outlook 2010 et inclut désormais Microsoft Outlook 2013. R�soudre les adresses correctement avec plusieurs comptes Exchange, utilisez les nouvelles fonctions qui utilisent un contexte de compte afin que les appels vers le carnet d'adresses rechercher le compte Exchange appropri�.
+- **Utilisation de plusieurs comptes Exchange** : la documentation de [l’API carnet d’adresses MAPI](using-multiple-exchange-accounts.md) a été ajoutée. Cette API a été améliorée pour prendre en charge plusieurs comptes Exchange dans Microsoft Outlook 2010 et inclut désormais Microsoft Outlook 2013. R�soudre les adresses correctement avec plusieurs comptes Exchange, utilisez les nouvelles fonctions qui utilisent un contexte de compte afin que les appels vers le carnet d'adresses rechercher le compte Exchange appropri�.
 
-- **Formats de fichiers MAPI** : les informations de configuration MAPI ont été étendues pour expliquer comment utiliser les chemins d’accès dans [Registering Services and Service Providers dans MapiSvc.inf](registering-services-and-service-providers-in-mapisvc-inf.md).
+- **Formats de fichier MAPI** : les informations de configuration MAPI ont été développées pour expliquer comment vous pouvez utiliser des chemins d’accès dans [l’inscription des services et des fournisseurs de services dans MapiSvc.inf](registering-services-and-service-providers-in-mapisvc-inf.md).
 
-- **Propriétés** : les propriétés marquées suivantes ont été ajoutées en plus de la documentation relative à 38 autres propriétés marquées et aux propriétés nommées précédemment ajoutées :
+- **Propriétés** : les propriétés étiquetées suivantes ont été ajoutées en plus de la documentation relative à 38 autres propriétés marquées et propriétés nommées qui avaient été ajoutées précédemment :
 
   - [PidTagAddressBookChooseDirectoryAutomatically](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md)
 
@@ -121,11 +122,11 @@ Le contenu a été ajouté dans les versions précédentes de Outlook référenc
 
   - [PidTagStoreEntryIdEmsmdbV1](pidtagstoreentryidemsmdbv1-canonical-property.md)
 
-- **Constantes MAPI** : les [constantes MAPI consolidées](mapi-constants.md) ont été étendues. Dans les versions précédentes, elles étaient distribuées dans un certain nombre de rubriques, mais elles sont désormais collectées dans une seule rubrique pour les rendre plus faciles à découvrir et à utiliser. Elles ont également été étendues pour fournir une couverture plus étendue, y compris les sections suivantes :
+- **Constantes MAPI** : les [constantes MAPI](mapi-constants.md) consolidées ont été développées. Dans les versions précédentes, elles étaient distribuées dans un certain nombre de rubriques, mais elles sont maintenant collectées dans une seule rubrique pour faciliter leur découverte et leur utilisation. Ils ont également été étendus pour offrir une couverture plus étendue, notamment les sections suivantes :
 
-  - Définitions des codes d Exchange de carnet d’adresses et de magasin de messages
+  - Définitions du carnet d’adresses Exchange et des codes d’erreur du magasin de messages
 
-  - Définitions des quotas Exchange Server en mode mis en cache de boîtes aux lettres
+  - Définitions des quotas de mode mis en cache de boîte aux lettres Exchange Server
 
 ## <a name="see-also"></a>Voir aussi
 

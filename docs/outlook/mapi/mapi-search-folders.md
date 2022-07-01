@@ -7,12 +7,12 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 36c14d91-77f7-43a3-8d87-d50bcc21fad7
-ms.openlocfilehash: 2bc80948e02625baaf4dd3b85da4f77ea57301ad
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: bfc1cccade449e10174f5ec5994b97a97efb7a2b
+ms.sourcegitcommit: 600f0dc552b725f98f3354d42feefc39be9c354c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63381732"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66577357"
 ---
 # <a name="mapi-search-folders"></a>Dossiers de recherche MAPI
 
@@ -22,11 +22,11 @@ ms.locfileid: "63381732"
   
 A search-results folder holds links to messages in generic folders rather than the actual messages. Clients create a search-results folder by calling the [IMAPIFolder::CreateFolder](imapifolder-createfolder.md) method with FOLDER_SEARCH as the  _ulFolderType_ parameter. Clients fill a search-results folder by setting up and applying search criteria�� rules that filter out messages with particular characteristics. Search criteria are set up with the [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) method. Clients build one or more [SRestriction](srestriction.md) structures to represent the search criteria to be applied and pass them to **SetSearchCriteria**. **SetSearchCriteria** also specifies a list of folders that indicate the search domain and a set of flags that control how the search is performed. 
   
- **SetSearchCriteria** identifies the messages that match the specified restriction. The selected messages (the ones that satisfy the criteria) are displayed as links in the search-results folder. When the client calls the [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) method to access the contents table of the search-results folder, the selected messages are displayed in the table. Contents tables for search-results folders contain the same columns as contents tables for generic folders. Toutefois, pour les dossiers de résultats de recherche, la propriété **PR_PARENT_ENTRYID** ([PidTagParentEntryId) spécifie l’identificateur](pidtagparententryid-canonical-property.md) d’entrée du dossier où réside le message lié. Search-results folders are not considered parent folders.
+ **SetSearchCriteria** identifies the messages that match the specified restriction. The selected messages (the ones that satisfy the criteria) are displayed as links in the search-results folder. When the client calls the [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) method to access the contents table of the search-results folder, the selected messages are displayed in the table. Contents tables for search-results folders contain the same columns as contents tables for generic folders. Toutefois, pour les dossiers de résultats de recherche, la propriété **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) spécifie l’identificateur d’entrée du dossier où réside le message lié. Search-results folders are not considered parent folders.
   
 Dossiers de r�sultats de recherche ont les limites suivantes :
   
-- La seule fa�on que le contenu d'un dossier de r�sultats de recherche peut �tre modifi� est via un appel � **SetSearchCriteria**. Pour plus d'informations sur l'impl�mentation de **SetSearchCriteria**, consultez l'article de la Base de connaissances [260322 : comment vers les dossiers de recherche avec la m�thode SetSearchCriteria](https://go.microsoft.com/fwlink/?LinkId=123603).
+- La seule fa�on que le contenu d'un dossier de r�sultats de recherche peut �tre modifi� est via un appel � **SetSearchCriteria**. Pour plus d'informations sur l'impl�mentation de **SetSearchCriteria**, consultez l'article de la Base de connaissances [260322 : comment vers les dossiers de recherche avec la m�thode SetSearchCriteria](/office/client-developer/outlook/mapi/imapicontainer-setsearchcriteria).
     
 - Les messages ne peuvent pas �tre d�plac�s ou copi�s dans les dossiers de r�sultats de recherche.
     

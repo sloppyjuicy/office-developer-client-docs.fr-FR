@@ -1,5 +1,5 @@
 ---
-title: IPSTOVERRIDEREQRegisterTrustedPSTOverrideHandler
+title: IPSTOVERPLATEEQRegisterTrustedPSTOverrideHandler
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a73c77c-7e32-4302-bffe-a1ea13574731
-description: 'Last modified: February 24, 2013'
-ms.openlocfilehash: c7c074bbfb365d8a975bee12c5611c4d0809dc1e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: 'Dernière modification : 24 février 2013'
+ms.openlocfilehash: ac8fd8ff7e943a59325351f1cace0c495000ed15
+ms.sourcegitcommit: 600f0dc552b725f98f3354d42feefc39be9c354c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620533"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66577364"
 ---
 # <a name="ipstoverridereqregistertrustedpstoverridehandler"></a>IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler
 
@@ -25,7 +25,7 @@ ms.locfileid: "59620533"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lance la procédure de déverrouillage pour un fichier de dossiers personnels (.pst).
+Lance la procédure de déverrouillage pour un fichier Dossiers personnels (.pst).
   
 ```cpp
 HRESULT RegisterTrustedPSTOverrideHandler (
@@ -43,7 +43,7 @@ HRESULT RegisterTrustedPSTOverrideHandler (
     
  _pvClientData_
   
-> [in] Pointeur vers les données client, qui seront transmises par le fournisseur PST dans les appels ultérieurs à la fonction HrTrustedPSTOverrideHandlerCallback de la DLL. Ces données client peuvent être utilisées par la DLL pour vous aider à vérifier si le PST doit être déverrouillé.
+> [in] Pointeur vers les données clientes, qui sera passé par le fournisseur PST dans les appels suivants à la fonction HrTrustedPSTOverrideHandlerCallback de la DLL. Ces données clientes peuvent être utilisées par la DLL pour vous aider à vérifier si le PST doit être déverrouillé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -59,10 +59,10 @@ La DLL spécifiée par le paramètre wzDllPath doit être signée à l’aide d�
 extern "C" HRESULT __cdecl HrTrustedPSTOverrideHandlerCallback(IMsgStore *pmstore, IUnknown *pOverride, LPVOID pvClientData)
 ```
 
-Cette fonction est appelée avec un pointeur vers l’objet IMsgStore pour le PST, un pointeur vers un objet IUnknown qui implémente l’interface IPSTOVERRIDE1 et un pointeur vers les données fournies à l’origine par pvClientData.
+Cette fonction sera appelée avec un pointeur vers l’objet IMsgStore pour le PST, un pointeur vers un objet IUnknown qui implémente l’interface IPSTOVERRIDE1 et un pointeur vers les données fournies à l’origine via pvClientData.
   
-Pour plus d’informations, voir Comment implémenter un handler de remplacement PST pour contourner la stratégie [PSTDisableGrow dans Outlook 2007](https://support.microsoft.com/kb/956070).
-  
+<!-- For more information see [How to implement a PST override handler to bypass the PSTDisableGrow policy in Outlook 2007](https://support.microsoft.com/kb/956070).
+   -->
 ## <a name="see-also"></a>Voir aussi
 
 
