@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: 'Project Online est un service Office 365 que les entreprises peuvent étendre afin de répondre à leurs besoins. Une zone d’extension est constituée par les champs personnalisés d’entreprise. Les champs personnalisés d’entreprise sont des champs où des valeurs sont saisies et qui peuvent être ajoutés à des projets, ressources et tâches. Le tableau suivant répertorie les champs personnalisés d’entreprise qui sont associés à des projets, ressources et tâches, et fournit un exemple de valeur pour une instance de ce champ personnalisé d’entreprise :'
 ms.localizationpriority: high
-ms.openlocfilehash: 27d2f1f8e36b4dd9893b6172caec19ce5a8d109d
-ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
+ms.openlocfilehash: 406aa9c4b8706150b38dec0b5a5f2f7036982aef
+ms.sourcegitcommit: b9eed77e21325860cef74e4fb8b86adcc247bc09
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "66083877"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "66608497"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>Accès aux champs personnalisés d’entreprise Project Online
 
@@ -206,7 +206,7 @@ La méthode ne vérifie pas si un projet utilise un champ personnalisé d’entr
 ## <a name="see-also"></a>Voir aussi
 
 - [Portail de développement Project](https://developer.microsoft.com/project)
-- [Vue d’ensemble : champs personnalisés d’entreprise et tables de choix](https://support.office.com/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
+- [Vue d’ensemble : champs personnalisés d’entreprise et tables de choix](/project/enterprise-custom-fields-and-lookup-tables-in-project-web-app)
 - [Champs personnalisés locaux et d’entreprise](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
 - [Ajouter ou modifier des champs personnalisés d’entreprise dans Project Server 2013](/project/add-or-edit-enterprise-custom-fields-in-project-server)
     
