@@ -1,33 +1,36 @@
 ---
-title: Considérations relatives à l’automatisation sans assistance des Office dans le Microsoft 365 pour l’environnement RPA sans assistance
+title: Considérations relatives à l’automatisation sans assistance d’Office dans Microsoft 365 pour l’environnement RPA sans assistance
 ms.date: 03/30/2020
 ms.audience: Developer
 ms.localizationpriority: medium
-description: Considérations relatives à l’automatisation sans assistance des Office dans le Microsoft 365 pour l’environnement RPA sans assistance.
-ms.openlocfilehash: b920e5f589547dd4a20c45b622d1268dda8e1266
-ms.sourcegitcommit: 8c8e4ac05a6612dd5c815ab18ba40e56a6ba839d
+description: Considérations relatives à l’automatisation sans assistance d’Office dans Microsoft 365 pour l’environnement RPA sans assistance.
+ms.openlocfilehash: a71c5aa9aba447757c35340f241dfd1ede5d00f9
+ms.sourcegitcommit: 5ec1a8ec9fc1470266842599cb68ce626b5bf3a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "65771089"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66620834"
 ---
-# <a name="considerations-for-unattended-automation-of-office-in-the-microsoft-365-for-unattended-rpa-environment"></a>Considérations relatives à l’automatisation sans assistance des Office dans le Microsoft 365 pour l’environnement RPA sans assistance
+# <a name="considerations-for-unattended-automation-of-office-in-the-microsoft-365-for-unattended-rpa-environment"></a>Considérations relatives à l’automatisation sans assistance d’Office dans Microsoft 365 pour l’environnement RPA sans assistance
 
-Bien que Microsoft 365 pour RPA sans assistance fournit une licence qui permet l’automatisation de Office sans utilisateur présent, toutes les versions actuelles de Office ont été conçues et testées pour s’exécuter en tant que produits d’utilisateur final sur une station de travail cliente avec un utilisateur présent pour interagir avec l’interface de l’application. Les comportements inattendus résultant de l’utilisation d’applications sans l’intervention d’un utilisateur ne sont pas des défauts. Si vous souhaitez exécuter Office dans cette configuration, vous devez être prêt à prendre en compte ces comportements inattendus dans votre logique d’application.
+Bien que Microsoft 365 pour RPA sans assistance fournisse une licence qui permet l’automatisation d’Office sans utilisateur présent, toutes les versions actuelles d’Office ont été conçues et testées pour s’exécuter en tant que produits d’utilisateur final sur une station de travail cliente avec un utilisateur présent pour interagir avec l’interface de l’application. Les comportements inattendus résultant de l’utilisation d’applications sans l’intervention d’un utilisateur ne sont pas des défauts. Si vous souhaitez exécuter Office dans cette configuration, vous devez être prêt à prendre en compte ces comportements inattendus dans votre logique d’application.
 
-Cet article décrit certaines des considérations relatives à l’automatisation sans assistance de Office pour vous aider si vous utilisez cette approche. Toutefois, notez que l’utilisation de Office dans cette configuration est strictement « AS IS » et doit tenir compte de ces comportements inattendus. Les informations fournies ici ne sont pas exhaustives et ne sont pas garanties pour résoudre tous les problèmes pour tous les clients. Nous vous encourageons à tester soigneusement votre solution avant de procéder au déploiement.
+Cet article décrit certaines des considérations relatives à l’automatisation sans assistance d’Office pour vous aider si vous utilisez cette approche. Toutefois, notez que l’utilisation d’Office dans cette configuration est strictement « AS IS » et doit tenir compte de ces comportements inattendus. Les informations fournies ici ne sont pas exhaustives et ne sont pas garanties pour résoudre tous les problèmes pour tous les clients. Nous vous encourageons à tester soigneusement votre solution avant de procéder au déploiement.
 
 ## <a name="common-problems-in-unattended-automation"></a>Problèmes courants dans l’automatisation sans assistance
 
-Si vous souhaitez utiliser Office sans qu’un utilisateur soit présent, tenez compte des domaines suivants dans lesquels Office peuvent se comporter différemment de ce qui était prévu. Pour que votre solution s’exécute correctement, elle doit résoudre ces problèmes et réduire autant que possible leurs effets. Tenez compte de ces problèmes avec soin lorsque vous générez votre application.
+Si vous souhaitez utiliser Office sans qu’un utilisateur soit présent, tenez compte des domaines suivants dans lesquels Office peut se comporter différemment que prévu. Pour que votre solution s’exécute correctement, elle doit résoudre ces problèmes et réduire autant que possible leurs effets. Tenez compte de ces problèmes avec soin lorsque vous générez votre application.
+
+> [!IMPORTANT]
+> Microsoft ne recommande pas et ne prend pas en charge l’automatisation des applications Microsoft Office à partir d’une application ou d’un composant client non interactif sans assistance (y compris ASP, ASP.NET, DCOM et NT Services), car Office peut présenter un comportement instable et/ou un blocage lors de l’exécution d’Office dans cet environnement. Pour plus d’informations, consultez [Considérations relatives à l’automatisation côté serveur d’Office](/topic/considerations-for-server-side-automation-of-office-48bcfe93-8a89-47f1-0bce-017433ad79e2).
 
 ### <a name="interactive-ui-elements"></a>Éléments d’interface utilisateur interactifs
 
-Office applications supposent qu’elles sont exécutées de manière interactive. Si une erreur inattendue se produit, ou si un paramètre non spécifié est nécessaire pour effectuer une fonction, Office est conçu pour inviter l’utilisateur avec une boîte de dialogue qui demande à l’utilisateur comment il souhaite continuer. Dans le cadre d’une automatisation sans assistance, l’application peut apparaître comme « bloquée » à mesure que l’application s’arrête jusqu’à ce qu’elle reçoive cette entrée. Si vous automatisez Office via ses API publiques, vous pouvez supprimer un grand nombre de ces alertes en configurant des propriétés comme [Application.DisplayAlerts](/office/vba/api/word.application.displayalerts) et [Application.AutomationSecurity](/office/vba/api/word.application.automationsecurity) de manière appropriée. Votre code doit être conçu pour identifier et traiter les alertes bloquantes à tout moment.
+Les applications Office supposent qu’elles sont exécutées de manière interactive. Si une erreur inattendue se produit, ou si un paramètre non spécifié est nécessaire pour effectuer une fonction, Office est conçu pour inviter l’utilisateur avec une boîte de dialogue qui demande à l’utilisateur comment il souhaite continuer. Dans le cadre d’une automatisation sans assistance, l’application peut apparaître comme « bloquée » à mesure que l’application s’arrête jusqu’à ce qu’elle reçoive cette entrée. Si vous automatisez Office via ses API publiques, vous pouvez supprimer un grand nombre de ces alertes en configurant les propriétés [comme Application.DisplayAlerts](/office/vba/api/word.application.displayalerts) et [Application.AutomationSecurity](/office/vba/api/word.application.automationsecurity) de manière appropriée. Votre code doit être conçu pour identifier et traiter les alertes bloquantes à tout moment.
 
 ### <a name="user-identity"></a>Identité de l’utilisateur
 
-Office applications nécessitent une identité d’utilisateur lorsque les applications sont exécutées, même lorsque l’application est démarrée via l’automatisation. Cette identité d’utilisateur peut provoquer l’une ou l’autre des opérations suivantes :
+Les applications Office nécessitent une identité d’utilisateur lorsque les applications sont exécutées, même lorsque l’application est démarrée via l’automatisation. Cette identité d’utilisateur peut provoquer l’une ou l’autre des opérations suivantes :
 
 - Présence d’une interface utilisateur de connexion supplémentaire qui doit être gérée.
 - Fichiers qui ne peuvent pas être ouverts et/ou modifiés en fonction des autorisations d’accès par utilisateur.
@@ -37,9 +40,9 @@ Diverses approches peuvent aider à atténuer ces problèmes; par exemple, l’e
 
 ### <a name="server-side-security"></a>Sécurité côté serveur
 
-Lors de l’exécution Office contenu de fichier arbitraire sans assistance et de traitement, aucune protection supplémentaire spécifique dans cet environnement n’est disponible pour empêcher le chargement et l’exécution des macros stockées dans ces fichiers. Office ne vous protège pas contre l’exécution involontaire de macros à partir de votre code ou le démarrage d’un autre serveur susceptible d’exécuter des macros. Vous pouvez utiliser des propriétés comme [Application.AutomationSecurity](/office/vba/api/word.application.automationsecurity) pour atténuer ce risque, mais vous devez vous assurer que vous chargez uniquement du contenu approuvé.
+Lors de l’exécution d’Office sans assistance et du traitement de contenu de fichier arbitraire, aucune protection supplémentaire spécifique dans cet environnement n’est disponible pour empêcher le chargement et l’exécution des macros stockées dans ces fichiers. Office ne vous protège pas contre l’exécution involontaire de macros à partir de votre code ou le démarrage d’un autre serveur susceptible d’exécuter des macros. Vous pouvez utiliser des propriétés comme [Application.AutomationSecurity](/office/vba/api/word.application.automationsecurity) pour atténuer ce risque, mais vous devez vous assurer que vous chargez uniquement du contenu approuvé.
 
-En outre, Office utilise de nombreux composants (tels que Simple MAPI, WinInet et MSDAIPP) qui peuvent mettre en cache les informations d’authentification du client pour accélérer le traitement. Lorsque Office est automatisé côté serveur et traite plusieurs fichiers, si les informations d’authentification ont été mises en cache pour cette session, un client peut utiliser les informations d’identification mises en cache d’un autre client. Par conséquent, le client peut obtenir des autorisations d’accès non accordées en empruntant l’identité d’autres utilisateurs.
+En outre, Office utilise de nombreux composants (tels que MapI simple, WinInet et MSDAIPP) qui peuvent mettre en cache les informations d’authentification du client pour accélérer le traitement. Quand Office est automatisé côté serveur et traite plusieurs fichiers, si les informations d’authentification ont été mises en cache pour cette session, un client peut utiliser les informations d’identification mises en cache d’un autre client. Par conséquent, le client peut obtenir des autorisations d’accès non accordées en empruntant l’identité d’autres utilisateurs.
 
 ### <a name="ui-changes"></a>Modifications de l’interface utilisateur
 
@@ -49,7 +52,7 @@ Même sans modification du produit, les différences entre les environnements sy
 
 ### <a name="single-threading"></a>Monothreading
 
-Office applications sont des applications non réentrantes basées sur STA qui sont conçues pour fournir des fonctionnalités variées mais gourmandes en ressources pour un seul client. Les applications utilisent des ressources globales telles que des fichiers mappés en mémoire, des compléments ou des modèles globaux et des serveurs Automation partagés. Cela peut limiter le nombre d’instances pouvant s’exécuter simultanément et entraîner des conditions de concurrence si les applications sont configurées dans un environnement multiclient. Si vous envisagez d’exécuter plusieurs instances d’une application Office, vous devez les isoler au niveau de la machine virtuelle pour garantir la stabilité de la solution résultante.
+Les applications Office sont des applications non réentrantes basées sur STA qui sont conçues pour fournir des fonctionnalités variées mais gourmandes en ressources pour un seul client. Les applications utilisent des ressources globales telles que des fichiers mappés en mémoire, des compléments ou des modèles globaux et des serveurs Automation partagés. Cela peut limiter le nombre d’instances pouvant s’exécuter simultanément et entraîner des conditions de concurrence si les applications sont configurées dans un environnement multiclient. Si vous envisagez d’exécuter plusieurs instances d’une application Office, vous devez les isoler au niveau de la machine virtuelle pour garantir la stabilité de la solution obtenue.
 
 ### <a name="resiliency-and-stability"></a>Résilience et stabilité
 
@@ -57,16 +60,16 @@ Même avec les considérations ci-dessus, si les applications sont automatisées
 
 ## <a name="suggested-alternatives"></a>Alternatives suggérées
 
-Microsoft recommande vivement quelques alternatives qui ne nécessitent pas l’installation et l’exécution de Office côté serveur, et qui peuvent effectuer des tâches courantes plus efficacement et plus rapidement que l’automatisation dans cette configuration. Avant d’impliquer Office en tant que composant côté serveur dans votre projet, envisagez d’autres solutions.
+Microsoft recommande vivement quelques alternatives qui ne nécessitent pas l’installation et l’exécution d’Office côté serveur, et qui peuvent effectuer des tâches courantes plus efficacement et plus rapidement que l’automatisation dans cette configuration. Avant d’impliquer Office en tant que composant côté serveur dans votre projet, envisagez d’autres solutions.
 
 ### <a name="microsoft-graph"></a>Microsoft Graph
 
-Microsoft API Graph fournit l’accès aux services, aux données et à l’intelligence qui sont disponibles pour les utilisateurs et les solutions dans le cadre du cloud Microsoft, y compris de nombreux services qui prennent en charge les besoins de l’automatisation sans assistance : accès à la messagerie/ calendrier/contacts/fichiers des utilisateurs, conversion de documents, calcul Excel classeur, etc. Ces services sont conçus pour une utilisation sans assistance et un accès à grande échelle, et utilisent une syntaxe d’API RESTful standard. Pour plus d’informations sur Microsoft Graph et son utilisation pour utiliser les données des utilisateurs, consultez les rubriques suivantes :
+Microsoft API Graph fournit l’accès aux services, aux données et à l’intelligence qui sont disponibles pour les utilisateurs et les solutions dans le cadre du cloud Microsoft, y compris de nombreux services qui prennent en charge les besoins de l’automatisation sans assistance : accès à la messagerie/ calendrier/contacts/fichiers des utilisateurs, conversion de documents, calcul de classeur Excel, etc. Ces services sont conçus pour une utilisation sans assistance et un accès à grande échelle, et utilisent une syntaxe d’API RESTful standard. Pour plus d’informations sur Microsoft Graph et son utilisation pour utiliser les données des utilisateurs, consultez les rubriques suivantes :
 
 - [Présentation de Microsoft Graph](/graph/overview) 
 - [Prise en main de Microsoft Graph](https://developer.microsoft.com/graph/get-started)
 - [Télécharger un fichier dans un autre format](/graph/api/driveitem-get-content-format?view=graph-rest-1.0&tabs=http&preserve-view=true) (conversion de fichier)
-- [Utilisation de Excel dans Microsoft Graph](/graph/api/resources/excel) (détails du classeur)
+- [Utilisation d’Excel dans Microsoft Graph](/graph/api/resources/excel) (détails du classeur)
 
 ### <a name="open-xml-file-formats"></a>Ouvrir des formats de fichier XML
 
