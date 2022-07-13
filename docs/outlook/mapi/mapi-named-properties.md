@@ -7,28 +7,28 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 464b1297-9d90-47bd-afc4-3dc63b106cb7
-ms.openlocfilehash: 32cfbb3270a1255b43d41edce4f36b446c9eb4ae
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 758f2eea5f127ddcea706260eb770af30fb5ff44
+ms.sourcegitcommit: b8c11491410ea058cfb559c2b83030d94c072bd7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380710"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66755561"
 ---
 # <a name="mapi-named-properties"></a>MAPI des propri�t�s nomm�e
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-MAPI fournit une fonction permettant d’affecter des noms à des propriétés, de ma mappage de ces noms à des identificateurs uniques et de rendre ce mappage persistant. Le nom persistant au mappage d’identificateur garantit que les noms de propriété restent valides entre les sessions.
+MAPI fournit une fonctionnalité permettant d’attribuer des noms à des propriétés, de mapper ces noms à des identificateurs uniques et de rendre ce mappage persistant. Le mappage du nom persistant à l’identificateur garantit que les noms de propriétés restent valides entre les sessions.
   
-Pour définir une propriété nommée, un client ou un fournisseur de services constitue un nom et le stocke dans une structure [MAPINAMEID](mapinameid.md) . Étant donné que les noms sont composés d’un identificateur global unique (GUID) 32 bits et d’une chaîne de caractères Unicode ou d’une valeur numérique, les créateurs de propriétés nommées peuvent créer des noms significatifs sans craindre de duplication. Les noms sont uniques et peuvent être utilisés sans prendre en compte la valeur de leurs identificateurs. 
+Pour définir une propriété nommée, un client ou un fournisseur de services compose un nom et le stocke dans une structure [MAPINAMEID](mapinameid.md) . Étant donné que les noms sont constitués d’un identificateur global unique 128 bits, ou GUID, et d’une chaîne de caractères Unicode ou d’une valeur numérique 32 bits, les créateurs de propriétés nommées peuvent créer des noms explicites sans crainte de duplication. Les noms sont uniques et peuvent être utilisés sans tenir compte de la valeur de leurs identificateurs. 
   
-Pour prendre en charge les propriétés nommées, un fournisseur de services implémente deux méthodes : [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) et [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) , pour traduire entre les noms et les identificateurs et pour autoriser ses méthodes [IMAPIProp::GetPropsIMAPIProp](imapiprop-getprops.md)[::SetProps](imapiprop-setprops.md) à récupérer et modifier des propriétés avec des identificateurs dans la plage de propriétés nommée. La plage des identificateurs de propriété nommée est 0x8000 et 0xFFFE. 
+Pour prendre en charge les propriétés nommées, un fournisseur de services implémente deux méthodes : [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) et [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) , pour traduire entre les noms et les identificateurs et permettre à ses méthodes [IMAPIProp::GetProps](imapiprop-getprops.md)[IMAPIProp::SetProps](imapiprop-setprops.md) de récupérer et de modifier des propriétés avec des identificateurs dans la plage de propriétés nommée. La plage des identificateurs de propriété nommés est comprise entre 0x8000 et 0xFFFE. 
   
-Tout objet qui implémente l’interface **IMAPIProp** peut prendre en charge les propriétés nommées. Les fournisseurs de carnet d’adresses qui permettent la copie d’entrées d’autres fournisseurs dans leurs conteneurs et fournisseurs de magasins de messages qui peuvent être utilisés pour créer des types de messages arbitraires sont requis pour fournir cette prise en charge. Il s’agit d’une option pour tous les autres fournisseurs de services. Les fournisseurs qui ne prisent pas en charge les propriétés nommées retournent des MAPI_E_NO_SUPPORT à partir des méthodes **GetIDsFromNames** et **GetNamesFromIDs** et refusent de définir des propriétés avec des identificateurs de 0x8000 ou supérieur, renvoyant les MAPI_E_UNEXPECTED dans **le SPropProblemarray**.
+Tout objet qui implémente l’interface **IMAPIProp** peut prise en charge des propriétés nommées. Les fournisseurs de carnets d’adresses qui permettent aux entrées d’autres fournisseurs d’être copiées dans leurs conteneurs et les fournisseurs de magasins de messages qui peuvent être utilisés pour créer des types de messages arbitraires sont nécessaires pour fournir cette prise en charge. Il s’agit d’une option pour tous les autres fournisseurs de services. Les fournisseurs qui ne prennent pas en charge les propriétés nommées retournent MAPI_E_NO_SUPPORT des méthodes **GetIDsFromNames** et **GetNamesFromIDs** et refusent de définir des propriétés avec des identificateurs de 0x8000 ou supérieur, en retournant MAPI_E_UNEXPECTED dans **SPropProblemarray**.
   
-La création de noms pour les propriétés est un moyen pour les clients de définir de nouvelles propriétés pour des classes de message existantes ou personnalisées. Les fournisseurs de services peuvent utiliser des propriétés nommées pour exposer des fonctionnalités uniques de leurs systèmes de messagerie. Une autre utilisation des propriétés nommées consiste à fournir une autre façon de faire référence aux propriétés avec des identificateurs sous 0x8000. 
+La création de noms pour les propriétés est un moyen pour les clients de définir de nouvelles propriétés pour les classes de messages existantes ou personnalisées. Les fournisseurs de services peuvent utiliser des propriétés nommées pour exposer des fonctionnalités uniques de leurs systèmes de messagerie. Une autre utilisation des propriétés nommées consiste à fournir une autre façon de faire référence aux propriétés avec des identificateurs ci-dessous 0x8000. 
   
-Par exemple, un client peut utiliser du code semblable au code suivant pour récupérer les noms de toutes les propriétés nommées d’un objet :
+Par exemple, un client peut utiliser du code similaire au code suivant pour récupérer les noms de toutes les propriétés nommées d’un objet :
   
 ```cpp
 LPSPropTagArray FAR *    lppPropTags = NULL;
@@ -43,7 +43,7 @@ lpMAPIProp->GetNamesFromIDs (lppPropTags,
  
 ```
 
-Pour demander tous les noms du jeu PS_PUBLIC_STRINGS propriétés, un client remplace la valeur NULL dans le paramètre de jeu de propriétés PS_PUBLIC_STRINGS comme suit : 
+Pour demander tous les noms du jeu de propriétés PS_PUBLIC_STRINGS, un client remplace la valeur NULL du paramètre de jeu de propriétés par PS_PUBLIC_STRINGS comme suit : 
   
 ```cpp
 LPSPropTagArray FAR *    lppPropTags = NULL;
