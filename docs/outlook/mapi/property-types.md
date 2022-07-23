@@ -1,23 +1,22 @@
 ---
 title: Types de propriétés
 description: Décrit les types de propriétés à valeur unique et à valeurs multiples pris en charge par MAPI dans une table présentant le type de propriété, la valeur hexadécimale et une brève description.
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 08/22/2022
 ms.audience: Developer
 ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 71967150-1005-4c85-90f1-76fc7876c0d0
-ms.openlocfilehash: 4ff785ab8f08504265cb018b4e8c4a861b3223fe
-ms.sourcegitcommit: 40d4e0c1322eed1d56edd5d869ff3d2793f27593
+ms.openlocfilehash: d3210f05f2f5125e4e13db67e450d9251a3b2993
+ms.sourcegitcommit: 12d01f65ceb6daa88d9a76ae897b080306f1a409
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/23/2022
-ms.locfileid: "66984084"
+ms.locfileid: "66985684"
 ---
 # <a name="property-types"></a>Types de propriétés
-
-  
+ 
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
@@ -51,4 +50,4 @@ Les types de propriétés à valeur unique et à valeur multiple pris en charge 
 > [!NOTE]
 > Pour déterminer la valeur Hex pour le type de propriété à valeurs multiples, OU l’indicateur PT_MV (0x00001000) à la valeur Hex pour le type de propriété. Par exemple, la valeur Hex pour PT_MV_UNICODE est 0x101F et la valeur Hex pour PT_MV_BINARY est 0x1102. 
   
-MAPI partage les numéros de type valeur avec [[variantes OLE]](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-oaut/3fe7db9f-5803-4dc4-9d14-5425d3f5461f). Toutefois, tous les types OLE ne sont pas spécifiés pour MAPI. En particulier, les types non signés tels que VT_UI4 n’ont pas d’équivalent dans MAPI. La comparaison des valeurs de propriétés PT_I2/I4/I8, par exemple lors de l’évaluation de [[restrictions]](https://docs.microsoft.com/en-us/office/client-developer/outlook/mapi/spropertyrestriction) (filtres), est effectuée en tant que comparaison signée. 
+MAPI partage les numéros de type valeur avec [[variantes OLE]](/openspecs/windows_protocols/ms-oaut/3fe7db9f-5803-4dc4-9d14-5425d3f5461f). Toutefois, tous les types OLE ne sont pas spécifiés pour MAPI. En particulier, les types non signés tels que VT_UI4 n’ont pas d’équivalent dans MAPI. La comparaison des valeurs de propriétés PT_I2/I4/I8, par exemple lors de l’évaluation de [[restrictions]](/office/client-developer/outlook/mapi/spropertyrestriction) (filtres), est effectuée en tant que comparaison signée. 
