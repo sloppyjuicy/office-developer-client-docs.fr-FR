@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: faf795a2-84db-432d-a05f-082f25a5cab5
 description: Décrit une propriété MAPI pour Outlook 2013 et Outlook 2016.
-ms.openlocfilehash: 3506247641161bb0c0e42db62e314c5fab565981
-ms.sourcegitcommit: 331e2bc18fb14cc9868d28ca29cb5eda85c8f154
+ms.openlocfilehash: 3afb98746afb74f35dec032b8c4f2c1d87a3ec68
+ms.sourcegitcommit: 40d4e0c1322eed1d56edd5d869ff3d2793f27593
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64454683"
+ms.lasthandoff: 07/23/2022
+ms.locfileid: "66984090"
 ---
 # <a name="spropvalue"></a>SPropValue
 
@@ -30,7 +30,7 @@ Décrit une propriété MAPI.
 |Propriété |Valeur |
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Macros associées :  <br/> |[CHANGE_PROP_TYPE](change_prop_type.md), [MVI_PROP](mvi_prop.md), [PROP_ID](prop_id.md), [PROP_TAG](prop_tag.md), [PROP_TYPE](prop_type.md) <br/> |
+|Macros associées :  <br/> |[CHANGE_PROP_TYPE](change_prop_type.md), [MVI_PROP](mvi_prop.md), [PROP_ID](prop_id.md), [PROP_TAG](prop_tag.md)[, PROP_TYPE](prop_type.md) <br/> |
    
 ```cpp
 typedef struct _SPropValue
@@ -46,11 +46,11 @@ typedef struct _SPropValue
 
  **ulPropTag**
   
-> Balise de propriété de la propriété. Les balises de propriété sont des nombres droits non signés 32 bits constitués de l’identificateur unique de la propriété dans l’ordre élevé de 16 bits et du type de la propriété dans l’ordre faible de 16 bits.
+> Balise de propriété pour la propriété. Les balises de propriété sont des entiers non signés 32 bits constitués de l’identificateur unique de la propriété dans l’ordre élevé 16 bits et du type de la propriété dans les 16 bits de faible ordre.
     
  **dwAlignPad**
   
-> Réservé à MAPI ; ne pas utiliser. 
+> Réservé à MAPI; n’utilisez pas. 
     
  **Valeur**
   
@@ -58,21 +58,21 @@ typedef struct _SPropValue
     
 |**Type de propriété**|**Valeur**|**Type de données de valeur**|
 |:-----|:-----|:-----|
-|PT_I2 ou PT_SHORT  <br/> |**i** <br/> |short int  <br/> |
-|PT_I4 ou PT_LONG (signé)  <br/> |**l** <br/> |LONG  <br/> |
-|PT_I4 ou PT_LONG (non signé)  <br/> |**ul** <br/> |ULONG  <br/> |
-|PT_R4 ou PT_FLOAT  <br/> |**flt** <br/> |float  <br/> |
-|PT_R8 ou PT_DOUBLE  <br/> |**dbl** <br/> |double  <br/> |
-|PT_BOOLEAN  <br/> |**b** <br/> |unsigned short int  <br/> |
+|PT_I2 ou PT_SHORT  <br/> |**Je** <br/> |short int  <br/> |
+|PT_I4 ou PT_LONG  <br/> |**l** <br/> |LONG  <br/> |
+|-  <br/> |**Ul** <br/> |ULONG  <br/> |
+|PT_R4 ou PT_FLOAT  <br/> |**Flt** <br/> |float  <br/> |
+|PT_R8 ou PT_DOUBLE  <br/> |**Dbl** <br/> |double  <br/> |
+|PT_BOOLEAN  <br/> |**B** <br/> |unsigned short int  <br/> |
 |PT_CURRENCY  <br/> |**cur** <br/> |[CURRENCY](currency.md) <br/> |
-|PT_APPTIME  <br/> |**at** <br/> |double  <br/> |
-|PT_SYSTIME  <br/> |**ft** <br/> |[FILETIME](filetime.md) <br/> |
+|PT_APPTIME  <br/> |**À** <br/> |double  <br/> |
+|PT_SYSTIME  <br/> |**Ft** <br/> |[FILETIME](filetime.md) <br/> |
 |PT_STRING8  <br/> |**lpszA** <br/> |LPSTR  <br/> |
-|PT_BINARY  <br/> |**bin** <br/> |BYTE [tableau]  <br/> |
+|PT_BINARY  <br/> |**Bin** <br/> |BYTE [tableau]  <br/> |
 |PT_UNICODE  <br/> |**lpszW** <br/> |LPWSTR  <br/> |
 |PT_CLSID  <br/> |**lpguid** <br/> |LPGUID  <br/> |
-|PT_I8 ou PT_LONGLONG  <br/> |**li** <br/> |**LARGE_INTEGER** <br/> |
-|PT_MV_I2  <br/> |**MVi** <br/> |[SShortArray](sshortarray.md) <br/> |
+|PT_I8 ou PT_LONGLONG  <br/> |**Li** <br/> |**LARGE_INTEGER** <br/> |
+|PT_MV_I2  <br/> |**Mvi** <br/> |[SShortArray](sshortarray.md) <br/> |
 |PT_MV_LONG  <br/> |**MVI** <br/> |[SLongArray](slongarray.md) <br/> |
 |PT_MV_R4  <br/> |**MVflt** <br/> |[SRealArray](srealarray.md) <br/> |
 |PT_MV_DOUBLE  <br/> |**MVdbl** <br/> |[SDoubleArray](sdoublearray.md) <br/> |
@@ -86,26 +86,27 @@ typedef struct _SPropValue
 |PT_MV_I8  <br/> |**MVli** <br/> |[SLargeIntegerArray](slargeintegerarray.md) <br/> |
 |PT_ERROR  <br/> |**err** <br/> |[SCODE](scode.md) <br/> |
 |PT_NULL ou PT_OBJECT  <br/> |**x** <br/> |LONG  <br/> |
-|PT_PTR  <br/> |**lpv** <br/> |VOID \*  <br/> |
+|PT_PTR ou PT_FILE_HANDLE  <br/> |**Lpv** <br/> |VIDE \*  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le **membre ulPropTag** est composé de deux parties : 
+Le membre **ulPropTag** est constitué de deux parties : 
   
-- Identificateur de l’ordre élevé de 16 bits.
+- Identificateur dans l’ordre supérieur de 16 bits.
     
-- Type de 16 bits de bas ordre.
+- Type dans l’ordre inférieur de 16 bits.
     
-L’identificateur est une valeur numérique dans une plage particulière. MAPI définit des plages pour les identificateurs afin de décrire l’utilisation de la propriété et la personne responsable de sa maintenance. MAPI définit des contraintes pour chacune des balises de propriété qu’il prend en charge dans le fichier d’en-tête Mapitags.h.
+L’identificateur est une valeur numérique dans une plage particulière. MAPI définit des plages pour les identificateurs afin de décrire à quoi la propriété est utilisée et qui est responsable de sa maintenance. MAPI définit des contraintes pour chacune des balises de propriété qu’il prend en charge dans le fichier d’en-tête Mapitags.h.
   
 Le type indique le format de la valeur de la propriété. MAPI définit des constantes pour chacun des types de propriétés qu’il prend en charge dans le fichier d’en-tête Mapidefs.h. 
   
-Pour obtenir la liste complète des plages de propriétés valides pour les identificateurs et les types de propriétés, voir l’annexe [Identificateurs et types de](property-identifiers-and-types.md) propriétés. 
+Pour obtenir la liste complète des plages de propriétés valides pour les identificateurs et les types de propriétés, consultez l’annexe [Identificateurs et types de propriétés](property-identifiers-and-types.md) . 
   
-Le **membre dwAlignPad** est utilisé comme remplissage pour s’assurer d’un alignement correct sur les ordinateurs qui nécessitent un alignement de 8 byte pour des valeurs de 8 byte. Les développeurs qui écrivent du code sur ces ordinateurs doivent utiliser des routines d’allocation de mémoire qui allouent les tableaux **SPropValue** aux limites de 8 byte. 
-  
-Pour plus d’informations, voir [Vue d’ensemble du type de propriété MAPI](mapi-property-type-overview.md) et [mise à jour des propriétés MAPI](updating-mapi-properties.md). 
-  
+Le membre **dwAlignPad** est utilisé comme remplissage pour garantir un alignement correct sur les ordinateurs qui nécessitent un alignement de 8 octets pour les valeurs de 8 octets. Les développeurs qui écrivent du code sur ces ordinateurs doivent utiliser des routines d’allocation de mémoire qui allouent les tableaux **SPropValue** sur des limites de 8 octets. 
+
+Le ``SPropValue::ul`` membre n’a pas de type de propriété MAPI correspondant, car le VT_UI4 d’OLE n’est pas mappé à MAPI. Pour plus d’informations, consultez [vue d’ensemble du type de propriété MAPI](mapi-property-type-overview.md) et [mise à jour des propriétés MAPI](updating-mapi-properties.md).
+Lorsque le type de propriété d’un SPropValue indique PT_LONG, le membre actif de l’union UPV est généralement ``l``et l’accès ``ul`` constitue un comportement non défini conformément à la norme C. 
+
 ## <a name="see-also"></a>Voir aussi
 
 

@@ -3,12 +3,12 @@ title: Gérer une résolution élevée et redimensionner la résolution dans vot
 description: Mettre à jour votre solution Office tels que les volets de tâches personnalisés, ou les contrôles ActiveX, pour prendre en charge des moniteurs à haute résolution.
 ms.date: 03/09/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 872150ab2b0c563160cf6f37db7b40e20045a6c6
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+ms.openlocfilehash: 0164e49911f0ba2e53ce22bc8636d51dd06b93c4
+ms.sourcegitcommit: 40d4e0c1322eed1d56edd5d869ff3d2793f27593
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63369748"
+ms.lasthandoff: 07/23/2022
+ms.locfileid: "66984098"
 ---
 # <a name="handle-high-dpi-and-dpi-scaling-in-your-office-solution"></a>Gérer une résolution élevée et redimensionner la résolution dans votre solution Office
 
@@ -41,7 +41,7 @@ Dans cet article, nous allons faire référence aux modes de sensibilisation PPP
 |Mode  |Description  |Lorsque la résolution change  |
 |---------|---------|---------|
 |Système PPP ignoré |  L’application s’affiche toujours comme si elle est sur une résolution de valeur 96. |  L’application est étirée bitmap à la taille attendue sur l’affichage principal et secondaire.    |
-|Système PPP pris en compte |  L’application détecte la résolution du moniteur principal connecté à Windows, mais ne peut pas répondre aux modifications PPP. Pour plus d’informations, voir [la section Configurer Windows pour corriger les](#configure-windows-to-fix-blurry-apps) applications floues dans cet article.  | L’application est étirée bitmap lorsqu’elle est déplacée vers un nouvel affichage avec une résolution différente.    |
+|Système PPP pris en compte |  L’application détecte la résolution du moniteur principal connecté à Windows, mais ne peut pas répondre aux modifications PPP. Pour plus d’informations, consultez la section [Configurer Windows pour corriger les applications floues](#configure-windows-to-fix-blurry-apps) de cet article.  | L’application est étirée bitmap lorsqu’elle est déplacée vers un nouvel affichage avec une résolution différente.    |
 |Par moniteur PPP pris en compte |  L’application est capable de s’afficher correctement d’elle-même lorsque le PPP change.  |   Windows envoie des notifications PPP aux fenêtres de niveau supérieur dans l’application, de sorte qu’elle peut ajuster son affichage en cas de modification de la résolution.     |
 |Par moniteur v2 |  L’application est capable de s’afficher correctement d’elle-même lorsque le PPP change.  |   Windows envoie des notifications PPP aux fenêtres de niveau supérieur et aux fenêtres enfants dans l’application, de sorte qu’elle peut ajuster son affichage en cas de modification de la résolution. |
 
@@ -238,7 +238,7 @@ Avec la mise à jour Windows avril 2018 (1803) et versions ultérieures, le comp
 
 ![Diagramme montrant les fenêtres enfants en cours d’exécution dans un contexte Par système PPP pris en compte sur Windows mise à jour avril 2018 (1803).](./media/office-dpi-behavior-on-windows-april-2018-update.png)
 
-Lorsque vous créez nouveau fenêtre enfant, assurez-vous qu’elles correspondent à la résolution de présence de leur fenêtre parent. Vous pouvez utiliser la [fonction GetWindowDpiAwarenessContext](/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) pour obtenir la connaissance DEPI de la fenêtre parente. Pour plus d’informations sur la cohérence de présence PPP, voir la section « Réinitialisation forcée de présence à l’échelle de processus PPP » dans [Développement d’applications bureau pour haute résolution sur Windows](/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
+Lorsque vous créez nouveau fenêtre enfant, assurez-vous qu’elles correspondent à la résolution de présence de leur fenêtre parent. Vous pouvez utiliser la fonction [GetWindowDpiAwarenessContext](/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) pour obtenir la prise en charge DPI de la fenêtre parente. Pour plus d’informations sur la cohérence de présence PPP, voir la section « Réinitialisation forcée de présence à l’échelle de processus PPP » dans [Développement d’applications bureau pour haute résolution sur Windows](/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
 
 > [!NOTE]
 > Vous ne pouvez pas dépendre de la présence de processus PPP car cela peut renvoyer [PROCESS_SYSTEM_DPI_AWARE](/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness) même lorsque le contexte de présence du thread principal PPP de l’application est [DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE](/windows/desktop/hidpi/dpi-awareness-context). Utilisez la fonction [GetThreadDpiAwarenessContext](/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext) pour obtenir le contexte de présence du thread PPP.
@@ -545,20 +545,20 @@ Les rappels Office pour les contrôles de ruban personnalisés sont également u
 
 Lorsqu’un serveur OLE est hébergé dans un conteneur de client OLE, vous ne pouvez pas fournir d’informations PPP actuelles ni prises en charge. Cela peut provoquer des problèmes, car certaines combinaisons de modes mixtes de fenêtre parent à fenêtre enfant ne sont pas pris en charge par l’architecture actuelle de Windows.
 
-#### <a name="before-office-365-version-2109"></a>Avant Office 365 version 2109
+#### <a name="before-office-365-version-2109-for-excel-and-powerpoint-and-version-2203-for-word"></a>Avant Office 365 version 2109 pour Excel et PowerPoint, et la version 2203 pour Word
 
-Si Word ou Excel détecte qu’il existe plusieurs moniteurs avec différentes échelles PPP, ils ne prennent pas en charge l’activation sur place. Votre serveur OLE s’activera en externe. Si vous rencontrez des problèmes avec les interactions de serveur OLE, l’utilisateur devra utiliser le [mode de compatibilité Office PPP](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
+Si Excel, PowerPoint ou Word détectent qu’il existe plusieurs moniteurs avec différentes échelles ppp, ils ne prennent pas en charge l’activation sur place. Votre serveur OLE s’activera en externe. Si vous rencontrez des problèmes avec les interactions de serveur OLE, l’utilisateur devra utiliser le [mode de compatibilité Office PPP](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 
-#### <a name="after-office-365-version-2109"></a>Après Office 365 version 2109
+#### <a name="after-office-365-version-2109-for-excel-and-powerpoint-and-version-2203-for-word"></a>Après Office 365 version 2109 pour Excel et PowerPoint, et la version 2203 pour Word
 
-À partir de la version 2109 pour Excel et PowerPoint, les deux applications autorisent l’activation sur place dans les modes per Monitor DPI Aware lorsque certaines conditions sont remplies. Lorsqu’elles sont activées sur place en tant que serveurs OLE, les applications `DPI_AWARENESS_CONTEXT` Office vérifient la fenêtre parente fournie par le conteneur et autorisent l’activation sur place en fonction de l’un des modes d’affichage [DPI Office](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) suivants est sélectionné par l’utilisateur :
+À compter de la version 2109 pour Excel et PowerPoint, et de la version 2203 pour Word, les trois applications autorisent l’activation sur place dans les modes de prise en charge DPI par moniteur lorsque certaines conditions sont remplies. Lorsqu’elles sont activées en tant que serveurs OLE sur place, les applications Office vérifient la `DPI_AWARENESS_CONTEXT` fenêtre parente fournie par le conteneur et autorisent l’activation sur place en fonction des [modes d’affichage Office DPI](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) suivants sélectionnés par l’utilisateur :
 
-- « Optimiser pour une meilleure apparence » autorise l’activation`DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE` sur place si la fenêtre fournie par le conteneur est sensible ( ou `DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2`).
-- « Optimiser la compatibilité » autorise l’activation sur place si la fenêtre fournie par le conteneur est compatible avec la DPI système (`DPI_AWARENESS_CONTEXT_SYSTEM_AWARE`) et si l’application conteneur et l’application Office ont la même DPI système.
+- L’option « Optimiser pour une meilleure apparence » permet l’activation sur place si la fenêtre fournie par le conteneur est prenant en charge le ppp par moniteur (`DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE` ou `DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2`).
+- L’option « Optimiser pour la compatibilité » permet l’activation sur place si la fenêtre fournie par le conteneur prend en charge le ppp système (`DPI_AWARENESS_CONTEXT_SYSTEM_AWARE`) et que l’application conteneur et l’application Office ont le même ppp système.
 
-Cette vérification de la compatibilité du contexte de prise en compte des DPI signifie que les conteneurs OLE non compatibles DPI ne pourront pas activer sur place l’une ou l’autre des applications. La solution de contournement consiste à modifier la prise en compte de la DPI de l’application conteneur en « System DPI Aware » (et utiliser le paramètre « Optimiser la compatibilité » dans le application Office). Cette opération peut être effectuée via [SetProcessDpiAwareness](/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness), [un manifeste incorporé ou externe](/windows/win32/hidpi/setting-the-default-dpi-awareness-for-a-process). Le manifeste externe est particulièrement utile pour les solutions VB Forms existantes, car il ne nécessite pas de recompilation de la solution.
+Cette vérification de compatibilité du contexte de reconnaissance ppp signifie que les conteneurs OLE non conscients DPI ne pourront pas activer sur place l’une ou l’autre des applications. La solution de contournement consiste à modifier la prise en charge de l’indicateur de performance de l’application conteneur par system DPI Aware (et à utiliser le paramètre « Optimiser pour la compatibilité » dans l’application Office). Pour ce faire, vous pouvez utiliser [SetProcessDpiAwareness, un](/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) [manifeste incorporé ou externe](/windows/win32/hidpi/setting-the-default-dpi-awareness-for-a-process). Le manifeste externe est particulièrement utile pour les solutions VB Forms existantes, car il ne nécessite pas la recompilation de la solution.
 
-En tant que conteneur OLE, Excel et PowerPoint s’en reportent au serveur pour vérifier la compatibilité de la prise en compte des DPI et n’empêchent pas l’activation sur place.
+Lorsque vous jouez le rôle de conteneur OLE, Excel et PowerPoint s’en remettent au serveur pour vérifier la compatibilité de la prise en charge DPI, et ils n’empêchent pas l’activation sur place.
 
 <h3 id="web-add-ins">Compléments Office web</h3>
 
@@ -580,10 +580,10 @@ Vous pouvez également trouver ces techniques supplémentaires utiles :
 
 ### <a name="articles"></a>Articles
 
-- [Le développement dPer-Monitor DPI-Aware application WPF fournit](/windows/desktop/hidpi/declaring-managed-apps-dpi-aware) une vue d’ensemble générale et un guide pour l’écriture d’applications de bureau Win32. Bon nombre des techniques décrites dans cet article peuvent être appliquées aux solutions d’extensibilité Office.
+- [Le développement d’une application WPF Per-Monitor DPI-Aware](/windows/desktop/hidpi/declaring-managed-apps-dpi-aware) fournit une vue d’ensemble générale et un guide pour l’écriture d’applications de bureau Win32. Bon nombre des techniques décrites dans cet article peuvent être appliquées aux solutions d’extensibilité Office.
 - 
   [Mise à l’échelle PPP mode mixte et API PPP pris en compte](/windows/desktop/hidpi/high-dpi-improvements-for-desktop-applications) a une liste d’API connexes à PPP.
-- [Guide du développeur : la DPI par moniteur](https://github.com/microsoft/WPF-Samples/tree/main/PerMonitorDPI) couvre le guide de développement d’applications WPF pour la création d’applications WPF sensibles aux DPI.
+- [Guide du développeur - L’indicateur de performance par moniteur](https://github.com/microsoft/WPF-Samples/tree/main/PerMonitorDPI) couvre le guide de développement d’applications WPF pour la création d’applications WPF sensibles à DPI.
 - [Support technique Office pour l’affichage haute définition](https://support.office.com/article/Office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) fournit des informations sur la manière dont un utilisateur peut définir Office afin d’optimiser pour assurer la compatibilité si votre solution Office n’est pas prise en charge correctement lorsque le PPP change.
 - [Afficher les modifications de mise à l’échelle pour la Mise à jour anniversaire Windows 10](https://blogs.technet.microsoft.com/askcore/2016/08/16/display-scaling-changes-for-the-windows-10-anniversary-update/) est un billet de blog qui présente les modifications introduites avec la mise à jour anniversaire Windows 10.
 - [Gérer DPI_AWARENESS_CONTEXT](/windows/desktop/hidpi/dpi-awareness-context) contient les détails de programme sur les valeurs et définitions de DPI_AWARENESS_CONTEXT.
