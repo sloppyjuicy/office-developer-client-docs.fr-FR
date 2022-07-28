@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: e3bc15ef-155e-49fd-88e5-64713df9b939
-ms.openlocfilehash: e106d0da5f3c7d415a0ee3964db8dec7a07208c2
-ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
+ms.openlocfilehash: 38c6f4c98406b458fe87ee6f0011b72dd7013573
+ms.sourcegitcommit: a1434c24ee2b92bd0faac5f37d9baa1d05b42058
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65817381"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67052435"
 ---
 # <a name="pidlidtodosubordinal-canonical-property"></a>Propriété canonique PidLidToDoSubOrdinal
 
@@ -37,7 +37,7 @@ Agit en tant que **dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate](pidlidtodoor
    
 ## <a name="remarks"></a>Remarques
 
-Si elle est utilisée, cette propriété doit être triée lexicographiquement. Les caractères de composant de la chaîne doivent être constitués uniquement des chiffres de zéro à neuf. Cette propriété doit être initialement définie sur « 5555555 ». La longueur de cette propriété ne doit pas dépasser 254 caractères (à l’exception du caractère NULL de fin).
+Si elle est utilisée, cette propriété doit être triée lexicographiquement. Les caractères de composant de la chaîne doivent être constitués uniquement des chiffres de zéro à neuf. Cette propriété doit être initialement définie sur « 5555555 ». La longueur de cette propriété ne doit pas dépasser 254 caractères (à l’exception du caractère null de fin).
   
 ## <a name="related-resources"></a>Ressources connexes
 
