@@ -1,5 +1,5 @@
 ---
-title: SubmitChanges, méthode (RDS)
+title: Méthode SubmitChanges (RDS)
 TOCTitle: SubmitChanges method (RDS)
 ms:assetid: ecaea12d-7e1a-095d-17e7-d631ef230b90
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250201(v=office.15)
@@ -7,14 +7,14 @@ ms:contentKeyID: 48548521
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: f1464bce8cbaed5e33c40d90a246c6302e5d85e2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: edb6ff720966045d411b55a723435181171b4ec6
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59562187"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365578"
 ---
-# <a name="submitchanges-method-rds"></a>SubmitChanges, méthode (RDS)
+# <a name="submitchanges-method-rds"></a>Méthode SubmitChanges (RDS)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -37,13 +37,13 @@ Envoie les modifications en attente de l’objet [Recordset](recordset-object-ad
 
 ## <a name="remarks"></a>Remarques
 
-Les propriétés [Connect](connect-property-rds.md), [Server](server-property-rds.md) et [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) doivent être définies avant de pouvoir utiliser la méthode **SubmitChanges** avec l’objet **RDS.DataControl**.
+Les propriétés [Connect](connect-property-rds.md), [Server](server-property-rds.md) et [SQL](/office/vba/access/concepts/miscellaneous/sql-property-ado) doivent être définies avant de pouvoir utiliser la méthode **SubmitChanges** avec l’objet **RDS.DataControl**.
 
 Si vous appelez la méthode [CancelUpdate](cancelupdate-method-rds.md) après avoir appelé **SubmitChanges** pour le même objet **Recordset**, l’appel **CancelUpdate** échoue car les modifications ont déjà été validées.
 
 Seuls les enregistrements modifiés sont envoyés pour modification. Par ailleurs, soit toutes les modifications aboutissent, soit elles échouent toutes.
 
-Vous pouvez utiliser **SubmitChanges uniquement** avec l’objet  **RDSServer.DataFactory par** défaut. Les objets métier personnalisés ne peuvent pas utiliser cette méthode.
+Vous pouvez utiliser **SubmitChanges** uniquement avec l’objet **RDSServer.DataFactory** *par défaut*. Les objets métier personnalisés ne peuvent pas utiliser cette méthode.
 
 Si la propriété **URL** a été définie, **SubmitChanges** envoie les modifications à l'emplacement indiqué par l'URL.
 

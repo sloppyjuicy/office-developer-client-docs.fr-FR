@@ -7,12 +7,12 @@ ms:contentKeyID: 48543574
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b61687a933ff7a9b52ebd10958aa080aa383723b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3cb364b2501c8523149ab4884aa27ee35a9be8eb
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593214"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67366005"
 ---
 # <a name="writetext-method-ado"></a>WriteText, méthode (ADO)
 
@@ -22,7 +22,7 @@ ms.locfileid: "59593214"
 
 ## <a name="syntax"></a>Syntaxe
 
-*Stream*. WriteText *Data*, *Options*
+*Flux*. WriteText *Data*, *Options*
 
 ## <a name="parameters"></a>Paramètres
 
@@ -37,7 +37,7 @@ Les chaînes spécifiées sont écrites dans l'objet **Stream** sans espace ou c
 
 La propriété [Position](position-property-ado.md) actuelle est définie sur le caractère suivant les données écrites. La méthode **WriteText** ne tronque pas le reste des données d'un flux. Si vous souhaitez tronquer ces caractères, appelez [SetEOS](seteos-method-ado.md).
 
-Si vous écrivez après la position [EOS](eos-property-ado.md) actuelle, la valeur de la propriété [Size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) de l'objet **Stream** augmente pour contenir les nouveaux caractères éventuels et **EOS** est déplacé au nouveau dernier octet de l'objet **Stream**.
+Si vous écrivez après la position [EOS](eos-property-ado.md) actuelle, la valeur de la propriété [Size](/office/vba/access/concepts/miscellaneous/size-property-ado-stream) de l'objet **Stream** augmente pour contenir les nouveaux caractères éventuels et **EOS** est déplacé au nouveau dernier octet de l'objet **Stream**.
 
 > [!NOTE]
 > La méthode **WriteText** est utilisée avec des flux de texte ([Type](type-property-ado-stream.md) a la valeur **adTypeText**). Pour les flux binaires (**Type** a la valeur **adTypeBinary**), utilisez la méthode [Write](write-method-ado.md).

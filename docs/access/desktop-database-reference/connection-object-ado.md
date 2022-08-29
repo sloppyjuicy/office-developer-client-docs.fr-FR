@@ -1,5 +1,5 @@
 ---
-title: Connection, objet (ADO)
+title: Objet Connection (ADO)
 TOCTitle: Connection object (ADO)
 ms:assetid: c16023aa-0321-2513-ee71-255d6ffba03d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249940(v=office.15)
@@ -11,14 +11,14 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5e2f7c534ccd5d319af8be6000008ff8026221f7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 89a2f31c20e81ddf2b4c0f45416afff31aee0aae
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602821"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365676"
 ---
-# <a name="connection-object-ado"></a>Connection, objet (ADO)
+# <a name="connection-object-ado"></a>Objet Connection (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -42,7 +42,7 @@ Les collections, les méthodes et les propriétés d'un objet **Connection** vou
 
   - établir (et ultérieurement rompre) la connexion physique à la source de données avec les méthodes [Open](open-method-ado-connection.md) et [Close](close-method-ado.md) ;
 
-  - exécuter une commande sur la connexion avec la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) et configurer l'exécution avec la propriété [CommandTimeout](commandtimeout-property-ado.md) ;
+  - exécuter une commande sur la connexion avec la méthode [Execute](/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) et configurer l'exécution avec la propriété [CommandTimeout](commandtimeout-property-ado.md) ;
     
     > [!NOTE]
     > [!REMARQUE] Pour exécuter une requête sans utiliser d'objet Command, passez une chaîne de requête à la méthode **Execute** d'un objet **Connection**. Toutefois, un objet [Command](command-object-ado.md) est nécessaire si vous voulez rendre persistant le texte de commande et l'exécuter de nouveau, ou utiliser des paramètres de requête.

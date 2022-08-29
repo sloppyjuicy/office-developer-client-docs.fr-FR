@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 9a8dd2ba92e648e6d508044d941b77b2d435cc4f
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: f95dbeefc8a12139027d586c920dcfe6dfda7def
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63630874"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365816"
 ---
 # <a name="cancel-method-ado"></a>Cancel, méthode (ADO)
 
@@ -26,7 +26,7 @@ Annule l’exécution d’un appel de méthode asynchrone en attente.
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* Annuler
+*objet*. Annuler
 
 ## <a name="remarks"></a>Remarques
 
@@ -49,12 +49,12 @@ S'il s'agit d'un <em>objet</em></p></th>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="command-object-ado.md">Command</a></p></td>
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command">Execute</a></p></td>
+<td><p><a href="command-object-ado.md">Commande</a></p></td>
+<td><p><a href="/office/vba/access/concepts/miscellaneous/execute-method-ado-command">Execute</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="connection-object-ado.md">Connection</a></p></td>
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Execute</a> ou <a href="open-method-ado-connection.md">Open</a></p></td>
+<td><p><a href="/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Execute</a> ou <a href="open-method-ado-connection.md">Open</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="record-object-ado.md">Record</a></p></td>

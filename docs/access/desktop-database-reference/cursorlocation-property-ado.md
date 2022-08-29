@@ -7,12 +7,12 @@ ms:contentKeyID: 48546182
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ff45fa942e7fc7852272969c4727875a6f032e83
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7a02db9f19142bd36af3f6688be5bce52dde82aa
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618335"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365634"
 ---
 # <a name="cursorlocation-property-ado"></a>CursorLocation, propriété (ADO)
 
@@ -31,9 +31,9 @@ Cette propriété permet de choisir l'une des différentes bibliothèques de cur
 
 Le paramètre de cette propriété n'affecte que les connexions établies après que la définition de la propriété. La modification de la propriété **CursorLocation** n'a aucun effet sur les connexions existantes.
 
-Les curseurs renvoyés par la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) héritent de ce paramètre. Les objets **Recordset** héritent automatiquement ce paramètre de leurs connexions associées.
+Les curseurs renvoyés par la méthode [Execute](/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) héritent de ce paramètre. Les objets **Recordset** héritent automatiquement ce paramètre de leurs connexions associées.
 
 Cette propriété est en lecture/écriture dans un objet [Connection](connection-object-ado.md) ou un objet [Recordset](recordset-object-ado.md) fermé, et en lecture seule dans un objet **Recordset** ouvert.
 
-**Utilisation du service de données à distance** Lorsqu’elle est utilisée sur un objet **Recordset** ou **Connection** côté client, la propriété **CursorLocation** ne peut être définie que **sur adUseClient**.
+**Utilisation du service de données distante** Lorsqu’elle est utilisée sur un **objet Recordset** ou **Connection** côté client, la propriété **CursorLocation** ne peut être définie que sur **adUseClient**.
 

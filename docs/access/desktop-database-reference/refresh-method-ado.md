@@ -7,12 +7,12 @@ ms:contentKeyID: 48548631
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 06c2fb95bbc44f089af6374512097f542f16b4f9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: df50cd4209a02421cc7dc83b4109344a78d238da
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564959"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365417"
 ---
 # <a name="refresh-method-ado"></a>Refresh, méthode (ADO)
 
@@ -22,7 +22,7 @@ Met à jour les objets d’une collection pour qu’ils reflètent les objets di
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* Actualiser
+*collection*. Actualiser
 
 ## <a name="remarks"></a>Remarques
 
@@ -37,7 +37,7 @@ Affectez un objet [Connection](activeconnection-property-ado.md) valide à la pr
 Si vous accédez à la collection **Parameters** avant d'appeler la méthode **Refresh**, ADO appelle automatiquement cette méthode et remplit la collection.
 
 > [!NOTE]
-> [!REMARQUE] Si vous utilisez la méthode **Refresh** pour obtenir des paramètres du fournisseur et que cette méthode retourne un ou plusieurs objets [Parameter](parameter-object-ado.md) qui possèdent un type de données de longueur variable, ADO peut allouer de la mémoire à ces paramètres en fonction de leur taille maximale potentielle, ce qui entraîne une erreur lors de l'exécution. Pour éviter ces erreurs, vous devez définir explicitement la propriété [Size](size-property-ado.md) de ces paramètres avant d'appeler la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command).
+> [!REMARQUE] Si vous utilisez la méthode **Refresh** pour obtenir des paramètres du fournisseur et que cette méthode retourne un ou plusieurs objets [Parameter](parameter-object-ado.md) qui possèdent un type de données de longueur variable, ADO peut allouer de la mémoire à ces paramètres en fonction de leur taille maximale potentielle, ce qui entraîne une erreur lors de l'exécution. Pour éviter ces erreurs, vous devez définir explicitement la propriété [Size](size-property-ado.md) de ces paramètres avant d'appeler la méthode [Execute](/office/vba/access/concepts/miscellaneous/execute-method-ado-command).
 
 ### <a name="fields"></a>Champs
 

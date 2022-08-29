@@ -7,12 +7,12 @@ ms:contentKeyID: 48548673
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: f2dce29c5c5368428e977b9ac3ac398aa0541555
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: ab6e02da05ee47f6e296f7a300b82ed6406029ba
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63629810"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365830"
 ---
 # <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a>Fournisseur d’accès à distance Microsoft OLE DB (fournisseur de services ADO)
 
@@ -40,7 +40,7 @@ Lorsque ce fournisseur de services est appelé, les mots clés supplémentaires 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Keyword</p></th>
+<th><p>Mot clé</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -114,16 +114,14 @@ La valeur par défaut pour cette chaîne est vt_empty.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Handler</strong></p></td>
-<td><p>Indique le nom d’un programme (ou d’un handler) de personnalisation côté serveur qui étend les fonctionnalités de <a href="datafactory-object-rdsserver.md">RDSServer.DataFactory</a> et tous les paramètres utilisés par le handler<em>,</em> séparés par des virgules (&quot;,&quot;). Valeur <strong>String</strong>.</p></td>
+<td><p>Indique le nom d’un programme de personnalisation côté serveur (ou gestionnaire) qui étend les fonctionnalités de <a href="datafactory-object-rdsserver.md">RDSServer.DataFactory</a> et tous les paramètres utilisés par le gestionnaire<em>,</em> tous séparés par des virgules (&quot;,&quot;). Valeur <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Internet Timeout</strong></p></td>
-<td><p>Indique le délai d'attente maximum en millisecondes pour qu'une requête effectue un aller-retour au serveur.
-
-(La valeur par défaut est de 5 minutes).</p></td>
+<td><p>Indique le délai d'attente maximum en millisecondes pour qu'une requête effectue un aller-retour au serveur. (La valeur par défaut est de 5 minutes).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Fournisseur distant</strong></p></td>
+<td><p><strong>Remote Provider</strong></p></td>
 <td><p>Indique le nom du fournisseur de données à utiliser sur le serveur distant.</p></td>
 </tr>
 <tr class="odd">
@@ -158,7 +156,7 @@ cn.Properties("Internet Timeout") = 5000
 
 Dans ADO 2.0, le fournisseur OLE DB d’accès à distance ne pouvait être spécifié que dans le paramètre *ActiveConnection* de la méthode **Open** de l’objet [Recordset](recordset-object-ado.md). À partir d’ADO 2.1, le fournisseur peut également être spécifié dans le paramètre *ConnectionString* de la méthode **Open** de l’objet [Connection](connection-object-ado.md).
 
-L’équivalent de la propriété [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) de l’objet **RDS.DataControl** n’est pas disponible. On utilise à la place l’argument *Source* de la méthode **Open** de l’objet [Recordset](recordset-object-ado.md).
+L’équivalent de la propriété [SQL](/office/vba/access/concepts/miscellaneous/sql-property-ado) de l’objet **RDS.DataControl** n’est pas disponible. On utilise à la place l’argument *Source* de la méthode **Open** de l’objet [Recordset](recordset-object-ado.md).
 
 Le fait de spécifier « ...;Remote Provider=MS Remote;... » génère un scénario à quatre niveaux. Les scénarios de plus de trois niveaux n'ont pas été testés et ne sont en principe pas nécessaires.
 

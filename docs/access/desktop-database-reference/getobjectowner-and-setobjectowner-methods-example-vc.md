@@ -7,19 +7,19 @@ ms:contentKeyID: 48547096
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 62fe5f302381e5e1b1457766b449a220fc72d9f4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f15a479a317172fe716f082c6863232a409a6810
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59594250"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365683"
 ---
 # <a name="getobjectowner-and-setobjectowner-methods-example-vc"></a>GetObjectOwner et SetObjectOwner, méthodes – Exemples (VC++)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple illustre les méthodes [GetObjectOwner](getobjectowner-method-adox.md) et [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox). Ce code suppose l’existence du groupe Accounting (voir groups [and Users Append, ChangePassword methods example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md) pour voir comment ajouter ce groupe au système). Le propriétaire de la table Categories est Accounting.
+Cet exemple illustre les méthodes [GetObjectOwner](getobjectowner-method-adox.md) et [SetObjectOwner](/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox). Ce code suppose l’existence de la comptabilité de groupe (voir [l’ajout de groupes et d’utilisateurs, exemple de méthodes ChangePassword (VC++)](groups-and-users-append-changepassword-methods-example-vc.md) pour voir comment ajouter ce groupe au système). Le propriétaire de la table Categories est Accounting.
 
 ```cpp 
  

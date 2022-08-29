@@ -1,5 +1,5 @@
 ---
-title: ActiveX data objects (ADO)
+title: Propriétés ADO (ActiveX Data Objects)
 TOCTitle: ADO properties
 ms:assetid: 04f08f22-6327-c603-229e-d06a9f1c0d83
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
@@ -7,12 +7,12 @@ ms:contentKeyID: 48543020
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 1f3c6982c7cc4a30ccb53272c6ed780e59b1cf35
-ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
+ms.openlocfilehash: dbf9348014bd1ce536c9d6e647e03ddb235b3e90
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63558382"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365463"
 ---
 # <a name="ado-properties"></a>Propriétés ADO
 
@@ -106,7 +106,7 @@ ms.locfileid: "63558382"
 <td><p>Indique le type de curseur utilisé dans un objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="datamember-property-ado.md">DataMember</a></p></td>
+<td><p><a href="datamember-property-ado.md">Datamember</a></p></td>
 <td><p>Indique le nom du membre de données qui sera récupéré de l'objet référencé par la propriété <strong>DataSource</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -134,11 +134,11 @@ ms.locfileid: "63558382"
 <td><p>Indique l'état de modification de l'enregistrement actif.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="eos-property-ado.md">EOS</a></p></td>
+<td><p><a href="eos-property-ado.md">Eos</a></p></td>
 <td><p>Indique si la position actuelle est à la fin du flux.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtre</a></p></td>
 <td><p>Indique un filtre pour les données d'un objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -150,11 +150,11 @@ ms.locfileid: "63558382"
 <td><p>Indique le nom de l'index actuellement appliqué à un objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="isolationlevel-property-ado.md">IsolationLevel</a></p></td>
+<td><p><a href="isolationlevel-property-ado.md">Isolationlevel</a></p></td>
 <td><p>Indique le niveau d'isolation d'un objet <strong>Connection</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">Élément</a></p></td>
 <td><p>Spécifie un membre spécifique d'une collection, référencé par son nom ou un nombre ordinal.</p></td>
 </tr>
 <tr class="odd">
@@ -250,11 +250,11 @@ ms.locfileid: "63558382"
 <td><p>Obtient ou définit un objet <strong>Rowset</strong> OLE DB à partir de/sur un objet <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="size-property-ado.md">Taille</a></p></td>
+<td><p><a href="size-property-ado.md">Size</a></p></td>
 <td><p>Indique la taille maximale en octets ou en caractères d'un objet <strong>Parameter</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Size (objet Stream ADO)</a></p></td>
+<td><p><a href="/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Size (objet Stream ADO)</a></p></td>
 <td><p>Indique la taille totale du flux en nombre d'octets.</p></td>
 </tr>
 <tr class="even">
@@ -274,7 +274,7 @@ ms.locfileid: "63558382"
 <td><p>Indique la source des données dans un objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="sqlstate-property-ado.md">SQLState</a></p></td>
+<td><p><a href="sqlstate-property-ado.md">Sqlstate</a></p></td>
 <td><p>Indique l'état SQL d'un objet <strong>Error</strong> donné.</p></td>
 </tr>
 <tr class="odd">

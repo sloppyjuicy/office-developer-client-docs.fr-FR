@@ -1,5 +1,5 @@
 ---
-title: Connection properties, methods, and events (ADO)
+title: Propriétés, méthodes et événements de connexion (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: e78329a4-0b90-9ae5-f3d7-e56815a396fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250174(v=office.15)
@@ -7,20 +7,20 @@ ms:contentKeyID: 48548407
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 3e59594380dfdecc6947838503edc172c212e7c4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: df553304750575c8e96cc2bcc4472bf2d0715fc0
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565722"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365718"
 ---
-# <a name="connection-properties-methods-and-events-ado"></a>Connection properties, methods, and events (ADO)
+# <a name="connection-properties-methods-and-events-ado"></a>Propriétés, méthodes et événements de connexion (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Propriétés/Collections
 
-- [Attributes, propriété](attributes-property-ado.md)
+- [Propriété Attributes](attributes-property-ado.md)
 - [CommandTimeout, propriété](commandtimeout-property-ado.md)
 - [ConnectionString, propriété](connectionstring-property-ado.md)
 - [ConnectionTimeout, propriété](connectiontimeout-property-ado.md)
@@ -38,9 +38,9 @@ ms.locfileid: "59565722"
 ## <a name="methods"></a>Méthodes
 
 - [BeginTrans, CommitTrans et RollbackTrans, méthodes](begintrans-committrans-and-rollbacktrans-methods-ado.md)
-- [Cancel, méthode](cancel-method-ado.md)
-- [Close, méthode](close-method-ado.md)
-- [Execute, méthode (ADO Connection)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
+- [Annuler la méthode](cancel-method-ado.md)
+- [Clôture de la méthode](close-method-ado.md)
+- [Méthode Execute (connexion ADO)](/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
 - [Open, méthode (connexion ADO)](open-method-ado-connection.md)
 - [OpenSchema, méthode](openschema-method-ado.md)
 

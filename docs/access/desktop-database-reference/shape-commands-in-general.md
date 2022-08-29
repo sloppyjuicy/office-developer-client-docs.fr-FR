@@ -7,12 +7,12 @@ ms:contentKeyID: 48547039
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5aa18c134d1aeee677c0bff444fdef576bc29f68
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: edca39a22ed40d06d4906f219c289cbffc62872d
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63632657"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365396"
 ---
 # <a name="shape-commands-in-general"></a>Commandes de mise en forme en général
 
@@ -39,11 +39,11 @@ Un objet **Recordset** mis en forme peut se composer des types de colonnes suiva
 <td><p>Champs d’un objet <strong>Recordset</strong> retournés par une commande de requête à un fournisseur de données, une table ou un objet <strong>Recordset</strong> préalablement mis en forme.</p></td>
 </tr>
 <tr class="even">
-<td><p>chapter</p></td>
+<td><p>Chapitre</p></td>
 <td><p>Référence à un autre objet <strong>Recordset</strong>, appelée <em>chapitre</em>. Les colonnes de chapitre permettent de définir une relation <em>parent-enfant</em> dans laquelle le <em>parent</em> est l'objet <strong>Recordset</strong> contenant la colonne de chapitre et l'<em>enfant</em> est l'objet <strong>Recordset</strong> représenté par le chapitre.</p></td>
 </tr>
 <tr class="odd">
-<td><p>aggregate</p></td>
+<td><p>Agrégat</p></td>
 <td><p>La valeur de la colonne est obtenue par l’exécution d’une <em>fonction d’agrégation</em> sur toutes les lignes ou une colonne de toutes les lignes d’un objet <strong>Recordset</strong>.(Consultez la section relative aux fonctions d’agrégation dans la rubrique <a href="aggregate-functions-the-calc-function-and-the-new-keyword.md">Fonctions d’agrégation, fonction CALC et mot clé NEW</a>.)</p></td>
 </tr>
 <tr class="even">
@@ -62,7 +62,7 @@ Une commande SHAPE peut contenir une clause qui spécifie une commande de requê
 
 Vous pouvez utiliser une clause JOIN SQL pour établir une relation entre deux tables ; cependant, sachez qu'un objet **Recordset** hiérarchique peut représenter les informations de manière plus efficace. Chaque ligne d'un objet **Recordset** créé par une clause JOIN reproduit les informations de l'une des tables de façon redondante. En revanche, un objet **Recordset** hiérarchique ne comporte qu'un objet **Recordset** parent pour chacun des différents objets **Recordset** enfant.
 
-Les commandes SHAPE peuvent être émises par des objets **Recordset** ou en définissant la propriété [CommandText](commandtext-property-ado.md) de l'objet [Command](command-object-ado.md), puis en appelant la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command).
+Les commandes SHAPE peuvent être émises par des objets **Recordset** ou en définissant la propriété [CommandText](commandtext-property-ado.md) de l'objet [Command](command-object-ado.md), puis en appelant la méthode [Execute](/office/vba/access/concepts/miscellaneous/execute-method-ado-command).
 
 Elles peuvent être imbriquées. Cela signifie que *parent-command* ou *child-command* peut se trouver dans une autre commande SHAPE.
 
@@ -72,7 +72,7 @@ Pour plus d'informations sur la navigation au sein d'un objet **Recordset** hié
 
 Pour obtenir des informations détaillées sur la syntaxe des commandes SHAPE, consultez [Grammaire de mise en forme formelle](formal-shape-grammar.md).
 
-## <a name="see-also"></a>Consultez aussi
+## <a name="see-also"></a>Voir aussi
 
 - [Issuing Commands to the Underlying Data Provider](issuing-commands-to-the-underlying-data-provider.md)
 

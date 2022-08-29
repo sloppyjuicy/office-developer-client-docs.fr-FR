@@ -8,12 +8,12 @@ ms:contentKeyID: 48548817
 ms.date: 10/16/2018
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 4bda23c90c288f8d40e81dcd83a0da745a3b7253
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
-ms.translationtype: HT
+ms.openlocfilehash: 54889276f9f51652c2c54cda82274e27191af28b
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63632118"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365585"
 ---
 # <a name="hide-the-ribbon-when-access-starts"></a>Masquer le ruban au démarrage d’Access
 
@@ -78,6 +78,6 @@ Pour appliquer un ruban personnalisé disponible au démarrage de l'application,
 5.  Fermez er redémarrez l'application.
 
 > [!NOTE]
-> Pour plus d'informations sur l'interface du ruban dans d'autres applications Office, consultez l'article [Vue d'ensemble du ruban Office Fluent](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
+> Pour plus d'informations sur l'interface du ruban dans d'autres applications Office, consultez l'article [Vue d'ensemble du ruban Office Fluent](/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
 
 

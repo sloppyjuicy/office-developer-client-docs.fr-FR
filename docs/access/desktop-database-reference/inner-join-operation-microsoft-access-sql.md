@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 2a463ea30f0f58fd49b192613544ebf19eac2a13
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
-ms.translationtype: HT
+ms.openlocfilehash: 6734e6440e5a06a9bdb7e0294cad9fbe85e1986c
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63634204"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365823"
 ---
 # <a name="inner-join-operation-microsoft-access-sql"></a>INNER JOIN, opération (Microsoft Access SQL)
 
@@ -64,7 +64,7 @@ L'opération INNER JOIN est composée des arguments suivants :
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser une opération INNER JOIN dans n'importe quelle clause [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql). Il s'agit du type de jointure le plus courant. Les jointures internes combinent les enregistrements de deux tables lorsque des valeurs correspondent dans un champ commun aux deux tables.
+Vous pouvez utiliser une opération INNER JOIN dans n'importe quelle clause [FROM](/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql). Il s'agit du type de jointure le plus courant. Les jointures internes combinent les enregistrements de deux tables lorsque des valeurs correspondent dans un champ commun aux deux tables.
 
 Vous pouvez utiliser INNER JOIN avec les tables Departments et Employees pour sélectionner tous les employés dans chaque service. En revanche, pour sélectionner tous les services (même si aucun employé n'est affecté à certains services) ou tous les employés (même si certains d'entre eux ne sont pas affectés à un service), vous pouvez utiliser une opération [LEFT JOIN ou RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) afin de créer une jointure externe.
 

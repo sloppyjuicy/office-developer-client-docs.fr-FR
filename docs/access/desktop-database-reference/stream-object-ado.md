@@ -7,12 +7,12 @@ ms:contentKeyID: 48547945
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6357a0f8ce0544294c54345bd5200b10b3fc95c3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 062ae856abe7b1227f29b50b2e6771e681af4e26
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580754"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365697"
 ---
 # <a name="stream-object-ado"></a>Objet Stream (ADO)
 
@@ -23,7 +23,7 @@ Représente un flux de données binaires ou de texte.
 
 ## <a name="remarks"></a>Remarques
 
-Dans les hiérarchies arborescences telles qu’un [](record-object-ado.md) système de fichiers ou un système de messagerie, un enregistrement peut être associé à un flux binaire par défaut de bits qui contient le contenu du fichier ou de l’e-mail. Un objet **Stream** peut être utilisé pour manipuler des champs ou des enregistrements contenant ces flux de données. Un objet **Stream** peut être obtenu de différentes façons :
+Dans les hiérarchies structurées par arborescence, telles qu’un système de fichiers ou un système de messagerie, un [enregistrement](record-object-ado.md) peut avoir un flux binaire par défaut de bits qui contient le contenu du fichier ou de l’e-mail. Un objet **Stream** peut être utilisé pour manipuler des champs ou des enregistrements contenant ces flux de données. Un objet **Stream** peut être obtenu de différentes façons :
 
   - À partir d'une URL pointant sur un objet (en général, un fichier) contenant des données binaires ou texte. Cet objet peut être un simple document, un objet **Record** représentant un document structuré ou un dossier.
 
@@ -55,7 +55,7 @@ Les méthodes et les propriétés d'un objet **Stream** vous permettent d'effect
 
   - arrêter une opération **Stream** asynchrone à l'aide de la méthode [Cancel](cancel-method-ado.md) ;
 
-  - déterminer le nombre d'octets d'un **Stream** à l'aide de la propriété [Size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) ;
+  - déterminer le nombre d'octets d'un **Stream** à l'aide de la propriété [Size](/office/vba/access/concepts/miscellaneous/size-property-ado-stream) ;
 
   - contrôler la position actuelle au sein d'un **Stream** à l'aide de la propriété [Position](position-property-ado.md) ;
 
@@ -66,6 +66,6 @@ Les méthodes et les propriétés d'un objet **Stream** vous permettent d'effect
   - spécifier le mode d'accès au **Stream** à l'aide de la propriété [Mode](mode-property-ado.md).
 
 > [!NOTE]
-> [!REMARQUE] Les URL qui utilisent le modèle http appellent automatiquement [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, voir [URL absolues et relatives.](absolute-and-relative-urls.md)
+> [!REMARQUE] Les URL qui utilisent le modèle http appellent automatiquement [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, consultez [LES URL absolues et relatives](absolute-and-relative-urls.md).
 
 

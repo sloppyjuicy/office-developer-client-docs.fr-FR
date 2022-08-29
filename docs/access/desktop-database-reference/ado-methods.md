@@ -1,5 +1,5 @@
 ---
-title: ActiveX data objects (ADO)
+title: Méthodes ADO (ActiveX Data Objects)
 TOCTitle: ADO methods
 ms:assetid: 1fd965a0-711c-e199-822c-b9575c5034bd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
@@ -7,12 +7,12 @@ ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: e028b33a75846e083979daa658ec859ff30a3163
-ms.sourcegitcommit: 2d91bac3a93af3f1f73098f484000ba2a6377cf6
+ms.openlocfilehash: 22392cbc98d0be3fb45b11455a5512b9918dc7dd
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63558368"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365473"
 ---
 # <a name="ado-methods"></a>Méthodes ADO
 
@@ -43,7 +43,7 @@ ms.locfileid: "63558368"
 </tr>
 <tr class="even">
 <td><p><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans, CommitTrans et RollbackTrans</a></p></td>
-<td><p>Gère le traitement des transactions dans un objet <strong>Connection</strong> comme suit :<br/><br/><strong>BeginTrans</strong>: lance une nouvelle transaction.<br/><strong>CommitTrans</strong>: enregistre les modifications apportées et termine la transaction active. Lance aussi parfois une nouvelle transaction.<br/><strong>RollbackTrans</strong> : annule toutes les modifications et met fin à la transaction en cours. Cette méthode peut également lancer une nouvelle transaction.</p></td>
+<td><p>Gère le traitement des transactions dans un objet <strong>Connection</strong> comme suit :<br/><br/><strong>BeginTrans</strong>: lance une nouvelle transaction.<br/><strong>CommitTrans</strong>: enregistre les modifications apportées et termine la transaction active. Lance aussi parfois une nouvelle transaction.<br/><strong>RollbackTrans</strong> : annule toutes les modifications et met fin à la transaction actuelle. Cette méthode peut également lancer une nouvelle transaction.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cancel-method-ado.md">Cancel</a></p></td>
@@ -63,7 +63,7 @@ ms.locfileid: "63558368"
 </tr>
 <tr class="odd">
 <td><p><a href="clone-method-ado.md">Clone</a></p></td>
-<td><p>Crée une copie de l'objet <strong>Recordset</strong> à partir d'un objet <strong>Recordset</strong> existant. Spécifie éventuellement que le clone doit être en lecture seule.</p></td>
+<td><p>Crée une copie de l'objet <strong>Recordset</strong> à partir d'un objet <strong>Recordset</strong> existant. Le cas échéant, spécifie que le clone doit être en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="close-method-ado.md">Close</a></p></td>
@@ -102,19 +102,19 @@ ms.locfileid: "63558368"
 <td><p>Supprime un fichier ou un répertoire et tous ses sous-répertoires.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command">Execute (objet Command ADO)</a></p></td>
+<td><p><a href="/office/vba/access/concepts/miscellaneous/execute-method-ado-command">Execute (objet Command ADO)</a></p></td>
 <td><p>Exécute la requête, l'instruction SQL ou la procédure stockée spécifiée dans la propriété <strong>CommandText </strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Execute (objet Connection ADO)</a></p></td>
+<td><p><a href=/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Execute (objet Connection ADO)</a></p></td>
 <td><p>Exécute la requête, l'instruction SQL, la procédure stockée ou le texte propre au fournisseur spécifiés.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="find-method-ado.md">Find</a></p></td>
+<td><p><a href="find-method-ado.md">Chercher</a></p></td>
 <td><p>Recherche, dans un objet <strong>Recordset </strong>, la ligne qui répond aux critères spécifiés.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="flush-method-ado.md">Flush</a></p></td>
+<td><p><a href="flush-method-ado.md">Rincer</a></p></td>
 <td><p>Force le transfert du contenu de l'objet <strong>Stream</strong> restant dans la mémoire tampon d'ADO dans l'objet sous-jacent auquel l'objet <strong>Stream</strong> est associé.</p></td>
 </tr>
 <tr class="odd">
@@ -130,7 +130,7 @@ ms.locfileid: "63558368"
 <td><p>Extrait plusieurs enregistrements d'un objet <strong>Recordset</strong> dans un tableau.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="getstring-method-ado.md">GetString</a></p></td>
+<td><p><a href="getstring-method-ado.md">Getstring</a></p></td>
 <td><p>Retourne l'objet <strong>Recordset</strong> sous forme de chaîne.</p></td>
 </tr>
 <tr class="odd">
@@ -138,7 +138,7 @@ ms.locfileid: "63558368"
 <td><p>Charge le contenu d'un fichier existant dans un objet <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="move-method-ado.md">Move</a></p></td>
+<td><p><a href="move-method-ado.md">Déplacer</a></p></td>
 <td><p>Change la position de l'enregistrement actif dans un objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -178,7 +178,7 @@ ms.locfileid: "63558368"
 <td><p>Lit un nombre spécifique d'octets dans un objet <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="readtext-method-ado.md">ReadText</a></p></td>
+<td><p><a href="readtext-method-ado.md">Readtext</a></p></td>
 <td><p>Lit un nombre spécifique de caractères dans un objet <strong>Stream</strong> textuel.</p></td>
 </tr>
 <tr class="odd">
@@ -186,7 +186,7 @@ ms.locfileid: "63558368"
 <td><p>Met à jour les objets d'une collection pour qu'ils reflètent les objets disponibles ou spécifiques au fournisseur.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="requery-method-ado.md">Actualiser</a></p></td>
+<td><p><a href="requery-method-ado.md">Requery</a></p></td>
 <td><p>Met à jour les données d'un objet <strong>Recordset</strong> en réexécutant la requête sur laquelle l'objet est basé.</p></td>
 </tr>
 <tr class="odd">
@@ -218,11 +218,11 @@ ms.locfileid: "63558368"
 <td><p>Fournit les statistiques sur un flux ouvert.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="supports-method-ado.md">Prend en charge</a></p></td>
+<td><p><a href="supports-method-ado.md">Soutient</a></p></td>
 <td><p>Détermine si un objet <strong>Recordset</strong> spécifique prend en charge un type particulier de fonctionnalité.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Mise à jour</a></p></td>
+<td><p><a href="update-method-ado.md">Mettre à jour</a></p></td>
 <td><p>Enregistre les modifications que vous avez apportées à la ligne active d'un objet <strong>Recordset</strong> ou à la collection <strong>Fields</strong> d'un objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -234,7 +234,7 @@ ms.locfileid: "63558368"
 <td><p>Écrit des données binaires dans un objet <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="writetext-method-ado.md">WriteText</a></p></td>
+<td><p><a href="writetext-method-ado.md">Writetext</a></p></td>
 <td><p>Écrit une chaîne de texte spécifiée dans un objet <strong>Stream</strong>.</p></td>
 </tr>
 </tbody>

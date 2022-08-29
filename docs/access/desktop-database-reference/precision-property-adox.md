@@ -7,12 +7,12 @@ ms:contentKeyID: 48545117
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: fe859810252376024ebaa327a9203309d4bb8cd7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3f13f4594c126173c48e03678d54bcd02e516ca0
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59622115"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365536"
 ---
 # <a name="precision-property-adox"></a>Precision, propriété (ADOX)
 
@@ -23,7 +23,7 @@ Indique la précision maximale de valeurs de données de la colonne.
 
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
 
-Définit et renvoie une valeur de type **Long** qui correspond à la précision maximale des valeurs de données de la colonne lorsque la propriété [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) est de type numérique. La propriété **Precision** est ignorée pour tous les autres types de données.
+Définit et renvoie une valeur de type **Long** qui correspond à la précision maximale des valeurs de données de la colonne lorsque la propriété [Type](/office/vba/access/concepts/miscellaneous/type-property-columnadox) est de type numérique. La propriété **Precision** est ignorée pour tous les autres types de données.
 
 ## <a name="remarks"></a>Remarques
 

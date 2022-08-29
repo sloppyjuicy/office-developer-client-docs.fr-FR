@@ -1,5 +1,5 @@
 ---
-title: Stream properties, methods, and events (ADO)
+title: Propriétés, méthodes et événements de flux (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 12542605-9520-f0a9-09e4-9eac6b37c35e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
@@ -7,14 +7,14 @@ ms:contentKeyID: 48543339
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6843102e55b924aece5b748ede9c8272b2bfcf1b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 58aef5c1dd8dafc2b9807767e3bf51b15d04ccaa
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611440"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365725"
 ---
-# <a name="stream-properties-methods-and-events-ado"></a>Stream properties, methods, and events (ADO)
+# <a name="stream-properties-methods-and-events-ado"></a>Propriétés, méthodes et événements de flux (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -25,7 +25,7 @@ ms.locfileid: "59611440"
 - [LineSeparator, propriété](lineseparator-property-ado.md)
 - [Mode, propriété](mode-property-ado.md)
 - [Position, propriété](position-property-ado.md)
-- [Size, propriété (flux ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
+- [Size, propriété (flux ADO)](/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
 - [State, propriété](state-property-ado.md)
 - [Type, propriété (objet Stream ADO)](type-property-ado-stream.md)
 
@@ -33,7 +33,7 @@ ms.locfileid: "59611440"
 ## <a name="methods"></a>Méthodes
 
 - [Cancel, méthode](cancel-method-ado.md)
-- [Close, méthode](close-method-ado.md)
+- [Clôture de la méthode](close-method-ado.md)
 - [CopyTo, méthode](copyto-method-ado.md)
 - [Flush, méthode](flush-method-ado.md)
 - [LoadFromFile, méthode](loadfromfile-method-ado.md)

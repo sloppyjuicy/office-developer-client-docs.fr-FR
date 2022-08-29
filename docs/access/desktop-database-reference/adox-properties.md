@@ -1,5 +1,5 @@
 ---
-title: Propriétés ADOX (référence de base de données de bureau Access)
+title: Propriétés ADOX (informations de référence sur la base de données de bureau Access)
 TOCTitle: ADOX properties
 ms:assetid: 7559af18-83a4-dc7f-015f-6a7c55c520d8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
@@ -7,12 +7,12 @@ ms:contentKeyID: 48545675
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b502c36056d72b2c277f9269d9e7d734ef4f8b4f
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: b6011f1147564614007659b0f5cb270a9853aa9b
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63629348"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365550"
 ---
 # <a name="adox-properties"></a>Propriétés ADOX
 
@@ -44,7 +44,7 @@ ms.locfileid: "63629348"
 <td><p>Indique s'il s'agit d'un index cluster.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="command-property-adox.md">Command</a></p></td>
+<td><p><a href="command-property-adox.md">Commande</a></p></td>
 <td><p>Spécifie un objet <strong>Command</strong> ADO qui peut servir à créer ou à exécuter la procédure.</p></td>
 </tr>
 <tr class="odd">
@@ -72,7 +72,7 @@ ms.locfileid: "63629348"
 <td><p>Indique si des enregistrements comprenant des valeurs Null dans leurs champs d'index ont des entrées d'index.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">Élément</a></p></td>
 <td><p>Indique un membre spécifique d'une collection, par son nom ou nombre ordinal.</p></td>
 </tr>
 <tr class="even">
@@ -108,15 +108,15 @@ ms.locfileid: "63629348"
 <td><p>Spécifie la séquence de tri pour la colonne (colonnes d'index uniquement).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox">Type (Column)</a></p></td>
+<td><p><a href="/office/vba/access/concepts/miscellaneous/type-property-columnadox">Type (Column)</a></p></td>
 <td><p>Indique le type de données d'une colonne.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox">Type (Key)</a></p></td>
+<td><p><a href="/office/vba/access/concepts/miscellaneous/type-property-keyadox">Type (Key)</a></p></td>
 <td><p>Indique le type de données de la clé.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox">Type (Table)</a></p></td>
+<td><p><a href="/office/vba/access/concepts/miscellaneous/type-property-tableadox">Type (Table)</a></p></td>
 <td><p>Indique le type d'une table.</p></td>
 </tr>
 <tr class="odd">

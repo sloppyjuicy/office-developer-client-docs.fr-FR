@@ -1,5 +1,5 @@
 ---
-title: Méthodes ADOX (référence de base de données de bureau Access)
+title: Méthodes ADOX (informations de référence sur la base de données de bureau Access)
 TOCTitle: ADOX methods
 ms:assetid: 1a2eed52-2b09-e528-2cdc-134df3c9441f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248947(v=office.15)
@@ -7,12 +7,12 @@ ms:contentKeyID: 48543516
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 43abc86b1b04ccd98335d008cfce2cd7d18aec8d
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 3f212576a558ac06ff8f469d94e92c424425848f
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63629355"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365557"
 ---
 # <a name="adox-methods"></a>Méthodes ADOX
 
@@ -68,7 +68,7 @@ ms.locfileid: "63629355"
 <td><p>Change le mot de passe d'un compte d'utilisateur.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="create-method-adox.md">Créer</a></p></td>
+<td><p><a href="create-method-adox.md">Create</a></p></td>
 <td><p>Crée un catalogue.</p></td>
 </tr>
 <tr class="odd">
@@ -84,7 +84,7 @@ ms.locfileid: "63629355"
 <td><p>Retourne les autorisations d'un groupe ou d'un utilisateur sur un objet.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox">SetObjectOwner</a></p></td>
+<td><p><a href="/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox">SetObjectOwner</a></p></td>
 <td><p>Spécifie le propriétaire d'un objet dans un catalogue.</p></td>
 </tr>
 <tr class="odd">

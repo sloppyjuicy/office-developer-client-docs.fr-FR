@@ -7,18 +7,18 @@ ms:contentKeyID: 48548666
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 97683167d90104d98076f642c5407b6b86a01863
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bffeee99ec1ef4fd32a7484ebd842d6e548697ca
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617957"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365500"
 ---
 # <a name="more-about-recordset-persistence"></a>En savoir plus sur la persistance du recordset
 
 **S’applique à** : Access 2013, Office 2013
 
-L'objet Recordset ADO prend en charge le stockage du contenu d'un objet **Recordset** dans un fichier à l'aide de la méthode [Save](save-method-ado.md). Le fichier stocké de façon permanente peut exister sur un lecteur local, un serveur réseau ou sous la la mesure d’une URL sur un site web. Par la suite, le fichier peut être restauré soit avec la méthode **Open** de l'objet [Recordset](open-method-ado-recordset.md), soit avec la méthode [Execute](connection-object-ado.md) de l'objet [Connection](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection).
+L'objet Recordset ADO prend en charge le stockage du contenu d'un objet **Recordset** dans un fichier à l'aide de la méthode [Save](save-method-ado.md). Le fichier stocké de manière persistante peut exister sur un lecteur local, un serveur réseau ou une URL sur un site web. Par la suite, le fichier peut être restauré soit avec la méthode **Open** de l'objet [Recordset](open-method-ado-recordset.md), soit avec la méthode [Execute](connection-object-ado.md) de l'objet [Connection](/office/vba/access/concepts/miscellaneous/execute-method-ado-connection).
 
 En outre, la méthode [GetString](getstring-method-ado.md) convertit un objet **Recordset** dans un format où les lignes et les colonnes sont délimitées par des caractères que vous spécifiez.
 

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: f5c1e8afd138933967155586762d40c0a9f91a80
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
-ms.translationtype: HT
+ms.openlocfilehash: 9812ff68fe755f098729e910aa0b9d17d99bf9c9
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63630608"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365886"
 ---
 # <a name="insert-into-statement-microsoft-access-sql"></a>Instruction INSERT INTO (Microsoft Access SQL)
 
@@ -58,7 +58,7 @@ L'instruction INSERT INTO comprend les éléments suivants :
 </tr>
 <tr class="odd">
 <td><p><em>basededonnéesexterne</em></p></td>
-<td><p>Chemin d’accès à une base de données externe. Pour une description du chemin d’accès, voir la clause <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.</p></td>
+<td><p>Chemin d’accès à une base de données externe. Pour une description du chemin d’accès, voir la clause <a href="/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>

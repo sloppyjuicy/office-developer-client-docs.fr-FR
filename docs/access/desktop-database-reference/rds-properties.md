@@ -1,5 +1,5 @@
 ---
-title: Propriétés RDS (référence de base de données de bureau Access)
+title: Propriétés RDS (informations de référence sur la base de données de bureau Access)
 TOCTitle: RDS properties
 ms:assetid: 002989dc-0022-d3a2-ddd2-2230837b3a63
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248775(v=office.15)
@@ -7,12 +7,12 @@ ms:contentKeyID: 48542899
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a2e902fb9282801030cc5b6534a50dd362c1d926
-ms.sourcegitcommit: 241637561d21b7752ec690b5179e72b6703eaced
+ms.openlocfilehash: 7ca5f8eb0f4465c754a4e5986de4426a461195f2
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63627367"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365599"
 ---
 # <a name="rds-properties"></a>Propriétés RDS
 
@@ -42,7 +42,7 @@ ms.locfileid: "63627367"
 <td><p>Indique le type d'extraction asynchrone.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filtercolumn-property-rds.md">FilterColumn</a></p></td>
+<td><p><a href="filtercolumn-property-rds.md">Filtercolumn</a></p></td>
 <td><p>Indique la colonne sur laquelle portent les critères de filtre.</p></td>
 </tr>
 <tr class="odd">
@@ -82,7 +82,7 @@ ms.locfileid: "63627367"
 <td><p>Indique si l'ordre de tri est croissant ou décroissant.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
+<td><p><a href="/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
 <td><p>Indique la chaîne de requête utilisée pour extraire le <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
