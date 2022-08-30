@@ -6,12 +6,12 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 90ce0ea3-ba73-cb57-0fa9-8898bc4ac9de
-ms.openlocfilehash: 6e40e85a4bdfa9ee384c6a37f5982879a55fbfd8
-ms.sourcegitcommit: e2b79cc4469013a4b3705620a93aa70b88e6c996
+ms.openlocfilehash: 30efcc7efa06a32cc01d057962bdd27d9adb8392
+ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65828142"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "67365991"
 ---
 # <a name="installing-the-sample-wrapped-pst-store-provider"></a>Installation de l’exemple de fournisseur de magasin PST encapsulé
 
@@ -23,7 +23,7 @@ Cette rubrique vous guide tout au long des étapes de téléchargement et d’in
   
 ## <a name="install-the-sample-wrapped-pst-store-provider"></a>Installer l’exemple de fournisseur de magasin PST encapsulé
 
-1. Pour télécharger l’exemple de fournisseur de magasin PST encapsulé, consultez [Outlook exemples de code de référence auxiliaire 2007 et programme d’installation redistribuable](https://www.microsoft.com/download/details.aspx?id=24102).
+1. Pour télécharger l’exemple de fournisseur de magasin PST encapsulé, consultez [les exemples de code de référence auxiliaire Outlook 2007 et le programme d’installation redistribuable](/office/client-developer/outlook/auxiliary/welcome-to-the-outlook-auxiliary-reference).
     
 2. Ouvrez le dossier **SampleWrappedPSTStoreProvider** , puis cliquez sur **Extraire tous les fichiers**.
     
@@ -34,9 +34,9 @@ Cette rubrique vous guide tout au long des étapes de téléchargement et d’in
 5. Ouvrez Visual Studio 2005 en tant qu’administrateur.
     
     > [!NOTE]
-    > Si votre ordinateur s’exécute Windows XP, vous devez être connecté en tant qu’administrateur. Si votre ordinateur s’exécute Windows Vista, vous devez être connecté en tant qu’administrateur et cliquer avec le bouton droit sur l’icône Visual Studio 2005, puis cliquer sur **Exécuter en tant qu’administrateur**. 
+    > Si votre ordinateur exécute Windows XP, vous devez être connecté en tant qu’administrateur. Si votre ordinateur exécute Windows Vista, vous devez être connecté en tant qu’administrateur et cliquer avec le bouton droit sur l’icône Visual Studio 2005, puis cliquer sur **Exécuter en tant qu’administrateur**. 
   
-6. Dans Visual Studio 2005, cliquez sur **Fichier**, sélectionnez **Ouvrir**, puis cliquez sur **Project/Solution**.
+6. Dans Visual Studio 2005, cliquez sur **Fichier**, sélectionnez **Ouvrir**, puis cliquez sur **Projet/Solution**.
     
 7. Accédez à l’emplacement où vous avez enregistré l’exemple, cliquez sur **WrapPST**, puis sur **Ouvrir**.
     
