@@ -12,12 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7561112b-ca72-4c49-a8a0-cc1879a4e151
-ms.openlocfilehash: 027ed5de5a4d9a24f4b0641c3337a0c6a31b92e8
-ms.sourcegitcommit: b568a00c3da704273896b6941b65cee91fd1bd22
+ms.openlocfilehash: ec0f1e0bc22bdfdaa67555db381f480ec7937fb7
+ms.sourcegitcommit: 5839b9e3a6f0df249753f889c449a1620187461d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65752630"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67485032"
 ---
 # <a name="pidtagmessageflags-canonical-property"></a>Propriété canonique PidTagMessageFlags
 
@@ -70,6 +70,10 @@ MSGFLAG_ORIGIN_X400
   
 > Le message entrant est arrivé via un lien X.400. Il provient de l’extérieur de l’organisation ou d’une source que la passerelle ne peut pas considérer comme approuvée. Le client doit afficher un message approprié à l’utilisateur. Les fournisseurs de transport définissent cet indicateur ; le client dispose d’un accès en lecture seule. 
     
+MSGFLAG_ORIGIN_EXT_SEND
+
+> Le message provient de l’extérieur de l’organisation. Le client doit afficher un message approprié à l’utilisateur. Les fournisseurs de transport définissent cet indicateur ; le client dispose d’un accès en lecture seule.
+
 MSGFLAG_READ 
   
 > Le message est marqué comme ayant été lu. Cela peut se produire à la suite d’un appel à tout moment à [IMessage::SetReadFlag](imessage-setreadflag.md) ou [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md). Les clients peuvent également définir cet indicateur en appelant la méthode **IMAPIProp::SetProps** d’un message avant que le message n’ait été enregistré pour la première fois. Cet indicateur est ignoré si l’indicateur **MSGFLAG_ASSOCIATED** est défini. 
@@ -106,7 +110,7 @@ Lorsque le message est remis à un fournisseur de transport à des fins de remis
   
 Pour un message entrant, un fournisseur de magasin de messages efface l’indicateur MSGFLAG_READ pour réinitialiser son état de lecture. Un client peut définir ou effacer l’indicateur de MSGFLAG_READ lorsqu’il est nécessaire de modifier l’état de lecture et de contrôler l’envoi de rapports en lecture et non lus, en appelant la méthode [IMessage::SetReadFlag](imessage-setreadflag.md) du message ou la méthode [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md) de son dossier. La principale différence entre ces méthodes, autres que l’objet qui les implémente, est que la méthode de dossier peut affecter un, plusieurs ou tous les messages du dossier. La méthode de message affecte un seul message. 
   
-Un client doit également tester un message entrant pour les indicateurs MSGFLAG_ORIGIN_X400, MSGFLAG_ORIGIN_INTERNET et MSGFLAG_ORIGIN_MISC_EXT. Ces indicateurs sont définis par le fournisseur de transport entrant et indiquent que le message est arrivé à partir d’une source que la passerelle ne peut pas considérer comme approuvée. Cela signifie que le message provient soit en dehors de l’organisation, soit en interne, mais à partir d’une station de travail inconnue de la passerelle. Dans tous les cas, l’identité de l’expéditeur peut ne pas être confirmée et il existe un risque d’introduction d’un virus informatique dans l’organisation. Le client doit afficher un message d’avertissement à l’utilisateur et offrir la possibilité de supprimer le message sans l’ouvrir. 
+Un client doit également tester un message entrant pour les indicateurs MSGFLAG_ORIGIN_X400, MSGFLAG_ORIGIN_INTERNET, MSGFLAG_ORIGIN_MISC_EXT et MSGFLAG_ORIGIN_EXT_SEND. Ces indicateurs sont définis par le fournisseur de transport entrant et indiquent que le message est arrivé à partir d’une source que la passerelle ne peut pas considérer comme approuvée. Cela signifie que le message provient soit en dehors de l’organisation, soit en interne, mais à partir d’une station de travail inconnue de la passerelle. Dans tous les cas, l’identité de l’expéditeur peut ne pas être confirmée et il existe un risque d’introduction d’un virus informatique dans l’organisation. Le client doit afficher un message d’avertissement à l’utilisateur et offrir la possibilité de supprimer le message sans l’ouvrir. 
   
 Les fournisseurs du magasin de messages définissent l’indicateur de MSGFLAG_UNMODIFIED pour les messages entrants. MSGFLAG_UNMODIFIED indique qu’un message n’a pas été modifié depuis la remise. Un client ne peut pas effacer cette valeur une fois qu’elle a été définie par un fournisseur de magasin de messages. 
   
