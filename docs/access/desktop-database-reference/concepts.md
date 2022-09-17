@@ -7,12 +7,12 @@ ms:contentKeyID: 67946324
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: d2a2416140532cc41a7c63f5eebebae790b061ca
-ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
-ms.translationtype: HT
+ms.openlocfilehash: 6087e03fbb54d849a1084dd67bf4b0367cde5d36
+ms.sourcegitcommit: 9d63c4fab7bca6b2a14f9883334abbc6c490d711
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "66083989"
+ms.lasthandoff: 09/17/2022
+ms.locfileid: "67795995"
 ---
 # <a name="concepts"></a>Concepts
 
@@ -20,7 +20,7 @@ ms.locfileid: "66083989"
 
 Cette section explique d’importants concepts pour le développement de solutions Access personnalisées.
 
-Si vous visualisez le contenu sur docs.microsoft.com, vous pouvez utiliser la table des matières qui se trouve à gauche de la rubrique pour parcourir la documentation.
+Si vous affichez le contenu sur Microsoft Docs, utilisez la table des matières dans le volet de navigation gauche pour découvrir le contenu pratique, l’exemple de code, la documentation du Kit de développement logiciel (SDK) et de l’API, les références VBA, la formation et les articles pour développer des solutions et personnaliser Office.
 
 - [Contrôles ActiveX](activex-controls-access.md)
 - [Conversion](conversion.md)

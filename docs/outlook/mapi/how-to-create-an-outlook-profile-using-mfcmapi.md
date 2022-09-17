@@ -6,16 +6,16 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 85581bc7-2d81-46af-8836-adef39c933fc
 description: MFCMAPI fournit l’accès aux magasins MAPI pour faciliter l’examen des problèmes Exchange et Outlook et fournir aux développeurs la prise en charge du développement MAPI.
-ms.openlocfilehash: f3e48a5a7828d97402a5a658d8bd3fa69b266789
-ms.sourcegitcommit: 1da753936975e64349cbd6954cf1c1732289a0b8
+ms.openlocfilehash: 2a445d8a42419349660d66f599391620556cbf90
+ms.sourcegitcommit: 9d63c4fab7bca6b2a14f9883334abbc6c490d711
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66448447"
+ms.lasthandoff: 09/17/2022
+ms.locfileid: "67796002"
 ---
 # <a name="create-an-outlook-profile-using-mfcmapi"></a>Créer un profil Outlook en utilisant MFCMAPI
 
-MFCMAPI fournit l’accès aux magasins MAPI pour faciliter l’examen des problèmes Exchange et Outlook et fournir aux développeurs la prise en charge du développement MAPI.
+MFCMAPI fournit l’accès aux magasins MAPI pour faciliter l’examen des problèmes Exchange et Outlook et fournir aux développeurs la prise en charge du développement MAPI. Downlaod 
 
 **S’applique à**: Office 365 | Outlook | Outlook 2016
   
@@ -23,29 +23,31 @@ Pour les non-développeurs, il est recommandé d’utiliser l’interface utilis
   
 ## <a name="configure-an-outlook-profile-using-mfcmapi"></a>Configurer un profil Outlook à l’aide de MFCMAPI
 
-1. Ouvrez [MFCMAPI](https://www.howto-outlook.com/downloads/mfcmapi.htm) et, dans le menu **Profil** , cliquez sur **Afficher les profils**.
+1. Téléchargez la [dernière version de MFCMAPI](https://github.com/stephenegriffin/mfcmapi/releases) à partir de GitHub.
 
-2. Dans le menu **Actions** , cliquez sur **Créer un profil**.
+1. Dans le menu **Profil** , sélectionnez **Afficher les profils**.
 
-3. Créez un nom pour le profil, puis cliquez sur **OK**.
+1. Dans le menu **Actions** , sélectionnez **Créer un profil**.
 
-4. Cliquez avec le bouton droit sur le nouveau profil, puis, dans le menu **Services** , cliquez sur **Ajouter un service**.
+1. Créez un nom pour le profil, puis choisissez **OK**.
 
-5. Décochez la case « Afficher l’interface utilisateur du service », puis cliquez sur **OK**.
+1. Cliquez avec le bouton droit sur le nouveau profil, puis dans le menu **Services** , sélectionnez **Ajouter un service**.
 
-6. Double-cliquez sur le profil nouvellement créé, puis cliquez sur le service **MSEMS** .
+1. Décochez la case « Afficher l’interface utilisateur du service », puis choisissez **OK**.
 
-7. Recherchez la section Profil Exchange.
+1. Double-cliquez sur le profil nouvellement créé, puis sélectionnez le service **MSEMS** .
 
-   This can be difficult in Outlook�s MAPI, since in 2010 and above there is no longer the global profile section. To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102). The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps. Vous aurez besoin de cette valeur à l’étape 9.
+1. Recherchez la section Profil Exchange.
 
-8. Double-cliquez sur le service **MSEMS** .
+   This can be difficult in Outlook�s MAPI, since in 2010 and above there is no longer the global profile section. To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102). The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps. Vous aurez besoin de cette valeur à l’étape 10.
 
-9. Recherchez la section profil **Exchange** à l’aide de l’UID de l’étape 7, puis cliquez sur un seul clic pour sélectionner la ligne.
+1. Double-cliquez sur le service **MSEMS** .
 
-10. Dans le menu Propriétés, cliquez sur **Propriétés supplémentaires**.
+1. Recherchez la section profil **Exchange** à l’aide de l’UID de l’étape 7, puis cliquez sur un seul clic pour sélectionner la ligne.
 
-11. Cliquez sur **Ajouter**, puis ajoutez les propriétés suivantes :
+1. Dans le menu **Propriétés** , sélectionnez **Propriétés supplémentaires**.
+
+1. Sélectionnez **Ajouter**, puis ajoutez les propriétés suivantes :
 
     **Pour Outlook 2016** : `PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)` et`PR_DISPLAY_NAME_W`
 
@@ -53,9 +55,9 @@ Pour les non-développeurs, il est recommandé d’utiliser l’interface utilis
 
     **Pour Exchange 2013** : `PR_PROFILE_UNRESOLVED_NAME`, `PR_PROFILE_UNRESOLVED_SERVER`, `PR_ROH_PROXY_SERVER`, `PR_ROH_FLAGS`, `PR_ROH_PROXY_AUTH_SCHEME`et `PR_PROFILE_AUTH_PACKAGE`.
 
-12. Cliquez sur **OK**, puis configurez chaque propriété en fonction du tableau ci-dessous, en fonction de la version à laquelle vous vous connectez.
+1. Choisissez **OK**, puis configurez chaque propriété en fonction du tableau ci-dessous, en fonction de la version à laquelle vous vous connectez.
 
-13. Dans le menu **Session** , cliquez sur Ouverture de session **et Magasin d’affichage**, puis sélectionnez le profil (s’il n’est pas déjà sélectionné).
+1. Dans le menu **Session** , sélectionnez Ouverture de session **et Magasin d’affichage**, puis sélectionnez le profil (s’il n’est pas déjà sélectionné).
 
 ### <a name="outlook-2016"></a>Outlook 2016
   
@@ -98,9 +100,9 @@ Pour les non-développeurs, il est recommandé d’utiliser l’interface utilis
 > - <sup>2</sup> Pour Outlook 2010, vous devez utiliser le protocole EXPR. Outlook 2013 utilise le protocole EXHTTP.
 > - <sup>3</sup> Cette valeur peut ne pas figurer dans la réponse de découverte automatique. S’il n’est pas spécifié, le client doit utiliser Kerberos ou NTLM.
 
-Pour obtenir des conseils de dépannage, consultez [Comment configurer un profil Outlook à l’aide de MFCMAPI pour Exchange 2013](https://blogs.msdn.microsoft.com/dvespa/2014/01/16/how-to-configure-an-outlook-profile-using-mfcmapi-for-exchange-2013).
+Pour obtenir des conseils de dépannage, consultez [Comment configurer un profil Outlook à l’aide de MFCMAPI pour Exchange 2013](/archive/blogs/dvespa/how-to-configure-an-outlook-profile-using-mfcmapi-for-exchange-2013).
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Référence MAPI Outlook](https://msdn.microsoft.com/library/office/cc765775.aspx)  
-- [Créer un profil par programmation dans Outlook](https://msdn.microsoft.com/library/office/mt707568.aspx)
+- [Référence MAPI Outlook](/office/client-developer/outlook/mapi/outlook-mapi-reference)
+- [Créer un profil par programmation dans Outlook](/office/client-developer/outlook/mapi/how-to-programmatically-create-a-profile-in-outlook)
