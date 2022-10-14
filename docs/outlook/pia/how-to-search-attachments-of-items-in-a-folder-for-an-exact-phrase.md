@@ -2,17 +2,17 @@
 title: Recherche d’une expression exacte dans les pièces jointes des éléments d’un dossier
 TOCTitle: Search attachments of items in a folder for an exact phrase
 ms:assetid: 3202c0c7-ee3d-4396-b3a9-d24990b44829
-ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-to-search-attachments-of-items-in-a-folder-for-an-exact-phrase?redirectedfrom=MSDN
+ms:mtpsurl: https://learn.microsoft.com/office/client-developer/outlook/pia/how-to-search-attachments-of-items-in-a-folder-for-an-exact-phrase?redirectedfrom=MSDN
 ms:contentKeyID: 55119889
 ms.date: 09/14/2021
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 23cca5c5df3da73b8ee968059bb546d42d7cde35
-ms.sourcegitcommit: 600f0dc552b725f98f3354d42feefc39be9c354c
+ms.openlocfilehash: 94201370c65643daf361131b2575cebacd2eebb0
+ms.sourcegitcommit: b6d8fc4db483ecd1a3247a6cb3377f5b52c44cfe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66577350"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68574356"
 ---
 # <a name="search-attachments-of-items-in-a-folder-for-an-exact-phrase"></a>Recherche d’une expression exacte dans les pièces jointes des éléments d’un dossier
 
@@ -26,7 +26,7 @@ L’exemple de code spécifie la propriété **Attachments** d’un élément à
 
 `<PropertySchemaName> ci_phrasematch <ComparisonString>`
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable Outlook lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **Imports** ou **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration Class publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
+If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following lines of code show how to do the import and assignment in Visual Basic and C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
