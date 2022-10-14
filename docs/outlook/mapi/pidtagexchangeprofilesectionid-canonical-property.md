@@ -12,12 +12,12 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4ad2f417-be8f-4fc8-9321-82097289074b
-ms.openlocfilehash: b64fe02383566e8a6f0900913d5662c586774be1
-ms.sourcegitcommit: 600f0dc552b725f98f3354d42feefc39be9c354c
+ms.openlocfilehash: 61d1a5a3b141a740d974cd6eef83bde7570ad6aa
+ms.sourcegitcommit: b6d8fc4db483ecd1a3247a6cb3377f5b52c44cfe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66577329"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68574328"
 ---
 # <a name="pidtagexchangeprofilesectionid-canonical-property"></a>Propriété canonique PidTagExchangeProfileSectionId
 
@@ -70,5 +70,4 @@ Le service Exchange hérité a la propriété **PR_EMSMDB_LEGACY** (0x3D18000B),
 [Utilisation de plusieurs comptes Exchange](using-multiple-exchange-accounts.md)
 
 
-[How To Open the Global Profile Section](/learn/paths/configure-user-device-profiles/)
-
+[How To Open the Global Profile Section](/training/paths/configure-user-device-profiles/)
