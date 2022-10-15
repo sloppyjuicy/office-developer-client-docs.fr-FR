@@ -2,17 +2,17 @@
 title: Obtenir la Liste d’Adresses Globale ou d’un ensemble de listes d’adresses pour un magasin
 TOCTitle: Get the Global Address List or a set of address lists for a store
 ms:assetid: a361ac58-25c6-4ce1-97b0-403ad67ee7a4
-ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store
+ms:mtpsurl: https://learn.microsoft.com/office/client-developer/outlook/pia/how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store
 ms:contentKeyID: 55119800
 ms.date: 12/03/2019
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 3cf5fa90107abc34d6e8fa884efed7aa457bbbe9
-ms.sourcegitcommit: a6d13fdae7eb2e503236c1b629a59b36a4fb76f1
+ms.openlocfilehash: 3bbdc21fe83da32c4973512b78b835bf8846dbc1
+ms.sourcegitcommit: b6d8fc4db483ecd1a3247a6cb3377f5b52c44cfe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "66084073"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68574307"
 ---
 # <a name="get-the-global-address-list-or-a-set-of-address-lists-for-a-store"></a>Obtenir la Liste d’Adresses Globale ou d’un ensemble de listes d’adresses pour un magasin
 
@@ -26,7 +26,7 @@ Le premier exemple de code contient la méthode DisplayGlobalAddressListForStore
 
 GetGlobalAddressList utilise l'objet [PropertyAccessor](/dotnet/api/microsoft.office.interop.outlook.propertyaccessor) et la propriété MAPI`https://schemas.microsoft.com/mapi/proptag/0x3D150102`pour obtenir la propriété PR\_EMSMDB\_SECTION\_UID d'une liste d'adresses et du magasin actif. GetGlobalAddressList identifie une liste d'adresses comme étant associée à un magasin si leurs propriétés PR\_EMSMDB\_SECTION\_UID correspondent, et si la liste d'adresses est la Liste d'Adresses Globale si sa propriété [AddressListType](/dotnet/api/microsoft.office.interop.outlook.addresslist.addresslisttype) a la valeur [olExchangeGlobalAddressList](/dotnet/api/microsoft.office.interop.outlook.oladdresslisttype). Si l'appel à la fonction réussit, DisplayGlobalAddressListForStore   utilise l'objet [SelectNamesDialog](/dotnet/api/microsoft.office.interop.outlook.selectnamesdialog)pour afficher la Liste d'Adresses Globale retournée dans la boîte de dialogue **Sélectionner des Noms**.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable Outlook lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration Class publique. La ligne de code suivante montre comment effectuer l’importation et l’affectation dans C \#.
+If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace. The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -139,4 +139,3 @@ public List<Outlook.AddressList> GetAddressLists(Outlook.Store store)
 ## <a name="see-also"></a>Voir aussi
 
 - [Carnet d’adresses](address-book.md)
-

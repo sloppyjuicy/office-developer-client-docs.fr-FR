@@ -1,6 +1,7 @@
-## <a name="microsoft-open-source-code-of-conduct"></a>Code de conduite Microsoft Open Source
-Ce projet a adopté le [code de conduite Microsoft Open Source](https://opensource.microsoft.com/codeofconduct/). Pour plus d’informations, reportez-vous à la [FAQ relative au code de conduite](https://opensource.microsoft.com/codeofconduct/faq/) ou contactez [opencode@microsoft.com](mailto:opencode@microsoft.com) pour toute question ou tout commentaire.
+## <a name="microsoft-open-source-code-of-conduct"></a>Code de conduite Open Source de Microsoft
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-Accédez à la documentation de [développement client Office](/office/client-developer/office-client-development) pour ce dépôt sur Microsoft Docs.
+Accédez à la documentation de [développement client Office](/office/client-developer/office-client-development) pour ce référentiel sur Microsoft Learn.
 
 Pour plus d’informations sur la façon de contribuer à cette documentation, consultez [Contribution](contributing.md).
