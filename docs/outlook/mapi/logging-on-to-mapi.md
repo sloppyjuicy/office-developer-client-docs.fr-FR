@@ -7,12 +7,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 05bafe43-a78a-4659-92f0-0b4fe444c64f
-ms.openlocfilehash: 3bc2e46b29bb6bdaf22ba13871e0c427a956fe55
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: aa38ffd213b6ff7d2a9216d50350cf1d1fb7a037
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374298"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462889"
 ---
 # <a name="logging-on-to-mapi"></a>Connexion à MAPI
  
@@ -50,7 +51,7 @@ Les sessions de messagerie partagées sont des connexions que plusieurs clients 
     
 Les sessions de non-recherche permettent aux clients d’accéder au sous-système MAPI, mais n’autorisent pas l’envoi ou la réception de messages. Les applications de configuration ou d’administration sont des exemples de clients qui peuvent avoir besoin d’établir des sessions de non-recherche. Pour demander une session de non-recherche, définissez l’MAPI_NO_MAIL de recherche. La définition de cet indicateur connecte votre client sans en informer lepooler MAPI. Les clients qui se connectent à MAPI avec cet indicateur ne peuvent pas s’attendre à recevoir des rapports d’état de lecture.
   
-L’MAPI_NO_MAIL ne doit être définie que :
+L MAPI_NO_MAIL de contrôle doit uniquement être définie :
   
 - Si votre client n’envoie ou ne reçoit pas de messages pendant la session.
     

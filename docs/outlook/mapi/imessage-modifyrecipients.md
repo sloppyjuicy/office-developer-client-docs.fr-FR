@@ -11,12 +11,12 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2625f29d-325f-417d-bcec-49d580f9cd7e
-ms.openlocfilehash: 774c916a8910d5006dd7e37e8ea06fc4ac428be4
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: 742263993a91aa640ef15c6e752b12a0b1d1b22d
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62788338"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465192"
 ---
 # <a name="imessagemodifyrecipients"></a>IMessage::ModifyRecipients
 
@@ -109,7 +109,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI utilise la m�thode **IMessage::ModifyRecipients** pour ajouter un destinataire � un message. |
+|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI utilise la m�thode **IMessage::ModifyRecipients** pour ajouter un destinataire � un message.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

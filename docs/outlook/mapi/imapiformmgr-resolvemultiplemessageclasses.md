@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d3cc6658-e46d-42dd-b1ac-65c88cfef8ca
-ms.openlocfilehash: 9106c624528dba77558015c6f923f61112e8bda7
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b59edcc908135a99e6825531be10a345aa104dbc
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63375656"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462938"
 ---
 # <a name="imapiformmgrresolvemultiplemessageclasses"></a>IMAPIFormMgr::ResolveMultipleMessageClasses
 

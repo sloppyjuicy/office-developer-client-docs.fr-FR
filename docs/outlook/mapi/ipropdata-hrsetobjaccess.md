@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01bd3235-22cc-4ff3-b2b6-341ce622128b
-ms.openlocfilehash: 0461e55292117781f24e74aac50a37e1381ccd75
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derni�re modification�: samedi 23 juillet 2011'
+ms.openlocfilehash: e5db15a7f984684a5f81f4f7a171bf52484a18a7
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63371470"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464858"
 ---
 # <a name="ipropdatahrsetobjaccess"></a>IPropData::HrSetObjAccess
 

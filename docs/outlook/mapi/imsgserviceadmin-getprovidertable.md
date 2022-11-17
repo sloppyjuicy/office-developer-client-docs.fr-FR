@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7180bff2-91ad-4e11-923e-2a9acefa3215
-ms.openlocfilehash: 368f1cd11916f1d212966f983a5e3a4b50e61182
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c7d138491b16588116263a1f00f4ea49c99e803d
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63373108"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464509"
 ---
 # <a name="imsgserviceadmingetprovidertable"></a>IMsgServiceAdmin::GetProviderTable
 
@@ -57,7 +58,7 @@ Contrairement à la table fournisseur renvoyée par le biais de la méthode [IPr
   
 Les fournisseurs qui ont été supprimés ou qui sont en cours d’utilisation mais qui ont été marqués pour suppression ne sont pas inclus dans la table des fournisseurs. Les tables de fournisseurs sont statiques, ce qui signifie que les ajouts ou suppressions ultérieurs du profil ne sont pas reflétés dans le tableau. 
   
-Si le profil n’a pas de fournisseur, **GetProviderTable** renvoie un tableau avec zéro ligne et la valeur S_OK renvoyer. 
+Si le profil n’a pas de fournisseur, **GetProviderTable** renvoie un tableau avec zéro ligne et la valeur S_OK de retour. 
   
 Pour obtenir la liste complète des colonnes dans la table provider, voir [Provider Table](provider-tables.md). 
   

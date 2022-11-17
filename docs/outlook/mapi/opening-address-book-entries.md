@@ -7,12 +7,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 017a62c0-49c6-47fb-acce-db58e6bb9cc5
-ms.openlocfilehash: 293e6c47a411a34dd5c11171b968aec120a0d80d
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 57d58f4119ade1b5d4bcb8acfa8f0aaf0db821dc
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63373920"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464483"
 ---
 # <a name="opening-address-book-entries"></a>Ouverture des entrées du carnet d’adresses
 
@@ -26,7 +27,7 @@ Un identificateur d’entrée NULL indique une demande d’ouverture du conteneu
   
 1. Vérifiez que l’identificateur d’entrée est un identificateur valide que votre fournisseur prend en charge. S’il ne s’agit pas d’un identificateur d’entrée valide, MAPI_E_INVALID_ENTRYID. 
     
-2. Vérifiez l’indicateur transmis avec le  _paramètre ulFlags_ . Si MAPI est passé en MAPI_MODIFY et que votre fournisseur n’autorise pas la modification de ses objets, échouez et renvoyez la valeur MAPI_E_ACCESS_DENIED’erreur. 
+2. Vérifiez l’indicateur transmis avec le  _paramètre ulFlags_ . Si MAPI est passé dans MAPI_MODIFY et que votre fournisseur n’autorise pas la modification de ses objets, échouez et renvoyez la valeur MAPI_E_ACCESS_DENIED’erreur. 
     
 3. Vérifiez que l’interface demandée dans _le paramètre lpInterface_ est valide pour le type d’objet que votre fournisseur a été invité à ouvrir. Si un paramètre non valide a été passé, échouez et renvoyez la valeur MAPI_E_INTERFACE_NOT_SUPPORTED’erreur. 
     

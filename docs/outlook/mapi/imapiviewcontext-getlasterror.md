@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3306e37a-2500-4281-96c3-ca0d5c81909d
-ms.openlocfilehash: 46ef6524e83df24c06b6442ee7cac64e97970287
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a5788a505960e01ec37e5262e86bcbb3048ce5bd
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63376804"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464516"
 ---
 # <a name="imapiviewcontextgetlasterror"></a>IMAPIViewContext::GetLastError
 

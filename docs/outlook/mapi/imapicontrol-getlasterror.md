@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83290b8e-fffc-41c8-a01e-578d130b65c5
-ms.openlocfilehash: 8b5e5df136e7908c2011c9fb362211e2c6fbc2e3
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 785a6bc6cc33be67912f2167416478d4f0916309
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63377889"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465525"
 ---
 # <a name="imapicontrolgetlasterror"></a>IMAPIControl::GetLastError
 
@@ -60,7 +61,7 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L’MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
+> L’indicateur MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
     
 ## <a name="remarks"></a>Remarques
 

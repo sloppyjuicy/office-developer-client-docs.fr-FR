@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 9812ff68fe755f098729e910aa0b9d17d99bf9c9
-ms.sourcegitcommit: 7c1e7389b18d4f067a69b992ac6c876b5e0441b3
+ms.openlocfilehash: 92ad8edd9284dc2049ff7b48ae2ae74738af2721
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "67365886"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463064"
 ---
 # <a name="insert-into-statement-microsoft-access-sql"></a>Instruction INSERT INTO (Microsoft Access SQL)
 
@@ -38,8 +38,8 @@ L'instruction INSERT INTO comprend les éléments suivants :
 
 <table>
 <colgroup>
-<col />
-<col />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -58,7 +58,7 @@ L'instruction INSERT INTO comprend les éléments suivants :
 </tr>
 <tr class="odd">
 <td><p><em>basededonnéesexterne</em></p></td>
-<td><p>Chemin d’accès à une base de données externe. Pour une description du chemin d’accès, voir la clause <a href="/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.</p></td>
+<td><p>Chemin d’accès à une base de données externe. Pour une description du chemin d’accès, voir la clause <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
@@ -74,6 +74,7 @@ L'instruction INSERT INTO comprend les éléments suivants :
 </tr>
 </tbody>
 </table>
+
 
 ## <a name="remarks"></a>Remarques
 
@@ -129,6 +130,7 @@ Cet exemple sélectionne tous les enregistrements dans une table New Customers h
     End Sub
 ```
 
+
 Cet exemple crée un nouvel enregistrement dans la table Employees.
 
 ```vb
@@ -141,7 +143,7 @@ Cet exemple crée un nouvel enregistrement dans la table Employees.
         Set dbs = OpenDatabase("Northwind.mdb") 
          
         ' Create a new record in the Employees table. The  
-        ' first name is Harry, the last name is Washington, 
+        ' first name is Harry, the last name is Washington,  
         ' and the job title is Trainee. 
         dbs.Execute " INSERT INTO Employees " _ 
             & "(FirstName,LastName, Title) VALUES " _ 
@@ -151,3 +153,4 @@ Cet exemple crée un nouvel enregistrement dans la table Employees.
      
     End Sub 
 ```
+

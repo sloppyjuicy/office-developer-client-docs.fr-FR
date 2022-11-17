@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 751c36d3-c39e-4357-a60a-88685a378de0
-ms.openlocfilehash: 0647569fd72e84b9b937c424560a1c013a8790ec
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 20da25bde877ccb9735b37c52411f6666495b117
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63378232"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463785"
 ---
 # <a name="iablogonopentemplateid"></a>IABLogon::OpenTemplateID
 
@@ -114,7 +115,7 @@ Vous devez utiliser les instructions suivantes dans vos implémentations d’obj
     
 - Lorsque [IMAPIProp::SaveChanges](imapiprop-savechanges.md) est appelé, le fournisseur d’hôtes peut vouloir effectuer le traitement avant d’enregistrer l’entrée. Vous devez enregistrer toutes les données affectées par les propriétés modifiées, telles qu’une nouvelle adresse, dans l’entrée du fournisseur hôte. 
     
-En règle générale, faites en sorte que votre implémentation de l’entrée que vous revoyez au fournisseur hôte intercepte toutes les méthodes pour effectuer une manipulation spécifique du contexte des propriétés pertinentes. Si l FILL_ENTRY est transmis dans le _paramètre ulTemplateFlags_ , définissez toutes les propriétés de l’entrée. 
+En règle générale, faites en sorte que votre implémentation de l’entrée que vous revoyez au fournisseur hôte intercepte toutes les méthodes pour effectuer une manipulation spécifique du contexte des propriétés pertinentes. Si l FILL_ENTRY est transmis dans le paramètre _ulTemplateFlags_ , définissez toutes les propriétés de l’entrée. 
   
 Si vous renvoyez un nouvel objet de propriété dans le paramètre _lppMAPIPropNew_ , appelez la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) de l’objet de propriété du fournisseur hôte pour conserver une référence. Tous les appels via l’objet lié renvoyé par l’implémentation **IMAPIProp** dans  _lppMAPIPropNew_ doivent être acheminés vers leur méthode correspondante dans l’objet de propriété hôte une fois traités par l’objet lié. 
   

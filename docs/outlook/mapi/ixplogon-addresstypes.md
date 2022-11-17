@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5add1f2b-d9e6-4d78-8739-c3848f6e32a3
-ms.openlocfilehash: 7c840f36a53b034c606260b8ad89e320c6946b79
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 19bbe11c41ee461bc506ab2f58af6ceefd35e7be
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380717"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463197"
 ---
 # <a name="ixplogonaddresstypes"></a>IXPLogon::AddressTypes
 

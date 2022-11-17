@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 32cc3a1f-1310-4788-b0f4-93c1e4940f37
-ms.openlocfilehash: ab5648cdf5b424adbf253ed122c81ec81a7d6644
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 100bcd27f53c2a4cc318faad0f667201d9bc8643
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374312"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463211"
 ---
 # <a name="ipersistmessagegetlasterror"></a>IPersistMessage::GetLastError
 

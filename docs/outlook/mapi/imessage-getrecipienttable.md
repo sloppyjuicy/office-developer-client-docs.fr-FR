@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a335dfca-44da-452e-b16f-25d314b1758f
-ms.openlocfilehash: 3efb4dccc0c8d6e1aec7feea46cec6411d86952e
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 68a2916f60a1105603da636428a6d2d779ad85fe
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63377525"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465029"
 ---
 # <a name="imessagegetrecipienttable"></a>IMessage::GetRecipientTable
 
@@ -65,7 +66,7 @@ Les tables des destinataires ont un ensemble de colonnes différent selon que le
   
 Certaines tables de destinataires supportent un large éventail de restrictions . d’autres non. La prise en charge des restrictions dépend de l’implémentation du fournisseur de magasins de messages. 
   
-La définition MAPI_UNICODE’indicateur dans le _paramètre ulFlags_ affecte les appels suivants à la table des destinataires : 
+La définition MAPI_UNICODE’indicateur dans _le paramètre ulFlags_ affecte les appels suivants à la table des destinataires : 
   
 - [IMAPITable::QueryColumns](imapitable-querycolumns.md) pour récupérer le jeu de colonnes. 
     

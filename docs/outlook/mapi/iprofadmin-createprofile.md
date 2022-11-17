@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 10cda14a-8f93-41e0-b1fb-500098bdc392
-ms.openlocfilehash: d137faaa90a0782c7a6f439844e81059f79061dd
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 8b9316652029bbcf1d81569d60f02b9f8ace53ad
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63370252"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465015"
 ---
 # <a name="iprofadmincreateprofile"></a>IProfAdmin::CreateProfile
 
@@ -79,7 +80,7 @@ La **méthode IProfAdmin::CreateProfile** crée un profil.
 
 Vous pouvez appeler **CreateProfile au** moment de l’installation de l’application ou à tout moment pendant une session. Lorsque cette méthode est appelée au moment de l’installation, la plupart des paramètres de configuration proviennent du fichier de configuration Mapisvc.inf. Lorsque cette méthode est appelée au cours d’une session active, les paramètres proviennent de l’utilisateur qui est invité par le biais d’une série de feuilles de propriétés. 
   
-Si l’indicateur MAPI_DEFAULT_SERVICES est définie dans le paramètre _ulFlags_ , **CreateProfile** appelle la fonction de point d’entrée de service de message pour chaque service de message dans la section [Default Services] du fichier Mapisvc.inf. Chaque fonction de point d’entrée de service de message est appelée avec le  _paramètre ulContext_ paramétré sur MSG_SERVICE_CREATE. 
+Si l’indicateur MAPI_DEFAULT_SERVICES est définie dans le paramètre _ulFlags_ , **CreateProfile** appelle la fonction de point d’entrée de service de message pour chaque service de message dans la section [Default Services] du fichier Mapisvc.inf. Chaque fonction de point d’entrée de service de message est appelée avec le  _paramètre ulContext_ MSG_SERVICE_CREATE. 
   
 Si les indicateurs MAPI_DIALOG et MAPI_DEFAULT_SERVICES sont tous deux définies, les valeurs des paramètres _ulUIParam_ et  _ulFlags sont également transmises_ à la fonction de point d’entrée du service de message. Les fonctions de point d’entrée du service de message sont appelées uniquement une fois que toutes les informations disponibles du fichier Mapisvc.inf ont été ajoutées au profil. 
   

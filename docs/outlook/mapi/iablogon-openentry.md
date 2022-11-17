@@ -1,6 +1,6 @@
 ---
 title: IABLogonOpenEntry
-manager: lindalu
+manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
@@ -11,14 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1cfb82f7-5215-4faa-af25-5b1da7e31209
-ms.openlocfilehash: 58667f104ab40ad310429ee4a8c85378cb52ff19
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: ba7dce26ac7791f5cfb8f5361c552be1883839ca
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62781512"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463816"
 ---
 # <a name="iablogonopenentry"></a>IABLogon::OpenEntry
+
+  
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
@@ -91,6 +94,8 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > L’identificateur d’entrée dans _le paramètre lpEntryID_ n’est pas d’un format reconnu par le fournisseur de carnet d’adresses. 
     
+## <a name="remarks"></a>Remarques
+
 MAPI appelle la **méthode OpenEntry** pour ouvrir un conteneur, un utilisateur de messagerie ou une liste de distribution. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
@@ -105,4 +110,7 @@ L’objet que vous êtes invité à ouvrir peut être un objet copié à partir 
   
 ## <a name="see-also"></a>Voir aussi
 
+
+
 [IABLogon : IUnknown](iablogoniunknown.md)
+

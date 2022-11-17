@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 27474af2-29a2-4cfb-b94f-72eb91562dac
-ms.openlocfilehash: ca9fc8cc48fb7de159c2f46abf409393f3271a34
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f3487b77125bdc9f98e99831edd8b596f91c02a7
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63373220"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463923"
 ---
 # <a name="iabcontainerresolvenames"></a>IABContainer::ResolveNames
 
@@ -47,11 +48,11 @@ HRESULT ResolveNames(
     
 EMS_AB_ADDRESS_LOOKUP
   
-> Seules des correspondances exactes d’adresse proxy sont trouvées . les correspondances partielles sont ignorées. Cet indicateur est pris en charge uniquement par le fournisseur Exchange carnet d’adresses.
+> Seules des correspondances exactes d’adresse proxy sont trouvées . les correspondances partielles sont ignorées. Cet indicateur est pris en charge uniquement par le Exchange de carnet d’adresses.
     
 MAPI_CACHE_ONLY
   
-> Seul le carnet d’adresses en mode hors connexion sera utilisé pour effectuer la résolution des noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur Exchange carnet d’adresses. 
+> Seul le carnet d’adresses en mode hors connexion sera utilisé pour effectuer la résolution des noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le Exchange de carnet d’adresses. 
     
 MAPI_UNICODE 
   
@@ -85,7 +86,7 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L’MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
+> L’indicateur MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
     
 MAPI_E_NO_SUPPORT 
   

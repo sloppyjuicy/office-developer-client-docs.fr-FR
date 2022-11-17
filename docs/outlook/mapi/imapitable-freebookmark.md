@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 797833f7-8295-41bc-8980-977e5f5e05e8
-ms.openlocfilehash: e851966cc153607787a2e3f3446ed73015919062
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: dc1a9c6b03fb88f8a69b19cbd5ef64ae82e7b50f
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63379667"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462910"
 ---
 # <a name="imapitablefreebookmark"></a>IMAPITable::FreeBookmark
 
@@ -54,7 +55,7 @@ La **méthode IMAPITable::FreeBookmark** libère un signet qui n’est plus néc
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Si l’appelant passe l’un des trois signets prédéfincis dans le paramètre _bkPosition_ , ignorez la demande et renvoyez-S_OK. 
+Si l’appelant passe l’un des trois signets prédéfincis dans le paramètre _bkPosition_ , ignorez la demande et renvoyez S_OK. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3362639a-8098-47ab-ba94-ee89e4920032
 description: L’élément friends du schéma XML du fournisseur Microsoft Outlook Social Connector (OSC) permet à un fournisseur OSC de spécifier des informations pour une liste de personnes associées à un utilisateur Outlook dans le réseau social.
-ms.openlocfilehash: e3958d5fc8acd174b67edb73cb84f84444d35c99
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ddfa4d66e21ab5712e3c278271415187292d202c
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62787568"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464476"
 ---
 # <a name="xml-for-friends"></a>XML pour les amis
 
@@ -67,8 +67,8 @@ Les éléments suivants sont les deux éléments de niveau supérieur dans **le 
   
 |**Élément**|**Description**|
 |:-----|:-----|
-|**amis** <br/> |Représente l’élément racine d’une liste d’éléments **de** personne. Les **éléments ISocialPerson::GetFriendsAndColleagues**, [ISocialSession::FindPerson](isocialsession-findperson.md) et **ISocialSession2::GetPeopleDetails** retournent des chaînes XML conformes à la définition de schéma de l’élément **friends** . |
-|**person** <br/> |Représente une personne dans une liste d’éléments **de** personne. La [méthode ISocialPerson::GetDetails](isocialperson-getdetails.md) renvoie une chaîne XML conforme à la définition de schéma de **l’élément de** personne. |
+|**amis** <br/> |Représente l’élément racine d’une liste d’éléments **de** personne. Les **éléments ISocialPerson::GetFriendsAndColleagues**, [ISocialSession::FindPerson](isocialsession-findperson.md) et **ISocialSession2::GetPeopleDetails** retournent des chaînes XML conformes à la définition de schéma de l’élément **friends** .  <br/> |
+|**person** <br/> |Représente une personne dans une liste d’éléments **de** personne. La [méthode ISocialPerson::GetDetails](isocialperson-getdetails.md) renvoie une chaîne XML conforme à la définition de schéma de **l’élément de** personne.  <br/> |
    
 Le tableau suivant décrit chaque élément enfant de l’élément **person** dans le schéma XML du fournisseur OSC. 
   
@@ -76,54 +76,54 @@ Pour obtenir une définition complète du schéma XML du fournisseur OSC, y comp
   
 |**Élément**|**Description**|
 |:-----|:-----|
-|**adresse** <br/> |Adresse de rue physique de la personne. |
-|**anniversary** <br/> |Date anniversaire d’un événement pour la personne. |
-|**askmeabout** <br/> |Rubriques d’intérêt ou d’expertise de la personne. |
-|**birthday** <br/> |Date de naissance de la personne. |
-|**businessAddress** <br/> |Adresse de rue physique de l’espace de travail de la personne. |
-|**businessCity** <br/> |Ville de l’espace de travail de la personne. |
-|**businessCountryOrRegion** <br/> |Pays ou région de l’espace de travail de la personne. |
-|**businessState** <br/> |Département ou province de l’espace de travail de la personne. |
-|**businessZip** <br/> |Code postal ou postal de l’espace de travail de la personne. |
-|**cell** <br/> |Numéro de téléphone mobile de la personne. |
-|**ville** <br/> |Ville de l’adresse physique de la personne. |
-|**company** <br/> |Nom de la société associée à la personne. |
-|**countryOrRegion** <br/> |Pays ou région de l’adresse physique de la personne. |
-|**creationTime** <br/> |Heure de création du profil de la personne sur le réseau social. |
-|**emailAddress** <br/> |Adresse de messagerie principale de la personne. |
-|**emailAddress2** <br/> |Adresse de messagerie secondaire de la personne. |
-|**emailAddress3** <br/> |Adresse de messagerie troisième de la personne. |
-|**expirationTime** <br/> |Heure d’expiration des données de profil de la personne sur le réseau social. |
-|**fileAs** <br/> |Chaîne par laquelle la personne doit être classée en tant que contact dans un fichier Outlook contacts. |
-|**firstName** <br/> |Prénom ou prénom de la personne. |
-|**friendStatus** <br/> |Statut d’ami de cette personne avec l’utilisateur connecté sur le réseau social. Doit être l’une des valeurs suivantes : **friend**, **nonfriend**, **pending**, **pendingin**, **pendingout**. |
-|**fullName** <br/> |Nom complet de la personne. |
-|**gender** <br/> |Sexe de la personne. Doit être l’une des valeurs suivantes : **homme**, **femme**, **non spécifié.** |
-|**homePhone** <br/> |Numéro de téléphone de la personne. |
-|**index** <br/> |Emplacement de l’adresse hachée de la personne dans le paramètre de chaîne _personsAddresses_ transmis à un appel à la méthode **ISocialSession2::GetPeopleDetails** . Il indique également **le XML** de personne de la personne dans la chaîne _personsCollection renvoyée_ par **GetPeopleDetails**. |
-|**secteurs d’activité** <br/> |Les secteurs d’activité de la personne. |
-|**interests** <br/> |Centres d’intérêt ou loisirs de la personne. |
-|**lastModificationTime** <br/> |Heure de la dernière modification du profil de la personne sur le réseau social. |
-|**lastName** <br/> |Nom ou nom de famille de la personne. |
-|**location** <br/> |Emplacement de la personne. |
-|**nickname** <br/> |Nom plus court ou nom de la personne qui a été créé. |
-|**otherAddress** <br/> |Autre adresse de rue de la personne. |
-|**otherCity** <br/> |Ville de l’adresse alternative de la personne. |
-|**otherCountryOrRegion** <br/> |Pays ou région de l’adresse alternative de la personne. |
-|**otherState** <br/> |Département ou province de l’adresse alternative de la personne. |
-|**otherZip** <br/> |Code postal ou postal de l’adresse alternative de la personne. |
-|**téléphone** <br/> |Numéro de téléphone du contact principal de la personne. |
-|**pictureUrl** <br/> |URL d’une image de profil de la personne. |
-|**relation** <br/> |Relation de cette personne avec l’utilisateur connecté. |
-|**schools** <br/> |Les établissements scolaires où la personne va ou s’est rendu. |
-|**skills** <br/> |Compétences personnelles de la personne. |
-|**state** <br/> |Département ou province de l’adresse physique de la personne. |
-|**title** <br/> |Désignation ajoutée au nom de la personne. |
-|**userID** <br/> |ID permettant d’identifier la personne sur le réseau social. |
-|**webProfilePage** <br/> |Adresse de page web qui contient un profil de la personne. |
-|**site web** <br/> |Site web de la personne. |
-|**workPhone** <br/> |Numéro de téléphone d’entreprise de la personne. |
-|**zip** <br/> |Code postal ou code postal de l’adresse physique de la personne. |
+|**adresse** <br/> |Adresse de rue physique de la personne.  <br/> |
+|**anniversary** <br/> |Date anniversaire d’un événement pour la personne.  <br/> |
+|**askmeabout** <br/> |Rubriques d’intérêt ou d’expertise de la personne.  <br/> |
+|**birthday** <br/> |Date de naissance de la personne.  <br/> |
+|**businessAddress** <br/> |Adresse de rue physique de l’espace de travail de la personne.  <br/> |
+|**businessCity** <br/> |Ville de l’espace de travail de la personne.  <br/> |
+|**businessCountryOrRegion** <br/> |Pays ou région de l’espace de travail de la personne.  <br/> |
+|**businessState** <br/> |Département ou province de l’espace de travail de la personne.  <br/> |
+|**businessZip** <br/> |Code postal ou postal de l’espace de travail de la personne.  <br/> |
+|**cell** <br/> |Numéro de téléphone mobile de la personne.  <br/> |
+|**Ville** <br/> |Ville de l’adresse physique de la personne.  <br/> |
+|**company** <br/> |Nom de la société associée à la personne.  <br/> |
+|**countryOrRegion** <br/> |Pays ou région de l’adresse physique de la personne.  <br/> |
+|**creationTime** <br/> |Heure de création du profil de la personne sur le réseau social.  <br/> |
+|**emailAddress** <br/> |Adresse de messagerie principale de la personne.  <br/> |
+|**emailAddress2** <br/> |Adresse de messagerie secondaire de la personne.  <br/> |
+|**emailAddress3** <br/> |Adresse de messagerie troisième de la personne.  <br/> |
+|**expirationTime** <br/> |Heure d’expiration des données de profil de la personne sur le réseau social.  <br/> |
+|**fileAs** <br/> |Chaîne par laquelle la personne doit être classée en tant que contact dans un fichier Outlook contacts.  <br/> |
+|**firstName** <br/> |Prénom ou prénom de la personne.  <br/> |
+|**friendStatus** <br/> |Statut d’ami de cette personne avec l’utilisateur connecté sur le réseau social. Doit être l’une des valeurs suivantes : **friend**, **nonfriend**, **pending**, **pendingin**, **pendingout**.  <br/> |
+|**fullName** <br/> |Nom complet de la personne.  <br/> |
+|**gender** <br/> |Sexe de la personne. Doit être l’une des valeurs suivantes : **homme**, **femme**, **non spécifié.**  <br/> |
+|**homePhone** <br/> |Numéro de téléphone de la personne.  <br/> |
+|**index** <br/> |Emplacement de l’adresse hachée de la personne dans le paramètre de chaîne _personsAddresses_ transmis à un appel à la méthode **ISocialSession2::GetPeopleDetails** . Il indique également **le XML** de personne de la personne dans la chaîne _personsCollection renvoyée_ par **GetPeopleDetails**.  <br/> |
+|**secteurs d’activité** <br/> |Les secteurs d’activité de la personne.  <br/> |
+|**interests** <br/> |Centres d’intérêt ou loisirs de la personne.  <br/> |
+|**lastModificationTime** <br/> |Heure de la dernière modification du profil de la personne sur le réseau social.  <br/> |
+|**lastName** <br/> |Nom ou nom de famille de la personne.  <br/> |
+|**location** <br/> |Emplacement de la personne.  <br/> |
+|**nickname** <br/> |Nom plus court ou nom de la personne qui a été créé.  <br/> |
+|**otherAddress** <br/> |Autre adresse de rue de la personne.  <br/> |
+|**otherCity** <br/> |Ville de l’adresse alternative de la personne.  <br/> |
+|**otherCountryOrRegion** <br/> |Pays ou région de l’adresse alternative de la personne.  <br/> |
+|**otherState** <br/> |Département ou province de l’adresse alternative de la personne.  <br/> |
+|**otherZip** <br/> |Code postal ou postal de l’adresse alternative de la personne.  <br/> |
+|**téléphone** <br/> |Numéro de téléphone du contact principal de la personne.  <br/> |
+|**pictureUrl** <br/> |URL d’une image de profil de la personne.  <br/> |
+|**relation** <br/> |Relation de cette personne avec l’utilisateur connecté.  <br/> |
+|**schools** <br/> |Les établissements scolaires où la personne va ou s’est rendu.  <br/> |
+|**skills** <br/> |Compétences personnelles de la personne.  <br/> |
+|**state** <br/> |Département ou province de l’adresse physique de la personne.  <br/> |
+|**title** <br/> |Désignation ajoutée au nom de la personne.  <br/> |
+|**userID** <br/> |ID permettant d’identifier la personne sur le réseau social.  <br/> |
+|**webProfilePage** <br/> |Adresse de page web qui contient un profil de la personne.  <br/> |
+|**site web** <br/> |Site web de la personne.  <br/> |
+|**workPhone** <br/> |Numéro de téléphone d’entreprise de la personne.  <br/> |
+|**zip** <br/> |Code postal ou code postal de l’adresse physique de la personne.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

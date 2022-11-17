@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb29e6a0-7a92-46eb-bbeb-6f2df6ac6d21
-ms.openlocfilehash: 883b6cdcf69cbbf66d88267a53fb02173783484e
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 1cec1e775bae989b9e18da8f8c6595aacca8308f
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63379653"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462896"
 ---
 # <a name="ixplogonendmessage"></a>IXPLogon::EndMessage
 

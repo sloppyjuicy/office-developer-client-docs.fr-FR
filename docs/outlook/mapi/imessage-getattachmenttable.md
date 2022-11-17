@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e568917e-6085-4094-8728-89ba90a78c40
-ms.openlocfilehash: 2078829edc6bb17123f92b813f19e7a2aa454689
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 0f9a257a9b84bef2dfc2d3b15f5677f4069b1da9
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380185"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464889"
 ---
 # <a name="imessagegetattachmenttable"></a>IMessage::GetAttachmentTable
 
@@ -69,7 +70,7 @@ Certaines tables de pièces jointes supportent un large éventail de restriction
   
 Lors de l’ouverture initiale, les tables de pièces jointes ne sont pas nécessairement triées dans un ordre particulier. 
   
-La définition MAPI_UNICODE’indicateur dans le _paramètre ulFlags_ affecte les appels suivants à la table des pièces jointes : 
+La définition MAPI_UNICODE’indicateur dans _le paramètre ulFlags_ affecte les appels suivants à la table des pièces jointes : 
   
 - [IMAPITable::QueryColumns](imapitable-querycolumns.md) pour récupérer le jeu de colonnes. 
     

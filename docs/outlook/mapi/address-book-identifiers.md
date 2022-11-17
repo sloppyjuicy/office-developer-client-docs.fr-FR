@@ -7,12 +7,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 40f6c699-86aa-4324-a30d-12c8f1e2de9c
-ms.openlocfilehash: 1c0461c2de8fa0f149f7a51b99da5602a2c61d3b
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 1c025220570ad2f6f29c1a7735ed807a6e4bcd68
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63370966"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465263"
 ---
 # <a name="address-book-identifiers"></a>Identificateurs de carnet d’adresses
 

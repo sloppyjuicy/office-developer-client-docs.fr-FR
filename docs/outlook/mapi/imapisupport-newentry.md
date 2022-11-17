@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 588d002b-8412-4ab9-9757-04ad89e0a6f8
-ms.openlocfilehash: 293fdd1e8a1d39ba16636ac166c337384230cbef
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c8ae1c3fd8711709cc13f4d2d3644252d9073e1e
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63371939"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464455"
 ---
 # <a name="imapisupportnewentry"></a>IMAPISupport::NewEntry
 

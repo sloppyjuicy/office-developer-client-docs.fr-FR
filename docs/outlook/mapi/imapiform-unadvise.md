@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: fdda45e2-631d-404c-8af4-bce68df0968b
-ms.openlocfilehash: 2e9bde6df822266c87fb49a437ee1016fb81d8c8
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f7aca174f089b21111dd69181275b1c37bad928d
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374970"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462945"
 ---
 # <a name="imapiformunadvise"></a>IMAPIForm::Unadvise
 

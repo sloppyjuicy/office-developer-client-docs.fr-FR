@@ -7,12 +7,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a4c71b08-c47a-4421-8603-d5356d32dca9
-ms.openlocfilehash: bfe417c146c0239b88599ba147a275add31e387b
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 90ce7c82a847ef4da846fd587a7b311d72a17683
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63374109"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463225"
 ---
 # <a name="implementing-name-resolution"></a>Mise en œuvre de la résolution de noms
 
@@ -24,11 +25,11 @@ Les fournisseurs de carnets d’adresses sont responsables de la prise en charge
   
 Votre fournisseur peut prendre en charge la résolution de noms en :
   
-- Prise en charge **PR_ANR** restriction de propriété ([PidTagAnr](pidtaganr-canonical-property.md)), une condition requise pour tous les conteneurs de carnet d’adresses.
+- Prise en **charge PR_ANR** restriction de propriété ([PidTagAnr](pidtaganr-canonical-property.md)), une condition requise pour tous les conteneurs de carnet d’adresses.
     
 - Mise en œuvre [de la méthode IABContainer::ResolveNames](iabcontainer-resolvenames.md) , une option pour tous les conteneurs de carnet d’adresses. 
     
-Si vous choisissez de prendre en charge **IABContainer::ResolveNames**, essayez de trouver une correspondance exacte pour chaque nom complet non résolu dans la structure [ADRLIST](adrlist.md) transmise avec le paramètre  _lpAdrList_ . Vous pouvez identifier un nom d’affichage non résolu car il manque la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) dans le tableau de valeurs de propriété dans son membre **aEntries** de la structure **ADRLIST** . Ignorez les entrées qui ne sont associées à aucune propriété. 
+Si vous choisissez de prendre en charge **IABContainer::ResolveNames**, essayez de trouver une correspondance exacte pour chaque nom complet non résolu dans la structure [ADRLIST](adrlist.md) transmise avec le paramètre  _lpAdrList_ . Vous pouvez identifier un nom complet non résolu car il manque la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) dans le tableau de valeurs de propriétés dans son membre **aEntries** de la structure **ADRLIST** . Ignorez les entrées qui ne sont associées à aucune propriété. 
   
 Signalez le résultat de votre tentative de résolution dans le paramètre _lpFlagList_ , un tableau d’indicateurs qui correspond au tableau de noms complets dans  _lpAdrList_. Les indicateurs sont positionnels de telle sorte que le premier indicateur corresponde au premier membre **aEntries** dans la structure **ADRLIST** , le deuxième indicateur correspond au deuxième membre **aEntries** , etc. 
   
@@ -42,7 +43,7 @@ Il existe trois résultats possibles pour chaque entrée non résolue :
     
 Si vous choisissez de ne pas prendre en charge **IABContainer::ResolveNames**, MAPI_E_NO_SUPPORT à partir de votre implémentation.
   
-Tous les fournisseurs de carnet d’adresses sont tenus de prendre en charge la résolution de noms ambigus **(restriction PR_ANR** propriété) sur les tables de contenu de leurs conteneurs. Pour fournir cette prise en charge, traitez la restriction PR_ANR dans votre implémentation [d’IMAPITable::Restrict](imapitable-restrict.md) en faisant une recherche de type « de meilleure estimation », en faisant une correspondance avec une ou plusieurs propriétés particulières qui sont logiques pour votre fournisseur. Vous pouvez choisir d’utiliser les mêmes propriétés à chaque fois, telles que **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) ou **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)), ou autoriser un administrateur à choisir parmi une liste de propriétés acceptables. 
+Tous les fournisseurs de carnet d’adresses sont tenus de prendre en charge la résolution de noms **ambigus (restriction PR_ANR** propriété) sur les tables de contenu de leurs conteneurs. Pour fournir cette prise en charge, traitez la restriction PR_ANR dans votre implémentation [d’IMAPITable::Restrict](imapitable-restrict.md) en faisant une recherche de type « de meilleure estimation », en faisant une correspondance avec une ou plusieurs propriétés particulières qui sont logiques pour votre fournisseur. Vous pouvez choisir d’utiliser les mêmes propriétés à chaque fois, telles que **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) ou **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)), ou autoriser un administrateur à choisir parmi une liste de propriétés acceptables. 
   
 Bien que la plupart des fournisseurs fournissent leur propre implémentation de table des matières, vous pouvez personnaliser l’implémentation fournie par MAPI via [la fonction CreateTable](createtable.md) . Toutefois, étant donné que l’implémentation MAPI ne prend en charge aucune restriction, vous devez créer un objet wrapper pour inclure une version personnalisée de **Restrict** qui intercepte l’appel. 
   

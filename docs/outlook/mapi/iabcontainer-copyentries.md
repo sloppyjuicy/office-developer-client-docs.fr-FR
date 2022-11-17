@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4e775228-5ceb-4002-9b68-999fb5889b86
-ms.openlocfilehash: 6c9231017cdd67375bfdb8caf140b24660e7ac6e
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 637d2e43451c473c8d945f67181eaab84cb366d7
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63376328"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464009"
 ---
 # <a name="iabcontainercopyentries"></a>IABContainer::CopyEntries
 
@@ -109,7 +110,7 @@ Renvoyer l’avertissement MAPI_W_PARTIAL_COMPLETION uniquement si une entrée n
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Utilisez les indicateurs CREATE_CHECK_DUP_LOOSE et CREATE_CHECK_DUP_STRICT pour indiquer au fournisseur comment vous souhaitez que le conteneur effectue la vérification des entrées en double. Si une entrée doit être ajoutée, qu’il s’agit d’un doublon ou non, ne définissez pas l’un ou l’autre de ces indicateurs ou CREATE_REPLACE’indicateur. CREATE_REPLACE que vous ne vous souciez pas si une entrée est en double ; vous souhaitez toujours qu’elle remplace l’entrée d’origine. 
+Utilisez les indicateurs CREATE_CHECK_DUP_LOOSE et CREATE_CHECK_DUP_STRICT pour indiquer au fournisseur comment vous souhaitez que le conteneur effectue la vérification des entrées en double. Si une entrée doit être ajoutée, qu’il s’agit d’un doublon ou non, ne définissez pas l’un ou l’autre de ces indicateurs ou CREATE_REPLACE’indicateur. CREATE_REPLACE indique que vous ne vous souciez pas si une entrée est en double ; vous souhaitez toujours qu’elle remplace l’entrée d’origine. 
   
 ## <a name="see-also"></a>Voir aussi
 

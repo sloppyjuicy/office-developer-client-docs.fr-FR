@@ -7,12 +7,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 20f5ad5a-b700-4fb5-9658-f71da5a06a12
-ms.openlocfilehash: 9d8167e075da50a98834d1ac5ccee7515210679f
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 03bb17b6f547057cc51582c726a2048499eaada6
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63382404"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465646"
 ---
 # <a name="display-a-progress-indicator"></a>Affichage d’un indicateur de progression
  
@@ -82,7 +83,7 @@ Si l’MAPI_TOP_LEVEL n’est pas définie, complétez les étapes suivantes :
       
      - Définissez  _le paramètre ulCount_ sur 0. 
       
-     - Définissez  _le paramètre ulTotal_ sur 0.
+     - Définissez  _le paramètre ulTotal_ sur 0. 
     
 L’exemple de code suivant illustre la logique requise pour afficher la progression à tous les niveaux d’une opération qui copie le contenu d’un dossier qui contient cinq sous-dossiers. 
   
@@ -115,7 +116,7 @@ else
                               ulMin + i * ulDelta, 0)
         CopyOneFolder(lpFolder(i), lpProgress)
         /* Pass 0 for ulCount and ulTotal because this is not the */
-        /* top-level display, and that information is unavailable */
+        /* top-level display, and that information is unavailable  */
         lpProgress->Progress( i * ulDelta, 0, 0)
     }
 }
@@ -125,3 +126,4 @@ else
 ## <a name="see-also"></a>Voir aussi
 
 - [Indicateurs de progression MAPI](mapi-progress-indicators.md)
+

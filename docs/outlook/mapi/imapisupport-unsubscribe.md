@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3f2870f7-1c08-4d0f-b9d8-7644f5e55b78
-ms.openlocfilehash: a667197979d97d133ebadb6d5f9cdadd182781af
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 99a540a6e8cda1890bf7fb9ecf69fc28bb897d01
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63378246"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463364"
 ---
 # <a name="imapisupportunsubscribe"></a>IMAPISupport::Unsubscribe
 

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 8e48c5633fc0115db316ad3e09f30c13227a6072
-ms.sourcegitcommit: a355e6b8898e9a1d66ca1bc808fe106e78dcb68f
-ms.translationtype: HT
+ms.openlocfilehash: 5e74d224e2763daa45e34deaed46e7312e4ee77d
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63726125"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464078"
 ---
 # <a name="recordsetseek-method-dao"></a>Méthode Recordset.Seek (DAO)
 
@@ -34,10 +34,10 @@ Localise l’enregistrement dans un objet **Recordset** de type table indexé qu
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -62,6 +62,7 @@ Localise l’enregistrement dans un objet **Recordset** de type table indexé qu
 </tr>
 </tbody>
 </table>
+
 
 ## <a name="remarks"></a>Remarques
 
@@ -101,7 +102,7 @@ Cet exemple illustre la méthode **Seek** en autorisant l’utilisateur à reche
        Dim varBookmark As Variant 
      
        Set dbsNorthwind = OpenDatabase("Northwind.mdb") 
-       ' You must open a table-type Recordset to use an index, 
+       ' You must open a table-type Recordset to use an index,  
        ' and hence the Seek method. 
        Set rstProducts = _ 
           dbsNorthwind.OpenRecordset("Products", dbOpenTable) 
@@ -146,6 +147,7 @@ Cet exemple illustre la méthode **Seek** en autorisant l’utilisateur à reche
      
     End Sub 
 ```
+
 
 Cet exemple de code montre comment utiliser la propriété **NoMatch** pour déterminer si les opérations **Seek** et **FindFirst** ont abouti. Si ce n'est pas le cas, l'utilisateur en est informé de façon appropriée. Les procédures SeekMatch et FindMatch sont nécessaires à l'exécution de cette procédure.
 
@@ -267,6 +269,7 @@ Cet exemple de code montre comment utiliser la propriété **NoMatch** pour dét
      
     End Sub 
 ```
+
 
 L’exemple suivant montre comment utiliser la méthode Seek pour rechercher un enregistrement dans un tableau lié.
 

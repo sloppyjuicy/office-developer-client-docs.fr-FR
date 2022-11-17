@@ -1,6 +1,5 @@
 ---
 title: IMAPIPropDeleteProps
-description: Décrit la syntaxe, les paramètres et la valeur de retour d’IMAPIPropDeleteProps, qui supprime une ou plusieurs propriétés d’un objet.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5cc642de-21f0-4826-bf21-aac4bcfc1328
-ms.openlocfilehash: 76a4c02634df03ed6177a00d1d04ba4195f2e273
-ms.sourcegitcommit: f872848fbeb5b2353179ad4bf4eab23f61f87666
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 392edb6b509f1e98a4c6e15b6ffe8b919bea54f5
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65816604"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465199"
 ---
 # <a name="imapipropdeleteprops"></a>IMAPIProp::DeleteProps
 
@@ -38,11 +38,11 @@ HRESULT DeleteProps(
 
  _lpPropTagArray_
   
-> [in] Pointeur vers un tableau de balises de propriétés qui indiquent les propriétés à supprimer. Le membre **cValues** de la structure [SPropTagArray](sproptagarray.md) pointée par  _lpPropTagArray_ ne doit pas être égal à zéro et le paramètre  _lpPropTagArray_ lui-même ne doit pas être NULL. 
+> [in] Pointeur vers un tableau de balises de propriétés qui indiquent les propriétés à supprimer. Le membre **cValues** de la structure [SPropTagArray](sproptagarray.md) pointée par  _lpPropTagArray_ ne doit pas être zéro et le paramètre  _lpPropTagArray_ lui-même ne doit pas être NULL. 
     
  _lppProblems_
   
-> [in, out] Lors de l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; sinon, NULL, qui indique qu’il n’est pas nécessaire d’obtenir des informations d’erreur. Si  _lppProblems_ est un pointeur valide sur l’entrée, **DeleteProps** retourne des informations détaillées sur les erreurs lors de la suppression d’une ou de plusieurs propriétés. 
+> [in, out] Lors de l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; sinon, NULL, qui indique qu’il n’est pas nécessaire d’obtenir des informations d’erreur. Si  _lppProblems est_ un pointeur valide sur l’entrée, **DeleteProps** renvoie des informations détaillées sur les erreurs de suppression d’une ou plusieurs propriétés. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -52,25 +52,25 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> L’appelant dispose d’autorisations insuffisantes pour supprimer des propriétés.
+> L’appelant ne dispose pas des autorisations suffisantes pour supprimer des propriétés.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPIProp::D eleteProps** supprime une ou plusieurs propriétés de l’objet actuel. 
+La **méthode IMAPIProp::D eleteProps** supprime une ou plusieurs propriétés de l’objet actuel. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Vous n’avez pas besoin d’autoriser la suppression de propriétés de tous les objets. Si l’objet n’est pas modifiable, renvoyez MAPI_E_NO_ACCESS à partir de la méthode **DeleteProps** . 
+Vous n’avez pas besoin d’autoriser la suppression des propriétés de tous les objets. Si l’objet n’est pas modifiable, MAPI_E_NO_ACCESS à partir de la **méthode DeleteProps** . 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous n’avez pas besoin de définir le type de propriété pour chaque balise de propriété dans le tableau de balises de propriétés pointé par le paramètre  _lpPropTagArray_ . Les types de propriétés sont ignorés ; seuls les identificateurs de propriété sont utilisés. 
+Il n’est pas nécessaire de définir le type de propriété pour chaque balise de propriété dans le tableau de balises de propriétés pointant vers le  _paramètre lpPropTagArray_ . Les types de propriétés sont ignorés ; seuls les identificateurs de propriété sont utilisés. 
   
-Sachez que certains objets n’autorisent pas la modification et que ces objets retournent MAPI_E_NO_ACCESS de la méthode **DeleteProps** . D’autres objets permettent de supprimer certaines propriétés, mais pas d’autres. En cas de problème lors de la suppression de certaines propriétés uniquement, **DeleteProps** retourne S_OK. Si vous avez passé un pointeur valide dans le paramètre _lppProblems_ , **DeleteProps** définit le pointeur sur une structure **SPropProblemArray** qui contient des informations détaillées sur les problèmes liés à chaque propriété. Par exemple, si vous supprimez toutes les propriétés d’un message et qu’il existe un problème avec une ou plusieurs de ses pièces jointes, la structure **SPropProblemArray** contient une entrée pour la propriété **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)). 
+Notez que certains objets n’autorisent pas la modification et que ces objets MAPI_E_NO_ACCESS à partir de **la méthode DeleteProps** . D’autres objets permettent la suppression de certaines propriétés, mais pas d’autres. En cas de problème de suppression de certaines propriétés uniquement, **DeleteProps** renvoie S_OK. Si vous avez passé un pointeur valide dans le paramètre _lppProblems_ , **DeleteProps** le définira sur une structure **SPropProblemArray** qui contient des informations détaillées sur les problèmes liés à chaque propriété. Par exemple, si vous supprimer toutes les propriétés d’un message et qu’il existe un problème avec une ou plusieurs de ses pièces jointes, la structure **SPropProblemArray** contient une entrée pour la propriété **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)). 
   
-La structure pointée par  _lppProblems_ n’est valide que si **DeleteProps** retourne S_OK. Si **DeleteProps** retourne une erreur, n’essayez pas d’utiliser la structure **SPropProblemArray** . Appelez plutôt la méthode [IMAPIProp::GetLastError](imapiprop-getlasterror.md) de l’objet pour obtenir plus d’informations sur l’erreur. 
+La structure pointée par  _lppProblems n’est_ valide que **si DeleteProps** renvoie S_OK. Si **DeleteProps renvoie** une erreur, n’essayez pas d’utiliser la structure **SPropProblemArray** . Appelez plutôt la méthode [IMAPIProp::GetLastError](imapiprop-getlasterror.md) de l’objet pour obtenir plus d’informations sur l’erreur. 
   
-Libérez la structure **SPropProblemArray** retournée en appelant la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
+Libérez **la structure SPropProblemArray** renvoyée en appelant la [fonction MAPIFreeBuffer](mapifreebuffer.md) . 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -78,7 +78,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |DeleteProperty  <br/> |MFCMAPI utilise la méthode **IMAPIProp::D eleteProps** pour supprimer une propriété d’un objet. |
+|MAPIFunctions.cpp  <br/> |DeleteProperty  <br/> |MFCMAPI utilise **la méthode IMAPIProp::D eleteProps** pour supprimer une propriété d’un objet.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6421c9a2-07f7-4deb-aa43-c50d82cb0002
-ms.openlocfilehash: 47e1e9b4019a6d1e132b287b7010801256cde96a
-ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
+ms.openlocfilehash: ad0bad54436769bc76829200ff6bed32dd5abd5c
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62775020"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465560"
 ---
 # <a name="calludf"></a>CallUDF
 
@@ -28,31 +28,31 @@ int CallUDF(int SessionId, WCHAR *XllName, WCHAR *UDFName, LPXLOPER12 pxAsyncHan
 _SessionId_
   
 > ID de la session dans laquelle effectuer l’appel.
-
+    
 _XLLName_
   
 > Nom du XLL qui contient la fonction définie par l’utilisateur.
-
+    
 _UDFName_
   
 > Nom de la fonction définie par l’utilisateur.
-
+    
 _CallBackAddr_
   
 > Fonction que le connecteur doit appeler lorsque la fonction définie par l’utilisateur est terminée.
-
+    
 _pxAsyncHandle_
   
 > Handle asynchrone utilisé par Excel et le connecteur pour suivre l’appel de fonction définie par l’utilisateur en attente. Le connecteur l’utilise ultérieurement lorsque l’appel est terminé, lorsqu’il rappelle Excel à l’aide du pointeur de fonction transmis dans l’argument _CallBackAddr_. 
-
+    
 _ArgCount_
   
 > Nombre d’arguments à transmettre à la fonction définie par l’utilisateur. La valeur maximale autorisée est 255.
-
+    
 _Parameter1_
   
-> Valeur à transmettre à la fonction définie par l’utilisateur. Répétez cet argument pour chaque paramètre indiqué par _ArgCount_.
-
+> Valeur à transmettre à la fonction définie par l’utilisateur. Répétez cet argument pour chaque paramètre indiqué par  _ArgCount_.
+    
 ## <a name="return-value"></a>Valeur renvoyée
 
 **xlHpcRetSuccess si** l’appel UDF est correctement lancé ; **xlHpcRetInvalidSessionId** si l’argument _SessionId_ n’est pas valide ; **xlHpcRetCallFailed sur** d’autres échecs, y compris le délai d’arrêt. Si l’appel renvoie un code d’erreur (sauf **xlHpcRetSuccess**), Excel considère que l’appel UDF a échoué, invalide _pxAsyncHandle_ et ne s’attend pas à ce qu’un rappel se produise.
@@ -64,3 +64,4 @@ Cette fonction s’exécute de manière asynchrone.
 ## <a name="see-also"></a>Voir aussi
 
 - [Fonctions du connecteur de cluster Excel](excel-cluster-connector-functions.md)
+

@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d157e29e-7731-4e47-b4a7-e8622b223001
-ms.openlocfilehash: 20263602cf2d1595073d5491fa86bdea34cb1bac
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a6cd6750e2b0e9479b619ff1ae0f2f22738dc843
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63369398"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62464195"
 ---
 # <a name="iablogongetlasterror"></a>IABLogon::GetLastError
 

@@ -7,12 +7,13 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: aac7c6c5-6896-4824-ba36-81bb292777a9
-ms.openlocfilehash: 7f5b19e7d38d862554e6c4ee22ee96f81ac73d2a
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a8a66ca058382942d1cb3af3ef57635a4bc89362
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63377959"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463190"
 ---
 # <a name="supporting-object-access-and-comparison"></a>Prise en charge de l’accès et de la comparaison des objets
 

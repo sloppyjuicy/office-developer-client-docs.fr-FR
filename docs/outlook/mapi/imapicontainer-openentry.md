@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0c46c1fb-dd63-4ac5-960e-80f68e75d8f4
-ms.openlocfilehash: f997a03054308e2ee4afdadc22fad4ec957f8f4a
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 0260458c25f5ee30bf4c1889018685ba7d0184cd
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63380220"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465484"
 ---
 # <a name="imapicontaineropenentry"></a>IMAPIContainer::OpenEntry
 

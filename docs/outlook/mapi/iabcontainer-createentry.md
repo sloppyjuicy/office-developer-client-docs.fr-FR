@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ea1daf74-d9e3-4304-bf5d-889afeea6ae9
-ms.openlocfilehash: 25a4dc864458d168cd4cf12ef56843d5beda6a03
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 341d0fe19d1eb329d14149cb54dc42a90784c51a
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63373717"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463954"
 ---
 # <a name="iabcontainercreateentry"></a>IABContainer::CreateEntry
 
@@ -79,7 +80,7 @@ La **méthode IABContainer::CreateEntry** crée une entrée d’un type particul
 
 Tous les conteneurs qui la prise **en charge de la méthode IABContainer::CreateEntry** doivent être modifiables. Définissez l’indicateur AB_MODIFIABLE conteneur dans sa propriété **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) pour indiquer qu’il est modifiable. 
   
-Vous devez prendre en charge tous les  _indicateurs ulCreateFlags_ . Toutefois, l’interprétation et l’utilisation de ces indicateurs sont spécifiques à l’implémentation, c’est-à-dire que vous pouvez déterminer ce que signifient la sémantique des CREATE_CHECK_DUP_LOOSE et des CREATE_CHECK_DUP_STRICT dans le contexte de votre implémentation. Si vous ne pouvez pas ou ne déterminez pas si une entrée est en double, autorisez toujours la création de l’entrée. 
+Vous devez prendre en charge tous les  _indicateurs ulCreateFlags_ . Toutefois, l’interprétation et l’utilisation de ces indicateurs sont spécifiques à l’implémentation, c’est-à-dire que vous pouvez déterminer ce que signifient les sémantiques de CREATE_CHECK_DUP_LOOSE et de CREATE_CHECK_DUP_STRICT dans le contexte de votre implémentation. Si vous ne pouvez pas ou ne déterminez pas si une entrée est en double, autorisez toujours la création de l’entrée. 
   
 Certains fournisseurs implémentent une vérification stricte des entrées en mettant en correspondance le nom complet, l’adresse de messagerie et la clé de recherche d’une entrée . d’autres fournisseurs limitent la correspondance au nom complet et à l’adresse. La vérification des entrées libres est souvent implémentée en vérifiant uniquement le nom complet. 
   
@@ -87,7 +88,7 @@ Certains fournisseurs implémentent une vérification stricte des entrées en me
 
 Si votre conteneur peut créer des entrées à partir des modèles d’autres fournisseurs, votre implémentation de **CreateEntry** doit fournir un stockage pour une partie ou l’ensemble des propriétés associées aux entrées créées. Par exemple, si vous fournissez un stockage pour la propriété **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) d’une entrée, vous pouvez générer sa boîte de dialogue de détails sans dépendre du fournisseur étranger. 
   
-Si votre conteneur peut créer des entrées qui PR_TEMPLATEID la propriété **(**[PidTagTemplateid](pidtagtemplateid-canonical-property.md)), votre implémentation de **CreateEntry** doit : 
+Si votre conteneur peut créer des entrées qui **PR_TEMPLATEID propriété (**[PidTagTemplateid](pidtagtemplateid-canonical-property.md)), votre implémentation de **CreateEntry** doit : 
   
 1. Appelez [la méthode IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) . **OpenTemplateID** permet au code du fournisseur étranger de lier l’entrée à la nouvelle entrée en cours de création. Les fournisseurs étrangers assurent la prise en charge de ce processus de liaison pour maintenir le contrôle sur les entrées créées à partir de leurs modèles dans les conteneurs des fournisseurs de carnets d’adresses hôtes. 
     

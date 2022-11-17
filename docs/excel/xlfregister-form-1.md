@@ -10,12 +10,12 @@ keywords:
 - fonction xlfregister [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: c730124c-1886-4a0f-8f06-79763025537d
-ms.openlocfilehash: cc63010f39c1ec5bc420cadd1cb894e7d8874a8a
-ms.sourcegitcommit: 571b0c4770415afb62c4e9b35960ba51bc94893c
+ms.openlocfilehash: a2d44588a0c966f2c9cba6c186c153de8c917b47
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63523548"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62463113"
 ---
 # <a name="xlfregister-form-1"></a>xlfRegister (formulaire 1)
 
@@ -26,12 +26,12 @@ Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été
 **xlfRegister peut** être appelé sous deux formes :
   
 - xlfRegister (formulaire 1) : inscrit une seule commande ou fonction.
-
+    
 - [xlfRegister (formulaire 2)](xlfregister-form-2.md) : charge et active une XLL.
-
+    
 Appelée dans le formulaire 1, cette fonction met une fonction ou commande DLL à la disposition de Excel, définit son nombre d’utilisations sur 1 et renvoie son ID d’inscription, qui peut être utilisé pour appeler la fonction ultérieurement à l’aide de la fonction [xlUDF](xludf.md) ou **xlfCall**. L’ID d’inscription est également utilisé pour désinsister la fonction à l’aide [de xlfUnregister (formulaire 1).](xlfunregister-form-1.md) Si la fonction a été inscrite, l’appel **de xlfRegister** à nouveau incrémente son nombre d’utilisations.
   
-Cette forme de la fonction définit également un nom masqué qui est l’argument de texte de la fonction, _pxFunctionText_, et qui évalue l’ID d’inscription de la fonction ou de la commande. Lorsque vous désinssez la fonction, supprimez ce nom à l’aide [de xlfSetName](xlfsetname.md). Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
+Cette forme de la fonction définit également un nom masqué qui est l’argument de texte de la fonction,  _pxFunctionText_, et qui évalue l’ID d’inscription de la fonction ou de la commande. Lorsque vous désinssez la fonction, supprimez ce nom à l’aide [de xlfSetName](xlfsetname.md). Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel12(xlfRegister, LPXLOPER12 pxRes, int iCount,
@@ -75,8 +75,9 @@ _pxMacroType_ (**xltypeNum** ou **xltypeInt**)
   
 Argument facultatif qui indique le type de point d’entrée XLL. La valeur par défaut, si elle est omise, est 1.
   
-| _Valeur pxMacroType_ <br/> |0  <br/> |1  <br/> |2  <br/> |
+|||||
 |:-----|:-----|:-----|:-----|
+| _Valeur pxMacroType_ <br/> |0  <br/> |1  <br/> |2  <br/> |
 |Peut être appelé à partir d’une feuille de calcul  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Peut être appelé à partir d’une feuille macro  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Peut être appelée à partir d’une définition de nom défini  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
@@ -99,7 +100,7 @@ Chaîne d’un caractère, sensible à la cas, qui spécifie la touche de contr�
   
 _pxHelpTopic_ (**xltypeStr**)
   
-Référence facultative au fichier d’aide (.chm ou .hlp) à afficher lorsque l’utilisateur clique sur le bouton Aide (lorsque votre fonction personnalisée est affichée). Peut être dans le formulaire `filepath!HelpContextID` ou `https://address/path_to_file_in_site!0`. Les deux parties avant et après le « ! » sont requises. _HelpContextID_ ne doit pas contenir de guillemets simples et sera converti par Excel en un octet non signé de 4 octets de long, sous la forme décimale. Lorsque vous utilisez le formulaire d’URL, Excel ouvre uniquement le fichier d’aide référencé.
+Référence facultative au fichier d’aide (.chm ou .hlp) à afficher lorsque l’utilisateur clique sur le bouton Aide (lorsque votre fonction personnalisée est affichée). Peut être dans le formulaire `filepath!HelpContextID` ou `https://address/path_to_file_in_site!0`. Les deux parties avant et après le « ! » sont requises. *HelpContextID* ne doit pas contenir de guillemets simples et sera converti par Excel en un octet non signé de 4 octets de long, sous la forme décimale. Lorsque vous utilisez le formulaire d’URL, Excel ouvre uniquement le fichier d’aide référencé.
   
 _pxFunctionHelp_ (**xltypeStr**)
   
@@ -117,7 +118,7 @@ Si l’inscription a réussi, cette fonction renvoie l’ID de registre de la fo
 
 ### <a name="data-types"></a>Types de données
 
-_L’argument pxTypeText_ spécifie le type de données de la valeur de retour et les types de données de tous les arguments de la fonction DLL ou de la ressource de code. Le premier caractère de _pxTypeText_ spécifie le type de données de la valeur de retour. Les caractères restants indiquent les types de données de tous les arguments. Par exemple, une fonction DLL qui renvoie un nombre à pointe flottante et prend un nombre d’un nombre integer et un nombre à point flottant comme arguments nécessiterait « BRÉ » pour l’argument _pxTypeText_ .
+_L’argument pxTypeText_ spécifie le type de données de la valeur de retour et les types de données de tous les arguments de la fonction DLL ou de la ressource de code. Le premier caractère de  _pxTypeText_ spécifie le type de données de la valeur de retour. Les caractères restants indiquent les types de données de tous les arguments. Par exemple, une fonction DLL qui renvoie un nombre à pointe flottante et prend un nombre d’un nombre integer et un nombre à point flottant comme arguments nécessiterait « BRÉ » pour l’argument  _pxTypeText_ .
   
 Les types de données et les structures utilisés par Excel pour échanger des données avec des XL sont résumés dans les deux tableaux suivants.
   
@@ -135,7 +136,7 @@ Le premier tableau répertorie les types pris en charge dans toutes les versions
 |FP  <br/> ||K  <br/> |Structure de tableau à virgule flottante  <br/> |
 |Tableau  <br/> ||O  <br/> |Trois arguments sont passés :<br/>- unsigned short int \*<br/>- unsigned short int \*<br/>- double []  <br/> |
 |XLOPER  <br/> ||P  <br/> |Tableaux et valeurs de feuille de calcul de type variable  <br/> |
-||Valeur |R  <br/> |Valeurs, tableaux et références de plage  <br/> |
+|||R  <br/> |Valeurs, tableaux et références de plage  <br/> |
 
 Dans Excel 2007, les types de données suivants ont été introduits pour prendre en charge les grilles plus grandes et les chaînes Unicode longues.
   
@@ -146,13 +147,13 @@ Dans Excel 2007, les types de données suivants ont été introduits pour prendr
 |FP12  <br/> ||K%  <br/> |Structure de tableau à grande grille à pointe flottante  <br/> |
 |Tableau  <br/> ||O%  <br/> |Trois arguments sont passés :<br/>- signed int \* /RW \*<br/>- signed int \* /COL \*<br/>- double []  <br/> |
 |XLOPER12  <br/> ||Q  <br/> |Tableaux et valeurs de feuille de calcul de type variable  <br/> |
-||Valeur |U  <br/> |Valeurs, tableaux et références de plage  <br/> |
+|||U  <br/> |Valeurs, tableaux et références de plage  <br/> |
 
 À compter Excel 2010, les types de données suivants ont été introduits :
   
 |**Type de données**|**Passer par valeur**|**Passer par référence (pointeur)**|**Comments**|
 |:-----|:-----|:-----|:-----|
-|XLOPER12  <br/> ||X  <br/> |Le handle asynchrone est utilisé pour suivre un appel de fonction asynchrone en attente par Excel et le XLL.L’existence du type de paramètre dans la chaîne de type désigne également la fonction comme asynchrone. Pour plus d’informations sur les fonctions [asynchrones, voir Asynchronous User-Defined Functions](asynchronous-user-defined-functions.md). |
+|XLOPER12  <br/> ||X  <br/> |Le handle asynchrone est utilisé pour suivre un appel de fonction asynchrone en attente par Excel et le XLL.L’existence du type de paramètre dans la chaîne de type désigne également la fonction comme asynchrone. Pour plus d’informations sur les fonctions [asynchrones, voir Asynchronous User-Defined Functions](asynchronous-user-defined-functions.md).  <br/> |
 
 Les types de chaînes **F**, **F%**, **G** et **G%** sont utilisés pour les arguments qui sont modifiés directement (modified-in-place).
   
@@ -160,7 +161,7 @@ Lorsque vous travaillez avec les types de données affichés dans le tableau pr�
   
 - Les déclarations en langage C supposent que votre compilateur utilise des nombres doubles de 8 byte, des nombres courts de 2 to et des nombres longs de 4 to par défaut.
 - Toutes les fonctions dans les DLLs et les ressources de code sont appelées à l’aide **__stdcall** convention d’appel.
-- Toute fonction qui renvoie un type de données par référence, c’est-à-dire qui renvoie un pointeur vers quelque chose, peut renvoyer en toute sécurité un pointeur Null. Excel interprète un pointeur null comme un #NUM ! erreur.
+- Toute fonction qui renvoie un type de données par référence, c’est-à-dire qui renvoie un pointeur vers quelque chose, peut renvoyer en toute sécurité un pointeur Null. Excel interprète un pointeur null comme une #NUM ! erreur.
 
 ## <a name="additional-data-type-information"></a>Informations supplémentaires sur le type de données
 
@@ -184,7 +185,7 @@ extern "C" lpDbl __stdcall AddDbl(double D1,
 
 ### <a name="f-f-g-and-g-data-types"></a>Types de données F, F%, G et G%
 
-Avec les types **de données F**, **F%**, **G** et **G%**, une fonction peut modifier une mémoire tampon de chaîne qui est allouée par Excel. Si le code de type de valeur renvoyée est l’un de ces types, Excel ignore la valeur renvoyée par la fonction. Au lieu de cela, Excel recherche la liste des arguments de fonction pour le premier type de données correspondant (**F**, **F%**, **G** ou **G%**), puis prend le contenu actuel de la mémoire tampon de chaîne allouée comme valeur de retour. Toutes les versions de Excel allouent 256 octets pour les chaînes **F** et **G** ASCII, et à partir de Excel 2007, 65 536 octets sont alloués, suffisamment pour 32 768 caractères Unicode, pour les chaînes Unicode **F%** et **G%.** N’oubliez pas que les mémoires tampons doivent inclure un nombre de caractères (types **G** et **G%**) ou un caractère de terminaison null (types **F** et **F%**), afin que les longueurs de chaîne maximales réelles soient de 255 et 32 767. Les chaînes Unicode, et par conséquent les arguments **F%** et **G%**, sont disponibles uniquement par le biais de l’API C Excel.
+Avec les types **de données F**, **F%**, **G** et **G%**, une fonction peut modifier une mémoire tampon de chaîne qui est allouée par Excel. Si le code de type de valeur renvoyée est l’un de ces types, Excel ignore la valeur renvoyée par la fonction. Au lieu de cela, Excel recherche la liste des arguments de fonction pour le premier type de données correspondant (**F**, **F%**, **G** ou **G%**), puis prend le contenu actuel de la mémoire tampon de chaîne allouée comme valeur de retour. Toutes les versions de Excel allouent 256 octets pour les chaînes **F** et **G** ASCII, et à partir de Excel 2007 65 536 octets sont alloués, suffisamment pour 32 768 caractères Unicode, pour les chaînes Unicode **F%** et **G%.** N’oubliez pas que les mémoires tampons doivent inclure un nombre de caractères (types **G** et **G%**) ou un caractère de terminaison null (types **F** et **F%**), afin que les longueurs de chaîne maximales réelles soient de 255 et 32 767. Les chaînes Unicode, et par conséquent les arguments **F%** et **G%**, sont disponibles uniquement par le biais de l’API C Excel.
   
 ### <a name="k-and-k-data-types"></a>Types de données K et K%
 
@@ -194,7 +195,7 @@ Les types **de données K** et **K%** utilisent respectivement des pointeurs ver
 
 Les types de données **O** et **O%** ne peuvent être utilisés que pour les arguments, et non pour renvoyer des valeurs, bien que les valeurs soient renvoyées en modifiant un argument de type **O** ou **O%** en place. Chacun passe trois éléments : un pointeur vers le nombre de lignes dans un tableau, un pointeur vers le nombre de colonnes dans un tableau et un pointeur vers un tableau à deux dimensions de nombres à valeur flottante.
   
-Pour modifier un tableau transmis par le type de données O ou O% en place, vous pouvez utiliser « >O » ou « >O% » comme argument _pxTypeText_ . Pour plus d’informations sur la modification d’un tableau, voir la section « Modification sur place : fonctions déclarées comme vides » dans cette rubrique.
+Pour modifier un tableau transmis par le type de données O ou O% en place, vous pouvez utiliser « >O » ou « >O% » comme argument  _pxTypeText_ . Pour plus d’informations sur la modification d’un tableau, voir la section « Modification sur place : fonctions déclarées comme vides » dans cette rubrique.
   
 Le type **de données O** a été créé pour une compatibilité directe avec les DLL Fortran, qui passent des arguments par référence.
   
@@ -211,7 +212,7 @@ Si les types **xltypeMissing** ou **xltypeNil** sont utilisés pour les valeurs 
 Dans une feuille de calcul, vous pouvez rendre une fonction DLL ou une ressource de code volatile, afin qu’elle recalcule chaque fois que la feuille de calcul est recalculée. Pour ce faire, ajoutez un point d’exclamation (!) après le dernier code d’argument dans l’argument _pxTypeText_ .
 
 > [!NOTE]
-> Par défaut, les fonctions qui prennent le type **R** XLOPERs ou **U** XLOPER12 et qui sont enregistrées en tant qu’équivalents de feuille macro (type **#**; voir section suivante) sont traitées comme volatiles dans Excel.
+> Par défaut, les fonctions qui prennent le type **R** XLOPERs ou **U** XLOPER12 et qui sont enregistrées en tant qu’équivalents de feuille macro (type **#**; voir la section suivante) sont traitées comme volatiles dans Excel.
   
 ### <a name="functions-declared-as-void"></a>Fonctions déclarées comme nulles
 
@@ -219,11 +220,11 @@ Il existe deux cas qui appellent la déclaration d’une fonction comme renvoyan
   
 #### <a name="modifying-in-place"></a>Modification sur place
 
-Vous pouvez utiliser un chiffre _unique n_ pour le code de type de retour dans _pxTypeText_, où _n_ est un nombre de 1 à 9. Cela Excel de prendre la valeur de la variable à l’emplacement pointé par l’argument _n_th’in_pxTypeText_as la valeur de retour. C’est également ce que l’on appelle la modification sur place. The_n_th argument doit être un type de données pass-by-reference (C, D, E, F%, G, G%, K, K%, L, M, N, O,O%, P, Q, R ou U). La fonction DLL ou la ressource de code doit également être déclarée avec le mot clé **void** dans les langages C/C++  (ou le mot clé de procédure dans le langage Pascal).
+Vous pouvez utiliser un chiffre  _unique n_ pour le code de type de retour dans  _pxTypeText_, où  _n_ est un nombre de 1 à 9. Cela indique Excel de prendre la valeur de la variable à l’emplacement pointé par l’argument _n_th dans _pxTypeText_ comme valeur de retour. C’est également ce que l’on appelle la modification sur place. L’argument _n_th doit être un type de données pass-by-reference (C, D, E, F%, G, G%, K, K%, L, M, N, O,O%, P, Q, R ou U). La fonction DLL ou la ressource de code doit également être déclarée avec le mot clé **void** dans les langages C/C++  (ou le mot clé de procédure dans le langage Pascal).
   
-Par exemple, une fonction DLL qui prend une chaîne terminée par null et deux pointeurs vers des integers en tant qu’arguments peut modifier la chaîne en place. Utilisez « 1FMM » comme argument _pxTypeText_ et déclarez la fonction comme nulle.
+Par exemple, une fonction DLL qui prend une chaîne terminée par null et deux pointeurs vers des integers en tant qu’arguments peut modifier la chaîne en place. Utilisez « 1FMM » comme argument  _pxTypeText_ et déclarez la fonction comme nulle.
   
-Les versions précédentes de Excel **\>** utilisées au début de _pxTypeText_ pour signifier que la fonction a été déclarée comme nulle et que le premier argument devait être modifié sur place, il n’y avait aucun moyen de modifier un argument autre que le premier. L’équivalent **\>** de _n_ = 1 dans les versions Excel actuelles **\>** et cette utilisation dans les fonctions synchrones est uniquement prise en charge pour la compatibilité ascendante.
+Les versions précédentes de Excel **\>** utilisées au début de _pxTypeText_ pour signifier que la fonction a été déclarée comme nulle et que le premier argument devait être modifié sur place, il n’y avait aucun moyen de modifier un autre argument que le premier. L’équivalent **\>** de _n_ = 1 dans les versions Excel actuelles **\>** et cette utilisation dans les fonctions synchrones est uniquement prise en charge pour la compatibilité ascendante.
 
 #### <a name="asynchronous-functions"></a>Fonctions asynchrones
 
@@ -231,7 +232,7 @@ Une fonction asynchrone, notée à l’aide d’un paramètre de type X dans **p
 
 ### <a name="registering-worksheet-functions-as-macro-sheet-equivalents-handling-uncalculated-cells"></a>Inscription des fonctions de feuille de calcul en tant qu’équivalents de feuille macro (gestion des cellules non calculées)
 
-Placer un **#** caractère après le dernier code de paramètre dans _pxTypeText_ donne à la fonction les mêmes autorisations d’appel que les fonctions sur une feuille macro. Elle comprennent notamment :
+Placer un **#** caractère après le dernier code de paramètre dans  _pxTypeText_ donne à la fonction les mêmes autorisations d’appel que les fonctions sur une feuille macro. Elle comprennent notamment :
   
 - La fonction peut récupérer les valeurs des cellules qui n’ont pas encore été calculées dans ce cycle de recalcul.
 
@@ -241,7 +242,7 @@ Placer un **#** caractère après le dernier code de paramètre dans _pxTypeText
 
 ### <a name="registering-worksheet-functions-as-thread-safe"></a>Inscription de fonctions de feuille de calcul comme thread-safe
 
-À compter Excel 2007, Excel peut effectuer un recalcul de workbook multithread. Cela signifie qu’il peut affecter différentes instances d’une fonction thread-safe à des threads simultanés pour la réévaluation. À compter Excel 2007, la plupart des fonctions de feuille de calcul intégrées sont thread-safe. À compter Excel 2007, Excel permet également aux XL d’inscrire des fonctions de feuille de calcul en tant que fonctions thread-safe. Pour ce faire, incluez un caractère **$** après le dernier code de paramètre _dans pxTypeText_.
+À compter Excel 2007, Excel peut effectuer un recalcul de workbook multithread. Cela signifie qu’il peut affecter différentes instances d’une fonction thread-safe à des threads simultanés pour la réévaluation. À compter Excel 2007, la plupart des fonctions de feuille de calcul intégrées sont thread-safe. À compter Excel 2007, Excel permet également aux XL d’inscrire des fonctions de feuille de calcul en tant que fonctions thread-safe. Pour ce faire, incluez un caractère **$** après le dernier code de paramètre  _dans pxTypeText_.
   
 > [!NOTE]
 > Seules les fonctions de feuille de calcul peuvent être déclarées comme thread-safe. Excel ne considère pas qu’une fonction équivalente à une feuille macro soit thread-safe, de sorte que vous ne pouvez pas l’appender **#** **$** à la fois et des caractères à l’argument _pxTypeText_.
@@ -265,7 +266,7 @@ Utilisez les instructions suivantes pour déterminer la catégorie dans laquelle
 - Si la fonction renvoie des informations sur l’état du module complémentaire ou toute autre information utile, vous devez placer la fonction dans la **catégorie Informations** .
 - Un add-in ne doit jamais ajouter de fonctions ou de commandes à la **catégorie Définie par l’utilisateur** . Cette catégorie est pour l’utilisation exclusive des utilisateurs finaux.
 
--La catégorie est spécifiée à l’aide du _paramètre pxCategory_ pour **xlfRegister**. Il peut s’agit d’un nombre ou d’un texte qui correspond à l’une des catégories standard codées en dur ou du texte d’une nouvelle catégorie spécifiée par la DLL. Si le texte donné n’existe pas encore, Excel crée une catégorie avec ce nom.
+-La catégorie est spécifiée à l’aide du  _paramètre pxCategory_ pour **xlfRegister**. Il peut s’agit d’un nombre ou d’un texte qui correspond à l’une des catégories standard codées en dur ou du texte d’une nouvelle catégorie spécifiée par la DLL. Si le texte donné n’existe pas encore, Excel crée une catégorie avec ce nom.
   
 Le tableau suivant répertorie les catégories standard qui sont visibles  lorsque vous affichez la boîte de dialogue Coller une fonction à partir d’une feuille de calcul.
   
@@ -274,7 +275,7 @@ Le tableau suivant répertorie les catégories standard qui sont visibles  lorsq
 |1  <br/> |Financier  <br/> |
 |2  <br/> |Heure de &amp; la date  <br/> |
 |3  <br/> |Math &amp; Trig  <br/> |
-|4  <br/> |Text  <br/> |
+|4  <br/> |Texte  <br/> |
 |5  <br/> |Logique  <br/> |
 |6   <br/> |Lookup &amp; Reference  <br/> |
 |7   <br/> |Database  <br/> |
@@ -282,7 +283,7 @@ Le tableau suivant répertorie les catégories standard qui sont visibles  lorsq
 |9   <br/> |Informations  <br/> |
 |14   <br/> |Personnalisées  <br/> |
 ||Ingénierie (depuis Excel 2007)  <br/> |
-||Cube (à compter Excel 2007)  <br/> |
+||Cube (à partir de Excel 2007)  <br/> |
 
 En outre, ces catégories sont également visibles lorsque vous affichez la boîte de dialogue Coller une fonction à partir d’une feuille macro.
   
@@ -295,7 +296,7 @@ En outre, ces catégories sont également visibles lorsque vous affichez la boî
 
 ### <a name="example"></a>Exemple
 
-Consultez le code de la **fonction xlAutoOpen** dans `\SAMPLES\GENERIC\GENERIC.C`.
+Consultez le code de la **fonction xlAutoOpen** dans  `\SAMPLES\GENERIC\GENERIC.C`.
   
 ## <a name="see-also"></a>Voir aussi
 

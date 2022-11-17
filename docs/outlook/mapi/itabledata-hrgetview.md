@@ -11,12 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0e2a47be-497b-4031-87ce-60b2635e25f7
-ms.openlocfilehash: af4807e625caaed110c8b000fde1a952ec93398f
-ms.sourcegitcommit: 518845d053a009b11c8d907a33822161c0b6bc96
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 8beb6714c5b8a92488cd2d18c17e47806720cde1
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63381151"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62465477"
 ---
 # <a name="itabledatahrgetview"></a>ITableData::HrGetView
 
